@@ -1,75 +1,93 @@
-# AI Media Agent — Ultimate Sup Infrastructure
+# AI Media Agent — Ultimate Sup
 
 ![AI Media Agent infrastructure banner](DOCS/assets/readme-banner.jpg)
 
-Operating infrastructure and agent runtime for **Ultimate Sup** (Singapore sports-nutrition retailer), focusing on automated AI image/video creative generation, UGC video sequence execution, and social media production workflows.
+Operational workspace for **Ultimate Sup AI Media**: producing traceable, brand-safe social assets for the Singapore sports-nutrition market. It separates reusable brand sources and campaign deliverables from the local production runtime that generates images, video, voice, and post-production outputs.
 
-## Workspace Layout
+## Start Here
+
+Read these in order before starting a production task:
+
+1. [`AGENTS.md`](AGENTS.md) — workspace rules, claim safety, role boundaries, and delivery standards.
+2. [`BASE/BASE-STRUCTURE.md`](BASE/BASE-STRUCTURE.md) — authority for the BASE sectors.
+3. [`PRODUCTION/AGENT.md`](PRODUCTION/AGENT.md) — runtime dispatch, goals, roles, and video modules.
+4. [`DOCS/README.md`](DOCS/README.md) — full documentation map.
+5. The active campaign's `Ticket.md` — approved product facts, offer, audience, language, CTA, and acceptance criteria.
+
+When sources conflict, stop and flag it. The active `Ticket.md` governs the deliverable; do not silently invent claims, SKU details, price, promotion, or CTA.
+
+## Workspace Map
 
 ```text
 .
-├── AGENTS.md                  # Root instructions & safety guardrails
-├── BASE/                       # Brand kits, strategies, and production outputs
-│   ├── BRAND KITs/             # Product prompt templates, presets, and brand assets
-│   ├── CAMPAIGNs/              # Canonical campaign output tree ([IP]/[Platform]/[Format]/YYYY-MM-DD)
-│   └── STRATEGIES/             # Content strategy workspace
-├── DOCS/                       # Documentation, architecture, quick reference, and product claims
-│   ├── README.md               # Main documentation index
-│   ├── ARCHITECTURE.md         # System scope, approval gates, and claim governance
-│   ├── FOLDER-STRUCTURE.md     # Detailed directory mapping & agent capabilities
-│   ├── QUICK-REFERENCE.md     # Pre-flight checklists & claim safety shortcuts
-│   └── product/                # Approved product claims & nutritional data
-└── PRODUCTION/                 # Autonomous production runtime
-    ├── AGENT.md                # Production runtime authority
-    ├── goal/                   # Production goal prompt library
-    ├── .agents/skills/         # Production skills (Gemini Omni, Flowkit, Applio, Notion, etc.)
-    └── video_modules/          # Video execution engines (Flowkit, Applio, Hyperframes, Talking-Head)
+├── AGENTS.md                  # Workspace-wide operating and safety rules
+├── BASE/                      # Source library, strategy workspace, campaign outputs
+│   ├── BRAND KITs/            # Read-only retailer assets, templates, prompt references
+│   ├── CAMPAIGNs/             # Canonical social-production units
+│   └── STRATEGIES/            # Marketing strategy and ticket staging
+├── DOCS/                      # Architecture, operating guides, status, product governance
+├── .agents/skills/            # Canonical shared workspace skills
+├── .claude/                   # Claude role profiles and skill adapter
+├── .codex/agents/             # Codex role adapters
+└── PRODUCTION/                # Self-contained execution runtime
+    ├── AGENT.md               # Production runtime authority
+    ├── goal/                  # Social-format goal templates
+    ├── .agents/skills/        # Production skills
+    ├── .claude/agents/        # Claude production roles
+    ├── .codex/agents/         # Codex production-role adapters
+    ├── video_modules/         # Flowkit, Applio, Hyperframes, talking-head editing
+    └── env.local              # Local credentials; never commit or expose
 ```
 
-## Core Workflows
+## Canonical Campaign Storage
 
-1. **Notion to Goal Ticket Ingestion (`notion2goal`)**
-   - Pulls post tickets directly from Notion database.
-   - Maps `Visual Type` to canonical Goal templates in `PRODUCTION/goal/`.
-   - Prepares canonical campaign storage under `BASE/CAMPAIGNs/[IP] Campaign/[Platform]/[Format]/YYYY-MM-DD/`.
+All new social production belongs in:
 
-2. **AI UGC Short Video Generation**
-   - Script generation & frame breakdown (`write-ai-ugc-video-sequence-script`, `tea-ugc-ai-realism`).
-   - Reference image & prompt creation (`creative-direction`, `acad-image-gen`).
-   - Video sequence rendering & flow execution via Flowkit (`flowkit-nano-banana-image-gen`, `flowkit-gemini-omni-video-gen`).
-   - Voice synthesis & brand voice matching via Applio (`applio-brand-voice`).
-   - Automated video post-production (captions, subtitle burn, audio mixing, thumbnail burn).
+```text
+BASE/CAMPAIGNs/[IP] Campaign/[Platform]/[Format]/[Date Folder]/
+├── Ticket.md                  # Approved brief and acceptance criteria
+├── caption.md                 # Final caption, when applicable
+├── manifest.json              # Written last, after verification
+├── [final deliverables]       # .jpg, .png, .mp4, etc.
+└── node/                      # Prompts, drafts, source maps, QA, logs, handoffs
+```
 
-3. **Multi-Platform Creative Production**
-   - Shopee / IG / TikTok creative assets structured according to Singapore retail standards (SGD, shopee.sg context).
+AI Media defaults to `UltimateSup Plus Campaign` unless the ticket specifies another IP. `BASE/BRAND KITs/` is a source library, not an output location. Preserve approved assets: use a new dated revision unit rather than overwrite them.
 
-## Quick Start & Setup
+## Production Flow
 
-### 1. Requirements
-- Node.js v22+
-- Python 3.10+ / 3.12+ (for Applio, Flowkit, and Hyperframes)
-- `ffmpeg` (for video post-production)
+1. **Content executive** interprets the ticket and creates the brief, caption, script, and any required shooting script.
+2. **Designer** resolves visual direction, references, static creative, and thumbnail work.
+3. **Video editor** executes approved sequences, voice/video generation, edit, upscale, and technical QA when video is required.
+4. **Notion publisher** performs only an authorized final handoff and completes `manifest.json` after deliverables pass checks.
 
-### 2. Environment Configuration
-Create `env.local` in project root (or inside `PRODUCTION/env.local` for production-only tasks). File is excluded from Git via `.gitignore`.
+Use the selected goal in [`PRODUCTION/goal/`](PRODUCTION/goal/) and its named skills. Read each skill's `SKILL.md` and each video module's nested instructions before execution. Runtime modules include Flowkit for generation/upscale, Applio for brand voice, Hyperframes for composition, and the talking-head editing pipeline.
+
+## Non-Negotiables
+
+- **Singapore first:** use Singapore market context, SGD, and Shopee Singapore unless the ticket explicitly says otherwise.
+- **Claims require evidence:** verify public-facing facts against the approved ticket, current label/approved listing, and product-owner approval. [`DOCS/product/`](DOCS/product/README.md) is a working reference, not a blanket publishing license.
+- **Credentials stay local:** never print, upload, document, or commit `env.local`, `.env`, tokens, cookies, or service-account files.
+- **Traceable delivery:** validate the file, technical format, copy, variant, offer, CTA, and claim safety before writing `manifest.json` or handing off.
+
+## Documentation
+
+| Document | Purpose |
+| --- | --- |
+| [`DOCS/ARCHITECTURE.md`](DOCS/ARCHITECTURE.md) | Durable scope, precedence, approval gates, and storage decisions. |
+| [`DOCS/FOLDER-STRUCTURE.md`](DOCS/FOLDER-STRUCTURE.md) | Folder ownership, authority mapping, role/skill inventory. |
+| [`DOCS/QUICK-REFERENCE.md`](DOCS/QUICK-REFERENCE.md) | Intake, routing, template reuse, claim-safety, and handoff checklist. |
+| [`DOCS/PROGRESS.md`](DOCS/PROGRESS.md) | Current implementation state and next actions. |
+| [`DOCS/BLOCKERS.md`](DOCS/BLOCKERS.md) | Active blockers and responsible next owner. |
+| [`DOCS/product/README.md`](DOCS/product/README.md) | Product knowledge scope and publication guardrails. |
+
+## Quick Checks
 
 ```bash
-# Example env.local keys
-NOTION_API_KEY="ntn_..."
-NOTION_POSTS_DB="your_posts_database_id"
-NOTION_CAMPAIGNS_DB="your_campaigns_database_id"
-APIFY_API_TOKEN="apify_api_..."
+# Inspect all governing instructions for a production task
+ls -la AGENTS.md BASE/BASE-STRUCTURE.md BASE/CAMPAIGNs/CAMPAIGNs-STRUCTURE.md PRODUCTION/AGENT.md
+
+# Inspect installed production skills and local video modules
+find PRODUCTION/.agents/skills -mindepth 1 -maxdepth 1 -type d | sort
+find PRODUCTION/video_modules -mindepth 1 -maxdepth 1 -type d | sort
 ```
-
-### 3. Running Production Goals
-Production goals are invoked inside `PRODUCTION/`:
-- Read `PRODUCTION/AGENT.md` for production runtime rules.
-- Goal files reside in `PRODUCTION/goal/` (e.g. `[social]_[ai-ugc-short-video].md`).
-
-## Security & Claim Safety
-- **Credentials:** Never commit `env.local`, `.env`, API tokens, or Google Service Account JSON keys.
-- **Market Context:** Default market is **Singapore** (SGD currency, Shopee SG).
-- **Product Claims:** All product claims must be backed by approved sources in `DOCS/product/` or active tickets.
-
-## License
-See [`LICENSE`](LICENSE) file for license rights and limitations.
