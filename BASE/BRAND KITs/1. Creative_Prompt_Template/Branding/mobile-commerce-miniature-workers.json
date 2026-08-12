@@ -1,0 +1,76 @@
+{
+    "name":  "mobile-commerce-miniature-workers",
+    "tag":  [
+                "ecommerce",
+                "product demo",
+                "mobile UI",
+                "miniature workers",
+                "fast food",
+                "3D commercial"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Product demos",
+    "group":  "branding_mobile_commerce",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Miniature crew builds a mobile food-ordering catalogue",
+                                        "color_palette":  "Cream, fast-food red, warm yellow, brushed silver, cola brown"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A giant vertical smartphone stands at a slight three-quarter angle on a glossy studio floor; its shopping UI becomes four deep physical display alcoves containing fries, onion rings, cola, and a burger, tended by four realistic miniature workers.",
+                                        "style":  "Hyper-real Octane-style 3D commercial photography"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Smartphone UI/Food/Miniature people",
+                                                "text":  "MENU; TASTY BITE; DEALS; Golden French Fries; Crispy Onion Rings; Ice Cold Cola; Double Cheeseburger",
+                                                "items":  [
+                                                              "Top: yellow app header with MENU, TASTY BITE and DEALS.",
+                                                              "Two-by-two screen recesses: fries, onion rings, cola and burger products with product title, ratings and review counts.",
+                                                              "Left: worker on ladder adjusts fries; lower left worker kneels with cleaning tool.",
+                                                              "Right: worker hangs from rope to adjust onion rings; lower right worker lifts oversized burger.",
+                                                              "Bottom: red UI navigation, white icons and cart badge 1."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "High-contrast warm studio lighting",
+                                                   "effect":  "Deep physical UI shadows, crisp food texture, realistic clothing creases and polished floor reflections"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "8K Octane render-style hyperreal commercial photograph",
+                                           "resolution":  "Vertical high resolution"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "app UI and food product references",
+                                                                 "required":  true,
+                                                                 "source":  "approved app screens and food packshots",
+                                                                 "usage":  "Preserve app header, icon system, product names, packaging and food appearance."
+                                                             },
+                                                             {
+                                                                 "type":  "ui_reference",
+                                                                 "name":  "mobile commerce interface",
+                                                                 "required":  true,
+                                                                 "source":  "approved UI file",
+                                                                 "usage":  "Keep navigation, cart badge and product grid hierarchy accurate."
+                                                             },
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "miniature worker styling",
+                                                                 "required":  false,
+                                                                 "source":  "approved wardrobe board",
+                                                                 "usage":  "Use generic photoreal workers with consistent scale; do not copy real people."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach current UI and product references before rendering.",
+                                                                          "Make the four workers photorealistic humans at one matching miniature scale, not dolls.",
+                                                                          "Keep each food item tangibly recessed into the screen surface."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "A hyper-realistic 3D commercial photograph of a giant smartphone standing vertically on a [FLOOR MATERIAL: e.g., grey concrete, polished marble, dark reflective] studio floor. The phone is viewed from a slight 3/4 perspective angle to emphasize depth. The Concept: The screen acts as a [STYLE ADJECTIVE: e.g., luxury, high-tech, heated] physical display cabinet with four deep, recessed alcoves arranged in a 2x2 grid. The products are tangible, volumetric 3D objects sitting inside these slots, flush with the screen\u0027s surface, casting real, deep shadows into the UI background. UI Details ([THEME NAME] Theme): Theme: The App UI uses a [COLOR PALETTE: e.g., Black \u0026 Gold, Red \u0026 Yellow] aesthetic. Top: SORT left, FILTER right, [BRAND NAME] center. Bottom Nav: Icons are [ICON COLOR]. Shopping Cart has a small red notification badge showing the number 1. The Crew: Four photorealistic, lifelike miniature humans dressed in [UNIFORM DESCRIPTION]. Their skin has texture, pores, sweat, and realistic imperfections; clothing has creases and signs of wear; all share identical miniature scale. Top-left slot contains [PRODUCT A]; Worker 1 adjusts it from a [LADDER TYPE] ladder. Top-right slot contains [PRODUCT B]; Worker 2 hangs by a [ROPE TYPE] and works on it. Bottom-left contains [PRODUCT C]; Worker 3 kneels with a [PROP] and directs the team. Bottom-right is empty but shows [PRODUCT D NAME] and reviews; Worker 4 struggles to lift the heavy fallen [PRODUCT D OBJECT]. Background: [BACKGROUND TYPE]. [LIGHTING STYLE] lighting highlights [SPECIFIC TEXTURES]. 8k resolution, Octane render style.",
+                   "negative_prompt":  "plastic doll workers, flat screen UI, non-recessed products, distorted food, incorrect UI icons, extra workers, low detail, watermark"
+               }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "cinematic-blue-fashion-portrait",
+  "tag": [
+    "adult-man",
+    "blue-gradient",
+    "double-exposure",
+    "glasses",
+    "futuristic",
+    "editorial"
+  ],
+  "image_type": "cinematic-fashion-portrait",
+  "image_vibe": "cool-digital-introspective",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "source_url": "https://x.com/Sheldon056/status/2015623609533026575",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "futuristic blue double-exposure portrait",
+      "color_palette": "#0033A0, #66CCFF, orange edge light, white",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult man",
+      "detail": "An adult man with dark tousled hair, short beard, round black glasses, and an oversized white T-shirt.",
+      "style": "cinematic high-fashion head-and-shoulders editorial"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "front-facing central portrait",
+        "soft ghosted duplicate face to the left",
+        "vertical blue light streaks",
+        "blue gradient backdrop and white T-shirt"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "cool blue wash with narrow orange-yellow rim highlights",
+      "effect": "high contrast futuristic glow with crisp central facial detail"
+    },
+    "technical_specs": {
+      "render_style": "50-85mm lens at f/1.8, controlled multi-exposure ghosting and chromatic separation",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Create a cinematic high-fashion half-length portrait of an adult subject with a dreamy editorial vibe. Use multi-exposure blur for ghosting and vertical streaks. Set against a blue gradient background from #0033A0 to #66CCFF; the subject wears an oversized white T-shirt. Apply high-contrast lighting with a cool blue wash and orange-yellow edge highlights for a futuristic glow. Expression is neutral and introspective, with softly lit eyes. Simulate a 50-85mm lens at f/1.8 and shallow depth of field. Enhance with motion blur and chromatic separation while keeping central details sharp. Aim for a surreal digital-youth mood blending minimalism and light play.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-subject-reference",
+          "required": false,
+          "source": "Attach an adult person reference when likeness is required.",
+          "usage": "Preserve glasses, hair, beard, and central face geometry."
+        },
+        {
+          "type": "background",
+          "name": "blue-gradient-light-reference",
+          "required": false,
+          "source": "Attach a color/light reference when exact blue and orange values are needed.",
+          "usage": "Maintain blue gradient, vertical streaks, and orange rim-light relationship."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult subject, white T-shirt, blue digital-light treatment, central sharpness, and one ghosted double exposure. Identity and color treatment may be replaced separately."
+    }
+  }
+}

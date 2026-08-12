@@ -1,0 +1,75 @@
+{
+  "name": "dramatic-moon-projection-woman",
+  "tag": [
+    "adult-woman",
+    "moon-projection",
+    "low-key",
+    "black-studio",
+    "dramatic-portrait"
+  ],
+  "image_type": "projection-studio-portrait",
+  "image_vibe": "mysterious-cinematic-nocturnal",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Preserved the adult moon-projection portrait while replacing bandeau styling with a covered black sleeveless top."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult low-key moon projection portrait",
+      "color_palette": "deep black, cool moon gray, neutral skin tones, and restrained cinematic warmth",
+      "format": "vertical 4:5 three-quarter portrait"
+    },
+    "main_subject": {
+      "description": "an adult woman with long dark hair, natural volume, soft fringe, subtle smoky eyes, glossy lips, realistic skin texture, a matte black sleeveless high-neck top, and dark denim jeans",
+      "pose_and_expression": "three-quarter body turn with arms crossed in a self-embrace, shoulders softly raised, and a mysterious calm gaze toward camera"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level three-quarter vertical studio portrait with the adult subject slightly right of center",
+      "foreground": "adult subject face, matte black top texture, and crisp shoulder silhouette shadow",
+      "background": "pure black seamless studio with an oversized high-resolution full-moon disk behind the head and shoulders, crisp crater detail, and no props or visible walls",
+      "visual_hierarchy": "adult eyes and expression, moon crater texture, then deep black negative space"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "single hard projector key with minimal fill, controlled cheekbone highlights, deep blacks, and no background spill",
+      "atmosphere": "mysterious, clean, graphic, and cinematic"
+    },
+    "technical_specs": {
+      "camera": "Sony A7R V",
+      "lens": "50mm f/2.2",
+      "settings": "1/160s, f/2.2, ISO 400",
+      "rendering": "sharp eyes and moon texture, high contrast, subtle film grain, and mild halation only on the moon edge"
+    },
+    "generated_prompt_string": "Create a photoreal vertical 4:5 low-key projection portrait of an adult woman in a matte black sleeveless high-neck top and dark denim jeans. She has long dark hair with a soft fringe, subtle smoky eyes, glossy lips, and natural skin texture. Pose her in a three-quarter self-embrace, slightly right of center, with a calm mysterious gaze. Use a pure black seamless studio and project an oversized realistic full moon behind her head and shoulders, preserving crisp crater detail and a hard-edged shoulder silhouette shadow on the moon. Light with a single hard projector key and minimal fill; retain deep blacks, controlled highlights, sharp eyes, subtle film grain, and no text or branding.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, bandeau, nudity, text, logo, watermark, bright background, softbox lighting, blurry moon, flat graphic moon, plastic skin, extra fingers, deformed hands, distorted anatomy",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional; use them only to replace the stated element while maintaining an adult, covered editorial treatment.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-moon-portrait-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity and hairstyle only."
+        },
+        {
+          "type": "projection",
+          "name": "full-moon-crater-texture-reference",
+          "required": false,
+          "source": "approved projection reference",
+          "usage": "Replace the moon crater pattern and edge character."
+        },
+        {
+          "type": "wardrobe",
+          "name": "covered-black-top-and-denim-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Replace the adult subject's covered styling."
+        }
+      ]
+    }
+  }
+}

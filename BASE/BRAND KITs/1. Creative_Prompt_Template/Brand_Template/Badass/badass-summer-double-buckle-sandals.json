@@ -1,0 +1,69 @@
+{
+  "name": "badass-summer-double-buckle-sandals",
+  "tag": [
+    "summer campaign",
+    "fashion flat lay",
+    "minimal product creative",
+    "beach aesthetic",
+    "footwear styling",
+    "seasonal promo"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Seasonal",
+  "group": "badass_1274342511526582",
+  "prompt": {
+    "project_info": {
+      "theme": "Minimal summer fashion launch",
+      "color_palette": "Warm sand beige, coconut green, crisp white, royal blue"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A clean square social poster shot from a top-down angle on a sunlit sandy textured surface. The main visual anchor is a pair of beige double-buckle slide sandals cropped into the bottom-left corner, paired with a fresh green coconut cropped into the upper-right corner. The composition leaves broad negative space in the center for typography.",
+      "style": "Photorealistic lifestyle flat lay, minimalist fashion advertising, resort editorial styling, clean brand typography"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "BADASS, NEW SHORT FOR SUMMER",
+      "items": [
+        "Top Left: white sans-serif brand text 'BADASS' placed with generous spacing.",
+        "Top Right: a green young coconut cropped by the frame edge, with the top cut open and catching warm sunlight.",
+        "Bottom Left: a pair of beige matte slide sandals with two black metal buckles, partially cropped and angled diagonally inward.",
+        "Bottom Right: oversized stacked royal-blue sans-serif typography reading 'NEW SHORT FOR SUMMER'.",
+        "Center/Background: bright sandy surface with granular texture, subtle footprints and pebbled impressions, hard midday sunlight, and soft organic shadows."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Natural sunlight",
+      "effect": "Warm tropical midday light, soft hard-edged shadows, airy resort mood, sun-washed highlights, realistic texture detail"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic commercial lifestyle photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "BADASS wordmark",
+          "required": true,
+          "source": "brand logo reference",
+          "usage": "Use the exact BADASS brand wordmark as a reference asset so the top-left logo stays brand-accurate in spacing, weight, and letterform."
+        },
+        {
+          "type": "product",
+          "name": "double-buckle slide sandals",
+          "required": false,
+          "source": "product reference photo if exact SKU is needed",
+          "usage": "If the final image must match a real sandal model, pass a reference image of the exact product for silhouette, buckle shape, strap thickness, and material color."
+        }
+      ],
+      "prompt_instructions": [
+        "If using gpt-image-2, attach the BADASS logo reference and instruct the model to preserve the exact logo design.",
+        "If exact product fidelity matters, attach a product reference image for the sandals and ask the model to keep the same shape and hardware.",
+        "Do not use a person reference for this creative because no human subject is present."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for a minimal summer fashion launch. Centerpiece is a top-down photorealistic lifestyle flat lay on a sandy textured beach-like surface. Place a pair of beige double-buckle slide sandals cropped in the bottom-left corner, angled diagonally toward the center, and a fresh green coconut cropped in the upper-right corner with the top cut open. Leave broad negative space across the center. Add clean white brand text 'BADASS' in the top left and large stacked royal-blue typography reading 'NEW SHORT FOR SUMMER' in the bottom right. Background is warm sand with fine grain texture, subtle footprints, tiny pebbled marks, and soft sun shadows. Technical style: photorealistic commercial lifestyle photography, natural sunlight, warm tropical midday light, airy resort atmosphere, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped, extra footwear, extra objects, messy sand, wrong text, plastic-looking coconut"
+  }
+}

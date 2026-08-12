@@ -1,0 +1,71 @@
+{
+  "name": "black-white-film-triptych-white-dress-shadow",
+  "tag": [
+    "adult-woman",
+    "white-dress",
+    "35mm-film",
+    "flash-photography",
+    "triptych"
+  ],
+  "image_type": "film-triptych-fashion-editorial",
+  "image_vibe": "raw-analog-noir",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "35mm black-and-white film triptych featuring an adult woman in a white dress",
+      "color_palette": "white, black, charcoal, and silver-gray",
+      "aspect_ratio": "16:9"
+    },
+    "main_subject": {
+      "description": "An adult woman with naturally tousled shoulder-length hair, relaxed expressions, and natural skin texture.",
+      "wardrobe": "Fitted white short-sleeve dress with a simple square neckline and clean unbranded finish.",
+      "pose": "Three complementary poses across the triptych: standing with a side glance, smiling toward camera, and walking calmly on a city sidewalk."
+    },
+    "composition_elements": {
+      "framing": "Three equal vertical panels arranged as a horizontal triptych: intimate portrait, medium portrait, and full-body street frame.",
+      "environment": "Alternating pale studio wall, dark textured wall, and nighttime city sidewalk with soft practical lights; no readable text or logos.",
+      "focus": "Consistent adult subject, expressive eyes, white dress texture, crisp flash shadow, and authentic dust and scratches across all panels."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Direct on-camera flash with hard graphic shadows in the first two panels and practical city lights in the final panel.",
+      "atmosphere": "Raw, candid, playful, analog, and fashion-editorial."
+    },
+    "technical_specs": {
+      "camera": "35mm Kodak black-and-white film, direct flash, 35mm lens, f/4, 1/125 s, ISO 400",
+      "quality": "Visible film grain, dust and scratches, lightly imperfect exposure, natural skin texture, and no digital retouching"
+    },
+    "generated_prompt_string": "Create a raw analog 16:9 horizontal triptych of an adult woman photographed on Kodak 35mm black-and-white film. She has naturally tousled shoulder-length hair, natural skin texture, and wears a fitted white short-sleeve dress with a simple square neckline and no branding. Arrange three equal vertical panels: an intimate standing portrait with a side glance against a pale wall, a smiling medium portrait against a dark textured wall, and a calm full-body walk on a nighttime city sidewalk. Use direct on-camera flash with hard graphic shadows, practical city lights in the final panel, authentic 35mm grain, dust and scratches, lightly imperfect exposure, and no readable text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, excessive HDR, inconsistent face, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original subject. Optional wardrobe, environment, or film references may replace only their named element while preserving the three-panel structure, fitted white dress, direct flash, monochrome film treatment, and analog imperfections.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "fitted-white-short-sleeve-dress",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the adult subject's white dress while preserving its clean fitted silhouette."
+        },
+        {
+          "type": "location",
+          "name": "three-panel-studio-and-night-street",
+          "required": false,
+          "source": "user-uploaded location reference",
+          "usage": "Replace only the three panel environments while preserving the distinct triptych progression."
+        },
+        {
+          "type": "moodboard",
+          "name": "kodak-35mm-monochrome-film-treatment",
+          "required": false,
+          "source": "user-uploaded film reference",
+          "usage": "Replace only the grain, dust, scratches, and analog tonal character."
+        }
+      ]
+    }
+  }
+}

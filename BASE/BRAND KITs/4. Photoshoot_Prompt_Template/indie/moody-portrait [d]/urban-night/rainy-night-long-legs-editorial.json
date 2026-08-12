@@ -1,0 +1,68 @@
+{
+  "name": "rainy-night-long-legs-editorial",
+  "tag": [
+    "approved-adult-face",
+    "rainy-night",
+    "car-exit",
+    "umbrella",
+    "heels",
+    "vintage-film"
+  ],
+  "image_type": "rainy-car-exit-fashion-editorial",
+  "image_vibe": "cinematic, bold, rain-soaked, nostalgic, high-fashion",
+  "image_purpose": "fashion-editorial, campaign-visual, cinematic-moodboard",
+  "group": "indie / moody-portrait / urban-night",
+  "prompt": {
+    "project_info": {
+      "theme": "Vintage-film fashion exit from a car in neon rain",
+      "format": "vertical full-body editorial portrait",
+      "color_palette": "wet black, red taillight reflection, warm interior amber, cool blue-gray rain, neon accents"
+    },
+    "main_subject": {
+      "type": "adult woman using a required approved-adult face reference",
+      "detail": "An adult woman whose face, facial structure, proportions, features, and expression match the attached approved-adult reference exits a car in rain. She has wet hair falling naturally forward and wears a dark tailored blazer-and-skirt ensemble over a fitted opaque knit top, with polished black heels. She carries an umbrella at a dramatic practical angle.",
+      "style": "cinematic vintage-film fashion editorial"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "adult woman mid-exit from a car during rain",
+        "one foot steps toward a puddle while the other remains balanced near the car threshold",
+        "full-body editorial framing emphasizes the car, umbrella, movement, and reflective rain-soaked street as a whole",
+        "red taillights reflected in the puddle and warm car interior glow create visual anchors",
+        "blurred city lights, neon bokeh, umbrella silhouettes, and urban rain activity in the background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "rainy night lighting with warm interior light, red taillight reflections, and cool blue-gray ambient rain",
+      "effect": "frozen raindrops, a small natural splash at the stepping foot, subtle highlight halation, and layered wet reflections",
+      "atmosphere": "cinematic, high-impact, nostalgic, and rain-soaked"
+    },
+    "technical_specs": {
+      "render_style": "vintage 35mm fashion film, moderate wide editorial perspective, slight Dutch tilt",
+      "resolution": "high-detail vertical image",
+      "color_treatment": "Fujifilm Nostalgic Negative-inspired color, ISO 800 pushed grain, warm natural skin tones, cool blue-gray rain, subtle halation, visible analog texture"
+    },
+    "generated_prompt_string": "Create a cinematic vintage-film fashion editorial of an adult woman using the attached approved-adult face reference; preserve her face, facial structure, proportions, features, and expression exactly without celebrity or public-figure substitution. Show her mid-exit from a car in rain, with wet hair falling naturally forward and an umbrella held at a dramatic practical angle. Dress her in a dark tailored blazer-and-skirt ensemble over a fitted opaque knit top, with polished black heels. One foot steps toward a puddle while the other remains balanced near the car threshold. Frame a full-body editorial composition that gives equal visual weight to the woman, car door, umbrella, wet street, and city setting rather than isolating any body part. Add red taillights reflected in the puddle, warm car-interior glow, rain drops frozen in the air, a small splash at the stepping foot, blurred city lights, neon bokeh, and umbrella silhouettes. Use vintage 35mm styling with a moderate wide editorial perspective and slight Dutch tilt, Fujifilm Nostalgic Negative-inspired color, heavy ISO 800 pushed film grain, warm natural skin tones, cool blue-gray rain, subtle highlight halation, visible analog texture, and cinematic high-fashion impact.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, body-part dominance, body-targeted framing, exaggerated limb length, wide-angle body distortion, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, text, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "Attach a required approved-adult face reference. Preserve adult facial identity, wet hair, umbrella, dark tailored outfit, polished heels, car-exit moment, wet street, red taillight reflection, warm cabin glow, rain, and vintage-film mood. Do not use celebrity/public-figure likeness or body-targeted framing.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-reference",
+          "required": true,
+          "source": "user attachment",
+          "usage": "Keep adult face, facial structure, proportions, features, and expression exactly consistent."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Required an approved adult identity reference and retained the rainy car-exit, heels, umbrella, puddle, neon city, and vintage-film concept.",
+      "Replaced body-part-dominant framing and exaggerated limb-distortion instructions with balanced full-body editorial composition."
+    ]
+  }
+}

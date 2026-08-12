@@ -1,0 +1,71 @@
+{
+    "name":  "berry-juice-discount-poster",
+    "tag":  [
+                "beverage",
+                "special offer",
+                "juice poster",
+                "discount",
+                "ecommerce",
+                "fruit splash"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Special offers",
+    "group":  "product_beverage_promotion",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Fresh berry juice 30 percent discount promotion",
+                                        "color_palette":  "Berry red, crimson, white, blueberry navy, citrus orange, ice clear"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A centered clear glass berry-juice bottle with navy cap, wet condensation, dark label, and red berry liquid, surrounded by fruit, ice, and a red juice splash.",
+                                        "style":  "High-energy ecommerce beverage poster with bold playful typography"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Typography/Promotion graphic/Floating ingredients",
+                                                "text":  "FRESH JUICE; BERRY BLAST; 30% OFF; Fresh Berries; $11; Antioxidants; GRAB IT NOW!",
+                                                "items":  [
+                                                              "Top left: oversized off-white FRESH JUICE and BERRY BLAST headline.",
+                                                              "Upper right: circular white 30% OFF discount ring with repeated DISCOUNT text.",
+                                                              "Center: upright chilled juice bottle with readable FRESH JUICE BERRY BLAST label.",
+                                                              "Around bottle: strawberries, raspberries, blueberries, orange wedge, mint leaves, ice cubes, and red liquid splash.",
+                                                              "Lower middle: white price circle reading $11.",
+                                                              "Lower corners: handwritten white feature callouts, doodle arrows, and bold GRAB IT NOW CTA.",
+                                                              "Background: saturated berry-red gradient with sparkling droplets, grain, and vignette."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Studio key and rim lighting",
+                                                   "effect":  "Bright wet highlights, frozen splash, crisp typography, glittering condensation, controlled red vignette"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Hyperreal commercial product poster photography",
+                                           "resolution":  "Vertical high resolution, sharp text and product detail"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "juice bottle and label",
+                                                                 "required":  true,
+                                                                 "source":  "attach exact bottle and packaging artwork",
+                                                                 "usage":  "Keep bottle profile, cap, label, and beverage color unchanged."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "discount poster typography",
+                                                                 "required":  true,
+                                                                 "source":  "source image layout reference",
+                                                                 "usage":  "Preserve all displayed headings, price, 30 percent badge, arrows, and CTA hierarchy."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach the bottle reference and typography layout reference.",
+                                                                          "Keep the visible wording exact, including FRESH JUICE, BERRY BLAST, 30% OFF, $11, and GRAB IT NOW!",
+                                                                          "Maintain the bottle in the vertical center with text clear of the product."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Exact uploaded [BOTTLE_NAME] bottle (label unchanged). Vertical poster. Center bottle w/ condensation. Add JUICE_COLOR liquid splash wrap + ice cubes + INGREDIENTS floating (controlled). Background: BG_COLOR gradient + vignette + grain. Top-left: “FRESH JUICE” + “[FLAVOR_TAGLINE]”. Right: circular “30% OFF” ring. Lower-right: price circle “[PRICE]”. Bottom-right CTA “[CTA]”. White doodle arrows. Studio key+rim, 85mm, sharp text, no watermark.",
+                   "negative_prompt":  "incorrect label, altered bottle, misspelled headline, wrong discount value, unreadable price, overcrowded fruit, dark muddy red, low resolution, watermark"
+               }
+}

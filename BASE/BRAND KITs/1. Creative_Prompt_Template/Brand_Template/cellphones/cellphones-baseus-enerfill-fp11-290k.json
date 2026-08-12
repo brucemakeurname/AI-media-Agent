@@ -1,0 +1,54 @@
+{
+  "name": "cellphones-baseus-enerfill-fp11-290k",
+  "tag": ["cellphones", "baseus enerfill", "power bank", "290000", "fast delivery"],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Special offers",
+  "group": "cellphones_1913056302714071",
+  "prompt": {
+    "project_info": {
+      "theme": "Compact power-bank value promo",
+      "color_palette": "Blue, white, black, orange"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A clean accessory-sale poster highlighting the Baseus Enerfill FP11 power bank with two floating black units, a bright orange pricing bar, and white callout labels about battery capacity, fast charging, and compact weight.",
+      "style": "Modern accessory-retail poster"
+    },
+    "composition_elements": {
+      "type": "Product/Typography/Callout Cards",
+      "text": "cellphoneS, Baseus Enerfill FP11, SIÊU ƯU ĐÃI 290.000, SMEMBER TIẾT KIỆM 15.000, GIAO NHANH 2H, Sạc nhanh 15W cùng 2 cổng tiện lợi, Dung lượng 10.000mAh đủ dùng cả ngày, Chỉ 181g nhỏ gọn dễ dàng bỏ túi",
+      "items": [
+        "Top Center: red cellphoneS logo block.",
+        "Upper Middle: large white title with orange outline 'Baseus Enerfill FP11'.",
+        "Center Top: orange rounded pricing bar with 'SIÊU ƯU ĐÃI 290.000', 'SMEMBER TIẾT KIỆM 15.000', and 'GIAO NHANH 2H'.",
+        "Center: two floating black Baseus power-bank renders at different angles with glowing circular indicator graphics.",
+        "Mid Center: white callout card 'Sạc nhanh 15W cùng 2 cổng tiện lợi'.",
+        "Bottom Left: white callout card 'Dung lượng 10.000mAh đủ dùng cả ngày'.",
+        "Bottom Right: white callout card 'Chỉ 181g nhỏ gọn dễ dàng bỏ túi'.",
+        "Background: curved futuristic blue showroom with softly lit niches."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Cool showroom lighting",
+      "effect": "Clean glossy product rendering, crisp value-message hierarchy, sleek accessory display"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal accessory retail poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "Baseus Enerfill FP11 power banks", "required": true, "source": "source image product reference", "usage": "Preserve the two floating device angles, textured black finish, ports, and glowing ring indicator."},
+        {"type": "text_layout", "name": "orange price bar and white feature callouts", "required": true, "source": "source image text reference", "usage": "Keep the exact price, Smember discount, delivery time, and all feature callout wording."},
+        {"type": "background", "name": "blue curved showroom", "required": true, "source": "source image background reference", "usage": "Maintain the futuristic blue retail stage used for the accessory showcase."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the power-bank angles and the precise callout-card placements.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the cool blue showroom setting with the orange pricing bar as the main text anchor."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square accessory-sale poster in a curved futuristic blue showroom. Place the red cellphoneS logo at the top center and a large white-orange title 'Baseus Enerfill FP11'. Add an orange rounded pricing bar with 'SIÊU ƯU ĐÃI 290.000', 'SMEMBER TIẾT KIỆM 15.000', and 'GIAO NHANH 2H'. In the center show two floating black Baseus power-bank renders with textured finish, visible ports, and glowing circular indicator graphics. Add three white feature cards reading 'Sạc nhanh 15W cùng 2 cổng tiện lợi', 'Dung lượng 10.000mAh đủ dùng cả ngày', and 'Chỉ 181g nhỏ gọn dễ dàng bỏ túi'. Technical style: photoreal accessory retail poster, cool showroom lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark muddy background, incorrect text, wrong device shape, low resolution, cluttered callouts, watermark, signature"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "ysl-libre-berry-crush-pop-up-experience-thiso-mall",
+  "tag": [
+    "ysl",
+    "libre",
+    "berry-crush",
+    "pop-up",
+    "event-promo"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Takeover",
+  "group": "ysl_1389414856556555",
+  "prompt": {
+    "project_info": {
+      "theme": "YSL Libre Berry Crush experiential pop-up promotion",
+      "color_palette": "Soft blush pink, berry red, white platform, black typography, gold accents"
+    },
+    "main_subject": {
+      "type": "Location",
+      "detail": "A 3D visualization of a YSL Libre Berry Crush pop-up booth on a white platform with pink-red branded structures and giant product-inspired centerpiece. Top text reads 'POP-UP TRẢI NGHIỆM | 22.2 - 1.3', 'LIBRE', 'BERRY CRUSH', and 'HƯƠNG VỊ “TƯƠI MỌNG” CỦA TỰ DO TÁO BẠO'. Left text reads 'KHÁM PHÁ NGAY' and 'SẢNH SỰ KIỆN, THISO MALL'. Three rounded gold cards along the bottom promote scent discovery, pop-art activities, and fashion gifts.",
+      "style": "Luxury retail event key visual, polished 3D experiential booth poster, premium pink pop-up campaign design"
+    },
+    "composition_elements": {
+      "type": "Background Elements",
+      "text": "POP-UP TRẢI NGHIỆM | 22.2 - 1.3, LIBRE, BERRY CRUSH, HƯƠNG VỊ “TƯƠI MỌNG” CỦA TỰ DO TÁO BẠO, KHÁM PHÁ NGAY, SẢNH SỰ KIỆN, THISO MALL, MỚI, KHÁM PHÁ NỐT HƯƠNG TRÁI CÂY QUYẾN RŨ, TRẢI NGHIỆM HOẠT ĐỘNG POP-ART, ĐẶC QUYỀN QUÀ TẶNG THỜI THƯỢNG*, *ÁP DỤNG CHO KHÁCH HÀNG MỚI VÀ ĐỂ LẠI THÔNG TIN ĐĂNG KÍ THÀNH VIÊN",
+      "items": [
+        "Top Left: Pink banner with the event dates and bold black Libre headline",
+        "Top Right: Vertical YSL BEAUTE logo in black",
+        "Bottom Left: Gold feature card with a Libre Berry Crush perfume bottle, raspberries, and the copy 'KHÁM PHÁ NỐT HƯƠNG TRÁI CÂY QUYẾN RŨ'",
+        "Bottom Right: Gold feature card with mini gifts and the copy 'ĐẶC QUYỀN QUÀ TẶNG THỜI THƯỢNG*'",
+        "Center/Background: White platform holding a branded pink-red YSL pop-up booth with giant centerpiece block, product posters, and a middle card for 'TRẢI NGHIỆM HOẠT ĐỘNG POP-ART'"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright commercial campaign lighting",
+      "effect": "Clean 3D showroom illumination, glossy product highlights, soft shadowing, airy pastel retail ambience"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal 3D retail-event advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury retail event poster for YSL. Centerpiece is a photoreal 3D YSL Libre Berry Crush pop-up booth on a white platform with pink-red branded walls, giant statement centerpiece, and product posters. Include the exact text 'POP-UP TRẢI NGHIỆM | 22.2 - 1.3', 'LIBRE', 'BERRY CRUSH', 'HƯƠNG VỊ “TƯƠI MỌNG” CỦA TỰ DO TÁO BẠO', 'KHÁM PHÁ NGAY', 'SẢNH SỰ KIỆN, THISO MALL', and the three bottom-card messages 'KHÁM PHÁ NỐT HƯƠNG TRÁI CÂY QUYẾN RŨ', 'TRẢI NGHIỆM HOẠT ĐỘNG POP-ART', and 'ĐẶC QUYỀN QUÀ TẶNG THỜI THƯỢNG*'. Background is a soft blush pink field. Technical style: photoreal 3D retail-event advertising composite, bright commercial campaign lighting, glossy highlights and airy pastel ambience, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "location",
+          "name": "Libre Berry Crush pop-up booth layout",
+          "required": true,
+          "source": "original event visual reference",
+          "usage": "Preserve the exact booth architecture, giant centerpiece, white platform, and signage placements"
+        },
+        {
+          "type": "product",
+          "name": "YSL Libre Berry Crush perfume",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Match the bottle inserts and fragrance imagery on the poster cards"
+        },
+        {
+          "type": "logo",
+          "name": "YSL BEAUTE logo",
+          "required": true,
+          "source": "official brand logo reference",
+          "usage": "Keep the vertical logo at upper right and branded signage on the booth"
+        },
+        {
+          "type": "graphic",
+          "name": "Bottom promotional card graphics",
+          "required": true,
+          "source": "original poster graphics",
+          "usage": "Recreate the perfume card, pop-art activity card, and fashion gift card across the bottom"
+        }
+      ],
+      "prompt_instructions": "Treat '22.2 - 1.3' as visible artwork text with no explicit year shown; do not invent a year in the image. Preserve the soft pink atmosphere and the experiential-event hierarchy instead of turning it into a standard product packshot."
+    }
+  }
+}

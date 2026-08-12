@@ -1,0 +1,34 @@
+{
+  "name": "Purple Chrome Nail Beauty Portrait",
+  "tag": "industry/lookbook-line-sheet/beauty-closeup",
+  "image_type": "beauty editorial portrait",
+  "image_vibe": "playful high-fashion glossy portrait",
+  "image_purpose": "beauty campaign and nail-art lookbook reference",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": "Create a photorealistic close-up beauty editorial centered on expressive nail art, layered jewelry, and graphic black-and-white knit styling.",
+    "main_subject": "A clearly adult fictional East Asian woman with natural glowing skin, dark brown eyes, long dark hair with soft face-framing strands, pink blush, red-tinted lips, layered silver necklaces, a black-and-white oversized striped knit sweater, and long almond nails with purple marble, silver chrome, galaxy details, and tiny rhinestones.",
+    "composition_elements": "Close-up vertical portrait on a bright white seamless background, face centered, one hand making a playful frame beside the eye and the other near the cheek rather than the mouth, jewelry and nail art clearly visible, shallow depth of field.",
+    "lighting_and_atmosphere": "Soft bright studio light, high-key clean background, flattering realistic skin, crisp nail and jewelry highlights.",
+    "technical_specs": "85mm lens at f/1.4, photorealistic beauty editorial detail, natural pores, accurate hands and fingers, vertical 832x1216-style composition, no text or logos.",
+    "generated_prompt_string": "Photorealistic close-up beauty editorial portrait of a clearly adult fictional East Asian woman with natural glowing skin, large dark brown eyes, dark hair with face-framing strands, pink blush, red-tinted lips, layered silver crystal necklaces, black-and-white oversized striped knit sweater, long almond nails with purple marble and silver chrome galaxy nail art and tiny rhinestones, playful finger-frame gesture beside one eye with the other hand near the cheek, bright white seamless background, soft studio lighting, 85mm f/1.4, crisp realistic texture, no text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, finger in mouth, touching lips, sexualized gesture, child, teen, ageless person, celebrity likeness, public figure likeness, deformed hands, extra fingers, watermark, logo, text, plastic skin, cartoon, 3d render",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "purple chrome nail portrait reference",
+          "required": true,
+          "source": "Attach the supplied source image as the visual reference.",
+          "usage": "Match the nail-art design, striped knit, layered jewelry, hair framing, high-key background, and close-up styling; keep the adult fictional identity and hand placement replaceable."
+        }
+      ],
+      "instructions": "Attach the source image before generation. Preserve the beauty-editorial and nail-art intent while moving the hand away from the lips to a nonsexual face-framing gesture. Identity, wardrobe accents, and background remain replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": "Clarified a clearly adult fictional subject and replaced the finger-on-lips gesture with a nonsexual hand-near-cheek/eye pose.",
+    "notes": "Nail and beauty styling are non-graphic."
+  }
+}

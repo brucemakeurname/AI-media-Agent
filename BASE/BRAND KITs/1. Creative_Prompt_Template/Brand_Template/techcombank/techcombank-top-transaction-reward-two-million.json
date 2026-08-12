@@ -1,0 +1,63 @@
+{
+  "name": "techcombank-top-transaction-reward-two-million",
+  "tag": [
+    "top-transactions",
+    "upoint",
+    "leaderboard",
+    "loyalty"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Competitions",
+  "group": "techcombank_872408842264518",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank top transaction U-Point reward",
+      "color_palette": "Warm white, light beige, bright red, orange glow"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A minimal leaderboard-reward poster with the headline 'Thuong Top Giao dich'. Supporting copy says 'Khi co so luong giao dich hop le nhanh nhat va nhieu nhat trong thang(*)'. In the center, several glossy red U-point coins are stacked on a glowing red-orange podium block labeled '2 Trieu U-Point/thang'. The legal note at bottom right says '(*) Ap dung cho khach hang co tu 300 giao dich hop le tro len'. The Techcombank logo is placed at the top right over a pale background with faint translucent diamond shapes.",
+      "style": "Minimal 3D reward leaderboard poster with glossy loyalty coins and clean promotional typography"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TECHCOMBANK / Thuong Top Giao dich / Khi co so luong giao dich hop le nhanh nhat va nhieu nhat trong thang(*) / 2 Trieu U-Point/thang / (*) Ap dung cho khach hang co tu 300 giao dich hop le tro len",
+      "items": [
+        "Top Left: Empty pale background with headline block",
+        "Top Right: Techcombank wordmark and red logo",
+        "Bottom Left: Base of the glowing podium under the coin cluster",
+        "Bottom Right: Legal footnote about customers with 300 valid transactions or more",
+        "Center/Background: A large glossy red U-point coin cluster arranged on a glowing red-orange rectangular podium"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio promo lighting",
+      "effect": "Warm pedestal glow, clean reflections on the coins, subtle shadows, sharp product-like clarity"
+    },
+    "technical_specs": {
+      "render_style": "3D commercial reward poster for a banking loyalty campaign",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank top transaction U-Point reward. Centerpiece is a cluster of glossy red U-point coins resting on a glowing red-orange podium labeled '2 Trieu U-Point/thang'. Background is a warm off-white field with faint translucent diamond shapes. Surrounding elements: Techcombank logo, exact headline 'Thuong Top Giao dich', supporting line 'Khi co so luong giao dich hop le nhanh nhat va nhieu nhat trong thang(*)', and the legal note '(*) Ap dung cho khach hang co tu 300 giao dich hop le tro len'. Technical style: 3D commercial reward poster for a banking loyalty campaign, soft studio promo lighting, warm glow and clean reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "graphic",
+          "name": "Red U-point coin 3D assets",
+          "required": true,
+          "source": "official campaign graphics",
+          "usage": "Preserve the exact token style, glossy finish, and clustered arrangement"
+        },
+        {
+          "type": "text_layout",
+          "name": "Top transaction reward podium layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the headline block, central podium with '2 Trieu U-Point/thang', and footnote placement"
+        }
+      ],
+      "prompt_instructions": "Keep the prize statement exactly '2 Trieu U-Point/thang' and the eligibility threshold '300 giao dich hop le tro len'. The design should remain minimal and reward-led."
+    }
+  }
+}

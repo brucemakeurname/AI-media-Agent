@@ -1,0 +1,70 @@
+{
+  "name": "shopee-adidas-adizero-pacer-exclusive-debut",
+  "tag": [
+    "footwear-launch",
+    "sportswear",
+    "product-hero",
+    "minimal-layout"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Product demos",
+  "group": "shopee_1528399415331708",
+  "prompt": {
+    "project_info": {
+      "theme": "Adidas exclusive Shopee debut running-shoe poster",
+      "color_palette": "Off-white, black, Adidas red, Shopee orange, gray"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A clean minimal footwear poster with top branding from Shopee, Adidas, and Shopee Debut. The main headline says 'ADIZERO PACER' and the red banner below reads 'DOC QUYEN TREN SHOPEE'. At top right is a countdown badge 'CON 2 NGAY' and 'NGAY 15 SALE GIUA THANG'. Two gray Adidas running shoes with bright red three stripes are placed diagonally on a pale tiled floor. Bottom CTA says 'MUA NGAY TAI SHOPEE'.",
+      "style": "Minimal product-launch poster with editorial whitespace, realistic shoe photography, and crisp retail typography"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "SHOPEE DEBUT / ADIZERO PACER / DOC QUYEN TREN SHOPEE / CON 2 NGAY / NGAY 15 / SALE GIUA THANG / MUA NGAY TAI SHOPEE / (*) Chi tiet chuong trinh (bao gom cac truong hop loai tru) xem tai trang Mien Phi Van Chuyen tren Ung dung Shopee",
+      "items": [
+        "Top Left: Shopee logo and Adidas logo",
+        "Top Right: Orange-blue countdown badge with 'CON 2 NGAY' and 'NGAY 15 SALE GIUA THANG'",
+        "Bottom Left: Fine-print disclaimer area over the tile background",
+        "Bottom Right: White CTA pill 'MUA NGAY TAI SHOPEE'",
+        "Center/Background: Large black title typography over a pale stone-tile floor with two gray running shoes featuring bright red stripes"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio daylight",
+      "effect": "Realistic floor shadows, clean product contrast, minimal glare, calm premium feel"
+    },
+    "technical_specs": {
+      "render_style": "Product-launch poster with photo-real shoe rendering and minimalist commercial layout",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for Adidas on Shopee Debut. Centerpiece is a pair of realistic gray Adizero Pacer running shoes with bright red three stripes placed diagonally on a pale tiled floor. Background is a minimal off-white retail layout with large black title typography. Surrounding elements: Shopee logo, Adidas logo, Shopee Debut badge, headline 'ADIZERO PACER', red banner 'DOC QUYEN TREN SHOPEE', top-right countdown badge 'CON 2 NGAY' and 'NGAY 15 SALE GIUA THANG', fine-print disclaimer, and bottom CTA 'MUA NGAY TAI SHOPEE'. Technical style: product-launch poster with photo-real shoe rendering and minimalist commercial layout, soft studio daylight, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Adidas Adizero Pacer shoe render or product photo",
+          "required": true,
+          "source": "official Adidas product imagery",
+          "usage": "Attach for exact shape, sole, mesh upper, and stripe placement"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee, Adidas, and Shopee Debut logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for the top header and debut badge"
+        },
+        {
+          "type": "text_layout",
+          "name": "Minimal footwear launch layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the exact headline stack, countdown badge, and CTA arrangement"
+        }
+      ],
+      "prompt_instructions": "Preserve the clean negative space and realistic floor-photo look. 'NGAY 15' is in the past relative to Friday, July 17, 2026 and should remain unchanged because it is visible campaign copy."
+    }
+  }
+}

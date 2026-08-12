@@ -1,0 +1,58 @@
+{
+  "name": "pink-glow-lazy-boudoir",
+  "tag": [
+    "ugc",
+    "baddie",
+    "private-indoor",
+    "pink-magenta-glow",
+    "bedroom-lifestyle",
+    "reclining-portrait"
+  ],
+  "image_type": "ugc-bedroom-lifestyle-portrait",
+  "image_vibe": "relaxed-magenta-soft",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/private-indoor",
+  "prompt": {
+    "project_info": "Create a high-fidelity photorealistic bedroom lifestyle portrait with candid social-media character, white bedding, a red textured top and soft magenta lamp glow.",
+    "main_subject": "One original approved adult woman with long layered dark-brown hair, fair natural skin texture, a relaxed pleasant smile and direct eye contact. She wears a sparkly textured red or dark-pink triangle top with thin straps and solid black bottoms, preserving the supplied wardrobe without adding exposure.",
+    "composition_elements": "Medium slightly elevated view from the top of the head to the upper thighs. The adult subject reclines diagonally against a white textured headboard, one arm raised to the headboard and the other resting near a pillow, with legs extending toward the lower right. Include messy white sheets and pillows, a crumpled dark grey or teal garment, a small white square device on the mattress and a gold floor lamp with pink shade.",
+    "lighting_and_atmosphere": "Soft diffused front-left interior light creates gentle skin highlights and natural shadows. The lamp adds a pink-magenta glow to the right wall and background. Keep the atmosphere relaxed, comfortable and intimate in a non-explicit lifestyle sense.",
+    "technical_specs": "Vertical 4:5 framing, slightly elevated camera, sharp focus on face and outfit, realistic skin texture and fabric sparkle, natural body physics, soft bedding detail, restrained contrast and candid unpolished color treatment.",
+    "generated_prompt_string": "Create a high-fidelity photorealistic bedroom lifestyle portrait of one original approved adult woman with long layered dark-brown hair, fair natural skin texture, a relaxed pleasant smile and direct eye contact. She wears a sparkly textured red or dark-pink triangle top with thin straps and solid black bottoms. Use a medium slightly elevated view from the top of her head to the upper thighs; she reclines diagonally against a white textured headboard, raises one arm to its top edge, rests the other near a pillow and extends her legs toward the lower right. Include messy white sheets and pillows, a crumpled dark grey or teal garment, a small white square device on the mattress and a gold floor lamp with pink shade against a white wall. Use soft diffused front-left light with gentle highlights and natural shadows, plus a soft magenta glow on the right background. Preserve realistic skin texture, fabric sparkle, natural body physics, soft bedding detail and candid unpolished social-media color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, body-part emphasis, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, wardrobe malfunction, unreadable text or logos",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "pink-glow-lazy-boudoir.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair, expression and consistent likeness; replace only with another approved adult reference when needed."
+        },
+        {
+          "type": "wardrobe",
+          "name": "sparkly red-dark-pink triangle top and black bottoms",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the supplied colors, sparkle, straps and fit; replace only with an explicitly supplied wardrobe reference."
+        },
+        {
+          "type": "location",
+          "name": "white headboard, messy bed, garment and pink-shaded floor lamp",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the bedroom layout, bedding, garment, device, lamp and magenta environment; individual props may be replaced while maintaining the same composition and glow."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Preserve identity, facial structure, hair, outfit, room layout, lamp color and lighting consistency. The adult subject, outfit, props and environment are replaceable only through explicit replacement references; keep the same diagonal recline and framing. No logo or typography is required; keep any device details generic and any visible text indistinct."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adult.",
+      "Removed explicit chest-volume and body-part emphasis while preserving the reclining pose, supplied outfit and magenta bedroom mood.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

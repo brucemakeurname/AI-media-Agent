@@ -1,0 +1,67 @@
+{
+  "name": "neon-latex-duo",
+  "tag": [
+    "adult-duo",
+    "neon-lounge",
+    "pink-and-purple",
+    "velvet-chair",
+    "fashion-editorial"
+  ],
+  "image_type": "duo-fashion-editorial",
+  "image_vibe": "polished-neon-luxury",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "source_url": "https://x.com/KeorUnreal/status/2018727486108868741",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Recast both people as distinct original adult models and replaced body-focused latex mini dresses and suggestive poses with covered satin evening tailoring and seated editorial poses."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "two original adult models in a neon luxury-lounge editorial",
+      "color_palette": "soft pink, deep purple, neon blue, gold, mahogany, and velvet red",
+      "aspect_ratio": "9:16"
+    },
+    "main_subject": {
+      "description": "Two distinct original adult women with confident, relaxed smiles; one has voluminous wavy blonde hair and the other voluminous wavy auburn hair.",
+      "wardrobe": "The blonde model wears a soft-pink satin blouse with wide-leg evening trousers; the auburn model wears a deep-purple satin blazer with tailored trousers. Both wear minimal unbranded hoop earrings and bracelets.",
+      "pose": "One adult model sits upright in a vintage armchair while the other stands beside its armrest; both use relaxed hands and direct, composed editorial gazes."
+    },
+    "composition_elements": {
+      "framing": "Vertical side-angle medium group portrait with clear separation between the two models.",
+      "environment": "Luxury lounge at night, rich wooden wall, deep red velvet chairs, and softly blurred background.",
+      "focus": "Sharp eyes, fabric texture, and chair details with gentle depth falloff."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Ambient neon blue, purple, and gold with soft color separation and restrained highlights on satin.",
+      "atmosphere": "High-end, confident, elegant, and cinematic."
+    },
+    "technical_specs": {
+      "render_style": "photoreal professional fashion photography",
+      "quality": "high detail, natural skin texture, realistic fabric sheen, cinematic color grade"
+    },
+    "generated_prompt_string": "Create a photorealistic 9:16 luxury-lounge fashion editorial featuring two distinct original adult women. One has voluminous wavy blonde hair and wears a soft-pink satin blouse with wide-leg evening trousers; the other has wavy auburn hair and wears a deep-purple satin blazer with tailored trousers. Add minimal unbranded hoops and bracelets. Place one seated upright in a vintage armchair and the other standing beside its armrest, both with relaxed hands and composed direct editorial gazes. Use a rich wooden wall, deep red velvet chairs, softly blurred lounge background, and neon blue, purple, and gold ambient lighting. Keep eyes and fabrics sharp, skin natural, satin reflections restrained, and exclude text, logos, celebrity likenesses, and sexualized posing.",
+    "negative_prompt": "minor, celebrity likeness, identical face, latex mini dress, body-focused pose, nudity, explicit, nsfw, overly revealing clothing, readable text, logo, watermark, distorted anatomy, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional and replace only the stated wardrobe, seating, or lighting element; do not copy identities, brands, or readable text.",
+      "assets": [
+        {
+          "type": "wardrobe_reference",
+          "name": "two-covered-satin-evening-looks",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace the two adult models' covered outfit silhouettes."
+        },
+        {
+          "type": "environment_reference",
+          "name": "neon-velvet-lounge",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace lounge architecture, chair style, and neon palette."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "vfe-le-tuan-hung-medical-prep-case-study",
+  "tag": [
+    "vfe",
+    "medical-prep",
+    "student-profile",
+    "case-study",
+    "paris-saclay"
+  ],
+  "biz_niche": "Education",
+  "content_format": "Case studies",
+  "group": "vfe_2468416543654713",
+  "prompt": {
+    "project_info": {
+      "theme": "Student success story for admission to French medical preparatory programs",
+      "color_palette": "Cream, Red, Navy, Black, Warm Skin Tones"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A scrapbook-style student case study for Lê Tuấn Hùng featuring two photos of the student, a top-right panel listing three French universities, a mini Eiffel Tower prop, and a long bullet list describing his admission to highly selective French medical preparatory studies.",
+      "style": "Admissions-proof collage poster with paper textures, clip elements, school logos, and bold red name typography."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nLÊ TUẤN HÙNG\nTrúng tuyển chương trình dự bị Y Dược từ ba ngôi trường:\nuniversité PARIS-SACLAY\nUniversité Paris Cité\nUNIVERSITÉ DE ROUEN NORMANDIE\nTân sinh viên dự bị Y Dược (chương trình có tỉ lệ chọi gắt nhất nước Pháp) tại Université Paris-Saclay\nCựu học sinh song ngữ trường THPT Chuyên Lê Hồng Phong (TP. HCM)\nGiải Nhì Kỳ thi Học sinh giỏi Quốc gia môn Tiếng Pháp\nHuy chương Vàng Olympic 30/4 môn Tiếng Pháp\nBằng DALF C1\nGPA môn Toán - Lý - Hóa - Sinh đều từ 9.6 trở lên\nNHẬN TƯ VẤN NGAY\n2K8 THPT CHUYÊN LÊ HỒNG PHONG (TP. HCM)",
+      "items": [
+        "Top Left: VFE logo and large red-white name lockup 'LÊ TUẤN HÙNG'.",
+        "Top Right: Torn note pinned with university logos for Paris-Saclay, Université Paris Cité, and Université de Rouen Normandie.",
+        "Bottom Left: Polaroid-style lower portrait of the student and red CTA button 'NHẬN TƯ VẤN NGAY'.",
+        "Bottom Right: Long bullet-point achievements list in red and black text.",
+        "Center/Background: Main portrait of the student holding a red diploma booklet, paper layers, binder clip, mini Eiffel Tower ornament, and cream dotted-paper board."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft scrapbook editorial lighting",
+      "effect": "Clear student identity, readable logo and bullet text, and layered admissions-collage depth."
+    },
+    "technical_specs": {
+      "render_style": "Scrapbook-style admissions case study poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality student success case study poster for Lê Tuấn Hùng. Centerpiece is a scrapbook collage with a main portrait of the student in graduation robe holding a red diploma booklet, a second portrait below, and a pinned note listing three French universities. Background is a cream dotted-paper admissions board with VFE branding and paper clips. Surrounding elements: red-white name text 'LÊ TUẤN HÙNG', universities Paris-Saclay, Université Paris Cité, and Université de Rouen Normandie, detailed academic bullet points, mini Eiffel Tower prop, and red CTA 'NHẬN TƯ VẤN NGAY'. Technical style: scrapbook-style admissions case study poster, soft editorial lighting, high proof fidelity, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE and university logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Place VFE at top left and the three university logos in the pinned note area."
+        },
+        {
+          "type": "person",
+          "name": "Lê Tuấn Hùng student portraits",
+          "required": true,
+          "source": "source photos from current creative",
+          "usage": "Keep the same face, graduation robe shot, and lower portrait."
+        },
+        {
+          "type": "graphic",
+          "name": "Mini Eiffel Tower and clipped-paper scrapbook elements",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve the admissions-collage mood and French-study cue."
+        },
+        {
+          "type": "text_layout",
+          "name": "Medical-prep student profile layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep the bullet achievements, school names, and CTA placement exactly."
+        }
+      ],
+      "prompt_instructions": "This is a proof-heavy student success story. Keep every visible school name, competition title, DALF C1, and GPA wording as-is. Do not simplify the academic specificity."
+    }
+  }
+}

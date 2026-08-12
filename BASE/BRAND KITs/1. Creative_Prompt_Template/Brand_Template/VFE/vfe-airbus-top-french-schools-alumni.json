@@ -1,0 +1,71 @@
+{
+  "name": "vfe-airbus-top-french-schools-alumni",
+  "tag": [
+    "vfe",
+    "airbus",
+    "alumni",
+    "french-schools",
+    "infographic"
+  ],
+  "biz_niche": "Education",
+  "content_format": "Infographics",
+  "group": "vfe_1438902941602394",
+  "prompt": {
+    "project_info": {
+      "theme": "Airbus alumni distribution across French universities and schools",
+      "color_palette": "Airbus Blue, White, Sky Gray, Soft Cyan"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A clean corporate infographic centered on a large rounded white label reading 'AIRBUS', followed by five horizontal paired boxes listing French institutions on the left and alumni counts on the right.",
+      "style": "Minimal corporate infographic design with clean logo placement, flat white cards, soft blurred aviation-industrial background, and simple data hierarchy."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "AIRBUS\nUniversité de Toulouse - 1712 alumni\nISAE SUPAERO - 1208 alumni\ntbs education INSPIRING EDUCATION INSPIRING LIFE - 662 alumni\nENAC - 562 alumni\nINSA Institut National des Sciences Appliquées Toulouse - 547 alumni",
+      "items": [
+        "Top Left: No extra headline, just a centered rounded white box containing the blue word 'AIRBUS'.",
+        "Top Right: Blank soft sky-and-building background continuing behind the list.",
+        "Bottom Left: Five white institutional logo boxes stacked vertically with Université de Toulouse, ISAE SUPAERO, tbs education, ENAC, and INSA Toulouse.",
+        "Bottom Right: Five matching white boxes containing blue alumni counts aligned to each institution.",
+        "Center/Background: Light blue blurred industrial or airport-like facade backdrop with clean corporate spacing."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft neutral daylight graphic composite",
+      "effect": "Flat even lighting, low-shadow infographic clarity, subtle background blur, and crisp logo readability."
+    },
+    "technical_specs": {
+      "render_style": "Vector-style corporate infographic poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality corporate infographic poster for Airbus alumni education sources. Centerpiece is a large rounded white title box reading 'AIRBUS', with five stacked institution rows showing French university logos on the left and blue alumni counts on the right. Background is a soft blurred light-blue industrial facade. Surrounding elements: Université de Toulouse 1712 alumni, ISAE SUPAERO 1208 alumni, tbs education 662 alumni, ENAC 562 alumni, and INSA Toulouse 547 alumni. Technical style: vector-style corporate infographic poster, soft neutral daylight graphic composite, crisp logo readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Airbus wordmark",
+          "required": true,
+          "source": "official Airbus logo asset",
+          "usage": "Use inside the top rounded white title box."
+        },
+        {
+          "type": "logo",
+          "name": "French school logos collection",
+          "required": true,
+          "source": "official institution logos",
+          "usage": "Reproduce Université de Toulouse, ISAE SUPAERO, tbs education, ENAC, and INSA Toulouse accurately."
+        },
+        {
+          "type": "text_layout",
+          "name": "Two-column alumni stat layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve exact row order, card spacing, and count alignment."
+        }
+      ],
+      "prompt_instructions": "This is a clean data post, so keep the design restrained and corporate. The exact institution names and alumni counts are the key fidelity requirement; do not embellish with extra icons or decorative objects."
+    }
+  }
+}

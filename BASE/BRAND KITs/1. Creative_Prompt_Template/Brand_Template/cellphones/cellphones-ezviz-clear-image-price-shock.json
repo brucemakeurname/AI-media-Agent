@@ -1,0 +1,52 @@
+{
+  "name": "cellphones-ezviz-clear-image-price-shock",
+  "tag": ["cellphones", "ezviz", "camera lineup", "clear image", "price shock"],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Product demos",
+  "group": "cellphones_1715148192738965",
+  "prompt": {
+    "project_info": {
+      "theme": "Ezviz camera lineup promo",
+      "color_palette": "Red, white, black, cream, warm beige"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A home-lifestyle product lineup poster showing three different white Ezviz cameras arranged on a wooden tabletop, paired with a large expressive headline about clear image quality and shock pricing.",
+      "style": "Photoreal electronics lineup poster with mixed bold and handwritten typography"
+    },
+    "composition_elements": {
+      "type": "Product/Typography/Interior Background",
+      "text": "cellphoneS, Hình Ảnh Rõ, Giá Khỏi Đắn Đo, EZVIZ",
+      "items": [
+        "Top Center: red cellphoneS logo block.",
+        "Upper Left: bold dark headline 'Hình Ảnh Rõ'.",
+        "Below it: red brush-script text with white outline 'Giá Khỏi Đắn Đo'.",
+        "Bottom: three Ezviz camera products on a wooden tabletop, from left to right a square stand camera, a dome camera, and a taller dual-lens outdoor camera with side antennas.",
+        "Background: soft beige home interior with blurred curtain and wall details."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft indoor showroom lighting",
+      "effect": "Friendly home-electronics warmth, clear product separation, crisp white product finish"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal consumer-electronics lineup poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "logo", "name": "cellphoneS and EZVIZ branding", "required": true, "source": "source image brand reference", "usage": "Preserve the retail logo block and product logo marks."},
+        {"type": "product", "name": "three Ezviz cameras", "required": true, "source": "source image product reference", "usage": "Keep the exact three-device arrangement, proportions, and tabletop placement."},
+        {"type": "text_layout", "name": "clear image / shock price typography", "required": true, "source": "source image text reference", "usage": "Preserve the bold headline and brush-style second line exactly."},
+        {"type": "background", "name": "soft indoor beige backdrop", "required": true, "source": "source image interior reference", "usage": "Maintain the warm home background blur and wood table context."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the three-camera lineup and the handwritten-style red typography.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the retail tabletop showcase composition with the tallest camera on the right."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square product-lineup poster for Ezviz cameras in a warm home setting. Place a red cellphoneS logo at the top center, then add bold dark text 'Hình Ảnh Rõ' and below it large red brush-script text with white outline 'Giá Khỏi Đắn Đo'. On a wooden tabletop, arrange three white Ezviz cameras: a square stand camera on the left, a round dome camera in the center, and a tall dual-lens outdoor camera with side antennas on the right. Use a softly blurred beige interior background. Technical style: photoreal consumer-electronics lineup poster, soft indoor showroom lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark background, incorrect text, missing device, wrong camera shapes, low resolution, clutter, watermark, signature"
+  }
+}

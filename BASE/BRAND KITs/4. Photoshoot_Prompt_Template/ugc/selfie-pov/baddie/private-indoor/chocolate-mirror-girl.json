@@ -1,0 +1,25 @@
+{
+  "name": "chocolate-mirror-girl",
+  "tag": ["ugc", "selfie-pov", "chocolate-brown", "mirror", "apartment"],
+  "image_type": "UGC full-body mirror fashion selfie",
+  "image_vibe": "polished, casual, warm, realistic",
+  "image_purpose": "Apartment outfit post and fashion lifestyle visual",
+  "group": "ugc/selfie-pov/baddie/private-indoor",
+  "prompt": {
+    "project_info": "Create a raw high-fidelity full-body mirror selfie in a casual domestic apartment interior.",
+    "main_subject": "One approved adult woman matching the required face reference, wearing a deep chocolate-brown rib-knit short-sleeve mini dress with mock neck and visible vertical ribbing, checkered comfort slides, clear-frame glasses, long square-tip nails, and a small monogram-texture leather handbag held in her left hand. Her right hand holds a blue-cased smartphone.",
+    "composition_elements": "9:16 full-body standing mirror selfie with a slight natural hip shift, phone in the raised right hand, handbag at the left side, and accurate reflection. Include wood-plank flooring, white interior doors, one door with a supplied Hello Kitty sticker, kitchen breakfast bar, dark wooden stool, pink handbag, and miscellaneous counter items.",
+    "lighting_and_atmosphere": "Soft diffused neutral-warm overhead light around 4000K, natural garment-fold shadows, realistic floor reflections, casual apartment atmosphere.",
+    "technical_specs": "iPhone 17 Pro simulation, 24mm wide-angle, f/2.4, 9:16, deep structural focus, visible natural pores and hair texture, subtle digital grain, no beauty smoothing.",
+    "generated_prompt_string": "A raw high-fidelity 9:16 full-body mirror selfie of one approved adult woman matching the required face reference. She wears a deep chocolate-brown rib-knit short-sleeve mini dress with mock neck and visible vertical ribbing, checkered comfort slides, clear-frame glasses, long square-tip nails, and a small monogram-texture leather handbag held in her left hand while her right hand holds a blue-cased smartphone. Keep a natural slight hip shift and accurate mirror reflection. The casual apartment includes wood-plank flooring, white interior doors, one door with the supplied Hello Kitty sticker, a kitchen breakfast bar, dark wooden stool, pink handbag, and miscellaneous counter items. Soft diffused 4000K neutral-warm overhead light, realistic fabric and skin texture, 24mm smartphone perspective, subtle digital grain, and authentic lifestyle realism.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, explicit body-part emphasis, child or teen appearance, celebrity likeness, invented logos, altered supplied sticker or typography, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, harsh flash, broken reflection, distorted hands, extra fingers, deformed, watermark, low resolution, blur",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "chocolate-mirror-girl.jpg", "required": true, "source": "local approved subject, outfit, and apartment reference", "usage": "Preserve approved adult identity, hair, dress, glasses, nails, bag, phone, mirror geometry, apartment, sticker, and lighting."},
+        {"type": "accessory", "name": "chocolate-mirror-girl.jpg", "required": false, "source": "visible monogram-texture handbag in local reference", "usage": "Preserve only the supplied bag texture and markings when the reference is attached; do not invent or add a new brand logo."}
+      ],
+      "prompt_instructions": "Attach the required combined reference; the accessory crop is optional when handbag continuity matters. Preserve identity, outfit, phone, bag, supplied sticker/typography, reflection, apartment environment, and lighting. Minor household objects may be replaced, but logos and text must come only from supplied references. Any replacement person must be an approved adult."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult, replaced exaggerated silhouette wording with natural fit language, and constrained monogram/sticker details to supplied reference assets only."]}
+}

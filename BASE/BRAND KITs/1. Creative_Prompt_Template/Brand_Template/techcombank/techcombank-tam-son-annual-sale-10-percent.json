@@ -1,0 +1,70 @@
+{
+  "name": "techcombank-tam-son-annual-sale-10-percent",
+  "tag": [
+    "tam-son",
+    "luxury-sale",
+    "visa-signature",
+    "lifestyle"
+  ],
+  "biz_niche": "Travel & Hospitality",
+  "content_format": "Special offers",
+  "group": "techcombank_1542061937421094",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank cardholder privilege at Tam Son Annual Sale",
+      "color_palette": "Deep blue, golden sunrise, white, champagne beige, bronze"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A premium lifestyle poster for a luxury retail promotion. The logos 'TAM SON' and 'TECHCOMBANK' appear at the top. Large headline text reads 'Giam gia den 10% tai Tam Son Annual Sale'. The supporting line says 'Dac quyen danh rieng cho chu the Techcombank Visa Infinite va Visa Signature'. In the center stands a dramatic modern hotel tower lit by warm sunrise glow, with a location pin label reading 'Pullman Sai Gon Centre'. Bottom-right badge says 'Dinh hinh PHONG CACH SONG'. Bottom-left shows the brand line 'VUOT TROI MOI NGAY'. The legal copy states the offer applies from '16 - 17/07/2026' when paying by physical card or Apple Pay, Samsung Pay, Google Pay, Garmin Pay.",
+      "style": "Luxury-travel lifestyle poster with architectural hero shot, radiant sunrise haze, and premium cardholder-offer aesthetics"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TAM SON / TECHCOMBANK / Giam gia den 10% tai Tam Son Annual Sale / Dac quyen danh rieng cho chu the Techcombank Visa Infinite va Visa Signature / Pullman Sai Gon Centre / Dinh hinh PHONG CACH SONG / VUOT TROI MOI NGAY / (*) Dieu kien va dieu khoan ap dung: Uu dai ap dung trong 16 - 17/07/2026 khi thanh toan bang the vat ly hoac Apple Pay, Samsung Pay, Google Pay, Garmin Pay",
+      "items": [
+        "Top Left: TAM SON wordmark over a deep-blue dawn sky",
+        "Top Right: Techcombank wordmark and white diamond logo",
+        "Bottom Left: 'VUOT TROI MOI NGAY' lockup and city skyline silhouette",
+        "Bottom Right: Rounded lifestyle badge and small legal copy",
+        "Center/Background: A tall illuminated Pullman Sai Gon Centre building rising from a glowing city base with a location-pin callout"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Golden-hour luxury architectural lighting",
+      "effect": "Radiant sunrise bloom, warm glass reflections, soft city haze, elegant premium ambience"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal luxury-offer architectural composite with premium retouching",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank luxury retail privilege at Tam Son Annual Sale. Centerpiece is a dramatic modern tower identified by a location callout 'Pullman Sai Gon Centre', rising from a glowing city base in warm sunrise light. Background is a deep-blue to golden sky gradient with soft haze and a refined skyline. Surrounding elements: TAM SON and Techcombank logos, exact headline 'Giam gia den 10% tai Tam Son Annual Sale', supporting copy 'Dac quyen danh rieng cho chu the Techcombank Visa Infinite va Visa Signature', bottom-right badge 'Dinh hinh PHONG CACH SONG', bottom-left line 'VUOT TROI MOI NGAY', and legal text referencing '16 - 17/07/2026' and Apple Pay, Samsung Pay, Google Pay, Garmin Pay. Technical style: photoreal luxury-offer architectural composite with premium retouching, golden-hour luxury architectural lighting, radiant sunrise bloom and warm reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "location",
+          "name": "Pullman Sai Gon Centre building reference",
+          "required": true,
+          "source": "architectural photo reference of Pullman Sai Gon Centre",
+          "usage": "Recreate the exact tower silhouette and hotel identity"
+        },
+        {
+          "type": "logo",
+          "name": "Tam Son and Techcombank logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Maintain the luxury retail partnership lockup"
+        },
+        {
+          "type": "text_layout",
+          "name": "Luxury architecture sale poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the centered building hero, location callout, and lifestyle badge placement"
+        }
+      ],
+      "prompt_instructions": "Keep the date range exactly as '16 - 17/07/2026'. Relative to Friday, July 17, 2026, that means yesterday through today, and it should remain unchanged because it is visible promotional copy."
+    }
+  }
+}

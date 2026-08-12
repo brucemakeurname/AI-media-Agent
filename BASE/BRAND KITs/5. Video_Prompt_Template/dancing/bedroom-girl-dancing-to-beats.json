@@ -1,0 +1,20 @@
+{
+  "name": "bedroom-girl-dancing-to-beats",
+  "tag": ["adult-woman", "bedroom", "slip-dress", "future-house", "dance", "spotlight"],
+  "image_type": "dance-video",
+  "image_vibe": "soft-atmospheric-playful",
+  "image_purpose": "tiktok-video",
+  "group": "dancing",
+  "prompt": {
+    "project_info": {"title": "Bedroom Future House slip-dress dance", "model": "Seedance 2.0", "source": "https://x.com/Adam38363368936/status/2035876116473549283"},
+    "main_subject": "An adult woman with long black hair wears the slip-dress shown in the supplied composite reference and dances playfully in a bedroom.",
+    "composition_elements": "9:16 bedroom performance with playful hip sways, arm waves, hit poses, and push-pull tracking synchronized to the beat.",
+    "lighting_and_atmosphere": "Soft overhead spotlight, gentle bedroom lighting and shadows, strong atmospheric sense.",
+    "technical_specs": {"camera": "Push-and-pull tracking that follows the music beat.", "motion": "Playful dance phrases with hip sway, arm waves, and hit poses.", "format": "9:16 vertical."},
+    "generated_prompt_string": "Real-life style dance video. An adult woman with long black hair wears the slip dress shown in the supplied reference and dances playfully to a Future House DJ track. Her movements include playful hip swaying, arm-wave steps, and hit poses that match the musical beat. The camera follows the beat with push-and-pull tracking shots. Set the scene inside a bedroom with a soft spotlight shining from above, gentle light and shadows, and a strong atmospheric feeling. Use a 9:16 aspect ratio. Keep motion natural and the outfit consistent with the supplied reference.",
+    "negative_prompt": "blurry, low definition, noise, watermark, text, logo, distortion, deformation, collapsed facial features, stiff movements, shaky image, disproportionate, explicit, nsfw, overly revealing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {"assets": [{"type": "person", "name": "adult-bedroom-dancer-reference", "required": true, "source": "dancing/bedroom-girl-dancing-to-beats_0.jpg", "usage": "Use the adult woman shown in the composite reference."}, {"type": "wardrobe", "name": "slip-dress-reference", "required": true, "source": "dancing/bedroom-girl-dancing-to-beats_0.jpg", "usage": "Use the slip-dress visible on the same composite reference; do not substitute it without request."}], "prompt_instructions": "The single supplied composite image is used for both the adult subject and her slip-dress because it visibly contains both. Preserve the bedroom, outfit, hair, dance concept, and beat-synced camera; replacements require an explicit request."},
+    "omni_video_prompt": {"scene_description": "An adult woman in a referenced slip dress performs a playful Future House dance in a softly lit bedroom.", "style": "Atmospheric real-life dance video.", "camera_direction": "Push-and-pull tracking synchronized to the beat.", "lighting": "Soft overhead spotlight with gentle shadows.", "voice": "None; no dialogue supplied.", "SFX": "Future House DJ dance track.", "environment": "Bedroom.", "element": [{"subject": "Adult woman with long black hair.", "wardrobe": "Referenced slip dress."}], "motion": "Hip sway, arm waves, hit poses, and beat-matched steps.", "ending": "Finish on a beat hit pose.", "text": "None.", "keyword": ["adult woman", "bedroom", "slip dress", "Future House", "dance", "spotlight"]}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Made the subject explicitly adult and confirmed the single composite image supplies both required subject and wardrobe references."]}
+}

@@ -1,0 +1,19 @@
+{
+  "name": "urban-platform-leather-girl",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "train-platform", "leather"],
+  "image_type": "train-platform-lifestyle-portrait",
+  "image_vibe": "casual-modern-candid",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a highly realistic urban lifestyle portrait of an approved adult woman standing on a train platform.",
+    "main_subject": "An approved adult woman with medium dark-brown hair tied in a low ponytail with soft bangs, wearing a beige ribbed high-neck cropped sweater, black leather jacket, flowing black midi skirt, and off-white canvas tote. She stands calmly looking to the side.",
+    "composition_elements": "Medium full-body eye-level portrait with yellow train, tracks, metal station roof, platform edge markings, and slightly softened background.",
+    "lighting_and_atmosphere": "Soft even overcast daylight, neutral palette contrasted by bright yellow train, candid modern urban mood.",
+    "technical_specs": "Photorealistic 35mm vertical portrait, realistic leather, knit, hair, train, rails, and architectural texture.",
+    "generated_prompt_string": "Create a photorealistic vertical 35mm medium-full portrait of an approved adult woman standing calmly on an urban train platform and looking to the side. She has dark-brown hair in a low ponytail with soft bangs and wears a beige ribbed high-neck cropped sweater, black leather jacket, flowing black midi skirt, and off-white canvas tote. Include a bright yellow train, tracks, metal roof, platform markings, soft overcast daylight, neutral tones, and candid modern street mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted train",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-train-platform-subject", "required": true, "source": "urban-platform-leather-girl.jpg", "usage": "Preserve adult identity, hair, expression, pose, and tote."}, {"type": "wardrobe", "name": "beige-knit-black-leather-midi-skirt", "required": true, "source": "urban-platform-leather-girl.jpg", "usage": "Keep clothing and tote consistent; replace only with explicit references."}, {"type": "location", "name": "yellow-train-platform", "required": true, "source": "urban-platform-leather-girl.jpg", "usage": "Maintain train, tracks, roof, markings, and daylight; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult while preserving the train-platform scene.", "Added safe negative prompts and structured references."]}
+}

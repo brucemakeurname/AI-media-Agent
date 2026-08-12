@@ -1,0 +1,77 @@
+{
+  "name": "techcombank-merchant-rewards-iphone17-pnj-upoint",
+  "tag": [
+    "merchant-rewards",
+    "iphone17",
+    "upoint",
+    "pnj-gold"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "techcombank_1496811072492054",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank merchant reward campaign for accepting payments",
+      "color_palette": "White, black, red, warm beige, gold"
+    },
+    "main_subject": {
+      "type": "Person/Object/Text",
+      "detail": "A smiling middle-aged female shop owner in a white shirt and bright red apron stands inside a restaurant or cafe, holding a smartphone payment device in one hand and a large red gift box in the other. The open box glows and contains a modern smartphone, gold bars labeled '999.9', and red U-point tokens. The headline reads 'San iPhone 17, vang PNJ va hang trieu diem U-Point' with subheadline 'Khi nhan thanh toan qua Techcombank'. Behind her is a blurred dining area with customers, a QR standee, counter POS terminal, and an angled phone screen showing '1,000,000'.",
+      "style": "Warm merchant-success poster blending realistic portrait photography with glossy prize-box 3D reward elements"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TECHCOMBANK / San iPhone 17, vang PNJ va hang trieu diem U-Point / Khi nhan thanh toan qua Techcombank / 999.9 / 1,000,000 / VUOT TROI MOI NGAY / (*) Ap dung theo dieu kien, dieu khoan chuong trinh",
+      "items": [
+        "Top Left: White negative space above the restaurant interior",
+        "Top Right: Techcombank wordmark and red logo",
+        "Bottom Left: 'VUOT TROI MOI NGAY' lockup beside the glowing reward gift box",
+        "Bottom Right: POS terminal, smartphone screen showing payment amount, and legal footnote",
+        "Center/Background: Female merchant portrait in front of a softly blurred dining space with QR stand, while an oversized open gift box floats in the foreground containing iPhone, gold bars, and red U-point tokens"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft indoor commercial portrait lighting",
+      "effect": "Warm ambient restaurant glow, gentle facial retouching, luminous prize-box bloom, shallow depth-of-field background blur"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal portrait compositing with 3D reward props for a banking campaign",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank merchant reward campaign. Centerpiece is a smiling female merchant in a red apron holding a phone while presenting a glowing oversized red gift box filled with an iPhone 17-style smartphone, 999.9 gold bars, and red U-point tokens. Background is a softly blurred cafe or restaurant interior with seated customers, a QR payment stand, and a POS counter setup. Surrounding elements: Techcombank logo, exact headline 'San iPhone 17, vang PNJ va hang trieu diem U-Point', subheadline 'Khi nhan thanh toan qua Techcombank', visible labels '999.9' and '1,000,000', bottom-left line 'VUOT TROI MOI NGAY', and the legal line '(*) Ap dung theo dieu kien, dieu khoan chuong trinh'. Technical style: photoreal portrait compositing with 3D reward props for a banking campaign, soft indoor commercial portrait lighting, warm ambient glow and shallow depth-of-field blur, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Female merchant portrait reference",
+          "required": true,
+          "source": "this creative or source shoot",
+          "usage": "Preserve facial identity, haircut, smile, apron styling, and front-facing pose"
+        },
+        {
+          "type": "product",
+          "name": "Reward objects including iPhone, PNJ gold bar, U-point token, QR stand, POS device",
+          "required": true,
+          "source": "official reward visuals and merchant payment hardware references",
+          "usage": "Keep the box contents and countertop payment ecosystem accurate"
+        },
+        {
+          "type": "location",
+          "name": "Casual restaurant or cafe interior",
+          "required": true,
+          "source": "reference photo matching the dining room background",
+          "usage": "Recreate the blurred merchant environment and table arrangement"
+        },
+        {
+          "type": "text_layout",
+          "name": "Merchant reward portrait poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the large headline above, centered portrait, and oversized glowing reward box in the foreground"
+        }
+      ],
+      "prompt_instructions": "Keep 'iPhone 17', 'vang PNJ', and 'hang trieu diem U-Point' exactly in the headline. The woman should remain the real-photo hero while the reward box and tokens feel like polished campaign props."
+    }
+  }
+}

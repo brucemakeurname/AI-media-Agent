@@ -1,0 +1,19 @@
+{
+  "name": "quiet-thoughts-busy-crowd",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "city-crowd", "headphones"],
+  "image_type": "crowd-motion-portrait",
+  "image_vibe": "introspective-golden-hour",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a realistic street portrait of an approved adult man standing still in a moving city crowd.",
+    "main_subject": "An approved adult man wearing large over-ear headphones, a textured scarf, and dark winter outerwear looks upward thoughtfully while remaining sharp against motion-blurred pedestrians.",
+    "composition_elements": "Centered vertical portrait, 85mm perspective, shallow depth of field, busy city intersection, blurred people, cars, and urban architecture.",
+    "lighting_and_atmosphere": "Warm golden-hour light on face and hair, natural color grading, emotional introspective mood and realistic bokeh.",
+    "technical_specs": "Photorealistic 85mm f/1.8 portrait, vertical framing, sharp subject, motion blur on crowd, realistic fabric, skin, headphones, and city texture.",
+    "generated_prompt_string": "Create a photorealistic vertical 85mm f/1.8 street portrait of an approved adult man standing still in a busy city crowd. He wears large over-ear headphones, a textured scarf, and dark winter outerwear, looking upward thoughtfully while surrounding pedestrians and traffic blur in motion. Use warm golden-hour light on his face and hair, shallow depth, natural color, realistic bokeh, and introspective mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, frozen crowd",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-city-crowd-subject", "required": true, "source": "quiet-thoughts-busy-crowd.jpg", "usage": "Preserve adult identity, expression, headphones, scarf, and still pose."}, {"type": "wardrobe", "name": "dark-coat-scarf-headphones", "required": true, "source": "quiet-thoughts-busy-crowd.jpg", "usage": "Keep outerwear, scarf, and headphones consistent; replace only with explicit references."}, {"type": "location", "name": "busy-golden-hour-city-street", "required": true, "source": "quiet-thoughts-busy-crowd.jpg", "usage": "Maintain crowd, traffic, buildings, and warm light; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the crowd-motion concept.", "Added safe negative prompts and structured references."]}
+}

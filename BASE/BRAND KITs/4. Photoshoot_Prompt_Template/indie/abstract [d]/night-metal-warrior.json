@@ -1,0 +1,72 @@
+{
+  "name": "night-metal-warrior",
+  "tag": [
+    "adult-woman",
+    "headphones",
+    "round-sunglasses",
+    "amber-lenses",
+    "yellow-circle",
+    "grunge-poster"
+  ],
+  "image_type": "music-poster-portrait",
+  "image_vibe": "underground-bold-grunge",
+  "image_purpose": "poster",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the subject is an adult while preserving the music-immersion poster pose."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "high-contrast underground music poster portrait",
+      "color_palette": "black, white, amber gold, mustard yellow",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with long straight hair, large over-ear headphones, and round reflective sunglasses with amber-gold lenses.",
+      "style": "low-angle monochrome music portrait with selective amber color"
+    },
+    "composition_elements": {
+      "text": "No rendered text, logo, or watermark.",
+      "items": [
+        "chest-up slightly low-angle portrait",
+        "one hand lifted near the hairline and one hand resting near the chin",
+        "large flat mustard-yellow disc behind the head",
+        "black field with subtle scratches, dust, and printed-flyer wear",
+        "selective amber color in the sunglasses over a mostly monochrome portrait"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "hard directional key at approximately 3200K with deep black negative fill",
+      "effect": "graphic contrast, reflective amber lenses, raw poster grain, and underground-club energy"
+    },
+    "technical_specs": {
+      "render_style": "50mm lens at f/2.8, low-angle crop, halftone-like print grain, distressed paper texture, controlled selective color",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Create a dark, high-contrast poster with a moody underground-club aesthetic. The composition features a chest-up, slightly low-angle monochrome portrait of an adult woman wearing large over-ear headphones and reflective round sunglasses with warm amber-gold lenses. One hand is raised near her hairline and the other rests near her chin in a dynamic, expressive music-immersion pose. Place a large flat mustard-yellow circular shape behind her head as a graphic spotlight. Use a deep black background with subtle grunge textures, dust, scratches, and printed-flyer wear. Keep the portrait mostly black and white with amber-gold selective color in the lenses. Use a 4:5 aspect ratio and do not render text, logos, or watermarks.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, text, logo, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, distorted headphones, unreadable typography",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "accessory",
+          "name": "over-ear-headphones-and-amber-round-sunglasses-reference",
+          "required": false,
+          "source": "Attach accessory references when exact headphone shape or lens tint matters.",
+          "usage": "Keep the over-ear silhouette and round amber-lens contrast; both accessories may be replaced."
+        },
+        {
+          "type": "graphic",
+          "name": "mustard-yellow-disc-and-grunge-poster-reference",
+          "required": false,
+          "source": "Attach a graphic reference when exact disc placement or paper distress is required.",
+          "usage": "Keep the flat circle behind the head and non-textual distressed-poster texture; these elements may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve the adult subject, headphone-and-sunglass pose, selective amber lenses, flat yellow disc, and non-textual grunge poster finish. Replace accessories and graphics independently; do not introduce logos or readable typography."
+    }
+  }
+}

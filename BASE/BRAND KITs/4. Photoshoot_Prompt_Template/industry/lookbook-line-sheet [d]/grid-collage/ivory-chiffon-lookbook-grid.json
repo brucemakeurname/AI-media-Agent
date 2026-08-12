@@ -1,0 +1,22 @@
+{
+  "name": "ivory-chiffon-lookbook-grid",
+  "tag": ["industry", "lookbook-line-sheet", "grid-collage", "ivory-chiffon", "lookbook"],
+  "image_type": "four-panel studio lookbook grid",
+  "image_vibe": "elegant, airy, understated, boutique",
+  "image_purpose": "luxury boutique lookbook and campaign grid",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Create a 2x2 minimalist studio fashion lookbook grid with one consistent adult model in an ivory chiffon halter dress.",
+    "main_subject": "An adult woman using the required approved-adult face reference, preserving identity and facial features consistently across panels. She has long dark soft waves and wears an ivory or champagne chiffon halter mini dress with high neck band, airy layered bubble hem, flowing fabric, open back, and a long scarf-like tie, with minimal nude or ivory strappy heels and small gold hoops.",
+    "composition_elements": "2x2 grid with thin gutters: front three-quarter hand near neck; side profile holding a small ivory woven clutch; back view showing open back and long tie; front pose with one hand behind head and subtle contrapposto. Clean off-white studio wall and seamless floor.",
+    "lighting_and_atmosphere": "Soft camera-left key with gentle right fill, minimal shadow hardness, clean neutral exposure, subtle analog grain, elegant airy high-end boutique mood.",
+    "technical_specs": "2:3 portrait grid, 50mm lens, f/3.2, full-body to three-quarter framing, tack-sharp face and garment texture, consistent exposure and color grade.",
+    "generated_prompt_string": "Minimal studio fashion lookbook 2x2 grid of an adult woman using the required approved-adult face reference, preserving identity and facial features across all panels. Long dark soft waves, small gold hoops, ivory or champagne chiffon halter mini dress with high neck band, airy layered bubble hem, flowing fabric, open back and long scarf-like tie, minimal nude or ivory strappy heels. Four panels: front three-quarter hand near neck; side profile holding a small ivory woven clutch; back view showing open back and long tie; front pose with one hand behind head and subtle contrapposto. Clean off-white studio wall and seamless floor, soft camera-left key, gentle right fill, minimal shadows, subtle analog grain, 50mm f/3.2, 2:3 portrait grid, elegant airy boutique lookbook.",
+    "negative_prompt": ["celebrity likeness", "public figure likeness", "explicit", "nsfw", "overly revealing", "nudity", "identity drift", "different face", "blurry", "low quality", "distorted anatomy", "extra fingers", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "logo", "text", "signature"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "ivory-chiffon-lookbook-grid.jpg", "required": true, "source": "workspace reference image", "usage": "Required approved-adult face reference for identity; preserve the visible adult model, dress, clutch, open-back tie, four poses, studio, and lighting."}],
+      "prompt_instructions": "Attach the required approved-adult reference. Preserve face, identity, outfit, grid, poses, studio, and lighting consistency; allow only panel crop and pose variation. Keep accessories, products, logos, and typography generic and replaceable."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

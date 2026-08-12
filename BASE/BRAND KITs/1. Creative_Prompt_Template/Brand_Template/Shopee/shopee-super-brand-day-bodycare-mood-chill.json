@@ -1,0 +1,70 @@
+{
+  "name": "shopee-super-brand-day-bodycare-mood-chill",
+  "tag": [
+    "super-brand-day",
+    "bodycare-promo",
+    "multi-brand",
+    "product-collage"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "shopee_1579176383551806",
+  "prompt": {
+    "project_info": {
+      "theme": "Shopee Mall Super Brand Day mood-chill bodycare campaign",
+      "color_palette": "Soft sky blue, mint green, white, coral orange, botanical gold"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A soft airy multi-brand bodycare poster with top logos for Xmen For Boss, Xmen, Lashe Superfood, Purite de Provence, Oliv, and Shopee Mall Super Brand Day. Giant headline reads 'CHON HUONG CHUAN GU MUI CHAT, MOOD CHILL (*)'. Three pale green offer boxes say 'DEAL DOC QUYEN', 'VOUCHER LEN DEN 25%', and '10.000 QUA TANG'. The product lineup includes a black Xmen Aqua Sport body wash, a pink Purite de Provence shimmering shower gel bottle, a black Xmen For Boss Pro roll-on, a Lashe Superfood facial-wash tube, and a transparent golden Oliv bottle. Bottom CTA says 'MUA NGAY TAI SHOPEE' and the footnote reads '(*) Mood Chill: Chi tam trang thoai mai, nhe nhang, thu gian'.",
+      "style": "Clean floating product-collage beauty poster with fresh botanical mood, premium packshot focus, and bright super-brand-day merchandising"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "Xmen FOR BOSS / Xmen / LASHE superfood / PURITE DE PROVENCE / oliv / Shopee Mall Super Brand Day / CHON HUONG CHUAN GU MUI CHAT, MOOD CHILL (*) / DEAL DOC QUYEN / VOUCHER LEN DEN 25% / 10.000 QUA TANG / MUA NGAY TAI SHOPEE / (*) Mood Chill: Chi tam trang thoai mai, nhe nhang, thu gian",
+      "items": [
+        "Top Left: Shopee logo and a row of product-brand logos",
+        "Top Right: Shopee Mall Super Brand Day logo lockup",
+        "Bottom Left: Lashe Superfood cleanser tube and part of the CTA button",
+        "Bottom Right: Oliv bottle angled upward with leaves and product sparkles",
+        "Center/Background: Airy sky-blue field with soft bokeh, giant red-orange headline, three pale-green promo boxes, and a floating product lineup featuring Xmen, Purite, and bodycare items"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft fresh commercial beauty lighting",
+      "effect": "Clean packshot highlights, gentle glow, floating leaf accents, airy botanical atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Multi-brand bodycare poster with premium packshot compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee Mall Super Brand Day bodycare campaign. Centerpiece is a floating product lineup featuring Xmen Aqua Sport body wash, Purite de Provence shimmering shower gel, Xmen For Boss Pro roll-on, Lashe Superfood facial wash, and an Oliv bottle. Background is a soft sky-blue beauty field with gentle glow, leaves, and clean sparkles. Surrounding elements: Shopee logo, brand-logo row for Xmen For Boss, Xmen, Lashe Superfood, Purite de Provence, and Oliv, headline 'CHON HUONG CHUAN GU MUI CHAT, MOOD CHILL (*)', offer boxes 'DEAL DOC QUYEN', 'VOUCHER LEN DEN 25%', and '10.000 QUA TANG', Shopee Mall Super Brand Day lockup, CTA 'MUA NGAY TAI SHOPEE', and the footnote '(*) Mood Chill: Chi tam trang thoai mai, nhe nhang, thu gian'. Technical style: multi-brand bodycare poster with premium packshot compositing, soft fresh commercial beauty lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Multi-brand bodycare packshot set",
+          "required": true,
+          "source": "official product renders or clean packshots for Xmen, Xmen For Boss, Lashe Superfood, Purite de Provence, and Oliv",
+          "usage": "Attach for exact packaging, logo placement, bottle shape, and label fidelity"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee Mall Super Brand Day and all brand logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Preserve the top logo row and the Super Brand Day lockup exactly"
+        },
+        {
+          "type": "text_layout",
+          "name": "Mood-chill multi-brand layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the exact headline, three offer boxes, CTA, and footnote placement"
+        }
+      ],
+      "prompt_instructions": "This is a soft, airy multi-brand bodycare collage. Preserve the exact visible wording, including the footnote definition of 'Mood Chill', and keep the floating product arrangement rather than turning it into a flat catalog grid."
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": "hot-dynamic-worth-it-dance",
+  "tag": [
+    "adult-dancer",
+    "worth-it-choreography",
+    "dynamic-dance",
+    "hair-flip",
+    "hip-movement",
+    "vertical-10-second-video"
+  ],
+  "image_type": "dance-choreography-video",
+  "image_vibe": "energetic-confident",
+  "image_purpose": "short-form-video",
+  "group": "dancing",
+  "prompt": {
+    "project_info": {
+      "title": "Dynamic Worth It dance choreography",
+      "model": "Seedance 2.0",
+      "source": "https://x.com/Adam38363368936/status/2026241534648320450"
+    },
+    "main_subject": "An adult dancer performing May J Lee's Worth It choreography with confident, dynamic full-body movement, arm patterns, leg lifts, hip movement, and hair flips.",
+    "composition_elements": "The dancer performs in a vertical 9:16 frame. The choreography alternates symmetrical arm pushes and pulls, side arm extensions with opposite-leg lifts, a waving hand gesture, hip movement, and hair flips.",
+    "lighting_and_atmosphere": "No lighting setup or environment is specified in the source. Preserve an energetic performance atmosphere without inventing a location or lighting design.",
+    "technical_specs": {
+      "aspect_ratio": "9:16",
+      "duration_pacing": "10 seconds as stated in the source; use it as narrative pacing rather than an API duration parameter.",
+      "camera": "No specific camera movement is provided; keep the full-body choreography readable.",
+      "audio": "Fifth Harmony and Kid Ink's Worth It is the named music reference; the source also specifies its chorus lyric cue."
+    },
+    "generated_prompt_string": "Generate a video of an adult dancer performing May J Lee's choreography for Worth It. Music reference: Fifth Harmony and Kid Ink's Worth It. First spread both feet apart, push arms forward, then pull arms back, then spread arms out like doing chest expansion exercises, then pull back, then extend the right arm to the right side and lift the left leg, then pull the arm back and put the left leg down. Repeat the opening sequence of spreading both feet apart, pushing arms forward, pulling arms back, spreading arms out, and pulling back. Next extend the left arm to the left side and lift the right leg, then pull the arm back, make a hand gesture like waving hello while moving the hips, and flip the hair while twisting the hips. Use a rhythmic hip accent once for each movement phrase. The background music cue includes the chorus phrase \"Give it to me I'm worth it baby I'm worth it, uh huh I'm worth it, gimme gimme I'm worth it.\" Vertical 9:16, paced as a 10-second short.",
+    "negative_prompt": "blurry, low resolution, noise, watermark, text, logo, distortion, deformation, disfigured face, stiff movements, camera shake, disproportionate, explicit, nsfw, overly revealing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "moodboard",
+          "name": "provided choreography reference",
+          "required": false,
+          "source": "dancing/hot-dynamic-worth-it-dance_0.jpg",
+          "usage": "Optional visual reference for performance energy and framing; do not infer identity or unsupported wardrobe details."
+        }
+      ],
+      "prompt_instructions": "The supplied image is optional because the source text defines the choreography. If attached, preserve the dynamic full-body dance framing. Character identity, wardrobe, location, and lighting may be replaced only when explicitly requested."
+    },
+    "omni_video_prompt": {
+      "scene_description": "An adult dancer performs a fast, confident Worth It choreography sequence with coordinated arm pushes, leg lifts, hip movement, and hair flips.",
+      "style": "Energetic polished dance-performance video with a confident rhythmic tone.",
+      "camera_direction": "Vertical 9:16 framing that keeps the dancer's full-body arm and leg choreography readable; no specific camera movement is supplied.",
+      "lighting": "No specific light source or color temperature is specified; retain clear performance visibility without inventing a setup.",
+      "voice": "None; no spoken dialogue or voice-over is specified.",
+      "SFX": "Music-driven choreography using the named Worth It track reference and chorus cue; no additional effects are specified.",
+      "environment": "The source does not specify a location; use an unobtrusive dance-performance setting without adding unsupported details.",
+      "element": [
+        {
+          "dancer": "Adult dancer performing May J Lee's Worth It choreography.",
+          "movement_sequence": "Feet apart, forward arm push and pull, chest-expansion arm spread and pull, alternating side arm extensions with opposite-leg lifts, wave gesture, rhythmic hip movement, and hair flip."
+        }
+      ],
+      "motion": "Execute the listed choreography in order, keeping each arm push, pull, leg lift, wave, hip accent, and hair flip synchronized to the music.",
+      "ending": "No specific ending is given; complete the final movement phrase within the short-form clip.",
+      "text": "None",
+      "keyword": [
+        "Worth It choreography",
+        "adult dancer",
+        "dynamic arm sequence",
+        "alternating leg lift",
+        "hair flip",
+        "rhythmic hip movement",
+        "music-synchronized dance",
+        "vertical 9:16",
+        "10-second pacing"
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the dancer as an adult.",
+      "Replaced the potentially sexualized repeated hip-thrust wording with a supported rhythmic hip accent while preserving the choreography's hip movement and energy.",
+      "Added required safety and AI-slop negative-prompt terms."
+    ]
+  }
+}

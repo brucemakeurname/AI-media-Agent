@@ -1,0 +1,66 @@
+{
+  "name": "retro-van-black-hair-girl",
+  "tag": [
+    "adult-woman",
+    "retro-van",
+    "analog-flash",
+    "black-hair",
+    "urban-night"
+  ],
+  "image_type": "analog-night-street-portrait",
+  "image_vibe": "rough-nostalgic-confident",
+  "image_purpose": "streetwear-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "source_url": "https://x.com/ai_with_shah/status/2019658173557137791",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced placeholder instructions with a complete adult portrait direction, removed the named van, all stickers, and the custom-text sign, and changed sleepwear to covered streetwear."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult retro-van analog flash street portrait",
+      "color_palette": "faded navy, black, cream, asphalt gray, flash white, and warm streetlamp amber",
+      "aspect_ratio": "2:3"
+    },
+    "main_subject": {
+      "description": "An adult woman with black windblown hair, light natural makeup, visible lashes, and a calm confident expression.",
+      "wardrobe": "Cream utility overshirt buttoned over a black T-shirt, relaxed charcoal trousers, and black leather boots.",
+      "pose": "Candid half-squat beside the rear quarter of a worn retro van, one hand resting lightly on a blank unmarked board, the other relaxed on the knee."
+    },
+    "composition_elements": {
+      "framing": "Vertical full-body night portrait with the van extending through the right side of the frame.",
+      "environment": "Quiet urban asphalt street, distant buildings, a faded navy unbranded retro van with plain windows, and a blank board with no writing or symbols."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Single analog 35mm flash, sharp subject exposure, darker underexposed background, and gentle wind movement in hair.",
+      "atmosphere": "Authentic, rough, nostalgic, and quietly self-assured."
+    },
+    "technical_specs": {
+      "camera": "35mm analog flash photography",
+      "quality": "rough paper grain, faint scratches, realistic flash falloff, unretouched skin, no digital-clean finish"
+    },
+    "generated_prompt_string": "Create a photoreal vertical 35mm analog-flash street portrait of an adult woman beside a faded navy unbranded retro van at night. She has black windblown hair, light natural makeup, visible lashes, and a calm confident expression. She wears a cream utility overshirt buttoned over a black T-shirt, relaxed charcoal trousers, and black leather boots. Pose her in a candid half-squat by the rear quarter of the van, one hand resting on a blank unmarked board and the other on her knee. Show a quiet asphalt street and distant buildings. Use one analog flash, sharp subject exposure, a darker underexposed background, rough paper grain, faint scratches, realistic flash falloff, and no stickers, logos, text, or symbols.",
+    "negative_prompt": "minor, sleepwear, pajama set, named vehicle, VW, Combi, sticker, readable board text, logo, watermark, digital-clean image, bright background, nudity, explicit, nsfw, overly revealing clothing, distorted anatomy",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use them only to replace adult wardrobe, van silhouette, or analog texture; remove all text, stickers, logos, and labels.",
+      "assets": [
+        {
+          "type": "vehicle_reference",
+          "name": "unbranded-worn-retro-van",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace van color, condition, and body shape without badges, stickers, or plates."
+        },
+        {
+          "type": "style_reference",
+          "name": "rough-35mm-night-flash-texture",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace grain, scratch, and flash-falloff character."
+        }
+      ]
+    }
+  }
+}

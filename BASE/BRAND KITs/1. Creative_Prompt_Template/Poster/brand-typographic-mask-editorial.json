@@ -1,0 +1,75 @@
+{
+    "name":  "brand-typographic-mask-editorial",
+    "tag":  [
+                "typographic mask",
+                "editorial design",
+                "brand campaign",
+                "bold sans-serif",
+                "limited edition"
+            ],
+    "biz_niche":  "Fashion & Apparel / Editorial",
+    "content_format":  "Brand story",
+    "group":  "poster_smart_prompt_system",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Brand-name photographic type-mask editorial",
+                                        "color_palette":  "Refined muted slate blue, charcoal gray, creamy off-white, one saturated brand accent"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Typography and photographic subject",
+                                        "detail":  "The brand name or iconic slogan is huge ultra-bold edge-to-edge sans-serif type; a high-end photograph is visible only inside the letterforms, with one sharp branded accent object serving as focal point.",
+                                        "style":  "Luxury minimal editorial typography, matte photographic mask, sparse 2026 limited-edition branding"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Type mask, subject crop, logo, and microcopy",
+                                                "text":  "[BRAND NAME]; 2026; [vertical tagline]",
+                                                "items":  [
+                                                              "Full Frame: giant tight-kerned brand-name letterforms function as a photographic cut-out window.",
+                                                              "Inside Mask: muted slate, charcoal, and cream commercial photograph, cropped by the letterforms only.",
+                                                              "Accent: one saturated brand-color object, such as a red shoe or glowing headlight, becomes focal point inside a letter.",
+                                                              "Corners: tiny single-color logo and microscopic vertical tagline.",
+                                                              "Background: clean solid white with no imagery outside the text."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Diffused softbox studio lighting",
+                                                   "effect":  "Cinematic gentle highlights and shadows, high-definition matte finish, zero visual noise"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "High-end commercial editorial photography with typography mask compositing",
+                                           "resolution":  "4k resolution, highly detailed, vertical poster"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "approved brand logo and wordmark",
+                                                                 "required":  true,
+                                                                 "source":  "brand asset library",
+                                                                 "usage":  "Use exact identity asset only in the tiny corner treatment."
+                                                             },
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "brand subject and focal accent object",
+                                                                 "required":  true,
+                                                                 "source":  "approved campaign product or photography",
+                                                                 "usage":  "Choose a recognizable subject with one saturated branded-color detail visible through type."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "brand-name type-mask layout",
+                                                                 "required":  true,
+                                                                 "source":  "source preview",
+                                                                 "usage":  "Preserve giant edge-to-edge heavy sans-serif letters and white outside area."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach approved brand logo, wordmark, and subject reference.",
+                                                                          "The photographic scene must be visible only inside the letterforms; keep outside pure white.",
+                                                                          "Set exact brand typography and microcopy in post-production."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "[ BRAND NAME ]. Act as a Senior Editorial Designer and Typographer. PHASE 1: TYPOGRAPHIC MASK (THE \"WINDOW\" EFFECT). - Core Element: Use the most iconic slogan or the name of [ BRAND NAME ] as a massive, ultra-bold, heavy sans-serif typographic mask. - Layout: The letters must be giant, filling the entire vertical frame from edge to edge with tight kerning. - Concept: The text acts as a \"cut-out\" window. The background is solid white, and the photographic subject is visible ONLY through the letterforms. PHASE 2: DYNAMIC SUBJECT LOGIC. - Subject Selection: - Detail: Ensure a high-contrast element (like a red shoe or a glowing headlight) is visible through one of the letters as a focal point. PHASE 3: SOPHISTICATED MUTED PALETTE. - Atmosphere: Use a \"Refined Muted\" color scheme. - Tones: Soft slate blues, charcoal greys, and creamy off-whites for the photography inside the mask. - Accent: Identify one sharp, saturated accent color belonging to [ BRAND NAME ] and apply it to a single key object visible through the text. PHASE 4: PHOTOGRAPHY \u0026 LIGHTING. - Lighting: Soft-box studio lighting. Diffused shadows and gentle highlights to create a cinematic, high-end editorial feel. - Finish: Clean, matte texture with zero visual noise. High-definition photographic quality. PHASE 5: MINIMALIST BRANDING. - Accents: Add a tiny minimalist logo and a small vertical tagline in a clean, microscopic sans-serif font near the corners. - Year: Include the year \"2026\" in a subtle, elegant font to mimic a limited-edition look.",
+                   "negative_prompt":  "photography outside letters, loose kerning, clutter, neon palette, noisy texture, wrong logo, unreadable microcopy, low resolution, watermark, signature"
+               }
+}

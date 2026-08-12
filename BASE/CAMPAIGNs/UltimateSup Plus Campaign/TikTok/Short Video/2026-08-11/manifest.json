@@ -1,0 +1,37 @@
+{
+  "campaign_unit": "PVL ISO Gold Singlish UGC Short Video",
+  "product": "PVL ISO Gold 100% Whey Isolate",
+  "flavour": "Iced Mocha Cappuccino",
+  "retailer": "UltimateSup",
+  "platform": "TikTok",
+  "format": "Short Video (9:16)",
+  "language": "English / Singlish",
+  "target_duration_s": 101.0,
+  "final_video": "PVL-ISO-Gold-Singlish-UGC-2026-08-11.mp4",
+  "thumbnail": "thumbnail.jpg",
+  "resolution": "1080x1920",
+  "fps": 24,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "audio_sample_rate_hz": 44100,
+  "scene_count": 10,
+  "scene_duration_s": 10,
+  "end_card_freeze_s": 1.0,
+  "flowkit_renders": {
+    "model": "Omni Flash reference-to-video",
+    "project_id": "9d0ab445-cfbd-4f4e-85b6-94bd629d5342",
+    "ref_map": "node/flowkit-ref-map.json",
+    "traceability_log": "node/flowkit-video-renders.json"
+  },
+  "applio_voice_sync": {
+    "skill": "applio-brand-voice",
+    "model": "applio-brand-voice-v2-10m",
+    "target_median_f0_hz": 130.8,
+    "f0_range_hz": "120.0 - 135.0",
+    "all_scenes_passed": true
+  },
+  "upscale_status": "local_1080p_fallback",
+  "upscale_note": "Flowkit raw renders were 720x1280. Flowkit API upscale returned operational media IDs that required fallback to local high-quality ffmpeg scaling for 1080x1920 composition.",
+  "review_status": "review_required",
+  "created_at": "2026-08-11"
+}

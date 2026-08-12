@@ -1,0 +1,22 @@
+{
+  "name": "prompt-354",
+  "tag": ["industry", "lookbook-line-sheet", "editorial-fashion", "lace-gown", "portrait"],
+  "image_type": "high-fashion evening-gown portrait",
+  "image_vibe": "elegant, dramatic, luminous, refined",
+  "image_purpose": "eveningwear lookbook and editorial portrait",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create an ultra-detailed photorealistic high-fashion evening-gown portrait in a light-gray studio.",
+    "main_subject": "An adult fictional woman with original features, elegant low-bun updo, natural realistic skin, and a calm confident expression. She wears a deep-white lace and sequin evening gown with a dramatic V neckline and refined fitted silhouette.",
+    "composition_elements": "Centered upper-body portrait, intricate lace and sequin detail across the gown, soft-gray background with a defined cast shadow, strong face and fabric hierarchy.",
+    "lighting_and_atmosphere": "Soft studio lighting with dramatic shadowplay, controlled highlights on sequins and lace, polished editorial atmosphere.",
+    "technical_specs": "Hyperrealistic 8K-style fashion photography, sharp facial and textile detail, natural proportions, clean light-gray studio, no logos or text.",
+    "generated_prompt_string": "Ultra-detailed photorealistic portrait of an adult fictional woman with original features, elegant low-bun updo, natural realistic skin, and a calm confident expression, wearing a deep-white lace and sequin evening gown with a dramatic V neckline and refined fitted silhouette. High-fashion editorial, soft studio lighting, light-gray background, dramatic shadowplay, hyperrealistic 8K-style detail, sharp face and fabric texture.",
+    "negative_prompt": "celebrity likeness, public figure likeness, explicit, nsfw, overly revealing, nudity, blurry, low quality, distorted anatomy, extra fingers, deformed, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, text, signature",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "prompt-354.jpg", "required": true, "source": "workspace reference image", "usage": "Reference the adult model's low bun, white lace sequin gown, neckline, portrait crop, gray background, and shadowplay while keeping identity generic."}],
+      "prompt_instructions": "Attach the required reference image. Preserve gown construction, pose, lighting, shadow, and editorial consistency. Use an original adult fictional identity; keep wardrobe, products, logos, environment, and typography generic and replaceable."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an adult fictional woman and retained the dramatic gown neckline as fashion styling without explicit framing."]}
+}

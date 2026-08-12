@@ -1,0 +1,27 @@
+{
+  "name": "cinematic-fashion-man-with-red-jeep",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-nature", "red-jeep", "menswear"],
+  "image_type": "cinematic-vehicle-fashion-portrait",
+  "image_vibe": "dramatic-bold-tropical",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a hyper-realistic cinematic portrait of an approved adult man casually posed with a vintage red Jeep in bright tropical daylight.",
+    "main_subject": "An approved adult man with naturally messy dark hair and sunglasses, wearing a relaxed white linen shirt, dark brown trousers, and a smartwatch. He leans or sits casually against the red Jeep while looking to the side with a bold confident attitude.",
+    "composition_elements": "Vertical medium-full portrait with the red Jeep clearly visible behind or beside the subject, palm trees and open sky in the background, and a relaxed fashion-editorial stance.",
+    "lighting_and_atmosphere": "Bright natural daylight with wind movement, dark-green cinematic color grade, strong confident tropical atmosphere, realistic linen and vehicle texture.",
+    "technical_specs": "Hyper-realistic 8K-style digital photography, vertical framing, sharp subject and Jeep, natural depth of field, accurate hands and vehicle geometry.",
+    "generated_prompt_string": "Create a hyper-realistic vertical cinematic portrait of an approved adult man with naturally messy dark hair and sunglasses beside a vintage red Jeep in bright tropical daylight. Dress him in a relaxed white linen shirt, dark brown trousers, and a smartwatch. Let him lean or sit casually against the Jeep while looking to the side with a bold confident attitude. Include palm trees and open sky, wind movement, dark-green cinematic grading, realistic linen and vehicle textures, and natural depth of field.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, warped vehicle",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-red-jeep-subject", "required": true, "source": "cinematic-fashion-man-with-red-jeep.jpg", "usage": "Preserve adult identity, hair, sunglasses, expression, and casual vehicle pose."},
+        {"type": "wardrobe", "name": "white-shirt-brown-trousers-smartwatch", "required": true, "source": "cinematic-fashion-man-with-red-jeep.jpg", "usage": "Keep shirt, trousers, watch, and styling consistent; replace only with explicit wardrobe references."},
+        {"type": "vehicle", "name": "vintage-red-jeep", "required": true, "source": "cinematic-fashion-man-with-red-jeep.jpg", "usage": "Maintain red Jeep form, placement, and visible details; replace only with explicit vehicle references."},
+        {"type": "location", "name": "tropical-palm-daylight", "required": true, "source": "cinematic-fashion-man-with-red-jeep.jpg", "usage": "Preserve palms, sky, wind, and daylight; replace only with explicit location references."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, vehicle, and location references when exact consistency is required. Keep adult identity, outfit, vehicle/product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the red-Jeep fashion concept.", "Added safe negative prompts and structured vehicle references."]}
+}

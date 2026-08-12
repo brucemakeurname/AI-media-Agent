@@ -1,0 +1,73 @@
+{
+  "name": "90s-flash-dark-bad-boy",
+  "tag": [
+    "adult-man",
+    "1990s-disposable-flash",
+    "black-and-white",
+    "house-party",
+    "dark-academia"
+  ],
+  "image_type": "flash-party-portrait",
+  "image_vibe": "grainy-noir-rebellious",
+  "image_purpose": "social-editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult and converted the uploaded-selfie instruction into a required approved adult identity reference; preserved the 1990s flash, house-party, and dark-academia concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "1990s disposable-camera dark-academia house-party portrait",
+      "color_palette": "high-contrast black and white with charcoal shadows and bright flash highlights",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "A handsome adult man matching the required approved adult non-public-figure identity reference, with dark curly hair, a sharp jawline, light-colored irises, and natural skin texture.",
+      "wardrobe": "Black button-down shirt with a relaxed collar and matte fabric.",
+      "pose": "Standing upright at the party, shoulders relaxed, staring directly into the lens with an intense, self-possessed gaze."
+    },
+    "composition_elements": {
+      "framing": "Centered eye-level chest-up portrait with the subject filling most of the vertical frame.",
+      "environment": "Dark house-party interior with soft silhouettes, simple bunting, and indistinct background lights; no readable text or logos.",
+      "focus": "Sharp eyes and facial structure with authentic disposable-camera grain around the edges."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Harsh on-camera disposable-camera flash with deep falloff, crisp facial highlights, and natural background shadow.",
+      "atmosphere": "Raw, moody, youthful-in-spirit but clearly adult, and dark-academia rebellious."
+    },
+    "technical_specs": {
+      "camera": "1990s disposable film camera, 35mm equivalent lens, direct flash, 1/60 s, ISO 800",
+      "quality": "High-contrast monochrome film, visible grain, slight halation, natural pores, and non-AI-generated documentary character"
+    },
+    "generated_prompt_string": "Create a high-contrast black-and-white 4:5 1990s disposable-camera portrait of a handsome adult man matching the required approved adult non-public-figure identity reference. He has dark curly hair, a sharp jawline, light-colored irises, and natural skin texture. He wears a black button-down shirt and stands upright at a dark house party, staring directly into the lens with an intense, self-possessed gaze. Use harsh on-camera flash, deep falloff, crisp facial highlights, soft party silhouettes, simple indistinct bunting, authentic disposable-camera grain, slight halation, and a raw dark-academia rebellious atmosphere. No readable text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, celebrity likeness, nudity, explicit, nsfw, overly revealing, readable text, logo, watermark, plastic skin, over-smooth skin, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "The required approved adult identity reference must be attached and used only to preserve adult facial identity and facial structure. Optional wardrobe or environment references may replace only their named element; preserve the direct-flash monochrome treatment and remove brands or readable text.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Preserve the adult subject's facial identity and structure only; do not imitate a celebrity or blend faces."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-button-down-shirt",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the adult subject's shirt while keeping the relaxed dark-academia styling."
+        },
+        {
+          "type": "location",
+          "name": "dark-house-party-interior",
+          "required": false,
+          "source": "user-uploaded environment reference",
+          "usage": "Replace only the party interior and background silhouettes; remove readable signs and logos."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "red-suit-9-grid-reference",
+  "tag": ["red-suit", "angle-reference", "nine-panel", "typography", "grid-collage"],
+  "image_type": "editorial-angle-reference-sheet",
+  "image_vibe": "cinematic-high-end",
+  "image_purpose": "lookbook",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "High-resolution editorial angle reference sheet in a perfect 3x3 grid for a high-end fashion lookbook.",
+    "main_subject": "One original approved adult woman with short silver hair, natural skin texture and consistent approved-adult facial structure across all nine panels.",
+    "composition_elements": "Oversized red suit jacket and trousers, white dress shirt and black necktie fixed across all panels. Center the subject in each cell with consistent framing and balanced spacing. Row 1: front medium waist-up direct gaze, close-up on face and eyes, three-quarter turn. Row 2: exact side profile, low-angle full body, high-angle view. Row 3: over-shoulder look back, slight Dutch tilt and natural mid-walk pose. Add clean white sans-serif angle labels at the bottom center of each cell.",
+    "lighting_and_atmosphere": "Soft professional studio lighting with subtle fill on a neutral light-grey cyclorama, cinematic high-end fashion mood and consistent illumination.",
+    "technical_specs": "Ultra-photorealistic editorial photography, 3x3 grid, 4:5 aspect ratio, 85mm portrait look, shallow depth of field, sharp focus on face and outfit, visible fabric texture and accurate anatomy.",
+    "generated_prompt_string": "Create a high-resolution editorial angle reference sheet in a perfect 3x3 grid with one original approved adult woman, preserving approved-adult facial structure, short silver hair, natural skin tone and consistent identity across all nine panels. Wardrobe is fixed in every panel: oversized red suit jacket and trousers, white dress shirt and black necktie with a clean editorial oversized fit. Use a neutral light-grey studio cyclorama, soft professional studio lighting with subtle fill, an 85mm portrait look, shallow depth of field, sharp focus on face and outfit, visible fabric texture, natural skin and consistent lighting. Center the subject in every cell with consistent framing and balanced spacing. Row 1: front medium waist-up direct gaze, close-up on face and eyes, three-quarter turn of torso and face. Row 2: exact side profile, low-angle full body, camera slightly above. Row 3: over-the-shoulder look back, slight Dutch tilt and natural mid-walk pose. Add clean white sans-serif text at the bottom center of each cell showing the angle. Use ultra-photorealistic, cinematic, high-end editorial fashion photography, accurate anatomy and 4:5 aspect ratio.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, nudity, child, teen, identity change, distorted anatomy, extra limbs, inconsistent clothing, busy background, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, unreadable labels, garbled text",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "red-suit-9-grid-reference.jpg", "required": true, "source": "local reference image", "usage": "Attach for the original approved-adult face, facial structure, hair, expression and consistent identity across all nine panels."},
+        {"type": "wardrobe", "name": "oversized red suit, white dress shirt and black necktie", "required": true, "source": "local reference image", "usage": "Preserve fixed supplied wardrobe, tailoring, color, fit and fabric texture across every cell."},
+        {"type": "background", "name": "neutral light-grey studio cyclorama", "required": true, "source": "local reference image", "usage": "Preserve cyclorama, neutral tone, framing and studio environment."},
+        {"type": "text_layout", "name": "white angle labels at bottom center of each cell", "required": true, "source": "local reference image", "usage": "Preserve the nine-cell label positions and clean sans-serif typography; replace only with equivalent supplied labels."}
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, background and text-layout references; no optional assets are needed. Keep approved-adult identity, outfit, nine-panel count, camera angles, environment, lighting and typography consistent. Replace only with an equivalent approved adult, supplied wardrobe, studio or label layout. Preserve supplied labels exactly; do not invent logos or extra text."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced exact selfie identity locking with an original approved adult while preserving the red-suit angle sheet, fixed wardrobe, labels and 3x3 composition."]}
+}

@@ -1,0 +1,43 @@
+﻿{
+    "name":  "grey-sporty-girl-mirror-selfie",
+    "tag":  [
+                "ugc",
+                "selfie-pov",
+                "sporty-active",
+                "private-indoor",
+                "grey-athleisure",
+                "mirror",
+                "fitness"
+            ],
+    "image_type":  "grey-athleisure-mirror-selfie",
+    "image_vibe":  "clean-athletic-neutral",
+    "image_purpose":  "athleisure mirror selfie",
+    "group":  "sporty-active",
+    "prompt":  {
+                   "project_info":  "Photorealistic athleisure mirror selfie adapted from the source prompt.",
+                   "main_subject":  "Clearly adult woman with light tan skin, dark brunette hair in a high messy ponytail, loose face-framing strands and curvy athletic build, wearing a matching grey heather racerback sports bra with thick underband and tight dolphin-hem shorts.",
+                   "composition_elements":  "Mirror selfie with torso slightly turned, phone visible, indoor fitness or bedroom setting and subtle upper-back muscle definition.",
+                   "lighting_and_atmosphere":  "Soft indoor light, clean neutral athletic mood and realistic fabric texture.",
+                   "technical_specs":  "Vertical smartphone mirror selfie, accurate reflection, detailed hair, hands, heather fabric and natural skin, subtle grain.",
+                   "generated_prompt_string":  "Photorealistic vertical mirror selfie of a clearly adult woman with light tan skin and dark brunette hair in a high messy ponytail, curvy athletic build, wearing a matching grey heather racerback sports bra with thick underband and tight dolphin-hem shorts, torso slightly turned with phone visible, subtle upper-back definition, clean indoor fitness setting, soft light, realistic athleisure texture, no text or logos.",
+                   "negative_prompt":  "explicit, nsfw, overly revealing, exposed body, exposed breasts, exposed genitals, child, minor, sexual pose, exaggerated anatomy, bad hands, watermark, text, logo",
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "moodboard",
+                                                                 "name":  "grey-sporty-girl-mirror-selfie_0.jpg",
+                                                                 "required":  true,
+                                                                 "source":  "local asset",
+                                                                 "usage":  "Use for ponytail, grey athleisure set, mirror pose, upper-back definition and indoor setting."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  "Attach the local asset as required. Preserve the clearly adult subject, exact athletic outfit, neutral mood and mirror framing; remove numerical anatomy emphasis and do not reproduce celebrity likeness."
+                                          }
+               },
+    "policy_review":  {
+                          "status":  "remediated",
+                          "changes":  [
+                                          "Removed explicit anatomical proportion language while preserving the matching grey athleisure set and athletic silhouette."
+                                      ]
+                      }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "grey-suit-goddess-studio",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "power-suit", "architectural"],
+  "image_type": "power suit architectural studio portrait",
+  "image_vibe": "confident, refined, cinematic, modern",
+  "image_purpose": "women's tailoring lookbook and editorial campaign",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a high-fashion 4:5 studio portrait of one original approved adult woman in a tailored gray power suit leaning against a tall matte-white cube.",
+    "main_subject": "Original approved adult woman with hair in a sleek low bun, calm composed self-assured expression, natural skin texture, gray textured tailored power suit with feminine silhouette, crisp white shirt with a softly open collar, and hands positioned naturally with one in a trouser pocket.",
+    "composition_elements": ["Subject leans casually against a tall matte-white cube with ankles crossed and gaze turned away from camera.", "Neutral gray studio wall receives a sharp elongated silhouette shadow.", "Minimal architectural composition with clean negative space, crisp tailoring, and controlled highlights."],
+    "lighting_and_atmosphere": "Dramatic low-key directional studio lighting with strong contrast, sculpted highlights on face and suit, deep shadows, and a sharp silhouette shadow on the gray wall.",
+    "technical_specs": "Photorealistic 4:5 vertical portrait, 85mm lens at f/2.8, shallow depth of field, 8K detail, realistic skin, shirt, wool texture, cube, and shadow, cinematic tonal grading, no text or watermark.",
+    "generated_prompt_string": "High-fashion cinematic studio portrait of one original approved adult woman with hair in a sleek low bun, calm composed self-assured expression and natural skin texture. She wears a gray textured tailored power suit with a feminine silhouette and a crisp white shirt with a softly open collar. Lean casually against a tall matte-white cube, one hand in a trouser pocket, ankles crossed, head turned to the side and gaze away from camera. Use dramatic low-key directional lighting, sculpted highlights, deep shadows, sharp elongated silhouette shadow on a neutral gray wall, minimalist luxury studio, 85mm f/2.8, 4:5 vertical framing, 8K detail, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "distorted anatomy", "extra fingers", "warped suit", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "grey-suit-goddess-studio.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult identity, face, hair, expression, outfit, and pose."}, {"type": "wardrobe", "name": "gray textured power suit and crisp white shirt", "required": true, "source": "local reference image", "usage": "Preserve tailoring, fabric, silhouette, shirt, and pocket pose."}, {"type": "location", "name": "matte-white cube and neutral gray studio wall", "required": true, "source": "local reference image", "usage": "Preserve cube, wall, shadow, and architectural environment."}],
+      "prompt_instructions": "Attach all required person, wardrobe, and location references; no optional assets are needed. Keep identity, face, hair, outfit, pose, cube, shadow, environment, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent suit, or equivalent studio reference. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced the public-figure identity and removed suggestive wording while preserving the gray suit, white shirt, pose, cube, shadow, and cinematic editorial concept."]}
+}

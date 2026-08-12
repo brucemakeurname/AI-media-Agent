@@ -1,0 +1,72 @@
+{
+  "name": "vintage-sepia-ethereal-portrait",
+  "tag": [
+    "wet-plate",
+    "sepia-portrait",
+    "ethereal",
+    "windblown",
+    "fine-art-fashion",
+    "analogue-texture"
+  ],
+  "image_type": "fine-art-fashion-portrait",
+  "image_vibe": "ghostly-contemplative-aged",
+  "image_purpose": "editorial-concept-art",
+  "group": "indie/analog-vintage",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult woman and replaced imitation wording with a period-process-inspired texture description."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "weathered wet-plate-inspired portrait in a windswept, indistinct landscape",
+      "color_palette": "monochromatic sepia, soft charcoal, and aged paper beige",
+      "format": "vertical three-quarter fine-art portrait"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "Serene adult woman in profile facing right, with a windswept loose low bun, natural sharp cheekbone structure, and a textured ribbed V-neck wrap dress with a cinched waist and three-quarter sleeves.",
+      "style": "contemplative, composed, non-sexualized fashion portrait"
+    },
+    "composition_elements": {
+      "text": "no text, logos, watermarks, or signage",
+      "items": [
+        "indistinct outdoor horizon with wind-softened atmosphere",
+        "three-quarter figure with a calm profile and relaxed arms",
+        "a subtle horizontal motion-smear band crossing the lower portrait",
+        "aged plate texture with restrained scratches, dust, and edge wear"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft overcast daylight diffused through haze",
+      "effect": "quiet, spectral, worn atmosphere with low contrast and gentle tonal falloff"
+    },
+    "technical_specs": {
+      "camera": "large-format 4x5 camera",
+      "lens": "210mm portrait lens at f/4.5",
+      "render_style": "wet-plate-inspired sepia monochrome, natural film grain, controlled plate scratches, mild motion blur, no digital gloss"
+    },
+    "generated_prompt_string": "Create a vertical three-quarter fine-art portrait of an adult woman standing in a windy, indistinct outdoor landscape. She faces right in serene profile, with a loose low bun and windblown strands, wearing a textured ribbed V-neck wrap dress with a cinched waist and three-quarter sleeves. Render the scene as a wet-plate-inspired sepia photograph with soft overcast light, aged plate texture, restrained scratches and dust, mild edge wear, fine grain, and a subtle horizontal motion-smear band. Keep the mood quiet, ghostly, and contemplative, with realistic anatomy and fabric texture. No text, logo, watermark, or sexualized styling.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, nudity, lingerie, sexualized pose, glamour retouching, neon color, glossy digital skin, excessive scratches, harsh HDR, distorted hands, duplicate limbs, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if a specific identity is required.",
+          "usage": "Replace only the adult subject's identity while retaining the profile pose, wardrobe silhouette, and wet-plate treatment."
+        },
+        {
+          "type": "wardrobe",
+          "name": "ribbed-wrap-dress-reference",
+          "required": false,
+          "source": "Attach a garment reference.",
+          "usage": "Replace the dress material or color while retaining the wrap silhouette and period-photograph mood."
+        }
+      ],
+      "prompt_instructions": "Use only adult subject references. When replacing an element, preserve the windswept outdoor composition, profile direction, restrained pose, sepia palette, and aged photographic texture."
+    }
+  }
+}

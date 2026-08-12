@@ -1,0 +1,63 @@
+{
+  "name": "toyota-family-checklist-value-preservation",
+  "tag": [
+    "family",
+    "ownership-value",
+    "maintenance-benefits",
+    "checklist"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Infographics",
+  "group": "toyota_1560533965730282",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota ownership peace of mind and value preservation",
+      "color_palette": "Light blue, white, navy, soft brown"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A checklist-style poster with three large blue check-mark bullets reading 'AN TAM TREN MOI HANH TRINH', 'TIET KIEM LUC CHI PHI BAO DUONG', and 'BAO TOAN GIA TRI XE'. In the lower half, a family of four smiles from inside a white Toyota vehicle: father driving, mother in the front passenger seat, and two children in the back. The background is a pale blue gradient with faint city-skyline silhouettes.",
+      "style": "Clean family-benefit infographic combining straightforward checklist messaging with a reassuring real-car family portrait"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "AN TAM TREN MOI HANH TRINH / TIET KIEM LUC CHI PHI BAO DUONG / BAO TOAN GIA TRI XE",
+      "items": [
+        "Top Left: First checklist item with blue check icon",
+        "Top Right: Open light-blue space and skyline silhouette",
+        "Bottom Left: Driver and front passenger smiling through the side window",
+        "Bottom Right: Two children seated in the rear row smiling toward camera",
+        "Center/Background: Three stacked checklist statements above a side-window family portrait inside a white Toyota vehicle"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft clean lifestyle lighting",
+      "effect": "Gentle skin retouching, light infographic clarity, reassuring family tone"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal family portrait integrated into a checklist-style infographic poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for Toyota ownership benefits and long-term value. Centerpiece is a smiling family of four inside a white Toyota vehicle, shown through the side windows, placed below a large three-item checklist. Background is a pale blue gradient with faint skyline silhouettes. Surrounding elements: exact checklist text 'AN TAM TREN MOI HANH TRINH', 'TIET KIEM LUC CHI PHI BAO DUONG', and 'BAO TOAN GIA TRI XE'. Technical style: photoreal family portrait integrated into a checklist-style infographic poster, soft clean lifestyle lighting, gentle retouching and reassuring tone, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Family-of-four in-car portrait",
+          "required": true,
+          "source": "source photo or this creative",
+          "usage": "Preserve the exact seating arrangement, smiles, and framing through the vehicle windows"
+        },
+        {
+          "type": "text_layout",
+          "name": "Three-checklist benefit poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the large blue check icons, the stacked lines, and the family image occupying the lower half"
+        }
+      ],
+      "prompt_instructions": "Keep the wording exactly as visible, including the typo-like form 'TIET KIEM LUC CHI PHI BAO DUONG' if that is how it appears in the creative. Do not auto-correct visible copy."
+    }
+  }
+}

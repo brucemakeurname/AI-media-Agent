@@ -1,0 +1,77 @@
+{
+  "name": "samsung-galaxy-buds4-pro-uhq-audio-24bit-96khz",
+  "tag": [
+    "earbuds-launch",
+    "audio-quality",
+    "uhq-audio",
+    "infographic"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Infographics",
+  "group": "samsung_1388395979995543",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy Buds4 Pro ultra high quality audio poster",
+      "color_palette": "Pale sky blue, violet, pink, white, black, metallic silver"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Audio-quality infographic showing a smartphone screen with Advanced quality options toggles for Galaxy Buds4 Pro, flanked by two metallic earbuds over layered waveform mountains and technical codec text.",
+      "style": "Photorealistic UI-feature render, pastel audio-tech infographic, clean Samsung feature marketing"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Hear every layer come alive / Galaxy Buds4 Pro / Advanced quality options / Ultra high quality (UHQ) audio / Super wide band speech / 24-bit / 96 kHz / Samsung Seamless Codec - UHQ",
+      "items": [
+        "Top Left: Large white headline 'Hear every layer come alive'.",
+        "Top Right: Smaller white subtitle 'Galaxy Buds4 Pro'.",
+        "Bottom Left: Large white technical line '24-bit / 96 kHz'.",
+        "Bottom Right: White line 'Samsung Seamless Codec - UHQ'.",
+        "Center/Background: Smartphone front view showing the Advanced quality options settings page with one blue toggle on and one gray toggle off, flanked by two metallic earbuds and layered pastel waveform mountains behind."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio lighting",
+      "effect": "Clean UI legibility, glossy earbud highlights, luminous pastel waveform depth"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product and UI render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy Buds4 Pro ultra high quality audio poster. Centerpiece is a smartphone displaying an 'Advanced quality options' settings page for Galaxy Buds4 Pro, flanked by two metallic earbuds against pastel waveform mountains. Background is a pale sky-blue audio-tech gradient. Surrounding elements: exact headline 'Hear every layer come alive', subtitle 'Galaxy Buds4 Pro', large technical claim '24-bit / 96 kHz', and line 'Samsung Seamless Codec - UHQ'. Technical style: photorealistic product and UI render, soft studio lighting, crisp UI legibility and glossy earbud highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy Buds4 Pro silver earbuds",
+          "required": true,
+          "source": "official Samsung earbud renders",
+          "usage": "Preserve the exact metallic stem texture and earbud silhouette."
+        },
+        {
+          "type": "ui_reference",
+          "name": "Advanced quality options settings screen",
+          "required": true,
+          "source": "original creative or official UI",
+          "usage": "Keep the UHQ audio toggle, super wide band speech toggle, and exact text blocks."
+        },
+        {
+          "type": "graphic",
+          "name": "pastel waveform mountain background",
+          "required": true,
+          "source": "original poster graphics",
+          "usage": "Retain the layered blue-violet-pink waveform landscape behind the phone."
+        },
+        {
+          "type": "text_layout",
+          "name": "headline and codec claim typography",
+          "required": true,
+          "source": "original poster",
+          "usage": "Keep exact wording and lower technical claim lockup."
+        }
+      ],
+      "prompt_instructions": "Use refs for the settings UI and both earbuds. This image depends on exact tech-claim wording and the soft waveform backdrop, so do not replace them with generic equalizer graphics."
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "name": "techcombank-priority-visa-asia-foreign-fee-zero",
+  "tag": [
+    "visa",
+    "priority-card",
+    "asia-travel",
+    "cashback"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Special offers",
+  "group": "techcombank_1900215518032271",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank Priority Visa Asia travel no foreign fee benefit",
+      "color_palette": "Cream white, black, champagne gold, soft gray, muted beige"
+    },
+    "main_subject": {
+      "type": "Object/Person/Text",
+      "detail": "A premium travel-benefit poster with the Visa logo top left and Techcombank logo top right. Headline reads 'Vi vu A Chau - Khong lo ve phi'. A long rounded banner states '0% Phi ngoai te | Hoan 4% Giao dich quoc te'. Centered is a large Techcombank Priority card in black with a gold geometric emblem. To the right stands a smiling couple in elegant neutral outfits carrying shopping bags in front of the Merlion statue. A floating rounded badge at lower left says '0% Phi ngoai te'. Bottom-right lifestyle plate reads 'Dinh hinh PHONG CACH SONG'. A small footnote says '* Ap dung dieu kien dieu khoan theo muc chi tieu'.",
+      "style": "Luxury travel-and-shopping banking poster with glossy premium card hero and aspirational couple lifestyle imagery"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "VISA / TECHCOMBANK / Vi vu A Chau - Khong lo ve phi / 0% Phi ngoai te / Hoan 4% Giao dich quoc te / Dinh hinh PHONG CACH SONG / * Ap dung dieu kien dieu khoan theo muc chi tieu",
+      "items": [
+        "Top Left: Visa logo over a bright cream background",
+        "Top Right: Techcombank wordmark and red logo",
+        "Bottom Left: Rounded '0% Phi ngoai te' badge and footnote",
+        "Bottom Right: Lifestyle badge 'Dinh hinh PHONG CACH SONG' beside the walking couple",
+        "Center/Background: Oversized Techcombank Priority card in front of Singapore landmarks, with a stylish shopping couple beside the Merlion statue"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft luxury lifestyle lighting",
+      "effect": "Airy travel haze, subtle card reflections, gentle sunset warmth, polished shopping-tourism mood"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal travel-lifestyle banking composite with premium retouching",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank Priority Visa Asia travel no foreign fee benefit. Centerpiece is a large black Techcombank Priority card with gold emblem, paired with a smiling shopping couple walking beside the Merlion statue. Background is a bright Singapore travel scene with soft haze and luxury lifestyle cues. Surrounding elements: Visa logo, Techcombank logo, exact headline 'Vi vu A Chau - Khong lo ve phi', benefit bar '0% Phi ngoai te | Hoan 4% Giao dich quoc te', lower-left badge '0% Phi ngoai te', bottom-right plate 'Dinh hinh PHONG CACH SONG', and the footnote '* Ap dung dieu kien dieu khoan theo muc chi tieu'. Technical style: photoreal travel-lifestyle banking composite with premium retouching, soft luxury lifestyle lighting, airy haze and subtle reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Techcombank Priority card artwork",
+          "required": true,
+          "source": "official card design asset",
+          "usage": "Preserve the exact premium card face and contactless icon"
+        },
+        {
+          "type": "location",
+          "name": "Merlion statue and Singapore waterfront references",
+          "required": true,
+          "source": "travel photo references",
+          "usage": "Anchor the Asia-travel context behind the card and couple"
+        },
+        {
+          "type": "person",
+          "name": "Elegant shopping couple reference",
+          "required": true,
+          "source": "this creative or source shoot",
+          "usage": "Maintain the neutral wardrobe, walking pose, and shopping-bag gesture"
+        },
+        {
+          "type": "text_layout",
+          "name": "Travel-card benefits poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the benefit bar, oversized card, lower-left 0% badge, and bottom-right lifestyle plate"
+        }
+      ],
+      "prompt_instructions": "Do not generalize the destination into a generic city. The Merlion and waterfront must clearly signal Singapore, and the exact benefit texts '0% Phi ngoai te' and 'Hoan 4% Giao dich quoc te' must be preserved."
+    }
+  }
+}

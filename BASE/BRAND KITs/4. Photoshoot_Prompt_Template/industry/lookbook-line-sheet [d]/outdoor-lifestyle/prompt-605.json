@@ -1,0 +1,22 @@
+{
+  "name": "prompt-605",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "beach", "crochet"],
+  "image_type": "golden-hour beach fashion portrait",
+  "image_vibe": "soft, warm, luminous, contemplative",
+  "image_purpose": "resort lookbook and beach fashion editorial",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a hyper-realistic golden-hour beach fashion portrait of one approved adult Asian woman with serene contemplative mood and detailed crochet styling.",
+    "main_subject": "Approved adult Asian woman with dark-brown hair in a high messy bun, soft wisps framing the face, natural makeup, soft pink lips, and a serene distant gaze. She wears a white open-knit crochet cardigan with long slightly flared sleeves and small pastel floral appliques over a white string bikini, with pastel beaded necklaces, a delicate waist chain, pink-tinted sunglasses on her bun, and understated stud earrings.",
+    "composition_elements": ["Waist-up medium portrait, subject positioned slightly left using rule of thirds.", "Body angled left, head turned toward the right distance, right hand resting gently on hip.", "Tranquil sandy beach with calm ocean, small shells, distant boats, and warm clear sky.", "Crochet knit, floral appliques, sand, and ocean texture remain detailed."],
+    "lighting_and_atmosphere": "Soft warm golden-hour sunlight from behind-left creates a subtle rim light on hair and shoulders, with natural sand and ocean fill, soft elongated shadows, and dreamy atmosphere.",
+    "technical_specs": "Fujifilm GFX 100S or Sony A7R IV, 50mm f/1.2 or 85mm f/1.4, f/2.0, 1/250s, ISO 160, 8K photorealistic detail, shallow depth of field, no text or watermark.",
+    "generated_prompt_string": "Hyper-realistic beachside crochet fashion portrait at sunset of an approved adult Asian woman with dark brown hair in a high messy bun and soft wisps framing her face. Natural no-makeup makeup, soft pink lips, serene contemplative expression and distant gaze toward the right. She wears a white open-knit crochet cardigan with long slightly flared sleeves and small pastel floral appliques over a white string bikini, with delicate multi-strand pastel beaded necklaces, a small waist chain, pink-tinted sunglasses on her bun, and understated stud earrings. Standing waist-up on a tranquil sandy beach at golden hour, body angled left, head turned right, right hand gently on hip. Calm ocean, subtle waves, scattered shells, distant boats and warm clear sky. Fujifilm GFX 100S or Sony A7R IV, 50mm f/1.2 or 85mm f/1.4, f/2.0, 1/250s, ISO 160, soft warm rim light from behind-left, natural sand and ocean fill, shallow depth of field, 8K realistic crochet and sand texture, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "distorted anatomy", "extra fingers", "inconsistent identity", "plastic skin", "waxy", "over-smooth", "over-saturated", "HDR look", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "prompt-605.jpg", "required": true, "source": "local reference image", "usage": "Attach for approved-adult identity, hair, makeup, wardrobe, pose, and accessories."}, {"type": "location", "name": "golden-hour beach", "required": true, "source": "local reference image", "usage": "Preserve shoreline, ocean, boats, sand, and warm light."}],
+      "prompt_instructions": "Attach the required approved-adult and beach references. Preserve identity, crochet cardigan, white swimwear, necklaces, waist chain, pose, beach, and golden-hour lighting. Keep the fashion framing tasteful and non-sexualized; replace only with equivalent adult identity or beach references, with no logos or typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

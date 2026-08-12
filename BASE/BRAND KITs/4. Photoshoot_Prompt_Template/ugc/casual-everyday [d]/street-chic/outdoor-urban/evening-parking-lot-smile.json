@@ -1,0 +1,19 @@
+{
+  "name": "evening-parking-lot-smile",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "parking-lot", "candid"],
+  "image_type": "candid-parking-lot-portrait",
+  "image_vibe": "friendly-natural-evening",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create an authentic iPhone-style candid portrait of an approved adult man in an evening parking lot.",
+    "main_subject": "An approved adult man in an oversized light beige sweatshirt and black baseball cap with subtle stitching. He lifts the cap brim with one hand, turns three-quarter toward camera, and smiles naturally.",
+    "composition_elements": "Chest-up 3:4 framing, slightly below eye level, low modern brick building and parked cars behind, relaxed urban surroundings, slightly tilted amateur horizon.",
+    "lighting_and_atmosphere": "Soft late-afternoon/early-evening daylight, even shadows, natural contrast, moderate grain and friendly candid mood.",
+    "technical_specs": "Photorealistic iPhone-style image, 3:4 vertical, shallow depth of field, realistic skin pores, hair strands, fabric, hands, and JPEG grain.",
+    "generated_prompt_string": "Create an authentic photorealistic 3:4 iPhone-style candid portrait of an approved adult man in an oversized light beige sweatshirt and black baseball cap. He lifts the cap brim with one hand, turns three-quarter toward camera, and gives a wide natural smile. Frame him chest-up slightly below eye level in an evening parking lot near a low modern brick building with parked cars. Use soft natural light, slight horizon tilt, shallow depth, realistic skin and fabric texture, moderate grain, and unedited color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, artificial smile",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-parking-lot-subject", "required": true, "source": "evening-parking-lot-smile.jpg", "usage": "Preserve adult identity, cap, expression, smile, and hand pose."}, {"type": "wardrobe", "name": "beige-sweatshirt-black-cap", "required": true, "source": "evening-parking-lot-smile.jpg", "usage": "Keep sweatshirt, cap, and styling consistent; replace only with explicit references."}, {"type": "location", "name": "evening-brick-parking-lot", "required": true, "source": "evening-parking-lot-smile.jpg", "usage": "Maintain building, cars, light, and casual street setting; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced exact-face-match language with approved-adult identity references.", "Added safe negative prompts and structured references."]}
+}

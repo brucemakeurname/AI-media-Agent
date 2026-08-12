@@ -1,0 +1,72 @@
+{
+  "name": "midnight-bar-spill-girl",
+  "tag": [
+    "adult-woman",
+    "night-bar",
+    "warm-bokeh",
+    "drink-spill",
+    "candid-editorial"
+  ],
+  "image_type": "nightlife-candid-portrait",
+  "image_vibe": "warm-playful-chaotic",
+  "image_purpose": "lifestyle-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "policy_review": {
+    "status": "pass",
+    "changes": [
+      "No policy-risking content found; preserved the adult nightlife look and incidental drink spill."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult candid bar portrait during a harmless drink spill",
+      "color_palette": "warm amber, dark wood, black, gold, and soft bokeh",
+      "aspect_ratio": "3:4"
+    },
+    "main_subject": {
+      "description": "An adult woman, optionally matching an approved adult non-public-figure identity reference, with loose naturally textured hair, a warm confident smile, and realistic skin texture.",
+      "wardrobe": "Black fitted camisole-style top and high-waisted black leather skirt.",
+      "pose": "Standing lightly against the bar, holding a plain beer glass after an incidental small spill; she meets the camera with a playful, unbothered expression."
+    },
+    "composition_elements": {
+      "framing": "Eye-level medium close-up from mid-torso to head.",
+      "environment": "Dark wood-and-metal city bar, abstract blurred bottles and glasses, soft patron silhouettes, and a clean bar counter."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Low-key warm bar light with a gentle halo around hair and shoulders, soft frontal fill, and subtle reflections on the counter.",
+      "atmosphere": "Late-night, lively, candid, and composed."
+    },
+    "technical_specs": {
+      "camera": "35mm nightlife portrait lens",
+      "quality": "sharp eyes, warm background bokeh, minimal retouching, high-end photorealism"
+    },
+    "generated_prompt_string": "Create an ultra-photoreal 3:4 candid nightlife portrait of an adult woman, optionally matching an approved adult non-public-figure identity reference, at a dark city bar. She has loose natural hair, realistic skin texture, and wears a black fitted camisole-style top with a high-waisted black leather skirt. She leans lightly against a dark wood bar, holding a plain beer glass after an incidental small spill, and gives the camera a playful, unbothered smile. Use low-key warm bar lighting, a soft hair halo, restrained counter reflections, blurred abstract bottles and adult patron silhouettes, an eye-level 35mm medium close-up, sharp eyes, and warm bokeh. No branding or text.",
+    "negative_prompt": "minor, unapproved identity, nudity, explicit, nsfw, overly revealing, brand logo, readable text, watermark, distorted hands, plastic skin",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use each only to replace its stated element; remove brands and readable labels.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": false,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Match adult facial identity only, with no blending or age change."
+        },
+        {
+          "type": "environment",
+          "name": "warm-night-bar-interior",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace counter, bokeh, and warm-light ambience."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-nightlife-look",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace the adult subject's nightlife clothing."
+        }
+      ]
+    }
+  }
+}

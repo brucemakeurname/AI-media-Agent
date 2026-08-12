@@ -1,0 +1,59 @@
+{
+  "name": "Late-Night Blue-Screen Bedroom Selfie",
+  "tag": "late-night-blue-screen-bedroom-selfie",
+  "image_type": "low_light_phone_selfie",
+  "image_vibe": "sleepy_cool_lofi",
+  "image_purpose": "social_editorial",
+  "group": "indie/low-fi-dreamy/cool-moody",
+  "prompt": {
+    "project_info": {
+      "title": "Late-Night Blue-Screen Bedroom Selfie",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult East Asian man with messy black hair, thin bangs, and a sleepy thoughtful gaze.",
+      "wardrobe": "A plain black crew-neck sleep T-shirt and a thin unbranded silver chain.",
+      "pose_and_expression": "Lying comfortably on his stomach against a patterned gray pillow, one hand resting near his cheek without touching lips."
+    },
+    "composition_elements": {
+      "setting": "Dark quiet bedroom with beige blackout curtains to one side and a softly shadowed neutral wall.",
+      "framing": "Close low-angle phone selfie, face clearly visible with soft focus at the edges.",
+      "text_and_brand_control": "No exact face reference, no exposed shoulder emphasis, no text, logo, watermark, or screen UI."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Cool bluish-purple phone-screen light across the face with deep ambient shadows.",
+      "mood": "Sleepy, cozy, inward-looking, and low-fi."
+    },
+    "technical_specs": {
+      "camera_style": "realistic low-light phone selfie",
+      "lens": "26mm equivalent",
+      "rendering": "Soft focus, visible digital grain, natural skin, correct fingers, and no beauty filter."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical realistic low-light phone selfie of an adult East Asian man with messy black hair, thin bangs, and a sleepy thoughtful gaze. He wears a plain black crew-neck sleep T-shirt and thin unbranded silver chain, lying comfortably on his stomach against a patterned gray pillow with one hand near his cheek but not touching his lips. Place him in a dark quiet bedroom with beige blackout curtains and a softly shadowed neutral wall. Use cool bluish-purple phone-screen light, deep ambient shadow, close low-angle framing, soft focus at edges, visible digital grain, natural skin, correct fingers, and no beauty filter. No exact face reference, exposed shoulder emphasis, logo, text, screen UI, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, exact identity lock, explicit, nsfw, overly revealing clothing, shirtless, fetish styling, finger in mouth, logo, text, watermark, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Identity reference is optional and must depict a consenting adult. Bedroom, pillow, and wardrobe references are replaceable; do not preserve exact identity or copy brand/text content.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult face and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "low_light_bedroom_reference",
+          "required": false,
+          "source": "user-provided interior reference",
+          "usage": "Guide curtains, pillow, and cool screen-light mood without personal details."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adult subject, removed exact identity preservation and body/lip-focused direction, and kept the safe late-night lo-fi mood."
+  }
+}

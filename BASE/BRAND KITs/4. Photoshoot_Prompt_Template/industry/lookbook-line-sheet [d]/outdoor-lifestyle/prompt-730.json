@@ -1,0 +1,22 @@
+{
+  "name": "prompt-730",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "kitchen", "editorial"],
+  "image_type": "playful indoor fashion portrait",
+  "image_vibe": "whimsical, graphic, casual, stylized",
+  "image_purpose": "lifestyle lookbook and playful fashion editorial",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a playful stylized fashion portrait of one approved adult woman reclining sideways across a clean white kitchen countertop.",
+    "main_subject": "Approved adult woman with long dark wavy hair and natural makeup, wearing a short white dress with red patterns and ribbon details, a red cardigan slipping off one shoulder, white patterned socks, and red heels. Preserve the adult identity, outfit, and relaxed expression.",
+    "composition_elements": ["Horizontal reclining pose across a white tiled kitchen countertop.", "Head rests near the counter edge, one arm dangles downward, legs raised and resting against the tiled wall.", "Minimal white kitchen with a wall clock, small shelf objects, headphones, and clean graphic lines.", "Strong red-and-white palette with playful fashion styling."],
+    "lighting_and_atmosphere": "Bright clean indoor light with crisp shadows, graphic high-key kitchen palette, whimsical editorial mood, and clear prop detail.",
+    "technical_specs": "Photorealistic high-resolution fashion lifestyle photography, accurate anatomy and hands, sharp focus, balanced horizontal composition, realistic fabric and tile texture, no text or watermark.",
+    "generated_prompt_string": "Create a playful stylized fashion portrait of an approved adult woman lying sideways across a clean white kitchen countertop. Her head rests near the counter edge, one arm dangles downward, and her legs are raised and resting against the tiled wall. She wears a short white dress with red patterns and ribbon details, a red cardigan slipping off one shoulder, white patterned socks and red heels. Bright clean indoor light, crisp shadows, white tiled kitchen, wall clock, small shelf objects and headphones, casual yet stylized look, strong red-and-white graphic palette, photorealistic editorial photography, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "dangerous fall", "distorted anatomy", "extra fingers", "inconsistent identity", "warped kitchen", "plastic skin", "over-smooth", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "prompt-730.jpg", "required": true, "source": "local reference image", "usage": "Attach for approved-adult identity, hair, outfit, pose, and expression reference."}, {"type": "location", "name": "white tiled kitchen countertop", "required": true, "source": "local reference image", "usage": "Preserve counter, wall, clock, shelf objects, headphones, and graphic palette."}],
+      "prompt_instructions": "Attach the required approved-adult and kitchen references. Preserve identity, dress, cardigan, socks, heels, reclining pose, kitchen geometry, and bright editorial lighting. Keep the pose clearly staged and safe; replace only with equivalent adult identity or kitchen references, with no logos or typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

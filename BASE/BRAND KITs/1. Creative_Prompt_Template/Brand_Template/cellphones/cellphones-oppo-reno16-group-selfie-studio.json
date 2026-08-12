@@ -1,0 +1,53 @@
+{
+  "name": "cellphones-oppo-reno16-group-selfie-studio",
+  "tag": ["cellphones", "oppo reno16", "group selfie", "studio mode", "lifestyle"],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Brand story",
+  "group": "cellphones_1025100413825523",
+  "prompt": {
+    "project_info": {
+      "theme": "Studio-creative group-selfie lifestyle campaign",
+      "color_palette": "Lavender, cream, pastel yellow, skin tones, soft café browns"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A vibrant lifestyle poster showing a group of five young friends taking a close café selfie with an OPPO phone, under a bold violet campaign headline about capturing studio creativity and vivid orbits.",
+      "style": "Premium lifestyle smartphone campaign with warm café atmosphere"
+    },
+    "composition_elements": {
+      "type": "People/Product/Typography/Lifestyle Props",
+      "text": "BẬT STUDIO SÁNG TẠO, SỐNG ĐỘNG MỌI QUỸ ĐẠO",
+      "items": [
+        "Upper Middle: large headline with pixel-styled violet word 'STUDIO' between 'BẬT' and 'SÁNG TẠO'.",
+        "Below headline: black subline 'SỐNG ĐỘNG MỌI QUỸ ĐẠO'.",
+        "Foreground: smiling young woman in purple top extending her arm to take a selfie with a light-colored OPPO phone facing the viewer.",
+        "Midground: four friends gathered around the table, one winking, one holding a drink, and one leaning on the table.",
+        "Tabletop: croissant, yellow plate, iced drinks with lemon slices, and café tableware.",
+        "Background: soft lavender café interior with curved sofa seating, small tables, plants, and glowing decorative shapes."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm indoor editorial lighting",
+      "effect": "Friendly social-lifestyle glow, soft premium highlights, intimate café ambience"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal lifestyle smartphone campaign poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "group of five selfie subjects", "required": true, "source": "source image people reference", "usage": "Preserve the exact people count, facial expressions, poses, and outfit colors."},
+        {"type": "product", "name": "light-colored OPPO smartphone", "required": true, "source": "source image phone reference", "usage": "Keep the back-camera arrangement and the close foreground selfie angle."},
+        {"type": "background", "name": "lavender café interior", "required": true, "source": "source image location reference", "usage": "Maintain the sofa, tables, décor, and pastel atmosphere."},
+        {"type": "text_layout", "name": "studio-creative headline", "required": true, "source": "source image text reference", "usage": "Preserve the exact wording and the pixel-styled 'STUDIO' treatment."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the selfie composition, group expressions, and café-table props.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the warm social-lifestyle energy and the soft violet campaign framing."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square lifestyle smartphone campaign poster in a soft lavender café interior. Add the headline 'BẬT STUDIO SÁNG TẠO' with the word 'STUDIO' in bold pixel-style violet lettering, and the subline 'SỐNG ĐỘNG MỌI QUỸ ĐẠO'. Show a group of five young friends gathered around a café table while a smiling woman in a purple top holds a light-colored OPPO phone forward to take a selfie. Include croissants, iced drinks with lemon slices, a yellow plate, curved sofa seating, plants, and glowing decorative shapes in the background. Technical style: photoreal lifestyle smartphone campaign poster, warm indoor editorial lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark café, incorrect text, wrong people count, blurred faces, low resolution, awkward hand pose, cluttered layout, watermark, signature"
+  }
+}

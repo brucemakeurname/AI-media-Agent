@@ -1,0 +1,78 @@
+{
+  "name": "vinamilk-optimum-a2pro-gut-brain-immunity-support",
+  "tag": [
+    "vinamilk",
+    "optimum-a2-pro",
+    "award",
+    "brain-gut-immunity",
+    "children-nutrition"
+  ],
+  "biz_niche": "Generic/Universal Product Ad",
+  "content_format": "Product demos",
+  "group": "vinamilk_996388319660192",
+  "prompt": {
+    "project_info": {
+      "theme": "Award-winning children nutrition product benefit claim",
+      "color_palette": "Black, deep purple, white, pastel floral accents, product purple"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A cropped torso shot of a suited person holding a World Dairy Innovation Awards 2026 trophy plaque on the left and four Vinamilk Optimum A2 Pro+ cartons across the bottom. Large white text on the right reads 'Optimum A2 Pro+' followed by 'Siêu cộng hưởng hỗ trợ hệ trục Não - Ruột - Miễn dịch cho “siêu em bé” lớn khôn vượt trội'.",
+      "style": "Premium award-endorsement product card with real-photo base and editorial text overlay"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "Optimum A2 Pro+; Siêu cộng hưởng hỗ trợ hệ trục Não - Ruột - Miễn dịch cho “siêu em bé” lớn khôn vượt trội; 2026 WORLD DAIRY INNOVATION AWARDS WINNER; Best Children's Dairy Product; VIETNAM DAIRY PRODUCTS JOINT STOCK COMPANY; Optimum A2 Pro+",
+      "items": [
+        "Top Left: Black suit lapel and award plaque edge under soft stage light",
+        "Top Right: Floral corner doodles against a dark suit background",
+        "Bottom Left: Trophy base with engraved award text",
+        "Bottom Right: Four Optimum A2 Pro+ cartons arranged diagonally with a small dragonfly illustration nearby",
+        "Center/Background: Cropped award-holding figure with large white benefit-copy block on the right"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft premium event lighting",
+      "effect": "Real-photo contrast, gentle reflections on the acrylic trophy, crisp product-pack detail, subtle editorial polish"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal award-product advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square award-product social poster for Vinamilk Optimum A2 Pro+. Centerpiece is a photoreal cropped suit-and-hands shot holding a World Dairy Innovation Awards 2026 trophy plaque on the left and four Optimum A2 Pro+ cartons across the lower area. Include the exact text 'Optimum A2 Pro+' and 'Siêu cộng hưởng hỗ trợ hệ trục Não - Ruột - Miễn dịch cho “siêu em bé” lớn khôn vượt trội'. Keep the visible award text '2026 WORLD DAIRY INNOVATION AWARDS WINNER', 'Best Children's Dairy Product', 'VIETNAM DAIRY PRODUCTS JOINT STOCK COMPANY', and 'Optimum A2 Pro+'. Background is a dark real-photo event crop with floral corner accents. Technical style: photoreal award-product advertising composite, soft premium event lighting, crisp product-pack detail and editorial polish, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Optimum A2 Pro+ cartons",
+          "required": true,
+          "source": "real packaging reference required",
+          "usage": "Match the four cartons, pack face, and purple brand system"
+        },
+        {
+          "type": "graphic",
+          "name": "World Dairy Innovation Awards 2026 trophy plaque",
+          "required": true,
+          "source": "original award object reference",
+          "usage": "Recreate the angular clear trophy and its base text"
+        },
+        {
+          "type": "person",
+          "name": "Award holder torso reference",
+          "required": true,
+          "source": "original real-photo crop",
+          "usage": "Preserve the suit, lanyard hints, and hand placement around trophy and products"
+        },
+        {
+          "type": "text_layout",
+          "name": "Benefit claim block",
+          "required": true,
+          "source": "original creative copy",
+          "usage": "Keep exact Vietnamese wording and line breaks on the right"
+        }
+      ],
+      "prompt_instructions": "The 2026 award context is already in the past relative to Friday, July 17, 2026, but the poster should be rebuilt exactly as an award-claim creative. Preserve the real-photo crop and the white text hierarchy rather than turning it into a generic product packshot."
+    }
+  }
+}

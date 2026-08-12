@@ -1,0 +1,78 @@
+{
+  "name": "frozen-gaze-busy-street",
+  "tag": [
+    "adult-woman",
+    "street-portrait",
+    "crowd-blur",
+    "olive-jacket",
+    "documentary",
+    "slow-shutter"
+  ],
+  "image_type": "candid-street-portrait",
+  "image_vibe": "intense-chaotic-cinematic",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "source_url": "https://x.com/im_shahid7/status/2020379988411969820",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "frozen gaze within a moving city crowd",
+      "color_palette": "olive green, teal shadow, warm amber, gray concrete",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with windblown long dark hair, natural makeup, and an oversized olive-green utility jacket.",
+      "style": "candid documentary street portrait"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "sharp centered adult subject",
+        "anonymous crowd streaking around subject",
+        "busy urban street and distant bokeh",
+        "windblown hair crossing face",
+        "slightly low handheld eye-level framing"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft overcast daylight at approximately 6200K",
+      "effect": "cinematic teal-and-warm grade, natural contrast, and long-exposure peripheral blur"
+    },
+    "technical_specs": {
+      "render_style": "handheld 50mm street photograph, subject sharp at f/2.0, slow shutter crowd movement, subtle film grain",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Candid street portrait of an adult woman standing centered and sharply focused in a busy city crowd. Anonymous passersby move around her in slow-shutter motion blur while windblown hair crosses her face. She wears an olive-green utility jacket and natural makeup, looking directly into the lens with an intense quiet gaze. Use handheld documentary framing, shallow depth of field, soft overcast daylight, cinematic teal-and-warm color grading, city-light bokeh, realistic film grain, and a frozen moment in chaos.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, identifiable bystanders, paparazzi harassment, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-street-subject-reference",
+          "required": false,
+          "source": "Attach an adult person reference when likeness continuity is needed.",
+          "usage": "Preserve adult facial structure, long hair, and direct gaze."
+        },
+        {
+          "type": "wardrobe",
+          "name": "olive-utility-jacket-reference",
+          "required": false,
+          "source": "Attach wardrobe reference when exact jacket fabric or pocket details are required.",
+          "usage": "Keep oversized olive outerwear silhouette."
+        },
+        {
+          "type": "background",
+          "name": "busy-urban-street-reference",
+          "required": false,
+          "source": "Attach a location plate when city architecture or crowd density must match.",
+          "usage": "Keep anonymized moving crowd and dense urban depth."
+        }
+      ],
+      "prompt_instructions": "All references are optional. Preserve adult subject, olive jacket, sharp-versus-blurred crowd contrast, and overcast documentary look. Do not render recognizable bystanders."
+    }
+  }
+}

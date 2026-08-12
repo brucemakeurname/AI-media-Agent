@@ -1,0 +1,85 @@
+{
+  "name": "viettel-anh-7-cr7-tv360-replay",
+  "tag": [
+    "viettel",
+    "world-cup",
+    "cr7",
+    "football-star",
+    "tv360"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Brand story",
+  "group": "viettel_4665157150378306",
+  "prompt": {
+    "project_info": {
+      "theme": "Viettel TV360 football hero replay moment with CR7-inspired caller ID",
+      "color_palette": "Viettel red, white, black, emerald green accents, multicolor ribbon, stadium crimson"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A dramatic football-star scene with a CR7-like player in a red Portugal-style jersey number 7 stepping out in front of a giant tilted smartphone call screen. The phone display shows: 'Cuộc gọi đến', 'ANH 7', '0977 777 777', and 'Số Viettel'. Large red headline text on the left reads 'ANH 7 GỌI ĐẾN'. The lower-left copy says 'CR7 ghi bàn tại 6 kỳ World Cup' and 'Mở TV360 xem lại khoảnh khắc lịch sử'.",
+      "style": "Heroic photoreal sports advertising composite, cinematic stadium energy, oversized call-screen gimmick"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "viettel telecom; ANH 7 GỌI ĐẾN; Cuộc gọi đến; ANH 7; 0977 777 777; Số Viettel; SIUUU!!; CR7 ghi bàn tại 6 kỳ World Cup; Mở TV360 xem lại khoảnh khắc lịch sử",
+      "items": [
+        "Top Left: Viettel telecom logo above giant stacked red headline text",
+        "Top Right: Upper portion of the tilted smartphone with dark call interface",
+        "Bottom Left: White caption text over a red stadium background and the large curved 'SIUUU!!' along the multicolor ribbon",
+        "Bottom Right: Official-style FIFA football in the foreground overlapping the phone base",
+        "Center/Background: Red-lit football stadium bowl, giant tilted smartphone, and a CR7-inspired player in front mid-celebration"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Cinematic stadium lighting",
+      "effect": "Glowing stadium flares, hard rim lights, bright sparks on the phone screen background, high-energy sports poster contrast"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal cinematic sports advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for a Viettel TV360 football hero replay moment with a CR7-inspired caller ID concept. Centerpiece is a dramatic photoreal football star in a red Portugal-style number 7 jersey posed in front of a giant tilted smartphone. The exact visible text must include 'ANH 7 GỌI ĐẾN', 'Cuộc gọi đến', 'ANH 7', '0977 777 777', 'Số Viettel', 'SIUUU!!', 'CR7 ghi bàn tại 6 kỳ World Cup', and 'Mở TV360 xem lại khoảnh khắc lịch sử'. Background is a red glowing stadium with bright sparks and a giant phone call interface. Surrounding elements: Viettel telecom logo at top left, multicolor ribbon sweeping across the lower half, and an official-style World Cup football in the foreground. Technical style: photoreal cinematic sports advertising composite, cinematic stadium lighting, glowing flares and hard rim lights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel telecom logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Place above the headline on the upper-left side"
+        },
+        {
+          "type": "person",
+          "name": "Cristiano Ronaldo likeness / CR7-inspired football star",
+          "required": true,
+          "source": "real-person visual reference required for close fidelity",
+          "usage": "Use an attached CR7 reference to preserve face, pose intensity, hairstyle, and red Portugal-era football styling"
+        },
+        {
+          "type": "product",
+          "name": "Giant smartphone call screen",
+          "required": true,
+          "source": "recreated from original composition",
+          "usage": "Tilted black smartphone with incoming-call UI and exact visible caller text"
+        },
+        {
+          "type": "icon",
+          "name": "Official-style FIFA match ball",
+          "required": true,
+          "source": "real product/ball reference if exact match is needed",
+          "usage": "Foreground bottom-right ball overlapping the phone"
+        },
+        {
+          "type": "graphic",
+          "name": "Multicolor sports ribbon with SIUUU text",
+          "required": true,
+          "source": "recreated campaign motif",
+          "usage": "Sweep across the lower half and carry the large 'SIUUU!!' wordmark"
+        }
+      ],
+      "prompt_instructions": "For maximum fidelity in gpt-image-2, attach a CR7 reference image and, if possible, a reference for the specific football ball design. Keep the scene as a stylized advertisement rather than an editorial sports photo. Preserve all visible wording exactly and maintain the oversized phone, stadium background, and heroic red color dominance."
+    }
+  }
+}

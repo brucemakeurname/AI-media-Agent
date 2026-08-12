@@ -1,0 +1,26 @@
+{
+  "name": "prompt-709",
+  "tag": ["ugc", "digital-camera-screen", "flash-snapshot", "early-2000s", "close-up"],
+  "image_type": "embedded-camera-portrait",
+  "image_vibe": "raw-nostalgic-candid",
+  "image_purpose": "profile-visual",
+  "group": "viral-trending",
+  "prompt": {
+    "project_info": "Create a nostalgic early-2000s compact digital-camera photograph showing an adult woman's portrait on the camera screen.",
+    "main_subject": "An adult woman shown on the screen of a compact digital camera, with long dark hair falling across part of her face in loose strands and a soft, slightly open-lip neutral expression. Use the attached face reference only for an approved adult identity and preserve facial structure.",
+    "composition_elements": "Close-up of the camera body surrounding the image, with buttons, dials, textured surface, FUNC/SET wheel, DISP button, and existing IMAGE STABILIZER label visible. The screen image shows the woman indoors at night with a dim cluttered kitchen, appliances, shelves, and metallic surfaces softly blurred. No text or logos inside the photo preview itself.",
+    "lighting_and_atmosphere": "Bright built-in flash creates sharp highlights on face and hair against low ambient kitchen light, cool muted undertones, strong flash contrast, authentic display glow and natural grain, candid raw nostalgic mood.",
+    "technical_specs": "4:5 vertical screen composition, compact digital-camera simulation, equivalent 28–35mm lens, f/2.8, ISO 400, 1/60 shutter with flash, auto-flash white balance, nostalgic digital-camera color grade.",
+    "generated_prompt_string": "Close-up photograph of an approved adult woman displayed on the screen of a compact Canon digital camera. The camera body surrounds the image with its buttons, dials, textured surface, FUNC/SET wheel, DISP button, and existing IMAGE STABILIZER label visible. The screen shows the woman indoors at night, illuminated by a bright built-in flash that creates sharp highlights on her face and long dark hair falling across part of her face in loose strands. She has a soft neutral expression. Behind her is a dim cluttered kitchen with appliances, shelves, and metallic surfaces softly blurred. Early-2000s compact digital-camera snapshot, candid raw nostalgic mood, slightly muted cool undertones, strong flash contrast, natural display grain and screen glow, 4:5 vertical ratio, equivalent 28–35mm lens, f/2.8, ISO 400, 1/60 with flash, no text or logos inside the photo preview.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, identity drift, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, extra limbs, extra fingers, deformed, invented camera labels, altered screen perspective, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved adult screen subject", "required": true, "source": "attached face reference and matching local preview", "usage": "Preserve approved adult face, facial structure, hair, and expression; replaceable with another approved adult identity reference."},
+        {"type": "product", "name": "compact Canon digital camera", "required": true, "source": "matching local preview image", "usage": "Preserve camera body, controls, screen perspective, and existing labels; replaceable only with an equivalent compact camera."},
+        {"type": "location", "name": "dim cluttered kitchen", "required": true, "source": "matching local preview image", "usage": "Preserve indoor night context, appliances, shelves, and metallic bokeh within the screen image; replaceable with an equivalent kitchen setting."}
+      ],
+      "prompt_instructions": "Attach the matching preview and approved adult face reference when identity and camera continuity are required. Preserve facial structure, hair, camera controls, screen perspective, flash, and the distinction between camera labels and the screen image. Replaceable elements must remain equivalent; do not add text or logos inside the screen photo."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

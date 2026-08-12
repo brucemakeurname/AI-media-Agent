@@ -1,0 +1,307 @@
+Phase 0 — Rough Cut
+
+  combine_analysis.py <project_path>
+
+  Giải quyết vấn đề: Gemini timestamps bị compressed non-linearly
+  so với audio thực tế.
+
+  1. Đọc transcript.json (WhisperX trên raw source)
+  2. Đọc gemini_analysis.json (Gemini phát hiện false_start /
+  repeat / stumble)
+  3. Đọc analysis.json (calibration anchors + existing
+  exclude_regions)
+  4. Với mỗi inter-word gap ≥ 0.4s → build danh sách gaps
+  5. Với mỗi Gemini issue:
+     - Scale gemini_time → actual_time qua piecewise linear
+  interpolation (3 anchors)
+     - false_start: tìm gap gần nhất trước keep_from → tính exclude
+   [gap_start+0.05, gap_end-0.05]
+     - repeat: check nếu đã covered bởi existing region → skip hoặc
+   flag manual
+     - stumble (keep_from=null): skip, không có safe boundary
+  6. Merge computed regions + existing regions → sort + deduplicate
+   (±0.3s window)
+  7. Write lại analysis.json với exclude_regions đã update
+
+  Output: analysis.json updated — Claude đã quyết định, script ghi
+  lại.
+
+  ---
+  build-transcripts.js <project_path>
+
+  1. Scan logs/whisperx_clean/ → lấy file .json đầu tiên
+  2. ffprobe footage/main_clean.mp4 → lấy source_duration thực tế
+  3. Flat-map words từ WX.word_segments hoặc WX.segments[].words
+  4. Ghi whisperx_word_transcript.json: {word, start, end, score} ×
+   N words
+  5. Map WX.segments → sentence objects {id, text, start, end,
+  duration, word_count, words}
+  6. Ghi sentence_transcript.json: N sentences
+  7. Print sentence breakdown để verify
+
+  Input thực: logs/whisperx_clean/<any>.json (bất kỳ file nào trong
+   folder).
+
+  ---
+  burn-whisperx-check.js <project_path>
+
+  Script verification — không phải pipeline output, chỉ để human
+  review.
+
+  1. Đọc whisperx_word_transcript.json
+  2. Build .srt: mỗi word = 1 entry (start → end, text = word)
+  3. Ghi logs/whisperx_word_check.srt
+  4. FFmpeg: burn SRT lên main_clean.mp4 với style Arial 28px
+  5. Output: footage/whisperx_word_check.mp4
+
+  Mục đích: xem video với từng word xuất hiện đúng lúc — nếu lệch
+  là WhisperX drift, phải re-run.
+
+  ---
+  Phase 1 — Semantic Cut + Zoom
+
+  cut-segments.js <project_path>
+
+  1. Đọc segments/cut_plan.json (Claude đã viết với N segments)
+  2. Đọc source filename từ cut_plan.json["source"] →
+  footage/{source}
+  3. Với mỗi segment:
+     ffmpeg -ss {start} -i source -t {duration}
+            -c:v libx264 -crf 18 -avoid_negative_ts make_zero
+            segments/seg_NNN.mp4
+  4. Track passed/failed, print kết quả từng segment
+  5. Exit code 1 nếu có failures
+
+  Key: -ss trước -i = fast seek đến keyframe gần nhất → re-encode
+  từ điểm đó. Đúng cho short clips (0.3s–2.9s).
+
+  ---
+  zoom-merge-check.js <project_path>
+
+  5 steps nối tiếp:
+
+  Step 1: Với mỗi segment trong zoom_plan.json:
+          - Tính crop filter: cw=1080/factor, ch=1920/factor,
+  cx=(1080-cw)/2, cy=(1920-ch)/2
+          - ffmpeg crop+scale → segments/zoomed/seg_NNN_zoom.mp4
+
+  Step 2: Build segments/concat_zoom.txt
+          (danh sách file paths cho ffmpeg concat)
+
+  Step 3: ffmpeg -f concat → footage/zoom_check_raw.mp4
+          (ghép tất cả zoomed segments thành 1 video)
+
+  Step 4: ffprobe từng zoomed segment → actual duration (không dùng
+   planned duration)
+          Build SRT với accumulated actual timestamps + zoom% label
+          Ghi logs/zoom_check.srt
+          Print drift: planned_total vs actual_total
+
+  Step 5: Burn SRT lên zoom_check_raw.mp4 → footage/zoom_check.mp4
+          (verification: xem text và zoom% của từng cut)
+
+  Step 4 quan trọng: dùng ffprobe thay vì seg.duration từ JSON vì
+  re-encode padding (~33–61ms/segment × 65 segments = ~3s drift
+  tích lũy).
+
+  ---
+  Phase 3 — A-roll Composite
+
+  composite-aroll.js <project_path>
+
+  1. Đọc aroll_renders/aroll_timestamp.json
+  2. Nếu base_zoomed.mp4 chưa có:
+     ffmpeg -f concat -safe 0 -i segments/concat_zoom.txt -c copy
+  aroll_renders/base_zoomed.mp4
+  3. Filter chỉ clusters có render_verified: true
+  4. Build FFmpeg inputs:
+     -i base_zoomed.mp4
+     -i ar_00.mov
+     -i ar_01.mov
+     ...
+  5. Build filter_complex:
+     [1:v]setpts=PTS+{asm_start_0}/TB[ov0]    ← KHÔNG dùng
+  -itsoffset (Rule 3)
+     [2:v]setpts=PTS+{asm_start_1}/TB[ov1]
+     [0:v][ov0]overlay=0:0:eof_action=pass[v0]  ← eof_action=pass
+  chống ghosting
+     [v0][ov1]overlay=0:0:eof_action=pass[v1]
+     ...
+     [vN-1][ovN]overlay=0:0:eof_action=pass[vout]
+  6. ffmpeg → aroll_renders/aroll_footage.mp4 (H.264, viewable)
+  7. ffprobe verify duration + size
+
+  BUG-005 handled tự động: script dùng setpts=PTS+offset/TB, không
+  bao giờ combine với -itsoffset.
+
+  ---
+  Phase 5 Prep
+
+  compute-exact-timestamps.js <project_path>
+
+  1. Đọc cut_plan.json + broll_timestamp.json
+  2. ffprobe từng segments/zoomed/seg_NNN_zoom.mp4 → actual_dur[]
+  3. Tích lũy concat_start cho từng segment:
+     concat_start[0] = 0
+     concat_start[i] = concat_start[i-1] + actual_dur[i-1]
+  4. ffprobe aroll_renders/aroll_footage.mp4 → actual_concat_dur
+     scale = actual_concat_dur / sum(actual_durs)
+     (bù encoder padding tại concat joins — ~1-2 extra frames mỗi
+  join)
+  5. Với mỗi B-roll trong broll_timestamp.json:
+     cStart = segs[first_covered_id].concat_start × scale
+     cEnd   = (segs[last_covered_id].concat_start +
+  last.actual_dur) × scale
+     slot_dur = cEnd - cStart
+     clip_trim = min(render_duration, slot_dur)
+  6. Ghi broll_renders/broll_concat_exact.json:
+     {scale, brolls: [{id, concat_start, concat_end, slot_dur,
+  render_dur, clip_trim, overflow}]}
+
+  Scale correction là layer thứ 2 — layer 1 là ffprobe per-segment,
+   layer 2 là bù overhead khi concat N segments qua libx264.
+
+  ---
+  pretrim-brolls.js <project_path>
+
+  1. Đọc broll_renders/broll_concat_exact.json
+  2. Với mỗi B-roll:
+     ffmpeg -y -i br_NN.mp4 -t {clip_trim} -c:v libx264 -crf 18 -an
+   br_NN_trim.mp4
+  3. Log: overflow ones (render_dur > slot_dur) vs clean PTS reset
+  (no overflow)
+
+  Lý do luôn trim dù không overflow: reset PTS sạch để -itsoffset
+  trong Phase 5 hoạt động chính xác. B-roll gốc có PTS start ≠ 0
+  đôi khi gây lệch.
+
+  ---
+  Phase 5 — Assembly
+
+  composite-broll.js <project_path>
+
+  1. Đọc broll_renders/broll_concat_exact.json
+  2. Build inputs:
+     -i aroll_renders/aroll_footage.mp4
+     -itsoffset {concat_start_0} -i br_00_trim.mp4   ← BUG-007 fix
+     -itsoffset {concat_start_1} -i br_01_trim.mp4
+     ...
+  3. Build filter_complex:
+     [1:v]scale=1080:1920[br0]   ← đảm bảo đúng resolution
+     [2:v]scale=1080:1920[br1]
+     [0:v][br0]overlay=0:0:enable='between(t,start,end)':eof_action
+  =pass[v0]
+     [v0][br1]overlay=0:0:enable='between(t,start,end)':eof_action=
+  pass[v1]
+     ...
+     → [vout]
+  4. ffmpeg -map [vout] -map 0:a → output/assembled_broll.mp4
+  5. ffprobe verify
+
+  BUG-007 handled: -itsoffset delay stream read đến đúng vị trí.
+  Nếu không, FFmpeg đọc hết 5s clip ngay từ t=0 — đến lúc enable
+  fire thì clip đã exhausted, chỉ còn frozen last frame.
+
+  ---
+  build-subtitle-comp.js <project_path>
+
+  1. Đọc cut_plan.json + whisperx_word_transcript.json
+  2. ffprobe từng zoomed segment → actual_dur[]
+  3. Build segAccum[]: vị trí tích lũy của từng segment trong
+  assembled video
+  4. ffprobe aroll_footage.mp4 → scale = actualConcatDur /
+  ffprobeSum
+  5. Với mỗi word trong transcript:
+     - Tìm segment chứa word.start
+     - Map: asmStart = (segAccum[i] + offset × ratio) × scale
+     - Gap padding: nếu gap đến next word 0.25–0.45s → extend
+  displayDur += 0.08s
+  6. Generate HTML: mỗi word = 1 <span> với data-start,
+  data-duration, data-track-index
+  7. Generate GSAP tweens: fade in 0.06s, fade out 0.05s, hard kill
+   tại end
+  8. Ghi subtitles/subtitle_comp/index.html
+
+  Sau khi script chạy: cd subtitles/subtitle_comp && npm run render
+   -- --format mov → subtitle_overlay.mov.
+
+  ---
+  composite-subtitle.js <project_path>
+
+  1. Check output/assembled_broll.mp4 tồn tại
+  2. Check subtitles/subtitle_overlay.mov tồn tại (ProRes 4444)
+  3. ffmpeg overlay với eof_action=pass:
+     [0:v][1:v]overlay=0:0:eof_action=pass[out]
+  4. Output: output/assembled_sub.mp4
+  5. ffprobe verify
+
+  Đơn giản nhất trong 12 scripts — chỉ 1 FFmpeg command nhưng trước
+   đây agent phải tự nhớ eof_action=pass.
+
+  ---
+  mix-audio.js <project_path>
+
+  1. Đọc brief.json → project_id
+  2. ffprobe assembled_sub.mp4 → video_dur
+  3. Đọc broll_sfx_timestamp.json + aroll_sfx_timestamp.json +
+  bgm_manifest.json
+  4. Collect tất cả SFX entries:
+     - Từ brolls[].sfx[]: {file, offsetSec = br.start +
+  s.offset_sec, volume}
+     - Từ clusters[].sfx[]: {file, offsetSec = cl.asm_start +
+  s.offset_sec, volume}
+  5. Build FFmpeg inputs:
+     -i assembled_sub.mp4
+     -i sfx_file_0.mp3
+     -i sfx_file_1.mp3
+     ...
+     -stream_loop -1 -i audio/bgm.mp3
+  6. Build filtergraph:
+     [0:a]volume=0.85[main]
+     [1:a]adelay={ms}|{ms},volume={vol}[sfx0]
+     [2:a]adelay={ms}|{ms},volume={vol}[sfx1]
+     ...
+     [bgm_idx:a]atrim=end={dur},afade=in,afade=out,volume=0.11[bgm]
+     [main][sfx0]...[sfxN][bgm]amix=inputs=N+2:normalize=0:duration
+  =first[aout]
+  7. ffmpeg -map 0:v -map [aout] -c:v copy -c:a aac →
+  {project_id}_final.mp4
+  8. Validate: size > 1MB, duration trong ±2s target
+  9. Ghi output/thumbnail-needed.json → signal Design Hub
+
+  SFX_ROOT có thể override qua env var process.env.SFX_ROOT — không
+   hardcode path máy.
+
+  ---
+  Tóm tắt execution order
+
+  Phase 0:  python scripts/combine_analysis.py <project>
+            [Claude: FFmpeg extract + concat + speed 1.2×]
+            whisperx footage/main_clean.mp4 --model large-v2 ...
+            node scripts/build-transcripts.js <project>
+            node scripts/burn-whisperx-check.js <project>   ←
+  optional verify
+
+  Phase 1:  [Claude: viết cut_plan.json]
+            node scripts/cut-segments.js <project>
+            [Claude: viết zoom_plan.json]
+            node scripts/zoom-merge-check.js <project>
+
+  Phase 2:  [Claude: viết broll_timestamp.json]
+            cd broll_renders/br_NN_comp && npm run render   ←
+  HyperFrames
+
+  Phase 3:  [Claude: viết aroll_timestamp.json]
+            cd aroll_renders/ar_NN_comp && npm run render --
+  --format mov
+            node scripts/composite-aroll.js <project>
+
+  Phase 5:  [Claude: viết broll_sfx + aroll_sfx + bgm manifests]
+            node scripts/compute-exact-timestamps.js <project>
+            node scripts/pretrim-brolls.js <project>
+            node scripts/composite-broll.js <project>
+            node scripts/build-subtitle-comp.js <project>
+            cd subtitles/subtitle_comp && npm run render --
+  --format mov
+            node scripts/composite-subtitle.js <project>
+            node scripts/mix-audio.js <project>

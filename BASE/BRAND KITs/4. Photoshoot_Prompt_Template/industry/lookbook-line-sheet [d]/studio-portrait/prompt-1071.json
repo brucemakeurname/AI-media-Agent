@@ -1,0 +1,19 @@
+{
+  "name": "prompt-1071",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "pink-studio", "identity-edit"],
+  "image_type": "identity-preserving expression edit",
+  "image_vibe": "Playfully annoyed pink-studio portrait with direct wide-angle interaction",
+  "image_purpose": "Create a social-style portrait edit while preserving the approved adult subject's identity and styling.",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "A photorealistic edit using the required approved-adult person reference, changing only expression, pose, and background.",
+    "main_subject": "The adult person from the required approved-adult reference photo. Keep the same face, facial features, skin tone, hairstyle, outfit, accessories, gender presentation, and overall likeness unchanged. Give the subject pouty lips and furrowed brows with a playful annoyed expression, as if saying 'stop filming me'.",
+    "composition_elements": "Close wide-angle perspective with the body leaning slightly forward, one hand reaching toward the lens as if blocking a phone camera, a large foreground hand occupying approximately 30-50% of the frame with five natural fingers, face sharply focused behind the hand, and a clean solid pink studio backdrop.",
+    "lighting_and_atmosphere": "Even clean studio lighting on the face and hand, soft pink background atmosphere, playful candid phone-camera interaction, and realistic skin and hand texture.",
+    "technical_specs": "18-28mm wide-angle perspective with mild foreground exaggeration, sharp face focus, photorealistic edit, natural hand anatomy, high-resolution clarity, no text, watermark, frame, or extra fingers.",
+    "generated_prompt_string": "Create a photorealistic edit using the required approved-adult person reference photo. Keep the same face, facial features, skin tone, hairstyle including color, bangs, length, and volume, outfit, accessories, gender presentation, and overall likeness unchanged; do not face-swap or create a new person. Change only the expression, pose, and background: give the subject pouty lips and furrowed brows with a slightly annoyed but playful expression, as if saying 'stop filming me'. Use a close 18-28mm wide-angle perspective, lean the body slightly forward, and reach one hand toward the lens as if blocking a phone camera. Let the large foreground hand occupy 30-50% of the frame with five natural fingers and realistic anatomy while keeping the face sharply focused behind it. Replace the background with a clean solid pink seamless studio backdrop. Use clean even lighting, realistic skin and hand texture, no text, watermark, frame, extra fingers, deformed hands, or heavy blur.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, minor or teen-coded subject, identity drift, face swap, new person, changed outfit, extra fingers, deformed hand, heavy blur, plastic skin, text, watermark, frame",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved adult identity and styling reference", "required": true, "source": "https://img.opennana.com/prompts/images/1071.jpeg", "usage": "Preserve the approved adult subject's face, facial features, skin tone, hairstyle, outfit, accessories, gender presentation, and overall likeness exactly while changing only expression, pose, and background."}], "prompt_instructions": "Attach the approved adult reference. Keep identity, outfit, accessories, and hairstyle unchanged; only the playful annoyed expression, blocking-hand pose, camera perspective, and pink seamless background may change."}
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

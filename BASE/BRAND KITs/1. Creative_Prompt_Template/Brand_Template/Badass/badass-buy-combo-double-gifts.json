@@ -1,0 +1,86 @@
+{
+  "name": "badass-buy-combo-double-gifts",
+  "tag": [
+    "combo offer",
+    "double gifts",
+    "special offer",
+    "yellow blue campaign",
+    "product bundle",
+    "promotion graphic"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Special offers",
+  "group": "badass_1318678270426339",
+  "prompt": {
+    "project_info": {
+      "theme": "Buy combo and get double gifts promotion",
+      "color_palette": "Bright yellow, royal blue, white, black, light gray"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A bold square promotion poster built around giant blue-and-white Vietnamese offer typography, flanked by product cutouts of underwear and tops on a bright yellow backdrop with gift-line graphics.",
+      "style": "High-contrast ecommerce sale poster, typography-first retail graphic, bright promotional visual"
+    },
+    "composition_elements": {
+      "type": "Typography Panels/Graphic Shapes/Product Props",
+      "text": "BADASS, MUA COMBO, NHẬN X2 QUÀ TẶNG",
+      "items": [
+        "Top Center: black BADASS wordmark.",
+        "Upper Left: a tilted glossy blue label reading 'MUA COMBO'.",
+        "Center: giant stacked blue typography with thick white outline reading 'NHẬN X2 QUÀ TẶNG'.",
+        "Upper Right Behind Text: thin blue gift-box line art with ribbon bow.",
+        "Bottom Left: cropped black boxer briefs and blue brief product cutouts.",
+        "Bottom Center: a white T-shirt product cutout.",
+        "Bottom Right: a light gray polo shirt product cutout.",
+        "Bottom Left Corner: cropped blue angular graphic shape."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright flat commercial lighting",
+      "effect": "Clean high-key promotional contrast, soft glow around offer text, crisp cutout edges, energetic sale mood"
+    },
+    "technical_specs": {
+      "render_style": "Graphic retail promotion poster with product cutouts",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "BADASS wordmark",
+          "required": true,
+          "source": "source image brand reference",
+          "usage": "Use for the top-center BADASS branding."
+        },
+        {
+          "type": "text_layout",
+          "name": "MUA COMBO / NHẬN X2 QUÀ TẶNG offer typography",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Preserve the exact wording, white-outline treatment, and large stacked hierarchy."
+        },
+        {
+          "type": "product",
+          "name": "underwear and apparel gift cutouts",
+          "required": true,
+          "source": "source image product reference",
+          "usage": "Keep the product bundle composition with underwear on the left, white tee in the center, and gray polo on the right."
+        },
+        {
+          "type": "graphic",
+          "name": "gift-box line art and blue corner shape",
+          "required": true,
+          "source": "source image graphic reference",
+          "usage": "Preserve the thin gift outline behind the text and the cropped blue corner accent."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image as the primary reference for the exact offer hierarchy and product placement.",
+        "Keep all visible text exactly as 'MUA COMBO' and 'NHẬN X2 QUÀ TẶNG'.",
+        "Do not convert this into a lifestyle scene; it must remain a bold text-led promotional graphic."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square retail promotion poster for a BADASS combo offer. Use a bright yellow background with a black BADASS wordmark centered at the top. Add a tilted glossy blue label reading 'MUA COMBO' near the upper left. In the middle, place giant stacked blue typography with thick white outline reading 'NHẬN X2 QUÀ TẶNG'. Behind the upper-right part of the text, draw a thin blue gift-box outline with a ribbon bow. Along the bottom, place product cutouts: black boxer briefs and a blue brief on the left, a white T-shirt in the center, and a light gray polo on the right. Add a cropped blue angular shape in the bottom-left corner. Technical style: graphic retail promotion poster with product cutouts, bright flat commercial lighting, crisp edges, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, low resolution, incorrect Vietnamese text, weak contrast, cluttered layout, distorted products, extra props, flat lifeless colors, watermark, signature"
+  }
+}

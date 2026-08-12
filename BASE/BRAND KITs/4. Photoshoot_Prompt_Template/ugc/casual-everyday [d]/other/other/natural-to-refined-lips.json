@@ -1,0 +1,27 @@
+{
+  "name": "natural-to-refined-lips",
+  "tag": ["ugc", "casual-everyday", "other", "other", "beauty-comparison"],
+  "image_type": "before-and-after beauty comparison",
+  "image_vibe": "clinical natural lip refinement",
+  "image_purpose": "UGC-style cosmetic treatment comparison visual",
+  "group": "other/other",
+  "prompt": {
+    "project_info": "Create a photorealistic side-by-side before-and-after comparison of the same original approved adult woman, focused on natural lip refinement.",
+    "main_subject": "The same original approved adult woman appears in both panels with very light neutral skin, a silver nose ring, slightly visible upper teeth, relaxed neutral expression, and consistent identity. Preserve natural pores, light redness, fine lines, and realistic facial asymmetry.",
+    "composition_elements": "Side-by-side layout labeled BEFORE and AFTER, slightly low macro portrait at mouth level, tight crop from eyes to chin, same head angle and expression in both panels, neutral softly blurred aesthetic-clinic background, and no arrows or decorative overlays.",
+    "lighting_and_atmosphere": "Identical soft clinical daylight-balanced lighting from front with slight top fill, low-to-medium contrast, texture-revealing but natural, restrained neutral color grade.",
+    "technical_specs": "Photorealistic 2:3 comparison image, 90mm macro portrait equivalent, very shallow depth of field, sharp lips and skin texture, natural sensor grain, no beauty filters or over-smoothing.",
+    "generated_prompt_string": "Photorealistic 2:3 side-by-side BEFORE and AFTER comparison of the same original approved adult woman with very light neutral skin, silver nose ring, slightly visible upper teeth, and consistent relaxed neutral expression. Tight mouth-level macro crop from eyes to chin, identical head angle, lighting, and background in both panels. BEFORE shows thin natural lips with visible lip lines, slight dryness, and natural unevenness. AFTER shows subtle naturally enhanced volume, soft sheen, slightly more defined cupid's bow, and realistic fine lines preserved. Soft clinical daylight-balanced light, neutral blurred aesthetic-clinic background, 90mm macro perspective, natural pores and sensor grain, no beauty filters.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, exaggerated filler, medical injury, infection, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, distorted mouth, asymmetrical panels, unreadable labels",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "lip refinement before-after reference", "required": true, "source": "attached source image", "usage": "Match the same adult identity, nose ring, facial crop, before/after lip changes, clinic background, and identical lighting."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the same adult face, facial structure, identity, crop, expression, lighting, and realistic skin texture in both panels. BEFORE/AFTER labels, logos, typography, clinic products, and background details are replaceable editable elements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an original approved adult and preserved the same identity across both panels.", "Kept the cosmetic comparison subtle and realistic without exaggerated filler or beauty-filter language.", "Added anti-slop and safety exclusions."]
+  }
+}

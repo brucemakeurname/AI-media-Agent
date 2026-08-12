@@ -1,0 +1,66 @@
+{
+  "name": "black-and-white-smoky-fashion-portrait",
+  "tag": [
+    "adult-man",
+    "monochrome",
+    "smoke-atmosphere",
+    "dark-tailoring",
+    "fashion-editorial"
+  ],
+  "image_type": "smoky-fashion-portrait",
+  "image_vibe": "cinematic-monochrome-intense",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult while preserving the cigarette, smoke, dark tailoring, and monochrome high-fashion editorial concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "high-fashion black-and-white portrait with cigarette smoke",
+      "color_palette": "black, white, charcoal, and silver-gray",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult man with short light hair, expressive eyes, natural pores, fine facial texture, and a direct editorial gaze.",
+      "wardrobe": "Dark tailored coat over a black turtleneck with matte wool texture.",
+      "pose": "Centered head-and-shoulders portrait, holding a cigarette between the lips while soft smoke curls around the face."
+    },
+    "composition_elements": {
+      "framing": "Centered tight portrait with the face and smoke occupying most of the frame.",
+      "environment": "Minimal architectural background with soft geometric planes and no readable text or logos.",
+      "focus": "Sharp eyes, natural skin texture, coat lapels, and layered smoke detail."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft diffused daylight with controlled side contrast and matte highlights on the face and coat.",
+      "atmosphere": "Intense, restrained, editorial, and cinematic."
+    },
+    "technical_specs": {
+      "camera": "Hasselblad X2D medium-format camera with a 30mm lens, f/4, daylight balance",
+      "quality": "Ultra-realistic monochrome, strong tonal range, subtle film grain, lifelike matte highlights, crisp smoke wisps, and natural skin texture"
+    },
+    "generated_prompt_string": "Create an ultra-realistic 4:5 high-fashion black-and-white portrait of an adult man with short light hair, expressive eyes, natural pores, fine facial texture, and a direct editorial gaze. He wears a dark tailored coat over a black turtleneck and holds a cigarette between his lips while soft smoke curls around his face. Frame a centered tight portrait against a minimal architectural background with soft geometric planes and no readable text or logos. Use a Hasselblad X2D medium-format camera with a 30mm lens, soft diffused daylight, controlled side contrast, a strong monochrome tonal range, subtle film grain, lifelike matte highlights, and crisp smoke wisps.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, excessive HDR, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original subject. Optional wardrobe, environment, or mood references may replace only their named element while preserving the cigarette smoke, monochrome palette, dark tailoring, and editorial framing.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "dark-tailored-coat-and-turtleneck",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the coat and turtleneck styling while preserving the dark tailored silhouette."
+        },
+        {
+          "type": "location",
+          "name": "minimal-architectural-background",
+          "required": false,
+          "source": "user-uploaded location reference",
+          "usage": "Replace only the background geometry and architectural planes; remove readable text."
+        }
+      ]
+    }
+  }
+}

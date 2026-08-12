@@ -1,0 +1,70 @@
+{
+  "name": "toyota-operational-peace-of-mind-service-systems",
+  "tag": [
+    "service",
+    "systems-check",
+    "multi-model",
+    "maintenance"
+  ],
+  "biz_niche": "Education",
+  "content_format": "Infographics",
+  "group": "toyota_1517622386534232",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota service systems that keep drivers confident",
+      "color_palette": "Pale blue, navy, white, soft gray"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A service-infographic poster with the headline 'AN TAM VAN HANH VUNG TIN CAM LAI'. Seven blue circular icons list key vehicle systems: 'DONG CO VA HE TRUYEN DONG', 'HE THONG NHIEN LIEU', 'HE THONG DIEU HOA VA SUOI', 'KHUNG GAM VA HE THONG TREO', 'HE THONG PHANH', 'HE THONG LAI VA HE THONG XA', and 'HE THONG DIEN VA DIEN TU TREN XE'. Below is a Toyota dealership building and a lineup of Toyota vehicles including Yaris Cross, Innova Cross, Vios, and others.",
+      "style": "Corporate service-infographic poster with showroom backdrop, icon-led education, and multi-model reassurance"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "AN TAM VAN HANH / VUNG TIN CAM LAI / DONG CO VA HE TRUYEN DONG / HE THONG NHIEN LIEU / HE THONG DIEU HOA VA SUOI / KHUNG GAM VA HE THONG TREO / HE THONG PHANH / HE THONG LAI VA HE THONG XA / HE THONG DIEN VA DIEN TU TREN XE / TOYOTA",
+      "items": [
+        "Top Left: Large navy headline over pale-blue sky",
+        "Top Right: Upper row of blue circular system icons",
+        "Bottom Left: Toyota dealership building and left side of the model lineup",
+        "Bottom Right: Right side of the lineup including Vios and Altis-like sedan",
+        "Center/Background: Seven blue system-icon circles floating above a Toyota showroom and multiple car models"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Clean corporate daylight",
+      "effect": "Soft service-center haze, crisp icon readability, reassuring dealership atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal showroom composite with infographic icon overlay",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for Toyota aftersales service reassurance. Centerpiece is a corporate infographic titled 'AN TAM VAN HANH VUNG TIN CAM LAI' with seven blue icon circles for major vehicle systems, placed above a Toyota dealership and a lineup of Toyota cars. Background is a pale blue service-brand environment with a clean showroom facade. Surrounding elements: the exact seven system labels and visible Toyota branding on the dealership. Technical style: photoreal showroom composite with infographic icon overlay, clean corporate daylight, soft haze and crisp icon readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "location",
+          "name": "Toyota dealership facade reference",
+          "required": true,
+          "source": "showroom photo or this creative",
+          "usage": "Preserve the architecture, Toyota signage, and palm-lined frontage"
+        },
+        {
+          "type": "product",
+          "name": "Multi-model Toyota lineup references",
+          "required": true,
+          "source": "official model renders",
+          "usage": "Keep the exact vehicle arrangement and visible front-facing model identities"
+        },
+        {
+          "type": "text_layout",
+          "name": "Seven-system service infographic layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the seven blue circular icons above the dealership and the headline hierarchy"
+        }
+      ],
+      "prompt_instructions": "Keep all seven system labels exactly as visible. This should feel like a dealership service communication, not a retail sales ad."
+    }
+  }
+}

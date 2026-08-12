@@ -1,0 +1,75 @@
+{
+  "name": "luxury-car-back-seat-cool-girl",
+  "tag": [
+    "adult-woman",
+    "luxury-car",
+    "back-seat",
+    "brown-waves",
+    "daylight-fashion"
+  ],
+  "image_type": "car-interior-fashion-portrait",
+  "image_vibe": "cool-composed-luxury",
+  "image_purpose": "fashion-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject is an adult and replaced crop-top, exposed-midriff, and body-emphasis styling with a covered black knit top and composed seated poses."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult luxury-car back-seat fashion portrait diptych",
+      "color_palette": "black leather, deep brown hair, soft daylight, charcoal, and muted green exterior blur",
+      "format": "two complementary vertical 4:5 editorial portraits"
+    },
+    "main_subject": {
+      "description": "an adult woman with long naturally wavy brown hair, a serious composed expression, a fitted black long-sleeve knit top, and high-waisted black tailored trousers with no visible brands",
+      "pose_and_expression": "in one portrait she faces forward in the rear seat with one hand resting naturally near the window; in the other she uses a relaxed three-quarter rear-seat pose and gently looks over one shoulder"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level rear-seat fashion portrait, one forward-facing and one three-quarter view",
+      "foreground": "adult face, black knit texture, dark leather seat, and refined wood-like trim",
+      "background": "modern unbranded luxury-car interior with softly blurred passing greenery outside the side window",
+      "visual_hierarchy": "adult face and brown waves, covered black silhouette, then leather-and-daylight interior detail"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "soft daylight through the side window, natural face modeling, and controlled reflections on leather",
+      "atmosphere": "cool, polished, understated, and high-end"
+    },
+    "technical_specs": {
+      "camera": "Canon EOS R5",
+      "lens": "50mm f/2",
+      "settings": "1/160s, f/2.8, ISO 400",
+      "rendering": "high-resolution professional fashion photography, photorealistic texture, natural skin, shallow depth of field, and restrained color grade"
+    },
+    "generated_prompt_string": "Create two complementary high-resolution editorial portraits of an adult woman with long naturally wavy brown hair seated in the back seat of a modern unbranded luxury car with dark leather and refined wood-like trim. She wears a fitted black long-sleeve knit top and high-waisted black tailored trousers. In the first portrait she faces forward with one hand resting naturally by the window; in the second she gently looks over one shoulder in a relaxed three-quarter rear-seat pose. Use soft daylight through the window, natural skin texture, shallow depth of field, sharp interior material detail, and passing greenery softly blurred outside. The mood is cool, composed, and understated luxury; no brands, logos, or readable text.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, crop top, exposed midriff, body emphasis, nudity, brand logo, readable text, watermark, exaggerated curves, distorted anatomy, extra limbs, plastic skin",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use them only to replace the stated identity, wardrobe, car-material, or exterior-light element; remove logos and readable text.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-car-subject-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity and hairstyle only."
+        },
+        {
+          "type": "wardrobe",
+          "name": "covered-black-car-editorial-look-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Replace the adult subject's covered top and tailored trouser styling."
+        },
+        {
+          "type": "environment",
+          "name": "unbranded-dark-leather-car-interior-reference",
+          "required": false,
+          "source": "approved environment reference",
+          "usage": "Replace the rear-seat interior and window-light character without copying badges or logos."
+        }
+      ]
+    }
+  }
+}

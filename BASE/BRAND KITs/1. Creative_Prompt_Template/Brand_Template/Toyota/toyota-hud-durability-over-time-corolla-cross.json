@@ -1,0 +1,78 @@
+{
+  "name": "toyota-hud-durability-over-time-corolla-cross",
+  "tag": [
+    "toyota",
+    "corolla-cross",
+    "hud",
+    "feature",
+    "product-demo"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Product demos",
+  "group": "toyota_2181822129331107",
+  "prompt": {
+    "project_info": {
+      "theme": "Corolla Cross intelligent display and long-term durability",
+      "color_palette": "Electric Blue, Sky Blue, Red, White, Asphalt Gray"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A red Toyota Corolla Cross drives straight toward the camera on an elevated highway while a giant translucent blue HUD windshield interface floats over the car, showing 26 degrees, 0 km/h, 11:43, ECO, Refuel, BSM, and lane/indicator symbols.",
+      "style": "Photoreal automotive tech-feature poster with glossy car rendering, clean futuristic HUD overlay, and bright modern ad compositing."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "TOYOTA\nVUNG VANG VAN DAM\nBEN BI VUOT THOI GIAN\n26°C\n0 km/h\n11:43\nECO\nBSM\nRefuel\nMove your world",
+      "items": [
+        "Top Left: White Toyota logo on blue background.",
+        "Top Center: Large cyan-to-blue gradient headline bar 'VUNG VANG VAN DAM' and white subheadline 'BEN BI VUOT THOI GIAN'.",
+        "Bottom Left: Highway lane lines and light streak glow trailing behind the moving vehicle.",
+        "Bottom Right: Handwritten white 'Move your world'.",
+        "Center/Background: Red Corolla Cross, city skyline in soft blur, and huge futuristic HUD glass overlay spanning most of the upper half."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright daylight with tech overlay glow",
+      "effect": "Clean commercial daylight, reflective car paint, translucent cyan holographic glow, subtle motion blur on the road, premium automotive sharpness."
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic automotive technology poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Toyota Corolla Cross technology and durability. Centerpiece is a red Toyota Corolla Cross driving toward the camera on an elevated city highway. Background is a blue sky with soft city skyline blur. Surrounding elements: giant translucent HUD windshield graphic with readouts '26°C', '0 km/h', '11:43', 'ECO', 'BSM', and 'Refuel', large cyan gradient headline 'VUNG VANG VAN DAM', white subheadline 'BEN BI VUOT THOI GIAN', Toyota logo at top left, and handwritten 'Move your world' at bottom right. Technical style: photorealistic automotive technology poster, bright daylight with tech overlay glow, subtle motion blur, premium sharpness, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Toyota corporate logo white version",
+          "required": true,
+          "source": "brand asset / Toyota official logo",
+          "usage": "Place top left on flat blue background."
+        },
+        {
+          "type": "product",
+          "name": "Toyota Corolla Cross red exterior reference",
+          "required": true,
+          "source": "product reference image",
+          "usage": "Match front view angle, grille, and plate badge."
+        },
+        {
+          "type": "ui_reference",
+          "name": "HUD instrument overlay",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve floating interface shape and exact dashboard readouts."
+        },
+        {
+          "type": "text_layout",
+          "name": "Top gradient headline bar",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep title/subtitle hierarchy and placement."
+        }
+      ],
+      "prompt_instructions": "The HUD overlay is the critical differentiator here; keep it large, semi-transparent, and curved like projected windshield glass. Preserve the exact visible interface wording and symbols rather than replacing them with generic dashboard UI."
+    }
+  }
+}

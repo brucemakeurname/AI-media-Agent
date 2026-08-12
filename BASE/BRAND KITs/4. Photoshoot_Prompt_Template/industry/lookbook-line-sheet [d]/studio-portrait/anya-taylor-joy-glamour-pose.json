@@ -1,0 +1,75 @@
+{
+  "name": "anya-taylor-joy-glamour-pose",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "studio-glamour",
+    "floor-pose"
+  ],
+  "image_type": "full-body studio glamour portrait",
+  "image_vibe": "calm, confident, polished, cinematic",
+  "image_purpose": "fashion lookbook and high-end editorial portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create an ultra-photorealistic full-body studio glamour portrait of one original approved adult woman seated on a smooth matte studio floor.",
+    "main_subject": "Original approved adult woman with realistic anatomy, natural proportions, even natural skin tone, visible fine skin texture without artificial smoothing, calm confident expression, direct gaze, controlled-volume smooth hair resting along the shoulders, and a subtle head tilt. She wears a black sleeveless dress with a deep but tasteful neckline, sheer black tights, black heels, black gloves, and gold bangles.",
+    "composition_elements": [
+      "Subject seated directly on the studio floor in a locked three-quarter seated pose, with legs extended and crossed naturally.",
+      "Torso upright with a subtle backward lean, one forearm resting lightly on a bent knee, and one hand supporting the body on the floor.",
+      "Smooth matte neutral-gray floor with soft contact shadows beneath legs and heels.",
+      "Seamless medium neutral-gray backdrop with subtle vertical tonal falloff and uncluttered texture."
+    ],
+    "lighting_and_atmosphere": "Two-light studio configuration: large softbox key light front-left at approximately 35 degrees horizontal and 25 degrees elevation, low-intensity front-right fill at approximately a 1:2 ratio, and an optional subtle rear kicker defining hair and shoulder outline. Soft sculpting, gentle highlight rolloff, and controlled shadow softness.",
+    "technical_specs": "Ultra-photorealistic full-body 3:2 editorial portrait, 85mm full-frame lens at f/4, 8K detail, realistic fabric, glove, skin, hair, and floor texture, subtle natural grain, sharp focus, no text or watermark.",
+    "generated_prompt_string": "Ultra-photorealistic full-body studio glamour portrait of one original approved adult woman with realistic anatomy, natural proportions, even natural skin tone, visible fine skin texture without artificial smoothing, calm confident subtly glamorous expression, direct gaze toward the camera, and smooth controlled-volume hair resting naturally along her shoulders. She is seated directly on a smooth matte neutral-gray studio floor in a precise three-quarter pose with a slight posterior tilt, upright torso with a subtle backward lean, naturally crossed extended legs, black sleeveless dress, sheer black tights, black heels, black gloves and gold bangles. Use a seamless medium neutral-gray backdrop with subtle vertical tonal falloff, soft contact shadows beneath legs and heels, and a two-light studio setup: large softbox key from front-left at approximately 35 degrees horizontal and 25 degrees elevation, low-intensity front-right fill at approximately a 1:2 ratio, plus an optional subtle rear kicker defining hair and shoulder outline. Keep the mood calm, confident and polished, with soft sculpting, gentle highlight rolloff, realistic textures, 85mm f/4 full-frame look, 8K detail, no text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "celebrity likeness",
+      "explicit measurements",
+      "body-part emphasis",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "distorted anatomy",
+      "extra limbs",
+      "watermark",
+      "text",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "anya-taylor-joy-glamour-pose.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for original approved-adult identity, face, hair, outfit, pose, and expression reference."
+        },
+        {
+          "type": "location",
+          "name": "neutral-gray studio floor and seamless backdrop",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve floor texture, backdrop falloff, contact shadows, and studio environment."
+        }
+      ],
+      "prompt_instructions": "Attach the required person and studio-environment references; no optional assets are needed. Keep identity, face, hair, outfit, pose geometry, floor, backdrop, lighting, and atmosphere consistent. Replace only with an equivalent approved adult or equivalent neutral studio environment. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public-figure identity and removed body-part emphasis while preserving the black fashion look, seated studio geometry, gloves, lighting, and glamour direction."
+    ]
+  }
+}

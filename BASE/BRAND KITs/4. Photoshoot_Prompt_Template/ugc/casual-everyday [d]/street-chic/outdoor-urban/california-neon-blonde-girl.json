@@ -1,0 +1,19 @@
+{
+  "name": "california-neon-blonde-girl",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "california-night", "fast-food"],
+  "image_type": "neon-parking-lot-fashion-portrait",
+  "image_vibe": "gritty-y2k-california-night",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a high-quality full-body outdoor night portrait of an approved adult platinum-blonde woman in a fast-food parking lot with neon signage.",
+    "main_subject": "An approved adult woman with long wavy platinum-blonde hair, wearing a white ribbed camisole with blue trim, oversized plaid cargo pants, and a thick brown western belt. She holds a red-and-white soda cup and stands beside a dark sedan.",
+    "composition_elements": "Vertical full-body portrait with glowing red/yellow restaurant signage, parked cars, palm trees, and dark sedan in soft focus. Preserve supplied brand signage only through optional typography reference.",
+    "lighting_and_atmosphere": "Warm cinematic neon spill, gritty Y2K street style, nostalgic California-night atmosphere, realistic hair, fabric, cup, cars, and signage glow.",
+    "technical_specs": "Photorealistic high-detail vertical night photography, sharp subject, soft background, realistic neon exposure and natural color.",
+    "generated_prompt_string": "Create a photorealistic vertical full-body night portrait of an approved adult platinum-blonde woman with long wavy hair in a fast-food parking lot. She wears a white ribbed camisole with blue trim, oversized plaid cargo pants, and a thick brown western belt, holds a red-and-white soda cup, and stands beside a dark sedan. Include glowing red and yellow restaurant signage, parked cars, palm trees, warm neon spill, gritty Y2K styling, and nostalgic California-night mood. Preserve signage typography only when an explicit text reference is attached.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, altered brand sign, extra fingers, deformed hands, distorted car",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-neon-parking-subject", "required": true, "source": "california-neon-blonde-girl.jpg", "usage": "Preserve adult identity, platinum hair, outfit, cup, and pose."}, {"type": "wardrobe", "name": "white-camisole-plaid-cargo", "required": true, "source": "california-neon-blonde-girl.jpg", "usage": "Keep clothing and belt consistent; replace only with explicit references."}, {"type": "location", "name": "neon-fast-food-parking-lot", "required": true, "source": "california-neon-blonde-girl.jpg", "usage": "Maintain sedan, parking lot, palms, neon, and night atmosphere; replace only with explicit references."}, {"type": "text_layout", "name": "restaurant-neon-signage", "required": false, "source": "california-neon-blonde-girl.jpg", "usage": "Attach only if exact signage typography is required; do not invent or alter text."}], "prompt_instructions": "Attach person, wardrobe, location, and optional text-layout references when exact consistency is required. Keep adult identity, outfit, product/cup, environment, logo, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and added controlled handling for visible brand signage.", "Added safe negative prompts and structured references."]}
+}

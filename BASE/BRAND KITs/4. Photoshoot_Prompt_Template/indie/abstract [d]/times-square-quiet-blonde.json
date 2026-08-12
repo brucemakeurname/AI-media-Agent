@@ -1,0 +1,79 @@
+{
+  "name": "times-square-quiet-blonde",
+  "tag": [
+    "adult-woman",
+    "blonde",
+    "times-square",
+    "black-coat",
+    "crowd-blur",
+    "fashion-editorial"
+  ],
+  "image_type": "city-fashion-portrait",
+  "image_vibe": "quiet-stoic-metropolitan",
+  "image_purpose": "editorial",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the blonde subject is an adult while retaining the urban fashion concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "still adult blonde woman amid moving Times Square crowd",
+      "color_palette": "black, cool gray, neon cyan, magenta, taxi yellow",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult blonde woman",
+      "detail": "An adult blonde woman with a calm stoic expression, wearing a long black minimalist coat, black trousers, and black shoes.",
+      "style": "full-body high-fashion city portrait with realistic skin and fabric texture"
+    },
+    "composition_elements": {
+      "text": "Background billboards are abstract and unreadable; no rendered text.",
+      "items": [
+        "adult woman standing centered and slightly turning toward camera",
+        "full-body black outfit against bright urban screens",
+        "anonymous passersby moving in directional blur",
+        "Times Square-like tall signs, taxis, and wet sidewalk reflections",
+        "sharp central subject with bright but abstract city background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft overcast daylight at approximately 6200K mixed with diffused screen glow",
+      "effect": "cool metropolitan light, soft magazine texture, static-vs-motion contrast"
+    },
+    "technical_specs": {
+      "render_style": "50mm lens at f/2.8, controlled slow-shutter pedestrian blur, subtle fine grain, natural dynamic range",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "A high-fashion editorial portrait of an adult blonde woman standing still and gently turning toward the camera in a Times Square-like city plaza. She wears a long black minimalist coat, black trousers, and black shoes, with a calm stoic expression. Surround her with anonymous blurry silhouettes of people walking past. Show vibrant but abstract and unreadable city lights, tall billboards, distant taxis, and reflective sidewalk detail to emphasize the contrast between motion blur and her static presence. Use film composition, pure art-photography sensibility, soft magazine texture, natural overcast daylight mixed with screen glow, and portrait 4:5 framing.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, readable billboard text, logo, watermark, recognizable bystanders, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-blonde-model-reference",
+          "required": false,
+          "source": "Attach an authorized adult reference when likeness continuity is required.",
+          "usage": "Preserve adult face and blonde hair if attached; otherwise use a generic adult model."
+        },
+        {
+          "type": "wardrobe",
+          "name": "minimalist-black-coat-reference",
+          "required": false,
+          "source": "Attach wardrobe reference when exact coat silhouette matters.",
+          "usage": "Keep long black outerwear and trousers consistent; they may be replaced."
+        },
+        {
+          "type": "location",
+          "name": "abstract-times-square-city-plate",
+          "required": false,
+          "source": "Attach a city plate when exact light density or street geometry is needed.",
+          "usage": "Keep high-density screens and crowd motion without readable signs; location may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve a clearly adult central blonde subject, black minimalist outfit, abstract Times Square-like field, and anonymous moving crowd. Person, wardrobe, and location can be replaced independently."
+    }
+  }
+}

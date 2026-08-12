@@ -1,0 +1,51 @@
+{
+  "name": "neon-kitchen-sexy-duo-closeup",
+  "tag": ["ugc", "lifestyle-moment", "night-out", "public-indoor", "duo-portrait", "neon-kitchen", "low-angle"],
+  "image_type": "cinematic two-person fashion close-up",
+  "image_vibe": "confident, playful, glossy, neon, editorial",
+  "image_purpose": "social-media night-out duo visual",
+  "group": "lifestyle-moment/night-out/public-indoor",
+  "prompt": {
+    "project_info": "Photorealistic 9:16 two-person fashion close-up in a modern minimalist kitchen, shot from a low-angle worm's-eye perspective with 35mm f/2.8 optics, 8K-style detail, and realistic ray-traced reflections.",
+    "main_subject": "Two clearly adult women with original non-celebrity identities. The primary woman has pale realistic skin, a heart-shaped face, large dark eyes behind thick black rectangular glasses, very long straight jet-black hair with sharp blunt bangs, subtle goth-inspired makeup, and a neutral confident gaze over her shoulder. The secondary woman has a soft oval face, high cheekbones, expressive eyes, long voluminous platinum-blonde waves, realistic warm porcelain skin with visible pores, and a confident composed gaze. Do not reproduce Selena Gomez or any other public figure; do not use explicit body measurements.",
+    "composition_elements": "Use a low-angle side-profile close-up. The primary adult woman sits on a white quartz kitchen counter with knees drawn in, hands supporting her on the counter, head tilted toward camera. The secondary adult woman lies on her side beside her, propped on one elbow and curved toward the primary subject, with one hand near the hip and a poised camera-facing expression. Dress the primary subject in a vibrant yellow mini bodycon dress with a flattering neckline and pantyhose; dress the secondary subject in a red lace mini bodycon dress with a flattering neckline and pantyhose. Both wear metallic gold ankle-strap stiletto sandals and red nail color. Keep coverage secure and anatomy natural.",
+    "lighting_and_atmosphere": "Use a three-point studio setup: soft key light from 45 degrees, subtle rim light on hair and shoulders, realistic skin diffusion, and crisp specular highlights on metallic heels and the quartz countertop. Include a dark staircase with vertical railings, neutral yellow walls, and a soft purple neon accent in the background without readable branding. Maintain glossy neon editorial atmosphere.",
+    "technical_specs": "9:16 aspect ratio, 35mm lens, f/2.8, low-angle camera approximately 30cm from the floor, ISO 100, 8K-style photorealistic rendering, accurate quartz and metallic reflections, realistic fabric, skin and hair texture, no text, logos or watermark.",
+    "generated_prompt_string": "Photorealistic 9:16 low-angle side-profile close-up of two clearly adult women with original identities in a modern minimalist kitchen. Primary woman: pale realistic skin, heart-shaped face, large dark eyes behind thick black rectangular glasses, very long straight jet-black hair with blunt bangs, subtle goth makeup, yellow mini bodycon dress with a flattering neckline and pantyhose, seated on a white quartz counter with knees drawn in and hands supporting her, looking over shoulder with neutral confident gaze. Secondary woman: oval face, high cheekbones, expressive eyes, long platinum-blonde waves, warm realistic skin, red lace mini bodycon dress with a flattering neckline and pantyhose, metallic gold ankle-strap stilettos, lying on her side beside the primary subject and propped on one elbow with a poised camera-facing expression. Dark staircase, vertical railings, neutral yellow walls, soft purple neon accent, three-point studio lighting, 35mm f/2.8, accurate ray-traced reflections, glossy confident neon editorial mood, no celebrity likeness, no readable text or logos.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Selena Gomez likeness, explicit body measurements, transparent clothing, exposed underwear, distorted anatomy, extra fingers, malformed hands, extra limbs, duplicate subject, clothing clipping, warped reflections, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "neon-kitchen-sexy-duo-closeup.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the two adult subjects, black-haired glasses look, platinum-blonde waves, yellow and red dresses, gold heels, kitchen counter pose, low-angle camera, staircase, purple neon accent and reflection rules; replace named identity and unsafe body wording."
+        },
+        {
+          "type": "source_url",
+          "name": "original prompt post",
+          "required": false,
+          "source": "https://x.com/KeorUnreal/status/2026814102320947411",
+          "usage": "Context only; local written prompt is authoritative."
+        },
+        {
+          "type": "image_asset",
+          "name": "1775078797699-73clh4qx-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1775078797699-73clh4qx-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required; source URL and image asset are optional context. Keep two clearly adult subjects, wardrobe colors and materials, pose relationship, kitchen environment, purple neon accent, low-angle framing and reflection integrity. Replace celebrity identity, remove explicit measurements and avoid readable branding."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Selena Gomez likeness with an original adult subject and made both subjects clearly adult.",
+      "Removed explicit body measurements and reframed seductive/sultry wording as poised and confident.",
+      "Changed deep necklines to flattering necklines, preserved the duo fashion concept, and removed readable branding."
+    ]
+  }
+}

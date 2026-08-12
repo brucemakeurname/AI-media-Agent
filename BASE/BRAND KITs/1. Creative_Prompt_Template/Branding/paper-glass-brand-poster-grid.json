@@ -1,0 +1,68 @@
+{
+    "name":  "paper-glass-brand-poster-grid",
+    "tag":  [
+                "branding",
+                "brand story",
+                "paper glass",
+                "minimal poster",
+                "product identity",
+                "campaign grid"
+            ],
+    "biz_niche":  "Beauty & Personal Care",
+    "content_format":  "Brand story",
+    "group":  "branding_paper_glass",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Soft paper-glass brand product posters",
+                                        "color_palette":  "Ice white, soft gray, pale blue, muted green, brand-specific accent color"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A four-panel grid of translucent frosted paper-glass products, each paired with a restrained brand-color interaction: foaming Sprite bottle, liquid Chanel fragrance, cream-sculpture Nivea tin, and silent white earbuds.",
+                                        "style":  "Visually soothing minimalist material-study advertising"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Product/Material/Logo/Typography",
+                                                "text":  "FEEL CLEAR. STAY COOL.; TIME. ESSENCE. FOREVER.; PURE. CALM. BEAUTIFUL.; Silence Feels Like Magic",
+                                                "items":  [
+                                                              "Upper left: green Sprite bottle with white foam, lemon, ice and slogan.",
+                                                              "Upper right: translucent Chanel No. 5 bottle framed by flowing gold liquid.",
+                                                              "Lower left: Nivea blue tin and tall white cream sculpture.",
+                                                              "Lower right: pale earbuds, charging case, and soft concentric texture."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft cinematic studio lighting",
+                                                   "effect":  "Gentle contrast, ambient shadows, frosted transparency, glow/mist/liquid accents"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Ultra-detailed paper-glass commercial poster",
+                                           "resolution":  "Vertical or square poster quality"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "brand product packshot",
+                                                                 "required":  true,
+                                                                 "source":  "exact packaging/product reference",
+                                                                 "usage":  "Preserve the true silhouette, label, and brand materials inside the paper-glass interpretation."
+                                                             },
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "official brand logo",
+                                                                 "required":  true,
+                                                                 "source":  "approved logo asset",
+                                                                 "usage":  "Render subtle etched, printed, or glowing identity without replacing it with generic text."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach exact product and official logo references.",
+                                                                          "Restrict each execution to one product and one single brand-color interaction.",
+                                                                          "Use the four-word slogan only when approved by the brand."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "[ Product by Brand ] in a surreal, minimalist paper-glass style advertisement. The product is centered, crafted from translucent frosted glass-paper, placed against a clean white or softly tinted background. Soft cinematic lighting creates gentle contrast and ambient shadows. A single brand color subtly interacts with the scene through glow, mist, liquid, or foam. Include a bold, elegant 4-word slogan near the product. The brand logo appears subtly etched, glowing, or printed in a refined manner. Vertical or square aspect ratio, ultra-detailed, poster-quality, visually soothing and conceptually refined.",
+                   "negative_prompt":  "opaque plastic, clutter, multiple accent colors, wrong logo, unreadable slogan, hard shadows, dark scene, low resolution, watermark"
+               }
+}

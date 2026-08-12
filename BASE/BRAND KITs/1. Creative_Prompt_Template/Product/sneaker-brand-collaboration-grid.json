@@ -1,0 +1,76 @@
+{
+    "name":  "sneaker-brand-collaboration-grid",
+    "tag":  [
+                "fashion",
+                "brand collaboration",
+                "sneakers",
+                "product grid",
+                "co-branding",
+                "concept study"
+            ],
+    "biz_niche":  "Fashion & Apparel / Editorial",
+    "content_format":  "Product demos",
+    "group":  "product_multi-concept-grid",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Unexpected sneaker brand collaborations",
+                                        "color_palette":  "Peach orange, blush pink, lavender, pale yellow, white, collaboration accent colors"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A four-panel grid of low-profile sneakers, each invented as a polished collaboration between a footwear brand and a recognizable partner brand.",
+                                        "style":  "Clean sneaker catalog editorial with playful color-specific product styling"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Four-panel grid/Logo marks/Typography",
+                                                "text":  "Nano Banana prompt; @AmirMushich",
+                                                "items":  [
+                                                              "Upper left: orange, green, and white Nike-style sneaker with convenience-store color cues on peach.",
+                                                              "Upper right: pale pink New Balance-style sneaker with social-platform icon pairing on blush.",
+                                                              "Lower left: iridescent white Nike-style runner on lavender.",
+                                                              "Lower right: red-and-yellow McDonald’s-inspired sneaker close-up on pale yellow.",
+                                                              "Bottom white footer: Nano Banana prompt title and @AmirMushich credit chip."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft catalog studio lighting",
+                                                   "effect":  "Even product visibility, subtle ground shadow, light pastel color field, crisp material texture"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "High-end product design editorial",
+                                           "resolution":  "Vertical 4-panel grid, highly detailed"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "base sneaker silhouette",
+                                                                 "required":  true,
+                                                                 "source":  "attach intended sneaker reference",
+                                                                 "usage":  "Preserve the shoe’s actual proportions, sole, laces, and panel construction."
+                                                             },
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "collaboration logos",
+                                                                 "required":  true,
+                                                                 "source":  "approved partner assets",
+                                                                 "usage":  "Use only approved logo marks in each cell."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "grid footer",
+                                                                 "required":  false,
+                                                                 "source":  "source layout reference",
+                                                                 "usage":  "Optional when reproducing the prompt-card format rather than a pure product grid."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach base product and approved partner-brand assets.",
+                                                                          "Design one coherent 2 by 2 collaboration grid.",
+                                                                          "Never hallucinate trademarks when an approved logo is unavailable."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Brand x Sneakers prod. matchmaker",
+                   "negative_prompt":  "warped sneaker, mismatched sole, fake logo, extra panels, wrong collaboration colors, cluttered background, low resolution, watermark"
+               }
+}

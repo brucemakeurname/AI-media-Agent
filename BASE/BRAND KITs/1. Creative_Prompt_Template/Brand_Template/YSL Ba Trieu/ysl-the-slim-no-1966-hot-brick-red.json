@@ -1,0 +1,71 @@
+{
+  "name": "ysl-the-slim-no-1966-hot-brick-red",
+  "tag": [
+    "ysl",
+    "the-slim",
+    "1966",
+    "brick-red",
+    "beauty-portrait"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "ysl_1086199233544787",
+  "prompt": {
+    "project_info": {
+      "theme": "YSL lipstick shade No 1966 beauty portrait",
+      "color_palette": "Warm orange, deep brick red, platinum blonde, black, white"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A glamorous beauty portrait of a platinum-blonde bob-haired model wearing dramatic brick-red lipstick. The lower-left text reads 'NO 1966' and 'ĐỎ GẠCH NÓNG BỎNG'. A YSL The Slim lipstick bullet stands beside the copy on the left. The background is a warm orange studio gradient.",
+      "style": "Luxury portrait beauty poster with fashion-editorial makeup focus"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "NO 1966; ĐỎ GẠCH NÓNG BỎNG",
+      "items": [
+        "Top Left: Model's platinum bob and orange gradient background",
+        "Top Right: Smooth warm orange negative space",
+        "Bottom Left: YSL The Slim lipstick bullet and white shade-name typography",
+        "Bottom Right: Lower fade into dark gradient near the base of the portrait",
+        "Center/Background: Close beauty portrait with black manicure touching the neck and bold brick-red lips"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft luxury portrait lighting",
+      "effect": "Velvety skin finish, subtle specular highlights, vivid lip color emphasis, fashion-beauty polish"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal beauty portrait advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury beauty poster for YSL lipstick shade No 1966. Centerpiece is a glamorous photoreal portrait of a platinum-blonde bob-haired model wearing dramatic brick-red lipstick against a warm orange gradient. Include the exact text 'NO 1966' and 'ĐỎ GẠCH NÓNG BỎNG', plus a YSL The Slim lipstick bullet at the lower left. Technical style: photoreal beauty portrait advertising composite, soft luxury portrait lighting, velvety skin finish and vivid lip-color emphasis, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Beauty portrait model reference",
+          "required": true,
+          "source": "original portrait image",
+          "usage": "Preserve the platinum bob, facial angle, black manicure, and overall glam expression"
+        },
+        {
+          "type": "product",
+          "name": "YSL The Slim lipstick in shade No 1966",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Match the slim black-and-gold bullet and the exposed brick-red shade"
+        },
+        {
+          "type": "background",
+          "name": "Warm orange studio gradient",
+          "required": true,
+          "source": "original visual setup",
+          "usage": "Maintain the clean, heated backdrop behind the portrait"
+        }
+      ],
+      "prompt_instructions": "Keep the portrait elegant and editorial. The lipstick shade and the platinum bob are the two key fidelity anchors. Do not add extra props beyond the single lipstick bullet."
+    }
+  }
+}

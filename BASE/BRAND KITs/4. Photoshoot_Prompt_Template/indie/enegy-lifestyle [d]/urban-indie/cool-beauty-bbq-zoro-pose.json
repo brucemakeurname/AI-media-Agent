@@ -1,0 +1,66 @@
+{
+  "name": "Night Market Barbecue Skewer Portrait",
+  "tag": "night-market-barbecue-skewers",
+  "image_type": "urban_night_market_portrait",
+  "image_vibe": "warm_cinematic_playful",
+  "image_purpose": "lifestyle_editorial",
+  "group": "indie/enegy-lifestyle/urban-indie",
+  "prompt": {
+    "project_info": {
+      "title": "Night Market Barbecue Skewer Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with long dark wind-tossed hair, a composed expression, and natural luminous skin.",
+      "wardrobe": "A charcoal sleeveless high-neck top, relaxed dark high-waisted trousers, and small unbranded silver earrings.",
+      "pose_and_expression": "Low-angle candid portrait: she holds two cooked barbecue skewers safely apart at chest height and smiles subtly toward camera."
+    },
+    "composition_elements": {
+      "setting": "A busy night-market food stall with warm bulbs, soft steam, distant anonymous shoppers, and abstract out-of-focus signage.",
+      "framing": "Low-angle medium portrait with shallow depth of field and the stall's warm light behind the subject.",
+      "text_and_brand_control": "No anime character reference, food-stall name, readable signage, logos, labels, or text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Warm yellow practical lights with soft glow and deep nighttime background falloff.",
+      "mood": "Lively, modern, playful, and food-focused."
+    },
+    "technical_specs": {
+      "camera_style": "cinematic street-film photograph",
+      "lens": "28mm equivalent",
+      "rendering": "Fine grain, naturally detailed hair, accurate hands, realistic cooked food, and restrained soft bloom."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical cinematic night-market photograph of an adult woman with long dark wind-tossed hair, natural luminous skin, and a composed subtle smile. She wears a charcoal sleeveless high-neck top with relaxed dark high-waisted trousers and small plain silver earrings. Shoot a low-angle medium candid portrait while she holds two cooked barbecue skewers safely apart at chest height. Place her at a lively food stall under warm yellow bulbs with soft steam, distant anonymous shoppers, and abstract out-of-focus signage. Use 28mm street-film framing, shallow depth of field, fine grain, realistic cooked food, accurate hands, detailed hair, and restrained soft glow. Do not include anime characters, readable signs, logos, labels, or text.",
+    "negative_prompt": "minor, celebrity likeness, named character, anime character, explicit, nsfw, overly revealing clothing, lingerie, fetish styling, skewer in mouth, unsafe pose, logos, readable text, watermark, distorted hands, extra fingers, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "All identity references are optional and must show a consenting adult. Use location, food, and wardrobe references as replaceable guides only; never copy character IP, logos, or readable copy.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general adult facial and hair traits only."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "dark_night_market_outfit_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide covered silhouette and tonal palette without labels."
+        },
+        {
+          "type": "environment_reference",
+          "name": "night_market_food_stall_reference",
+          "required": false,
+          "source": "user-provided location reference",
+          "usage": "Guide bulbs, steam, and stall layout while making signs unreadable."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adulthood, removed named-character imitation and unsafe skewer-in-mouth action, used covered clothing, and prohibited text and brands."
+  }
+}

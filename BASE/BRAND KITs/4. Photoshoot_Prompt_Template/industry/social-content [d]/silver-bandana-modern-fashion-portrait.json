@@ -1,0 +1,75 @@
+{
+  "name": "silver-bandana-modern-fashion-portrait",
+  "tag": [
+    "silver-hair",
+    "bandana-styling",
+    "black-streetwear",
+    "blue-sky-portrait",
+    "edgy-closeup"
+  ],
+  "image_type": "editorial-closeup-portrait",
+  "image_vibe": "modern-edgy",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Modern edgy close-up fashion portrait under a bright blue sky",
+      "creative_direction": "Striking and mysterious contemporary streetwear portrait focused on expression, texture, and accessories",
+      "color_palette": "light silver-gray hair, black, white bandana marks, vivid blue sky, and small green-red graphic accents"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult woman with short wavy light-gray hair partially covering the forehead, fair skin, sharp features, straight dark eyebrows, naturally pink lips, and calm intense expression",
+      "wardrobe": "black bandana with white swirl patterns, black zip-up jacket worn open, black T-shirt with fictional green-and-red graphic art, thin silver chain, and small silver earring",
+      "pose": "close-up side-angle portrait with relaxed shoulders and direct confident presence"
+    },
+    "composition_elements": {
+      "framing": "3:4 close-up side-angle portrait with face and upper torso prominent",
+      "background": "bright clear blue sky with uncluttered negative space",
+      "focus": "facial expression, silver hair strands, bandana pattern, zipper, chain, and fictional shirt graphic"
+    },
+    "lighting_and_atmosphere": {
+      "type": "front-facing sunlight at approximately 5600K with soft white bounce",
+      "effect": "clean facial modeling, bright hair edge highlights, readable black fabric and silver jewelry, and crisp modern mood"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 85mm portrait lens, photoreal editorial close-up",
+      "resolution": "4k 3:4 social portrait",
+      "finish": "visible pores, natural hair texture, slight optical falloff, restrained saturation, and subtle grain"
+    },
+    "generated_prompt_string": "Create a striking modern close-up fashion portrait of a clearly adult woman from a side angle against a bright blue sky. Give her short wavy light-gray hair partially covering the forehead, fair skin, sharp features, straight neat dark eyebrows, naturally pink lips, and a calm but intense expression. She wears a black bandana with white swirl patterns, a black zip-up jacket worn open over a black T-shirt with fictional green-and-red graphic art, a thin silver chain, and a small silver earring. Use front light at approximately 5600K with soft white bounce to highlight her facial features and outfit. Focus on expression, silver hair strands, bandana texture, zipper, chain, and natural skin detail. Keep the portrait edgy, stylish, modern, non-sexual, and free of real logos or celebrity likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, provocative styling, real logo, celebrity likeness, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed face, distorted bandana, illegible shirt graphic",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-silver-haired-model",
+          "required": true,
+          "source": "Original modern fashion portrait preview image",
+          "usage": "Attach an approved adult face reference and preserve facial structure and likeness without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-bandana-streetwear-look",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the black bandana, open jacket, graphic T-shirt, silver chain, and earring; replace only with equivalent adult streetwear."
+        },
+        {
+          "type": "location",
+          "name": "clear-blue-sky-background",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve bright blue sky, clean negative space, and daylight direction; background may be replaced with an equivalent open sky."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult model, exact streetwear, and sky references. Keep adult identity, hair, bandana pattern, outfit, side angle, expression, and daylight consistent. Replace the person or graphics only with approved equivalents; keep all styling non-sexual and unbranded."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as clearly adult and removed provocative framing while preserving the edgy streetwear portrait, exact outfit, and confident mood."
+    ]
+  }
+}

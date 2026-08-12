@@ -1,0 +1,72 @@
+{
+  "name": "neon-night-latex-babe",
+  "tag": [
+    "adult-woman",
+    "red-phone-booth",
+    "neon-night",
+    "platinum-pigtails",
+    "playful-editorial"
+  ],
+  "image_type": "neon-phone-booth-portrait",
+  "image_vibe": "playful-vibrant-retro",
+  "image_purpose": "social-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Preserved the adult red telephone-booth fashion concept while using neutral fitted-dress, silhouette, and lighting language; removes the source signage and any explicit framing."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "playful adult retro telephone-booth neon portrait",
+      "color_palette": "red, soft pink, electric blue, warm gold, and black",
+      "aspect_ratio": "9:16"
+    },
+    "main_subject": {
+      "description": "An adult woman, optionally matching an approved adult non-public-figure identity reference, with a curvy feminine silhouette, platinum-blonde hair in two high pigtails, large red satin bows, and natural skin texture.",
+      "wardrobe": "Fitted glossy-red sleeveless evening dress with a tasteful square neckline and side-lace detail; no visible brands.",
+      "pose": "Standing inside a red vintage telephone booth, holding an unbranded red corded receiver at her ear with one hand while the other rests lightly on the booth frame; her expression is playful and self-assured."
+    },
+    "composition_elements": {
+      "framing": "Eye-level vertical medium portrait showing the booth interior and night lights beyond the glass.",
+      "environment": "Red vintage booth with abstract neon shapes outside, warm fairy lights, and no readable signage."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft front light blended with colorful neon ambience, a gentle rim light, and realistic shadows enhancing the fitted silhouette.",
+      "atmosphere": "Vibrant, retro, friendly, and fashion-forward."
+    },
+    "technical_specs": {
+      "render_style": "high-fashion photoreal editorial",
+      "quality": "natural pores, realistic coat sheen, crisp booth texture, controlled neon reflections"
+    },
+    "generated_prompt_string": "Create a photorealistic 9:16 playful retro neon portrait of an adult woman, optionally matching an approved adult non-public-figure identity reference, inside a red vintage telephone booth. She has a curvy feminine silhouette, platinum-blonde hair in two high pigtails with large red satin bows, and natural skin texture. She wears a fitted glossy-red sleeveless evening dress with a tasteful square neckline and side-lace detail. She holds an unbranded red corded receiver to her ear while her other hand rests lightly on the booth frame, with a playful self-assured expression. Show abstract colorful neon shapes and warm fairy lights outside the glass, with no readable signage. Use soft front light, gentle rim light, controlled reflections, and realistic shadows enhancing her fitted silhouette, crisp booth texture, and a vibrant high-fashion nightlife mood.",
+    "negative_prompt": "minor, unapproved identity, nudity, explicit, nsfw, overly revealing, readable neon text, creator name, logo, watermark, distorted hands",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Replace only the stated identity, wardrobe, phone-booth, or ribbon element and remove any text, logo, or brand.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": false,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Match adult facial identity only, with no blending or age change."
+        },
+        {
+          "type": "wardrobe",
+          "name": "fitted-red-evening-dress",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace the adult subject's red evening-fashion look."
+        },
+        {
+          "type": "prop",
+          "name": "unbranded-red-telephone-booth",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace booth, receiver, and red color character without copying signs."
+        }
+      ]
+    }
+  }
+}

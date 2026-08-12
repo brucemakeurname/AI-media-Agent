@@ -1,0 +1,73 @@
+{
+  "name": "neon-lounge-charming-woman",
+  "tag": [
+    "adult-woman",
+    "curvy-silhouette",
+    "ruched-midi-dress",
+    "neon-lounge",
+    "over-shoulder-fashion"
+  ],
+  "image_type": "lounge-fashion-portrait",
+  "image_vibe": "confident-neon-luxury",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced explicit body-part and body-measurement language with a curvy feminine silhouette, fitted ruched dress, flattering neckline, and directional-light wording while preserving the adult lounge fashion concept and pose."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "upscale neon lounge fashion portrait of an adult woman",
+      "color_palette": "soft beige, deep wood, red velvet, blue, purple, and gold neon",
+      "aspect_ratio": "9:16"
+    },
+    "main_subject": {
+      "description": "A striking adult woman with a curvy feminine silhouette, defined natural facial features, extra-long voluminous dark waves, and a confident radiant smile.",
+      "wardrobe": "Fitted soft-beige ruched midi dress with a flattering neckline, delicate shoulder straps, refined gold hoop earrings, and a classic pearl bracelet.",
+      "pose": "Side-facing pose leaning lightly against a textured wooden wall, one hand confidently on the hip and the other lifted into the hair while she glances back toward camera."
+    },
+    "composition_elements": {
+      "framing": "Vertical three-quarter fashion portrait with the subject's curvy silhouette, dress ruching, and lounge architecture clearly visible.",
+      "environment": "Upscale luxury lounge or bar interior at night with wood-paneled wall, deep red velvet seating, and no text or logos.",
+      "focus": "Sharp face, hair strands, dress texture, jewelry, hand placement, and realistic architectural detail."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Moody blue, purple, and gold neon ambience with soft flattering fill and realistic shadows enhancing the fitted silhouette.",
+      "atmosphere": "Confident, radiant, polished, elegant, and cinematic."
+    },
+    "technical_specs": {
+      "camera": "Canon EOS R5 with an 85mm portrait lens at f/2.0, 1/160 s, ISO 400",
+      "quality": "Photorealistic high-resolution fashion photography, crisp eyes, realistic skin and fabric texture, controlled neon reflections, and rich cinematic tones"
+    },
+    "generated_prompt_string": "Create a photorealistic 9:16 upscale neon-lounge fashion portrait of an adult woman with a curvy feminine silhouette, defined natural facial features, extra-long voluminous dark waves, and a confident radiant smile. She wears a fitted soft-beige ruched midi dress with a flattering neckline and delicate shoulder straps, refined gold hoop earrings, and a pearl bracelet. Pose her side-facing while leaning lightly against a textured wooden wall, one hand confidently on the hip and the other lifted into the hair as she glances back toward camera. Place her in a luxury lounge at night with deep red velvet seating and subtle blue, purple, and gold neon ambience. Use soft flattering fill, realistic shadows enhancing the fitted silhouette, an 85mm lens at f/2.0, crisp eyes, natural skin, detailed ruching, controlled reflections, rich cinematic tones, and no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, readable text, logo, watermark, plastic skin, over-smooth skin, excessive HDR, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult subject. Optional wardrobe, lounge, jewelry, or lighting references may replace only their named element; preserve the curvy silhouette, fitted ruched dress, over-shoulder pose, and neon-lounge mood without adding explicit body-part wording.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "fitted-beige-ruched-midi-dress",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the dress fit, ruching, neckline, and fabric while preserving its polished fitted character."
+        },
+        {
+          "type": "location",
+          "name": "wood-paneled-neon-luxury-lounge",
+          "required": false,
+          "source": "user-uploaded lounge reference",
+          "usage": "Replace only the wall, seating, lounge architecture, and neon ambience; remove readable text."
+        },
+        {
+          "type": "accessory",
+          "name": "gold-hoops-and-pearl-bracelet",
+          "required": false,
+          "source": "user-uploaded accessory reference",
+          "usage": "Replace only the unbranded jewelry styling while preserving the refined evening character."
+        }
+      ]
+    }
+  }
+}

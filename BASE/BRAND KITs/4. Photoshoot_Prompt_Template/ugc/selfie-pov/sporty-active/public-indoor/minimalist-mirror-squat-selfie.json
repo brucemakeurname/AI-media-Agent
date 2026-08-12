@@ -1,0 +1,22 @@
+{
+  "name": "minimalist-mirror-squat-selfie",
+  "tag": ["ugc", "selfie-pov", "sporty-active", "public-indoor", "gym", "squat"],
+  "image_type": "minimalist-mirror-squat-selfie",
+  "image_vibe": "minimalist-athletic-blue-white",
+  "image_purpose": "athletic full-body mirror selfie",
+  "group": "sporty-active",
+  "prompt": {
+    "project_info": "Minimalist gym mirror squat selfie adapted from the supplied source prompt and approved-adult identity reference.",
+    "main_subject": "Clearly adult athletic woman with a fit curvy build and defined back and leg musculature, wearing a white short-sleeved open-back crop top and bright royal-blue high-waisted seamless leggings with no visible brand mark.",
+    "composition_elements": "Full-body side-profile mirror selfie in a low squat, smartphone held toward the mirror, clean gym floor and large mirror creating a simple uncluttered composition.",
+    "lighting_and_atmosphere": "Soft neutral indoor gym lighting with crisp blue-and-white color contrast and a focused minimalist training mood.",
+    "technical_specs": "Vertical photorealistic mirror photograph, full-body side profile, accurate reflection, realistic athletic fabric and anatomy, no readable text or logos.",
+    "generated_prompt_string": "Photorealistic vertical full-body side-profile gym mirror selfie of a clearly adult athletic woman with a fit curvy build and defined back and legs, wearing a white short-sleeved open-back crop top and bright royal-blue high-waisted seamless leggings without branding, captured in a low squat before a large mirror, clean gym floor, soft neutral indoor lighting, minimalist focused training mood, realistic fabric and anatomy, no readable text or logos.",
+    "negative_prompt": "explicit, nsfw, overly revealing, exposed body, exposed breasts, exposed genitals, child, minor, celebrity likeness, private data, distorted anatomy, bad hands, watermark, text, logo, brand mark",
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "minimalist-mirror-squat-selfie_0.jpg", "required": true, "source": "local asset", "usage": "Use for approved-adult identity, blue-and-white outfit, squat pose and minimalist mirror framing."}],
+      "prompt_instructions": "Attach the local asset as required. Preserve the source's pose, color palette and athletic silhouette; remove the source brand mark and use generic apparel."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed the named apparel brand/logo and replaced it with generic unbranded leggings."]}
+}

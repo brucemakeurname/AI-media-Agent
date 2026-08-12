@@ -1,0 +1,69 @@
+{
+    "name":  "helicopter-brand-product-delivery-grid",
+    "tag":  [
+                "branding",
+                "brand story",
+                "helicopter",
+                "product delivery",
+                "playful campaign",
+                "campaign grid"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Brand story",
+    "group":  "branding_product_delivery",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Playful branded helicopter product lift",
+                                        "color_palette":  "Sky blue, cloud white, product-specific brand colors"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Object",
+                                        "detail":  "A 2 by 2 grid of small branded helicopters suspended in a bright blue sky, each carrying a giant matching branded product beneath it.",
+                                        "style":  "Hyper-real playful CGI-advertising with clean sky photography"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Vehicle/Product/Logo/Typography",
+                                                "text":  "Once You Pop, You Can’t Stop.; More Fanta. Less Serious.; STAY PLAYFUL; Accelerating the Future",
+                                                "items":  [
+                                                              "Upper left: red Pringles helicopter carrying a can.",
+                                                              "Upper right: orange Fanta helicopter carrying a soda can.",
+                                                              "Lower left: Oreo helicopter carrying a blue pack.",
+                                                              "Lower right: Tesla helicopter carrying a Cybertruck.",
+                                                              "All cells: blue sky, scattered soft clouds, brand logo and slogan at bottom."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Bright natural daylight",
+                                                   "effect":  "Crisp clear sky, subtle lens flare, soft cloud bounce, clear underslung product visibility"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Hyper-realistic square CGI advertising",
+                                           "resolution":  "1080 by 1080"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "brand product",
+                                                                 "required":  true,
+                                                                 "source":  "exact approved product packshot",
+                                                                 "usage":  "Preserve the carried product identity, label, and proportions."
+                                                             },
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "official brand logo",
+                                                                 "required":  true,
+                                                                 "source":  "official asset",
+                                                                 "usage":  "Place accurate mark and approved slogan at lower edge."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach approved logo, product packaging, and slogan assets.",
+                                                                          "Use a fictional or generic helicopter structure; map only the brand color and graphic language.",
+                                                                          "Keep the product visibly connected by a sling beneath the helicopter."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Create a hyper-realistic, square 1:1 image featuring a small helicopter flying through a bright blue sky with fluffy white clouds and a subtle lens flare. The helicopter is painted in the signature colors and graphics of [BRAND]. It is carrying a giant product from [BRAND] hanging below. The composition has the look and feel of a clean, playful (or premium, futuristic) advertisement. At the bottom, include the [BRAND] logo and a small slogan like [BRAND SLOGAN] in a stylish font. 1080x1080 dimension.",
+                   "negative_prompt":  "unbranded product, incorrect logo, disconnected sling, dark storm, crowded composition, warped helicopter, unreadable slogan, watermark"
+               }
+}

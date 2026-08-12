@@ -1,0 +1,27 @@
+{
+  "name": "cozy-pink-bedroom-blonde",
+  "tag": ["ugc", "casual-everyday", "cozy-home", "private-indoor", "portrait"],
+  "image_type": "indoor fashion portrait",
+  "image_vibe": "soft pink intimate evening glamour",
+  "image_purpose": "UGC-style homewear and fashion portrait",
+  "group": "cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create a realistic portrait of an original approved adult model in a softly lit cozy bedroom.",
+    "main_subject": "An original approved adult blonde woman with long straight hair, natural makeup, glossy lips, and a relaxed confident expression stands facing the camera with one hand on her hip. Preserve the reference outfit: a fitted pink crop top layered over contrasting thin straps and dark purple lingerie-style bottoms.",
+    "composition_elements": "Vertical standing portrait, subject centered near the bed, white bedding and pillows against the headboard, bedside table, warm lamp, minimal cozy bedroom interior, and a feminine silhouette with form-fitting wardrobe fit.",
+    "lighting_and_atmosphere": "Warm bedside-lamp ambient light with soft shadows and smooth highlights, calm evening atmosphere, gentle pink and purple color contrast.",
+    "technical_specs": "Realistic photography, vertical portrait framing, 50mm lens perspective, shallow natural depth of field, visible skin and fabric texture, restrained color grading, no artificial HDR look.",
+    "generated_prompt_string": "Realistic vertical indoor fashion portrait of an original approved adult blonde woman with long straight hair, natural makeup, and a relaxed confident expression standing in a minimal cozy bedroom with one hand on her hip. Preserve the reference outfit: a fitted pink crop top layered over contrasting thin straps and dark purple lingerie-style bottoms. White bedding, pillows, bedside table, and warm bedside lamps create a calm evening atmosphere. Soft shadows, smooth highlights, natural skin and fabric texture, 50mm portrait perspective, gentle pink and purple palette.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "cozy pink bedroom fashion reference", "required": true, "source": "attached source image", "usage": "Match the approved adult model's general face, blonde hair, pose, pink-and-purple outfit, bedroom, and warm lighting."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Keep the adult identity, facial structure, outfit, pose, bedroom environment, and lamp-lit mood consistent. Identity, outfit, product, logo, environment, and typography elements must remain replaceable; any visible text or brand marks are editable placeholders."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an original approved adult model.", "Removed sexualized mood wording while preserving the specified outfit and fashion intent.", "Added anti-slop and safety exclusions."]
+  }
+}

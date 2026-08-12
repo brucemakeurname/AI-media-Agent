@@ -1,0 +1,75 @@
+{
+  "name": "silver-glasses-silk-blonde",
+  "tag": [
+    "minimalist-fashion",
+    "silver-glasses",
+    "white-silk-blouse",
+    "luxury-watch",
+    "magazine-cover"
+  ],
+  "image_type": "editorial-magazine-portrait",
+  "image_vibe": "clean-minimal-luxury",
+  "image_purpose": "editorial",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Minimalist silver-glasses fashion magazine portrait",
+      "color_palette": "bright white, black typography, silver metal, soft skin tones, and clean neutral shadows",
+      "creative_direction": "sophisticated high-fashion editorial with a precise minimal layout"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "sophisticated adult woman with sleek center-parted hair in a neat bun, thin-rimmed silver glasses, natural makeup, and calm direct gaze",
+      "wardrobe": "minimalist white long-sleeved silk blouse with softly gathered sleeves",
+      "accessories": "luxury silver wristwatch and understated earrings"
+    },
+    "composition_elements": {
+      "framing": "vertical medium close-up portrait with hands near the face and upper chest",
+      "subject_position": "adult woman centered against a clean white field, one hand near the cheek and the opposite hand across the upper torso to display the watch",
+      "typography": "bold high-contrast black serif VOGUE masthead at the top, cleanly cropped and legible"
+    },
+    "lighting_and_atmosphere": {
+      "type": "large diffused softbox at approximately 5200K with subtle frontal fill",
+      "effect": "soft skin texture, precise highlights on glasses and watch, gentle shadow under the jaw, crisp editorial separation"
+    },
+    "technical_specs": {
+      "render_style": "full-frame fashion camera with 85mm lens at approximately f/2, flattering portrait compression",
+      "resolution": "8k vertical magazine portrait",
+      "finish": "sharp eyes, natural skin texture, restrained contrast, fine film grain, clean whites without clipping"
+    },
+    "generated_prompt_string": "A high-definition professional fashion editorial photograph of a sophisticated clearly adult woman with a sleek center-parted bun. She wears elegant thin-rimmed silver glasses and a minimalist white long-sleeved silk blouse with softly gathered sleeves. She is posed gracefully with her hands near her face and upper chest, showcasing a luxury silver watch. The background is clean bright white with bold high-contrast black serif typography reading VOGUE at the top. Use precise diffused softbox lighting, soft skin texture, sharp focus on the eyes, metallic highlights on the glasses and watch, an 85mm lens for flattering portrait compression, 8k resolution, restrained contrast, and fine editorial film grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, illegible typography, random logos, text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-minimalist-model",
+          "required": true,
+          "source": "Original minimalist magazine preview image",
+          "usage": "Attach an approved adult face reference for identity continuity; preserve facial structure and likeness without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white-silk-blouse-silver-glasses-watch",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the white silk blouse, silver glasses, and luxury silver watch; keep the exact accessory placement while the adult model may be replaced."
+        },
+        {
+          "type": "text_layout",
+          "name": "vogue-masthead-layout",
+          "required": false,
+          "source": "Visible masthead in the original preview image and source prompt",
+          "usage": "Optional typography reference; preserve the bold black serif masthead, scale, and top placement when cleared, or replace with cleared magazine text while retaining the hierarchy."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person and wardrobe/accessory references; typography is optional. Keep the adult identity, white silk, silver glasses, watch display, clean white background, and editorial hand placement consistent. The person and magazine text may be replaced with approved/cleared equivalents; preserve facial structure for any approved adult face reference and keep typography legible."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the source subject as a clearly adult woman and added only minimal age and identity safeguards while preserving the original fashion-cover concept."
+    ]
+  }
+}

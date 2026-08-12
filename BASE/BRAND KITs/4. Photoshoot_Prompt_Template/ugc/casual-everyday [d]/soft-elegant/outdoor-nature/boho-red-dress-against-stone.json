@@ -1,0 +1,26 @@
+{
+  "name": "boho-red-dress-against-stone",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "outdoor-nature", "boho", "red-floral-dress", "stone-wall"],
+  "image_type": "lifestyle-fashion-portrait",
+  "image_vibe": "bohemian-soft-grunge",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/soft-elegant/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a casual, candid outdoor fashion portrait of an approved adult woman in a bohemian red floral dress beside a textured stone wall.",
+    "main_subject": "An approved adult woman with fair skin and long dark chestnut-brown loose waves, a natural finish, and an introspective downward gaze partly framed by hair. She wears a red floral off-the-shoulder mini dress with puffed short sleeves, a sweetheart neckline, a corset-style bodice, and a ruffled tiered skirt, plus a thin black choker, silver rings, and a red beaded bracelet. She holds a dark green crocodile-texture cowboy boot.",
+    "composition_elements": "Vertical medium thigh-up portrait at eye level, subject leaning against an irregular grey-and-beige stone masonry wall with her body slightly angled. Her right hand rests gently near the chest/neck, left hand holds the green boot downward, and her gaze remains downward. Keep the dress, boot, jewelry, wall texture, and soft negative space visible.",
+    "lighting_and_atmosphere": "Soft natural daylight, diffused even front illumination, and gentle shadows. Preserve the casual, slightly moody, artistic bohemian mood with soft-grunge undertones.",
+    "technical_specs": "High-end photorealistic portrait, 85mm prime lens, f/2.8, eye-level medium crop, sharp focus on subject and fabric, shallow wall separation, realistic skin pores, fabric, leather, and stone texture, natural grain.",
+    "generated_prompt_string": "Create an ultra-photorealistic outdoor fashion portrait of an approved adult woman with fair skin and long dark chestnut-brown loose waves, looking downward with an introspective expression as her hair partly frames the face. She leans against a textured stone masonry wall, body slightly angled, with her right hand resting gently near her chest and neck and her left hand holding a dark green crocodile-texture cowboy boot. She wears a red floral off-the-shoulder mini dress in lightweight cotton or linen blend, with puffed short sleeves, a sweetheart neckline, corset-style bodice structure, and a ruffled tiered skirt, plus a thin black choker, silver rings, and a red beaded bracelet. Use soft natural daylight with diffused even illumination and gentle shadows. Compose a vertical medium thigh-up eye-level portrait with an 85mm prime lens at f/2.8, sharp focus on the subject and dress texture, detailed stone masonry, realistic skin texture, and a casual candid bohemian mood with soft-grunge undertones.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, fetish styling, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted face, blurry subject, text, logo",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-boho-subject", "required": true, "source": "boho-red-dress-against-stone.jpg", "usage": "Preserve the adult subject's face, hair, downward gaze, and pose without reproducing a celebrity likeness."},
+        {"type": "wardrobe", "name": "red-floral-ruffled-dress-and-accessories", "required": true, "source": "boho-red-dress-against-stone.jpg", "usage": "Keep the red floral dress, choker, rings, bracelet, and green boot consistent; replace only with explicit wardrobe alternatives."},
+        {"type": "location", "name": "textured-stone-masonry-wall", "required": true, "source": "boho-red-dress-against-stone.jpg", "usage": "Maintain the irregular grey-and-beige stone wall and soft daylight; replace only with an explicit location reference."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, accessory, and location references when exact consistency is required. Keep identity, adult status, dress silhouette, boot, pose, and stone-wall texture consistent. Small accessories and background may be replaced only with explicit alternatives; preserve any replacement's identity, outfit, product, logo, environment, and typography. No logo or typography is present."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced the named public-figure identity with a generic approved adult while preserving the boho fashion concept.", "Kept the source outfit and pose while adding safe negative prompts and structured references."]}
+}

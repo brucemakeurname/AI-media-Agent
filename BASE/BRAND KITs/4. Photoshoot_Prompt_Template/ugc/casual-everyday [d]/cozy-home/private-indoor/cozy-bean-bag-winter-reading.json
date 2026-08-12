@@ -1,0 +1,65 @@
+{
+  "name": "cozy-bean-bag-winter-reading",
+  "tag": [
+    "ugc",
+    "cozy-home",
+    "private-indoor",
+    "winter-reading",
+    "teal-bean-bag",
+    "window-light"
+  ],
+  "image_type": "ugc-cozy-reading-portrait",
+  "image_vibe": "quiet-winter-dreamy",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic quiet winter reading portrait beside a large window, preserving the teal bean bag, fantasy novel and warm-cool daylight contrast.",
+    "main_subject": "One original approved adult woman with long red hair gathered in a high messy bun, soft strands around her face, delicate freckles and realistic fair skin texture. She wears a long-sleeve off-white top, loose lavender joggers and simple black ankle socks, sitting naturally curled into the bean bag while reading a thick fantasy novel.",
+    "composition_elements": "Vertical 4:5 or 2:3 portrait. Seat the adult woman curled comfortably in a large teal bean bag beside a window, knees drawn slightly inward and book open in both hands. Include worn page edges, wooden floor, softly blurred winter buildings or snow outside and the bean bag's plush folds.",
+    "lighting_and_atmosphere": "Cool winter daylight enters through the window and blends with warm interior tones, creating gentle highlights on freckles, hair and book pages with soft shadows. Keep the mood calm, dreamy, absorbed and intimate in a non-explicit reading sense.",
+    "technical_specs": "Canon RF 50mm f/1.4 portrait look, shallow depth of field, sharp subject, realistic page, hair, skin and textile texture, cinematic warm-cool grading, natural proportions and soft bokeh.",
+    "generated_prompt_string": "Create a photorealistic quiet winter reading portrait beside a large window of one original approved adult woman with long red hair gathered in a high messy bun, soft strands around her face, delicate freckles and realistic fair skin texture. She wears a long-sleeve off-white top, loose lavender joggers and simple black ankle socks, sitting naturally curled into a large teal bean bag while reading a thick fantasy novel. Use a vertical 4:5 or 2:3 portrait with knees drawn slightly inward and the book open in both hands. Include worn page edges, wooden floor, softly blurred snowy buildings outside and plush bean-bag folds. Use cool winter daylight blended with warm interior tones, gentle shadows, detailed freckles, hair, book and textile texture, a Canon RF 50mm f/1.4 look, shallow depth of field and cinematic warm-cool color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, unreadable book text, invented logos, added text overlays",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "cozy-bean-bag-winter-reading.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, red hair, freckles, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "off-white long-sleeve top, lavender joggers and black socks",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve colors, relaxed fit, socks and natural seated coverage; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "teal bean bag, large window, winter landscape and wooden floor",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve bean-bag shape, window, winter view, floor, daylight direction and warm-cool environment; setting may be replaced through explicit references."
+        },
+        {
+          "type": "accessory",
+          "name": "thick fantasy novel",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve book scale, open-reading pose and worn page texture; book may be replaced with an explicit prop reference, with text kept indistinct."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe, location and book references. Keep identity, face, hair, freckles, outfit, reading pose, bean bag, window and winter light consistent. The approved adult, wardrobe, setting and book may be replaced independently through explicit references. Keep book typography indistinct and do not invent readable text or logos."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed the source's 14–15-year-old subject to an original approved adult.",
+      "Preserved the reading pose, wardrobe, bean-bag setting and winter mood while removing age ambiguity.",
+      "Added safety and anti-text negative prompts."
+    ]
+  }
+}

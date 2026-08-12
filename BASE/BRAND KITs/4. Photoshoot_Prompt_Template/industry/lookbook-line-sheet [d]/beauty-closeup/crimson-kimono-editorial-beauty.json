@@ -1,0 +1,73 @@
+{
+  "name": "crimson-kimono-editorial-beauty",
+  "tag": [
+    "crimson-kimono",
+    "folding-fan",
+    "kanzashi-inspired",
+    "beauty-closeup",
+    "red-lacquer-palette"
+  ],
+  "image_type": "cultural-beauty-editorial",
+  "image_vibe": "refined-crimson",
+  "image_purpose": "lookbook-line-sheet",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": {
+      "theme": "Luxury beauty close-up with Japanese-inspired crimson kimono styling",
+      "creative_direction": "Photoreal editorial transformation anchored by a red silk kimono, matching folding fan, and elegant hair ornament",
+      "color_palette": "warm off-white, lacquer crimson, deep red, gold, neutral skin, and muted brown makeup"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult woman with calm confident editorial gaze, sleek dark hair, soft face-framing strands, clean winged eyeliner, refined blush, and muted red lacquer lips",
+      "wardrobe": "red silk kimono with subtle tone-on-tone floral or geometric pattern, elegant collar, and optional thin gold trim",
+      "action": "holding a matching red folding fan with gold accents near the face while one hand remains visible near the cheek"
+    },
+    "composition_elements": {
+      "framing": "4:5 tight beauty close-up with shallow depth of field",
+      "accessories": "red-and-gold kanzashi-inspired hairpin, deep red manicure, and one minimal statement ring",
+      "background": "minimal warm off-white studio with subtle red lacquer ambience and no text or logo"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft diffused beauty key at approximately 5000K with gentle warm rim light",
+      "effect": "balanced skin highlights, controlled kimono sheen, fan detail, and refined editorial calm"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 85mm beauty lens, luxury editorial photography",
+      "resolution": "4k 4:5 vertical beauty portrait",
+      "finish": "real pores, no plastic skin, natural dynamic range, subtle grain, and crisp silk embroidery"
+    },
+    "generated_prompt_string": "Create a high-end editorial beauty portrait of a clearly adult woman with a calm confident gaze, sleek dark hair styled neatly with a red-and-gold kanzashi-inspired hairpin and a few face-framing strands. Use clean winged eyeliner, soft neutral-brown shadow, refined warm blush, muted red lacquer lips, and a deep red manicure. Dress her in a red silk kimono with a subtle tone-on-tone floral or geometric pattern, elegant collar, optional thin gold trim, and no logos. She holds a matching red folding fan with gold accents near the face while one hand remains visible. Use a tight 4:5 beauty close-up, 85mm lens, soft approximately 5000K diffused key with gentle warm rim, shallow depth of field, realistic pores, natural skin texture, and a minimal warm off-white studio with subtle red-lacquer ambience. No text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, celebrity likeness, modern logo, watermark, plastic skin, waxy, over-smooth, over-saturated, HDR, harsh shine, extra fingers, deformed hands, distorted fan, broken hairpin",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-kimono-beauty-model",
+          "required": true,
+          "source": "Original beauty preview image",
+          "usage": "Attach an approved adult face reference and preserve facial structure and likeness without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "crimson-silk-kimono-look",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve kimono color, collar, silk folds, gold trim, hairpin, fan, and manicure; keep the specified outfit intact."
+        },
+        {
+          "type": "background",
+          "name": "warm-off-white-lacquer-studio",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve warm off-white studio, subtle red ambience, and clean negative space; background may be replaced with an equivalent minimal set."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult face, exact kimono styling, and studio references. Keep identity, fan, hairpin, hand position, makeup, close-up framing, and red-lacquer palette consistent. Replace only the model or setting with approved equivalents and keep the result unbranded and non-sexual."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

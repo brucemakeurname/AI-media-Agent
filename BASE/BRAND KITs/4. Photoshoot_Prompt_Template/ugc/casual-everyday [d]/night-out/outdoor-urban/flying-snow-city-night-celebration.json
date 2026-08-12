@@ -1,0 +1,27 @@
+{
+  "name": "flying-snow-city-night-celebration",
+  "tag": ["ugc", "casual-everyday", "night-out", "outdoor-urban", "winter-night"],
+  "image_type": "snowy urban lifestyle portrait",
+  "image_vibe": "bright cozy winter night celebration",
+  "image_purpose": "UGC-style winter social visual",
+  "group": "night-out/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a realistic nighttime winter street portrait of an original approved adult woman in heavy snowfall.",
+    "main_subject": "An original approved adult blonde woman smiles joyfully while walking through deep snow, wearing an oversized cream puffer jacket, matching cream hoodie, off-white high-waisted athletic leggings, cream knit beanie, and matching mittens. Preserve the reference's relaxed hands-in-pockets walking pose and natural winter styling.",
+    "composition_elements": "Vertical full-body street portrait, dynamic walking stance with one leg slightly bent, modern wood-and-glass building behind her, a parked black SUV at side, snow-covered road, and visible falling snowflakes.",
+    "lighting_and_atmosphere": "Nighttime blue-white streetlight mixed with warm building light, crisp snowfall sparkle, cool winter palette with creamy wardrobe contrast, candid celebratory mood.",
+    "technical_specs": "Realistic smartphone lifestyle photography, vertical 3:4, full-body framing, natural low-light exposure, subtle snow motion, realistic fabric and snow texture, restrained contrast, no artificial HDR look.",
+    "generated_prompt_string": "Realistic vertical 3:4 winter night lifestyle portrait of an original approved adult blonde woman smiling joyfully while walking through heavy snowfall. She wears an oversized cream puffer jacket, matching cream hoodie, off-white high-waisted athletic leggings, cream knit beanie, and matching mittens, with a relaxed hands-in-pockets pose and one leg slightly bent. A modern wood-and-glass building, parked black SUV, and snow-covered road surround her. Blue-white streetlights mix with warm building light, illuminating falling snow and creating a bright cozy winter celebration atmosphere.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, unsafe traffic, driving, distorted anatomy, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "snowy city winter reference", "required": true, "source": "attached source image", "usage": "Match the original adult model, cream winter outfit, walking pose, building, SUV, snow, and street lighting."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve adult identity, face, outfit, winter pose, environment, vehicle placement, and lighting. Vehicle logos, product details, typography, and background architecture are replaceable editable elements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Removed the named public-figure likeness request and specified an original approved adult.", "Aligned the pose with the viewed image while retaining the winter celebration concept.", "Added anti-slop and outdoor safety exclusions."]
+  }
+}

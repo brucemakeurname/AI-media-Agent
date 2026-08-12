@@ -1,0 +1,70 @@
+{
+  "name": "techcombank-semifinal-what-scenario-will-happen",
+  "tag": [
+    "sports-campaign",
+    "world-cup",
+    "question-poster",
+    "stadium-tunnel"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Ask a question",
+  "group": "techcombank_2244778962941996",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank World Cup semifinal question poster",
+      "color_palette": "Sky blue, stadium green, red, black, white"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A football tunnel poster with the Techcombank logo top right. Large headline asks 'BAN KET RUC LUA KICH BAN NAO SE XAY RA?'. Four footballers stand on stadium stairs facing different directions, each holding a ball. The front left player wears an Argentina-style light blue striped jersey number 10, the front right player wears a white jersey number 9, the back left player wears a blue jersey number 10, and the back right player wears a red jersey number 19. A translucent Techcombank diamond geometry overlays the tunnel and field opening.",
+      "style": "Cinematic pre-match question poster with dramatic tunnel perspective, realistic players, and national-team symbolism"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TECHCOMBANK / BAN KET RUC LUA / KICH BAN NAO SE XAY RA?",
+      "items": [
+        "Top Left: Stadium sky and concrete tunnel walls",
+        "Top Right: Techcombank logo",
+        "Bottom Left: Front-left footballer in striped jersey holding a ball",
+        "Bottom Right: Front-right footballer in white jersey holding a ball",
+        "Center/Background: Four footballers arranged on tunnel stairs, stadium opening ahead, bright floodlit arena, and translucent diamond overlays"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Cinematic stadium daylight with tunnel shadow",
+      "effect": "Perspective depth, concrete wall shading, bright field opening, realistic athletic contrast"
+    },
+    "technical_specs": {
+      "render_style": "Photo-real sports editorial poster with cinematic compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank football campaign. Centerpiece is four realistic footballers standing on stadium tunnel stairs, each holding a ball, arranged in a dramatic pre-match composition. Background is a stadium opening with bright daylight and crowd detail, framed by concrete tunnel walls and translucent Techcombank diamond geometry. Surrounding elements: Techcombank logo and the exact question headline 'BAN KET RUC LUA KICH BAN NAO SE XAY RA?'. Technical style: photo-real sports editorial poster with cinematic compositing, tunnel shadow and bright stadium opening, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Four footballer pose references",
+          "required": true,
+          "source": "original campaign athlete refs or equivalent footballer references",
+          "usage": "Attach for exact stance, jersey colorway, ball hold, and tunnel arrangement"
+        },
+        {
+          "type": "background",
+          "name": "Stadium tunnel environment",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the tunnel-stair perspective, stadium opening, and translucent brand-diamond overlay"
+        },
+        {
+          "type": "text_layout",
+          "name": "Semifinal question poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the exact headline scale and top-right brand placement"
+        }
+      ],
+      "prompt_instructions": "This creative is built around suspense before a match. Preserve the exact question wording and the stepped tunnel composition with all four players visible."
+    }
+  }
+}

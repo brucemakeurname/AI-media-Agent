@@ -1,0 +1,77 @@
+{
+  "name": "techcombank-phuc-long-35k-qr-gift-story",
+  "tag": [
+    "phuc-long",
+    "user-story",
+    "qr-payment",
+    "oneu"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "User content",
+  "group": "techcombank_1042840238203718",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank OneU user story at Phuc Long",
+      "color_palette": "Bold red, white, black, cafe brown, Phuc Long green"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A user-generated style poster framed like a large printed snapshot on a red background. Inside the photo, a smiling young woman in black clothing stands inside a Phuc Long cafe and extends two long white pastry sleeves toward the camera, both printed with large green vertical text 'PHUC LONG'. The top-right header says 'TECHCOMBANK OneU'. Below the photo is a story caption in Vietnamese: 'Thay vi an 1 chiec banh mi to cua Phuc Long moi sang, minh quyet dinh chi an 2 chiec banh mi que nho xiu vua phu hop voi muc tieu giam can, vua du hoa don tren 35K de nhan them qua khi quet QR cua hang Techcombank.' Red U-point coins float around the layout and a badge says 'Da tang uu dai LOI ICH TOI UU'. A hand-drawn black arrow points toward the caption area.",
+      "style": "Casual social-proof poster mixing real cafe photography, scrapbook framing, floating reward tokens, and anecdotal caption typography"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TECHCOMBANK OneU / PHUC LONG / Thay vi an 1 chiec banh mi to cua Phuc Long moi sang, minh quyet dinh chi an 2 chiec banh mi que nho xiu vua phu hop voi muc tieu giam can, vua du hoa don tren 35K de nhan them qua khi quet QR cua hang Techcombank. / Da tang uu dai / LOI ICH TOI UU",
+      "items": [
+        "Top Left: Red background and the top edge of the white snapshot frame",
+        "Top Right: Techcombank logo with OneU mark",
+        "Bottom Left: Hand-drawn black arrow pointing to the caption block",
+        "Bottom Right: Red badge 'Da tang uu dai LOI ICH TOI UU' with floating U-point coins",
+        "Center/Background: A real Phuc Long cafe photo with a smiling young woman holding two long PHUC LONG pastry sleeves toward the camera"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Indoor cafe lifestyle lighting",
+      "effect": "Real ambient cafe light, slight phone-photo realism, playful floating-coin highlights, social-proof warmth"
+    },
+    "technical_specs": {
+      "render_style": "Photo-based social creative with scrapbook poster compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank OneU user story at Phuc Long. Centerpiece is a real-photo snapshot of a smiling young woman inside a Phuc Long cafe, holding two long white pastry sleeves labeled 'PHUC LONG' toward the camera. Background is a bold red poster field with a large white photo frame and floating red U-point coins. Surrounding elements: Techcombank OneU header, the exact long anecdotal Vietnamese caption mentioning 'hoa don tren 35K' and 'quet QR cua hang Techcombank', a hand-drawn black arrow, and the badge 'Da tang uu dai LOI ICH TOI UU'. Technical style: photo-based social creative with scrapbook poster compositing, indoor cafe lifestyle lighting, social-proof warmth and playful coin highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Young woman portrait in Phuc Long cafe",
+          "required": true,
+          "source": "this creative or source photo",
+          "usage": "Preserve facial identity, pose, arm extension, and smile"
+        },
+        {
+          "type": "location",
+          "name": "Phuc Long cafe interior and product display",
+          "required": true,
+          "source": "reference photo of the same cafe space",
+          "usage": "Recreate the menu boards, pastry case, and seating arrangement behind the subject"
+        },
+        {
+          "type": "product",
+          "name": "PHUC LONG pastry sleeves",
+          "required": true,
+          "source": "real packaging reference",
+          "usage": "Keep the tall white wrappers with green vertical branding exactly"
+        },
+        {
+          "type": "text_layout",
+          "name": "OneU social-proof snapshot layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the white frame, long anecdotal caption block, arrow, and reward badge"
+        }
+      ],
+      "prompt_instructions": "Keep the long story caption as visible, especially 'hoa don tren 35K'. This should feel like a polished repost of a user moment, not a studio advertisement."
+    }
+  }
+}

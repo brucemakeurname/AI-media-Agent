@@ -1,0 +1,54 @@
+{
+  "name": "golden-hour-blonde-portrait",
+  "tag": [
+    "adult-woman",
+    "blonde-portrait",
+    "golden-hour",
+    "garden",
+    "satin",
+    "close-up"
+  ],
+  "image_type": "editorial-portrait",
+  "image_vibe": "soft-romantic",
+  "image_purpose": "instagram-feed",
+  "group": "indie/low-fi-dreamy/golden-warm",
+  "prompt": {
+    "project_info": "A warm outdoor beauty portrait with softly observed garden detail and a natural golden-hour halo.",
+    "main_subject": "Close-up of an adult woman with long wavy blonde hair, a calm direct gaze, soft pink lipstick, defined lashes, and both hands gently framing her face. She wears a golden-yellow satin high-neck top with softly ruched long sleeves.",
+    "composition_elements": "Eye-level vertical portrait, face centered, hands supporting the jawline, shoulders and sleeves visible in the lower frame. Keep a softly blurred lawn, dark hedge, and understated pale architectural line behind her; omit text, logos, and graphic marks.",
+    "lighting_and_atmosphere": "Low warm sun from behind-left at approximately 3800K gives the hair a halo and leaves soft contour shadows on the face. Retain natural skin texture, flyaway hairs, gentle bokeh, and a quiet late-summer atmosphere.",
+    "technical_specs": "Full-frame camera with an 85mm lens at f/2, vertical 3:4 crop, sharp focus on the eyes, creamy background falloff, Kodak Portra 400-inspired color, subtly lifted blacks, and restrained film grain.",
+    "generated_prompt_string": "Photorealistic cinematic close-up portrait of an adult woman with long wavy blonde hair, calm direct gaze, natural makeup with soft pink lipstick and defined lashes, resting her face gently in both hands, wearing a golden-yellow satin high-neck long-sleeve top with ruched sleeves. Outdoors in a garden or park with softly blurred greenery and a pale architectural element, warm golden-hour backlight creating a halo around her hair, eye-level portrait, sharp focus on eyes, soft shadows, natural skin texture, vertical 3:4 framing, no text or branding.",
+    "negative_prompt": "explicit, nsfw, overly revealing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers, deformed hands, distorted eyes",
+    "reference_elements": {
+      "prompt_instructions": "An approved adult identity reference is optional and must preserve face, hair color, and age clarity. A wardrobe reference is optional for the yellow high-neck satin top. Keep the face-framing hand pose, warm backlight, and garden bokeh consistent; identity, plant species, and pale architectural backdrop may be replaced.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-blonde-identity-reference",
+          "required": false,
+          "source": "attach when likeness continuity is needed",
+          "usage": "Keep the adult subject's facial structure, blonde hair, and natural makeup consistent."
+        },
+        {
+          "type": "wardrobe",
+          "name": "golden-yellow-satin-high-neck-top-reference",
+          "required": false,
+          "source": "attach when exact outfit continuity is needed",
+          "usage": "Preserve the yellow satin, high neckline, and ruched sleeves; the garment may otherwise be substituted."
+        },
+        {
+          "type": "background",
+          "name": "garden-golden-hour-reference",
+          "required": false,
+          "source": "attach when a specific outdoor setting must match",
+          "usage": "Maintain a soft green garden background and late-day backlight without importing signage or logos."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

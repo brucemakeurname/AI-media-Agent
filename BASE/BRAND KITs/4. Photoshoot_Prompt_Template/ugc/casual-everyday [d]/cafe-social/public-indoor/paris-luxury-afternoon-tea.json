@@ -1,0 +1,65 @@
+{
+  "name": "paris-luxury-afternoon-tea",
+  "tag": [
+    "ugc",
+    "cafe-social",
+    "public-indoor",
+    "paris-street",
+    "white-dress",
+    "eiffel-tower"
+  ],
+  "image_type": "ugc-paris-travel-lifestyle-portrait",
+  "image_vibe": "chic-relaxed-luxury",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cafe-social/public-indoor",
+  "prompt": {
+    "project_info": "Create an ultra-photorealistic Paris street-cafe travel portrait with relaxed luxury styling, preserving the Eiffel Tower view, white structured outfit and afternoon daylight.",
+    "main_subject": "One original approved adult woman with dark hair styled in a relaxed elegant updo with loose strands, wearing black oval sunglasses and a structured white short-sleeve mini dress with square neckline and large white buttons. She wears a silver decorative brooch, silver wrist accessory and small rings, and makes a gentle blowing-kiss gesture.",
+    "composition_elements": "Vertical 4:5 portrait at a round Parisian cafe table, seated with legs crossed and body slightly angled toward camera. Include a black quilted handbag with supplied hardware, wine glass, white napkins, striped awning, parked cars, classic Haussmann buildings and the Eiffel Tower centered in the distant street view. Preserve any supplied cafe signage as background typography only.",
+    "lighting_and_atmosphere": "Soft afternoon daylight under a blue sky with scattered clouds, gentle shadows and realistic highlights on white fabric, stone buildings and tableware. Keep the mood chic, cosmopolitan, relaxed and travel-oriented.",
+    "technical_specs": "4:5 vertical high-end lifestyle photograph, 35–50mm lens, f/2.8–f/4 look, sharp subject and immediate foreground, softly blurred distant context, high-fidelity fabric, leather, stone and glass texture, natural color.",
+    "generated_prompt_string": "Create an ultra-photorealistic Paris street-cafe travel portrait of one original approved adult woman with dark hair in a relaxed elegant updo with loose strands. She wears black oval sunglasses and a structured white short-sleeve mini dress with a square neckline and large white buttons, plus a silver decorative brooch, silver wrist accessory and small rings. Seat her at a round cafe table with legs crossed and body slightly angled toward camera as she makes a gentle blowing-kiss gesture. Include a black quilted handbag with supplied hardware, wine glass, white napkins, striped awning, parked cars, classic Haussmann buildings and the Eiffel Tower centered in the distant street. Use soft afternoon daylight, blue sky with scattered clouds, gentle shadows, sharp foreground detail, softly blurred distance and natural luxury-travel color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, counterfeit logo, invented brand, altered supplied signage, unreadable added text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "paris-luxury-afternoon-tea.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair, sunglasses, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "structured white buttoned dress, black oval sunglasses and silver accessories",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve white fabric, buttons, brooch, sunglasses, wrist accessory and rings; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "Parisian cafe table, Eiffel Tower, Haussmann buildings and striped awning",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve landmark alignment, architecture, table, awning, cars and daylight; environment may be replaced through explicit references while retaining the travel composition."
+        },
+        {
+          "type": "accessory",
+          "name": "black quilted handbag, wine glass and white napkins",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve handbag quilting and supplied hardware without inventing a brand, plus glass and napkin placement; props may be replaced with explicit references."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe, location and accessory references. Keep identity, face, hair, outfit, gesture, Eiffel Tower alignment, tableware and handbag shape consistent. The adult, wardrobe, environment and props may be replaced independently through explicit references. Preserve supplied signage only when retained; do not invent logos or brand names."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adult.",
+      "Removed luxury-brand and body-emphasis assumptions while preserving the Paris travel, outfit, gesture and prop composition.",
+      "Added safety and anti-counterfeit negative prompts."
+    ]
+  }
+}

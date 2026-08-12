@@ -1,0 +1,61 @@
+{
+    "name":  "clean-peach-soda",
+    "tag":  [
+                "beverage",
+                "product demo",
+                "peach soda",
+                "minimal packaging",
+                "condensation",
+                "studio hero"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Product demos",
+    "group":  "product_beverage_minimal",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Minimal peach beverage campaign",
+                                        "color_palette":  "Warm peach, orange, soft white, aluminum silver"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "An upright matte peach-orange aluminum can with condensation and oversized vertical white CLEAN lettering, finished with small CAUSE text near the base.",
+                                        "style":  "Modern health-forward commercial product photography"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Product/Fruit/Studio background",
+                                                "text":  "CLEAN; CAUSE",
+                                                "items":  [
+                                                              "Center: upright chilled peach-orange can on a reflective matching surface.",
+                                                              "On rim: one thick peach wedge rests against the pull tab.",
+                                                              "Around base: whole ripe peaches and cut wedges symmetrically frame the can.",
+                                                              "Background: seamless warm-peach studio field."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "High-end soft directional studio light",
+                                                   "effect":  "Upper-left highlight on condensation, gentle shadows, rich monochromatic saturation"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "8K hyper-photoreal commercial beverage photography",
+                                           "resolution":  "Eye-level vertical hero shot, highly detailed"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "CLEAN CAUSE peach can",
+                                                                 "required":  true,
+                                                                 "source":  "exact can packaging artwork",
+                                                                 "usage":  "Preserve vertical wording, can color, tab, proportions, and minimal label design."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach the exact can artwork.",
+                                                                          "Keep the vertical CLEAN and lower CAUSE wording accurate.",
+                                                                          "Match peach color rather than substituting generic orange fruit."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "{ \"image_request\": { \"subject\": { \"main_item\": \"Tall chilled aluminum beverage can\", \"positioning\": \"Upright, centered hero shot\", \"finish\": \"Matte peach-orange coating\", \"details\": [\"Fine condensation droplets\", \"Bold vertical white typography: \u0027CLEAN\u0027\", \"Minimalist base text: \u0027CAUSE\u0027\"] }, \"environment\": { \"background\": \"Seamless warm peach-colored studio backdrop\", \"surface\": \"Matching peach-colored reflective surface\", \"props\": [\"Symmetrically arranged whole ripe peaches\", \"Thick peach wedges with vibrant yellow-orange textured flesh\", \"One peach wedge resting on the open can rim\"] }, \"lighting_and_color\": { \"lighting_style\": \"High-end studio lighting\", \"source\": \"Soft directional light from the upper left\", \"effects\": [\"Crisp highlights on condensation\", \"Gentle shadows\", \"Rich color saturation\"], \"palette\": \"Monochromatic warm peach, orange, and soft white\" }, \"technical_specs\": { \"composition\": \"Eye-level centered shot\", \"focus\": \"Sharp focus on can and fruit, minimal depth of field\", \"aesthetic\": \"Modern, health-forward, commercial advertising\", \"quality\": \"8K, hyper-photorealistic, ultra-detailed textures\" } } }",
+                   "negative_prompt":  "wrong packaging text, altered can color, artificial fruit, weak condensation, cluttered scene, low resolution, watermark"
+               }
+}

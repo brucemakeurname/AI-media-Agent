@@ -1,0 +1,71 @@
+{
+  "name": "billie-eilish-supermodel-grid-photos",
+  "tag": [
+    "adult-woman",
+    "four-panel-grid",
+    "auburn-blowout",
+    "studio-flash",
+    "portra-400"
+  ],
+  "image_type": "four-panel-fashion-portrait",
+  "image_vibe": "textured-90s-studio-editorial",
+  "image_purpose": "fashion-editorial",
+  "group": "indie/enegy-lifestyle/retro-analog",
+  "source_url": "https://x.com/lexx_aura/status/2018275572204314804",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed the public-figure resemblance and replaced the strapless bustier with a covered high-neck sequin top; original 2x2 portrait continuity and studio-flash concept remain."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "original adult auburn-haired 1990s studio portrait grid",
+      "color_palette": "iridescent black, deep violet, magenta, antique gold, silver, and ivory",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An original adult woman with piercing blue eyes and an extreme 1990s auburn supermodel blowout, deep side part, visible flyaways, natural pores, freckles, and unretouched skin; she must not resemble a real public figure.",
+      "wardrobe": "High-neck long-sleeve sequin top with an iridescent black, deep-violet, and magenta pattern, rigid gold-tone collar necklace, and plain mixed-metal bangles.",
+      "poses": [
+        "Frontal close-up with neutral intense gaze.",
+        "Cheek leaning on a closed fist with a slight smirk.",
+        "Chin resting on an open palm with a soft smile.",
+        "Candid laughter in gentle profile with hand under chin."
+      ]
+    },
+    "composition_elements": {
+      "framing": "Equal 2x2 split screen with character continuity across all four panels and clean black grid lines.",
+      "environment": "Minimal ivory studio background with no text, logos, or branding."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Hard direct studio flash with high-contrast butterfly-light character.",
+      "atmosphere": "Unpolished, texture-rich, confident, and 1990s fashion editorial."
+    },
+    "technical_specs": {
+      "camera": "medium-format studio portrait, 80mm f/2.8 perspective",
+      "quality": "Portra 400-inspired grain, slight chromatic aberration, natural depth, high-frequency skin and sequin texture"
+    },
+    "generated_prompt_string": "Create a photoreal 4:5 equal 2x2 studio portrait grid of one original adult woman who does not resemble a public figure. She has an extreme auburn 1990s supermodel blowout with deep side part and visible flyaways, piercing blue eyes, natural pores, freckles, and unretouched skin. She wears a covered high-neck long-sleeve sequin top in iridescent black, deep violet, and magenta, a rigid gold-tone collar necklace, and plain mixed-metal bangles. Show four consistent panels: intense frontal close-up, cheek on closed fist with slight smirk, chin on open palm with soft smile, and candid laughing profile. Use hard direct studio flash, ivory background, medium-format 80mm f/2.8 character, Portra 400-inspired grain, slight chromatic aberration, and no text, logos, or watermarks.",
+    "negative_prompt": "celebrity likeness, Billie Eilish, minor, strapless bustier, low neckline, nudity, explicit, nsfw, overly revealing clothing, logo, watermark, readable text, plastic skin, distorted face, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use them only to replace covered wardrobe, hair silhouette, studio flash, or grid pose; do not copy a real identity or brand.",
+      "assets": [
+        {
+          "type": "wardrobe_reference",
+          "name": "covered-iridescent-sequin-top",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace top, collar necklace, and unbranded bangles."
+        },
+        {
+          "type": "style_reference",
+          "name": "four-panel-portra-studio-grid",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace grid spacing, flash contrast, and analog color grain."
+        }
+      ]
+    }
+  }
+}

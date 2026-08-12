@@ -1,0 +1,82 @@
+{
+    "name":  "celebrity-career-mosaic-tribute-poster",
+    "tag":  [
+                "tribute-poster",
+                "photo-mosaic",
+                "sports-editorial",
+                "dual-exposure",
+                "mixed-media"
+            ],
+    "biz_niche":  "Entertainment & Pop Culture",
+    "content_format":  "Brand story",
+    "group":  "poster_1121",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Career tribute through a monochrome portrait photo-grid mosaic",
+                                        "color_palette":  "Off-white, black, gray, selective team or flag colors, restrained metallic accents"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Portrait silhouette",
+                                        "detail":  "A large high-contrast black-and-white portrait silhouette of [PERSON NAME], whose head and torso are filled with a dense career-action photo mosaic.",
+                                        "style":  "High-end sports editorial, dual-exposure composite, tactile halftone, fabric, film-grain, and paper textures"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Photo mosaic, micro-branding, and textured paper",
+                                                "text":  "[PERSON NAME]",
+                                                "items":  [
+                                                              "Center: perfectly aligned large portrait silhouette acting as the vessel for small career images.",
+                                                              "Inside silhouette: dense photo-grid of action shots; selective cells use halftone dots, canvas or embroidery texture, and heavy film grain.",
+                                                              "Top left: [PERSON NAME] in small Inter Semibold type with tight negative kerning, no wider than 20% of canvas.",
+                                                              "Top right: a very small approved team, brand, or flag symbol, no wider than 10% of canvas.",
+                                                              "Background: off-white or pale gray paper or concrete texture with generous negative space."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Graphic monochrome portrait lighting",
+                                                   "effect":  "Hard black-white contrast, tactile printed texture, restrained selective color rhythm, subtle aged paper grain"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Mixed-media editorial collage and premium sports graphic design",
+                                           "resolution":  "8k resolution, highly detailed, square social poster"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "[PERSON NAME] portrait reference",
+                                                                 "required":  true,
+                                                                 "source":  "licensed or consented portrait reference",
+                                                                 "usage":  "Build the primary silhouette with an identifiable but authorized likeness."
+                                                             },
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "Career action-photo archive",
+                                                                 "required":  true,
+                                                                 "source":  "licensed editorial, team, or rights-holder imagery",
+                                                                 "usage":  "Populate the silhouette\u0027s photo-mosaic cells."
+                                                             },
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "Team, brand, or flag symbol",
+                                                                 "required":  false,
+                                                                 "source":  "approved rights-holder asset",
+                                                                 "usage":  "Use only as the small upper-right symbol."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "Mosaic tribute layout",
+                                                                 "required":  true,
+                                                                 "source":  "supplied reference image",
+                                                                 "usage":  "Match micro-scaling, negative space, rounded card edges, and grid density."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach cleared likeness, archive photo, and logo assets for a real person.",
+                                                                          "If no rights are available, use a fictional athlete or artist with original imagery and marks.",
+                                                                          "Do not enlarge the name or logo beyond the prescribed micro-scale."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "[ PERSON NAME ]. Act as a high-end sports graphic designer creating a conceptual tribute poster. The style is a complex \u0027dual exposure photo-grid composite\u0027 with mixed-media textures. CENTRAL STRUCTURE (THE VESSEL): The central focus is a large-scale, high-contrast black and white portrait silhouette of [ PERSON NAME ]. This main portrait acts as the container. THE GRID FILL \u0026 TEXTURES (MIXED MEDIA): The interior of the silhouette is populated by a dense \u0027photo mosaic grid\u0027 of action shots from the person\u0027s career. CRITICAL TEXTURE INSTRUCTION: Do not just paste flat photos. Apply artistic textures to various grid cells to create a tactile, collage feel. Use effects like Halftone Dots, Fabric/Embroidery, and Film Grain. COLOR STRATEGY: The base is Monochrome B\u0026W. Use selective color overlays relevant to the team or flag only on specific grid cells. TYPOGRAPHY \u0026 BRANDING (STRICT MICRO-SCALING): Top Left, write \u0027[PERSON NAME]\u0027 strictly using Inter Semibold, tight negative kerning (-4%), small and discreet, maximum 20% of canvas width. Top Right, place the primary Team/Brand/Flag logo, very small, maximum 10% of canvas width. COMPOSITION \u0026 BACKGROUND: Use an off-white or light grey background with visible high-quality paper or concrete texture, center the figure perfectly, and maintain wide negative space.",
+                   "negative_prompt":  "flat pasted photos, oversized name, oversized logo, colorful full image, glossy digital white background, distorted likeness, illegible type, watermark, signature"
+               }
+}

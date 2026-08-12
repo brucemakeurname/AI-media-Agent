@@ -1,0 +1,22 @@
+{
+  "name": "gun-holding-antihero-red-black",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "neo-noir", "menswear"],
+  "image_type": "neo-noir menswear portrait with prop",
+  "image_vibe": "brooding, controlled, cinematic, rebellious",
+  "image_purpose": "menswear campaign and noir editorial portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a striking 4:5 neo-noir fashion portrait of one approved adult man in a black three-piece suit holding a non-firing theatrical prop firearm against a crimson background.",
+    "main_subject": "Approved adult man with medium-length wavy dark hair, well-groomed beard, round black sunglasses, brooding introspective expression, sharp black three-piece suit, white dress shirt, slim black tie, and black leather gloves. He holds the supplied prop firearm safely at waist level with no firing or violence.",
+    "composition_elements": ["Subject faces slightly downward and to the side in a relaxed deliberate posture.", "Black-and-white subject treatment against a rich textured crimson-red background.", "Hands, gloves, suit construction, sunglasses, and non-firing prop remain clearly readable.", "Luxury fashion campaign and graphic-novel-inspired poster composition without text."],
+    "lighting_and_atmosphere": "Moody directional light with subtle highlights on face, glasses, gloves, and suit fabric, deep shadows, fine film grain, painterly texture, and intense crimson contrast.",
+    "technical_specs": "Photorealistic 4:5 portrait, 85mm lens at f/4, sharp suit and prop detail, controlled monochrome subject with textured red background, subtle analog grain, no text or watermark.",
+    "generated_prompt_string": "Striking neo-noir fashion portrait of one approved adult man with medium-length wavy dark hair, well-groomed beard, round black sunglasses, brooding introspective expression, sharp black three-piece suit, white dress shirt, slim black tie and black leather gloves. He faces slightly downward and to the side and holds a supplied non-firing theatrical prop firearm safely at waist level, with no firing, violence or injury. Render the subject in dramatic black and white against a rich textured crimson-red background, with moody directional light, subtle highlights, deep shadows, fine film grain, painterly luxury campaign texture, 85mm lens, 4:5 composition, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "firing weapon", "violence", "blood", "injury", "threatening action", "real weapon emphasis", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "distorted anatomy", "extra fingers", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "gun-holding-antihero-red-black.jpg", "required": true, "source": "local reference image", "usage": "Attach for adult identity, face, hair, beard, sunglasses, suit, pose, and expression."}, {"type": "wardrobe", "name": "black three-piece suit, white shirt, black tie and gloves", "required": true, "source": "local reference image", "usage": "Preserve tailoring, colors, gloves, and noir styling."}, {"type": "accessory", "name": "supplied non-firing theatrical prop firearm", "required": true, "source": "local reference image", "usage": "Preserve prop silhouette and safe waist-level placement; do not turn it into a firing or violent scene."}, {"type": "background", "name": "textured crimson-red background", "required": true, "source": "local reference image", "usage": "Preserve crimson texture, contrast, and noir atmosphere."}],
+      "prompt_instructions": "Attach all required person, wardrobe, prop, and background references; no optional assets are needed. Keep identity, outfit, sunglasses, prop, safe pose, environment, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent wardrobe, equivalent theatrical prop, or equivalent background. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the firearm as a non-firing theatrical prop and excluded violence while preserving the black-and-white crimson neo-noir fashion concept and pose."]}
+}

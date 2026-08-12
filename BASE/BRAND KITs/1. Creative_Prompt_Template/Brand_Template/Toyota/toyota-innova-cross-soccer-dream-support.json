@@ -1,0 +1,77 @@
+{
+  "name": "toyota-innova-cross-soccer-dream-support",
+  "tag": [
+    "innova-cross",
+    "soccer",
+    "family",
+    "inspiration"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Brand story",
+  "group": "toyota_3109229609268603",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota supports family dreams through sport and daily journeys",
+      "color_palette": "Sky blue, sunset gold, white, field green, charcoal"
+    },
+    "main_subject": {
+      "type": "Object/Person/Text",
+      "detail": "A warm inspirational automotive poster featuring a white Toyota Innova Cross parked beside a football field at golden hour. On the right, a father and young boy in football kit walk away arm in arm toward the field, the child carrying a soccer ball and the father holding a sports duffel bag. A glowing football streaks across the top-right sky. Large headline text reads 'TIEP LUA DAM ME NUOI DUONG UOC MO'. Bottom-left script says 'Move your world'.",
+      "style": "Emotional family-sport lifestyle poster with cinematic sunset light, aspirational storytelling, and polished SUV hero framing"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / TIEP LUA DAM ME / NUOI DUONG UOC MO / Move your world",
+      "items": [
+        "Top Left: Toyota logo on a clear blue sky",
+        "Top Right: Glowing football with blue motion trail near the headline",
+        "Bottom Left: White Toyota Innova Cross parked on a paved edge beside the field and the handwritten slogan",
+        "Bottom Right: Father and child walking toward the field in warm backlight with long shadows",
+        "Center/Background: Golden-hour football field bordered by trees, with the headline floating above the scene"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Golden-hour family-lifestyle lighting",
+      "effect": "Warm sun rays, long shadows, glossy car reflections, hopeful inspirational glow"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal lifestyle automotive composite with cinematic emotional retouching",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota family aspiration story centered on football dreams. Centerpiece is a white Toyota Innova Cross parked beside a grassy football field while a father and his son walk arm in arm toward practice, carrying a soccer ball and sports bag. Background is a bright sunset field with trees, long shadows, and a glowing football streaking through the sky. Surrounding elements: Toyota logo, exact headline 'TIEP LUA DAM ME NUOI DUONG UOC MO', and footer script 'Move your world'. Technical style: photoreal lifestyle automotive composite with cinematic emotional retouching, golden-hour family-lifestyle lighting, warm sun rays and glossy reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Toyota Innova Cross exterior reference",
+          "required": true,
+          "source": "official Toyota Innova Cross renders",
+          "usage": "Preserve the front-three-quarter angle, grille styling, and wheel proportions"
+        },
+        {
+          "type": "person",
+          "name": "Father and child football-walk reference",
+          "required": true,
+          "source": "source photo or this creative",
+          "usage": "Keep the exact back-view pose, arm-around-shoulder gesture, and sports accessories"
+        },
+        {
+          "type": "background",
+          "name": "Football field at sunset",
+          "required": true,
+          "source": "field and sunset references",
+          "usage": "Anchor the sports-dream context and golden-hour atmosphere"
+        },
+        {
+          "type": "text_layout",
+          "name": "Innova Cross soccer-dream poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the car-left, family-right composition and top headline lockup"
+        }
+      ],
+      "prompt_instructions": "This visual should feel emotionally aspirational, not sporty-aggressive. Keep the father-child relationship central and preserve the glowing football motion accent."
+    }
+  }
+}

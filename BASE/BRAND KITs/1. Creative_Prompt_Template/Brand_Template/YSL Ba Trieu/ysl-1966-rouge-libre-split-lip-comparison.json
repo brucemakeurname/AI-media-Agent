@@ -1,0 +1,64 @@
+{
+  "name": "ysl-1966-rouge-libre-split-lip-comparison",
+  "tag": [
+    "ysl",
+    "1966",
+    "rouge-libre",
+    "lip-comparison",
+    "beauty-closeup"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "ysl_1333150875516287",
+  "prompt": {
+    "project_info": {
+      "theme": "Split-lip comparison for shade 1966 Rouge Libre",
+      "color_palette": "Warm brown-gold, soft nude pink, brick red, white"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A close-up beauty image of lips divided diagonally by a thin white line, showing a lighter pinkish lip look on the left and a deeper brick-red lip look on the right. The top text reads '#1966 - ROUGE LIBRE' and the bottom text reads 'ĐỎ GẠCH BIỂU TƯỢNG'.",
+      "style": "Clinical-beauty comparison poster with macro lip detail and clean split-screen presentation"
+    },
+    "composition_elements": {
+      "type": "Background Elements",
+      "text": "#1966 - ROUGE LIBRE; ĐỎ GẠCH BIỂU TƯỢNG",
+      "items": [
+        "Top Left: Large white shade name over a warm brown-gold header band",
+        "Top Right: Continuation of the warm header band",
+        "Bottom Left: Lower lip area with lighter pinkish side of the comparison",
+        "Bottom Right: Lower lip area with deeper brick-red side and large white descriptor text",
+        "Center/Background: Macro close-up of lips split diagonally by a white divider line to compare two finishes or applications"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft beauty macro lighting",
+      "effect": "Fine lip-line detail, even skin exposure, clean comparison clarity, subtle editorial polish"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal beauty-comparison advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square beauty-comparison poster for YSL shade 1966 Rouge Libre. Centerpiece is a photoreal macro close-up of lips split diagonally by a thin white line, with a lighter pinkish lip look on the left and a deeper brick-red lip look on the right. Include the exact text '#1966 - ROUGE LIBRE' and 'ĐỎ GẠCH BIỂU TƯỢNG'. Background is minimal, using a warm brown-gold header field and the lip image as the main visual. Technical style: photoreal beauty-comparison advertising composite, soft beauty macro lighting, fine lip detail and clean split-screen clarity, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Macro lip comparison reference",
+          "required": true,
+          "source": "original beauty image",
+          "usage": "Preserve the lip shape, diagonal split line, and contrasting before/after shade rendering"
+        },
+        {
+          "type": "text_layout",
+          "name": "Shade-comparison typography",
+          "required": true,
+          "source": "original creative copy",
+          "usage": "Keep the exact top and bottom text lines and their centered placement"
+        }
+      ],
+      "prompt_instructions": "Keep the image clean and comparison-focused. The diagonal split line is essential. Do not add the lipstick bullet unless it is visible; the macro lips are the hero."
+    }
+  }
+}

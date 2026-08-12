@@ -1,0 +1,72 @@
+{
+  "name": "minimalist-bw-fashion-triptych",
+  "tag": [
+    "adult-woman",
+    "triptych",
+    "black-and-white",
+    "fashion-editorial",
+    "white-top",
+    "portrait"
+  ],
+  "image_type": "fashion-editorial-triptych",
+  "image_vibe": "minimalist-poised-monochrome",
+  "image_purpose": "lookbook",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the model is an adult while preserving the referenced identity-continuity instruction."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "minimalist monochrome women's fashion editorial in three stacked frames",
+      "color_palette": "black, white, neutral gray, muted gold",
+      "format": "vertical triptych 2:3"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with medium-length dark bobbed hair, natural makeup, an opaque fitted white top, and delicate gold jewelry.",
+      "style": "clean contemporary fashion portrait with authentic skin texture"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "three equal stacked horizontal portrait panels",
+        "top panel: downward gaze with one hand gently near the collarbone",
+        "middle panel: crisp upward-looking side profile",
+        "bottom panel: frontal thoughtful portrait with direct eye contact",
+        "clean neutral gray studio background and precise panel divisions"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "large softbox key at approximately 5000K, controlled Rembrandt shadow pattern, subtle bounce fill",
+      "effect": "sculpted cheekbones, soft bokeh, restrained editorial contrast, quiet confidence"
+    },
+    "technical_specs": {
+      "render_style": "high-end full-frame mirrorless camera, 85mm prime at f/2, monochrome conversion, visible pores, gentle grain",
+      "resolution": "high resolution vertical triptych, 2:3"
+    },
+    "generated_prompt_string": "Preserve the face, proportions, and external features of the attached adult model reference when one is provided. Create a minimalist monochrome fashion editorial triptych with three stacked cinematic frames. The subject is an adult woman with medium-length dark hair, natural makeup, an opaque fitted white top, and delicate gold jewelry for visual continuity. Frame 1 is emotional and introspective: she looks downward with a hand gently near the collarbone, with soft Rembrandt lighting sculpting cheekbones and bone structure. Frame 2 is a crisp profile portrait, gaze slightly upward, poised and confident. Frame 3 is a frontal thoughtful portrait with relaxed shoulders and direct eye contact, conveying quiet strength and elegance. Keep the composition clean and modern on a neutral studio background. Use commercial magazine quality from a high-end mirrorless camera, authentic skin texture, soft bokeh, and cinematic sophistication.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, mismatched panel identity",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-woman-model-reference",
+          "required": false,
+          "source": "Attach an authorized adult model reference when likeness continuity is required.",
+          "usage": "Keep face, proportions, and external features consistent across all three panels; otherwise replace with a generic adult model."
+        },
+        {
+          "type": "wardrobe",
+          "name": "opaque-white-top-and-gold-jewelry-reference",
+          "required": false,
+          "source": "Attach wardrobe or jewelry references when exact pieces must match.",
+          "usage": "Maintain opaque white-top and delicate gold-accent continuity across panels; each item may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. If a person reference is attached, it must depict an authorized adult and the identity must remain consistent across all panels. Keep the stacked triptych layout, three poses, monochrome treatment, opaque white top, and restrained gold accents stable."
+    }
+  }
+}

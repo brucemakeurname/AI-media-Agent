@@ -1,0 +1,43 @@
+{
+  "name": "coquettish-portrait-closeup",
+  "tag": ["adult-woman", "reference-based", "close-up", "black-dress", "gold-jewelry", "soft-romantic"],
+  "image_type": "editorial-portrait",
+  "image_vibe": "playful-romantic",
+  "image_purpose": "profile-visual",
+  "group": "indie/low-fi-dreamy/soft-ethereal",
+  "prompt": {
+    "project_info": "An ultra-realistic, reference-based soft romantic close-up with a polished K-pop-inspired dreamy aesthetic.",
+    "main_subject": "An approved adult woman based on the attached face reference, tilting her head slightly to the side and looking up at camera with a playful, cute, innocent expression. Preserve big soft eyes, a slight lip pout, faint cheek blush, natural freckles across nose and cheeks, dewy natural-finish skin, glossy pink lips, doe-eyed makeup, and long straight jet-black hair falling over one shoulder. She wears the reference-specified black fitted dress with its original deep V neckline, long dangling gold chain earrings, and layered gold necklaces with a small heart pendant; the dress fit complements her feminine silhouette.",
+    "composition_elements": "Vertical close-up portrait from a slightly high angle, with sharp focus on the eyes and creamy soft-focus studio background. Preserve the head tilt, direct upward gaze, gold jewelry, black dress, and uncluttered framing; omit text, logos, and watermarks.",
+    "lighting_and_atmosphere": "Soft diffused warm peach-and-cream light creates a romantic, sweet, charming mood. Gentle directional light reveals delicate collarbones and creates realistic shadows that enhance the dress silhouette without changing the attached outfit.",
+    "technical_specs": "85mm lens at f/1.4, close-up portrait, 8K output, realistic skin texture, softly dreamy K-pop-influenced photography.",
+    "generated_prompt_string": "Ultra-realistic reference-based portrait, soft romantic photography. Approved adult woman based on uploaded reference, tilting head slightly to the side and looking up at camera through lashes with a playful and cute posture; soft gaze, slight lip pout, faint blush, visible natural freckles across nose and cheeks, dewy natural-finish skin, glossy pink lips, doe-eyed makeup, and long straight jet-black hair falling over one shoulder. Preserve the exact black fitted dress from the reference with its deep V neckline, long dangling gold chain earrings, and layered gold necklaces with a small heart pendant; its fit complements her feminine silhouette. Soft studio setting with creamy blurred background, soft diffused warm peach-and-cream light, close-up portrait, slightly high angle, sharp focus on eyes, 85mm f/1.4, 8K, realistic skin texture, soft dreamy K-pop aesthetic.",
+    "negative_prompt": "explicit, nsfw, overly revealing, celebrity or public-figure likeness, sexualized pose, body-part emphasis, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "The approved adult face/identity reference is required: preserve her face, facial structure, and likeness exactly; never substitute a celebrity or public figure. The specified outfit is required when attached and must remain the same black fitted dress, jewelry, and neckline. Hair, background, and lighting can be replaced only if the close-up composition, romantic peach-and-cream mood, and identity consistency remain intact.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-identity-reference",
+          "required": true,
+          "source": "uploaded approved-adult reference",
+          "usage": "Preserve exact face, facial structure, and likeness; never use a celebrity or public figure."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-fitted-dress-and-gold-jewelry-reference",
+          "required": false,
+          "source": "uploaded reference when wardrobe continuity is needed",
+          "usage": "Preserve the black fitted dress, deep V neckline, dangling chain earrings, and layered heart-pendant necklaces."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced celebrity-likeness language with a required approved-adult identity reference.",
+      "Preserved the reference-specified black dress and neckline while using feminine-silhouette and lighting language in place of suggestive emphasis."
+    ]
+  }
+}

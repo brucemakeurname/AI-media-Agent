@@ -1,0 +1,22 @@
+{
+  "name": "golden-warm-light-duo-fashion-selfie",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "activewear", "smartphone"],
+  "image_type": "activewear smartphone fashion portrait",
+  "image_vibe": "modern, confident, polished, cool-warm",
+  "image_purpose": "activewear lookbook and social campaign portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic vertical activewear portrait of one original approved adult woman holding a supplied smartphone against a dark neutral studio background.",
+    "main_subject": "Original approved adult woman in side profile with dark brown hair in a high ponytail and bangs, small earrings, calm focused expression, athletic feminine silhouette, blue ribbed long-sleeve crop top, and matching high-waisted blue athletic shorts. She holds a supplied smartphone in one hand in a mirror-selfie-inspired pose.",
+    "composition_elements": ["Single subject in a vertical side-profile three-quarter frame, not a duo.", "Phone held upright near the torso with the supplied device shape preserved.", "Dark blue-gray seamless background and blue monochromatic activewear palette.", "Keep garment ribbing, ponytail, profile, hand, phone, and natural anatomy consistent."],
+    "lighting_and_atmosphere": "Soft directional studio light with cool neutral background, gentle edge highlights, realistic skin and fabric rendering, and polished fitness-editorial clarity.",
+    "technical_specs": "Photorealistic 4:5 vertical portrait, 50mm lens at f/4, crisp activewear and phone detail, realistic ribbed fabric and skin texture, subtle natural grain, no added text or watermark.",
+    "generated_prompt_string": "Photorealistic 4:5 activewear fashion portrait of one original approved adult woman in side profile with dark brown hair in a high ponytail and bangs, small earrings, calm focused expression and athletic feminine silhouette. She wears a blue ribbed long-sleeve crop top with matching high-waisted blue athletic shorts and holds a supplied smartphone upright near her torso in a mirror-selfie-inspired pose. Use a dark blue-gray seamless background, soft directional studio light, gentle edge highlights, realistic skin and ribbed fabric, 50mm f/4, crisp phone detail, single subject only, no added text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "explicit measurements", "body-part emphasis", "extra people", "distorted phone", "invented logo", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "distorted anatomy", "extra fingers", "watermark", "text", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "golden-warm-light-duo-fashion-selfie.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult identity, profile, hair, expression, pose, and outfit reference."}, {"type": "wardrobe", "name": "blue ribbed long-sleeve crop top and matching athletic shorts", "required": true, "source": "local reference image", "usage": "Preserve blue color, ribbing, fit, waistband, and garment construction."}, {"type": "product", "name": "supplied smartphone", "required": true, "source": "local reference image", "usage": "Preserve phone shape, camera layout, hand grip, and supplied branding only when an approved product reference is attached."}],
+      "prompt_instructions": "Attach all required person, wardrobe, and smartphone references; no optional assets are needed. Keep identity, face, hair, outfit, phone, hand pose, environment, lighting, and typography/logo consistency. Replace only with an equivalent approved adult, equivalent activewear, or equivalent supplied phone. Preserve supplied product branding only when intentionally attached; do not invent logos, text, or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Aligned the template to the single adult woman visible in the reference, replaced named public-figure identities, and removed body-emphasis wording while preserving the blue activewear, phone, pose, and studio concept."]}
+}

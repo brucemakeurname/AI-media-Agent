@@ -1,0 +1,22 @@
+{
+  "name": "red-hair-disco-fashion-editorial",
+  "tag": ["industry", "lookbook-line-sheet", "editorial-fashion", "disco", "collage"],
+  "image_type": "direct-flash fashion editorial portrait",
+  "image_vibe": "bold, glossy, retro, high-contrast",
+  "image_purpose": "fashion campaign and editorial collage visual",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create a direct-flash editorial fashion portrait of an adult red-haired model with a silver disco ball and a fashion-magazine collage backdrop.",
+    "main_subject": "An adult fictional woman with voluminous curly red hair, bold red lipstick, and a confident pose wears a deep-red velvet fashion bodysuit and holds a large silver mirrored disco ball.",
+    "composition_elements": "Medium-to-full portrait with the disco ball prominent in the foreground, clean white wall covered with generic fashion-editorial cutouts and abstract magazine layouts, no readable logos or fixed publication names.",
+    "lighting_and_atmosphere": "Direct studio flash with sharp high-contrast shadows and bright highlights on velvet, hair, and disco-ball facets; modern editorial energy with 35mm lens character.",
+    "technical_specs": "Photorealistic high-detail fashion photography, 35mm lens look, crisp subject focus, realistic mirrored reflections, clean collage texture, no watermark or readable text.",
+    "generated_prompt_string": "Editorial fashion portrait of an adult fictional woman with voluminous curly red hair, bold red lipstick, and a confident pose, wearing a deep-red velvet fashion bodysuit and holding a large silver mirrored disco ball. She stands before a clean white wall covered with generic fashion-editorial cutouts and abstract magazine layouts with no readable logos or publication names. Direct studio flash, sharp focus, high detail, bold contrast, realistic velvet and mirrored reflections, modern fashion shoot, 35mm lens look.",
+    "negative_prompt": "celebrity likeness, public figure likeness, explicit, nsfw, overly revealing, nudity, readable magazine logos, publication names, watermark, text, signature, blurry, low quality, distorted anatomy, extra fingers, deformed, plastic skin, over-smooth, over-saturated, HDR look",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "red-hair-disco-fashion-editorial.jpg", "required": true, "source": "workspace reference image", "usage": "Reference the adult red-haired model, red velvet outfit, disco ball, white collage wall, direct flash, and portrait framing while making publication graphics generic."}],
+      "prompt_instructions": "Attach the required reference image. Preserve model styling, disco ball, collage hierarchy, lighting, and 35mm editorial consistency. Use an original adult identity; replace logos and readable typography with generic abstract graphics that remain replaceable in post."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed fixed publication branding and readable logos from the collage while preserving the fashion-editorial collage concept."]}
+}

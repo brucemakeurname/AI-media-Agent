@@ -1,0 +1,19 @@
+{
+  "name": "prompt-329",
+  "tag": ["approved-adult-face", "black-robe", "orange-gradient", "seated-portrait", "golden-light"],
+  "image_type": "cinematic-editorial-portrait",
+  "image_vibe": "artistic, surreal, moody, golden",
+  "image_purpose": "editorial, profile-visual, moodboard",
+  "group": "indie / moody-portrait / intimate-closeup",
+  "prompt": {
+    "project_info": {"theme":"Golden orange seated robe portrait","format":"vertical 3:4 portrait","color_palette":"rich orange, yellow, black, warm gold"},
+    "main_subject": {"type":"adult person using a required approved-adult face reference","detail":"An adult person seated and slightly leaned forward with a relaxed calm expression, wearing loose dark robe-like fabric that drapes naturally. Preserve the attached adult reference's exact face, facial structure, likeness, and head position.","style":"realistic cinematic softly lit portrait"},
+    "composition_elements": {"text":"","items":["seated three-quarter portrait", "hands relaxed in lap", "smooth rich orange-to-yellow gradient background", "dark draped robe silhouette", "gentle shadow behind subject"]},
+    "lighting_and_atmosphere": {"type":"warm controlled gradient key and soft fill, approximately 3200K","effect":"glowing cinematic light with a gentle shadow behind the subject","atmosphere":"artistic, slightly surreal, moody, golden"},
+    "technical_specs": {"render_style":"85mm portrait lens at f/2, subtle film grain","resolution":"high-detail vertical portrait","color_treatment":"warm golden grade with natural skin texture and restrained contrast"},
+    "generated_prompt_string":"Create a hyper-realistic 3:4 vertical portrait of the attached approved-adult person, preserving their exact face, facial structure, likeness, and head position. They are seated, slightly leaned forward, with a relaxed calm expression and hands resting in their lap. Dress them in loose dark robe-like fabric that drapes naturally. Use a smooth rich orange-and-yellow gradient background with a controlled warm key and soft fill to create a glowing cinematic effect and a gentle shadow behind them. Keep the mood artistic, slightly surreal, moody, and golden. Use an 85mm portrait lens at f/2, realistic natural skin texture, subtle film grain, and high detail.",
+    "negative_prompt":"explicit, nsfw, overly revealing, minor, sexual pose, identity blending, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, text, extra fingers, deformed",
+    "reference_elements":{"prompt_instructions":"Attach a required approved-adult face reference. Preserve face, facial structure, likeness, and head position; the robe, background gradient, and lighting must remain consistent, while the seating can be adjusted only slightly.","assets":[{"type":"person","name":"approved-adult-face-reference","required":true,"source":"user attachment","usage":"Preserve the adult subject's exact face, facial structure, likeness, and head position; never use a celebrity/public-figure likeness."}]}
+  },
+  "policy_review":{"status":"remediated","changes":["Clarified that the required identity reference must depict an approved adult.","Preserved seated pose, dark robe, orange-yellow gradient, and warm cinematic direction."]}
+}

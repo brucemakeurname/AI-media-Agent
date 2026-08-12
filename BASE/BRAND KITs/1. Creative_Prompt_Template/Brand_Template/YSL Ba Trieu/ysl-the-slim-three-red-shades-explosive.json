@@ -1,0 +1,71 @@
+{
+  "name": "ysl-the-slim-three-red-shades-explosive",
+  "tag": [
+    "ysl",
+    "the-slim",
+    "red-shades",
+    "lipstick",
+    "packshot"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "ysl_1086199390211438",
+  "prompt": {
+    "project_info": {
+      "theme": "Three explosive red shades for the new year",
+      "color_palette": "Burnt orange, deep red, black, metallic gold, white"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A dramatic vertical YSL lipstick poster with three exposed red lipstick bullets at different heights and a giant close-up of the gold YSL case on the right. The headline reads 'ROUGE PUR COUTURE THE SLIM' and '3 SẮC ĐỎ BÙNG NỔ KHÍ CHẤT ĐẦU NĂM'. A white YSL monogram appears in the upper left.",
+      "style": "Bold high-fashion packshot with oversized case detail and fiery new-year energy"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "ROUGE PUR COUTURE THE SLIM; 3 SẮC ĐỎ BÙNG NỔ KHÍ CHẤT ĐẦU NĂM",
+      "items": [
+        "Top Left: White YSL monogram over an orange-red gradient field",
+        "Top Right: Giant close crop of the YSL gold-and-black lipstick case with engraved brand name",
+        "Bottom Left: White headline and bold Vietnamese copy spanning the lower third",
+        "Bottom Right: Lower section of the large case and one lipstick bullet in the foreground",
+        "Center/Background: Three matte red lipstick bullets rising from black square casings against a warm orange-to-red studio gradient"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "High-glam product studio lighting",
+      "effect": "Metallic reflections, saturated warm glow, crisp lipstick edges, dramatic fashion-beauty contrast"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal luxury lipstick packshot composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality vertical luxury lipstick poster for YSL. Centerpiece is a photoreal arrangement of three exposed red lipstick bullets in black square casings, with a giant close-up of the gold YSL case on the right. Include the exact text 'ROUGE PUR COUTURE THE SLIM' and '3 SẮC ĐỎ BÙNG NỔ KHÍ CHẤT ĐẦU NĂM', plus a white YSL monogram in the upper left. Background is a warm orange-to-red studio gradient. Technical style: photoreal luxury lipstick packshot composite, high-glam product studio lighting, metallic reflections and saturated warm contrast, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "YSL monogram",
+          "required": true,
+          "source": "original branding",
+          "usage": "Upper-left corner monogram"
+        },
+        {
+          "type": "product",
+          "name": "Rouge Pur Couture The Slim lipstick set",
+          "required": true,
+          "source": "real product references required",
+          "usage": "Preserve the square bullet shape, black case, gold section, and the three distinct red tones"
+        },
+        {
+          "type": "product",
+          "name": "Oversized gold case crop",
+          "required": true,
+          "source": "original packshot composition",
+          "usage": "Match the giant right-side case crop with the embossed YSL name"
+        }
+      ],
+      "prompt_instructions": "This is a campaign packshot, not a lifestyle scene. Keep the fiery warm gradient and the monumental scale difference between the giant case crop and the three lipstick bullets."
+    }
+  }
+}

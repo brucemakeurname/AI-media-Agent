@@ -1,0 +1,85 @@
+{
+  "name": "be-vagabond-patisserie-discount-50k",
+  "tag": [
+    "restaurant destination",
+    "vagabond patisserie",
+    "50k discount",
+    "bebike",
+    "becar"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "be_993413856838590",
+  "prompt": {
+    "project_info": {
+      "theme": "Ride-to-destination restaurant promo",
+      "color_palette": "Bright yellow, royal blue, white, black, warm cream"
+    },
+    "main_subject": {
+      "type": "Text/Object/Character",
+      "detail": "A destination-promo poster encouraging users to book be rides to The Vagabond Pâtisserie, with a large dark-blue headline over a yellow background, a blue 50K discount badge, a cutout image of the restaurant building, and illustrated beBike and beCar vehicles along the bottom.",
+      "style": "Bold brand partnership promo, hybrid photoreal storefront and vector transport illustration"
+    },
+    "composition_elements": {
+      "type": "Typography/Storefront/Vehicles",
+      "text": "be, THE VAGABOND PATISSERIE, Đặt be đi đến The Vagabond Pâtisserie, Giảm đến 50K, beBike, beCar, Áp dụng cho các chuyến có điểm đi/điểm đến The Vagabond Pâtisserie",
+      "items": [
+        "Top Left: be logo and a cyan square brand badge for THE VAGABOND PATISSERIE.",
+        "Upper Middle: large dark-blue headline 'Đặt be đi đến The Vagabond Pâtisserie'.",
+        "Center Left: rounded blue badge with white text 'Giảm đến 50K'.",
+        "Right Side: cutout photo of the cream-colored The Vagabond Pâtisserie building with dark shutters and signage.",
+        "Bottom Left: illustrated be rider on a yellow beBike scooter.",
+        "Bottom Middle: illustrated yellow beCar sedan.",
+        "Bottom: deep blue ground strip.",
+        "Bottom Left small text: 'Áp dụng cho các chuyến có điểm đi/điểm đến The Vagabond Pâtisserie'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright daylight commercial lighting",
+      "effect": "Cheerful urban partnership mood, crisp storefront cutout, strong brand contrast"
+    },
+    "technical_specs": {
+      "render_style": "Hybrid storefront promotion poster with vector transport characters",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "be and The Vagabond Patisserie logos",
+          "required": true,
+          "source": "source image logo references",
+          "usage": "Preserve the exact logos and top-left arrangement."
+        },
+        {
+          "type": "location",
+          "name": "The Vagabond Patisserie building",
+          "required": true,
+          "source": "source image storefront reference",
+          "usage": "Keep the architecture, signage, and right-side building cutout."
+        },
+        {
+          "type": "graphic",
+          "name": "beBike rider and beCar",
+          "required": true,
+          "source": "source image vehicle and mascot reference",
+          "usage": "Preserve the vehicle illustration style and bottom placement."
+        },
+        {
+          "type": "text_layout",
+          "name": "destination promo headline and 50K badge",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Keep the exact wording, hierarchy, and blue discount block."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve storefront cutout, typography balance, and transport graphics.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the bright yellow top field with the blue lower ground strip."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square be destination promo poster. Use a bright yellow upper background and a deep blue lower ground strip. At the top left, place the be logo and a cyan square logo for 'THE VAGABOND PATISSERIE'. Add a large dark-blue headline reading 'Đặt be đi đến The Vagabond Pâtisserie'. Place a rounded blue badge with white text 'Giảm đến 50K'. On the right, show a cutout of the cream-colored The Vagabond Patisserie building with dark shutters and visible signage. Along the bottom, add an illustrated beBike rider on a yellow scooter and a yellow beCar sedan. Include the small white text 'Áp dụng cho các chuyến có điểm đi/điểm đến The Vagabond Pâtisserie'. Technical style: hybrid storefront promotion poster with vector transport characters, bright daylight commercial lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark palette, wrong logos, incorrect text, distorted building, low resolution, extra people, muddy colors, watermark, signature"
+  }
+}

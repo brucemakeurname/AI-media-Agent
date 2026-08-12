@@ -1,0 +1,26 @@
+{
+  "name": "golden-hour-country-girl",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-nature", "country-road", "golden-hour"],
+  "image_type": "country-road-lifestyle-portrait",
+  "image_vibe": "peaceful-fresh-natural",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a photorealistic natural lifestyle portrait of an approved adult woman walking toward camera on a peaceful countryside road at golden hour.",
+    "main_subject": "An approved adult woman with long straight light-brown hair, warm natural skin, and a soft gentle smile. She walks naturally toward camera wearing a simple black T-shirt, blue denim jeans, and black canvas sneakers with white laces.",
+    "composition_elements": "Eye-level full-body framing with the subject centered on a quiet paved country road. Include green trees, open fields, warm backlit edges, and a soft blue sky with light clouds.",
+    "lighting_and_atmosphere": "Warm late-afternoon sunlight from the side, soft shadows, golden glow, peaceful fresh natural mood, realistic outdoor texture.",
+    "technical_specs": "Photorealistic natural lifestyle photography, vertical full-body composition, sharp subject, gentle background depth, realistic hair, denim, road, trees, and sunlight.",
+    "generated_prompt_string": "Create a photorealistic vertical full-body lifestyle portrait of an approved adult woman with long straight light-brown hair and a soft gentle smile walking naturally toward the camera on a quiet countryside road. Dress her in a simple black T-shirt, blue denim jeans, and black canvas sneakers with white laces. Surround her with green trees, open fields, warm side-lit golden-hour sunlight, a soft blue sky, and light clouds. Use eye-level framing, realistic textures, soft shadows, and peaceful fresh natural mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, stiff walking pose",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-country-road-subject", "required": true, "source": "golden-hour-country-girl.jpg", "usage": "Preserve adult identity, hair, smile, walking pose, and natural expression."},
+        {"type": "wardrobe", "name": "black-tee-blue-jeans-sneakers", "required": true, "source": "golden-hour-country-girl.jpg", "usage": "Keep T-shirt, jeans, sneakers, and casual styling consistent; replace only with explicit wardrobe references."},
+        {"type": "location", "name": "golden-hour-country-road", "required": true, "source": "golden-hour-country-girl.jpg", "usage": "Maintain road, fields, trees, sky, and warm light; replace only with explicit location references."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the countryside lifestyle concept.", "Added safe negative prompts and structured references."]}
+}

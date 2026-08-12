@@ -1,0 +1,66 @@
+{
+  "name": "Nineties Denim Street Editorial",
+  "tag": "90s-vintage-denim-editorial",
+  "image_type": "streetwear_fashion_portrait",
+  "image_vibe": "overcast_analog_americana",
+  "image_purpose": "fashion_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Nineties Denim Street Editorial",
+      "format": "single still photograph",
+      "aspect_ratio": "9:16 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with long wavy brown hair and a neutral sideways gaze.",
+      "wardrobe": "A dark indigo denim trucker jacket buttoned over a plain black tee, matching high-waisted wide-leg carpenter jeans, and plain black leather sneakers.",
+      "pose_and_expression": "Full-body portrait leaning lightly against a weathered metal pole, arms folded comfortably."
+    },
+    "composition_elements": {
+      "setting": "Muted cobblestone urban corner with a blurred unbranded olive vintage sedan in the background.",
+      "framing": "Eye-level full-body vertical framing with soft background bokeh.",
+      "text_and_brand_control": "No midriff exposure, pole sticker, vehicle badge, license plate, logo, or readable street sign."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft diffuse overcast daylight with natural shadow detail.",
+      "mood": "Quiet, rugged, nineties, and editorial."
+    },
+    "technical_specs": {
+      "camera_style": "Portra-inspired 35mm fashion film",
+      "lens": "55mm equivalent",
+      "rendering": "Fine grain, richly textured denim, natural skin, realistic hands, and restrained dynamic range."
+    },
+    "generated_prompt_string": "Create a 9:16 vertical Portra-inspired 35mm fashion photograph of an adult woman with long wavy brown hair and a neutral sideways gaze. She wears a buttoned dark-indigo denim trucker jacket over a plain black tee, matching high-waisted wide-leg carpenter jeans, and plain black leather sneakers. Frame her full body at eye level, leaning lightly against a weathered metal pole with arms folded comfortably. Place her at a muted cobblestone urban corner with a softly blurred unbranded olive vintage sedan behind her. Use soft overcast daylight, natural shadow detail, fine grain, textured denim, natural skin, realistic hands, and restrained dynamic range. No midriff exposure, stickers, vehicle badge, plate, logo, readable sign, text, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, midriff, lingerie, HDR, logo, vehicle badge, license plate, readable text, watermark, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity references must depict a consenting adult. Replaceable wardrobe, vehicle, and location references guide form and color only; blank all marks and copy.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general adult face and hair only."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "indigo_denim_set_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide denim construction without branding."
+        },
+        {
+          "type": "vehicle_reference",
+          "name": "vintage_sedan_reference",
+          "required": false,
+          "source": "user-provided vehicle reference",
+          "usage": "Guide generic sedan silhouette after removing badges and plates."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Specified an adult subject and covered clothing, removed HDR and body exposure direction, and prohibited automotive and street text."
+  }
+}

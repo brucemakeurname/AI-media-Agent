@@ -1,0 +1,91 @@
+{
+  "name": "lilixbox-sundate-poolside-gwp-code-sundate",
+  "tag": [
+    "summer-campaign",
+    "gift-with-purchase",
+    "poolside-lifestyle",
+    "beauty-retail"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "lilixbox_1468500171699013",
+  "prompt": {
+    "project_info": {
+      "theme": "Lixibox Sundate Energy summer gift-with-purchase campaign",
+      "color_palette": "Sky blue, pool aqua, warm orange, white, sandy beige, product accent colors"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "Luxury summer poolside promotional poster featuring a woman in a white one-piece swimsuit and oversized translucent sunglasses leaning on the edge of a swimming pool, smiling toward camera, with a lineup of beauty products and lifestyle props arranged on the pool ledge in the foreground.",
+      "style": "High-end commercial lifestyle photography, polished resort aesthetic, natural skin retouching, premium beauty campaign styling"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "LIXIBOX GWP Gift with Purchase Sundate Energy / Tặng hộp quà GWP khi mua hàng tại Website/App/Store Lixibox / NHẬP MÃ: SUNDATE",
+      "items": [
+        "Top Left: Small white stacked campaign header text 'LIXIBOX GWP Gift with Purchase Sundate Energy' aligned over blue pool water.",
+        "Top Right: Clean open pool water surface with bright daylight reflections and negative space.",
+        "Bottom Left: Orange rectangular banner with white body text 'Tặng hộp quà GWP khi mua hàng tại Website/App/Store Lixibox'.",
+        "Bottom Right: Orange code strip with white uppercase text 'NHẬP MÃ: SUNDATE'.",
+        "Center/Background: Model at pool edge; foreground pool ledge displays multiple products and props including a Sundate bottle, NUXE oil bottle, small skincare items, a red lip product, a white-and-orange item, and a blue portable speaker."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Natural sunlight",
+      "effect": "Bright midday resort lighting, crisp reflections on water, soft skin highlights, clean commercial contrast, airy summer atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic advertising photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Lixibox Sundate Energy summer gift-with-purchase campaign. Centerpiece is a smiling woman in a white swimsuit and oversized translucent sunglasses leaning on the edge of a bright blue swimming pool, with a curated row of beauty products and a blue speaker arranged on the pool ledge in front of her. Background is clean sunlit pool water with resort ambiance and generous negative space. Surrounding elements: top-left small white campaign header text 'LIXIBOX GWP Gift with Purchase Sundate Energy', bottom-left orange banner with exact Vietnamese copy 'Tặng hộp quà GWP khi mua hàng tại Website/App/Store Lixibox', bottom-right orange promo code strip 'NHẬP MÃ: SUNDATE', foreground props including Sundate bottle, NUXE bottle, cosmetics, and speaker. Technical style: photorealistic advertising photography, natural sunlight, bright midday resort reflections and soft skin highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "female model in white swimsuit with oversized translucent sunglasses",
+          "required": true,
+          "source": "original creative image or matching campaign model reference",
+          "usage": "Match pose, face direction, outfit styling, hair, and relaxed poolside posture."
+        },
+        {
+          "type": "product",
+          "name": "Sundate Energy bottle and featured skincare/cosmetic lineup",
+          "required": true,
+          "source": "brand product packshots from Lixibox campaign",
+          "usage": "Recreate exact foreground product arrangement and recognizable packaging colors."
+        },
+        {
+          "type": "graphic",
+          "name": "orange promo banners and exact text layout",
+          "required": true,
+          "source": "original creative typography layout",
+          "usage": "Preserve the stacked text hierarchy and the two orange strips at the bottom."
+        },
+        {
+          "type": "accessory",
+          "name": "blue portable speaker and small poolside props",
+          "required": true,
+          "source": "original campaign prop styling",
+          "usage": "Maintain the lifestyle storytelling and spacing across the pool ledge."
+        },
+        {
+          "type": "location",
+          "name": "sunlit swimming pool edge",
+          "required": true,
+          "source": "poolside environment reference",
+          "usage": "Keep the same resort pool perspective, water color, and ledge depth."
+        },
+        {
+          "type": "text_layout",
+          "name": "Lixibox Sundate Energy campaign typography",
+          "required": true,
+          "source": "original creative image",
+          "usage": "Keep exact wording, line breaks, font weight contrast, and banner placement."
+        }
+      ],
+      "prompt_instructions": "Use the attached image refs for the model, product lineup, speaker prop, and text layout. Prioritize composition fidelity: model centered slightly left, products spanning the lower foreground ledge, pool water occupying most of the top half, and orange banners anchoring the bottom third. Keep Vietnamese copy exactly as shown."
+    }
+  }
+}

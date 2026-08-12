@@ -1,0 +1,53 @@
+{
+  "name": "be-rockstar-5-star-streak",
+  "tag": ["rockstar", "driver campaign", "5 star streak", "energy drink", "endorsement"],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Endorsement",
+  "group": "be_1514676903679998",
+  "prompt": {
+    "project_info": {
+      "theme": "Rockstar x be driver motivation campaign",
+      "color_palette": "Bright yellow, blue, black, gold, gray"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A bold collaboration poster with a smiling young male be rider seated on a yellow scooter, holding a giant condensation-covered Rockstar energy drink can in one hand and a smartphone with a five-star rating graphic in the other, against a city-road backdrop.",
+      "style": "Photoreal endorsement poster with oversized product hero and urban campaign energy"
+    },
+    "composition_elements": {
+      "type": "Typography/Person/Product/City Background",
+      "text": "be, ROCKSTAR NƯỚC TĂNG LỰC, TIẾP SỨC BỀN, VỮNG CHUỖI 5 SAO",
+      "items": [
+        "Top Center: be logo and ROCKSTAR NƯỚC TĂNG LỰC wordmark.",
+        "Upper Middle: black headline 'TIẾP SỨC BỀN' and large blue bar 'VỮNG CHUỖI 5 SAO'.",
+        "Center: young male be rider in yellow-blue uniform sitting on a yellow scooter.",
+        "Left Foreground: giant Rockstar can held close to camera with water droplets.",
+        "Right Foreground: smartphone showing five-star review graphic.",
+        "Background: road perspective with city skyline and landmarks under a bright yellow sky."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright commercial outdoor lighting",
+      "effect": "Heroic product glow, energetic sponsorship mood, crisp face and object cutouts"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal brand-collab endorsement poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "male be rider", "required": true, "source": "source image model reference", "usage": "Preserve the rider identity, smile, uniform, and seated pose."},
+        {"type": "product", "name": "Rockstar energy drink can and smartphone rating screen", "required": true, "source": "source image product reference", "usage": "Keep the can label, condensation texture, and the five-star phone display."},
+        {"type": "logo", "name": "be and Rockstar logos", "required": true, "source": "source image logo references", "usage": "Preserve the collaboration lockup and headline style."},
+        {"type": "text_layout", "name": "5-star streak campaign copy", "required": true, "source": "source image text reference", "usage": "Keep the exact wording and blue highlight bar."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve rider identity, can scale, and the smartphone star overlay.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the oversized can perspective and central road composition."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square be x Rockstar endorsement poster. Use a bright yellow sky over a city-road background. At the top center place the be logo and 'ROCKSTAR NƯỚC TĂNG LỰC'. Add the black headline 'TIẾP SỨC BỀN' and a large blue bar reading 'VỮNG CHUỖI 5 SAO'. In the center, show a smiling young male be rider seated on a yellow scooter. Have him hold a giant condensation-covered Rockstar can toward the camera on the left and a smartphone with a five-star rating graphic on the right. Technical style: photoreal brand-collab endorsement poster, bright commercial outdoor lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark mood, incorrect logos, blurry face, wrong can label, low resolution, distorted hands, watermark, signature"
+  }
+}

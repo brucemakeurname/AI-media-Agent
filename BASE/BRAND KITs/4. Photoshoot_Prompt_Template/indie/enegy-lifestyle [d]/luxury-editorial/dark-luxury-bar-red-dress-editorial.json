@@ -1,0 +1,75 @@
+{
+  "name": "dark-luxury-bar-red-dress-editorial",
+  "tag": [
+    "adult-woman",
+    "red-satin-gown",
+    "luxury-lounge",
+    "leather-armchair",
+    "tungsten-night"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "moody-refined-luxury",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/luxury-editorial",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Retained the adult red-satin luxury-lounge fashion concept while replacing seductive and flirtatious framing with a composed elegant portrait direction."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "cinematic adult eveningwear portrait in a dark luxury lounge",
+      "color_palette": "deep black, warm amber, rich crimson, dark wood, and natural warm skin tones",
+      "format": "vertical 2:3 three-quarter portrait"
+    },
+    "main_subject": {
+      "description": "an adult woman with long black side-swept waves, classic natural glam makeup, and a floor-length red satin one-shoulder gown with a structured bodice",
+      "pose_and_expression": "seated comfortably in a leather armchair with torso angled toward camera, hands relaxed near the chair arm and lap, calm elegant smile"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level three-quarter portrait",
+      "foreground": "red satin gown, leather armchair, and natural hand placement",
+      "background": "dark wood, black glass, warm amber lamps, ornate gold ceiling artwork, and distant soft bokeh",
+      "visual_hierarchy": "face and red gown, armchair silhouette, then warm lounge ambience"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "large diffused camera-left key, subtle warm rim light, and amber practical lamps in the background",
+      "atmosphere": "intimate, upscale, smokeless, and refined with soft cinematic diffusion"
+    },
+    "technical_specs": {
+      "camera": "ARRI Alexa 35",
+      "lens": "50mm spherical f/1.8",
+      "settings": "1/100s, f/1.8, ISO 800",
+      "rendering": "sharp eyes, natural skin texture, controlled satin highlights, creamy bokeh, tungsten-inspired grade, subtle halation and fine grain"
+    },
+    "generated_prompt_string": "A high-end fashion portrait of an adult woman seated in a leather armchair in a dark luxury lounge. She wears a floor-length red satin one-shoulder gown with a structured bodice, has long black side-swept waves, classic natural glam makeup, and a calm elegant smile. Her torso angles gently toward camera, one hand rests on the chair arm and the other near her lap. Surround her with dark wood, black glass, warm amber practical lamps, ornate gold ceiling artwork, and soft distant bokeh. Use a large diffused camera-left key, subtle warm rim light, controlled shadow detail, specular satin highlights, 50mm cinematic realism, natural skin texture, deep blacks, warm ambers, rich crimson, and fine film grain.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, sexualized pose, seductive expression, body-part emphasis, nudity, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-eveningwear-model-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity and hairstyle only."
+        },
+        {
+          "type": "wardrobe",
+          "name": "red-gown-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Match gown color, drape, and fabric only when supplied."
+        },
+        {
+          "type": "location",
+          "name": "luxury-lounge-reference",
+          "required": false,
+          "source": "approved location reference",
+          "usage": "Match seating, lamps, ceiling artwork, and ambience when supplied."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult subject, red satin gown, leather armchair, amber lounge light, and refined mood; replace only approved identity, wardrobe, or location elements."
+    }
+  }
+}

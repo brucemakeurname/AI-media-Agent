@@ -1,0 +1,66 @@
+{
+  "name": "avant-garde-blue-sculpture-swimwear",
+  "tag": ["adult-woman", "identity-reference", "performance-swimwear", "sculptural-water", "avant-garde", "swim-campaign"],
+  "image_type": "avant-garde-sports-fashion-campaign",
+  "image_vibe": "luxurious-sculptural-cinematic",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Replaced unrestricted face-and-body matching with an authorized adult identity reference and clarified the adult subject while preserving the performance swimsuit, sculptural water form, reclining pose, SWIM typography, and campaign composition."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "avant-garde performance swimwear editorial with monumental sculptural water",
+      "color_palette": "aqua, deep teal, black, mirrored silver, and cool studio blue",
+      "aspect_ratio": "2:3"
+    },
+    "main_subject": {
+      "description": "An adult woman matching the authorized identity reference, with a natural athletic build and a confident calm expression.",
+      "wardrobe": "Sleek full-body competitive swimsuit or modern technical swimwear with a hydrodynamic fit, high neckline, full coverage, subtle reflective details, and premium performance materials.",
+      "pose": "Reclining elegantly across a curved suspended water form like a sculptural chaise, torso supported by one arm, the other hand relaxed near the waist, legs extended in a streamlined athletic pose.",
+      "styling": "High-fashion performance styling with refined natural beauty and no visible brand mark unless supplied as part of the approved campaign."
+    },
+    "composition_elements": {
+      "framing": "Vertical editorial composition showing the full water sculpture, adult subject, mirrored floor, and oversized background typography.",
+      "environment": "Minimalist blue studio with a monumental fluid wave or suspended splash structure, glossy mirrored wet floor, and large oversized SWIM text in the background.",
+      "focus": "Sharp authorized adult identity, technical swimwear seams and reflective details, translucent water edges, floor reflection, and legible SWIM typography."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Cinematic studio lighting with sharp highlights on water and fabric, controlled cool rim light, and realistic reflections across the wet mirrored floor.",
+      "atmosphere": "Luxurious, futuristic, athletic, sculptural, and editorial."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with a 50mm lens at f/5.6, 1/250 s, ISO 100",
+      "quality": "Hyper-realistic 8K-quality fashion photography, clean studio perfection, crisp water texture, accurate anatomy, high contrast, and polished commercial finish"
+    },
+    "generated_prompt_string": "Create a hyper-realistic 2:3 avant-garde sports-fashion campaign in a minimalist blue studio. Feature one adult woman matching the authorized identity reference, with a natural athletic build and calm confident expression, reclining elegantly across a monumental curved suspended water form like a sculptural chaise. She wears a sleek full-body competitive swimsuit or modern technical swimwear with a hydrodynamic fit, high neckline, full coverage, subtle reflective details, and premium performance materials. Support her torso with one arm, keep the other hand relaxed near the waist, and extend the legs in a streamlined athletic pose. Add a glossy mirrored wet floor, realistic reflection, sharp water highlights, cool cinematic rim light, and oversized legible SWIM typography in the background. Preserve the clean aqua, deep teal, black, and silver palette with no extra text or watermark.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, exposed anatomy, wardrobe malfunction, illegible text, logo, watermark, distorted water, broken reflections, deformed anatomy, extra limbs, plastic skin",
+    "reference_elements": {
+      "prompt_instructions": "The authorized adult identity reference is required for the face and overall identity; preserve the approved adult consistently without imitating a public figure. Optional swimwear, water sculpture, studio, typography, or lighting references may replace only their named element while preserving full coverage, the reclining athletic pose, and the SWIM campaign intent.",
+      "assets": [
+        {
+          "type": "identity",
+          "name": "authorized-adult-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public figure portrait",
+          "usage": "Preserve the authorized adult's facial identity and natural features in the swimwear campaign."
+        },
+        {
+          "type": "wardrobe",
+          "name": "full-coverage-technical-performance-swimsuit",
+          "required": false,
+          "source": "user-uploaded swimwear reference",
+          "usage": "Replace only the swimsuit materials, seams, and reflective details while preserving athletic full coverage and silhouette."
+        },
+        {
+          "type": "set-design",
+          "name": "sculptural-suspended-water-wave",
+          "required": false,
+          "source": "user-uploaded set reference",
+          "usage": "Replace only the water sculpture shape, floor reflection, and splash geometry while preserving the reclining composition."
+        }
+      ]
+    }
+  }
+}

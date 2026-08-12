@@ -1,0 +1,66 @@
+{
+  "name": "Night Corner Store Film Portrait",
+  "tag": "night-corner-store-film",
+  "image_type": "high_angle_street_portrait",
+  "image_vibe": "quiet_wet_street_analog",
+  "image_purpose": "street_editorial",
+  "group": "indie/enegy-lifestyle/urban-indie",
+  "prompt": {
+    "project_info": {
+      "title": "Night Corner Store Film Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with loose or low-tied slightly messy hair and a calm upward glance.",
+      "wardrobe": "A white crew-neck T-shirt, washed-blue denim jacket, dark straight-leg jeans, plain white canvas sneakers, and a small unbranded tote bag.",
+      "pose_and_expression": "Standing alone at a respectful distance from the entrance, holding an unbranded takeaway cup while adjusting the tote strap."
+    },
+    "composition_elements": {
+      "setting": "A generic late-night corner store viewed from a high upper-floor angle; cool light spills through glass doors onto wet pavement with soft reflections.",
+      "framing": "Full-body portrait with generous negative space and a gently softened storefront background.",
+      "text_and_brand_control": "Store shelves, windows, cup, door decals, and any posters are blank or abstract with no readable text, logos, or brands."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Cool fluorescent interior light mixed with warm street lamps reflecting on wet asphalt.",
+      "mood": "Still, observant, nocturnal, and cinematic without surveillance framing."
+    },
+    "technical_specs": {
+      "camera_style": "35mm analog street editorial",
+      "lens": "50mm equivalent from elevated viewpoint",
+      "rendering": "Slight desaturation, fine film grain, sharp subject, softened background, natural anatomy and realistic rain reflections."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical high-angle 35mm analog street-editorial photograph of an adult woman at night, viewed from an elevated nearby window with a respectful, non-surveillance feel. She wears a white crew-neck T-shirt, washed-blue denim jacket, dark straight-leg jeans, plain white canvas sneakers, and an unbranded tote bag. She stands alone near a generic corner-store entrance, holding an unbranded takeaway cup while adjusting her tote strap and glancing upward calmly. Cool light spills through blank glass doors onto wet pavement, mixing with warm street lamps and soft reflections. Use generous negative space, slight desaturation, fine grain, sharp subject, softened background, natural anatomy, and believable rain reflections. Make every shelf, poster, decal, cup, and door surface blank or abstract: no readable text, logos, or brands.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, lingerie, fetish styling, stalking, surveillance, readable text, logo, branded store, watermark, distorted hands, extra limbs, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity references must show a consenting adult. Replaceable street and storefront references guide composition and lighting only; remove all company branding, text, addresses, and personal details.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general adult face and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "night_corner_store_reference",
+          "required": false,
+          "source": "user-provided streetscape reference",
+          "usage": "Guide wet pavement, windows, and lighting after blanking all signs and labels."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "denim_night_streetwear_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide denim and tote silhouette without visible brand marks."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adult consent, removed unqualified face preservation, prohibited brands and text, and framed the elevated perspective as non-surveillance street editorial."
+  }
+}

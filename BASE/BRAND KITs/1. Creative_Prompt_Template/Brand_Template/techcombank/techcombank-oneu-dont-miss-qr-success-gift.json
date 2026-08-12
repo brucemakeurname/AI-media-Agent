@@ -1,0 +1,70 @@
+{
+  "name": "techcombank-oneu-dont-miss-qr-success-gift",
+  "tag": [
+    "bank-rewards",
+    "payment-success",
+    "gift-popup",
+    "oneu"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "techcombank_27635097622808645",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank OneU QR payment reward reminder",
+      "color_palette": "White, cream, Techcombank red, black"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A clean reward-reminder poster with Techcombank OneU branding. Headline says 'Trieu qua dang cho DUNG DE BO LO' and a red rounded button says 'QUET QR NGAY'. A large smartphone at center shows a payment-success screen with the text 'Chuyen thanh cong VND 300,000', 'Tai khoan VND 260,000', and offers 'Voucher 60K' plus 'U-Point 40K'. Red U-point coins float around. A white gift box with a red ribbon sits on a red pedestal. A white popup card says 'Ban co qua dac biet'. Bottom-right badge says 'Da tang uu dai LOI ICH TOI UU'. The blurred background looks like a bright cafe or home-interior setting.",
+      "style": "Clean banking reward poster with app-screen hero, polished gift-box props, and soft interior depth"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TECHCOMBANK / OneU / Trieu qua dang cho / DUNG DE BO LO / QUET QR NGAY / Chuyen thanh cong / VND 300,000 / Tai khoan / VND 260,000 / Voucher 60K / U-Point 40K / Ban co qua dac biet / Da tang uu dai / LOI ICH TOI UU",
+      "items": [
+        "Top Left: Open white background and empty interior blur",
+        "Top Right: Techcombank OneU logo",
+        "Bottom Left: Wrapped Techcombank gift box on red pedestal",
+        "Bottom Right: White popup card 'Ban co qua dac biet' and the badge 'Da tang uu dai LOI ICH TOI UU'",
+        "Center/Background: Large smartphone with success-payment UI, floating red U-point coins, and a soft blurred cafe/home environment"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright indoor commercial lighting",
+      "effect": "Soft background bokeh, crisp phone screen readability, subtle gift-box shine, clean shadows"
+    },
+    "technical_specs": {
+      "render_style": "Reward-notification poster with app UI compositing and product staging",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank OneU reward reminder. Centerpiece is a large smartphone showing a payment-success interface with the exact text 'Chuyen thanh cong VND 300,000', 'Tai khoan VND 260,000', 'Voucher 60K', and 'U-Point 40K'. Background is a bright softly blurred cafe/home interior. Surrounding elements: Techcombank OneU logo, headline 'Trieu qua dang cho DUNG DE BO LO', red CTA 'QUET QR NGAY', floating red U-point coins, a wrapped gift box on a pedestal, popup card 'Ban co qua dac biet', and the bottom-right badge 'Da tang uu dai LOI ICH TOI UU'. Technical style: reward-notification poster with app UI compositing and product staging, bright indoor commercial lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "ui_reference",
+          "name": "Techcombank payment success screen",
+          "required": true,
+          "source": "original app screenshot or source UI asset",
+          "usage": "Attach for exact transaction wording, layout, iconography, and balance/offer rows"
+        },
+        {
+          "type": "logo",
+          "name": "Techcombank and OneU logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Preserve the top-right lockup and gift branding"
+        },
+        {
+          "type": "text_layout",
+          "name": "Reward reminder poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the exact headline, CTA, popup card, badge, and gift-box placement"
+        }
+      ],
+      "prompt_instructions": "The app screen must remain readable and faithful. This is a banking reward reminder, so keep the neat interior context, floating U-point coins, and exact payment-success wording."
+    }
+  }
+}

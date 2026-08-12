@@ -1,0 +1,19 @@
+{
+  "name": "minimal-gray-glamour-shot",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "gray", "glamour"],
+  "image_type": "minimal glamour studio portrait",
+  "image_vibe": "elegant, controlled, polished, gray-toned",
+  "image_purpose": "fashion lookbook and editorial portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic full-body to three-quarter glamour portrait of one original approved adult woman seated on a gray studio floor against a simple gray backdrop.",
+    "main_subject": "Original approved adult woman with the supplied face, hair, makeup, expression, gaze and natural skin texture preserved. She wears the supplied black sleeveless fitted outfit with a deep V neckline and short skirt, sheer black stockings, black heels, gold bangles and black gloves.",
+    "composition_elements": ["Centered seated floor pose with relaxed elegant legs and full-body to three-quarter framing.", "Simple gray studio backdrop with no distractions and natural contact shadow.", "Preserve supplied outfit, gloves, bangles, face, hair, expression, and quiet glamour direction."],
+    "lighting_and_atmosphere": "Soft diffused studio key light with subtle fill, gentle face and outfit highlights, crisp natural shadows, and even neutral illumination.",
+    "technical_specs": "Photorealistic 4:5 portrait, 50mm lens at f/4, natural background separation, realistic skin pores, textile, stocking and glove texture, subtle grain, neutral gray grade, no text or watermark.",
+    "generated_prompt_string": "Photorealistic professional studio glamour portrait of one original approved adult woman seated on a gray studio floor against a simple gray backdrop. Use the supplied reference to preserve her face, hair, makeup, expression, gaze and natural skin texture. She wears the supplied black sleeveless fitted outfit with a deep V neckline and short skirt, sheer black stockings, black heels, gold bangles and black gloves. Use a relaxed elegant seated pose, full-body to three-quarter framing, soft diffused lighting, subtle contrast, gentle highlights, natural contact shadows, 50mm lens, 4:5 composition, no text or watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "identity drift", "changed outfit", "body-part emphasis", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "extra fingers", "deformed", "text", "logo"],
+    "reference_elements": {"assets": [{"type": "person", "name": "minimal-gray-glamour-shot.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult face, hair, makeup, expression, gaze, pose, and natural skin texture."}, {"type": "wardrobe", "name": "black sleeveless outfit, short skirt, sheer stockings, gloves and heels", "required": true, "source": "local reference image", "usage": "Preserve supplied clothing, fit, stockings, gloves, bangles, and footwear."}, {"type": "background", "name": "simple gray studio backdrop and floor", "required": true, "source": "local reference image", "usage": "Preserve gray background, floor placement, shadows, and minimal setting."}], "prompt_instructions": "Attach all required person, wardrobe, and background references; no optional assets are needed. Keep approved-adult identity, face, hair, outfit, pose, environment, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent supplied wardrobe, or equivalent studio. Typography is not applicable; do not add text, logos, or watermark."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an original approved adult and removed body-detail emphasis while preserving the supplied black outfit, stockings, gloves, seated pose, gray studio, and glamour intent."]}
+}

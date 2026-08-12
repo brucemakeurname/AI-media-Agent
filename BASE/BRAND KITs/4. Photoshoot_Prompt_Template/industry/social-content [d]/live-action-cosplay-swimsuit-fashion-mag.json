@@ -1,0 +1,83 @@
+{
+  "name": "live-action-cosplay-swimsuit-fashion-mag",
+  "tag": [
+    "swimsuit-editorial",
+    "cosplay-fashion",
+    "magazine-spread",
+    "summer-palette",
+    "multi-page-layout"
+  ],
+  "image_type": "fashion-magazine-spread",
+  "image_vibe": "bright-summer-editorial",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Approximately four-page live-action cosplay swimsuit fashion magazine",
+      "creative_direction": "Polished summer magazine layout with varied swimwear styling, resort photography, and restrained editorial typography",
+      "color_palette": "white, lavender, pale blue, coral, tropical green, sand, and soft ocean highlights"
+    },
+    "main_subject": {
+      "type": "clearly adult cosplay fashion model",
+      "detail": "adult model portraying a fictional horned fantasy character with long dark hair and consistent face and costume continuity",
+      "wardrobe": "a variety of tasteful commercially styled swimsuits in different colors, patterns, and shapes, with coordinated accessories",
+      "expression_and_pose": "varied confident, relaxed, thoughtful, and cheerful fashion poses; no sexualized gestures or suggestive facial expressions"
+    },
+    "composition_elements": {
+      "framing": "approximately four-page magazine spread with a cover, feature page, image grid, and resort editorial page",
+      "environment": "bright poolside, beach, and tropical resort settings with clean editorial backgrounds",
+      "layout": "magazine-style catchphrases, titles, small captions, and page numbers; no personal profile section",
+      "effects": "use glitter, grain, and scattered light sparingly only where needed; maintain stable limbs and harmonious page balance"
+    },
+    "lighting_and_atmosphere": {
+      "type": "large soft daylight source at approximately 5600K with subtle reflector fill and controlled pool bounce",
+      "effect": "clean summer highlights, soft shadows, accurate swimsuit color, natural skin texture, and restrained editorial polish"
+    },
+    "technical_specs": {
+      "render_style": "full-frame fashion photography with 50mm and 85mm lenses, art-directed magazine layout",
+      "resolution": "4k multi-page vertical editorial spread",
+      "finish": "high detail with stable anatomy, subtle film grain, controlled sparkle, clean typography, and balanced whitespace"
+    },
+    "generated_prompt_string": "Create an approximately four-page swimsuit fashion magazine featuring a live-action cosplay of a fictional fantasy character as the main subject. Use a clearly adult fashion model with long dark hair, consistent facial structure, and tasteful commercially styled swimsuits in varied colors, patterns, and shapes, with coordinated hairstyles and accessories. Use a wide range of confident, relaxed, thoughtful, and cheerful fashion expressions and poses, avoiding sexualized gestures or suggestive facial expressions. Build a cover, feature spread, image grid, and tropical resort page with magazine-style catchphrases, titles, captions, and page numbers; no personal profile section. Use bright poolside, beach, and tropical settings, restrained glitter and grain only where needed, stable limbs, coherent anatomy, 50mm and 85mm fashion lenses, approximately 5600K daylight, subtle reflector fill, natural skin texture, and a harmonious premium layout.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, suggestive facial expression, lip biting, tongue out, ambiguous age, childlike styling, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed limbs, broken page grid, illegible typography",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-cosplay-model",
+          "required": true,
+          "source": "Original live-action cosplay magazine preview image",
+          "usage": "Attach an approved adult model reference and preserve facial structure and character continuity without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "fictional-horned-fantasy-swimsuit-wardrobe",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the fictional horned character styling and tasteful swimsuit editorial direction; vary colors and patterns only within the stated fashion-magazine concept."
+        },
+        {
+          "type": "location",
+          "name": "tropical-poolside-editorial-settings",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve pool, beach, water, sand, and tropical resort atmosphere; individual locations may be replaced with equivalent cleared settings."
+        },
+        {
+          "type": "text_layout",
+          "name": "summer-fashion-magazine-grid",
+          "required": true,
+          "source": "Original magazine preview image and source prompt",
+          "usage": "Attach to preserve cover hierarchy, multi-page grid, catchphrase placement, captions, and whitespace; replace all names and claims with fictional editorial copy."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult model, cosplay wardrobe, resort settings, and magazine layout references. Keep adult identity, character styling, swimwear continuity, page hierarchy, typography placement, and balanced anatomy consistent. Replace the model, setting, and copy only with approved equivalents, and keep all poses non-sexual and editorial."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the model as clearly adult, removed suggestive facial and pose direction, and reframed the swimsuit concept as a tasteful commercial fashion editorial while preserving the multi-page magazine intent."
+    ]
+  }
+}

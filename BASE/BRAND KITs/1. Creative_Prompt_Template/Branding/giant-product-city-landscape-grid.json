@@ -1,0 +1,75 @@
+{
+    "name":  "giant-product-city-landscape-grid",
+    "tag":  [
+                "branding",
+                "brand story",
+                "giant product",
+                "cityscape",
+                "surreal CGI",
+                "landscape integration"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Brand story",
+    "group":  "branding_giant_product",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Monumental products integrated into real places",
+                                        "color_palette":  "Natural sky blue, landscape green, product-specific brand colors"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A four-panel CGI grid that turns familiar branded products into monumental architecture or landmarks: Lipton bottle at a coast, Head \u0026 Shoulders bottle waterfall, Nike shoes as city plaza monument, and giant earbuds above a futuristic city.",
+                                        "style":  "Surreal-but-believable architectural product integration"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Product/Location/Logo/Slogan",
+                                                "text":  "REFRESH YOUR WORLD; CONFIDENCE FLOWS; DEFY GRAVITY; ECHOES OF TOMORROW",
+                                                "items":  [
+                                                              "Upper left: giant tea bottle integrated with coastal park terraces.",
+                                                              "Upper right: shampoo bottle forms waterfall over an alpine valley.",
+                                                              "Lower left: fluorescent sneakers stand on a city monument plinth.",
+                                                              "Lower right: oversized white earbuds rise from a futuristic reflecting plaza."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "High-Kelvin sunlight and cinematic environment light",
+                                                   "effect":  "Neutral HDR daylight, natural contact shadows, believable reflections, clear atmospheric depth"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "HDR 8K DSLR-quality ultra-real CGI",
+                                           "resolution":  "2:3 vertical format"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "exact branded product",
+                                                                 "required":  true,
+                                                                 "source":  "approved product reference",
+                                                                 "usage":  "Keep the product packaging, scale cues, logo, and material behavior accurate."
+                                                             },
+                                                             {
+                                                                 "type":  "location",
+                                                                 "name":  "environment reference",
+                                                                 "required":  false,
+                                                                 "source":  "licensed location image or art direction board",
+                                                                 "usage":  "Anchor the landscape/city architecture and regional cues."
+                                                             },
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "official logo and slogan",
+                                                                 "required":  true,
+                                                                 "source":  "official brand assets",
+                                                                 "usage":  "Place only approved marks and wording."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach product and logo references; attach location reference only when recreating a specific place.",
+                                                                          "Integrate the object as a monumental structure while retaining the true product design.",
+                                                                          "Avoid accidental location trademarks and unlicensed signage."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Ultra-realistic CGI shot of a giant [PRODUCT NAME HERE], seamlessly integrated into a matching real-world environment that reflects the product’s identity, surrounded by context-specific city or nature elements, cinematic composition with natural shadows and photorealistic reflections, high Kelvin sunlight for neutral lighting, captured in HDR 8K DSLR quality, surreal yet believable visual integration, brand logo clearly visible, slogan dynamically adapted to the product’s character, dramatic and immersive atmosphere, aspect ratio 2:3",
+                   "negative_prompt":  "miniature product, implausible integration, wrong packaging, distorted logo, artificial landscape, muddy reflections, low resolution, watermark"
+               }
+}

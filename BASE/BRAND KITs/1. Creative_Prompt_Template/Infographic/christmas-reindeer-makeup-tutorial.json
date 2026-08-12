@@ -1,0 +1,75 @@
+{
+    "name":  "christmas-reindeer-makeup-tutorial",
+    "tag":  [
+                "Christmas makeup",
+                "beauty tutorial",
+                "social story",
+                "reindeer makeup",
+                "creator UI"
+            ],
+    "biz_niche":  "Beauty & Personal Care",
+    "content_format":  "Tutorials",
+    "group":  "infographic_beauty_tutorial",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Christmas reindeer-girl makeup tutorial",
+                                        "color_palette":  "Soft pink gradient, red-brown, gold glitter, white, lipstick red"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Person and makeup tutorial",
+                                        "detail":  "An Asian beauty creator in a plush reindeer-antler headband wears red-brown eyeshadow, gold glitter, white deer freckles, and red lips; red leader lines identify five makeup zones.",
+                                        "style":  "High-definition commercial beauty portrait combined with vertical social-story UI"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Portrait, before/after comparison, steps, and UI",
+                                                "text":  "圣诞妆容教程; 麋鹿少女妆 甜酷风; 1.眼影; 2.金色闪片; 3.睫毛; 4.鹿系腮红; 5.饱满红唇; 素颜; 完妆; 上滑看完整教程; 点击查看同款产品",
+                                                "items":  [
+                                                              "Top: large Chinese title with lipstick icon and subtitle.",
+                                                              "Center: finished makeup portrait on pink gradient with five red annotation arrows at right.",
+                                                              "Middle lower: rounded before/after split with dotted scissors connector.",
+                                                              "Lower: five rounded close-up step tiles numbered 1 through 5.",
+                                                              "Footer: swipe CTA, product button, like and bookmark icons."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft bright beauty studio lighting",
+                                                   "effect":  "Smooth realistic skin, visible makeup texture, pastel glossy social-commerce UI"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Photoreal beauty campaign plus mobile UI composition",
+                                           "resolution":  "4k resolution, highly detailed, 9:16 vertical"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "beauty creator likeness",
+                                                                 "required":  true,
+                                                                 "source":  "licensed uploaded reference image",
+                                                                 "usage":  "Replicate identity only with documented permission; otherwise use a non-identifiable model matching styling."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "Chinese makeup labels and story UI",
+                                                                 "required":  true,
+                                                                 "source":  "source preview and approved Chinese copy",
+                                                                 "usage":  "Preserve five labels, before/after logic, and bottom step rail; proofread all Chinese."
+                                                             },
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "cosmetic products",
+                                                                 "required":  false,
+                                                                 "source":  "approved product packshots",
+                                                                 "usage":  "Use only if the CTA must map to real purchasable products."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach a licensed face reference only where likeness use is authorized.",
+                                                                          "Keep five numbered facial callouts strictly aligned with five lower close-up steps.",
+                                                                          "Typeset Chinese copy and CTA labels after render for reliable legibility."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "竖屏社交媒体故事设计 (9:16 宽高比)，美妆博主圣诞妆容教程界面。背景为柔和的高级感粉色渐变，营造甜美梦幻氛围。核心视觉：人物一致性（最高权重）：画面中央展示一位亚洲女性美妆博主，面部特征、五官及发型必须严格、完美地复刻上传的参考图片人物。妆容与配饰：极度精致的“圣诞麋鹿甜酷妆”。眼妆为红棕色晕染，面部有白色小鹿斑点，头戴毛绒驯鹿角发箍。红笔标记与步骤对应（逻辑核心）：在右侧完妆人物的面部，使用醒目的红色墨水笔引出5条指示线，分别指向妆容的5个关键部位，并按顺序标注中文：1. 眼影；2. 金色闪片；3. 睫毛；4. 鹿系腮红；5. 饱满红唇。排版布局：顶部：中文标题“圣诞妆容教程”，搭配口红图标。副标题“麋鹿少女妆 甜酷风”。中部（对比区）：左右分屏设计。左侧为该人物“素颜”，右侧为“完妆”。中间用虚线和剪刀图标连接。下部（强关联步骤预览区）：设置横向滑动的圆角卡片栏，展示5个与面部标记严格对应的步骤图：卡片1：眼部涂抹眼影的特写；卡片2：用手指点缀金色闪片的特写；卡片3：夹睫毛或刷睫毛的特写；卡片4：面颊扫腮红和画鹿斑的特写；卡片5：涂抹红色口红的嘴唇特写。每张卡片左上角需清晰标注数字1-5，与面部红笔标记的序号呼应。底部（互动区）：“上滑看完整教程”箭头，“点击查看同款产品”按钮，点赞与收藏图标。风格：高清商业摄影质感结合UI设计，光影通透，色彩鲜艳，肤质细腻真实，时尚杂志排版风格。 --ar 9:16",
+                   "negative_prompt":  "unlicensed likeness, incorrect number of steps, garbled Chinese, mismatched callouts, flat skin, cluttered UI, low resolution, watermark, signature"
+               }
+}

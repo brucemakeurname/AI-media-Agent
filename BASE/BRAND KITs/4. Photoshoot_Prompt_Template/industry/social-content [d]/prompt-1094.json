@@ -1,0 +1,83 @@
+{
+  "name": "prompt-1094",
+  "tag": [
+    "browser-window-composite",
+    "red-evening-gown",
+    "segmented-portrait",
+    "mobile-ui-frame",
+    "studio-editorial"
+  ],
+  "image_type": "ui-layered-fashion-portrait",
+  "image_vibe": "polished-digital-editorial",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Adult fashion portrait segmented by stacked fictional mobile browser windows",
+      "creative_direction": "Hybrid composition combining a realistic studio photograph, deep volumetric lighting, and clean flat UI graphics",
+      "color_palette": "rich red satin, neutral white, dark charcoal matte UI, soft skin tones, and subtle gray interface accents"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "approved adult fashion model with natural facial texture and direct camera gaze",
+      "wardrobe": "elegant red satin evening gown with gathered bodice, matching draped sleeve, and small black evening clutch with fictional floral detail",
+      "pose": "full-body centered portrait with graceful fluid posture, one hand near the collarbone, and head and feet fully within frame"
+    },
+    "composition_elements": {
+      "framing": "straight eye-level full-body view, 50mm-equivalent proportions, vertically segmented into four overlapping white browser windows",
+      "ui_layer": "photographic image sits beneath four clean white rectangular mobile-browser elements, each slightly angled and containing fictional sample text such as sample.social/portrait; outside windows is solid uniform charcoal gray with no light bleed",
+      "interface": "clean top bars with close icons and fictional URL text, plus visible bottom controls labeled Private, plus, and Done in generic UI",
+      "segmentation": "each window reveals a different section of the same adult subject while preserving exact face, outfit, body proportions, and continuity"
+    },
+    "lighting_and_atmosphere": {
+      "type": "volumetric soft directional studio source at approximately 4800K with controlled side fill",
+      "effect": "deep realistic shadows and fabric folds on the subject, crisp separation from a flat white backdrop, and subtle screen-capture grain"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 50mm lens, photoreal studio fashion image under flat digital UI overlay",
+      "resolution": "4k vertical social composite",
+      "finish": "natural skin texture, rich satin detail, clean segmentation, consistent charcoal UI color, and restrained contrast"
+    },
+    "generated_prompt_string": "Create a full-body, centered portrait of a clearly adult woman with an approved fictional adult face reference, standing against a seamless pure high-key white studio backdrop and staring directly at the camera. Dress her in an elegant red satin evening gown with a gathered bodice, matching draped sleeve, and a small black evening clutch with fictional floral detail. Light her with volumetric studio lighting that creates deep definitions, realistic shadows, and strong three-dimensional quality on her body and fabric folds while keeping the background completely flat and shadowless. Digitally layer the entire photographic image beneath four distinct clean white rectangular mobile browser windows stacked vertically and angled slightly, segmenting the subject. Each window bar contains sharp fictional text such as sample.social/portrait. The area outside the active windows is a solid uniform dark charcoal gray matte UI frame with no light bleed or gradients. Add clean generic controls Private, plus, and Done at the bottom. Use a straight eye-level 50mm-equivalent view, ensure head and feet remain within the frame, preserve exact adult identity and outfit continuity, and add subtle digital noise to mimic a screen capture. Do not use real platform URLs, logos, handles, or public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, celebrity likeness, real social URL, real platform logo, real handle, watermark, floor shadows, flat subject lighting, 2D look, inconsistent UI color, bleeding colors, HDR, oversharpened, plastic skin, extra fingers, deformed hands, broken window segmentation, illegible UI text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-red-gown-model",
+          "required": true,
+          "source": "Original segmented portrait preview image",
+          "usage": "Attach an approved adult face reference and preserve facial structure, identity, body proportions, and likeness across every browser window; never use a celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "red-satin-evening-gown-clutch",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve red satin construction, gathered bodice, draped sleeve, and clutch; wardrobe continuity must survive every segmented crop."
+        },
+        {
+          "type": "ui_reference",
+          "name": "fictional-stacked-mobile-browser-windows",
+          "required": true,
+          "source": "Original UI composite preview image and source prompt",
+          "usage": "Attach to preserve four angled white windows, charcoal matte frame, controls, segmentation, and typography hierarchy; replace the real platform URL and handle with fictional cleared UI text."
+        },
+        {
+          "type": "background",
+          "name": "flat-high-key-white-studio",
+          "required": true,
+          "source": "Original studio concept and source prompt",
+          "usage": "Attach to preserve the flat white backdrop and absence of floor shadows; background may be replaced only with an equivalent seamless high-key studio."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult model, exact gown, fictional UI, and studio references. Keep identity, outfit, full-body proportions, four-window geometry, charcoal matte frame, controls, and subject-only volumetric lighting consistent. Replace real URLs, social handles, logos, and public-figure identity with fictional cleared equivalents."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the recognizable public-figure likeness and real Instagram URL with an approved fictional adult model and fictional browser UI while preserving the stacked-window fashion composite."
+    ]
+  }
+}

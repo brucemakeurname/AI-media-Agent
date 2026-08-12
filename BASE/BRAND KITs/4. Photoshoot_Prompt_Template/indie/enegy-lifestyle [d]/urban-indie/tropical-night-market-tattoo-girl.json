@@ -1,0 +1,66 @@
+{
+  "name": "Tropical Fruit Market Street Portrait",
+  "tag": "tropical-fruit-market-streetwear",
+  "image_type": "night_market_street_portrait",
+  "image_vibe": "vibrant_tropical_urban",
+  "image_purpose": "streetwear_editorial",
+  "group": "indie/enegy-lifestyle/urban-indie",
+  "prompt": {
+    "project_info": {
+      "title": "Tropical Fruit Market Street Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with visible arm tattoos, blonde hair tucked under a white patterned bandana, small oval glasses, and a calm expression.",
+      "wardrobe": "A white short-sleeve high-neck blouse, relaxed pink athletic trousers without lettering, simple gold-toned jewelry, and a large plain quilted tote bag.",
+      "pose_and_expression": "Holding a fruit skewer and a clear container of cut fruit while standing at a market stall."
+    },
+    "composition_elements": {
+      "setting": "Vibrant outdoor tropical fruit market at night, with colorful pineapple, mango, citrus, and dragon fruit in unmarked crates.",
+      "framing": "Medium vertical street-style portrait at eye level with fruit texture filling the background.",
+      "text_and_brand_control": "No brand on clothing or tote, no tattoo text, no stall labels, no price boards, and no readable signage."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Bright practical market fixtures balanced with warm cinematic fill.",
+      "mood": "Vibrant, casual, confident, and food-centric."
+    },
+    "technical_specs": {
+      "camera_style": "35mm DSLR street photography",
+      "lens": "35mm equivalent",
+      "rendering": "Natural skin, detailed fruit, accurate hands, moderate grain, and clean anatomy."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical photoreal 35mm street-style portrait of an adult woman with visible arm tattoos, blonde hair under a white patterned bandana, small oval glasses, and a calm expression. She wears a white short-sleeve high-neck blouse, relaxed pink athletic trousers without lettering, simple gold-toned jewelry, and a large plain quilted tote. She holds a fruit skewer and a clear container of cut fruit at a vibrant outdoor tropical night market. Fill the background with pineapple, mango, citrus, and dragon fruit in unmarked crates. Use bright practical market fixtures with warm cinematic fill, eye-level medium framing, natural skin, detailed fruit, accurate hands, moderate grain, and clean anatomy. No brand marks, tattoo text, stall labels, price boards, logos, readable signs, or text.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, lingerie, fetish styling, strapless top, branded athletic shorts, tattoo text, logo, readable sign, watermark, distorted hands, extra fingers, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Any identity reference must depict a consenting adult. Tattoo, wardrobe, fruit, and market references are replaceable; abstract all lettering, labels, price tags, and brands.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general adult facial, hair, and tattoo placement traits only."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "tropical_market_streetwear_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide covered blouse, trousers, bandana, and tote silhouette without labels."
+        },
+        {
+          "type": "environment_reference",
+          "name": "tropical_fruit_market_reference",
+          "required": false,
+          "source": "user-provided market reference",
+          "usage": "Guide fruit colors and lighting while removing all price and vendor text."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adult subject, replaced revealing branded clothing with covered unbranded styling, and removed readable tattoo, stall, and product text."
+  }
+}

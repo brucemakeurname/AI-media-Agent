@@ -1,0 +1,27 @@
+{
+  "name": "prompt-990",
+  "tag": ["high-fashion", "black-dress", "studio", "multi-pose", "grid-collage"],
+  "image_type": "fashion-collage",
+  "image_vibe": "polished-editorial",
+  "image_purpose": "lookbook",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Realistic high-fashion studio photo collage showing one consistent approved adult model in six to eight distinct editorial poses.",
+    "main_subject": "One original approved adult woman with natural proportions, light skin tone, delicate oval face, expressive eyes, calm confident expression and long black hair in a messy bun with loose strands. Preserve approved-adult facial structure across frames.",
+    "composition_elements": "Vertical fashion collage with evenly spaced images. Include standing front-facing full body with blazer hanging from the arms; standing back-facing with head turned and blazer on shoulders; semi-crouch with one leg forward; seated on a black chair with legs crossed and blazer off one shoulder; seated low with knees bent and blazer on one arm; and a relaxed half-body portrait. Fixed wardrobe: black strapless mini dress, sheer black thigh-high stockings, pointed black stiletto heels, formal black blazer styled differently across poses and thin black choker.",
+    "lighting_and_atmosphere": "Clean white seamless studio background with soft high-key light from a large softbox in front and slightly to the side, soft shadows beneath the subject and even illumination revealing fabric, skin and shoe texture.",
+    "technical_specs": "High-end fashion editorial, professional studio photography, ultra-high definition, sharp focus, natural skin texture, realistic shadows, accurate anatomy, no lens distortion, 9:16 aspect ratio.",
+    "generated_prompt_string": "Create a realistic high-fashion studio photo collage featuring one original approved adult woman in six to eight different poses, preserving her approved-adult facial structure consistently across all frames. She has natural proportions, a delicate oval face, expressive eyes, a calm confident expression and long black hair styled in a messy bun with loose strands. Outfit: black strapless mini dress, sheer black thigh-high stockings, pointed-toe black stiletto heels, formal black blazer worn in different ways across poses and a thin black choker necklace. Include a standing front-facing full body pose with blazer hanging off the arms, a standing back-facing pose with head turned and blazer on the shoulders, a semi-crouching pose with one leg forward, a seated pose on a black chair with legs crossed and blazer off one shoulder, a seated low pose with knees bent and blazer on one arm only, and a relaxed half-body portrait. Use a clean white seamless studio background, soft high-key lighting from a large softbox placed in front and slightly to the side, soft shadows beneath the subject, even light showing fabric texture, natural skin detail and shoe shine. Use high-end fashion editorial photography, ultra-high definition, sharp focus, realistic shadows, accurate anatomy, no lens distortion, evenly spaced vertical collage layout and 9:16 aspect ratio.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, nudity, child, teen, fetish framing, identity drift, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, inconsistent clothing, lens distortion, unreadable text",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "prompt-990.jpg", "required": true, "source": "local reference image", "usage": "Attach for the original approved-adult face, facial structure, hair, expression and consistent identity across all collage frames."},
+        {"type": "wardrobe", "name": "black strapless dress, sheer stockings, black blazer and pointed heels", "required": true, "source": "local reference image", "usage": "Preserve supplied wardrobe, materials, colors, fit and blazer styling variations; replace only with equivalent supplied pieces."},
+        {"type": "accessory", "name": "thin black choker", "required": true, "source": "local reference image", "usage": "Preserve supplied choker shape and placement across frames."},
+        {"type": "background", "name": "white seamless studio background and black chair", "required": true, "source": "local reference image", "usage": "Preserve the seamless environment, chair, spacing and neutral studio setting."}
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, accessory and background references; no optional assets are needed. Keep approved-adult identity, outfit, pose set, chair, environment, lighting and typography consistent. Replace only with an equivalent approved adult, supplied wardrobe or studio prop. Typography is not applicable; do not invent text, logos or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced exact identity locking with an original approved adult and retained the supplied fashion silhouette while clarifying neutral editorial pose direction and safe adult context."]}
+}

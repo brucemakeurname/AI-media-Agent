@@ -1,0 +1,70 @@
+{
+  "name": "toyota-carefully-designed-space-moments-together",
+  "tag": [
+    "interior",
+    "space",
+    "sunroof",
+    "lifestyle"
+  ],
+  "biz_niche": "Automotive",
+  "content_format": "Brand story",
+  "group": "toyota_772097929294720",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota interior space designed for complete moments together",
+      "color_palette": "White, charcoal, soft blue, black"
+    },
+    "main_subject": {
+      "type": "Person/Object/Text",
+      "detail": "A split-layout lifestyle poster. The left half is a clean white panel with the text 'Khong gian duoc tinh chon de moi khoanh khac ben nhau them tron ven' separated by a thin vertical line, and a dark rounded badge for 'them tron ven'. The right half shows a real interior photo from the back seat of a Toyota, with a male driver on a sunny residential street. The panoramic glass roof is visible above, the Toyota logo sits at top right, and the center screen shows a navigation map and media UI. The driver smiles in the rear-view mirror.",
+      "style": "Minimal premium interior-lifestyle poster with editorial split composition and realistic cabin photography"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "Khong gian duoc tinh chon / de moi khoanh khac ben nhau / them tron ven / TOYOTA",
+      "items": [
+        "Top Left: Large white space with the first half of the slogan",
+        "Top Right: Toyota logo over the right-side interior photo",
+        "Bottom Left: Dark rounded text pill containing 'them tron ven'",
+        "Bottom Right: Real Toyota interior with driver, center display, and steering wheel",
+        "Center/Background: Vertical split between a minimalist text panel and an in-cabin lifestyle photograph with panoramic roof"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Natural interior lifestyle lighting",
+      "effect": "Sunlight through glass roof, calm editorial contrast, soft leather texture visibility"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal interior lifestyle campaign image with minimalist layout design",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota interior lifestyle story about carefully designed space. Centerpiece is a split composition with a white text panel on the left and a real cabin photo on the right showing a male driver, panoramic roof, steering wheel, navigation screen, and sunny street ahead. Background is intentionally minimal with strong white space and editorial balance. Surrounding elements: Toyota logo and the exact Vietnamese line 'Khong gian duoc tinh chon de moi khoanh khac ben nhau them tron ven'. Technical style: photoreal interior lifestyle campaign image with minimalist layout design, natural interior lighting, soft sunlight and visible leather texture, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "ui_reference",
+          "name": "Toyota dashboard and center-screen interior reference",
+          "required": true,
+          "source": "source interior photo",
+          "usage": "Preserve the exact cabin perspective, screen layout, and steering wheel details"
+        },
+        {
+          "type": "person",
+          "name": "Male driver lifestyle reference",
+          "required": true,
+          "source": "source photo or this creative",
+          "usage": "Keep the over-shoulder viewpoint and smiling rear-view-mirror reflection"
+        },
+        {
+          "type": "text_layout",
+          "name": "Split-layout interior slogan composition",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the left white text column, vertical separator, and right photo balance"
+        }
+      ],
+      "prompt_instructions": "Do not turn this into a full-bleed car ad. The split layout with large white space is essential to the premium editorial feel."
+    }
+  }
+}

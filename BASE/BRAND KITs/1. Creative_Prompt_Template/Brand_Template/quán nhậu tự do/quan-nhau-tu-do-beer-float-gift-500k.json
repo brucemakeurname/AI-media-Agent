@@ -1,0 +1,70 @@
+{
+  "name": "quan-nhau-tu-do-beer-float-gift-500k",
+  "tag": [
+    "gift-with-purchase",
+    "beer-promo",
+    "summer-gift",
+    "restaurant-offer"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "quan-nhau-tu-do_1631891518938543",
+  "prompt": {
+    "project_info": {
+      "theme": "Quán Nhậu Tự Do summer beer float gift promotion",
+      "color_palette": "Dark green, yellow-orange, white, beer gold, skin tones"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "Summer promotional poster with a giant frosty beer glass set inside a branded green float ring, next to a cheerful group of four friends at a dining table, advertising a free float gift for bills over 500K.",
+      "style": "Photorealistic lifestyle and product composite, playful summer restaurant campaign"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "PHẢI ĐÃ VỀ BỂ / XUỐNG BƠI THÔI ANH EM! / Chỉ 3000 chiếc phao trên toàn hệ thống / Chiếc cốc sủi được anh em chờ nhất đã quay trở lại 15 bể bơi bia hơi của Tự Do / Áp dụng đến 17/7 - 22/7 / Không áp dụng đồng thời các CTKM khác / Áp dụng toàn bộ cơ sở Quán Nhậu Tự Do / Áp dụng đến khi hết quà / ĐỦ 500K NHẬN NGAY 1 PHAO / Hotline: *1986 | Website: quannhautudo.com",
+      "items": [
+        "Top Left: Quán Nhậu Tự Do logo over dark green background.",
+        "Top Right: Sticker-cutout group of four young adults cheering with beer mugs at a dining table in front of a blurred venue facade.",
+        "Bottom Left: Rule row with four icon bullets including the date range '17/7 - 22/7'.",
+        "Bottom Right: Large orange offer block reading 'ĐỦ 500K NHẬN NGAY 1 PHAO'.",
+        "Center/Background: Giant yellow-and-white headline 'PHẢI ĐÃ VỀ BỂ', green product box, circular badge 'Chỉ 3000 chiếc phao trên toàn hệ thống', and a massive beer glass inside a branded green float ring labeled 'TỰ DO'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright commercial lifestyle lighting",
+      "effect": "Glossy beer highlights, playful summer energy, clean offer readability, warm nightlife backdrop"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic lifestyle advertising compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Quán Nhậu Tự Do summer beer float gift promotion. Centerpiece is a giant frosty beer glass placed inside a branded green float ring, next to a group of four friends eating and drinking at a table. Background is a dark green summer campaign layout with a blurred venue facade behind the group. Surrounding elements: huge headline 'PHẢI ĐÃ VỀ BỂ', orange ribbon 'XUỐNG BƠI THÔI ANH EM!', circular note 'Chỉ 3000 chiếc phao trên toàn hệ thống', rule row including 'Áp dụng đến 17/7 - 22/7', and bottom-right offer 'ĐỦ 500K NHẬN NGAY 1 PHAO'. Technical style: photorealistic lifestyle advertising compositing, bright commercial lifestyle lighting, glossy beer highlights and clean offer readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "group of four friends at dining table",
+          "required": true,
+          "source": "original lifestyle cutout",
+          "usage": "Preserve faces, poses, beer mugs, and dining setup."
+        },
+        {
+          "type": "product",
+          "name": "beer float ring, beer glass, and green gift box",
+          "required": true,
+          "source": "original campaign product assets",
+          "usage": "Keep the exact float-ring branding, beer foam shape, and box styling."
+        },
+        {
+          "type": "text_layout",
+          "name": "headline, offer box, and rule row",
+          "required": true,
+          "source": "original creative",
+          "usage": "Preserve exact wording, date range, and orange offer block."
+        }
+      ],
+      "prompt_instructions": "Use refs for the float gift, the friend group, and the full text layout. The oversized beer-float visual and the 500K offer block should dominate the right half of the poster."
+    }
+  }
+}

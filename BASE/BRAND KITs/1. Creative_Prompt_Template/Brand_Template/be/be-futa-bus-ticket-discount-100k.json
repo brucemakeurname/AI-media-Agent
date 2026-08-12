@@ -1,0 +1,55 @@
+{
+  "name": "be-futa-bus-ticket-discount-100k",
+  "tag": ["futa", "bus ticket", "100k discount", "travel promo", "partnership"],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Special offers",
+  "group": "be_5351111258446770",
+  "prompt": {
+    "project_info": {
+      "theme": "FUTA bus-ticket partnership discount",
+      "color_palette": "Bright yellow, red, green, black, white"
+    },
+    "main_subject": {
+      "type": "Text/Object/Character",
+      "detail": "A bright co-branded travel promotion poster for be and FUTA Bus Lines featuring a big discount headline, two stretching characters in the foreground, and a large red FUTA coach bus parked to the right over a glowing city backdrop.",
+      "style": "Travel partnership promo poster, hybrid bus-photo and mascot illustration"
+    },
+    "composition_elements": {
+      "type": "Typography/Characters/Vehicle/City Background",
+      "text": "be, FUTA Bus Lines, CHẤT LƯỢNG LÀ DANH DỰ, Đặt vé FUTA trên be, giảm đến 100K, Nhận combo ưu đãi đến 2 triệu đồng, DEAL",
+      "items": [
+        "Top Center: be and FUTA Bus Lines logos.",
+        "Upper Middle: large red text 'Đặt vé FUTA trên be'.",
+        "Center: dark green rectangle with white text 'giảm đến 100K'.",
+        "Below: black text 'Nhận combo ưu đãi đến 2 triệu đồng'.",
+        "Upper corners: two ticket-shape props each reading 'DEAL'.",
+        "Bottom Left: illustrated be mascot and a male office worker both stretching their arms overhead.",
+        "Bottom Right: large red FUTA coach bus with visible route-company branding.",
+        "Background: glowing yellow rays with city skyline silhouettes."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright commercial promo lighting",
+      "effect": "Travel-offer excitement, warm radial glow, crisp bus showcase"
+    },
+    "technical_specs": {
+      "render_style": "Hybrid travel promotion poster with photo bus and illustrated characters",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "logo", "name": "be and FUTA Bus Lines logos", "required": true, "source": "source image logo references", "usage": "Preserve the top brand lockup and the bus-side branding."},
+        {"type": "product", "name": "red FUTA coach bus", "required": true, "source": "source image vehicle reference", "usage": "Keep the exact bus angle, body color, and route markings."},
+        {"type": "graphic", "name": "stretching mascot and office worker", "required": true, "source": "source image character reference", "usage": "Preserve the side-by-side stretching pose and clothing colors."},
+        {"type": "text_layout", "name": "100K discount headline system", "required": true, "source": "source image text reference", "usage": "Keep the exact wording, green discount block, and the DEAL ticket props."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the bus scale, stretching pose, and overall headline composition.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the yellow radial-glow travel-promo look."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square be x FUTA Bus Lines travel promotion poster with a bright yellow radial-glow city background. Place the be and FUTA Bus Lines logos at the top center. Add large red text 'Đặt vé FUTA trên be', then a dark green rectangle with white text 'giảm đến 100K', and below it black text 'Nhận combo ưu đãi đến 2 triệu đồng'. Add two ticket props reading 'DEAL' near the upper corners. At the bottom left, show an illustrated be mascot and a male office worker stretching their arms overhead. At the bottom right, place a large red FUTA coach bus with visible route branding. Technical style: hybrid travel promotion poster with photo bus and illustrated characters, bright commercial promo lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark scene, incorrect logos, wrong bus branding, blurry text, low resolution, distorted bus, cluttered layout, watermark, signature"
+  }
+}

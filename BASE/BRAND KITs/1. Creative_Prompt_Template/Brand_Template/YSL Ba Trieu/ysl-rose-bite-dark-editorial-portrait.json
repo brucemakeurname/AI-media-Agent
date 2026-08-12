@@ -1,0 +1,71 @@
+{
+  "name": "ysl-rose-bite-dark-editorial-portrait",
+  "tag": [
+    "ysl",
+    "rose",
+    "dark-editorial",
+    "beauty-portrait",
+    "moody"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Brand story",
+  "group": "ysl_1414771820687525",
+  "prompt": {
+    "project_info": {
+      "theme": "Moody floral editorial portrait",
+      "color_palette": "Black sheer fabric, muted peach rose, deep burgundy lips, olive green leaves, low-key skin tones"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A tightly cropped moody portrait shows the lower half of a woman's face in a black sheer top, holding a pale peach rose upright so the bloom touches her slightly parted dark burgundy lips while one finger with glossy red nail polish rests on the stem.",
+      "style": "Dark romantic beauty editorial, cinematic floral portrait, intimate fashion photography"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "",
+      "items": [
+        "Top Left: Dark blurred floral background with low ambient detail",
+        "Top Right: Lower half of the face with dewy skin and deep burgundy lips",
+        "Bottom Left: Rose leaves and stem emerging from the lower frame",
+        "Bottom Right: Finger with glossy red nail polish touching the stem",
+        "Center/Background: Pale peach rose bloom centered against the model's lips and sheer black clothing"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Low-key editorial lighting",
+      "effect": "Cinematic shadows, dewy skin highlights, soft floral texture, intimate romantic darkness"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal fashion-editorial portrait photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square dark romantic beauty-editorial portrait. Centerpiece is a tight crop of the lower half of a woman's face in sheer black clothing, holding a pale peach rose upright so the flower touches her slightly parted deep burgundy lips, with one finger showing glossy red nail polish touching the stem. Background is dark and softly blurred with subtle floral hints. Technical style: photoreal fashion-editorial portrait photography, low-key editorial lighting, cinematic shadows and dewy skin highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Female lower-face portrait reference",
+          "required": true,
+          "source": "original editorial portrait",
+          "usage": "Preserve the lower-face crop, lip shape, skin texture, and hand placement"
+        },
+        {
+          "type": "graphic",
+          "name": "Pale peach rose reference",
+          "required": true,
+          "source": "original floral prop reference",
+          "usage": "Match the bloom size, petal color, and position against the lips"
+        },
+        {
+          "type": "accessory",
+          "name": "Sheer black garment styling",
+          "required": true,
+          "source": "original wardrobe reference",
+          "usage": "Keep the translucent dark fabric and moody romantic styling"
+        }
+      ],
+      "prompt_instructions": "Do not turn this into a bright beauty ad. The fidelity depends on the low-key mood, the exact lip-to-rose contact point, and the intimate crop that excludes most of the face."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "gym-girl-exhaustion-after-deadlift",
+  "tag": ["ugc", "casual-everyday", "sporty-active", "public-indoor", "weightlifting", "recovery"],
+  "image_type": "post-workout-gym-scene",
+  "image_vibe": "exhausted-determined-real",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/sporty-active/public-indoor",
+  "prompt": {
+    "project_info": "Create a realistic post-workout gym scene showing an approved adult woman resting face down after intense strength training.",
+    "main_subject": "An approved adult woman lying face down on a gym platform floor, wearing a dark long-sleeve athletic top, black shorts, and fingerless workout gloves. Her posture communicates physical exhaustion with determined recovery.",
+    "composition_elements": "Top-down or angled view of the subject on black rubber flooring, with a barbell carrying green weight plates, a dumbbell, and a pair of glasses visible nearby.",
+    "lighting_and_atmosphere": "Realistic indoor fitness-center lighting, grounded documentary mood, authentic workout fatigue, accurate equipment and flooring texture.",
+    "technical_specs": "Photorealistic digital photography, vertical composition, sharp equipment and clothing detail, natural perspective, realistic hands and anatomy.",
+    "generated_prompt_string": "Create a realistic photorealistic gym photograph of an approved adult woman lying face down on a gym platform after an intense strength-training session. She wears a dark long-sleeve athletic top, black shorts, and fingerless workout gloves. Place a barbell with green weight plates, a dumbbell, and a pair of glasses nearby on black rubber gym flooring. Use natural indoor fitness-center lighting, accurate equipment, realistic anatomy and fabric texture, and an exhausted-but-determined documentary mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, malformed weights",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-post-workout-subject", "required": true, "source": "gym-girl-exhaustion-after-deadlift.jpg", "usage": "Preserve adult identity, face direction, recovery pose, and athletic state."},
+        {"type": "wardrobe", "name": "dark-long-sleeve-black-shorts-gloves", "required": true, "source": "gym-girl-exhaustion-after-deadlift.jpg", "usage": "Keep top, shorts, and gloves consistent; replace only with explicit wardrobe references."},
+        {"type": "equipment", "name": "barbell-green-plates-dumbbell-glasses", "required": true, "source": "gym-girl-exhaustion-after-deadlift.jpg", "usage": "Preserve equipment types, green plates, dumbbell, glasses, and placement; replace only with explicit prop references."},
+        {"type": "location", "name": "rubber-floor-fitness-center", "required": true, "source": "gym-girl-exhaustion-after-deadlift.jpg", "usage": "Maintain gym platform and rubber flooring; replace only with explicit location references."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, equipment, and location references when exact consistency is required. Keep adult identity, outfit, equipment/product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the observed recovery scene.", "Added safe negative prompts and structured equipment references."]}
+}

@@ -1,0 +1,64 @@
+{
+  "name": "vfe-france-2026-most-hiring-sectors",
+  "tag": [
+    "vfe",
+    "france-2026",
+    "jobs",
+    "sectors",
+    "infographic"
+  ],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Infographics",
+  "group": "vfe_975903028661511",
+  "prompt": {
+    "project_info": {
+      "theme": "Most in-demand hiring sectors in France in 2026",
+      "color_palette": "French Red, Deep Navy, White, Light Gray"
+    },
+    "main_subject": {
+      "type": "Text",
+      "detail": "A bold job-market infographic showing the top sectors hiring most in France in 2026, set on a red-and-navy starburst background with a large white table card listing sectors and the number of openings.",
+      "style": "Energetic labor-market infographic with patriotic French color blocking, large headline type, and clean tabular rows."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nNHỮNG LĨNH VỰC ĐANG TUYỂN DỤNG NHIỀU NHẤT TẠI PHÁP NĂM 2026\nLĨNH VỰC\nSỐ VỊ TRÍ\n1. Y tế, Công tác xã hội, DV chăm sóc cá nhân 322 000\n2. Khách sạn - Nhà hàng 319 000\n3. Thương mại - Bán lẻ 264 000\n4. Công nghiệp 211 000\n5. Nông nghiệp 193 000\n6. Khu vực công 143 000\n7. Xây dựng & Công trình công cộng 118 000\n8. Vận tải & Logistics 94 000\n9. Công nghệ số 84 000\n*Nguồn: France Travail\n(Khảo sát nhu cầu tuyển dụng BMO 2026)",
+      "items": [
+        "Top Left: VFE logo in rounded white corner.",
+        "Top Right: White uppercase headline across navy radial background and a red rounded pill 'SỐ VỊ TRÍ'.",
+        "Bottom Left: Source note '*Nguồn: France Travail (Khảo sát nhu cầu tuyển dụng BMO 2026)'.",
+        "Bottom Right: Final row for 'Công nghệ số 84 000'.",
+        "Center/Background: Large rounded white table card with alternating light gray rows and red numeric totals."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat promotional infographic lighting",
+      "effect": "Crisp contrast, saturated red-blue burst background, clean card edges, and strong table readability."
+    },
+    "technical_specs": {
+      "render_style": "Graphic labor-market infographic poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality labor-market infographic poster for France 2026. Centerpiece is a large rounded white table listing the sectors hiring most in France in 2026, with a red-and-navy burst background, VFE logo, and two header pills for 'LĨNH VỰC' and 'SỐ VỊ TRÍ'. Surrounding elements: top headline 'NHỮNG LĨNH VỰC ĐANG TUYỂN DỤNG NHIỀU NHẤT TẠI PHÁP NĂM 2026', ranked sector rows with red totals, and source note from France Travail BMO 2026. Technical style: graphic labor-market infographic poster, flat promotional infographic lighting, crisp contrast and table readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place top left in the white rounded box."
+        },
+        {
+          "type": "text_layout",
+          "name": "Hiring sectors table layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve the full ranked list, source note, and red numerical totals."
+        }
+      ],
+      "prompt_instructions": "Keep the French-market employment tone authoritative and data-led. Preserve the exact source attribution and 2026 wording."
+    }
+  }
+}

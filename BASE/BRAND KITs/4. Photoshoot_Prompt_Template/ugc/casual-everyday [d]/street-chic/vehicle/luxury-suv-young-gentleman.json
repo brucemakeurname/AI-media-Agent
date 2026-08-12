@@ -1,0 +1,19 @@
+{
+  "name": "luxury-suv-young-gentleman",
+  "tag": "ugc",
+  "image_type": "photograph",
+  "image_vibe": "sophisticated luxury automotive",
+  "image_purpose": "automotive lifestyle social portrait",
+  "group": "casual-everyday/street-chic/vehicle",
+  "prompt": {
+    "project_info": "Editorial luxury automotive lifestyle portrait inside a premium SUV.",
+    "main_subject": "One generic approved young adult man with styled wavy brown hair and short beard, calm confident expression, seated in the driver's seat wearing a black coat and black leather driving gloves; one gloved hand on the steering wheel and the other relaxed near the console.",
+    "composition_elements": "Vertical 3:4 asymmetric medium portrait from the passenger side, face left-of-center, steering wheel and glove as secondary focal points, cream quilted leather interior, wood trim, panoramic roof, forest and sky visible outside.",
+    "lighting_and_atmosphere": "Bright directional natural light from windows and roof, dramatic soft shadows, preserved highlights, sophisticated calm polished luxury mood.",
+    "technical_specs": "Realistic sharp digital photography, tack-sharp subject, medium depth of field, high-contrast black, pine-green, sky-blue, and warm-tan palette.",
+    "generated_prompt_string": "Create a vertical 3:4 photorealistic luxury automotive lifestyle portrait of one generic approved young adult man with wavy brown hair and short beard seated in a premium SUV, wearing a black coat and leather driving gloves, one hand on the steering wheel, cream quilted interior, wood trim, panoramic roof, forest landscape outside, bright natural directional light and refined shadows.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized styling, nudity, minors, celebrity likeness, public figure likeness, distorted anatomy, extra fingers, malformed steering wheel or hands, visible brand logos, watermark, logo overlay",
+    "reference_elements": {"assets": [{"type": "image", "name": "luxury-suv-young-gentleman.jpg", "required": true, "source": "local", "usage": "Match adult subject, driving pose, gloves, premium SUV interior, framing, landscape, and light."}], "prompt_instructions": "Attach the required reference image. Preserve identity, pose, outfit, vehicle interior, composition, and lighting. Vehicle brand and logos are replaceable; use a premium generic SUV and avoid visible trademarks or celebrity likeness."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Normalized schema and replaced brand-specific lock-in with replaceable vehicle guidance."]}
+}

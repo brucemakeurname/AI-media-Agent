@@ -1,0 +1,27 @@
+{
+  "name": "green-street-redhead-cyclist",
+  "tag": ["ugc", "casual-everyday", "sporty-active", "outdoor-urban", "cycling", "red-hair"],
+  "image_type": "outdoor-cycling-portrait",
+  "image_vibe": "peaceful-fresh-confident",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/sporty-active/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic outdoor lifestyle portrait of an approved adult red-haired woman cycling through a quiet suburban street.",
+    "main_subject": "An approved adult woman with red hair tied back, fair freckled skin, and a calm confident expression. She sits upright facing forward with both hands on the handlebars and wears a simple fitted red sleeveless one-piece outfit.",
+    "composition_elements": "Centered eye-level portrait on a classic bright yellow city bicycle. Include a single-story light house, trimmed bushes, tall trees, stone boundary wall, concrete pavement, and smooth asphalt road.",
+    "lighting_and_atmosphere": "Natural daytime light with a peaceful, confident, fresh suburban mood and realistic hair, skin, fabric, bicycle, and greenery texture.",
+    "technical_specs": "Photorealistic digital photograph, centered symmetrical framing, eye-level perspective, 4:5 vertical composition, sharp subject, natural color palette with red, yellow, green, blue, grey, and white.",
+    "generated_prompt_string": "Create a photorealistic 4:5 outdoor lifestyle portrait of an approved adult red-haired woman with fair freckled skin cycling a bright yellow classic city bicycle along a quiet suburban street. Tie her red hair back, give her a calm confident expression, and show her seated upright facing forward with both hands on the handlebars. Dress her in a simple fitted red sleeveless one-piece outfit. Center the subject at eye level with a light single-story house, trimmed bushes, tall trees, stone boundary wall, concrete pavement, and asphalt road behind her. Use natural daytime light, realistic textures, peaceful fresh mood, and balanced symmetrical framing.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, malformed bicycle",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-red-haired-cyclist", "required": true, "source": "green-street-redhead-cyclist.jpg", "usage": "Preserve adult identity, tied-back red hair, freckles, expression, and upright cycling pose."},
+        {"type": "wardrobe", "name": "red-sleeveless-one-piece", "required": true, "source": "green-street-redhead-cyclist.jpg", "usage": "Keep the red fitted one-piece and styling consistent; replace only with explicit wardrobe references."},
+        {"type": "prop", "name": "bright-yellow-city-bicycle", "required": true, "source": "green-street-redhead-cyclist.jpg", "usage": "Maintain bicycle color, classic form, handlebars, and contact pose; replace only with explicit prop references."},
+        {"type": "location", "name": "quiet-green-suburban-street", "required": true, "source": "green-street-redhead-cyclist.jpg", "usage": "Preserve house, bushes, trees, stone wall, pavement, and daylight; replace only with explicit location references."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, prop, and location references when exact consistency is required. Keep adult identity, outfit, bicycle/product, environment, and any typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult while preserving the cycling concept and observed details.", "Added safe negative prompts and structured replaceable references."]}
+}

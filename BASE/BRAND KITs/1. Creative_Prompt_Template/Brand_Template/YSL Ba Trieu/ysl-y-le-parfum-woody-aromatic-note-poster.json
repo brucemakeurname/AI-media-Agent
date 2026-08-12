@@ -1,0 +1,71 @@
+{
+  "name": "ysl-y-le-parfum-woody-aromatic-note-poster",
+  "tag": [
+    "ysl",
+    "y-le-parfum",
+    "woody-aromatic",
+    "fragrance-notes",
+    "poster"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Infographics",
+  "group": "ysl_1319098113672385",
+  "prompt": {
+    "project_info": {
+      "theme": "Fragrance note poster for Y Le Parfum",
+      "color_palette": "Midnight blue, black, deep brown wood, cool green pine, white"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A Y Le Parfum bottle lies diagonally over a dark natural set made of rugged wood bark and dense pine needles. Top text reads 'Y LE PARFUM' and 'CHẤT TÔI ĐIỀM TĨNH, TIÊN PHONG'. Additional callouts read 'TRẦM ẤM NHỰA THÔNG', 'TƯƠI MÁT PHONG LỮ', 'TRÀN ĐẦY NĂNG LƯỢNG LÁ KIM', and 'DA THỊT HOẮC HƯƠNG'.",
+      "style": "Luxury fragrance note poster, dark aromatic still life, editorial ingredient storytelling"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "Y LE PARFUM, CHẤT TÔI ĐIỀM TĨNH, TIÊN PHONG, TRẦM ẤM NHỰA THÔNG, TƯƠI MÁT PHONG LỮ, TRÀN ĐẦY NĂNG LƯỢNG LÁ KIM, DA THỊT HOẮC HƯƠNG",
+      "items": [
+        "Top Left: Vertical YSL BEAUTE logo in white",
+        "Top Right: White product-title block and note callout 'TƯƠI MÁT PHONG LỮ'",
+        "Bottom Left: White ingredient callouts over rugged bark and dark background",
+        "Bottom Right: Dense pine needle cluster with the note callout 'TRÀN ĐẦY NĂNG LƯỢNG LÁ KIM'",
+        "Center/Background: Diagonally placed dark blue Y Le Parfum bottle over bark textures and pine foliage"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Moody directional studio lighting",
+      "effect": "Cool highlights on lacquered glass, tactile bark textures, deep shadow pockets, nocturnal masculine mood"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal fragrance-note advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square fragrance-note poster for YSL. Centerpiece is a dark Y Le Parfum bottle laid diagonally across rugged bark and dense pine foliage. Include the exact text 'Y LE PARFUM', 'CHẤT TÔI ĐIỀM TĨNH, TIÊN PHONG', 'TRẦM ẤM NHỰA THÔNG', 'TƯƠI MÁT PHONG LỮ', 'TRÀN ĐẦY NĂNG LƯỢNG LÁ KIM', and 'DA THỊT HOẮC HƯƠNG', plus the vertical YSL BEAUTE logo on the upper left. Technical style: photoreal fragrance-note advertising composite, moody directional studio lighting, tactile wood-and-pine texture and cool glass highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Y Le Parfum bottle",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Preserve bottle geometry, blue-black lacquer tone, and silver Y-band detail"
+        },
+        {
+          "type": "graphic",
+          "name": "Wood bark and pine foliage set",
+          "required": true,
+          "source": "original natural set reference",
+          "usage": "Match the bark grain, pine density, and diagonal set composition"
+        },
+        {
+          "type": "text_layout",
+          "name": "Fragrance-note callout layout",
+          "required": true,
+          "source": "original poster layout",
+          "usage": "Keep the note words distributed around the bottle exactly as a scent-story map"
+        }
+      ],
+      "prompt_instructions": "This is a fragrance-note storytelling poster, not a plain packshot. Keep the diagonal bottle placement and the natural-material callouts tightly tied to the product."
+    }
+  }
+}

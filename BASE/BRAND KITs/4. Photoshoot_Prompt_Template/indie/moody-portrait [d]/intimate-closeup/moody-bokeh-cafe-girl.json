@@ -1,0 +1,41 @@
+{
+  "name": "moody-bokeh-cafe-girl",
+  "tag": ["adult-woman", "platinum-blonde", "coffee-cup", "cafe", "bokeh", "35mm-film"],
+  "image_type": "cinematic-cafe-portrait",
+  "image_vibe": "melancholic, mysterious, moody, arthouse",
+  "image_purpose": "editorial, moodboard, instagram-feed",
+  "group": "indie / moody-portrait / intimate-closeup",
+  "prompt": {
+    "project_info": {
+      "theme": "Moody bokeh cafe coffee-cup portrait",
+      "format": "vertical 2:3 close-up",
+      "color_palette": "warm brown, cream white, platinum blonde, deep charcoal"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with long platinum-blonde hair and thick straight fringe bangs, pale skin, intense dark eye makeup with heavy eyeliner and mascara, and a direct enigmatic gaze. She wears a dark-brown textured oversized sweater and holds a white ceramic coffee cup with both hands.",
+      "style": "photorealistic cinematic film-still portrait"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": ["close-up looking over the rim of a white ceramic coffee cup", "both hands wrap around the cup", "dim cozy cafe in warm brown tones", "soft bokeh lights in the background", "shallow depth of field"]
+    },
+    "lighting_and_atmosphere": {
+      "type": "dim warm cafe practicals, approximately 3000K",
+      "effect": "soft bokeh, low-key facial modeling, gentle shadow",
+      "atmosphere": "melancholic, mysterious, intimate, arthouse"
+    },
+    "technical_specs": {
+      "render_style": "35mm film still, 50mm lens at f/1.8",
+      "resolution": "high-detail vertical portrait",
+      "color_treatment": "arthouse warm-brown film grade, visible fine grain, natural skin texture"
+    },
+    "generated_prompt_string": "Close-up portrait of an adult woman with long platinum-blonde hair and thick straight fringe bangs, pale skin, intense dark eye makeup with heavy eyeliner and mascara, and an enigmatic direct gaze looking over the rim of a white ceramic coffee cup she holds with both hands. She wears a dark-brown textured oversized sweater. Place her in a moody dimly lit cozy cafe with warm brown tones and soft bokeh lights. Create a cinematic 35mm film still with a melancholic mysterious atmosphere, realistic skin texture, shallow depth of field, and an arthouse movie color grade.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, cartoon, anime, blurry, low quality, extra limbs, deformed face, bright lighting, smiling, happy expression, modern clothing, colorful background, overexposed, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark",
+    "reference_elements": {
+      "prompt_instructions": "The source style-and-pose image is required. Optional approved-adult face and wardrobe references may be attached; preserve adult identity, platinum bangs, coffee-cup placement, oversized sweater, close crop, cafe bokeh, and film mood. The cafe may be replaced only with another dim warm cafe.",
+      "assets": [{"type":"moodboard","name":"moody-bokeh-cafe-style-reference","required":true,"source":"source preview or user attachment","usage":"Preserve composition, cup placement, cafe bokeh, warm-brown palette, and 35mm film mood."}]
+    }
+  },
+  "policy_review": {"status":"remediated","changes":["Changed age-ambiguous young-woman wording to adult woman.","Replaced sexualized gaze and lip wording with an enigmatic direct gaze while preserving the close coffee-cup composition and moody cafe intent."]}
+}

@@ -1,0 +1,70 @@
+{
+  "name": "toyota-engine-spa-coolant-super-durable",
+  "tag": [
+    "coolant",
+    "aftermarket",
+    "engine-care",
+    "spa-metaphor"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "toyota_2071456923757056",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota coolant as a premium engine spa treatment",
+      "color_palette": "Tropical blue, warm beige, black, chrome silver, sunset gold"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A playful premium product poster with a tropical spa setting labeled 'TOYOTA ENGINE SPA'. On a cushioned spa bed sits a detailed Toyota engine wearing black sunglasses and topped with a folded white towel. Beside it stands a large black coolant bottle labeled 'Nuoc Lam Mat Sieu Ben', with Toyota Motor Vietnam branding and a 3.785 l capacity marking. Main headline reads 'GIU Mat DONG CO HIEU SUAT BEN LAU'. A small benefit plaque lists 'BAO VE TOI UU', 'VAN HANH EM AI', and 'KEO DAI TUOI THO'. Bottom-right script says 'Move your world'.",
+      "style": "Whimsical premium-maintenance poster combining photoreal engine hardware with spa-resort styling and product-packshot clarity"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA ENGINE SPA / GIU Mat DONG CO / HIEU SUAT BEN LAU / Nuoc Lam Mat Sieu Ben / BAO VE TOI UU / VAN HANH EM AI / KEO DAI TUOI THO / Move your world",
+      "items": [
+        "Top Left: Lit 'TOYOTA ENGINE SPA' sign on a wood-textured spa wall",
+        "Top Right: Tropical seascape and sunset sky behind the product bottle",
+        "Bottom Left: Benefit plaque with three maintenance claims beside a spa drink and folded towels",
+        "Bottom Right: Large black coolant bottle and handwritten 'Move your world'",
+        "Center/Background: Toyota engine posed like a spa guest on a cushioned massage bed with sunglasses and towel"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm resort-commercial lighting",
+      "effect": "Sunset reflections, polished metallic engine shine, tropical relaxation mood with humorous product staging"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal product-concept composite with premium advertising retouching",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota coolant maintenance product styled like a premium engine spa. Centerpiece is a detailed Toyota engine resting on a spa bed, wearing sunglasses and a folded towel, with a large black coolant bottle labeled 'Nuoc Lam Mat Sieu Ben' beside it. Background is a tropical spa-resort environment with ocean view and warm sunset light. Surrounding elements: lit sign 'TOYOTA ENGINE SPA', exact headline 'GIU Mat DONG CO HIEU SUAT BEN LAU', benefit plaque 'BAO VE TOI UU', 'VAN HANH EM AI', 'KEO DAI TUOI THO', and footer script 'Move your world'. Technical style: photoreal product-concept composite with premium advertising retouching, warm resort-commercial lighting, polished metallic shine and tropical relaxation mood, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Toyota engine block and coolant bottle references",
+          "required": true,
+          "source": "official engine photo/render and product packshot",
+          "usage": "Preserve the exact engine detail, coolant label, and bottle shape"
+        },
+        {
+          "type": "background",
+          "name": "Tropical spa set with ocean view",
+          "required": true,
+          "source": "campaign concept background or spa references",
+          "usage": "Maintain the humorous premium-spa metaphor without losing product clarity"
+        },
+        {
+          "type": "text_layout",
+          "name": "Engine spa poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the sign left, engine center, coolant right, and benefit plaque lower-left"
+        }
+      ],
+      "prompt_instructions": "Do not remove the sunglasses and towel; they are central to the spa metaphor. The coolant bottle label should stay readable and product-packshot accurate."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "noir-street-coat-model",
+  "tag": [
+    "adult-man",
+    "black-coat",
+    "rainy-night",
+    "wrought-iron-railing",
+    "monochrome-noir"
+  ],
+  "image_type": "rainy-night-menswear-portrait",
+  "image_vibe": "enigmatic-cinematic-noir",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Converted the first-person image instruction into a required approved adult non-public-figure identity reference while preserving the rainy monochrome street, raised collar, glasses, railing, and enigmatic editorial mood."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "high-fashion black-and-white rainy-night street portrait",
+      "color_palette": "deep black, charcoal, wet silver highlights, and soft white bokeh",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult man matching the required approved adult non-public-figure identity reference, with tousled wind-swept dark hair, light stubble, natural skin texture, and rectangular dark eyeglasses.",
+      "wardrobe": "Tailored black coat with the collar slightly raised and matte wool texture.",
+      "pose": "Leaning against a wrought-iron railing on an empty wet cobblestone street, one hand in a coat pocket and eyes focused forward with quiet confidence."
+    },
+    "composition_elements": {
+      "framing": "Vertical three-quarter portrait with the subject on the right third and wet street perspective opening behind him.",
+      "environment": "Rainy empty cobblestone street at night with soft lamp bokeh, old facades, and no readable text or logos.",
+      "focus": "Sharp eyes behind glasses, raised collar, coat texture, railing detail, rain streaks, and wet pavement reflections."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Strong side lighting with controlled highlights on glasses, hair, collar, and wet pavement, deep soft shadows, and practical street-light bokeh.",
+      "atmosphere": "Enigmatic, confident, cinematic, moody, and noir-inspired."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with a 50mm lens at f/2.0, 1/125 s, ISO 800",
+      "quality": "Photorealistic neutral monochrome, realistic rain and fabric texture, shallow depth of field, subtle film grain, and natural proportions"
+    },
+    "generated_prompt_string": "Create a photorealistic 4:5 high-fashion black-and-white rainy-night street portrait of an adult man matching the required approved adult non-public-figure identity reference. He has tousled wind-swept dark hair, light stubble, natural skin texture, and rectangular dark eyeglasses. He wears a tailored black wool coat with the collar slightly raised, leans against a wrought-iron railing on an empty wet cobblestone street, keeps one hand in a coat pocket, and looks forward with quiet confidence. Use strong side lighting, controlled highlights on glasses, hair, collar, and wet pavement, deep soft shadows, practical street-light bokeh, realistic rain streaks, a 50mm lens at f/2.0, subtle film grain, and no readable text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, celebrity likeness, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, distorted glasses, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "The required approved adult identity reference must be attached and used only to preserve adult facial identity and facial structure. Optional coat, glasses, railing, street, or lighting references may replace only their named element; preserve the rainy monochrome noir composition and remove text or logos.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Match adult facial identity, structure, hairline, and stubble only; do not imitate a celebrity or blend faces."
+        },
+        {
+          "type": "wardrobe",
+          "name": "tailored-black-raised-collar-coat",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the coat fabric, cut, and collar while preserving its dark tailored silhouette."
+        },
+        {
+          "type": "accessory",
+          "name": "rectangular-dark-eyeglasses",
+          "required": false,
+          "source": "user-uploaded eyewear reference",
+          "usage": "Replace only the glasses frame and reflective character while preserving clear eyes."
+        },
+        {
+          "type": "location",
+          "name": "rainy-cobblestone-noir-street",
+          "required": false,
+          "source": "user-uploaded location reference",
+          "usage": "Replace only the street, railing, facades, and wet-night ambience; remove readable text."
+        }
+      ]
+    }
+  }
+}

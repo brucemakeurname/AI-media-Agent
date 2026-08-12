@@ -1,0 +1,59 @@
+{
+  "name": "Vaporwave Forest Mirror Editorial",
+  "tag": "vaporwave-forest-mirror-editorial",
+  "image_type": "conceptual_forest_mirror_portrait",
+  "image_vibe": "sunlit_vaporwave_fitness",
+  "image_purpose": "creative_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Vaporwave Forest Mirror Editorial",
+      "format": "single still photograph",
+      "aspect_ratio": "16:9 landscape"
+    },
+    "main_subject": {
+      "description": "An adult woman with long wavy blonde hair and a joyful laughing expression.",
+      "wardrobe": "A sleeveless pale-gray athletic tunic over full-length charcoal leggings and plain white ankle socks.",
+      "pose_and_expression": "Standing in relaxed side profile beside an arched floor mirror, turning her shoulders lightly toward her reflection."
+    },
+    "composition_elements": {
+      "setting": "Sunlit forest clearing with a large arched mirror, soft pink-blue vaporwave color accents, and an abstract ring-shaped light prop above the mirror.",
+      "framing": "Wide eye-level full-body landscape shot showing both subject and reflection.",
+      "text_and_brand_control": "No swimwear, body emphasis, phone, logo, text, watermark, or glossy-plastic skin."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Direct dappled sun with controlled highlights and soft shadow detail.",
+      "mood": "Joyful, relaxed, surreal, and editorial."
+    },
+    "technical_specs": {
+      "camera_style": "vintage instant-film-inspired editorial",
+      "lens": "35mm equivalent",
+      "rendering": "Light grain, natural skin texture, accurate mirror reflection, realistic limbs, vibrant but controlled pink-blue accents."
+    },
+    "generated_prompt_string": "Create a 16:9 wide vintage instant-film-inspired editorial in a sunlit forest clearing. Feature an adult woman with long wavy blonde hair and a joyful laughing expression, wearing a sleeveless pale-gray athletic tunic over full-length charcoal leggings and plain white ankle socks. She stands in relaxed side profile beside a large arched floor mirror, turning her shoulders lightly toward her reflection. Add subtle pink-blue vaporwave color accents and an abstract ring-shaped light prop above the mirror. Use eye-level full-body framing, direct dappled sun, controlled highlights, light grain, natural skin, accurate reflection, realistic limbs, and vibrant but controlled color. No swimwear, body emphasis, phone, logo, readable text, watermark, or glossy-plastic skin.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, swimwear, booty focus, lingerie, logo, readable text, watermark, distorted reflection, extra limbs, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional and replaceable. Any identity reference must show a consenting adult; mirror, forest, light, and wardrobe guides must exclude brands and text.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult facial and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "forest_mirror_reference",
+          "required": false,
+          "source": "user-provided set reference",
+          "usage": "Guide forest, mirror, and ring-light placement."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Replaced body-focused swimwear direction with covered activewear and prohibited sexualized framing."
+  }
+}

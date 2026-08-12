@@ -1,0 +1,75 @@
+{
+  "name": "cinematic-low-angle-luxury-staircase-fashion",
+  "tag": [
+    "adult-woman",
+    "sequin-dress",
+    "grand-staircase",
+    "low-angle",
+    "luxury-editorial"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "glamorous-moody-nostalgic",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/luxury-editorial",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named-celebrity likeness, latex microdress, body-part emphasis, and extreme worm's-eye framing with an original adult model, covered sequin dress, and balanced low-angle editorial composition."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "cinematic luxury fashion on a historic grand staircase",
+      "color_palette": "pale aqua, antique brass, warm brick, charcoal, and ivory",
+      "format": "vertical 9:16 full-length editorial portrait"
+    },
+    "main_subject": {
+      "description": "an original adult woman with long straight platinum-blonde hair, natural porcelain-toned skin, and a pale-aqua sequin sleeveless knee-length dress with ivory pointed-toe heels",
+      "pose_and_expression": "standing poised on the staircase, one foot on a lower step, one hand near her face and the other holding a small crystal-beaded handbag, calm confident gaze"
+    },
+    "composition_elements": {
+      "camera_angle": "refined low-angle full-length portrait from the lower stairs, without exaggerated perspective",
+      "foreground": "polished stone stair treads with subtle reflections",
+      "background": "ornate historic staircase, converging brick walls, metal railings, and softly blurred upper landings",
+      "visual_hierarchy": "adult subject face and pale-aqua dress, staircase geometry, then warm architectural depth"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "soft warm ambient overhead light with gentle fill and controlled highlights on sequins",
+      "atmosphere": "glamorous, moody, nostalgic, and cinematic"
+    },
+    "technical_specs": {
+      "camera": "Leica SL2-S",
+      "lens": "35mm f/2",
+      "settings": "1/160s, f/2.4, ISO 640",
+      "rendering": "natural skin texture, accurate sequin and metal reflections, warm filmic contrast, subtle fine grain"
+    },
+    "generated_prompt_string": "Cinematic luxury fashion editorial on a grand historic staircase. An original adult woman with long straight platinum-blonde hair stands poised on polished stone steps, wearing a pale-aqua sequin sleeveless knee-length dress, ivory pointed-toe heels, minimal silver jewelry, and a small crystal-beaded handbag. One foot rests on a lower step, one hand comes gently near her face, and she meets camera with a calm confident gaze. Shoot a vertical full-length portrait from a refined low angle that preserves natural proportions. Include ornate stair railings, converging brick walls, softly blurred upper landings, and warm ambient architectural light. Use realistic skin texture, controlled sequin reflections, natural anatomy, gentle film grain, and moody high-end editorial color.",
+    "negative_prompt": "minor, celebrity likeness, named-person likeness, explicit, nsfw, overly revealing, latex, microdress, sexualized pose, body-part emphasis, nudity, extreme perspective distortion, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-model-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity only; do not imitate a named public figure."
+        },
+        {
+          "type": "wardrobe",
+          "name": "sequin-dress-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Match dress texture, color, and accessory details while keeping coverage appropriate."
+        },
+        {
+          "type": "location",
+          "name": "staircase-reference",
+          "required": false,
+          "source": "approved location reference",
+          "usage": "Match the staircase architecture and railings when supplied."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the original adult, grand staircase, pale-aqua sparkle, warm light, and low-angle luxury mood; replace only approved identity, wardrobe, or architecture elements."
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "name": "golden-koi-bathroom-beauty",
+  "tag": [
+    "adult-woman",
+    "koi-robe",
+    "bathroom",
+    "warm-lamps",
+    "mirror",
+    "cinematic"
+  ],
+  "image_type": "cinematic-bathroom-portrait",
+  "image_vibe": "pensive-warm-luxurious",
+  "image_purpose": "editorial",
+  "group": "indie/analog-vintage",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed named public-figure identities and retained a generic adult woman with the same wardrobe, lighting, and bathroom concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "pensive adult woman in embroidered robe in a warm low-lit bathroom",
+      "color_palette": "black satin, koi gold, floral red, amber lamp light, deep navy shadow",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "A generic adult woman with a feminine silhouette, slightly damp loose blonde hair, a pensive off-camera gaze, and a fully opaque black satin wrap robe embroidered with gold koi fish and red floral motifs, holding a clear tumbler.",
+      "style": "warm cinematic bathroom portrait, not a public-figure likeness"
+    },
+    "composition_elements": {
+      "text": "No rendered text, logo, or watermark.",
+      "items": [
+        "waist-up adult woman before a bathroom mirror and vanity",
+        "clear tumbler held in both hands",
+        "black satin robe with gold koi and floral embroidery",
+        "visible reflection in mirror",
+        "warm wall sconces and dark bathroom panels"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "warm practical wall sconces at approximately 2700K with soft amber mirror fill",
+      "effect": "one-sided facial sculpting, amber light gently shaping shoulders and chest area through the robe, rich satin highlights, and intimate late-night stillness"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera, 85mm lens at f/2, low-light film grain, shallow depth, rich warm color response",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Create a cinematic low-light bathroom portrait of a generic adult woman, not a public-figure likeness. She has a feminine silhouette, slightly damp loose blonde hair, and a pensive off-camera gaze, wearing the same fully opaque black satin wrap robe embroidered with gold koi fish and red flowers. She holds a clear tumbler with both hands in front of a bathroom vanity and mirror, with her reflection visible behind her. Use warm practical wall sconces and amber mirror fill to gently shape her shoulders and chest area through the robe, with dark bathroom panels, amber satin highlights, soft one-sided facial light, a full-frame 85mm lens at f/2, subtle film grain, and a warm luxurious editorial mood. No text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, celebrity, public figure, recognizable real-person likeness, text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "black-koi-embroidered-robe-reference",
+          "required": false,
+          "source": "Attach wardrobe reference when exact embroidered motifs, fabric sheen, or robe cut must match.",
+          "usage": "Keep opaque black satin with koi-and-floral embroidery; wardrobe may be replaced."
+        },
+        {
+          "type": "location",
+          "name": "warm-bathroom-mirror-reference",
+          "required": false,
+          "source": "Attach interior reference when exact vanity, mirror, or sconce layout is required.",
+          "usage": "Keep warm bathroom and reflection relationship; location may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve a generic adult woman, opaque black embroidered koi robe, clear tumbler, warm sconces, and mirror reflection. Do not use a public-figure likeness. Wardrobe and bathroom may be replaced independently."
+    }
+  }
+}

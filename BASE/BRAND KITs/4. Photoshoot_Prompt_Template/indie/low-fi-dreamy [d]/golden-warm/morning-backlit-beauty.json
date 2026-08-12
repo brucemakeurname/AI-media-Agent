@@ -1,0 +1,26 @@
+{
+  "name": "morning-backlit-beauty",
+  "tag": ["adult-woman", "bedroom-portrait", "morning-light", "backlit", "asian-subject", "vertical"],
+  "image_type": "editorial-portrait",
+  "image_vibe": "quiet-morning",
+  "image_purpose": "moodboard",
+  "group": "indie/low-fi-dreamy/golden-warm",
+  "prompt": {
+    "project_info": "A tranquil morning interior portrait with a quiet window silhouette and unpolished domestic detail.",
+    "main_subject": "An adult East Asian woman with shoulder-length dark hair and understated natural features, seated beside a bed with wrinkled white sheets. She wears a loose white silk long-sleeve sleep shirt and looks toward the window in profile.",
+    "composition_elements": "Vertical waist-up portrait from the bedside, subject positioned left of a bright window, bed linen filling the lower foreground, warm plain walls, and no text, logos, or branded objects.",
+    "lighting_and_atmosphere": "Soft morning backlight from the window at approximately 4800K outlines the hair and covered shoulder silhouette. Keep natural pores, quiet shadow detail, real sheet creases, and gentle film grain.",
+    "technical_specs": "Sony A7R V with a 35mm f/1.4 lens, vertical 3:4 crop, realistic sharpness with soft window highlight roll-off, lifted blacks, subtle chromatic aberration, and natural film grain.",
+    "generated_prompt_string": "Realistic morning portrait of an adult East Asian woman with shoulder-length dark hair, seated beside a bed with wrinkled white sheets in a softly lit room. She wears a loose white silk long-sleeve sleep shirt and looks out the window in profile. Soft morning light outlines her hair and covered silhouette with a gentle backlit glow, natural unretouched skin texture, tranquil private atmosphere, warm walls, vertical framing, realistic film grain, no text or branding.",
+    "negative_prompt": "explicit, nsfw, overly revealing, lingerie, sexualized pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers, deformed hands",
+    "reference_elements": {
+      "prompt_instructions": "Attach an approved adult identity reference only for likeness continuity. Keep the covered white silk sleep shirt, seated bedside placement, wrinkled sheets, and window backlight consistent; identity, room, and bedding may be replaced with approved references.",
+      "assets": [
+        {"type": "person", "name": "approved-adult-identity-reference", "required": false, "source": "attach when likeness is required", "usage": "Preserve adult facial likeness and dark hair without copying a public figure."},
+        {"type": "wardrobe", "name": "white-silk-sleep-shirt-reference", "required": false, "source": "attach when wardrobe continuity is required", "usage": "Keep a covered loose white silk silhouette."},
+        {"type": "background", "name": "morning-bedroom-window-reference", "required": false, "source": "attach when the room must match", "usage": "Preserve the window direction and rumpled white bedding; exclude text and logos."}
+      ]
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Made the subject explicitly adult.", "Removed idol-comparison wording.", "Replaced the camisole nightgown and bare-shoulder focus with a covered sleep shirt."]}
+}

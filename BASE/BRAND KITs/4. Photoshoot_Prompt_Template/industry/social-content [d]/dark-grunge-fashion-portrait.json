@@ -1,0 +1,76 @@
+{
+  "name": "dark-grunge-fashion-portrait",
+  "tag": [
+    "dark-grunge",
+    "collage-portrait",
+    "black-shirt",
+    "beige-trousers",
+    "white-outline-glow"
+  ],
+  "image_type": "editorial-portrait",
+  "image_vibe": "dark-grunge-collage",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Dark grunge fashion portrait in an illustrated collage",
+      "creative_direction": "High-fashion portrait integrated with monochrome collage fragments and a soft white outline glow",
+      "color_palette": "charcoal black, off-white, muted gray, light beige, and restrained black-and-white collage tones"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "stylish adult woman with voluminous natural curly hair, calm direct gaze, one hand resting against her face, and the other hand in a pocket",
+      "wardrobe": "loose black button-up shirt and light beige trousers",
+      "pose": "relaxed standing fashion pose with a self-possessed expression"
+    },
+    "composition_elements": {
+      "framing": "vertical centered portrait with the model dominating the foreground",
+      "background": "artistic black-and-gray collage with a vintage police-car illustration, flying Pegasus, perfume bottle, newspaper fragments, record label, and abstract paint textures",
+      "graphic_treatment": "soft white outline glow separating the adult subject from the collage, layered paper edges and distressed ink marks",
+      "typography": "use only abstract or illegible fictional newspaper texture; no real names, logos, or official insignia"
+    },
+    "lighting_and_atmosphere": {
+      "type": "large soft key at approximately 4800K with low frontal fill",
+      "effect": "gentle facial modeling, textured black fabric, subdued collage contrast, and a luminous white edge treatment"
+    },
+    "technical_specs": {
+      "render_style": "full-frame editorial camera with 50mm lens, photoreal fashion portrait composited with printed collage textures",
+      "resolution": "4k vertical social portrait",
+      "finish": "visible paper grain, natural skin texture, slight optical falloff, restrained saturation, and crisp fabric detail"
+    },
+    "generated_prompt_string": "A stylish clearly adult woman poses with one hand on her face and the other in her pocket, wearing a loose black shirt and light beige pants. She has voluminous curly hair and stands against an artistic black-and-gray collage background. The collage includes a vintage police-car illustration, a flying Pegasus, a perfume bottle, newspaper fragments, a record label, and abstract paint textures. Create a dark grunge mood with a soft white outline glow around the person, high-fashion photography styling, realistic textures, visible paper grain, and natural skin detail. Use a 50mm editorial lens, soft approximately 4800K key light, and a vertical social portrait composition. Keep all collage marks fictional and non-official, with no real logos or identifying text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, real police insignia, real logos, readable personal data, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, broken collage layers",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-curly-haired-model",
+          "required": true,
+          "source": "Original dark grunge portrait preview image",
+          "usage": "Attach an approved adult person reference to preserve facial structure, curly hair silhouette, and likeness without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "loose-black-shirt-beige-trousers",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the loose black shirt, light beige trousers, relaxed fit, and hands-in-pocket styling; wardrobe may be replaced only with an equivalent adult fashion look."
+        },
+        {
+          "type": "graphic",
+          "name": "fictional-dark-grunge-collage",
+          "required": true,
+          "source": "Original collage preview image and source prompt",
+          "usage": "Attach to preserve the police-car illustration, Pegasus, perfume bottle, paper fragments, record label, paint texture, and white outline hierarchy; replace any recognizable marks with fictional cleared graphics."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult model, wardrobe, and collage references. Keep the adult identity, pose, clothing silhouette, collage hierarchy, distressed paper texture, and white outline consistent. The person and individual collage objects may be replaced with approved equivalents, but all logos, insignia, and readable text must remain fictional and non-identifying."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the source's young woman as a clearly adult woman and constrained the collage's police imagery and text to fictional non-official graphics while preserving the dark grunge fashion concept."
+    ]
+  }
+}

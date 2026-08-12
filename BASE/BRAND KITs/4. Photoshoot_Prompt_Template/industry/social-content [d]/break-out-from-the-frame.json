@@ -1,0 +1,82 @@
+{
+  "name": "break-out-from-the-frame",
+  "tag": [
+    "social-frame-composite",
+    "fisheye-perspective",
+    "purple-puffer",
+    "instagram-inspired-ui",
+    "surreal-fashion"
+  ],
+  "image_type": "surreal-social-composite",
+  "image_vibe": "playful-immersive",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Adult subject breaking out of a fictional social-post frame",
+      "creative_direction": "photoreal composite using perspective distortion and interface-inspired graphic design",
+      "color_palette": "yellow floor, purple graffiti puffer, black, gold jewelry, white sneakers, and clean white frame"
+    },
+    "main_subject": {
+      "type": "clearly adult person",
+      "detail": "approved adult subject wearing black cap, black sunglasses, black T-shirt, purple graffiti-pattern puffer jacket, layered gold chain, and white sneakers",
+      "action": "standing while holding both vertical frame edges, upper body projecting outside the frame with realistic contact shadows",
+      "expression": "confident upward gaze"
+    },
+    "composition_elements": {
+      "framing": "high top-down view with strong 10mm fisheye effect applied to the person only, enlarged head and smaller body, while the rectangular frame stays straight",
+      "interface": "fictional social-post frame with abstract avatar, generic handle, simple heart/comment/share/bookmark icons, and no real platform logo or personal handle",
+      "background": "clean yellow floor with controlled shadows and no clutter"
+    },
+    "lighting_and_atmosphere": {
+      "type": "large soft overhead source at approximately 5200K with directional fill",
+      "effect": "realistic contact shadows under hands and frame, fisheye edge distortion, crisp streetwear texture, playful surreal depth"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 10mm fisheye lens, photorealistic composite photography",
+      "resolution": "4k vertical social composite",
+      "finish": "accurate perspective, realistic fabric and skin texture, clean interface graphics, restrained saturation"
+    },
+    "generated_prompt_string": "Create an ultra-realistic photo composite of an approved clearly adult person breaking out of a fictional social-post frame. The adult subject stands while holding both vertical frame edges, with the upper body projecting outside the frame and realistic contact shadows. Use a high top-down view and a strong 10mm fisheye effect on the person only, creating a larger head and smaller body while keeping the frame straight. The subject has a confident upward gaze and wears a purple graffiti-pattern puffer jacket, black T-shirt, layered gold chain, white sneakers, black cap, and black sunglasses. Place the frame over a clean yellow floor. Use a fictional social-post interface with an abstract avatar, generic handle, simple icons, and no real platform logo or personal handle. Use soft overhead light at approximately 5200K, realistic hand/frame shadows, photorealistic fabric texture, and playful surreal depth.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, celebrity likeness, real platform logo, real personal handle, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed hands, warped frame, broken perspective, illegible UI text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-social-composite-subject",
+          "required": true,
+          "source": "Uploaded person reference from original concept",
+          "usage": "Attach an approved adult person reference and preserve facial structure and likeness; never use celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "purple-puffer-black-streetwear-look",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the purple puffer, black tee, cap, sunglasses, gold chains, and white sneakers; outfit may be replaced only for deliberate adaptation."
+        },
+        {
+          "type": "ui_reference",
+          "name": "fictional-social-post-frame",
+          "required": true,
+          "source": "Original frame composition and source prompt",
+          "usage": "Attach to preserve frame geometry, generic UI hierarchy, and break-out interaction; replace the real handle, avatar, and platform-specific branding with fictional cleared elements."
+        },
+        {
+          "type": "background",
+          "name": "yellow-floor-composite-ground",
+          "required": false,
+          "source": "Original preview image and source prompt",
+          "usage": "Optional background reference; preserve yellow floor, clean negative space, and contact-shadow direction while allowing the surface to be replaced."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person, wardrobe, and fictional UI references; the yellow floor is optional. Keep the person/frame interaction, fisheye-only-on-person distortion, straight frame, shadows, and streetwear consistent. Replace all real platform handles, avatars, logos, and text with fictional cleared UI; preserve the approved adult identity and facial structure."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the real social handle/platform cues with a fictional UI and clarified the subject as an approved clearly adult person while preserving the surreal break-out composite."
+    ]
+  }
+}

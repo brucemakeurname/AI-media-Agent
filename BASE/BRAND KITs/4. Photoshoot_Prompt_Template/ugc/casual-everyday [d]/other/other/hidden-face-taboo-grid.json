@@ -1,0 +1,27 @@
+{
+  "name": "hidden-face-taboo-grid",
+  "tag": ["ugc", "casual-everyday", "other", "other", "anonymous-grid"],
+  "image_type": "anonymous lifestyle contact sheet",
+  "image_vibe": "minimal candid café detail study",
+  "image_purpose": "UGC-style 2x2 visual reference grid",
+  "group": "other/other",
+  "prompt": {
+    "project_info": "Create a safe editorial 2x2 grid of anonymous lifestyle detail shots based on the attached image, with no visible face or identity claim.",
+    "main_subject": "An original approved adult person shown only from shoulders to hips, with the face fully outside the frame. Preserve the white ribbed short-sleeved top, blue jeans, black belt, crossbody strap, smartphone in one hand, and clear iced coffee with black straw in the other.",
+    "composition_elements": "Four consistent close crops in a 2x2 grid: coffee hand and cup, belt and jeans detail, phone and crossbody strap, and torso/environment detail. Use an indoor café or casual public interior with warm wood cabinetry and a light floor. No face, no sexualized crop, no provocative narrative.",
+    "lighting_and_atmosphere": "Soft warm indoor ambient light, natural shadows, realistic fabric, denim, skin, and condensation texture, quiet candid everyday mood.",
+    "technical_specs": "Realistic lifestyle photography, 2x2 contact-sheet layout, close detail crops, 50–85mm equivalent perspective, consistent exposure and color, natural depth of field, no artificial HDR look.",
+    "generated_prompt_string": "Safe realistic 2x2 anonymous lifestyle contact sheet based on the attached image. Show an original approved adult person only from shoulders to hips, with the face fully outside the frame, wearing a white ribbed short-sleeved top, blue jeans, black belt, and crossbody strap. Include a smartphone in one hand and a clear iced coffee with a black straw in the other. Four consistent close crops cover the coffee, belt and denim, phone and strap, and torso with warm indoor café cabinetry and light floor. Soft ambient light, natural fabric and condensation texture, calm candid everyday editorial mood, no provocative narrative.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, visible face, identity claim, celebrity likeness, public figure likeness, body-part fetish emphasis, unreadable text, random logos, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, deformed anatomy",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "anonymous iced coffee detail reference", "required": true, "source": "attached source image", "usage": "Match the outfit, cropped framing, coffee, phone, belt, strap, interior, and warm perspective."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the adult-safe anonymous framing, outfit, props, environment, and lighting consistency. Keep the face outside every crop. Coffee branding, phone screen, logos, typography, and background details are replaceable editable elements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Removed the request for an immoral or taboo implication.", "Kept the face-hidden 2x2 grid and everyday styling while explicitly requiring an adult-safe anonymous crop.", "Added anti-slop and safety exclusions."]
+  }
+}

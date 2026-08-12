@@ -1,0 +1,77 @@
+{
+  "name": "shopee-cerave-skin-barrier-summer-sale",
+  "tag": [
+    "beauty-promo",
+    "skincare",
+    "celebrity-endorsement",
+    "midmonth-sale"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Endorsement",
+  "group": "shopee_1894243414575202",
+  "prompt": {
+    "project_info": {
+      "theme": "CeraVe mid-month skin-barrier campaign",
+      "color_palette": "Sky blue, bright yellow, white, orange-red, turquoise green"
+    },
+    "main_subject": {
+      "type": "Person/Object/Text",
+      "detail": "A bold blue-and-yellow skincare poster featuring CeraVe. The headline says 'VO HINH CAN NANG VUNG HANG RAO DA'. Two orange banners below read 'MUA LA CO QUA' and 'VOUCHER HAP DAN'. A young male celebrity in a yellow jacket appears at left with cream on his cheek. In the center is a giant yellow-capped CeraVe sunscreen bottle marked 'MOI' standing on geometric yellow and blue blocks, with a tiny woman figure leaning against it. Other products include a large Foaming Cleanser and Micellar Cleansing Water. Round badges say 'SPF 50+', 'KIEM DAU 12H', and 'CERAMIDES 3 THIET YEU'. Top-right countdown reads 'CON 1 NGAY' and 'NGAY 15 SALE GIUA THANG'. Bottom CTA says 'MUA NGAY TAI SHOPEE'.",
+      "style": "Bright editorial skincare campaign with oversized packshots, celebrity cutout, geometric pedestal design, and playful scale manipulation"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "CeraVe / VO HINH CAN NANG VUNG HANG RAO DA / MUA LA CO QUA / VOUCHER HAP DAN / MOI / SPF 50+ / KIEM DAU 12H / CERAMIDES 3 THIET YEU / CON 1 NGAY / NGAY 15 SALE GIUA THANG / MUA NGAY TAI SHOPEE",
+      "items": [
+        "Top Left: Shopee logo and CeraVe logo",
+        "Top Right: Blue-orange countdown badge with 'CON 1 NGAY' and 'NGAY 15 SALE GIUA THANG'",
+        "Bottom Left: Male celebrity cutout in yellow jacket beside large CeraVe Foaming Cleanser bottle",
+        "Bottom Right: Micellar Cleansing Water bottle and red CTA button",
+        "Center/Background: Large yellow-capped sunscreen bottle on geometric yellow-blue blocks, tiny woman figure, round claim badges, and a clean blue gradient background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright commercial skincare lighting",
+      "effect": "Smooth packshot reflections, soft portrait glow, crisp block shadows, optimistic saturated color"
+    },
+    "technical_specs": {
+      "render_style": "Photo-composite skincare campaign poster with oversized product staging",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for CeraVe on Shopee. Centerpiece is an oversized CeraVe sunscreen bottle with a yellow cap standing on geometric yellow and blue blocks, surrounded by round claim badges 'SPF 50+', 'KIEM DAU 12H', and 'CERAMIDES 3 THIET YEU'. Background is a bright blue gradient with yellow accent ribbons. Surrounding elements: Shopee and CeraVe logos, giant headline 'VO HINH CAN NANG VUNG HANG RAO DA', orange banners 'MUA LA CO QUA' and 'VOUCHER HAP DAN', a male celebrity in a yellow jacket, a large Foaming Cleanser bottle, Micellar Cleansing Water, a tiny woman figure, top-right badge 'CON 1 NGAY' and 'NGAY 15 SALE GIUA THANG', and bottom CTA 'MUA NGAY TAI SHOPEE'. Technical style: photo-composite skincare campaign poster with oversized product staging, bright commercial lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Male celebrity endorsement cutout",
+          "required": true,
+          "source": "original campaign cutout or approved celebrity image",
+          "usage": "Attach for exact likeness, pose, hairstyle, and yellow outfit styling"
+        },
+        {
+          "type": "product",
+          "name": "CeraVe product packshot set",
+          "required": true,
+          "source": "official CeraVe renders for sunscreen, Foaming Cleanser, and Micellar Cleansing Water",
+          "usage": "Use for accurate packaging, cap colors, and label details"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee and CeraVe logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Preserve the top branding"
+        },
+        {
+          "type": "text_layout",
+          "name": "CeraVe barrier-campaign layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the exact headline, badge placement, countdown badge, and CTA structure"
+        }
+      ],
+      "prompt_instructions": "Preserve the playful scale contrast with the giant sunscreen bottle and tiny doctor-like woman figure. 'NGAY 15' is in the past relative to Friday, July 17, 2026 and must remain exact as campaign copy."
+    }
+  }
+}

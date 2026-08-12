@@ -1,0 +1,51 @@
+{
+  "name": "sabrina-spiderman-mirror-selfie",
+  "tag": ["ugc", "selfie-pov", "baddie", "private-indoor", "superhero-fashion", "mirror-selfie", "red-blue-neon"],
+  "image_type": "photorealistic superhero-inspired mirror selfie",
+  "image_vibe": "analytical, sleek, comic-inspired, neon, high-contrast",
+  "image_purpose": "social-media character fashion visual",
+  "group": "selfie-pov/baddie/private-indoor",
+  "prompt": {
+    "project_info": "Photorealistic 9:16 medium-close smartphone mirror selfie in a domestic living room, with clean raw-texture rendering and cyan-purple ambient light.",
+    "main_subject": "One original adult woman with muted blue-gray almond-shaped eyes, natural Type-II skin with visible pores, no makeup or lipstick, and a voluminous blonde ponytail with messy texture and soft curtain bangs. She has a natural curvy feminine silhouette, defined clavicles and toned natural posture. Her right hand holds the smartphone and her left hand rests on the sofa cushion. Do not reproduce Sabrina Carpenter or any other public-figure likeness.",
+    "composition_elements": "Seat the adult woman on the edge of a dark-gray fabric sofa with knees together and a slight forward lean for the mirror selfie. Use a medium-close 9:16 vertical composition and a neutral closed-mouth analytical gaze directed toward the phone-screen reflection. Dress her in a high-neck sleeveless red-and-blue superhero-inspired bodysuit with matte stretch fabric and a black web-pattern graphic, plus opaque black thigh-high stockings. Include a sunflower-shaped accent pillow, white matte walls, and a custom cyan neon sign reading 'Pinodi' behind her.",
+    "lighting_and_atmosphere": "Mix soft diffused natural light with the cyan glow of the Pinodi neon sign and secondary purple ambient edge light. Maintain accurate cyan and purple spill on hair and shoulders and consistent reflection behavior between subject and mirror. Keep the atmosphere sleek, analytical and comic-inspired without trademark logos.",
+    "technical_specs": "9:16 vertical medium-close smartphone mirror selfie, 24mm-equivalent focal length, f/1.8, ISO 100, photorealistic 8K-style raw texture, realistic mirror reflection, natural anatomy and hands, no extra text or logos beyond the specified Pinodi sign.",
+    "generated_prompt_string": "Photorealistic 9:16 medium-close smartphone mirror selfie of one original adult woman seated on the edge of a dark-gray fabric sofa with knees together and slight forward lean. Muted blue-gray almond eyes, natural pore-textured fair skin, no makeup or lipstick, voluminous blonde ponytail with messy texture and soft curtain bangs, natural curvy feminine silhouette, defined clavicles. Neutral closed-mouth analytical gaze toward phone reflection; right hand holding smartphone, left hand on sofa cushion. High-neck sleeveless red-and-blue superhero-inspired matte bodysuit with black web-pattern graphic, opaque black thigh-high stockings. Sunflower accent pillow, white matte walls, cyan custom neon sign reading 'Pinodi', purple edge light, soft diffused daylight, realistic cyan-purple spill and mirror reflection, 24mm equivalent, f/1.8, no celebrity likeness and no trademark logos.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Sabrina Carpenter likeness, Spider-Man trademark logo, sheer stockings, exposed underwear, exaggerated body proportions, distorted anatomy, extra fingers, malformed hands, reflection mismatch, plastic skin, waxy, over-smooth, airbrushed, HDR look, extra text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "sabrina-spiderman-mirror-selfie.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult blonde ponytail, no-makeup expression, red-blue web-pattern bodysuit, sofa mirror selfie, Pinodi neon sign, cyan-purple lighting and 9:16 composition; replace named identity and trademarked superhero branding with generic original styling."
+        },
+        {
+          "type": "text_layout",
+          "name": "Pinodi-neon-sign",
+          "required": true,
+          "source": "Existing prompt text",
+          "usage": "Render only the specified 'Pinodi' cursive neon sign with cyan-blue glow; do not add other text or logos."
+        },
+        {
+          "type": "image_asset",
+          "name": "1772421891251-ch5n91j1-1.jpeg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1772421891251-ch5n91j1-1.jpeg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source and Pinodi text-layout assets are required; the image asset is optional and not inspected. Keep the original adult subject, outfit colors and web pattern, selfie pose, sofa, sign, lighting, reflection integrity and 9:16 frame consistent. Replace celebrity identity and trademark logos only."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Sabrina Carpenter's exact digital-twin identity and explicit body ratios with an original adult woman and natural curvy silhouette.",
+      "Replaced direct Spider-Man branding with generic superhero-inspired red-blue web-pattern styling and changed sheer stockings to opaque.",
+      "Preserved the no-makeup mirror selfie, Pinodi sign, pose, lighting and color direction."
+    ]
+  }
+}

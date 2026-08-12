@@ -1,0 +1,22 @@
+{
+  "name": "countryside-red-dress-vintage-car",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "automotive", "red-dress"],
+  "image_type": "luxury automotive lifestyle portrait",
+  "image_vibe": "cinematic, warm, minimalist, elegant",
+  "image_purpose": "fashion and luxury-car editorial lookbook",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a photoreal high-end editorial portrait on a quiet countryside road with one consistent approved adult woman and a glossy black classic convertible.",
+    "main_subject": "Adult woman with approved face reference, dark smooth natural hair, clean editorial makeup, and crimson lipstick. She wears a deep crimson fitted mini dress with structured straps and matte or lightly satin finish, with elegant styling and no visible brand. She leans against the front hood with one hand near the headlight, torso angled toward camera, relaxed and confident.",
+    "composition_elements": ["Portrait-oriented 4:5 composition, shot slightly from above.", "Glossy black vintage cabrio parked on a quiet countryside road.", "Dramatic diagonal line from car hood and road.", "Muted warm countryside neutrals with deep crimson dress and no readable text or license plate.", "White handbag may be included when visible in the reference."],
+    "lighting_and_atmosphere": "Soft warm natural daylight, muted luxury neutrals, deep crimson accent, subtle film grain, natural dynamic range, and cinematic minimalist mood.",
+    "technical_specs": "Ultra-high-resolution photorealistic editorial lifestyle portrait, crisp but natural sharpness, realistic skin texture, 4:5 portrait orientation, very subtle film grain, no HDR, no text or watermark.",
+    "generated_prompt_string": "Photoreal high-end editorial portrait on a quiet countryside road. A glossy black vintage convertible is parked on the road. An adult woman in a deep crimson fitted mini dress leans against the front hood, shot from slightly above, creating a dramatic diagonal composition. The mood is luxury, cinematic and minimalist—black car, deep red dress, soft neutral background. Her dark hair is styled smooth and natural, with crimson editorial lipstick and clean makeup; her expression is calm and poised, eyes toward camera. No text anywhere, no license plates, no logos.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "distorted anatomy", "extra fingers", "inconsistent face", "warped vehicle", "plastic skin", "over-smooth", "HDR look", "watermark", "readable text", "license plate", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "countryside-red-dress-vintage-car.jpg", "required": true, "source": "local reference image", "usage": "Attach for approved-adult identity, wardrobe, pose, and styling reference."}, {"type": "location", "name": "black vintage convertible and countryside road", "required": true, "source": "local reference image", "usage": "Preserve the car, road, landscape, diagonal composition, and warm palette."}],
+      "prompt_instructions": "Attach the required approved-adult face reference and local composition reference. Preserve face, facial structure, fitted crimson dress, car, countryside road, handbag if present, lighting, and pose. Keep the fashion framing tasteful and non-sexualized. Replace the face only with another approved-adult identity; preserve vehicle and environment, with no logos, text, or license plates."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced subtly sultry wording with calm, poised editorial direction while preserving the fitted crimson dress, car-hood pose, palette, and luxury-fashion intent."]}
+}

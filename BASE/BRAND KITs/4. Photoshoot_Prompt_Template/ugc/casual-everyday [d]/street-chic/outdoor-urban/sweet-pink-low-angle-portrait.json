@@ -1,0 +1,19 @@
+{
+  "name": "sweet-pink-low-angle-portrait",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "pink-fashion", "low-angle"],
+  "image_type": "low-angle-seated-fashion-portrait",
+  "image_vibe": "playful-pastel-lifestyle",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create an ultra-photorealistic low-angle seated fashion portrait of an approved adult woman relaxing on a sofa.",
+    "main_subject": "An approved adult woman with natural auburn loose waves and a soft relaxed smile, reclining sideways with one leg extended toward camera and the other bent. She wears a pastel-pink fitted top, tiered pink-and-mint skirt, pastel-pink stockings with decorative bows, and small pastel hair clips.",
+    "composition_elements": "Strong 24mm forced perspective with foreground foot enlarged naturally, face kept sharp, cushions and sofa visible, balanced pastel interior.",
+    "lighting_and_atmosphere": "Natural indoor daylight, realistic skin and fabric texture, playful confident lifestyle mood, respectful fashion framing.",
+    "technical_specs": "Photorealistic vertical portrait, 24mm equivalent, camera low near floor, f/4-f/5.6 depth, accurate anatomy, realistic perspective and texture.",
+    "generated_prompt_string": "Create an ultra-photorealistic vertical low-angle seated fashion portrait of an approved adult auburn-haired woman reclining sideways on a sofa. She wears a pastel-pink fitted top, tiered pink-and-mint skirt, pastel-pink stockings with small bows, and pastel hair clips. One leg extends naturally toward the low camera while the other bends, her face remains sharp with a soft relaxed smile. Use 24mm forced perspective, natural indoor light, realistic cushions, fabric, skin, and respectful playful pastel fashion mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, fetish framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra limbs, deformed feet, distorted perspective",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-pastel-sofa-subject", "required": true, "source": "sweet-pink-low-angle-portrait.jpg", "usage": "Preserve adult identity, hair, smile, reclining pose, and anatomy."}, {"type": "wardrobe", "name": "pastel-pink-mint-fashion-set", "required": true, "source": "sweet-pink-low-angle-portrait.jpg", "usage": "Keep top, skirt, stockings, bows, and clips consistent; replace only with explicit references."}, {"type": "location", "name": "sofa-pastel-interior", "required": true, "source": "sweet-pink-low-angle-portrait.jpg", "usage": "Maintain sofa, cushions, daylight, and interior setting; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Reframed the body-detail prompt as respectful fashion composition and clarified the subject as an approved adult.", "Added safe negative prompts and structured references."]}
+}

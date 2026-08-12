@@ -1,0 +1,61 @@
+{
+    "name":  "minimal-reflective-earbuds",
+    "tag":  [
+                "tech",
+                "product demo",
+                "earbuds",
+                "minimalism",
+                "reflective surface",
+                "studio shot"
+            ],
+    "biz_niche":  "Tech & Electronics",
+    "content_format":  "Product demos",
+    "group":  "product_minimal_studio",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Minimal premium wireless earbuds",
+                                        "color_palette":  "Pearl silver, midnight navy, black, warm copper highlights"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "Two pearl-metallic wireless earbuds rest asymmetrically on a glossy black reflective surface, facing each other with one stem reflected in the foreground.",
+                                        "style":  "Minimal luxury electronics product photography"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Product/Reflection/Background",
+                                                "text":  "",
+                                                "items":  [
+                                                              "Center-left: one earbud resting horizontally with stem and grille visible.",
+                                                              "Upper center-right: second earbud angled toward camera.",
+                                                              "Lower half: dark mirror reflection of both earbuds.",
+                                                              "Background: dark navy-to-black seamless gradient."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Premium controlled studio lighting",
+                                                   "effect":  "Soft metallic rim light, warm highlight edges, deep but clean reflections, minimal ambient shadow"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Professional DSLR commercial product presentation",
+                                           "resolution":  "High resolution, ultra-sharp focus"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "wireless earbuds",
+                                                                 "required":  true,
+                                                                 "source":  "exact product reference",
+                                                                 "usage":  "Preserve earbud shell geometry, grille placement, color, and stems."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach the exact earbud reference.",
+                                                                          "Keep the set to two earbuds with open negative space.",
+                                                                          "Do not add charging case or generic branding unless supplied."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Studio shot of a [PRODUCT], elegantly positioned on a [background], soft ambient shadows, smooth gradient backdrop, high-key lighting, shallow depth of field, ultra-sharp focus on the subject, subtle reflections, minimal aesthetic, professional DSLR, premium commercial lighting setup, optimized for high-end product presentation",
+                   "negative_prompt":  "additional objects, distorted earbuds, dirty reflection, harsh glare, background clutter, low detail, watermark"
+               }
+}

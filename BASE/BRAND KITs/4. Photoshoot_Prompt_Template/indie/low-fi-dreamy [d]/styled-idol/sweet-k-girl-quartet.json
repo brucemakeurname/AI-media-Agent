@@ -1,0 +1,77 @@
+{
+  "name": "sweet-k-girl-quartet",
+  "tag": [
+    "adult-woman",
+    "korean-beauty",
+    "four-panel-grid",
+    "pink-accessories",
+    "fluffy-sleeves",
+    "close-up"
+  ],
+  "image_type": "beauty-collage-portrait",
+  "image_vibe": "sweet, dreamy, polished, cool-pink, girl-group",
+  "image_purpose": "instagram-feed, photocard, beauty-editorial, moodboard",
+  "group": "indie / low-fi-dreamy / styled-idol",
+  "prompt": {
+    "project_info": {
+      "theme": "Sweet Korean beauty quartet with hands-and-accessories styling",
+      "format": "2x2 four-panel vertical collage",
+      "color_palette": "cool white, pale pink, bright pink, soft black, cool-pink skin tones"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "Use the attached approved adult face reference as the exact identity in every panel. Preserve its face shape, large eyes, tiny mole under the right eye, long slim nose bridge, long straight black center-parted hair, and natural skin texture with a subtle pink flush and fine freckles.",
+      "style": "sweet Korean beauty-editorial collage"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "four equal close-up panels in a 2x2 grid against a unified cool-white background",
+        "top left: hands cup the face close to the lens, direct calm gaze",
+        "top right: fingers rest near the lips, calm teasing expression, closer crop",
+        "bottom left: chin and arms rest at a table edge, eyes glance sideways",
+        "bottom right: gentle fist under chin, restrained smile, direct gaze",
+        "bright-pink and light-pink clips on both sides of long black hair; plush white sleeves, pale-pink top, pink rings, and decorated translucent nails stay visible"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "broad soft frontal diffusion at approximately 5200K",
+      "effect": "very faint shadows, even cool-white illumination, clear eye and hair detail, low contrast",
+      "atmosphere": "airy, cute, glassy, soft-cool Korean magazine beauty mood"
+    },
+    "technical_specs": {
+      "render_style": "Sony A7R V, 85mm f/1.8, close-up to extreme close-up, eye-level",
+      "resolution": "high-detail four-panel beauty collage",
+      "color_treatment": "cool-white backdrop, controlled pink accents, natural skin texture with slight soft-focus, minimal background blur"
+    },
+    "generated_prompt_string": "Create a 2x2 four-panel close-up beauty collage using the attached approved adult face reference as the exact identity in all panels; preserve her face, facial structure, large eyes, tiny mole under the right eye, long slim nose bridge, long straight black center-parted hair, and likeness with no deviation. She has natural fine skin texture, a subtle pink flush on the cheeks and nose tip, a few light freckles, translucent clean light-matte makeup with micro-glow, pink blush, long lashes, and softly glossy pink-to-peach lips. Style the hair with a bright-pink and a light-pink clip on each side, with visible metal clamps. She wears plush white sleeve covers over a pale-pink top, plus pink floral or candy rings and translucent decorated nails. Panel order: top left, hands cup the face near the lens with a calm direct gaze; top right, fingers rest near the lips in a closer calm teasing crop; bottom left, chin and arms rest at a table edge with a sideward gaze; bottom right, a gentle fist sits beneath the chin with a restrained warm smile. Use a unified cool-white background, broad soft frontal diffusion at approximately 5200K, very faint shadows, low contrast, sharp eyes and hair strands, natural skin texture with slight soft-focus, and a sweet dreamy Korean beauty-editorial mood. Sony A7R V, 85mm f/1.8, eye-level close-up.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, childlike appearance, celebrity likeness, public-figure likeness, sexual pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "An approved-adult face and identity reference is required. Attach it to preserve the exact face, facial structure, mole, hairline, and likeness in every panel; do not use a celebrity or public figure. The source moodboard is optional for the panel poses, pink clips/rings, nails, fluffy sleeves, and cool-white beauty layout. Wardrobe/accessory colors can change only if the sweet hands-near-face 2x2 beauty direction remains consistent.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult face and identity reference",
+          "required": true,
+          "source": "user-supplied approved reference",
+          "usage": "Keep the exact adult person's face, facial structure, mole, hairline, and likeness consistent across all four panels."
+        },
+        {
+          "type": "moodboard",
+          "name": "sweet Korean beauty quartet source",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202601/1769321377334-4g38czxz-1.jpeg",
+          "usage": "Use for the four panel poses, pink accessories, fluffy sleeves, and clean cool-white layout."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the strict identity source must be an approved adult and excluded childlike appearance.",
+      "Retained the four-panel poses, face identity consistency, pink accessories, fluffy sleeves, and sweet Korean beauty direction.",
+      "Added guards against celebrity or public-figure likeness."
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "three-kingdoms-diaochan-portrait",
+  "tag": ["ugc", "historical-fantasy", "purple-costume", "game-portrait", "typography"],
+  "image_type": "fantasy-game-character-portrait",
+  "image_vibe": "ornate-purple-dramatic",
+  "image_purpose": "profile-visual",
+  "group": "viral-trending",
+  "prompt": {
+    "project_info": "Create a polished historical-fantasy game character portrait of an adult fictional character inspired by the Three Kingdoms setting.",
+    "main_subject": "An adult fictional woman in an ornate purple sheer dance-inspired dress with elaborate updo, floral and metallic hair ornaments, jewelry, and flowing translucent sleeves. She looks back with a charming but non-sexual smile.",
+    "composition_elements": "Three-quarter over-shoulder portrait with the character turned toward camera, layered purple fabric and petals, glowing fantasy environment, and game-interface information panels along the left side. Preserve the vertical character-card hierarchy and existing Chinese typography/icons shown in the preview.",
+    "lighting_and_atmosphere": "Purple-magenta cinematic fantasy light, soft rim light, luminous haze, ornate historical-game atmosphere, rich layered costume detail.",
+    "technical_specs": "Vertical portrait, high-detail game key art, sharp face and costume, controlled translucent fabric, atmospheric depth, readable but coherent interface panels, no invented unrelated text.",
+    "generated_prompt_string": "Historical-fantasy game character portrait of an adult fictional Diaochan-inspired woman in an ornate purple sheer dance dress, elaborate updo with floral and metallic hair ornaments, jewelry, and flowing translucent sleeves, looking back with a charming gentle smile. Three-quarter over-shoulder pose, layered purple fabric and petals, cinematic purple-magenta lighting, luminous haze, fantasy setting with game-interface information panels along the left side. Preserve the vertical character-card hierarchy, existing Chinese typography and icons, ornate costume detail, sharp face, atmospheric depth, and polished high-detail game key-art finish.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, real-person likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, extra limbs, extra fingers, deformed, illegible UI, random text, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "adult fictional Diaochan-inspired character", "required": true, "source": "matching local preview image", "usage": "Preserve fictional identity, face, hair ornaments, expression, and three-quarter pose; do not map to a real public figure."},
+        {"type": "wardrobe", "name": "ornate purple fantasy dress", "required": true, "source": "matching local preview image", "usage": "Keep purple palette, translucent sleeves, metallic details, and layered fabric consistent; replaceable with equivalent fantasy costume."},
+        {"type": "text_layout", "name": "historical-fantasy game UI panels", "required": true, "source": "matching local preview image", "usage": "Preserve panel positions, icon hierarchy, and existing Chinese typography structure; replace text only while retaining role and legibility."}
+      ],
+      "prompt_instructions": "Attach the matching preview to lock fictional character, costume, pose, and game-card UI. Preserve identity, outfit, palette, panels, and typography hierarchy. Do not introduce real-person likeness, unrelated logos, or extra text; replacement assets must remain fictional and equivalent."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

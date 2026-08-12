@@ -1,0 +1,71 @@
+{
+  "name": "vfe-france-smic-1231-euros-june-2026",
+  "tag": [
+    "vfe",
+    "france",
+    "smic",
+    "salary",
+    "infographic"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Infographics",
+  "group": "vfe_826009940388648",
+  "prompt": {
+    "project_info": {
+      "theme": "French minimum wage update for 2026",
+      "color_palette": "White, Navy Blue, Red, Gold, Wood Brown"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A financial explainer poster featuring the headline 'LE SMIC PASSE À 12,31 € EN FRANCE', a chalkboard labeled 'SMIC 2026', stacked euro coins, a pink piggy bank, and a white stat card listing gross and estimated net values.",
+      "style": "Editorial finance infographic with realistic tabletop props, bold price typography, and clean bilingual policy-brief layout."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "Salaire Minimum :\nLE SMIC PASSE À\n12,31 €\nEN FRANCE\nDepuis le 1er juin 2026\nSMIC horaire brut 12,31 €\nSMIC mensuel brut (35h) 1 867,02 €\nSMIC mensuel net estimé 1 477,93 €\nSMIC 2026\nLa revalorisation du SMIC pour soutenir le pouvoir d'achat des Français.",
+      "items": [
+        "Top Left: Large navy and red wage headline block.",
+        "Top Right: Blurred French flag backdrop behind chalkboard, piggy bank, and calculator.",
+        "Bottom Left: White rounded stat panel with three icon rows for hourly, gross monthly, and estimated net monthly SMIC values.",
+        "Bottom Right: Calculator keyboard corner, stacked euro coins, and pink piggy bank beside the chalkboard.",
+        "Center/Background: Wooden tabletop scene with a small blackboard reading 'SMIC 2026'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft tabletop studio lighting",
+      "effect": "Warm natural shadows on desk objects, gentle flag blur in background, sharp numeric readability, and informative editorial tone."
+    },
+    "technical_specs": {
+      "render_style": "Photoreal financial explainer poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality financial explainer poster for France's 2026 minimum wage. Centerpiece is a tabletop scene with a small chalkboard reading 'SMIC 2026', euro coins, piggy bank, and calculator, while the left side features the bold headline 'LE SMIC PASSE À 12,31 € EN FRANCE'. Background is a softly blurred French flag. Surrounding elements: white stat card with gross and net values, line 'Depuis le 1er juin 2026', and a footer note about supporting purchasing power. Technical style: photoreal financial explainer poster, soft tabletop studio lighting, sharp numeric readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "background",
+          "name": "French flag background blur",
+          "required": true,
+          "source": "flag photo reference",
+          "usage": "Use as the soft patriotic backdrop."
+        },
+        {
+          "type": "accessory",
+          "name": "Chalkboard, euro coins, piggy bank, calculator",
+          "required": true,
+          "source": "current creative prop references",
+          "usage": "Recreate the financial tabletop scene with similar arrangement."
+        },
+        {
+          "type": "text_layout",
+          "name": "SMIC infographic layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve exact numeric values and the 'Depuis le 1er juin 2026' line."
+        }
+      ],
+      "prompt_instructions": "The date '1er juin 2026' is in the past relative to Friday, July 17, 2026, so preserve it as an already-effective wage update. Keep all euro amounts exact."
+    }
+  }
+}

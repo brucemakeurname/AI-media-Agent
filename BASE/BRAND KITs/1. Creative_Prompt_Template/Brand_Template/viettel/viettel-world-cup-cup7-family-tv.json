@@ -1,0 +1,78 @@
+{
+  "name": "viettel-world-cup-cup7-family-tv",
+  "tag": [
+    "viettel",
+    "world-cup",
+    "family",
+    "tv360",
+    "weekly-package"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "viettel_2157071298200063",
+  "prompt": {
+    "project_info": {
+      "theme": "Affordable weekly Viettel World Cup viewing package for families",
+      "color_palette": "White, Viettel red, black, rainbow ribbon stripes, warm neutral living-room tones"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A happy family of four sitting on a cream sofa in a bright minimalist living room, cheering while watching a football match on a large TV. The top-left text reads '7.000Đ / TUẦN' and 'DK CUP7 gửi 1331'.",
+      "style": "Photoreal family lifestyle advertising image with clean premium interior and branded promotional typography"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "7.000Đ / TUẦN; DK CUP7 gửi 1331; viettel telecom; Xem trọn vẹn World Cup 2026 | Miễn phí data 4G/5G Viettel | +120 kênh truyền hình trong nước & quốc tế; Xem các giải Bundesliga, V.League | Xem đồng thời trên 02 thiết bị",
+      "items": [
+        "Top Left: Large red weekly price and black registration text",
+        "Top Right: Viettel telecom logo in red and black",
+        "Bottom Left: Curved multicolor ribbon entering from the bottom-left corner plus white benefit copy along the bottom edge",
+        "Bottom Right: Large flat-screen TV showing football players in a dramatic stadium scene",
+        "Center/Background: Bright white living room with a family of four celebrating together around a coffee table with snacks and juice"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft natural interior daylight",
+      "effect": "Bright airy ambience, subtle sunlight wash, realistic reflections on the TV, warm family energy"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal lifestyle advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for an affordable weekly Viettel World Cup viewing package for families. Centerpiece is a photoreal family of four cheering on a cream sofa in a bright minimalist living room while watching a football match on a large TV. Include the exact upper-left text '7.000Đ / TUẦN' and 'DK CUP7 gửi 1331'. Background is a clean premium white interior with a large TV on the right and a coffee table with snacks and juice in front. Surrounding elements: Viettel telecom logo in the top right, curved multicolor ribbon at the bottom left, and small white benefit copy at the bottom reading 'Xem trọn vẹn World Cup 2026 | Miễn phí data 4G/5G Viettel | +120 kênh truyền hình trong nước & quốc tế' and 'Xem các giải Bundesliga, V.League | Xem đồng thời trên 02 thiết bị'. Technical style: photoreal lifestyle advertising composite, soft natural interior daylight, bright airy ambience and realistic TV reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel telecom logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Top-right brand signature"
+        },
+        {
+          "type": "person",
+          "name": "Family of four cheering on sofa",
+          "required": true,
+          "source": "recreated from the original scene",
+          "usage": "Keep father, mother, son, and daughter in a lively mid-cheer pose"
+        },
+        {
+          "type": "ui_reference",
+          "name": "Football broadcast on large TV",
+          "required": true,
+          "source": "original creative concept",
+          "usage": "Show stadium action with a player in red to preserve sports context"
+        },
+        {
+          "type": "graphic",
+          "name": "Multicolor ribbon stripe",
+          "required": true,
+          "source": "recreated campaign visual motif",
+          "usage": "Sweep upward from bottom-left to unify with other World Cup package posts"
+        }
+      ],
+      "prompt_instructions": "The composition must remain bright, clean, and family-oriented. Keep the TV on the right, the family on the left, and the price headline in the upper left. The small bottom benefit text should stay legible and anchored along the lower edge."
+    }
+  }
+}

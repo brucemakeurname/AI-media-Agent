@@ -1,0 +1,78 @@
+{
+  "name": "badass-striped-polo-display",
+  "tag": [
+    "striped polo",
+    "product display",
+    "merchandising",
+    "home decor styling",
+    "new collection",
+    "menswear visual"
+  ],
+  "biz_niche": "Home & Living",
+  "content_format": "Product demos",
+  "group": "badass_1408376311313218",
+  "prompt": {
+    "project_info": {
+      "theme": "Striped polo display with premium interior styling",
+      "color_palette": "Black, white, gray, dark walnut, pale gray"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Two striped short-sleeve polos hang on wooden hangers from a metal rail inside a styled premium interior scene. Large typography reads 'STRIPED POLO' while decor books, a framed art print, and dark slatted wall textures create a lifestyle merchandising backdrop.",
+      "style": "Photorealistic interior merchandising, premium menswear display, modern home-luxury styling"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "BADASS, STRIPED POLO, POKTK740",
+      "items": [
+        "Top Right: white BADASS wordmark.",
+        "Upper Middle: large headline 'STRIPED' in white and 'POLO' in black below it.",
+        "Right: two striped polos on wooden hangers hanging from a curved silver rail, one black-white striped and one gray-white striped.",
+        "Left: framed minimal art print standing on a dark cabinet.",
+        "Lower Left Center: stacked decor books including 'monochrome home' and 'HERMES'.",
+        "Background: split between dark vertical slat wall and smooth pale gray panel.",
+        "Bottom Left: small white product code 'POKTK740'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft directional interior light",
+      "effect": "Refined contrast, premium showroom ambiance, crisp textile definition, calm upscale interior mood"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic interior merchandising poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "two striped polos on hangers",
+          "required": true,
+          "source": "source image product reference",
+          "usage": "Use to preserve the stripe orientation, collar contrast, hanger spacing, and front-facing garment drape."
+        },
+        {
+          "type": "location",
+          "name": "styled premium interior backdrop",
+          "required": true,
+          "source": "source image decor reference",
+          "usage": "Maintain the framed artwork, stacked books, dark cabinet, and split slat/panel wall composition."
+        },
+        {
+          "type": "text_layout",
+          "name": "STRIPED POLO typography",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Preserve the exact wording, upper placement, and white/black hierarchy of the title."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image so the interior decor balance and polo arrangement stay accurate.",
+        "Keep all visible text exactly as 'BADASS', 'STRIPED POLO', and 'POKTK740'.",
+        "Do not simplify away the decor books and framed art; they are part of the merchandising look."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square merchandising poster for a striped polo collection. Create a premium interior scene with a dark cabinet, a framed minimal art print on the left, stacked decor books, and a background split between a dark vertical slat wall and a pale gray panel. On the right, hang two striped short-sleeve polos from wooden hangers on a curved silver rail: one black-white striped with black collar and one gray-white striped with white collar. Add a white BADASS wordmark in the upper-right corner and large title text 'STRIPED POLO' above the garments. Include small white product code text 'POKTK740' at the lower left. Technical style: photorealistic interior merchandising poster, soft directional interior light, crisp textile definition, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, low resolution, distorted garments, wrong stripe pattern, missing decor props, incorrect text, flat 2d, cluttered staging, watermark, signature"
+  }
+}

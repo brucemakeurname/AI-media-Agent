@@ -1,0 +1,42 @@
+﻿{
+    "name":  "hyper-realistic-photo",
+    "tag":  [
+                "ugc",
+                "selfie-pov",
+                "other",
+                "other",
+                "photorealism",
+                "prompt-framework"
+            ],
+    "image_type":  "reality-first-prompt-framework",
+    "image_vibe":  "documentary-photorealism",
+    "image_purpose":  "high-control prompt framework for realistic image generation",
+    "group":  "other",
+    "prompt":  {
+                   "project_info":  "Adapted from the source\u0027s reality-first prompt-writing framework.",
+                   "main_subject":  "Any clearly adult subject or object defined by the supplied reference and scene brief, with observable details, realistic materials and one clear focal priority.",
+                   "composition_elements":  "Front-load aspect ratio, medium, shot type, location, time, framing and subject position; describe visible cues rather than abstract claims.",
+                   "lighting_and_atmosphere":  "Specify physically plausible light direction, softness, color temperature, shadow behavior and environmental atmosphere.",
+                   "technical_specs":  "Define camera or render medium, lens/perspective, depth of field, texture, resolution, focus priority and strict artifact negatives.",
+                   "generated_prompt_string":  "Create a believable photorealistic image grounded in observable details: clearly adult subject or specified object, exact setting and time, intentional vertical composition, physically plausible lighting and materials, realistic skin or surface texture, accurate anatomy and hands, one priority focus, natural imperfections, no artificial CGI look, no text or watermark.",
+                   "negative_prompt":  "explicit, nsfw, overly revealing, exposed body, exposed breasts, exposed genitals, child, minor, plastic skin, CGI look, distorted anatomy, bad hands, extra limbs, warped perspective, watermark, text, logo",
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "framework",
+                                                                 "name":  "hyper-realistic-photo_0.jpg",
+                                                                 "required":  true,
+                                                                 "source":  "local asset",
+                                                                 "usage":  "Use for the source framework\u0027s realism cues and observable-detail priorities."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  "Attach the local asset as required. Use the framework to build a concrete prompt from the user\u0027s supplied subject, scene and reference; keep any identity clearly adult and do not reproduce celebrity likeness."
+                                          }
+               },
+    "policy_review":  {
+                          "status":  "pass",
+                          "changes":  [
+
+                                      ]
+                      }
+}

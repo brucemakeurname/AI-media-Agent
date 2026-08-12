@@ -1,0 +1,71 @@
+{
+  "name": "ysl-1936-fiery-era-brick-orange-lip-comparison",
+  "tag": [
+    "ysl",
+    "lipstick-shade",
+    "split-lips",
+    "fiery-era",
+    "brick-orange"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Before and after",
+  "group": "ysl_1333150862182955",
+  "prompt": {
+    "project_info": {
+      "theme": "Lip shade comparison for YSL The Slim",
+      "color_palette": "Bronze-gold gradient, nude beige skin tones, warm terracotta, burnt orange-red"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "Extreme close-up of a female mouth with slightly parted lips and white teeth, split vertically by a thin white divider line to compare two lipstick shades. Top headline reads '#1936 - FIERY ERA' and bottom copy reads 'ĐỎ CAM GẠCH CÁ TÍNH'.",
+      "style": "Luxury beauty macro, precise lipstick swatch-comparison poster, matte texture focused"
+    },
+    "composition_elements": {
+      "type": "Background Elements",
+      "text": "#1936 - FIERY ERA, ĐỎ CAM GẠCH CÁ TÍNH",
+      "items": [
+        "Top Left: Bronze gradient header field",
+        "Top Right: Large bold white typography '#1936 - FIERY ERA'",
+        "Bottom Left: Muted nude-terracotta matte lip tone on the left half",
+        "Bottom Right: Stronger burnt brick-orange matte lip tone on the right half",
+        "Center/Background: Full-frame lip macro with a thin vertical white comparison line and oversized white footer text 'ĐỎ CAM GẠCH CÁ TÍNH'"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio beauty lighting",
+      "effect": "Even frontal light, crisp matte lip texture, delicate skin detail, smooth tonal transitions, no dramatic shadowing"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal beauty macro advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury beauty shade-comparison poster for YSL. Centerpiece is an extreme close-up of a female mouth with slightly parted lips and visible white teeth, divided by a thin vertical white line to compare two matte lipstick tones. Left side is a softer nude-terracotta matte shade, right side is a more saturated burnt brick-orange matte shade. Include the exact text '#1936 - FIERY ERA' at the top and 'ĐỎ CAM GẠCH CÁ TÍNH' at the bottom in bold white typography. Background is a warm bronze-gold gradient field. Technical style: photoreal beauty macro advertising composite, soft studio beauty lighting, crisp matte lip texture and delicate skin detail, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Female lip macro reference",
+          "required": true,
+          "source": "original beauty close-up image",
+          "usage": "Preserve the exact mouth shape, visible teeth, fair skin texture, and tight crop"
+        },
+        {
+          "type": "product",
+          "name": "YSL lipstick shade #1936 Fiery Era",
+          "required": true,
+          "source": "real product shade reference",
+          "usage": "Match the burnt brick-orange result on the right side and the softer left comparison tone"
+        },
+        {
+          "type": "text_layout",
+          "name": "Comparison poster typography layout",
+          "required": true,
+          "source": "original poster layout",
+          "usage": "Keep the large top title, bottom descriptor line, and central divider composition"
+        }
+      ],
+      "prompt_instructions": "Maintain a cosmetic-comparison look with sharp lip texture and very clean typography. Do not stylize into editorial fashion imagery or change the central crop."
+    }
+  }
+}

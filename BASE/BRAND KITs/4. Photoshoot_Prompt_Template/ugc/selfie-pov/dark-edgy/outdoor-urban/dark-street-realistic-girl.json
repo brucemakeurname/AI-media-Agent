@@ -1,0 +1,40 @@
+{
+  "name": "dark-street-realistic-girl",
+  "tag": ["ugc", "selfie-pov", "dark-edgy", "outdoor-urban", "night-street", "leather-jacket", "cinematic"],
+  "image_type": "cinematic night street portrait",
+  "image_vibe": "moody, intense, dark, high-contrast, realistic",
+  "image_purpose": "social-media profile portrait",
+  "group": "selfie-pov/dark-edgy/outdoor-urban",
+  "prompt": {
+    "project_info": "Hyper-realistic ultra-detailed night street portrait of one clearly adult woman, with cinematic rim lighting, shallow depth of field, subtle film grain and realistic urban atmosphere.",
+    "main_subject": "One clearly adult woman with long wavy dark-brown hair, wearing a black leather jacket over a simple white T-shirt. She has a serious intense gaze directed slightly off-camera, natural anatomy and realistic skin texture. Use an original identity with no public-figure likeness.",
+    "composition_elements": "Frame the adult woman as the clear subject in a close portrait on a dark blurred city street at night. Keep the black leather jacket and white T-shirt readable while subtle neon reflections and distant urban forms establish the environment. Use cinematic profile emphasis without changing the source's serious expression or clothing.",
+    "lighting_and_atmosphere": "Use cinematic rim lighting to highlight the profile and hair, with moody high-contrast exposure, subtle neon reflections, realistic street shadows and restrained nocturnal color. Include slight 35mm film grain for raw texture.",
+    "technical_specs": "Photorealistic 8K-style portrait, high-end DSLR aesthetic, 85mm portrait lens, f/1.8 shallow depth of field, subtle film grain, realistic leather, cotton, hair and skin texture, no text, logo or watermark.",
+    "generated_prompt_string": "Hyper-realistic ultra-detailed portrait of one clearly adult woman with long wavy dark-brown hair, black leather jacket and simple white T-shirt, serious intense gaze directed slightly off-camera. Dark blurred city street at night with subtle neon reflections, cinematic rim light highlighting her profile, moody high-contrast atmosphere, photorealistic 8K-style detail, high-end DSLR aesthetic, 85mm lens, f/1.8 shallow depth of field, subtle film grain, realistic natural skin, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, distorted anatomy, extra fingers, malformed hands, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, random text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "dark-street-realistic-girl.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult dark-haired subject, black leather jacket, white T-shirt, serious gaze, blurred night street, neon reflections, rim light, high contrast and film grain; use the written street prompt as authoritative."
+        },
+        {
+          "type": "image_asset",
+          "name": "1774990719560-s554ta3r-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1774990719560-s554ta3r-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required and image asset is optional; it is not inspected. Keep the adult subject, clothing, serious gaze, night street, neon reflections, lighting and camera mood consistent. Do not add logos or text."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

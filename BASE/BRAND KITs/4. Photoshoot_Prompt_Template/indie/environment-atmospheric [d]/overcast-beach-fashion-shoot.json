@@ -1,0 +1,59 @@
+{
+  "name": "Overcast Seaside Tailoring Portrait",
+  "tag": "overcast-seaside-tailoring",
+  "image_type": "coastal_fashion_portrait",
+  "image_vibe": "cool_melancholic_editorial",
+  "image_purpose": "fashion_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Overcast Seaside Tailoring Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with long dark-brown waves, subtle smoky eye makeup, and a calm direct gaze.",
+      "wardrobe": "A fully buttoned relaxed white shirt, tailored black trousers, and a structured black blazer worn properly on both shoulders with simple silver jewelry.",
+      "pose_and_expression": "Standing beside a parked generic dark coupe, hands loosely clasped in front."
+    },
+    "composition_elements": {
+      "setting": "Quiet overcast beachside pull-off with sandy shoreline, gray-blue ocean, and a generic dark coupe with all badges removed.",
+      "framing": "Medium portrait, subject sharp and coast softly blurred.",
+      "text_and_brand_control": "No face lock, vehicle mark, plate, logo, or readable text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft diffused cloudy daylight with cool muted grade.",
+      "mood": "Serene, tailored, and contemplative."
+    },
+    "technical_specs": {
+      "camera_style": "natural DSLR fashion portrait",
+      "lens": "50mm equivalent",
+      "rendering": "Sharp hair and fabric, natural skin, gentle bokeh, accurate hands, and restrained detail."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical natural DSLR coastal fashion portrait of an adult woman with long dark-brown waves, subtle smoky eye makeup, and a calm direct gaze. She wears a fully buttoned relaxed white shirt, tailored black trousers, a structured black blazer worn properly on both shoulders, and simple silver jewelry. Stand her beside a parked generic dark coupe at a quiet overcast beachside pull-off with sandy shoreline and gray-blue ocean. Use medium framing, sharp subject, gently blurred coast, soft diffused cloudy daylight, cool muted grade, natural skin, detailed fabric and hair, accurate hands, and restrained detail. No face lock, vehicle badge, plate, logo, readable text, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, identity lock, explicit, nsfw, overly revealing clothing, open shirt, logo, car badge, license plate, readable text, watermark, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Identity references are optional and restricted to consenting adults. Vehicle, wardrobe, and beach references are replaceable; never preserve a face exactly or copy commercial marks.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult facial and hair traits only."
+        },
+        {
+          "type": "vehicle_reference",
+          "name": "dark_coupe_reference",
+          "required": false,
+          "source": "user-provided vehicle reference",
+          "usage": "Guide generic silhouette after removing badges and plates."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed maximum face preservation, clarified adult subject, and generalized the branded vehicle and wardrobe."
+  }
+}

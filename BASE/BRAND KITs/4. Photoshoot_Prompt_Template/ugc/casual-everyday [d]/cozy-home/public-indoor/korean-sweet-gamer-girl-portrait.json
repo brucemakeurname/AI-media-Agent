@@ -1,0 +1,28 @@
+{
+  "name": "korean-sweet-gamer-girl-portrait",
+  "tag": ["ugc", "casual-everyday", "cozy-home", "public-indoor", "gaming-portrait"],
+  "image_type": "gaming lifestyle portrait",
+  "image_vibe": "soft pink clean-girl gamer cozy",
+  "image_purpose": "UGC-style gaming profile and social portrait",
+  "group": "cozy-home/public-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic vertical gaming lifestyle portrait using the attached approved-adult face reference.",
+    "main_subject": "An original approved adult Korean woman with natural fair skin, blue eyes, long lashes, glossy gradient pink lips, and a messy high bun sits cross-legged in a pink-and-black gaming chair. She wears oversized black-framed glasses and a cozy pink fuzzy oversized sweater, looks at camera with sparkling eyes, and makes an L sign with both hands.",
+    "composition_elements": "Vertical 9:16 portrait, laptop in the foreground, soft gray background, hexagonal wall shelves filled with generic original dolls and plush toys, centered seated subject, clean-girl gaming room aesthetic.",
+    "lighting_and_atmosphere": "Warm soft indoor light with gentle facial highlights and soft background shadows, cozy playful atmosphere, natural skin texture and fabric fibers.",
+    "technical_specs": "Photorealistic smartphone portrait, vertical 9:16, natural perspective, subtle depth of field, restrained color grading, no cartoon or painting style, no artificial HDR look.",
+    "generated_prompt_string": "Photorealistic vertical 9:16 gaming lifestyle portrait of an original approved adult Korean woman using the attached adult face reference for identity consistency. She has natural fair skin, blue eyes, long lashes, glossy gradient pink lips, and a messy high bun. She sits cross-legged in a pink-and-black gaming chair wearing oversized black-framed glasses and a cozy pink fuzzy oversized sweater, looks directly at camera, and makes an L sign with both hands. A laptop sits in the foreground; soft gray background and hexagonal shelves with generic original dolls and plush toys create a clean-girl gaming room. Warm soft indoor lighting, natural texture, realistic smartphone portrait.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, copyrighted character dependence, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy, unreadable text",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved adult gamer face reference", "required": true, "source": "attached source image", "usage": "Preserve the adult face, facial structure, identity, hair, and likeness without celebrity or public-figure substitution."},
+        {"type": "environment", "name": "pink gaming room reference", "required": true, "source": "attached source image", "usage": "Match the chair, laptop, shelves, plush-doll arrangement, palette, and portrait framing."}
+      ],
+      "prompt_instructions": "Attach the required adult face reference and the room reference; they may be the same image. Preserve identity, face, outfit, chair, laptop, environment, and lighting. Logos, typography, products, dolls, and decorative graphics are replaceable; use original approved designs for replacements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Replaced absolute face-copy wording with approved-adult identity-reference instructions.", "Normalized the complexion description to natural fair skin.", "Added replaceable decorative-asset guidance and anti-slop exclusions."]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "nine-grid-fashion-touching-lens",
+  "tag": ["industry", "lookbook-line-sheet", "grid-collage", "wide-angle", "tailoring"],
+  "image_type": "nine-panel contemporary fashion contact sheet",
+  "image_vibe": "graphic, modern, playful, high-fashion",
+  "image_purpose": "editorial magazine collage and fashion campaign grid",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Create a 3x3 editorial fashion contact sheet of an adult model repeatedly reaching toward the camera lens.",
+    "main_subject": "An adult fictional woman with original non-celebrity features, sharp black bob haircut, white oval sunglasses, beige tailored suit over a red sweater vest and white shirt, and a confident contemporary expression.",
+    "composition_elements": "Nine aligned panels with front, side, top-down, back, and tilted angles; hand repeatedly reaches toward lens for strong depth and perspective distortion. Minimal neutral-gray studio backdrop, clean high-fashion styling.",
+    "lighting_and_atmosphere": "Soft diffused studio lighting, crisp focus, bold beige-red-white contrast, contemporary magazine atmosphere.",
+    "technical_specs": "3x3 square contact sheet, 35-50mm editorial lens look, ultra-sharp high-resolution photography, realistic hands and foreshortening, consistent color grade and panel spacing.",
+    "generated_prompt_string": "Editorial fashion 3x3 contact sheet of an adult fictional woman with original non-celebrity features, sharp black bob haircut, white oval sunglasses, beige tailored suit over a red sweater vest and white shirt, photographed in a minimalist studio with neutral gray backdrop. Nine aligned panels show varied front, side, top-down, back, and tilted angles while the subject repeatedly reaches her hand toward the camera lens, creating strong depth and perspective distortion. Clean high-fashion styling, soft diffused studio lighting, crisp focus, contemporary magazine aesthetic, 35-50mm lens look, ultra-sharp high resolution.",
+    "negative_prompt": ["celebrity likeness", "public figure likeness", "explicit", "nsfw", "overly revealing", "nudity", "blurry", "low quality", "distorted anatomy", "extra fingers", "fused hands", "warped sunglasses", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "logo", "text", "signature"],
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "nine-grid-fashion-touching-lens.jpg", "required": true, "source": "workspace reference image", "usage": "Reference the adult model, bob haircut, sunglasses, beige suit, red vest, nine-panel layout, hand perspective, and gray studio."}],
+      "prompt_instructions": "Attach the required reference image. Preserve identity, outfit, sunglasses, panel order, lens-reaching gesture, studio, and lighting consistently. Keep products, logos, and typography generic and replaceable."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

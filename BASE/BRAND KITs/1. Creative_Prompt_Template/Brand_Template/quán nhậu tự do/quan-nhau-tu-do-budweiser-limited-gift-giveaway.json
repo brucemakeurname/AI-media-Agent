@@ -1,0 +1,70 @@
+{
+  "name": "quan-nhau-tu-do-budweiser-limited-gift-giveaway",
+  "tag": [
+    "giveaway",
+    "brand-collab",
+    "budweiser",
+    "world-cup"
+  ],
+  "biz_niche": "Travel & Hospitality",
+  "content_format": "Competitions",
+  "group": "quan-nhau-tu-do_1625336192927409",
+  "prompt": {
+    "project_info": {
+      "theme": "Budweiser x Quán Nhậu Tự Do World Cup limited-edition gift giveaway poster",
+      "color_palette": "Solid red, white, black, multicolor product accents"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Promotional giveaway poster on solid red showing multiple limited-edition prizes including shirts, football, travel bag, glass set, and handheld fan, with a headline about buying Budweiser to get a chance to win gifts.",
+      "style": "Photorealistic product collage advertising, promotional campaign poster, clean e-commerce prize lineup"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "BIA CHÍNH THỨC CỦA FIFA WORLD CUP 2026™ / MUA 8 LON/CHAI HOẶC THÁP BUDWEISER NHẬN CƠ HỘI TRÚNG QUÀ TẶNG PHIÊN BẢN GIỚI HẠN / SET 2 LY BUDWEISER / ÁO THUN FIFA WORLD CUP / BÓNG ADIDAS FIFA WORLD CUP / TÚI DU LỊCH FIFA WORLD CUP / QUẠT CẦM TAY BUDWEISER / 09.07.2026 / 86 HỒNG TIẾN - LONG BIÊN - HÀ NỘI",
+      "items": [
+        "Top Left: FIFA icon, Budweiser logo, and Quán Nhậu Tự Do co-branding row.",
+        "Top Right: Empty red negative space behind the large white headline.",
+        "Bottom Left: Prize lineup beginning with a Budweiser glass set box and two T-shirts.",
+        "Bottom Right: Travel bag, handheld fan, branded packaging, and legal drinking icons/disclaimer.",
+        "Center/Background: Adidas FIFA World Cup football and black presentation box placed among all giveaway items, with bottom date and location '09.07.2026 / 86 HỒNG TIẾN - LONG BIÊN - HÀ NỘI'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Studio lighting",
+      "effect": "Even commercial illumination, crisp product edges, clean retail poster readability"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product advertising photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Budweiser x Quán Nhậu Tự Do World Cup limited-edition gift giveaway poster. Centerpiece is a neatly arranged lineup of giveaway products including two shirts, an Adidas FIFA World Cup ball, a black Adidas box, a travel bag, a glass set, and a handheld fan on a solid red background. Background is minimal and branded for retail clarity. Surrounding elements: top co-branding row, exact headline 'MUA 8 LON/CHAI HOẶC THÁP BUDWEISER NHẬN CƠ HỘI TRÚNG QUÀ TẶNG PHIÊN BẢN GIỚI HẠN', prize labels across the middle, and bottom text '09.07.2026' and '86 HỒNG TIẾN - LONG BIÊN - HÀ NỘI'. Technical style: photorealistic product advertising photography, studio lighting, crisp product edges and readable retail composition, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "FIFA, Budweiser, and Quán Nhậu Tự Do logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Preserve the exact co-branding arrangement."
+        },
+        {
+          "type": "product",
+          "name": "full giveaway item lineup",
+          "required": true,
+          "source": "official prize packshots or original poster assets",
+          "usage": "Keep all products recognizable, including the shirts, football, bag, fan, and glass set."
+        },
+        {
+          "type": "text_layout",
+          "name": "headline, prize labels, and event details",
+          "required": true,
+          "source": "original creative",
+          "usage": "Retain exact wording, date, location, and category labels beneath each prize."
+        }
+      ],
+      "prompt_instructions": "Use refs for every prize item and the text layout. This creative is product-dense, so maintain the exact spacing and order of the prize lineup instead of simplifying it."
+    }
+  }
+}

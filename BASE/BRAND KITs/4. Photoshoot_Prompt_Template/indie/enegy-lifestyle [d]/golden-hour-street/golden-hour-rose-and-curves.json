@@ -1,0 +1,75 @@
+{
+  "name": "golden-hour-rose-and-curves",
+  "tag": [
+    "red-rose",
+    "golden-hour",
+    "black-fashion",
+    "low-angle",
+    "blue-sky"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "bold-sunlit-glamour",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/golden-hour-street",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Retained the rose, black fashion, low-angle, and golden-hour concept while removing lingerie, thigh-high styling, and body-part-focused sensual framing."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "bold golden-hour fashion portrait with a single red rose against open sky",
+      "color_palette": "black, saturated red, clear blue, and warm gold",
+      "format": "vertical 2:3 full-length editorial portrait"
+    },
+    "main_subject": {
+      "description": "an adult woman with long sunlit blonde hair and a curvy feminine silhouette, wearing a fitted black fashion set with a flattering neckline and high-waisted styling",
+      "pose_and_expression": "standing confidently and holding one red rose at chest level, with a calm direct expression"
+    },
+    "composition_elements": {
+      "camera_angle": "low-angle full-length fashion framing with a balanced, non-body-focused perspective",
+      "foreground": "the red rose and the clean graphic silhouette of the black outfit",
+      "background": "expansive cloudless blue sky and soft sun flare at frame edge",
+      "visual_hierarchy": "rose and face first, tailored silhouette second, sky and golden flare last"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "strong natural golden-hour side and rim light, with sunlight gently highlighting her shoulders and chest area through the fitted black outfit",
+      "atmosphere": "confident, graphic, sun-warmed, and contemporary"
+    },
+    "technical_specs": {
+      "camera": "Canon EOS R5",
+      "lens": "28mm f/2.8",
+      "settings": "1/1000s, f/4, ISO 100",
+      "rendering": "crisp editorial detail, clean blue sky, controlled sun flare, subtle fine grain"
+    },
+    "generated_prompt_string": "A confident adult woman with long sunlit blonde hair and a curvy feminine silhouette stands at golden hour in a fitted black fashion set with a flattering neckline and high-waisted styling, holding a single saturated red rose. Shoot a balanced low-angle full-length fashion portrait against an expansive clear blue sky; keep the rose and her calm direct expression as the focal point, with a clean graphic black silhouette, sunlight gently highlighting her shoulders and chest area through the outfit, controlled lens flare, crisp editorial detail, and subtle fine film grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, lingerie, underwear, thong, thigh-high stockings, exposed buttocks, sexualized pose, body-part emphasis, nudity, distorted anatomy, extra fingers, text, watermark, logo",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized adult fashion-subject reference",
+          "required": false,
+          "source": "approved adult non-public-figure reference image",
+          "usage": "Match identity, hairstyle, and general styling only when an approved adult non-public-figure reference is supplied."
+        },
+        {
+          "type": "prop",
+          "name": "single red rose",
+          "required": false,
+          "source": "replaceable prop reference",
+          "usage": "Use an approved reference to match the rose variety, color, and wrapping if required."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black tailored fashion set",
+          "required": false,
+          "source": "replaceable wardrobe reference",
+          "usage": "Replace the outfit with an approved wardrobe reference while retaining covered editorial styling."
+        }
+      ],
+      "prompt_instructions": "Preserve the adult rose-in-black fashion concept, low-angle graphic composition, blue sky, and golden-hour light; substitute only approved reference elements."
+    }
+  }
+}

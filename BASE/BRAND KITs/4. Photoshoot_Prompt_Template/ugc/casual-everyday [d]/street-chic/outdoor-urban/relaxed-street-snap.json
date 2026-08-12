@@ -1,0 +1,19 @@
+{
+  "name": "relaxed-street-snap",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "graffiti-alley", "band-tee"],
+  "image_type": "graffiti-alley-streetwear-portrait",
+  "image_vibe": "relaxed-confident-cinematic",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a hyper-realistic streetwear portrait of an approved adult man standing in a narrow graffiti-covered urban alley.",
+    "main_subject": "An approved adult man wearing an oversized dark charcoal graphic band T-shirt, light-blue distressed jeans with ripped knees, and worn grey low-top sneakers. One hand rests in his jeans pocket while the other lifts casually near his face.",
+    "composition_elements": "Centered vertical portrait with colorful graffiti on both walls, narrow alley perspective, strong background depth, cinematic bokeh, and realistic worn surfaces.",
+    "lighting_and_atmosphere": "Natural urban daylight with realistic contrast, relaxed street-style attitude, detailed cotton, denim, sneaker, brick, and graffiti texture.",
+    "technical_specs": "Photorealistic DSLR-style vertical portrait, shallow depth of field, sharp subject, natural proportions, realistic print texture.",
+    "generated_prompt_string": "Create a hyper-realistic vertical streetwear portrait of an approved adult man standing confidently in a narrow urban alley covered with colorful graffiti. He wears an oversized dark charcoal graphic band T-shirt, light-blue distressed ripped-knee jeans, and worn grey low-top sneakers. One hand rests in his front pocket and the other lifts near his face. Use realistic alley depth, colorful walls, cinematic bokeh, natural daylight, detailed fabric and print texture, and relaxed street attitude. Preserve shirt typography only with an explicit text-layout reference.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, invented or altered band text, extra fingers, deformed hands, distorted architecture",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-graffiti-alley-subject", "required": true, "source": "relaxed-street-snap.jpg", "usage": "Preserve adult identity, expression, hand positions, and street pose."}, {"type": "wardrobe", "name": "charcoal-graphic-tee-distressed-jeans", "required": true, "source": "relaxed-street-snap.jpg", "usage": "Keep T-shirt, jeans, sneakers, and styling consistent; replace only with explicit references."}, {"type": "location", "name": "narrow-colorful-graffiti-alley", "required": true, "source": "relaxed-street-snap.jpg", "usage": "Maintain graffiti walls, alley depth, daylight, and surfaces; replace only with explicit references."}, {"type": "text_layout", "name": "band-shirt-typography", "required": false, "source": "relaxed-street-snap.jpg", "usage": "Attach only when supplied shirt lettering must be retained; do not invent or alter text."}], "prompt_instructions": "Attach person, wardrobe, location, and optional text-layout references when exact consistency is required. Keep adult identity, outfit, product, logo, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced exact-face wording with approved-adult identity handling and controlled shirt typography.", "Added safe negative prompts and structured references."]}
+}

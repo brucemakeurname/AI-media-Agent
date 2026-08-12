@@ -1,0 +1,60 @@
+{
+  "name": "fashion-model-on-lens",
+  "tag": ["adult-woman", "camera-lens", "focus-campaign", "triptych-product-visual", "technical-fashion", "black-studio"],
+  "image_type": "triptych-camera-product-campaign",
+  "image_vibe": "precise-modern-athletic",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the model as an adult and used feminine-silhouette, fitted-athletic-wear, and directional-light language while preserving the camera-lens sculpture, three-panel composition, white outfit, FOCUS/PRECISION typography, and product focus."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "luxury technology fashion campaign built around a professional telephoto lens",
+      "color_palette": "deep black, white, graphite gray, silver lens metal, and subtle red accent rings",
+      "aspect_ratio": "1:1"
+    },
+    "main_subject": {
+      "description": "An adult woman with a feminine athletic silhouette, sleek ponytail, natural skin texture, and calm confident sideward gaze.",
+      "wardrobe": "White fitted athletic crop top with a high neckline, white tailored performance shorts, white socks, and clean white sneakers.",
+      "pose": "Triptych sequence: top panel seated confidently on a horizontal oversized telephoto lens with one knee bent; lower-left panel reclining along the lens; lower-right panel standing beside a vertical lens with one arm resting on the camera body.",
+      "styling": "Technical fashion editorial with refined athletic polish and minimal accessories."
+    },
+    "composition_elements": {
+      "framing": "Square triptych product composition with one wide top panel and two lower panels, clean borders, and reflective studio floor.",
+      "environment": "Minimal dark studio with glossy black or graphite background, silver and black professional camera lenses and body, and large typography integrated into the space.",
+      "typography": "Top panel: FOCUS and SEE MORE. CREATE MORE. Lower-left: VISION and FOCUS BEYOND LIMITS. Lower-right: PRECISION and DETAILS DEFINE GREATNESS. Render text accurately and legibly.",
+      "focus": "Sharp adult subject, lens glass and barrel textures, camera controls, white athletic outfit, floor reflections, and clean graphic typography."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Cinematic studio lighting with soft highlights on metal and glass, deep controlled shadows, and realistic reflections beneath the product and subject.",
+      "atmosphere": "Precise, premium, technical, modern, and quietly athletic."
+    },
+    "technical_specs": {
+      "camera": "Full-frame commercial camera with a 50mm lens at f/5.6, 1/200 s, ISO 100",
+      "quality": "Ultra-realistic high-resolution product campaign, crisp lens and fabric detail, clean triptych alignment, glossy reflections, and print-ready typography"
+    },
+    "generated_prompt_string": "Create a premium 1:1 triptych camera-product fashion campaign in a minimal dark studio. Feature one adult woman with a feminine athletic silhouette, sleek ponytail, natural skin texture, and calm sideward gaze, wearing a white fitted high-neck athletic crop top, white tailored performance shorts, white socks, and clean white sneakers. In the wide top panel, seat her confidently on a horizontal oversized professional telephoto lens with one knee bent. In the lower-left panel, show her reclining along the lens beside giant VISION typography. In the lower-right panel, show her standing beside a vertical lens with one arm resting on the camera body beside PRECISION typography. Add accurate copy FOCUS, SEE MORE. CREATE MORE., FOCUS BEYOND LIMITS., and DETAILS DEFINE GREATNESS., with silver-black lens materials, deep controlled shadows, glossy floor reflections, and no watermark or extra text.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, wardrobe malfunction, illegible text, distorted lens geometry, extra fingers, deformed anatomy, plastic skin, watermark, cluttered triptych, flat lighting",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult model. Optional outfit, lens, camera body, typography, studio, or lighting references may replace only their named element; preserve fitted athletic coverage, feminine silhouette, three-panel composition, product scale, and exact copy.",
+      "assets": [
+        {
+          "type": "product",
+          "name": "professional-telephoto-lens-and-camera-body",
+          "required": false,
+          "source": "user-uploaded product reference",
+          "usage": "Replace only the lens model, barrel finish, glass, or camera body while preserving the triptych product-dominant composition."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white-fitted-athletic-fashion-look",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the adult subject's top, shorts, socks, or shoes while preserving clean athletic coverage and white palette."
+        }
+      ]
+    }
+  }
+}

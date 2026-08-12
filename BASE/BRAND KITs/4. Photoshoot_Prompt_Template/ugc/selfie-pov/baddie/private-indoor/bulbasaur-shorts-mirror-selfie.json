@@ -1,0 +1,25 @@
+{
+  "name": "bulbasaur-shorts-mirror-selfie",
+  "tag": ["ugc", "selfie-pov", "mirror", "anime-room", "graphic-shorts"],
+  "image_type": "UGC bedroom mirror selfie",
+  "image_vibe": "playful, personalized, colorful, spontaneous",
+  "image_purpose": "Character-fandom outfit post and bedroom lifestyle visual",
+  "group": "ugc/selfie-pov/baddie/private-indoor",
+  "prompt": {
+    "project_info": "Create a candid vertical mirror selfie in a cluttered personalized bedroom with a playful creature graphic on the shorts.",
+    "main_subject": "One approved adult woman with long black wavy hair, holding a smartphone with a colorful cartoon-patterned case that partially covers her face. She wears a black strapless tube top, a delicate silver pendant necklace, and vivid green high-waisted athletic shorts with the exact smiling green creature graphic visible in the reference.",
+    "composition_elements": "Vertical 2:3 mirror selfie with the subject centered, one arm lightly crossing the midriff and the circular mirror frame visible. Reflect the entire room: pink-and-white patterned duvet, pink sticker-covered locker cabinet, framed anime-style posters, scattered clothes, boxes, boots, miscellaneous items, and a doorway on the right.",
+    "lighting_and_atmosphere": "Natural ambient daylight mixed with indoor room light, even realistic exposure, colorful personalized bedroom atmosphere, spontaneous unedited social-media aesthetic.",
+    "technical_specs": "Smartphone mirror-selfie look, 2:3 vertical framing, realistic room clutter, skin, hair, fabric and graphic-print detail, subtle digital grain, accurate mirror reflection.",
+    "generated_prompt_string": "A candid vertical 2:3 mirror selfie of one approved adult woman with long black wavy hair holding a smartphone with a colorful cartoon-patterned case that partially covers her face. She wears a black strapless tube top, a delicate silver pendant necklace, and vivid green high-waisted athletic shorts with the exact smiling green creature graphic visible in the reference. One arm crosses lightly over the midriff. A circular mirror reflects the entire cluttered personalized bedroom: pink-and-white patterned duvet, pink sticker-covered locker cabinet, framed anime-style posters, scattered clothes, boxes, boots, miscellaneous items, and a doorway on the right. Natural ambient light mixed with indoor light, realistic colors and textures, accurate reflection, and spontaneous unedited smartphone realism.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, explicit body-part emphasis, child or teen appearance, celebrity likeness, altered reference graphic, invented logos, random text, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, broken reflection, distorted hands, extra fingers, deformed, watermark, low resolution, blur",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "bulbasaur-shorts-mirror-selfie.jpg", "required": true, "source": "local approved subject, outfit, room, and graphic reference", "usage": "Preserve approved adult identity, hair, phone case, outfit colors, creature graphic, circular mirror, bedroom clutter, posters, and lighting."},
+        {"type": "graphic", "name": "bulbasaur-shorts-mirror-selfie.jpg", "required": false, "source": "visible shorts graphic in local reference", "usage": "Preserve the supplied green creature graphic exactly when attached; do not invent replacement logos or text."}
+      ],
+      "prompt_instructions": "Attach the required combined reference; the graphic crop is optional when the exact shorts print must be retained. Preserve identity, outfit, graphic, phone case, reflection, room environment, and lighting. Posters and clutter may be replaced while retaining the personalized bedroom feel. Any replacement person must be an approved adult."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and replaced exaggerated body-emphasis wording with natural proportions while preserving the graphic-shorts bedroom selfie concept."]}
+}

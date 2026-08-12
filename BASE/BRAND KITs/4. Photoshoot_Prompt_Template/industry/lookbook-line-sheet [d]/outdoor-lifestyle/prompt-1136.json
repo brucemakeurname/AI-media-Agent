@@ -1,0 +1,22 @@
+{
+  "name": "prompt-1136",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "menswear", "birdseye"],
+  "image_type": "overhead urban menswear portrait",
+  "image_vibe": "polished, cinematic, classic, urban",
+  "image_purpose": "menswear lookbook and high-fashion street editorial",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a high-angle bird's-eye menswear portrait of one approved adult man standing beside a polished black luxury sports car on a city street.",
+    "main_subject": "Stylish adult man looking directly up toward camera, wearing the approved dark overcoat reference over a beige buttoned cardigan, white dress shirt, and black polka-dot tie, with tailored cream trousers and dark brown leather brogues. He wears a white wool flat cap, thick black sunglasses, and cream knitted gloves while putting them on.",
+    "composition_elements": ["High-angle bird's-eye view looking vertically down.", "Subject standing on dark asphalt beside a sleek polished black luxury sports car.", "Cobblestone pavement edge and urban street texture.", "Keep the gloves, cap, sunglasses, layered tailoring, car, and direct upward gaze clearly visible."],
+    "lighting_and_atmosphere": "Soft natural daylight, gentle cinematic contrast, polished urban atmosphere, and refined classic fashion mood.",
+    "technical_specs": "8K photorealistic street photography, high-angle perspective, sharp focus, realistic tailoring, leather, wool, asphalt, and car reflections, no text or watermark.",
+    "generated_prompt_string": "High-angle bird's-eye view shot looking down at a stylish adult man standing on a dark asphalt city street and looking directly up into the camera. He stands next to a sleek polished black luxury sports car. He wears the approved dark overcoat reference, a beige buttoned cardigan over a white dress shirt, and a black polka-dot tie, with tailored cream-colored trousers and dark brown leather brogues. He wears a white wool flat cap and thick black sunglasses and is in the process of putting on cream-colored knitted gloves. Urban environment, cobblestone pavement edge, soft natural daylight, cinematic street photography, high-fashion editorial style, sharp focus, 8K resolution, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "distorted anatomy", "extra fingers", "inconsistent identity", "warped vehicle", "plastic skin", "over-smooth", "over-saturated", "HDR look", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "prompt-1136.jpg", "required": true, "source": "local reference image", "usage": "Attach for adult identity, face, pose, and menswear styling reference."}, {"type": "wardrobe", "name": "dark overcoat and layered tailoring", "required": true, "source": "local reference image", "usage": "Preserve coat silhouette, cardigan, shirt, tie, trousers, cap, sunglasses, gloves, and shoes."}, {"type": "location", "name": "black luxury sports car and asphalt street", "required": true, "source": "local reference image", "usage": "Preserve car, pavement, overhead viewpoint, and urban context."}],
+      "prompt_instructions": "Attach the required approved-adult identity, wardrobe, and scene references. Preserve face, facial structure, coat, layered menswear, accessories, car, asphalt, overhead camera, and daylight. Replace the identity only with another approved-adult reference while keeping wardrobe and environment consistent; no celebrity likeness, logos, or typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

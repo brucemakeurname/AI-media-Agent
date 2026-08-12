@@ -1,0 +1,73 @@
+{
+  "name": "vintage-newspaper-fashion",
+  "tag": [
+    "adult-woman",
+    "newspaper-room",
+    "red-top",
+    "white-skirt",
+    "red-sneakers",
+    "fashion-editorial"
+  ],
+  "image_type": "fashion-studio-portrait",
+  "image_vibe": "graphic-vintage-playful",
+  "image_purpose": "editorial",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the subject is an adult.",
+      "Specified abstract, unreadable newspaper-like print to avoid unintended readable text."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "high-fashion studio portrait in a compact newspaper-papered cube",
+      "color_palette": "newsprint gray, beige, bright red, clean white, black",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with loose dark wavy hair, black cat-eye sunglasses, a fitted opaque red top, a white skirt, and red-and-white canvas sneakers.",
+      "style": "confident seated studio fashion portrait with natural skin texture"
+    },
+    "composition_elements": {
+      "text": "Newspaper-like layouts must remain abstract and unreadable; no logo or rendered text.",
+      "items": [
+        "adult woman seated centrally on a modern beige chair",
+        "compact cube room covered on walls, ceiling, and floor with grayscale newspaper-like print",
+        "one hand lightly touching hair and the other resting on the chair",
+        "legs crossed with red-and-white sneakers prominent in foreground",
+        "symmetrical box perspective and direct fashion-editorial gaze"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "large soft studio key at approximately 4800K with gentle front fill and controlled shadow falloff",
+      "effect": "clean vivid red-and-white wardrobe contrast against tactile monochrome paper surfaces"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera, 35mm lens at f/4, centered architectural perspective, subtle grain, sharp fabric and paper texture",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "A high-fashion studio photoshoot of an adult woman sitting confidently on a modern beige chair inside a compact cube room fully covered with vintage newspaper-like print. The paper layouts are grayscale, abstract, and unreadable. She wears a fitted opaque red top, white skirt, red-and-white canvas sneakers, and black cat-eye sunglasses, with loose dark wavy hair. Give her a relaxed pose with one hand touching her hair, legs crossed, and sneakers visible in the foreground. Use cinematic soft studio lighting, centered box perspective, ultra-realistic fashion photography, sharp tactile detail, natural skin texture, and portrait 4:5 framing. No readable text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, readable newspaper text, logo, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, warped room geometry",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "red-top-white-skirt-red-sneakers-reference",
+          "required": false,
+          "source": "Attach wardrobe references when exact garment construction or sneaker design must match.",
+          "usage": "Keep red-and-white wardrobe hierarchy and black sunglasses; individual pieces may be replaced."
+        },
+        {
+          "type": "background",
+          "name": "abstract-newspaper-cube-reference",
+          "required": false,
+          "source": "Attach a texture reference when paper density or room geometry must match.",
+          "usage": "Keep the all-surface newspaper-like cube while preventing readable text; print texture may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve the clearly adult seated fashion subject, beige chair, compact newspaper-print cube, red top, white skirt, red sneakers, and non-readable paper texture. Wardrobe and background can be replaced independently."
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "vfe-da-nang-student-showcase-august-2026",
+  "tag": [
+    "vfe",
+    "da-nang",
+    "student-showcase",
+    "august-2026",
+    "testimonials"
+  ],
+  "biz_niche": "Education",
+  "content_format": "Testimonials",
+  "group": "vfe_1482832547209433",
+  "prompt": {
+    "project_info": {
+      "theme": "Da Nang event teaser featuring successful student examples",
+      "color_palette": "White, Navy Blue, Red, Sky Blue, Sunset Orange"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A multi-card student showcase poster for the Đà Nẵng stop of the VFE Du học Pháp 2027 series, combining a main city-ticket card with three student profile cards highlighting admissions to Audencia Business School, INSA Lyon, and ENSA de Clermont-Ferrand.",
+      "style": "Dynamic grid-based event teaser with school-logo overlays, city travel visuals, and testimonial-card collage design."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nBạn có hẹn với\nĐÀ NẴNG\nTINH HOA HỘI TỤ\nNƯỚC PHÁP RẤT YÊU\nĐÀ NẴNG 8h30 Thứ bảy 01/08/2026\nTUỆ LÂM\nTHPT Phan Châu Trinh\nTân sinh viên ngành Quản trị tại Audencia Business School\nNAM AN\nTHPT Chuyên Lê Quý Đôn\nTân sinh viên chương trình Kỹ sư tại INSA Lyon\nMAI PHƯƠNG\nTHPT Chuyên Lê Quý Đôn\nSinh viên ngành Kiến trúc tại ENSA de Clermont-Ferrand\nQUỐC VIỆT\nTHPT Chuyên Lê Quý Đôn\nTân sinh viên chương trình Kỹ sư tại INSA Lyon",
+      "items": [
+        "Top Left: Large invitation headline 'Bạn có hẹn với ĐÀ NẴNG' and slogan lines beneath.",
+        "Top Right: Main testimonial card of Tuệ Lâm with Audencia Business School logo.",
+        "Bottom Left: Nam An profile card with INSA Lyon logo.",
+        "Bottom Right: Quốc Việt profile card with INSA Lyon logo, while Mai Phương appears in the lower center with ENSA logo.",
+        "Center/Background: Tilted Đà Nẵng event ticket card with Dragon Bridge image, QR code, and the event date 01/08/2026, framed by checkerboard red-blue borders."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright campaign-card lighting",
+      "effect": "Clean portrait visibility, crisp school-logo overlays, and energetic event-teaser contrast."
+    },
+    "technical_specs": {
+      "render_style": "Collage testimonial event teaser poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality testimonial collage poster for the Đà Nẵng stop of the VFE Du học Pháp 2027 series. Centerpiece is a tilted Đà Nẵng event ticket card with Dragon Bridge image, QR code, and the date 01/08/2026, surrounded by four student showcase cards highlighting Tuệ Lâm, Nam An, Mai Phương, and Quốc Việt. Background is a clean white campaign layout with checkerboard French-color borders and VFE branding. Surrounding elements: school logos for Audencia Business School, INSA Lyon, and ENSA de Clermont-Ferrand, plus the headline 'Bạn có hẹn với ĐÀ NẴNG'. Technical style: collage testimonial event teaser poster, bright campaign-card lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE and partner school logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Place VFE in multiple corners and school logos inside each student card."
+        },
+        {
+          "type": "person",
+          "name": "Four student portrait cards",
+          "required": true,
+          "source": "source portrait references from current creative",
+          "usage": "Preserve each student's face, card framing, and associated school outcome."
+        },
+        {
+          "type": "location",
+          "name": "Da Nang Dragon Bridge event ticket image",
+          "required": true,
+          "source": "city landmark photo reference",
+          "usage": "Use inside the tilted event ticket card."
+        },
+        {
+          "type": "text_layout",
+          "name": "Da Nang showcase grid layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep the exact card positions, border pattern, event date, and school-result captions."
+        }
+      ],
+      "prompt_instructions": "The date '01/08/2026' is in the future relative to Friday, July 17, 2026, so preserve it as an upcoming stop. Keep each student-school pairing exact because this creative works as social proof."
+    }
+  }
+}

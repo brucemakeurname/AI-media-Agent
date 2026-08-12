@@ -1,0 +1,22 @@
+{
+  "name": "summer-beverage-ad-photo-of-young-woman",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "beverage-ad", "summer"],
+  "image_type": "commercial beverage lifestyle portrait",
+  "image_vibe": "fresh, vibrant, sunny, playful",
+  "image_purpose": "beverage advertising and summer campaign visual",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a vibrant summer commercial lifestyle portrait of one approved adult woman holding the supplied LimeLift beverage can against a turquoise wall.",
+    "main_subject": "Approved adult woman with hair in a messy bun, wearing a light-green blazer, white crop top, denim jeans, green sunglasses, and matching green earrings. She smiles while looking sideways and holds a slim can labeled 'LIMELIFT – Sparkling Citrus Fizz Lemon Lime'.",
+    "composition_elements": ["Medium commercial portrait with the can clearly visible.", "Turquoise textured wall behind the subject.", "Tropical palm-leaf shadows cast across the wall.", "Fresh citrus green-and-white palette, natural confident smile, and product held upright."],
+    "lighting_and_atmosphere": "Bright natural sunlight with sharp palm shadows, crisp product highlights, fresh citrus color treatment, and polished commercial atmosphere.",
+    "technical_specs": "Ultra-realistic high-detail advertising photography, 85mm lens, shallow depth of field, realistic product label, skin, fabric, and wall texture, no extra text or watermark.",
+    "generated_prompt_string": "A vibrant summer lifestyle advertising photoshoot of an approved adult woman with hair in a messy bun, wearing a light-green blazer, white crop top and denim jeans, accessorized with green sunglasses and matching earrings. She smiles while looking sideways and holds a slim beverage can labeled 'LIMELIFT – Sparkling Citrus Fizz Lemon Lime'. She stands against a turquoise wall with tropical palm-leaf shadows cast across it. Bright natural sunlight, sharp shadows, fresh citrus color palette, ultra-realistic high detail, commercial advertising style, 85mm lens, shallow depth of field, realistic product label, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "warped can", "unreadable product label", "distorted anatomy", "extra fingers", "inconsistent identity", "plastic skin", "over-smooth", "over-saturated", "HDR look", "watermark", "unwanted text", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "summer-beverage-ad-photo-of-young-woman.jpg", "required": true, "source": "local reference image", "usage": "Attach for approved-adult identity, styling, pose, and lighting reference."}, {"type": "product", "name": "LIMELIFT – Sparkling Citrus Fizz Lemon Lime can", "required": true, "source": "local reference image", "usage": "Preserve can shape, color, label wording, and hand placement."}, {"type": "background", "name": "turquoise wall with palm shadows", "required": true, "source": "local reference image", "usage": "Preserve wall color, texture, and shadow pattern."}],
+      "prompt_instructions": "Attach the required adult, product, and background references. Preserve the adult subject, outfit, green accessories, can label, turquoise wall, palm shadows, sunlight, and commercial composition. Product typography must remain exactly as supplied; replace only with an equivalent approved product reference. No celebrity likeness or unrelated logos."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the source's young-woman wording as an approved adult while preserving the commercial beverage concept and outfit."]}
+}

@@ -1,0 +1,75 @@
+{
+  "name": "silk-lounging-beauty",
+  "tag": [
+    "adult-woman",
+    "red-satin-pajamas",
+    "bedroom-lifestyle",
+    "morning-light",
+    "cozy-editorial"
+  ],
+  "image_type": "indoor-lifestyle-portrait",
+  "image_vibe": "cozy-soft-morning",
+  "image_purpose": "moodboard",
+  "group": "indie/enegy-lifestyle/luxury-editorial",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named-celebrity likeness, open pajama shirt, exposed midriff, and waist-chain focus with an original adult model in a fully buttoned satin pajama set and relaxed non-sexualized lounging pose."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "soft morning lifestyle portrait in a tidy bedroom",
+      "color_palette": "soft red, blush pink, beige, cream, blue cuffs, and dark piping",
+      "format": "vertical mid-length portrait"
+    },
+    "main_subject": {
+      "description": "an original adult woman with medium-length damp-looking dark-brown hair, natural makeup, and a fully buttoned soft-red satin pajama shirt with dark piping and blue cuffs, paired with matching loose satin pants",
+      "pose_and_expression": "reclining comfortably against pillows with one arm bent behind her head and the other resting on the bedding, soft closed-mouth smile toward camera"
+    },
+    "composition_elements": {
+      "camera_angle": "slightly elevated front mid-length portrait",
+      "foreground": "soft red satin pajama texture and cream bedding",
+      "background": "upholstered padded headboard, multiple beige and cream pillows, and a clean light-beige bedroom wall",
+      "visual_hierarchy": "adult subject expression, satin pajama texture, then calm bedroom layers"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "soft diffused natural or indoor light from front-left with gentle even shadows",
+      "atmosphere": "relaxed, cozy, tidy, and quietly editorial"
+    },
+    "technical_specs": {
+      "camera": "Fujifilm GFX100 II",
+      "lens": "80mm f/1.7",
+      "settings": "1/160s, f/2.5, ISO 320",
+      "rendering": "natural skin texture, realistic satin sheen, soft matte bedding, warm gentle grade, fine grain"
+    },
+    "generated_prompt_string": "A soft indoor lifestyle portrait of an original adult woman reclining comfortably on an upholstered bed. She has medium-length damp-looking dark-brown hair and wears a fully buttoned soft-red satin pajama shirt with dark piping and blue cuffs, paired with matching loose satin pants. One arm bends comfortably behind her head while the other rests on the bedding; she gives a soft closed-mouth smile toward the camera. Include a padded fabric headboard, beige and cream pillows, light neutral bedding, and a clean warm-beige bedroom. Use a slightly elevated front mid-length composition, soft diffused front-left light, realistic satin texture, natural skin, warm soft tones, and a neat uncluttered editorial lifestyle aesthetic.",
+    "negative_prompt": "minor, celebrity likeness, named-person likeness, explicit, nsfw, overly revealing, open shirt, exposed midriff, waist chain, sexualized lounging pose, nudity, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-bedroom-model-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity and hairstyle only; do not imitate a named public figure."
+        },
+        {
+          "type": "wardrobe",
+          "name": "satin-pajama-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Match fully buttoned pajamas, piping, cuffs, and colors when supplied."
+        },
+        {
+          "type": "location",
+          "name": "bedroom-reference",
+          "required": false,
+          "source": "approved location reference",
+          "usage": "Match headboard, pillow palette, and bedding texture when supplied."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult subject, buttoned red satin pajamas, cushioned bed, soft morning light, and cozy calm mood; replace only approved identity, wardrobe, or room elements."
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "red-rose-garden-white-lace-portrait",
+  "tag": ["adult-woman", "face-reference", "rose-garden", "white-lace-dress", "wicker-basket", "editorial"],
+  "image_type": "fashion-lookbook",
+  "image_vibe": "romantic-garden",
+  "image_purpose": "editorial",
+  "group": "indie/low-fi-dreamy/soft-ethereal",
+  "prompt": {
+    "project_info": "A reference-locked high-end rose-garden fashion editorial designed for controlled pose replacement.",
+    "main_subject": "The approved adult woman from the supplied identity reference: preserve the exact face, facial structure, likeness, hairstyle, hair color, adult proportions, expression unless a change is explicitly requested, white lace halter-neck dress with opaque lining, white gloves, and white lace stockings.",
+    "composition_elements": "Outdoor rose garden full of vibrant red roses under soft daylight and clear blue sky. Preserve wicker basket full of red roses, rose count, camera lens, framing, background, and overall aesthetic. Replace only the original pose with [NEW POSE DESCRIPTION HERE].",
+    "lighting_and_atmosphere": "Soft natural daylight, shallow depth of field, soft color grading, cinematic but natural rose-garden atmosphere, realistic skin and fabric detail.",
+    "technical_specs": "High-end photorealistic editorial photography, portrait composition, shallow depth of field, natural skin texture, realistic lace, basket, and rose detail.",
+    "generated_prompt_string": "Using the provided approved adult reference image, keep the same person, same face, facial structure, likeness, hairstyle, hair color, adult proportions, accessories, environment, lighting, camera lens, framing, background, and overall aesthetic exactly consistent with the reference. The setting remains an outdoor rose garden filled with vibrant red roses under soft natural daylight and a clear blue sky. The subject wears the same white lace halter-neck dress with opaque lining, white gloves, and white lace stockings, holding the same wicker basket filled with red roses. The only change is the pose: replace the original pose with [NEW POSE DESCRIPTION HERE]. Do not add or remove roses. Do not change the facial expression unless explicitly stated. Do not change clothing, accessories, or environment. Photorealistic high-end editorial photography, shallow depth of field, natural skin texture, realistic fabric detail, soft color grading, cinematic yet natural look.",
+    "negative_prompt": "explicit, nsfw, overly revealing, transparent clothing, sexualized pose, body-part emphasis, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "The approved adult face/identity reference is required: preserve face, facial structure, likeness, hair, adult proportions, and expression unless an explicit change is supplied. Wardrobe, basket, rose-garden, and pose references are required when exact continuity is needed. Only the explicitly supplied new pose is replaceable; preserve rose count, dress silhouette, gloves, stockings, basket, garden, light, camera framing, and background.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-identity-reference",
+          "required": true,
+          "source": "provided reference image",
+          "usage": "Preserve exact adult face, facial structure, likeness, hairstyle, and hair color."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white-lace-garden-outfit-reference",
+          "required": true,
+          "source": "provided reference image",
+          "usage": "Preserve white lined lace halter dress, gloves, and stockings."
+        },
+        {
+          "type": "accessory",
+          "name": "wicker-basket-red-roses-reference",
+          "required": true,
+          "source": "provided reference image",
+          "usage": "Preserve basket and exact red-rose count."
+        },
+        {
+          "type": "background",
+          "name": "red-rose-garden-reference",
+          "required": true,
+          "source": "provided reference image",
+          "usage": "Preserve garden, clear sky, lighting, framing, and aesthetic."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Made the supplied identity explicitly adult and retained it as a required face reference.",
+      "Preserved the exact white lace fashion direction but specified an opaque lining in place of sheer corset-like styling."
+    ]
+  }
+}

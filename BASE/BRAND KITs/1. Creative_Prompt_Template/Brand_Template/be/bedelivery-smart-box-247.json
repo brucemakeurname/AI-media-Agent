@@ -1,0 +1,84 @@
+{
+  "name": "bedelivery-smart-box-247",
+  "tag": [
+    "smart box",
+    "bedelivery",
+    "viettel post",
+    "delivery feature",
+    "new shipping method"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Infographics",
+  "group": "be_2926117724446703",
+  "prompt": {
+    "project_info": {
+      "theme": "New smart-box delivery method announcement",
+      "color_palette": "Red, white, black, yellow, blue, cardboard brown"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A feature-announcement poster for beDelivery presenting a 24/7 smart-box pickup and drop-off concept, built from a real smart-locker photo background and a foreground illustrated be courier holding a large parcel toward the viewer.",
+      "style": "Hybrid service-feature infographic, utility-forward logistics poster"
+    },
+    "composition_elements": {
+      "type": "Typography/Photo Background/Illustrated Foreground",
+      "text": "beDelivery, Chủ động nhận hàng, Theo ý bạn, ĐIỂM GIAO NHẬN HÀNG SMART BOX 24/7, viettel post, HÌNH THỨC GIAO HÀNG MỚI",
+      "items": [
+        "Top: solid red banner with white beDelivery wordmark and large white text 'Chủ động nhận hàng'.",
+        "Upper Center: yellow rounded panel with blue text 'Theo ý bạn'.",
+        "Background: photo of a smart locker wall and open compartments containing boxes.",
+        "Center Left on wall: text 'ĐIỂM GIAO NHẬN HÀNG SMART BOX 24/7'.",
+        "Right Background: viettel post logo on the wall.",
+        "Foreground Right: illustrated courier arms holding a cardboard box with a blue be logo directly toward camera.",
+        "Bottom Left: layered yellow and blue labels reading 'HÌNH THỨC GIAO HÀNG MỚI'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright utilitarian indoor lighting",
+      "effect": "Clean service-demo clarity, practical feature emphasis, mixed photo-illustration contrast"
+    },
+    "technical_specs": {
+      "render_style": "Hybrid logistics infographic poster with real locker photo and vector courier overlay",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "beDelivery, be, and viettel post logos",
+          "required": true,
+          "source": "source image brand references",
+          "usage": "Preserve all logos and their placement in the service explainer."
+        },
+        {
+          "type": "location",
+          "name": "smart locker wall",
+          "required": true,
+          "source": "source image locker reference",
+          "usage": "Keep the real locker compartments, open doors, and package staging."
+        },
+        {
+          "type": "graphic",
+          "name": "foreground courier hands and parcel",
+          "required": true,
+          "source": "source image courier illustration reference",
+          "usage": "Preserve the oversized parcel perspective and illustrated-arm overlay."
+        },
+        {
+          "type": "text_layout",
+          "name": "smart box feature typography",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Keep the exact wording and the red/yellow/blue hierarchy."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the hybrid photo-plus-illustration structure.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the strong red header and the service-explainer infographic look."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square beDelivery feature poster with a real photo of smart lockers as the background. Use a solid red header carrying the white beDelivery wordmark and large white text 'Chủ động nhận hàng'. Add a yellow rounded panel with blue text 'Theo ý bạn'. On the locker wall, include the text 'ĐIỂM GIAO NHẬN HÀNG SMART BOX 24/7' and the 'viettel post' logo. In the foreground on the right, overlay illustrated courier hands presenting a cardboard parcel with a blue be logo toward the viewer. At the bottom left, add layered yellow and blue blocks reading 'HÌNH THỨC GIAO HÀNG MỚI'. Technical style: hybrid logistics infographic poster with real locker photo and vector courier overlay, bright utilitarian indoor lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark lockers, wrong logos, incorrect text, low resolution, missing box, cluttered foreground, distorted hands, watermark, signature"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "name": "light-wave-hyperrealistic-portrait",
+  "tag": [
+    "adult-man",
+    "black-and-white",
+    "macro",
+    "light-waves",
+    "skin-texture",
+    "surreal"
+  ],
+  "image_type": "macro-fine-art-portrait",
+  "image_vibe": "intimate-fluid-monochrome",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult while preserving the non-sexual macro portrait concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "black-and-white macro portrait with liquid light waves",
+      "color_palette": "soft white, silver gray, charcoal, gentle mid-gray",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult man",
+      "detail": "An adult man shown in an extreme close crop of one eye, cheekbone, nose bridge, and lips, with natural freckles and light stubble.",
+      "style": "hyperreal monochrome macro fine-art photography"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "extreme close crop on one eye and cheek",
+        "bright wavy diagonal light bands across skin",
+        "one illuminated facial ridge in razor-sharp focus",
+        "other facial planes dissolve into velvety blur",
+        "background fades into gray gradient"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "strong shaped sunlight filtered through rippling water or glass",
+      "effect": "soft luminous waves wrap the face, shadows stay smooth mid-gray, eye reflects fragments of the light pattern"
+    },
+    "technical_specs": {
+      "render_style": "macro 100mm lens, razor-thin depth of field, monochrome film grain, natural pores and stubble",
+      "resolution": "8K-quality portrait, 4:5"
+    },
+    "generated_prompt_string": "A hyperrealistic black-and-white extreme close-up portrait of an adult man's face, tightly framing one eye, cheekbone, nose bridge, and lips. Bright sunlight breaks into soft wavy luminous lines that ripple diagonally across his skin like underwater reflections. Render visible pores, faint freckles, subtle stubble, and natural imperfections in lifelike detail. Let the eye reflect fragments of the luminous waves without an artificial glow. Use razor-thin macro depth of field: one illuminated ridge of skin is perfectly sharp while the rest melts into velvety blur. The background disappears into soft gray gradients. Add fine cinematic grain and keep the mood intimate, surreal, fluid, and emotionally evocative.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, text, logo, artificial glowing eyes",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-macro-subject-reference",
+          "required": false,
+          "source": "Attach an adult face reference when likeness must be preserved.",
+          "usage": "Preserve adult eye shape, skin texture, freckles, and stubble."
+        },
+        {
+          "type": "graphic",
+          "name": "liquid-light-wave-reference",
+          "required": false,
+          "source": "Attach a light pattern reference when exact wave direction is required.",
+          "usage": "Keep soft diagonal ripple lines across the face."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve adult subject, monochrome macro crop, realistic skin detail, and fluid light waves. Identity and lighting pattern can be replaced independently."
+    }
+  }
+}

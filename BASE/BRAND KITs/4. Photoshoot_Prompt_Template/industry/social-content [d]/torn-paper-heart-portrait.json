@@ -1,0 +1,81 @@
+{
+  "name": "torn-paper-heart-portrait",
+  "tag": [
+    "torn-paper-heart",
+    "closeup-portrait",
+    "hand-through-paper",
+    "soft-pink-typography",
+    "minimal-white-studio"
+  ],
+  "image_type": "conceptual-closeup-portrait",
+  "image_vibe": "dreamy-minimal",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Ultra-realistic adult portrait peeking through a torn paper heart opening",
+      "creative_direction": "Minimal studio optical illusion with tactile paper fibers, natural hand depth, and gentle motivational typography",
+      "color_palette": "pure white, soft pink lettering, natural skin tones, dark glossy nails, and subtle gray paper shadows"
+    },
+    "main_subject": {
+      "type": "clearly adult woman matching the approved face reference",
+      "detail": "adult woman with long naturally wavy hair, realistic pores and tonal variation, calm dreamy expression, strong eye focus, soft pink contact-lens effect, and natural makeup",
+      "action": "face peers through a rough heart-shaped tear while one adult hand emerges naturally through a lower tear",
+      "styling": "transparent-to-black gradient glossy nails, no clothing visible, and framing limited to face, hand, and paper"
+    },
+    "composition_elements": {
+      "framing": "3:4 centered close-up with heart-shaped torn opening as the main focal point",
+      "paper": "pure white paper with rough torn edges, visible fibers, realistic shadow, and convincing 3D depth",
+      "typography": "soft pale-pink handwritten text Just believe at the top right near the heart curve",
+      "background": "minimal clean white studio with no distractions"
+    },
+    "lighting_and_atmosphere": {
+      "type": "crisp frontal studio source at approximately 5000K with soft bounce",
+      "effect": "defined clean facial shadows, readable paper fibers, gentle glossy nail highlights, and luminous but natural skin"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 50-85mm portrait lens, photoreal studio optical illusion",
+      "resolution": "4k 3:4 vertical social portrait",
+      "finish": "sharp eyes, true-to-life proportions, subtle grain, realistic hand anatomy, no beauty-filter smoothing, and clean typography"
+    },
+    "generated_prompt_string": "Create an ultra-realistic 3:4 close-up portrait of a clearly adult woman using the approved face reference and preserving facial identity. Show her face peeking through a torn paper heart-shaped opening as the central focal point, with rough paper edges and subtle visible fibers. One adult hand emerges naturally through a lower tear, creating convincing 3D depth. Give her long naturally wavy hair framing the face, realistic pores and tonal variation, calm dreamy expression, strong eye focus, clean realistic makeup, and a believable soft-pink contact-lens effect. Use glossy nails with a transparent black gradient and no visible clothing; keep the frame limited to face, hand, and paper. Place soft pale-pink handwritten text Just believe at the top right near the heart curve. Use a pure white minimalist studio background, crisp approximately 5000K frontal light with soft bounce, a 50-85mm portrait lens, natural proportions, and no cartoon, CGI, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, childlike face, cartoon, anime, illustration, CGI, plastic skin, over-smoothed face, beauty filter, exaggerated eyes, warped anatomy, asymmetrical face, bad hands, extra fingers, deformed nails, harsh HDR, color banding, flat lighting, low resolution, blur, watermark, logo, text artifacts, clothing visible",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-heart-portrait-model",
+          "required": true,
+          "source": "Approved face reference specified by the source prompt",
+          "usage": "Attach the approved adult face reference and preserve identity, facial proportions, hairline, eyes, and likeness exactly."
+        },
+        {
+          "type": "graphic",
+          "name": "torn-paper-heart-opening",
+          "required": true,
+          "source": "Original torn-paper preview image and source prompt",
+          "usage": "Attach to preserve heart opening shape, rough paper fibers, hand-through-tear depth, white background, and text placement; paper may be replaced with an equivalent material."
+        },
+        {
+          "type": "text_layout",
+          "name": "just-believe-handwritten-caption",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve pale-pink handwritten placement and scale; render only the fictional phrase Just believe with no logo or claim."
+        },
+        {
+          "type": "accessory",
+          "name": "glossy-black-gradient-nails",
+          "required": false,
+          "source": "Original preview image and source prompt",
+          "usage": "Optional hand/nail reference; preserve the adult hand pose and glossy gradient nail treatment while allowing an equivalent hand."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult face, torn-paper, typography, and optional nail references. Keep face identity, hair, heart geometry, hand depth, paper texture, caption placement, and clean studio light consistent. Replace the person or paper only with approved equivalents and keep the result non-sexual and non-branded."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

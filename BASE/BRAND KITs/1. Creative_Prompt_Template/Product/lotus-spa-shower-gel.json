@@ -1,0 +1,68 @@
+{
+    "name":  "lotus-spa-shower-gel",
+    "tag":  [
+                "skincare",
+                "lifestyle content",
+                "spa",
+                "shower gel",
+                "hands",
+                "lotus"
+            ],
+    "biz_niche":  "Beauty & Personal Care",
+    "content_format":  "Lifestyle content",
+    "group":  "product_spa_editorial",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Serene lotus-water shower gel ritual",
+                                        "color_palette":  "Deep teal green, translucent bottle green, lotus white, lily-pad green, silver"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A translucent green Molton Brown bath and shower gel bottle is held upright by two feminine ringed hands, partially submerged in misty water.",
+                                        "style":  "Luxury editorial skincare photography with cinematic spa calm"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Person/Flora/Water",
+                                                "text":  "MOLTON BROWN LONDON; INFUSING EUCALYPTUS",
+                                                "items":  [
+                                                              "Center: wet green shower-gel bottle with silver cap and readable label.",
+                                                              "Mid-frame: two gentle hands with thin gold rings hold the bottle.",
+                                                              "Corners: white lotus flowers and large wet green lily pads.",
+                                                              "Background: deep teal water with soft drifting mist."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft diffused natural light",
+                                                   "effect":  "Moody spa haze, muted reflections, calm water, gentle skin highlights, shallow depth of field"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Ultra-realistic cinematic beauty editorial, 85mm lens",
+                                           "resolution":  "High resolution, highly detailed"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "Molton Brown bottle and label",
+                                                                 "required":  true,
+                                                                 "source":  "exact packaging reference",
+                                                                 "usage":  "Preserve bottle color, cap, label, and typography."
+                                                             },
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "hands pose",
+                                                                 "required":  false,
+                                                                 "source":  "source image reference",
+                                                                 "usage":  "Match only the delicate two-hand grip and rings; do not reproduce an identifiable individual."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach the exact product packaging reference.",
+                                                                          "Keep all text legible and the bottle central.",
+                                                                          "Use generic hands unless an approved hand model reference is attached."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Luxury product photography of a green translucent bath and shower gel bottle held gently by two feminine hands submerged in calm water. The bottle is centered, glossy, with water droplets on the surface, silver metallic cap, elegant minimal label design. The water is deep teal-green with soft mist swirling across the surface. White lotus flowers and large green lily pads float around the hands. The hands wear delicate thin gold rings. Soft, diffused natural lighting, moody spa atmosphere, high-end skincare advertisement style, ultra-realistic, cinematic composition, shallow depth of field, 85mm lens, high resolution, editorial beauty shot, serene and calming aesthetic.",
+                   "negative_prompt":  "wrong bottle label, altered cap, extra products, harsh flash, dry hands, missing lotus, cloudy bottle, low resolution, watermark"
+               }
+}

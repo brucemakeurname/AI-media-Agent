@@ -1,0 +1,75 @@
+{
+  "name": "sydney-dakota-madame-web-premiere",
+  "tag": [
+    "premiere-duo",
+    "spiderweb-beading",
+    "black-and-silver-gowns",
+    "press-wall",
+    "red-carpet-fashion"
+  ],
+  "image_type": "red-carpet-duo-portrait",
+  "image_vibe": "dramatic-cinematic-glamour",
+  "image_purpose": "press-kit",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Dramatic spiderweb-inspired premiere portrait of two adult actresses",
+      "event_context": "fictional superhero-film premiere",
+      "color_palette": "black, silver, dark charcoal, red backdrop accents, bright flash highlights, and neutral skin tones"
+    },
+    "main_subject": {
+      "type": "two clearly adult women",
+      "detail": "two adult actresses standing side-by-side with arms around each other's waists, both looking toward the camera with soft confident smiles; one has shoulder-length blonde waves and the other has long straight dark-brown hair with bangs",
+      "left_wardrobe": "black strapless gown with sheer tulle or mesh, intricate black spiderweb-like beading, fitted corset-inspired bodice, stud earrings, and rings",
+      "right_wardrobe": "sleeveless silver-and-black metallic open-knit gown with diamond lattice mesh effect, fitted silhouette, silver choker with teardrop pendant, and dark nail polish"
+    },
+    "composition_elements": {
+      "framing": "medium waist-up red-carpet portrait with both adult women in sharp focus",
+      "subject_position": "duo centered side-by-side, arms wrapped around each other's waists",
+      "background": "black fictional press wall with large red spiderweb-inspired graphic lettering, no real studio logos or celebrity names"
+    },
+    "lighting_and_atmosphere": {
+      "type": "professional direct flash at approximately 5000K with controlled fill",
+      "effect": "bright high-contrast even illumination on faces, beadwork, and metallic mesh, crisp red-carpet event atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "full-frame event camera with 70mm lens, polished press photography",
+      "resolution": "4k vertical medium portrait",
+      "finish": "realistic skin texture, accurate bead and mesh reflections, restrained contrast, subtle event grain, no artificial smoothing"
+    },
+    "generated_prompt_string": "A clearly adult duo portrait at a fictional superhero-film premiere: two adult actresses stand side-by-side with arms wrapped around each other's waists, both looking toward the camera with soft confident smiles. The left adult woman has shoulder-length loose blonde waves, subtle smokey eye makeup, glossy pink lips, and wears a black strapless gown with sheer tulle or mesh and intricate black spiderweb-like beading, a fitted corset-inspired bodice, stud earrings, and rings. The right adult woman has long straight dark-brown hair with bangs, soft eyeliner, mascara, matte mauve-pink lips, and wears a sleeveless silver-and-black metallic open-knit gown with a diamond lattice mesh effect, fitted silhouette, silver choker necklace with teardrop pendant, and dark nail polish. Use a black fictional press wall with large red spiderweb-inspired graphic lettering, no real studio logos or celebrity names. Professional direct flash creates bright high-contrast even illumination on both subjects, beadwork, and mesh. Capture a sharp waist-up medium portrait with a 70mm event lens, realistic skin texture, accurate metallic reflections, restrained contrast, and subtle event grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, eroticized styling, ambiguous age, celebrity likeness, recognizable public figures, real movie logos, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, illegible typography, text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-premiere-duo",
+          "required": true,
+          "source": "Original premiere duo preview image",
+          "usage": "Attach two approved adult face references and keep each identity assigned to the correct side; preserve facial structure without using the source's named public figures."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-spiderweb-and-silver-mesh-gowns",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the left black beaded gown, right silver-black lattice gown, jewelry, hairstyles, and side assignment; retain fashion-editorial coverage and styling."
+        },
+        {
+          "type": "text_layout",
+          "name": "fictional-spiderweb-premiere-press-wall",
+          "required": false,
+          "source": "Original press-wall preview image",
+          "usage": "Optional graphic reference; preserve black field, red spiderweb-inspired lettering, scale, and hierarchy, but replace real movie and studio branding with cleared fictional text."
+        }
+      ],
+      "prompt_instructions": "Attach both approved adult person references and the exact duo wardrobe reference; the press-wall graphic is optional. Keep identities separate, outfits correctly assigned, arms-around-waists pose, flash lighting, and waist-up framing consistent. Replace named public figures, movie title, and studio logo with generic cleared equivalents; preserve only approved adult facial structure and keep typography legible."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced both named public figures and real movie/studio branding with two approved clearly adult generic actresses and a fictional premiere; preserved the two gowns and side-by-side pose."
+    ]
+  }
+}

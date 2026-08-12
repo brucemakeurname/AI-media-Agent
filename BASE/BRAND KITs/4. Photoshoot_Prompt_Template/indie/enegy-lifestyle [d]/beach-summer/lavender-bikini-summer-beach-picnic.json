@@ -1,0 +1,71 @@
+{
+  "name": "lavender-bikini-summer-beach-picnic",
+  "tag": [
+    "beach-picnic",
+    "swimwear-editorial",
+    "lavender",
+    "summer-lifestyle",
+    "beauty-props"
+  ],
+  "image_type": "fashion-lookbook",
+  "image_vibe": "calm-summery-effortless",
+  "image_purpose": "instagram-feed",
+  "group": "indie/enegy-lifestyle/beach-summer",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult woman while preserving the swimwear lookbook and beach-picnic concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "relaxed summer beach picnic with swimwear and beauty accessories",
+      "color_palette": "lavender, sand beige, soft pink, coastal green, and natural skin tones",
+      "format": "vertical medium full-body portrait"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "Adult woman with long wavy blonde hair seated calmly on a beach towel, looking toward the camera with a relaxed, confident expression. She wears a light lavender ribbed bikini with thin straps and tie-side bottoms.",
+      "style": "clean swimwear lifestyle editorial, non-sexualized"
+    },
+    "composition_elements": {
+      "text": "no text, logo, or watermark",
+      "items": [
+        "one leg bent and the other extended, with one arm supporting the seated pose",
+        "sandy beach with low rocky cliffs and green coastal plants",
+        "woven straw tote with pink accents beside the towel",
+        "open book, pink compact, brush, and pouch arranged as a relaxed picnic still life"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft warm daylight",
+      "effect": "gentle shadows, lightly sunlit sand, calm effortless summer mood"
+    },
+    "technical_specs": {
+      "camera": "Sony A7R V",
+      "lens": "FE 50mm f/1.4 at f/2.8",
+      "render_style": "sharp subject focus, softly detailed background, natural skin texture, clean editorial color"
+    },
+    "generated_prompt_string": "Create a vertical medium full-body summer lifestyle image of an adult woman with long wavy blonde hair seated calmly on a beach towel. She wears a light lavender ribbed bikini with thin straps and tie-side bottoms, with one leg bent, the other extended, and one arm placed behind her for support. Set the scene on a sandy beach backed by low rocky cliffs and green coastal plants. Arrange a woven straw tote with pink accents, an open book, and pink beauty items including a compact, brush, and pouch on the towel. Use soft warm daylight, gentle shadows, a clean editorial color palette of lavender, sand beige, soft pink, and green, with a relaxed, non-sexualized swimwear lookbook mood. No text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, sexualized pose, nudity, lingerie, body-part emphasis, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity replacement is required.",
+          "usage": "Replace only the adult subject identity while retaining the seated pose, lavender swimwear, beach setting, and prop arrangement."
+        },
+        {
+          "type": "accessory",
+          "name": "beach-picnic-props-reference",
+          "required": false,
+          "source": "Attach product references for a tote, book, or beauty items if exact products are required.",
+          "usage": "Replace only the chosen product details while preserving the towel composition and pink-lavender palette."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. Subject and product references are optional; retain the beach, towel layout, seated pose, and relaxed lifestyle direction when substituting an element."
+    }
+  }
+}

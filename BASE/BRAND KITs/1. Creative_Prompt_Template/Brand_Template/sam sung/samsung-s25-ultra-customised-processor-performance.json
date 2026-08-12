@@ -1,0 +1,77 @@
+{
+  "name": "samsung-s25-ultra-customised-processor-performance",
+  "tag": [
+    "smartphone-launch",
+    "processor-performance",
+    "infographic",
+    "snapdragon"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Infographics",
+  "group": "samsung_1104780648357079",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy S25 Ultra processor performance poster",
+      "color_palette": "Black, white, silver, stone gray, fire orange, cyan-blue metric text"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Black-background performance infographic showing a horizontal Galaxy S25 Ultra with a cinematic medieval game scene on the display, paired with CPU, GPU, and NPU improvement metrics and Snapdragon branding.",
+      "style": "Photorealistic premium tech advertising, gaming-performance launch infographic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "The most powerful processor customised for Galaxy / Galaxy S25 Ultra / Galaxy AI / CPU 37% Faster processing / GPU 30% Improved graphics performance / NPU 40% Faster AI performance / Powered by Snapdragon / Snapdragon 8 Elite for Galaxy",
+      "items": [
+        "Top Left: Large centered white title 'The most powerful processor customised for Galaxy'.",
+        "Top Right: Centered subheading 'Galaxy S25 Ultra' and 'Galaxy AI'.",
+        "Bottom Left: Blue metric '37%' above 'Faster processing' labeled CPU.",
+        "Bottom Right: Blue metric '40%' above 'Faster AI performance' labeled NPU, plus Snapdragon badge in the lower-right corner.",
+        "Center/Background: Horizontal Galaxy S25 Ultra showing a dramatic medieval battle game with a kneeling armored knight, ruined stone arch, smoke, castle, and fire; the mid-bottom also includes 'GPU 30% Improved graphics performance'; a white legal footnote spans the lower left edge."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Studio lighting",
+      "effect": "Crisp metallic frame highlights, cinematic screen glow, strong premium contrast against black"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy S25 Ultra processor performance poster. Centerpiece is a horizontal Galaxy S25 Ultra on a black background displaying a cinematic medieval battle scene with a kneeling armored knight beneath ruined stone arches and fire in the distance. Background is minimal black with premium reflections. Surrounding elements: exact title 'The most powerful processor customised for Galaxy', subheading 'Galaxy S25 Ultra' and 'Galaxy AI', performance metrics 'CPU 37% Faster processing', 'GPU 30% Improved graphics performance', 'NPU 40% Faster AI performance', a Snapdragon 8 Elite for Galaxy badge at the lower right, and a white legal footnote along the bottom left. Technical style: photorealistic product render, studio lighting, crisp metallic highlights and cinematic screen glow, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy S25 Ultra horizontal device render",
+          "required": true,
+          "source": "official Samsung product render",
+          "usage": "Match the exact frame, bezel, and screen proportions."
+        },
+        {
+          "type": "ui_reference",
+          "name": "medieval game scene on display",
+          "required": true,
+          "source": "original creative or official gameplay still",
+          "usage": "Keep the knight, archway, castle, birds, smoke, and fire composition."
+        },
+        {
+          "type": "icon",
+          "name": "Snapdragon 8 Elite for Galaxy badge",
+          "required": true,
+          "source": "official Qualcomm/Samsung asset",
+          "usage": "Preserve the bottom-right badge styling and exact lockup."
+        },
+        {
+          "type": "text_layout",
+          "name": "performance metric infographic typography",
+          "required": true,
+          "source": "original poster",
+          "usage": "Keep exact percentage values, labels, and bottom footnote block."
+        }
+      ],
+      "prompt_instructions": "Use refs for the phone render, on-screen game frame, and Snapdragon badge. Preserve the exact hierarchy where the gameplay image dominates the middle and the three blue metrics align along the lower third."
+    }
+  }
+}

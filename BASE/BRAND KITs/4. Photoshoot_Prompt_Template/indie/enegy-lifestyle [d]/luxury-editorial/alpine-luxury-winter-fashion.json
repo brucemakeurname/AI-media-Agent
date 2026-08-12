@@ -1,0 +1,73 @@
+{
+  "name": "alpine-luxury-winter-fashion",
+  "tag": [
+    "adult-woman",
+    "alpine-snow",
+    "puffer-jacket",
+    "ice-block",
+    "winter-editorial"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "serene-premium-winter",
+  "image_purpose": "moodboard",
+  "group": "indie/enegy-lifestyle/luxury-editorial",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "cinematic luxury winter fashion in an alpine landscape",
+      "color_palette": "cool blue, white, soft gray, and deep black",
+      "format": "vertical 2:3 centered portrait"
+    },
+    "main_subject": {
+      "description": "an adult woman in a black oversized puffer jacket, white wide-leg snow pants, white winter boots with red laces, white winter gloves, and a plush white fur hat",
+      "pose_and_expression": "seated steadily on a sculpted ice block with one gloved hand resting gently against her cheek, relaxed yet powerful"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level portrait with gentle 85mm compression",
+      "foreground": "sculpted translucent ice block and rolling snow",
+      "background": "dramatic snow-covered alpine mountains beneath an overcast sky",
+      "visual_hierarchy": "adult subject face and black puffer, ice texture, then expansive mountains"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "soft diffused natural light from the overcast winter sky",
+      "atmosphere": "minimal, serene, premium, and powerful"
+    },
+    "technical_specs": {
+      "camera": "Nikon Z8",
+      "lens": "85mm f/2",
+      "settings": "1/500s, f/2.8, ISO 160",
+      "rendering": "photoreal fabric texture, detailed realistic ice, crisp snow, shallow depth of field, subtle fine grain"
+    },
+    "generated_prompt_string": "Generate a high-fashion winter editorial portrait with a cinematic luxury aesthetic in an alpine environment. An adult woman sits on a sculpted block of ice, wearing a black oversized puffer jacket, white wide-leg snow pants, white winter boots with red laces, a plush white fur hat, and white winter gloves. One gloved hand rests gently against her cheek; her expression is relaxed yet powerful. Surround her with smooth rolling snowdrifts and dramatic snow-covered alpine mountains beneath an overcast winter sky. Use soft diffused natural light, a centered minimal composition, 85mm shallow depth of field, photoreal fabric and ice texture, cool blue-white-gray-black palette, and an ultra-clean luxury editorial feeling.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, sexualized pose, nudity, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers, deformed, blurry",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-winter-model-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult subject identity only."
+        },
+        {
+          "type": "wardrobe",
+          "name": "winter-outfit-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Match outerwear and snow gear while preserving the black-and-white color direction."
+        },
+        {
+          "type": "location",
+          "name": "alpine-location-reference",
+          "required": false,
+          "source": "approved location reference",
+          "usage": "Match mountain contours and snow texture when supplied."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult winter-fashion subject, ice block, alpine range, and soft overcast light; replace only approved identity, wardrobe, or landscape elements."
+    }
+  }
+}

@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+
+      html, body {
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: #060810;
+      }
+
+      #root {
+        position: relative;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+      }
+
+      /* ── SCENE WRAPPER — perspective origin for all 3D children ─── */
+      #scene-wrapper {
+        position: absolute;
+        inset: 0;
+        perspective: 1400px;
+        perspective-origin: 50% 45%;
+      }
+
+      /* ── BACKGROUND — GSAP: scale. No CSS transform. ─────────────── */
+      #background {
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        z-index: 0;
+        background:
+          radial-gradient(ellipse 900px 700px at 50% 38%,
+            rgba(30, 40, 100, 0.55) 0%, transparent 70%),
+          linear-gradient(175deg, #0c0e1a 0%, #060810 60%, #040608 100%);
+      }
+
+      /* ── BG GLOW — GSAP: opacity, scale ─────────────────────────── */
+      #bg-glow {
+        position: absolute;
+        left: 140px;
+        top: 480px;
+        width: 800px;
+        height: 900px;
+        z-index: 1;
+        border-radius: 50%;
+        background: radial-gradient(circle,
+          rgba(80, 90, 255, 0.12) 0%,
+          rgba(50, 60, 200, 0.05) 50%,
+          transparent 70%);
+      }
+
+      /* ── PHONE FRAME — 3D entrance & tilt. GSAP: rotationY/X, y, opacity. No CSS transform. */
+      #phone-frame {
+        position: absolute;
+        left: 310px;
+        top: 510px;
+        width: 460px;
+        height: 900px;
+        z-index: 10;
+        background: linear-gradient(145deg, #2a2a2e 0%, #1a1a1e 100%);
+        border-radius: 52px;
+        box-shadow:
+          0 60px 120px rgba(0, 0, 0, 0.8),
+          0 20px 40px rgba(0, 0, 0, 0.5),
+          inset 0 0 0 1.5px rgba(255, 255, 255, 0.10),
+          inset 0 1px 0 rgba(255, 255, 255, 0.18);
+      }
+
+      /* ── PHONE NOTCH ─────────────────────────────────────────────── */
+      #phone-notch {
+        position: absolute;
+        top: 14px;
+        left: 50%;
+        margin-left: -60px;
+        width: 120px;
+        height: 34px;
+        background: #1a1a1e;
+        border-radius: 20px;
+        z-index: 15;
+      }
+
+      /* ── PHONE SCREEN — clipping viewport. GSAP: opacity. ────────── */
+      #phone-screen {
+        position: absolute;
+        top: 12px; left: 12px;
+        width: 436px; height: 876px;
+        z-index: 11;
+        border-radius: 44px;
+        overflow: hidden;
+        background: #0d1117;
+      }
+
+      /* ── REAL WEBSITE SCREENSHOT — scrollable strip ─────────────── */
+      /* GSAP: y (scroll), opacity. No CSS transform. */
+      #sf-scroll-img {
+        position: absolute;
+        top: 0; left: 0;
+        width: 436px;
+        height: auto;
+        z-index: 12;
+        display: block;
+      }
+
+      /* ── TAP RIPPLE at CTA position ─────────────────────────────── */
+      /* GSAP: scale, opacity. No CSS transform. */
+      #tap-indicator {
+        position: absolute;
+        left: 178px;
+        top: 510px;
+        width: 80px;
+        height: 80px;
+        z-index: 16;
+        border-radius: 50%;
+        background: rgba(0, 220, 120, 0.35);
+      }
+
+      /* ── PHONE REFLECTION — subtle gloss on frame face ───────────── */
+      #phone-gloss {
+        position: absolute;
+        top: 12px; left: 12px;
+        width: 436px; height: 300px;
+        z-index: 14;
+        border-radius: 44px 44px 0 0;
+        background: linear-gradient(175deg,
+          rgba(255,255,255,0.045) 0%,
+          transparent 60%);
+        pointer-events: none;
+      }
+
+      /* ── LEFT TEXT CALLOUTS ─────────────────────────────────────── */
+      /* text-headline: GSAP: x, rotationX, opacity. No CSS transform. */
+      #text-headline {
+        position: absolute;
+        left: 44px;
+        top: 724px;
+        width: 360px;
+        z-index: 20;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 60px;
+        color: #ffffff;
+        line-height: 1.12;
+      }
+
+      /* text-sub: GSAP: y, opacity. No CSS transform. */
+      #text-sub {
+        position: absolute;
+        left: 44px;
+        top: 1086px;
+        width: 360px;
+        z-index: 20;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 27px;
+        color: rgba(255, 255, 255, 0.55);
+        line-height: 1.5;
+      }
+
+      /* ── ACCENT LINE beside text ────────────────────────────────── */
+      /* GSAP: scaleY, opacity. No CSS transform. */
+      #text-accent-line {
+        position: absolute;
+        left: 32px;
+        top: 726px;
+        width: 3px;
+        height: 160px;
+        z-index: 20;
+        background: linear-gradient(180deg, #4ade80 0%, rgba(74,222,128,0) 100%);
+        border-radius: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="ui-showcase-3d"
+      data-start="0"
+      data-duration="4.5"
+      data-width="1080"
+      data-height="1920"
+    >
+
+      <div id="scene-wrapper" class="clip" data-start="0" data-duration="4.5" data-track-index="0"
+           data-layout-allow-overflow>
+
+        <!-- Background with radial + linear gradient -->
+        <div id="background" class="clip" data-start="0" data-duration="4.5" data-track-index="1"></div>
+
+        <!-- Ambient depth glow -->
+        <div id="bg-glow" class="clip" data-start="0" data-duration="4.5" data-track-index="2"></div>
+
+        <!-- Phone body — 3D card flip entrance + tilt in scene-03 -->
+        <div id="phone-frame" class="clip" data-start="0" data-duration="4.5" data-track-index="3"
+             data-layout-allow-overflow>
+
+          <!-- Dynamic island / notch -->
+          <div id="phone-notch"></div>
+
+          <!-- Screen viewport — overflow:hidden is the clip boundary -->
+          <div id="phone-screen" class="clip" data-start="0" data-duration="4.5" data-track-index="4">
+
+            <!-- Full-page website screenshot — GSAP scrolls this upward -->
+            <img id="sf-scroll-img"
+                 class="clip"
+                 src="assets/mobile-screenshots/mobile-fullpage.png"
+                 data-start="0"
+                 data-duration="4.5"
+                 data-track-index="5"
+                 alt="" />
+
+            <!-- Tap ripple at CTA button position -->
+            <div id="tap-indicator" class="clip" data-start="0" data-duration="4.5" data-track-index="6"></div>
+
+          </div>
+
+          <!-- Screen gloss layer (non-animated) -->
+          <div id="phone-gloss"></div>
+
+        </div>
+        <!-- end #phone-frame -->
+
+        <!-- Accent line — scales up with text -->
+        <div id="text-accent-line" class="clip" data-start="0" data-duration="4.5" data-track-index="7"></div>
+
+        <!-- Headline callout — 3D rotationX flip-up entrance -->
+        <div id="text-headline" class="clip" data-start="0" data-duration="4.5" data-track-index="8">AI Influencer<br/>Platform</div>
+
+        <!-- Sub callout -->
+        <div id="text-sub" class="clip" data-start="0" data-duration="4.5" data-track-index="9">Auto-content.<br/>Auto-earn.</div>
+
+      </div>
+
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+
+        // ── INITIAL STATES ──────────────────────────────────────────────
+        gsap.set("#background",        { scale: 1.0, transformOrigin: "center center" });
+        gsap.set("#bg-glow",           { opacity: 0, scale: 0.8, transformOrigin: "center center" });
+
+        // Phone starts rotated -85deg (edge-on), below frame, invisible
+        gsap.set("#phone-frame", {
+          rotationY: -85,
+          y: 60,
+          opacity: 0,
+          transformOrigin: "center center",
+          transformPerspective: 1400
+        });
+
+        gsap.set("#phone-screen",      { opacity: 0 });
+        gsap.set("#sf-scroll-img",     { y: 0, opacity: 0 });
+        gsap.set("#tap-indicator",     { scale: 0, opacity: 0, transformOrigin: "center center" });
+
+        // Text callouts: rotationX flip-down (will flip up to 0)
+        gsap.set("#text-headline", {
+          x: -30,
+          rotationX: -40,
+          opacity: 0,
+          transformOrigin: "left center",
+          transformPerspective: 900
+        });
+        gsap.set("#text-sub",          { y: 16, opacity: 0 });
+        gsap.set("#text-accent-line",  { scaleY: 0, opacity: 0, transformOrigin: "top center" });
+
+        // ── TIMELINE ───────────────────────────────────────────────────
+        var tl = gsap.timeline({ paused: true });
+        window.__timelines = window.__timelines || {};
+        window.__timelines["ui-showcase-3d"] = tl;
+
+        // ── SCENE-01: Phone 3D card-flip entrance (t=0–1.0) ──────────
+
+        // Ambient glow blooms in
+        tl.to("#bg-glow", { opacity: 1, scale: 1.0, duration: 1.0, ease: "power2.out" }, 0);
+
+        // Background camera drift
+        tl.to("#background", { scale: 1.04, duration: 4.5, ease: "none" }, 0);
+
+        // Phone flips in from side: rotY -85° → -4° (overshoot) as it rises
+        tl.to("#phone-frame", {
+          rotationY: -4,
+          y: -10,
+          opacity: 1,
+          duration: 0.65,
+          ease: "power3.out"
+        }, 0.12);
+
+        // Phone settles flat: rotY -4° → 0°, y bounce
+        tl.to("#phone-frame", {
+          rotationY: 0,
+          y: 0,
+          duration: 0.30,
+          ease: "back.out(1.7)"
+        }, 0.77);
+
+        // ── SCENE-02: Screen + scroll interaction (t=0.8–2.3) ────────
+
+        // Screen glass fades in
+        tl.to("#phone-screen",  { opacity: 1, duration: 0.28, ease: "power2.out" }, 0.82);
+
+        // Website screenshot fades in (hero section visible)
+        tl.to("#sf-scroll-img", { opacity: 1, duration: 0.30, ease: "power1.out" }, 0.95);
+
+        // Subtle tilt backward as user "looks" at screen (rotX: 0 → -4)
+        tl.to("#phone-frame", {
+          rotationX: -4,
+          duration: 0.45,
+          ease: "sine.inOut"
+        }, 1.10);
+
+        // Tap ripple fires at CTA button position
+        tl.fromTo("#tap-indicator",
+          { scale: 0, opacity: 0.7 },
+          { scale: 2.8, opacity: 0, duration: 0.45, ease: "power1.out" },
+          1.35
+        );
+
+        // Scroll: full-page image slides up (reveals features/pricing below fold)
+        // mobile-fullpage.png is 390×12435 at 1x → displayed at 436px → scroll 900px CSS
+        tl.to("#sf-scroll-img", {
+          y: -900,
+          duration: 1.00,
+          ease: "power2.inOut"
+        }, 1.60);
+
+        // Phone straightens slightly as scroll completes
+        tl.to("#phone-frame", {
+          rotationX: 0,
+          duration: 0.40,
+          ease: "sine.inOut"
+        }, 2.20);
+
+        // ── SCENE-03: 3D angle + callouts (t=2.3–4.0) ────────────────
+
+        // Phone angles into 3D for hero shot: rotY slight lean
+        tl.to("#phone-frame", {
+          rotationY: 10,
+          duration: 0.55,
+          ease: "power2.out"
+        }, 2.30);
+
+        // Phone gentle float upward
+        tl.to("#phone-frame", {
+          y: -10,
+          duration: 1.60,
+          ease: "sine.inOut"
+        }, 2.30);
+
+        // Accent line scale-reveals first
+        tl.to("#text-accent-line", {
+          scaleY: 1, opacity: 1,
+          duration: 0.35, ease: "power3.out"
+        }, 2.38);
+
+        // Headline flips up from below (rotationX: -40 → 0) + slides in
+        tl.to("#text-headline", {
+          x: 0,
+          rotationX: 0,
+          opacity: 1,
+          duration: 0.52,
+          ease: "power3.out"
+        }, 2.45);
+
+        // Sub fades + lifts in
+        tl.to("#text-sub", {
+          y: 0, opacity: 1,
+          duration: 0.42, ease: "power2.out"
+        }, 2.78);
+
+        // ── SCENE-04: Fade out (t=4.0–4.5) ───────────────────────────
+
+        tl.to("#phone-frame",       { opacity: 0, duration: 0.50, ease: "power2.in" }, 4.00);
+        tl.to("#text-headline",     { opacity: 0, duration: 0.50, ease: "power2.in" }, 4.00);
+        tl.to("#text-sub",          { opacity: 0, duration: 0.50, ease: "power2.in" }, 4.00);
+        tl.to("#text-accent-line",  { opacity: 0, duration: 0.50, ease: "power2.in" }, 4.00);
+        tl.to("#bg-glow",           { opacity: 0, duration: 0.50, ease: "power2.in" }, 4.00);
+
+      });
+    </script>
+  </body>
+</html>

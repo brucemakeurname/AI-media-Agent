@@ -1,0 +1,86 @@
+{
+  "name": "bedelivery-thu-6-discount-t6baore",
+  "tag": [
+    "bedelivery",
+    "friday promo",
+    "50 percent off",
+    "voucher code",
+    "delivery mascot"
+  ],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Special offers",
+  "group": "be_1710578490265807",
+  "prompt": {
+    "project_info": {
+      "theme": "Friday delivery promotion with discount code",
+      "color_palette": "White, pale sky blue, bright yellow, be blue, black"
+    },
+    "main_subject": {
+      "type": "Text/Character/Object",
+      "detail": "A cheerful promotional square graphic for beDelivery featuring a large Friday discount headline, a bold voucher code, and an illustrated be rider mascot stepping out from a giant glowing tag labeled THỨ 6 while holding a cardboard box overhead.",
+      "style": "Illustrated delivery campaign poster, soft glowing social ad"
+    },
+    "composition_elements": {
+      "type": "Typography/Characters/Product Props",
+      "text": "Chào đón thứ 6 Giao hàng, Giảm 50%, Nhập mã T6BAORE, THỨ 6, beDelivery",
+      "items": [
+        "Top Left: stacked dark headline 'Chào đón thứ 6 Giao hàng'.",
+        "Upper Left Middle: large gradient blue text 'Giảm 50%'.",
+        "Mid Left: black text 'Nhập mã' followed by a yellow rounded coupon label 'T6BAORE'.",
+        "Center Right: giant cream-and-yellow hanging tag shape with bold black text 'THỨ 6' at the bottom.",
+        "Inside tag opening: illustrated be rider mascot stepping forward with one leg out.",
+        "Top Right of mascot: raised cardboard parcel with blue be logo.",
+        "Left Mid Lower: smaller floating cardboard box.",
+        "Bottom Left: blue beDelivery wordmark.",
+        "Background: cloudy pale sky with bright soft glow."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft glowing illustrated lighting",
+      "effect": "Airy cloud ambience, playful motion, bright promo optimism"
+    },
+    "technical_specs": {
+      "render_style": "Illustrated delivery promotional poster with soft glow composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "beDelivery wordmark and be logo on parcel",
+          "required": true,
+          "source": "source image brand references",
+          "usage": "Preserve the exact wordmark style and parcel logo."
+        },
+        {
+          "type": "graphic",
+          "name": "delivery rider mascot and giant Friday tag",
+          "required": true,
+          "source": "source image illustration reference",
+          "usage": "Keep the stepping pose, helmet design, and oversized tag composition."
+        },
+        {
+          "type": "accessory",
+          "name": "cardboard boxes",
+          "required": true,
+          "source": "source image prop reference",
+          "usage": "Preserve the main box overhead and the smaller floating box."
+        },
+        {
+          "type": "text_layout",
+          "name": "Friday sale headline and voucher code",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Keep the exact Vietnamese wording, discount hierarchy, and yellow code chip."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the giant tag layout, mascot pose, and typography placement.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the soft cloud backdrop and glowing, slightly dreamy illustrated finish."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square beDelivery promotion poster with a cloudy pale sky background and soft glow. At the top left, add stacked dark text 'Chào đón thứ 6 Giao hàng'. Below it place large gradient blue text 'Giảm 50%'. Add black text 'Nhập mã' followed by a yellow rounded label reading 'T6BAORE'. On the right, place a giant cream-and-yellow hanging tag labeled 'THỨ 6', and have an illustrated be rider mascot step out from the tag while lifting a cardboard parcel with a blue be logo. Add a smaller floating cardboard box on the left and the blue beDelivery wordmark at the bottom left. Technical style: illustrated delivery promotional poster with soft glow composite, airy cloud ambience, bright playful campaign energy, 8k resolution, highly detailed.",
+    "negative_prompt": "dark mood, incorrect text, wrong code, photoreal human, low resolution, distorted boxes, messy composition, watermark, signature"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Luxury Wardrobe Fashion Doll Heels",
+  "tag": ["industry", "lookbook-line-sheet", "editorial-fashion"],
+  "image_type": "environmental wardrobe fashion portrait",
+  "image_vibe": "dark luxury, architectural, composed, editorial",
+  "image_purpose": "fashion and footwear lookbook image",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create a frame-within-frame editorial portrait inside a luxury wardrobe shelf.",
+    "main_subject": "An adult woman with an approved adult face-and-style reference sits inside a dark stained-wood wardrobe cubby, posed like a composed fashion mannequin. She wears a black satin fashion corset with lace trim, a champagne-pink satin skirt with secure opaque coverage, black ankle-strap platform heels, a tilted black beret with a crystal brooch, and black leather gloves placed as styling props.",
+    "composition_elements": "Full-body 4:5 frame-within-frame composition, head near the top edge, legs creating strong diagonals within the rectangular shelf, dark olive ceramic tile grid behind her, hanging beige garments at right, direct eye contact, 50mm perspective.",
+    "lighting_and_atmosphere": "Soft directional key light from upper-left, warm controlled shadows, visible wood grain and tile texture, intimate backstage luxury mood.",
+    "technical_specs": "Photorealistic 8K editorial detail, 50mm f/2.8 look, low-key controlled contrast, natural anatomy, minimal grain, realistic satin and leather texture.",
+    "generated_prompt_string": "Photorealistic full-body 4:5 wardrobe-shelf fashion portrait of an adult woman with an approved adult face-and-style reference, seated inside a dark stained-wood cubby like a composed fashion mannequin. Black satin corset with lace trim, champagne-pink satin skirt with secure opaque coverage, black ankle-strap platform heels, tilted black beret with crystal brooch, black leather gloves as styling props. Strong leg diagonals inside a rectangular frame, dark olive ceramic tile grid, beige garments hanging at right, soft upper-left directional light, warm low-key backstage luxury, 50mm f/2.8 editorial detail.",
+    "negative_prompt": "celebrity likeness, public figure likeness, explicit, nsfw, overly revealing, transparent fabric, nudity, fetish framing, undressing, recognizable luxury logo, red-sole trademark styling, blurry, low quality, distorted anatomy, watermark, text, signature",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "luxury-wardrobe-fashion-doll-heels.jpg", "required": true, "source": "workspace reference image", "usage": "Reference the wardrobe cubby, Z-shaped pose, tile grid, hanging garments, beret, satin styling, and lighting while making identity and products generic and replaceable."}],
+      "prompt_instructions": "Attach the required reference image. Preserve frame-within-frame composition, pose diagonals, wardrobe environment, lighting, and styling consistency. Use an approved adult replaceable identity, secure opaque outfit coverage, generic logo-free footwear, and no fixed typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed provocative and undressing cues, branded sole reference, and excessive exposure; retained the wardrobe architecture and couture styling with secure coverage."]}
+}

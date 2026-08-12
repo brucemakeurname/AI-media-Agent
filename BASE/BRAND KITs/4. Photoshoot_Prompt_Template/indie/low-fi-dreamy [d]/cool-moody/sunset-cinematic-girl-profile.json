@@ -1,0 +1,59 @@
+{
+  "name": "Sunset Cinematic Profile Portrait",
+  "tag": "sunset-cinematic-profile",
+  "image_type": "golden_hour_profile_portrait",
+  "image_vibe": "warm_teal_moody_film",
+  "image_purpose": "editorial_portrait",
+  "group": "indie/low-fi-dreamy/cool-moody",
+  "prompt": {
+    "project_info": {
+      "title": "Sunset Cinematic Profile Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult East Asian woman with loosely tied-back dark hair, soft natural strands, minimal makeup, and a thoughtful distant gaze.",
+      "wardrobe": "A black wool coat and dark charcoal scarf with no visible branding.",
+      "pose_and_expression": "Side-profile close portrait, standing outdoors and looking toward the horizon."
+    },
+    "composition_elements": {
+      "setting": "Open abstract landscape at sunset with a smooth warm-orange to muted-teal sky gradient.",
+      "framing": "85mm close profile with subject sharp and landscape gently blurred.",
+      "text_and_brand_control": "No logos, text, watermark, or celebrity likeness."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft golden-hour side light on one half of the face, with gentle background falloff.",
+      "mood": "Reflective, warm, cinematic, and quiet."
+    },
+    "technical_specs": {
+      "camera_style": "85mm cinematic film still",
+      "lens": "85mm equivalent, f/2",
+      "rendering": "Natural skin, soft bokeh, subtle grain, restrained dynamic range, realistic hair strands."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical 85mm cinematic film profile portrait of an adult East Asian woman with loosely tied-back dark hair, soft natural strands, minimal makeup, and a thoughtful distant gaze. She wears a black wool coat and dark charcoal scarf. Capture her standing outdoors in side-profile, looking toward a softly blurred open landscape at sunset. Use warm golden-hour side light on one half of her face, a smooth warm-orange to muted-teal sky gradient, natural skin, soft bokeh, subtle grain, restrained dynamic range, and realistic hair strands. No logo, readable text, watermark, celebrity likeness, or sexualized styling.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, HDR, logo, readable text, watermark, plastic skin, distorted profile, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Any optional identity reference must depict a consenting adult. Wardrobe and landscape references are replaceable and must contain no text or branding.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult face and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "sunset_landscape_reference",
+          "required": false,
+          "source": "user-provided landscape reference",
+          "usage": "Guide horizon, palette, and sunset light only."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "notes": "Original concept was safe; normalized schema, adult clarity, reference controls, and no-text rules."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Golden Eighties Meadow Friends",
+  "tag": "golden-eighties-meadow-friends",
+  "image_type": "friendship_lifestyle_film_portrait",
+  "image_vibe": "sun_drenched_1980s_nostalgia",
+  "image_purpose": "lifestyle_storytelling",
+  "group": "indie/low-fi-dreamy/golden-warm",
+  "prompt": {
+    "project_info": {
+      "title": "Golden Eighties Meadow Friends",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "Two original adult women enjoying a warm summer meadow: one has long wavy red hair and retro sunglasses; the other has a short brunette bob.",
+      "wardrobe": "Covered 1980s-inspired leisurewear: colorful patterned short-sleeve camp shirts, high-waisted cotton trousers, and plain canvas sneakers.",
+      "pose_and_expression": "Both sit comfortably on a striped picnic blanket, facing one another in easy conversation and laughter."
+    },
+    "composition_elements": {
+      "setting": "Lush green meadow with clover, a vintage striped picnic blanket, a generic black cassette player, and a partial unbranded bicycle wheel at the periphery.",
+      "framing": "High-angle medium-wide friendship portrait emphasizing shared environment rather than bodies.",
+      "text_and_brand_control": "No celebrity likeness, bikini, logo, cassette label, text, or watermark."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Warm golden sun with soft grass shadows and subtle lens flare.",
+      "mood": "Candid, affectionate friendship, sunny, and nostalgic."
+    },
+    "technical_specs": {
+      "camera_style": "1980s color-film snapshot",
+      "lens": "35mm equivalent",
+      "rendering": "Fine grain, warm faded color, natural anatomy, realistic fabric, and no facial imitation."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical high-angle 1980s color-film friendship photograph of two original adult women enjoying a warm summer meadow. One has long wavy red hair and retro sunglasses; the other has a short brunette bob. Both wear covered 1980s-inspired leisurewear: colorful patterned short-sleeve camp shirts, high-waisted cotton trousers, and plain canvas sneakers. Seat them comfortably on a vintage striped picnic blanket, facing each other in easy conversation and laughter. Add clover grass, a generic black cassette player, and a partial unbranded bicycle wheel at the edge. Use warm golden sun, soft grass shadows, subtle lens flare, fine grain, warm faded color, natural anatomy, and realistic fabric. No celebrity likeness, bikini, logo, cassette label, readable text, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, named actor, explicit, nsfw, bikini, underwear, body focus, logo, cassette text, readable text, watermark, distorted limbs, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "References are optional and replaceable. Identity references must show consenting adults; wardrobe, blanket, cassette, and bicycle references cannot contain logos or text.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_friend_references",
+          "required": false,
+          "source": "user-provided approved adult portraits",
+          "usage": "Guide broad adult features only; never imitate public figures."
+        },
+        {
+          "type": "environment_reference",
+          "name": "summer_meadow_picnic_reference",
+          "required": false,
+          "source": "user-provided landscape reference",
+          "usage": "Guide grass, blanket, and golden daylight composition."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed public-figure likeness and bikini direction; replaced with adult covered friendship styling and unbranded props."
+  }
+}

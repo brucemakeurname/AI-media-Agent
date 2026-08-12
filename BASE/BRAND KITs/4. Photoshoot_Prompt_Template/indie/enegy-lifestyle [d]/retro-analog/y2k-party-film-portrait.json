@@ -1,0 +1,66 @@
+{
+  "name": "Y2K House Party Film Portrait",
+  "tag": "y2k-house-party-film",
+  "image_type": "candid_party_film_portrait",
+  "image_vibe": "playful_grainy_nightlife",
+  "image_purpose": "social_editorial",
+  "group": "indie/enegy-lifestyle/retro-analog",
+  "prompt": {
+    "project_info": {
+      "title": "Y2K House Party Film Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "3:2 landscape"
+    },
+    "main_subject": {
+      "description": "An adult party guest with a bright laugh and playful wink, photographed candidly among other adult guests.",
+      "wardrobe": "A patterned sleeveless high-neck top with a leopard-print headband and small hoop earrings; fully covered and without logos.",
+      "pose_and_expression": "Leaning slightly toward the lens and making a playful finger-gun gesture while laughing."
+    },
+    "composition_elements": {
+      "setting": "A dim home gathering with a softly blurred adult crowd, small disco-ball reflections, and unbranded glassware on a nearby table.",
+      "framing": "Landscape candid close-medium shot with the subject prominent and the party receding into soft shadow.",
+      "text_and_brand_control": "No alcohol labels, identifiable guests, readable signs, logos, or text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Hard direct on-camera flash with high contrast, subtle light leaks, and gentle chromatic fringing.",
+      "mood": "Joyful, spontaneous, slightly messy, and safely social."
+    },
+    "technical_specs": {
+      "camera_style": "2000s disposable-camera film",
+      "lens": "28mm equivalent",
+      "rendering": "Chunky grain, soft vignette, light scratches, slight analog softness, natural skin and hands."
+    },
+    "generated_prompt_string": "Create a 3:2 landscape candid 2000s disposable-camera film photograph at a dim home gathering. Feature an adult party guest with a bright laugh and playful wink, wearing a patterned sleeveless high-neck top, leopard-print headband, and small hoop earrings. She leans slightly toward the lens and makes a playful finger-gun gesture. Behind her, show a softly blurred adult crowd and small disco-ball reflections; place unbranded glassware on a nearby table. Use hard direct on-camera flash, high contrast, gentle light leaks, slight chromatic fringing, chunky grain, soft vignette, light scratches, and natural skin and hands. Keep the mood joyful and spontaneous. No alcohol labels, identifiable guests, logos, readable signs, text, watermark, or sexualized styling.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, lingerie, fetish styling, alcohol label, smoking, cigarette, drug use, readable text, logo, watermark, distorted hands, extra fingers, warped face, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity references must show a consenting adult. Wardrobe and party-scene references are replaceable; remove branding, text, and any identifiable bystanders.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_party_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general adult facial and hair traits only."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "y2k_party_outfit_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide silhouette and print while retaining covered styling and no labels."
+        },
+        {
+          "type": "environment_reference",
+          "name": "house_party_flash_reference",
+          "required": false,
+          "source": "user-provided party-scene reference",
+          "usage": "Guide flash, crowd blur, and disco reflections without copying identities or branded items."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Specified adult guests, covered wardrobe, anonymous background people, and removed alcohol-brand, text, and sexualized dependencies."
+  }
+}

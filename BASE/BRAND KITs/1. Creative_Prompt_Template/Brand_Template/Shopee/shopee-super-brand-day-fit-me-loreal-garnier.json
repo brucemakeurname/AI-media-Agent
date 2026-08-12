@@ -1,0 +1,70 @@
+{
+  "name": "shopee-super-brand-day-fit-me-loreal-garnier",
+  "tag": [
+    "beauty-promo",
+    "super-brand-day",
+    "multi-brand",
+    "product-collage"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "shopee_1052486637335548",
+  "prompt": {
+    "project_info": {
+      "theme": "Shopee Mall Super Brand Day beauty multi-brand campaign",
+      "color_palette": "Soft white, blush pink, black, coral orange, blue accent"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A polished beauty promo poster with header logos for Shopee Mall SuperBrandDay, Maybelline New York, L'Oreal Paris, Garnier, and 3CE StyleNanda. Large date text says '12.07-14.07'. Main headline reads 'PHAN MIN, BEN SAC DA SANG - TOC TREND*'. A rounded central offer bar says 'UU DAI DEN 50% | QUA TANG 500.000D'. On a black display stage sit a large Fit Me Loose Setting Powder, a L'Oreal glycolic serum dropper bottle, a 3CE lip product, and a Garnier Color Naturals product pack. Bottom CTA says 'MUA NGAY TAI SHOPEE'. Top-right badge reads 'CON 2 NGAY' and 'NGAY 15 SALE GIUA THANG'.",
+      "style": "Premium multi-brand beauty campaign poster with clean display-podium composition and soft glossy highlights"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "Shopee Mall SuperBrandDay / MAYBELLINE NEW YORK / L'OREAL PARIS / GARNIER / 3CE STYLENANDA / 12.07-14.07 / PHAN MIN, BEN SAC DA SANG - TOC TREND* / UU DAI DEN 50% | QUA TANG 500.000D / MOI / MUA NGAY TAI SHOPEE / CON 2 NGAY / NGAY 15 SALE GIUA THANG / (*) TREND: Xu Huong",
+      "items": [
+        "Top Left: Shopee logo plus all beauty brand logos in a neat header row",
+        "Top Right: Blue-orange countdown badge 'CON 2 NGAY' and 'NGAY 15 SALE GIUA THANG'",
+        "Bottom Left: Oversized Fit Me Loose Setting Powder packaging on a black display platform",
+        "Bottom Right: Garnier Color Naturals pack next to serum and lip product, with the footnote 'TREND: Xu Huong'",
+        "Center/Background: Pearly white-pink beauty backdrop, central headline, rounded offer bar, and a black podium with multi-brand products"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft premium beauty lighting",
+      "effect": "Pearlescent glow, clean product reflections, subtle flares, polished retail sheen"
+    },
+    "technical_specs": {
+      "render_style": "Multi-brand beauty poster with photo-real packshots and premium compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee Mall Super Brand Day beauty campaign. Centerpiece is a black display podium holding a large Fit Me Loose Setting Powder, L'Oreal glycolic serum, 3CE lip product, and Garnier Color Naturals pack. Background is a soft white-pink pearlescent beauty field. Surrounding elements: Shopee Mall SuperBrandDay, Maybelline New York, L'Oreal Paris, Garnier, and 3CE StyleNanda logos; date '12.07-14.07'; headline 'PHAN MIN, BEN SAC DA SANG - TOC TREND*'; offer bar 'UU DAI DEN 50% | QUA TANG 500.000D'; bottom CTA 'MUA NGAY TAI SHOPEE'; and top-right badge 'CON 2 NGAY' with 'NGAY 15 SALE GIUA THANG'. Technical style: multi-brand beauty poster with photo-real packshots and premium compositing, soft premium beauty lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Maybelline, L'Oreal, 3CE, and Garnier packshot set",
+          "required": true,
+          "source": "official product renders or clean packshots",
+          "usage": "Attach for exact packaging, logo placement, and shade/product fidelity"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee Mall Super Brand Day and beauty brand logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Preserve the multi-logo header exactly"
+        },
+        {
+          "type": "text_layout",
+          "name": "Multi-brand beauty podium layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the date, headline, offer bar, countdown badge, and podium composition"
+        }
+      ],
+      "prompt_instructions": "Keep '12.07-14.07' and 'NGAY 15' exactly as shown. Relative to Friday, July 17, 2026, these are past campaign dates and must remain unchanged in the rebuilt artwork."
+    }
+  }
+}

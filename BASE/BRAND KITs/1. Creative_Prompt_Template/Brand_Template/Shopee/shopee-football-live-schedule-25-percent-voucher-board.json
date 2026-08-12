@@ -1,0 +1,70 @@
+{
+  "name": "shopee-football-live-schedule-25-percent-voucher-board",
+  "tag": [
+    "schedule-board",
+    "sports-campaign",
+    "livestream-lineup",
+    "voucher-promo"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Infographics",
+  "group": "shopee_776032282198774",
+  "prompt": {
+    "project_info": {
+      "theme": "Shopee football season livestream schedule board",
+      "color_palette": "Stadium navy, Shopee orange, bright blue, white, gold"
+    },
+    "main_subject": {
+      "type": "Text/Person",
+      "detail": "A full-height infographic schedule table titled 'SHOPEE HOA NHIP SAN CO' with subtitle 'Voucher 25% Nong Bong Khung Gio Vang'. The table has columns 'GIO LIVE', 'KHUNG GIO VANG', 'PHIEN LIVE', 'VOUCHER'. Each row lists date and hour combinations such as '20.6 10H', '20.6 0H', '24.6 10H', '24.6 18H', '24.6 19H' with livestream hosts including 'SAM', 'TU VI x VAN ANH', 'PHUONG LINH x NGOC CHAU', 'NINH DUONG', 'TRUONG QUYNH ANH x KHONG TU QUYNH x THIEU BAO TRAM', 'WILL x BE TRAN', 'PEWPEW', 'DIEP LE'. Each row ends with a voucher ticket saying 'GIAM GIA 25%'.",
+      "style": "Event schedule infographic with sports-broadcast aesthetics, crisp panels, celebrity cutouts, ticket-shaped coupon modules"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "SHOPEE HOA NHIP SAN CO / Voucher 25% Nong Bong Khung Gio Vang / GIO LIVE / KHUNG GIO VANG / PHIEN LIVE / VOUCHER / GIAM GIA 25%",
+      "items": [
+        "Top Left: Stadium floodlights and blue title ribbon",
+        "Top Right: Soccer ball in motion and more floodlights",
+        "Bottom Left: Green football field edge with white sideline",
+        "Bottom Right: Stacked coupon tickets reading GIAM GIA 25% for every row",
+        "Center/Background: Large multi-row orange and navy schedule table filled with celebrity portraits, date cells, and showtime text"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Night stadium event lighting",
+      "effect": "Floodlight glow, ember sparks, neon panel rims, high contrast infographic polish"
+    },
+    "technical_specs": {
+      "render_style": "Broadcast-style event infographic poster with photo-composite cutouts",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising infographic poster for a Shopee football-themed livestream schedule. Centerpiece is a large schedule board titled 'SHOPEE HOA NHIP SAN CO' with the subtitle 'Voucher 25% Nong Bong Khung Gio Vang', featuring columns for time, golden time slots, livestream session, and voucher. Background is a dark stadium scene with floodlights, sparks, and a football field edge. Surrounding elements: soccer ball, celebrity cutouts inside orange and blue rows, and voucher tickets on the right side all reading 'GIAM GIA 25%'. Preserve the listed host names, the date and hour structure such as '20.6 10H', '20.6 0H', '24.6 10H', '24.6 18H', '24.6 19H', and the overall scoreboard composition. Technical style: broadcast-style event infographic poster with photo-composite cutouts, night stadium lighting, floodlight glow, neon panel rims, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Celebrity host portraits",
+          "required": true,
+          "source": "original host photos or cutouts for Sam, Tu Vi, Van Anh, Phuong Linh, Ngoc Chau, Ninh Duong, Truong Quynh Anh, Khong Tu Quynh, Thieu Bao Tram, Will, Be Tran, PewPew, Diep Le",
+          "usage": "Attach if exact likeness is required; place each celebrity pair/group in the corresponding schedule row"
+        },
+        {
+          "type": "text_layout",
+          "name": "Schedule board table layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Replicate the row/column structure, dates, times, and voucher placement exactly"
+        },
+        {
+          "type": "graphic",
+          "name": "Football campaign visual system",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve stadium lights, soccer ball, fiery particles, orange-blue panels, and ticket voucher shapes"
+        }
+      ],
+      "prompt_instructions": "Keep all visible names and schedule text as faithful as possible. Dates like '20.6', '21.6', '24.6', '25.6', '26.6' are historical campaign copy relative to Friday, July 17, 2026 and must remain unchanged in the artwork. Maintain a portrait-oriented full-board infographic composition rather than simplifying into a cleaner table."
+    }
+  }
+}

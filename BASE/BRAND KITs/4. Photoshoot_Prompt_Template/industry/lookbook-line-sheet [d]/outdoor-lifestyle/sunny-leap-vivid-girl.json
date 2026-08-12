@@ -1,0 +1,22 @@
+{
+  "name": "sunny-leap-vivid-girl",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "dynamic", "summer"],
+  "image_type": "dynamic low-angle fashion portrait",
+  "image_vibe": "energetic, playful, summery, bold",
+  "image_purpose": "fashion campaign and summer lifestyle editorial",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a dynamic low-angle outdoor fashion portrait of one approved adult woman in mid-air against a clear blue sky, preserving the supplied banner typography and accessory styling.",
+    "main_subject": "Approved adult woman with long wavy hair in a dynamic mid-air pose, leaning left with her right leg kicked high to the right. She wears a yellow short-sleeve ringer T-shirt, white shorts, bright yellow crew socks, large chunky white sneakers, and carries a red-and-white vertically striped tote bag. Her raised left hand holds a white fabric banner with colorful supplied typography.",
+    "composition_elements": ["Worm's-eye low-angle view with 24–35mm wide-angle perspective.", "Dynamic limbs, oversized foreground sneaker, tote bag, and face remain in focus.", "Deep cobalt-blue sky with bright hard noon sunlight.", "Banner billows behind the head; preserve its supplied colorful text and layout."],
+    "lighting_and_atmosphere": "Bright hard direct sunlight, sharp contrast, vivid primary colors, clear sunny-day atmosphere, and Fujifilm Velvia/Vivid-inspired treatment.",
+    "technical_specs": "Photorealistic wide-angle fashion photography, 24–35mm lens, deep depth of field, crisp micro-contrast, high saturation with detailed skin and fabric texture, no added watermark.",
+    "generated_prompt_string": "Use the uploaded approved-adult reference to create a dynamic low-angle fashion portrait of a woman with long wavy hair in a mid-air pose, body leaning left and right leg kicked high to the right. She wears a yellow short-sleeve ringer T-shirt, white shorts, bright yellow crew socks and large chunky white sneakers. She carries a large red-and-white vertically striped tote bag. Her left arm is raised holding a white fabric banner with the supplied colorful typography that billows behind her head. Worm's-eye view against a deep cobalt-blue sky, 24–35mm wide-angle lens, dynamic perspective, deep depth of field keeping shoe and face sharp, bright hard noon sunlight, Fujifilm Velvia/Vivid-inspired color, high saturation, punchy contrast, energetic playful summer high-fashion editorial, no added text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "unrealistic features", "anatomical errors", "stiff pose", "overcast", "muted colors", "blurry", "low resolution", "distorted faces", "unnatural colors", "extra limbs", "dark background", "watermark", "unwanted text", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "sunny-leap-vivid-girl.jpg", "required": true, "source": "local reference image", "usage": "Attach for approved-adult identity, hair, pose, outfit, and movement reference."}, {"type": "text_layout", "name": "colorful summer banner typography", "required": true, "source": "local reference image", "usage": "Preserve the supplied banner text and layout without inventing additional copy."}, {"type": "accessory", "name": "red-and-white striped tote and sneakers", "required": true, "source": "local reference image", "usage": "Preserve bag stripes, shoes, scale, and placement."}],
+      "prompt_instructions": "Attach the required references. Preserve adult identity, hair, jump pose, clothing, tote, shoes, banner typography, sky, direct sunlight, and wide-angle composition. Keep supplied text layout unchanged; replace only with equivalent licensed text-layout or accessory references. No celebrity likeness or extra logos."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

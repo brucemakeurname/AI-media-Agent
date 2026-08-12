@@ -1,0 +1,27 @@
+{
+  "name": "blonde-athlete-on-plates",
+  "tag": ["ugc", "casual-everyday", "sporty-active", "public-indoor", "crossfit", "male-fitness"],
+  "image_type": "gym-athlete-portrait",
+  "image_vibe": "casual-confident-gym-bro",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/sporty-active/public-indoor",
+  "prompt": {
+    "project_info": "Create a high-resolution social-media gym portrait of an approved adult male athlete seated on stacked barbell plates in an industrial CrossFit facility.",
+    "main_subject": "An approved adult man with messy blonde hair and a neutral expression, wearing a black-and-white plaid flannel over a white tank top, white compression shorts, and white crew socks. He sits on black weight plates and makes a peace sign.",
+    "composition_elements": "Medium portrait with the seated subject centered in the gym. Include chalkboard workout scores, wooden Rogue plyo boxes, rubber flooring, dumbbells, and industrial fans; preserve visible brand text only when supplied as a typography reference.",
+    "lighting_and_atmosphere": "Bright overhead gym lighting, realistic skin and fabric texture, casual confident training atmosphere, natural social-media documentary feel.",
+    "technical_specs": "High-resolution digital photography, vertical portrait framing, sharp subject, realistic anatomy and hands, natural contrast and fine detail.",
+    "generated_prompt_string": "Create a high-resolution vertical gym portrait of an approved adult blonde male athlete with messy hair and a neutral expression seated on stacked black barbell plates in an industrial CrossFit facility. He wears a black-and-white plaid flannel over a white tank top, white compression shorts, and white crew socks, and makes a peace sign. Include a chalkboard workout leaderboard, wooden plyo boxes, rubber flooring, dumbbells, and industrial fans. Use bright overhead lighting, realistic textures, accurate hands, and a casual confident social-media photography style.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, nonsensical chalkboard text",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-blonde-athlete", "required": true, "source": "blonde-athlete-on-plates.jpg", "usage": "Preserve adult identity, hair, expression, seated pose, and peace sign."},
+        {"type": "wardrobe", "name": "plaid-flannel-white-gym-layering", "required": true, "source": "blonde-athlete-on-plates.jpg", "usage": "Keep flannel, tank, compression shorts, and socks consistent; replace only with explicit wardrobe references."},
+        {"type": "location", "name": "industrial-crossfit-gym", "required": true, "source": "blonde-athlete-on-plates.jpg", "usage": "Maintain chalkboard, plyo boxes, flooring, weights, and fans; replace only with explicit location references."},
+        {"type": "text_layout", "name": "gym-scoreboard", "required": false, "source": "blonde-athlete-on-plates.jpg", "usage": "Attach only when scoreboard layout is needed; text is optional and replaceable with supplied copy."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, location, and optional text-layout references when exact consistency is required. Keep adult identity, outfit, equipment/product, environment, logo, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the observed gym portrait details.", "Added safe negative prompts and controlled typography references."]}
+}

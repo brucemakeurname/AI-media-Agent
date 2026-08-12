@@ -1,0 +1,27 @@
+{
+  "name": "green-park-pink-satin-bubbles",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "outdoor-nature", "pink-satin", "soap-bubbles", "park"],
+  "image_type": "lifestyle-candid-portrait",
+  "image_vibe": "playful-dreamy-serene",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/soft-elegant/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a photorealistic candid UGC portrait of an approved adult woman blowing iridescent soap bubbles in a green city park.",
+    "main_subject": "An approved adult woman with long straight dark hair, center-parted and naturally shiny, seated on grass with her legs folded to the side. She wears a dusty-rose blush-pink satin maxi dress with a soft drape and realistic satin folds, minimal elegant jewelry, rings, and bracelets. One hand holds a bubble wand near her lips and the other holds a small bubble-solution bottle; her expression is relaxed and playful.",
+    "composition_elements": "Vertical 9:16 eye-level lifestyle portrait, three-quarter body framing, subject slightly right of center, bubbles drifting across the left side, and layered depth from sharp foreground bubbles to softly blurred park visitors and willow trees. Keep the wand, bottle, satin folds, hands, and bubbles readable.",
+    "lighting_and_atmosphere": "Soft overcast daylight with natural ambient fill from grass and sky, controlled satin highlights, realistic skin texture, and a fresh green, blush-pink, rainbow-iridescent palette. Preserve the playful, dreamy, serene mood.",
+    "technical_specs": "35mm lens, f/2.0, 9:16 vertical framing, face and wand sharp, a mix of sharp and softly blurred bubbles, medium natural contrast, subtle analog grain, accurate anatomy and hands.",
+    "generated_prompt_string": "Create a photorealistic lifestyle portrait of an approved adult woman blowing soap bubbles in a lush city park with willow trees, open lawn, soft cloudy daylight, and distant people softly blurred. Compose a vertical 9:16 three-quarter-body frame at eye level, with the subject seated on grass slightly right of center, legs folded to the side, one hand holding a bubble wand near her lips and the other holding a small bubble-solution bottle. She has long straight dark hair with a center part and natural shine, a relaxed playful expression, soft natural glam makeup, and wears a dusty-rose blush-pink satin maxi dress with realistic sheen, folds, and soft drape, plus elegant rings and bracelets. Fill the left side with many iridescent rainbow soap bubbles showing realistic reflections and refraction, with some bubbles sharp and others softly blurred by distance. Use a 35mm lens at f/2.0, soft overcast daylight, natural ambient fill, controlled highlights, realistic skin texture, fresh greens, blush pink, rainbow iridescence, medium contrast, and subtle analog grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, malformed bubbles, distorted face, blurry subject, text, logo",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-park-subject", "required": true, "source": "green-park-pink-satin-bubbles.jpg", "usage": "Preserve the adult subject's face, hair, expression, seated pose, and identity; never reproduce a celebrity or public-figure likeness."},
+        {"type": "wardrobe", "name": "blush-pink-satin-maxi-dress", "required": true, "source": "green-park-pink-satin-bubbles.jpg", "usage": "Keep the blush-pink satin dress, drape, sheen, and folds consistent; replace only with an explicitly attached wardrobe reference."},
+        {"type": "accessory", "name": "bubble-wand-and-solution-bottle", "required": true, "source": "green-park-pink-satin-bubbles.jpg", "usage": "Preserve the wand, bottle, hand placement, and bubble behavior; these props may be replaced only with explicit alternatives."},
+        {"type": "location", "name": "lush-city-park", "required": true, "source": "green-park-pink-satin-bubbles.jpg", "usage": "Maintain the grass, leafy trees, soft park activity, and daylight environment; replace only with an explicit location reference."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, props, and location references when exact consistency is required. Keep identity, adult status, outfit, seated pose, prop placement, and environment hierarchy consistent. Bubbles and distant background activity are replaceable only with explicit alternatives; preserve any replacement's identity, outfit, product, logo, environment, and typography. No logo or typography is present."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and retained the source's candid bubble-park concept.", "Added safe negative prompts, anatomy constraints, and reference structure."]}
+}

@@ -1,0 +1,75 @@
+{
+  "name": "sydney-sweeney-red-carpet-retro-red-sporty",
+  "tag": [
+    "retro-athletic-chic",
+    "red-two-piece",
+    "white-piping",
+    "press-wall",
+    "candid-portrait"
+  ],
+  "image_type": "red-carpet-fashion-portrait",
+  "image_vibe": "retro-playful-polished",
+  "image_purpose": "press-kit",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Retro-inspired athletic-chic red-carpet portrait",
+      "event_context": "fictional media step-and-repeat",
+      "color_palette": "vivid red, clean white piping, light skin tones, soft neutral press-wall background, and black typography"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult woman with shoulder-length wavy blonde hair, blue eyes, light makeup, calm neutral expression with a slight smile, and direct gaze toward the camera",
+      "wardrobe": "fitted red tank-style crop top with white piping around the neckline and armholes, matching red high-waisted athletic shorts with white piping at the hems, delicate diamond tennis necklace, silver rings, and small stud earrings",
+      "pose": "standing forward with hands loosely clasped near the waist"
+    },
+    "composition_elements": {
+      "framing": "medium portrait from mid-thigh upward",
+      "subject_position": "adult woman centered and facing forward against a clean media step-and-repeat",
+      "background": "fictional black press backdrop with repeated white sponsor-style marks, no real company logos or event identities"
+    },
+    "lighting_and_atmosphere": {
+      "type": "professional direct flash at approximately 5000K with gentle ambient fill",
+      "effect": "even illumination on face and outfit, slight background shadow, clean high-resolution event realism"
+    },
+    "technical_specs": {
+      "render_style": "full-frame event camera with 70mm lens, polished celebrity-style portrait without public-figure identity",
+      "resolution": "4k vertical medium portrait",
+      "finish": "natural skin texture, restrained contrast, crisp piping and fabric detail, subtle event grain"
+    },
+    "generated_prompt_string": "A clearly adult woman with shoulder-length wavy blonde hair, blue eyes, light makeup, a calm neutral expression with a slight smile, and a direct gaze toward the camera. She stands facing forward with hands loosely clasped near the waist, wearing a retro-inspired athletic-chic outfit: a fitted red tank-style crop top with white piping around the neckline and armholes, matching red high-waisted athletic shorts with white piping at the hems, a delicate diamond tennis necklace, silver rings, and small stud earrings. Set her against a fictional black media step-and-repeat with repeated white sponsor-style marks but no real company logos or event identities. Use professional direct flash with even face and outfit illumination, a slight background shadow, medium framing from mid-thigh up, a 70mm event lens, realistic skin texture, crisp fabric detail, restrained contrast, and subtle event grain. Use an approved generic adult model rather than a public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, celebrity likeness, public-figure identity, real sponsor logos, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, illegible text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-retro-sport-model",
+          "required": true,
+          "source": "Original red-carpet athletic portrait preview image",
+          "usage": "Attach an approved adult face reference for identity continuity; preserve facial structure without the source's named public-figure likeness."
+        },
+        {
+          "type": "wardrobe",
+          "name": "red-athletic-two-piece-white-piping",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the red top and shorts, white piping, necklace, rings, and studs; retain the outfit and non-sexual forward stance."
+        },
+        {
+          "type": "text_layout",
+          "name": "fictional-white-sponsor-step-repeat",
+          "required": false,
+          "source": "Original press-wall preview image",
+          "usage": "Optional background reference; preserve repeated white mark scale and spacing, but replace real GLAAD, HYUNDAI, and other sponsor logos with cleared abstract or fictional marks."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person and wardrobe references; the press wall is optional. Keep the adult identity, red two-piece, white piping, jewelry, forward stance, and flash portrait consistent. Replace the source celebrity, real sponsors, and event identity with cleared generic equivalents; background marks and venue are replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public figure and real sponsor logos with an approved clearly adult generic model and fictional media wall while preserving the retro athletic outfit and composition."
+    ]
+  }
+}

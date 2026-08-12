@@ -1,0 +1,71 @@
+{
+  "name": "vfe-medical-admissions-three-knowledge-blocks-france",
+  "tag": [
+    "vfe",
+    "medical-admissions",
+    "france",
+    "three-blocks",
+    "infographic"
+  ],
+  "biz_niche": "Education",
+  "content_format": "Infographics",
+  "group": "vfe_1524692182656328",
+  "prompt": {
+    "project_info": {
+      "theme": "Three knowledge blocks in the new French medical admissions program",
+      "color_palette": "Medical Blue, Teal, White, Red, Peach"
+    },
+    "main_subject": {
+      "type": "Text/Icon",
+      "detail": "A medical-policy infographic showing a simplified doctor torso with stethoscope at the top and three stacked rounded white cards explaining the three knowledge blocks of the new curriculum, each marked with a numbered circle and a red ECTS pill.",
+      "style": "Flat healthcare explainer infographic with clear educational hierarchy, vector illustration, and strong consistency with the medical admissions reform series."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\n3 KHỐI KIẾN THỨC CỦA CHƯƠNG TRÌNH MỚI\n01 KHỐI SỨC KHỎE 24 - 30 ECTS\nKiến thức khoa học nền tảng chung cho 5 ngành MMOPK\n02 KHỐI CHUYÊN NGÀNH 24 - 30 ECTS\nCác môn thuộc ngành cử nhân đã chọn (Sinh học, Luật, Khoa học xã hội, Điều dưỡng...)\n03 KHỐI KỸ NĂNG BỔ TRỢ 6 - 12 ECTS\nGiao tiếp, Đạo đức, Tâm lý xã hội, Khoa học nhân văn",
+      "items": [
+        "Top Left: Large doctor torso illustration with stethoscope cable curving down from the shoulder.",
+        "Top Right: VFE logo near the collar and stethoscope head hanging on the right.",
+        "Bottom Left: Numbered circle 01 and 02 cards with red ECTS pills.",
+        "Bottom Right: Numbered circle 03 card describing complementary skills.",
+        "Center/Background: Blue medical backdrop and big central title above three stacked white rounded explainer cards."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat healthcare infographic lighting",
+      "effect": "No realistic shadows, clean vector surfaces, and high readability for educational text blocks."
+    },
+    "technical_specs": {
+      "render_style": "Flat vector healthcare education infographic",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality healthcare education infographic poster for the three knowledge blocks of the new French medical admissions program. Centerpiece is a doctor torso and stethoscope illustration above a title reading '3 KHỐI KIẾN THỨC CỦA CHƯƠNG TRÌNH MỚI', with three stacked white rounded cards describing KHỐI SỨC KHỎE, KHỐI CHUYÊN NGÀNH, and KHỐI KỸ NĂNG BỔ TRỢ. Background is a flat medical-blue vector field. Surrounding elements: numbered circles 01 02 03, red ECTS pills, and VFE logo at the top. Technical style: flat vector healthcare education infographic, clean educational readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place near top center below the collar."
+        },
+        {
+          "type": "graphic",
+          "name": "Doctor torso and stethoscope illustration",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Use as the dominant framing motif for the series."
+        },
+        {
+          "type": "text_layout",
+          "name": "Three knowledge blocks vertical card layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve the three stacked cards, numbered circles, and red ECTS pills."
+        }
+      ],
+      "prompt_instructions": "Keep terminology like MMOPK and ECTS exact. This is part of the same medical admissions explainer series, so the visual language must match the earlier reform cover and objectives graphics."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "name": "cellphones-asus-vivobook-buy-1-get-2",
+  "tag": ["cellphones", "asus vivobook", "gift campaign", "buy 1 get 2", "cta banner"],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "cellphones_1725979522581665",
+  "prompt": {
+    "project_info": {
+      "theme": "Asus Vivobook bundle-gift campaign",
+      "color_palette": "Red, white, neon blue, navy, silver"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A promotional laptop poster with a giant glowing headline announcing a buy-1-get-2 offer, centered on a silver ASUS Vivobook laptop inside a luminous rectangular frame, flanked by two blurred side laptops and a bottom call-to-action button.",
+      "style": "Futuristic sales banner, high-contrast electronics campaign visual"
+    },
+    "composition_elements": {
+      "type": "Typography/Product/CTA",
+      "text": "cellphoneS, MUA 1 ĐƯỢC 2, Chốt Asus Vivobook Mới Rinh Quà Về Nhà, Khám Phá Ngay",
+      "items": [
+        "Top Center: red cellphoneS logo block.",
+        "Upper Middle: giant glowing white-blue headline 'MUA 1 ĐƯỢC 2'.",
+        "Below headline: stacked white text 'Chốt Asus Vivobook Mới' and 'Rinh Quà Về Nhà'.",
+        "Center: silver ASUS laptop front-facing inside a glowing white rectangular frame.",
+        "Left and Right Midground: two additional ASUS laptops floating at angles with softer blur.",
+        "Bottom Center: rounded outlined CTA button reading 'Khám Phá Ngay'.",
+        "Background: dark blue digital-wall and luminous grid floor."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Neon tech-promo lighting",
+      "effect": "Strong headline glow, futuristic showroom mood, crisp hero-product emphasis"
+    },
+    "technical_specs": {
+      "render_style": "Futuristic electronics campaign poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "logo", "name": "cellphoneS and ASUS branding", "required": true, "source": "source image brand references", "usage": "Preserve the retailer logo and the laptop brand marks."},
+        {"type": "product", "name": "three ASUS laptops", "required": true, "source": "source image product reference", "usage": "Keep the central hero laptop front-on and the two side laptops at angled positions."},
+        {"type": "text_layout", "name": "bundle-offer headline and CTA", "required": true, "source": "source image text reference", "usage": "Preserve the exact bundle wording, stacked lines, and the bottom button label."},
+        {"type": "background", "name": "blue luminous grid backdrop", "required": true, "source": "source image background reference", "usage": "Maintain the glowing tech-floor and dark digital-wall aesthetic."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the glowing headline, centered laptop frame, and the side-laptop blur treatment.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the strong CTA and futuristic sales-banner composition."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square electronics campaign poster with a dark blue digital-wall and luminous grid floor. Place a red cellphoneS logo at the top center, then add a giant glowing white-blue headline 'MUA 1 ĐƯỢC 2'. Below it place stacked white text 'Chốt Asus Vivobook Mới' and 'Rinh Quà Về Nhà'. In the center, show a front-facing silver ASUS laptop inside a glowing white rectangular frame, with two angled ASUS laptops floating blurred on the left and right. Add a rounded outlined button at the bottom center reading 'Khám Phá Ngay'. Technical style: futuristic electronics campaign poster, neon tech-promo lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark unreadable headline, wrong text, warped laptops, low resolution, muddy glow, cluttered layout, watermark, signature"
+  }
+}

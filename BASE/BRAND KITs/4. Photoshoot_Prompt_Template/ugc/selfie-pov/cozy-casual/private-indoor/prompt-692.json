@@ -1,0 +1,22 @@
+{
+  "name": "prompt-692",
+  "tag": ["ugc", "selfie-pov", "cozy-casual", "private-indoor"],
+  "image_type": "mirror selfie portrait",
+  "image_vibe": "soft warm ultrarealistic lifestyle",
+  "image_purpose": "close-up creator-style outfit and phone reference",
+  "group": "cozy-casual/private-indoor",
+  "prompt": {
+    "project_info": "Create an approved-adult UGC mirror selfie using the supplied local image as the required identity and styling reference.",
+    "main_subject": "Approved adult woman with long brown hair, wearing a cream/off-white denim jacket over a white T-shirt and an Apple digital watch.",
+    "composition_elements": "Close-up portrait mirror selfie, phone held in front of the face, white Nothing Phone (2)-style transparent back visible, warm blurred indoor background. Do not add a creator name or signature.",
+    "lighting_and_atmosphere": "Soft warm indoor light with gentle shadows and a relaxed candid atmosphere.",
+    "technical_specs": "Photorealistic photography, natural skin texture, sharp face and garment detail, portrait orientation, 4:5 ratio, 50mm lens, moderate depth of field.",
+    "generated_prompt_string": "Approved adult woman with long brown hair takes a close-up mirror selfie in a softly warm indoor setting, wearing a cream denim jacket, white T-shirt, and Apple digital watch. Keep the supplied identity, outfit, phone design, composition, and warm blurred background consistent. No creator name, signature, watermark, or invented typography.",
+    "negative_prompt": "explicit, nsfw, overly revealing, underage, childlike, sexualized pose, nudity, lingerie, transparent clothing, distorted anatomy, extra fingers, malformed hands, duplicate subject, warped phone, unreadable text, creator signature, watermark, logo invention, public figure likeness.",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "prompt-692_0.jpg", "required": true, "source": "local preview", "usage": "Identity, hair, outfit, phone, framing, and lighting reference."}],
+      "prompt_instructions": "Attach the required local image. Preserve identity, outfit, phone design, framing, and warm indoor environment; replaceability applies only to an intentionally supplied identity reference. Keep any typography absent and do not reproduce a creator signature. Maintain consistency across outputs."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed the creator-name/signature overlay from the generated scene."]}
+}

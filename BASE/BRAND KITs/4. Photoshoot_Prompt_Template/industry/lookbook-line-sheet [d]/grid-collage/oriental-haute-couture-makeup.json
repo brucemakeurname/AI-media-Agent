@@ -1,0 +1,22 @@
+{
+  "name": "oriental-haute-couture-makeup",
+  "tag": ["industry", "lookbook-line-sheet", "grid-collage", "east-asian", "graphic-makeup"],
+  "image_type": "East Asian couture beauty grid",
+  "image_vibe": "elegant, powerful, artistic, cinematic",
+  "image_purpose": "beauty campaign and couture editorial grid",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Create a 2x2 cinematic fashion editorial grid combining East Asian elegance with modern graphic red makeup.",
+    "main_subject": "One adult fictional East Asian woman with original non-celebrity features, modern sculptural updo with loose textured strands, natural matte porcelain skin with realistic texture, dramatic red graphic eyeliner flowing like a calligraphy stroke, full natural brows, warm peach blush, deep matte crimson lips, minimal gold drop earrings, and a deep-red embroidered kimono with floral detailing and white inner collar.",
+    "composition_elements": "Four panels with the same identity, outfit, makeup, and lighting: serious calm rightward gaze; direct confident gaze; side profile emphasizing eyeliner curve; soft downward gaze. Muted dark-green gradient background, thin black grid borders, no outer border.",
+    "lighting_and_atmosphere": "Soft diffused key from front-left with gentle cheekbone shaping, no harsh flash, subtle analog grain, warm cinematic grade, elegant artistic mood.",
+    "technical_specs": "4:5 portrait 2x2 grid, 85mm portrait-lens look, crisp skin and fabric detail, natural dynamic range, consistent identity and exposure, no text or logos.",
+    "generated_prompt_string": "Cinematic 2x2 fashion editorial grid of one adult fictional East Asian woman with original non-celebrity features, modern sculptural updo with loose textured strands, natural matte porcelain skin with realistic texture, dramatic red graphic eyeliner flowing like a calligraphy stroke, full natural brows, warm peach blush, deep matte crimson lips, minimal gold drop earrings, and a deep-red embroidered kimono with floral detailing and white inner collar. Same identity, outfit, makeup, and lighting in all four panels: calm rightward gaze, direct confident gaze, side profile emphasizing eyeliner curve, and soft downward gaze. Muted dark-green gradient background, thin black grid borders, soft front-left diffused key, gentle cheekbone shadows, 85mm portrait look, subtle analog grain, elegant powerful artistic couture.",
+    "negative_prompt": ["celebrity likeness", "public figure likeness", "explicit", "nsfw", "overly revealing", "nudity", "different face", "different hairstyle", "blurry", "low quality", "distorted anatomy", "extra fingers", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "logo", "text", "signature"],
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "oriental-haute-couture-makeup.jpg", "required": true, "source": "workspace reference image", "usage": "Reference the adult model, red kimono, graphic eyeliner, updo, dark-green background, four poses, and cinematic light."}],
+      "prompt_instructions": "Attach the required reference image. Preserve identity consistency, kimono, makeup, hairstyle, panel order, background, lighting, and grid. Keep accessories generic and typography absent or replaceable."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

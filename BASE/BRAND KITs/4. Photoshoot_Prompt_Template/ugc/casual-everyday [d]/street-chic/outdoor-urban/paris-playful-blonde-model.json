@@ -1,0 +1,19 @@
+{
+  "name": "paris-playful-blonde-model",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "paris", "city-fashion"],
+  "image_type": "city-street-closeup",
+  "image_vibe": "playful-warm-fashion",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic casual city-street close-up of an approved adult strawberry-blonde woman during golden hour.",
+    "main_subject": "An approved adult woman with strawberry-blonde hair in a high ponytail, natural skin texture, and a playful wink. She wears a satin slip dress and gently touches her face while looking at camera.",
+    "composition_elements": "Close-up portrait on a lively Paris-style street with cobblestones, cafes, boutiques, blurred pedestrians, shopping bags, and historic architecture. Include Eiffel Tower or city skyline only when location reference confirms it.",
+    "lighting_and_atmosphere": "Warm afternoon sunlight and golden glow, friendly fashion-blogger energy, realistic street depth and skin texture.",
+    "technical_specs": "Photorealistic iPhone-style close-up, vertical framing, sharp eyes and face, natural depth, realistic satin, architecture, and pavement detail.",
+    "generated_prompt_string": "Create a photorealistic vertical casual city-street close-up of an approved adult strawberry-blonde woman with a high ponytail, natural skin texture, and a playful wink. She wears a satin slip dress and gently touches her face while looking at camera. Place her on a lively Paris-style street with cobblestones, cafe tables, boutique storefronts, historic buildings, blurred pedestrians, and shopping bags; include landmark skyline only when explicitly referenced. Use warm golden-hour sunlight, natural street depth, and realistic detail.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, objectifying body emphasis, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted architecture",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-paris-blonde-subject", "required": true, "source": "paris-playful-blonde-model.jpg", "usage": "Preserve adult identity, hair, wink, expression, and hand pose."}, {"type": "wardrobe", "name": "satin-slip-dress", "required": true, "source": "paris-playful-blonde-model.jpg", "usage": "Keep dress and styling consistent; replace only with explicit references."}, {"type": "location", "name": "paris-style-cafe-street", "required": true, "source": "paris-playful-blonde-model.jpg", "usage": "Maintain cobblestones, cafes, boutiques, architecture, and daylight; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed objectifying descriptors and clarified the subject as an approved adult.", "Added safe negative prompts and structured references."]}
+}

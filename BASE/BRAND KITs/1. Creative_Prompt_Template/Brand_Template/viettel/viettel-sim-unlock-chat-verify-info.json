@@ -1,0 +1,78 @@
+{
+  "name": "viettel-sim-unlock-chat-verify-info",
+  "tag": [
+    "viettel",
+    "telecom",
+    "sim-lock",
+    "subscriber-verification",
+    "chat-ui"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Q&A",
+  "group": "viettel_1559418322466927",
+  "prompt": {
+    "project_info": {
+      "theme": "Viettel SIM unlock after subscriber identity verification",
+      "color_palette": "Viettel red, white, dark gray chat bubbles, soft glow pink highlights"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A centered modern black-framed smartphone standing vertically, showing a Vietnamese chat conversation about reopening a locked SIM. The visible chat lines are: 'SIM bị khóa có mở lại được không?', 'Có', 'Có phải đổi số không?', 'Không ❤️', 'Cần làm gì để mở khóa?'. A large rounded white reply bubble at the bottom says: 'Hoàn tất xác thực thông tin qua My Viettel, VNeID hoặc tới điểm hỗ trợ xác thực của Viettel gần nhất ❤️'.",
+      "style": "Clean advertising composite, realistic smartphone render, smooth glossy glass screen, oversized rounded messaging UI, modern telecom poster style"
+    },
+    "composition_elements": {
+      "type": "Floating Objects",
+      "text": "viettel telecom; SIM bị khóa có mở lại được không?; Có; Có phải đổi số không?; Không ❤️; Cần làm gì để mở khóa?; Hoàn tất xác thực thông tin qua My Viettel, VNeID hoặc tới điểm hỗ trợ xác thực của Viettel gần nhất ❤️",
+      "items": [
+        "Top Left: Viettel telecom logo in white",
+        "Top Right: Large white 3D speech card with red question marks and two glowing equal-sign bars floating nearby",
+        "Bottom Left: Blurred red and white chat icons with one sharper white chat bubble icon",
+        "Bottom Right: Large white rounded answer bubble overlapping the lower phone edge",
+        "Center/Background: Deep red gradient background with subtle glow, centered phone, soft drop shadow under device"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio advertising lighting",
+      "effect": "Gentle bloom, glossy reflections on the phone frame, soft volumetric glow around floating chat icons, crisp edges on typography"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal product advertising composite with UI mockup elements",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for Viettel SIM unlock after subscriber identity verification. Centerpiece is a centered black-framed smartphone showing a Vietnamese chat about reopening a locked SIM, with the exact visible messages 'SIM bị khóa có mở lại được không?', 'Có', 'Có phải đổi số không?', 'Không ❤️', 'Cần làm gì để mở khóa?' and a large rounded white answer bubble that says 'Hoàn tất xác thực thông tin qua My Viettel, VNeID hoặc tới điểm hỗ trợ xác thực của Viettel gần nhất ❤️'. Background is a deep Viettel-red gradient with soft glow. Surrounding elements: Viettel telecom logo in the top left, floating white and blurred red chat icons, a white question-mark card on the right, and a large overlapping bottom message bubble. Technical style: photoreal product advertising composite with UI mockup elements, soft studio advertising lighting, gentle bloom and glossy reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel telecom logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Place in the top-left corner with the same white logo treatment"
+        },
+        {
+          "type": "ui_reference",
+          "name": "Vietnamese messaging layout",
+          "required": true,
+          "source": "recreated from the original image text",
+          "usage": "Keep exact bubble sequence, spacing, and rounded message style"
+        },
+        {
+          "type": "text_layout",
+          "name": "Bottom solution bubble",
+          "required": true,
+          "source": "original creative copy",
+          "usage": "Preserve the long explanatory sentence exactly with red emphasis on key app names and support point"
+        },
+        {
+          "type": "graphic",
+          "name": "Question-mark chat sticker set",
+          "required": false,
+          "source": "recreated decorative 3D elements",
+          "usage": "Support the SIM help theme with floating stickers and blurred chat icons"
+        }
+      ],
+      "prompt_instructions": "Rebuild as a clean square telecom social post. The exact Vietnamese wording is mandatory. The phone must stay centered and tall, with a realistic iPhone-like silhouette. Emphasize the red-and-white brand palette, soft glows, and the supportive customer-care tone."
+    }
+  }
+}

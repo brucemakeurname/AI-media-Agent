@@ -1,0 +1,34 @@
+{
+  "name": "Botanical Metamorphosis Editorial",
+  "tag": "industry/lookbook-line-sheet/conceptual-surreal",
+  "image_type": "high-concept couture portrait",
+  "image_vibe": "museum-like floral sculpture, cinematic organic grandeur",
+  "image_purpose": "high-fashion editorial and couture concept development",
+  "group": "conceptual-surreal",
+  "prompt": {
+    "project_info": "Create a hyper-realistic medium-format portrait of a fictional adult transformed into a living floral sculpture with physical couture texture.",
+    "main_subject": "A clearly adult fictional woman with serene dreamlike gaze and natural skin texture, enveloped in a monumental fully covered gown of sculpted silk and crushed velvet petals transitioning from deep crimson-orange to creamy bone white, with safe decorative oxidized-gold wire filigree over the bodice.",
+    "composition_elements": "2:3 centered portrait with voluminous organic silhouette, arms obscured by petals, dark slate and olive hand-painted canvas backdrop, face in focus and dress receding into shadow.",
+    "lighting_and_atmosphere": "Moody Rembrandt lighting carving facial features, soft falloff over petals, still heavy museum-like studio silence, tactile leaf veins and woven threads.",
+    "technical_specs": "Hasselblad H6D-100c, 80mm f/1.9, Kodak Portra 400 warmth with painterly contrast, realistic physical depth, no digital haze.",
+    "generated_prompt_string": "Hyper-realistic 2:3 high-fashion portrait of a clearly adult fictional woman transformed into a living floral sculpture, fully covered monumental gown of sculpted silk and crushed velvet petals, gradient deep crimson-orange to creamy bone white with realistic leaf veins, decorative oxidized-gold wire filigree, serene dreamlike gaze, dark slate and olive hand-painted canvas backdrop, moody Rembrandt light, Hasselblad H6D-100c 80mm f/1.9, Kodak Portra 400 warmth, tactile physical depth, no text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, exposed intimate areas, sexualized pose, child, teen, ageless person, celebrity likeness, public figure likeness, sharp wire touching skin, gore, digital haze, CGI, plastic skin, watermark, logo, text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "botanical couture reference",
+          "required": true,
+          "source": "Attach the supplied source image as the visual reference.",
+          "usage": "Match the petal volume, crimson-to-cream palette, wire filigree, centered silhouette, and Rembrandt lighting; keep identity, flowers, fabrics, and backdrop replaceable."
+        }
+      ],
+      "instructions": "Attach the source image before generation. Preserve the floral metamorphosis concept, physical couture texture, and full coverage. Keep the fictional adult identity and all botanical materials replaceable; use safe decorative filigree."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": "Clarified the subject as a clearly adult fictional woman, made the gown fully covered, and framed the gold wire as safe decorative filigree.",
+    "notes": "Surreal couture is non-graphic and nonsexual."
+  }
+}

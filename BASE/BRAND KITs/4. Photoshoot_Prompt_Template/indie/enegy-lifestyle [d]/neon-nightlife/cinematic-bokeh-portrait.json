@@ -1,0 +1,75 @@
+{
+  "name": "cinematic-bokeh-portrait",
+  "tag": [
+    "adult-woman",
+    "christmas-alley",
+    "faux-fur-coat",
+    "cafe-table",
+    "warm-bokeh"
+  ],
+  "image_type": "night-fashion-portrait",
+  "image_vibe": "cozy-cinematic-holiday",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject is an adult and replaced cropped clothing, mini-skirt/thigh-sock styling, finger-on-lips framing, and branded-bag implication with covered winter tailoring, a relaxed café pose, and an unbranded red bag."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "cozy adult winter fashion portrait in a Christmas-lit European alley cafe",
+      "color_palette": "warm gold, cocoa brown, red, dark denim, black, and cream",
+      "format": "vertical 2:3 seated portrait"
+    },
+    "main_subject": {
+      "description": "an adult woman with long platinum-blonde hair in a high messy ponytail, clear pink-tinted round glasses, gold hoop earrings, an oversized brown faux-fur coat, striped button-up blouse, loose brown tie, dark denim trousers, and black leather boots",
+      "pose_and_expression": "seated thoughtfully at an outdoor cafe table with one hand resting near a white cup, pensive calm expression"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level three-quarter café portrait",
+      "foreground": "unbranded red mini handbag, white coffee cup, faux-fur texture, and table edge",
+      "background": "narrow European alley, warm string lights, Christmas wreaths, old stone buildings, shutters, wrought-iron balconies, and glowing patio heaters",
+      "visual_hierarchy": "adult subject face and glasses, winter styling, then warm holiday bokeh"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "warm practical string lights and patio heaters with soft night fill",
+      "atmosphere": "cozy, romantic, cinematic, and wintry"
+    },
+    "technical_specs": {
+      "camera": "35mm film camera",
+      "lens": "85mm f/2",
+      "settings": "1/125s, f/2, ISO 400 film",
+      "rendering": "Superia-inspired warm color, natural skin texture, soft bokeh, visible fabric detail, subtle grain"
+    },
+    "generated_prompt_string": "A cinematic winter fashion portrait of an adult woman seated thoughtfully at an outdoor cafe table in a narrow charming European alley at night during Christmas season. She has long platinum-blonde hair in a high messy ponytail, clear pink-tinted round glasses, gold hoop earrings, an oversized brown faux-fur coat, striped button-up blouse, loose brown tie, dark denim trousers, and black leather boots. An unbranded red mini handbag and white coffee cup rest on the table. Warm golden string lights, large Christmas wreaths, glowing patio heaters, old stone buildings, wooden shutters, and wrought-iron balconies create deep soft bokeh. Use warm practical light, 85mm shallow depth of field, natural skin, detailed fur and fabric, cozy cinematic holiday atmosphere, and subtle 35mm film grain.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, cropped shirt, mini skirt, thigh-high socks, finger-on-lips pose, sexualized framing, logo, brand name, readable text, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-cafe-model-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity and hairstyle only."
+        },
+        {
+          "type": "wardrobe",
+          "name": "winter-cafe-wardrobe-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Match coat, blouse, tie, trousers, and boots when supplied."
+        },
+        {
+          "type": "location",
+          "name": "holiday-alley-reference",
+          "required": false,
+          "source": "approved location reference",
+          "usage": "Match lights, wreaths, cafe furniture, and architecture when supplied."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult subject, winter café styling, unbranded red bag, Christmas alley lights, and warm bokeh; replace only approved identity, wardrobe, or location elements."
+    }
+  }
+}

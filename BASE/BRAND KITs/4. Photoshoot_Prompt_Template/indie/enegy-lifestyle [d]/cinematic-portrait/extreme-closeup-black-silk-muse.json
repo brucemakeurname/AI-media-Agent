@@ -1,0 +1,71 @@
+{
+  "name": "extreme-closeup-black-silk-muse",
+  "tag": [
+    "wide-angle-portrait",
+    "campus-professional",
+    "black-hair",
+    "cool-interior",
+    "low-angle"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "cool-playful-cinematic",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/cinematic-portrait",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed the ambiguous school-age subject to an adult, replaced school uniform with campus-professional wardrobe, and removed all foot-focused, stocking, sweat, and fetish framing."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "playful low-angle adult campus-professional fashion portrait",
+      "color_palette": "navy, white, forest green, warm brown, charcoal, and cool blue-gray",
+      "format": "vertical 9:16 low-angle three-quarter portrait"
+    },
+    "main_subject": {
+      "type": "adult East Asian woman",
+      "detail": "Adult East Asian woman with long straight black hair, a warm playful smile, natural pale complexion, and subtle makeup. She wears a navy tailored blazer over a white collared shirt with a forest-green scarf tie, a midi plaid skirt, opaque tights, and brown leather loafers.",
+      "style": "contemporary campus-professional fashion editorial, non-sexualized"
+    },
+    "composition_elements": {
+      "text": "no text, logo, watermark, or engraved footwear branding",
+      "items": [
+        "low seated or crouched pose in a modern campus corridor",
+        "subject holds a brown leather loafer briefly at knee level as a wardrobe prop",
+        "natural hand and facial focus, with shoes and legs kept proportionate",
+        "softly blurred corridor walls and wood flooring behind the subject"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft diffused indoor daylight with cool blue-gray fill",
+      "effect": "clean low-contrast portrait light, quiet cinematic corridor atmosphere, gentle catchlights"
+    },
+    "technical_specs": {
+      "camera": "Fujifilm X-T5",
+      "lens": "XF 18mm f/1.4 at f/2.8",
+      "render_style": "controlled wide-angle perspective, realistic anatomy, natural fabric texture, clear face focus, no exaggerated limbs"
+    },
+    "generated_prompt_string": "Create a vertical 9:16 low-angle contemporary fashion editorial of an adult East Asian woman in a quiet modern campus corridor. She has long straight black hair, subtle makeup, and a warm playful smile. Dress her in a navy tailored blazer over a white collared shirt with a forest-green scarf tie, a midi plaid skirt, opaque tights, and brown leather loafers. Use a low seated or crouched pose with one brown loafer held casually at knee level as a wardrobe prop; keep hands, legs, shoes, and body proportions natural and avoid any close foot framing. Use an 18mm lens with controlled perspective, soft diffused indoor daylight, cool blue-gray fill, realistic fabric texture, and clear facial focus. No school-age styling, fetish framing, text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, school uniform, schoolgirl, foot fetish, feet close-up, stocking fetish, sweat stains, sexualized pose, nudity, body-part emphasis, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, exaggerated limbs, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity replacement is required.",
+          "usage": "Replace only the adult subject identity while retaining the mature wardrobe, low-angle corridor composition, and natural anatomy."
+        },
+        {
+          "type": "wardrobe",
+          "name": "campus-professional-wardrobe-reference",
+          "required": false,
+          "source": "Attach a garment reference if exact blazer, scarf, skirt, or loafer details are required.",
+          "usage": "Replace only wardrobe details while preserving adult campus-professional styling, opaque coverage, and the navy-green-brown palette."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. References are optional; preserve the adult styling, natural low-angle portrait, cool corridor lighting, and non-fetish composition. Do not introduce school-age cues or foot-focused framing."
+    }
+  }
+}

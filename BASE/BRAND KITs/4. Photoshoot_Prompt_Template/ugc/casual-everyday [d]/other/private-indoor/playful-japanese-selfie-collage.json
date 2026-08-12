@@ -1,0 +1,27 @@
+{
+  "name": "playful-japanese-selfie-collage",
+  "tag": ["ugc", "casual-everyday", "other", "private-indoor", "selfie-collage"],
+  "image_type": "2x2 selfie collage",
+  "image_vibe": "goofy warm authentic selfie",
+  "image_purpose": "UGC-style social media collage",
+  "group": "other/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic 2x2 collage of playful smartphone selfies by an original approved adult Japanese woman in a casual indoor setting.",
+    "main_subject": "The same original approved adult Japanese woman appears in all four frames with relaxed hair, expressive eyes, natural makeup, slightly glossy lips, and a white tank top with a flattering scoop neckline and soft everyday fit.",
+    "composition_elements": "Equal 2x2 grid on a 4:5 canvas, front-facing smartphone POV and arm's-length framing. Four distinct playful expressions: crossed eyes with tongue out, soft eyes-closed smile, cheerful wink, and a playful kiss toward the phone lens. Indoor apartment background remains consistent across all frames.",
+    "lighting_and_atmosphere": "Soft casual indoor ambient light, mild wide-angle distortion, visible film grain, slight noise, imperfect focus and uneven exposure, spontaneous wholesome social-media selfie mood.",
+    "technical_specs": "Realistic smartphone front-camera photography, 4:5 canvas, 2x2 equal-frame layout, low-fidelity candid look, natural texture, restrained color, no polished studio finish or artificial HDR look.",
+    "generated_prompt_string": "Photorealistic 4:5 2x2 collage of playful smartphone selfies by the same original approved adult Japanese woman. She has relaxed dark hair, expressive eyes, natural makeup, slightly glossy lips, and wears a white tank top with a flattering scoop neckline and soft everyday fit. The four equal frames show crossed eyes with tongue out, a soft eyes-closed smile, a cheerful wink, and a playful kiss toward the phone lens. Front-facing smartphone POV, arm's-length framing, soft indoor ambient light, mild wide-angle distortion, visible film grain, slight noise, imperfect focus, uneven exposure, authentic wholesome social-media collage.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, distorted face, inconsistent identity, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy, uneven grid",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "playful selfie collage reference", "required": true, "source": "attached source image", "usage": "Match the same adult identity, white tank, four expressions, smartphone framing, indoor background, and 2x2 layout."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the same adult face, facial structure, identity, outfit, expressions, grid layout, and indoor lighting across all four panels. Phone UI, logos, typography, and background details are replaceable; keep the collage consistent."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an original approved adult.", "Kept the playful selfie poses while removing intimate or sexualized framing.", "Added consistent-identity and anti-slop exclusions."]
+  }
+}

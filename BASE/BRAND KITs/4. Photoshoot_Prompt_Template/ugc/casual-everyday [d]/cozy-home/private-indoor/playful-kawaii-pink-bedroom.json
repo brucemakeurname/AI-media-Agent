@@ -1,0 +1,27 @@
+{
+  "name": "playful-kawaii-pink-bedroom",
+  "tag": "ugc, casual-everyday, cozy-home, private-indoor",
+  "image_type": "kawaii lifestyle portrait",
+  "image_vibe": "colorful playful pink bedroom",
+  "image_purpose": "UGC-style playful fashion and bedroom portrait",
+  "group": "cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create a realistic vertical UGC bedroom portrait of an original approved adult model with a colorful kawaii-inspired aesthetic.",
+    "main_subject": "An original approved adult woman with long brown-blonde hair in high pigtails, colorful hair clips, cute stylized makeup, and a cheerful friendly smile sits on a bed while lightly holding one section of hair.",
+    "composition_elements": "Direct eye contact, upper body slightly angled toward camera, pastel pink bedroom, lavender bedding, sheer curtains, a replaceable illustrated wall poster, sleeveless magenta graphic top, checkerboard lounge shorts with secure coverage, and soft orange ribbed arm warmers.",
+    "lighting_and_atmosphere": "Warm soft ambient lighting with a pink tint, dreamy diffused curtains, cheerful playful kawaii-inspired mood.",
+    "technical_specs": "Realistic lifestyle photography, vertical 2:3, slightly above eye level, natural skin texture, gentle depth of field, crisp but not overprocessed.",
+    "generated_prompt_string": "Realistic vertical UGC lifestyle portrait of an original approved adult woman with long brown-blonde hair in high pigtails and colorful hair clips, smiling directly at camera while seated on a bed and lightly holding her hair. She wears a sleeveless magenta graphic top, secure-coverage checkerboard lounge shorts, and soft orange ribbed arm warmers. Pastel pink bedroom, lavender bedding, sheer curtains, and a replaceable illustrated wall poster in the background. Warm diffused pink ambient lighting, cheerful kawaii-inspired energy, natural texture, 2:3.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, distorted anatomy, extra limbs, warped hands, unreadable text, watermark, copyrighted character dependence",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "playful pink bedroom reference", "required": true, "source": "attached source image", "usage": "Match the adult subject's hair, seated pose, colorful styling, bedroom palette, and portrait framing."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Keep identity, hairstyle, pose, outfit color story, room palette, and lighting consistent. Identity, outfit, product, logo, environment, and typography elements must be replaceable; replace recognizable character graphics and visible wording with approved editable alternatives when needed."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an original approved adult model.", "Added secure-coverage wording and replaceable-character guidance.", "Added safety exclusions."]
+  }
+}

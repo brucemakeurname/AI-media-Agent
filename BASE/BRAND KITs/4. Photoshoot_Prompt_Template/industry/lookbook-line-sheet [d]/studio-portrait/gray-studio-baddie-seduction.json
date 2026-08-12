@@ -1,0 +1,22 @@
+{
+  "name": "gray-studio-baddie-seduction",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "gray-studio", "corset-fashion"],
+  "image_type": "gray studio fashion portrait",
+  "image_vibe": "confident, polished, modern, high-contrast",
+  "image_purpose": "fashion lookbook and editorial campaign",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create an ultra-photorealistic medium-full studio fashion portrait of one original approved adult woman against a modern gray wall.",
+    "main_subject": "Original approved adult woman with long dark glossy hair and full bangs, defined eye makeup, glossy lips, natural luminous skin texture, confident direct gaze, and hands resting on her hips. She wears a white oversized open shirt over a black structured corset-style bodysuit with garter detail and black sheer thigh-high stockings.",
+    "composition_elements": ["Standing with hips angled confidently, back naturally aligned, and hands on hips in a medium-full frame.", "Plain modern gray wall with subtle shadow play and no crowd.", "Preserve white-black contrast, fabric and lace texture, hosiery sheen, hair shine, and direct editorial pose."],
+    "lighting_and_atmosphere": "Soft even studio illumination with subtle shadow play, high-key neutral gray tones, controlled highlights on fabric and hosiery, and polished fashion-editorial clarity.",
+    "technical_specs": "Photorealistic 4:5 portrait, 50mm lens at f/2.8, shallow depth of field, 8K detail, realistic lace, cotton, skin, hair, and hosiery texture, subtle natural grain, no text or watermark.",
+    "generated_prompt_string": "Ultra-photorealistic medium-full fashion portrait of one original approved adult woman with long dark glossy hair and full bangs, defined eye makeup, glossy lips, natural luminous skin texture and a confident direct gaze. She stands against a modern gray studio wall with hands on hips, wearing a white oversized open shirt over a black structured corset-style bodysuit with garter detail and black sheer thigh-high stockings. Use soft even studio illumination, subtle shadow play, neutral gray and black-white contrast, detailed lace fabric hair and hosiery, 50mm f/2.8, 4:5 framing, high-end editorial clarity, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "explicit measurements", "body-part emphasis", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "distorted anatomy", "extra fingers", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "gray-studio-baddie-seduction.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult identity, face, hair, makeup, expression, pose, and styling reference."}, {"type": "wardrobe", "name": "white oversized shirt, black structured corset bodysuit, garter detail and sheer thigh-highs", "required": true, "source": "local reference image", "usage": "Preserve supplied outfit, layers, garter construction, colors, and hosiery."}, {"type": "location", "name": "modern gray studio wall", "required": true, "source": "local reference image", "usage": "Preserve wall, shadows, neutral tones, and clean environment."}],
+      "prompt_instructions": "Attach all required person, wardrobe, and location references; no optional assets are needed. Keep identity, outfit, pose, environment, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent wardrobe, or equivalent gray studio. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced the celebrity-lookalike identity and removed suggestive wording while preserving the supplied corset-fashion layers, pose, gray studio, and editorial intent."]}
+}

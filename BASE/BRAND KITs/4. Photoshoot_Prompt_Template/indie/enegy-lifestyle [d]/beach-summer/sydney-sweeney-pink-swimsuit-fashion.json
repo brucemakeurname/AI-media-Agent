@@ -1,0 +1,71 @@
+{
+  "name": "sydney-sweeney-pink-swimsuit-fashion",
+  "tag": [
+    "coastal-fashion",
+    "white-swim-dress",
+    "pebbled-beach",
+    "gold-jewelry",
+    "late-afternoon"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "refined-coastal-sunlit",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/beach-summer",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed public-figure identity and body-proportion constraints; retained an original adult model and the refined coastal fashion composition."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "refined late-afternoon coastal fashion editorial",
+      "color_palette": "white, turquoise, warm stone, muted gold, and soft sunlit beige",
+      "format": "vertical 9:16 three-quarter fashion portrait"
+    },
+    "main_subject": {
+      "type": "original adult woman",
+      "detail": "Original adult blonde woman with a natural shoulder-length bob, understated makeup, gold hoop earrings, and slim gold bangles. She wears an elegant opaque white swim dress with a gold clasp detail and a modest side drape.",
+      "style": "quietly confident, non-sexualized coastal fashion editorial"
+    },
+    "composition_elements": {
+      "text": "no text, logo, or watermark",
+      "items": [
+        "balanced standing pose on a pebbled beach, one hand near the neck and one relaxed at the side",
+        "turquoise sea in the mid-ground",
+        "rocky coastal cliffs catching late-afternoon light",
+        "small sailboat on the distant horizon"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "warm late-afternoon natural daylight",
+      "effect": "controlled sunlit highlights, gentle shadows, calm high-end coastal atmosphere"
+    },
+    "technical_specs": {
+      "camera": "Sony A7R V",
+      "lens": "FE 85mm f/1.4 at f/2.8",
+      "render_style": "natural skin texture, tailored fabric folds, soft editorial color, sharp subject with a gentle environmental falloff"
+    },
+    "generated_prompt_string": "Create a vertical 9:16 refined coastal fashion editorial of an original adult blonde woman standing on a pebbled beach in warm late-afternoon light. She wears an elegant opaque white swim dress with a subtle gold clasp, gold hoop earrings, and slim gold bangles. Use a balanced three-quarter pose with one hand near the neck and the other relaxed at her side. Place turquoise sea behind her, rocky coastal cliffs catching the sun, and a small sailboat on the distant horizon. Use an 85mm editorial portrait perspective, natural skin texture, tailored fabric folds, controlled highlights, and a quietly confident non-sexualized mood. No celebrity likeness, text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, public figure, celebrity likeness, minor, child, sexualized pose, body emphasis, nudity, transparent clothing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity direction is required.",
+          "usage": "Replace only the original adult subject identity while retaining the coastal pose, swim-dress silhouette, jewelry scale, and seascape composition."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white-swim-dress-reference",
+          "required": false,
+          "source": "Attach a garment reference if exact dress or clasp details are required.",
+          "usage": "Replace only garment details while preserving an opaque elegant swim-dress silhouette and white-gold coastal palette."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. References are optional; preserve the pebbled beach, sea, cliffs, sailboat, late-afternoon light, and non-sexualized refined editorial direction."
+    }
+  }
+}

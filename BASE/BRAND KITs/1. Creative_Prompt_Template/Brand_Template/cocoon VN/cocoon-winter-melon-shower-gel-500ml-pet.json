@@ -1,0 +1,65 @@
+{
+  "name": "cocoon-winter-melon-shower-gel-500ml-pet",
+  "tag": [
+    "product-shot",
+    "shower-gel",
+    "winter-melon",
+    "recycled-pet",
+    "clean-beauty",
+    "green"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "cocoon_990494513337984",
+  "prompt": {
+    "project_info": {
+      "theme": "Upgraded winter melon shower gel hero shot emphasizing recycled PET packaging",
+      "color_palette": "Light Lime Green, Amber Brown, Cream White, Fresh Melon Green"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A close hero product shot of Cocoon Winter Melon Shower Gel 500ml in a translucent amber pump bottle, surrounded by soap bubbles, sliced winter melon pieces, and natural loofah texture, with a drip hanging from the pump.",
+      "style": "Glossy commercial skincare product photography, fresh and hygienic, premium eco-beauty advertising"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'CẢI TIẾN VƯỢT TRỘI', 'GEL TẮM BÍ ĐAO 500ML', 'SẠCH BÃ NHỜN', 'GIẢM MỤN & MÙI CƠ THỂ', and the PET badge 'CHAI LÀM TỪ NHỰA PET TÁI CHẾ 100% GIẢM NHỰA NGUYÊN SINH'.",
+      "items": [
+        "Top Left: Stacked black-and-green headline and benefit bullets on a soft green background.",
+        "Top Right: Pump top cropped near the top edge with a translucent droplet suspended from the nozzle.",
+        "Bottom Left: PET recycling badge icon and a fresh green leaf partially entering the frame.",
+        "Bottom Right: Large sliced winter melon wedges and beige loofah mesh texture framing the bottle base.",
+        "Center/Background: Dominant amber bottle with cream label, glossy soap foam clinging to the shoulder, and airy green gradient backdrop."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio beauty lighting",
+      "effect": "Bright glossy highlights, translucent bottle glow, clean bubble reflections, fresh spa atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity commercial beauty product photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for an upgraded winter melon shower gel hero shot emphasizing recycled PET packaging. Centerpiece is a Cocoon Winter Melon Shower Gel 500ml amber pump bottle with cream label, glossy foam on the shoulder, and a droplet hanging from the pump. Background is a soft lime-green beauty backdrop. Surrounding elements: sliced winter melon wedges, loofah mesh texture, translucent soap bubbles, a fresh green leaf, a PET recycling badge, and exact headline text including 'GEL TẮM BÍ ĐAO 500ML'. Keep the label fully legible, the fresh clean-beauty mood, and the eco-material callout. Technical style: high fidelity commercial beauty product photography, soft studio beauty lighting, bright glossy highlights and clean bubble reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Cocoon Winter Melon Shower Gel 500ml packshot",
+          "required": true,
+          "source": "Attach the official packshot or crop from the original image",
+          "usage": "Preserve pump shape, amber bottle tint, cream label, and product illustration."
+        },
+        {
+          "type": "text_layout",
+          "name": "Hero product poster typography and PET badge",
+          "required": true,
+          "source": "Use the original creative as layout reference",
+          "usage": "Keep the left text stack, bullet structure, and PET icon wording exactly."
+        }
+      ],
+      "prompt_instructions": "Use the original product packshot and text layout as references in gpt-image-2. Prioritize exact packaging fidelity, bubble placement, and the suspended pump droplet rather than generating a generic shower-gel ad."
+    }
+  }
+}

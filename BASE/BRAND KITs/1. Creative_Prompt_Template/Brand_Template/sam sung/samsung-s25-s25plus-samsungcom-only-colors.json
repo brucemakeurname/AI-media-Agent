@@ -1,0 +1,70 @@
+{
+  "name": "samsung-s25-s25plus-samsungcom-only-colors",
+  "tag": [
+    "smartphone-launch",
+    "exclusive-colors",
+    "product-showcase",
+    "galaxy-ai"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "samsung_1104780295023781",
+  "prompt": {
+    "project_info": {
+      "theme": "Samsung.com only Galaxy S25 and S25+ color lineup poster",
+      "color_palette": "Off-white background, graphite black, coral pink, warm champagne, soft pink screen glow"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Minimal white-background product poster presenting three back-color variants of the Galaxy S25/S25+ beside one front-facing phone with a pink wallpaper, under a centered Samsung.com-only headline.",
+      "style": "Clean premium ecommerce product render, minimalist launch poster, airy Samsung visual identity"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Samsung.com only / Galaxy S25 | S25+ / Galaxy AI",
+      "items": [
+        "Top Left: Large centered black title 'Samsung.com only'.",
+        "Top Right: Centered smaller lockup 'Galaxy S25 | S25+' and 'Galaxy AI'.",
+        "Bottom Left: Three rear-view phones in graphite black, coral pink, and warm champagne finishes arranged in a slight arc.",
+        "Bottom Right: One front-facing phone with a soft pink abstract wallpaper and centered punch-hole camera.",
+        "Center/Background: Bright minimal off-white field with substantial negative space and a tiny legal footnote at the lower left."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio lighting",
+      "effect": "Gentle matte reflections, clean soft shadows, airy premium ecommerce atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Samsung.com only Galaxy S25 and S25+ color lineup poster. Centerpiece is a minimal arrangement of three rear-view Galaxy S25/S25+ devices in graphite black, coral pink, and warm champagne, plus one front-facing phone with a soft pink abstract wallpaper. Background is a bright off-white premium ecommerce field with lots of negative space. Surrounding elements: exact top title 'Samsung.com only', subheading 'Galaxy S25 | S25+' and 'Galaxy AI', and a tiny legal footnote at the bottom left. Technical style: photorealistic product render, soft studio lighting, gentle matte reflections and clean soft shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy S25 and S25+ color variants",
+          "required": true,
+          "source": "official Samsung product renders",
+          "usage": "Match exact colors, camera-ring sizes, and front wallpaper."
+        },
+        {
+          "type": "text_layout",
+          "name": "Samsung.com only headline lockup",
+          "required": true,
+          "source": "original creative",
+          "usage": "Keep the centered typography and negative-space balance."
+        },
+        {
+          "type": "ui_reference",
+          "name": "front display pink wallpaper",
+          "required": true,
+          "source": "official wallpaper asset",
+          "usage": "Preserve the soft pink abstract gradient shape on the front phone."
+        }
+      ],
+      "prompt_instructions": "Use refs for the exact colors and wallpaper. This visual works because of its spare composition, so keep the off-white background wide and uncluttered rather than adding extra props or labels."
+    }
+  }
+}

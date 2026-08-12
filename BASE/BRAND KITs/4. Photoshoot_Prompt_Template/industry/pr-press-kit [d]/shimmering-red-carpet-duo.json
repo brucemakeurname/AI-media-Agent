@@ -1,0 +1,76 @@
+{
+  "name": "shimmering-red-carpet-duo",
+  "tag": [
+    "red-carpet-duo",
+    "gold-gown",
+    "white-satin-gown",
+    "starry-bokeh",
+    "hollywood-editorial"
+  ],
+  "image_type": "red-carpet-duo-portrait",
+  "image_vibe": "poised-hollywood-glamour",
+  "image_purpose": "press-kit",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Shimmering red-carpet portrait of two adult actresses",
+      "event_context": "fictional critics-awards-style gala",
+      "color_palette": "metallic gold, white satin, black velvet, deep dark background, warm gold glow, and soft skin tones"
+    },
+    "main_subject": {
+      "type": "two clearly adult women",
+      "detail": "two adult blonde actresses standing close together arm-in-arm, smiling gently and confidently toward the camera with poised elegance and sisterly warmth",
+      "left_wardrobe": "sleeveless metallic gold lamé gown with a softly draped cowl bodice, floor-length fitted mermaid silhouette, and gentle train, with a minimalist gold ring",
+      "right_wardrobe": "high-fashion white satin ball gown with structured fitted bodice, black velvet-trimmed scoop neckline, wide velvet waist band, peplum hip detail, voluminous floor-length A-line skirt, and large pearl drop earrings",
+      "hair": "left adult woman with straight platinum-blonde hair past the shoulders; right adult woman with voluminous wavy golden-blonde half-up hair and loose face-framing tendrils"
+    },
+    "composition_elements": {
+      "framing": "symmetrical vertical portrait centered on both faces and upper bodies, with optional three-quarter crop",
+      "subject_position": "two adult women close together and arm-in-arm in the center of frame",
+      "background": "glamorous indoor gala with starry twinkling bokeh, soft golden ambient glow, and a generic blurred event sign without real award branding"
+    },
+    "lighting_and_atmosphere": {
+      "type": "cinematic volumetric key light with soft warm rim light at approximately 3800K to 4500K",
+      "effect": "soft rim on hair and shoulders, subtle eye catchlights, realistic fabric sheen, gentle facial modeling, and elegant dark-background separation"
+    },
+    "technical_specs": {
+      "render_style": "professional event camera with 85mm lens, polished red-carpet editorial photography",
+      "resolution": "8k vertical 2:3 portrait",
+      "finish": "photorealistic detail, visible skin pores, restrained highlights, natural fabric texture, subtle film grain"
+    },
+    "generated_prompt_string": "Ultra-detailed cinematic red-carpet portrait photograph at a fictional critics-awards-style gala in a glamorous indoor venue, with dramatic starry twinkling bokeh lights and soft golden ambient glow in the deep dark background. Two clearly adult blonde actresses stand close together arm-in-arm, smiling gently and confidently directly at the camera with poised elegance and sisterly warmth. The left adult woman has straight silky platinum-blonde hair cascading past her shoulders and wears a sleeveless metallic gold lamé gown with a softly draped cowl bodice, floor-length fitted mermaid silhouette, gentle train, and minimalist gold ring. The right adult woman has voluminous wavy golden-blonde hair in an elegant half-up style with loose face-framing tendrils and wears a high-fashion white satin ball gown with a structured fitted bodice, dramatic black velvet-trimmed scoop neckline, wide velvet waist band, exaggerated peplum hip detail, voluminous floor-length A-line skirt, and large pearl drop earrings. Use symmetrical composition centered on their faces and upper bodies, professional event photography, soft rim light on hair and shoulders, subtle catchlights, realistic skin pores, fabric sheen, photorealistic detail, an 85mm lens, and no real award branding or recognizable public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, eroticized expression, ambiguous age, celebrity likeness, recognizable public figures, real award logos, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, illegible text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-blonde-duo",
+          "required": true,
+          "source": "Original red-carpet duo preview image",
+          "usage": "Attach two approved adult face references for consistent duo identity; preserve each facial structure and likeness without using the source's named actresses or any public-figure likeness."
+        },
+        {
+          "type": "wardrobe",
+          "name": "gold-lame-and-white-satin-gown-duo",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the distinct metallic gold gown, white satin gown, black velvet accents, jewelry, and hair styling; keep each outfit assigned to the correct adult subject."
+        },
+        {
+          "type": "location",
+          "name": "generic-starry-gala-venue",
+          "required": false,
+          "source": "Original preview image and source prompt",
+          "usage": "Optional environment reference; preserve dark gala ambience, starry bokeh, warm glow, and arm-in-arm composition while replacing the venue and signage."
+        }
+      ],
+      "prompt_instructions": "Attach both approved adult person references and the duo wardrobe reference; the gala environment is optional. Keep the two identities separate, outfits correctly assigned, arm-in-arm pose, symmetrical framing, and warm red-carpet lighting consistent. Replace named actresses, award branding, venue, and background guests with generic cleared equivalents; preserve facial structure only for approved adult references."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public figures, real award event, and source-image branding with two approved clearly adult generic actresses and a fictional gala while preserving both gowns and the duo composition."
+    ]
+  }
+}

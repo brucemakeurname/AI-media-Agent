@@ -1,0 +1,19 @@
+{
+  "name": "sunny-sky-dynamic-girl",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "3x3-grid", "sunny-sky"],
+  "image_type": "dynamic-grid-collage",
+  "image_vibe": "radiant-playful-lifestyle",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic 3x3 grid collage of nine dynamic poses by one approved adult woman under a bright sunny sky.",
+    "main_subject": "An approved adult woman with consistent natural identity, wearing a light beige knit crop top, high-waisted blue jeans, and delicate gold necklace. Show approachable confident energy across all nine frames.",
+    "composition_elements": "3x3 square grid with varied full-body, close-up, gesture, jumping, turning, laughing, and hair-motion poses against vibrant azure sky and soft clouds.",
+    "lighting_and_atmosphere": "Harsh high-key natural sunlight with crisp defined shadows, radiant lifestyle campaign mood, consistent face and wardrobe across panels.",
+    "technical_specs": "Photorealistic 1:1 collage, 35mm-to-85mm pose variety, high detail, accurate hands and anatomy, consistent adult identity across nine frames.",
+    "generated_prompt_string": "Create a photorealistic 1:1 3x3 grid collage of nine dynamic poses by the same approved adult woman under a vibrant azure sky with soft clouds. Keep her light beige knit crop top, high-waisted blue jeans, and delicate gold necklace consistent. Include wide stance, palm toward camera, playful eye gesture, chin in hands, face partly covered, hair twirl, jump, over-shoulder look, and candid laugh. Use crisp natural sunlight, defined shadows, realistic anatomy, and radiant approachable lifestyle mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, exact face copy, different face across panels, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, malformed grid",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-sunny-grid-subject", "required": true, "source": "sunny-sky-dynamic-girl.jpg", "usage": "Preserve one approved adult identity consistently across all nine panels."}, {"type": "wardrobe", "name": "beige-knit-blue-jeans", "required": true, "source": "sunny-sky-dynamic-girl.jpg", "usage": "Keep outfit and necklace consistent across panels; replace only with explicit references."}, {"type": "layout", "name": "three-by-three-sunny-grid", "required": true, "source": "sunny-sky-dynamic-girl.jpg", "usage": "Preserve nine-panel order and collage structure; replace only with explicit references."}, {"type": "location", "name": "azure-sky-open-air", "required": true, "source": "sunny-sky-dynamic-girl.jpg", "usage": "Maintain sky, clouds, sunlight, and open-air setting; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, layout, and location references when exact consistency is required. Keep adult identity, outfit, panel order, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced exact-face preservation with approved-adult identity consistency across the grid.", "Added safe negative prompts and structured references."]}
+}

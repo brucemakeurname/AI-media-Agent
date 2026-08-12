@@ -1,0 +1,39 @@
+{
+  "name": "High Contrast Orange Studio Editorial",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "editorial-fashion"
+  ],
+  "image_type": "high-fashion menswear editorial",
+  "image_vibe": "graphic, bold, monochrome, luxury street-style",
+  "image_purpose": "menswear lookbook hero image",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create a high-contrast luxury street-style fashion editorial in a monochrome orange studio.",
+    "main_subject": "An adult fictional male model with original non-celebrity features, wearing a tailored bright-orange suit, white shirt, and orange tie. He leans against a sharp architectural corner with a composed fashion-editorial attitude.",
+    "composition_elements": "Low-angle 24mm perspective, oversized orange-and-black sneakers dominating the foreground through forced perspective, a generic vintage orange hatchback parked in the background, clean geometric studio lines, seated or leaning pose.",
+    "lighting_and_atmosphere": "Dramatic directional lighting with strong graphic shadows, saturated monochrome orange environment, crisp luxury street-style atmosphere.",
+    "technical_specs": "High-detail editorial photography, 4:5 aspect ratio, 24mm low-angle lens perspective, sharp subject and footwear detail, realistic materials and proportions.",
+    "generated_prompt_string": "High-contrast low-angle 24mm fashion editorial photograph of an adult fictional male model in a tailored bright-orange suit, white shirt, and orange tie, leaning against a sharp corner in a monochrome orange studio with clean geometric lines. Oversized orange-and-black sneakers dominate the foreground in forced perspective. A generic vintage orange hatchback is parked in the background. Dramatic lighting with strong shadows, luxury street-style aesthetic, 4:5 aspect ratio.",
+    "negative_prompt": "celebrity likeness, public figure likeness, named fictional character, recognizable brand logo, trademark text, explicit, nsfw, overly revealing, blurry, low quality, distorted anatomy, malformed hands, warped car, watermark, signature, illegible text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "high-contrast-orange-studio-editorial.jpg",
+          "required": true,
+          "source": "workspace reference image",
+          "usage": "Reference the orange monochrome studio, tailored suit, low-angle framing, oversized foreground sneakers, and vintage hatchback while replacing the named character and branded details with generic equivalents."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the orange palette, composition, pose, footwear scale, vehicle placement, and lighting consistency. Use an original adult fictional model; replace the named character, vehicle brand, and shoe logos with generic replaceable products. Keep outfit, environment, logo, and typography details clean and brand-neutral."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named character, vehicle example, and branded sneaker reference with an original adult fictional model and generic products."
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "avant-garde-sports-fashion",
+  "tag": ["adult-woman", "tennis-fashion", "racket-sculpture", "precision-typography", "white-court", "sports-campaign"],
+  "image_type": "avant-garde-tennis-fashion-advertisement",
+  "image_vibe": "precise-bold-athletic",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an adult and used fitted-performance-wear, feminine-silhouette, and clean directional-light language while preserving the original tennis outfit, racket pose, PRECISION typography, balls, and court reflection."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "avant-garde tennis sports fashion advertisement with racket sculpture",
+      "color_palette": "white, black, silver, light gray, and soft neutral skin tones",
+      "aspect_ratio": "1:1"
+    },
+    "main_subject": {
+      "description": "A poised adult female tennis athlete with a feminine silhouette, natural skin texture, dark hair in a ponytail, and a focused sideward gaze.",
+      "wardrobe": "Fitted white performance tennis dress with clean athletic coverage, white wristbands, white socks, white tennis shoes, and minimal letter-style equipment marks.",
+      "pose": "Standing confidently with one foot supported on the handle and throat of an oversized tennis racket, the other leg grounded, one hand holding the racket grip, and the torso turned slightly in profile.",
+      "styling": "Premium precision-focused tennis editorial styling with polished natural beauty."
+    },
+    "composition_elements": {
+      "framing": "Square full-body composition showing the complete athlete, oversized racket, reflective court floor, scattered tennis balls, and typography.",
+      "environment": "Crisp white studio backdrop with giant bold PRECISION typography, glossy reflective court-like floor, white tennis balls with simple letter marks, and no extra signage.",
+      "focus": "Sharp adult athlete, dress seams, racket strings and frame, footwear, tennis balls, reflections, and legible typography."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Clean cinematic studio lighting with crisp highlights on the racket and shoes, soft flattering illumination on the adult athlete, and realistic floor reflections.",
+      "atmosphere": "Precise, bold, luxurious, athletic, and modern."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with a 35mm lens at f/5.6, 1/250 s, ISO 100",
+      "quality": "Hyper-realistic high-resolution sports-fashion advertising, crisp racket strings, accurate anatomy, clean typography, polished reflective surfaces"
+    },
+    "generated_prompt_string": "Create a hyper-realistic 1:1 avant-garde tennis sports-fashion advertisement in a crisp white studio with a glossy reflective court-like floor. Feature a poised adult female tennis athlete with a feminine silhouette, natural skin texture, dark ponytail, and focused sideward gaze. She wears a fitted white performance tennis dress with clean athletic coverage, white wristbands, white socks, and white tennis shoes. Pose her standing confidently with one foot supported on the handle and throat of an oversized tennis racket, the other leg grounded, one hand holding the grip, and torso turned slightly in profile. Add giant bold PRECISION typography behind her, scattered white tennis balls with simple letter marks, crisp racket strings, and realistic court reflections. Use clean cinematic studio lighting, accurate legible typography, and no extra text or watermark.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, wardrobe malfunction, illegible text, distorted letters, deformed anatomy, extra limbs, broken racket geometry, watermark, flat lighting",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult athlete. Optional tennis wardrobe, racket, typography, balls, studio, or lighting references may replace only their named element; preserve fitted athletic coverage, feminine silhouette, standing racket pose, PRECISION campaign message, and reflective court composition.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "white-performance-tennis-dress-and-equipment",
+          "required": false,
+          "source": "user-uploaded sportswear reference",
+          "usage": "Replace only the dress, wristbands, socks, shoes, or equipment marks while preserving polished athletic coverage."
+        },
+        {
+          "type": "prop",
+          "name": "oversized-tennis-racket-and-balls",
+          "required": false,
+          "source": "user-uploaded equipment reference",
+          "usage": "Replace only the racket model, strings, or ball details while preserving the standing sculpture pose and court reflection."
+        }
+      ]
+    }
+  }
+}

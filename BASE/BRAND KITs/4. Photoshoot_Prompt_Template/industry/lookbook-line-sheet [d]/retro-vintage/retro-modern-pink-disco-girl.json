@@ -1,0 +1,22 @@
+{
+  "name": "retro-modern-pink-disco-girl",
+  "tag": ["industry", "lookbook-line-sheet", "retro-vintage", "disco", "pink"],
+  "image_type": "retro-modern disco fashion portrait",
+  "image_vibe": "high-energy, glossy, monochromatic, playful",
+  "image_purpose": "disco-fashion lookbook and editorial campaign",
+  "group": "industry/lookbook-line-sheet/retro-vintage",
+  "prompt": {
+    "project_info": "Create a high-saturation retro-modern disco-pop portrait of one approved adult woman against a solid pink wall with a metallic disco ball.",
+    "main_subject": "Approved adult woman with sleek brunette high ponytail, rose-tinted transparent aviator sunglasses, pink high-leg spandex bodysuit with white piping, and red glossy high heels. She sits on a reversed glossy red chair in a poised over-the-shoulder fashion pose.",
+    "composition_elements": ["Vertical medium-full shot with centered silhouette.", "Subject seated on a reversed glossy red chair, torso angled toward camera, legs arranged naturally.", "Large multifaceted metallic silver disco ball held near the torso.", "Solid bubblegum/fuchsia/hot-pink wall with sharp drop-off shadow.", "Caustic square reflections from the disco ball appear on the subject and wall."],
+    "lighting_and_atmosphere": "Hard left-side studio light, sharp defined shadows, specular highlights on bodysuit and disco ball, glossy high-contrast digital finish.",
+    "technical_specs": "Photorealistic fashion photography, vertical medium-full framing, high saturation, realistic spandex and metal reflections, clean digital finish, no text or watermark.",
+    "generated_prompt_string": "Retro-modern disco-pop fashion portrait of an approved adult woman with a sleek brunette high ponytail and rose-tinted transparent aviator sunglasses. She wears a pink high-leg spandex bodysuit with white piping and red glossy high heels, seated in a poised over-the-shoulder fashion pose on a reversed glossy red chair. A large multifaceted metallic silver disco ball creates small square caustic reflections across the subject and wall. Vertical medium-full centered composition, solid bubblegum pink, fuchsia and hot-pink background, hard studio light from the left, sharp defined shadows, glossy high-contrast finish, high-saturation monochromatic disco editorial, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "fetish framing", "distorted anatomy", "extra limbs", "inconsistent identity", "plastic skin", "over-smooth", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "retro-modern-pink-disco-girl.jpg", "required": true, "source": "local reference image", "usage": "Attach for approved-adult identity, hair, outfit, pose, and lighting."}, {"type": "accessory", "name": "metallic silver disco ball and glossy red chair", "required": true, "source": "local reference image", "usage": "Preserve prop scale, reflections, chair, and placement."}],
+      "prompt_instructions": "Attach the required references. Preserve approved-adult identity, ponytail, sunglasses, bodysuit, heels, chair, disco ball, pink wall, shadows, and caustic light. Keep the seated pose tasteful and fashion-focused; replace only with equivalent adult identity or prop references, with no celebrity likeness, logos, or typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed open-leg and body-emphasis wording and reframed the pose as poised fashion direction while preserving the disco composition, bodysuit, heels, and palette."]}
+}

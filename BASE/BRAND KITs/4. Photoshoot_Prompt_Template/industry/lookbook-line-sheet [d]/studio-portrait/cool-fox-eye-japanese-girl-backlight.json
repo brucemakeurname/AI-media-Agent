@@ -1,0 +1,81 @@
+{
+  "name": "cool-fox-eye-japanese-girl-backlight",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "cool-toned",
+    "leaf-shadow"
+  ],
+  "image_type": "cool-toned backlit fashion portrait",
+  "image_vibe": "cool, playful, high-contrast, luminous",
+  "image_purpose": "beauty lookbook and editorial portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic cool-toned fashion portrait of one approved adult woman against a bright wall with hard-edged leaf shadows.",
+    "main_subject": "Approved adult woman with a refined V-shaped face, sharp natural contours, cool porcelain-toned skin with realistic detail, large sharp eyes, controlled calm expression with a subtle smirk, long sleek straight black hair reaching the waist with neatly trimmed bangs, K-pop-inspired eyeliner, small gold pendant, small gold hoops, and a small minimalist tattoo on the left inner forearm. She wears a cropped pure-white bandeau-style tube top with clean structured fabric.",
+    "composition_elements": [
+      "Subject occupies approximately 60 to 70 percent of frame height with at least 30 percent empty wall above the head and visible empty wall at both sides.",
+      "Centered portrait emphasizes face, eye expression, skin quality, hair, and leaf-shadow patterns.",
+      "Cool white wall and clean white wardrobe create a minimal uncluttered composition.",
+      "Preserve the supplied tattoo and jewelry details without adding new marks or logos."
+    ],
+    "lighting_and_atmosphere": "Intense cool-toned natural daylight from a side-back angle, producing extreme high-contrast separation and dense hard-edged leaf shadows across wall, face, and clothing; large background areas may glow brightly while retaining faint texture.",
+    "technical_specs": "Photorealistic 4:5 portrait, 85mm lens, shallow depth of field, realistic skin detail, clean high-resolution facial focus, subtle natural grain, controlled highlights, no text or watermark.",
+    "generated_prompt_string": "Photorealistic cool-toned fashion portrait of one approved adult woman with refined natural facial contours, cool porcelain-toned skin retaining realistic detail, large sharp eyes, a controlled calm expression with a subtle smirk, long sleek straight black hair reaching the waist with neatly trimmed bangs, high-contrast eyeliner, small gold pendant, small gold hoop earrings, and a small minimalist tattoo on the left inner forearm. She wears a cropped pure-white bandeau-style tube top with clean structured fabric. Compose her at approximately 60 to 70 percent of frame height with generous empty wall above and at both sides, emphasizing face, eyes, skin, and hair. Use intense cool natural side-back daylight, razor-sharp leaf-shadow patterns across wall and subject, deliberate bright background glow with faint surface texture, 85mm lens, shallow depth of field, realistic detail, clean modern editorial mood, 4:5 framing, no text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "celebrity likeness",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "soft blurry shadows",
+      "uncontrolled overexposure",
+      "distorted anatomy",
+      "extra fingers",
+      "invented tattoos",
+      "watermark",
+      "text",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "cool-fox-eye-japanese-girl-backlight.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for approved-adult identity, face, eyes, hair, makeup, tattoo, and expression reference."
+        },
+        {
+          "type": "wardrobe",
+          "name": "pure-white bandeau-style tube top",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the supplied crop, structured fabric, white color, and fit."
+        },
+        {
+          "type": "location",
+          "name": "bright wall with leaf-shadow projection",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve wall, daylight direction, shadow pattern, empty space, and cool atmosphere."
+        }
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, and environment references; no optional assets are needed. Keep identity, face, hair, makeup, tattoo, jewelry, outfit, leaf shadows, wall, lighting, and composition consistent. Replace only with an equivalent approved adult, equivalent supplied wardrobe, or equivalent wall/light reference. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

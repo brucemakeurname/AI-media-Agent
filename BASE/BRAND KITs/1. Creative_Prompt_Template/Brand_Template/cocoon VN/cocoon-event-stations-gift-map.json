@@ -1,0 +1,65 @@
+{
+  "name": "cocoon-event-stations-gift-map",
+  "tag": [
+    "event-map",
+    "stations",
+    "infographic",
+    "launch-event",
+    "gift-journey",
+    "guide"
+  ],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Process post",
+  "group": "cocoon_27373324905643926",
+  "prompt": {
+    "project_info": {
+      "theme": "Map-style guide to activity stations at the launch event",
+      "color_palette": "Sky Blue, Soft Pink, White, Beige, Leaf Green"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A pastel infographic showing four numbered activity stations in the Cocoon event space, connected by a white flowing route line, with miniature 3D stand graphics and labels for check-in, information, challenge, and verification stations.",
+      "style": "Friendly event guide infographic, pastel 3D icon map, simplified activation journey visual"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'KHÁM PHÁ CÁC TRẠM NHẬN QUÀ HẤP DẪN', '1 TRẠM CHECK-IN', '2 TRẠM THÔNG TIN', '3 TRẠM THỬ THÁCH', and '4 TRẠM KIỂM CHỨNG'.",
+      "items": [
+        "Top Left: Main white headline and subheadline over a blue-to-pink gradient background.",
+        "Top Right: Stylized pink information panels labeled station 2, framed by green leaves.",
+        "Bottom Left: Verification station 4 represented by pastel display screens and podiums.",
+        "Bottom Right: Challenge station 3 with a stylized sunscreen bottle marked 'BẢO VỆ PHỔ RỘNG' and an SPF 50+ bubble.",
+        "Center/Background: White curved route line connecting the numbered stations, plus a check-in stage with two bottle icons and Cocoon branding."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat infographic lighting",
+      "effect": "Soft pastel gradients, clean 3D icon clarity, easy event-navigation readability"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity vector-plus-3D infographic design",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for an event-station guide. Centerpiece is a pastel infographic map with four numbered stations connected by a white curving route line: '1 TRẠM CHECK-IN', '2 TRẠM THÔNG TIN', '3 TRẠM THỬ THÁCH', and '4 TRẠM KIỂM CHỨNG'. Background is a blue-to-pink gradient. Surrounding elements: miniature 3D-style station icons, Cocoon branding, a sunscreen bottle marked 'BẢO VỆ PHỔ RỘNG', an SPF 50+ bubble, display screens, and decorative green leaves. Keep the exact station wording and pastel event-guide look. Technical style: high fidelity vector-plus-3D infographic design, flat infographic lighting, soft pastel gradients and clear 3D icon readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "graphic",
+          "name": "Event-station icons and path line",
+          "required": true,
+          "source": "Use the original infographic as a full composition reference",
+          "usage": "Preserve the exact station icons, numbered circles, and white journey line."
+        },
+        {
+          "type": "text_layout",
+          "name": "Station labels and headline",
+          "required": true,
+          "source": "Use the original poster as text reference",
+          "usage": "Keep the headline and all four station names in the same locations."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, use the original infographic as the primary reference. Do not invent new station names or change the route order; the graphic should remain a clear event-guide map."
+    }
+  }
+}

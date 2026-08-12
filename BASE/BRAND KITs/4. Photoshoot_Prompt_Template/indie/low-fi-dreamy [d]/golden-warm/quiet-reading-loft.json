@@ -1,0 +1,19 @@
+{
+  "name": "quiet-reading-loft",
+  "tag": ["adult-woman", "library-loft", "open-book", "velvet-dress", "golden-hour", "reading"],
+  "image_type": "cinematic-scene",
+  "image_vibe": "quiet-intellectual",
+  "image_purpose": "editorial",
+  "group": "indie/low-fi-dreamy/golden-warm",
+  "prompt": {
+    "project_info": "A quiet reading portrait in a sunlit library loft, balancing warm architectural lines, book texture, and natural backlight.",
+    "main_subject": "An adult woman with long dark loose waves, minimal makeup, natural skin texture, and a reflective off-camera gaze. She sits sideways on a bench holding an open book, dressed in a deep-black velvet midi dress with a modest V neckline and long sleeves.",
+    "composition_elements": "Medium vertical portrait with the subject right-weighted under tall grid windows. Soft flare and a book edge create foreground layers; book-filled wooden shelves and window lines lead into the blurred background. Keep pages unprinted or unreadable and omit logos.",
+    "lighting_and_atmosphere": "Strong side-back golden-hour window light at approximately 3800K creates volumetric rays, dust particles, a subtle lens flare, soft bloom, and warm amber contrast with neutral shadows.",
+    "technical_specs": "Full-frame camera with an 85mm lens at f/1.8, vertical 3:4 crop, slightly low eye-level, focus on eyes and face plane, shallow creamy background, film-like dynamic range, subtle grain.",
+    "generated_prompt_string": "Cinematic editorial portrait of an adult woman with long dark loose waves, seated sideways on a bench in a sunlit library loft and holding an open book. She wears a deep-black velvet long-sleeve midi dress with a modest V neckline, natural makeup, and a calm reflective off-camera gaze. Tall grid windows, wooden bookshelves, warm interior tones, dust particles in the air, and golden-hour side-back window light create volumetric rays, soft flare, and gentle bloom. Medium vertical portrait, eyes in focus, realistic velvet and skin texture, film-like warm amber grading, book pages without readable text, no logos.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers, deformed hands",
+    "reference_elements": {"prompt_instructions": "Attach approved adult identity, wardrobe, or location references only where consistency matters. Preserve the open-book gesture, covered black velvet dress, loft windows, shelves, and golden backlight; the subject, book, and library can be replaced with approved assets while avoiding any readable book text or branding.", "assets": [{"type": "person", "name": "approved-adult-reading-identity-reference", "required": false, "source": "attach when likeness is required", "usage": "Preserve adult face and hair character."}, {"type": "wardrobe", "name": "black-velvet-midi-dress-reference", "required": false, "source": "attach when wardrobe continuity is required", "usage": "Keep the covered velvet silhouette."}, {"type": "background", "name": "library-loft-golden-hour-reference", "required": false, "source": "attach when setting continuity is required", "usage": "Preserve window grid, shelves, and light direction; do not import legible book covers."}]}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Made the subject explicitly adult.", "Clarified covered wardrobe and excluded readable book text while preserving the reading-loft concept."]}
+}

@@ -1,0 +1,19 @@
+{
+  "name": "sunset-coast-black-dress-girl",
+  "tag": "ugc",
+  "image_type": "coastal-editorial-portrait",
+  "image_vibe": "calm warm cinematic coast",
+  "image_purpose": "fashion editorial and social portrait",
+  "group": "lifestyle-moment/beach-vacation/outdoor-nature",
+  "prompt": {
+    "project_info": "Ultra-realistic golden-hour portrait on a rocky seashore.",
+    "main_subject": "One approved adult woman using the attached identity reference, with preserved facial structure, skin tone, body type and hair texture, seated barefoot on a large coastal rock in a black sleeveless summer dress with fitted torso and slightly flared skirt; calm slightly serious direct gaze.",
+    "composition_elements": "Vertical 4:5 full-body front-facing portrait, legs extended and slightly bent, one hand resting on knee and one near face, textured rocks, shallow water, distant mountains and soft blue clouded sky behind.",
+    "lighting_and_atmosphere": "Natural diffused golden-hour side light from right, warm hair and skin highlights, gentle shadows, clear serene coastal atmosphere.",
+    "technical_specs": "50mm lens look, moderate depth of field, sharp eyes, high-resolution editorial realism, natural skin texture and slightly warm cinematic grading.",
+    "generated_prompt_string": "Create a vertical 4:5 ultra-realistic coastal editorial portrait using the attached approved-adult identity reference exactly: the woman sits barefoot on a large textured rock in a black sleeveless summer dress with fitted torso and slightly flared skirt, legs extended and slightly bent, one hand on knee and one gently touching her face, calm direct gaze; golden-hour natural light, rocky shore, shallow water, distant mountains and soft blue sky, 50mm realism.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, nudity, minors, celebrity likeness, public figure likeness, altered identity, distorted anatomy, extra limbs, plastic skin, waxy, over-smooth, airbrushed, HDR look, watermark, logo overlay",
+    "reference_elements": {"assets": [{"type": "person", "name": "sunset-coast-black-dress-girl.jpg", "required": true, "source": "local", "usage": "Required approved-adult face, identity, body type, hair, dress, pose, rock shore and golden light reference."}], "prompt_instructions": "Attach the required reference image. Preserve approved-adult face, facial structure, identity, proportions, skin tone, hair, outfit, pose, environment, composition and lighting. Dress and background details are replaceable; never use celebrity/public-figure likeness and add no overlay text."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Normalized identity-reference schema and added required safety exclusions."]}
+}

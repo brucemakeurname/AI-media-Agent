@@ -1,0 +1,74 @@
+{
+  "name": "Retro Record Store Y2K Flash Portrait",
+  "tag": "retro-record-store-y2k-sweet-girl",
+  "image_type": "record_store_y2k_flash_portrait",
+  "image_vibe": "cozy_festive_y2k",
+  "image_purpose": "social_editorial",
+  "group": "indie/enegy-lifestyle/retro-analog",
+  "prompt": {
+    "project_info": {
+      "title": "Retro Record Store Y2K Flash Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult Asian woman with long softly waved brown hair, natural dewy makeup, and a warm, gently shy smile, seated at a dark wooden table in a vintage record-store lounge.",
+      "wardrobe": "A red-and-white gingham puff-sleeve blouse with a high neckline, paired with high-waisted matching wide-leg trousers; festive nail art without logos or text.",
+      "pose_and_expression": "Relaxed seated three-quarter pose, one hand lightly near a record sleeve and eyes turned toward camera."
+    },
+    "composition_elements": {
+      "setting": "A cozy dark-wood music lounge with neatly arranged blank-spined records and CDs, a softly glowing Christmas tree, and restrained festive decorations.",
+      "foreground_props": "An unbranded vintage amplifier, a plain-label record player, a transparent iced matcha glass with no branding, a generic compact red camera, and small unlabeled holiday desserts.",
+      "framing": "Medium portrait from table height, subject centered slightly right, with the wood tabletop and music-room texture establishing the scene.",
+      "text_and_brand_control": "All record sleeves, CD spines, equipment, camera surfaces, packaging, and décor are blank or abstract with no readable text, logos, or recognizable brands."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Warm tungsten room light balanced with a subtle direct on-camera flash for a candid early-2000s snapshot feel.",
+      "mood": "Friendly, nostalgic, festive, and authentically lived-in."
+    },
+    "technical_specs": {
+      "camera_style": "35mm point-and-shoot film snapshot",
+      "lens": "40mm equivalent",
+      "rendering": "Fine film grain, gentle highlight bloom, natural skin texture, realistic hands, clean facial anatomy, and restrained color fade."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical, hyper-realistic 35mm point-and-shoot still photograph of an adult Asian woman with long softly waved brown hair, natural dewy makeup, and a warm shy smile, seated at a dark wooden table in a vintage record-store lounge. She wears a red-and-white gingham puff-sleeve high-neck blouse with matching high-waisted wide-leg trousers. Pose her in a relaxed three-quarter seated position, one hand lightly near a record sleeve and eyes toward the camera. Surround her with blank-spined records and CDs, a softly glowing Christmas tree, restrained holiday décor, an unbranded vintage amplifier, plain-label record player, transparent unbranded iced matcha glass, generic compact red camera, and unlabeled holiday desserts. Use warm tungsten ambient light plus a subtle direct on-camera flash, medium table-height framing, fine grain, slight highlight bloom, natural skin texture, accurate hands and face, and a cozy festive Y2K mood. Keep every surface free of readable text, logos, and recognizable brands.",
+    "negative_prompt": "minor, childlike styling, celebrity likeness, named person, doll-like anatomy, explicit, nsfw, overly revealing clothing, lingerie, fetish styling, smoking, cigarette, alcohol branding, logos, readable text, watermark, distorted hands, extra fingers, warped face, plastic skin, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Identity references are optional and may only depict a consenting adult; preserve only general approved facial and hair traits. Use wardrobe, environment, and prop references as replaceable visual guides rather than copying brands or text.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Match general adult facial structure, long brown hair, and natural makeup only."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "gingham_outfit_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide the red-and-white gingham blouse and covered high-waisted trousers; remove any labels."
+        },
+        {
+          "type": "environment_reference",
+          "name": "record_store_lounge_reference",
+          "required": false,
+          "source": "user-provided interior reference",
+          "usage": "Guide dark wood, record display, and festive ambient layout while blanking all visible copy."
+        },
+        {
+          "type": "prop_reference",
+          "name": "analog_music_props_reference",
+          "required": false,
+          "source": "user-provided object reference",
+          "usage": "Guide generic amplifier, record player, camera, and drink silhouettes without copying brands."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified an adult subject, replaced revealing outfit language with covered clothing, removed brand and readable-text dependencies, and prohibited celebrity likeness, smoking, and sexualized presentation."
+  }
+}

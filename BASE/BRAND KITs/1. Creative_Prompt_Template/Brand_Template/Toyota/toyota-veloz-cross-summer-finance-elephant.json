@@ -1,0 +1,85 @@
+{
+  "name": "toyota-veloz-cross-summer-finance-elephant",
+  "tag": [
+    "toyota",
+    "veloz-cross",
+    "summer-offer",
+    "finance",
+    "special-offer"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Special offers",
+  "group": "toyota_28631817613085097",
+  "prompt": {
+    "project_info": {
+      "theme": "Summer finance promotion for Toyota Veloz Cross",
+      "color_palette": "Beach Blue, Orange, White, Palm Green, Sandy Beige"
+    },
+    "main_subject": {
+      "type": "Object/Character",
+      "detail": "A large blue elephant mascot in an orange-and-white polo stands front and center on a tropical beach, holding a giant orange sign that says 'LAI SUAT 0%' while a white Toyota Veloz Cross is parked behind on the right.",
+      "style": "Playful 3D mascot advertising poster with photoreal car integration, bright tropical travel mood, glossy promo placards, and cheerful retail visual hierarchy."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "TOYOTA\nBO VOI TRO LUC TAI CHINH\nRUOC VELOZ CROSS\nVi vu he\nLAI SUAT 0%\nTRONG 12 THANG DAU\nUU DAI 100%\nLe phi truoc ba\nUU DAI LAI SUAT 0\nVELOZ\nMove your world",
+      "items": [
+        "Top Left: White Toyota logo on blue sky.",
+        "Top Center: White uppercase headline, blue 'VELOZ CROSS', and large handwritten orange-yellow script 'Vi vu he'.",
+        "Bottom Left: Giant orange promo board with 'LAI SUAT 0%' and small line 'TRONG 12 THANG DAU'.",
+        "Bottom Right: Smaller orange placards for 'UU DAI 100% Le phi truoc ba' and 'UU DAI LAI SUAT 0', plus handwritten white 'Move your world'.",
+        "Center/Background: Blue elephant mascot winking and making an OK gesture, white Toyota Veloz Cross, palm trees, beach huts, sea, and bright vacation sky."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright tropical daylight",
+      "effect": "Sunny vacation lighting, glossy 3D character shading, soft beach shadows, vibrant sky saturation, and clean commercial car reflections."
+    },
+    "technical_specs": {
+      "render_style": "3D mascot plus photoreal automotive promotional poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Toyota Veloz Cross summer finance promotion. Centerpiece is a cheerful blue elephant mascot in orange polo holding a giant orange sign with 'LAI SUAT 0%' while a white Toyota Veloz Cross stands on a tropical beach behind it. Background is a sunny beach with palm trees, umbrellas, sea, and resort atmosphere. Surrounding elements: top headline 'BO VOI TRO LUC TAI CHINH', 'RUOC VELOZ CROSS', handwritten 'Vi vu he', additional offer signs for 'UU DAI 100% Le phi truoc ba' and 'UU DAI LAI SUAT 0', Toyota logo at top left, and handwritten 'Move your world'. Technical style: 3D mascot plus photoreal automotive promotional poster, bright tropical daylight, glossy promo placards, cheerful retail hierarchy, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Toyota corporate logo white version",
+          "required": true,
+          "source": "brand asset / Toyota official logo",
+          "usage": "Place top left on blue sky."
+        },
+        {
+          "type": "product",
+          "name": "Toyota Veloz Cross white exterior reference",
+          "required": true,
+          "source": "product reference image",
+          "usage": "Use for parked car behind the mascot on the right."
+        },
+        {
+          "type": "graphic",
+          "name": "Blue elephant finance mascot",
+          "required": true,
+          "source": "campaign mascot reference",
+          "usage": "Preserve the rounded 3D character, wink expression, orange polo, and belt marked 'VELOZ'."
+        },
+        {
+          "type": "background",
+          "name": "Tropical beach background",
+          "required": true,
+          "source": "location reference",
+          "usage": "Recreate palm trees, sand, seaside huts, and bright holiday sky."
+        },
+        {
+          "type": "text_layout",
+          "name": "Summer finance offer placard layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve giant 0% board and smaller orange offer boards."
+        }
+      ],
+      "prompt_instructions": "Keep the mascot as the visual hero and the Veloz Cross as secondary support. This should feel like a family-summer sales creative, not a premium luxury poster."
+    }
+  }
+}

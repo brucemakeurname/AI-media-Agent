@@ -1,0 +1,75 @@
+{
+  "name": "be-healing-travel-comic",
+  "tag": [
+    "comic panel",
+    "healing travel",
+    "be mascot",
+    "thermometer gag",
+    "yellow poster"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "GIFs/Memes",
+  "group": "be_1005041172415772",
+  "prompt": {
+    "project_info": {
+      "theme": "Humorous healing-travel comic panel",
+      "color_palette": "Warm yellow, cream, white, be blue, black, peach"
+    },
+    "main_subject": {
+      "type": "Object/Character",
+      "detail": "A humorous illustrated poster showing a be rider character holding a digital thermometer close to camera, where the thermometer screen reads 'Cần du lịch chữa lành', while a small inset in the top-left shows the same rider checking their head.",
+      "style": "Minimal comic-style brand illustration, meme-like social graphic"
+    },
+    "composition_elements": {
+      "type": "Character/Object/Inset Panel",
+      "text": "be, Cần du lịch chữa lành",
+      "items": [
+        "Top Left: inset rectangular comic panel showing a be rider mascot touching the head with a small white object against a yellow city background.",
+        "Top Center Right: small blue be logo.",
+        "Center Foreground: large hand holding a white digital thermometer angled diagonally toward the viewer.",
+        "Thermometer Screen: black text 'Cần du lịch chữa lành'.",
+        "Background: soft glowing yellow gradient with cloud-like white patches."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat illustrated lighting",
+      "effect": "Warm meme-comic glow, simple humor-forward presentation, soft airbrushed gradients"
+    },
+    "technical_specs": {
+      "render_style": "Illustrated comic panel social post",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "graphic",
+          "name": "be rider mascot comic illustration",
+          "required": true,
+          "source": "source image mascot reference",
+          "usage": "Preserve the character illustration style, helmet details, and inset composition."
+        },
+        {
+          "type": "object",
+          "name": "digital thermometer",
+          "required": true,
+          "source": "source image prop reference",
+          "usage": "Keep the oversized foreground thermometer angle and rounded shape."
+        },
+        {
+          "type": "text_layout",
+          "name": "thermometer screen wording",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Preserve the exact phrase on the thermometer screen and overall sparse composition."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the exact joke framing and inset panel layout.",
+        "Keep the thermometer text exactly as shown.",
+        "Retain the simple meme-like composition with lots of open yellow space."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square illustrated social meme poster with a warm yellow gradient background and soft white cloud-like patches. At the top left, include a small inset comic panel showing a be rider mascot touching the head against a yellow city backdrop. Near the upper center-right place a small blue be logo. In the foreground, show a large hand holding a white digital thermometer diagonally toward the viewer, with the screen reading 'Cần du lịch chữa lành'. Technical style: illustrated comic panel social post, flat illustrated lighting, warm humorous meme energy, 8k resolution, highly detailed.",
+    "negative_prompt": "photorealism, dark tone, extra text, incorrect thermometer wording, cluttered scene, low resolution, distorted hand, watermark, signature"
+  }
+}

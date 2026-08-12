@@ -1,0 +1,80 @@
+{
+  "name": "dreamy-girl-sage-green",
+  "tag": [
+    "adult-woman",
+    "sage-green",
+    "flower",
+    "motion-blur",
+    "fine-art",
+    "closeup"
+  ],
+  "image_type": "fine-art-closeup-portrait",
+  "image_vibe": "soft-dreamy-ethereal",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "source_url": "https://x.com/Taaruk_/status/2020780086363054275",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject is an adult while retaining the original fine-art flower portrait concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "sage-green flower-obscured dreamy closeup",
+      "color_palette": "muted sage green, ivory, pale gold, natural rose skin",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with softly swept light brown hair, natural minimal makeup, and a calm direct gaze.",
+      "style": "ultra-realistic fine-art close portrait with painterly softness"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "tight face crop",
+        "one clear eye visible",
+        "ivory cosmos flower covering the opposite eye",
+        "horizontal blurred flower petals across the upper face",
+        "muted sage-green seamless backdrop"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "gentle diffuse studio daylight at approximately 5000K",
+      "effect": "soft natural highlights, preserved pores, dreamy bloom, and a low-contrast pastel film grade"
+    },
+    "technical_specs": {
+      "render_style": "85mm f/1.8 fine-art closeup, sharp visible eye, controlled slow-shutter foreground blur",
+      "resolution": "ultra-high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Ultra-realistic fine-art close portrait of an adult woman with soft natural features, minimal makeup, and a calm introspective gaze. Use a muted pastel sage-green background. Hold a delicate ivory cosmos flower on a long stem across the face so it covers one eye while the other remains sharp. Create intentional horizontal slow-shutter motion blur from drifting petals and soft light streaks. Keep gentle diffused lighting, natural skin texture, shallow depth of field, cinematic softness, painterly realism, and a serene poetic mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, text, logo",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-sage-portrait-reference",
+          "required": false,
+          "source": "Attach an adult person reference when likeness is required.",
+          "usage": "Preserve adult face geometry, hair color, and calm gaze."
+        },
+        {
+          "type": "graphic",
+          "name": "ivory-cosmos-flower-reference",
+          "required": false,
+          "source": "Attach a flower reference when exact petal shape is required.",
+          "usage": "Position over one eye on a long stem with horizontal blur."
+        },
+        {
+          "type": "background",
+          "name": "sage-green-palette-reference",
+          "required": false,
+          "source": "Attach a palette reference when exact sage value is required.",
+          "usage": "Keep the seamless muted sage-green backdrop."
+        }
+      ],
+      "prompt_instructions": "All references are optional. Preserve adult subject, one visible eye, ivory flower across the face, sage backdrop, and soft horizontal motion blur. Identity, flower, and palette can be replaced independently."
+    }
+  }
+}

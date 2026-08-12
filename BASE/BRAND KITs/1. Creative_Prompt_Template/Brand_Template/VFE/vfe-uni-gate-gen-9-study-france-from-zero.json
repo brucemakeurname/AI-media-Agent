@@ -1,0 +1,78 @@
+{
+  "name": "vfe-uni-gate-gen-9-study-france-from-zero",
+  "tag": [
+    "vfe",
+    "uni-gate",
+    "gen-9",
+    "study-france",
+    "special-offer"
+  ],
+  "biz_niche": "Education",
+  "content_format": "Special offers",
+  "group": "vfe_1446121004213921",
+  "prompt": {
+    "project_info": {
+      "theme": "Uni-Gate Gen 9 enrollment campaign for studying in France from zero",
+      "color_palette": "French Blue, Red, White, Pale Lavender"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A bold educational enrollment poster dominated by the outlined title 'UNI-GATE' with handwritten red 'Gen 9', a large red CTA button, a monumental Eiffel Tower cutout, and a blue train-ticket collage showing France-related images.",
+      "style": "Graphic-forward study abroad campaign with clean poster layout, travel iconography, modern title treatment, and French tricolor wave accents."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nDU HỌC PHÁP TỪ CON SỐ 0\nNGAY SAU 6 THÁNG\nĐĂNG KÝ NGAY\nUNI-GATE\nGen 9\nTỚI\nPHÁP\nTHÔI",
+      "items": [
+        "Top Left: VFE Vietnam France Exchange logo.",
+        "Top Right: Vertical light streak texture on white background and handwritten red 'Gen 9' over the UNI-GATE wordmark.",
+        "Bottom Left: Large Eiffel Tower photo cutout rising from the bottom edge.",
+        "Bottom Right: Blue ticket strip containing three photo frames and text blocks 'TỚI', 'PHÁP', 'THÔI', plus sweeping blue-red flag curves.",
+        "Center/Background: Big navy title lines 'DU HỌC PHÁP TỪ CON SỐ 0 NGAY SAU 6 THÁNG', red CTA pill 'ĐĂNG KÝ NGAY', and huge outlined 'UNI-GATE'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright poster-style graphic lighting",
+      "effect": "Flat clean white background, vivid red-blue contrast, crisp photo cutouts, and polished admissions-campaign readability."
+    },
+    "technical_specs": {
+      "render_style": "Photo-collage education campaign poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality education marketing poster for VFE Uni-Gate Gen 9. Centerpiece is a huge outlined 'UNI-GATE' title with red handwritten 'Gen 9', a red 'ĐĂNG KÝ NGAY' CTA button, and a giant Eiffel Tower cutout at lower left. Background is a clean white graphic field with vertical pastel streaks. Surrounding elements: VFE logo top left, headline 'DU HỌC PHÁP TỪ CON SỐ 0 NGAY SAU 6 THÁNG', a blue ticket collage reading 'TỚI PHÁP THÔI', and sweeping French tricolor curves. Technical style: photo-collage education campaign poster, bright poster-style graphic lighting, crisp cutouts and admissions-campaign readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place top left."
+        },
+        {
+          "type": "location",
+          "name": "Eiffel Tower reference",
+          "required": true,
+          "source": "landmark photo",
+          "usage": "Use as the large lower-left travel icon cutout."
+        },
+        {
+          "type": "graphic",
+          "name": "Blue travel ticket collage",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve stacked ticket frames and the words 'TỚI PHÁP THÔI'."
+        },
+        {
+          "type": "text_layout",
+          "name": "Uni-Gate Gen 9 admissions layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep CTA, outlined title, and handwritten Gen 9 placement."
+        }
+      ],
+      "prompt_instructions": "This poster relies on strong title hierarchy. Keep 'UNI-GATE' oversized and outlined, not filled. The CTA button and Eiffel Tower should feel like direct study-abroad conversion cues rather than generic travel decoration."
+    }
+  }
+}

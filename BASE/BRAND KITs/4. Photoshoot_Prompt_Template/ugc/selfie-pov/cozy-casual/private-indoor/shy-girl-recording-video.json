@@ -1,0 +1,22 @@
+{
+  "name": "shy-girl-recording-video",
+  "tag": ["ugc", "selfie-pov", "cozy-casual", "private-indoor"],
+  "image_type": "phone-recording keyframe selfie",
+  "image_vibe": "soft shy late-afternoon bedroom candid",
+  "image_purpose": "static keyframe for a private phone-recording concept",
+  "group": "cozy-casual/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic still/keyframe of an approved adult woman in a softly lit bedroom, as if captured while recording a private phone video or voice note.",
+    "main_subject": "Approved adult woman with long natural brown hair, minimal makeup, natural skin texture, relaxed modest clothing, and a thoughtful slightly shy expression.",
+    "composition_elements": "Tight slightly imperfect phone-camera framing; phone held close to the face, lived-in bedroom with simple bedding, clothing, and shelving in the background. Keep the moment non-sexualized and do not depict private data on screen.",
+    "lighting_and_atmosphere": "Warm natural light fading from a window in late afternoon, soft shadows, calm personal atmosphere.",
+    "technical_specs": "Ultra-realistic phone-camera still, portrait 4:5, slight natural grain, modest depth of field, no cinematic grading, no beautification filter.",
+    "generated_prompt_string": "Static realistic phone-recording keyframe of an approved adult woman with long brown hair and minimal makeup, holding her phone close to her face in a softly lit lived-in bedroom. Use warm fading late-afternoon window light, soft shadows, natural skin texture, slight phone-camera grain, and a thoughtful shy expression. No private data, text, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, underage, childlike, sexualized pose, nudity, lingerie, transparent clothing, private data, readable personal messages, distorted phone, distorted anatomy, heavy beauty filter, artificial sharpening, watermark, logo invention, public figure likeness.",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "shy-girl-recording-video_0.jpg", "required": true, "source": "local preview", "usage": "Identity, hair, phone, expression, bedroom, framing, and warm light reference."}],
+      "prompt_instructions": "Attach the required local image. Preserve identity, hair, phone, expression, bedroom, framing, and lighting; replaceability applies only to the identity with an approved reference. Treat recording/video as a keyframe concept in this non-video folder, and keep any screen content absent or generic."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified approved adult, converted the recording concept into a static keyframe, and excluded private screen data."]}
+}

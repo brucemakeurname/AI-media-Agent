@@ -1,0 +1,78 @@
+{
+  "name": "badass-striped-polo-premium-display",
+  "tag": [
+    "striped polo",
+    "premium display",
+    "interior styling",
+    "menswear merchandising",
+    "decor editorial",
+    "product showcase"
+  ],
+  "biz_niche": "Home & Living",
+  "content_format": "Product demos",
+  "group": "badass_1340218638272302",
+  "prompt": {
+    "project_info": {
+      "theme": "Striped polo premium interior display",
+      "color_palette": "Black, white, gray, warm wood, pale gray"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Two striped polos hang in a premium interior setup with decor accents and strong title typography, presented as a stylish product display inside a modern living-space-inspired environment.",
+      "style": "Photorealistic interior merchandising, premium decor-led menswear display, clean editorial showroom visual"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "BADASS, STRIPED POLO, POKTK740",
+      "items": [
+        "Top Right: white BADASS wordmark.",
+        "Upper Center: large title 'STRIPED' above 'POLO'.",
+        "Right Side: two striped polos on wooden hangers from a curved silver rail.",
+        "Left Side: framed minimal art print on a dark cabinet.",
+        "Lower Left: stacked decor books next to the cabinet.",
+        "Bottom Left: small white product code 'POKTK740'.",
+        "Background: dark vertical slat wall transitioning into a pale gray display panel."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft directional interior light",
+      "effect": "Controlled showroom contrast, crisp product edges, upscale interior calm, subtle depth between decor and garments"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic interior product display poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "two striped polos on hangers",
+          "required": true,
+          "source": "source image product reference",
+          "usage": "Keep the hanger placement, stripe rhythm, collar colors, and garment drape accurate."
+        },
+        {
+          "type": "location",
+          "name": "decor-led display interior",
+          "required": true,
+          "source": "source image interior reference",
+          "usage": "Preserve the framed print, books, dark cabinet, slat wall, and pale display panel."
+        },
+        {
+          "type": "text_layout",
+          "name": "STRIPED POLO title and code",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Preserve exact wording and the large title placement above the garments."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve decor balance, rail placement, and exact garment arrangement.",
+        "Keep visible text exactly as 'BADASS', 'STRIPED POLO', and 'POKTK740'.",
+        "Maintain a premium interior-display atmosphere, not a plain e-commerce cutout layout."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square premium interior display poster for a striped BADASS polo collection. Use a modern interior setup with a dark cabinet on the left, framed minimalist art, stacked decor books, and a background split between dark vertical slats and a pale gray panel. On the right, hang two striped polos from wooden hangers on a curved silver rail. Add a white BADASS wordmark at the top right, large title text 'STRIPED POLO' above the garments, and small white product code 'POKTK740' at the lower left. Technical style: photorealistic interior product display poster, soft directional interior light, upscale showroom ambiance, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, low resolution, missing decor elements, wrong stripe pattern, incorrect text, flat 2d, cluttered props, watermark, signature"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "apple-airpods-ad",
+  "tag": ["adult-woman", "identity-reference", "airpods", "product-infographic", "minimal-studio", "tech-advertisement"],
+  "image_type": "product-infographic-advertisement",
+  "image_vibe": "premium-minimal-polished",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Replaced the unrestricted same-face instruction with an authorized adult identity reference and clarified the subject as an adult while preserving the product, pose, feature labels, and Apple-inspired minimal design language."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "high-end AirPods e-commerce product infographic",
+      "color_palette": "white, light gray, soft blue accents, black typography, and subtle silver highlights",
+      "aspect_ratio": "1:1"
+    },
+    "main_subject": {
+      "description": "An adult woman matching the authorized identity reference, with natural skin texture, long wavy dark hair, and a calm confident expression.",
+      "wardrobe": "Minimal taupe fitted short-sleeve zip-neck top with clean contemporary styling.",
+      "pose": "Medium portrait in a clean studio, wearing AirPods naturally in both ears and holding the open glossy white charging case at chest level, slightly angled toward camera.",
+      "styling": "Polished premium product-ad styling with natural makeup and uncluttered presentation."
+    },
+    "composition_elements": {
+      "framing": "Square balanced layout with the adult subject on the right and generous light background space for infographic labels on the left.",
+      "environment": "Crisp white or light gradient studio background with subtle reflections and soft shadows; no unintended text or watermark.",
+      "typography": "Apple AirPods headline at upper left with the subheading Redesigned for a richer listening experience. Add pointer lines and icons for Active Noise Cancellation, Spatial Audio, Long Battery Life, and Seamless Connectivity, plus a lower device-compatibility strip. Render supplied text accurately and legibly.",
+      "focus": "Sharp adult identity, AirPods in ears, open case with visible earbuds and LED indicator, clean pointer lines, and product details."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft diffused studio lighting with gentle facial highlights, subtle product reflections, and controlled shadows beneath the case and subject.",
+      "atmosphere": "Premium, minimal, modern, informative, and commercially polished."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with an 85mm lens at f/2.8, 1/200 s, ISO 100",
+      "quality": "Ultra-realistic sharp commercial photography, shallow depth of field, clean infographic edges, high-resolution product texture, 4K-quality detail"
+    },
+    "generated_prompt_string": "Create a premium 1:1 AirPods product infographic advertisement in a crisp white or light-gradient studio. Feature one adult woman matching the authorized identity reference, with natural skin texture, long wavy dark hair, calm confident expression, and a taupe fitted short-sleeve zip-neck top. She wears AirPods naturally in both ears and holds the open glossy white charging case at chest level, slightly angled toward camera, with visible earbuds and a small LED indicator. Place her on the right with generous negative space on the left. Add the headline Apple AirPods and subheading Redesigned for a richer listening experience, plus elegant pointer lines and icons labeling Active Noise Cancellation, Spatial Audio, Long Battery Life, and Seamless Connectivity, with a lower device-compatibility strip. Use soft diffused light, subtle reflections, soft shadows, sharp product detail, accurate legible typography, and no extra text or watermark.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, illegible text, misspelled product name, distorted earbuds, missing case lid, extra fingers, deformed anatomy, watermark, cluttered layout, harsh reflections",
+    "reference_elements": {
+      "prompt_instructions": "The authorized adult identity reference is required for the face and overall identity. Optional product, wardrobe, infographic, or studio references may replace only their named element; preserve the adult product-demo pose, exact feature labels, Apple AirPods branding, and minimal square layout. Do not imitate a public figure.",
+      "assets": [
+        {
+          "type": "identity",
+          "name": "authorized-adult-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public figure portrait",
+          "usage": "Preserve the authorized adult's facial identity in the product advertisement."
+        },
+        {
+          "type": "product",
+          "name": "apple-airpods-open-case-and-earbuds",
+          "required": false,
+          "source": "user-uploaded product reference",
+          "usage": "Replace only the AirPods generation, case, or earbud details while preserving product placement and infographic clarity."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "western-stars-fashion-fitness-collection",
+  "tag": ["industry", "lookbook-line-sheet", "editorial-fashion", "fitness", "collection"],
+  "image_type": "multi-look fashion fitness editorial",
+  "image_vibe": "energetic, glossy, playful, contemporary",
+  "image_purpose": "fashion-fitness lookbook collection and campaign board",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create a six-look fashion and fitness editorial collection featuring adult fictional models in distinct studio, summer, mirror-selfie, and athleisure settings.",
+    "main_subject": "Six adult fictional women with original identities across six looks: an off-white glossy long-sleeve bodysuit with white sneakers in a gray studio and ghosting effect; a navy one-piece tank with white trim and rose-gold aviators crouched beside a disco ball on green chroma; a green lace-trim athleisure top with blue high-waisted leggings and silver bracelet in a dark-wood mirror selfie; a maroon glossy couture bodysuit in a gray gradient studio; a vibrant red one-piece with white piping holding a mirror ball against green paper; and a deep-purple camisole with matching leggings in a residential phone mirror selfie.",
+    "composition_elements": "Collection board with six distinct frames, varied crouched, standing, split, mirror-selfie, and prop-holding poses, clear outfit and environment separation, coherent fashion-fitness editorial styling.",
+    "lighting_and_atmosphere": "Soft diffused studio light for the gray bodysuit look, direct natural sunlight for summer looks, neutral indoor light for mirror selfies, and clean controlled studio light for couture; glossy realistic fabric and natural shadows.",
+    "technical_specs": "High-detail photorealistic editorial collection, realistic textiles and props, natural anatomy, varied aspect ratios as appropriate to each look, clean typography-free presentation.",
+    "generated_prompt_string": "Fashion and fitness editorial collection of six adult fictional women with original identities: 1) off-white glossy long-sleeve bodysuit with white sneakers in a minimalist gray studio with ghosting and soft diffused light; 2) navy one-piece tank with white trim and rose-gold aviator sunglasses crouched beside a reflective disco ball on a green chroma background in direct sunlight; 3) green lace-trim athleisure top, blue high-waisted leggings and silver bracelet in an empty dark-oak room as a mirror selfie; 4) maroon glossy couture bodysuit against a neutral gray gradient; 5) vibrant red one-piece with white piping holding a large mirror ball against green paper with hard sunlight shadows; 6) deep-purple flared camisole and matching leggings with strawberry-blonde waves in a residential phone mirror selfie. High-fashion editorial, realistic materials, natural anatomy, polished contemporary fitness collection.",
+    "negative_prompt": "celebrity likeness, public figure likeness, minor or underage appearance, explicit, nsfw, overly revealing, nudity, blurry, low quality, distorted anatomy, extra limbs, deformed hands, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, text, signature",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "western-stars-fashion-fitness-collection.jpg", "required": true, "source": "workspace reference image", "usage": "Reference the visible adult model, red sporty one-piece, disco ball, green backdrop, sunlight, and collection styling; extend the source-described six-look board with generic adult identities."}],
+      "prompt_instructions": "Attach the required reference image. Preserve the six-look collection logic, outfit palettes, poses, props, settings, and lighting variations. Replace all celebrity identities with original adults, keep products and logos generic, and make typography absent or replaceable."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced celebrity names and ambiguous age references with original adult fictional models while preserving the six-look fashion-fitness collection."]}
+}

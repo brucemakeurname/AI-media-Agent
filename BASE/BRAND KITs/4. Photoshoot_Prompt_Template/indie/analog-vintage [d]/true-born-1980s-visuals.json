@@ -1,0 +1,80 @@
+{
+  "name": "true-born-1980s-visuals",
+  "tag": [
+    "adult-woman",
+    "vhs",
+    "1985-bedroom",
+    "crt-television",
+    "tungsten-lamp",
+    "camcorder"
+  ],
+  "image_type": "vhs-camcorder-still",
+  "image_vibe": "intimate-warm-imperfect-1980s",
+  "image_purpose": "moodboard",
+  "group": "indie/analog-vintage",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the bedroom subject is an adult.",
+      "Removed source prompt instructions that directed agent persona and retained only image-relevant VHS characteristics."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "authentic 1985 VHS camcorder still in a warm lived-in bedroom",
+      "color_palette": "tungsten amber, warm beige, CRT blue, faded gray, dark brown",
+      "format": "landscape 4:3"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult East Asian woman with loose dark hair, wearing an oversized heather-gray T-shirt, seated on a patterned bedspread and turning toward the camera while holding a small object.",
+      "style": "candid household camcorder footage with unretouched natural skin texture"
+    },
+    "composition_elements": {
+      "text": "Render the orange camcorder timestamp AUG 8 1985 9:14PM in the lower-right corner.",
+      "items": [
+        "adult woman sitting on edge of bed and looking back at handheld camera",
+        "large beige adjustable desk lamp glowing at left",
+        "small CRT television with blue static on a shelf behind",
+        "corded landline phone, stacked VHS tapes, and cluttered bedroom shelving",
+        "patterned comforter, soft window blinds, and horizontal VHS tracking artifacts"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "warm 3200K practical desk lamp mixed with faint CRT blue spill",
+      "effect": "tube-camera bloom, dense warm video noise, slight chroma bleed, rolling tracking lines, and domestic late-night intimacy"
+    },
+    "technical_specs": {
+      "render_style": "mid-1980s consumer VHS camcorder still, NTSC 4:3, interlacing, head-switching noise, soft tube-like highlight bloom, no modern digital sharpness",
+      "resolution": "intentionally low-resolution VHS texture, landscape 4:3"
+    },
+    "generated_prompt_string": "Create a candid 1985 VHS camcorder still of an adult East Asian woman seated on a patterned bedspread in a lived-in bedroom, turning toward the handheld camera with a small object in her hands. She has loose dark hair and wears an oversized heather-gray T-shirt. At left, a large beige adjustable desk lamp glows warmly; behind her sit a CRT television showing blue static, a corded landline phone, shelves of VHS tapes, and soft window blinds. Use real mid-1980s consumer VHS characteristics: 3200K tungsten lamp warmth, NTSC color response, gentle tube bloom, interlacing, horizontal tracking noise, slight rightward chroma bleed, dense warm tape grain, and imperfect 4:3 framing. Render the orange camcorder timestamp AUG 8 1985 9:14PM in the lower-right corner.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, smartphone, flat-screen television, modern furniture, watermark, logo, crisp digital sharpness, 4K clarity, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "location",
+          "name": "mid-eighties-bedroom-reference",
+          "required": false,
+          "source": "Attach an environment reference when exact furniture, CRT model, or shelf layout must match.",
+          "usage": "Keep bedroom, CRT, lamp, phone, and VHS context coherent; individual props may be replaced."
+        },
+        {
+          "type": "wardrobe",
+          "name": "oversized-gray-tshirt-reference",
+          "required": false,
+          "source": "Attach wardrobe reference when exact shirt color or fit is required.",
+          "usage": "Keep relaxed opaque gray homewear; it may be replaced."
+        },
+        {
+          "type": "text_layout",
+          "name": "vhs-timestamp-layout-reference",
+          "required": false,
+          "source": "Use the preview image as the timestamp layout reference.",
+          "usage": "Render AUG 8 1985 9:14PM as an orange lower-right camcorder timestamp."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve an adult subject, authentic mid-1980s bedroom props, warm tungsten/CRT color contrast, physical VHS defects, and the orange lower-right timestamp AUG 8 1985 9:14PM."
+    }
+  }
+}

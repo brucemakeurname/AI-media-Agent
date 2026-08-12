@@ -1,0 +1,59 @@
+{
+  "name": "Dark Academia Library Ladder Portrait",
+  "tag": "dark-academia-library-ladder",
+  "image_type": "cinematic_library_portrait",
+  "image_vibe": "mysterious_warm_chiaroscuro",
+  "image_purpose": "fashion_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Dark Academia Library Ladder Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "9:16 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with a dark messy layered haircut, vintage spectacles, freckles, and an attentive expression.",
+      "wardrobe": "A fully buttoned white long-sleeve shirt, loose pinstripe blazer, high-waisted charcoal trousers, and plain ankle boots.",
+      "pose_and_expression": "Standing securely on a low wooden library ladder step, one hand reaching toward a blank-spined book and the other holding the rail."
+    },
+    "composition_elements": {
+      "setting": "A large old library at night with floor-to-ceiling shelves, abstract blank book spines, and a distant brass desk lamp.",
+      "framing": "Vertical medium-full portrait from aisle level, foreground books softly out of focus.",
+      "text_and_brand_control": "No schoolgirl coding, short skirt, exposed body emphasis, gold-leaf book lettering, library names, or readable text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "One warm overhead pool of light with deep chiaroscuro shadows and soft lamp halation.",
+      "mood": "Intellectual, quiet, mysterious, and non-sexualized."
+    },
+    "technical_specs": {
+      "camera_style": "cinematic 35mm film still",
+      "lens": "40mm equivalent",
+      "rendering": "Rich warm blacks, subtle grain, old paper and wood texture, natural hands, and soft foreground focus."
+    },
+    "generated_prompt_string": "Create a 9:16 vertical cinematic 35mm film still of an adult woman with a dark messy layered haircut, vintage spectacles, freckles, and an attentive expression. She wears a fully buttoned white long-sleeve shirt, loose pinstripe blazer, high-waisted charcoal trousers, and plain ankle boots. She stands securely on a low wooden library ladder step, one hand reaching toward a blank-spined book and the other holding the rail. Set this in a large old library at night with floor-to-ceiling shelves, abstract blank book spines, a distant brass desk lamp, and softly out-of-focus foreground books. Use a warm overhead light pool, deep chiaroscuro shadow, subtle lamp halation, rich warm blacks, old paper and wood texture, subtle grain, and natural hands. No schoolgirl styling, short skirt, body emphasis, book lettering, logos, library names, readable text, or watermark.",
+    "negative_prompt": "minor, schoolgirl, celebrity likeness, explicit, nsfw, overly revealing clothing, lingerie, fetish styling, short skirt, unbuttoned shirt, seductive pose, readable book spine, text, logo, watermark, distorted anatomy, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity references must show a consenting adult. Replaceable library and wardrobe references guide texture and silhouette only; blank all books, signs, and labels.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general adult facial and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "old_library_reference",
+          "required": false,
+          "source": "user-provided library reference",
+          "usage": "Guide shelves, ladder, and lamp after blanking every spine and sign."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Replaced school-coded/revealing styling and sexualized pose with a clearly adult, covered, secure library portrait; removed book and library text."
+  }
+}

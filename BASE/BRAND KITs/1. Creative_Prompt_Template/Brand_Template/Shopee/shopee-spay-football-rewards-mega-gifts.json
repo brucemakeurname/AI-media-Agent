@@ -1,0 +1,70 @@
+{
+  "name": "shopee-spay-football-rewards-mega-gifts",
+  "tag": [
+    "football-campaign",
+    "rewards-promo",
+    "spay",
+    "stadium-theme"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Competitions",
+  "group": "shopee_1005256185568807",
+  "prompt": {
+    "project_info": {
+      "theme": "SPay football-season rewards poster",
+      "color_palette": "Intense orange, white, gold, stadium green"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A bright orange SPay campaign poster with giant headline 'HOA NHIP BONG LAN' and subheadline 'NHAN QUA CUC KHUNG'. The letter O is stylized as a shattered soccer ball. Center foreground features a large white-and-orange soccer ball on a football field, a gold trophy on the left, and a light-gold Samsung phone with stylus on the right. Orange ticket labels say '10 TRIEU DONG' and '30 TRIEU DONG'.",
+      "style": "High-energy stadium promotion visual with glossy 3D objects and oversized sports typography"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "SPay / HOA NHIP BONG LAN / NHAN QUA CUC KHUNG / 10 TRIEU DONG / 30 TRIEU DONG",
+      "items": [
+        "Top Left: Shopee and SPay logos in white",
+        "Top Right: Glowing outline edge of the orange header card with stadium sparks",
+        "Bottom Left: Gold trophy, orange prize ticket, and football field tunnel walls",
+        "Bottom Right: Gold smartphone with stylus, orange prize ticket, and tunnel wall perspective",
+        "Center/Background: Giant orange header panel above a lit football field, central soccer ball, cheering stadium stands, floating coins, and fiery glow"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Stadium spotlight lighting",
+      "effect": "Intense warm glow, rim-lit sports props, crowd ambience, floating gold coin highlights"
+    },
+    "technical_specs": {
+      "render_style": "3D sports-campaign poster with branded promo compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for an SPay football rewards campaign. Centerpiece is a giant orange stadium card with the headline 'HOA NHIP BONG LAN' and 'NHAN QUA CUC KHUNG', above a football field containing a large soccer ball. Background is a glowing stadium with cheering crowd and warm orange light. Surrounding elements: Shopee and SPay logos, a gold trophy on the left, a gold smartphone with stylus on the right, floating coins, and orange tickets reading '10 TRIEU DONG' and '30 TRIEU DONG'. Technical style: 3D sports-campaign poster with branded promo compositing, stadium spotlight lighting, intense warm glow, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Samsung phone reward render",
+          "required": true,
+          "source": "official phone render if exact model fidelity matters",
+          "usage": "Place on the right as the premium prize object"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee and SPay logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for the top-left lockup"
+        },
+        {
+          "type": "text_layout",
+          "name": "Football rewards poster composition",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the giant orange header frame, soccer-ball typography motif, and two prize-ticket placement"
+        }
+      ],
+      "prompt_instructions": "Keep the central soccer ball large and low in frame, with trophy and smartphone balanced left-right. This is a competition/reward poster, so the prize-ticket values and bold sports typography must dominate."
+    }
+  }
+}

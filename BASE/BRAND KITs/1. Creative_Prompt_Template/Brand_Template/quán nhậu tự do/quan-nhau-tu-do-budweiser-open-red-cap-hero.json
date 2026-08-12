@@ -1,0 +1,70 @@
+{
+  "name": "quan-nhau-tu-do-budweiser-open-red-cap-hero",
+  "tag": [
+    "brand-collab",
+    "budweiser",
+    "world-cup",
+    "hero-poster"
+  ],
+  "biz_niche": "Generic/Universal Product Ad",
+  "content_format": "Brand story",
+  "group": "quan-nhau-tu-do_1625336229594072",
+  "prompt": {
+    "project_info": {
+      "theme": "Budweiser x Quán Nhậu Tự Do World Cup hero poster",
+      "color_palette": "Solid red, gold, white, amber glass brown"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Minimal vertical hero poster on solid red featuring the FIFA World Cup trophy beside a chilled Budweiser bottle covered in condensation, with oversized celebratory headline text above.",
+      "style": "Premium studio advertising poster, bold brand-collab composition, clean minimal packshot"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "BIA CHÍNH THỨC CỦA FIFA WORLD CUP 2026™ / BẬT NẮP BUD ĐỎ MỪNG MỌI PHÚT GIÂY KINH ĐIỂN",
+      "items": [
+        "Top Left: FIFA icon, Budweiser logo, and Quán Nhậu Tự Do logo in a co-branding row.",
+        "Top Right: Empty red negative space around the top headline.",
+        "Bottom Left: Large gold World Cup trophy cropped close to the edge.",
+        "Bottom Right: Chilled Budweiser bottle with heavy condensation and visible front label, plus small alcohol warning icons.",
+        "Center/Background: Massive white stacked headline 'BẬT NẮP BUD ĐỎ MỪNG MỌI PHÚT GIÂY KINH ĐIỂN' over a seamless red background."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Studio lighting",
+      "effect": "Glossy bottle highlights, metallic trophy reflections, clean high-contrast premium branding"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product advertising photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Budweiser x Quán Nhậu Tự Do World Cup hero poster. Centerpiece is a giant gold FIFA World Cup trophy beside a chilled Budweiser bottle with condensation, both standing on a seamless solid red background. Background is minimal and bold with oversized white celebratory text. Surrounding elements: top co-branding row with FIFA icon, Budweiser logo, and Quán Nhậu Tự Do logo; exact headline 'BẬT NẮP BUD ĐỎ MỪNG MỌI PHÚT GIÂY KINH ĐIỂN'; and small alcohol warning icons at the lower right. Technical style: photorealistic product advertising photography, studio lighting, glossy bottle highlights and metallic reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "FIFA, Budweiser, and Quán Nhậu Tự Do co-branding logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Preserve exact top-row placement and logo styling."
+        },
+        {
+          "type": "product",
+          "name": "Budweiser bottle and World Cup trophy",
+          "required": true,
+          "source": "official packshots or original poster assets",
+          "usage": "Keep the exact bottle label, condensation, and trophy shape at large scale."
+        },
+        {
+          "type": "text_layout",
+          "name": "hero headline and minimal vertical layout",
+          "required": true,
+          "source": "original creative",
+          "usage": "Retain exact wording and centered headline hierarchy."
+        }
+      ],
+      "prompt_instructions": "Use direct refs for the Budweiser bottle, trophy, and logo lockup. Maintain the minimal red field with no extra props or venue context."
+    }
+  }
+}

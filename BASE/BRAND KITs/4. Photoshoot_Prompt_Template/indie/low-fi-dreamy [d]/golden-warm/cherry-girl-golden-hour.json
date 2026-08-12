@@ -1,0 +1,59 @@
+{
+  "name": "Cherry Meadow Golden-Hour Portrait",
+  "tag": "cherry-meadow-golden-hour",
+  "image_type": "golden_hour_field_portrait",
+  "image_vibe": "warm_summer_analog",
+  "image_purpose": "lifestyle_editorial",
+  "group": "indie/low-fi-dreamy/golden-warm",
+  "prompt": {
+    "project_info": {
+      "title": "Cherry Meadow Golden-Hour Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "9:11 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with natural dark wavy hair and a calm relaxed expression.",
+      "wardrobe": "A white cherry-patterned short-sleeve midi dress with a high rounded neckline, full skirt, and plain tan sandals.",
+      "pose_and_expression": "Seated upright on a white wire chair in dry grass, hands on the chair arms, with both feet naturally placed on the ground."
+    },
+    "composition_elements": {
+      "setting": "Open dry grassy field at golden hour with softly blurred trees in the far background.",
+      "framing": "Full-body portrait at eye level, chair and dress visible without foot or body-part emphasis.",
+      "text_and_brand_control": "No exact face reference, bare-foot focus, logo, text, watermark, or brand."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Warm low-angle golden sunlight with gentle natural shadows.",
+      "mood": "Soft, nostalgic, summer, and calm."
+    },
+    "technical_specs": {
+      "camera_style": "natural 35mm field photograph",
+      "lens": "50mm equivalent",
+      "rendering": "Warm grain, natural skin, dress texture, accurate hands, and balanced full-body anatomy."
+    },
+    "generated_prompt_string": "Create a 9:11 vertical natural 35mm field portrait of an adult woman with dark wavy hair and a calm relaxed expression. She wears a white cherry-patterned short-sleeve midi dress with a high rounded neckline, full skirt, and plain tan sandals. Seat her upright on a white wire chair in a dry grassy field, hands on chair arms and both feet naturally placed on the ground. Use eye-level full-body composition, warm low-angle golden sunlight, softly blurred distant trees, warm grain, natural skin, dress texture, accurate hands, and balanced anatomy. No exact face reference, bare-foot focus, logo, readable text, brand, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, identity lock, explicit, nsfw, overly revealing clothing, bare feet focus, fetish styling, logo, readable text, watermark, distorted anatomy, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity reference must depict a consenting adult. Wardrobe, chair, and field references are replaceable, unbranded, and cannot introduce text.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult facial and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "dry_grass_meadow_reference",
+          "required": false,
+          "source": "user-provided landscape reference",
+          "usage": "Guide grass, chair scale, trees, and golden-hour mood."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed exact-face and foot-focus direction; clarified an adult subject and fully covered, non-sexualized styling."
+  }
+}

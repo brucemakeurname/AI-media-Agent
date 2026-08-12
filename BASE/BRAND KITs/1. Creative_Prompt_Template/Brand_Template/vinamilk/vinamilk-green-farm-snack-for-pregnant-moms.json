@@ -1,0 +1,48 @@
+{
+  "name": "vinamilk-green-farm-snack-for-pregnant-moms",
+  "tag": ["vinamilk", "green-farm", "pregnancy", "snack", "lifestyle"],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Lifestyle content",
+  "group": "vinamilk_2016184655660957",
+  "prompt": {
+    "project_info": {
+      "theme": "Healthy secondary snack for pregnant women",
+      "color_palette": "Warm sunset orange, cream white, tan brown, soft peach"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A close crop of an elegant pregnant woman in a sleeveless cream-white dress carrying a tan shoulder bag and holding a Vinamilk Green Farm milk cup. The top-left branding reads 'Vinamilk GREEN FARM' alongside the Vinamilk 50th anniversary mark. The main headline says 'Bữa phụ lành mạnh đồng hành cùng mẹ bầu'.",
+      "style": "Soft premium maternity lifestyle advertisement, clean fashion-inspired crop, warm sunset mood"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "Vinamilk GREEN FARM; 50; Bữa phụ lành mạnh đồng hành cùng mẹ bầu",
+      "items": [
+        "Top Left: Vinamilk Green Farm logo and 50th anniversary emblem in white",
+        "Top Right: Cropped face and hair of the woman against a warm sky",
+        "Bottom Left: Large white headline over a blurred seaside sunset background",
+        "Bottom Right: Hand holding a Green Farm milk cup with the product label visible",
+        "Center/Background: Warm golden sunset gradient with a softly blurred horizon and an elegant maternity fashion crop"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft natural sunset lighting",
+      "effect": "Warm glow, gentle skin highlights, airy premium mood, subtle background blur"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal premium lifestyle advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square lifestyle advertising poster for a healthy secondary snack for pregnant women. Centerpiece is a photoreal close crop of an elegant pregnant woman in a sleeveless cream-white dress with a tan shoulder bag, holding a Vinamilk Green Farm milk cup. Include the exact text 'Bữa phụ lành mạnh đồng hành cùng mẹ bầu' plus the white 'Vinamilk GREEN FARM' branding and the 50th anniversary mark in the top-left area. Background is a warm blurred seaside sunset in orange and peach tones. Surrounding elements: premium fashion crop, visible product cup in the lower right, and soft clean negative space. Technical style: photoreal premium lifestyle advertising composite, soft natural sunset lighting, warm glow and subtle background blur, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {"type": "logo", "name": "Vinamilk Green Farm logo", "required": true, "source": "original creative branding", "usage": "Top-left lockup"},
+        {"type": "logo", "name": "Vinamilk 50th anniversary emblem", "required": true, "source": "original creative branding", "usage": "Place beside the Green Farm logo"},
+        {"type": "person", "name": "Pregnant woman fashion reference", "required": true, "source": "original composition or maternity model reference", "usage": "Preserve the soft editorial crop and maternity silhouette"},
+        {"type": "product", "name": "Vinamilk Green Farm milk cup", "required": true, "source": "real packaging reference recommended", "usage": "Match the cup lid artwork and brand identity in the hand"}
+      ],
+      "prompt_instructions": "Keep the crop refined and premium. The message depends on the combination of maternity elegance, soft sunset warmth, and the product cup held naturally near the lower-right corner."
+    }
+  }
+}

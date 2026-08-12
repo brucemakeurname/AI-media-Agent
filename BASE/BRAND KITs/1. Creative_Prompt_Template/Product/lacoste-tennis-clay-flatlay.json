@@ -1,0 +1,68 @@
+{
+    "name":  "lacoste-tennis-clay-flatlay",
+    "tag":  [
+                "fragrance",
+                "lifestyle content",
+                "tennis",
+                "flatlay",
+                "clay court",
+                "luxury product"
+            ],
+    "biz_niche":  "Beauty & Personal Care",
+    "content_format":  "Lifestyle content",
+    "group":  "product_sport_lifestyle",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Tennis-clay fragrance flat-lay",
+                                        "color_palette":  "Terracotta clay, white, tennis-ball yellow, natural wood, crocodile green"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A white textured Lacoste fragrance bottle lies diagonally on a disturbed terracotta tennis-clay surface, with its small green crocodile badge facing upward.",
+                                        "style":  "High-end editorial top-down luxury product photography"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Product/Sport props/Texture",
+                                                "text":  "Lacoste crocodile logo",
+                                                "items":  [
+                                                              "Center: white rectangular fragrance bottle angled on granular clay.",
+                                                              "Upper right: partial wooden tennis racket and yellow tennis ball.",
+                                                              "Surface: gently disturbed clay and shoe-like impressions around product.",
+                                                              "Lighting: warm upper-left sunlight creates a diagonal product shadow."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Natural sunlight from upper left",
+                                                   "effect":  "Warm grounded shadows, tactile clay granules, crisp white bottle contrast, shallow depth of field"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "3D-real luxury product editorial photography",
+                                           "resolution":  "1:1 format, high resolution"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "Lacoste fragrance bottle",
+                                                                 "required":  true,
+                                                                 "source":  "exact product reference",
+                                                                 "usage":  "Preserve bottle contour, cap, texture, and crocodile badge."
+                                                             },
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "Lacoste crocodile mark",
+                                                                 "required":  true,
+                                                                 "source":  "official/approved logo reference",
+                                                                 "usage":  "Keep the small logo correct and in its actual position."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach the exact bottle reference and approved logo.",
+                                                                          "Use generic tennis equipment; do not introduce player likenesses.",
+                                                                          "Keep enough open clay space for optional complementary objects."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "A high-end editorial photo of a [PRODUCT] placed flat on a [TEXTURED SURFACE], captured from a direct top-down view. The surface is gently disturbed to suggest recent motion or interaction. The front of the product is fully visible and properly oriented upright. The area around the product is intentionally left open to optionally place [COMPLEMENTARY OBJECTS] that visually enhance the scene. Natural sunlight from the upper left casts warm, realistic shadows. 3D realism, luxury product photography, shallow depth of field, 1:1 format.",
+                   "negative_prompt":  "wrong bottle geometry, incorrect crocodile logo, smooth clean clay, cluttered props, harsh flash, low resolution, watermark"
+               }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "ultra-realistic-triangle-shadows",
+  "tag": [
+    "adult-man",
+    "black-blazer",
+    "turtleneck",
+    "metal-glasses",
+    "triangle-shadows",
+    "red-orange"
+  ],
+  "image_type": "graphic-studio-portrait",
+  "image_vibe": "bold-cinematic-architectural",
+  "image_purpose": "editorial",
+  "group": "indie/analog-vintage",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified that the portrait subject is an adult."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "bold adult portrait carved by diagonal triangular sunlight",
+      "color_palette": "deep red-orange, coral highlight, black, muted skin tone",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult man",
+      "detail": "An adult man with short dark hair, thin metal-framed glasses, a black blazer, black turtleneck, and an upward off-camera gaze.",
+      "style": "ultra-realistic graphic studio portrait with natural skin and fabric micro-detail"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "chest-up adult portrait slightly low in frame",
+        "head tilted upward toward the upper right",
+        "large sharp diagonal triangular light and shadow geometry across face and red-orange wall",
+        "black blazer and turtleneck separating from saturated background",
+        "thin metal glasses catching a controlled highlight"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "hard directional sunlight from camera right at approximately 4800K through a geometric gobo",
+      "effect": "crisp triangular shadow edges, high micro-contrast, cinematic sculpting, and restrained saturation"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera, 85mm lens at f/2.8, high detail in skin and wool, slight film grain, natural vignetting",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Bold ultra-realistic portrait of an adult man in a black blazer and black turtleneck, wearing thin metal-framed glasses. He tilts his head upward with an off-camera gaze against a deep red-orange background. Cast hard diagonal sunlight from the right through a geometric gobo to create sharp triangular shadows across the wall and face. Keep the image cinematic with high micro-detail in natural skin and fabric, crisp controlled contrast, a full-frame 85mm lens at f/2.8, subtle film grain, portrait 4:5 framing, and no oversaturation or text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, soft undefined shadows, distorted glasses",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "black-blazer-turtleneck-glasses-reference",
+          "required": false,
+          "source": "Attach wardrobe reference when exact blazer, knit, or glasses shape matters.",
+          "usage": "Keep black tailoring and thin metal glasses; individual items may be replaced."
+        },
+        {
+          "type": "graphic",
+          "name": "diagonal-triangle-shadow-reference",
+          "required": false,
+          "source": "Attach a gobo or shadow reference when exact angles must match.",
+          "usage": "Keep crisp diagonal triangular light geometry; shadow layout may be replaced independently."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve an adult subject, black tailored silhouette, upward gaze, red-orange field, and hard geometric triangle shadows. Wardrobe and shadow geometry can be replaced independently."
+    }
+  }
+}

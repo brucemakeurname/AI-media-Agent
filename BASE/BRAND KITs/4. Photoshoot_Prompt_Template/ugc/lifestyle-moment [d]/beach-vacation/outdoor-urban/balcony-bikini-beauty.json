@@ -1,0 +1,26 @@
+{
+  "name": "balcony-bikini-beauty",
+  "tag": ["ugc", "ocean-balcony", "tiger-print-bikini", "smartphone-snapshot", "sunlit"],
+  "image_type": "lifestyle-beach-portrait",
+  "image_vibe": "luxurious-sun-drenched",
+  "image_purpose": "instagram-feed",
+  "group": "lifestyle-moment/beach-vacation/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a raw smartphone vacation portrait of an adult woman kneeling on a sunlit ocean balcony or terrace.",
+    "main_subject": "An adult woman with deep tan skin, long straight dirty-blonde hair with dark roots, natural skin texture, and a relaxed confident expression. She wears a brown-and-black tiger-print string bikini, black rectangular sunglasses, a thin gold cross necklace, gold bracelet, white wristband, and a nose stud.",
+    "composition_elements": "Medium knees-up portrait from a slightly high or eye-level angle while kneeling on a white towel or mat over pebbled concrete. A glass railing with metal posts frames the vast blue ocean and bright sky with scattered clouds. Hands rest naturally at the sides or upper thighs, head slightly tilted, face toward camera.",
+    "lighting_and_atmosphere": "Direct harsh midday sunlight, high contrast, strong natural highlights on skin and fabric, sharp body-cast shadow on the white mat, tropical luxury vacation atmosphere.",
+    "technical_specs": "50–85mm natural focal length, no wide-angle distortion, sharp subject focus, slight ocean background blur, raw high-fidelity smartphone photography, visible natural texture, vertical composition.",
+    "generated_prompt_string": "Raw high-fidelity smartphone photograph of an adult woman with deep tan skin, long straight dirty-blonde hair with dark roots, and natural skin texture, kneeling on a white towel or mat on a pebbled ocean balcony. She wears a brown-and-black tiger-print string bikini, black rectangular sunglasses, a thin gold cross necklace, gold bracelet, white wristband, and a nose stud. Medium shot from knees to top of head, slightly high or eye-level angle, relaxed confident expression, head slightly tilted toward camera. Glass railing with metal posts behind her, vast blue ocean to the horizon, bright sky with scattered white clouds. Direct harsh midday sunlight, high contrast, strong natural highlights, sharp body-cast shadow, slight ocean background blur, 50–85mm perspective, tropical luxurious sun-drenched vacation mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, body-part emphasis, anatomical exaggeration, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, extra limbs, extra fingers, deformed, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "tanned adult balcony subject", "required": true, "source": "matching local preview image", "usage": "Preserve approved adult face, hair, accessories, expression, and kneeling pose; replaceable with another approved adult."},
+        {"type": "wardrobe", "name": "tiger-print string bikini and accessories", "required": true, "source": "matching local preview image", "usage": "Keep tiger-print palette, sunglasses, jewelry, wristwear, and nose stud consistent; replaceable with equivalent vacation styling."},
+        {"type": "location", "name": "ocean-view glass balcony", "required": true, "source": "matching local preview image", "usage": "Preserve glass railing, pebbled surface, white mat, ocean, and sky; replaceable with an equivalent ocean terrace."}
+      ],
+      "prompt_instructions": "Attach the matching preview when adult identity, outfit, accessories, kneeling pose, ocean, and railing must remain consistent. Preserve face, hair, wardrobe, natural lighting, and vertical crop. Person, wardrobe, and environment are replaceable only with equivalent approved references; no typography or logos are needed."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced explicit body-volume and minimal-coverage wording with natural texture and fashion-safe swimwear description while preserving the ocean-balcony vacation concept."]}
+}

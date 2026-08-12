@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-hau-giang-sunscreen-launch-event-render",
+  "tag": [
+    "launch-event",
+    "booth-render",
+    "sunscreen",
+    "retail-activation",
+    "3d-visual",
+    "broad-spectrum"
+  ],
+  "biz_niche": "Education",
+  "content_format": "Brand story",
+  "group": "cocoon_1551928062980684",
+  "prompt": {
+    "project_info": {
+      "theme": "Retail activation render for Hau Giang lotus mineral sun fluid launch",
+      "color_palette": "Sky Blue, Soft Peach Pink, Warm Sand, White, Beige, Matte Black"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A wide 3D launch-event render showing a Cocoon branded retail installation for Hau Giang lotus mineral sun fluid, with curved product shelves, two oversized product bottles on a pedestal, educational panels, and event text announcing the launch at Van Hanh Mall from 10.07 to 12.07.2026.",
+      "style": "Polished commercial event render, immersive retail booth visualization, pastel brand experience design"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'VẠN HẠNH MALL TP. HỒ CHÍ MINH', 'SỰ KIỆN RA MẮT SỮA CHỐNG NẮNG VÔ CƠ SEN HẬU GIANG', '10.07 - 12.07.2026', 'BROAD SPECTRUM', 'SPF 50+', 'TONE-UP', 'BEIGE', and 'the cocoon ORIGINAL VIETNAM'.",
+      "items": [
+        "Top Left: Venue text 'VẠN HẠNH MALL TP. HỒ CHÍ MINH'.",
+        "Top Right: Event date text '10.07 - 12.07.2026'.",
+        "Bottom Left: Series of tall educational display panels showing campaign visuals, charts, and product education content.",
+        "Bottom Right: Curved circular product shelves filled with many sunscreen bottles, plus a Cocoon logo plinth and pastel brand wall.",
+        "Center/Background: Two oversized sunscreen bottles on a round pedestal, pastel sky-to-peach backdrop, sandy chip flooring, and sparse decorative plants."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft architectural render lighting",
+      "effect": "Even exhibition illumination, pastel ambient glow, showroom clarity, polished 3D brand-space realism"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity 3D retail activation render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a retail launch-event render. Centerpiece is a Cocoon installation for Hau Giang lotus mineral sun fluid, featuring curved product shelving, two oversized sunscreen bottles on a round pedestal, and educational display panels. Background is a pastel blue-to-peach event environment with decorative plants and sandy textured flooring. Surrounding elements: text 'VẠN HẠNH MALL TP. HỒ CHÍ MINH', 'SỰ KIỆN RA MẮT SỮA CHỐNG NẮNG VÔ CƠ SEN HẬU GIANG', '10.07 - 12.07.2026', shelf callouts 'BROAD SPECTRUM', 'SPF 50+', 'TONE-UP', and 'BEIGE', plus Cocoon branding. Keep the wide booth-render perspective and polished activation feel. Technical style: high fidelity 3D retail activation render, soft architectural render lighting, pastel ambient glow and showroom clarity, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Hau Giang lotus mineral sun fluid hero bottles",
+          "required": true,
+          "source": "Attach official packshots or crops from the render",
+          "usage": "Preserve bottle design and the large hero-product pedestal treatment."
+        },
+        {
+          "type": "background",
+          "name": "Retail booth and curved shelf architecture",
+          "required": true,
+          "source": "Use the original render as environment reference",
+          "usage": "Maintain the full booth geometry, shelving arcs, panel lineup, and sandy floor material."
+        },
+        {
+          "type": "text_layout",
+          "name": "Event title, venue, and date typography",
+          "required": true,
+          "source": "Use the original creative as layout reference",
+          "usage": "Keep venue, event title, and date placement across the top."
+        }
+      ],
+      "prompt_instructions": "This image requires the original render as a primary reference in gpt-image-2. Preserve the booth architecture, shelf lettering, event dates, and overall retail-space perspective instead of generating a generic exhibition stand."
+    }
+  }
+}

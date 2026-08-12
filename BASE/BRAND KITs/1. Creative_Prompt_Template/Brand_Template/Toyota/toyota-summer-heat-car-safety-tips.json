@@ -1,0 +1,70 @@
+{
+  "name": "toyota-summer-heat-car-safety-tips",
+  "tag": [
+    "summer-tips",
+    "car-care",
+    "corolla-cross",
+    "safety"
+  ],
+  "biz_niche": "Automotive",
+  "content_format": "Tip of the day",
+  "group": "toyota_1716514293014691",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota summer heat car-safety tips",
+      "color_palette": "Sky blue, white, green, red, tropical teal"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A playful summer-safety infographic poster with the Toyota logo top left and the giant headline '3 LUU Y NHO GIUP XE AN TAM HON TRONG MUA NONG'. A white-and-green table in the middle compares 'TRANH' and 'NEN'. Under 'TRANH' the points are 'De bat lua / pin du phong trong xe', 'Cam sac dien thoai lien tuc khi khong can thiet', and 'Han che do xe duoi nang gat'. Under 'NEN' the points are 'Kiem tra xe dinh ky trong mua nang nong', 'Ngat cac thiet bi dien khong can thiet', and 'Che nang kinh lai neu do lau ngoai troi'. At the bottom sits a white Toyota Corolla Cross at a beach, humorously topped with cucumber slices on the windshield and a folded blanket on the roof. Bottom-right script says 'Move your world'.",
+      "style": "Friendly automotive infographic with a whimsical summer twist, combining practical text with a playful beach-car visual"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / 3 LUU Y NHO GIUP XE AN TAM HON TRONG MUA NONG / TRANH / NEN / De bat lua / pin du phong trong xe / Cam sac dien thoai lien tuc khi khong can thiet / Han che do xe duoi nang gat / Kiem tra xe dinh ky trong mua nang nong / Ngat cac thiet bi dien khong can thiet / Che nang kinh lai neu do lau ngoai troi / COROLLA CROSS / Move your world",
+      "items": [
+        "Top Left: Toyota logo and blue-sky glow with lens flare",
+        "Top Right: Tropical palm leaves framing the summer headline",
+        "Bottom Left: White Toyota Corolla Cross parked by the seaside",
+        "Bottom Right: 'Move your world' script near the tropical coast",
+        "Center/Background: Large white rounded comparison table labeled 'TRANH' and 'NEN' above a beach scene, with a Corolla Cross humorously cooled using cucumber slices and a folded blanket"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright tropical daylight lighting",
+      "effect": "Sunny lens flare, beach reflections, crisp infographic readability, cheerful summer-campaign energy"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal car composite with infographic text board and playful retouching",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for Toyota summer heat car-safety tips. Centerpiece is a large rounded white table comparing 'TRANH' and 'NEN' with exact Vietnamese tip lists, placed above a white Toyota Corolla Cross on a tropical beach. Background is a bright blue summer sky with palm leaves and lens flare. Surrounding elements: Toyota logo, the exact headline '3 LUU Y NHO GIUP XE AN TAM HON TRONG MUA NONG', the comparison content, a Corolla Cross with cucumber slices on the windshield and a folded blanket on the roof, and the footer script 'Move your world'. Technical style: photoreal car composite with infographic text board and playful retouching, bright tropical daylight lighting, sunny lens flare and crisp readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Toyota Corolla Cross exterior reference",
+          "required": true,
+          "source": "official Corolla Cross render or product photo",
+          "usage": "Preserve the front angle, body styling, and badge details"
+        },
+        {
+          "type": "graphic",
+          "name": "Summer infographic table and cucumber/blanket props",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the exact comparison-board structure and playful cooling props"
+        },
+        {
+          "type": "text_layout",
+          "name": "Summer heat tip poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the headline, compare-and-contrast table, beach-car composition, and footer script"
+        }
+      ],
+      "prompt_instructions": "Keep the Vietnamese dos-and-don'ts exactly as visible. The poster should balance humor and practical advice; do not remove the cucumber slices and folded blanket because they are part of the visual hook."
+    }
+  }
+}

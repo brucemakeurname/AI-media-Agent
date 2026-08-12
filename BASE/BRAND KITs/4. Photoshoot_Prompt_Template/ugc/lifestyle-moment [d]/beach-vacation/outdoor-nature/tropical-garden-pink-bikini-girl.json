@@ -1,0 +1,26 @@
+{
+  "name": "tropical-garden-pink-bikini-girl",
+  "tag": ["ugc", "tropical-garden", "pink-bikini", "dappled-light", "lifestyle"],
+  "image_type": "lifestyle-portrait",
+  "image_vibe": "confident-vibrant-tropical",
+  "image_purpose": "instagram-feed",
+  "group": "lifestyle-moment/beach-vacation/outdoor-nature",
+  "prompt": {
+    "project_info": "Create photorealistic unstylized lifestyle photography in a tropical garden with strong natural texture and color.",
+    "main_subject": "An adult woman with tanned skin, long wavy blonde hair, and a natural feminine silhouette wearing a bright pink string bikini and shell choker. She has a confident neutral expression with a slight pout and a direct gaze.",
+    "composition_elements": "Medium-full centered eye-level frame. The subject leans back against a tree with her right hand raised on the trunk and left arm down. Surround her with tropical tree trunks, large green leaves, a stone path, and strong dappled shadows.",
+    "lighting_and_atmosphere": "Direct bright sunlight with glossy natural highlights and high contrast across vibrant hot pink and green tones.",
+    "technical_specs": "3:4 portrait, sharp focus, visible skin texture and specular reflections, photorealistic unstylized lifestyle photography, preserve pose alignment, limb placement, foreground depth, and subject-background separation.",
+    "generated_prompt_string": "Photorealistic unstylized lifestyle photograph of an adult woman with tanned skin and long wavy blonde hair, wearing a bright pink string bikini and shell choker. She leans back against a tree, right hand raised resting on the trunk, left arm down, with a relaxed confident stance and direct gaze. Set her in an outdoor tropical garden with tree trunks, large green leaves, and a stone path. Medium-full shot, eye-level, centered framing, direct bright sunlight, strong dappled shadows, glossy natural skin highlights, vibrant warm tones, high contrast, sharp visible texture, 3:4 aspect ratio. Preserve shoulder alignment, hip alignment, limb placement, foreground depth, and subject-background separation.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, stylization, distortion, proportion changes, depth flattening, beautification filters, blurry, bad anatomy, extra fingers, deformed, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "blonde adult garden subject", "required": true, "source": "matching local preview image", "usage": "Preserve approved adult face, hair, gaze, and pose; replaceable with another approved adult."},
+        {"type": "wardrobe", "name": "bright pink string bikini and shell choker", "required": true, "source": "matching local preview image", "usage": "Keep pink swimwear and shell accessory consistent; replaceable only with an equivalent tropical wardrobe."},
+        {"type": "location", "name": "tropical garden tree and stone path", "required": true, "source": "matching local preview image", "usage": "Preserve tree, foliage, path, and dappled light hierarchy; replaceable with an equivalent garden."}
+      ],
+      "prompt_instructions": "Attach the preview when exact adult identity, outfit, pose, and garden continuity are required. Keep face, hair, wardrobe, tree contact, and 3:4 framing consistent. Person, wardrobe, and environment are replaceable only with equivalent approved non-branded references; no typography is needed."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "pastel-yellow-fitness-grid",
+  "tag": ["industry", "lookbook-line-sheet", "grid-collage", "fitness", "pastel-yellow"],
+  "image_type": "four-panel fitness editorial grid",
+  "image_vibe": "fresh, energetic, clean, premium",
+  "image_purpose": "fitness campaign and activewear lookbook grid",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Create a premium 2x2 fitness editorial collage using four consistent poses and one adult model in pastel-yellow activewear.",
+    "main_subject": "An adult woman using the required approved-adult face reference, preserving identity and facial features across all frames. She wears a light pastel-yellow athletic sports bra, seamless leggings, matching running sneakers, white crew socks, pastel-yellow over-ear fitness headphones, and uses pastel-yellow coated dumbbells in the standing pose.",
+    "composition_elements": "2x2 grid with thin gutters and no outer border: floor bicycle-crunch pose, deep forward-fold stretch, kneeling back-stretch pose, and standing dumbbell pose. Minimal white or light-beige studio background, same woman and styling in every frame.",
+    "lighting_and_atmosphere": "Soft high-end fitness studio lighting, even highlights, clean natural shadows, soft pastel-yellow and warm-neutral palette, premium activewear editorial mood.",
+    "technical_specs": "4:5 portrait grid, 50mm lens, sharp subject with subtle depth, realistic performance fabric, hands, dumbbells, headphones, and sneakers, no logos or text.",
+    "generated_prompt_string": "Premium fitness editorial 2x2 grid using the required approved-adult face reference, preserving the same adult woman identity, face, styling, and proportions in all frames. Light pastel-yellow athletic sports bra, seamless leggings, matching running sneakers, white crew socks, pastel-yellow over-ear fitness headphones, and pastel-yellow coated dumbbells in the standing pose. Four reference poses: floor bicycle crunch, deep forward-fold stretch, kneeling back stretch, and standing holding dumbbells. Minimal clean white or light-beige studio, soft high-end fitness lighting, even highlights, clean shadows, 50mm lens, realistic performance fabric and natural anatomy, 4:5 premium activewear campaign.",
+    "negative_prompt": ["celebrity likeness", "public figure likeness", "explicit", "nsfw", "overly revealing", "nudity", "sexual pose", "minor or underage appearance", "logo", "text", "brand name", "watermark", "extra people", "extra limbs", "extra fingers", "missing fingers", "distorted hands", "blurry", "low resolution", "plastic skin", "CGI look"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "pastel-yellow-fitness-grid.jpg", "required": true, "source": "workspace reference image", "usage": "Required approved-adult identity reference plus visual reference for activewear, four poses, headphones, dumbbells, studio, and lighting."}],
+      "prompt_instructions": "Attach the required approved-adult reference. Preserve identity, outfit, four poses, headphones, dumbbells, studio, lighting, and color grade. Keep products and logos generic and replaceable, with no rendered typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

@@ -1,0 +1,51 @@
+{
+  "name": "cellphones-philips-ppm3522-massager-179",
+  "tag": ["cellphones", "philips massager", "ppm3522", "179 trieu", "wellness device"],
+  "biz_niche": "Health & Wellness",
+  "content_format": "Special offers",
+  "group": "cellphones_1696376124931184",
+  "prompt": {
+    "project_info": {
+      "theme": "Philips wellness-massager price poster",
+      "color_palette": "Light blue, white, green, navy, gray"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A minimal wellness-sale poster centered on a dark blue Philips PPM3522 neck massager against a soft light-blue background with a glowing circular halo and a large frosted price panel.",
+      "style": "Minimal health-device retail poster"
+    },
+    "composition_elements": {
+      "type": "Product/Typography/Price Panel",
+      "text": "cellphoneS, MÁY MASSAGE PHILIPS PPM3522, Giá chỉ 1.79 Triệu, 2.400.000đ",
+      "items": [
+        "Top Center: red cellphoneS logo block.",
+        "Upper Middle: stacked green headline 'MÁY MASSAGE' and 'PHILIPS PPM3522'.",
+        "Center Top: frosted gray rounded price card reading 'Giá chỉ 1.79 Triệu' with the old price '2.400.000đ' struck through in the upper-right corner.",
+        "Center: dark blue wearable neck massager shown front-on with hanging straps.",
+        "Background: light blue minimal stage with a soft circular halo behind the device and flowing wave-like base."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft catalog wellness lighting",
+      "effect": "Clean restorative mood, gentle product shadowing, premium minimal clarity"
+    },
+    "technical_specs": {
+      "render_style": "Minimal wellness-device sale poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "Philips PPM3522 neck massager", "required": true, "source": "source image product reference", "usage": "Preserve the exact product shape, straps, and dark-blue finish."},
+        {"type": "text_layout", "name": "green product headline and price panel", "required": true, "source": "source image text reference", "usage": "Keep the exact model name, sale price, and struck-through old price."},
+        {"type": "background", "name": "minimal blue halo stage", "required": true, "source": "source image background reference", "usage": "Maintain the calm halo and wave-like base."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the centered product scale and the frosted-price-panel styling.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the clean minimal wellness aesthetic."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square wellness-device sale poster on a soft light-blue background with a glowing circular halo and flowing wave-like base. Place the red cellphoneS logo at the top center and add the stacked green headline 'MÁY MASSAGE' and 'PHILIPS PPM3522'. Below it place a frosted gray rounded price card reading 'Giá chỉ 1.79 Triệu' with the old price '2.400.000đ' struck through. Center a dark blue Philips PPM3522 neck massager front-facing with hanging straps. Technical style: minimal wellness-device sale poster, soft catalog wellness lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark scene, incorrect text, wrong product shape, low resolution, cluttered background, warped straps, watermark, signature"
+  }
+}

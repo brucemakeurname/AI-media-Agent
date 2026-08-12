@@ -1,0 +1,71 @@
+{
+  "name": "ysl-blouse-impertinent-rose-fragrance-packshot",
+  "tag": [
+    "ysl",
+    "blouse",
+    "impertinent-rose",
+    "fragrance",
+    "packshot"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "ysl_1414771797354194",
+  "prompt": {
+    "project_info": {
+      "theme": "Dark floral fragrance hero for YSL Blouse",
+      "color_palette": "Black, pale peach rose, blush amber glass, deep green stem"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A YSL fragrance bottle stands upright on a reflective black base, labeled 'BLOUSE' and 'IMPERTINENT ROSE'. Large pale peach roses surround the bottle on the left while a thorny green stem rises diagonally behind it against a black background.",
+      "style": "Luxury fragrance hero packshot, dark floral still life, dramatic perfume advertising"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "BLOUSE, IMPERTINENT ROSE",
+      "items": [
+        "Top Left: Large pale peach rose bloom lit dramatically against black",
+        "Top Right: Thorny green stem cutting diagonally across the dark background",
+        "Bottom Left: Additional rose petals and blooms framing the base of the bottle",
+        "Bottom Right: Reflective black surface mirroring the lower glass bottle",
+        "Center/Background: Transparent blush-toned YSL perfume bottle with black cap and black label reading 'BLOUSE' and 'IMPERTINENT ROSE'"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Dramatic studio still-life lighting",
+      "effect": "Hard directional highlights on glass, high-contrast floral shadows, rich black negative space, glossy reflection"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal luxury fragrance photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury fragrance poster for YSL. Centerpiece is a transparent blush-toned YSL perfume bottle with a black textured cap and a black label reading 'BLOUSE' and 'IMPERTINENT ROSE', standing on a reflective black surface. Surround it with large pale peach roses on the left and a thorny green stem diagonally behind, all against a deep black background. Technical style: photoreal luxury fragrance photography, dramatic studio still-life lighting, hard glass highlights and glossy reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "YSL Blouse fragrance bottle",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Preserve the bottle shape, cap texture, glass tone, and exact label styling"
+        },
+        {
+          "type": "graphic",
+          "name": "Pale peach rose arrangement",
+          "required": true,
+          "source": "original floral set reference",
+          "usage": "Match the bloom size, petal tone, and layered placement around the bottle"
+        },
+        {
+          "type": "background",
+          "name": "Black reflective perfume set",
+          "required": true,
+          "source": "original packshot setup",
+          "usage": "Keep the black void background and glossy reflective base"
+        }
+      ],
+      "prompt_instructions": "Keep the perfume bottle label legible and exact. The mood is dark floral luxury with controlled hard light, not a bright catalog shot."
+    }
+  }
+}

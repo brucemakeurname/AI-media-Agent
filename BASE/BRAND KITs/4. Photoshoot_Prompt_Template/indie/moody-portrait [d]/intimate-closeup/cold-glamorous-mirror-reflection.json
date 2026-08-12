@@ -1,0 +1,76 @@
+{
+  "name": "cold-glamorous-mirror-reflection",
+  "tag": [
+    "adult-woman",
+    "black-backless-dress",
+    "side-slit",
+    "mirror-reflection",
+    "cool-toned",
+    "fashion-editorial"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "cool, detached, surreal, polished, nocturnal",
+  "image_purpose": "editorial, campaign, moodboard",
+  "group": "indie / moody-portrait / intimate-closeup",
+  "prompt": {
+    "project_info": {
+      "theme": "Cool mirror reflection in a black backless gown",
+      "format": "vertical three-quarter fashion portrait",
+      "color_palette": "blue-gray, charcoal black, mirror silver, muted skin tones"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with long slightly tousled dark hair, refined natural features, a calm detached expression, and an elegant feminine silhouette. She wears a fitted black backless evening dress with a side slit.",
+      "style": "cool high-end fashion mirror editorial"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "vertical three-quarter portrait beside a large mirror above a dark marble counter",
+        "the subject turns her head back toward the camera while one hand rests on the counter",
+        "the mirror clearly repeats her back and face in a layered reflection",
+        "black backless dress, narrow straps, side slit, dark hair, and dark marble are visible",
+        "no text, logo, label, or watermark"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "cool-white practical mirror light with soft side fill, approximately 5600K",
+      "effect": "localized facial highlights, softened reflection edges, dimensional black satin-like fabric shadow",
+      "atmosphere": "restrained, quiet, distant, subtly unreal"
+    },
+    "technical_specs": {
+      "render_style": "Canon EOS R5, 50mm f/1.8, slight side angle, vertical three-quarter crop",
+      "resolution": "high-detail editorial photograph",
+      "color_treatment": "low contrast blue-gray grade, fine film grain, natural skin texture, soft background bokeh"
+    },
+    "generated_prompt_string": "A vertical three-quarter high-end fashion editorial portrait of an adult woman with long slightly tousled dark hair, refined natural features, a calm detached expression, and an elegant feminine silhouette. She wears a fitted black backless evening dress with narrow straps and a side slit. Position her beside a large mirror above a dark marble counter; she turns her head back toward the camera while one hand rests on the counter, and the mirror clearly repeats her face and back in a layered reflection. Use cool-white practical mirror light with soft side fill at approximately 5600K for localized highlights, softened reflection edges, and dimensional black fabric shadow. Canon EOS R5, 50mm f/1.8, slight side angle, vertical three-quarter crop, low-contrast blue-gray grade, fine film grain, natural skin texture, and soft background bokeh. No text, logo, label, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, body measurements, text, logo, label, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "Use the optional source moodboard to preserve the black backless dress with side slit, dark marble counter, mirror reflection, turned head, and cool lighting. An approved-adult identity reference may replace the subject; preserve her face, facial structure, and likeness. The exact bathroom can change while maintaining an elegant mirror-layered cool editorial setting.",
+      "assets": [
+        {
+          "type": "moodboard",
+          "name": "black backless mirror-reflection source",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1777180392950-zhuwwwl7-1777180396117-1.jpeg",
+          "usage": "Use for the dress construction, counter pose, reflection layer, and cool mirror lighting."
+        },
+        {
+          "type": "person",
+          "name": "approved adult face and identity reference",
+          "required": false,
+          "source": "user-supplied approved reference",
+          "usage": "When supplied, preserve the adult person's face, facial structure, and likeness."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified adult subject and replaced sexualized body wording with an elegant feminine silhouette.",
+      "Preserved the black backless side-slit gown, mirror reflection, counter pose, and cool editorial mood.",
+      "Added exclusion of the source watermark and text."
+    ]
+  }
+}

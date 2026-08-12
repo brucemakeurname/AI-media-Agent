@@ -1,0 +1,59 @@
+{
+  "name": "prompt-357",
+  "tag": ["adult-woman", "asian-features", "bob-haircut", "black-ribbed-sweater", "chiaroscuro", "monochrome-portrait"],
+  "image_type": "close-up-fashion-portrait",
+  "image_vibe": "serene-mysterious-cinematic",
+  "image_purpose": "social-editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an adult and replaced body-part emphasis with curvy-silhouette, fitted-sweater, and directional-light language while preserving the bob haircut, necklace, close-up composition, and noir mood."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "black-and-white chiaroscuro studio portrait",
+      "color_palette": "deep black, charcoal, silver-gray, and soft neutral skin tones",
+      "aspect_ratio": "2:3"
+    },
+    "main_subject": {
+      "description": "A captivating adult Asian woman with a curvy feminine silhouette, smooth natural skin texture, and a short bob haircut with straight blunt bangs framing her forehead.",
+      "wardrobe": "Fitted deep V-neck black ribbed sweater with a delicate thin necklace and small pendant.",
+      "pose": "Close-up portrait with eyes gently closed, head angled slightly downward, and a serene introspective expression.",
+      "styling": "Minimal refined beauty styling with natural features and quiet confidence."
+    },
+    "composition_elements": {
+      "framing": "Close-up from upper chest to crown, subject centered slightly right with a strong shadow shape on the wall to the left.",
+      "environment": "Minimal studio background with a soft gradient from light to dark and no text or logos.",
+      "focus": "Sharp bob texture, lashes, necklace pendant, ribbed knit detail, and natural skin texture."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Dramatic side light from the left creates high-contrast chiaroscuro, soft highlights on the face, neck, and shoulders, and realistic shadows enhancing the fitted silhouette.",
+      "atmosphere": "Serene, emotional, mysterious, and cinematic."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with an 85mm lens at f/1.8, 1/200 s, ISO 200",
+      "quality": "Photorealistic high detail, shallow depth of field, smooth grayscale gradients, natural pores, crisp hair and knit texture, subtle vintage film grain"
+    },
+    "generated_prompt_string": "Create a hyper-realistic 2:3 black-and-white close-up fashion portrait of a captivating adult Asian woman with a curvy feminine silhouette, smooth natural skin texture, and a short bob haircut with straight blunt bangs. She wears a fitted deep V-neck black ribbed sweater with a delicate thin necklace and small pendant. Her eyes are gently closed, head angled slightly downward, with a serene introspective expression. Frame her from upper chest to crown, centered slightly right, against a minimal studio background with a soft gradient and a strong shadow shape on the wall to the left. Use dramatic side light from the left, high-contrast chiaroscuro, realistic shadows enhancing the fitted silhouette, shallow depth of field, smooth grayscale gradients, and subtle vintage film grain; no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, exposed anatomy, readable text, logo, watermark, plastic skin, over-smooth skin, deformed anatomy, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult subject. Optional hair, wardrobe, necklace, studio, or lighting references may replace only their named element; preserve the closed-eye serenity, curvy silhouette, fitted sweater, close-up framing, and noir mood without explicit body-part wording.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "black-ribbed-sweater-and-pendant-necklace",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the sweater or necklace while preserving the refined adult portrait styling."
+        },
+        {
+          "type": "lighting",
+          "name": "left-side-chiaroscuro-studio-light",
+          "required": false,
+          "source": "user-uploaded lighting reference",
+          "usage": "Replace only the light direction and shadow pattern while preserving the monochrome close-up composition."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "name": "old-photo-portrait-restoration",
+  "tag": [
+    "photo-restoration",
+    "male-portrait",
+    "face-preservation",
+    "damage-repair",
+    "natural-color",
+    "archive"
+  ],
+  "image_type": "archival-photo-restoration",
+  "image_vibe": "faithful-natural-recovered",
+  "image_purpose": "photo-restoration",
+  "group": "indie/analog-vintage",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "faithful restoration of an attached archival male portrait",
+      "color_palette": "source-faithful neutral warm tones",
+      "format": "match attached source photograph"
+    },
+    "main_subject": {
+      "type": "person shown in the attached archival photograph",
+      "detail": "Preserve the exact visible adult identity, face, hair, expression, jacket, sweater, portrait crop, and background in the source.",
+      "style": "natural DSLR-quality restoration, not a regenerated portrait"
+    },
+    "composition_elements": {
+      "text": "Retain source text only if present; do not add or modify text.",
+      "items": [
+        "preserve original head-and-shoulders framing",
+        "repair scratches, fading, stains, noise, blur, and paper damage conservatively",
+        "retain source clothing weave, skin texture, and historical backdrop"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "source-consistent portrait light reconstruction",
+      "effect": "recover detail and tonal balance without changing original light direction or mood"
+    },
+    "technical_specs": {
+      "render_style": "non-generative restoration comparable to Canon EOS R6 Mark II portrait detail, exact face preservation, subtle grain retention, no beauty retouching",
+      "resolution": "highest recoverable detail at original aspect ratio"
+    },
+    "generated_prompt_string": "Restore the attached old portrait into a professional DSLR-quality image with natural color and detail. Preserve the exact adult face, identity, age presentation, expression, hairstyle, jacket, sweater, crop, background, and historical character shown in the source. Repair fading, scratches, stains, noise, blur, and physical damage conservatively. Improve recoverable clarity and tonal balance while retaining realistic skin texture and original photographic mood. Do not add or remove people, alter the face or age, change clothing, replace the background, invent missing detail, or restage the photograph.",
+    "negative_prompt": "identity change, face swap, age alteration, added person, removed person, invented clothing, changed background, changed pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, text alteration, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "source-archival-male-portrait",
+          "required": true,
+          "source": "Attach the original old portrait photograph.",
+          "usage": "Mandatory source; preserve visible identity, age presentation, pose, clothing, and setting exactly."
+        }
+      ],
+      "prompt_instructions": "Original photo is mandatory. Restore technical quality only. Preserve uncertain damaged regions rather than inventing face, clothing, or background details."
+    }
+  }
+}

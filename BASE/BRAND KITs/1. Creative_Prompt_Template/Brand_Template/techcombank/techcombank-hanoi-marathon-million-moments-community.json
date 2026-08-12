@@ -1,0 +1,77 @@
+{
+  "name": "techcombank-hanoi-marathon-million-moments-community",
+  "tag": [
+    "marathon",
+    "community",
+    "event-recap",
+    "brand-activation"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Brand story",
+  "group": "techcombank_1361619742612166",
+  "prompt": {
+    "project_info": {
+      "theme": "Hanoi International Marathon x Techcombank community celebration",
+      "color_palette": "Sky blue, vivid red, black, green, white"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A wide dynamic marathon-event photo showing a crowd of runners in red shirts moving through a giant red finish gate branded 'THANH CONG VUOT TROI'. The header logos read 'HANOI INTERNATIONAL MARATHON' and 'TECHCOMBANK'. The large title says 'TRIEU KHOANH KHAC DANG NHO TU MOT CONG DONG PHI THUONG'. The road is lined with trees and morning sunlight, with motion blur on runners in the foreground and event posters mounted on both sides of the gate. Bottom-left text reads 'BUOC CHAY VI MOT VIET NAM VUOT TROI'.",
+      "style": "High-energy event-documentary hero image with brand-sponsorship overlay and cinematic sports atmosphere"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "HANOI INTERNATIONAL MARATHON / TECHCOMBANK / TRIEU KHOANH KHAC DANG NHO / TU MOT CONG DONG PHI THUONG / THANH CONG VUOT TROI / BUOC CHAY VI MOT VIET NAM VUOT TROI",
+      "items": [
+        "Top Left: Open blue sky and tree canopy framing the title",
+        "Top Right: Hanoi International Marathon lockup beside Techcombank logo",
+        "Bottom Left: Large white slogan 'BUOC CHAY VI MOT VIET NAM VUOT TROI'",
+        "Bottom Right: Runners exiting frame with motion blur on a sunlit road",
+        "Center/Background: Red marathon gate reading 'THANH CONG VUOT TROI' with crowds of runners passing underneath and branded event posters attached to the gate sides"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Natural morning sports-event lighting",
+      "effect": "Sun flare through trees, motion blur on runners, bright atmospheric depth, energetic race-day realism"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal event photography with commercial sports-poster retouching",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Hanoi International Marathon and Techcombank community event story. Centerpiece is a wide marathon road scene with many runners in red shirts moving under a giant red finish gate labeled 'THANH CONG VUOT TROI'. Background is a tree-lined boulevard in bright morning light with race-day haze and event posters mounted on both sides of the gate. Surrounding elements: Hanoi International Marathon and Techcombank logos, exact headline 'TRIEU KHOANH KHAC DANG NHO TU MOT CONG DONG PHI THUONG', and bottom-left line 'BUOC CHAY VI MOT VIET NAM VUOT TROI'. Technical style: photoreal event photography with commercial sports-poster retouching, natural morning sports-event lighting, sun flare and energetic motion blur, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "location",
+          "name": "Tree-lined marathon road and finish-gate setup",
+          "required": true,
+          "source": "event photography from Hanoi International Marathon",
+          "usage": "Rebuild the exact outdoor race environment and gate placement"
+        },
+        {
+          "type": "person",
+          "name": "Runner crowd and foreground motion composition",
+          "required": true,
+          "source": "event photo reference",
+          "usage": "Preserve the density, motion blur, and red-shirt community energy"
+        },
+        {
+          "type": "logo",
+          "name": "Hanoi International Marathon and Techcombank event branding",
+          "required": true,
+          "source": "official event logos and gate artwork",
+          "usage": "Maintain the partnership branding and gate headline exactly"
+        },
+        {
+          "type": "text_layout",
+          "name": "Wide sports-event hero composition",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the top title stack, finish-gate central framing, and bottom-left slogan block"
+        }
+      ],
+      "prompt_instructions": "This image should feel like a real event photo enhanced into a hero campaign visual, not a synthetic illustration. Preserve the exact gate copy 'THANH CONG VUOT TROI' and the crowded runner perspective from behind."
+    }
+  }
+}

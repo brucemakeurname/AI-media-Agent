@@ -1,0 +1,51 @@
+{
+  "name": "billie-dark-y2k-grid",
+  "tag": ["ugc", "viral-trending", "2x2-grid", "portrait", "y2k", "dark-glam", "copper-hair"],
+  "image_type": "2x2 editorial portrait collage",
+  "image_vibe": "dark Y2K, high-key, mysterious, playful, candid",
+  "image_purpose": "social-media carousel and profile visual",
+  "group": "ugc/viral-trending",
+  "prompt": {
+    "project_info": "Create a photorealistic 2x2 photo grid / collage of one original adult woman in portrait photography style. Use a plain high-key white background so attention stays on the model, with soft even studio lighting that reveals facial features. Contrast a midnight-black sequin outfit and copper hair against the white background.",
+    "main_subject": "One original adult woman with medium-length wavy auburn/copper hair, large light icy-blue eyes, natural freckles, clear realistic skin, and minimalist no-makeup makeup with a light peach/nude lip. She wears a strapless midnight-black sequin bustier/corset, a gold omega-symbol choker, and stacked thick silver and gold metal bangles. Use an original non-celebrity identity; do not reproduce Billie Eilish or any other public figure.",
+    "composition_elements": "Arrange four equal portrait frames in a clean 2x2 grid. Top-left: intense mysterious mood with direct impactful eye contact. Top-right: playful bored mood with one hand resting against the cheek. Bottom-left: confident expression with a slight smile and one hand placed beneath the chin. Bottom-right: candid open laugh in side profile with visible teeth. Keep the same adult subject, hair, outfit, accessories, white high-key background, and portrait scale consistent across all four frames.",
+    "lighting_and_atmosphere": "Use soft, even studio lighting across every frame, with gentle facial modeling, clean high-key whites, realistic sequin sparkle, natural skin texture, and a strong black-and-copper contrast. The emotional sequence moves from mysterious to playful to confident to candid joy.",
+    "technical_specs": "Photorealistic portrait photography, crisp 2x2 contact-sheet alignment, equal frame spacing, consistent identity and wardrobe across frames, neutral white background, clean editorial finish, no text or watermark.",
+    "generated_prompt_string": "Photorealistic 2x2 photo grid portrait series of one original adult woman with medium-length wavy auburn-copper hair, large icy-blue eyes, natural freckles, clear realistic skin, minimalist no-makeup makeup and a light peach-nude lip. She wears a strapless midnight-black sequin bustier/corset, gold omega-symbol choker, and stacked silver-and-gold bangles. Plain high-key white background, soft even studio lighting, strong contrast between the black outfit, copper hair and white background. Top-left intense mysterious direct eye contact; top-right playful boredom with hand on cheek; bottom-left confident slight smile with hand beneath chin; bottom-right candid open laugh in side profile with visible teeth. Keep the original adult identity, hair, makeup, outfit, accessories, lighting and portrait scale consistent across all four frames. No public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Billie Eilish likeness, inconsistent identity, inconsistent wardrobe, distorted anatomy, extra fingers, malformed hands, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, misaligned collage, uneven panels, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "billie-dark-y2k-grid.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Use the written source to preserve the 2x2 format, four-frame emotional sequence, copper hair, icy-blue eyes, freckles, black sequin Y2K styling, accessories, white background, and soft studio lighting; replace the named identity with an original adult."
+        },
+        {
+          "type": "source_url",
+          "name": "original prompt post",
+          "required": false,
+          "source": "https://x.com/TzqQaiser/status/2020053725973475522",
+          "usage": "Context only; local written prompt is authoritative."
+        },
+        {
+          "type": "image_asset",
+          "name": "1774999896607-0brrzmj5-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1774999896607-0brrzmj5-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required; source URL and image asset are optional context. Keep the same original adult identity, hair, makeup, outfit, accessories, four poses, grid geometry, white background, and lighting across all panels. Identity may be replaced; the visual concept and frame sequence must remain consistent."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named Billie Eilish identity with one original adult woman.",
+      "Added safety and consistency negatives while preserving the non-explicit strapless Y2K fashion direction and four-frame composition.",
+      "Adapted the source from text only without inspecting the image asset."
+    ]
+  }
+}

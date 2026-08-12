@@ -1,0 +1,39 @@
+{
+  "name": "Gothic Queen Fire Water",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "editorial-fashion"
+  ],
+  "image_type": "cinematic couture editorial",
+  "image_vibe": "gothic, commanding, mystical, dramatic",
+  "image_purpose": "conceptual couture campaign key visual",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create a hyper-realistic cinematic dark-gothic fantasy couture editorial in shallow black water at night.",
+    "main_subject": "An adult fictional woman with an original, non-celebrity identity and a commanding direct gaze. She wears a flowing white avant-garde wet-look couture gown with a dramatic cape, high-waisted structured skirt, layered metallic jewelry, and a wide sculptural belt. The styling is fashion-forward and fully covered while retaining fluid movement.",
+    "composition_elements": "One leg forward, hips angled confidently, torso slightly arched, arms extended outward, fingers grazing the water surface; mirror-like black water, circular ripples, four towering flames, smoke, glowing embers, and a blank atmospheric space above the subject for optional typography added later.",
+    "lighting_and_atmosphere": "Brightened cinematic lighting with dramatic orange, gold, and crimson flame illumination, reflective water highlights, realistic upward flame motion, thick curling smoke, and mystical high-fashion atmosphere.",
+    "technical_specs": "Hyper-realistic photorealistic 4K editorial detail, 2:3 aspect ratio, shallow depth of field with sharp subject focus and softly blurred background flames, realistic water splashes and fabric reflections.",
+    "generated_prompt_string": "Cinematic gothic fire-water high-fashion editorial, an adult fictional woman with an original non-celebrity identity standing in shallow mirror-like black water at night, direct commanding gaze, one leg forward, arms extended with fingers grazing the water, circular ripples, four massive flames rising from the water, smoke and glowing embers, flowing white avant-garde wet-look couture gown with dramatic cape, high-waisted structured skirt and metallic belt, orange gold and crimson illumination, reflective water highlights, hyper-realistic photorealistic 4K, sharp subject focus, softly blurred flames, 2:3.",
+    "negative_prompt": "celebrity likeness, public figure likeness, exact facial identity, named person, explicit, nsfw, overly revealing, nudity, fetish framing, gore, blurry, low quality, distorted anatomy, extra limbs, malformed hands, watermark, logo, illegible text, signature",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "gothic-queen-fire-water.jpg",
+          "required": true,
+          "source": "workspace reference image",
+          "usage": "Reference the fire-water staging, white cape gown, four flames, smoke lettering area, reflections, and full-body pose while replacing the named identity and exact face with an original adult fictional subject."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the fire-water composition, couture silhouette, flame count, reflections, and atmospheric consistency. Replace any named identity, exact facial features, and personal text with a fictional adult subject and optional blank typography area. Keep outfit coverage, product and logo details generic, environment consistent, and typography replaceable in post."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed exact facial identity lock, named-person attribution, seductive wording, and default personal text effect; retained the gothic fire-water couture concept with an original adult fictional subject."
+    ]
+  }
+}

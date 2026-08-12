@@ -1,0 +1,66 @@
+{
+  "name": "Night Zebra-Crossing Street Portrait",
+  "tag": "night-zebra-crossing-street-portrait",
+  "image_type": "urban_crosswalk_portrait",
+  "image_vibe": "warm_night_cinematic",
+  "image_purpose": "streetwear_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Night Zebra-Crossing Street Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with long center-parted dark waves, minimal makeup, and black angular sunglasses.",
+      "wardrobe": "A plain black crew-neck T-shirt, high-waisted wide-leg blue-gray jeans without rips, plain white sneakers, and a small glossy white unbranded shoulder bag.",
+      "pose_and_expression": "Standing on a clearly closed pedestrian crossing at night with relaxed shoulders and a confident forward gaze."
+    },
+    "composition_elements": {
+      "setting": "Empty city road with zebra lines, abstract distant lamps, and a clearly visible pedestrian-only traffic closure barrier.",
+      "framing": "Slightly elevated eye-level medium-full portrait with shallow depth of field.",
+      "text_and_brand_control": "No uploaded-face preservation, logo, designer bag monogram, shoe branding, road sign text, or readable markings."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Warm streetlights with cinematic highlights and soft controlled shadows.",
+      "mood": "Calm, urban, confident, and safely staged."
+    },
+    "technical_specs": {
+      "camera_style": "photoreal cinematic street editorial",
+      "lens": "50mm equivalent",
+      "rendering": "Natural skin and anatomy, sharp subject, soft background bokeh, clean road texture, no beautification."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical photoreal cinematic street editorial portrait of an adult woman with long center-parted dark waves, minimal makeup, and black angular sunglasses. She wears a plain black crew-neck T-shirt, high-waisted wide-leg blue-gray jeans without rips, plain white sneakers, and a small glossy white unbranded shoulder bag. Place her standing on a clearly closed pedestrian crossing at night, with relaxed shoulders and a confident forward gaze. Show zebra lines, abstract distant lamps, and a visible pedestrian-only traffic closure barrier. Use slightly elevated eye-level medium-full framing, warm streetlights, cinematic highlights, soft controlled shadows, natural skin and anatomy, sharp subject, soft background bokeh, and clean road texture. No uploaded-face preservation, logos, monograms, shoe branding, road-sign text, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, crop top, ripped jeans, lingerie, sitting in traffic, unsafe road pose, logo, monogram, readable text, watermark, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Only optional adult identity references may guide general approved traits. Replaceable wardrobe and streetscape references must remove brand marks, text, and unsafe traffic context.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general adult face and hair traits only."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "unbranded_night_streetwear_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide covered silhouette without logos or monograms."
+        },
+        {
+          "type": "environment_reference",
+          "name": "closed_crosswalk_reference",
+          "required": false,
+          "source": "user-provided street reference",
+          "usage": "Guide lights and crosswalk geometry while retaining a clear pedestrian closure and no signage text."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed identity preservation and designer marks; replaced unsafe road sitting with a clearly closed crossing and standing pose."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "underground-garage-catwoman",
+  "tag": ["cat-cosplay", "garage", "black-jumpsuit", "fashion"],
+  "image_type": "UGC cosplay fashion portrait",
+  "image_vibe": "confident, edgy, industrial, polished",
+  "image_purpose": "Cosplay and alternative fashion social content",
+  "group": "ugc/lifestyle-moment/night-out/other",
+  "prompt": {
+    "project_info": "Create an incidental snapshot-style cosplay fashion portrait in a concrete parking garage, inspired by cat motifs without depicting a named copyrighted character.",
+    "main_subject": "One generic approved adult woman with long wavy dark reddish-auburn hair parted in the middle, dramatic but realistic makeup, confident direct gaze, and a neutral poised expression. She wears a full-coverage black form-fitting textured animal-pattern jumpsuit zipped securely to the collar, a matching cat-ear headband, black gloves with attached metallic claw tips, a wide black belt, and small silver hoop earrings. A black braided costume prop is held safely across the torso as a fashion accessory, not used as a weapon.",
+    "composition_elements": "Vertical 3:4 eye-level medium shot cropped at the upper thighs, with the subject centered before a thick grey concrete pillar. Include the concrete ceiling, support beams, open garage levels and bright daylight from the rear right. Keep the pose confident and fashion-oriented, with no cleavage or intimate-area emphasis.",
+    "lighting_and_atmosphere": "Soft flat natural daylight diffused through the open garage, gentle shadows under the chin and hair, controlled sheen on the textured synthetic suit, urban industrial atmosphere.",
+    "technical_specs": "Photorealistic vertical 3:4 amateur cosplay fashion snapshot, full-frame camera with 50mm lens, realistic skin texture and makeup, visible synthetic texture and concrete wear, mild depth falloff, no logos or watermark.",
+    "generated_prompt_string": "Photorealistic vertical 3:4 eye-level cosplay fashion snapshot of one generic approved adult woman with long wavy dark reddish-auburn hair parted in the middle, dramatic realistic makeup, confident direct gaze and poised neutral expression, wearing a full-coverage black form-fitting textured animal-pattern jumpsuit zipped securely to the collar, matching cat-ear headband, black gloves with metallic claw tips, wide black belt and small silver hoop earrings. She safely holds a black braided costume prop across her torso as a fashion accessory, not a weapon. She stands centered in a concrete parking garage before a thick grey pillar, with ceiling beams, open garage levels and bright daylight behind her. Soft flat natural daylight, gentle shadows, controlled sheen on synthetic fabric, rough matte concrete versus glossy texture, edgy polished industrial cosplay mood, no named character likeness, no cleavage or intimate-area emphasis, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, celebrity likeness, public-figure likeness, named copyrighted character likeness, cleavage emphasis, intimate-area emphasis, weapon use, coercion, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "underground-garage-catwoman composition reference",
+          "required": true,
+          "source": "Attach the provided local reference image",
+          "usage": "Match the adult subject's generic hair and makeup direction, black cat-inspired jumpsuit, headband, claw gloves, belt, safe prop placement, garage composition, and soft daylight while keeping identity and details replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required composition reference. Preserve the cat-inspired fashion concept, full-coverage jumpsuit category, cat ears, gloves, belt, safe prop placement, garage structure, framing and daylight. Keep person, hair, makeup, outfit details, accessory, prop and environment replaceable. Use generic cat-inspired cosplay only; do not reproduce a named character, logo or fetish framing."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Secured the jumpsuit to the collar and removed cleavage emphasis.",
+      "Reframed the braided prop as a safe fashion accessory rather than a fetish or weapon cue.",
+      "Changed named-character framing to generic cat-inspired cosplay and added safety exclusions."
+    ]
+  }
+}

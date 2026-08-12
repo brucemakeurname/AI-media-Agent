@@ -1,0 +1,70 @@
+{
+  "name": "urban-beauty-glass-reflection",
+  "tag": [
+    "adult-woman",
+    "glass-reflection",
+    "rainy-city",
+    "layered-composition",
+    "muted-film",
+    "medium-format"
+  ],
+  "image_type": "layered-city-reflection-portrait",
+  "image_vibe": "melancholic-documentary-artful",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/analog-vintage",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the obscured window-reflection subject is an adult and removed non-actionable hidden-token wording."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "layered adult portrait through a rain-speckled city window",
+      "color_palette": "muted stone gray, rainy beige, dusty green, soft window blue",
+      "format": "portrait 3:4"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with loose dark wavy hair, a taupe coat, and a quiet neutral expression, partially obscured by a rain-speckled window reflection.",
+      "style": "medium-format layered documentary portrait with natural skin and optical softness"
+    },
+    "composition_elements": {
+      "text": "No rendered text, logo, or watermark.",
+      "items": [
+        "wet windowpane and dark metal mullions dominate foreground",
+        "soft adult face visible through reflection and glass blur",
+        "layered street architecture, pedestrians, and wet pavement behind the glass",
+        "vertical city depth with mild reflection doubling",
+        "subject intentionally slightly obscured, not sharply isolated"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "natural diffused overcast daylight at approximately 6500K filtered through rain-covered glass",
+      "effect": "muted Portra-like tones, soft reflection blur, tactile raindrops, and quiet urban distance"
+    },
+    "technical_specs": {
+      "render_style": "Fujifilm GFX100S, 80mm f/1.7, 60% documentary realism and 40% artistic layered reflection, subtle film grain",
+      "resolution": "high resolution, portrait 3:4"
+    },
+    "generated_prompt_string": "Create a layered city reflection portrait of an adult woman viewed through a rain-speckled glass window. She has loose dark wavy hair, wears a taupe coat, and is partially obscured by reflection and soft glass blur. Let dark metal window mullions, wet droplets, rainy street architecture, anonymous pedestrians, and wet pavement layer across the composition. Keep the subject intentionally soft rather than perfectly isolated. Use natural diffused overcast light, muted Portra-like color, Fujifilm GFX100S with an 80mm f/1.7 lens, medium-format shallow depth, a 60% documentary realism and 40% artistic reflection balance, and portrait 3:4 framing. No text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, readable text, logo, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, perfectly clean glass, unreal reflections",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-window-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult reference when facial continuity is required beneath the reflection.",
+          "usage": "Preserve adult identity if supplied; otherwise use a generic adult woman."
+        },
+        {
+          "type": "background",
+          "name": "rainy-city-window-reference",
+          "required": false,
+          "source": "Attach a window or city plate when exact pane geometry, rain density, or architecture must match.",
+          "usage": "Keep layered rain-speckled glass and urban depth; location may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve an adult subject, rain-speckled window foreground, layered urban reflection, muted documentary color, and intentional partial obscurity. Identity and location can be replaced independently."
+    }
+  }
+}

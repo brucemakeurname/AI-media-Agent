@@ -1,0 +1,70 @@
+{
+  "name": "samsung-galaxy-tab-s11-ultra-immersive-viewing-1600-nits",
+  "tag": [
+    "tablet-launch",
+    "display-specs",
+    "infographic",
+    "amoled"
+  ],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Infographics",
+  "group": "samsung_1235183821983427",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy Tab S11 Ultra immersive display poster",
+      "color_palette": "White, black, sky blue, gray, electric blue numeric accents"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Minimal white-background display-performance poster with a large front-facing Galaxy Tab S11 Ultra showing a bright salt-flat landscape video, paired with Dynamic AMOLED 2X and brightness metrics.",
+      "style": "Photorealistic tech infographic, clean premium tablet render, display-spec launch visual"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Immersive viewing. Inside and out / Galaxy Tab S11 Ultra / Dynamic AMOLED 2X vivified by Samsung Display / HBM 1,000 nits / Peak 1,600 nits",
+      "items": [
+        "Top Left: Large black headline 'Immersive viewing. Inside and out'.",
+        "Top Right: Smaller subtitle 'Galaxy Tab S11 Ultra'.",
+        "Bottom Left: Dynamic AMOLED 2X logo lockup with multicolor square icon and blue-black text.",
+        "Bottom Right: Large blue metric labels 'HBM 1,000 nits' and 'Peak 1,600 nits'.",
+        "Center/Background: Front-facing tablet in landscape showing a salt-flat video scene with a tiny person in red at center, media controls along the bottom edge, and a small top-left line 'The world's largest salt flat'; gray legal footnotes span the lower margin."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio lighting",
+      "effect": "Clean glass reflections, bright screen luminance, airy white-space emphasis"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy Tab S11 Ultra immersive display poster. Centerpiece is a landscape Galaxy Tab S11 Ultra on a white background, displaying a bright salt-flat video scene with a tiny red-clothed figure, media controls, and the line 'The world's largest salt flat'. Background is minimal and spacious. Surrounding elements: exact headline 'Immersive viewing. Inside and out', subtitle 'Galaxy Tab S11 Ultra', Dynamic AMOLED 2X logo lockup, and large blue metrics 'HBM 1,000 nits' and 'Peak 1,600 nits', plus gray legal footnotes at the bottom. Technical style: photorealistic product render, soft studio lighting, bright screen luminance and clean reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy Tab S11 Ultra landscape render",
+          "required": true,
+          "source": "official Samsung render",
+          "usage": "Preserve exact bezel thickness, notch shape, and angle."
+        },
+        {
+          "type": "ui_reference",
+          "name": "salt-flat video frame and playback controls",
+          "required": true,
+          "source": "original creative",
+          "usage": "Keep the specific landscape video scene, control bar, and tiny captions."
+        },
+        {
+          "type": "text_layout",
+          "name": "display metrics and Dynamic AMOLED lockup",
+          "required": true,
+          "source": "original poster",
+          "usage": "Retain exact numeric values, logo lockup, and lower disclaimer block."
+        }
+      ],
+      "prompt_instructions": "Use refs for the tablet render and video frame. The white-space-heavy composition and the exact 1,000 / 1,600 nits values must remain untouched."
+    }
+  }
+}

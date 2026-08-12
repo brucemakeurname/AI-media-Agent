@@ -1,0 +1,78 @@
+{
+  "name": "vfe-study-france-new-path-talkshow-july-2026",
+  "tag": [
+    "vfe",
+    "talkshow",
+    "study-france",
+    "july-2026",
+    "special-offer"
+  ],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Special offers",
+  "group": "vfe_1769302254231151",
+  "prompt": {
+    "project_info": {
+      "theme": "Talkshow promotion for France study pathway after graduation",
+      "color_palette": "French Blue, Red, White, Soft Gray"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A landscape-format talkshow poster with a giant Eiffel Tower cutout on the left, a lined notebook page in the center carrying event information, a split blue-red background with outlined giant letters behind, and book stickers on the right.",
+      "style": "Graphic event-promo poster with notebook-paper central card, bold French-color branding, and social CTA styling."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nTalkshow\nDU HỌC PHÁP\nHƯỚNG ĐI MỚI\nSAU TỐT NGHIỆP 2026\nTới gặp chúng mình tại:\nHCM 9h00, 05/07/2026\nHN 14h00, 12/07/2026\nĐĂNG KÝ NGAY",
+      "items": [
+        "Top Left: VFE logo above a giant Eiffel Tower cutout.",
+        "Top Right: Red rounded CTA 'ĐĂNG KÝ NGAY' with cursor arrow and two open-book sticker graphics.",
+        "Bottom Left: Blue split background with oversized outlined letters partially visible behind the notebook.",
+        "Bottom Right: Lower edge of the notebook card and continuation of red background.",
+        "Center/Background: Lined white notebook page with handwritten 'Talkshow' and event details for HCM and HN."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat graphic event-poster lighting",
+      "effect": "High-contrast red-blue split background, crisp cutout edges, and clear date/time legibility."
+    },
+    "technical_specs": {
+      "render_style": "Graphic talkshow promotion poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality event promotion poster for a France study pathway talkshow. Centerpiece is a lined notebook page in the middle containing the event title 'DU HỌC PHÁP HƯỚNG ĐI MỚI SAU TỐT NGHIỆP 2026' and event times for HCM and HN. Background is a split navy-red branded graphic field with large outline letters, a giant Eiffel Tower cutout on the left, and book stickers on the right. Surrounding elements: VFE logo, handwritten 'Talkshow', CTA 'ĐĂNG KÝ NGAY', and city-specific dates 05/07/2026 and 12/07/2026. Technical style: graphic talkshow promotion poster, flat event-poster lighting, crisp date readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place top left."
+        },
+        {
+          "type": "location",
+          "name": "Eiffel Tower cutout",
+          "required": true,
+          "source": "landmark reference",
+          "usage": "Use as a dramatic left-side cutout."
+        },
+        {
+          "type": "graphic",
+          "name": "Notebook page and open-book stickers",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve the lined paper center panel and the two book stickers on the right."
+        },
+        {
+          "type": "text_layout",
+          "name": "Landscape talkshow event layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep the exact event times, handwritten Talkshow script, CTA, and split background structure."
+        }
+      ],
+      "prompt_instructions": "The dates '05/07/2026' and '12/07/2026' are both in the past relative to Friday, July 17, 2026, so preserve them exactly as completed event schedule details. Maintain the panoramic landscape ratio and bold notebook-centered layout."
+    }
+  }
+}

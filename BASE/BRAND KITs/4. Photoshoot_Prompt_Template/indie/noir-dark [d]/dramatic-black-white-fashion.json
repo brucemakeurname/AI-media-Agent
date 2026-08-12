@@ -1,0 +1,73 @@
+{
+  "name": "dramatic-black-white-fashion",
+  "tag": [
+    "adult-man",
+    "beanie-portrait",
+    "hand-over-face",
+    "chiaroscuro",
+    "noir-fashion"
+  ],
+  "image_type": "chiaroscuro-close-up-portrait",
+  "image_vibe": "enigmatic-monochrome-noir",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Converted the input-photo face-preservation instruction into a required approved adult non-public-figure identity reference and clarified the subject as an adult while preserving the hand-over-face pose, beanie, and extreme monochrome chiaroscuro."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "dramatic modern noir black-and-white fashion close-up",
+      "color_palette": "deep black, luminous gray, and clean white highlights",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult man matching the required approved adult non-public-figure identity reference, with fine natural skin texture, subtle stubble, and a serious enigmatic expression.",
+      "wardrobe": "Ribbed knit beanie and simple dark crewneck T-shirt with understated fabric texture.",
+      "pose": "Tight close-up facing camera with the head turned slightly so one eye is visible, one hand raised with spread fingers partially covering the face, and the visible eye staring intensely through the gap."
+    },
+    "composition_elements": {
+      "framing": "Vertical tight crop from upper chest to just above the beanie, with the visible eye and top of the hand in crisp focus.",
+      "environment": "Pure matte-black background with no visible texture, text, or logos.",
+      "focus": "Visible eye, fingers, beanie ribbing, cheekbone, ear rim, stubble, and realistic hand anatomy."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Single hard focused key light from high camera-right, cool-neutral rendered in monochrome, with sharp highlights on the lit side and deep controlled shadow on the opposite side.",
+      "atmosphere": "Moody, fashion-editorial, cinematic, and almost noir."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with an 85mm lens at f/2.0, 1/125 s, ISO 200",
+      "quality": "Ultra-realistic rich monochrome, luminous midtones, delicate film grain, crisp skin and fabric texture, and shallow depth of field"
+    },
+    "generated_prompt_string": "Create an ultra-realistic 4:5 dramatic black-and-white fashion close-up of an adult man matching the required approved adult non-public-figure identity reference. Preserve his adult facial structure, natural skin texture, subtle stubble, and hairline without artificial smoothing. He wears a ribbed knit beanie and a simple dark crewneck T-shirt. Frame him from upper chest to just above the beanie, facing camera but turned slightly so only one eye is visible, with one hand raised and spread fingers partially covering the face; the visible eye stares intensely through the gap. Use a single hard focused key light from high camera-right, deep controlled shadows, a pure matte-black background, an 85mm lens at f/2.0, rich neutral monochrome, luminous midtones, delicate film grain, and no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, celebrity likeness, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, clipped highlights, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "The required approved adult identity reference must be attached and used only to preserve adult facial identity and facial structure. Optional beanie, wardrobe, or studio references may replace only their named element; preserve the hand-over-face pose, visible eye, pure-black background, and monochrome chiaroscuro.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Match adult facial identity, structure, hairline, and natural stubble only; do not imitate a celebrity or blend faces."
+        },
+        {
+          "type": "wardrobe",
+          "name": "ribbed-beanie-dark-crewneck",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the beanie and shirt styling while preserving their dark understated texture."
+        },
+        {
+          "type": "location",
+          "name": "pure-matte-black-noir-studio",
+          "required": false,
+          "source": "user-uploaded studio reference",
+          "usage": "Replace only the black background and key-light arrangement while preserving the monochrome chiaroscuro."
+        }
+      ]
+    }
+  }
+}

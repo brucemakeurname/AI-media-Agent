@@ -1,0 +1,65 @@
+{
+  "name": "cocoon-lotus-petal-sunscreen-teaser",
+  "tag": [
+    "teaser",
+    "macro",
+    "lotus",
+    "sunscreen-launch",
+    "texture",
+    "minimal"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Sneak peeks",
+  "group": "cocoon_3199049466953505",
+  "prompt": {
+    "project_info": {
+      "theme": "Minimal teaser for Hau Giang lotus mineral sun fluid launch",
+      "color_palette": "Lotus Pink, Cream White, Sky Blue, Soft Rose"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "An extreme macro beauty teaser where a pink lotus petal fills almost the entire frame, with fine petal texture and dew droplets visible, partially revealing the gold Cocoon wordmark on a white product bottle tucked in the lower right corner.",
+      "style": "Luxury skincare teaser photography, abstract floral macro, restrained launch-preview visual"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text is partial brand wording 'cocoon ORIGINAL VIETNAM' on the bottle in the lower right.",
+      "items": [
+        "Top Left: Soft pink lotus petal surface with delicate natural striations and moisture droplets.",
+        "Top Right: Pale sky-blue negative background peeking around the edge of the petal.",
+        "Bottom Left: Darker magenta shadow area across the petal adding depth and mystery.",
+        "Bottom Right: Small cropped portion of a white Cocoon bottle with gold logo text partially exposed.",
+        "Center/Background: The petal dominates the composition like a veil over the product."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft macro beauty lighting",
+      "effect": "Gentle translucent petal glow, silky shadows, premium teaser ambiguity, dewy close-up realism"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity macro beauty photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a minimal teaser of a skincare launch. Centerpiece is a giant pink lotus petal covering almost the entire frame, showing fine petal texture, dew droplets, and a soft shadow gradient. Background is barely visible pale sky blue. Surrounding elements: a tiny cropped white Cocoon bottle in the lower right with partial gold logo text 'cocoon ORIGINAL VIETNAM'. Keep the abstract macro crop, premium mystery, and floral-teaser mood. Technical style: high fidelity macro beauty photography, soft macro beauty lighting, gentle translucent petal glow and dewy close-up realism, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Partial Cocoon sunscreen bottle crop",
+          "required": true,
+          "source": "Attach a crop from the original lower-right bottle area",
+          "usage": "Preserve the white bottle surface and gold Cocoon logo treatment."
+        },
+        {
+          "type": "graphic",
+          "name": "Lotus petal macro surface",
+          "required": true,
+          "source": "Use the original image as texture and crop reference",
+          "usage": "Maintain the exact petal scale, shadow block, and dewy tactile surface."
+        }
+      ],
+      "prompt_instructions": "When recreating with gpt-image-2, attach the original image as a mandatory composition reference. The result should stay abstract and tightly cropped; do not reveal more of the product than the original teaser does."
+    }
+  }
+}

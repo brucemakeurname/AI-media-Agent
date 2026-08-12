@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-over-100-used-battery-bins-ready",
+  "tag": [
+    "battery-recycling",
+    "activation",
+    "brand-campaign",
+    "outdoor",
+    "installation",
+    "illustrated-stickers"
+  ],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Brand story",
+  "group": "cocoon_975708808149888",
+  "prompt": {
+    "project_info": {
+      "theme": "Large-scale eco activation showing used-battery collection bins ready for deployment",
+      "color_palette": "Leaf Green, Black, White, Warm Beige, Tropical Foliage"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A wide outdoor scene filled with dozens of green-and-black Cocoon used-battery collection bins, each topped with a green sign reading 'ĐIỂM THU HỒI PIN CŨ', arranged in rows along a garden walkway.",
+      "style": "Campaign documentation photo mixed with playful doodle overlays, energetic sustainability activation visual"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible headline text reads 'HƠN 100 THÙNG PIN ĐÃ SẴN SÀNG' with a green check mark. Collection signs read 'ĐIỂM THU HỒI PIN CŨ'.",
+      "items": [
+        "Top Left: Large cream-and-white headline 'HƠN 100 THÙNG PIN ĐÃ SẴN SÀNG' stretched across the foliage background, plus a green check mark at the end.",
+        "Top Right: Dense tropical hedges and rows of repeated green collection signs receding into the distance.",
+        "Bottom Left: Foreground collection bins, a small illustrated battery box on the floor, and flower doodle stickers.",
+        "Bottom Right: Large smiling illustrated battery character in the corner with black outline, plus extra bins and a small bunny doodle nearby.",
+        "Center/Background: Symmetrical path perspective, many branded bins in staggered rows, and a doodle child figure holding a battery near the middle."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright outdoor daylight",
+      "effect": "Natural sun, mild hard shadows, documentary realism, cheerful activation energy, high depth clarity across repeated objects"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity event documentation photography with scrapbook sticker overlays",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a large-scale eco activation showing used-battery collection bins ready for deployment. Centerpiece is a wide outdoor installation with dozens of green-and-black Cocoon bins, each topped by a sign reading 'ĐIỂM THU HỒI PIN CŨ', arranged in perspective rows down a garden path. Background is lush tropical foliage and a sunlit walkway. Surrounding elements: headline text 'HƠN 100 THÙNG PIN ĐÃ SẴN SÀNG' with a green check mark, a smiling cartoon battery in the lower right, a doodle child holding a battery in the center, a bunny sticker, flower doodles, and a small battery box illustration. Keep the repeated signage density, exact Vietnamese wording, and playful eco-campaign overlays. Technical style: high fidelity event documentation photography with scrapbook sticker overlays, bright outdoor daylight, natural sun and mild hard shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "graphic",
+          "name": "Collection bin sign design",
+          "required": true,
+          "source": "Attach a clear crop of the 'ĐIỂM THU HỒI PIN CŨ' sign from the original",
+          "usage": "Preserve sign layout, logos, QR block, white border, and green campaign color."
+        },
+        {
+          "type": "graphic",
+          "name": "Smiling battery character and doodle set",
+          "required": true,
+          "source": "Use the original creative as overlay reference",
+          "usage": "Match the cute battery mascot, child drawing, bunny, flowers, and outlined sticker texture."
+        },
+        {
+          "type": "text_layout",
+          "name": "Headline placement over bin field",
+          "required": true,
+          "source": "Use the original image as layout reference",
+          "usage": "Keep the headline scale, check mark position, and repeated bin perspective."
+        }
+      ],
+      "prompt_instructions": "When prompting gpt-image-2, attach the sign design and doodle overlays so the repeated campaign identity remains accurate. Emphasize many identical bins in depth, tropical foliage, and exact headline wording across the top."
+    }
+  }
+}

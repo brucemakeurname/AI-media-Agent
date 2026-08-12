@@ -1,0 +1,81 @@
+{
+  "name": "dark-blue-couture-geometric-portrait",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "deep-blue-couture",
+    "geometric-art"
+  ],
+  "image_type": "couture architectural studio portrait",
+  "image_vibe": "refined, geometric, cinematic, timeless",
+  "image_purpose": "luxury fashion campaign and editorial lookbook",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a cinematic 1:1 luxury fashion editorial portrait of one approved adult woman seated on minimalist white architectural stairs inside a modern studio.",
+    "main_subject": "Approved adult woman with natural skin tones and a calm editorial expression, wearing a structured deep-blue tailored gown with sharp shoulders, long sleeves, and a flowing silhouette cascading over the steps. One arm rests lightly on a stair.",
+    "composition_elements": [
+      "Subject seated gracefully on white geometric stairs with refined symmetry and a confident relaxed pose.",
+      "Large monochrome polygonal geometric portrait artwork of the same approved adult face dominates the background wall.",
+      "Minimal white and gray architectural studio palette with deep blue as the sole strong color accent.",
+      "Exclude the visible source label/watermark; preserve the artwork, stairs, gown, and clean negative space."
+    ],
+    "lighting_and_atmosphere": "Soft diffused studio lighting with subtle cinematic shadows, realistic skin tones, controlled blue fabric highlights, and quiet fine-art editorial atmosphere.",
+    "technical_specs": "Photorealistic 1:1 high-resolution portrait, 85mm lens at f/4, refined symmetry, realistic gown and architectural texture, subtle natural grain, crisp subject and artwork edges, no text or watermark.",
+    "generated_prompt_string": "Cinematic luxury fashion editorial portrait of one approved adult woman seated gracefully on minimalist white architectural stairs inside a modern studio. She wears a structured deep-blue tailored gown with sharp shoulders and a long flowing silhouette cascading over the steps, with one arm resting lightly on a stair and a calm editorial expression. Behind her, a large monochrome geometric wall portrait of the same approved adult face rendered in angular polygonal shapes dominates the background. Use a minimal white and gray palette with deep blue accent, soft diffused studio lighting, subtle cinematic shadows, realistic skin tones, refined symmetry, 1:1 aspect ratio, high-resolution fashion magazine aesthetic, exclude all source labels and watermark, no text.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "celebrity likeness",
+      "warped geometric face",
+      "broken stairs",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "unwanted label",
+      "watermark",
+      "text",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "dark-blue-couture-geometric-portrait.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for approved-adult identity, face, hair, gown, pose, and architectural styling."
+        },
+        {
+          "type": "graphic",
+          "name": "monochrome polygonal portrait wall artwork",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the geometric face artwork, scale, placement, and monochrome treatment; omit source label."
+        },
+        {
+          "type": "location",
+          "name": "white architectural stairs and modern studio",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve stairs, wall, symmetry, and neutral environment."
+        }
+      ],
+      "prompt_instructions": "Attach all required person, graphic-art, and location references; no optional assets are needed. Keep identity, face artwork, gown, stairs, environment, lighting, and composition consistent. Replace only with an equivalent approved adult, equivalent supplied artwork, or equivalent studio reference. Typography is not applicable; exclude source labels and do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Excluded the visible source label/watermark while preserving the geometric wall artwork, couture portrait, stairs, and editorial composition."
+    ]
+  }
+}

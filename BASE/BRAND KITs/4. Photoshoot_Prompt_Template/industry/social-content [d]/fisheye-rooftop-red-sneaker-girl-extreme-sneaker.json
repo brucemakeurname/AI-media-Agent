@@ -1,0 +1,76 @@
+{
+  "name": "fisheye-rooftop-red-sneaker-girl-extreme-sneaker",
+  "tag": [
+    "fisheye-fashion",
+    "rooftop-city",
+    "red-track-jacket",
+    "white-sneaker",
+    "forced-perspective"
+  ],
+  "image_type": "streetwear-fashion-portrait",
+  "image_vibe": "energetic-urban",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Extreme fisheye rooftop streetwear portrait with a dominant red-soled sneaker",
+      "creative_direction": "Energetic urban fashion image using forced perspective and dramatic low-angle distortion",
+      "color_palette": "bright red, white, black, clear sky blue, silver-gray concrete, and reflective glass"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult woman with shoulder-length brown hair and a confident relaxed expression looking down toward the camera",
+      "wardrobe": "bright red track jacket with white sleeve stripes, bright red fitted leggings, and massive white chunky platform sneakers with a distinct red tread pattern",
+      "action": "sitting casually on the corner of a modern minimalist ledge with one leg extended toward the lens"
+    },
+    "composition_elements": {
+      "framing": "close-up full-body vertical composition from an extreme low angle, with the extended sneaker as the dominant foreground element",
+      "environment": "urban rooftop or high vantage point surrounded by curved glass skyscrapers and sleek modern architecture",
+      "perspective": "strong forced perspective and fisheye distortion, with sharp focus from the shoe sole to the skyline",
+      "background": "clear blue sky, clean modern ledge, and no crowd"
+    },
+    "lighting_and_atmosphere": {
+      "type": "hard midday sunlight at approximately 5600K with a small frontal bounce",
+      "effect": "sunburst and lens flare in the upper left, high-contrast shadows on concrete and glass, vivid red wardrobe, and crisp sneaker texture"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 8mm fisheye lens, extreme worm's-eye perspective, high-resolution fashion photography",
+      "resolution": "4k vertical social portrait",
+      "finish": "realistic leather and concrete texture, deep depth of field, slight barrel distortion, natural vignetting, and restrained saturation"
+    },
+    "generated_prompt_string": "Create an energetic urban streetwear fashion photograph of a clearly adult woman with shoulder-length brown hair sitting casually on the corner of a modern minimalist rooftop ledge, looking down at the camera with a confident, relaxed expression. One leg extends toward the lens in extreme foreshortening, making a massive white chunky platform sneaker with a distinct red tread pattern the dominant foreground element. She wears a bright red track jacket with white stripes on the sleeves and bright red fitted leggings. Surround her with towering curved glass skyscrapers and sleek modern architecture. Use bright daylight, hard approximately 5600K sunlight, a sunburst and lens flare in the upper left, high-contrast shadows, an 8mm fisheye lens, extreme worm's-eye perspective, deep depth of field, realistic material texture, slight barrel distortion, and vivid but controlled color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, unsafe ledge, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, broken shoe anatomy, melted architecture",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-brown-haired-streetwear-model",
+          "required": true,
+          "source": "Original rooftop fisheye preview image",
+          "usage": "Attach an approved adult face reference to preserve facial structure and likeness without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "red-track-jacket-fitted-leggings-platform-sneaker",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the red track jacket with white stripes, red leggings, white platform sneaker, and red tread; do not change the reference-specified outfit."
+        },
+        {
+          "type": "location",
+          "name": "curved-glass-rooftop-skyline",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the modern ledge, curved skyscrapers, sky, and clean high-vantage environment; exact buildings may be replaced."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult model, exact wardrobe, and rooftop environment references. Keep identity, outfit, seated pose, extended sneaker, fisheye distortion, skyline scale, and sunlight consistent. The person, buildings, and ledge may be replaced with approved equivalents, but the sneaker-dominant perspective and non-sexual fashion direction must remain."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as a clearly adult woman and retained the exact streetwear outfit and extreme sneaker perspective as a non-sexual fashion composition."
+    ]
+  }
+}

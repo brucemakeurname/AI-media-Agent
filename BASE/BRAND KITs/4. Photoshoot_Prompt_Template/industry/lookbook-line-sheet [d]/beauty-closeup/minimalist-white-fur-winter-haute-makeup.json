@@ -1,0 +1,73 @@
+{
+  "name": "minimalist-white-fur-winter-haute-makeup",
+  "tag": [
+    "white-fur-couture",
+    "winter-beauty",
+    "icy-makeup",
+    "three-pose-series",
+    "cool-gray-studio"
+  ],
+  "image_type": "winter-haute-beauty-series",
+  "image_vibe": "cold-luxury-elegance",
+  "image_purpose": "lookbook-line-sheet",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": {
+      "theme": "Minimal winter couture beauty series with white faux fur and icy makeup",
+      "creative_direction": "Luxury multi-pose portrait sequence with cool gray minimal studio and soft filmic highlights",
+      "color_palette": "ivory white, soft cool gray, cool pink, nude, dark hair, and subtle silver shimmer"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult high-fashion model with dark brown hair flowing naturally from a fluffy white fur hat, natural full brows, cool rosy blush, and calm dreamy confident expression",
+      "wardrobe": "luxurious white faux-fur hat and matching white faux-fur coat framing the face",
+      "poses": "front-facing calm gaze, soft head tilt, and eyes closed while both hands gently touch the hat"
+    },
+    "composition_elements": {
+      "framing": "beauty portrait and upper torso in a consistent three-pose editorial series",
+      "background": "minimal soft cool-gray studio with shallow creamy background separation",
+      "beauty_details": "icy shimmer eyeshadow, subtle winged liner, long separated lashes, luminous natural skin, and glossy nude-to-soft-brown lips"
+    },
+    "lighting_and_atmosphere": {
+      "type": "large soft diffused frontal light at approximately 5000K with gentle fill and subtle rim on fur edges",
+      "effect": "even soft beauty light, delicate fur texture, cool luxury atmosphere, and soft filmic highlight rolloff"
+    },
+    "technical_specs": {
+      "render_style": "full-frame cinema camera with 85mm prime, high-fashion winter film still",
+      "resolution": "4k 4:5 vertical multi-pose series",
+      "finish": "controlled editorial saturation, balanced cool-neutral skin, subtle fine analog grain, and consistent face across frames"
+    },
+    "generated_prompt_string": "Create a luxury winter couture beauty editorial series of a clearly adult woman with dark brown hair flowing naturally from under a fluffy white faux-fur hat and a matching white faux-fur coat framing her face. Use icy shimmer eyeshadow, subtle winged liner, long separated lashes, natural full brows, cool rosy blush, soft luminous natural skin, and glossy nude-to-soft-brown lips. Create three consistent poses: a front-facing calm gaze, a soft head tilt, and eyes closed while both hands gently touch the fur hat. Frame beauty portrait and upper torso against a minimal soft cool-gray studio with shallow creamy background separation. Use a full-frame cinema camera with an 85mm prime, large approximately 5000K diffused frontal light, gentle fill, subtle fur-edge rim, controlled editorial color, soft filmic highlight rolloff, and subtle fine analog grain. Preserve adult identity and outfit continuity; no logos, text, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, childlike styling, celebrity likeness, real fur harm, logo, watermark, plastic skin, waxy, over-smooth, over-saturated, HDR look, extra fingers, deformed hands, inconsistent face, broken fur texture, flat lighting",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-winter-beauty-model",
+          "required": true,
+          "source": "Original winter beauty preview image",
+          "usage": "Attach an approved adult face reference and preserve facial proportions, hair, makeup, and likeness across all poses without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white-faux-fur-hat-and-coat",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve white faux-fur hat, coat, texture, shape, and face-framing silhouette; do not change the reference-specified outfit."
+        },
+        {
+          "type": "background",
+          "name": "cool-gray-winter-studio",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve cool gray minimal studio, shallow bokeh, and soft winter atmosphere; background may be replaced with an equivalent studio."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult model, exact faux-fur styling, and cool-gray studio references. Keep identity, three poses, makeup, fur texture, light, and winter palette consistent. Replace only the person or set with approved equivalents and keep the series non-sexual and unbranded."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

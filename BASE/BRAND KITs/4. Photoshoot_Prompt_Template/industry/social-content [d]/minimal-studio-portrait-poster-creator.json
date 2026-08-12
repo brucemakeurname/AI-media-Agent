@@ -1,0 +1,81 @@
+{
+  "name": "minimal-studio-portrait-poster-creator",
+  "tag": [
+    "minimal-studio",
+    "creator-poster",
+    "same-face-illustration",
+    "neutral-background",
+    "editorial-branding"
+  ],
+  "image_type": "personal-brand-poster",
+  "image_vibe": "clean-contemporary",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "High-end studio portrait holding a same-face artistic poster",
+      "creative_direction": "Premium personal-brand visual pairing a calm photographic subject with a painterly or illustrated reinterpretation",
+      "color_palette": "soft white, warm gray, black tailoring, natural skin tones, charcoal ink, and muted watercolor accents"
+    },
+    "main_subject": {
+      "type": "clearly adult person",
+      "detail": "approved adult subject with natural skin texture, calm confident expression, and preserved facial structure",
+      "wardrobe": "clean black blazer over a simple light top",
+      "action": "standing confidently against a minimal neutral background and holding a large vertical poster"
+    },
+    "composition_elements": {
+      "framing": "1:1 balanced portrait with subject and poster clearly separated",
+      "poster": "large vertical poster with a recognizable but fictionalized digital illustration, sketch, or painterly artwork of the same approved adult face",
+      "branding": "generic contemporary creator-brand identity with fictional copy only, no real person's name or logo",
+      "depth": "shallow depth of field, clean poster edges, relaxed yet strong posture"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft key at approximately 5000K with subtle rim light",
+      "effect": "gentle shadows, poster readability, natural skin, and premium editorial calm"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 50mm lens, high-end studio portrait photography",
+      "resolution": "4k square social visual",
+      "finish": "crisp illustration, realistic skin and fabric, subtle grain, balanced framing, and restrained contrast"
+    },
+    "generated_prompt_string": "Create a high-end square studio portrait using the approved adult photo as the main subject. The clearly adult person stands confidently against a clean minimal background in soft neutral tones, wearing a black blazer over a simple light top and holding a large vertical poster in front of them. The poster features an artistic reinterpretation of the same approved adult face, stylized as a digital illustration, sketch, or painterly artwork, clearly recognizable as the same fictional creator identity. Use professional studio lighting with a soft approximately 5000K key light and subtle rim light to create gentle shadows and depth. Keep the expression calm and confident, the posture relaxed yet strong, the composition clean and balanced, the skin texture natural, and the poster edges crisp. Use a contemporary generic creator-branding vibe with no real name, logo, or public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, celebrity likeness, public-figure name, real logo, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed hands, mismatched face, distorted poster edges, illegible copy",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-creator-reference",
+          "required": true,
+          "source": "Uploaded person photo specified by the source prompt",
+          "usage": "Attach the approved adult person reference and preserve face, facial structure, and likeness across the live subject and poster; never use a celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-blazer-minimal-look",
+          "required": true,
+          "source": "Original portrait preview image",
+          "usage": "Attach to preserve the black blazer, simple light top, clean fit, and understated personal-brand styling."
+        },
+        {
+          "type": "graphic",
+          "name": "same-face-creator-poster-art",
+          "required": true,
+          "source": "Original poster preview image and source prompt",
+          "usage": "Attach to preserve poster scale, same-face illustration, monochrome sketch treatment, and layout; replace identifying text or marks with fictional creator copy."
+        },
+        {
+          "type": "background",
+          "name": "minimal-neutral-studio",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve clean neutral wall, soft shadows, and negative space; background may be replaced with an equivalent minimal studio."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person, exact outfit, poster art, and studio references. Keep the same adult identity in both portrait and poster, hand placement, poster scale, light, and clean composition consistent. Replace any real name, logo, or identifying copy with fictional cleared branding."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

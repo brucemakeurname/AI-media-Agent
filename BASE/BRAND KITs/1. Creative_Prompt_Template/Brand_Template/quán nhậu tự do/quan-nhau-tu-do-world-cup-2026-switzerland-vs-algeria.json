@@ -1,0 +1,84 @@
+{
+  "name": "quan-nhau-tu-do-world-cup-2026-switzerland-vs-algeria",
+  "tag": [
+    "sports-promo",
+    "watch-party",
+    "football",
+    "nightlife-event"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Industry news",
+  "group": "quan-nhau-tu-do_1618709686923393",
+  "prompt": {
+    "project_info": {
+      "theme": "Quán Nhậu Tự Do World Cup screening poster",
+      "color_palette": "Black, stadium green, gold, orange, white, red, flag colors"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Epic football screening poster showing the World Cup trophy glowing at center, flanked by two football players, with a match card for Switzerland versus Algeria and a bold call-to-action to book a table.",
+      "style": "Photorealistic sports-event poster, cinematic stadium compositing, glossy nightlife promo"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "QUÁN NHẬU TỰ DO / WORLD CUP 2026 / LỊCH TRỰC TIẾP TẠI QUÁN NHẬU TỰ DO / PARKING ZONE 4 / THỤY SĨ / ALGERIA / VS / Thời gian: 10:00 / Thứ Sáu, ngày 03.07.2026 / ĐẶT BÀN NGAY! / Hotline: *1986 / Website: quannhautudo.com",
+      "items": [
+        "Top Left: Quán Nhậu Tự Do logo above the huge title 'WORLD CUP 2026'.",
+        "Top Right: Stadium lights and large title extension with dramatic gold flare.",
+        "Bottom Left: Match card section with 'THỤY SĨ', Swiss flag, clock icon, and 'Thời gian: 10:00'.",
+        "Bottom Right: Match card section with 'ALGERIA', Algerian flag, and 'Thứ Sáu, ngày 03.07.2026', plus footer hotline and website.",
+        "Center/Background: Gold World Cup trophy centered between two football players inside a bar-stadium environment, with a red glowing button 'ĐẶT BÀN NGAY!'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Cinematic stadium lighting",
+      "effect": "Golden trophy glow, dramatic spotlights, ember particles, high-contrast sports-poster energy"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic sports-event poster compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Quán Nhậu Tự Do World Cup screening poster. Centerpiece is a glowing gold World Cup trophy between two football players, with a central match card for Thụy Sĩ versus Algeria and a strong 'ĐẶT BÀN NGAY!' call-to-action. Background is a stadium-bar hybrid scene with green seating, floodlights, and nightlife ambiance. Surrounding elements: giant top title 'WORLD CUP 2026', subheadline 'LỊCH TRỰC TIẾP TẠI QUÁN NHẬU TỰ DO', location tag 'PARKING ZONE 4', Swiss and Algerian flags, exact time '10:00', exact date 'Thứ Sáu, ngày 03.07.2026', and footer contact 'Hotline: *1986' and 'Website: quannhautudo.com'. Technical style: photorealistic sports-event poster compositing, cinematic stadium lighting, golden trophy glow and ember particles, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Quán Nhậu Tự Do logo",
+          "required": true,
+          "source": "brand identity asset",
+          "usage": "Place above the title with the same red badge and white wordmark treatment."
+        },
+        {
+          "type": "person",
+          "name": "two football player cutouts",
+          "required": true,
+          "source": "original poster athlete references",
+          "usage": "Maintain the player poses, kits, and left-right composition."
+        },
+        {
+          "type": "graphic",
+          "name": "World Cup trophy and match card UI",
+          "required": true,
+          "source": "original sports poster layout",
+          "usage": "Preserve the central trophy glow, score-card framing, CTA button, and iconography."
+        },
+        {
+          "type": "icon",
+          "name": "Swiss and Algerian flags plus clock icon",
+          "required": true,
+          "source": "original poster assets",
+          "usage": "Keep the exact country flags and match-detail icons."
+        },
+        {
+          "type": "text_layout",
+          "name": "full sports event typography",
+          "required": true,
+          "source": "original creative",
+          "usage": "Retain exact wording, hierarchy, date, time, and footer contacts."
+        }
+      ],
+      "prompt_instructions": "Use refs for the athletes, trophy composition, flags, and the precise poster typography. Keep the sports poster highly symmetrical around the trophy and match card, with the booking CTA glowing red near the lower middle."
+    }
+  }
+}

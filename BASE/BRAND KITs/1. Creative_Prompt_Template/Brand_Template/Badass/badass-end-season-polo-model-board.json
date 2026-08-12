@@ -1,0 +1,84 @@
+{
+  "name": "badass-end-season-polo-model-board",
+  "tag": [
+    "end season sale",
+    "polo shirt",
+    "model and product board",
+    "price highlight",
+    "fashion retail"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Product demos",
+  "group": "badass_1726878268630380",
+  "prompt": {
+    "project_info": {
+      "theme": "End season polo promotion with product board and price callout",
+      "color_palette": "White, light gray, sky blue, bright yellow, royal blue, black"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A clean commercial composite featuring a young Asian male model on the left wearing a fitted white polo shirt with thin black tipping on the collar and sleeves, paired with black trousers, alongside a vertical product board on the right showing folded polos in multiple colors and a large blue price callout of 149K.",
+      "style": "Photorealistic fashion sale poster, ecommerce apparel graphic, polished retail advertising"
+    },
+    "composition_elements": {
+      "type": "Typography Panels/Product Props/Layout Blocks",
+      "text": "BADASS, POHTK602, END SEASON SALE, 149K",
+      "items": [
+        "Left: front-facing young Asian male model cropped from mid-thigh upward, standing with one hand in pocket, wearing a white polo with black tipping and black pants against a pale gray interior backdrop with vertical blinds.",
+        "Top Right: black wordmark 'BADASS' on a white field.",
+        "Right Center: inset product photo card showing folded polos in black, white, navy, gray, and dark teal stacked diagonally on a beige sofa.",
+        "Lower Right: oversized blue numeric price '149K' on a white geometric panel that crops off the bottom-right corner.",
+        "Lower Left: yellow banner with blue drop shadow reading 'END SEASON SALE'.",
+        "Near product card bottom: small black product code 'POHTK602'.",
+        "Frame accents: thin bright yellow strip at the top edge and light blue color block entering from the bottom edge."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio-commercial lighting",
+      "effect": "Clean catalog illumination, crisp cutout edges, bright retail atmosphere, gentle interior realism"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic fashion ecommerce poster with magazine-style collage layout",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "male model in white polo",
+          "required": true,
+          "source": "source image model reference",
+          "usage": "Preserve the model identity, hairstyle, neutral expression, pose, and clothing fit."
+        },
+        {
+          "type": "product",
+          "name": "white tipped polo and folded polo color lineup",
+          "required": true,
+          "source": "source image product reference",
+          "usage": "Keep the exact shirt silhouette, collar piping, logo placement, and the folded color assortment on the sofa."
+        },
+        {
+          "type": "logo",
+          "name": "BADASS wordmark",
+          "required": true,
+          "source": "source image logo reference",
+          "usage": "Match the top-right brand wordmark styling and placement."
+        },
+        {
+          "type": "text_layout",
+          "name": "END SEASON SALE and 149K price board",
+          "required": true,
+          "source": "source image text layout reference",
+          "usage": "Preserve the wording, banner treatment, and large bottom-right price geometry."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the exact collage composition and model identity.",
+        "Keep all visible text exactly as shown, including 'BADASS', 'POHTK602', 'END SEASON SALE', and '149K'.",
+        "Maintain the left-model-right-product-board balance and the cropped oversized price panel."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square BADASS fashion sale poster for an end-season polo promotion. Place a photorealistic young Asian male model on the left, cropped from mid-thigh upward, wearing a fitted white polo with thin black tipping on the collar and sleeve cuffs and black trousers, standing against a pale gray interior with vertical blinds. On the right, create a tall white product board with the black wordmark 'BADASS' at the top, a product inset photo showing folded polos in black, white, navy, gray, and dark teal on a beige sofa, and the small code 'POHTK602' below the product image. Add a yellow banner with blue shadow reading 'END SEASON SALE' near the lower left and a huge blue '149K' price on a white geometric block cropping off the bottom-right edge. Use a thin yellow top strip and a light blue lower accent. Technical style: photorealistic fashion ecommerce poster with magazine-style collage layout, soft studio-commercial lighting, clean retail atmosphere, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry face, wrong shirt details, incorrect text, flat 2d, low resolution, cluttered layout, distorted hands, warped typography, watermark, signature"
+  }
+}

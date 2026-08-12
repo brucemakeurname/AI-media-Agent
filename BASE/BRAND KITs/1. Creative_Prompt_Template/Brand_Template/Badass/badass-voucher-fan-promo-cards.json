@@ -1,0 +1,77 @@
+{
+  "name": "badass-voucher-fan-promo-cards",
+  "tag": [
+    "voucher promo",
+    "lucky draw",
+    "gift card fan",
+    "blue yellow campaign",
+    "promotion detail",
+    "event activation"
+  ],
+  "biz_niche": "E-commerce & Retail",
+  "content_format": "Competitions",
+  "group": "badass_2486254575173725",
+  "prompt": {
+    "project_info": {
+      "theme": "Lucky draw voucher fan promotion",
+      "color_palette": "Royal blue, bright yellow, beige stone, white, black"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A close-up promotional detail shot of a hand fanning out multiple blue BADASS lucky-draw cards over a beige stone countertop. The front-most card shows a large yellow '100K' reward and the word 'TẶNG'.",
+      "style": "Photorealistic retail event detail, bright promo activation visual, clean close-up marketing shot"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "BADASS, TẶNG, 100K, TẶNG VOUCHER MUA SẮM GIÁ TRỊ!, THỬ TÀI VẬN MAY NHẬN QUÀ BẤT NGỜ",
+      "items": [
+        "Center: a fan of blue voucher cards with white borders held by a left hand.",
+        "Front Card: vertical BADASS text on the left stub and large yellow '100K' on the main body with the word 'TẶNG' above.",
+        "Top Right: black BADASS wordmark.",
+        "Bottom Left: large blue text 'TẶNG VOUCHER MUA SẮM GIÁ TRỊ!'.",
+        "Bottom Right: yellow-highlighted blue banner text 'THỬ TÀI VẬN MAY' over blue text 'NHẬN QUÀ BẤT NGỜ'.",
+        "Background: beige stone countertop with soft warm ambient light."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft indoor commercial lighting",
+      "effect": "Warm event-table illumination, crisp card edges, clear hand detail, cheerful promotion mood"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic promotional detail poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "blue voucher cards",
+          "required": true,
+          "source": "source image voucher reference",
+          "usage": "Preserve the fan spread, border treatment, BADASS stub, and the featured 100K card."
+        },
+        {
+          "type": "hand",
+          "name": "hand holding card fan",
+          "required": false,
+          "source": "source image hand reference",
+          "usage": "Use if exact finger placement and grasp orientation need to remain close to the original."
+        },
+        {
+          "type": "text_layout",
+          "name": "voucher and promo copy layout",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Keep the exact wording and lower-third banner arrangement."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the fan shape of the cards and the exact 100K voucher styling.",
+        "Keep all visible text exactly as shown.",
+        "Maintain a close-up detail-shot composition rather than widening into a full event scene."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square promotional detail poster for a BADASS lucky draw voucher event. Show a left hand fanning out multiple blue voucher cards with white borders over a beige stone countertop. The front-most card should feature vertical BADASS branding on the left stub, the word 'TẶNG', and a large yellow '100K'. Add a black BADASS wordmark at the top right. In the lower-left area place large blue text 'TẶNG VOUCHER MUA SẮM GIÁ TRỊ!'. In the lower-right area place a yellow-highlighted blue banner reading 'THỬ TÀI VẬN MAY' above blue text 'NHẬN QUÀ BẤT NGỜ'. Technical style: photorealistic promotional detail poster, soft indoor commercial lighting, crisp card edges, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry cards, distorted hand, incorrect text, low resolution, cluttered table, messy layout, flat 2d, watermark, signature"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "name": "sadie-sink-lace-gown",
+  "tag": [
+    "red-carpet-portrait",
+    "black-lace-gown",
+    "strawberry-blonde",
+    "pearl-jewelry",
+    "gala-editorial"
+  ],
+  "image_type": "red-carpet-editorial-portrait",
+  "image_vibe": "sophisticated-youthful-elegance",
+  "image_purpose": "press-kit",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Sophisticated black lace red-carpet gala portrait",
+      "color_palette": "classic black, deep blue, creamy white, strawberry blonde, soft pink, and silver",
+      "creative_direction": "high-fashion event portrait with warm, engaging elegance"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult woman with reddish-blonde or strawberry-blonde hair in a textured high bun with loose curly flyaway strands, fair complexion with light freckles and natural rosy cheeks, warm engaging gaze and soft pleasant smile",
+      "wardrobe": "elegant floor-length black gown with a structured matte-black bodice and deep V neckline, layered with an intricate black floral lace shrug or capelet with scalloped edges and fine mesh detailing",
+      "accessories": "large white pearl studs with dangling diamond-encrusted silver drops and a bold statement silver or platinum ring with a diamond cluster"
+    },
+    "composition_elements": {
+      "framing": "medium close-up and three-quarter waist-up red-carpet portrait variations",
+      "subject_position": "adult woman centered with hands naturally joined near the waist",
+      "background": "softly blurred gala event with white floral arrangements, blue-toned backdrop, guests, and event lighting"
+    },
+    "lighting_and_atmosphere": {
+      "type": "large softbox key with controlled event fill, approximately 4500K to 5200K",
+      "effect": "bright cinematic highlights on hair, lace, pearls, and satin, gentle facial shadows, natural skin texture, and refined red-carpet bokeh"
+    },
+    "technical_specs": {
+      "render_style": "full-frame portrait camera with 85mm lens at approximately f/2, polished event photography",
+      "resolution": "4k vertical portrait",
+      "finish": "soft neutral color grade, restrained saturation, visible pores, fine film grain, subtle natural vignetting"
+    },
+    "generated_prompt_string": "A sophisticated clearly adult woman on a red-carpet gala, with reddish-blonde or strawberry-blonde hair styled in a messy textured high bun with loose curly flyaway strands, fair skin with visible light freckles and a natural rosy flush, a soft pleasant smile showing teeth, warm engaging gaze, minimalist dewy makeup, soft pink lip gloss, and subtle mascara. She wears an elegant floor-length black gown with a structured matte-black bodice and deep V neckline, an intricate black floral lace shrug or capelet draped over the shoulders and chest with scalloped edges and fine mesh detailing, large white pearl studs with dangling diamond-encrusted silver drops, and a bold statement silver or platinum ring with a diamond cluster. Use a softly blurred gala background with hints of white floral arrangements and a blue-toned backdrop with event lighting. Bright cinematic event lighting creates soft highlights on skin, hair, lace, and jewelry. Capture medium close-up and three-quarter waist-up variations with a full-frame camera and 85mm lens at approximately f/2, refined red-carpet bokeh, realistic skin texture, restrained color, and fine film grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, malformed jewelry, text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-red-carpet-model",
+          "required": true,
+          "source": "Original red-carpet preview image",
+          "usage": "Attach an approved adult face reference for identity continuity; preserve facial structure and likeness without using the named public figure from the source."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-lace-gown-and-capelet",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the black gown silhouette, lace pattern, capelet, pearls, and ring; the approved adult model may be replaced, but the specified outfit should remain consistent."
+        },
+        {
+          "type": "location",
+          "name": "blue-toned-gala-red-carpet",
+          "required": false,
+          "source": "Original preview image and source prompt",
+          "usage": "Optional environment reference; preserve the blue event backdrop, white floral hints, guests, and refined bokeh while allowing the venue to be replaced."
+        }
+      ],
+      "prompt_instructions": "The adult person and wardrobe references are required for identity and outfit continuity; the gala environment is optional. Keep the same adult identity across variations, black lace gown, jewelry, warm smile, and red-carpet lighting consistent. Replace the source celebrity with an approved adult; background guests and venue are replaceable, and any face reference must preserve facial structure without celebrity likeness."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public-figure identity with an approved clearly adult generic model while preserving the black lace gown, jewelry, pose, and gala concept."
+    ]
+  }
+}

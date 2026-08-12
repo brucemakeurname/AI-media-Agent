@@ -1,0 +1,27 @@
+{
+  "name": "dark-goth-virtual-influencer",
+  "tag": ["ugc", "casual-everyday", "other", "other", "goth-portrait"],
+  "image_type": "masked goth portrait",
+  "image_vibe": "dark glossy alternative goth",
+  "image_purpose": "UGC-style alternative fashion and AI-influencer visual",
+  "group": "other/other",
+  "prompt": {
+    "project_info": "Create a realistic dark alternative portrait of an original approved adult virtual-influencer character in an indoor bedroom setting.",
+    "main_subject": "An original approved adult woman with long black hair wears a glossy black face mask, black sleeveless alternative top, spiked leather wrist cuffs, and long black nails. She holds both hands beside the mask and looks directly toward camera with an intense editorial gaze.",
+    "composition_elements": "Vertical close portrait, centered face and shoulders, hands framing the mask, dark curtains, bedroom mirror, muted bedding, glossy mask and metal spikes catching highlights, and an unobtrusive clean background.",
+    "lighting_and_atmosphere": "Low-key indoor lighting with a direct flash accent, crisp reflections on glossy mask and metal hardware, deep black shadows, moody alternative-goth atmosphere.",
+    "technical_specs": "Realistic vertical smartphone portrait, close framing, direct-flash texture, natural skin variation, subtle grain, restrained desaturated color treatment, no watermark or promotional overlay.",
+    "generated_prompt_string": "Realistic vertical close portrait of an original approved adult woman with long black hair wearing a glossy black face mask, black sleeveless alternative top, spiked leather wrist cuffs, and long black nails. She holds both hands beside the mask and looks directly toward camera with an intense editorial gaze. Dark curtains, a bedroom mirror, muted bedding, glossy reflections, and metal spikes define the background. Low-key indoor light with a direct flash accent, deep shadows, natural skin texture, subtle grain, dark alternative goth mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, graphic violence, weapon use, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, promotional text, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "masked goth portrait reference", "required": true, "source": "attached source image", "usage": "Match the original adult character, mask, hair, cuffs, nails, hand placement, bedroom, and dark flash lighting."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve adult identity, mask design, outfit, accessories, pose, environment, and lighting. Logos, typography, watermark-like overlays, and decorative details are replaceable; remove promotional text from the final render."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an original approved adult virtual-influencer character.", "Preserved the masked goth styling without adding sexualized language.", "Added promotional-overlay removal and anti-slop exclusions."]
+  }
+}

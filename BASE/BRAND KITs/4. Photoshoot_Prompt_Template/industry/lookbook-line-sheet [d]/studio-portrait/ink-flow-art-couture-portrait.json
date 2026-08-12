@@ -1,0 +1,22 @@
+{
+  "name": "ink-flow-art-couture-portrait",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "art-couture", "calligraphy-fashion"],
+  "image_type": "art-couture gallery portrait",
+  "image_vibe": "warm, artistic, intelligent, cinematic",
+  "image_purpose": "editorial portrait and couture lookbook",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create an art-couture cinematic portrait of one original approved adult woman standing slightly angled in a warm-toned gallery.",
+    "main_subject": "Original approved adult woman with a soft intelligent smile, natural skin texture, and flowing couture gown constructed from layered calligraphy-like fabric strokes. Preserve the gown's sculptural volume, supplied calligraphic markings, and elegant posture.",
+    "composition_elements": ["Three-quarter to full-body standing portrait with the subject slightly angled and the gown's layered folds clearly visible.", "Warm gallery wall with a large calligraphic artwork behind the subject and restrained exhibition details.", "Preserve the supplied calligraphy-like typography as an integral wardrobe and artwork element; do not add unrelated text."],
+    "lighting_and_atmosphere": "Warm focused gallery spot lighting with soft ambient fill, textured shadows across the gown, gentle falloff, and contemplative cinematic atmosphere.",
+    "technical_specs": "Photorealistic 4:5 portrait, 50mm lens at f/2.8, sharp face and couture texture with moderate background falloff, visible fabric detail, subtle film grain, warm restrained grade, no watermark.",
+    "generated_prompt_string": "Art-couture cinematic portrait of one original approved adult woman standing slightly angled in a warm-toned gallery, wearing a flowing gown constructed from layered calligraphy-like fabric strokes. Give her a soft intelligent smile and natural skin texture. Show the sculptural layered folds of the gown in a three-quarter to full-body composition, with a large calligraphic artwork behind her. Use focused gallery spot lighting, textured shadows, warm ambient fill, cinematic depth, 50mm lens, 4:5 framing, photorealistic detail, preserve supplied calligraphic markings, no added text or watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "invented calligraphy", "unreadable added text", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "extra fingers", "deformed", "logo"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "ink-flow-art-couture-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult face, hair, smile, pose, and overall styling."}, {"type": "wardrobe", "name": "layered calligraphy-stroke couture gown", "required": true, "source": "local reference image", "usage": "Preserve gown structure, sculptural folds, fabric markings, and calligraphic typography."}, {"type": "location", "name": "warm-toned gallery with calligraphic artwork", "required": true, "source": "local reference image", "usage": "Preserve gallery setting, artwork placement, spot lighting, and textured shadows."}],
+      "prompt_instructions": "Attach all required person, wardrobe, and location references; no optional assets are needed. Keep identity, gown, supplied calligraphy, pose, gallery environment, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent couture, or equivalent gallery. Preserve typography only from supplied references; do not invent text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

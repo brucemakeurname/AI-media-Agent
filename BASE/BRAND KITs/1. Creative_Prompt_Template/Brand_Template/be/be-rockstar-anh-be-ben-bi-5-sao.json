@@ -1,0 +1,54 @@
+{
+  "name": "be-rockstar-anh-be-ben-bi-5-sao",
+  "tag": ["rockstar", "rider portrait", "5 star", "endorsement", "night-day split"],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Endorsement",
+  "group": "be_1565896101588308",
+  "prompt": {
+    "project_info": {
+      "theme": "Rockstar x be durable 5-star rider portrait",
+      "color_palette": "Bright yellow, royal blue, black, gray, white"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A front-facing young male be rider smiles while sitting on a yellow scooter centered on a wide empty road, with a dramatic split background from sunny yellow daylight on the left to deep blue starry night on the right, under a large 5-star durability campaign headline.",
+      "style": "Photoreal endorsement key visual, heroic centered rider portrait"
+    },
+    "composition_elements": {
+      "type": "Typography/Person/Vehicle/City Background",
+      "text": "be, ROCKSTAR NƯỚC TĂNG LỰC, ANH BE ROCKSTAR, BỀN BỈ 5 SAO",
+      "items": [
+        "Top Center: be and ROCKSTAR NƯỚC TĂNG LỰC logos.",
+        "Upper Middle: large black headline 'ANH BE ROCKSTAR'.",
+        "Below headline: blue rounded block with white text 'BỀN BỈ 5 SAO'.",
+        "Center: photoreal young male rider in yellow-blue be uniform and yellow helmet.",
+        "Foreground: yellow scooter shown front-on, aligned perfectly with road center.",
+        "Background Left: bright yellow daylight with Saigon tower and city skyline.",
+        "Background Right: deep blue night sky with stars and darker skyline."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Dramatic split commercial lighting",
+      "effect": "Heroic rider emphasis, day-to-night endurance concept, crisp centered portrait"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal brand-collab rider poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "male be rider portrait", "required": true, "source": "source image model reference", "usage": "Preserve the rider identity, smile, helmet, uniform, and frontal pose."},
+        {"type": "product", "name": "yellow scooter", "required": true, "source": "source image vehicle reference", "usage": "Keep the scooter's centered frontal angle and road alignment."},
+        {"type": "background", "name": "split day-night city backdrop", "required": true, "source": "source image background reference", "usage": "Preserve the left daylight and right night gradient split with skyline context."},
+        {"type": "text_layout", "name": "Rockstar rider headline", "required": true, "source": "source image text reference", "usage": "Keep the exact headline wording and the blue rounded 5-star badge."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve rider identity, scooter symmetry, and the day-night split concept.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the centered heroic portrait composition with the road vanishing behind."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square be x Rockstar endorsement poster with a centered empty road and a dramatic split background: bright yellow daylight with city skyline on the left and deep blue starry night on the right. Place the be and ROCKSTAR NƯỚC TĂNG LỰC logos at the top center. Add large black text 'ANH BE ROCKSTAR' and a blue rounded block reading 'BỀN BỈ 5 SAO'. In the center, show a photoreal smiling young male be rider in yellow-blue uniform and helmet sitting on a yellow scooter facing directly toward camera. Technical style: photoreal brand-collab rider poster, dramatic split commercial lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark muddy face, incorrect text, wrong logos, distorted scooter, low resolution, off-center pose, watermark, signature"
+  }
+}

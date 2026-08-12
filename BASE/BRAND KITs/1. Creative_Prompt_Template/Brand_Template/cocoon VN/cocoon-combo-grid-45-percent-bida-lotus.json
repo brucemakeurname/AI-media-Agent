@@ -1,0 +1,65 @@
+{
+  "name": "cocoon-combo-grid-45-percent-bida-lotus",
+  "tag": [
+    "combo-offer",
+    "grid-layout",
+    "micellar-water",
+    "lotus",
+    "discount",
+    "cream-background"
+  ],
+  "biz_niche": "E-commerce & Retail",
+  "content_format": "Special offers",
+  "group": "cocoon_976388758081893",
+  "prompt": {
+    "project_info": {
+      "theme": "Clean combo-offer catalog poster for Cocoon cleansing products",
+      "color_palette": "Warm Cream, Gold Yellow, Black, Soft Pink, Amber Brown"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A four-panel combo sale grid featuring Cocoon cleansing products and toners, each pair placed beside pricing bubbles and discount circles, with large product names in Vietnamese and percentages up to 45% off.",
+      "style": "Minimal commercial catalog design, clean e-commerce poster, realistic packshots on a cream background"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes combo descriptions such as 'COMBO Nước Tẩy Trang Bí Đao 500ml Nước Sen Hậu Giang 310ml', 'COMBO Nước Sen Hậu Giang 310ml Sữa Rửa Mặt Sen Hậu Giang 310ml', prices '598K 329K', '638K 377K', and discount badges 'GIẢM 45%' / 'GIẢM 41%'.",
+      "items": [
+        "Top Left: Large amber winter melon micellar water bottle and pink Hau Giang lotus toner bottle, with a white price circle '598K 329K' and a yellow discount circle 'GIẢM 45%'.",
+        "Top Right: Headline text describing the winter melon micellar water plus lotus toner combo, with the two products positioned below and a white price circle '638K 377K' plus yellow 'GIẢM 41%'.",
+        "Bottom Left: Another combo pair anchored by the winter melon micellar water and a darker cleanser bottle, plus repeated white and yellow price/discount circles.",
+        "Bottom Right: Large text block beginning 'COMBO Nước Tẩy Trang Bí Đao 500ml Gel Bí Đao Rửa Mặt 310ml'.",
+        "Center/Background: Spacious cream background with subtle shadows beneath each product packshot."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio packshot lighting",
+      "effect": "Even catalog illumination, faint object shadows, high legibility, polished retail display mood"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity retail poster design with realistic product packshots",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a clean combo-offer catalog of Cocoon cleansing products. Centerpiece is a four-quadrant grid of product pairs with large Vietnamese combo descriptions, circular original-versus-sale price badges, and yellow discount circles showing up to 45 percent off. Background is a warm cream field with minimal shadows. Surrounding elements: winter melon micellar water, Hau Giang lotus toner, Hau Giang lotus cleanser, and winter melon cleanser packshots arranged with exact text blocks such as 'COMBO Nước Tẩy Trang Bí Đao 500ml Nước Sen Hậu Giang 310ml' and visible prices like '598K 329K'. Keep the clean catalog spacing, accurate label orientation, and strong retail readability. Technical style: high fidelity retail poster design with realistic product packshots, soft studio packshot lighting, even catalog illumination, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Cocoon winter melon and lotus product packshots",
+          "required": true,
+          "source": "Attach official product packshots or crops from the original creative",
+          "usage": "Maintain exact bottle shapes, label text blocks, pump/cap styles, and liquid tint colors."
+        },
+        {
+          "type": "text_layout",
+          "name": "Four-panel combo catalog layout",
+          "required": true,
+          "source": "Use the original creative as composition reference",
+          "usage": "Preserve the quadrant structure, combo copy placement, and price/discount badge positions."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, attach each product packshot and instruct the model to preserve a clean cream retail poster layout with exact Vietnamese combo copy and numeric prices. Do not change the number of combo blocks or simplify the badge system."
+    }
+  }
+}

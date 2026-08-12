@@ -1,0 +1,22 @@
+{
+  "name": "satin-cartoon-girl-portrait",
+  "tag": ["ugc", "selfie-pov", "cozy-casual", "private-indoor"],
+  "image_type": "sunlit hallway mirror selfie",
+  "image_vibe": "playful cartoon-accented fashion portrait",
+  "image_purpose": "creator outfit, phone-case, and hallway reference",
+  "group": "cozy-casual/private-indoor",
+  "prompt": {
+    "project_info": "Create a safe, photorealistic hallway mirror selfie of an approved adult woman using the supplied local image as reference.",
+    "main_subject": "Approved adult woman with long straight black hair and light skin, wearing an opaque white satin short-sleeve top with a pink cartoon-style graphic and a black pleated skirt with secure coverage. Her hand rests near her chin in a playful non-sexualized pose.",
+    "composition_elements": "Sunlit indoor hallway mirror selfie, smartphone with a supplied black-and-white graphic case, white walls, gray tiled floor, framed posters, potted plant, and warm golden-hour sunlight. Keep body coverage secure; omit tattoos and invented text unless supplied separately as approved references.",
+    "lighting_and_atmosphere": "Warm golden-hour sunlight through a window with soft hallway shadows and a casual playful mood.",
+    "technical_specs": "Photorealistic mirror selfie, portrait 4:5, 35mm equivalent perspective, accurate reflection, natural skin and hair texture, sharp outfit detail.",
+    "generated_prompt_string": "Approved adult woman with long straight black hair takes a sunlit hallway mirror selfie, wearing an opaque white satin top with a pink cartoon-style graphic and a secure black pleated skirt. Include a supplied graphic phone case, white walls, gray tile, framed posters, potted plant, and warm golden-hour light. Keep the pose playful and non-sexualized; omit tattoos, creator marks, and invented typography.",
+    "negative_prompt": "explicit, nsfw, overly revealing, underage, childlike, sexualized pose, nudity, corset, lingerie, sheer fabric, fishnet tights, thigh-high stockings, exposed underwear, distorted mirror, extra fingers, malformed hands, unreadable text, watermark, logo invention, public figure likeness.",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "satin-cartoon-girl-portrait_0.jpg", "required": true, "source": "local preview", "usage": "Identity, hair, outfit palette, phone case, hallway, posters, plant, pose, and lighting reference."}],
+      "prompt_instructions": "Attach the required local image. Preserve identity, hair, phone case style, hallway, posters, plant, pose, and lighting; replaceability applies only to the identity with an approved reference. Replace corset/fishnet/thigh-high styling with opaque secure-coverage clothing and keep any graphic/text replaceable and supplied-only."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced corset, lace thigh-high, and fishnet styling with opaque secure-coverage clothing; removed tattoo and invented-text requirements."]}
+}

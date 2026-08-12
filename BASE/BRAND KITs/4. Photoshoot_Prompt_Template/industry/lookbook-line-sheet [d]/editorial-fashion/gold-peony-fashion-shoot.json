@@ -1,0 +1,37 @@
+{
+  "name": "Gold Peony Fashion Shoot",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "editorial-fashion"
+  ],
+  "image_type": "editorial fashion portrait",
+  "image_vibe": "refined, cool, opulent, cinematic",
+  "image_purpose": "high-end lookbook and line-sheet hero image",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create a hyper-realistic, cinematic high-fashion editorial image for a modernized Chinese-style and cyberpunk-inspired lookbook.",
+    "main_subject": "An adult East Asian woman with refined, cool facial features and smooth deep-brown hair casually coiled with a few loose strands. She wears a deep-brown and black silk halter top embroidered with intricate golden peonies and traditional floral patterns, a wide black butterfly-shaped embroidered stand collar, a slender metal necklace, matching long embroidered sleeves, and a delicate waist chain.",
+    "composition_elements": "Mid-shot half-body portrait, detached yet graceful expression, visible collarbone and realistic skin texture, minimalist blurred gray concrete background with subtle crack textures.",
+    "lighting_and_atmosphere": "Delicate scattered natural light softly outlines the face and collarbone; sophisticated antique bronze, deep chocolate brown, ink black, and champagne-gold palette; cool industrial atmosphere with luxurious visual tension.",
+    "technical_specs": "Hyper-realistic cinematic texture, extremely rich textile and embroidery detail, editorial composition, sharp subject focus, natural proportions.",
+    "generated_prompt_string": "A highly elegant adult East Asian woman in a refined and cool mid-shot portrait, deep-brown hair casually coiled with loose strands, wearing a modernized Chinese-style halter top in deep brown and black silk with intricate golden peony embroidery, traditional floral patterns, a wide black butterfly-shaped stand collar, necklace, matching long embroidered sleeves, and a delicate waist chain. Detached yet graceful expression, soft scattered natural light, realistic skin texture and silk sheen, blurred gray cracked concrete background, antique bronze, chocolate brown, ink black, and champagne-gold palette, hyper-realistic cinematic high-fashion editorial.",
+    "negative_prompt": "blurry, low quality, distorted anatomy, deformed hands, extra fingers, oversmoothed skin, harsh plastic texture, messy embroidery, watermark, logo, text, signature, explicit, nsfw, overly revealing",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "gold-peony-fashion-shoot.jpg",
+          "required": true,
+          "source": "workspace reference image",
+          "usage": "Reference the visible adult model, butterfly collar, embroidered brown-black silk styling, gray concrete background, and composition while preserving a fictional subject identity."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the adult subject's overall styling, outfit construction, embroidery, palette, pose, and industrial environment for consistency. Keep the identity fictional and replaceable; do not infer a public figure. Preserve outfit, product-free branding, logo-free wardrobe, environment, and typography-free presentation."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

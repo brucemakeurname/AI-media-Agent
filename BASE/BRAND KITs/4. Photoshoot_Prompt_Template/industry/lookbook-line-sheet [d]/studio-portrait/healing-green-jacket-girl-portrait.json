@@ -1,0 +1,22 @@
+{
+  "name": "healing-green-jacket-girl-portrait",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "varsity-fashion", "casual-portrait"],
+  "image_type": "casual studio fashion portrait",
+  "image_vibe": "friendly, fresh, relaxed, clean",
+  "image_purpose": "fashion lookbook and social editorial portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic vertical studio portrait of one original approved adult woman seated cross-legged on a light gray floor against a soft gray background.",
+    "main_subject": "Original approved adult woman with long wavy dark-brown hair, warm friendly smile, natural makeup, and visible natural skin texture. She wears a pastel green and white varsity jacket with supplied letter patches, a white fitted T-shirt, loose white pants with abstract black splatter patterns, and white sneakers.",
+    "composition_elements": ["Centered seated cross-legged pose with hands relaxed together in front and a welcoming expression.", "Plain soft gray background and light gray floor with minimal shadows.", "Preserve varsity jacket colors and patches, splatter pattern, white sneakers, relaxed styling, and clean modern aesthetic."],
+    "lighting_and_atmosphere": "Soft large-source front lighting with gentle fill, even neutral exposure, subtle floor shadow, and warm friendly studio atmosphere.",
+    "technical_specs": "Photorealistic 2:3 vertical portrait, 85mm lens at f/4, sharp face and textile detail, realistic skin pores, visible fabric weave, slight natural grain, restrained color grading, no text or watermark.",
+    "generated_prompt_string": "Photorealistic studio portrait of one original approved adult woman with long wavy dark-brown hair, a warm friendly smile, natural makeup and visible natural skin texture. She sits cross-legged on a light gray floor against a plain soft gray background, wearing a pastel green and white varsity jacket with supplied letter patches, a white fitted T-shirt, loose white pants with abstract black splatter patterns and white sneakers. Use a relaxed centered pose, soft even studio lighting, minimal shadows, clean modern fashion photography, 85mm lens, vertical 2:3 framing, realistic fabric and skin detail, no text or watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "extra fingers", "deformed", "invented lettering", "text"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "healing-green-jacket-girl-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult face, hair, smile, pose, and styling."}, {"type": "wardrobe", "name": "pastel green-white varsity jacket, white shirt, splatter pants and sneakers", "required": true, "source": "local reference image", "usage": "Preserve supplied colors, patches, garment layers, splatter pattern, and footwear."}, {"type": "background", "name": "soft gray studio background and floor", "required": true, "source": "local reference image", "usage": "Preserve neutral background, seated floor placement, and minimal shadow."}],
+      "prompt_instructions": "Attach all required person, wardrobe, and background references; no optional assets are needed. Keep identity, adult age, outfit, supplied patches, pose, environment, lighting, and typography consistent. Replace only with an equivalent approved adult or equivalent supplied wardrobe/background. Preserve supplied lettering only; do not invent text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and retained the casual varsity-fashion concept, supplied patches, seated pose, and friendly expression."]}
+}

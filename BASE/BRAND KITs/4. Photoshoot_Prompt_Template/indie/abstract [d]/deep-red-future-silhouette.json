@@ -1,0 +1,72 @@
+{
+  "name": "deep-red-future-silhouette",
+  "tag": [
+    "adult-subject",
+    "red-monochrome",
+    "neon-line",
+    "side-profile",
+    "cyberpunk",
+    "minimalism"
+  ],
+  "image_type": "futuristic-editorial-portrait",
+  "image_vibe": "intense-minimal-cyberpunk",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "source_url": "https://x.com/Kashberg_0/status/2021069767692648646",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "red-neon contour portrait",
+      "color_palette": "deep crimson, neon red, black, muted warm skin",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult subject",
+      "detail": "An adult subject with short dark hair wearing a black high-neck top, captured in an upward side profile with closed eyes.",
+      "style": "ultra-stylized cinematic fashion portrait"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "left-facing side profile",
+        "head tilted upward and eyes closed",
+        "black clothing merging into shadow",
+        "single red neon contour from nose bridge to ear",
+        "second red contour tracing the neck",
+        "flat deep-red background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "narrow neon-red practical strips plus low-key studio fill",
+      "effect": "sharp facial contours, controlled highlights, deep shadow, and glowing red edges"
+    },
+    "technical_specs": {
+      "render_style": "85mm studio portrait, high contrast, subtle film grain, natural skin texture",
+      "resolution": "ultra-high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Ultra-stylized cinematic portrait of an adult subject in side profile, head tilted back and eyes closed, with a minimal calm expression. Use a deep-red monochrome background and a black high-neck silhouette that blends into shadow. A glowing neon-red light strip traces from the nose bridge to the ear, while a second strip wraps around the neck, creating a futuristic cyberpunk visual language. High-contrast studio lighting, dramatic shadows, sharp facial contours, natural skin texture, minimalist composition, bold red palette, and moody surreal editorial fashion atmosphere.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, text, logo",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-profile-subject-reference",
+          "required": false,
+          "source": "Attach an adult reference when exact facial profile is required.",
+          "usage": "Preserve short-hair silhouette, jawline, and upward profile pose."
+        },
+        {
+          "type": "graphic",
+          "name": "red-neon-contour-reference",
+          "required": false,
+          "source": "Attach a lighting reference when exact neon path is required.",
+          "usage": "Keep one face contour and one neck contour in saturated neon red."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve adult subject, black high-neck wardrobe, red background, upward profile, and two neon contour lines. Person and light path may be changed independently."
+    }
+  }
+}

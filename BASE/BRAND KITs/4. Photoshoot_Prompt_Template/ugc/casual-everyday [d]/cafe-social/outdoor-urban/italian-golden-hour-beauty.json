@@ -1,0 +1,58 @@
+{
+  "name": "italian-golden-hour-beauty",
+  "tag": [
+    "ugc",
+    "cafe-social",
+    "outdoor-urban",
+    "italian-trattoria",
+    "golden-hour",
+    "sunglasses-portrait"
+  ],
+  "image_type": "ugc-cafe-lifestyle-portrait",
+  "image_vibe": "warm-italian-candid",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cafe-social/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic outdoor Italian trattoria portrait during warm late-afternoon light, preserving the relaxed table setting and sunglasses gesture.",
+    "main_subject": "One original approved adult woman with shoulder-length wavy auburn hair, natural volume, visible pores and light freckles. She wears oversized round tortoiseshell sunglasses and a relaxed cream silk blouse with softly puffed sleeves and buttoned cuffs, with subtle peach makeup and natural lips.",
+    "composition_elements": "Square or 4:5 medium portrait at eye level. Seat the adult woman at a rustic outdoor trattoria table, one hand gently adjusting the sunglasses while the other rests naturally. Include an orange aperitif in a stemmed glass with its supplied label, bread basket, tableware, neighboring wooden tables, awning and narrow urban street background.",
+    "lighting_and_atmosphere": "Warm golden-hour daylight filtered through the awning, soft realistic shadows and gentle highlights on hair, sunglasses and silk. Keep the atmosphere stylish, relaxed and authentically Italian rather than studio-polished.",
+    "technical_specs": "4:5 or square smartphone portrait, 35–50mm equivalent lens, sharp face, glasses and fabric detail, moderate depth of field, realistic reflections in the glass and sunglasses, natural color grading and subtle grain.",
+    "generated_prompt_string": "Create a photorealistic outdoor Italian trattoria portrait during warm golden hour of one original approved adult woman with shoulder-length wavy auburn hair, natural volume, visible pores and light freckles. She wears oversized round tortoiseshell sunglasses and a relaxed cream silk blouse with softly puffed sleeves and buttoned cuffs, with subtle peach makeup and natural lips. Use an eye-level square or 4:5 medium portrait at a rustic outdoor table; one hand gently adjusts the sunglasses while the other rests naturally. Include an orange aperitif in a stemmed glass with its supplied label, a bread basket, tableware, neighboring wooden tables, awning and a narrow urban street background. Use warm daylight, soft realistic shadows, gentle highlights, realistic reflections, natural color and subtle grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, invented logos, altered supplied label, unreadable added text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "italian-golden-hour-beauty.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, auburn hair, freckles, sunglasses, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "tortoiseshell round sunglasses and cream silk blouse",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve glasses shape, blouse color, silk sheen, sleeve volume and fit; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "Italian trattoria patio, awning, rustic table and urban street",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve table, awning, street architecture, bread basket and supplied aperitif; environment may be replaced through explicit references while retaining golden-hour composition."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, face, hair, outfit, sunglasses gesture, table setting and lighting consistent. The approved adult, wardrobe and environment may be replaced independently with explicit references. Preserve existing drink labeling only when the supplied reference is retained; do not invent new logos or typography."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adult.",
+      "Preserved the cafe portrait, outfit, sunglasses gesture and supplied drink label while removing no creative intent.",
+      "Added safety and anti-invented-text negative prompts."
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "walk-of-fame-upward-gaze",
+  "tag": ["ugc", "selfie-pov", "modern-luxury", "outdoor-urban", "golden-hour", "walk-of-fame", "upward-gaze"],
+  "image_type": "overhead golden-hour street portrait",
+  "image_vibe": "intimate, soft, natural, candid, warm",
+  "image_purpose": "social-media portrait",
+  "group": "selfie-pov/modern-luxury/outdoor-urban",
+  "prompt": {
+    "project_info": "Natural photorealistic 9:16 close-up portrait taken directly overhead during golden hour on an outdoor Los Angeles Walk of Fame-style sidewalk, with warm soft afternoon light and social-media candid aesthetic.",
+    "main_subject": "One original adult woman with shoulder-length dark hair in a ponytail, fair skin with natural freckles across the nose, cheeks and forehead, light brown eyes with long dark lashes, natural brows and soft mauve-red lips. She wears a pink off-shoulder sleeveless top with ribbed texture and ruffle details, a short denim skirt, multiple gold rings, small gold hoop earrings and a gold chain with a ruby pendant. Do not reproduce Sydney Sweeney or any other public figure.",
+    "composition_elements": "Kneel or sit on charcoal terrazzo pavement with both hands resting naturally on the knees and look straight up at the overhead camera with a soft neutral expression. Frame head, shoulders and hands in a close-up while keeping a gold star visible beneath or beside her. Use the rule of thirds and a clean social-media composition.",
+    "lighting_and_atmosphere": "Soft warm golden-hour sunlight casts a diagonal shadow across the pavement, with natural outdoor contrast and gentle highlights on freckles, hair and jewelry. Keep the atmosphere intimate, candid, warm and natural, without studio lighting or heavy makeup.",
+    "technical_specs": "Photorealistic 9:16 overhead smartphone or mirrorless portrait, close-up head-shoulders-hands framing, realistic skin, hair, ribbed fabric, denim, terrazzo and jewelry texture, natural golden-hour color, no text, logo or watermark.",
+    "generated_prompt_string": "Natural photorealistic 9:16 close-up portrait taken directly overhead of one original adult woman kneeling on a charcoal terrazzo Walk of Fame-style sidewalk during golden hour. Shoulder-length dark ponytail, fair freckled skin, light brown eyes, long lashes, natural brows, soft mauve-red lips and soft neutral expression looking straight up. Pink ribbed off-shoulder sleeveless top with ruffle details, short denim skirt, gold rings, small hoops and gold chain with ruby pendant. Both hands rest on knees; a gold star is visible on the pavement. Warm soft afternoon sunlight casts diagonal shadow, intimate candid social-media mood, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Sydney Sweeney likeness, distorted anatomy, extra fingers, malformed hands, harsh shadows, indoor setting, studio lighting, heavy makeup, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "walk-of-fame-upward-gaze.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult freckled subject, ponytail, pink top, denim skirt, jewelry, overhead pose, gold star pavement, golden-hour light and close-up framing; replace the named identity with an original adult."
+        },
+        {
+          "type": "image_asset",
+          "name": "1769529407140-dqao486t-1.jpeg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202601/1769529407140-dqao486t-1.jpeg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required and image asset is optional; it is not inspected. Keep the adult original subject, wardrobe, jewelry, hands-on-knees pose, gold star pavement, overhead angle and golden-hour lighting consistent. Replace identity only."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Sydney Sweeney with an original adult woman.",
+      "Preserved the source's non-explicit wardrobe, overhead pose, location, jewelry, lighting and candid portrait intent.",
+      "Added required safety and artifact exclusions."
+    ]
+  }
+}

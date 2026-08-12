@@ -1,0 +1,74 @@
+{
+    "name":  "cinematic-movie-title-poster",
+    "tag":  [
+                "movie-poster",
+                "cinematic",
+                "kinetic-typography",
+                "storytelling",
+                "title-design"
+            ],
+    "biz_niche":  "Entertainment & Pop Culture",
+    "content_format":  "Brand story",
+    "group":  "poster_134",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Emotionally charged blockbuster film title concept",
+                                        "color_palette":  "Cold blue, neutral white, charcoal black, and one title-driven accent color"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Cinematic environment and kinetic title",
+                                        "detail":  "A dramatic story scene built around [MOVIE TITLE], whose title typography physically embodies its meaning through dissolving, cracking, melting, or glowing material behavior.",
+                                        "style":  "Ultra-realistic high-definition blockbuster key art, iconic expressive typography, high narrative contrast"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Title, tagline, atmospheric environment, and lone figure or central symbol",
+                                                "text":  "[MOVIE TITLE]; [SHORT EMOTIONALLY RESONANT TAGLINE]",
+                                                "items":  [
+                                                              "Center: iconic [MOVIE TITLE] integrated into the setting with title-specific material transformation.",
+                                                              "Below title: one short emotionally resonant tagline.",
+                                                              "Background: dramatic environment that makes the title\u0027s meaning visible through visual storytelling.",
+                                                              "Atmosphere: volumetric fog, deep space, selective bloom, subtle lens flare, and film grain.",
+                                                              "Optional lower area: small silhouetted figure or symbolic story element to establish scale."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Cold cinematic lighting",
+                                                   "effect":  "High Kelvin neutral-to-blue grade, sharp shadows, volumetric fog, deep depth of field, soft bloom, subtle lens flare, fine film grain"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Ultra-realistic high-budget blockbuster movie-poster key art",
+                                           "resolution":  "8k resolution, highly detailed, 2.35:1 aspect ratio"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "Approved cast reference",
+                                                                 "required":  false,
+                                                                 "source":  "licensed cast portrait or approved generated character",
+                                                                 "usage":  "Use only if the concept needs an identifiable performer."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "Cinematic title treatment reference",
+                                                                 "required":  true,
+                                                                 "source":  "supplied reference image",
+                                                                 "usage":  "Match title dominance and tagline relationship, not existing copyrighted key art."
+                                                             },
+                                                             {
+                                                                 "type":  "background",
+                                                                 "name":  "Story-world location reference",
+                                                                 "required":  false,
+                                                                 "source":  "licensed location photography or original concept art",
+                                                                 "usage":  "Ground the title in a coherent environment."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach approved character or location refs when exact likeness or place fidelity is required.",
+                                                                          "Create original title treatments and do not imitate an existing film\u0027s protected poster artwork."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "\u0027[MOVIE TITLE]\u0027 - cinematic movie poster design in ultra-realistic, high-definition style. Capture a dramatic and emotionally charged scene based on the film\u0027s title. Use a high Kelvin color temperature to eliminate yellow tint, favoring cold, bluish tones or neutral whites. Add volumetric fog, sharp shadows, and deep depth of field. Simulate a cinematic lens with soft bloom, subtle lens flare, and film grain. Render the title \u0027[MOVIE TITLE]\u0027 in expressive kinetic typography that visually embodies the meaning of the word (e.g. dissolving, cracked, melting, glowing). Typography should feel integrated into the environment, bold and iconic. Include a short, emotionally resonant tagline beneath the title. Overall composition must resemble a high-budget blockbuster movie poster, with a 2.35:1 aspect ratio and strong visual storytelling.",
+                   "negative_prompt":  "warm yellow grade, flat lighting, generic title, illegible typography, weak story, low contrast, low resolution, cartoon styling, watermark, signature"
+               }
+}

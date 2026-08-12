@@ -1,0 +1,19 @@
+{
+  "name": "night-light-pillar-portrait",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "white-car", "night-flash"],
+  "image_type": "night-road-vehicle-portrait",
+  "image_vibe": "dramatic-realistic-night",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a full-length environmental night portrait of an approved adult woman leaning against a white compact hatchback on a roadside.",
+    "main_subject": "An approved adult woman wearing a white long-sleeve top with tonal lace or embroidery at the chest, high-waisted grey straight-leg jeans, and blue thong sandals. She leans casually against the front of the car with relaxed posture.",
+    "composition_elements": "Full-length vertical portrait with dusty gravel, blue corrugated gate, rustic structure, dark hillside, distant city lights, and white car clearly visible.",
+    "lighting_and_atmosphere": "Harsh artificial light from upper left creates vertical lens-flare pillars and long hard shadows, with stark contrast against the dark background.",
+    "technical_specs": "Photorealistic high-detail night photography, vertical framing, sharp subject and car, realistic flash/floodlight falloff, natural proportions.",
+    "generated_prompt_string": "Create a photorealistic full-length vertical night portrait of an approved adult woman leaning casually against the front fascia of a white compact hatchback. She wears a white long-sleeve embroidered top, high-waisted grey straight-leg jeans, and blue sandals. Place her on dusty gravel beside a rustic structure with a blue corrugated gate, dark hillside, and distant city lights. Use harsh upper-left artificial light, dramatic vertical lens-flare pillars, long hard shadows, and stark realistic contrast.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted vehicle, excessive flare",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-white-car-subject", "required": true, "source": "night-light-pillar-portrait.jpg", "usage": "Preserve adult identity, outfit, relaxed posture, and vehicle pose."}, {"type": "wardrobe", "name": "white-embroidered-top-grey-jeans", "required": true, "source": "night-light-pillar-portrait.jpg", "usage": "Keep clothing and sandals consistent; replace only with explicit references."}, {"type": "vehicle", "name": "white-compact-hatchback", "required": true, "source": "night-light-pillar-portrait.jpg", "usage": "Maintain car form, color, front fascia, and placement; replace only with explicit references."}, {"type": "location", "name": "dusty-road-blue-gate-night", "required": true, "source": "night-light-pillar-portrait.jpg", "usage": "Preserve gate, hillside, lights, gravel, and light pillars; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, vehicle, and location references when exact consistency is required. Keep adult identity, outfit, vehicle/product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the observed vehicle portrait.", "Added safe negative prompts and structured references."]}
+}

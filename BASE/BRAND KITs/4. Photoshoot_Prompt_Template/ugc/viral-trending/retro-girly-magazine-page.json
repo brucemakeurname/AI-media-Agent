@@ -1,0 +1,27 @@
+{
+  "name": "retro-girly-magazine-page",
+  "tag": ["ugc", "retro-magazine", "sweet-fashion", "editorial-layout", "typography"],
+  "image_type": "magazine-editorial-page",
+  "image_vibe": "retro-sweet-informative",
+  "image_purpose": "editorial",
+  "group": "viral-trending",
+  "prompt": {
+    "project_info": "Create a fully designed retro-girly fashion magazine interior page inspired by early-2000s to 2010s Japanese sweet-outfit monthly magazines.",
+    "main_subject": "An adult fashion model whose facial features and hairstyle follow the approved reference image, presented in a large main image with a sweet pastel outfit and soft editorial styling.",
+    "composition_elements": "Real magazine content page, not a poster: large main model image, outfit-item breakdown modules, eye/lip/blush makeup tutorial frames, hairstyle tips, coordination suggestions, 3-day coordinate, item checklist, clothing/bag/shoe/cosmetic product images, magazine titles, subtitles, annotations, price tags, and explanatory text. Use rich but clear hierarchy and readable typography.",
+    "lighting_and_atmosphere": "Soft pastel sweet-fashion editorial mood, cohesive page photography, gentle pink and cream palette, polished print texture and early-2000s Japanese magazine energy.",
+    "technical_specs": "Full-page editorial layout, high-completion magazine design, crisp typography, multiple modules with clear alignment, realistic product cutouts and photography, preserve the reference face and hairstyle, no poster-like single-image treatment.",
+    "generated_prompt_string": "Reference the approved adult model's facial features and hairstyle. Generate a full retro-girly fashion magazine interior page similar to early-2000s to 2010s Japanese sweet outfit monthly magazine style, designed as a real magazine content page rather than a poster. Include a large main model image, multiple outfit-item breakdown modules, small eye makeup, lip makeup, and blush tutorial frames, hairstyle tips and hair-arrangement frames, coordination suggestions, a 3-day coordinate section, item checklist, several product images of clothes, bags, shoes, and cosmetics, magazine titles, subtitles, annotations, price tags, and explanatory text. Use a rich information-dense but clear layout with cohesive sweet pastel pink and cream styling, readable typography, polished print texture, and consistent adult identity and hairstyle.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, identity drift, single-image poster, empty layout, illegible typography, random text, inconsistent product modules, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, extra limbs, extra fingers, deformed, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved adult magazine model", "required": true, "source": "matching local preview image and face/hair reference", "usage": "Preserve approved adult face, facial structure, hairstyle, and styling across the main image and tutorial frames."},
+        {"type": "text_layout", "name": "retro Japanese sweet-magazine typography", "required": true, "source": "matching local preview image", "usage": "Preserve dense editorial hierarchy, title/subtitle zones, annotations, price tags, checklists, and readable module structure; replace text content without losing layout."},
+        {"type": "product", "name": "fashion and beauty product modules", "required": true, "source": "matching local preview image", "usage": "Preserve clothing, bags, shoes, cosmetics, and item-breakdown module roles; products may be replaced while keeping category and visual hierarchy."},
+        {"type": "color_palette", "name": "sweet pastel pink and cream palette", "required": true, "source": "matching local preview image", "usage": "Keep the soft retro-girly palette and print-like finish consistent."}
+      ],
+      "prompt_instructions": "Attach the matching preview and approved adult face/hair reference to lock identity, page hierarchy, typography zones, products, and palette. Preserve the magazine's information density and module structure. Text, products, and model may be replaced only while retaining their roles; do not invent logos, misleading brands, or unrelated typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

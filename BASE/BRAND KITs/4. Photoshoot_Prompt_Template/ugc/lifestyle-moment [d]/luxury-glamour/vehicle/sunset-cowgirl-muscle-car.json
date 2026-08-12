@@ -1,0 +1,37 @@
+{
+  "name": "sunset-cowgirl-muscle-car",
+  "tag": ["cowgirl", "muscle-car", "sunset", "western"],
+  "image_type": "UGC fashion lifestyle photo",
+  "image_vibe": "western, cinematic, warm, confident",
+  "image_purpose": "Automotive and western-fashion social content",
+  "group": "ugc/lifestyle-moment/luxury-glamour/vehicle",
+  "prompt": {
+    "project_info": "Create a cinematic western-fashion lifestyle image beside a vintage orange muscle car.",
+    "main_subject": "One generic approved adult woman with a confident, natural posture, wearing a black cowboy hat, red triangle-style top with secure coverage, distressed denim shorts with a comfortable fit, and brown cowboy boots. Use a natural curvy feminine silhouette without anatomical emphasis.",
+    "composition_elements": "Vertical full-body composition beside the open door and side of an orange vintage muscle car. Preserve the large number 01 racing decal, one hand near the pocket, boots fully visible, dry rural field, and low horizon. Keep the subject and vehicle clearly separated.",
+    "lighting_and_atmosphere": "Warm golden-hour backlight, soft long shadows, dry grassland, cinematic amber highlights, calm western road-trip atmosphere.",
+    "technical_specs": "Photorealistic vertical lifestyle photography, realistic anatomy and hands, natural fabric texture, accurate car reflections, legible 01 decal without extra text, no logos or watermark.",
+    "generated_prompt_string": "Photorealistic vertical full-body western lifestyle photo, one generic approved adult woman in a black cowboy hat, secure red triangle-style top, comfortable distressed denim shorts, and brown cowboy boots, standing confidently beside the open door of an orange vintage muscle car with a large 01 racing decal, one hand near her pocket, dry rural field and low horizon, warm golden-hour backlight, long soft shadows, cinematic amber color grade, natural curvy feminine silhouette, realistic anatomy and fabric, no anatomical emphasis, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, exaggerated breasts, bust emphasis, body-part close-up, distorted anatomy, extra fingers, malformed hands, duplicate subject, incorrect car lettering, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "sunset-cowgirl-muscle-car reference",
+          "required": true,
+          "source": "Attach the provided reference image",
+          "usage": "Match the cowboy hat, red top, denim shorts, boots, orange muscle car, 01 decal, pose, rural setting, and golden-hour mood while keeping the adult subject generic and non-sexualized."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the vehicle color, 01 graphic, wardrobe categories, full-body framing, pose, rural environment, and sunset lighting. Keep identity, body shape, outfit details, vehicle, decal, and environment replaceable. Use neutral anatomy language and do not intensify exposure or body emphasis."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed exaggerated bust-volume and projection language.",
+      "Replaced it with a neutral curvy feminine silhouette and secure wardrobe coverage.",
+      "Added explicit safety exclusions for sexualized framing and anatomical emphasis."
+    ]
+  }
+}

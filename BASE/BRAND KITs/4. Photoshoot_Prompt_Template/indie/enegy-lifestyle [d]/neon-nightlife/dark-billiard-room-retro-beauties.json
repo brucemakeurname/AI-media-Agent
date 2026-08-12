@@ -1,0 +1,82 @@
+{
+  "name": "dark-billiard-room-retro-beauties",
+  "tag": [
+    "adult-group",
+    "billiard-room",
+    "80s-noir",
+    "retro-glamour",
+    "cinematic-editorial"
+  ],
+  "image_type": "group-fashion-editorial",
+  "image_vibe": "dark-noir-retro-glamour",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed celebrity likenesses, sexualized body specifications and prone pose, and cigarette or smoke imagery; recast the scene as three original adult models in an elegant billiard-room editorial."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "1980s noir billiard-room group fashion editorial",
+      "color_palette": "green felt, crimson, charcoal, electric blue, mahogany, and warm amber shadows",
+      "format": "vertical 9:16 full-room composition"
+    },
+    "main_subject": {
+      "description": "three distinct original adult fashion models, none resembling a real public figure: one in a crimson satin structured-shoulder dress, one in a charcoal three-piece suit with a white shirt, loosened black tie, and black felt fedora, and one in an electric-blue sequined power blazer with high-waisted black tailored trousers",
+      "pose_and_expression": "the first adult sits elegantly on the edge of the green-felt table, the second holds a billiard cue, and the third holds cue chalk; all have composed, self-possessed editorial expressions and natural proportions"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level vertical full-room editorial view",
+      "foreground": "green billiard felt, neatly arranged balls, and the crimson-dressed adult model",
+      "background": "dark wood billiard room with mahogany details, vintage lamps, and the remaining two adult models clearly separated in depth",
+      "visual_hierarchy": "three adult faces and wardrobe contrasts, centered billiard table, then warm noir interior"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "low-key warm overhead billiard lamps with controlled amber pools of light and cool edge accents",
+      "atmosphere": "cinematic, mysterious, upscale, and playful rather than provocative"
+    },
+    "technical_specs": {
+      "camera": "Sony A7R V",
+      "lens": "35mm f/2",
+      "settings": "1/125s, f/2.8, ISO 800",
+      "rendering": "photorealistic cinematic editorial, natural skin texture, subtle film grain, balanced shadows, and realistic fabric detail"
+    },
+    "generated_prompt_string": "Create a photorealistic vertical 9:16 cinematic fashion editorial in a 1980s-inspired dark wood billiard room. Feature three distinct original adult models, none resembling real public figures: one in a crimson satin structured-shoulder dress seated elegantly on the edge of a green-felt billiard table; one in a charcoal three-piece suit, white shirt, loosened black tie, and black felt fedora holding a billiard cue; and one in an electric-blue sequined power blazer with high-waisted black tailored trousers holding cue chalk. Center the billiard table with vintage lamps, mahogany details, and neatly arranged billiard balls. Use low-key warm overhead lamps, controlled amber pools, cool edge accents, natural skin texture, realistic fabrics, subtle film grain, and a dark noir retro-glamour mood. No public figures, smoking, text, or logos.",
+    "negative_prompt": "celebrity likeness, public-figure likeness, minor, explicit, nsfw, overly revealing clothing, nudity, sexualized body proportions, prone pose, smoking, cigarette, smoke, readable text, logo, watermark, distorted anatomy, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use each only to replace the stated wardrobe, room, or prop element; do not reproduce identities, brands, or readable text.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-group-references",
+          "required": false,
+          "source": "approved adult non-public-figure portraits",
+          "usage": "Replace specified adult identities only; never copy a public figure."
+        },
+        {
+          "type": "environment",
+          "name": "dark-wood-billiard-room-reference",
+          "required": false,
+          "source": "approved environment reference",
+          "usage": "Replace room architecture, lamp placement, and table finish."
+        },
+        {
+          "type": "wardrobe",
+          "name": "80s-noir-group-wardrobe-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Replace the three adult wardrobe looks without copying an identity or brand."
+        },
+        {
+          "type": "prop",
+          "name": "billiard-table-and-cue-set-reference",
+          "required": false,
+          "source": "approved prop reference",
+          "usage": "Replace table, cue, balls, and chalk styling."
+        }
+      ]
+    }
+  }
+}

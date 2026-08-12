@@ -1,0 +1,71 @@
+{
+  "name": "dusk-graffiti-silver-skater",
+  "tag": [
+    "skater",
+    "graffiti-wall",
+    "dusk-streetwear",
+    "headphones",
+    "urban-solitude"
+  ],
+  "image_type": "streetwear-lifestyle-portrait",
+  "image_vibe": "quiet-urban-introspective",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/golden-hour-street",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult while preserving the dusk streetwear and urban-solitude concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "quiet dusk streetwear portrait beside a graffiti-covered brick wall",
+      "color_palette": "brick red, muted olive, soft amber, cool gray, and faded graffiti color",
+      "format": "vertical low-angle three-quarter portrait"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "Adult silver-blonde woman with loose tousled hair and black over-ear headphones, sitting reflectively beside a brick wall. She wears an oversized plaid flannel shirt, loose cargo pants, and worn white sneakers.",
+      "style": "functional relaxed streetwear, grounded and non-sexualized"
+    },
+    "composition_elements": {
+      "text": "no readable text, logo, or watermark",
+      "items": [
+        "adult subject seated with knees bent, back against a faded graffiti brick wall",
+        "scuffed skateboard leaning beside the subject",
+        "wall-mounted street lamp above the composition",
+        "rough asphalt and small debris at the base of the wall"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "warm street-lamp light mixed with soft natural twilight",
+      "effect": "amber brick highlights, gentle shadows, muted end-of-day city stillness"
+    },
+    "technical_specs": {
+      "camera": "Fujifilm X-T5",
+      "lens": "XF 35mm f/1.4 at f/2.8",
+      "render_style": "moderate depth of field, rough street texture, natural fabric folds, restrained cinematic color"
+    },
+    "generated_prompt_string": "Create a vertical low-angle streetwear lifestyle portrait of an adult silver-blonde woman seated reflectively beside a faded graffiti-covered brick wall at dusk. She wears black over-ear headphones, an oversized plaid flannel shirt, loose cargo pants, and worn white sneakers. Place a scuffed skateboard leaning beside her, a wall-mounted street lamp above, and rough asphalt with small debris below. Use warm street-lamp light mixed with soft twilight, amber highlights on the brick, muted graffiti color, gentle shadows, natural fabric texture, and a quiet non-sexualized urban-solitude mood. Keep graffiti abstract with no readable text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, sexualized pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra limbs, deformed, readable text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-skater-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity replacement is required.",
+          "usage": "Replace only the adult subject identity while retaining headphones, streetwear, seated skater pose, graffiti wall, and dusk lighting."
+        },
+        {
+          "type": "background",
+          "name": "graffiti-wall-reference",
+          "required": false,
+          "source": "Attach a location reference if a specific wall or street setting is required.",
+          "usage": "Replace wall texture and graffiti shapes while keeping all writing abstract and unreadable, and retain the lamp, asphalt, and dusk mood."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. References are optional; preserve streetwear, headphones, skateboard, graffiti-wall context, warm lamp plus twilight lighting, and the quiet non-sexualized mood."
+    }
+  }
+}

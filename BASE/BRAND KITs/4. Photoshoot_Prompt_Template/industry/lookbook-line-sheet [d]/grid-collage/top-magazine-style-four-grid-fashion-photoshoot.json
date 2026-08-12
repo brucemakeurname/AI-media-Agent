@@ -1,0 +1,27 @@
+{
+  "name": "top-magazine-style-four-grid-fashion-photoshoot",
+  "tag": ["magazine", "tailored-fashion", "chair", "behind-the-scenes", "grid-collage"],
+  "image_type": "editorial-fashion-grid",
+  "image_vibe": "polished-studio-luxury",
+  "image_purpose": "lookbook",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Four-image professional fashion photography collage with an authentic behind-the-scenes studio atmosphere and high-end magazine aesthetic.",
+    "main_subject": "One original approved adult woman in black tailored trousers and a crisp white formal shirt, with natural skin texture and consistent approved-adult facial structure.",
+    "composition_elements": "Four-panel collage of different angles while interacting with a modern wooden chair: seated facing camera with arms over the chair back, standing beside the chair in profile, seated front-facing with hands lowered and a seated editorial pose. Include visible light stands, reflectors and large softbox at the studio edges. Neutral grey seamless backdrop paper curves onto the floor.",
+    "lighting_and_atmosphere": "Large softbox on one side with a rim light behind creating a subtle outline glow, clean shadows and luxury editorial lighting; preserve the authentic BTS studio feel.",
+    "technical_specs": "Ultra-detailed textures, cinematic clarity, professional studio photography, four-panel grid, sharp fabric detail, neutral grey palette and balanced spacing.",
+    "generated_prompt_string": "Upload the supplied reference image and create a four-image collage in a professional fashion photography studio. Show one original approved adult woman with natural skin texture and consistent approved-adult facial structure wearing black tailored trousers and a crisp white formal shirt, posing in different angles while interacting with a modern wooden chair. Include a seated front-facing pose with arms over the chair back, a standing side pose beside the chair, a seated pose with hands lowered and another composed editorial chair pose. The studio setup includes a large softbox on one side, a rim light behind creating a subtle glow outline, visible light stands and reflectors for an authentic behind-the-scenes feel, and neutral grey seamless backdrop paper slightly curved at the floor. Use clean shadows, sharp detailing, luxury editorial lighting, high-end magazine photoshoot aesthetic, ultra-detailed textures and cinematic clarity.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, nudity, child, teen, identity drift, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, duplicate chair, cluttered background, unreadable text or logos",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "top-magazine-style-four-grid-fashion-photoshoot.jpg", "required": true, "source": "local reference image", "usage": "Attach for the original approved-adult face, facial structure, hair, expressions and consistent identity across the collage."},
+        {"type": "wardrobe", "name": "black tailored trousers and crisp white formal shirt", "required": true, "source": "local reference image", "usage": "Preserve supplied tailoring, colors, fit and fabric texture."},
+        {"type": "product", "name": "modern wooden chair", "required": true, "source": "local reference image", "usage": "Preserve chair design, wood tone, scale and interaction across panels."},
+        {"type": "background", "name": "neutral grey seamless studio with visible light stands and reflectors", "required": true, "source": "local reference image", "usage": "Preserve backdrop curve, BTS equipment visibility and studio environment."}
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, product and background references; no optional assets are needed. Keep approved-adult identity, outfit, chair, four-panel count, poses, environment, lighting and typography consistent. Replace only with an equivalent approved adult, supplied wardrobe, chair or studio. Typography is not applicable; do not invent text, logos or watermark."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

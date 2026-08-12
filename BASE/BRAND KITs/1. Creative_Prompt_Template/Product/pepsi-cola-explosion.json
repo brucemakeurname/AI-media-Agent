@@ -1,0 +1,70 @@
+{
+    "name":  "pepsi-cola-explosion",
+    "tag":  [
+                "beverage",
+                "product demo",
+                "liquid splash",
+                "cola",
+                "3d advertising",
+                "hero product"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Product demos",
+    "group":  "product_beverage_hero",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Premium carbonated cola splash advertisement",
+                                        "color_palette":  "Pepsi blue, cola brown, ice white, lemon yellow, mint green"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A tilted blue Pepsi can, centered and dominant, erupting with cola from its open top. The can shows the Pepsi globe, lowercase pepsi lettering, chilled condensation, metallic reflections, and a worn-real surface.",
+                                        "style":  "Hyper-realistic 3D beverage key visual with premium commercial polish"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Liquid splash/Floating ingredients/Background elements",
+                                                "text":  "pepsi",
+                                                "items":  [
+                                                              "Center: tilted cold Pepsi can in the foreground.",
+                                                              "Upper center: two branching cola splash arcs emerging from the can opening.",
+                                                              "Around subject: suspended brown carbonation droplets and translucent ice cubes.",
+                                                              "Upper and right: curled lemon-zest ribbons.",
+                                                              "Lower left: fresh green mint sprig.",
+                                                              "Background: deep electric-blue gradient with subtle mist, soft particles, and a central radial glow."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Cinematic HDR studio lighting",
+                                                   "effect":  "Volumetric blue backlight, crisp specular highlights on wet aluminum, realistic cast shadows, and restrained lens flare"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Unreal Engine and Octane-style photoreal 3D product render",
+                                           "resolution":  "4K UHD, highly detailed"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "Pepsi can packaging",
+                                                                 "required":  true,
+                                                                 "source":  "attach the exact can and label reference",
+                                                                 "usage":  "Preserve logo, blue can color, typography, tab placement, and cylindrical proportions."
+                                                             },
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "Pepsi globe logo",
+                                                                 "required":  true,
+                                                                 "source":  "official brand asset",
+                                                                 "usage":  "Keep the logo and visible pepsi wording accurate rather than generating substitute branding."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach the exact Pepsi packaging reference before rendering.",
+                                                                          "Do not alter the logo, can silhouette, or brand colors.",
+                                                                          "Use the image reference only to match splash placement, scale, and chilled finish."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "A hyper-realistic, ultra-detailed 3D digital advertisement showcasing a Pepsi can bursting open at its center, sending a refreshing splash of carbonated cola into the air, with effervescent bubbles and ice cubes flying outward. The can’s metallic surface is rendered with sharp, photorealistic textures, complete with condensation droplets, light reflections, and subtle scratches. Surrounding the scene are cold, translucent ice shards and a twist of lemon zest caught mid-motion, adding a vibrant contrast. The background features a deep electric blue gradient with cinematic volumetric lighting and soft lens flares. Green mint leaves and misty vapors add a refreshing, natural accent. The entire scene is rendered in 4K UHD using advanced global illumination, HDR lighting, and realistic shadows. The composition evokes premium beverage advertising with a dramatic tone, created using tools like Unreal Engine + Octane Render for maximum visual impact.",
+                   "negative_prompt":  "incorrect Pepsi logo, altered can shape, missing condensation, flat liquid, blurry ice, weak splash, muted blue background, dark gloomy scene, low resolution, watermark, signature"
+               }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "sunny-white-shirt-girl",
+  "tag": ["ugc", "casual-everyday", "cozy-home", "private-indoor", "sunlit-portrait"],
+  "image_type": "sunlit bedroom portrait",
+  "image_vibe": "calm bright soft-pink bedroom",
+  "image_purpose": "UGC-style lifestyle portrait",
+  "group": "cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create a realistic calm bedroom lifestyle portrait of an original approved adult model in bright natural light.",
+    "main_subject": "An original approved adult woman with honey-blonde, long wavy layered hair parted in the middle, light blue-green eyes, fair complexion, soft facial features, and light pink lipstick sits on a bed looking directly at camera. She wears a white short-sleeved button-up shirt tied at the waist and blue denim jeans.",
+    "composition_elements": "Vertical seated portrait with the subject centered, white bed sheets, soft pink pillows, white bedside table, small indoor plant, framed picture, and sunlight-shaped shadows on the wall. Keep the shirt knot and denim texture visible.",
+    "lighting_and_atmosphere": "Soft natural sunlight with gentle window shadows, white, cream, soft pink, and denim-blue palette, calm aesthetic bright atmosphere.",
+    "technical_specs": "Realistic smartphone lifestyle photography, vertical portrait framing, natural skin variation, moderate depth of field, subtle lens falloff, slightly lifted shadows, no over-processing.",
+    "generated_prompt_string": "Realistic vertical UGC bedroom portrait of an original approved adult woman with honey-blonde long wavy layered hair, light blue-green eyes, fair complexion, soft features, and light pink lipstick sitting on a bed and looking directly at camera. She wears a white short-sleeved button-up shirt tied at the waist and blue denim jeans. White sheets, soft pink pillows, white bedside table, small plant, framed picture, and sunlight shadows on the wall create a calm bright setting. Natural smartphone photography, soft cream and pink palette, realistic texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "sunny white shirt bedroom reference", "required": true, "source": "attached source image", "usage": "Match the original adult model's hair, face, shirt, jeans, seated pose, room palette, and sunlight."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve adult identity, facial structure, outfit, shirt knot, pose, bedroom environment, and sunlight consistency. Identity, outfit, product, logo, environment, and typography elements must remain replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an original approved adult model.", "Added safety and anti-slop exclusions while preserving the calm lifestyle concept."]
+  }
+}

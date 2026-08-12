@@ -1,0 +1,62 @@
+{
+  "name": "old-photo-restoration-hd-portrait",
+  "tag": [
+    "photo-restoration",
+    "female-portrait",
+    "face-preservation",
+    "crack-repair",
+    "archival",
+    "monochrome"
+  ],
+  "image_type": "archival-photo-restoration",
+  "image_vibe": "faithful-dignified-recovered",
+  "image_purpose": "photo-restoration",
+  "group": "indie/analog-vintage",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "conservative repair of a cracked archival portrait",
+      "color_palette": "retain original monochrome or verifiable tonal character",
+      "format": "match attached source photograph"
+    },
+    "main_subject": {
+      "type": "person shown in the attached archival photograph",
+      "detail": "Preserve exact visible adult identity, face, hairstyle, expression, clothing neckline, crop, and original tonal rendering.",
+      "style": "high-detail archival repair, never a newly generated portrait"
+    },
+    "composition_elements": {
+      "text": "Preserve source text only if present; do not add or alter text.",
+      "items": [
+        "retain original head-and-shoulders composition",
+        "repair tears, cracks, scratches, stains, fading, and missing emulsion conservatively",
+        "preserve verified face and garment detail",
+        "do not generate uncertain damaged areas as new identity features"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "source-faithful contrast and exposure recovery",
+      "effect": "clean recovered detail while retaining original studio-portrait mood"
+    },
+    "technical_specs": {
+      "render_style": "loss-minimizing high-resolution restoration, exact face preservation, subtle source grain, no automatic colorization or beauty retouching",
+      "resolution": "highest recoverable detail at original aspect ratio"
+    },
+    "generated_prompt_string": "Restore the attached cracked old portrait into a natural high-detail archival image. Preserve the exact adult face, identity, age presentation, hairstyle, expression, clothing neckline, crop, background, and original monochrome or verifiable tonal character. Repair cracks, tears, scratches, stains, fading, and damaged emulsion conservatively while recovering only verifiable detail. Do not add or remove people, alter the face or age, colorize without evidence, change clothing or background, smooth skin, invent missing facial features, or modernize the image beyond faithful restoration.",
+    "negative_prompt": "identity change, face swap, age alteration, added person, removed person, invented facial features, colorization artifacts, changed clothing, changed background, plastic skin, waxy, over-smooth, airbrushed, HDR look, watermark, logo, text alteration, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "source-cracked-archival-portrait",
+          "required": true,
+          "source": "Attach the original cracked portrait photograph.",
+          "usage": "Mandatory preservation source for face, age presentation, clothing, crop, background, and verified image detail."
+        }
+      ],
+      "prompt_instructions": "Original cracked portrait is mandatory. Restore only verified image information. Keep any unrecoverable region neutral rather than inventing new face, hair, clothing, or background data."
+    }
+  }
+}

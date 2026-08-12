@@ -1,0 +1,77 @@
+{
+  "name": "lilixbox-halio-which-hair-removal-device-guide",
+  "tag": [
+    "decision-guide",
+    "device-comparison",
+    "ask-a-question",
+    "beauty-tech"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Ask a question",
+  "group": "lilixbox_1052790904067578",
+  "prompt": {
+    "project_info": {
+      "theme": "Halio device selection decision tree",
+      "color_palette": "Warm white, burgundy, blush pink, ivory, pale yellow"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Question-led comparison poster showing three Halio hair-removal devices in a row beneath branching burgundy guide lines and Vietnamese choice prompts.",
+      "style": "Minimal beauty-tech infographic, editorial comparison chart, clean soft product poster"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Bạn nên chọn Máy triệt lông nào? / lần đầu bỏ cạo, wax để triệt lông / quá mệt mỏi vì phải đợi chờ ở spa / muốn tạo bất ngờ cho chồng 😉",
+      "items": [
+        "Top Left: Large burgundy headline block beginning with 'Bạn nên chọn'.",
+        "Top Right: Oversized second line 'Máy triệt lông nào?' centered near the top.",
+        "Bottom Left: Pink Halio device beneath the text 'lần đầu bỏ cạo, wax để triệt lông' connected by a burgundy branching line and arrow.",
+        "Bottom Right: Pale yellow Halio device beneath the text 'muốn tạo bất ngờ cho chồng 😉' connected by a burgundy branching line and arrow.",
+        "Center/Background: White Halio device in the middle under the text 'quá mệt mỏi vì phải đợi chờ ở spa', all set on a soft furry white texture background with a top decision-tree line."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio lighting",
+      "effect": "Bright diffused lighting, soft product shadows, pastel reflective highlights, clean comparison-chart readability"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product advertising photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Halio device selection decision tree. Centerpiece is a three-column comparison of Halio hair-removal devices arranged beneath a burgundy branching guide line. Background is a soft furry white texture with minimalist beauty-tech styling. Surrounding elements: top headline 'Bạn nên chọn Máy triệt lông nào?', left prompt 'lần đầu bỏ cạo, wax để triệt lông' above a pink Halio device, center prompt 'quá mệt mỏi vì phải đợi chờ ở spa' above a white Halio device, and right prompt 'muốn tạo bất ngờ cho chồng 😉' above a pale yellow Halio device. Technical style: photorealistic product advertising photography, soft studio lighting, bright diffused light with pastel highlights and soft shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "three Halio hair-removal device variants",
+          "required": true,
+          "source": "official packshots or original comparison creative",
+          "usage": "Preserve the pink, white, and pale yellow device forms, colors, and brand marks."
+        },
+        {
+          "type": "text_layout",
+          "name": "decision-tree question layout",
+          "required": true,
+          "source": "original creative graphic",
+          "usage": "Keep exact Vietnamese wording, line breaks, arrows, and branching line geometry."
+        },
+        {
+          "type": "graphic",
+          "name": "burgundy connector lines and arrows",
+          "required": true,
+          "source": "original infographic styling",
+          "usage": "Rebuild the top horizontal branch and three downward arrows with the same thickness and spacing."
+        },
+        {
+          "type": "background",
+          "name": "soft furry white texture",
+          "required": true,
+          "source": "original background texture",
+          "usage": "Maintain the airy plush backdrop so the burgundy text and pastel products stand out clearly."
+        }
+      ],
+      "prompt_instructions": "Use refs for the three device packshots and the full text layout. Keep the composition centered and symmetrical, with the headline occupying the upper third and each device aligned directly under its corresponding prompt and arrow. Preserve the wink emoji because it changes the tone of the original creative."
+    }
+  }
+}

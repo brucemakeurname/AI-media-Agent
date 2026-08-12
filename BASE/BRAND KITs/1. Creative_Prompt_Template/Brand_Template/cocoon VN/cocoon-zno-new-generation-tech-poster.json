@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-zno-new-generation-tech-poster",
+  "tag": [
+    "zno",
+    "science",
+    "technology",
+    "sunscreen",
+    "ingredient-poster",
+    "education"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Infographics",
+  "group": "cocoon_2248903709244671",
+  "prompt": {
+    "project_info": {
+      "theme": "Technology poster for next-generation ZnO mineral filter",
+      "color_palette": "Sky Blue, Soft Pink, White, Warm Beige, Black, Gray"
+    },
+    "main_subject": {
+      "type": "Product/Text",
+      "detail": "A technical beauty poster with a Cocoon sunscreen bottle tipped upside down, dispensing a beige cream ribbon beside giant 'ZnO' typography and microscope comparison images contrasting new-generation and old-generation ZnO particles.",
+      "style": "Scientific beauty campaign poster, premium formula-tech visual, pastel lab-aesthetic composite"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'MÀNG LỌC VÔ CƠ ZnO THẾ HỆ MỚI', bullet points 'KÍCH THƯỚC NON-NANO' and 'HẠT ĐỒNG ĐỀU, BỀ MẶT XỬ LÍ TỐT', title 'KĨ THUẬT BÀO CHẾ HIỆN ĐẠI', and microscope labels 'ZnO THẾ HỆ MỚI' and 'ZnO THẾ HỆ CŨ HÌNH DẠNG KHÔNG ĐỒNG ĐỀU'.",
+      "items": [
+        "Top Left: Upside-down sunscreen bottle occupying the left half, with visible SPF 50+ label and tone-up beige badge.",
+        "Top Right: Huge white 'ZnO' typography and the smaller heading 'MÀNG LỌC VÔ CƠ'.",
+        "Bottom Left: Beige cream ribbon extruded from the bottle nozzle in a smooth zigzag on a fingertip.",
+        "Bottom Right: White-framed panel containing two grayscale microscope images, with the magenta title 'KĨ THUẬT BÀO CHẾ HIỆN ĐẠI'.",
+        "Center/Background: Blue-to-pink gradient backdrop with white bullet list text beside the main bottle."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft science-beauty studio lighting",
+      "effect": "Glossy bottle highlights, creamy texture definition, clean infographic readability, premium tech mood"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity beauty-science composite poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a next-generation ZnO mineral filter technology story. Centerpiece is a Cocoon sunscreen bottle tilted upside down, squeezing a beige cream ribbon from the nozzle, beside giant white 'ZnO' typography. Background is a soft blue-to-pink science-beauty gradient. Surrounding elements: heading 'MÀNG LỌC VÔ CƠ ZnO THẾ HỆ MỚI', bullet points 'KÍCH THƯỚC NON-NANO' and 'HẠT ĐỒNG ĐỀU, BỀ MẶT XỬ LÍ TỐT', plus a white panel with microscope images labeled 'ZnO THẾ HỆ MỚI' and 'ZnO THẾ HỆ CŨ HÌNH DẠNG KHÔNG ĐỒNG ĐỀU'. Keep the precise product orientation, cream extrusion, and lab-tech poster hierarchy. Technical style: high fidelity beauty-science composite poster, soft science-beauty studio lighting, glossy bottle highlights and clean infographic readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Hau Giang lotus mineral sun fluid bottle upside-down pose",
+          "required": true,
+          "source": "Attach the original bottle crop or official packshot",
+          "usage": "Preserve bottle tilt, nozzle orientation, logo layout, and tone-up beige badge."
+        },
+        {
+          "type": "graphic",
+          "name": "Microscope comparison panel",
+          "required": true,
+          "source": "Use the original poster as a panel reference",
+          "usage": "Maintain the exact framed microscope-image composition and labels."
+        },
+        {
+          "type": "text_layout",
+          "name": "ZnO technology headline and bullets",
+          "required": true,
+          "source": "Use the original creative as text reference",
+          "usage": "Keep the ZnO headline, bullet list, and tech-panel title in the same positions."
+        }
+      ],
+      "prompt_instructions": "Use the original poster as the required reference for gpt-image-2. The bottle, cream ribbon, and microscope images must remain arranged exactly like a science-backed campaign visual, not a generic product ad."
+    }
+  }
+}

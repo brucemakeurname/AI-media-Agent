@@ -1,0 +1,78 @@
+{
+  "name": "viettel-fix-identity-verification-sim-lock",
+  "tag": [
+    "viettel",
+    "identity-verification",
+    "sim-lock",
+    "support",
+    "product-demos"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "viettel_3101639980225759",
+  "prompt": {
+    "project_info": {
+      "theme": "Viettel support guidance for fixing one-way SIM lock caused by unverified identity information",
+      "color_palette": "Viettel Red, White, Soft Pink, Black"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A smiling female Viettel support staff member in a red shirt and headset stands on the right making an OK gesture, while the left side contains three white action cards explaining how to complete subscriber identity verification.",
+      "style": "Clean customer-support advertising poster with bright telecom branding, soft blurred background, and friendly human-led assistance tone."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "Chưa hoàn thành xác thực thông tin?\n\"Giải cứu\" SIM bị khóa 1 chiều cùng Viettel\nThao tác nhanh vài phút trên My Viettel, Viettel Tammi hoặc VNeID\nTới điểm hỗ trợ xác thực gần nhất\nGọi 1800 8098, bấm phím 0 để đặt lịch phục vụ tận nhà\n(Dành cho người cao tuổi, khó khăn đi lại)\nviettel telecom",
+      "items": [
+        "Top Left: Large black-and-red headline 'Chưa hoàn thành xác thực thông tin?' with oversized red question mark.",
+        "Top Right: Female support agent in red Viettel shirt, headset, glasses, and ID card, posing with an OK hand sign.",
+        "Bottom Left: Three stacked rounded white cards with red icon blocks for app verification, nearest support location, and phone booking.",
+        "Bottom Right: Agent's torso and hand gesture continue into the lower-right area.",
+        "Center/Background: Soft pink-red blurred backdrop with a red pill label '\"Giải cứu\" SIM bị khóa 1 chiều cùng Viettel'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright commercial support lighting",
+      "effect": "Soft even beauty lighting, clean skin tones, crisp UI-card readability, and gentle backdrop blur."
+    },
+    "technical_specs": {
+      "render_style": "Photoreal customer-support advertising poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality telecom support poster for Viettel identity verification. Centerpiece is a cheerful female Viettel support agent in red shirt and headset making an OK sign on the right, while the left side shows three white instruction cards for resolving one-way SIM lock due to unverified subscriber information. Background is a soft blurred pink-red service environment. Surrounding elements: headline 'Chưa hoàn thành xác thực thông tin?', red support pill '\"Giải cứu\" SIM bị khóa 1 chiều cùng Viettel', instructions referencing My Viettel, Viettel Tammi, VNeID, and hotline 1800 8098. Technical style: photoreal customer-support advertising poster, bright commercial support lighting, crisp card readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel Telecom logo",
+          "required": true,
+          "source": "official Viettel brand asset",
+          "usage": "Place at the bottom left."
+        },
+        {
+          "type": "person",
+          "name": "Female Viettel support agent reference",
+          "required": true,
+          "source": "source portrait from current creative",
+          "usage": "Preserve the staff uniform, glasses, headset, and OK gesture."
+        },
+        {
+          "type": "icon",
+          "name": "Verification app, location, and phone icons",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep in the left-side instruction cards."
+        },
+        {
+          "type": "text_layout",
+          "name": "Three-card SIM verification support layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve exact headline, support steps, and hotline wording."
+        }
+      ],
+      "prompt_instructions": "Keep the customer-support tone practical and reassuring. Preserve every named service app and the hotline exactly because they are the functional core of the poster."
+    }
+  }
+}

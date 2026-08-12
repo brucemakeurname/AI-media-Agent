@@ -1,0 +1,76 @@
+{
+  "name": "musk-bw-dream-portrait",
+  "tag": [
+    "monochrome-portrait",
+    "split-face-composite",
+    "serif-typography",
+    "motivational-poster",
+    "high-contrast"
+  ],
+  "image_type": "typographic-editorial-portrait",
+  "image_vibe": "visionary-monochrome",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "High-contrast black-and-white split-composition motivational portrait",
+      "creative_direction": "Digital composite that makes a portrait continue through large stacked serif typography",
+      "color_palette": "pure white, black, charcoal gray, and mid-gray continuous monochrome tones"
+    },
+    "main_subject": {
+      "type": "clearly adult fictional man",
+      "detail": "approved adult fictional male subject in a close-up front-facing portrait with slight head tilt, contemplative gaze, short textured hair, faint stubble, and natural facial detail",
+      "wardrobe": "dark jacket or suit collar visible at the lower edge",
+      "identity": "generic fictional adult identity with no public-figure likeness"
+    },
+    "composition_elements": {
+      "framing": "eye-level close-up, face filling the height on the left half of a vertical poster",
+      "split_effect": "right half is white negative space where the face continues through large bold vertically stacked serif letters",
+      "typography": "IF YOU DREAM IT YOU CAN DO IT. in uppercase heavy slab serif, with the letter fill carrying grayscale facial and hair texture",
+      "relationship": "text alignment must match the underlying facial anatomy to preserve the split-face illusion"
+    },
+    "lighting_and_atmosphere": {
+      "type": "hard side key at approximately 5000K with deep chiaroscuro and minimal fill",
+      "effect": "high-contrast facial modeling, visible pores and stubble, sharp type edges, and intense visionary mood"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 85mm telephoto lens, photoreal black-and-white portrait combined with graphic design",
+      "resolution": "4k vertical poster",
+      "finish": "deep grayscale, natural film grain, sharp serif cuts, realistic skin texture, and clean white background"
+    },
+    "generated_prompt_string": "Create a high-contrast black-and-white split-composition portrait of a clearly adult fictional man. The left half displays a realistic high-detail close-up photograph of the right side of his face, with short textured hair, faint stubble, natural skin detail, and an intense contemplative gaze. The right half is a pure white background where the left side of his face is revealed only through large bold vertically stacked serif typography reading IF YOU DREAM IT YOU CAN DO IT. The letterforms should be filled with grayscale hair and skin texture so the face continues through the type. Use eye-level framing, hard approximately 5000K side lighting, dramatic chiaroscuro, an 85mm telephoto lens, visible film grain, and a visionary motivational poster mood. Use a wholly fictional adult identity with no public-figure likeness, real name, or logo.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, celebrity likeness, public-figure name, real logo, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed face, misaligned typography, unreadable quote, broken split-face anatomy",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "fictional-approved-adult-male-portrait",
+          "required": true,
+          "source": "Original monochrome portrait preview image",
+          "usage": "Attach only as a composition and lighting reference; replace the public-figure likeness with an approved fictional adult man and preserve no identifying facial identity."
+        },
+        {
+          "type": "text_layout",
+          "name": "dream-it-serif-split-layout",
+          "required": true,
+          "source": "Original typographic poster preview image and source prompt",
+          "usage": "Attach to preserve the left portrait/right type split, stacked serif hierarchy, quote, and face-through-letters masking; text may be rendered with fictional editorial typography."
+        },
+        {
+          "type": "wardrobe",
+          "name": "dark-collar-monochrome-look",
+          "required": false,
+          "source": "Original preview image",
+          "usage": "Optional clothing reference; preserve the dark collar at the lower edge while allowing an equivalent fictional garment."
+        }
+      ],
+      "prompt_instructions": "Attach the fictional adult portrait and typography references; the collar reference is optional. Keep the split geometry, quote, serif mask, chiaroscuro, and monochrome palette consistent. Replace the person with an approved fictional adult and remove any public-figure likeness, name, or logo."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public-figure likeness with a fictional approved adult man while preserving the split-face typographic illusion and motivational quote."
+    ]
+  }
+}

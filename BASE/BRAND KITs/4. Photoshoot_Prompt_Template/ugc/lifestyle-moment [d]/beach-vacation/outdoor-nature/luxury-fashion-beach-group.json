@@ -1,0 +1,19 @@
+{
+  "name": "luxury-fashion-beach-group",
+  "tag": "ugc",
+  "image_type": "group-beach-fashion",
+  "image_vibe": "sunny social luxury beach realism",
+  "image_purpose": "group lifestyle and fashion social content",
+  "group": "lifestyle-moment/beach-vacation/outdoor-nature",
+  "prompt": {
+    "project_info": "High-angle group fashion photograph on a sunny crowded tropical beach.",
+    "main_subject": "Five generic approved adults standing close together and smiling on pale sand: tattooed man in patterned swim shorts, tall man in dark swim shorts, and three women in coordinated dark patterned swimwear with one pink trim and one black set; preserve the relative positions, outfits, and friendly group interaction shown in the reference.",
+    "composition_elements": "Vertical medium group shot from a high angle, all five subjects fully visible, bustling beach with wooden stalls and signs, blue and purple umbrellas, plastic tables, people, and distant ocean waves behind.",
+    "lighting_and_atmosphere": "Bright natural sunlight with sharp ground shadows, lively crowded tropical beach atmosphere and candid group energy.",
+    "technical_specs": "Photorealistic high-resolution smartphone/social photography, natural perspective, clear faces and outfit detail, realistic beach textures and balanced exposure.",
+    "generated_prompt_string": "Create a vertical high-angle photorealistic group beach photograph of five generic approved adults standing close together and smiling on pale sand: two men in patterned and dark swim shorts and three women in coordinated dark patterned swimwear with pink and black trim; bustling tropical beach with rustic stalls, signs, blue and purple umbrellas, plastic tables, people and distant ocean waves, bright sunlight and sharp natural shadows. Keep all clothing logos generic and replaceable.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, nudity, minors, celebrity likeness, public figure likeness, distorted anatomy, extra limbs, malformed hands, duplicated people, warped faces, readable brand logos, watermark, logo overlay",
+    "reference_elements": {"assets": [{"type": "image", "name": "luxury-fashion-beach-group.jpg", "required": true, "source": "local", "usage": "Match five approved adults, relative positions, swimwear, beach stalls, umbrellas, crowd, framing, and sunlight."}], "prompt_instructions": "Attach the required reference image. Preserve all five adult identities, relative positions, outfits, group spacing, beach environment, composition, and light. Brand names and logos on clothing are replaceable; use generic equivalents and avoid celebrity likeness or overlay typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Converted brand names to replaceable generic clothing details and normalized the group schema."]}
+}

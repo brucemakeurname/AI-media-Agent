@@ -1,0 +1,26 @@
+{
+  "name": "mediterranean-summer-glance",
+  "tag": ["ugc", "mediterranean-street", "white-blue-architecture", "summer-fashion", "coffee-walk"],
+  "image_type": "travel-lifestyle-portrait",
+  "image_vibe": "bright-airy-summery",
+  "image_purpose": "instagram-feed",
+  "group": "lifestyle-moment/beach-vacation/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a bright airy Mediterranean fashion lifestyle portrait for travel visuals.",
+    "main_subject": "An adult woman with long light-brown soft waves, a soft playful confident smile, and relaxed posture. She wears a white cropped knit top with open crochet flared sleeves, a high-waisted blue tiered maxi skirt, black sunglasses on her head, a dark red shoulder tote, and holds a disposable coffee cup.",
+    "composition_elements": "Three-quarter body portrait with a slightly angled side-back perspective, subject right of center balanced by whitewashed architecture. She stands with torso turned back and looks over her shoulder toward camera. Show stucco walls, blue door/window frames, stone pavement, pink bougainvillea, and quiet Mediterranean street context.",
+    "lighting_and_atmosphere": "Natural top-right daylight, defined shadows on wall and ground, bright crisp high-key exposure, vibrant blue and pink against clean white architecture, lighthearted leisurely summer mood.",
+    "technical_specs": "Clean high-fashion travel photography, three-quarter body framing, standard perspective, detailed knit and flowing cotton texture, bright airy color grade, no typography.",
+    "generated_prompt_string": "Bright airy Mediterranean fashion lifestyle portrait of an adult woman with long light-brown soft waves, standing on a whitewashed street with her torso turned back and looking over her shoulder toward the camera with a soft playful confident smile. She wears a white cropped knit top with open crochet flared sleeves, a high-waisted blue tiered maxi skirt, black sunglasses on her head, a dark red shoulder tote on her back, and holds a disposable coffee cup. Place her slightly right of center with stucco walls, blue door and window frames, stone pavement, and pink bougainvillea. Natural top-right daylight, defined wall and ground shadows, high-key crisp exposure, vibrant blues and pinks with clean whites, detailed fabric and surface textures, clean social-media-ready travel photography, no text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distractions, blurry, low contrast, artifacts, low quality, distorted features, bad anatomy, extra limbs, extra fingers, deformed, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "adult Mediterranean street subject", "required": true, "source": "matching local preview image", "usage": "Preserve approved adult identity, hair, smile, pose, and relaxed mood; replaceable with another approved adult."},
+        {"type": "wardrobe", "name": "white crochet top and blue tiered skirt", "required": true, "source": "matching local preview image", "usage": "Keep white-blue palette, open-knit sleeve texture, skirt tiers, tote, sunglasses, and coffee prop consistent."},
+        {"type": "location", "name": "whitewashed Mediterranean street", "required": true, "source": "matching local preview image", "usage": "Preserve stucco, blue frames, stone pavement, bougainvillea, and quiet village atmosphere; replaceable with equivalent architecture."}
+      ],
+      "prompt_instructions": "Attach the matching preview when adult identity, outfit, pose, blue-white architecture, and summer palette must remain consistent. Preserve face, hair, wardrobe, accessories, coffee prop, and no-text composition. Replaceable references must remain equivalent and non-branded."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

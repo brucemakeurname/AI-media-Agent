@@ -1,0 +1,19 @@
+{
+  "name": "pink-tweed-elegant-portrait",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "public-indoor", "pink-tweed", "cream-headband", "floor-seated"],
+  "image_type": "fashion-lifestyle-portrait",
+  "image_vibe": "soft-retro-elegant",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/soft-elegant/public-indoor",
+  "prompt": {
+    "project_info": "Create a refined photorealistic full-body portrait of an approved adult woman seated on a parquet floor in a warm minimal room.",
+    "main_subject": "An approved adult woman with long warm chestnut-brown loose waves, cream headband, soft glam makeup, calm composed expression and direct gaze. She wears a pastel-pink tailored tweed mini dress with vertical gold buttons, opaque ivory tights, white gloves, and pink pointed heels. Her legs cross cleanly at the ankles and hands rest naturally on her thighs.",
+    "composition_elements": "Full-body seated portrait from slightly above floor level, back gently against a neutral wall, parquet floor foreground, clean cream wall and negative space, centered elegant posture, and fully visible gloves, tights, and shoes.",
+    "lighting_and_atmosphere": "Soft warm diffused indoor light with gentle shadows, natural fabric and hosiery texture, quiet polished retro mood.",
+    "technical_specs": "50mm lens, moderate depth of field, sharp face-to-feet detail, high-resolution photorealism, accurate hands and ankles, subtle grain.",
+    "generated_prompt_string": "Create a refined photorealistic full-body portrait of an approved adult woman with long warm chestnut-brown loose waves, a wide cream headband, soft glam makeup, calm composed expression, and direct gaze. She sits on a warm parquet floor with her back gently against a neutral wall, legs crossed only at the ankles, hands resting naturally on her thighs. She wears a pastel-pink tailored tweed mini dress with vertical decorative gold buttons, opaque ivory tights, white gloves, and pink pointed heels. Use a slightly above-floor 50mm perspective, moderate depth of field, soft warm diffused indoor light, realistic tweed and hosiery texture, clean negative space, and subtle grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted face, warped ankles, text, logo",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-chestnut-haired-subject", "required": true, "source": "pink-tweed-elegant-portrait.jpg", "usage": "Preserve the adult face, hair, headband, expression, pose, and identity."}, {"type": "wardrobe", "name": "pink-tweed-dress-ivory-tights-gloves", "required": true, "source": "pink-tweed-elegant-portrait.jpg", "usage": "Keep tweed dress, buttons, tights, gloves, headband, and pink heels consistent; replace only with explicit wardrobe references."}, {"type": "location", "name": "neutral-wall-parquet-floor", "required": true, "source": "pink-tweed-elegant-portrait.jpg", "usage": "Maintain parquet floor, wall, negative space, and warm light; replace only with explicit location references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, ankle-crossed pose, floor, and light hierarchy consistent. Background may be replaced only with explicit alternatives; preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and retained the elegant tweed fashion concept.", "Added safe negative prompts and references."]}
+}

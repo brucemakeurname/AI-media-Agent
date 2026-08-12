@@ -1,0 +1,86 @@
+{
+  "name": "badass-sale-60-white-polo-model",
+  "tag": [
+    "sale poster",
+    "model endorsement",
+    "white polo",
+    "60 percent",
+    "end season"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Endorsement",
+  "group": "badass_1773978760267705",
+  "prompt": {
+    "project_info": {
+      "theme": "End season 2026 sale poster with ambassador in white polo",
+      "color_palette": "Sky blue gradient, royal blue, bright yellow, white, black"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A wide promotional banner where giant blue 60 percent sale typography fills the left side and a smiling young Asian male model in a clean white polo outfit stands on the right, reinforcing the apparel promotion.",
+      "style": "Photorealistic endorsement sale poster, brand ambassador retail banner, crisp ecommerce composite"
+    },
+    "composition_elements": {
+      "type": "Typography/Person/Decorative Sale Ribbons",
+      "text": "BADASS, SALE, UP TO, 60%, END SEASON 2026, TOÀN BỘ HỆ THỐNG TỪ 17/07, SALE BADASS SALE BADASS SALE BADASS",
+      "items": [
+        "Top Left: small white word 'BADASS'.",
+        "Upper Left Center: blue word 'SALE'.",
+        "Left Center: giant blue '60%' occupying most of the left half.",
+        "Near the zero: a small cream tag outlined by a yellow string reading 'UP TO'.",
+        "Lower Left: black campaign line 'END SEASON 2026' followed by smaller black text 'TOÀN BỘ HỆ THỐNG TỪ 17/07'.",
+        "Right: smiling young Asian male model standing full body in a white polo shirt and matching light trousers, one hand in pocket, wearing a watch, cut out cleanly against the gradient background.",
+        "Top Right Corner: diagonal yellow sale ribbon with repeating blue and white words including 'SALE' and 'BADASS'.",
+        "Bottom: long repeating yellow sale ribbon carrying 'SALE BADASS SALE BADASS SALE BADASS'.",
+        "Background: wide soft sky-blue gradient fading toward pale mint at the bottom."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright studio-commercial lighting",
+      "effect": "Clean cutout realism, cheerful promotional mood, high-key apparel campaign finish"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic model-led sale banner combined with bold graphic typography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "male model in white polo and trousers",
+          "required": true,
+          "source": "source image model reference",
+          "usage": "Preserve the subject identity, smile, hairstyle, pose, and white outfit silhouette."
+        },
+        {
+          "type": "product",
+          "name": "white polo outfit",
+          "required": true,
+          "source": "source image apparel reference",
+          "usage": "Keep the collar detail, minimal chest branding, trouser tone, and clean fashion styling."
+        },
+        {
+          "type": "text_layout",
+          "name": "60 percent sale typography and campaign line",
+          "required": true,
+          "source": "source image typography reference",
+          "usage": "Preserve the exact wording, giant 60%, and the left-heavy text hierarchy."
+        },
+        {
+          "type": "graphic",
+          "name": "diagonal and bottom sale ribbons",
+          "required": true,
+          "source": "source image ribbon reference",
+          "usage": "Match the yellow ribbon style, placement, and repeated 'SALE BADASS' pattern."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image for model identity, exact text layout, and ribbon placement.",
+        "Keep all visible text exactly as shown, including Vietnamese diacritics.",
+        "Preserve the wide banner crop with typography on the left and full-body model on the right."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality wide BADASS sale banner with a smooth sky-blue gradient background fading to pale mint. On the left, place small white text 'BADASS' at the top, then a blue word 'SALE', then an oversized royal-blue '60%' dominating the composition. Attach a small cream tag reading 'UP TO' with a yellow string near the top-right of the zero. Along the lower left, add black text 'END SEASON 2026' followed by smaller black text 'TOÀN BỘ HỆ THỐNG TỪ 17/07'. On the right, place a photorealistic smiling young Asian male model wearing a white polo shirt, light trousers, and a wristwatch, standing with one hand in pocket. Add a diagonal yellow sale ribbon in the top-right corner and a long repeating yellow bottom ribbon with 'SALE BADASS SALE BADASS SALE BADASS'. Technical style: photorealistic model-led sale banner combined with bold graphic typography, bright studio-commercial lighting, high-key retail finish, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, incorrect text, extra people, blurry face, distorted hands, low resolution, muddy gradients, cluttered composition, warped ribbons, watermark, signature"
+  }
+}

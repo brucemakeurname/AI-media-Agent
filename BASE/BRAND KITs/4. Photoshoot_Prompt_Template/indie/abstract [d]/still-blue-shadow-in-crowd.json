@@ -1,0 +1,72 @@
+{
+  "name": "still-blue-shadow-in-crowd",
+  "tag": [
+    "adult-woman",
+    "blue-puffer-jacket",
+    "triptych",
+    "crowd-motion-blur",
+    "city-crosswalk",
+    "cinematic"
+  ],
+  "image_type": "cinematic-street-triptych",
+  "image_vibe": "isolated-cool-dynamic",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the central subject is an adult in all three crowd-motion panels."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "three-view urban isolation study of an adult woman in a blue puffer jacket",
+      "color_palette": "cobalt blue, gray, cool teal, muted traffic color",
+      "format": "asymmetric three-panel portrait collage"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with dark hair, pale blue eyes, a serious melancholic expression, and a bright cobalt-blue puffer jacket.",
+      "style": "sharp urban portrait with anonymous radial motion around her"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "large left panel: eye-level central portrait in a crowded city",
+        "top-right panel: elevated view over a zebra crossing",
+        "bottom-right panel: slightly lower portrait with circular crowd blur",
+        "blue puffer jacket and subject identity consistent across all panels",
+        "anonymous blurred pedestrians and cool urban depth"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft overcast daylight at approximately 6500K with cool city fill",
+      "effect": "cool color grading, sharp subject isolation, shallow depth, and long-exposure movement"
+    },
+    "technical_specs": {
+      "render_style": "85mm f/1.8 eye-level portrait, 35mm elevated crosswalk view, 50mm f/2 motion portrait; subtle film grain and coherent triptych grading",
+      "resolution": "high resolution asymmetric three-panel collage"
+    },
+    "generated_prompt_string": "Create an asymmetric three-panel cinematic street portrait study of the same adult woman in a bright cobalt-blue puffer jacket standing still in a busy city crowd. Panel one is an eye-level portrait with intense eye contact, shallow depth of field, and motion-blurred pedestrians around her. Panel two is a top-down view at a crowded zebra crossing, with people moving rapidly in a circular long-exposure blur. Panel three is an urban portrait with the blue jacket sharp, wind slightly moving her hair, and fast-moving crowd streaks surrounding her. Keep her adult identity, jacket, cool color grade, natural skin texture, and anonymous bystanders consistent across all panels. Use soft overcast daylight and editorial street-photography realism.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, recognizable bystanders, text, watermark, logo, mismatched panel identity, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-blue-puffer-model-reference",
+          "required": false,
+          "source": "Attach an authorized adult person reference when identity must be consistent across panels.",
+          "usage": "Preserve adult identity across all three panels; otherwise use a generic adult model."
+        },
+        {
+          "type": "wardrobe",
+          "name": "cobalt-blue-puffer-reference",
+          "required": false,
+          "source": "Attach a wardrobe reference when jacket quilting or exact cobalt tone must match.",
+          "usage": "Keep the cobalt puffer as the visual anchor; it may be replaced independently."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve one clearly adult subject, one cobalt-blue puffer jacket, and the three distinct crowd-motion perspectives. Identity and wardrobe must remain consistent across the collage when references are supplied."
+    }
+  }
+}

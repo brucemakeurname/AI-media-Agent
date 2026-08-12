@@ -1,0 +1,71 @@
+{
+  "name": "ysl-tuxedo-sharp-patchouli-fragrance-packshot",
+  "tag": [
+    "ysl",
+    "tuxedo",
+    "sharp-patchouli",
+    "fragrance",
+    "packshot"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "ysl_1414771800687527",
+  "prompt": {
+    "project_info": {
+      "theme": "Botanical noir fragrance hero for YSL Tuxedo",
+      "color_palette": "Black, deep amber, forest green, glossy clear glass"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A YSL fragrance bottle stands centered on a reflective black base, labeled 'TUXEDO' and 'SHARP PATCHOULI'. Dark green leaves frame the bottle from both sides against a nearly black background.",
+      "style": "Luxury fragrance hero packshot, botanical noir still life, refined masculine perfume advertising"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "TUXEDO, SHARP PATCHOULI",
+      "items": [
+        "Top Left: Softly blurred dark foliage in the black background",
+        "Top Right: Bright green leaf entering from the right edge",
+        "Bottom Left: Amber reflections glowing through the bottle base",
+        "Bottom Right: Reflective black surface beneath the bottle",
+        "Center/Background: Rectangular YSL perfume bottle with amber liquid, black textured cap, and central black label reading 'TUXEDO' and 'SHARP PATCHOULI'"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Controlled studio noir lighting",
+      "effect": "Warm amber inner glow, crisp glass edges, deep shadow falloff, subtle botanical highlights"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal luxury fragrance photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury fragrance poster for YSL. Centerpiece is a rectangular YSL perfume bottle filled with warm amber liquid, topped with a black textured cap, and labeled 'TUXEDO' and 'SHARP PATCHOULI'. Frame it with dark green leaves against a nearly black botanical background and place it on a reflective black surface. Technical style: photoreal luxury fragrance photography, controlled studio noir lighting, crisp glass edges and warm amber glow, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "YSL Tuxedo fragrance bottle",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Match the bottle geometry, amber fill, cap texture, and exact label treatment"
+        },
+        {
+          "type": "graphic",
+          "name": "Green botanical leaf framing",
+          "required": true,
+          "source": "original set reference",
+          "usage": "Preserve the leaf scale and edge framing on both sides"
+        },
+        {
+          "type": "background",
+          "name": "Black reflective fragrance set",
+          "required": true,
+          "source": "original packshot setup",
+          "usage": "Keep the deep black backdrop and glossy base reflection"
+        }
+      ],
+      "prompt_instructions": "Preserve the minimal botanical noir composition. The bottle must remain centered and dominant with readable label text."
+    }
+  }
+}

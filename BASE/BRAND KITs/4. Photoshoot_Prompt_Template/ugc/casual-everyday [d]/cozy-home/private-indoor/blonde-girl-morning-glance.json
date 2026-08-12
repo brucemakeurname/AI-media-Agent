@@ -1,0 +1,58 @@
+{
+  "name": "blonde-girl-morning-glance",
+  "tag": [
+    "ugc",
+    "cozy-home",
+    "private-indoor",
+    "morning-bedroom",
+    "linen-shirt",
+    "playful-wink"
+  ],
+  "image_type": "ugc-bedroom-lifestyle-portrait",
+  "image_vibe": "warm-playful-morning",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create an ultra-photorealistic spontaneous bedroom lifestyle portrait in warm morning light, preserving the oversized linen shirt, bed setting and playful wink.",
+    "main_subject": "One original approved adult woman with dirty-blonde hair in a soft messy high bun and loose face-framing strands, blue-grey eyes, natural skin texture and a joyful wink with tongue slightly out. She wears an oversized cream linen button-down shirt with visible weave, wrinkles and relaxed loungewear fit.",
+    "composition_elements": "Eye-level close-to-medium over-the-shoulder portrait on a white bed. The adult woman sits with her torso turned back toward camera, hands resting on a plush pillow, and keeps a spontaneous playful expression. Include white sheets, plush duvet, wooden nightstand, neutral wall and bedside lamp softly blurred behind her.",
+    "lighting_and_atmosphere": "Soft directional warm morning light creates gentle highlights on hair, face and linen texture with relaxed bedroom shadows. Keep the feeling candid, energetic, friendly and homey.",
+    "technical_specs": "Vertical 4:5 or 2:3 smartphone portrait, 35mm natural perspective, f/2.8 shallow background, sharp eyes and shirt weave, realistic hair strands, warm airy color and raw-photo feel.",
+    "generated_prompt_string": "Create an ultra-photorealistic spontaneous bedroom lifestyle portrait in warm morning light of one original approved adult woman with dirty-blonde hair in a soft messy high bun and loose face-framing strands, blue-grey eyes, natural skin texture and a joyful wink with tongue slightly out. She wears an oversized cream linen button-down shirt with visible weave, wrinkles and relaxed loungewear fit. Use an eye-level close-to-medium over-the-shoulder portrait on a white bed; she sits with her torso turned back toward camera and hands resting on a plush pillow. Include white sheets, plush duvet, wooden nightstand, neutral wall and bedside lamp softly blurred behind her. Use soft directional morning light, realistic hair and linen detail, f/2.8 background falloff, warm airy color and candid raw-photo texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, wardrobe malfunction, invented logos, unreadable text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "blonde-girl-morning-glance.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair, eyes, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "oversized cream linen button-down shirt",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve linen weave, cream color, buttons, wrinkles and relaxed fit; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "white bed, plush duvet, wooden nightstand and bedside lamp",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve bedding, nightstand, lamp, wall and warm morning light; environment may be replaced independently through explicit references."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, face, hair, expression, shirt texture, bed pose and morning bedroom environment consistent. The adult, wardrobe and setting may be replaced separately through explicit references. No logo or typography is required."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed early-20s wording to original approved adult.",
+      "Preserved the playful expression, linen shirt, bedroom pose and morning light while removing no creative intent.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

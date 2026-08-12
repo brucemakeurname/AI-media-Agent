@@ -1,0 +1,28 @@
+{
+  "name": "warm-light-shirtless-cooking-home",
+  "tag": ["ugc", "casual-everyday", "cozy-home", "private-indoor", "cooking"],
+  "image_type": "candid cooking lifestyle photo",
+  "image_vibe": "warm modern kitchen comfort",
+  "image_purpose": "UGC-style cooking and lifestyle visual",
+  "group": "cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic candid kitchen lifestyle photo using one required approved-adult identity reference.",
+    "main_subject": "The same original approved adult man from the attached reference leans over a stovetop, focused on cooking nachos and grating cheese over a large pan. Preserve his face, facial structure, skin texture, and identity. The observed outfit is a dark sleeveless tank top with dark casual pants.",
+    "composition_elements": "Portrait 4:5 composition, single subject only, modern kitchen with white square-tile backsplash, black induction cooktop, under-cabinet lights, mortar and pestle, tray, paper towel, grater, cheese block, and pan of nachos with visible cheese strands.",
+    "lighting_and_atmosphere": "Warm under-cabinet lighting in an evening kitchen, soft directional highlights, natural shadows on the arms and countertop, cozy intimate candid mood with realistic food texture.",
+    "technical_specs": "Ultra-photorealistic handheld phone look, portrait 4:5, approximately 28mm lens perspective, crisp but natural focus, subtle analog grain, visible pores and real-world kitchen imperfections, no text or watermark.",
+    "generated_prompt_string": "Photorealistic candid 4:5 lifestyle photo of the same original approved adult man from the attached identity reference leaning over a modern kitchen stovetop and grating cheese with both hands over nachos in a large pan. Preserve his face, facial structure, skin texture, and identity. He wears the observed dark sleeveless tank top and dark casual pants. White square-tile backsplash, black induction cooktop, warm under-cabinet lights, mortar and pestle, tray, paper towel, grater, cheese block, crispy chips, and visible cheese strands create a realistic evening cooking scene. Handheld phone perspective around 28mm, warm natural highlights, subtle analog grain, crisp but candid texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, extra people, unsafe cooking, fire hazard, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved adult male identity reference", "required": true, "source": "attached source image", "usage": "Preserve the exact approved adult face, facial structure, likeness, skin texture, and identity without celebrity or public-figure substitution."},
+        {"type": "environment", "name": "warm kitchen cooking reference", "required": true, "source": "attached source image", "usage": "Match the kitchen layout, stovetop, pan, nachos, lighting, and cooking action."}
+      ],
+      "prompt_instructions": "Attach the required adult identity reference and kitchen reference; they may be the same source image if it contains both. Preserve identity, outfit, cooking action, product/food arrangement, environment, and lighting. Logos, typography, props, and food packaging are replaceable; keep the scene single-subject and safe."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Aligned the wardrobe with the viewed source image's dark sleeveless tank top instead of the misleading shirtless filename.", "Clarified approved-adult identity locking and safe cooking constraints.", "Added replaceable-asset guidance and anti-slop exclusions."]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Rustic Botanical Boutique Portrait",
+  "tag": "rustic-botanical-boutique",
+  "image_type": "botanical_lifestyle_portrait",
+  "image_vibe": "warm_rustic_romantic",
+  "image_purpose": "lifestyle_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Rustic Botanical Boutique Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "9:16 vertical"
+    },
+    "main_subject": {
+      "description": "An original adult woman with loose honey-blonde waves, a soft subtle smile, and minimal natural makeup.",
+      "wardrobe": "A light beige linen pinafore midi dress over a cream short-sleeve blouse, with plain closed-toe tan flats.",
+      "pose_and_expression": "Seated sideways on a rustic wooden bench, torso turned gently toward camera, hands holding a bouquet of eucalyptus and small white flowers."
+    },
+    "composition_elements": {
+      "setting": "Outdoor entrance of a cozy unbranded botanical boutique with brick paving, lush green plants, flowers, dark vases, and warm pendant-light bokeh behind blank glass.",
+      "framing": "Eye-level medium portrait with shallow depth of field and bouquet visible in lap.",
+      "text_and_brand_control": "No celebrity likeness, shop name, sign text, product label, logo, or watermark."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft diffused daylight balanced with warm interior pendant glow.",
+      "mood": "Serene, handcrafted, warm, and romantic."
+    },
+    "technical_specs": {
+      "camera_style": "cinematic professional lifestyle portrait",
+      "lens": "50mm equivalent",
+      "rendering": "Natural skin, detailed linen and foliage, realistic hands, gentle bokeh, no beauty over-retouching."
+    },
+    "generated_prompt_string": "Create a 9:16 vertical cinematic professional lifestyle portrait of an original adult woman with loose honey-blonde waves, soft subtle smile, and minimal natural makeup. She wears a light beige linen pinafore midi dress over a cream short-sleeve blouse and plain closed-toe tan flats. Seat her sideways on a rustic wood bench with torso gently toward camera, holding a bouquet of eucalyptus and small white flowers. Set her at the brick-paved entrance of a cozy unbranded botanical boutique, with lush plants, flowers, dark vases, and warm pendant-light bokeh behind blank glass. Use soft diffused daylight, warm interior glow, eye-level medium framing, shallow depth, natural skin, detailed linen/foliage, realistic hands, and gentle bokeh. No celebrity likeness, shop name, signs, product labels, logos, text, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, named person, explicit, nsfw, overly revealing clothing, backless apron, bare feet, logo, readable shop sign, text, watermark, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity references must depict a consenting adult and may guide only broad traits. Boutique, flower, and wardrobe references are replaceable and must be blanked of all commercial copy.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult face and hair traits, never a public figure."
+        },
+        {
+          "type": "environment_reference",
+          "name": "botanical_boutique_reference",
+          "required": false,
+          "source": "user-provided location reference",
+          "usage": "Guide plants, bench, brick, and warm interior light after removing signs and labels."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed named celebrity likeness and shop text; specified an original adult and covered wardrobe."
+  }
+}

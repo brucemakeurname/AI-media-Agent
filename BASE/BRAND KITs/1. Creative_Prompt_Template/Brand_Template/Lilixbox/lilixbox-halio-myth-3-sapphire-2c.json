@@ -1,0 +1,70 @@
+{
+  "name": "lilixbox-halio-myth-3-sapphire-2c",
+  "tag": [
+    "myth-fact",
+    "ipl-device",
+    "education",
+    "beauty-tech"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Q&A",
+  "group": "lilixbox_3284665795054148",
+  "prompt": {
+    "project_info": {
+      "theme": "Halio IPL myth-versus-fact educational poster",
+      "color_palette": "White, soft gray, warm yellow, charcoal, pale beige"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Minimal educational beauty-tech poster featuring a yellow Halio hair-removal device placed diagonally over a white subway-tile wall background, paired with a large myth-versus-fact text explanation about sapphire cooling.",
+      "style": "Clean editorial product poster, modern skincare infographic, soft premium minimalism"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Myth 3: Máy triệt tại nhà gây bỏng, rát da? / Fact: Máy triệt bikini Silkgow IPL được trang bị đầu đá Sapphire chỉ 2°C",
+      "items": [
+        "Top Left: Large black headline 'Myth 3: Máy triệt tại nhà gây bỏng, rát da?' with emphasized 'Myth 3:' label.",
+        "Top Right: Clean white tile wall and negative space.",
+        "Bottom Left: Fact paragraph in smaller black text beginning with 'Fact:' and ending with 'Sapphire chỉ 2°C'.",
+        "Bottom Right: Yellow Halio IPL device angled upward with soft shadow.",
+        "Center/Background: White glossy subway-tile surface with subtle grout lines and minimalist product-poster spacing."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio lighting",
+      "effect": "Gentle diffused shadows, clean product edge highlights, fresh minimalist clarity"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product advertising photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Halio IPL myth-versus-fact educational poster. Centerpiece is a yellow Halio IPL device placed diagonally on a white subway-tile background. Background is minimal, bright, and clinical with glossy tile texture and soft shadows. Surrounding elements: large headline at top left reading exactly 'Myth 3: Máy triệt tại nhà gây bỏng, rát da?', smaller fact copy below reading exactly 'Fact: Máy triệt bikini Silkgow IPL được trang bị đầu đá Sapphire chỉ 2°C', and the device anchored at lower right. Technical style: photorealistic product advertising photography, soft studio lighting, gentle diffused shadows and clean edge highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "yellow Halio IPL device",
+          "required": true,
+          "source": "official product packshot or original creative",
+          "usage": "Match the device silhouette, color, button placement, and diagonal orientation."
+        },
+        {
+          "type": "text_layout",
+          "name": "myth-versus-fact typography",
+          "required": true,
+          "source": "original educational creative",
+          "usage": "Preserve exact Vietnamese wording, line breaks, and text scale hierarchy."
+        },
+        {
+          "type": "background",
+          "name": "white subway-tile wall",
+          "required": true,
+          "source": "minimal tile texture reference",
+          "usage": "Keep the clean clinical tile grid and glossy subtle reflections."
+        }
+      ],
+      "prompt_instructions": "Prioritize typographic accuracy and spatial simplicity. Attach product and text layout refs. Keep the device in the lower-right quadrant, the headline dominating the upper-left, and the fact paragraph below it. Preserve the visible wording exactly, including the spelling 'Silkgow' if that is what appears in the source."
+    }
+  }
+}

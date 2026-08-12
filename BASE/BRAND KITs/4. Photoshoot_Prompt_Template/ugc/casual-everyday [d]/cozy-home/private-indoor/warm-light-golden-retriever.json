@@ -1,0 +1,27 @@
+{
+  "name": "warm-light-golden-retriever",
+  "tag": ["ugc", "casual-everyday", "cozy-home", "private-indoor", "pet-lifestyle"],
+  "image_type": "pet lifestyle portrait",
+  "image_vibe": "warm rustic wholesome cabin",
+  "image_purpose": "UGC-style wholesome lifestyle visual",
+  "group": "cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create a realistic cozy lifestyle photograph of an original approved adult man sharing a warm home moment with a golden retriever.",
+    "main_subject": "An original approved adult man with curly hair sits on a brown leather couch, smiling down at a friendly golden retriever held safely in his arms. He wears a casual long-sleeved blue top and neutral trousers; any visible chest lettering is a replaceable graphic placeholder.",
+    "composition_elements": "Vertical candid composition with the man and dog centered, rustic wood-paneled cabin walls, wooden staircase, brown leather couch, red-covered table in the foreground, and a floor lamp glowing at left.",
+    "lighting_and_atmosphere": "Warm yellow lamp light with soft shadows, natural evening interior mood, wholesome candid interaction, realistic fur, wood, leather, and fabric texture.",
+    "technical_specs": "Realistic lifestyle photography, 50mm lens perspective, vertical portrait framing, shallow depth of field, natural handheld composition, subtle warm color grade without oversaturation.",
+    "generated_prompt_string": "Realistic vertical candid lifestyle photograph of an original approved adult man with curly hair sitting on a brown leather couch and smiling while safely holding a friendly golden retriever. He wears a casual blue long-sleeved top and neutral trousers. Rustic wooden cabin walls, a staircase, red-covered table, and a softly glowing floor lamp create a warm evening interior. Natural textures in fur, wood, leather, and fabric, shallow depth of field, 50mm perspective, wholesome relaxed mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, animal harm, unsafe animal handling, aggressive animal behavior, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "warm cabin dog portrait reference", "required": true, "source": "attached source image", "usage": "Match the adult subject, dog, couch interaction, rustic cabin, lamp, and warm candid composition."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve adult identity, dog appearance, safe holding posture, clothing, cabin environment, lighting, and composition. Any shirt lettering, logo, product, typography, or decorative details are replaceable editable elements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the human subject as an original approved adult.", "Specified safe animal handling and removed ambiguous youth wording.", "Added replaceable graphic guidance and anti-slop exclusions."]
+  }
+}

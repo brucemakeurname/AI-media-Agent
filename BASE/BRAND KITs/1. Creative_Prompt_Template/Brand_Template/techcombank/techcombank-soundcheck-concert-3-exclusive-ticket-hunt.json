@@ -1,0 +1,70 @@
+{
+  "name": "techcombank-soundcheck-concert-3-exclusive-ticket-hunt",
+  "tag": [
+    "soundcheck",
+    "concert",
+    "exclusive-access",
+    "oneu"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Competitions",
+  "group": "techcombank_1674228667143264",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank OneU exclusive soundcheck and concert ticket hunt",
+      "color_palette": "Burning orange, lava red, white, black, ember glow"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A fiery event-access poster with 'yeah1', 'PRODUCTION', and 'TECHCOMBANK' logos across the top. A red pill says '01 NGAY DUY NHAT'. The main headline reads 'SAN DAC QUYEN SOUNDCHECK & CONG DIEN 3'. In the center are two large torn-edge tickets leaning together, each printed with a metallic flaming crest emblem. Floating red U-point tokens appear around them. A huge date block at the bottom reads '12:00 Thu 6 | 17/07/2026'. The background is a lava-planet sky with rocky terrain and glowing embers.",
+      "style": "High-drama concert reward poster with fantasy lava atmosphere, metallic ticket emblem, and urgent limited-time event tone"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "yeah1 / PRODUCTION / TECHCOMBANK / 01 NGAY DUY NHAT / SAN DAC QUYEN SOUNDCHECK & CONG DIEN 3 / 12:00 / Thu 6 | 17/07/2026",
+      "items": [
+        "Top Left: yeah1 and PRODUCTION logos over a starry lava sky",
+        "Top Right: Techcombank logo",
+        "Bottom Left: Floating red U-point coin near ember particles",
+        "Bottom Right: Another U-point coin and molten rocky terrain",
+        "Center/Background: Two oversized torn tickets with a metallic flaming crest emblem inside a glowing frame, set against a giant lava-sun backdrop"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Dramatic fantasy-event lighting",
+      "effect": "Volcanic backlight, ember particles, strong orange rim glow, metallic ticket highlights, urgent concert-promo intensity"
+    },
+    "technical_specs": {
+      "render_style": "Event reward poster with cinematic fantasy compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank OneU exclusive soundcheck and concert ticket hunt. Centerpiece is a pair of oversized torn-edge tickets featuring a metallic flaming crest emblem, presented in a glowing frame. Background is a volcanic fantasy landscape with a giant lava-sun, starry red sky, rocky terrain, and ember particles. Surrounding elements: yeah1, PRODUCTION, and Techcombank logos, red pill '01 NGAY DUY NHAT', exact headline 'SAN DAC QUYEN SOUNDCHECK & CONG DIEN 3', floating red U-point coins, and the large timing text '12:00 Thu 6 | 17/07/2026'. Technical style: event reward poster with cinematic fantasy compositing, dramatic fantasy-event lighting, volcanic backlight and ember glow, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "yeah1, PRODUCTION, and Techcombank logos",
+          "required": true,
+          "source": "official event and brand assets",
+          "usage": "Preserve the top-header partnership lockup"
+        },
+        {
+          "type": "graphic",
+          "name": "Flaming crest emblem and U-point coin assets",
+          "required": true,
+          "source": "original campaign graphics",
+          "usage": "Keep the exact emblem styling on the tickets and the floating reward tokens"
+        },
+        {
+          "type": "text_layout",
+          "name": "Concert ticket hunt poster composition",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the centered ticket pair, top urgency pill, and oversized bottom time block"
+        }
+      ],
+      "prompt_instructions": "Preserve '17/07/2026' exactly; Friday, July 17, 2026 is today in this session and must remain as visible event copy. The mood should be high-stakes fan-event energy, not a calm luxury poster."
+    }
+  }
+}

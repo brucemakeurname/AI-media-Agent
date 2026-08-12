@@ -1,0 +1,59 @@
+{
+  "name": "prompt-356",
+  "tag": ["adult-woman", "noir-studio", "braided-hair", "black-dress", "leather-gloves", "monochrome-fashion"],
+  "image_type": "studio-fashion-portrait",
+  "image_vibe": "dramatic-enigmatic-powerful",
+  "image_purpose": "social-editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an adult and replaced body-part emphasis with curvy-silhouette, fitted-dress, and directional-light language while preserving the noir fashion concept, pose, braided hair, gloves, belt, and monochrome mood."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "dramatic monochrome noir studio fashion portrait",
+      "color_palette": "black, charcoal, silver-gray, and soft neutral skin tones",
+      "aspect_ratio": "2:3"
+    },
+    "main_subject": {
+      "description": "A confident adult woman with a curvy feminine silhouette, middle-parted braided pigtails, subtle wet hair texture, and a calm enigmatic expression; a few loose strands fall across her face.",
+      "wardrobe": "Fitted black sleeveless dress with a high neckline and black leather gloves, holding a black leather belt loosely in front of her body.",
+      "pose": "Half-body portrait from a slightly low angle, head tilted slightly down, torso turned subtly toward camera, one gloved hand resting near the waist.",
+      "styling": "Elegant, powerful fine-art fashion styling with polished monochrome finish."
+    },
+    "composition_elements": {
+      "framing": "Slightly low-angle half-body portrait with clean negative space around the subject.",
+      "environment": "Minimal studio with a plain lightly textured wall and no text, logos, or watermark.",
+      "focus": "Sharp eyes, braided hair, glove texture, belt hardware, fitted dress texture, and realistic skin detail."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Dramatic single key light from upper right with high contrast, soft rim light along the shoulders, and realistic shadows enhancing the fitted silhouette.",
+      "atmosphere": "Cinematic noir, enigmatic, elegant, and quietly intense."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with an 85mm portrait lens at f/2.0, 1/200 s, ISO 200",
+      "quality": "Hyper-realistic fine-art fashion photography, shallow depth of field, smooth grayscale gradients, crisp hair and leather texture, subtle film grain"
+    },
+    "generated_prompt_string": "Create a hyper-realistic 2:3 monochrome noir studio fashion portrait of a confident adult woman with a curvy feminine silhouette, middle-parted braided pigtails, subtle wet hair texture, and a calm enigmatic expression, with a few loose strands across her face. She wears a fitted black sleeveless dress with a high neckline and black leather gloves, holding a black leather belt loosely in front of her body. Frame a half-body portrait from a slightly low angle, her head tilted slightly down and torso turned subtly toward camera, one gloved hand near the waist. Use a plain lightly textured studio wall, dramatic single key light from upper right, high contrast, soft rim light along the shoulders, realistic shadows enhancing the fitted silhouette, smooth grayscale gradients, shallow depth of field, crisp leather texture, and no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, exposed anatomy, readable text, logo, watermark, plastic skin, deformed anatomy, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult subject. Optional hair, wardrobe, belt, glove, lighting, or studio references may replace only their named element; preserve the braided noir styling, confident pose, curvy silhouette, fitted dress, and monochrome mood without explicit body-part wording.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "black-high-neck-dress-gloves-and-leather-belt",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the dress, gloves, or belt while preserving the adult subject's fitted noir styling."
+        },
+        {
+          "type": "lighting",
+          "name": "upper-right-noir-key-light",
+          "required": false,
+          "source": "user-uploaded lighting reference",
+          "usage": "Replace only the key-light direction and contrast while preserving the studio composition and grayscale mood."
+        }
+      ]
+    }
+  }
+}

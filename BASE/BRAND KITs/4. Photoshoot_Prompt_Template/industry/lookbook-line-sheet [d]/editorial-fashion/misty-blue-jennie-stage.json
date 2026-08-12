@@ -1,0 +1,22 @@
+{
+  "name": "misty-blue-jennie-stage",
+  "tag": ["industry", "lookbook-line-sheet", "editorial-fashion", "stage-portrait", "blue-haze"],
+  "image_type": "ethereal stage fashion portrait",
+  "image_vibe": "ethereal, focused, powerful, cool-toned",
+  "image_purpose": "performance-fashion campaign and editorial portrait",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create an ethereal cinematic stage-fashion portrait in cool blue haze with a focused performance presence.",
+    "main_subject": "An adult fictional female performer with original non-celebrity features, long dark voluminous waves, dewy realistic skin, soft smoky eyeshadow, winged eyeliner, gradient red lips, and a sharp focused gaze. She wears a textured white lace fashion top with high-waisted black pleated bottoms and a delicate silver necklace.",
+    "composition_elements": "Dynamic three-quarter profile or grounded performance pose, hair in motion or softly framing the face, intimate portrait crop with visible cool haze and a clean stage-like background.",
+    "lighting_and_atmosphere": "High-contrast stage spotlights with a cool blue rim light along hair and skin, cinematic fog, ethereal concert atmosphere balancing vulnerability and power.",
+    "technical_specs": "Vertical 504:1002-style composition, sharp facial and fabric detail, realistic skin texture, controlled motion in hair, cinematic stage photography.",
+    "generated_prompt_string": "Ethereal cinematic stage-fashion portrait of an adult fictional female performer with original non-celebrity features, long dark voluminous waves, dewy realistic skin, soft smoky eyeshadow, winged eyeliner, gradient red lips, and a sharp focused gaze. She wears a textured white lace fashion top, high-waisted black pleated bottoms, and a delicate silver necklace. Dynamic three-quarter profile, hair softly in motion, cool blue rim light highlighting hair and skin, high-contrast stage spotlights, cinematic haze and fog, ethereal focused performance atmosphere, vertical 504:1002 composition.",
+    "negative_prompt": "celebrity likeness, public figure likeness, exact facial identity, explicit, nsfw, overly revealing, nudity, blurry, low quality, distorted anatomy, extra fingers, deformed, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, text, signature",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "misty-blue-jennie-stage.jpg", "required": true, "source": "workspace reference image", "usage": "Reference the dark waves, white lace styling, cool blue haze, portrait pose, and stage lighting while replacing the named performer with an original adult fictional subject."}],
+      "prompt_instructions": "Attach the required reference image. Preserve the cool blue palette, hair, outfit silhouette, pose, haze, lighting, and performance consistency. Replace celebrity identity with an original adult subject; keep wardrobe, product, logo, environment, and typography details generic and replaceable."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed the named performer and exact likeness while retaining the stage-fashion styling, pose, lighting, and adult fictional subject."]}
+}

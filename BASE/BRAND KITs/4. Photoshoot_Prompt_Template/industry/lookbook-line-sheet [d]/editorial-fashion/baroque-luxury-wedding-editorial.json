@@ -1,0 +1,34 @@
+{
+  "name": "baroque-luxury-wedding-editorial",
+  "tag": ["wedding", "baroque", "couple", "direct-flash", "3:4"],
+  "image_type": "editorial-fashion",
+  "image_vibe": "baroque-luxury, cinematic, old-money",
+  "image_purpose": "wedding-lookbook and campaign",
+  "group": "editorial-fashion",
+  "prompt": {
+    "project_info": "Photorealistic editorial wedding couple portrait in a luxurious baroque hotel lounge using direct flash and warm ambient fill.",
+    "main_subject": "Clearly adult fictional bride in an embellished white wedding gown with secure coverage and subtle sparkle, elegant updo, minimal jewelry; clearly adult fictional groom in black tuxedo, white shirt, black bow tie, polished shoes.",
+    "composition_elements": "3:4 full-body couple shot, bride seated on a gilded rococo sofa, groom relaxed on the floor leaning against it, red marble wallpaper with gold veining, Persian carpet, oil portraits, and floor lamp.",
+    "lighting_and_atmosphere": "Hard on-camera flash with crisp shadows plus warm ambient room fill; preserve white gown texture and sharp gold furniture detail.",
+    "technical_specs": "35mm lens, f/4, ultra-photorealistic skin, crisp furniture, clean edges, subtle film grain, no text or logos.",
+    "generated_prompt_string": "Ultra-photorealistic 3:4 editorial wedding portrait of a clearly adult fictional bride in an embellished white gown with secure coverage seated on a gilded rococo sofa beside a clearly adult fictional groom in a black tuxedo seated on the floor leaning against the sofa, luxurious baroque hotel lounge with deep red marble wallpaper, gold veining, cream damask sofa, Persian carpet, oil portraits and floor lamp, direct on-camera flash, warm ambient fill, 35mm f/4, subtle film grain, no text or logos.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, ageless person, celebrity likeness, public figure likeness, plastic skin, over-smoothed faces, bad anatomy, extra fingers, deformed hands, watermark, text, logo",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "baroque wedding couple reference",
+          "required": true,
+          "source": "Attach the supplied image as the visual reference.",
+          "usage": "Preserve couple placement, gown and tuxedo styling, baroque lounge, sofa, carpet, portraits, and flash; keep fictional identities and room artwork replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the reference image. Keep outfit categories, couple composition, lighting, and baroque environment consistent; identities, artwork, and small decor details may be replaced."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified both subjects as clearly adult fictional people and specified secure gown coverage."],
+    "notes": "Wedding editorial is non-graphic and nonsexual."
+  }
+}

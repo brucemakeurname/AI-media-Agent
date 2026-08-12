@@ -1,0 +1,71 @@
+{
+  "name": "pensive-man-black-white-portrait",
+  "tag": [
+    "adult-man",
+    "pensive-expression",
+    "black-and-white",
+    "knit-sweater",
+    "wristwatch-detail"
+  ],
+  "image_type": "contemplative-studio-portrait",
+  "image_vibe": "somber-introspective-cinematic",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "fine-art monochrome portrait of a contemplative adult man",
+      "color_palette": "black, charcoal, soft gray, and off-white highlights",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult man with short tousled textured dark hair, medium-density short stubble beard, natural skin texture, and a pensive introspective expression.",
+      "wardrobe": "Dark long-sleeve ribbed knit sweater and an understated analog wristwatch with a leather strap and light minimalist dial.",
+      "pose": "Tight-medium three-quarter portrait with head tilted downward, one hand raised to the temple, index finger resting lightly near the brow, and gaze directed downward."
+    },
+    "composition_elements": {
+      "framing": "Vertical portrait cropped at mid-torso with head and hand dominating the frame; subject placed slightly right of center.",
+      "environment": "Smooth dark-gray studio backdrop fading toward near black with minimal distraction and no text or logos.",
+      "focus": "Sharp face, hand, sweater ribbing, watch, and natural skin detail with soft background falloff."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Low-key side light from upper-left with strong highlights on forehead, nose, cheekbone, hand, and watch, plus soft pronounced shadow falloff on the opposite side.",
+      "atmosphere": "Introspective, somber, reflective, minimalist, and cinematic."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with an 85mm short-telephoto lens at f/2.0, 1/125 s, ISO 200",
+      "quality": "Fine-art monochrome conversion, high subject clarity, smooth tonal transitions, subtle grain, realistic knit and leather texture, and natural proportions"
+    },
+    "generated_prompt_string": "Create a photorealistic 4:5 fine-art black-and-white portrait of an adult man with short tousled textured dark hair, medium-density short stubble beard, natural skin texture, and a pensive introspective expression. He wears a dark long-sleeve ribbed knit sweater and an understated analog wristwatch with a leather strap and light minimalist dial. Frame a tight-medium three-quarter portrait cropped at mid-torso, with his head tilted downward, one hand raised to the temple, index finger resting lightly near the brow, and gaze directed downward. Use low-key side light from upper-left, strong highlights on forehead, nose, cheekbone, hand, and watch, soft shadow falloff, a smooth dark-gray studio backdrop fading toward near black, an 85mm lens at f/2.0, subtle grain, and no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, celebrity likeness, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, distorted watch, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original subject. Optional sweater, watch, studio, or lighting references may replace only their named element; preserve the pensive temple gesture, low-key monochrome light, and quiet editorial mood.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "dark-ribbed-knit-sweater",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the sweater knit, weight, and neckline while preserving its dark texture."
+        },
+        {
+          "type": "accessory",
+          "name": "understated-leather-strap-wristwatch",
+          "required": false,
+          "source": "user-uploaded watch reference",
+          "usage": "Replace only the watch case, strap, and light dial without adding branding."
+        },
+        {
+          "type": "location",
+          "name": "dark-gray-gradient-studio",
+          "required": false,
+          "source": "user-uploaded studio reference",
+          "usage": "Replace only the backdrop and shadow gradient while preserving the low-key studio mood."
+        }
+      ]
+    }
+  }
+}

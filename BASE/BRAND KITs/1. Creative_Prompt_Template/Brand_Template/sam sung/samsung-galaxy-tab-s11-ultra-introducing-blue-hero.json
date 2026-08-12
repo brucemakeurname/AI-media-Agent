@@ -1,0 +1,63 @@
+{
+  "name": "samsung-galaxy-tab-s11-ultra-introducing-blue-hero",
+  "tag": [
+    "tablet-launch",
+    "product-hero",
+    "galaxy-ai",
+    "tab-s11-ultra"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Brand story",
+  "group": "samsung_1235183811983428",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy Tab S11 Ultra introduction hero poster",
+      "color_palette": "Deep blue gradient, cyan glow, black display glass, graphite gray, white"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Premium blue-glow launch poster featuring the Galaxy Tab S11 Ultra front view, rear view, and white S Pen aligned horizontally in a clean product stack.",
+      "style": "Photorealistic flagship tablet render, minimal stage-lit launch aesthetic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Introducing Galaxy Tab S11 Ultra / Galaxy AI",
+      "items": [
+        "Top Left: Large centered white title 'Introducing Galaxy Tab S11 Ultra'.",
+        "Top Right: Smaller centered 'Galaxy AI' lockup with blue sparkle icon.",
+        "Bottom Left: Long legal footnotes in small white text.",
+        "Bottom Right: Cyan floor glow and black negative space reflection.",
+        "Center/Background: Rear tablet in graphite gray behind a front-facing tablet with a cyan-to-black screen glow, plus a white S Pen centered below."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Studio lighting",
+      "effect": "Blue halo backlight, glossy glass reflections, subtle floor reflection, futuristic premium mood"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy Tab S11 Ultra introduction hero poster. Centerpiece is a front-facing Galaxy Tab S11 Ultra with a cyan-black display glow, backed by the rear view of the tablet and accompanied by a centered white S Pen below. Background is a blue gradient studio environment with black lower reflections. Surrounding elements: exact centered title 'Introducing Galaxy Tab S11 Ultra', 'Galaxy AI' with sparkle icon, and small white legal footnotes at the lower left. Technical style: photorealistic product render, studio lighting, blue halo backlight and glossy reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy Tab S11 Ultra front, back, and S Pen renders",
+          "required": true,
+          "source": "official Samsung tablet launch renders",
+          "usage": "Preserve tablet proportions, rear camera layout, and pen placement."
+        },
+        {
+          "type": "text_layout",
+          "name": "introduction headline and legal footnotes",
+          "required": true,
+          "source": "original poster",
+          "usage": "Keep the exact centered title, Galaxy AI line, and footnote block."
+        }
+      ],
+      "prompt_instructions": "Use refs for the exact hardware arrangement and blue glow treatment. This should remain a minimal premium hero poster rather than an infographic."
+    }
+  }
+}

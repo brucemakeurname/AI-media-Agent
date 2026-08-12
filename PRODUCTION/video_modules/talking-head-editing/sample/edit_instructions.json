@@ -1,0 +1,104 @@
+{
+  "version": "2.0",
+  "project_id": "teleprompter_01",
+  "output_resolution": "1080x1920",
+  "output_fps": 30,
+  "style": "social",
+
+  "sequence": [
+    {
+      "id": "seg1",
+      "type": "main",
+      "source": "footage/Teleprompter-2026-17-01_23-07-28.mp4",
+      "in_point": 0.0,
+      "out_point": 42.0,
+      "transition_out": "crossfade",
+      "mute_clip_audio": false
+    },
+    {
+      "id": "broll1",
+      "type": "broll",
+      "duration": 5.0,
+      "source_strategy": "hyperframe",
+      "template": {
+        "template": "stat-hero",
+        "value": "AI",
+        "label": "Nền tảng influencer AI đầu tiên tại Việt Nam",
+        "context": "Solo Flows 2025"
+      },
+      "transition_out": "cut"
+    },
+    {
+      "id": "seg2",
+      "type": "main",
+      "source": "footage/Teleprompter-2026-17-01_23-07-28.mp4",
+      "in_point": 42.0,
+      "out_point": 85.0,
+      "transition_out": "crossfade",
+      "mute_clip_audio": false
+    },
+    {
+      "id": "broll2",
+      "type": "broll",
+      "duration": 5.0,
+      "source_strategy": "crawl",
+      "crawl_query": "AI influencer technology Vietnam 2025",
+      "crawl_type": "video",
+      "transition_out": "crossfade"
+    },
+    {
+      "id": "seg3",
+      "type": "main",
+      "source": "footage/Teleprompter-2026-17-01_23-07-28.mp4",
+      "in_point": 85.0,
+      "out_point": 115.0,
+      "transition_out": "fade-to-black",
+      "mute_clip_audio": false
+    }
+  ],
+
+  "overlays": [
+    {
+      "id": "ov1",
+      "mode": "banner-bottom",
+      "start_sec": 18.0,
+      "end_sec": 28.0,
+      "template": {
+        "template": "stat-hero",
+        "value": "#1",
+        "label": "AI Influencer Platform",
+        "context": "Việt Nam"
+      }
+    },
+    {
+      "id": "ov2",
+      "mode": "banner-top",
+      "start_sec": 55.0,
+      "end_sec": 65.0,
+      "template": {
+        "template": "callout",
+        "statement": "Tạo nội dung AI — tự động hoá hoàn toàn",
+        "tag": "Solo Flows"
+      }
+    }
+  ],
+
+  "effects": {
+    "film_grain": true,
+    "film_grain_intensity": 0.12,
+    "vignette": true,
+    "vignette_feather": 0.3,
+    "vignette_opacity": 0.35,
+    "letterbox": false
+  },
+
+  "audio": {
+    "sfx_enabled": true,
+    "ambient": null,
+    "narration": {
+      "source": null,
+      "volume": 1.0
+    },
+    "clip_audio_volume": 0.85
+  }
+}

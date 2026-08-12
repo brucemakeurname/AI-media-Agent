@@ -1,0 +1,71 @@
+{
+  "name": "ysl-matte-hybrid-exclusive-texture-lipstick-info",
+  "tag": [
+    "ysl",
+    "lipstick",
+    "matte-hybrid",
+    "texture-claim",
+    "infographic"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Infographics",
+  "group": "ysl_1434962015335172",
+  "prompt": {
+    "project_info": {
+      "theme": "Texture claim explainer for YSL lipstick",
+      "color_palette": "Dusty rose, pale pink, chrome silver, white"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A pale pink YSL lipstick stands vertically on the right over a dusty rose textured backdrop. Large white copy on the left reads 'KẾT CẤU “MATTE HYBRID” ĐỘC BẢN' followed by 'MỎNG NHẸ TỰ NHIÊN, HIỆU ỨNG MỜ LÌ MANG ĐẾN CẢM GIÁC MỀM MỊN NHƯ MỘT THỎI SON DƯỠNG'.",
+      "style": "Luxury beauty claim poster, clean product education visual, texture-focused cosmetic infographic"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "KẾT CẤU “MATTE HYBRID” ĐỘC BẢN, MỎNG NHẸ TỰ NHIÊN, HIỆU ỨNG MỜ LÌ MANG ĐẾN CẢM GIÁC MỀM MỊN NHƯ MỘT THỎI SON DƯỠNG",
+      "items": [
+        "Top Left: Large stacked white headline on a dusty rose background",
+        "Top Right: Vertical YSL logo in white",
+        "Bottom Left: Smaller white explanatory copy set in multiple lines",
+        "Bottom Right: Hard shadow cast by the upright lipstick",
+        "Center/Background: Single pale pink YSL lipstick on a matte dusty rose textured surface with tonal swatch-like bands"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright clean studio lighting",
+      "effect": "Sharp cast shadow, crisp metallic reflections, tactile wall texture, premium cosmetic clarity"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal beauty infographic composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square beauty claim poster for YSL. Centerpiece is a pale pink YSL lipstick standing vertically on the right side over a dusty rose textured background with a clear hard shadow. Include the exact text 'KẾT CẤU “MATTE HYBRID” ĐỘC BẢN' and 'MỎNG NHẸ TỰ NHIÊN, HIỆU ỨNG MỜ LÌ MANG ĐẾN CẢM GIÁC MỀM MỊN NHƯ MỘT THỎI SON DƯỠNG' in white on the left, plus the vertical YSL logo on the upper right. Technical style: photoreal beauty infographic composite, bright clean studio lighting, crisp metallic reflections and tactile texture, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Pale pink YSL lipstick",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Preserve the lipstick casing, bullet angle, chrome monogram band, and pale pink body"
+        },
+        {
+          "type": "background",
+          "name": "Dusty rose textured swatch wall",
+          "required": true,
+          "source": "original set reference",
+          "usage": "Match the matte textured background and tonal horizontal sweep"
+        },
+        {
+          "type": "text_layout",
+          "name": "Texture-claim typography layout",
+          "required": true,
+          "source": "original poster layout",
+          "usage": "Keep the left-heavy copy block and top-right vertical logo"
+        }
+      ],
+      "prompt_instructions": "Preserve the exact Vietnamese wording, line breaks feel, and clean claim-poster composition. This should read like a luxury education graphic, not a lifestyle editorial."
+    }
+  }
+}

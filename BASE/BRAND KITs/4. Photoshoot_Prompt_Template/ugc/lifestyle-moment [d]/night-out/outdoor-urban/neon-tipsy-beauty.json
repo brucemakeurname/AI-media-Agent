@@ -1,0 +1,44 @@
+{
+  "name": "neon-tipsy-beauty",
+  "tag": ["neon-event", "iphone", "crowd", "flash"],
+  "image_type": "UGC nightlife portrait",
+  "image_vibe": "raw, relaxed, colorful, candid",
+  "image_purpose": "Night event and social lifestyle content",
+  "group": "ugc/lifestyle-moment/night-out/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a raw iPhone 17 Pro nightlife portrait at an outdoor night event with magenta and green neon lighting.",
+    "main_subject": "One generic approved adult woman matching the required identity and expression references, with natural facial and hair geometry, visible micro-pores and a serene soft smile with eyes closed. She wears a technical black compression-fit scoop-neck top with natural fabric texture, a black leather bag strap with silver hardware, and holds a plain technical aluminum beverage can in her articulated right hand. Use a natural feminine silhouette without anatomical exaggeration.",
+    "composition_elements": "Vertical 9:16 close portrait at 24mm wide-angle, handheld in a crowd. Keep the subject slightly off-center, with soft-focus people in hoodies and caps, dark tent-like structures and event lights behind. Preserve the relaxed lateral head tilt and shoulder placement.",
+    "lighting_and_atmosphere": "High-intensity magenta/pink directional light on the face and torso contrasted with green neon ambient light behind, natural optical bokeh, realistic flash sheen, low-light digital grain and unfiltered event energy.",
+    "technical_specs": "Photorealistic raw iPhone 17 Pro rear-camera look, vertical 9:16, 24mm wide-angle, f/2.8 aperture, natural optical bokeh, realistic skin and hair texture, subtle digital grain, no watermark.",
+    "generated_prompt_string": "Photorealistic raw iPhone 17 Pro vertical 9:16 nightlife portrait of one generic approved adult woman matching the required identity and expression references, natural facial and hair geometry, visible micro-pores, serene soft smile with eyes closed, lateral head tilt and relaxed jaw. She wears a technical black compression-fit scoop-neck top with natural fabric texture and a black leather bag strap with silver hardware, holding a plain technical aluminum beverage can in her right hand. A soft-focus outdoor crowd in hoodies and caps and dark tent-like structures surround her. High-intensity magenta and pink directional light falls across her face and torso, contrasted by green neon ambient light in the background, with 24mm wide-angle perspective, f/2.8 natural optical bokeh, realistic flash sheen, digital grain and candid unfiltered event energy, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, exaggerated bust-to-waist ratio, anatomical exaggeration, body-part close-up, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult identity and expression reference",
+          "required": true,
+          "source": "Attach the provided identity and expression references",
+          "usage": "Preserve the approved adult woman's facial geometry, hair geometry, micro-texture, closed-eye soft smile, head tilt and natural expression without beautification or age shift."
+        },
+        {
+          "type": "image",
+          "name": "neon-tipsy-beauty composition reference",
+          "required": true,
+          "source": "Attach the provided local reference image",
+          "usage": "Match the crowd, neon colors, black top, bag strap, beverage can, close crop and raw iPhone aesthetic while keeping identity and details replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required identity/expression and composition references. Preserve approved adult identity, expression, outfit category, can, bag strap, crowd, neon lighting and iPhone optics. Keep person, clothing details, can, bag, crowd and environment replaceable; use neutral silhouette language and no body-part emphasis."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed the explicit bust-to-waist anatomical emphasis and replaced it with a natural feminine silhouette.",
+      "Preserved the black top, event crowd, beverage can, neon lighting, expression and iPhone aesthetic.",
+      "Added coverage, anti-slop and non-sexualized framing exclusions."
+    ]
+  }
+}

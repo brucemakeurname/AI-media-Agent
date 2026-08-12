@@ -1,0 +1,19 @@
+{
+  "name": "melancholic-profile-in-snow",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "snow", "profile"],
+  "image_type": "snowy-night-profile-portrait",
+  "image_vibe": "melancholic-cold-cinematic",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic nighttime snowfall profile portrait of an approved adult man on an urban street.",
+    "main_subject": "An approved adult man with short slightly wavy medium-brown hair, natural skin with subtle cold redness, and a contemplative profile. He wears a dark winter coat dusted with snow and holds a cigarette near his mouth; keep tobacco depiction non-glamorized and incidental.",
+    "composition_elements": "Vertical upper-torso profile facing left, snow-covered sidewalk and road, apartment building, warm streetlight, and visible snow streaks behind.",
+    "lighting_and_atmosphere": "Warm artificial streetlight against cold blue night, gentle facial shadows, subdued melancholic winter atmosphere.",
+    "technical_specs": "Photorealistic 8K-style portrait, vertical framing, natural skin and coat texture, realistic snowfall, controlled contrast and depth.",
+    "generated_prompt_string": "Create a photorealistic vertical nighttime snowfall profile portrait of an approved adult man with short slightly wavy medium-brown hair and natural cold-reddened skin. He faces left in profile, looks into the distance, wears a dark snow-dusted winter coat, and holds a cigarette near his mouth as a non-glamorized incidental detail. Show snow-covered road and sidewalk, apartment buildings, warm streetlights, and visible falling snow. Use warm light against cold night tones, gentle shadows, realistic texture, and subdued melancholic mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, glamorized smoking, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, excessive smoke",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-snow-profile-subject", "required": true, "source": "melancholic-profile-in-snow.jpg", "usage": "Preserve adult identity, profile, hair, expression, and coat pose."}, {"type": "wardrobe", "name": "dark-snowy-winter-coat", "required": true, "source": "melancholic-profile-in-snow.jpg", "usage": "Keep coat, snow accumulation, and winter styling consistent; replace only with explicit references."}, {"type": "location", "name": "snowy-urban-night-street", "required": true, "source": "melancholic-profile-in-snow.jpg", "usage": "Maintain buildings, snow, road, streetlights, and cold atmosphere; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and made tobacco incidental rather than glamorized.", "Added safe negative prompts and structured references."]}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "sunny-poolside-pink-blue-swimsuit-beauty",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "poolside", "swimwear"],
+  "image_type": "poolside swimwear fashion portrait",
+  "image_vibe": "sunny, polished, athletic, colorful",
+  "image_purpose": "swimwear lookbook and resort campaign",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a photorealistic 3:4 poolside fashion portrait of one approved adult woman with shoulder-length blonde hair and soft bangs.",
+    "main_subject": "Approved adult woman with fair natural skin, shoulder-length blonde hair with soft bangs, calm engaging expression, and realistic athletic proportions. She wears a glossy competitive one-piece swimsuit with deep royal-pink center panel and vibrant bubblegum-blue side panels, high-shine wet-lycra finish, and the supplied small pink chest logo.",
+    "composition_elements": ["Medium-full knees-up shot from a slightly elevated angle.", "Subject stands in the pool leaning slightly forward with right hand flat on the pool deck and left arm relaxed.", "Sparkling blue water and mosaic tiles in the foreground.", "Upscale resort patio with white lounge chairs, green hedges, palms, and villa pergola in background."],
+    "lighting_and_atmosphere": "Bright high-key natural midday sunlight, strong realistic highlights on wet skin and glossy swimsuit, defined soft shadows, crisp tropical summer atmosphere.",
+    "technical_specs": "3:4 photorealistic high-resolution photography, sharp subject, shallow depth of field, realistic wet skin, fabric, water, and tile texture, no added text or watermark.",
+    "generated_prompt_string": "Photorealistic highly detailed 3:4 poolside fashion portrait of an approved adult woman with shoulder-length blonde hair and soft bangs, fair natural skin and a calm engaging expression looking directly at camera. She is in a swimming pool, leaning slightly forward with her right hand resting flat on the pool deck for support and her left arm relaxed by her side. She wears a glossy competitive one-piece swimsuit with a deep royal-pink center panel and vibrant bubblegum-blue side panels, high-shine wet-lycra finish, and the supplied small pink chest logo. Upscale outdoor resort pool on a sunny day, sparkling blue water, mosaic tiles, white lounge chairs, green hedges, palm trees, villa-style pergola, bright high-key natural sunlight, realistic wet texture, medium-full knees-up shot, no added text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "body-part emphasis", "distorted anatomy", "extra fingers", "inconsistent identity", "plastic skin", "over-smooth", "over-saturated", "HDR look", "watermark", "unwanted text", "logo distortion", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "sunny-poolside-pink-blue-swimsuit-beauty.jpg", "required": true, "source": "local reference image", "usage": "Attach for approved-adult identity, hair, expression, pose, and swimwear reference."}, {"type": "product", "name": "pink-and-blue competitive swimsuit with supplied chest logo", "required": true, "source": "local reference image", "usage": "Preserve panel colors, wet-lycra material, fit, and supplied logo."}, {"type": "location", "name": "upscale tropical resort pool", "required": true, "source": "local reference image", "usage": "Preserve pool, tiles, patio, lounge chairs, hedges, palms, and pergola."}],
+      "prompt_instructions": "Attach the required references. Preserve the adult subject, face, hair, one-piece swimsuit, color panels, supplied chest logo, pool pose, resort, lighting, and 3:4 framing. Keep the swimsuit as a fashion/product reference without sexualized emphasis; replace only with equivalent adult, product, or resort references. Do not add unrelated logos or typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the source's young-woman wording as an approved adult and removed hourglass/body-emphasis language while preserving the competitive swimsuit, pose, product colors, and poolside concept."]}
+}

@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-summer-chair-combo-41-percent",
+  "tag": [
+    "summer-sale",
+    "combo-offer",
+    "beach-chair",
+    "product-styling",
+    "hair-and-body",
+    "discount"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "cocoon_993108996409869",
+  "prompt": {
+    "project_info": {
+      "theme": "Sunny summer combo sale staged on a striped beach chair",
+      "color_palette": "Sunshine Yellow, Sand Beige, Orange Towel, Forest Green, Plum Purple, White"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A summer lifestyle product arrangement on a yellow-blue-white striped folding beach chair featuring multiple Cocoon products, with a large yellow badge reading 'COMBO 2 GIẢM ĐẾN 41%' and a bold bottom headline 'TÓC SẠCH KHỎE DA RẠNG NGỜI'.",
+      "style": "Styled commercial product photography, bright seasonal merchandising, beach-inspired summer visual"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'COMBO 2 GIẢM ĐẾN 41%' and 'TÓC SẠCH KHỎE DA RẠNG NGỜI'. Product labels remain visible on the featured Cocoon bottles and tube.",
+      "items": [
+        "Top Left: Large round yellow discount badge with red text 'COMBO 2 GIẢM ĐẾN 41%'.",
+        "Top Right: Upper section of a striped folding beach chair with a tall green pomelo shampoo bottle standing upright and an amber winter melon bottle leaning diagonally.",
+        "Bottom Left: Orange-and-white towel draped across the chair, small green bottle lying horizontally, dark body polish jar near the lower edge, and a wooden crate filled with cucumbers.",
+        "Bottom Right: White chair frame cutting diagonally across the composition, creating strong geometric lines.",
+        "Center/Background: Purple tube centered on the chair seat, warm sandy backdrop, bright hard sunlight, and giant yellow headline text stacked across the bottom."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright summer sunlight",
+      "effect": "Warm highlights, crisp directional shadows, vivid seasonal color contrast, beach-day energy"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity styled commercial product photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a sunny summer combo sale staged on a striped beach chair. Centerpiece is a bright arrangement of Cocoon products on a yellow-blue-white folding chair, including a green pomelo shampoo bottle, an amber winter melon bottle, a purple scrub tube, a small green bottle, and a dark body polish jar. Background is a warm sandy setting with an orange striped towel and a crate of cucumbers. Surrounding elements: a large yellow badge reading 'COMBO 2 GIẢM ĐẾN 41%' in the upper left and huge stacked yellow text 'TÓC SẠCH KHỎE DA RẠNG NGỜI' across the bottom. Keep the diagonal chair framing, strong sunlight, and summery merchandising mood. Technical style: high fidelity styled commercial product photography, bright summer sunlight, warm highlights and crisp directional shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Cocoon summer product set",
+          "required": true,
+          "source": "Attach each product packshot or use the original creative as a full product reference",
+          "usage": "Preserve exact bottle/tube forms, label systems, and the specific assortment shown on the chair."
+        },
+        {
+          "type": "text_layout",
+          "name": "Summer chair sale composition",
+          "required": true,
+          "source": "Use the original image as layout reference",
+          "usage": "Keep the chair angle, discount badge position, bottom headline size, towel drape, and cucumber crate placement."
+        },
+        {
+          "type": "background",
+          "name": "Striped folding chair and beach props",
+          "required": true,
+          "source": "Attach the original creative or a crop of the chair setup",
+          "usage": "Maintain the striped chair pattern, sandy setting, and summery prop styling."
+        }
+      ],
+      "prompt_instructions": "When recreating with gpt-image-2, use product refs and the full composition ref so the exact chair geometry, badge placement, and bottom typography scale remain intact. The image should feel like a bright summer catalog shot, not a generic flat lay."
+    }
+  }
+}

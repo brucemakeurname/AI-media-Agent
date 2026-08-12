@@ -1,0 +1,71 @@
+{
+  "name": "ysl-21-rouge-paradoxe-ruby-red-lip-comparison",
+  "tag": [
+    "ysl",
+    "lipstick-shade",
+    "split-lips",
+    "rouge-paradoxe",
+    "ruby-red"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Before and after",
+  "group": "ysl_1333151338849574",
+  "prompt": {
+    "project_info": {
+      "theme": "Lip shade comparison for YSL The Slim",
+      "color_palette": "Warm bronze gradient, soft beige skin tones, pink-red lipstick, deep ruby red lipstick"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "Extreme close-up of a female mouth with slightly parted lips and visible white teeth, split diagonally by a thin white divider line to compare two lipstick finishes. Top headline reads '#21 - ROUGE PARADOXE' and bottom copy reads 'ĐỎ RUBY QUYẾN RŨ'.",
+      "style": "Luxury beauty macro, clinical shade-comparison poster, matte lip texture focus"
+    },
+    "composition_elements": {
+      "type": "Background Elements",
+      "text": "#21 - ROUGE PARADOXE, ĐỎ RUBY QUYẾN RŨ",
+      "items": [
+        "Top Left: Warm bronze gradient header area",
+        "Top Right: Large bold white typography '#21 - ROUGE PARADOXE'",
+        "Bottom Left: Softer pink-red matte lip tone on the left half of the mouth",
+        "Bottom Right: Deeper ruby red matte lip tone on the right half of the mouth with more saturated contrast",
+        "Center/Background: Full-frame lip macro on fair skin with a thin diagonal white comparison line and large white footer text 'ĐỎ RUBY QUYẾN RŨ'"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio beauty lighting",
+      "effect": "Even frontal illumination, crisp lip texture, smooth skin gradients, high-clarity cosmetic detail, no harsh shadows"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal beauty macro advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury beauty shade-comparison poster for YSL. Centerpiece is an extreme close-up of a female mouth with slightly parted lips and visible white teeth, divided by a thin diagonal white line to compare two matte lipstick tones. Left side is a softer pink-red matte finish, right side is a richer ruby red matte finish. Include the exact text '#21 - ROUGE PARADOXE' at the top and 'ĐỎ RUBY QUYẾN RŨ' at the bottom in bold white typography. Background is a warm bronze gradient field framing the lip macro. Technical style: photoreal beauty macro advertising composite, soft studio beauty lighting, crisp lip texture and smooth skin gradients, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Female lip macro reference",
+          "required": true,
+          "source": "original beauty close-up image",
+          "usage": "Preserve the exact lip shape, tooth reveal, skin tone, and macro crop"
+        },
+        {
+          "type": "product",
+          "name": "YSL lipstick shade #21 Rouge Paradoxe",
+          "required": true,
+          "source": "real product shade reference",
+          "usage": "Match the right-side ruby red lipstick tone and the left-side softer comparison tone"
+        },
+        {
+          "type": "text_layout",
+          "name": "Top and bottom comparison typography layout",
+          "required": true,
+          "source": "original poster layout",
+          "usage": "Keep the large centered top headline, diagonal divider line, and oversized footer wording placement"
+        }
+      ],
+      "prompt_instructions": "Preserve the exact macro crop and the diagonal comparison line. The image must read as a luxe lipstick shade comparison, not a fashion portrait. Keep the visible wording exactly as shown."
+    }
+  }
+}

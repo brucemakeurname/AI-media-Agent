@@ -1,0 +1,22 @@
+{
+  "name": "rococo-vintage-luxury-dream",
+  "tag": ["industry", "lookbook-line-sheet", "retro-vintage", "rococo", "pastel"],
+  "image_type": "Rococo luxury fashion portrait",
+  "image_vibe": "ethereal, romantic, cinematic, ornate",
+  "image_purpose": "Rococo lookbook and vintage luxury editorial",
+  "group": "industry/lookbook-line-sheet/retro-vintage",
+  "prompt": {
+    "project_info": "Create an ultra-photorealistic Rococo-inspired fashion portrait of one original approved adult woman seated on an ornate sofa in a pastel luxury interior.",
+    "main_subject": "Original approved adult woman with a soft sleek bun tied with a light-blue ribbon, natural dewy skin, neutral high-fashion expression, floral tapestry corset with lace trim and ribbon lacing, pale-yellow pleated mini-skirt, sheer white opera gloves, white lace-knit knee-high socks with small bows, and delicate silver drop earrings.",
+    "composition_elements": ["Eye-level full-body portrait, seated gracefully on the back of a sofa with knees tucked naturally.", "One hand gently touches the chin; the other rests behind on lace fabric.", "White ornate fireplace mantel, paneled door, gold-framed mirror reflecting a red fringed lamp, floral sofa with white lace throw.", "Ornate silver hand mirror on the seat and white floral bouquet in a silver pedestal vase."],
+    "lighting_and_atmosphere": "Soft diffused indoor lighting, gentle shadows, bright airy atmosphere, pastel cream, pale yellow, sage, gold, and deep-red reflection accents.",
+    "technical_specs": "50mm prime lens, f/2.8, ultra-photorealistic RAW photography, 8K detail, realistic tapestry, lace, velvet, wood, metal, and skin texture, no text or watermark.",
+    "generated_prompt_string": "Ultra-photorealistic Rococo-inspired luxury fashion portrait of an original approved adult woman with hair pulled into a soft sleek bun tied with a subtle light-blue ribbon, natural dewy skin with visible pores and neutral high-fashion expression. She wears a floral tapestry corset with lace trim and ribbon lacing, a pale-yellow pleated mini-skirt, sheer white opera-length gloves and white lace-knit knee-high socks with small bows, plus delicate silver drop earrings. She sits gracefully on the back of a floral sofa with knees tucked naturally, one hand gently touching her chin and the other resting behind on lace fabric. Opulent vintage interior with white ornate fireplace mantel, white paneled door, gold-framed mirror reflecting a red fringed lampshade, floral sofa with white lace throw, ornate silver hand mirror and white bouquet in a silver vase. Soft diffused light, pastel cream, pale yellow and sage palette with gold accents, 50mm f/2.8, 8K RAW photorealism, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "distorted anatomy", "extra fingers", "inconsistent identity", "plastic skin", "over-smooth", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "rococo-vintage-luxury-dream.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult identity, hair, makeup, outfit, pose, and styling."}, {"type": "location", "name": "Rococo interior with sofa, fireplace, mirror, and bouquet", "required": true, "source": "local reference image", "usage": "Preserve ornate furniture, reflection, lace throw, flowers, and pastel palette."}],
+      "prompt_instructions": "Attach the required references. Preserve an original adult identity, not Margot Robbie or any public figure; preserve bun, ribbon, corset, skirt, gloves, socks, sofa pose, ornate interior, and lighting. Replace only with equivalent adult identity or environment references; no celebrity likeness, logos, or typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced the named public-figure resemblance with an original approved adult while preserving the Rococo outfit, pose, ornate interior, and pastel luxury intent."]}
+}

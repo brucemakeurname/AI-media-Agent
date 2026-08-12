@@ -1,0 +1,70 @@
+{
+  "name": "shopee-vip-summer-voucher-burst",
+  "tag": [
+    "vip-membership",
+    "voucher-promo",
+    "summer-campaign",
+    "mascot-3d"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "shopee_1036626488850726",
+  "prompt": {
+    "project_info": {
+      "theme": "ShopeeVIP bright summer voucher campaign",
+      "color_palette": "Hot red, golden yellow, electric blue, orange"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A vivid ShopeeVIP summer voucher poster with a crowned Shopee box mascot wearing sunglasses and a tropical shirt. Top banner reads 'ShopeeVIP TUNG VOUCHER' and giant text says 'DON HE RUC RO'. The mascot holds a phone showing sunscreen and sunglasses. Three large blue voucher tickets dominate the lower half with exact text: 'VOUCHER GIAM 30% DEN 100.000D Tu 15.7 toi 20.7', 'VOUCHER GIAM 25% DEN 200.000D Tu 15.7 toi 20.7', and 'VOUCHER GIAM 25% DEN 200.000D Tu 25.7 toi 31.7'. Bottom orange bar says 'Luu va su dung ma trong cac khung gio 0H - 9H - 12H - 15H - 18H - 21H'.",
+      "style": "High-energy summer membership promo with 3D mascot, tropical props, and oversized voucher-ticket composition"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "ShopeeVIP / ShopeeVIP TUNG VOUCHER / DON HE RUC RO / VOUCHER GIAM 30% DEN 100.000D / Tu 15.7 toi 20.7 / VOUCHER GIAM 25% DEN 200.000D / Tu 25.7 toi 31.7 / Luu va su dung ma trong cac khung gio / 0H - 9H - 12H - 15H - 18H - 21H",
+      "items": [
+        "Top Left: Shopee logo and ShopeeVIP logo",
+        "Top Right: Palm-tree ornaments, gift boxes, and ribbon confetti",
+        "Bottom Left: Large 30 percent voucher ticket",
+        "Bottom Right: Large 25 percent voucher ticket and the orange usage-hours bar",
+        "Center/Background: Crowned Shopee box mascot with sunglasses holding a phone, bright summer red-orange glow, and three giant blue voucher tickets"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright tropical promo lighting",
+      "effect": "Glossy 3D highlights, golden flares, confetti sparkle, warm summer saturation"
+    },
+    "technical_specs": {
+      "render_style": "3D mascot voucher poster with bright promotional compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a ShopeeVIP summer voucher campaign. Centerpiece is a crowned Shopee box mascot in sunglasses and a tropical shirt holding a phone with summer items on screen. Background is a hot red-orange summer glow with palm ornaments, confetti, and gift boxes. Surrounding elements: Shopee and ShopeeVIP logos, top text 'ShopeeVIP TUNG VOUCHER', giant title 'DON HE RUC RO', three oversized blue voucher tickets with the exact visible percentages, discount caps, and date ranges, plus the bottom orange bar 'Luu va su dung ma trong cac khung gio 0H - 9H - 12H - 15H - 18H - 21H'. Technical style: 3D mascot voucher poster with bright promotional compositing, tropical promo lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Shopee and ShopeeVIP brand assets",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for the top branding and membership lockup"
+        },
+        {
+          "type": "graphic",
+          "name": "Shopee box mascot summer variant",
+          "required": true,
+          "source": "this creative or original mascot asset set",
+          "usage": "Preserve the crown, sunglasses, tropical shirt, and phone-holding pose"
+        },
+        {
+          "type": "text_layout",
+          "name": "Summer voucher-ticket layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the three ticket sizes, date ranges, and bottom schedule bar"
+        }
+      ],
+      "prompt_instructions": "Preserve all visible dates exactly. Relative to Friday, July 17, 2026, '15.7 toi 20.7' is active, while '25.7 toi 31.7' is future, and both must remain unchanged in the artwork."
+    }
+  }
+}

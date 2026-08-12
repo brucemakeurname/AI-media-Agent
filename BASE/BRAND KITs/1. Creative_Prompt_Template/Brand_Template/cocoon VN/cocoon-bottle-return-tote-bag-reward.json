@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-bottle-return-tote-bag-reward",
+  "tag": [
+    "recycling",
+    "reward",
+    "tote-bag",
+    "lifestyle",
+    "outdoor",
+    "campaign"
+  ],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Special offers",
+  "group": "cocoon_1012585721293757",
+  "prompt": {
+    "project_info": {
+      "theme": "Bottle-return reward poster featuring a Cocoon tote bag",
+      "color_palette": "Sky Blue, White, Light Denim Blue, Soft Lime Green, Metallic Gray"
+    },
+    "main_subject": {
+      "type": "Person/Object",
+      "detail": "A low-angle outdoor lifestyle image of a person leaning over a metal railing while holding a pale green tote bag printed 'Cocoon VIỆT NAM', with large white campaign text explaining bottle-return counts required to redeem one fabric bag.",
+      "style": "Casual eco-lifestyle photography, airy sky composition, clean awareness poster"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes '10 vỏ chai lớn (DUNG TÍCH LỚN HƠN 50ML)', '25 vỏ chai nhỏ (CÁC DUNG TÍCH CÒN LẠI)', and '1 túi vải'.",
+      "items": [
+        "Top Left: Cropped upper body of the model in white t-shirt, leaning over silver and bronze railings against a clear blue sky.",
+        "Top Right: Large white numbers 10 and 25 with Vietnamese explanatory text and curved white arrows pointing toward a doodled tote icon.",
+        "Bottom Left: Full pale green fabric tote bag hanging from the person's hands, printed with oversized white 'Cocoon VIỆT NAM'.",
+        "Bottom Right: Huge white text '1 túi vải' and a hand-drawn green tote icon sticker on an off-white cutout shape.",
+        "Center/Background: Clean open-sky background with diagonal metal railings adding structure."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright natural daylight",
+      "effect": "Airy clean shadows, optimistic outdoor feel, soft fabric texture visibility, fresh sustainability mood"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity lifestyle campaign photography with doodle overlay",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a bottle-return reward campaign featuring a Cocoon tote bag. Centerpiece is a person standing behind metal railings and holding a pale green tote printed 'Cocoon VIỆT NAM' against a wide blue sky. Background is minimal open air with strong diagonal railing lines. Surrounding elements: large white text '10 vỏ chai lớn', '25 vỏ chai nhỏ', '1 túi vải', curved white arrows, and a green hand-drawn tote icon sticker. Keep the low-angle lifestyle perspective, airy spacing, and exact campaign wording. Technical style: high fidelity lifestyle campaign photography with doodle overlay, bright natural daylight, airy clean shadows and fresh sustainability mood, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Cocoon VIỆT NAM tote bag",
+          "required": true,
+          "source": "Attach a crop of the tote bag from the original image",
+          "usage": "Preserve the pale green fabric color, bag shape, and exact white printed logo text."
+        },
+        {
+          "type": "person",
+          "name": "Low-angle railing pose",
+          "required": true,
+          "source": "Use the original image as pose reference",
+          "usage": "Maintain the stance behind the rail, the bag hanging position, and overall crop."
+        },
+        {
+          "type": "text_layout",
+          "name": "Bottle-return reward typography",
+          "required": true,
+          "source": "Use the original creative as text-layout reference",
+          "usage": "Keep the large numbers, arrows, and tote reward wording on the right side."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, attach the tote bag ref and the original composition ref. Preserve the low-angle sky composition, the exact bag print, and the large numeric reward text rather than inventing a new promotional layout."
+    }
+  }
+}

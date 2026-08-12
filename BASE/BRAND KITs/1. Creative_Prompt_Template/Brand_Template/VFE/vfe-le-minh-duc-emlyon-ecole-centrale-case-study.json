@@ -1,0 +1,78 @@
+{
+  "name": "vfe-le-minh-duc-emlyon-ecole-centrale-case-study",
+  "tag": [
+    "vfe",
+    "emlyon",
+    "ecole-centrale-lyon",
+    "case-study",
+    "student-profile"
+  ],
+  "biz_niche": "Education",
+  "content_format": "Case studies",
+  "group": "vfe_1330670899183552",
+  "prompt": {
+    "project_info": {
+      "theme": "Student success story for emlyon business school and École Centrale de Lyon",
+      "color_palette": "Navy Blue, Red, White, Cream, Warm Skin Tones"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A scrapbook-style academic success poster for Lê Minh Đức featuring a large red-white nameplate, a cream open-book panel with academic bullet points, a polaroid portrait holding certificates and medals, official admission proof documents, and a smaller formal portrait at the lower left.",
+      "style": "Proof-heavy student case study poster with layered paper textures, French motifs, institutional logos, and admissions-document evidence."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nLê Minh Đức\nTrúng tuyển chương trình Cử nhân Khoa học Dữ liệu do emlyon business school phối hợp cùng École Centrale de Lyon\nGPA 3 năm cấp 3 >9.0\nFounder Tổ chức Giáo dục & Văn Hóa ICEPY\nTổng Đạo Diễn Chương Trình Nghệ Thuật Chính Luận \"Khát Vọng Vươn Mình 2025\"\nDu học hè 2024 tại Oxford (Anh)\nChứng chỉ IELTS 7.0 & TCF B1\n2K8 THPT Hàm Rồng (Thanh Hoá)\nNHẬN TƯ VẤN NGAY",
+      "items": [
+        "Top Left: VFE logo and giant red-white nameplate 'Lê Minh Đức'.",
+        "Top Right: Polaroid portrait of the student with certificates and medals, plus a French flag and red curtain background.",
+        "Bottom Left: Formal portrait photo, Eiffel stamp doodle, Arc de Triomphe illustration, and open admission document area with emlyon and Centrale Lyon logos.",
+        "Bottom Right: Red rounded CTA 'NHẬN TƯ VẤN NGAY' and the lower portion of the large polaroid.",
+        "Center/Background: Cream open-book note panel listing six bullet achievements and proof documents layered underneath."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft scrapbook editorial lighting",
+      "effect": "Readable paper layers, clean proof-document contrast, and warm student-portrait realism."
+    },
+    "technical_specs": {
+      "render_style": "Scrapbook-style academic success case study poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality student success case study poster for Lê Minh Đức. Centerpiece is a cream open-book panel listing academic and extracurricular achievements, surrounded by a large polaroid portrait with certificates and medals, official admission proof papers, and French landmark motifs. Background is a navy paper-collage field with VFE branding. Surrounding elements: nameplate 'Lê Minh Đức', references to emlyon business school and École Centrale de Lyon, school identity '2K8 THPT Hàm Rồng (Thanh Hoá)', and red CTA 'NHẬN TƯ VẤN NGAY'. Technical style: scrapbook-style academic success case study poster, soft editorial lighting, proof-heavy admissions evidence, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE, emlyon business school, and École Centrale de Lyon logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Place VFE top left and school logos within the document proof area."
+        },
+        {
+          "type": "person",
+          "name": "Lê Minh Đức portrait references",
+          "required": true,
+          "source": "source photos from current creative",
+          "usage": "Keep the same polaroid portrait holding certificates and the smaller formal portrait."
+        },
+        {
+          "type": "ui_reference",
+          "name": "Admission document proof collage",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve the acceptance letter and evidence-paper composition."
+        },
+        {
+          "type": "text_layout",
+          "name": "Student case study open-book layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep the bullet list, nameplate, and CTA placement exactly."
+        }
+      ],
+      "prompt_instructions": "Preserve all visible school names, IELTS/TCF scores, and the 2025 program title. This poster depends on proof and specificity, so do not simplify the credentials."
+    }
+  }
+}

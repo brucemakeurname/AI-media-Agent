@@ -1,0 +1,84 @@
+{
+  "name": "cherry-lips-latex-babe",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "glossy-black",
+    "cherry-prop"
+  ],
+  "image_type": "glossy fashion studio portrait",
+  "image_vibe": "playful, polished, bold, editorial",
+  "image_purpose": "fashion lookbook and social campaign portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic studio portrait of one original approved adult woman in a glossy black fashion outfit with cherries and a clear coupe prop against a seamless light-gray backdrop.",
+    "main_subject": "Original approved adult woman with long thick wavy blonde hair parted slightly off-center, warm fair-to-medium complexion with natural texture, soft defined jawline, prominent cheekbones, glossy pink lipstick, rosy blush, defined brows, smoky eye makeup, and a confident direct gaze. She wears a black sleeveless high-collar glossy bodysuit with a prominent front zipper and black sheer tights with supplied cursive lettering from the wardrobe reference.",
+    "composition_elements": [
+      "Subject seated on the floor, leaning back dynamically with one hand supporting her body and the other hand raised near the face holding a single dark-red cherry by its stem.",
+      "Folded legs rest to one side in a medium-full composition from mid-calf to slightly above the head.",
+      "A small clear ribbed glass coupe with three dark-red cherries sits on the floor near the subject's hip.",
+      "Seamless solid light-gray or off-white studio backdrop with no distracting elements."
+    ],
+    "lighting_and_atmosphere": "Soft diffused studio lighting with bright even illumination, gentle shadows, controlled highlights on glossy fabric and cherries, and a clean playful editorial atmosphere.",
+    "technical_specs": "Photorealistic 4:5 medium-full portrait, 50mm lens at f/4, shallow depth of field, sharp facial, glossy-material, glass, and cherry detail, natural skin texture, subtle film grain, no text or watermark beyond supplied wardrobe lettering.",
+    "generated_prompt_string": "Photorealistic studio fashion portrait of one original approved adult woman with long thick wavy blonde hair parted slightly off-center, warm fair-to-medium complexion with natural texture, soft defined jawline, prominent cheekbones, glossy pink lipstick, rosy blush, defined brows and smoky eye makeup. She wears a black sleeveless high-collar glossy bodysuit with a prominent front zipper and black sheer tights carrying the supplied cursive lettering from the wardrobe reference. Seat her on the floor leaning back dynamically, one hand supporting her body and the other raised near her face holding a single glossy dark-red cherry by its stem. Her folded legs rest to one side, while a small clear ribbed glass coupe containing three dark-red cherries sits near her hip. Use a seamless light-gray or off-white studio backdrop, soft diffused lighting, gentle shadows, controlled reflections, 50mm f/4, 4:5 medium-full framing, realistic skin, glossy material, glass, and cherry texture, clean playful editorial mood, no added text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "suggestive mouth action",
+      "minor or age ambiguity",
+      "celebrity likeness",
+      "explicit measurements",
+      "body-part emphasis",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "distorted anatomy",
+      "extra fingers",
+      "garbled wardrobe lettering",
+      "watermark",
+      "unwanted text",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "cherry-lips-latex-babe.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for original approved-adult identity, face, hair, makeup, expression, and pose reference."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black glossy bodysuit and supplied-lettering sheer tights",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the high collar, zipper, glossy material, garment silhouette, tights, and supplied lettering."
+        },
+        {
+          "type": "accessory",
+          "name": "dark-red cherries and clear ribbed coupe",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve cherry count, stem placement, glass shape, and prop position."
+        }
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, and prop references; no optional assets are needed. Keep identity, face, outfit, supplied typography on the tights, cherries, glass, pose, studio environment, and lighting consistent. Replace only with an equivalent approved adult, equivalent outfit, equivalent supplied lettering, or equivalent prop reference. Preserve supplied typography exactly when visible; do not add unrelated logos, text, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the public-figure identity, clarified the subject as an approved adult, removed suggestive wording and explicit neckline emphasis, and preserved the supplied outfit, cherry props, typography, and seated composition."
+    ]
+  }
+}

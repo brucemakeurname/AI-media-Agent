@@ -1,0 +1,76 @@
+{
+    "name":  "banana-shake-nutrition-card",
+    "tag":  [
+                "infographic",
+                "nutrition",
+                "recipe",
+                "banana shake",
+                "food design",
+                "health benefits"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Infographics",
+    "group":  "infographic_recipe_card",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Banana shake nutrition and recipe card",
+                                        "color_palette":  "Cream white, banana yellow, soft gold, pale olive, warm brown"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A realistic creamy banana shake in a footed glass with whipped cream, sliced banana garnish and a striped straw, centered on a soft paper-textured background.",
+                                        "style":  "Premium recipe-book food infographic with semi-3D icons and soft rounded cards"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Drink/Nutrition data/Recipe steps/UI cards",
+                                                "text":  "Banana Shake; Nutrition; Steps; Health Benefits; 5 MINUTES; SERVES 1",
+                                                "items":  [
+                                                              "Center: banana shake hero glass with banana slices and cream.",
+                                                              "Left: stacked nutrition cards for calories, protein, carbs, fats, fiber, potassium, vitamin B6, calcium and magnesium.",
+                                                              "Right upper: Blend, Adjust Thickness and Chill \u0026 Pour recipe steps.",
+                                                              "Right lower: health-benefit card including energy, recovery, gut, bone and mood support.",
+                                                              "Bottom: time, serving and sweetness controls."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft food studio lighting",
+                                                   "effect":  "Warm creamy highlights, light paper grain, subtle shadows and readable balanced card spacing"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "High-detail 8K Pinterest/Instagram food infographic",
+                                           "resolution":  "Square high-resolution card"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "drink recipe and hero styling",
+                                                                 "required":  true,
+                                                                 "source":  "verified recipe and approved food reference",
+                                                                 "usage":  "Preserve ingredient list, glass, garnish and actual serving appearance."
+                                                             },
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "nutrition and health data",
+                                                                 "required":  true,
+                                                                 "source":  "verified nutrition database or dietitian-approved data",
+                                                                 "usage":  "Populate calories, macros, micronutrients and health statements accurately."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "recipe-card typography and icon layout",
+                                                                 "required":  true,
+                                                                 "source":  "source infographic reference",
+                                                                 "usage":  "Keep all cards, titles, icons and step hierarchy readable."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Do not invent nutritional claims or values; attach a verified data sheet.",
+                                                                          "Keep health-benefit claims appropriately qualified.",
+                                                                          "Use one drink recipe per card and preserve metric units."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "A clean, modern food infographic poster for [DRINK NAME], centered composition. A highly realistic glass/bottle of the drink in the middle with smooth texture, condensation, and soft studio lighting. Minimal pastel background with subtle paper texture. Surrounding the drink are neatly arranged UI-style information cards and icons showing nutrition facts, preparation steps, time, servings, sweetness level, and health benefits. Rounded cards, soft shadows, warm color palette matching the drink, flat + semi-3D icon design. Elegant typography, premium recipe-book aesthetic, Pinterest/Instagram infographic style, ultra-sharp, balanced spacing, professional food design, high detail, 8K quality.",
+                   "negative_prompt":  "unverified nutrition data, unreadable cards, wrong ingredient, cluttered layout, misleading health claim, low resolution, watermark"
+               }
+}

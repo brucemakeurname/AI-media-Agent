@@ -1,0 +1,60 @@
+{
+  "name": "future-minimal-sportswear",
+  "tag": ["adult-woman", "nike-sportswear", "futuristic-editorial", "translucent-pants", "red-sculpture", "just-do-it"],
+  "image_type": "futuristic-sportswear-poster",
+  "image_vibe": "minimal-futuristic-polished",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the model as an adult and applied feminine-silhouette, fitted-layering, and directional-light language while preserving the Nike outfit, dynamic stance, translucent pants, red organic sculpture, and Just Do It campaign layout."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "high-fashion futuristic Nike sportswear editorial poster",
+      "color_palette": "neutral beige, white, glossy coral red, translucent silver, and orange accents",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult woman with a feminine athletic silhouette, sleek messy updo, natural makeup, gold statement earrings, and a confident editorial expression.",
+      "wardrobe": "Oversized white minimalist sweatshirt with voluminous sleeves, glossy translucent parachute pants, and chunky white-orange Nike athletic sneakers.",
+      "pose": "Full-body centered dynamic wide-leg stance with relaxed shoulders and one hand near the waistband, conveying confident movement.",
+      "styling": "Contemporary luxury streetwear with highly polished commercial fashion finish."
+    },
+    "composition_elements": {
+      "framing": "Centered full-body poster with the subject in front of large coral-red glossy organic inflatable blob sculptures.",
+      "environment": "Smooth neutral beige gradient studio background with large abstract glossy red-pink organic 3D forms behind the adult subject and clean negative space for type.",
+      "typography": "Large oversized white just typography partially behind the subject. Add Nike Sportswear 2025, Movement Bodies Culture, 001 2025, New Season New Energy, and small engineered-for-motion copy. Render supplied copy accurately and remove any watermark.",
+      "focus": "Sharp adult subject, sweatshirt weave, translucent pant folds, sneaker soles, glossy sculpture reflections, and clean typography."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft diffused studio lighting with gentle directional highlights on the fabric, realistic shadows enhancing the fitted layers, and polished reflections on the red sculptures.",
+      "atmosphere": "Minimal, futuristic, athletic, premium, and contemporary."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with a 50mm lens at f/5.6, 1/200 s, ISO 100",
+      "quality": "Photorealistic 8K fashion editorial, sharp focus, smooth contrast, realistic fabric and translucent material detail, clean print-ready layout"
+    },
+    "generated_prompt_string": "Create a photorealistic 4:5 futuristic Nike Sportswear editorial poster. Show an adult woman with a feminine athletic silhouette, sleek messy updo, natural makeup, gold statement earrings, and confident editorial expression. She wears an oversized white minimalist sweatshirt with voluminous sleeves, glossy translucent parachute pants, and chunky white-orange Nike athletic sneakers. Pose her full-body in a dynamic wide-leg stance before large glossy coral-red organic inflatable sculptures on a neutral beige gradient studio background. Place huge white just typography behind her, with accurate small campaign copy Nike Sportswear 2025, Movement Bodies Culture, 001 2025, New Season New Energy, and engineered-for-motion details. Use soft diffused light, realistic fabric and translucent folds, polished reflections, and no watermark or extra text.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, wardrobe malfunction, illegible text, distorted Nike swoosh, watermark, deformed anatomy, extra limbs, muddy translucent material, cluttered layout, harsh lighting",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult model. Optional wardrobe, sneaker, sculpture, typography, studio, or lighting references may replace only their named element; preserve the layered athletic coverage, feminine silhouette, wide-leg pose, Nike branding, red sculpture, and Just Do It campaign message.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "white-nike-sweatshirt-translucent-pants-and-sneakers",
+          "required": false,
+          "source": "user-uploaded sportswear reference",
+          "usage": "Replace only the sweatshirt, pants, earrings, or sneakers while preserving layered athletic coverage and white-orange palette."
+        },
+        {
+          "type": "set-design",
+          "name": "glossy-coral-organic-sculpture-studio",
+          "required": false,
+          "source": "user-uploaded set reference",
+          "usage": "Replace only the abstract sculpture shape, gloss, and backdrop gradient while preserving the centered poster composition."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "aesthetic-film-tulip-contact-sheet",
+  "tag": ["ugc", "tulip-contact-sheet", "3x3-grid", "film-editorial", "pastel-minimal"],
+  "image_type": "editorial-contact-sheet",
+  "image_vibe": "soft-minimal-filmic",
+  "image_purpose": "moodboard",
+  "group": "viral-trending",
+  "prompt": {
+    "project_info": "Create a photorealistic 3x3 editorial contact sheet with consistent subject, outfit, room, and soft natural light.",
+    "main_subject": "An adult woman with long wavy dark brown hair, natural makeup, relaxed expressions, a light neutral strapless or thin-strap top, high-waisted blue jeans, and a large bouquet of fresh pink tulips with long green stems and leaves.",
+    "composition_elements": "Square 3x3 grid with thin white dividers, same beige wall and same light throughout. Include varied three-quarter, side, back, playful lean, close-up bouquet, and seated/standing crop poses while preserving the same adult subject, outfit, bouquet, and visual continuity. No text anywhere.",
+    "lighting_and_atmosphere": "Soft window daylight with gentle bounce, calm minimal editorial mood, soft neutral beige wall, pastel pink flowers, natural skin texture, subtle filmic contrast.",
+    "technical_specs": "1:1 square, full-frame DSLR look, 50mm prime, f/2.8, crisp but natural focus, minimal distortion, very subtle 35mm grain, natural filmic dynamic range, ultra-high-resolution editorial contact sheet.",
+    "generated_prompt_string": "Photorealistic 3x3 editorial contact sheet featuring the same adult woman with long wavy dark brown hair, natural makeup, relaxed expressions, a light neutral strapless or thin-strap top, high-waisted blue jeans, and a large bouquet of fresh pink tulips with long green stems and leaves in front of a plain beige wall. Same room, same soft window daylight, same outfit, and consistent palette across every panel. Include three-quarter, side profile, back pose, playful lean, close-up bouquet, and varied crop poses. Square 1:1 layout with thin white dividers, full-frame DSLR look, 50mm prime, f/2.8, crisp natural focus, very subtle 35mm grain, calm minimal editorial mood, no text anywhere.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, inconsistent identity, different outfit between panels, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, extra limbs, extra fingers, deformed, clutter, unwanted text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "adult tulip contact-sheet subject", "required": true, "source": "matching local preview image", "usage": "Preserve the same approved adult identity, face, hair, and expression continuity across all nine panels."},
+        {"type": "wardrobe", "name": "neutral top and high-waisted blue jeans", "required": true, "source": "matching local preview image", "usage": "Keep the same outfit in every panel; replaceable only as a coordinated contact-sheet wardrobe."},
+        {"type": "accessory", "name": "pink tulip bouquet", "required": true, "source": "matching local preview image", "usage": "Preserve tulip color, stems, scale, and bouquet continuity; replaceable with an equivalent flower prop."},
+        {"type": "location", "name": "plain beige wall", "required": true, "source": "matching local preview image", "usage": "Keep the same clean indoor wall and lighting in all panels; replaceable with an equivalent minimal backdrop."}
+      ],
+      "prompt_instructions": "Attach the preview to lock the nine-panel layout, adult identity, outfit, bouquet, backdrop, and light. Preserve consistency across panels; only poses and crops vary. Person, wardrobe, flowers, and background can be replaced independently only with equivalent non-branded references. Typography must remain absent."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

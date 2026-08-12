@@ -1,0 +1,19 @@
+{
+  "name": "prompt-1100",
+  "tag": ["indie", "low-fi-dreamy", "vintage-film", "mirror-selfie", "y2k-retro"],
+  "image_type": "mirror portrait",
+  "image_vibe": "90s lo-fi film, cozy retro dressing room, warm flash, playful nostalgic energy",
+  "image_purpose": "Create a playful mirror portrait with panning motion and authentic compact-film artifacts.",
+  "group": "vintage-film",
+  "prompt": {
+    "project_info": "A 4:5 lo-fi analog-film mirror portrait using slow-shutter panning and flash freeze.",
+    "main_subject": "An original adult woman with soft dark wavy hair and cute bangs, wearing colorful retro hair clips or a scrunchie. She wears an oversized vintage knit cardigan over a fully opaque graphic tee and makes a small finger-heart gesture near her cheek while smiling at the mirror reflection.",
+    "composition_elements": "Large worn ornate wall mirror covered with stickers, Polaroids, and handwritten notes; cozy cluttered backstage dressing room; plushies and colorful cups in soft foreground blur; photographer not visible.",
+    "lighting_and_atmosphere": "Direct on-camera point-and-shoot flash with hard defined shadows and a bright bulb reflection in the mirror, warm intimate chaotic-cute mood.",
+    "technical_specs": "4:5 frame, 35mm compact-film lens, significant horizontal background motion blur with subject frozen by flash, Fuji Superia 800 or pushed Kodak Portra 400 character, heavy grain, color noise, light leaks, dust, and vignette.",
+    "generated_prompt_string": "Create a 4:5 lo-fi 35mm mirror portrait of an original adult woman in a cozy cluttered backstage dressing room. Give her soft dark wavy hair with cute bangs and a colorful retro clip or scrunchie. She wears an oversized vintage knit cardigan over a fully opaque graphic tee and makes a small finger-heart gesture near her cheek while smiling at the mirror reflection. Include a worn ornate mirror with stickers, Polaroids, and handwritten notes, blurred plushies and colorful cups, direct point-and-shoot flash, hard shadows, mirror flash reflection, horizontal panning streaks in the background, heavy Fuji Superia/Kodak Portra-style grain, light leaks, dust, and warm lo-fi nostalgia.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor or teen-coded subject, transparent clothing, exposed underwear, nudity, inconsistent reflection, photographer visible, distorted hands, plastic skin, watermark, text",
+    "reference_elements": {"assets": [{"type": "image_reference", "name": "source retro mirror portrait reference", "required": false, "source": "https://img.opennana.com/prompts/images/1100.jpeg", "usage": "Use only for mirror layout, gesture, flash, props, and film artifacts; do not copy identity."}], "prompt_instructions": "Preserve the mirror finger-heart, cozy retro room, panning motion, and flash-frozen film effect. Keep the subject original adult and clothing opaque."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced idol/teen-coded wording with an original adult subject.", "Specified opaque layered clothing and added reflection/safety exclusions."]}
+}

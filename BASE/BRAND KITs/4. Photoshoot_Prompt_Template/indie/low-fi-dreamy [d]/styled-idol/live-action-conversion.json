@@ -1,0 +1,76 @@
+{
+  "name": "live-action-conversion",
+  "tag": [
+    "adult-woman",
+    "anime-to-photo",
+    "red-hair",
+    "white-sweater-dress",
+    "bedroom",
+    "vertical-portrait"
+  ],
+  "image_type": "character-conversion-portrait",
+  "image_vibe": "warm, softly cinematic, polished, intimate",
+  "image_purpose": "character-visual, concept-art-conversion, moodboard",
+  "group": "indie / low-fi-dreamy / styled-idol",
+  "prompt": {
+    "project_info": {
+      "theme": "Anime illustration translated into realistic portrait photography",
+      "format": "vertical 3:4 portrait",
+      "color_palette": "ivory white, auburn, warm beige, pearl"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with long wavy auburn hair, a gentle downward gaze, pearl necklace and earrings, wearing an ivory off-shoulder knit sweater dress with a secure neckline and relaxed sleeves.",
+      "style": "real-person editorial portrait that preserves the source illustration's character design without anime rendering"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "three-quarter seated portrait on the edge of a bed",
+        "one hand naturally adjusting the knit fabric at the shoulder",
+        "warm beige bedroom wall, narrow window light, framed artwork, bedside lamp, and white bedding",
+        "pearl necklace and small pearl earrings",
+        "retain the illustration's auburn hair, ivory knit silhouette, and quiet domestic setting"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "late-afternoon window light at approximately 4200K with a warm practical bedside lamp",
+      "effect": "side-lit hair highlights, soft realistic shadows, gentle falloff across the room",
+      "atmosphere": "quiet, warm, lived-in bedroom editorial"
+    },
+    "technical_specs": {
+      "render_style": "Nikon Z8, 50mm f/2 lens, natural perspective, shallow depth of field",
+      "resolution": "high-detail realistic vertical photograph",
+      "color_treatment": "subtle film grain, lifted blacks, visible knit texture, natural skin texture"
+    },
+    "generated_prompt_string": "Using the attached illustration as a visual reference, create the real-person photography version: a three-quarter vertical editorial portrait of an adult woman with long wavy auburn hair, a gentle downward gaze, pearl necklace and earrings, wearing an ivory off-shoulder knit sweater dress with a secure neckline and relaxed sleeves. She is seated naturally on the edge of a bed, with one hand lightly adjusting the knit fabric at her shoulder. Preserve the source image's auburn hair, ivory knit silhouette, pearl accessories, warm beige bedroom wall, framed artwork, bedside lamp, and white bedding, while translating the anime rendering into natural realistic photography. Use late-afternoon window light at approximately 4200K plus a warm practical bedside lamp for soft side-lit hair highlights and realistic room shadows. Nikon Z8, 50mm f/2, shallow depth of field, subtle film grain, lifted blacks, visible knit texture, and natural skin texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, childlike appearance, sexual pose, exaggerated body proportions, anime rendering, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "The attached source illustration is required and defines the character's auburn hair, ivory knit outfit, pearl accessories, pose, and bedroom environment. Translate only its visual design into an adult real-person photograph; do not use it to reproduce a real person's identity. A separate approved-adult face reference is optional and, if attached, must preserve that person's facial structure and likeness.",
+      "assets": [
+        {
+          "type": "moodboard",
+          "name": "source anime illustration",
+          "required": true,
+          "source": "https://img.opennana.com/prompts/assets/202604/1776863111874-qozvclpx-1776863127816-2.png",
+          "usage": "Translate the depicted character design, outfit, pose, accessories, and bedroom composition into realistic photography."
+        },
+        {
+          "type": "person",
+          "name": "approved adult face reference",
+          "required": false,
+          "source": "user-supplied approved reference",
+          "usage": "When supplied, preserve this adult person's face, facial structure, and likeness in the live-action result."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Specified an adult subject and removed body-focused conversion ambiguity.",
+      "Preserved the source illustration's off-shoulder knit outfit, hair, pearls, pose, and bedroom setting with a secure neckline.",
+      "Added an explicit reference workflow that translates visual design without copying a real identity."
+    ]
+  }
+}

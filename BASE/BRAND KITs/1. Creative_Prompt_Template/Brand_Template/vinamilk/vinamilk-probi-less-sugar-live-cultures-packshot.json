@@ -1,0 +1,71 @@
+{
+  "name": "vinamilk-probi-less-sugar-live-cultures-packshot",
+  "tag": [
+    "vinamilk",
+    "probi",
+    "less-sugar",
+    "live-cultures",
+    "packshot"
+  ],
+  "biz_niche": "E-commerce & Retail",
+  "content_format": "Product demos",
+  "group": "vinamilk_1054823076884201",
+  "prompt": {
+    "project_info": {
+      "theme": "Less sugar probiotic milk drink product lineup",
+      "color_palette": "Bright blue, light cyan, coral pink, white"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A clean vertical packshot poster with the headline 'GIẢM ĐƯỜNG ÍT NGỌT'. Three large Vinamilk Probi bottle-pack multipacks are stacked diagonally through the frame in cyan, coral, and blue color variants. The visible pack text includes 'Vinamilk PROBI', 'SỮA CHUA UỐNG MEN SỐNG', 'ÍT ĐƯỜNG' or flavor-specific low-sugar lines, and English text such as 'LIVE AND ACTIVE CULTURES'.",
+      "style": "Minimal modern FMCG packshot with oversized packaging and cool-toned retail aesthetics"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "GIẢM ĐƯỜNG ÍT NGỌT; Vinamilk; PROBI; SỮA CHUA UỐNG MEN SỐNG; ÍT ĐƯỜNG; LIVE AND ACTIVE CULTURES",
+      "items": [
+        "Top Left: Large pale-blue headline against vertical blue stripes",
+        "Top Right: Cyan Vinamilk Probi multipack near the upper third",
+        "Bottom Left: Coral pink Vinamilk Probi multipack overlapping the lower-middle region",
+        "Bottom Right: Bright blue Vinamilk Probi multipack dominating the foreground bottom area",
+        "Center/Background: Clean two-tone blue stage with vertical stripes and three oversized bottle multipacks arranged in depth"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright retail studio lighting",
+      "effect": "Soft plastic reflections, crisp label edges, subtle depth layering between packs, cool modern freshness"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal FMCG packaging poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality vertical FMCG packshot poster for Vinamilk Probi less-sugar probiotic milk drink. Centerpiece is a clean cool-toned composition with the exact headline 'GIẢM ĐƯỜNG ÍT NGỌT' and three oversized Vinamilk PROBI multipacks in cyan, coral, and blue arranged diagonally in depth. Keep visible packaging text such as 'Vinamilk PROBI', 'SỮA CHUA UỐNG MEN SỐNG', 'ÍT ĐƯỜNG', and 'LIVE AND ACTIVE CULTURES'. Background is a bright blue stage with vertical stripe texture. Technical style: photoreal FMCG packaging poster, bright retail studio lighting, soft plastic reflections and crisp label edges, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Vinamilk Probi branding",
+          "required": true,
+          "source": "original packaging design",
+          "usage": "Match all front-facing pack branding and bottle-cap styling"
+        },
+        {
+          "type": "product",
+          "name": "Vinamilk Probi multipack variants",
+          "required": true,
+          "source": "real packaging reference required",
+          "usage": "Preserve the cyan, coral, and blue low-sugar variants with correct label treatment"
+        },
+        {
+          "type": "background",
+          "name": "Blue striped retail backdrop",
+          "required": true,
+          "source": "original visual setup",
+          "usage": "Maintain the cool minimalist shelf-like environment"
+        }
+      ],
+      "prompt_instructions": "This is a pure packshot-led poster. Keep the three packs oversized and angled in depth, with the blue striped environment and the pale headline above. Do not introduce people or lifestyle context."
+    }
+  }
+}

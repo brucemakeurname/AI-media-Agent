@@ -1,0 +1,55 @@
+{
+  "name": "be-urbox-comment-minigame-2-trieu",
+  "tag": ["urbox", "minigame", "comment contest", "voucher", "social engagement"],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Competitions",
+  "group": "be_941324872319833",
+  "prompt": {
+    "project_info": {
+      "theme": "Social-comment minigame with UrBox voucher prize",
+      "color_palette": "Bright yellow, blue, purple, red, white"
+    },
+    "main_subject": {
+      "type": "Text/Character/Object",
+      "detail": "A social-engagement poster with a giant headline about a comment minigame, featuring a happy be mascot jumping with a large smartphone showing the be app logo, surrounded by floating UrBox vouchers, a chat icon, and emoji reactions.",
+      "style": "Playful social promo poster, bright engagement graphic"
+    },
+    "composition_elements": {
+      "type": "Typography/Character/Phone/Icons",
+      "text": "be, URBOX, Minigame đua bình luận Nhận voucher UrBox 2 TRIỆU",
+      "items": [
+        "Top Left: be logo and URBOX logo.",
+        "Upper Left/Center: stacked blue headline 'Minigame đua bình luận Nhận voucher UrBox 2 TRIỆU'.",
+        "Center Right: large smartphone with a blank white frame and the yellow be app logo on screen.",
+        "Center: smiling illustrated be mascot in a running-jump pose.",
+        "Upper Right: red chat-bubble icon.",
+        "Around scene: floating purple voucher cards with URBOX branding.",
+        "Lower Left: heart-eyes laughing emoji.",
+        "Background: glowing yellow city silhouette and blue motion floor curve."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright playful graphic lighting",
+      "effect": "Cheerful game-like energy, glowing city gradient, crisp icon readability"
+    },
+    "technical_specs": {
+      "render_style": "Illustrated social engagement poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "logo", "name": "be and URBOX logos", "required": true, "source": "source image logo references", "usage": "Preserve the top logo lockup and the be app icon on the phone."},
+        {"type": "graphic", "name": "jumping mascot, vouchers, emoji, and chat icon", "required": true, "source": "source image graphic reference", "usage": "Keep the energetic mascot pose and floating social/game props."},
+        {"type": "ui_reference", "name": "large smartphone be app screen", "required": true, "source": "source image phone reference", "usage": "Preserve the phone framing and the be app tile on screen."},
+        {"type": "text_layout", "name": "minigame headline", "required": true, "source": "source image text reference", "usage": "Keep the exact wording and the large blue text arrangement."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve mascot pose, voucher placement, and the headline scale.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the playful social-promo energy and the glowing yellow city background."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square be x URBOX social minigame poster with a glowing yellow city background and curved blue foreground floor. Place the be and URBOX logos at the top left. Add the large blue headline 'Minigame đua bình luận Nhận voucher UrBox 2 TRIỆU'. Show a large smartphone on the right with the yellow be app icon on screen, and a smiling illustrated be mascot jumping beside it. Surround the scene with floating purple voucher cards, a red chat-bubble icon, and a heart-eyes laughing emoji in the lower left. Technical style: illustrated social engagement poster, bright playful graphic lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark colors, wrong logos, incorrect text, missing vouchers, low resolution, distorted mascot, clutter, watermark, signature"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": "badass-light-wash-straight-leg-jeans",
+  "tag": [
+    "denim jeans",
+    "product showcase",
+    "fashion apparel",
+    "editorial catalog",
+    "menswear",
+    "minimal layout"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Product demos",
+  "group": "badass_1294915556135944",
+  "prompt": {
+    "project_info": {
+      "theme": "Minimal denim product showcase with lifestyle-on-body and studio packshot comparison",
+      "color_palette": "Light washed denim blue, white, soft gray, concrete beige, black"
+    },
+    "main_subject": {
+      "type": "Object/Person",
+      "detail": "A pair of light-wash straight-leg blue jeans presented in a split editorial composition. The main left image shows the lower torso to shoes of a real male model wearing the jeans, one hand in the pocket, paired with a black tucked-in knit top, white low-top sneakers, and a black wristwatch. The secondary inset on the right shows the same jeans hanging front-facing on a wooden hanger against a white studio wall, with a pair of white-and-beige sneakers placed on the floor at bottom right.",
+      "style": "Clean commercial fashion catalog, realistic apparel photography, minimal premium menswear branding, sharp denim texture, balanced social-media ad layout"
+    },
+    "composition_elements": {
+      "type": "Typography/Inset Product Frame/Background Elements",
+      "text": "BADASS, QJDTK704",
+      "items": [
+        "Left 70 percent: close cropped lifestyle photo of a male model from chest to shoes wearing light blue straight-leg jeans, standing casually outdoors beside a pale stone wall.",
+        "Top Right: large black sans-serif brand text 'BADASS' on white negative space.",
+        "Right Center: large rectangular inset image with thin white border showing the jeans alone on a hanger in a clean studio setup.",
+        "Inset Top: simple hanging rail and light wood hanger holding the jeans front-facing.",
+        "Inset Bottom Right: white and beige sneakers resting on the floor, partially angled toward the camera.",
+        "Bottom Right outer margin: small black product code text 'QJDTK704'.",
+        "Background Left: soft outdoor architectural setting with light gray pavement and pale stone wall.",
+        "Background Right: flat white poster field creating asymmetrical editorial spacing."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft natural daylight mixed with studio-soft product lighting",
+      "effect": "Even illumination, gentle shadows, crisp denim weave and fading detail, clean airy atmosphere, low contrast premium catalog finish"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic fashion advertising poster, editorial apparel catalog photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "male model lower-body pose reference",
+          "required": true,
+          "source": "reference image of a slim male model wearing the jeans with casual stance, hand in pocket",
+          "usage": "Use as pose, crop, body proportion, styling, and garment fit reference for the main left lifestyle panel."
+        },
+        {
+          "type": "product",
+          "name": "light-wash straight-leg jeans",
+          "required": true,
+          "source": "reference image of the exact jeans design, wash pattern, seam placement, pocket shape, and silhouette",
+          "usage": "Use to preserve accurate denim color, whiskering, fade pattern, waistband construction, leg width, and overall product identity."
+        },
+        {
+          "type": "logo",
+          "name": "BADASS wordmark",
+          "required": true,
+          "source": "brand logo or clean text reference",
+          "usage": "Place at the top right in bold black sans-serif uppercase with wide spacing and clean premium alignment."
+        },
+        {
+          "type": "product_code",
+          "name": "QJDTK704",
+          "required": true,
+          "source": "text reference from original design",
+          "usage": "Reproduce exactly as small black code text in the bottom-right corner."
+        },
+        {
+          "type": "footwear",
+          "name": "white sneakers",
+          "required": false,
+          "source": "reference image of simple white low-top sneakers and white-beige sneakers for inset floor styling",
+          "usage": "Use to match the understated casual menswear styling without pulling focus from the jeans."
+        },
+        {
+          "type": "location",
+          "name": "minimal stone wall walkway",
+          "required": false,
+          "source": "reference photo of pale stone exterior wall and gray pavement",
+          "usage": "Use as the left-panel background to match the lifestyle editorial setting."
+        }
+      ],
+      "prompt_instructions": [
+        "If using gpt-image-2, attach the exact jeans product image as the highest-priority reference so the wash, cut, seams, and pocket details stay consistent.",
+        "Attach a logo/text reference for 'BADASS' and preserve the exact text placement in the top-right corner.",
+        "Preserve the exact product code 'QJDTK704' in the bottom-right corner.",
+        "Keep the split composition: large on-body lifestyle crop on the left and isolated hanging product inset on the right.",
+        "Do not generate a full body portrait or face; maintain the cropped framing from chest/lower torso down to shoes.",
+        "Maintain realistic denim texture, subtle fading, and straight-leg silhouette rather than stylized or exaggerated fashion rendering."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for a minimal denim product showcase with lifestyle-on-body and studio packshot comparison. Create a clean premium menswear social creative with a split editorial layout. Left side should occupy about 70 percent of the frame and show a realistic male model cropped from chest to shoes, standing casually outdoors beside a pale stone wall and gray pavement, wearing light-wash straight-leg blue jeans, a black tucked-in knit top, white low-top sneakers, and a black wristwatch, with one hand in the pocket. Emphasize the jeans fit, waistband, pocket shape, seam lines, soft whiskering, and natural faded wash. On the right side, keep a white poster background with large black uppercase text 'BADASS' at the top right. Below it, place a large inset image with a thin white border showing the same jeans hanging front-facing on a wooden hanger from a simple rail against a white studio wall. Add a pair of white-and-beige sneakers on the floor at the bottom right inside the inset. Place the small black text 'QJDTK704' in the bottom-right outer margin. Style should feel like a clean fashion catalog and social ad, photorealistic apparel photography, soft natural daylight on the lifestyle side, soft studio lighting on the product inset, crisp denim texture, airy minimal composition, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, low resolution, noisy denim texture, distorted jeans shape, extra limbs, malformed hands, full face portrait, cluttered background, messy typography, incorrect text, wrong product code, exaggerated fashion pose, oversaturated blue, flat 2d, cartoon, deformed shoes, watermark, signature, cropped product inset, uneven layout"
+  }
+}

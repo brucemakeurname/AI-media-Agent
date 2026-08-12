@@ -1,0 +1,59 @@
+{
+  "name": "Cool-Tone Macro Eye Portrait",
+  "tag": "cool-tone-macro-eye-portrait",
+  "image_type": "macro_beauty_portrait",
+  "image_vibe": "cool_cinematic_intimate",
+  "image_purpose": "beauty_editorial",
+  "group": "indie/low-fi-dreamy/cool-moody",
+  "prompt": {
+    "project_info": {
+      "title": "Cool-Tone Macro Eye Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "1:1 square"
+    },
+    "main_subject": {
+      "description": "An adult woman in a macro crop, showing one brown eye, eyebrow, bridge of nose, and closed relaxed lips.",
+      "wardrobe": "No wardrobe visible in the facial macro crop.",
+      "pose_and_expression": "Neutral calm expression with eye focused slightly past lens."
+    },
+    "composition_elements": {
+      "setting": "Abstract cool blue studio background without any signature or graphic overlay.",
+      "framing": "Square extreme close-up with one eye as focal point and damp light-brown hair strands crossing the frame.",
+      "text_and_brand_control": "No signature, watermark, text, logo, celebrity identity, or age ambiguity."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft diffused cool-blue light with gentle ambient shadow.",
+      "mood": "Quiet, tactile, cinematic, and non-sexualized."
+    },
+    "technical_specs": {
+      "camera_style": "85mm macro beauty photograph",
+      "lens": "85mm macro equivalent, f/2",
+      "rendering": "Real pores, eyelashes and iris detail, natural lip texture, shallow depth of field, no retouch filter."
+    },
+    "generated_prompt_string": "Create a square 85mm macro beauty photograph of an adult woman, cropped to one brown eye, eyebrow, bridge of nose, and closed relaxed lips. Let damp light-brown strands cross the frame naturally. Use an abstract cool-blue studio background, one eye sharply in focus, soft diffused blue light, gentle shadow, real pores, detailed eyelashes and iris, natural lip texture, shallow depth, and no retouch filter. The mood is quiet, tactile, cinematic, and non-sexualized. No signature, watermark, text, logo, celebrity identity, or age ambiguity.",
+    "negative_prompt": "minor, age ambiguity, celebrity likeness, explicit, nsfw, sexualized lips, signature, watermark, readable text, logo, plastic skin, distorted eye, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity reference must depict a consenting adult. Hair and lighting references are replaceable and cannot introduce signatures, text, or branding.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_macro_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult eye, hair, and skin characteristics only."
+        },
+        {
+          "type": "lighting_reference",
+          "name": "cool_blue_macro_light_reference",
+          "required": false,
+          "source": "user-provided lighting reference",
+          "usage": "Guide soft blue diffusion without copy or mark overlays."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adult subject and removed source signature requirement while retaining safe macro beauty detail."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Cinematic Study Window Elegance",
+  "tag": "cinematic-study-window-elegance",
+  "image_type": "vintage_study_editorial_portrait",
+  "image_vibe": "moody_chiaroscuro_35mm",
+  "image_purpose": "fashion_editorial",
+  "group": "indie/low-fi-dreamy/cool-moody",
+  "prompt": {
+    "project_info": {
+      "title": "Cinematic Study Window Elegance",
+      "format": "single still photograph",
+      "aspect_ratio": "9:16 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with dark hair, a composed thoughtful expression, and natural skin texture.",
+      "wardrobe": "A sharp black tailored suit, a fully buttoned crisp white shirt, and a charcoal necktie.",
+      "pose_and_expression": "Sitting upright in a burgundy velvet armchair, one hand resting on the chair arm and eyes directed slightly past camera."
+    },
+    "composition_elements": {
+      "setting": "Vintage wood-paneled study with a large backlit window, framed abstract artwork, and a small unbranded tea cup on a side table.",
+      "framing": "Vertical medium-full portrait, subject framed by chair and window.",
+      "text_and_brand_control": "No cigarette, smoke, ashtray, logos, text, or artwork lettering."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Dramatic warm backlight from the window with chiaroscuro shadow and gentle hair rim light.",
+      "mood": "Elegant, cinematic, reflective, and vintage."
+    },
+    "technical_specs": {
+      "camera_style": "35mm film still",
+      "lens": "50mm equivalent",
+      "rendering": "Fine grain, soft highlight bloom, rich wood and velvet texture, realistic hands and face."
+    },
+    "generated_prompt_string": "Create a 9:16 vertical cinematic 35mm study portrait of an adult woman with dark hair and a composed thoughtful expression. She wears a sharp black tailored suit, fully buttoned crisp white shirt, and charcoal necktie, sitting upright in a burgundy velvet armchair with one hand on the chair arm. Place her in a vintage wood-paneled study with a large warm backlit window, framed abstract artwork, and an unbranded tea cup on a side table. Use dramatic chiaroscuro, gentle hair rim light, fine grain, soft highlight bloom, rich wood and velvet texture, natural skin, and realistic hands. No cigarette, smoke, ashtray, logos, readable text, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, smoking, cigarette, smoke, ashtray, explicit, nsfw, overly revealing clothing, logo, readable text, watermark, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity references must depict a consenting adult. Furniture and wardrobe references are replaceable and must omit all labels, text, and smoking props.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult facial and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "vintage_study_reference",
+          "required": false,
+          "source": "user-provided interior reference",
+          "usage": "Guide chair, wood, window, and lighting mood without text or smoking items."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed cigarette and smoke while preserving adult vintage-study elegance and cinematic light."
+  }
+}

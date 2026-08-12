@@ -1,0 +1,65 @@
+{
+  "name": "cocoon-karanjin-pongamol-absorption-chart",
+  "tag": [
+    "infographic",
+    "science",
+    "uv-absorption",
+    "ingredient-chart",
+    "education",
+    "sunscreen"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Infographics",
+  "group": "cocoon_1032237522864467",
+  "prompt": {
+    "project_info": {
+      "theme": "Scientific absorption-spectrum comparison for pongamia seed extract components",
+      "color_palette": "Soft Pink, Light Peach, Pale Blue, Cyan, Magenta, Black"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A pastel scientific infographic showing the absorption spectrum of neem-like seed extract components, with a chart comparing Karanjin and Pongamol against a dotted Avobenzone curve across 280 to 400 nm.",
+      "style": "Clean skincare science graphic, pastel educational data visualization, modern lab-style infographic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'PHỔ HẤP THU CỦA CHIẾT XUẤT HẠT ĐẬU DẦU', chart labels 'KARANJIN', 'PONGAMOL', 'AVOBENZONE', axis labels 'ĐỘ HẤP THU' and 'BƯỚC SÓNG (nm)', and the caption 'Chiết xuất hạt đậu dầu chứa đồng thời Karanjin và Pongamol được chứng minh có khả năng hấp thụ tia UV tương tự màng lọc hóa học Avobenzone.'.",
+      "items": [
+        "Top Left: Large black headline spanning the pastel background.",
+        "Top Right: Open negative space above the graph, preserving the airy educational layout.",
+        "Bottom Left: Black y-axis labeled 'ĐỘ HẤP THU' and the x-axis beginning at 280 nm.",
+        "Bottom Right: End of x-axis at 400 nm with label 'BƯỚC SÓNG (nm)'.",
+        "Center/Background: A filled magenta Karanjin curve at lower wavelengths, a filled cyan Pongamol curve peaking around mid-range, and a dotted black Avobenzone comparison curve across the graph."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat infographic lighting",
+      "effect": "Crisp chart readability, soft pastel gradient wash, clean scientific presentation"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity vector-style infographic design",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a scientific skincare infographic. Centerpiece is an absorption-spectrum chart comparing Karanjin and Pongamol with a dotted Avobenzone curve from 280 to 400 nm. Background is a soft pastel pink-peach-blue gradient. Surrounding elements: headline 'PHỔ HẤP THU CỦA CHIẾT XUẤT HẠT ĐẬU DẦU', labels 'KARANJIN', 'PONGAMOL', 'AVOBENZONE', the axis labels 'ĐỘ HẤP THU' and 'BƯỚC SÓNG (nm)', and the explanatory Vietnamese caption about UV absorption similar to Avobenzone. Keep the exact chart geometry, pastel-science aesthetic, and clear educational hierarchy. Technical style: high fidelity vector-style infographic design, flat infographic lighting, crisp chart readability and soft pastel gradient wash, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "graphic",
+          "name": "Karanjin Pongamol Avobenzone chart layout",
+          "required": true,
+          "source": "Use the original infographic as the full chart reference",
+          "usage": "Preserve exact curve shapes, axis values, colors, and label placement."
+        },
+        {
+          "type": "text_layout",
+          "name": "Headline and explanatory caption",
+          "required": true,
+          "source": "Use the original poster as text reference",
+          "usage": "Keep the Vietnamese headline and lower caption exactly as shown."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, attach the original infographic and instruct the model to reproduce the chart structure precisely. This image should remain an educational science graphic, not a generalized design reinterpretation."
+    }
+  }
+}

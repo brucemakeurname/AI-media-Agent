@@ -1,0 +1,75 @@
+{
+  "name": "high-angle-night-girl",
+  "tag": [
+    "adult-woman",
+    "high-angle",
+    "night-street",
+    "denim-jacket",
+    "candid-fashion"
+  ],
+  "image_type": "high-angle-street-portrait",
+  "image_vibe": "quiet-rainy-cinematic",
+  "image_purpose": "lifestyle-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject is an adult and retained the optional face-reference workflow, with identity matching limited to an approved adult non-public-figure reference."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "quiet adult rainy-night street fashion photograph",
+      "color_palette": "cool white storefront light, washed blue denim, charcoal pavement, and warm skin tones",
+      "format": "vertical 4:5 high-angle full-body portrait"
+    },
+    "main_subject": {
+      "description": "an adult woman, optionally matching an approved adult non-public-figure face reference, in a white T-shirt, washed blue denim jacket, dark straight-leg jeans, white canvas sneakers, and a small tote bag",
+      "pose_and_expression": "standing alone near an unbranded minimarket entrance, holding a takeaway cup naturally and looking upward toward the camera"
+    },
+    "composition_elements": {
+      "camera_angle": "high-angle candid view from an upper-floor window across the street, with the full body slightly off-center and generous negative space",
+      "foreground": "adult subject, takeaway cup, rain-wet pavement, and cool reflected storefront light",
+      "background": "softly illuminated unbranded minimarket entrance with shelves, packaging, and signage rendered abstract and unreadable",
+      "visual_hierarchy": "adult face and upward gaze, denim silhouette, then wet pavement and storefront geometry"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "cool storefront illumination reflected in damp pavement with soft urban night falloff",
+      "atmosphere": "lonely, gentle, cinematic, and observational"
+    },
+    "technical_specs": {
+      "camera": "Sony A7R V",
+      "lens": "50mm f/2",
+      "settings": "1/125s, f/2.8, ISO 800",
+      "rendering": "photoreal candid street-fashion photography, natural depth of field, realistic wet-ground reflections, and unretouched skin texture"
+    },
+    "generated_prompt_string": "Create a photoreal high-angle candid night street-fashion photograph from an upper-floor window across the street. An adult woman, optionally matching an approved adult non-public-figure face reference, stands near an unbranded minimarket entrance with rain-wet pavement around her. She wears a white T-shirt, washed blue denim jacket, dark straight-leg jeans, white canvas sneakers, and a small tote bag, holding a takeaway cup naturally while looking upward. Keep her full body slightly off-center with generous negative space. Use cool storefront light, softly blurred shelves with no readable labels, realistic wet reflections, natural skin texture, and a quiet cinematic mood.",
+    "negative_prompt": "minor, unapproved identity reference, explicit, nsfw, overly revealing, readable signage, packaging text, logo, watermark, nudity, distorted anatomy, extra limbs, plastic skin",
+    "reference_elements": {
+      "prompt_instructions": "The adult identity reference is optional. Other references are optional; use each only for the stated element and remove brands or text.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-face-reference",
+          "required": false,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Match the authorized adult face only; preserve natural apparent age and proportions."
+        },
+        {
+          "type": "wardrobe",
+          "name": "denim-night-street-look-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Replace jacket, jeans, shoes, or tote styling."
+        },
+        {
+          "type": "environment",
+          "name": "rainy-corner-store-front-reference",
+          "required": false,
+          "source": "approved environment reference",
+          "usage": "Replace pavement, doorway, and light quality while removing labels, logos, and readable signage."
+        }
+      ]
+    }
+  }
+}

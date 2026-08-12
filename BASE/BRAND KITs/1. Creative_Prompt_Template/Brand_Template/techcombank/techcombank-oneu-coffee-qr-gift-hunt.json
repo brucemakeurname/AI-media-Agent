@@ -1,0 +1,70 @@
+{
+  "name": "techcombank-oneu-coffee-qr-gift-hunt",
+  "tag": [
+    "bank-rewards",
+    "ugc-challenge",
+    "gift-hunt",
+    "payment-qr"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Challenge",
+  "group": "techcombank_1995182244509608",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank OneU reward hunt poster",
+      "color_palette": "Techcombank red, white, light beige, black"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A clean red-and-white reward-hunt poster with Techcombank OneU branding. Large headline says 'Thong bao TIM NGUOI'. A giant red ticket-shaped board holds two rounded white checklist bubbles. The first bubble reads 'Uong Phuc Long, Highlands, Starbucks & cac quan cafe khac... moi ngay' with an iced coffee image and a green check icon. The second bubble reads 'Da thanh toan qua QR cua hang Techcombank' with a Techcombank QR stand image and another green check icon. Lower text on the red ticket says 'Nhung quen mo qua tu Techcombank', and a detached ticket note says 'Lum qua duoi comment lien!'. A wrapped Techcombank gift box sits on a red pedestal. Bottom-right badge says 'Da tang uu dai LOI ICH TOI UU'.",
+      "style": "Polished reward-promo graphic with 3D ticket-board layering, clean checklist UI, and retail gift-box styling"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TECHCOMBANK / OneU / Thong bao / TIM NGUOI / Uong Phuc Long, Highlands, Starbucks & cac quan cafe khac... moi ngay / Da thanh toan qua QR cua hang Techcombank / Nhung quen mo qua tu Techcombank / Lum qua duoi comment lien! / Da tang uu dai / LOI ICH TOI UU",
+      "items": [
+        "Top Left: Techcombank OneU logo lockup",
+        "Top Right: Empty pale patterned background with brand lockup only",
+        "Bottom Left: Wrapped white gift box with red ribbon on a red podium",
+        "Bottom Right: Floating red U-coins and the badge 'Da tang uu dai LOI ICH TOI UU'",
+        "Center/Background: Large red ticket board with two white rounded checklist cards, iced coffee cutout, QR stand cutout, and detached paper ticket note"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright commercial studio lighting",
+      "effect": "Soft object shadows, glossy ribbon highlights, crisp UI-card depth, clean minimal background"
+    },
+    "technical_specs": {
+      "render_style": "Commercial social poster with product cutouts and 3D graphic compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank OneU reward hunt. Centerpiece is a large red ticket-shaped board with two white checklist cards describing daily coffee purchases and Techcombank QR payments. Background is a pale geometric pattern with floating red reward coins. Surrounding elements: Techcombank OneU logo, iced coffee cup image, Techcombank QR stand image, lower line 'Nhung quen mo qua tu Techcombank', detached note 'Lum qua duoi comment lien!', wrapped Techcombank gift box on a pedestal, and the bottom-right badge 'Da tang uu dai LOI ICH TOI UU'. Technical style: commercial social poster with product cutouts and 3D graphic compositing, bright studio lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Techcombank and OneU logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for the top-right branding and gift-box mark"
+        },
+        {
+          "type": "product",
+          "name": "Coffee cup and Techcombank QR stand refs",
+          "required": true,
+          "source": "original campaign cutouts or matching real-world product refs",
+          "usage": "Attach for exact iced coffee appearance and QR stand fidelity"
+        },
+        {
+          "type": "text_layout",
+          "name": "OneU gift-hunt ticket layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the exact headline, checklist bubbles, detached ticket note, and bottom-right badge"
+        }
+      ],
+      "prompt_instructions": "Keep the wording exact, especially the two checklist statements and the detached ticket line. This is a social-comment challenge poster with reward mechanics, so maintain the red ticket-board structure and gift-box hierarchy."
+    }
+  }
+}

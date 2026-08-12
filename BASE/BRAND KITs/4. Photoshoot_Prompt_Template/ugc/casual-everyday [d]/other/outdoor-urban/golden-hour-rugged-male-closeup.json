@@ -1,0 +1,27 @@
+{
+  "name": "golden-hour-rugged-male-closeup",
+  "tag": ["ugc", "casual-everyday", "other", "outdoor-urban", "golden-hour"],
+  "image_type": "golden-hour male portrait",
+  "image_vibe": "rugged warm sunlit minimalism",
+  "image_purpose": "UGC-style profile and lifestyle portrait",
+  "group": "other/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a realistic close-up portrait of an original approved adult man leaning against a sunlit stucco wall.",
+    "main_subject": "An original approved adult man with a rugged jawline, short messy textured brown hair, calm direct gaze, and natural skin texture wears a simple high-quality white cotton T-shirt with rolled sleeves. Preserve the original adult identity only when an approved reference is attached; do not imitate a celebrity or public figure.",
+    "composition_elements": "Close-up portrait from chest upward, subject leaning against a white stucco wall, sharp focus on eyes and facial structure, visible white cotton weave and muscular but natural upper-arm silhouette, ample clean negative space.",
+    "lighting_and_atmosphere": "Dramatic golden-hour sunlight from the side creates deep wall and facial shadows with warm earthy highlights, natural contrast, quiet effortless masculine mood.",
+    "technical_specs": "Realistic 35mm lens perspective at approximately f/1.8, close portrait framing, shallow depth of field, hyper-realistic natural skin pores, subtle sensor grain, restrained warm color grade, no artificial HDR look.",
+    "generated_prompt_string": "Realistic close-up portrait of an original approved adult man with a rugged jawline, short messy textured brown hair, calm direct gaze, and natural skin texture leaning against a sunlit white stucco wall. He wears a simple high-quality white cotton T-shirt with rolled sleeves. Sharp focus on eyes and facial structure, visible cotton weave, natural upper-arm silhouette, dramatic golden-hour sunlight creating deep shadows and warm earthy highlights, 35mm lens at approximately f/1.8, shallow depth of field, subtle grain, effortless masculine lifestyle mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy, distorted face",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "golden-hour male portrait reference", "required": true, "source": "attached source image", "usage": "Match the original adult model's general facial structure, hair, white T-shirt, stucco wall, pose, and golden-hour light without celebrity likeness."}
+      ],
+      "prompt_instructions": "Attach the required reference image when identity continuity is needed. Preserve the approved adult face, facial structure, outfit, environment, and light direction; do not reproduce a celebrity or public-figure identity. Logos, typography, products, and background details are replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Removed the named public-figure likeness and renamed the template to a neutral creative slug.", "Preserved the portrait composition, outfit, golden-hour lighting, and natural masculine styling.", "Added approved-adult identity and anti-slop guidance."]
+  }
+}

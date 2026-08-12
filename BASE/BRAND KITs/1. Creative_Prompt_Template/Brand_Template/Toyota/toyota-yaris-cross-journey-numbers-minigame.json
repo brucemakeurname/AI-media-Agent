@@ -1,0 +1,85 @@
+{
+  "name": "toyota-yaris-cross-journey-numbers-minigame",
+  "tag": [
+    "toyota",
+    "yaris-cross",
+    "minigame",
+    "community",
+    "competition"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Competitions",
+  "group": "toyota_1821714435457534",
+  "prompt": {
+    "project_info": {
+      "theme": "User-story minigame around memorable family travel mileage",
+      "color_palette": "Soft Sky, Red, Black, Cream, Earth Brown, Warm Skin Tones"
+    },
+    "main_subject": {
+      "type": "Person/Object",
+      "detail": "A family of three gathers around the front of a white Toyota Yaris Cross parked in a mountain field, while giant red handwritten numerals '258,472 KM' dominate the center as the hero statistic of a minigame post.",
+      "style": "Lifestyle social-campaign poster combining real family photography, scrapbook-style notes, handwritten typography, and prize-ticket callouts."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "TOYOTA\nMINIGAME\nCON SO HANH TRINH\n258,472 KM\nMoi con so la mot cau chuyen\nChia se hanh trinh dang nho cung xe yeu Toyota va rinh qua hap dan!\n08 GIAI DAC BIET\nVoucher GOT IT tri gia 1.000.000d\nYARIS CROSS\nMove your world",
+      "items": [
+        "Top Left: Black Toyota logo on light sky.",
+        "Top Center: Red ribbon label 'MINIGAME', bold black title 'CON SO HANH TRINH', giant red brush-style number '258,472', and black handwritten subtitle.",
+        "Bottom Left: Taped paper note with handwritten campaign copy and a small camera icon.",
+        "Bottom Right: White Toyota Yaris Cross with a smiling father, child, and mother interacting around the hood; handwritten white 'Move your world'.",
+        "Center/Background: Mountain forest landscape, dry grass field, prize strip at bottom with gift icon, '08 GIAI DAC BIET', and red voucher block 'Voucher GOT IT tri gia 1.000.000d'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm natural outdoor daylight",
+      "effect": "Soft family-lifestyle sunlight, friendly candid expressions, light scrapbook poster polish, and clear text visibility."
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic lifestyle social-campaign poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Toyota Yaris Cross minigame engagement campaign. Centerpiece is a giant red handwritten mileage number '258,472 KM' over a mountain-road family travel scene with a white Toyota Yaris Cross and a smiling family of three. Background is a forested hill landscape and dry field under bright daylight. Surrounding elements: Toyota logo top left, red ribbon 'MINIGAME', title 'CON SO HANH TRINH', handwritten subtitle 'Moi con so la mot cau chuyen', taped note with call-to-action copy, bottom prize section showing '08 GIAI DAC BIET' and 'Voucher GOT IT tri gia 1.000.000d', and handwritten 'Move your world'. Technical style: photorealistic lifestyle social-campaign poster, warm natural outdoor daylight, scrapbook note styling, clear text visibility, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Toyota corporate logo black version",
+          "required": true,
+          "source": "brand asset / Toyota official logo",
+          "usage": "Place top left on bright background."
+        },
+        {
+          "type": "product",
+          "name": "Toyota Yaris Cross white exterior reference",
+          "required": true,
+          "source": "product reference image",
+          "usage": "Recreate front view parked at right side with readable YARIS CROSS plate."
+        },
+        {
+          "type": "person",
+          "name": "Family of three travel lifestyle reference",
+          "required": true,
+          "source": "people reference photos",
+          "usage": "Preserve casual poses and warm interaction around the hood."
+        },
+        {
+          "type": "location",
+          "name": "Mountain field roadside background",
+          "required": true,
+          "source": "location reference",
+          "usage": "Recreate forested hills and earthy open field."
+        },
+        {
+          "type": "text_layout",
+          "name": "Minigame and prize layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve exact mileage number, CTA note, and voucher strip wording."
+        }
+      ],
+      "prompt_instructions": "Keep the exact visible number '258,472 KM' because it is the core hook of the minigame. The tone should feel community-driven and story-sharing, not hard-sell promotional."
+    }
+  }
+}

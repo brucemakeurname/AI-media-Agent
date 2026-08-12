@@ -1,0 +1,65 @@
+{
+  "name": "cocoon-hau-giang-mineral-sun-fluid-launch-poster",
+  "tag": [
+    "sunscreen",
+    "product-launch",
+    "tone-up-beige",
+    "product-poster",
+    "spf50",
+    "new-product"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "cocoon_1544063457320171",
+  "prompt": {
+    "project_info": {
+      "theme": "New product hero poster for Hau Giang lotus mineral sun fluid",
+      "color_palette": "Sky Blue, Soft Peach Pink, White, Matte Black, Warm Beige, Gold"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A clean vertical product-launch poster centered on a white Cocoon Hau Giang lotus mineral sun fluid bottle with black cap and visible SPF 50+ broad spectrum labeling, set against a blue-to-pink gradient background with reflection below.",
+      "style": "Minimal premium skincare hero poster, glossy retail launch visual"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'MỚI', 'SỮA CHỐNG NẮNG VÔ CƠ SEN HẬU GIANG', 'NÂNG TÔNG TỰ NHIÊN, BẢO VỆ CAO CHO DA RẤT NHẠY CẢM', and bottle text including 'SPF 50+ QUANG PHỔ RỘNG BROAD SPECTRUM PA++++' and 'TONE-UP BEIGE'.",
+      "items": [
+        "Top Left: Pink rectangle containing the word 'MỚI' above the main headline.",
+        "Top Right: Open blue gradient negative space supporting the large white headline stack.",
+        "Bottom Left: Faint reflection of the bottle on the glossy base.",
+        "Bottom Right: Beige badge on the product reading 'TONE-UP BEIGE'.",
+        "Center/Background: Large centered product bottle with black cap, gold Cocoon logo, and a soft peach gradient at the bottom."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio product lighting",
+      "effect": "Clean bottle highlights, subtle gloss reflection, premium launch polish, even readability"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity beauty product poster design",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a new skincare launch. Centerpiece is a white Cocoon Hau Giang lotus mineral sun fluid bottle with black cap, gold logo, and visible SPF 50+ broad spectrum labeling, centered on a glossy reflective base. Background is a sky-blue to soft peach gradient. Surrounding elements: a pink tag 'MỚI', the headline 'SỮA CHỐNG NẮNG VÔ CƠ SEN HẬU GIANG', the line 'NÂNG TÔNG TỰ NHIÊN, BẢO VỆ CAO CHO DA RẤT NHẠY CẢM', and the product badge 'TONE-UP BEIGE'. Keep the minimalist vertical hierarchy and clean premium skincare look. Technical style: high fidelity beauty product poster design, soft studio product lighting, clean bottle highlights and subtle gloss reflection, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Cocoon Hau Giang lotus mineral sun fluid bottle",
+          "required": true,
+          "source": "Attach the official packshot or crop from the original image",
+          "usage": "Preserve bottle proportions, black cap shape, gold typography, SPF block, and tone-up beige badge."
+        },
+        {
+          "type": "text_layout",
+          "name": "Launch poster headline stack",
+          "required": true,
+          "source": "Use the original poster as layout reference",
+          "usage": "Keep the 'MỚI' tag, the large product name, and the secondary benefit line."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, use the exact product packshot and original poster as references. The output should stay extremely clean and centered, with the same gradient and no added props."
+    }
+  }
+}

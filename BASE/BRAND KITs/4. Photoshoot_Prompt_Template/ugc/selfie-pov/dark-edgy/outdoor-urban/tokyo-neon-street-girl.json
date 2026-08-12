@@ -1,0 +1,40 @@
+{
+  "name": "tokyo-neon-street-girl",
+  "tag": ["ugc", "selfie-pov", "dark-edgy", "outdoor-urban", "tokyo-rooftop", "neon", "cyberpunk"],
+  "image_type": "neon rooftop streetwear portrait",
+  "image_vibe": "cyberpunk, nocturnal, confident, cool, cinematic",
+  "image_purpose": "social-media night portrait",
+  "group": "selfie-pov/dark-edgy/outdoor-urban",
+  "prompt": {
+    "project_info": "Photorealistic neon city rooftop portrait of one clearly adult woman in streetwear at night, with cyberpunk color grading, shallow depth of field and cinematic urban atmosphere.",
+    "main_subject": "One original adult woman wearing a cropped hoodie and contemporary streetwear, leaning confidently against a rooftop railing. Keep her identity original, anatomy natural and styling SFW. Her expression is calm and confident, with no public-figure likeness.",
+    "composition_elements": "Place the adult woman on a Tokyo rooftop at night, leaning against a railing with the city skyline and neon signs far below rendered as soft bokeh. Use the rooftop setting as the source of the streetwear portrait, not a beach or indoor room. Keep the subject clearly readable against the distant urban lights and preserve a clean composition without readable signage.",
+    "lighting_and_atmosphere": "Use neon rim light in cool blue and pink tones, subtle city glow and a slight natural lens flare. Maintain a moody nocturnal cyberpunk atmosphere with realistic rooftop shadows and controlled highlights.",
+    "technical_specs": "Photorealistic portrait, 50mm lens, f/1.4, ISO 800, 1/60 shutter, shallow depth of field, realistic bokeh and neon reflections, cinematic cyberpunk color grade, no text or watermark.",
+    "generated_prompt_string": "Photorealistic portrait of one original adult woman in a cropped hoodie and modern streetwear leaning confidently against a railing on a Tokyo rooftop at night. Neon city signs and skyline far below dissolve into bokeh; no readable text. Cool blue and pink neon rim light, subtle city glow, slight lens flare, realistic rooftop shadows, 50mm lens, f/1.4, ISO 800, 1/60, shallow depth of field, cinematic cyberpunk color grade, cool nocturnal confident mood, SFW, natural anatomy.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, beach setting, indoor room, distorted anatomy, extra fingers, malformed hands, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, readable text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "tokyo-neon-street-girl.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult streetwear subject, cropped hoodie, Tokyo rooftop, railing, skyline bokeh, blue-pink neon rim light, lens flare and camera settings; use the written rooftop prompt as authoritative and ignore any image mismatch."
+        },
+        {
+          "type": "image_asset",
+          "name": "1775044468457-jpqz6s73-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1775044468457-jpqz6s73-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required and image asset is optional; it is not inspected. Keep the clearly adult original subject, rooftop environment, cropped hoodie, railing, camera settings, neon palette and SFW cyberpunk direction consistent. Do not add readable text or logos."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

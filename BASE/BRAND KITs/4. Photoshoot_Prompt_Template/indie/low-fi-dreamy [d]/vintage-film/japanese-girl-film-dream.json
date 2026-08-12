@@ -1,0 +1,33 @@
+{
+  "name": "japanese-girl-film-dream",
+  "tag": ["indie", "low-fi-dreamy", "vintage-film", "japanese-film", "nostalgic"],
+  "image_type": "portrait",
+  "image_vibe": "Kodak Portra warmth, quiet cinematic stillness, nostalgic old-memory film texture",
+  "image_purpose": "Create a calm candid portrait with warm analog color and gentle emotional stillness.",
+  "group": "vintage-film",
+  "prompt": {
+    "project_info": "An analog-film portrait in a natural outdoor street or simple setting.",
+    "main_subject": "An original adult Japanese woman in a natural setting, with a calm expression and relaxed posture. She wears fully opaque everyday clothing appropriate to the environment.",
+    "composition_elements": "Candid slightly imperfect framing with organic balance, a softly blurred outdoor street or simple environment, and enough surrounding context to feel like a captured memory.",
+    "lighting_and_atmosphere": "Soft natural daylight or golden-hour light, gentle highlights, no harsh contrast, subtle halation, and a quiet emotional mood.",
+    "technical_specs": "3:2 composition, Kodak Portra-inspired warm tones, slight color shift, soft highlight roll-off, faded nostalgic palette, warm film-rendered skin, and fine grain texture.",
+    "generated_prompt_string": "Create a 3:2 candid analog-film portrait of an original adult Japanese woman in a natural outdoor street or simple setting. Give her a calm expression, relaxed posture, and fully opaque everyday clothing. Use soft daylight or golden-hour light, gentle highlights, no harsh contrast, Kodak Portra-inspired warm tones, slight color shift, soft highlight roll-off, subtle halation, fine grain, a slightly faded nostalgic palette, and organic imperfect framing like an old memory captured on film.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor or teen-coded subject, transparent clothing, exposed underwear, nudity, harsh contrast, plastic skin, excessive retouching, over-sharpening, distorted anatomy, watermark, text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image_reference",
+          "name": "source Japanese analog portrait reference",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1777296555106-g9jom0ds-1777296559622-1.jpeg",
+          "usage": "Use only for composition, setting, light, color palette, and film texture; do not copy identity."
+        }
+      ],
+      "prompt_instructions": "Preserve the calm Japanese analog portrait concept, warm Portra-like treatment, and cinematic stillness. Keep the subject original adult and clothing fully opaque."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Replaced age-ambiguous wording with an original adult subject.", "Specified opaque everyday clothing and safety exclusions."]
+  }
+}

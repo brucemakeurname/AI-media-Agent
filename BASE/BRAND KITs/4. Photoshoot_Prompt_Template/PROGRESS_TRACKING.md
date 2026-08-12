@@ -1,0 +1,2046 @@
+# Photoshoot Prompt Template - Progress Tracking
+
+**Last verified:** 2026-07-21  
+**Scope:** `indie`, `industry`, and `ugc` only. `video` is permanently excluded.
+
+## Operating rule
+
+Read this file and the active goal before every work session. The checklist is authoritative: do not enter a checked leaf folder unless the user explicitly requests a correction or audit. A leaf folder is checked only after every JSON in it has passed the required manual workflow. Update this file with `apply_patch` immediately when a leaf folder is finished.
+
+## Indie
+
+- [x] `abstract [d]`
+- [x] `analog-vintage [d]`
+- [x] `environment-atmospheric [d]`
+- [x] `enegy-lifestyle [d]/beach-summer`
+- [x] `enegy-lifestyle [d]/cinematic-portrait`
+- [x] `enegy-lifestyle [d]/golden-hour-street`
+- [x] `enegy-lifestyle [d]/luxury-editorial`
+- [x] `enegy-lifestyle [d]/neon-nightlife`
+- [x] `enegy-lifestyle [d]/other`
+- [x] `enegy-lifestyle [d]/retro-analog`
+- [x] `enegy-lifestyle [d]/urban-indie`
+- [x] `low-fi-dreamy [d]/cool-moody`
+- [x] `low-fi-dreamy [d]/golden-warm`
+- [x] `low-fi-dreamy [d]/soft-ethereal`
+- [x] `low-fi-dreamy [d]/styled-idol`
+- [x] `low-fi-dreamy [d]/vintage-film` - **COMPLETE: 43 of 43 direct JSON files normalized and verified; no image inspection used**
+  - [x] `90s-film-bedroom-girl.json`
+  - [x] `90s-grunge-japanese-portrait.json`
+  - [x] `ana-de-armas-golden-satin.json`
+  - [x] `analog-kpop-boudoir.json`
+  - [x] `backlight-red-dress-japanese.json`
+  - [x] `backlight-spin-film-girl.json`
+  - [x] `backlight-veil-japanese-romance.json`
+  - [x] `backlit-champagne-lace-dream.json`
+  - [x] `backlit-dust-japanese-film-girl.json`
+  - [x] `blinds-light-girl.json`
+  - [x] `blue-hour-seaside-girl.json`
+  - [x] `boho-blonde-pine-forest.json`
+  - [x] `bus-window-japanese-film-girl.json`
+  - [x] `bus-window-japanese-film.json`
+  - [x] `c-drama-aesthetic-melancholic-portrait.json`
+  - [x] `european-market-laughing-girl.json`
+  - [x] `fairy-lights-grunge-girl.json`
+  - [x] `film-cool-girl-moment.json`
+  - [x] `greenery-window-spaghetti-strap-portrait.json`
+  - [x] `japanese-film-lazy-summer-inverted.json`
+  - [x] `japanese-film-summer-girl.json`
+  - [x] `japanese-girl-film-dream.json`
+  - [x] `japanese-hot-spring-inn.json`
+  - [x] `japanese-negative-film-memory.json`
+  - [x] `kodak-portra-editorial-shot.json`
+  - [x] `late-night-convenience-store-neon-girl.json`
+  - [x] `lazy-summer-japanese-film-girl.json`
+  - [x] `prompt-1048.json`
+  - [x] `prompt-1093.json`
+  - [x] `prompt-1100.json`
+  - [x] `prompt-336.json`
+  - [x] `prompt-337.json`
+  - [x] `prompt-372.json`
+  - [x] `prompt-508.json`
+  - [x] `prompt-639.json`
+  - [x] `retro-film-arcade-ice-cream-girl.json`
+  - [x] `slow-shutter-korean-pure-sexy-selfie.json`
+  - [x] `vintage-bathroom-red-polka-dot-beauty.json`
+  - [x] `vintage-film-red-dress-mirror-selfie.json`
+  - [x] `vintage-film-soulful-look.json`
+  - [x] `vintage-hollywood-red-fur-glamour.json`
+  - [x] `vintage-lace-girl-golden-hour-closeup.json`
+  - [x] `window-reflection-beauty.json`
+- [x] `moody-portrait [d]/intimate-closeup`
+- [x] `moody-portrait [d]/outdoor-editorial`
+- [x] `moody-portrait [d]/urban-night`
+- [x] `noir-dark [d]` - **COMPLETE: 37 of 37 direct JSON files processed and verified**
+  - [x] `1990s-high-fashion-velvet-portrait.json`
+  - [x] `90s-flash-dark-bad-boy.json`
+  - [x] `architectural-mono-profile.json`
+  - [x] `black-and-white-cinematic-fashion-portrait.json`
+  - [x] `black-and-white-melancholy-man.json`
+  - [x] `black-and-white-smoky-fashion-portrait.json`
+  - [x] `black-and-white-surreal-fashion-aesthetics.json`
+  - [x] `black-and-white-thinker-portrait.json`
+  - [x] `black-white-film-triptych-white-dress-shadow.json`
+  - [x] `black-white-minimalist-orange-impact.json`
+  - [x] `black-white-power-portrait.json`
+  - [x] `blonde-guitarist-pigeons.json`
+  - [x] `cinematic-bw-profile-portrait.json`
+  - [x] `dramatic-black-white-fashion.json`
+  - [x] `dramatic-lighting-contemplative-portrait.json`
+  - [x] `intense-bw-light-woman-cat.json`
+  - [x] `light-shadow-sculpted-monochrome-portrait.json`
+  - [x] `minimalist-bw-amber-glasses.json`
+  - [x] `minimalist-bw-fashion-contact-sheet.json`
+  - [x] `minimalist-bw-portrait-orange-glasses.json`
+  - [x] `monochrome-studio-thinker.json`
+  - [x] `monochrome-wet-hair-grid.json`
+  - [x] `moody-monochrome-gentleman.json`
+  - [x] `mysterious-profile-in-dark.json`
+  - [x] `neon-lounge-charming-woman.json`
+  - [x] `noir-street-coat-model.json`
+  - [x] `pensive-man-black-white-portrait.json`
+  - [x] `premium-suit-bw-editorial.json`
+  - [x] `prompt-325.json`
+  - [x] `prompt-356.json`
+  - [x] `prompt-357.json`
+  - [x] `prompt-607.json`
+  - [x] `prompt-930.json`
+  - [x] `rainy-night-mono-fashion.json`
+  - [x] `sharp-bw-fashion-portrait.json`
+  - [x] `snowy-night-cool-gentleman.json`
+  - [x] `street-corner-bw-geometry.json`
+
+## Industry
+
+- [x] `campaign-key-visual [d]` - **COMPLETE: 52 of 52 direct JSON files processed and verified**
+  - [x] `a-concise-and-modern-fashion-promotional-advertisement.json`
+  - [x] `a-young-man-photo.json`
+  - [x] `adidas-premium-fashion-ad.json`
+  - [x] `apple-airpods-ad.json`
+  - [x] `avant-garde-blue-sculpture-swimwear.json`
+  - [x] `avant-garde-luxury-beauty.json`
+  - [x] `avant-garde-luxury-sports.json`
+  - [x] `avant-garde-mascara-wand.json`
+  - [x] `avant-garde-sports-fashion-1777136357929.json`
+  - [x] `avant-garde-sports-fashion.json`
+  - [x] `black-and-white-pop-art-portrait.json`
+  - [x] `coffee-poster-creative-design.json`
+  - [x] `coral-minimalist-fashion-campaign.json`
+  - [x] `creative-graffiti-photography-blue-streetwear.json`
+  - [x] `disruptive-loafer-campaign.json`
+  - [x] `disruptive-street-balenciaga-poster.json`
+  - [x] `double-exposure-sports-poster.json`
+  - [x] `dynamic-fashion-leap.json`
+  - [x] `dynamic-triptych-brand-visual-strategy.json`
+  - [x] `elon-musk-poster-design.json`
+  - [x] `fashion-model-on-lens.json`
+  - [x] `fashion-poster-of-woman-sneaker.json`
+  - [x] `future-minimal-sportswear.json`
+  - [x] `giant-futuristic-sunglasses-ad.json`
+  - [x] `high-end-brand-poster.json`
+  - [x] `high-fashion-26th-birthday-shadows.json`
+  - [x] `high-fashion-editorial-poster-design.json`
+  - [x] `high-fashion-tennis-girl.json`
+  - [x] `high-impact-earbud-ad.json`
+  - [x] `jenna-ortega-luxury-berry-scrub.json`
+  - [x] `lipstick-matrix-livestream.json`
+  - [x] `luxury-beauty-perfume-ad.json`
+  - [x] `minimalist-black-white-fashion-ad.json`
+  - [x] `minimalist-blue-fashion-poster.json`
+  - [x] `minimal-red-white-boxer-poster.json`
+  - [x] `pink-girl-premium-headphone-poster.json`
+  - [x] `prompt-1095.json`
+  - [x] `prompt-312.json`
+  - [x] `prompt-862.json`
+  - [x] `prompt-933.json`
+  - [x] `prompt-949.json`
+  - [x] `red-lens-blonde-poster.json`
+  - [x] `retro-fruit-fashion-editorial.json`
+  - [x] `retro-indian-poster-girl.json`
+  - [x] `rolex-surrealist-luxury-poster.json`
+  - [x] `santorini-redbull-summer-ad.json`
+  - [x] `stillness-in-chaos-taco-commercial.json`
+  - [x] `surreal-giant-crocs-fashion.json`
+  - [x] `sweet-shy-girl-winter-market.json`
+  - [x] `trendy-puffer-poster.json`
+  - [x] `ultimate-sporty-aesthetic.json`
+  - [x] `vintage-library-luxury-fashion.json`
+- [x] `pr-press-kit [d]` - **COMPLETE: 93 of 93 direct JSON files processed and verified**
+  - [x] `90s-hazy-nightclub-party-snap.json`
+  - [x] `billie-butter-yellow-streetwear.json`
+  - [x] `billie-eilish-vintage-flash-burgundy-phantom.json`
+  - [x] `billie-eilish-vogue-cover.json`
+  - [x] `black-diamond-cover-gaze.json`
+  - [x] `blonde-siren-red-carpet-fringe.json`
+  - [x] `candlelit-silk-beauty.json`
+  - [x] `casino-night-black-swan.json`
+  - [x] `champagne-off-shoulder-red-carpet.json`
+  - [x] `cinematic-character-narrative.json`
+  - [x] `crystal-gown-red-carpet-goddess.json`
+  - [x] `dazzling-black-sequin-ana.json`
+  - [x] `direct-flash-paparazzi-style.json`
+  - [x] `dreamy-garden-sweet-bunny.json`
+  - [x] `elegant-cafe-fashionista.json`
+  - [x] `european-castle-pearl-beauty.json`
+  - [x] `flash-dewy-heart-girl.json`
+  - [x] `flash-lighting-silver-sequin-girl.json`
+  - [x] `flash-luxury-closet-fashion-duo.json`
+  - [x] `glamorous-night-red-carpet-duo.json`
+  - [x] `high-fashion-soft-lighting.json`
+  - [x] `holiday-red-carpet-white-red-stars.json`
+  - [x] `hyper-realistic-vogue-cover.json`
+  - [x] `ice-blue-satin-red-carpet.json`
+  - [x] `jenna-ortega-flash-black-dress.json`
+  - [x] `jennie-stage-rehearsal-glow.json`
+  - [x] `late-night-show-star-dress.json`
+  - [x] `lavender-dream-couture-cover.json`
+  - [x] `luxury-bathroom-portrait.json`
+  - [x] `luxury-couture-rose-cover.json`
+  - [x] `luxury-emerald-haute-couture.json`
+  - [x] `luxury-marble-three-divas.json`
+  - [x] `luxury-wine-gown-magazine-cover.json`
+  - [x] `millennium-pink-satin-spicy-flash.json`
+  - [x] `modern-elegance-emerald-silk.json`
+  - [x] `modern-sofa-stylish-duo.json`
+  - [x] `nightclub-finger-gun-redhead.json`
+  - [x] `nightclub-redhead-finger-gun.json`
+  - [x] `oscars-red-carpet-sydney-sweeney.json`
+  - [x] `oscars-red-carpet-vintage-elegance.json`
+  - [x] `parisian-couture-red-dress-glamour.json`
+  - [x] `pink-carpet-ginger-celebrity.json`
+  - [x] `pink-sporty-girl-smile.json`
+  - [x] `prompt-1019.json`
+  - [x] `prompt-1055.json`
+  - [x] `prompt-744.json`
+  - [x] `prompt-977.json`
+  - [x] `purple-spotlight-jennie-kim.json`
+  - [x] `rain-frozen-fashion-step.json`
+  - [x] `rainy-nyc-cool-heiress-style.json`
+  - [x] `red-carpet-beautiful-blonde-black-mesh-gown.json`
+  - [x] `red-carpet-feather-goddess.json`
+  - [x] `red-carpet-glamour.json`
+  - [x] `red-carpet-goddess.json`
+  - [x] `red-carpet-goddess-sequin-white-dress.json`
+  - [x] `red-carpet-sparkling-black-gown.json`
+  - [x] `red-carpet-velvet-goddess.json`
+  - [x] `red-dress-cover-girl.json`
+  - [x] `redhead-sprite-red-carpet-looks.json`
+  - [x] `retro-flash-spicy-girl.json`
+  - [x] `cinematic-evening-stroll.json`
+  - [x] `retro-luxury-leather-party-grid.json`
+  - [x] `retro-red-velvet-girl-vanity.json`
+  - [x] `rose-aesthetic-fashion-portrait.json`
+  - [x] `rustic-stable-minimalist-fashion.json`
+  - [x] `sadie-sink-lace-gown.json`
+  - [x] `sadie-sink-venice-mcqueen-lavender-gown.json`
+  - [x] `sexy-military-speaker-under-spotlight.json`
+  - [x] `shimmering-red-carpet-duo.json`
+  - [x] `silver-fringe-dress-diptych.json`
+  - [x] `silver-glasses-silk-blonde.json`
+  - [x] `spotlight-pop-queen-performance.json`
+  - [x] `studio-redhead-looking-up.json`
+  - [x] `sunny-street-blonde-girl.json`
+  - [x] `sydney-dakota-madame-web-premiere.json`
+  - [x] `sydney-sweeney-nude-couture-gown.json`
+  - [x] `sydney-sweeney-red-carpet-retro-red-sporty.json`
+  - [x] `sydney-sweeney-teal-carpet-portrait.json`
+  - [x] `urban-elan-fashion-cover.json`
+  - [x] `urban-redhead-portrait.json`
+  - [x] `venice-red-carpet-sadie-sink-mcqueen.json`
+  - [x] `villa-night-flash-blonde.json`
+  - [x] `vintage-flash-billie-city-night.json`
+  - [x] `warm-home-glamour-soft-focus.json`
+  - [x] `whispers-of-tenderness-in-the-morning-mist.json`
+  - [x] `y2k-flash-burgundy-portrait.json`
+  - [x] `y2k-flash-car-girl.json`
+  - [x] `y2k-redhead-spicy-snap.json`
+  - [x] `y2k-sexy-christmas-snap.json`
+  - [x] `zhao-lusi-ethereal-white-gown.json`
+  - [x] `zhao-lusi-gothic-red-carpet.json`
+  - [x] `zhao-lusi-mint-feather-jewelry-gala.json`
+  - [x] `zhao-lusi-red-black-gown.json`
+- [x] `social-content [d]` - **COMPLETE: 32 of 32 direct JSON files processed and verified; named identity and branding safely remediated**
+  - [x] `blonde-id-close-up.json`
+  - [x] `bold-red-fashion-portrait.json`
+  - [x] `break-out-from-the-frame.json`
+  - [x] `bustling-shinjuku-3d-screen-wonder.json`
+  - [x] `cyber-grunge-surveillance-fashion.json`
+  - [x] `dark-grunge-fashion-portrait.json`
+  - [x] `fisheye-rooftop-red-sneaker-girl-extreme-sneaker.json`
+  - [x] `fisheye-rooftop-red-sneaker-girl-urban-tower-alt.json`
+  - [x] `forbidden-city-blossom-autumn-elegance.json`
+  - [x] `neon-green-3d-concert-performer.json` (renamed from `fortnite-billie-neon-concert - Copy.json`)
+  - [x] `genz-night-platform-mixed-media-portrait.json`
+  - [x] `live-action-cosplay-swimsuit-fashion-mag.json`
+  - [x] `minimal-studio-art-poster.json`
+  - [x] `minimal-studio-sports-campaign.json`
+  - [x] `musk-bw-dream-portrait.json`
+  - [x] `navy-gold-editorial-cover.json`
+  - [x] `prompt-1005.json`
+  - [x] `prompt-1008.json`
+  - [x] `prompt-1094.json`
+  - [x] `fictional-social-profile-glass-card.json`
+  - [x] `silver-bandana-modern-fashion-portrait.json`
+  - [x] `manga-inspired-theatrical-photo-pose.json`
+  - [x] `y2k-pastel-scrapbook-collage.json`
+  - [x] `y2k-holographic-scrapbook-collage.json`
+  - [x] `surreal-desktop-levitation-fashion.json`
+  - [x] `urban-streetwear-analog-digital-collage.json`
+  - [x] `minimal-studio-portrait-poster-creator.json`
+  - [x] `quiet-luxury-scarf-photobook-spread.json`
+  - [x] `social-media-chaos-fashion.json`
+  - [x] `street-cool-peace-girl.json`
+  - [x] `torn-paper-heart-portrait.json`
+  - [x] `yoga-pants-streamer-curves.json`
+  - [x] `lookbook-line-sheet [d]/beauty-closeup`
+  - [x] `annoyed-valentine-beauty.json`
+  - [x] `crimson-kimono-editorial-beauty.json`
+    - [x] `cyber-geisha-extreme-macro.json`
+    - [x] `dark-chocolate-lips-macro.json`
+    - [x] `dark-red-chair-gold-chain-charm.json`
+    - [x] `dilireba-luxury-magazine-cover.json`
+    - [x] `extreme-close-up-red-cap-fashion.json`
+    - [x] `floral-skin-cinematic-portrait.json`
+    - [x] `luxury-magazine-portrait.json`
+    - [x] `minimalist-white-fur-winter-haute-makeup.json`
+    - [x] `obsidian-ritual-salt-silo.json`
+    - [x] `petal-tears-surreal-portrait.json`
+    - [x] `pink-coquette-wink.json`
+    - [x] `prompt-1074.json`
+    - [x] `prompt-417.json`
+    - [x] `prompt-659.json`
+    - [x] `raspberry-red-lips-macro.json`
+    - [x] `red-girl-snow-smile-macro-photo.json`
+    - [x] `red-lip-mark-avant-garde-beauty-editorial.json`
+    - [x] `sapphire-crystal-tears.json`
+    - [x] `sunlit-minimalist-product-skin.json`
+    - [x] `zhao-lushi-rose-gold-macro.json`
+  - [x] `lookbook-line-sheet [d]/conceptual-surreal`
+    - [x] `biomimetic-shell-couture-void.json`
+    - [x] `botanical-metamorphosis-editorial.json`
+    - [x] `cloud-sweet-cupid-dream.json`
+    - [x] `dark-taxidermy-flamingo-illusion.json`
+    - [x] `ethereal-nature-fusion-portrait.json`
+    - [x] `fisheye-latex-shorts-girl.json`
+    - [x] `giant-mouth-editorial-girl.json`
+    - [x] `gilded-poppy-profile.json`
+    - [x] `glowing-goddess-in-dark-water.json`
+    - [x] `greenhouse-banana-couture.json`
+    - [x] `neon-pink-claw-dream-girl.json`
+    - [x] `pearl-bunny-surreal-fashion.json`
+    - [x] `pearl-rabbit-garden-girl.json`
+    - [x] `playful-girl-fishing-burger.json`
+    - [x] `surreal-chessboard-dark-queen.json`
+    - [x] `surreal-feather-goddess.json`
+    - [x] `surreal-leather-headpiece-fashion.json`
+    - [x] `surreal-porcelain-couture.json`
+    - [x] `surreal-rabbit-leash-girl-estate.json`
+    - [x] `y2k-coquette-giant-teddy-bear.json`
+- [x] `lookbook-line-sheet [d]/editorial-fashion` - **COMPLETE: 68 of 68 direct JSON files processed and verified; text-derived templates handled without image inspection**
+  - [x] `avant-garde-architectural-streetwear.json`
+  - [x] `baroque-luxury-wedding-editorial.json`
+  - [x] `black-and-white-chess-queen.json`
+  - [x] `blue-satin-queen-grand-staircase.json`
+  - [x] `burgundy-champagne-archer.json`
+  - [x] `burgundy-sheer-luxury-editorial.json`
+  - [x] `cinematic-neo-victorian-coquette.json`
+  - [x] `cinematic-warrior-goddess.json`
+  - [x] `cold-interrogation-fatal-temptation.json`
+  - [x] `crimson-alchemist-portrait.json`
+  - [x] `crimson-ghost-portrait.json`
+  - [x] `crystal-prism-rainbow-fashion-portrait.json`
+  - [x] `dark-cowgirl-by-campfire.json`
+  - [x] `dark-red-double-exposure-beauty.json`
+  - [x] `dark-red-lady-rearing-horse.json`
+  - [x] `dark-romance-haute-couture.json`
+  - [x] `dark-rose-red-dress-beauty.json`
+  - [x] `deep-blue-velvet-evening-gown-look-back.json`
+  - [x] `dramatic-red-fashion-shoot.json`
+  - [x] `dreamy-pink-feather-fashion-portrait.json`
+  - [x] `elegant-blonde-fashion-portrait.json`
+  - [x] `emerald-vine-red-beauty.json`
+  - [x] `golden-fur-editorial-portrait.json`
+  - [x] `golden-fur-haute-couture-shot.json`
+  - [x] `golden-hour-jaguar-coquette.json`
+  - [x] `gold-peony-fashion-shoot.json`
+  - [x] `gothic-queen-fire-water.json`
+  - [x] `high-contrast-orange-studio-editorial.json`
+  - [x] `high-fashion-low-angle-golden-fur.json`
+  - [x] `lemon-green-futuristic-fashion-male.json`
+  - [x] `luxury-editorial-giant-heel.json`
+  - [x] `luxury-paris-fashion-queen.json`
+  - [x] `luxury-wardrobe-fashion-doll-heels.json`
+  - [x] `magazine-editorial-satin-sweet.json`
+  - [x] `megan-fox-portrait-with-red-kiss-marks.json`
+  - [x] `messy-red-hot-pink-tension.json`
+  - [x] `millennium-fashion-editorial.json`
+  - [x] `misty-blue-jennie-stage.json`
+  - [x] `misty-forest-couture-fairy.json`
+  - [x] `pale-supermodel-black-panther.json`
+  - [x] `peachy-duo-editorial.json`
+  - [x] `pink-chanel-floating-steps-editorial.json`
+  - [x] `pink-gingham-sweeney-vintage-fashion.json`
+  - [x] `pink-neon-sporty-fashion.json`
+  - [x] `pink-satin-diamond-cherry-luxury-editorial.json`
+  - [x] `pink-velvet-gothic-girls.json`
+  - [x] `pink-velvet-heart-shadow-valentine.json`
+  - [x] `platinum-blonde-bath-bombshell.json`
+  - [x] `poetic-haute-couture-butterfly.json`
+  - [x] `predatory-vogue-cover.json`
+  - [x] `prompt-354.json`
+  - [x] `prompt-360.json`
+  - [x] `prompt-373.json`
+  - [x] `prompt-727.json`
+  - [x] `prompt-806.json`
+  - [x] `red-hair-disco-fashion-editorial.json`
+  - [x] `red-urban-queen-diamond-fashion.json`
+  - [x] `red-velvet-rose-perfume.json`
+  - [x] `rose-vintage-red-lips.json`
+  - [x] `skylight-redhead-butterfly-tattoo.json`
+  - [x] `sydney-sweeney-flash-office-editorial.json`
+  - [x] `three-actresses-luxury-editorial.json`
+  - [x] `western-stars-fashion-fitness-collection.json`
+  - [x] `y2k-redhead-hot-girl-locker-room.json`
+  - [x] `yacht-deck-bikini-agent.json`
+  - [x] `zhao-lusi-crimson-editorial.json`
+- [x] `lookbook-line-sheet [d]/grid-collage` - **COMPLETE: 29 of 29 direct JSON files processed and verified; text-derived template handled without image inspection**
+  - [x] `dreamy-pink-balloon-magazine-grid.json`
+  - [x] `extreme-wide-angle-y2k-sweet-babe.json`
+  - [x] `fashion-sports-grid-girl.json`
+  - [x] `four-color-asian-girl-chocolate-ad.json`
+  - [x] `four-frame-curly-beauty.json`
+  - [x] `golden-hour-red-corset-editorial.json`
+  - [x] `ivory-chiffon-lookbook-grid.json`
+  - [x] `luxury-cosmetic-grid-campaign.json`
+  - [x] `luxury-red-lip-grid-campaign.json`
+  - [x] `luxury-summer-jewelry-photoshoot.json`
+  - [x] `minimalist-white-studio-swimsuit-grid.json`
+  - [x] `nine-grid-fashion-touching-lens.json`
+  - [x] `oriental-haute-couture-makeup.json`
+  - [x] `pastel-yellow-fitness-grid.json`
+  - [x] `pink-activewear-editorial-grid.json`
+  - [x] `prompt-640.json`
+  - [x] `prompt-695.json`
+  - [x] `prompt-874.json`
+  - [x] `prompt-897.json`
+  - [x] `prompt-948.json`
+  - [x] `prompt-950.json`
+  - [x] `prompt-990.json`
+  - [x] `red-satin-heart-glasses-cool-girl.json`
+  - [x] `red-suit-9-grid-reference.json`
+  - [x] `summer-court-athlete-editorial.json`
+  - [x] `top-magazine-style-four-grid-fashion-photoshoot.json`
+  - [x] `twilight-satin-fashion-grid.json`
+  - [x] `youth-fashion-smartphone-photoshoot.json`
+- [x] `lookbook-line-sheet [d]/menswear` - **COMPLETE: 5 of 5 direct JSON files processed and verified**
+  - [x] `dark-mafia-luxury-male-portrait.json`
+  - [x] `futuristic-fashion-menswear-portrait.json`
+  - [x] `genz-streetwear-boy-labubu-pet.json`
+  - [x] `luxury-fur-suit-male-model.json`
+  - [x] `retro-denim-street-fashion-stylish-man.json`
+- [x] `lookbook-line-sheet [d]/other` - **COMPLETE: 1 of 1 direct JSON files processed and verified**
+  - [x] `warm-cinematic-healing-girl.json`
+- [x] `lookbook-line-sheet [d]/outdoor-lifestyle` - **COMPLETE: 31 of 31 direct JSON files processed and verified**
+  - [x] `classic-red-convertible-stylish-portrait.json`
+  - [x] `countryside-red-dress-vintage-car.json`
+  - [x] `desert-sunset-cheetah-luxury-editorial.json`
+  - [x] `dreamy-pink-hello-kitty-sweet-girl.json`
+  - [x] `dreamy-pink-hello-kitty-sweetheart.json`
+  - [x] `glamorous-gold-dress-elevator.json`
+  - [x] `golden-hour-tennis-smile.json`
+  - [x] `golden-orange-goddess-low-street.json`
+  - [x] `green-wall-red-disco-girl.json`
+  - [x] `luxury-hotel-morning-editorial.json`
+  - [x] `luxury-pool-duo-onepiece-editorial.json`
+  - [x] `mediterranean-cliff-overhead.json`
+  - [x] `mediterranean-yacht-hourglass-babe.json`
+  - [x] `pink-wall-street-girl.json`
+  - [x] `prompt-1136.json`
+  - [x] `prompt-1138.json`
+  - [x] `prompt-1140.json`
+  - [x] `prompt-377.json`
+  - [x] `prompt-605.json`
+  - [x] `prompt-730.json`
+  - [x] `relaxed-streetwear-portrait.json`
+  - [x] `serene-snow-forest-redhead.json`
+  - [x] `speeding-joy-suit-rider.json`
+  - [x] `stunning-sunset-yacht-bikini-beauties.json`
+  - [x] `stylish-woman-black-outfit.json`
+  - [x] `summer-beverage-ad-photo-of-young-woman.json`
+  - [x] `sunglasses-girl-cliff-coast.json`
+  - [x] `sunny-leap-vivid-girl.json`
+  - [x] `sunny-poolside-pink-blue-swimsuit-beauty.json`
+  - [x] `tropical-pool-swimsuit-girl.json`
+  - [x] `warm-bar-glance.json`
+- [x] `lookbook-line-sheet [d]/retro-vintage` - **COMPLETE: 10 of 10 direct JSON files processed and verified**
+  - [x] `90s-film-lazy-blonde-girl.json`
+  - [x] `classic-hollywood-redhead-vintage-portrait.json`
+  - [x] `dreamy-pink-boudoir-vintage-hollywood-coquette.json`
+  - [x] `dreamy-vintage-boudoir-blonde.json`
+  - [x] `extreme-pink-y2k-editorial-bikini.json`
+  - [x] `retro-barbie-pink-portrait.json`
+  - [x] `retro-modern-pink-disco-girl.json`
+  - [x] `retro-pink-car-summer-beauty.json`
+  - [x] `retro-pink-disco-girl.json`
+  - [x] `rococo-vintage-luxury-dream.json`
+- [x] `lookbook-line-sheet [d]/studio-portrait` - **AUDIT COMPLETE: all text-sufficient legacy sources normalized; remaining legacy sources are individually documented blockers; no image inspection used**
+  - [x] `sydney-sweeney-strawberry-photorealism.json` — normalized from complete prompt under no-image workflow; public-figure identity removed; direct JSON verified
+  - [x] `sydney-sweeney-bunny-pink-fur-portrait.json` — normalized from complete prompt under no-image workflow; public-figure identity and identifying overlay removed; direct JSON verified
+  - [x] `ultra-wide-angle-emma-watson-eerie-crouch.json` — normalized from complete prompt under no-image workflow; public-figure identity removed; direct JSON verified
+  - [x] `pure-lust-kpop-bad-girl-comeback.json` — normalized from complete prompt under no-image workflow; fetish wording minimally remediated; wrong-path write corrected; direct JSON verified
+  - [x] `rose-petal-tub-high-fashion.json` — normalized from complete prompt under no-image workflow; public-figure likeness and explicit cut-out wording remediated; direct JSON verified
+  - [x] `redhead-babe-plush-ape-romance.json` — normalized from complete prompt under no-image workflow; plush product reference retained; direct JSON verified
+  - [x] `soft-pink-wings-coquette-cupid.json` — normalized from complete prompt under no-image workflow; adult/original-subject framing applied; direct JSON verified
+  - [x] `studio-korean-fashion-blockbuster.json` — normalized from complete prompt under no-image workflow; adult/original-subject framing applied; direct JSON verified
+  - [x] `studio-hyper-realistic-blonde.json` — normalized from complete prompt under no-image workflow; named likeness removed; direct JSON verified
+  - [x] `redhead-supermodel-moment.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `studio-photorealistic-casual-man.json` — normalized from complete prompt under no-image workflow; required adult male reference retained; direct JSON verified
+  - [x] `sweet-winking-girl-portrait.json` — normalized from complete prompt under no-image workflow; adult/original-subject framing applied; direct JSON verified
+  - [x] `stunning-red-dress-blonde-cinematic-portrait.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `red-hat-blonde-cowgirl-confidence.json` — normalized from complete prompt under no-image workflow; required adult identity reference retained; direct JSON verified
+  - [x] `suit-businessman-portrait.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `stunning-tang-phoenix-beauty-close-up.json` — normalized from complete prompt under no-image workflow; adult/original-subject framing applied; direct JSON verified
+  - [x] `prompt-362.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `prompt-327.json` — normalized from complete prompt under no-image workflow; adult/original-subject framing applied; direct JSON verified
+  - [x] `prompt-1115.json` — normalized from complete prompt under no-image workflow; identity-preserving edit retained; direct JSON verified
+  - [x] `prompt-610.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `prompt-601.json` — normalized from complete prompt under no-image workflow; required adult identity reference retained; direct JSON verified
+  - [x] `prompt-657.json` — normalized from complete prompt under no-image workflow; source watermark removed; direct JSON verified
+  - [x] `red-couture-cupid-editorial.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `red-baroque-archery-editorial.json` — normalized from complete prompt under no-image workflow; required adult identity reference retained; direct JSON verified
+  - [x] `queen-of-hearts-fashion.json` — normalized from complete prompt under no-image workflow; required adult identity and card graphic retained; direct JSON verified
+  - [x] `purple-studio-fashion-portrait.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `prompt-333.json` — normalized from complete prompt under no-image workflow; asset URL typo corrected before verification; direct JSON verified
+  - [x] `ultra-realistic-luxury-skincare-ad.json` — normalized from complete prompt under no-image workflow; product label and hierarchy preserved; direct JSON verified
+  - [x] `ultra-realistic-fashion-portrait.json` — normalized from complete prompt under no-image workflow; adult/original-subject framing applied; direct JSON verified
+  - [x] `two-tone-fashion-portrait.json` — normalized from complete prompt under no-image workflow; editorial wording minimally remediated; direct JSON verified
+  - [x] `prompt-1071.json` — normalized from complete prompt under no-image workflow; identity-preserving edit retained; direct JSON verified
+  - [x] `prompt-1081.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `prompt-1085.json` — normalized from complete prompt under no-image workflow; lip-bite wording minimally remediated; direct JSON verified
+  - [x] `pastel-teddy-blonde-girl.json` — normalized from complete prompt under no-image workflow; default public-figure name removed; direct JSON verified
+  - [x] `prompt-1027.json` — normalized from complete prompt under no-image workflow; approved-adult subject reference retained; direct JSON verified
+  - [x] `prompt-1051.json` — normalized from complete prompt under no-image workflow; one-reference reuse rule preserved; direct JSON verified
+  - [x] `red-lip-indian-suit-portrait.json` — normalized from complete prompt under no-image workflow; required adult face reference retained; direct JSON verified
+  - [x] `pink-winged-fairy-clouds.json` — normalized from complete prompt under no-image workflow; required adult face reference retained; direct JSON verified
+  - [x] `platinum-hair-lazy-fashion.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `photorealistic-blue-pigtail-maid.json` — normalized from complete prompt under no-image workflow; wrong-path write corrected; direct JSON verified
+  - [x] `playful-red-fashion-editorial.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `red-ghost-haute-couture.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `valentine-red-dress-portrait.json` — normalized from complete prompt under no-image workflow; required adult identity reference retained; direct JSON verified
+  - [x] `vintage-film-fashion-portrait.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `vintage-paper-runway-duo.json` — normalized from complete prompt under no-image workflow; brand-specific wording generalized; direct JSON verified
+  - [x] `valentine-pink-fashion-dreamy-girl.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `sunlight-concrete-gaze.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `tennis-court-athlete-flat-lay.json` — normalized from complete prompt under no-image workflow; readable brand text removed; direct JSON verified
+  - [x] `trendy-youth-orange-studio.json` — normalized from complete prompt under no-image workflow; protected character/identity wording generalized; direct JSON verified
+  - [x] `rose-surrounded-chic-heiress.json` — normalized from complete prompt under no-image workflow; public-figure identity removed; direct JSON verified
+  - [x] `soft-purple-winter-girl-portrait.json` — normalized from complete prompt under no-image workflow; adult/original-subject framing applied; direct JSON verified
+  - [x] `sparkling-white-saree-portrait.json` — normalized from complete prompt under no-image workflow; identity-lock language removed; direct JSON verified
+  - [x] `orange-studio-man-plush-fashion.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `orange-red-lonely-silhouette.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `orange-mysterious-girl-profile.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `minimalist-gallery-youth-dog.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `prompt-392.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `prompt-393.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `prompt-390.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `prompt-386.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `prompt-370.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `wet-hair-sheer-fashion.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `warm-orange-intellectual-gentleman.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `warm-light-suited-man.json` — normalized from complete prompt under no-image workflow; direct JSON verified
+  - [x] `8k-minimalist-red-room-gaming-god.json`
+  - [x] `amber-linen-fashion-portrait.json`
+  - [x] `ana-de-armas-elegant-sleepwear.json`
+  - [x] `ana-de-armas-gold-legs.json`
+  - [x] `ana-white-shirt-elegant-portrait.json`
+  - [x] `anya-minimalist-editorial.json`
+  - [x] `anya-taylor-joy-glamour-pose.json`
+  - [x] `anya-taylor-joy-red-bow-gingham-barefoot-boudoir.json`
+  - [x] `black-and-white-stacked-family-portrait.json`
+  - [x] `black-white-sport-bra-girl.json`
+  - [x] `brutalist-stairwell-suit-seductress.json`
+  - [x] `burgundy-sequin-jumpsuit.json`
+  - [x] `cherry-lips-latex-babe.json`
+  - [x] `classic-hollywood-valentine-portrait.json`
+  - [x] `cold-black-dress-flash-portrait.json`
+  - [x] `cold-half-face-bw-portrait.json`
+  - [x] `confident-spider-girl-studio-portrait.json`
+  - [x] `cool-fox-eye-japanese-girl-backlight.json`
+  - [x] `cool-tone-luxury-crouch.json`
+  - [x] `cowgirl-lying-fashion-portrait.json`
+  - [x] `dark-angel-with-doberman.json`
+  - [x] `dark-blue-couture-geometric-portrait.json`
+  - [x] `dark-red-silk-dancer.json`
+  - [x] `deep-red-studio-multi-exposure-tuxedo.json`
+  - [x] `direct-flash-barefoot-plaid-portrait.json`
+  - [x] `dramatic-chiaroscuro-brunette-fashion.json`
+  - [x] `dramatic-four-styles-character.json`
+  - [x] `dreamy-pink-cupid-girl.json`
+  - [x] `extreme-red-black-studio-portrait.json`
+  - [x] `fashion-glasses-beige-portrait.json`
+  - [x] `floating-floral-haute-couture.json`
+  - [x] `gen-z-labubu-orange-fashion.json`
+  - [x] `geometric-light-black-white-portrait.json`
+  - [x] `golden-satin-luxury.json`
+  - [x] `golden-warm-light-duo-fashion-selfie.json`
+  - [x] `gothic-glam-eight-idols.json`
+  - [x] `gray-studio-baddie-seduction.json`
+  - [x] `green-blazer-monogram-editorial.json`
+  - [x] `grey-suit-goddess-studio.json`
+  - [x] `gun-holding-antihero-red-black.json`
+  - [x] `healing-green-jacket-girl-portrait.json`
+  - [x] `heroic-orange-portrait.json`
+  - [x] `high-end-fullbody-fashion.json` — normalized from prompt/folder context under text-only workflow; image not inspected (correction of prior blocker)
+  - [ ] `high-end-fullbody-fashion.json` — **BLOCKED: matching image absent; JSON not edited**
+  - [x] `high-fashion-magazine-cover-trio.json`
+  - [x] `high-fashion-trio-cover.json`
+  - [x] `icy-blue-fur-fashion-editorial.json`
+  - [x] `industrial-minimalist-luxury.json`
+  - [x] `ink-flow-art-couture-portrait.json`
+  - [x] `intense-red-hair-blue-eyes-fashion-foreshortening.json`
+  - [x] `languid-red-dress-luxury-cinematic.json`
+  - [x] `luxurious-red-lips-heart-bagel.json`
+  - [x] `luxury-fashion-face-cover-portrait.json`
+  - [x] `luxury-glam-beauty-portrait.json`
+  - [x] `luxury-magazine-editorial.json`
+  - [x] `luxury-red-fashion-magazine-cover.json`
+  - [x] `luxury-suit-male-model-seductive.json`
+  - [x] `margaret-qualley-pink-metallic-bodysuit.json`
+  - [x] `metallic-pink-haute-couture.json`
+  - [x] `minimal-beige-elegance.json`
+  - [x] `minimal-gray-glamour-shot.json`
+  - [x] `minimal-haute-couture-aesthetics.json`
+  - [x] `minimalist-black-latex-fashion.json`
+  - [x] `minimalist-blonde-pink-dress.json`
+  - [x] `minimalist-f1-heiress-portrait.json`
+  - [x] `minimalist-gallery-luxury-fur-beauty.json`
+  - [x] `minimalist-kitchen-red-dress-sabrina.json`
+  - [x] `minimalist-marble-kitchen-fashion.json`
+  - [x] `minimalist-pink-fashion-portrait.json`
+  - [x] `minimalist-red-black-tech-portrait.json`
+  - [x] `minimalist-sky-blue-luxury-portrait.json`
+  - [x] `minimalist-spade-queen-fashion.json`
+  - [x] `minimalist-studio-green-puffer-fashion.json`
+  - [x] `minimalist-studio-red-jacket-portrait.json`
+  - [x] `minimalist-studio-ultra-long-hair.json`
+  - [x] `minimalist-white-ck-fashion-editorial.json`
+  - [x] `minimal-white-studio-squatting-editorial.json`
+  - [x] `misty-smoke-beige-editorial.json`
+  - [x] `modern-living-room-elegant-poses.json`
+  - [x] `navy-suit-businesswoman.json`
+  - [x] `neon-orange-hair-cool-girl.json`
+
+## UGC
+
+- [x] `viral-trending` - **COMPLETE: 18 of 18 direct JSON files processed and verified**
+  - [x] `aesthetic-film-tulip-contact-sheet.json`
+  - [x] `billie-dark-y2k-grid.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `dynamic-phone-interaction-grid.json`
+  - [x] `night-golf-swinging-redhead.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `prompt-709.json`
+  - [x] `prompt-736.json`
+  - [x] `prompt-752.json`
+  - [x] `prompt-803.json`
+  - [x] `prompt-810.json`
+  - [x] `retro-girly-magazine-page.json`
+  - [x] `snowy-cabin-bikini-glance.json`
+  - [x] `sweet-japanese-girl-at-subway-door.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `three-kingdoms-diaochan-portrait.json`
+  - [x] `tiktok-beauty-live-interface.json`
+  - [x] `viral-beauty-underwear-live.json`
+  - [x] `white-handwritten-profile.json`
+  - [x] `wide-angle-gorpcore-gwagon.json`
+  - [x] `zhao-lusi-silver-liquid-dress.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+
+### `casual-everyday [d]`
+
+- [x] `baddie/other` - **COMPLETE: 5 of 5 direct JSON files processed and verified**
+  - [x] `summer-wet-skin-girl.json`
+  - [x] `sun-drenched-bronze-bikini-realism.json`
+  - [x] `sun-kissed-bikini-girl.json`
+  - [x] `sunlit-patio-orange-bikini-redhead.json`
+  - [x] `sunny-backyard-red-girl-glance.json`
+- [x] `baddie/outdoor-nature` - **COMPLETE: 6 of 6 direct JSON files processed and verified**
+  - [x] `emilia-clarke-wet-bikini-pier.json`
+  - [x] `platinum-blonde-poolside.json`
+  - [x] `poolside-blonde-bikini-sunbathing.json`
+  - [x] `rustic-ranch-hourglass-cowgirl.json`
+  - [x] `rustic-red-cowgirl-portrait.json`
+  - [x] `scorching-gold-bikini-sultry-babe.json`
+- [x] `baddie/outdoor-urban` - **COMPLETE: 3 of 3 direct JSON files processed and verified**
+  - [x] `dragon-ball-bikini-girl.json`
+  - [x] `golden-hour-city-rooftop.json`
+  - [x] `night-gas-station-curvy-babe.json`
+- [x] `baddie/private-indoor` - **COMPLETE: 26 of 26 direct JSON files processed and verified; text-derived template handled without image inspection**
+  - [x] `alpine-twilight-spa-girl-fox.json`
+  - [x] `ana-de-armas-charming-dark-spider-woman.json`
+  - [x] `bathroom-hourglass-spider-woman.json`
+  - [x] `curvy-babe-bright-room.json`
+  - [x] `dark-luxury-leopard-selfie.json`
+  - [x] `iphone-flash-hourglass-figure.json`
+  - [x] `lavender-tight-dress-look-back.json`
+  - [x] `lazy-blonde-poolside.json`
+  - [x] `leather-rhinestone-ultimate-seduction.json`
+  - [x] `luxury-garage-gamer-girl.json`
+  - [x] `luxury-table-squatting-blonde-feast.json`
+  - [x] `luxury-warm-light-sexy-hourglass-beauty.json`
+  - [x] `midnight-bedroom-flash-photo.json`
+  - [x] `moody-luxury-redhead.json`
+  - [x] `morning-light-seductive-girl.json`
+  - [x] `pink-camisole-sultry-look.json`
+  - [x] `pink-glow-lazy-boudoir.json`
+  - [x] `pink-lace-black-socks-temptation.json`
+  - [x] `pink-sweater-hourglass.json`
+  - [x] `playful-bikini-girl-overhead.json`
+  - [x] `playful-blonde-bikini-overhead-view.json`
+  - [x] `playful-freckled-blonde-winking.json`
+  - [x] `playful-girl-summer-wink.json`
+  - [x] `playful-summer-bikini-girl.json`
+  - [x] `playful-summer-girl-overhead-view.json`
+  - [x] `purple-blue-moody-bed-beauty.json`
+- [x] `baddie/public-indoor` - **COMPLETE: 9 of 9 direct JSON files processed and verified**
+  - [x] `bikini-vending-machine-glance.json`
+  - [x] `fitting-room-burgundy-fashion-editorial.json`
+  - [x] `fitting-room-burgundy-fashion-girl.json`
+  - [x] `hourglass-beauty-supermarket.json`
+  - [x] `night-pool-pink-bikini-snap.json`
+  - [x] `sunny-kitchen-hourglass-beauties.json`
+  - [x] `sunny-kitchen-sexy-freckled-glance.json`
+  - [x] `sunny-pool-hourglass-beauty.json`
+  - [x] `sunny-villa-bikini-babe.json`
+- [x] `baddie/vehicle` - **COMPLETE: 1 of 1 direct JSON files processed and verified**
+  - [x] `midnight-car-latina-blowing-kiss.json`
+- [x] `cafe-social/outdoor-nature` - **COMPLETE: 1 of 1 direct JSON files processed and verified**
+  - [x] `istanbul-spring-park-coffee-romance.json`
+- [x] `cafe-social/outdoor-urban` - **COMPLETE: 4 of 4 direct JSON files processed and verified**
+  - [x] `italian-golden-hour-beauty.json`
+  - [x] `parisian-white-blazer-afternoon.json`
+  - [x] `prompt-687.json`
+  - [x] `relaxed-patio-girl.json`
+- [x] `cafe-social/public-indoor` - **COMPLETE: 8 of 8 direct JSON files processed and verified**
+  - [x] `afternoon-cafe-lip-gloss-girl.json`
+  - [x] `jirai-hime-cut-cafe-shot.json`
+  - [x] `lazy-afternoon-cafe-girl.json`
+  - [x] `morning-european-cafe-blonde.json`
+  - [x] `night-cafe-blonde-petting-cat.json`
+  - [x] `paris-luxury-afternoon-tea.json`
+  - [x] `playful-cafe-pouty-moment.json`
+  - [x] `sunlit-cafe-quiet-moment.json`
+- [x] `cozy-home/outdoor-nature` - **COMPLETE: 1 of 1 direct JSON files processed and verified**
+  - [x] `golden-hour-backyard-bbq.json`
+- [x] `cozy-home/private-indoor` - **COMPLETE: 24 of 24 direct JSON files processed and verified**
+  - [x] `bedroom-lace-melancholy-girl.json`
+  - [x] `blonde-girl-morning-glance.json`
+  - [x] `cold-blue-melancholic-gamer-girl.json`
+  - [x] `cozy-bean-bag-winter-reading.json`
+  - [x] `cozy-blonde-winter-window.json`
+  - [x] `dim-room-innocent-glance.json`
+  - [x] `gentle-healing-morning-routine.json`
+  - [x] `late-night-cookie-girl.json`
+  - [x] `lazy-blonde-morning-light.json`
+  - [x] `morning-light-fresh-blonde.json`
+  - [x] `pastel-gaming-girl-over-shoulder.json`
+  - [x] `pink-kitty-bedroom-scream.json`
+  - [x] `pink-robe-barefoot-girl.json`
+  - [x] `playful-kawaii-pink-bedroom.json`
+  - [x] `prompt-1010.json`
+  - [x] `cozy-pink-bedroom-blonde.json`
+  - [x] `prompt-1122.json`
+  - [x] `prompt-817.json`
+  - [x] `soft-light-braided-pink-girl.json`
+  - [x] `soft-light-pink-knit-girl.json`
+  - [x] `sunny-bedroom-anya-red-bow-barefoot-fashion-portrait.json`
+  - [x] `sunny-white-shirt-girl.json`
+  - [x] `warm-light-golden-retriever.json`
+  - [x] `warm-light-shirtless-cooking-home.json`
+- [x] `cozy-home/public-indoor` - **COMPLETE: 4 of 4 direct JSON files processed and verified**
+  - [x] `korean-sweet-gamer-girl-portrait.json`
+  - [x] `morning-counter-playful-girl.json`
+  - [x] `playful-girl-and-tabby-cat.json`
+  - [x] `studying-in-warm-cafe.json`
+- [x] `night-out/outdoor-urban` - **COMPLETE: 2 of 2 direct JSON files processed and verified**
+  - [x] `flying-snow-city-night-celebration.json`
+  - [x] `midnight-jdm-streetwear-flash.json`
+- [x] `night-out/private-indoor` - **COMPLETE: 1 of 1 direct JSON files processed and verified; text-only identity remediation applied**
+  - [x] `billie-eilish-burgundy-lace-flash.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+- [x] `night-out/public-indoor` - **COMPLETE: 2 of 2 direct JSON files processed and verified; text-derived template handled without image inspection**
+  - [x] `flash-capture-playful-girl.json`
+  - [x] `flash-lit-playful-night-girl.json`
+- [x] `other/other` - **COMPLETE: 5 of 6 direct JSON files processed and verified; 1 text-source blocker preserved**
+  - [x] `dark-goth-virtual-influencer.json`
+  - [x] `hidden-efforts-corner.json`
+  - [x] `hidden-face-taboo-grid.json`
+  - [x] `natural-to-refined-lips.json`
+  - [x] `real-madrid-girls-stand.json`
+  - [ ] `rebellious-anthropomorphic-banana.json` — blocked: local image is a ramen-event selfie, not the source's anthropomorphic-banana concept
+- [x] `other/outdoor-urban` - **COMPLETE: 2 of 2 direct JSON files processed and verified**
+  - [x] `dark-gothic-patent-squat-portrait.json` (renamed from `dark-gothic-ana-de-armas-squat.json`)
+  - [x] `golden-hour-rugged-male-closeup.json` (renamed from `golden-hour-ronaldo-closeup.json`)
+- [x] `other/private-indoor` - **COMPLETE: 5 of 5 direct JSON files processed and verified**
+  - [x] `hardcore-sci-fi-cosplay-girl-in-bedroom.json`
+  - [x] `pink-twin-tails-maid-girl.json`
+  - [x] `playful-japanese-selfie-collage.json`
+  - [x] `realistic-macro-earring-texture.json`
+  - [x] `symbiote-spider-girl-pigtails.json`
+- [x] `other/public-indoor` - **COMPLETE: 6 of 6 direct JSON files processed and verified; named likeness and body emphasis safely remediated**
+  - [x] `konbini-girl-with-katana.json`
+  - [x] `konbini-katana-store-portrait.json` (renamed from `konbini-katana-jk-girl.json`)
+  - [x] `playful-fashion-beauty-in-cart.json`
+  - [x] `realistic-university-classroom-teaching.json`
+  - [x] `retro-billiards-western-beauty.json` — previously normalized from prompt and folder context; image not inspected per text-only workflow
+- [x] `other/vehicle` - **COMPLETE: 1 of 1 direct JSON files processed and verified**
+  - [x] `subway-phone-beauty.json`
+- [x] `soft-elegant/other` - **COMPLETE: 6 of 6 direct JSON files processed and verified; two-panel source handled from text without image inspection**
+  - [x] `vintage-car-red-dress-portrait.json` (renamed from `4k-photorealistic-portrait.json`)
+  - [x] `black-fur-snow-beauty.json`
+  - [x] `cozy-fur-hat-girl.json`
+  - [x] `green-eyes-realistic-portrait.json` — two portrait variants normalized as a text-derived diptych; JSON verified without image inspection
+  - [x] `prompt-620.json`
+  - [x] `prompt-715.json` (renamed from `prompt-715_0.jpg`)
+- [x] `soft-elegant/outdoor-nature` - **COMPLETE: 8 of 8 direct JSON files processed and verified; text-derived outfit handled without image inspection**
+  - [x] `8k-hyperrealistic-magenta-dress-walk.json`
+  - [x] `ana-de-armas-autumn-lawn.json` — normalized from existing text-derived template under no-image workflow; direct JSON verified (correction of prior blocker)
+  - [ ] `ana-de-armas-autumn-lawn.json` — blocked: local image is a standing blonde park portrait, while the source prompt describes a dark-haired subject reclining on grass; JSON not edited
+  - [x] `blonde-white-dress-archway.json`
+  - [x] `boho-red-dress-against-stone.json`
+  - [x] `green-park-pink-satin-bubbles.json`
+  - [x] `leather-jacket-ana-autumn-grass.json`
+  - [x] `sage-garden-organza-qipao-girl.json` — sage-green organza qipao concept normalized from text; JSON verified without image inspection
+  - [x] `strawberry-field-red-lips.json`
+- [x] `soft-elegant/outdoor-urban` - **COMPLETE: 2 of 2 direct JSON files processed and verified**
+  - [x] `blonde-prada-night-lounge.json`
+  - [x] `istanbul-sunset-kiss.json`
+- [x] `soft-elegant/private-indoor` - **COMPLETE: all mapable direct JSON files processed and verified; 1 blocked for incomplete source text**
+  - [x] `billie-blonde-era-glam-portrait.json`
+  - [x] `billie-eilish-blonde-lazy-luxury.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `billie-eilish-satin-staircase-portrait.json`
+  - [x] `blonde-beauty-looking-back.json`
+  - [x] `blonde-billie-lazy-sofa.json`
+  - [x] `blonde-billie-modern-sofa.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `blonde-portrait-soft-light.json`
+  - [x] `blonde-satin-portrait.json`
+  - [x] `champagne-satin-natural-beauty.json`
+  - [x] `dim-amber-light-high-fidelity-portrait.json`
+  - [x] `emerald-satin-lazy-blonde.json`
+  - [x] `flawless-black-dress-beauty.json`
+  - [x] `four-panel-red-lips-makeup-moment.json`
+  - [x] `freckled-girl-on-rainbow-knit.json`
+  - [x] `goddess-gold-crown-portrait.json`
+  - [ ] `golden-hair-spread-on-floor.json` — blocked: local image is a brunette in a red/black outfit, while the source specifies long blonde hair and yellow/black styling; JSON not edited
+  - [x] `idol-goddess-white-split-moment.json`
+  - [x] `languid-platinum-beauty-on-cream-sofa.json`
+  - [x] `lapland-snowy-window-seductress.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `lazy-red-dress-afternoon.json`
+  - [x] `luxury-gold-white-goddess-portrait.json`
+  - [x] `magenta-silk-boudoir.json`
+  - [x] `midnight-flash-blue-satin-dream.json`
+  - [x] `minimalist-wall-gentle-girl-portrait.json`
+  - [x] `misa-amane-gothic-lolita.json`
+  - [x] `morning-white-stairs-girl.json`
+  - [x] `paintbrush-view-pink-satin-girl.json`
+  - [x] `platinum-blonde-cream-sofa.json`
+  - [x] `playful-winking-ana-de-armas.json`
+  - [x] `pure-champagne-satin-portrait.json`
+  - [x] `purple-latex-bedroom-portrait.json`
+  - [x] `sadie-sink-champagne-silk-portrait.json`
+  - [x] `scandinavian-blonde-girl-sunlight.json`
+  - [x] `sunset-geometric-shadow-blonde.json`
+  - [x] `sweet-pink-gingham-dress-girl.json`
+- [x] `soft-elegant/public-indoor` - **COMPLETE: all mapable direct JSON files processed and verified; 2 blocked for creative-concept/mapping mismatch**
+  - [ ] `aesthetic-blockbusters-of-actresses.json` — blocked: source contains multiple actress concepts and two image URLs, but only one local preview is present; JSON not edited
+  - [x] `cinema-red-seat-gaze.json`
+  - [x] `golden-sunlight-nordic-greenhouse-girl.json`
+  - [ ] `modern-luxury-red-dress-duo-afternoon.json` — blocked: local image shows pink and black outfits, while the source specifies two red outfits; JSON not edited
+  - [x] `neon-lounge-zebra-girl.json`
+  - [x] `pink-tweed-elegant-portrait.json`
+  - [x] `prompt-364.json`
+  - [x] `prompt-731.json`
+  - [x] `purple-pink-neon-evening-gown.json`
+  - [x] `quiet-mosque-tasbih-girl.json`
+  - [x] `red-dress-sultry-stairs.json`
+  - [x] `sunny-sofa-red-dresses.json`
+- [x] `soft-elegant/vehicle` — COMPLETE: 2 of 2 templates processed and verified
+  - [x] `golden-hour-vintage-tram-girl.json`
+  - [x] `stunning-glance-sunset-sea.json`
+- [x] `sporty-active/other` - **COMPLETE: 1 of 1 direct JSON files processed and verified; text-derived template handled without image inspection**
+  - [x] `fitness-duo-collage-night-gym.json`
+- [x] `sporty-active/outdoor-nature` - **COMPLETE: 1 of 1 direct JSON files processed and verified; text-derived template handled without image inspection**
+  - [x] `smiling-farm-girl-golden-sun.json`
+- [x] `sporty-active/outdoor-urban` - **COMPLETE: 3 of 3 direct JSON files processed and verified; text-derived template handled without image inspection**
+  - [x] `golden-girl-melting-ice-cream.json`
+  - [x] `green-street-redhead-cyclist.json`
+  - [x] `playful-juventus-girl-on-pitch.json`
+- [x] `sporty-active/private-indoor` - **COMPLETE: 2 of 2 direct JSON files processed and verified**
+  - [x] `locker-room-shush-blonde.json`
+  - [x] `shadow-tension-monochrome-sports-diptych.json`
+- [x] `sporty-active/public-indoor` - **COMPLETE: 11 of 11 direct JSON files processed and verified; named likenesses safely remediated**
+  - [x] `sweaty-pink-gym-power.json`
+  - [x] `mint-fitness-beauty.json`
+  - [ ] `neon-lit-blonde-fitness-duo.json` — blocked: source names two celebrities and describes two subjects, but the local image contains one generic subject; JSON not edited
+  - [x] `platinum-ponytail-overhead-goddess.json`
+  - [x] `sunny-blonde-yoga-babe.json`
+  - [x] `sunny-wet-tennis-girl.json`
+  - [x] `blonde-athlete-on-plates.json`
+  - [x] `brutalist-space-post-workout-candid.json`
+  - [x] `casual-blonde-pilates-grid.json`
+  - [x] `gym-girl-exhaustion-after-deadlift.json`
+  - [x] `gym-pink-girl-stretching.json`
+- [x] `street-chic/other` - **COMPLETE: 1 of 1 direct JSON files processed and verified**
+  - [x] `playful-blonde-vintage-leather.json`
+- [x] `street-chic/outdoor-nature` - **COMPLETE: 5 of 5 direct JSON files processed and verified; named likeness safely remediated**
+  - [x] `cinematic-coastal-minimalist-portrait.json`
+  - [x] `cinematic-fashion-man-with-red-jeep.json`
+  - [x] `golden-hour-country-girl.json`
+  - [x] `golden-hour-rainy-beauty.json`
+  - [x] `prompt-376.json`
+- [x] `street-chic/outdoor-urban` — COMPLETE: 37 of 37 templates processed and verified
+  - [x] `tokyo-night-candid-capture.json`
+  - [x] `urban-concrete-thoughts.json`
+  - [x] `sunny-red-sweater-boy.json`
+  - [x] `sunny-sky-dynamic-girl.json`
+  - [x] `sweet-pink-low-angle-portrait.json`
+  - [x] `prompt-651.json`
+  - [x] `quiet-thoughts-busy-crowd.json`
+  - [x] `rainy-night-bus-stop-girl.json`
+  - [x] `red-brick-billie-eilish-portrait.json`
+  - [x] `relaxed-street-snap.json`
+  - [x] `paris-night-chic-street-fashion.json`
+  - [x] `paris-playful-blonde-model.json`
+  - [x] `pink-knit-urban-portrait.json`
+  - [x] `pink-tracksuit-street-editorial.json`
+  - [x] `prompt-473.json`
+  - [x] `night-highway-sadie-sink-portrait.json`
+  - [x] `night-light-pillar-portrait.json`
+  - [x] `night-rooftop-redhead.json`
+  - [x] `night-rooftop-spider-blonde.json`
+  - [x] `old-money-winter-gentleman.json`
+  - [x] `industrial-stripe-jumper-girl.json`
+  - [x] `melancholic-profile-in-snow.json`
+  - [x] `modern-arch-fashion-model.json`
+  - [x] `night-blue-mustang-blonde-fashion.json`
+  - [x] `night-harley-street-flash-photo.json`
+  - [x] `evening-parking-lot-smile.json`
+  - [x] `floral-dress-girl-holding-green-boot.json`
+  - [x] `golden-hour-eiffel-legs.json`
+  - [x] `golden-hour-redhead-girl.json`
+  - [x] `graffiti-wall-street-youth.json`
+  - [x] `autumn-street-playful-girl-yellow-cardigan-boots.json`
+  - [x] `barbie-pink-car-overhead.json`
+  - [x] `burgundy-hair-summer-street.json`
+  - [x] `california-neon-blonde-girl.json`
+  - [x] `european-street-fashion-editorial.json`
+- [x] `street-chic/private-indoor` — COMPLETE: 1 of 1 templates processed and verified
+  - [x] `raw-lace-cardigan-girl.json`
+- [x] `street-chic/public-indoor` — COMPLETE: 6 of 6 templates processed and verified
+  - [x] `fashion-glance-stone-columns.json`
+  - [x] `navy-pinstripe-suit-gentleman.json`
+  - [x] `playful-library-bookworm-girl.json`
+  - [x] `sunny-patio-playful-pink-girl.json`
+  - [x] `urban-contemplation-gentleman-portrait.json`
+  - [x] `urban-corridor-fashion-portrait.json`
+- [x] `street-chic/vehicle` - **COMPLETE: 6 of 6 direct JSON files processed and verified; text-derived template handled without image inspection**
+  - [x] `luxury-suv-young-gentleman.json`
+  - [x] `porsche-blonde-model-side.json`
+  - [x] `rainy-night-car-girl-photography.json`
+  - [x] `rainy-window-cinematic-portrait.json`
+  - [x] `retro-y2k-hip-hop-girls.json`
+  - [x] `tired-calm-commuter.json`
+- [x] `travel-lifestyle/other` — COMPLETE: 1 of 1 templates processed and verified
+  - [x] `golden-hour-ocean-muse.json`
+- [x] `travel-lifestyle/outdoor-nature` - **COMPLETE: 3 of 3 direct JSON files processed and verified; named character safely remediated**
+  - [ ] `boiling-pongal-pot-sunlight.json` — blocked: local image is a seated field portrait without the source's Pongal boiling pot or festival scene; JSON and image not edited
+  - [ ] `daenerys-silver-hair-bikini-beach.json` — blocked: source requests a named celebrity likeness and beach bicycle concept, while local image is a different generic reclining dock portrait; JSON and image not edited
+  - [x] `railay-beach-cinematic-portrait.json`
+- [x] `travel-lifestyle/private-indoor` — COMPLETE: 1 of 1 templates processed and verified
+  - [x] `lazy-afternoon-vacation-portrait.json`
+- [x] `travel-lifestyle/public-indoor` — COMPLETE: 1 of 1 templates processed and verified
+  - [x] `sunny-luxury-poolside-fashion-girl.json`
+
+### `lifestyle-moment [d]`
+
+- [x] `beach-vacation/outdoor-nature`
+  - [x] `alluring-beach-look-back.json`
+  - [x] `alpine-snow-bikini-girl.json`
+  - [x] `beach-floral-bikini-sunscreen.json`
+  - [x] `beach-ginger-bikini-look-back.json`
+  - [x] `bikini-triptych-beauty.json` — normalized from prompt/folder context under no-image workflow; direct JSON verified (correction of prior blocker)
+  - [x] `blue-coast-bikini-beauty.json` — normalized from prompt/folder context under no-image workflow; direct JSON verified (correction of prior blocker)
+  - [ ] `bikini-triptych-beauty.json` — blocked: source requests a named public-figure likeness and a three-panel composition, while the local image is a single cropped panel; JSON and image not edited
+  - [x] `blonde-babe-beach-sunscreen-back.json`
+  - [ ] `blue-coast-bikini-beauty.json` — blocked: source specifies blue-and-white swimwear, while the local preview shows a yellow swimsuit; JSON and image not edited
+  - [x] `cinematic-sunset-coast-bikini-portrait.json`
+  - [x] `cinematic-underwater-kiss.json`
+  - [x] `desert-balloon-sun-girl.json`
+  - [x] `desert-golden-siren.json`
+  - [x] `dusk-beach-wet-hair-beauty.json`
+  - [x] `gentle-kiss-turquoise-shallows.json`
+  - [x] `hot-beach-leopard-bikini-beauty.json`
+  - [x] `luxury-fashion-beach-group.json`
+  - [x] `luxury-modern-western-bikini.json`
+  - [x] `luxury-red-bikini-golden-hour-pool.json`
+  - [x] `maldives-beach-bikini-girl-glance.json`
+  - [x] `mediterranean-beach-green-dress-goddess.json` — normalized from prompt/folder context under no-image workflow; direct JSON verified (correction of prior blocker)
+  - [ ] `mediterranean-beach-green-dress-goddess.json` — blocked: source specifies blonde hair, while local image shows red hair; JSON and image not edited
+  - [x] `mediterranean-estate-pink-romance.json`
+  - [x] `mediterranean-garden-hourglass-girl.json`
+  - [x] `mediterranean-green-dress-goddess.json`
+  - [x] `mediterranean-sun-lazy-bikini.json`
+  - [x] `mediterranean-sunset-red-dress.json`
+  - [x] `midsummer-beach-blonde-bikini.json`
+  - [x] `mugla-shallow-water-romance.json`
+  - [x] `red-hair-poolside-vacation.json`
+  - [x] `redhead-poolside-summer.json`
+  - [x] `retro-bikini-girl-glancing-back.json`
+  - [x] `rooftop-pool-flash-blonde-goddess.json`
+  - [x] `sea-breeze-blonde-bikini-candid.json`
+  - [x] `seaside-resort-hyperreal-girl.json`
+  - [x] `sexy-bikini-straw-hat-girl.json`
+  - [x] `snow-mountain-bikini-fur-contrast.json`
+  - [x] `sunny-beach-atv-glossy-sultry-babe.json`
+  - [x] `sunny-beach-bikini-smile.json`
+  - [x] `sunny-beach-four-actresses-summer.json`
+  - [x] `sunny-coastal-youth-documentary.json` — normalized from prompt/folder context under no-image workflow; direct JSON verified (correction of prior blocker)
+  - [ ] `sunny-coastal-youth-documentary.json` — blocked: source describes six people and two moments, while local preview shows five people in one moment; JSON and image not edited
+  - [x] `sunset-beach-bikini-look.json`
+  - [x] `sunset-beach-extreme-curves-bikini.json`
+  - [x] `sunset-beach-smiling-girl.json`
+  - [x] `sunset-bikini-back-view.json`
+  - [x] `sunset-coast-black-dress-girl.json`
+  - [x] `sunset-redhead-pool-holiday.json`
+  - [x] `sunset-rock-forehead-kiss.json`
+  - [x] `supermodel-sunset-beach.json` — normalized from prompt/folder context under no-image workflow; direct JSON verified (correction of prior blocker)
+  - [ ] `supermodel-sunset-beach.json` — blocked: source describes one woman, while local preview shows a three-person composition; JSON and image not edited
+  - [x] `tropical-beach-floral-bikini.json`
+  - [x] `tropical-beach-prone-redhead-beauty.json`
+  - [x] `tropical-bikini-girl-over-shoulder.json`
+  - [x] `tropical-bikini-vacation-gelato.json`
+  - [x] `tropical-garden-pink-bikini-girl.json`
+  - [x] `tropical-island-vacation-girl.json`
+  - [x] `tropical-lawn-backlit-bikini-girl.json`
+  - [x] `tropical-tie-dye-bikini-belle.json`
+  - [x] `tropical-vacation-redhead.json`
+  - [x] `turquoise-sea-turning-bikini.json`
+  - [x] `vending-machine-bikini-girl.json`
+  - [x] `vibrant-red-dress-tropical-pond-fashion.json`
+  - [x] `villa-terrace-reclining-tattooed-model.json`
+- [x] `beach-vacation/outdoor-urban` - **COMPLETE: 5 of 5 direct JSON files processed and verified; text-derived template handled without image inspection**
+  - [x] `balcony-bikini-beauty.json`
+  - [x] `cliffside-sunset-polka-dot-girl.json`
+  - [x] `luxury-mediterranean-look-back.json`
+  - [x] `mediterranean-summer-glance.json`
+  - [x] `mediterranean-white-blue-glance-girl.json`
+- [x] `beach-vacation/private-indoor` - **COMPLETE: 3 of 3 direct JSON files processed and verified; named identity safely remediated**
+  - [x] `poolside-crimson-beauty.json`
+  - [x] `tropical-golden-hour-blonde-girl.json`
+  - [x] `vacation-bikini-sunshine-girl.json`
+- [x] `beach-vacation/public-indoor` - **COMPLETE: 5 of 5 direct JSON files processed and verified**
+  - [x] `boho-summer-vacation-coconut-time.json`
+  - [x] `golden-sunlight-redhead-beauty.json`
+  - [x] `luxury-poolside-retro-fashion.json`
+  - [x] `mediterranean-pool-blonde.json`
+  - [x] `mediterranean-pool-blonde-beauty.json`
+- [x] `beach-vacation/vehicle` - **COMPLETE: 18 of 18 direct JSON files processed and verified**
+  - [x] `barca-bikini-girl-boat.json`
+  - [x] `beach-girl-on-suv-door.json`
+  - [x] `blue-bikini-jet-ski-girl.json`
+  - [x] `breezy-redhead-summer-glance.json`
+  - [x] `hourglass-bikini-yacht-girl.json`
+  - [x] `mediterranean-boat-besties-summer.json`
+  - [x] `mediterranean-fitness-bikini-goddess.json`
+  - [x] `mint-bikini-luxury-vacation.json`
+  - [x] `moonlit-pool-cinematic-realism.json`
+  - [x] `neon-green-beauty-on-yacht.json`
+  - [x] `sunset-yacht-korean-goddess.json`
+  - [x] `tattooed-beach-atv-girl.json`
+  - [x] `tropical-bay-tattooed-bikini-girl.json`
+  - [x] `tropical-lagoon-kayak-girl.json`
+  - [x] `tropical-suv-bikini-girl.json`
+  - [x] `yacht-deck-pink-bikini-glance.json`
+  - [x] `yacht-golden-hour-satin-beauty.json`
+  - [x] `yacht-twilight-blondie.json`
+- [x] `luxury-glamour/other` - **COMPLETE: 4 of 4 direct JSON files processed and verified**
+  - [x] `eating-pizza-fashion-studio-portrait.json`
+  - [x] `golden-30th-birthday-portrait.json`
+  - [x] `strawberry-angel-low-angle.json`
+  - [x] `ultra-long-blonde-fashion-editorial.json`
+- [x] `luxury-glamour/outdoor-nature` - **COMPLETE: 11 of 11 direct JSON files processed and verified**
+  - [x] `blue-latex-jungle-girl.json`
+  - [x] `dreamy-goddess-water-columns.json` — normalized from the written triptych prompt and folder context; image not inspected per text-only workflow
+  - [x] `flooded-temple-modern-aphrodite.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `golden-hour-roman-goddess-bath.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `luxury-ice-snow-fashion.json`
+  - [x] `modern-aphrodite-flooded-ruins.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `modern-aphrodite-flooded-temple.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `modern-aphrodite-in-ruins.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `red-dress-villa-glance.json`
+  - [x] `snowy-leopard-fur-beauty.json`
+  - [x] `sunset-lake-blonde-cinematic-portrait.json`
+- [x] `luxury-glamour/outdoor-urban` - **COMPLETE: 2 of 2 direct JSON files processed and verified; named likeness and branding safely remediated**
+  - [x] `roman-colosseum-romantic-selfie.json`
+  - [x] `vegas-terrace-sydney-look-back.json`
+- [x] `luxury-glamour/private-indoor` - **COMPLETE: 12 of 12 direct JSON files processed and verified; named identities safely remediated**
+  - [x] `blonde-mirror-black-gown-editorial.json`
+  - [x] `blonde-red-dress-goddess-luxury-night.json` — previously normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `bright-natural-light-elegant-portrait.json`
+  - [x] `lazy-sunlight-platinum-smoke.json`
+  - [x] `luxury-rose-dream-beauty.json`
+  - [x] `luxury-wine-cellar-blonde.json`
+  - [x] `red-dress-blonde-luxury-magazine.json`
+  - [x] `romantic-couple-yellow-facade.json`
+  - [x] `romantic-red-dress-roses-grid.json`
+  - [x] `romantic-rose-balloon-girl.json`
+  - [x] `seductive-blonde-on-red-couch.json`
+  - [x] `winter-wonderland-premium-color-aesthetics.json` — previously normalized from prompt and folder context; image not inspected per text-only workflow
+- [x] `luxury-glamour/public-indoor` - **COMPLETE: 16 of 16 direct JSON files processed and verified; named likeness and sheer wording safely remediated**
+  - [x] `baroque-opera-house-black-dress-elegant-look.json`
+  - [x] `gold-gown-opera-back-view.json`
+  - [x] `luxurious-hotel-elegant-lady.json`
+  - [x] `luxurious-valentine-candlelight-dinner.json`
+  - [x] `luxury-cafe-black-model.json`
+  - [x] `luxury-greenhouse-lace-style.json`
+  - [x] `luxury-sushi-portrait.json`
+  - [x] `luxury-valentine-dinner.json`
+  - [x] `minimalist-museum-muse.json`
+  - [x] `opera-box-smile.json`
+  - [x] `prompt-1009.json`
+  - [x] `prompt-1011.json`
+  - [x] `smooth-back-sushi-luxurious-moment.json`
+  - [x] `takeoff-in-museum-piggyback.json`
+  - [x] `touching-time-museum-art-portrait.json`
+  - [x] `us-open-box-red-dresses.json`
+- [x] `luxury-glamour/vehicle` - **COMPLETE: 12 of 12 direct JSON files processed and verified; named likeness safely remediated**
+  - [x] `black-g-wagon-white-roses-serene.json`
+  - [x] `dubai-sunset-lamborghini-man.json`
+  - [x] `first-class-blonde-relaxing.json`
+  - [x] `luxury-car-redhead-seductress.json`
+  - [x] `luxury-private-jet-champagne-photo.json`
+  - [x] `luxury-yacht-vacation.json`
+  - [x] `mediterranean-yacht-sunset-man.json`
+  - [x] `romantic-hand-kiss-in-car.json`
+  - [x] `sunset-coast-y2k-racing-girl.json`
+  - [x] `sunset-cowgirl-muscle-car.json`
+  - [x] `superhero-girl-luxury-car.json`
+  - [x] `underground-garage-fashion-roses.json`
+- [x] `nature-adventure/outdoor-nature` - **COMPLETE: 9 of 11 direct JSON files processed and verified; 2 blocked**
+  - [x] `all-black-girl-snowy-mountain.json`
+  - [x] `golden-hour-mammoth-girl.json`
+  - [x] `himalayan-sunset-kashmiri-girl-white-goat.json`
+  - [x] `luxury-alpine-snowboard-girl.json`
+  - [x] `man-holding-mug-alone-on-cliff-at-dawn.json`
+  - [x] `misty-mountain-hot-spring.json`
+  - [x] `night-ski-fashion-editorial.json`
+  - [x] `prompt-1106.json`
+  - [x] `rose-gown-roman-bath-ruins.json`
+  - [x] `sunlit-daisy-girl.json`
+  - [x] `yosemite-hiking-instagram-shot.json` — normalized from prompt/folder context under no-image workflow; direct JSON verified (correction of prior blocker)
+  - [ ] `yosemite-hiking-instagram-shot.json` — blocked: source and local preview mismatch in pose, outfit, and branding; JSON and image not edited
+- [x] `nature-adventure/public-indoor` - **COMPLETE: 1 of 1 direct JSON files processed and verified**
+  - [x] `beautiful-tropical-aviary-girl-parrots.json`
+- [x] `night-out/other` - **COMPLETE: 2 of 2 direct JSON files processed and verified**
+  - [x] `night-racetrack-iphone-flash-portrait.json`
+  - [x] `underground-garage-catwoman.json`
+- [x] `night-out/outdoor-nature` - **COMPLETE: 1 of 1 direct JSON files processed and verified**
+  - [x] `extreme-hourglass-red-bikini-night-beach.json`
+- [x] `night-out/outdoor-urban` - **COMPLETE: 15 of 18 direct JSON files processed and verified; 3 blocked**
+  - [x] `black-dress-girl-rosegold-balloons.json` — normalized from prompt/folder context under no-image workflow; direct JSON verified (correction of prior blocker)
+  - [ ] `black-dress-girl-rosegold-balloons.json` — blocked: source specifies 39 balloons, while local preview shows 30; JSON and image not edited
+  - [x] `blonde-festival-water-mist.json`
+  - [x] `douyin-realistic-girl-hongyadong.json`
+  - [x] `dubai-night-blonde-supermodel.json` — normalized from prompt/folder context under no-image workflow; direct JSON verified (correction of prior blocker)
+  - [ ] `dubai-night-blonde-supermodel.json` — blocked: matching local image absent; JSON not edited
+  - [x] `emerald-sequin-night-balcony.json`
+  - [x] `luxury-cruise-satin-gown-goddess.json`
+  - [x] `luxury-italian-night-blonde-black-dress.json`
+  - [x] `neon-city-cinematic-realistic-girl.json`
+  - [x] `neon-night-market-redhead.json`
+  - [x] `neon-night-masquerade-fashion.json`
+  - [x] `night-alley-extreme-curves-blonde.json`
+  - [x] `prompt-617.json` — four-panel evening collage normalized from text prompt; JSON verified without image inspection
+  - [x] `spider-woman-rooftop-flash.json`
+  - [x] `streetlight-snow-embrace-portrait.json`
+  - [x] `twilight-city-balcony-neon-baddie.json`
+  - [x] `neon-tipsy-beauty.json`
+  - [x] `twilight-purple-neon-redhead.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `urban-rooftop-leather-girl.json`
+- [x] `night-out/public-indoor` - **COMPLETE: 16 of 16 direct JSON files processed and verified**
+  - [x] `icy-blonde-halloween-party.json`
+  - [x] `luxury-lounge-black-dress-girl.json`
+  - [x] `midnight-paris-luxury-aesthetic.json`
+  - [x] `neon-arcade-biking-blonde-beauty.json`
+  - [x] `neon-arcade-blonde-motorcycle.json`
+  - [x] `neon-arcade-blonde-sweetheart.json`
+  - [x] `neon-arcade-charming-glance.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `neon-arcade-motorcycle-blonde-hottie.json`
+  - [x] `neon-arcade-orange-vibe-blonde.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `neon-arcade-red-blonde-girl.json`
+  - [x] `neon-kpop-dance-idol.json`
+  - [x] `night-cafe-flash-street-photo.json`
+  - [x] `red-neon-silver-sequin-girl.json`
+  - [x] `neon-kitchen-sexy-duo-closeup.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `red-queen-under-neon-light.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `redhead-party-finger-gun.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+- [x] `other/other` - **COMPLETE: 5 of 5 direct JSON files processed and verified; text-only adaptations applied**
+  - [x] `ana-de-armas-gold-beach.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `ins-nami-playful-top-down.json` — normalized from prompt and folder context; image references retained as optional metadata
+  - [x] `prompt-612.json`
+  - [x] `star-wars-sci-fi-meteor-shower.json` — normalized from written edit instructions; image not inspected per text-only workflow
+  - [x] `surreal-pelican-woman.json`
+- [x] `other/private-indoor` - **COMPLETE: 1 of 1 direct JSON files processed and verified**
+  - [x] `sexy-fantasy-elf-surrounded-by-figures.json`
+- [x] `other/public-indoor` - **COMPLETE: 1 of 1 direct JSON files processed and verified**
+  - [x] `wedding-bride-speech-father-back.json`
+- [x] `retro-vintage/outdoor-nature` - **COMPLETE: 5 of 5 direct JSON files processed and verified; named likenesses safely remediated**
+  - [x] `autumn-brown-blue-vintage-girl.json`
+  - [x] `autumn-cabin-blonde-retro-floral.json`
+  - [x] `desert-retro-phone-call.json`
+  - [x] `misty-xizi-hanfu-shadow.json`
+  - [x] `sunset-90s-retro-beach-girl.json`
+- [x] `retro-vintage/private-indoor` - **COMPLETE: 2 of 2 direct JSON files processed and verified; policy remediation applied**
+  - [x] `retro-coquette-american-babe.json`
+  - [x] `retro-kitchen-blonde-maid-sabrina.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+- [x] `retro-vintage/public-indoor` - **COMPLETE: 1 of 2 direct JSON files processed; 1 blocker preserved**
+  - [x] `retro-diner-blonde-fashion.json` - named likeness remediated from prompt text; JSON normalized and verified without image inspection
+  - [ ] `vintage-camera-girl-soft-portrait.json` - blocked: source contains two unrelated concepts in one template, so the intended creative mapping is ambiguous; JSON and image not edited
+- [x] `social-cozy/outdoor-nature` - **COMPLETE: 1 of 1 direct JSON files processed and verified**
+  - [x] `playful-summer-tomato-cheeks.json`
+- [x] `social-cozy/private-indoor` - **COMPLETE: 6 of 6 direct JSON files processed and verified; named likenesses safely remediated**
+  - [x] `cinematic-slow-motion-cake-making.json`
+  - [x] `dreamy-barbie-pink-birthday-celebration.json`
+  - [x] `misty-photorealistic-sauna-portrait.json` - named likeness remediated and towel coverage clarified; normalized JSON verified without image inspection
+  - [x] `misty-sauna-wet-hair-beauty.json` - named likeness remediated and towel coverage clarified; normalized JSON verified without image inspection
+  - [x] `pink-hello-kitty-sweet-room.json`
+  - [x] `wet-hair-beauty-in-finnish-sauna.json` - named likeness remediated and towel coverage clarified; normalized JSON verified without image inspection
+- [x] `social-cozy/public-indoor` - **COMPLETE: 11 of 11 direct JSON files processed and verified; text-derived templates handled without image inspection**
+  - [x] `blue-satin-girl-butterfly-encounter.json`
+  - [x] `elegant-blonde-assistant-debate-forum.json`
+  - [x] `girl-next-door-cafe-snapshot.json`
+  - [x] `museum-whisper-statue-playful-moment.json` - museum interaction normalized from text prompt; JSON verified without image inspection
+  - [x] `smile-to-whisper-cinematic.json`
+  - [x] `summer-cafe-black-sporty-fashion.json`
+  - [x] `sunny-white-outfit-summer-cafe.json`
+  - [x] `tired-gen-z-boy-mall-escalator.json` - identity-lock language removed from text prompt; normalized JSON verified without image inspection
+  - [x] `ultra-realistic-billiards-goddess-shot.json`
+  - [x] `vintage-cafe-floral-girl.json`
+  - [x] `warm-cafe-blue-feather-girl.json` - cafe styling normalized from text prompt; JSON verified without image inspection
+- [x] `social-cozy/vehicle` - **COMPLETE: 1 of 1 direct JSON files processed and verified**
+  - [x] `sleeping-elegant-dark-haired-girl.json`
+- [x] `sporty-active/other` - **COMPLETE: 0 of 1 direct JSON files processed; 1 incomplete-source blocker preserved**
+  - [ ] `usa-speed-skater-look-back.json` - blocked: source is truncated/incomplete and also requests exact reference identity plus USA team markings; JSON left untouched
+- [x] `sporty-active/outdoor-nature` - **COMPLETE: 2 of 2 direct JSON files processed and verified**
+  - [x] `snowy-blonde-over-shoulder.json`
+  - [x] `summer-blonde-babe-confident-back.json`
+- [x] `sporty-active/outdoor-urban` - **COMPLETE: 2 of 2 direct JSON files processed and verified**
+  - [x] `baseball-field-smile-girl.json`
+  - [x] `red-hair-girl-golf-night.json`
+- [x] `sporty-active/public-indoor` - **COMPLETE: 1 of 1 direct JSON files processed and verified**
+  - [x] `green-light-red-jersey-singer.json`
+- [x] `street-fashion/outdoor-nature` - **COMPLETE: 3 of 3 direct JSON files processed and verified**
+  - [x] `fresh-blue-fashion-ivy-arch.json`
+  - [x] `prompt-1107.json`
+  - [x] `winter-street-fashion-besties.json`
+- [x] `street-fashion/outdoor-urban` - **COMPLETE: 20 of 22 direct JSON files processed and verified; 2 blockers preserved**
+  - [x] `autumn-street-red-sweater-bouquet.json`
+  - [x] `confident-girl-neon-street.json`
+  - [x] `cool-redhead-skater-girl-street-photography.json` - street styling normalized from text prompt; JSON verified without image inspection
+  - [x] `italian-summer-reading-moment.json`
+  - [x] `japanese-street-tattoo-girl.json`
+  - [x] `mustard-girl-retro-street.json`
+  - [x] `nyc-redhead-spiderman-coffee.json` - named likeness and superhero IP remediated from text prompt; JSON verified without image inspection
+  - [x] `prompt-1089.json`
+  - [ ] `prompt-791.json` - blocked: source requires two reference images, but only one local preview is present; JSON and image not edited
+  - [x] `red-spider-girl-nyc-street.json` - named likeness and superhero IP remediated from text prompt; JSON verified without image inspection
+  - [x] `roman-angel-bridge-pink-summer.json` - named identities and branded bag remediated from text prompt; JSON verified without image inspection
+  - [x] `sharing-scarf-in-snow.json`
+  - [x] `shibuya-blue-hour-melancholy-girl.json`
+  - [x] `shibuya-heisei-gyaru.json`
+  - [x] `snowy-cool-street-casual-shot.json` - winter male street prompt normalized from text; JSON verified without image inspection
+  - [x] `sunset-fairy-castle-girl.json`
+  - [x] `sunset-modern-fashion-man.json`
+  - [x] `turquoise-tunnel-leather-boy-profile.json`
+  - [x] `twilight-alley-leather-girl-lighter.json`
+  - [x] `twilight-desert-fashion-girl.json`
+- [x] `snowy-mailbox-silhouette.json`
+- [x] `street-photography-motorcycle-moment.json`
+- [x] `street-fashion/private-indoor` - **COMPLETE: 1 of 1 direct JSON files processed and verified**
+  - [x] `prompt-797.json`
+- [x] `street-fashion/public-indoor` - **COMPLETE: 5 of 5 direct JSON files processed and verified**
+  - [x] `expo-queen-lace-leather-girl.json`
+  - [x] `ferris-wheel-sunset-redhead-fashion.json`
+  - [x] `moody-retro-varsity-editorial.json`
+  - [x] `tattoo-girl-bavarian-dress.json`
+  - [x] `top-down-escalator-sweet-spicy-outfit.json`
+- [x] `street-fashion/vehicle` - **COMPLETE: 1 of 1 direct JSON files processed and verified**
+  - [x] `korean-subway-morning-light.json`
+
+### `selfie-pov`
+
+- [x] `baddie/other` - **COMPLETE: 1 of 1 direct JSON files processed and verified; named likeness and body emphasis safely remediated**
+  - [x] `green-dress-look-back.json`
+- [x] `baddie/private-indoor` - **COMPLETE: 51 of 52 direct JSON files processed and verified; 1 generic/incomplete-source blocker preserved**
+  - [x] `baddie-fitting-room-purple-shorts-selfie.json`
+  - [x] `bathroom-mirror-selfie-girl.json`
+  - [x] `black-lace-intimate-mirror-selfie.json`
+  - [x] `blonde-babe-bikini-mirror-selfie.json`
+  - [x] `blonde-babe-playful-morning-bathroom-selfie.json`
+  - [x] `blonde-curly-hair-beige-tank-top-selfie.json`
+  - [x] `blonde-selfie-on-sofa.json`
+  - [x] `bulbasaur-shorts-mirror-selfie.json`
+  - [x] `champagne-gold-sequin-dress-wide-angle-selfie.json`
+  - [x] `chocolate-mirror-girl.json`
+  - [x] `ck-underwear-curvy-model.json`
+  - [x] `cool-blonde-girl-selfie.json`
+  - [x] `dark-closet-bikini-selfie.json`
+  - [x] `extreme-curves-split-hair-selfie.json`
+  - [x] `extreme-hourglass-selfie-in-vintage-boudoir.json`
+  - [x] `golden-arches-red-bikini-mirror-selfie.json`
+  - [x] `holi-mirror-selfie.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `honey-blonde-flirty-selfie.json`
+  - [x] `hourglass-baddie-mirror-selfie.json`
+  - [x] `hyper-realistic-choco-dress-selfie.json`
+  - [x] `indoor-bikini-mirror-selfie.json`
+  - [x] `lace-cardigan-bedroom-selfie.json`
+  - [x] `late-night-cropped-hoodie-selfie.json`
+  - [x] `low-angle-jeans-girl.json`
+  - [x] `minimal-grey-shower-selfie.json`
+  - [x] `modern-home-black-pantyhose-playful-squat.json`
+  - [x] `paris-night-curvy-selfie.json`
+  - [ ] `prompt-707.json` - blocked: source is a generic JSON-generation instruction, while local preview shows a bald man with a dog; JSON and image not edited
+  - [x] `prompt-901.json`
+  - [x] `prompt-968.json`
+  - [x] `purple-neon-seductive-mirror-selfie.json`
+  - [x] `real-madrid-bedroom-selfie.json`
+  - [x] `red-dress-mirror-selfie.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `red-lace-bikini.json`
+  - [x] `red-shirt-bathroom-curvy-selfie.json`
+  - [x] `red-sweater-selfie-girl.json`
+  - [x] `sabrina-spiderman-mirror-selfie.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `sexy-bunny-ear-outfit-neon-phone-selfie.json`
+  - [x] `silver-haired-girl-real-madrid-selfie.json`
+  - [x] `soft-light-curvy-tattoo-bed-closeup.json`
+  - [x] `sunlit-bedroom-blonde-mirror-selfie.json`
+  - [x] `sunny-loft-jersey-girl-selfie.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `sunny-tattooed-blonde-mirror-selfie.json`
+  - [x] `tipsy-burgundy-satin-selfie.json`
+  - [x] `trendy-split-hair-girl-mirror-selfie.json`
+  - [x] `ultra-hd-raw-phone-mirror-selfie.json`
+  - [x] `vibrant-red-buns-pink-dress-selfie.json`
+  - [x] `vintage-boudoir-hourglass.json`
+  - [x] `warm-bedroom-intimate-selfie.json`
+  - [x] `warm-bedroom-lazy-girl.json`
+  - [x] `warm-bedroom-realistic-selfie.json`
+  - [x] `warm-home-black-lace-mirror-selfie.json`
+- [x] `baddie/public-indoor` - **COMPLETE: 3 of 3 direct JSON files processed and verified; named likeness and body emphasis safely remediated**
+  - [x] `convenience-store-selfie.json`
+  - [x] `fitting-room-bikini-selfie.json`
+  - [x] `vintage-ice-cream-parlor-selfie.json`
+- [x] `baddie/vehicle` - **COMPLETE: 3 of 3 direct JSON files processed and verified; named likeness safely remediated**
+  - [x] `luxury-car-blonde-selfie.json`
+  - [x] `red-tank-top-girl-driving-sports-car.json`
+  - [x] `sunny-sunroof-blonde-selfie.json`
+- [x] `cozy-casual/other` - **COMPLETE: 5 of 5 direct JSON files processed and verified; named likeness safely remediated**
+  - [x] `fireworks-kiss-hug-snapshot.json`
+  - [x] `golden-sunlight-freckled-girl.json`
+  - [x] `golden-sunlight-freckled-girl-closeup.json`
+  - [x] `macro-playful-wink-girl.json`
+  - [x] `prompt-767.json`
+- [x] `cozy-casual/outdoor-nature` - **COMPLETE: 3 of 3 direct JSON files processed and verified**
+  - [x] `night-selfie-blonde-guy.json`
+  - [x] `pumpkin-hockey-boy-selfie.json`
+  - [x] `sunny-forest-camping-boy.json`
+- [x] `cozy-casual/outdoor-urban` - **COMPLETE: 9 of 9 direct JSON files processed and verified**
+  - [x] `cloudy-street-coffee-walk.json`
+  - [x] `dappled-shadows-freckled-girl-coffee.json`
+  - [x] `empty-new-orleans-low-angle-orange-man.json`
+  - [x] `golden-hour-street-girl.json`
+  - [x] `lazy-balcony-croissant-morning.json`
+  - [x] `makkah-tower-night-selfie.json`
+  - [x] `prompt-397.json`
+  - [x] `sunset-touching-platinum-hair-girl.json`
+  - [x] `white-lattice-street-style-girl.json`
+- [x] `cozy-casual/private-indoor` - **COMPLETE: 52 of 55 direct JSON files processed and verified; 3 blockers preserved and recorded**
+  - [x] `16k-ultra-realistic-flash-selfie.json`
+  - [ ] `apple-realistic-influencer-photo.json` - blocked: source is a generic prompt-generation instruction awaiting a user scene, while local preview shows a gym selfie; JSON and image not edited
+  - [x] `attic-skylight-yellow-jersey-girl.json`
+  - [x] `backlight-tenderness-home-portrait.json`
+  - [x] `black-braids-bed-bear.json`
+  - [x] `brunette-playful-tongue-bedroom-selfie.json`
+  - [x] `candlelight-bath-frog-headband-girl.json`
+  - [x] `cowgirl-blonde-selfie.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `cozy-bedroom-selfie.json`
+  - [x] `cozy-home-redhead-playful-selfie.json`
+  - [x] `cozy-night-fashion-share.json`
+  - [x] `dark-skin-girl-living-room-candid-daily.json`
+  - [x] `elegant-mirror-split-selfie.json`
+  - [x] `game-girl-mirror-selfie-at-home.json`
+  - [x] `green-strawberry-onesie-bathroom-mirror-selfie.json`
+  - [x] `hard-flash-redhead-pomeranian.json`
+  - [x] `intimate-blurry-motion-selfie.json`
+  - [x] `laptop-screen-selfie.json`
+  - [x] `late-night-laptop-selfie.json` — normalized from the two declared prompt assets under no-image workflow; direct JSON verified (correction of prior blocker)
+  - [ ] `late-night-laptop-selfie.json` - blocked: source provides two image references, while only one local preview is available; JSON and image not edited
+  - [x] `late-night-snack-pakistani-girl-fridge-pov.json`
+  - [x] `laughing-flour-mirror-selfie.json`
+  - [x] `lofi-bedroom-couple-photobooth.json`
+  - [x] `mirror-selfie-sudden-flood.json`
+  - [x] `mirror-side-view-black-leggings.json`
+  - [x] `natural-light-bedroom-selfie.json`
+  - [x] `night-red-roses-couple-selfie.json`
+  - [x] `pink-purple-outfit-mirror-selfie.json`
+  - [x] `playful-catgirl-mirror-selfie.json`
+  - [x] `playful-mirror-selfie-curly-hair.json`
+  - [x] `prompt-1083.json`
+  - [x] `prompt-692.json`
+  - [x] `prompt-710.json`
+  - [x] `prompt-733.json`
+  - [x] `prompt-739.json`
+  - [x] `prompt-770.json`
+  - [x] `prompt-838.json`
+  - [x] `prompt-858.json`
+  - [x] `prompt-912.json`
+  - [ ] `prompt-921.json` - blocked: local image contains an identifiable person together with a personal/public social-media account UI; JSON and image not edited
+  - [x] `prompt-944.json`
+  - [x] `realistic-mirror-selfie-chat.json`
+  - [x] `realistic-vlog-fashion-sharing.json`
+  - [x] `sadie-sink-pink-knit-lazy-selfie.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `satin-cartoon-girl-portrait.json`
+  - [x] `shy-girl-recording-video.json`
+  - [x] `soft-cozy-bedroom-aesthetic-reflection.json`
+  - [x] `soft-light-lazy-mirror-selfie.json`
+  - [x] `soft-pink-morning-selfie.json`
+  - [x] `soft-satin-morning-selfie.json`
+  - [x] `stranger-things-barca-selfie.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `sunset-ginger-gamer-girl-selfie.json`
+  - [x] `sweet-couple-lifestyle-photography.json`
+  - [x] `turquoise-eyes-sofa-selfie.json`
+  - [x] `warm-bathroom-lazy-selfie.json`
+  - [x] `warm-cabin-platinum-selfie.json`
+- [x] `cozy-casual/public-indoor` - **COMPLETE: 9 of 9 direct JSON files processed and verified; text-derived template handled without image inspection**
+  - [x] `breaking-wall-tom-jerry-selfie.json`
+  - [x] `playful-american-girl-cafe.json`
+  - [x] `playful-platinum-blonde-escalator-selfie.json`
+  - [x] `prompt-630.json`
+  - [x] `prompt-646.json`
+  - [x] `prompt-670.json`
+  - [x] `prompt-672.json`
+  - [x] `redhead-selfie-convenience.json`
+  - [x] `smiling-girl-classroom.json`
+  - [x] `warm-street-cafe-portrait.json`
+- [x] `cozy-casual/vehicle` - **COMPLETE: 2 of 2 direct JSON files processed and verified; text-derived template handled without image inspection**
+  - [x] `subway-candid-girl-on-phone.json`
+  - [x] `subway-candid-intellectual-girl.json`
+- [x] `dark-edgy/other` - **COMPLETE: 2 of 3 direct JSON files processed and verified; 1 incomplete-source blocker preserved**
+  - [ ] `charming-blonde-snow-glance.json` - blocked: source text is truncated before the lighting section is complete; JSON left untouched rather than inventing missing details
+  - [x] `night-flash-cool-girl.json`
+  - [x] `playful-red-boxing-girl-wide-angle.json`
+- [x] `dark-edgy/outdoor-urban` - **COMPLETE: 6 of 8 direct JSON files processed and verified; 2 blockers preserved and recorded**
+  - [ ] `breaking-bad-style-green-lambo-duo.json` - blocked: source and local preview identify Walter White/Jesse Pinkman likenesses and include drug/cash/brand context; JSON and image not edited
+  - [x] `dark-street-realistic-girl.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `liquid-metal-gold-dress-night-flash.json`
+  - [x] `marina-night-flash-portrait.json`
+  - [x] `night-flash-y2k-blonde-babe.json`
+  - [x] `prague-street-hourglass-no-filter-selfie.json`
+  - [x] `prompt-1061.json`
+  - [x] `tokyo-neon-street-girl.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+- [x] `dark-edgy/private-indoor` - **COMPLETE: 35 of 35 direct JSON files processed and verified; named identities safely remediated**
+  - [x] `atmospheric-soft-goth-selfie.json`
+  - [x] `bathroom-gothic-dirndl-selfie.json`
+  - [x] `billie-style-blonde-selfie.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `black-tight-dress-realistic-bathroom-selfie.json`
+  - [x] `cool-deadpool-girl-tight-suit-mirror-selfie.json`
+  - [x] `dark-bedroom-rebellious-selfie.json`
+  - [x] `dark-gothic-doll.json`
+  - [x] `dark-gothic-girl-mirror-flash-selfie.json`
+  - [x] `dark-goth-redhead-messy-bedroom-selfie.json`
+  - [x] `dark-warm-pink-mirror-selfie.json`
+  - [x] `dramatic-cool-male-portrait.json`
+  - [x] `ferrari-jacket-cinematic-mirror-selfie.json`
+  - [x] `japanese-ryokan-red-light-emotion-triple-shot.json`
+  - [x] `late-night-hallway-selfie.json`
+  - [x] `leopard-backless-dress-mirror-selfie.json`
+  - [x] `messy-blonde-mirror-selfie.json`
+  - [x] `moody-purple-selfie.json`
+  - [x] `moody-suit-portrait.json`
+  - [x] `neon-pink-bathroom-selfie.json`
+  - [x] `night-living-room-hoodie-selfie.json`
+  - [x] `pink-crop-top-babe-playful-mirror-selfie.json`
+  - [x] `pink-neon-gamer-night-selfie.json`
+  - [x] `pink-rose-dress-mirror-selfie.json`
+  - [x] `playful-mirror-selfie-girl.json`
+  - [x] `rococo-mirror-rebel-selfie.json`
+  - [x] `snakeskin-bikini-bubble-bath-charm.json`
+  - [x] `soft-goth-blonde-selfie.json`
+  - [x] `soft-grunge-mirror-selfie.json`
+  - [x] `sultry-batgirl-bathroom.json`
+  - [x] `sultry-purple-batgirl-bathroom.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `sultry-red-bodysuit-bathroom.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `sunset-glamour-hourglass-figure.json`
+  - [x] `sunset-hourglass-selfie.json`
+  - [x] `wet-blonde-shower-selfie.json`
+  - [x] `y2k-dirty-mirror-flash-selfie.json`
+- [x] `dark-edgy/public-indoor` - **COMPLETE: 13 of 13 direct JSON files processed and verified; named likeness safely remediated**
+  - [x] `dark-stairwell-blonde.json`
+  - [x] `dim-backstage-hollywood-selfie.json`
+  - [x] `dim-stairwell-blonde-glance.json`
+  - [x] `elevator-leopard-mirror-selfie.json`
+  - [x] `golden-hour-red-black-selfie.json`
+  - [x] `late-night-distorted-fry-selfie.json`
+  - [x] `minimalist-bw-elevator-cat-ear-girl.json`
+  - [x] `mirror-elevator-ultra-wide-selfie.json`
+  - [x] `neon-nightclub-red-dress-glance.json`
+  - [x] `neon-night-red-lip-mirror-selfie.json`
+  - [x] `prompt-340.json`
+  - [x] `red-black-latex-girls-selfie.json`
+  - [x] `red-neon-silk-socialite.json`
+- [x] `dark-edgy/vehicle` - **COMPLETE: 8 of 9 direct JSON files processed and verified; 1 incomplete-source identity blocker preserved**
+  - [x] `golden-hour-green-eyes.json`
+  - [x] `golden-hour-intimate-car-selfie.json`
+  - [x] `maybach-night-green-eyes.json`
+  - [x] `midnight-flash-y2k-blonde.json`
+  - [x] `night-car-red-hot-girl-flash-selfie-grid.json`
+  - [x] `paparazzi-rebellious-girl.json`
+  - [x] `prompt-883.json`
+  - [x] `rainy-taxi-sleepy-girl.json`
+  - [ ] `wong-kar-wai-motorcycle-embrace.json` - blocked: source is truncated mid-prompt and requires two exact reference identities; JSON left untouched rather than inventing missing details
+- [x] `korean-pure/other` - **COMPLETE: 10 of 10 direct JSON files processed and verified**
+  - [x] `blue-sky-platinum-blonde-girl.json`
+  - [x] `breezy-balcony-winking-selfie.json`
+  - [x] `caribbean-sunset-yacht-beauty.json`
+  - [x] `french-dress-double-breasted-suit-wedding-photo.json`
+  - [x] `glass-skin-girl-sunset-glow.json`
+  - [x] `prompt-1029.json`
+  - [x] `prompt-399.json`
+  - [x] `sun-kissed-freckled-blonde.json`
+  - [x] `sunlit-freckled-blonde-girl-close-up.json`
+  - [x] `warm-japanese-character-sheet.json`
+- [x] `korean-pure/outdoor-nature` - **COMPLETE: 5 of 5 direct JSON files processed and verified**
+  - [x] `highland-lake-beauty-selfie.json`
+  - [x] `pale-porcelain-doll-beach.json`
+  - [x] `snowy-ushanka-black-bodysuit.json`
+  - [x] `sunlit-rose-garden-girl.json`
+  - [x] `warm-sunlight-redhead-relaxing-moment.json`
+- [x] `korean-pure/outdoor-urban` - **COMPLETE: 4 of 4 direct JSON files processed and verified**
+  - [x] `fresh-outdoor-selfie-glasses-girl.json`
+  - [x] `korean-street-coffee-girl.json`
+  - [x] `prompt-602.json`
+  - [x] `prompt-676.json`
+- [x] `korean-pure/private-indoor` - **COMPLETE: 77 of 83 direct JSON files processed and verified; 6 blockers**
+  - [x] `cozy-bedroom-girl-selfie.json`
+  - [x] `cozy-selfie-burgundy-girl.json`
+  - [x] `cream-sweater-bedroom-mirror.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [ ] `dark-room-flash-cool-girl.json` - blocked: source requests two reference images but only one image source is declared; JSON and image not edited
+  - [x] `dreamy-cabin-girl-selfie.json`
+  - [x] `freckled-girl-pink-pajamas.json`
+  - [x] `glass-skin-girl-pink-soft-light.json`
+  - [x] `hallway-mirror-selfie-girl.json`
+  - [x] `hyper-realistic-casual-short-hair-girl.json`
+  - [x] `hyper-realistic-freckled-redhead-selfie.json`
+  - [x] `innocent-sultry-playful-selfie.json`
+  - [x] `japanese-innocent-selfie.json`
+  - [x] `kawaii-gamer-girl-purple-lighting.json`
+  - [x] `korean-clean-makeup-girl-biting-finger-night-selfie.json`
+  - [x] `korean-girlfriend-shirt-closeup.json`
+  - [x] `korean-mixed-sweet-cool-selfie.json`
+  - [x] `languid-black-chair-white-lure.json`
+  - [x] `lavender-girl-playful-bedroom-moment.json`
+  - [x] `lazy-afternoon-girl-lying-down.json`
+  - [x] `lazy-bedding-girl-selfie.json`
+  - [x] `lazy-bed-girl-selfie.json`
+  - [x] `lazy-bedroom-bear-hug-blonde.json`
+  - [x] `lazy-bedroom-selfie-beauty.json`
+  - [x] `lazy-girl-by-the-window.json`
+  - [x] `lazy-morning-ginger-freckles.json`
+  - [x] `lazy-morning-mirror-selfie.json`
+  - [x] `morning-bedroom-platinum-selfie.json`
+  - [x] `morning-blonde-selfie-bed.json`
+  - [x] `morning-cozy-flirty-selfie.json`
+  - [x] `morning-greeting.json`
+  - [x] `morning-hair-flipping-platinum-girl.json`
+  - [x] `morning-light-lazy-blonde-selfie.json`
+  - [x] `morning-light-lazy-mirror-selfie.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `morning-light-white-top-girl.json`
+  - [x] `morning-spider-girl-mirror.json`
+  - [x] `morning-sunlight-playful-girl-cat-selfie.json`
+  - [x] `pink-bedroom-selfie.json`
+  - [x] `pink-bunny-mirror-selfie.json`
+  - [x] `pink-coquette-vanity.json`
+  - [x] `pink-home-girl-playful-selfie.json`
+  - [x] `playful-pink-camisole.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `red-hair-mirror-selfie.json`
+  - [x] `soft-bedroom-aesthetic-selfie.json`
+  - [ ] `soft-morning-bedroom-mirror-selfie.json` - blocked: source text is truncated before the rendering section is complete; JSON not edited
+  - [x] `white-knit-blonde-aesthetic-selfie.json`
+  - [x] `lazy-sofa-gentle-glasses-girl.json`
+  - [x] `lazy-squat-mirror-selfie.json`
+  - [x] `light-blue-lace-mirror-selfie.json`
+  - [x] `long-hair-girl-cat-mirror-selfie.json` — normalized with required approved-adult face reference under no-image workflow; direct JSON verified (correction of prior blocker)
+  - [x] `minimalist-bathroom-selfie.json` — normalized with required approved-adult face reference under no-image workflow; direct JSON verified (correction of prior blocker)
+  - [ ] `long-hair-girl-cat-mirror-selfie.json` - blocked: source requests face based on a provided reference image; JSON and image not edited
+  - [ ] `minimalist-bathroom-selfie.json` - blocked: source requests exact replication of the attached subject's facial features and appearance; JSON and image not edited
+  - [x] `minimalist-bedroom-aesthetic.json`
+  - [x] `minimalist-bedroom-blonde-mirror-selfie.json`
+  - [x] `minimalist-glossy-spider-girl.json`
+  - [ ] `minty-kawaii-bedroom-girl.json` - blocked: source contains three concatenated, conflicting concepts and does not establish which single creative should be retained; JSON and image not edited
+  - [x] `minimalist-white-room-bikini-selfie.json`
+  - [x] `mint-green-silk-pajama-selfie.json`
+  - [x] `mirror-morning-gaze.json`
+  - [x] `mirror-selfie-platinum-tattoo.json`
+  - [ ] `night-flash-korean-pure-selfie.json` - blocked: source requires outfit from reference photo 2, but only one image source is declared; JSON and image not edited
+  - [x] `pastel-bedroom-redhead-mirror-selfie.json`
+  - [x] `prompt-1059.json`
+  - [x] `prompt-1063.json`
+  - [x] `prompt-1066.json`
+  - [x] `prompt-1118.json`
+  - [x] `prompt-358.json`
+  - [x] `prompt-369.json`
+  - [x] `prompt-666.json`
+  - [x] `prompt-698.json`
+  - [x] `prompt-758.json`
+  - [x] `silver-ash-soft-glow-mirror-selfie.json`
+  - [x] `stunning-red-satin-bedroom-selfie.json`
+  - [x] `suggestive-indoor-cosplay.json`
+  - [x] `sweet-blonde-mirror-selfie.json`
+  - [x] `sweet-girl-bedroom-selfie.json`
+  - [x] `sydney-sweeney-day-night-comparison.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `warm-freckled-friends-selfie.json`
+  - [x] `warm-glass-skin-selfie.json`
+  - [x] `warm-lamp-headphone-satin-girl.json`
+  - [x] `warm-light-quiet-softness.json`
+  - [x] `warm-mirror-selfie-home-office.json`
+  - [x] `y2k-sweet-spicy-star-pink-bedroom.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `y2k-mirror-pink-softgirl.json`
+  - [x] `y2k-soft-girl-mirror-selfie.json`
+- [x] `korean-pure/public-indoor` - **COMPLETE: 11 of 11 direct JSON files processed and verified; named likeness safely remediated**
+  - [x] `coffee-loo-innocent-sin.json`
+  - [x] `elegant-ballerina-in-golden-hour.json`
+  - [x] `gym-mirror-ck-girl.json`
+  - [x] `hotel-duvet-cocoon.json`
+  - [x] `izakaya-selfie-beauty.json`
+  - [x] `korean-cashier-smile.json`
+  - [x] `pink-cat-ear-mirror-selfie.json`
+  - [x] `pink-dress-playful-mirror-selfie.json`
+  - [x] `prompt-331.json`
+  - [x] `prompt-669.json`
+  - [x] `sydney-sweeney-tight-leotard-selfie.json`
+- [x] `korean-pure/vehicle` - **COMPLETE: 3 of 3 direct JSON files processed and verified; privacy-risk wording safely remediated**
+  - [x] `handsome-asian-selfie-on-bullet-train.json`
+  - [x] `natural-soft-light-atmospheric-selfie.json`
+  - [x] `twitter-model-subway-candid-reveal.json`
+- [x] `modern-luxury/other` - **COMPLETE: 6 of 7 direct JSON files processed and verified; 1 missing-asset blocker preserved**
+  - [x] `luxury-mango-shake-splash.json` — normalized from complete text prompt under no-image workflow; direct JSON verified (correction of prior blocker)
+  - [x] `boundless-apple-vision-poster.json`
+  - [x] `cinematic-hollywood-fashion-portraits.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [ ] `luxury-mango-shake-splash.json` - blocked: matching local asset is absent; JSON and image not edited
+  - [x] `luxury-yacht-billie-wet-hair-selfie.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `orange-studio-closeup.json`
+  - [x] `prompt-926.json`
+  - [x] `sabrina-carpenter-black-dress-barefoot.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+- [x] `modern-luxury/outdoor-nature` - **COMPLETE: 3 of 3 direct JSON files processed and verified**
+  - [x] `golden-dunes-sunset-boho-selfie.json`
+  - [x] `porcelain-doll-beach-selfie.json`
+  - [x] `sunlit-mountain-fashion-portrait-with-horse.json`
+- [x] `modern-luxury/outdoor-urban` - **COMPLETE: 9 of 12 direct JSON files processed and verified; 3 blockers**
+  - [ ] `ana-street-triptych-selfie.json` - blocked: source is truncated mid-prompt and requests exact biometric identity; JSON not edited
+  - [x] `european-street-golden-mirror-fashion.json`
+  - [ ] `makkah-clock-tower-night-selfie.json` - blocked: source requires an exact uploaded identity reference that is not confirmed as an approved-adult asset; JSON and image not edited
+  - [x] `mediterranean-goddess-ruins.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [x] `neon-luxury-street-girl.json`
+  - [x] `overhead-gray-suit-goddess.json`
+  - [x] `prompt-910.json`
+  - [x] `urban-matcha-fashion-girl.json`
+  - [x] `urban-rooftop-high-fashion-selfie.json`
+  - [x] `silver-sequin-red-carpet-bts.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+  - [ ] `walk-of-fame-blonde-portrait.json` - blocked: source explicitly requests Iggy Azalea likeness; JSON and image not edited
+  - [x] `walk-of-fame-upward-gaze.json` — normalized from prompt and folder context; image not inspected per text-only workflow
+- [x] `modern-luxury/private-indoor` - **COMPLETE: 38 of 44 direct JSON files processed and verified; 6 blockers**
+  - [x] `ana-de-armas-bedroom-selfie.json`
+  - [x] `bathroom-mirror-selfie-blonde.json`
+  - [x] `billie-lace-gown-mirror-selfie.json`
+  - [x] `blonde-red-lingerie-selfie.json`
+  - [ ] `cool-sweet-sofa-portrait.json` - blocked: source is truncated mid-prompt and requests two celebrity likenesses; JSON not edited
+  - [x] `electric-blue-sequin-selfie.json`
+  - [x] `flash-lit-kitchen-champagne-party.json`
+  - [x] `golden-hour-blonde-baddie.json`
+  - [x] `hyper-realistic-closet-selfie.json`
+  - [ ] `hyper-realistic-product-portrait.json` - blocked: source requires a separate attached product image that is not declared; JSON and image not edited
+  - [x] `iphone-17-pro-hyper-realistic-girl.json`
+  - [x] `luxurious-bathroom-blonde-mirror-selfie.json`
+  - [x] `luxurious-marble-bathroom-mirror.json`
+  - [x] `luxurious-marble-mirror-selfie.json`
+  - [x] `luxurious-rose-gold-mirror-selfie.json`
+  - [x] `luxury-bathroom-blonde-selfie.json`
+  - [x] `luxury-bathroom-swimsuit-selfie.json`
+  - [x] `luxury-closet-mirror-selfie.json`
+  - [x] `luxury-closet-selfie.json`
+  - [x] `luxury-closet-selfie-with-dog.json`
+  - [x] `luxury-couple-mirror-selfie.json`
+  - [x] `luxury-hotel-emerald-dress-selfie.json`
+  - [x] `luxury-marble-bathroom-mirror-selfie.json`
+  - [x] `luxury-marble-mirror-selfie.json`
+  - [x] `luxury-pink-mirror-selfie.json`
+  - [x] `mansion-party-piano-kick.json`
+  - [x] `minimalist-leopard-glitter-muse.json`
+  - [x] `minimalist-mirror-selfie.json`
+  - [x] `mirror-blonde-pink-velvet.json`
+  - [x] `navy-gold-luxury-mirror.json`
+  - [x] `platinum-wavy-hair-selfie.json`
+  - [x] `playful-streetwear-selfie-girl.json`
+  - [x] `prompt-1134.json`
+  - [x] `prompt-789.json`
+  - [x] `prompt-934.json`
+  - [x] `sabrina-intimate-bath-time.json`
+  - [x] `soft-daylight-platinum-hair-fashion-blogger-selfie.json`
+  - [x] `soft-glow-mirror-selfie.json`
+  - [x] `soft-glow-champagne-satin-beauty.json`
+  - [x] `sunset-yacht-redhead-girl.json`
+  - [x] `sydney-sweeney-luxury-bathroom-selfie.json`
+  - [x] `warm-bathroom-redhead-leopard-selfie.json`
+  - [x] `warm-luxury-bathroom.json`
+  - [x] `warm-marble-freckled-beauty.json`
+- [x] `modern-luxury/public-indoor` - **COMPLETE: 15 of 20 direct JSON files processed and verified; 5 blockers**
+  - [ ] `boutique-butterfly-mirror-selfie.json` - blocked: source explicitly requests Ana de Armas likeness; JSON and image not edited
+  - [x] `candlelight-luxury-restaurant-selfie.json`
+  - [x] `elegant-lady-mirror-selfie.json`
+  - [x] `flash-platinum-blonde-goddess-night.json`
+  - [x] `hollywood-stars-night-out-selfie.json`
+  - [x] `hotel-mirror-lingerie-selfie.json`
+  - [x] `influencer-daylight-beauty-candid.json`
+  - [x] `lazy-afternoon-french-cafe-mix.json`
+  - [x] `luxury-blonde-party-cheek-kiss-selfie.json`
+  - [x] `luxury-elevator-old-money-mirror-selfie.json`
+  - [x] `luxury-elevator-plunge-dress-selfie.json`
+  - [x] `luxury-party-socialite-intimate-selfie.json`
+  - [x] `playful-blonde-on-mall-escalator.json`
+  - [x] `portugal-superstar-cr7-confident-portrait.json`
+  - [x] `raw-luxury-cafe-sunlight-beauty.json`
+  - [x] `red-bodysuit-blonde-laughter.json`
+  - [x] `red-studio-charm.json`
+  - [x] `sadie-sink-red-dress-portrait.json`
+  - [x] `soft-light-beauty-close-up.json`
+  - [x] `sunny-cafe-blonde-iphone-mirror-selfie.json`
+- [x] `modern-luxury/vehicle` - **COMPLETE: 1 of 1 direct JSON file processed and verified**
+  - [x] `ultra-realistic-private-jet-selfie.json`
+- [x] `other/other` - **COMPLETE: 6 of 8 direct JSON files processed and verified; 2 blockers**
+  - [ ] `high-angle-idol-interaction.json` - blocked: source requires separate foreground and background references; only one matching local asset is declared
+  - [x] `hyper-realistic-photo.json`
+  - [x] `llm-models-lover-game-screenshot.json`
+  - [x] `minimal-text-personal-color-chart.json`
+  - [ ] `prompt-1119.json` - blocked: source prompt is empty; JSON and image not edited
+  - [x] `seamless-face-swap-realistic.json`
+  - [x] `shiva-guiding-through-stormy-volcano.json`
+  - [x] `stardust-galaxy-ice-cream.json`
+- [x] `other/outdoor-urban` - **COMPLETE: folder absent; 0 direct JSON files to process**
+- [x] `retro-film/other` - **COMPLETE: 3 of 5 direct JSON files processed and verified; 2 blockers**
+  - [x] `film-flash-basketball-girl.json`
+  - [ ] `gold-mirror-dual-beauties-latex.json` - blocked: source explicitly requests Ana de Armas and Sydney Sweeney likenesses; JSON and image not edited
+  - [x] `midnight-street-flash-film-portrait.json`
+  - [ ] `romantic-couple-cinematic-dusk.json` - blocked: source requires two separate identity references, but only one local preview is declared; JSON and image not edited
+  - [x] `vintage-vacation-selfies-grid.json`
+- [x] `retro-film/outdoor-nature` - **COMPLETE: 1 of 1 direct JSON files processed and verified; named likeness safely remediated**
+  - [x] `cinematic-snowy-portrait.json`
+- [x] `retro-film/outdoor-urban` - **COMPLETE: 2 of 2 direct JSON files processed and verified**
+  - [x] `korean-glass-skin-street.json`
+  - [x] `spring-cherry-mint-girl.json`
+- [x] `retro-film/private-indoor` - **COMPLETE: 15 of 15 direct JSON files processed and verified**
+  - [x] `baroque-red-roses-vintage-mirror-girl.json`
+  - [x] `dim-bedroom-cat-selfie.json`
+  - [x] `flash-bedroom-nostalgia.json`
+  - [x] `flash-y2k-party-girl.json`
+  - [x] `fluffy-blonde-winking-selfie.json`
+  - [x] `golden-hour-boho-mirror-selfie.json`
+  - [x] `golden-hour-mirror-selfie.json`
+  - [x] `hyper-realistic-black-lace-mirror-selfie.json`
+  - [x] `late-night-bedroom-blonde-selfie.json`
+  - [x] `raw-closet-perfect-selfie.json`
+  - [x] `retro-ccd-flash-ivory-nightdress-private.json`
+  - [x] `retro-ccd-flash-red-nightdress.json`
+  - [x] `soft-80s-chinese-girl-storyboard.json`
+  - [x] `vintage-film-plaid-girl-polaroid.json`
+  - [x] `vintage-polaroid-playful-girl-on-blanket.json`
+- [x] `retro-film/public-indoor` - **COMPLETE: 10 of 10 direct JSON files processed and verified; named identities safely remediated**
+  - [x] `drunken-french-girl-flash-selfie.json`
+  - [x] `mcdonalds-80s-pole-dance.json`
+  - [x] `sadie-millie-classroom-laughing-snapshot.json`
+  - [x] `sweet-pink-girl-wall-dance.json`
+  - [x] `vintage-hotel-fisheye-beauty.json`
+  - [x] `vintage-hotel-romantic-vacation.json`
+  - [x] `vintage-piano-glamour.json`
+  - [x] `vintage-racing-jacket-girl-mirror-selfie.json`
+  - [x] `vintage-red-lips-piano-dream.json`
+  - [x] `y2k-pink-velour-mirror-selfie.json`
+- [x] `sporty-active/other` - **COMPLETE: 3 of 3 direct JSON files processed and verified**
+  - [x] `leopard-girl-coaster-scream.json`
+  - [x] `pink-ski-girl-selfie.json`
+  - [x] `sunny-attic-jersey-girl.json`
+- [x] `sporty-active/outdoor-nature` - **COMPLETE: 3 of 6 direct JSON files processed and verified; 3 blockers**
+  - [ ] `playful-winter-backfall-shot.json` - blocked: source requires separate portrait, apparel and ControlNet references; only one local preview is declared
+  - [x] `rapids-canyon-blonde-kayak-selfie.json`
+  - [x] `snow-forest-glance-green-fitness-girl.json`
+  - [x] `snowy-cabin-winter-girl.json`
+  - [x] `sunset-court-blonde-glance.json`
+  - [x] `tennis-court-mint-girl-selfie.json`
+- [x] `sporty-active/outdoor-urban` - **COMPLETE: 0 of 1 direct JSON files processed and verified; 1 blocker**
+  - [x] `prompt-1128.json`
+- [x] `sporty-active/private-indoor` - **COMPLETE: 25 of 28 direct JSON files processed and verified; 3 blockers**
+  - [x] `black-tight-activewear-look-back.json`
+  - [x] `blonde-babe-mirror-selfie.json`
+  - [x] `blonde-curve-squat-selfie.json`
+  - [x] `confident-redhead-home-workout-selfie.json`
+  - [x] `dusk-bedroom-real-booty-snap.json`
+  - [x] `golden-hour-madrid-selfie.json`
+  - [x] `golden-hour-pikachu-shorts-selfie.json`
+  - [x] `grey-sporty-girl-mirror-selfie.json`
+  - [x] `hyper-realistic-black-romper-mirror-selfie.json`
+  - [x] `messy-bedroom-bulbasaur-selfie.json`
+  - [x] `messy-bedroom-charmander-shorts-selfie.json`
+  - [x] `morning-light-fitness-collage.json`
+  - [x] `morning-yoga-stretch-girl.json`
+  - [x] `neon-pink-mirror-workout.json`
+  - [ ] `overwatch-blonde-gamer-selfie.json` - blocked: source uses Overwatch character/brand identity and branded product details; JSON and image not edited
+  - [x] `perfect-curves-blonde-bikini-selfie.json`
+  - [x] `pink-purple-girl-fitness-selfie.json`
+  - [x] `pink-yoga-girl-mirror-selfie.json` — normalized from prompt with original adult subject under no-image workflow; direct JSON verified (correction of prior blocker)
+  - [ ] `pink-yoga-girl-mirror-selfie.json` - blocked: source requests an attached celebrity lookalike; JSON and image not edited
+  - [x] `platinum-blonde-mirror-selfie.json`
+  - [x] `playful-blonde-mirror-selfie.json`
+  - [x] `post-workout-mirror-selfie.json`
+  - [x] `prompt-1064.json`
+  - [x] `prompt-1097.json`
+  - [x] `prompt-1117.json`
+  - [x] `prompt-724.json`
+  - [x] `red-black-jersey-mirror-selfie.json`
+  - [x] `sultry-fitness-girl-kitchen.json`
+  - [x] `warm-morning-yoga-selfie.json`
+- [x] `sporty-active/public-indoor` - **COMPLETE: 43 of 67 direct JSON files processed and verified; 23 blockers; 0 pending**
+  - [x] `billie-eilish-pink-gym-abs.json`
+  - [x] `blonde-babe-locker-mirror-selfie.json`
+  - [x] `blonde-hottie-gym-mirror-selfie.json`
+  - [x] `bright-gym-mirror-selfie.json`
+  - [x] `celebrity-gym-selfie-girls.json`
+  - [x] `dark-gym-blonde-twins-selfie.json`
+  - [x] `dusty-purple-fitness-abs-selfie.json`
+  - [x] `dusty-rose-gym-girl.json`
+  - [x] `fitting-room-mirror-selfie.json`
+  - [x] `golden-hour-gym-muse.json`
+  - [x] `golden-hour-redhead-gym-selfie.json`
+  - [x] `gym-besties-mirror-selfie.json`
+  - [x] `gym-besties-yellow-red-mirror-selfie.json`
+  - [x] `gym-blonde-mirror-selfie.json`
+  - [x] `gym-blue-light-backview.json`
+  - [x] `gym-locker-room-muscle-selfie.json`
+  - [x] `gym-mirror-blonde-athlete.json`
+  - [x] `gym-mirror-blonde-man.json`
+  - [x] `gym-mirror-selfie.json`
+  - [x] `gym-mirror-selfie-friends.json`
+  - [x] `gym-mirror-selfie-glow.json`
+  - [x] `gym-mirror-spicy-selfie.json`
+  - [x] `gym-mirror-sweaty-abs-reveal.json`
+  - [x] `gym-mirror-sweaty-selfie.json`
+  - [x] `gym-mirror-sweaty-stretch.json`
+  - [x] `gym-redhead-mirror-selfie.json`
+  - [ ] `gym-mirror-sadie-sweaty-abs.json` - blocked: source explicitly requests Sadie Sink likeness; JSON and image not edited
+  - [x] `gym-three-beauties-mirror-selfie.json`
+  - [x] `hollywood-stars-gym-sweat.json`
+  - [x] `hyper-realistic-gym-mirror-selfie.json`
+  - [x] `influencer-gym-mirror-selfie.json`
+  - [x] `minimalist-mirror-squat-selfie.json`
+  - [x] `mirror-gym-selfie.json`
+  - [x] `modern-gym-blue-hottie-mirror-selfie.json`
+  - [x] `overhead-pink-yoga-selfie.json`
+  - [x] `paris-high-gym-mirror-selfie.json`
+  - [x] `paris-night-gym-selfie.json`
+  - [x] `pink-gym-candid.json`
+  - [x] `pink-sportswear-sweat-abs.json`
+  - [x] `pink-sweaty-realistic-girl.json`
+  - [x] `pink-yoga-gym-selfie.json`
+  - [x] `pink-yoga-studio-mirror-selfie-goddess.json`
+  - [x] `platinum-blonde-sweaty-gym-selfie.json`
+  - [x] `prompt-925.json`
+  - [x] `real-olympic-duo-skating-moment.json`
+  - [x] `red-crop-top-gym-selfie.json`
+  - [ ] `red-hair-gym-sweaty-selfie.json` - blocked: source explicitly requests Sadie Sink likeness; JSON and image not edited
+  - [x] `redhead-gym-wet-selfie.json`
+  - [x] `sporty-post-workout-selfie.json`
+  - [x] `sweaty-adidas-fitness-girl.json`
+  - [x] `sweaty-adidas-girl-gym-selfie.json`
+  - [x] `sweaty-flushed-gym-selfie.json`
+  - [x] `sweaty-gym-determined-girl.json`
+  - [x] `sweaty-gym-girl-squat-closeup.json`
+  - [x] `sweaty-mirror-athlete.json`
+  - [x] `sweaty-pink-gym-mirror-snap.json`
+  - [x] `sweaty-redhead-gym-selfie.json`
+  - [x] `sweaty-redhead-workout-selfie.json`
+  - [x] `sweaty-sydney-sweeney-gym-abs-mirror.json`
+  - [x] `sydney-sweeney-gym-look.json`
+  - [x] `sydney-sweeney-gym-selfie.json`
+  - [x] `sydney-sweeney-spain-shorts-gym-selfie.json`
+  - [x] `sydney-sweeney-sporty-selfie-grid.json`
+  - [x] `twilight-eiffel-gym-selfie.json`
+  - [x] `vibrant-red-yellow-gym-selfie.json`
+  - [x] `wine-red-fitness-curves.json`
+- [x] `vacation-resort/other` - **COMPLETE: 16 of 16 direct JSON files processed and verified; named likeness and branding safely remediated**
+  - [x] `beach-girl-horse-selfie.json`
+  - [x] `bronzed-skin-tan-lines-closeup.json`
+  - [x] `golden-hour-mediterranean-beach-portrait.json`
+  - [x] `midnight-beach-flash-wet-gaze.json`
+  - [x] `ocean-gold-chain-bikini-selfie.json`
+  - [x] `playful-beach-selfie-babe.json`
+  - [x] `playful-bikini-snow-selfie-girl.json`
+  - [x] `sunny-beach-bikini-selfie.json`
+  - [x] `sunny-beach-iced-coffee-girl.json`
+  - [x] `sunny-stone-shower-beauty.json`
+  - [x] `valentine-winter-rose-spa-selfie.json`
+  - [x] `wide-angle-beach-hourglass.json`
+  - [x] `winter-spa-wet-hair-selfie.json`
+  - [x] `yacht-deck-playful-selfie.json`
+- [x] `vacation-resort/outdoor-nature` - **COMPLETE: 14 of 14 direct JSON files processed and verified**
+  - [x] `beach-noodle-slurp-moment.json`
+  - [x] `extreme-curves-brazilian-beach-babe.json`
+  - [x] `garden-sunshine-bikini-girl.json`
+  - [x] `golden-hour-beach-bikini-gaze.json`
+  - [x] `midday-turquoise-cove-romance.json`
+  - [x] `red-leopard-bikini-beach-girl.json`
+  - [x] `snow-forest-bikini-selfie.json`
+  - [x] `summer-coconut-wet-hair-girl.json`
+  - [x] `sunset-beach-redhead-selfie.json`
+  - [x] `tattooed-bikini-beach-photoshoot.json`
+  - [x] `tropical-beach-playful-girl-photography.json`
+  - [x] `tropical-beach-swing-selfie.json`
+  - [x] `tropical-redhead-selfie.json`
+  - [x] `ultra-realistic-beach-selfie.json`
+- [x] `vacation-resort/private-indoor` - **COMPLETE: 14 of 14 direct JSON files processed and verified; named likeness safely remediated**
+  - [x] `boyfriend-view-bikini-selfie.json`
+  - [x] `dolomites-twilight-cedar-spa.json`
+  - [x] `late-night-hotel-bikini-pizza-selfie.json`
+  - [x] `luxury-night-hot-tub-blonde-selfie.json`
+  - [x] `luxury-pool-rose-bikini-selfie.json`
+  - [x] `minimal-bright-orange-bikini-realistic-skin.json`
+  - [x] `misty-hot-spring-white-towel-girl.json`
+  - [x] `modern-pool-blonde-bikini-selfie.json`
+  - [x] `pink-bikini-mirror-selfie.json`
+  - [x] `summer-balcony-bikini-snap.json`
+  - [x] `summer-balcony-raw-selfie.json`
+  - [x] `summer-balcony-selfie-tan-lines.json`
+  - [x] `tropical-fruit-swimsuit-girls.json`
+  - [x] `tropical-petal-bath-selfie.json`
+- [x] `vacation-resort/public-indoor` - **COMPLETE: 1 of 1 direct JSON files processed and verified; text-derived duo handled without image inspection**
+  - [x] `locker-room-swimwear-duo-selfie.json`
+- [x] `vacation-resort/vehicle` - **COMPLETE: 3 of 3 direct JSON files processed and verified**
+  - [x] `coastal-road-lazy-selfie.json`
+  - [x] `jeep-bikini-blonde.json`
+  - [x] `jeep-bikini-blonde-babe.json`
+
+## Missing matching image / blocked
+
+Add a leaf folder here only if a required matching image cannot be found. Do not alter that JSON until the user provides direction.
+
+### Remaining legacy sources after text-only audit
+
+The following scoped legacy files remain intentionally untouched because their source is incomplete, ambiguous, requires undeclared references, or contains an identity/brand dependency that cannot be safely resolved from prompt text and folder names alone:
+
+- `industry/lookbook-line-sheet [d]/studio-portrait/pastel-pink-saree-portrait.json` — source truncated before completion.
+- `industry/lookbook-line-sheet [d]/studio-portrait/pink-coquette-birthday-portrait.json` — source truncated in the setting section.
+- `industry/lookbook-line-sheet [d]/studio-portrait/pink-suit-dark-silhouettes.json` — source truncated mid visual description.
+- `industry/lookbook-line-sheet [d]/studio-portrait/pink-studio-fashion-girl-giant-teddy-bear.json` — source requires a second outfit reference that is not declared.
+- `industry/lookbook-line-sheet [d]/studio-portrait/playful-head-tilt-finger-heart-moe-girl.json` — source contains only a pose fragment, not a complete concept.
+- `industry/lookbook-line-sheet [d]/studio-portrait/playful-red-hat-cowgirl-fashion.json` — source refers to multiple reference images but only one asset is declared.
+- `industry/lookbook-line-sheet [d]/studio-portrait/predator-gaze-red-suit-boss.json` — source truncated before completion and contains strict identity-lock language.
+- `industry/lookbook-line-sheet [d]/studio-portrait/prompt-1070.json` — source truncated during the multi-panel composition.
+- `industry/lookbook-line-sheet [d]/studio-portrait/prompt-1143.json` — source truncated during the gesture narrative.
+- `industry/lookbook-line-sheet [d]/studio-portrait/prompt-398.json` — generic placeholder prompt with unresolved character, pose, object, and background fields.
+- `industry/lookbook-line-sheet [d]/studio-portrait/realistic-glamour-red-hearts.json` — source truncated in post-processing fields.
+- `industry/lookbook-line-sheet [d]/studio-portrait/prompt-850.json` — one file contains two independent slide concepts and cannot map to one template.
+- `industry/lookbook-line-sheet [d]/studio-portrait/pure-white-studio-blue-swimsuit-aesthetic.json` — source truncated and includes celebrity/default identity plus explicit body-emphasis language.
+- `industry/lookbook-line-sheet [d]/studio-portrait/silver-sequin-supermodel.json` — source truncated and includes strict identity, explicit measurements/body emphasis, and suggestive framing.
+- `industry/lookbook-line-sheet [d]/studio-portrait/sitting-fashion-woman-window.json` — source truncated during wardrobe details.
+- `industry/lookbook-line-sheet [d]/studio-portrait/soft-haze-red-gown-beauty.json` — source truncated in pose rules despite identity-lock requirements.
+- `industry/lookbook-line-sheet [d]/studio-portrait/stranger-things-stars-as-drunk-cowgirl-jessie.json` — four celebrity identities and four concepts are combined in one source.
+- `industry/lookbook-line-sheet [d]/studio-portrait/sweet-girl-striped-shirt-leather-skirt.json` — source truncated and requests strict uploaded-image identity/body preservation.
+- `industry/lookbook-line-sheet [d]/studio-portrait/studio-highkey-watermelon-babe.json` — source truncated mid scene description.
+- `industry/lookbook-line-sheet [d]/studio-portrait/valentine-heart-window-kiss-angel.json` — source truncated before the complete wardrobe/scene specification.
+- `industry/lookbook-line-sheet [d]/studio-portrait/warm-sunlight-elegant-glance.json` — source truncated in generation parameters.
+- `industry/lookbook-line-sheet [d]/studio-portrait/vogue-crimson-fashion-girl.json` — source truncated and requires strict uploaded identity plus outfit integration.
+- `industry/lookbook-line-sheet [d]/studio-portrait/vintage-pink-boudoir-hollywood-starlet.json` — source truncated before the complete set description.
+- `ugc/casual-everyday [d]/other/other/rebellious-anthropomorphic-banana.json` — source is too vague to establish a complete visual concept.
+- `ugc/lifestyle-moment [d]/street-fashion/outdoor-urban/prompt-791.json` — source requires two references while one asset is declared.
+- `ugc/lifestyle-moment [d]/retro-vintage/public-indoor/vintage-camera-girl-soft-portrait.json` — source contains two conflicting concepts in one template.
+- `ugc/lifestyle-moment [d]/sporty-active/other/usa-speed-skater-look-back.json` — source truncated and requests exact identity plus USA team markings.
+- `ugc/selfie-pov/modern-luxury/public-indoor/boutique-butterfly-mirror-selfie.json` — source requests Ana de Armas likeness.
+- `ugc/selfie-pov/cozy-casual/private-indoor/apple-realistic-influencer-photo.json` — source is a generic prompt-generation instruction awaiting a user scene.
+- `ugc/selfie-pov/modern-luxury/private-indoor/hyper-realistic-product-portrait.json` — source requires a separate product image that is not declared.
+- `ugc/selfie-pov/modern-luxury/private-indoor/cool-sweet-sofa-portrait.json` — source truncated and requests celebrity likenesses.
+- `ugc/selfie-pov/modern-luxury/outdoor-urban/ana-street-triptych-selfie.json` — source requests Ana de Armas biometric likeness.
+- `ugc/selfie-pov/modern-luxury/outdoor-urban/walk-of-fame-blonde-portrait.json` — source requests Iggy Azalea likeness.
+- `ugc/selfie-pov/cozy-casual/private-indoor/prompt-921.json` — source contains personal/social-account identity UI risk.
+- `ugc/selfie-pov/sporty-active/public-indoor/gym-mirror-sadie-sweaty-abs.json` — source requests Sadie Sink likeness and is incomplete.
+- `ugc/selfie-pov/dark-edgy/vehicle/wong-kar-wai-motorcycle-embrace.json` — source truncated and requires two exact identity references.
+- `ugc/casual-everyday [d]/soft-elegant/public-indoor/aesthetic-blockbusters-of-actresses.json` — source contains multiple actress concepts and conflicting asset mapping.
+- `ugc/casual-everyday [d]/soft-elegant/public-indoor/modern-luxury-red-dress-duo-afternoon.json` — source/image mapping is contradictory for the two outfits.
+- `ugc/selfie-pov/baddie/private-indoor/prompt-707.json` — source is a generic scene-generation instruction awaiting user input.
+- `ugc/selfie-pov/sporty-active/public-indoor/red-hair-gym-sweaty-selfie.json` — source requests Sadie Sink likeness and is incomplete.
+- `ugc/selfie-pov/korean-pure/private-indoor/dark-room-flash-cool-girl.json` — source requires two references while one asset is declared.
+- `ugc/selfie-pov/dark-edgy/outdoor-urban/breaking-bad-style-green-lambo-duo.json` — source combines Walter White/Jesse Pinkman likenesses with drug/cash/brand context and is incomplete.
+- `ugc/selfie-pov/dark-edgy/other/charming-blonde-snow-glance.json` — source is truncated and conflicts with the available composition.
+- `ugc/selfie-pov/sporty-active/private-indoor/overwatch-blonde-gamer-selfie.json` — source uses protected Overwatch identity and branded product details.
+- `ugc/casual-everyday [d]/soft-elegant/private-indoor/golden-hair-spread-on-floor.json` — source is truncated mid-description.
+- `ugc/selfie-pov/sporty-active/outdoor-nature/playful-winter-backfall-shot.json` — source requires separate portrait, apparel, and ControlNet references.
+- `ugc/selfie-pov/korean-pure/private-indoor/minty-kawaii-bedroom-girl.json` — source contains multiple conflicting concatenated concepts.
+- `ugc/selfie-pov/retro-film/other/gold-mirror-dual-beauties-latex.json` — source requests multiple public-figure likenesses and is incomplete.
+- `ugc/selfie-pov/retro-film/other/romantic-couple-cinematic-dusk.json` — source requires two identity references while one asset is declared.
+- `ugc/selfie-pov/other/other/high-angle-idol-interaction.json` — source requires separate foreground/background references while one asset is declared.
+- `ugc/selfie-pov/other/other/prompt-1119.json` — source prompt is empty.
+- `ugc/selfie-pov/korean-pure/private-indoor/night-flash-korean-pure-selfie.json` — source requires a second outfit reference that is not declared.
+
+- `industry/lookbook-line-sheet [d]/studio-portrait/high-end-fullbody-fashion.json` — matching image absent; JSON not edited.
+- `ugc/lifestyle-moment [d]/luxury-glamour/vehicle/sunset-coast-y2k-racing-girl.json` — source explicitly requests Amanda Seyfried likeness; JSON and image not edited.
+
+- `indie/enegy-lifestyle [d]/neon-nightlife/neon-latex-duo.json` - matching image absent when checked on 2026-07-19; the leaf folder is otherwise marked complete per the user-confirmed progress.
+- `ugc/casual-everyday [d]/sporty-active/other/fitness-duo-collage-night-gym.json` - source describes a two-person collage in balcony/gym settings, while the local image is a single bedroom mirror selfie; JSON and image not edited.
+- `ugc/casual-everyday [d]/sporty-active/outdoor-nature/smiling-farm-girl-golden-sun.json` - source specifies a grey tee, red-and-black flannel, and denim overalls, while the local tractor image shows a denim jacket and red bandana; JSON and image not edited.
+- `ugc/casual-everyday [d]/sporty-active/outdoor-urban/playful-juventus-girl-on-pitch.json` - source describes a seated soccer-field pose, while the local image shows the subject standing by the goal frame; JSON and image not edited.
+- `ugc/casual-everyday [d]/sporty-active/public-indoor/neon-lit-blonde-fitness-duo.json` - source explicitly requests Sydney Sweeney and Sabrina Carpenter likenesses; JSON left untouched as a policy blocker.
+- `ugc/casual-everyday [d]/street-chic/vehicle/tired-calm-commuter.json` - local image depicts a recognizable public-figure likeness; JSON and image not edited.
+- `ugc/casual-everyday [d]/soft-elegant/public-indoor/aesthetic-blockbusters-of-actresses.json` - source contains multiple actress concepts and two image URLs, but only one local preview is present; JSON and image not edited pending manual asset mapping.
+- `ugc/casual-everyday [d]/soft-elegant/public-indoor/modern-luxury-red-dress-duo-afternoon.json` - local `_0.jpg` shows pink and black outfits, while the source specifies two red outfits; JSON and image not edited pending manual asset mapping.
+- `ugc/lifestyle-moment [d]/beach-vacation/outdoor-nature/supermodel-sunset-beach.json` - local `_0.jpg` shows three people in a group composition, while the source describes one woman; JSON and image not edited pending manual asset mapping.
+- `ugc/lifestyle-moment [d]/beach-vacation/outdoor-nature` - leaf completed for all mapable templates; the eight previously recorded mismatches plus `supermodel-sunset-beach.json` remain blocked and untouched.
+- `ugc/lifestyle-moment [d]/luxury-glamour/public-indoor/luxury-greenhouse-lace-style.json` - source explicitly requests Sabrina Carpenter likeness; JSON and image not edited.
+- `ugc/lifestyle-moment [d]/nature-adventure/outdoor-nature/yosemite-hiking-instagram-shot.json` - source specifies a dark grey jacket, black shorts, peace/victory sign, and exact reference face, while the local preview shows a green jacket, different pose, and visible branding; JSON and image not edited.
+- `ugc/lifestyle-moment [d]/night-out/outdoor-urban/black-dress-girl-rosegold-balloons.json` - source specifies 39 balloons, while local preview shows 30; JSON and image not edited.
+- `ugc/lifestyle-moment [d]/night-out/outdoor-urban/dubai-night-blonde-supermodel.json` - matching local image absent; JSON not edited.
+- `ugc/lifestyle-moment [d]/sporty-active/other/usa-speed-skater-look-back.json` - source prompt is truncated mid-composition and also requests exact reference identity plus USA team markings; JSON left untouched.
+- `ugc/lifestyle-moment [d]/street-fashion/outdoor-urban/prompt-791.json` - source requires two reference images, but only one local preview is present; JSON and image not edited.
+- `ugc/selfie-pov/baddie/other/green-dress-look-back.json` - source explicitly requests Ana de Armas likeness and explicit body emphasis; JSON and image not edited.
+- `ugc/selfie-pov/baddie/private-indoor/prompt-707.json` - source is a generic JSON-generation instruction, while local preview shows a bald man with a dog; JSON and image not edited.
+- `ugc/selfie-pov/cozy-casual/other/golden-sunlight-freckled-girl.json` - source explicitly requests Ana de Armas likeness; JSON and image not edited.
+- `ugc/selfie-pov/cozy-casual/private-indoor/apple-realistic-influencer-photo.json` - source is a generic prompt-generation instruction awaiting a user scene, while local preview shows a gym selfie; JSON and image not edited.
+- `ugc/selfie-pov/cozy-casual/private-indoor/late-night-laptop-selfie.json` - source provides two image references, while only one local preview is available; JSON and image not edited.
+- `ugc/selfie-pov/cozy-casual/private-indoor/prompt-921.json` - local image contains an identifiable person together with a personal/public social-media account UI; JSON and image not edited.
+- `ugc/selfie-pov/dark-edgy/other/charming-blonde-snow-glance.json` - source requests a black bodysuit/rear-facing snowy portrait, while local preview shows a red jumpsuit with a different composition; JSON and image not edited.
+- `ugc/selfie-pov/dark-edgy/outdoor-urban/breaking-bad-style-green-lambo-duo.json` - source and local preview identify Walter White/Jesse Pinkman likenesses and include drug/cash/brand context; JSON and image not edited.
+- `ugc/selfie-pov/korean-pure/private-indoor/dark-room-flash-cool-girl.json` - source requests two reference images but only one image source is declared; JSON and image not edited.
+- `ugc/selfie-pov/korean-pure/private-indoor/soft-morning-bedroom-mirror-selfie.json` - source text is truncated before the rendering section is complete; JSON not edited.
+- `ugc/selfie-pov/korean-pure/private-indoor/long-hair-girl-cat-mirror-selfie.json` - source requests face based on a provided reference image; JSON and image not edited.
+- `ugc/selfie-pov/korean-pure/private-indoor/minimalist-bathroom-selfie.json` - source requests exact replication of the attached subject's facial features and appearance; JSON and image not edited.
+- `ugc/selfie-pov/korean-pure/private-indoor/minty-kawaii-bedroom-girl.json` - source contains three concatenated, conflicting concepts and does not establish which single creative should be retained; JSON and image not edited.
+- `ugc/selfie-pov/korean-pure/private-indoor/night-flash-korean-pure-selfie.json` - source requires outfit from reference photo 2, but only one image source is declared; JSON and image not edited.
+- `ugc/selfie-pov/korean-pure/public-indoor/sydney-sweeney-tight-leotard-selfie.json` - source explicitly requests Sydney Sweeney likeness; JSON and image not edited.
+- `ugc/selfie-pov/korean-pure/vehicle/twitter-model-subway-candid-reveal.json` - source requests an unaware voyeuristic candid with a foreground phone displaying a sexualized Twitter profile; JSON and image not edited.
+- `ugc/selfie-pov/modern-luxury/other/luxury-mango-shake-splash.json` - matching local asset is absent; JSON and image not edited.
+- `ugc/selfie-pov/modern-luxury/outdoor-urban/ana-street-triptych-selfie.json` - source explicitly requests Ana de Armas biometric likeness; JSON and image not edited.
+- `ugc/selfie-pov/modern-luxury/outdoor-urban/makkah-clock-tower-night-selfie.json` - source requires an exact uploaded identity reference that is not confirmed as an approved-adult asset; JSON and image not edited.
+- `ugc/selfie-pov/modern-luxury/outdoor-urban/walk-of-fame-blonde-portrait.json` - source explicitly requests Iggy Azalea likeness; JSON and image not edited.
+- `ugc/selfie-pov/modern-luxury/private-indoor/cool-sweet-sofa-portrait.json` - source is truncated mid-prompt and requests two celebrity likenesses; JSON not edited.
+- `ugc/selfie-pov/modern-luxury/private-indoor/hyper-realistic-product-portrait.json` - source requires a separate attached product image that is not declared; JSON and image not edited.
+- `ugc/selfie-pov/modern-luxury/public-indoor/boutique-butterfly-mirror-selfie.json` - source explicitly requests Ana de Armas likeness; JSON and image not edited.
+- `ugc/selfie-pov/other/other/high-angle-idol-interaction.json` - source requires separate foreground and background references; only one matching local asset is declared.
+- `ugc/selfie-pov/other/other/prompt-1119.json` - source prompt is empty; JSON and image not edited.
+- `ugc/selfie-pov/retro-film/other/gold-mirror-dual-beauties-latex.json` - source explicitly requests Ana de Armas and Sydney Sweeney likenesses; JSON and image not edited.
+- `ugc/selfie-pov/retro-film/other/romantic-couple-cinematic-dusk.json` - source requires two separate identity references, but only one local preview is declared; JSON and image not edited.
+- `ugc/selfie-pov/retro-film/public-indoor/sadie-millie-classroom-laughing-snapshot.json` - source explicitly requests Sadie Sink and Millie Bobby Brown likenesses; JSON and image not edited.
+- `ugc/selfie-pov/sporty-active/outdoor-nature/playful-winter-backfall-shot.json` - source requires separate portrait, apparel and ControlNet references; only one local preview is declared.
+- `ugc/selfie-pov/sporty-active/private-indoor/overwatch-blonde-gamer-selfie.json` - source uses Overwatch character/brand identity and branded product details; JSON and image not edited.
+- `ugc/selfie-pov/sporty-active/private-indoor/pink-yoga-girl-mirror-selfie.json` - source requests an attached celebrity lookalike; JSON and image not edited.
+- `ugc/selfie-pov/sporty-active/public-indoor/gym-mirror-sadie-sweaty-abs.json` - source explicitly requests Sadie Sink likeness; JSON and image not edited.
+- `ugc/selfie-pov/sporty-active/public-indoor/red-hair-gym-sweaty-selfie.json` - source explicitly requests Sadie Sink likeness; JSON and image not edited.
+- `ugc/lifestyle-moment [d]/retro-vintage/public-indoor/vintage-camera-girl-soft-portrait.json` - source contains two unrelated concepts in one template, so the intended creative mapping is ambiguous; JSON and image not edited.
+- `ugc/selfie-pov/vacation-resort/other/twilight-snow-spa-selfie.json` - source explicitly requests Megan Fox likeness; JSON and image not edited.

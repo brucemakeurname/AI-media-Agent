@@ -1,0 +1,27 @@
+{
+  "name": "sweaty-pink-gym-power",
+  "tag": ["ugc", "casual-everyday", "sporty-active", "public-indoor", "pink-gym", "motivation"],
+  "image_type": "post-workout-gym-portrait",
+  "image_vibe": "strong-confident-focused",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/sporty-active/public-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic post-workout gym portrait of an approved adult woman showing focused strength and self-confidence.",
+    "main_subject": "An approved adult woman with a damp dark high ponytail, natural post-workout sheen, and focused expression. She wears a soft-pink athletic top and matching pink jogger sweatpants, standing by a gym mirror and touching palms with a workout partner or reflection.",
+    "composition_elements": "Vertical medium portrait with the subject and partial partner/reflection in frame. Include weight racks, machines, dumbbells, and a modern gym interior with realistic mirror depth.",
+    "lighting_and_atmosphere": "Warm indoor gym lighting, realistic sweat and fabric texture, strong confident focused mood, motivating fitness atmosphere.",
+    "technical_specs": "Photorealistic digital photography, vertical 4:5 framing, sharp subject and hands, natural perspective, accurate mirror reflection and gym equipment.",
+    "generated_prompt_string": "Create a photorealistic 4:5 post-workout gym portrait of an approved adult woman with a damp dark high ponytail, natural athletic sheen, and focused expression. She wears a soft-pink athletic top and matching pink jogger sweatpants, stands beside a gym mirror, and touches palms with a workout partner or her reflection. Include weight racks, machines, dumbbells, and realistic mirror depth in a modern gym. Use warm indoor lighting, accurate hands and reflections, realistic sweat and fabric texture, and a strong confident motivating mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, broken mirror reflection, malformed equipment",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-pink-gym-subject", "required": true, "source": "sweaty-pink-gym-power.jpg", "usage": "Preserve adult identity, ponytail, expression, post-workout sheen, and pose."},
+        {"type": "wardrobe", "name": "matching-pink-gym-outfit", "required": true, "source": "sweaty-pink-gym-power.jpg", "usage": "Keep pink top, joggers, and styling consistent; replace only with explicit wardrobe references."},
+        {"type": "location", "name": "modern-mirror-gym", "required": true, "source": "sweaty-pink-gym-power.jpg", "usage": "Maintain mirror, weight racks, machines, dumbbells, and warm light; replace only with explicit location references."},
+        {"type": "person", "name": "approved-adult-workout-partner", "required": false, "source": "sweaty-pink-gym-power.jpg", "usage": "Attach only when a second adult or exact reflected hand interaction is needed; keep anatomy and reflection consistent."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, location, and optional partner references when exact consistency is required. Keep adult identity, outfit, equipment/product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the motivating post-workout gym concept.", "Added safe negative prompts and controlled partner/reflection references."]}
+}

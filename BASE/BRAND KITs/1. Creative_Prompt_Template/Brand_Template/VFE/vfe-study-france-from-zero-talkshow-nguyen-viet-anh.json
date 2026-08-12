@@ -1,0 +1,71 @@
+{
+  "name": "vfe-study-france-from-zero-talkshow-nguyen-viet-anh",
+  "tag": [
+    "vfe",
+    "talkshow",
+    "study-france",
+    "speaker",
+    "ask-a-question"
+  ],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Ask a question",
+  "group": "vfe_1559876232373848",
+  "prompt": {
+    "project_info": {
+      "theme": "Speaker-led talk about study costs and scholarships in France",
+      "color_palette": "French Blue, Red, White, Skin Tones, Soft Gray"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A portrait-led event poster featuring speaker ThS. Nguyễn Việt Anh centered against a split navy-red background with oversized outline text behind, speech bubbles, a red 'ĐĂNG KÝ NGAY' button, and city-specific event times at the bottom.",
+      "style": "Modern event-promo social poster with clean speaker portrait cutout, webinar-style overlay boxes, and strong French-color branding."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nDU HỌC PHÁP\nHƯỚNG ĐI MỚI\nSAU TỐT NGHIỆP 2026\nTalkshow Unite\nToàn cảnh chi phí du học và học bổng tại Pháp\nBí quyết đi du học Pháp từ “con số 0”\nĐĂNG KÝ NGAY\nDiễn giả\nThS. NGUYỄN VIỆT ANH\nThạc sĩ Tài chính, Đại học Montpellier - Học bổng Eiffel 2017\nHN 14h00, 20/06/2026\nHCM 9h00, 21/06/2026",
+      "items": [
+        "Top Left: VFE logo in rounded white corner.",
+        "Top Right: Header 'DU HỌC PHÁP HƯỚNG ĐI MỚI SAU TỐT NGHIỆP 2026' on a red block with small airplane doodle path.",
+        "Bottom Left: Red event chip 'HN' and time '14h00, 20/06/2026'.",
+        "Bottom Right: Red event chip 'HCM' and time '9h00, 21/06/2026'.",
+        "Center/Background: Large portrait of the female speaker, outline word art behind, white speech bubbles with topic prompts, and a big red 'ĐĂNG KÝ NGAY' button with cursor arrow."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft portrait studio-composite lighting",
+      "effect": "Clean portrait cutout, gentle face illumination, crisp event-card overlays, and social-promo clarity."
+    },
+    "technical_specs": {
+      "render_style": "Portrait-driven event marketing poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality event promotion poster for a VFE study-in-France talk. Centerpiece is a portrait of speaker ThS. Nguyễn Việt Anh on a split navy-red branded background with outline word art behind. Surrounding elements: VFE logo, header 'DU HỌC PHÁP HƯỚNG ĐI MỚI SAU TỐT NGHIỆP 2026', speech bubbles 'Toàn cảnh chi phí du học và học bổng tại Pháp' and 'Bí quyết đi du học Pháp từ “con số 0”', red CTA 'ĐĂNG KÝ NGAY', speaker line 'Thạc sĩ Tài chính, Đại học Montpellier - Học bổng Eiffel 2017', and city event times for HN and HCM. Technical style: portrait-driven event marketing poster, soft portrait studio-composite lighting, crisp social-promo overlays, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place top left."
+        },
+        {
+          "type": "person",
+          "name": "Speaker portrait of Nguyễn Việt Anh",
+          "required": true,
+          "source": "source portrait reference",
+          "usage": "Keep the central facial likeness, glasses, hair, and blazer styling."
+        },
+        {
+          "type": "text_layout",
+          "name": "Talkshow event poster layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve speech bubbles, CTA, speaker title, and city/time boxes."
+        }
+      ],
+      "prompt_instructions": "The event dates '20/06/2026' and '21/06/2026' are in the past relative to Friday, July 17, 2026, so preserve them as fixed event schedule details rather than updating them. Keep the speaker portrait clean and authoritative."
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "toyota-safety-on-every-journey-doorframe-family",
+  "tag": [
+    "safety",
+    "family",
+    "interior-view",
+    "peace-of-mind"
+  ],
+  "biz_niche": "Automotive",
+  "content_format": "Brand story",
+  "group": "toyota_27387340234241243",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota safety on every journey for families",
+      "color_palette": "Black, soft green, white, warm beige"
+    },
+    "main_subject": {
+      "type": "Person/Object/Text",
+      "detail": "A gentle family-safety poster shot from inside a Toyota cabin looking out through the passenger-side window. The interior door, steering wheel edge, side mirror, and roofline frame the composition. Outside, a smiling father holds a young child while the mother stands beside them in a green park setting. Bottom text reads 'AN TOAN TREN MOI CUNG DUONG'.",
+      "style": "Soft lifestyle brand poster using a real in-cabin frame as a visual metaphor for safety and protection"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "AN TOAN / TREN MOI CUNG DUONG",
+      "items": [
+        "Top Left: Dark roofline, rear-view mirror, and upper interior framing",
+        "Top Right: Green park foliage outside the passenger window",
+        "Bottom Left: Steering wheel edge, dashboard corner, and side mirror",
+        "Bottom Right: Bold tagline 'AN TOAN TREN MOI CUNG DUONG'",
+        "Center/Background: A happy mother, father, and child seen through the open passenger-side view, framed by the vehicle interior"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft natural family-lifestyle lighting",
+      "effect": "Gentle greenery glow, subtle cabin shadowing, warm protective mood"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal lifestyle automotive brand composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota family safety story. Centerpiece is a view from inside a Toyota cabin looking out through the passenger-side window at a smiling father holding a child beside a mother in a green park. Background is framed by the vehicle's interior roofline, door panel, mirror, and steering wheel, creating a protective visual enclosure. Surrounding elements: exact text 'AN TOAN TREN MOI CUNG DUONG'. Technical style: photoreal lifestyle automotive brand composite, soft natural family-lifestyle lighting, gentle greenery glow and protective mood, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Father, mother, and child family moment reference",
+          "required": true,
+          "source": "source photo or this creative",
+          "usage": "Preserve the exact affectionate family arrangement outside the vehicle"
+        },
+        {
+          "type": "ui_reference",
+          "name": "Toyota passenger-side interior framing",
+          "required": true,
+          "source": "source cabin photo",
+          "usage": "Keep the exact window frame, roofline, mirror, and dashboard edge that create the protective composition"
+        },
+        {
+          "type": "text_layout",
+          "name": "Safety-through-window composition",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the family-outside/interior-inside framing and the bold bottom tagline"
+        }
+      ],
+      "prompt_instructions": "Do not simplify this into a generic family portrait. The key device is that the family is seen through the car window from the inside, making the cabin itself part of the message."
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "coffee-poster-creative-design",
+  "tag": ["adult-man", "starbucks-coffee", "surreal-product-poster", "forest-in-cup", "green-brand-campaign", "coffee-advertisement"],
+  "image_type": "surreal-coffee-poster",
+  "image_vibe": "whimsical-premium-earthy",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "premium surreal Starbucks coffee poster",
+      "color_palette": "deep Starbucks green, warm cream, forest green, coffee brown, and soft white steam",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult man in a dark green jacket with natural facial detail, calm expression, and direct gaze.",
+      "wardrobe": "Dark green outdoor jacket with a simple neutral shirt underneath.",
+      "pose": "Holding a Starbucks coffee cup toward camera in strong foreground perspective, creating product dominance while the face remains clearly visible.",
+      "styling": "Natural premium lifestyle styling with clean, understated grooming."
+    },
+    "composition_elements": {
+      "framing": "Vertical 4:5 poster with cup large in the lower foreground, adult subject centered behind it, and cropped STAR typography creating depth.",
+      "environment": "Deep green rounded-rectangle background with giant cream STAR letters, soft clouds and mist, floating leaves, and a miniature forest ecosystem inside the cup with trees and a tiny coffee waterfall.",
+      "typography": "Top pill: STARBUCKS COFFEE. Upper-left small text: SIGNATURE ROAST. Left-center headline: YOUR COFFEE IS A WORLD. Bottom feature strip: ETHICALLY SOURCED, FRESH BREWED, RICH AROMA, CRAFTED DAILY. Render all supplied text accurately and legibly.",
+      "focus": "Sharp cup logo and rim, miniature forest and waterfall, adult face, steam clouds, leaves, and clean poster typography."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft cinematic diffused lighting with gentle highlights on the cup and face, warm coffee reflections, and luminous steam against the green background.",
+      "atmosphere": "Whimsical, earthy, premium, imaginative, and inviting."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with a 50mm lens at f/4, 1/200 s, ISO 200",
+      "quality": "8K-quality photorealistic product poster, sharp foreground cup, realistic miniature ecosystem, clean graphic edges, accurate typography, commercial finish"
+    },
+    "generated_prompt_string": "Create a premium surreal 4:5 Starbucks coffee poster. Show an adult man in a dark green jacket with a calm direct gaze holding a Starbucks coffee cup toward camera in strong foreground perspective. Inside the cup, create a miniature forest ecosystem with evergreen trees, a tiny waterfall of coffee flowing over the rim, mist rising into cloud forms, and floating leaves. Use a deep green rounded background with giant cropped cream STAR typography, sparkle icons, and soft fog layers. Add accurate legible text: STARBUCKS COFFEE, SIGNATURE ROAST, YOUR COFFEE IS A WORLD., and a bottom strip reading ETHICALLY SOURCED, FRESH BREWED, RICH AROMA, CRAFTED DAILY. Use soft cinematic light, realistic coffee and steam, crisp logo detail, and no extra text or watermark.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, illegible text, misspelled brand name, distorted cup logo, extra fingers, deformed anatomy, muddy miniature scene, watermark, cluttered layout",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult subject. Optional cup, jacket, forest, typography, or lighting references may replace only their named element; preserve the foreground product perspective, surreal forest-in-cup concept, Starbucks branding, and exact feature copy.",
+      "assets": [
+        {
+          "type": "product",
+          "name": "starbucks-coffee-cup-and-logo",
+          "required": false,
+          "source": "user-uploaded product reference",
+          "usage": "Replace only the cup size, finish, lid, or logo treatment while preserving foreground placement and readable brand detail."
+        },
+        {
+          "type": "graphic-style",
+          "name": "forest-waterfall-steam-surreal-overlay",
+          "required": false,
+          "source": "user-uploaded visual reference",
+          "usage": "Replace only the miniature ecosystem, waterfall, steam, and leaves while preserving the surreal product-poster composition."
+        }
+      ]
+    }
+  }
+}

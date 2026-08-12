@@ -1,0 +1,91 @@
+{
+  "name": "be-yuzu-tra-chanh-chem-nong-campaign",
+  "tag": [
+    "yuzu partnership",
+    "field campaign",
+    "real people",
+    "tea promotion",
+    "brand activation"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Brand story",
+  "group": "be_3889675731328594",
+  "prompt": {
+    "project_info": {
+      "theme": "Real-world brand activation for Yuzu tea partnership",
+      "color_palette": "Bright yellow, be blue, green, lemon yellow, black, white"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A vibrant field-campaign poster showing three real be brand ambassadors in yellow-and-blue jackets walking toward camera in front of a tea activation cart, with one holding a yellow umbrella and another carrying a decorated gift tray, framed by product packshots and a mascot illustration.",
+      "style": "Photoreal event campaign poster, documentary-style activation shot blended with product graphics"
+    },
+    "composition_elements": {
+      "type": "Typography/Real People/Product Packshots/Mascot",
+      "text": "be, TRÀ CHANH YUZU, Trà Chanh Chém Nóng, Chúng mình có nhau",
+      "items": [
+        "Top Center: be logo and TRÀ CHANH YUZU brand mark.",
+        "Upper Middle: yellow rounded title bar 'Trà Chanh Chém Nóng'.",
+        "Below title: large outlined white-and-blue text 'Chúng mình có nhau'.",
+        "Center: real-life photo of three be ambassadors in yellow-and-blue jackets walking forward from an outdoor activation booth, one under a yellow branded umbrella, one smiling in the middle, one carrying a decorated tray.",
+        "Lower Left: large bottled tea packshot with lemon slices and splash accents.",
+        "Lower Right: seated illustrated be mascot on an orange slice holding a bottle.",
+        "Background: yellow droplet-texture frame and urban outdoor building setting around the central photo."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright outdoor promotional lighting",
+      "effect": "Sunlit activation warmth, energetic brand-event mood, glossy product-ad finish"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal campaign-event poster with composited product graphics",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "three be ambassadors",
+          "required": true,
+          "source": "source image people reference",
+          "usage": "Preserve the exact people count, jackets, poses, umbrella action, and tray-carrying gesture."
+        },
+        {
+          "type": "logo",
+          "name": "be and Yuzu brand logos",
+          "required": true,
+          "source": "source image brand references",
+          "usage": "Keep the logo lockup at the top."
+        },
+        {
+          "type": "product",
+          "name": "Yuzu bottled tea packshot",
+          "required": true,
+          "source": "source image product reference",
+          "usage": "Preserve the bottle label, lemon slices, and lower-left packshot arrangement."
+        },
+        {
+          "type": "graphic",
+          "name": "seated mascot on orange slice",
+          "required": true,
+          "source": "source image mascot reference",
+          "usage": "Keep the illustrated mascot placement and playful citrus prop."
+        },
+        {
+          "type": "text_layout",
+          "name": "campaign headline system",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Preserve the exact wording and the stacked title treatment."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve real-person identity, activation-cart details, and product packshot styling.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the central documentary photo framed by yellow branded graphic elements."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square be x Yuzu campaign poster with a bright yellow droplet-texture frame. At the top center place the be logo and the TRÀ CHANH YUZU mark. Add a rounded yellow title bar reading 'Trà Chanh Chém Nóng' and below it large outlined text 'Chúng mình có nhau'. In the center, place a photoreal outdoor activation photo of three be ambassadors in yellow-and-blue jackets walking toward camera from a tea booth, one holding a yellow umbrella and another carrying a decorated tray. At the lower left, add a large Yuzu bottled tea packshot with lemon slices. At the lower right, add an illustrated be mascot seated on an orange slice holding the bottle. Technical style: photoreal campaign-event poster with composited product graphics, bright outdoor promotional lighting, energetic activation mood, 8k resolution, highly detailed.",
+    "negative_prompt": "dark scene, wrong people count, incorrect logos, blurry faces, low resolution, inaccurate bottle label, clutter, watermark, signature"
+  }
+}

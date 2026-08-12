@@ -1,0 +1,70 @@
+{
+  "name": "shopee-bobby-moony-mom-baby-brand-sale-stage",
+  "tag": [
+    "mom-baby-promo",
+    "brand-sale",
+    "circus-stage",
+    "multi-product"
+  ],
+  "biz_niche": "E-commerce & Retail",
+  "content_format": "Special offers",
+  "group": "shopee_923850647396861",
+  "prompt": {
+    "project_info": {
+      "theme": "Mom and baby mega brand sale stage show",
+      "color_palette": "Shopee red, orange, yellow, royal blue, white"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A theatrical circus-style sale poster for Bobby and Moony. The top logos show Shopee, Bobby, and Moony. Starburst badges say 'MUA 1 TANG 1', 'MIEN PHI SHIP 0D', and 'GIAM DEN 50%'. A date ribbon on the circus tent reads '16.07 - 17.07'. Main title says 'SIEU SALE THUONG HIEU' and 'CHOT DEAL ME LY'. The foreground is packed with baby diaper packs, a tablet prize labeled 'DON CAO NHAT', toys including a yellow tricycle and scooter, a quilted tote bag, and a mascot-like white doll in a top hat. Bottom CTA says 'MUA NGAY TAI SHOPEE'.",
+      "style": "Loud carnival-stage retail poster with family-product collage, prize-show energy, and bright fairground lighting"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "Bobby / moony / MUA 1 TANG 1 / MIEN PHI SHIP 0D / GIAM DEN 50% / 16.07 - 17.07 / SIEU SALE THUONG HIEU / CHOT DEAL ME LY / DON CAO NHAT / MUA NGAY TAI SHOPEE",
+      "items": [
+        "Top Left: Shopee logo and brand logos Bobby and Moony",
+        "Top Right: Yellow star badge 'GIAM DEN 50%'",
+        "Bottom Left: Bobby and Moony diaper packs on the striped stage floor",
+        "Bottom Right: Tablet prize, tote bag, scooter, tricycle, and curved rocking toy",
+        "Center/Background: Red-orange circus tent with date sign '16.07 - 17.07', giant marquee title panel, radial rays, and small mascot doll at the front"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright carnival stage lighting",
+      "effect": "Marquee bulbs, radial burst glow, glossy toy reflections, cheerful saturated contrast"
+    },
+    "technical_specs": {
+      "render_style": "Retail stage-show poster with photo-composite product collage and graphic carnival styling",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee mom-and-baby brand sale. Centerpiece is a circus-stage setup with giant marquee text 'SIEU SALE THUONG HIEU' and 'CHOT DEAL ME LY' under a date sign '16.07 - 17.07'. Background is a red-orange carnival tent with radial rays. Surrounding elements: Shopee, Bobby, and Moony logos; starburst badges 'MUA 1 TANG 1', 'MIEN PHI SHIP 0D', and 'GIAM DEN 50%'; diaper packs, tablet prize labeled 'DON CAO NHAT', baby toys, tote bag, and a small mascot doll in a top hat; plus bottom CTA 'MUA NGAY TAI SHOPEE'. Technical style: retail stage-show poster with photo-composite product collage and graphic carnival styling, bright carnival lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Bobby and Moony product and prize cutout set",
+          "required": true,
+          "source": "official diaper packshots and campaign product/prize renders",
+          "usage": "Attach for exact packaging, toy shapes, tablet look, and tote-bag details"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee, Bobby, and Moony logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Preserve the top header branding"
+        },
+        {
+          "type": "text_layout",
+          "name": "Mom-baby carnival sale layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the marquee title, date ribbon, offer badges, and dense product-stage arrangement"
+        }
+      ],
+      "prompt_instructions": "Keep '16.07 - 17.07' exactly as shown. Relative to Friday, July 17, 2026, this campaign range ends today, so do not reinterpret the dates or simplify the stage-show layout."
+    }
+  }
+}

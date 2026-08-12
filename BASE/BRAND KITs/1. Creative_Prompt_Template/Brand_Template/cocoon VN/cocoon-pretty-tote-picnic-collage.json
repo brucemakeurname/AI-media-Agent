@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-pretty-tote-picnic-collage",
+  "tag": [
+    "tote-bag",
+    "picnic",
+    "lifestyle",
+    "collage",
+    "ugc-style",
+    "campaign"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "User content",
+  "group": "cocoon_1336386318438603",
+  "prompt": {
+    "project_info": {
+      "theme": "Cute lifestyle collage promoting the Cocoon tote bag as a campaign reward",
+      "color_palette": "Grass Green, Soft Pink, Sky Blue, Red Gingham, Cream White, Pastel Lime"
+    },
+    "main_subject": {
+      "type": "Person/Object",
+      "detail": "A playful picnic collage featuring two young people on a red-and-white checkered blanket in a park, centered around a pale green tote bag printed 'Cocoon VIỆT NAM', with polaroid-style inset photos and the headline 'TÚI XINH COCOON'.",
+      "style": "Scrapbook lifestyle editorial, youthful picnic aesthetic, social collage with candid photography and framed insert snapshots"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'TÚI XINH COCOON', side text '2026' and '#THUHOIVOCHAI' on the upper inset frame, and 'the COCOON ORIGINAL VIETNAM' on the lower inset bag photo.",
+      "items": [
+        "Top Left: A girl in a cream cap and pink shirt holding a compact camera while sitting on the picnic blanket.",
+        "Top Right: Large headline 'TÚI XINH COCOON' and a white framed inset photo showing hands pointing at the tote bag during the picnic.",
+        "Bottom Left: A large pale green tote bag printed 'Cocoon VIỆT NAM' dominating the foreground, plus a smaller polaroid-style inset bag photo over greenery.",
+        "Bottom Right: A boy in a blue cap lying on the blanket, with an orange fruit nearby and open park grass around the blanket.",
+        "Center/Background: Sunny green lawn, red-and-white gingham picnic blanket, and pastel picnic props creating a cheerful collage layout."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright natural daylight",
+      "effect": "Sunny park highlights, soft candid shadows, scrapbook warmth, youthful casual mood"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity lifestyle collage photography with framed overlay inserts",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a cute lifestyle collage promoting a Cocoon tote bag. Centerpiece is a sunny park picnic scene with two young people on a red-and-white gingham blanket and a large pale green tote bag printed 'Cocoon VIỆT NAM' in the foreground. Background is green lawn under bright daylight. Surrounding elements: headline 'TÚI XINH COCOON', a girl holding a compact camera, a boy lying on the blanket, an orange fruit, and two polaroid-style inset images featuring the tote bag, including one with side text '2026' and '#THUHOIVOCHAI'. Keep the scrapbook collage framing and casual youthful picnic mood. Technical style: high fidelity lifestyle collage photography with framed overlay inserts, bright natural daylight, sunny park highlights and soft candid shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Cocoon VIỆT NAM tote bag",
+          "required": true,
+          "source": "Attach a crop of the tote bag from the original image",
+          "usage": "Preserve the pale green fabric tone, oversized white print, and bag shape."
+        },
+        {
+          "type": "person",
+          "name": "Two-person picnic poses",
+          "required": true,
+          "source": "Use the original image as pose reference",
+          "usage": "Maintain the camera-holding girl, reclining boy, and their relative placement on the blanket."
+        },
+        {
+          "type": "text_layout",
+          "name": "Picnic collage typography and polaroid frames",
+          "required": true,
+          "source": "Use the original creative as layout reference",
+          "usage": "Keep the headline style, frame angles, inset photo positions, and side microtext."
+        }
+      ],
+      "prompt_instructions": "When recreating in gpt-image-2, attach the tote bag ref and the full original collage. The image should preserve the scrapbook-style insert frames and exact picnic scene geometry, not collapse into a single plain lifestyle photo."
+    }
+  }
+}

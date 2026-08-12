@@ -1,0 +1,81 @@
+{
+  "name": "long-exposure-light-painting-youth",
+  "tag": [
+    "adult-man",
+    "white-hoodie",
+    "light-painting",
+    "pastel",
+    "long-exposure",
+    "portrait"
+  ],
+  "image_type": "long-exposure-editorial-portrait",
+  "image_vibe": "dreamy-pastel-kinetic",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the subject is an adult.",
+      "Replaced direct imitation of named photographers with technical photographic characteristics.",
+      "Changed the translucent-shirt wording to an opaque white hoodie."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "dreamy long-exposure light painting around a hooded adult man",
+      "color_palette": "pale blue, butter yellow, peach pink, soft white",
+      "format": "portrait 3:4"
+    },
+    "main_subject": {
+      "type": "adult man",
+      "detail": "An adult Korean man with tousled dark hair, a calm direct expression, and an opaque pale white hoodie pulled over his head.",
+      "style": "intimate fine-art portrait with visible natural skin texture and slight film softness"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "centered chest-up portrait",
+        "hood framing loose dark hair",
+        "continuous pastel light-painting loops crossing the eye line",
+        "small scattered out-of-focus light streaks around the subject",
+        "minimal pale blue and yellow background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "diffused pastel key light at approximately 5600K with controlled long-exposure light trails",
+      "effect": "soft glow edges, lifted blacks, gentle haze, and a lively but introspective motion feeling"
+    },
+    "technical_specs": {
+      "render_style": "low-angle portrait on Kodak Portra 400 film, 50mm lens at f/2, visible 35mm grain, natural vignetting, and slight chromatic aberration",
+      "resolution": "ultra-high resolution, portrait 3:4"
+    },
+    "generated_prompt_string": "Art photography of an adult Korean man in an opaque pale white hoodie, centered in a chest-up portrait against a minimal pale blue and butter-yellow background. His tousled dark hair escapes from the hood and he holds a calm direct expression. Create strong long-exposure pastel light-painting loops across the eye line and a few soft drifting light streaks around him, with motion blur and a dreamy atmospheric glow. Use a low camera angle, Kodak Portra 400 film characteristics, a 50mm lens at f/2, slightly desaturated pastel color, lifted blacks, visible fine grain, ultra-soft focus, natural skin texture, and subtle glow at the edges. No other person, no readable lettering, portrait 3:4.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, readable text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, duplicate subject, harsh neon clipping",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-hooded-man-reference",
+          "required": false,
+          "source": "Attach an adult person reference only when facial likeness continuity is required.",
+          "usage": "Keep the person clearly adult and preserve the supplied facial identity; otherwise this element may be replaced."
+        },
+        {
+          "type": "wardrobe",
+          "name": "pale-white-hoodie-reference",
+          "required": false,
+          "source": "Attach a wardrobe image if the exact hoodie cut, fabric, or color must match.",
+          "usage": "Preserve the opaque pale hoodie and hood-up silhouette; it may be substituted with another opaque hooded top."
+        },
+        {
+          "type": "graphic",
+          "name": "pastel-light-painting-reference",
+          "required": false,
+          "source": "Attach a visual reference if a specific light-trail color sequence or loop shape is required.",
+          "usage": "Keep the non-textual pastel loop crossing the eye line; the exact trail path and colors may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. When a person reference is attached, preserve that adult person's identity. Keep the hood-up opaque white outfit, centered portrait framing, and non-textual long-exposure light loop over the eye line consistent. Wardrobe and light-trail references can be replaced independently without changing the concept."
+    }
+  }
+}

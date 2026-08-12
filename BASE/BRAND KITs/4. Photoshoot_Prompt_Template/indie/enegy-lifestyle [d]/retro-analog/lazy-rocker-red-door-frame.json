@@ -1,0 +1,66 @@
+{
+  "name": "lazy-rocker-red-door-frame",
+  "tag": [
+    "adult-woman",
+    "vintage-car",
+    "red-door-frame",
+    "rocker-style",
+    "golden-hour-film"
+  ],
+  "image_type": "vintage-car-fashion-portrait",
+  "image_vibe": "raw-relaxed-rock-and-roll",
+  "image_purpose": "streetwear-editorial",
+  "group": "indie/enegy-lifestyle/retro-analog",
+  "source_url": "https://x.com/lexx_aura/status/2020848492751503807",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject is an adult and replaced the legs-wide pose and named-band shirt with a neutral seated pose and blank vintage T-shirt; the red-door-frame 35mm documentary treatment is retained."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult rocker portrait inside a vintage car with red door frame",
+      "color_palette": "weathered red, black, warm tan, golden sunlight, brown wood, and cream",
+      "aspect_ratio": "2:3"
+    },
+    "main_subject": {
+      "description": "An adult woman with messy shoulder-length brown hair, relaxed slightly bored expression, natural skin texture, and a black choker.",
+      "wardrobe": "Blank vintage black T-shirt, loose dark denim jeans, and plain white sneakers.",
+      "pose": "Seated sideways in the passenger seat with both feet comfortably on the floor, knees angled naturally together, left elbow on the center console supporting her cheek, and right hand resting on the thigh."
+    },
+    "composition_elements": {
+      "framing": "Wide-angle full-body portrait from outside the open passenger door, with the red metal door frame sharp at the edge of frame.",
+      "environment": "Unbranded vintage car interior with wooden dashboard, warm tan upholstery, and no visible badges or text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Golden-hour sun backlights the hair and mixes with soft ambient interior shadow.",
+      "atmosphere": "Raw, relaxed, documentary, and analog."
+    },
+    "technical_specs": {
+      "camera": "35mm film, 24mm wide angle, f/11 deep focus",
+      "quality": "edge-to-edge sharpness, subtle grain, slight noise, chromatic aberration, visible natural pores, unedited texture"
+    },
+    "generated_prompt_string": "Create a raw photoreal 2:3 wide-angle full-body 35mm portrait of an adult woman seated sideways in the passenger seat of an unbranded vintage car. She has messy shoulder-length brown hair, a relaxed slightly bored expression, natural skin texture, a black choker, blank vintage black T-shirt, loose dark denim jeans, and plain white sneakers. Both feet are comfortably on the floor, knees angled naturally together; her left elbow rests on the center console supporting her cheek and right hand rests on her thigh. Shoot from outside the open passenger door, keeping the weathered red metal door frame and wooden dashboard sharply in focus. Use golden-hour backlight, f/11 deep focus, film grain, slight noise and chromatic aberration, no badges, logos, text, or watermark.",
+    "negative_prompt": "minor, legs-wide pose, named band shirt, Van Halen, logo, watermark, readable text, nudity, explicit, nsfw, overly revealing clothing, bokeh, blurred background, plastic skin, distorted anatomy",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use them only to replace adult wardrobe, car interior, red door frame, or film texture; remove brands and text.",
+      "assets": [
+        {
+          "type": "vehicle_reference",
+          "name": "unbranded-weathered-red-vintage-car",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace door frame, dashboard, upholstery, and vehicle texture without badges."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "blank-rocker-tshirt-and-denim",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace adult subject's covered rocker clothing and shoes."
+        }
+      ]
+    }
+  }
+}

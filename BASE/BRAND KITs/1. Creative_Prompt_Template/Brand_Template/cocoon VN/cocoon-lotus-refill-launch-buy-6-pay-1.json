@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-lotus-refill-launch-buy-6-pay-1",
+  "tag": [
+    "refill-launch",
+    "lotus-cleanser",
+    "special-offer",
+    "award-badge",
+    "pink-gradient",
+    "refill"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "cocoon_979952998128413",
+  "prompt": {
+    "project_info": {
+      "theme": "Launch promotion for Hau Giang lotus cleanser refill pouch",
+      "color_palette": "Soft White, Lotus Pink, Black, Light Gold, Pale Green"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A vertical sales poster featuring a pink Hau Giang lotus cleanser bottle and a large white-and-pink refill pouch standing on a reflective surface beside a blooming lotus flower, with a pink badge reading 'MUA 6 TÍNH 1'.",
+      "style": "Premium skincare launch poster, glossy campaign composition, elegant refill-product merchandising"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'ƯU ĐÃI RA MẮT', 'TÚI REFILL SỮA RỬA MẶT SEN HẬU GIANG 500ML', 'MUA 6 TÍNH 1', and 'ELLE BEAUTY AWARDS 2026 CHIẾN THẮNG GIẢI THƯỞNG SỮA RỬA MẶT NỘI ĐỊA ĐƯỢC YÊU THÍCH NHẤT'.",
+      "items": [
+        "Top Left: Small pink headline 'ƯU ĐÃI RA MẮT' above large black stacked product-name typography.",
+        "Top Right: Bright pink circular promo badge reading 'MUA 6 TÍNH 1'.",
+        "Bottom Left: ELLE Beauty Awards 2026 black-and-gold badge floating beside the cleanser bottle.",
+        "Bottom Right: Large refill pouch dominating the foreground with visible eco-refill badge and lotus graphics.",
+        "Center/Background: Pink cleanser bottle angled slightly back, lotus flower resting on a glossy reflective base, and a soft pink-green gradient backdrop."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio beauty lighting",
+      "effect": "Clean reflections, glossy pouch highlights, elegant floral softness, premium retail-poster polish"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity beauty retail poster with realistic product packshots",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a refill launch promotion. Centerpiece is a Cocoon Hau Giang lotus soothing cleanser bottle paired with a large refill pouch on a reflective surface, accented by a pink lotus flower. Background is a soft pink-and-pale-green beauty gradient. Surrounding elements: headline 'ƯU ĐÃI RA MẮT TÚI REFILL SỮA RỬA MẶT SEN HẬU GIANG 500ML', a pink badge 'MUA 6 TÍNH 1', and an ELLE BEAUTY AWARDS 2026 winner badge. Keep the exact typography hierarchy, product scale difference, and elegant floral reflection. Technical style: high fidelity beauty retail poster with realistic product packshots, soft studio beauty lighting, clean reflections and glossy pouch highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Hau Giang lotus cleanser bottle and refill pouch",
+          "required": true,
+          "source": "Attach official packshots or crops from the original creative",
+          "usage": "Preserve bottle shape, pouch silhouette, eco-refill badge, and pink product-family gradients."
+        },
+        {
+          "type": "graphic",
+          "name": "ELLE Beauty Awards 2026 winner badge",
+          "required": true,
+          "source": "Attach the badge crop from the original image",
+          "usage": "Keep the exact black-gold plaque and associated Vietnamese winner text."
+        },
+        {
+          "type": "background",
+          "name": "Lotus flower and reflective base setup",
+          "required": true,
+          "source": "Use the original image as scene reference",
+          "usage": "Maintain the lotus bloom placement, reflection line, and soft gradient atmosphere."
+        }
+      ],
+      "prompt_instructions": "When prompting gpt-image-2, use the original composition and product packshots so the refill pouch, award badge, and lotus flower remain precisely arranged. The scene should stay premium and reflective, not flatten into a standard catalog poster."
+    }
+  }
+}

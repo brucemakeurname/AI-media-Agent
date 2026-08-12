@@ -1,0 +1,71 @@
+{
+  "name": "prompt-580",
+  "tag": [
+    "gyaru-fashion",
+    "fisheye",
+    "y2k",
+    "heart-hands",
+    "night-urban"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "gritty-y2k-saturated",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/cinematic-portrait",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the model as an adult while retaining the gyaru Y2K fashion and fisheye urban portrait concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "gritty Y2K gyaru fashion portrait in a dark urban transit setting",
+      "color_palette": "platinum blonde, black denim, faux-fur brown, gold, leopard brown, and neon accents",
+      "format": "vertical fisheye close portrait"
+    },
+    "main_subject": {
+      "type": "adult Japanese woman",
+      "detail": "Adult Japanese gyaru-inspired fashion model with platinum-blonde hair and dark roots, heavy eye makeup, light lipstick, and long decorated nails. She wears a faux-fur vest over a distressed black denim top, a gold cross pendant, and a leopard-print choker.",
+      "style": "bold Y2K street-fashion editorial, non-sexualized"
+    },
+    "composition_elements": {
+      "text": "no readable text, logo, or watermark",
+      "items": [
+        "both hands form a heart around the face in the foreground",
+        "direct eye contact through the heart-hand frame",
+        "dark Tokyo-inspired street or subway architecture",
+        "subtle background bokeh and abstract signage without readable copy"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "harsh high-contrast direct flash with saturated ambient city color",
+      "effect": "gritty flash texture, energetic nightlife atmosphere, crisp jewelry and nail detail"
+    },
+    "technical_specs": {
+      "camera": "Nikon Zf",
+      "lens": "8-15mm fisheye at 12mm, f/4",
+      "render_style": "controlled fisheye distortion, sharp face focus, saturated Y2K color, fine analog grain"
+    },
+    "generated_prompt_string": "Create a vertical fisheye Y2K street-fashion close portrait of an adult Japanese gyaru-inspired model in a dark Tokyo-inspired street or subway setting. She has platinum-blonde hair with dark roots, heavy eye makeup, light lipstick, and long decorated nails. Dress her in a faux-fur vest over a distressed black denim top, with a gold cross pendant and leopard-print choker. Frame both hands in the foreground forming a heart around her face as she looks directly through it at the camera. Use harsh high-contrast direct flash, saturated ambient urban color, subtle bokeh, gritty texture, and controlled fisheye distortion. Keep signage abstract and unreadable. No text, logo, watermark, or sexualized framing.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, sexualized pose, plastic skin, waxy, over-smooth, over-saturated skin, airbrushed, HDR look, distorted hands, extra fingers, deformed, readable text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity replacement is required.",
+          "usage": "Replace only the adult subject identity while retaining gyaru styling, heart-hand frame, fisheye close composition, and urban night setting."
+        },
+        {
+          "type": "wardrobe",
+          "name": "y2k-wardrobe-reference",
+          "required": false,
+          "source": "Attach a garment or accessory reference if exact items are required.",
+          "usage": "Replace only wardrobe details while retaining the faux-fur, black denim, gold, leopard, and Y2K fashion direction."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. References are optional; preserve the hand-heart framing, fisheye close-up, flash lighting, Y2K gyaru direction, and unreadable urban background."
+    }
+  }
+}

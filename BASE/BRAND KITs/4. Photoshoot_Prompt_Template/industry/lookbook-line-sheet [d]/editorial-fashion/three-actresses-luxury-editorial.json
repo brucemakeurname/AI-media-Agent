@@ -1,0 +1,22 @@
+{
+  "name": "three-actresses-luxury-editorial",
+  "tag": ["industry", "lookbook-line-sheet", "editorial-fashion", "trio", "luxury"],
+  "image_type": "three-model luxury editorial portrait",
+  "image_vibe": "serene, cinematic, polished, warm",
+  "image_purpose": "luxury campaign and group lookbook image",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create a 9:16 studio luxury editorial portrait of three adult fashion models against a warm gray textured backdrop.",
+    "main_subject": "Three adult women with original fictional identities stand together: left wears an ivory silk satin midi dress with dark-brown loose waves; center wears a deep wine-red sleek dress with copper-red waves; right wears a blush-pink modern mini dress with polished golden-blonde waves. All have calm, confident editorial expressions and natural refined makeup.",
+    "composition_elements": "Medium-long three-quarter group portrait, left model relaxed and elegant, center facing front with subtle turn, right angled toward center, balanced spacing and coordinated neutral-to-wine palette.",
+    "lighting_and_atmosphere": "Cinematic soft light with smooth highlights and soft shadows, warm-gray textured studio backdrop, natural warm D65 color treatment, polished luxury atmosphere.",
+    "technical_specs": "9:16 vertical, 4K-style photorealistic fashion photography, realistic silk and fabric detail, sharp group focus, natural anatomy, no text or logos.",
+    "generated_prompt_string": "Luxury editorial studio portrait of three adult women with original fictional identities. Left model wears an ivory silk satin midi dress with dark-brown loose waves; center model wears a deep wine-red sleek dress with copper-red loose waves; right model wears a blush-pink modern mini dress with polished golden-blonde waves. Medium-long three-quarter group composition, left relaxed elegance, center front with subtle turn, right angled toward center, calm confident expressions, warm-gray textured backdrop, cinematic soft light, smooth highlights, soft shadows, natural warm D65 color, 9:16 vertical, 4K-style photorealistic fashion photography.",
+    "negative_prompt": "celebrity likeness, public figure likeness, explicit, nsfw, overly revealing, nudity, blurry, low quality, distorted anatomy, extra limbs, deformed hands, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, text, signature",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "three-actresses-luxury-editorial.jpg", "required": true, "source": "workspace reference image", "usage": "Reference the three adult models, left-center-right wardrobe palette, hair colors, pose hierarchy, backdrop, and lighting while replacing celebrity identities."}],
+      "prompt_instructions": "Attach the required reference image. Preserve trio placement, outfit colors, hair contrast, lighting, backdrop, and group consistency. Use three original adult identities; keep products, logos, and typography generic and replaceable."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced three celebrity identities with original adult fictional models while preserving the group wardrobe palette, poses, and luxury editorial direction."]}
+}

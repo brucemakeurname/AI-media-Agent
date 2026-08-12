@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-free-lotus-cleanser-50ml-99k",
+  "tag": [
+    "gift-with-purchase",
+    "lotus-cleanser",
+    "award-badge",
+    "pink",
+    "text-heavy",
+    "offer"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "cocoon_1654517862514470",
+  "prompt": {
+    "project_info": {
+      "theme": "Free mini cleanser offer with award credibility badge",
+      "color_palette": "Soft Pink Gradient, Black, White, Light Gold, Coral Pink"
+    },
+    "main_subject": {
+      "type": "Product/Person",
+      "detail": "A hand holding a pink Cocoon Hau Giang lotus soothing cleanser 50ml tube against a pale pink gradient background, surrounded by large offer text and an ELLE Beauty Awards 2026 winner badge.",
+      "style": "Clean promotional beauty poster, soft gradient advertising, handheld product endorsement shot"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'TẶNG SỮA RỬA MẶT SEN HẬU GIANG 50ML', 'LÀM SẠCH, CẤP ẨM & LÀM DỊU CHO DA RẤT NHẠY CẢM', 'ÁP DỤNG CHO ĐƠN HÀNG TỪ 99K', circular badge '74K', and 'ELLE BEAUTY AWARDS 2026 CHIẾN THẮNG GIẢI THƯỞNG SỮA RỬA MẶT NỘI ĐỊA ĐƯỢC YÊU THÍCH NHẤT'.",
+      "items": [
+        "Top Left: Pink label block 'TẶNG' followed by the main black headline text in stacked all-caps.",
+        "Top Right: Black-and-gold ELLE Beauty Awards 2026 badge aligned vertically near the tube.",
+        "Bottom Left: Bright pink circular gift-value icon with a present symbol and text '74K'.",
+        "Bottom Right: Hand gripping the cleanser tube from below with soft skin tones and natural nail detail.",
+        "Center/Background: Pale pink-to-cream gradient backdrop with the product tube centered and label fully legible."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft beauty studio lighting",
+      "effect": "Gentle gradient glow, subtle product highlights, clean skin tones, polished retail-poster clarity"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity commercial skincare poster with realistic handheld product shot",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a free mini cleanser offer. Centerpiece is a hand holding a pink Cocoon Hau Giang lotus soothing cleanser 50ml tube against a pale pink gradient background. Surrounding elements: a stacked headline reading 'TẶNG SỮA RỬA MẶT SEN HẬU GIANG 50ML', supporting copy 'LÀM SẠCH, CẤP ẨM & LÀM DỊU CHO DA RẤT NHẠY CẢM', line 'ÁP DỤNG CHO ĐƠN HÀNG TỪ 99K', a bright pink gift circle '74K', and an ELLE BEAUTY AWARDS 2026 winner badge. Keep the exact text hierarchy, award-badge placement, and clean handheld beauty-poster look. Technical style: high fidelity commercial skincare poster with realistic handheld product shot, soft beauty studio lighting, gentle gradient glow and polished clarity, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Cocoon Hau Giang lotus soothing cleanser 50ml tube",
+          "required": true,
+          "source": "Attach the exact packshot or crop from the original image",
+          "usage": "Preserve tube color, cap, label typography, and gold lotus illustration."
+        },
+        {
+          "type": "graphic",
+          "name": "ELLE Beauty Awards 2026 winner badge",
+          "required": true,
+          "source": "Attach a crop of the award badge from the original creative",
+          "usage": "Keep the black-gold badge design and Vietnamese winner text."
+        },
+        {
+          "type": "text_layout",
+          "name": "Offer poster typography and gift circle",
+          "required": true,
+          "source": "Use the original creative as layout reference",
+          "usage": "Maintain exact word breaks, circular 74K badge, and upper text stack."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, attach the cleanser tube and award-badge references. The model should preserve the exact promotional copy hierarchy and handheld tube pose rather than turning it into a generic beauty packshot."
+    }
+  }
+}

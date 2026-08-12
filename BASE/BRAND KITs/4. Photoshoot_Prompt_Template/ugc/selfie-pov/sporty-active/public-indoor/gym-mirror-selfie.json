@@ -1,0 +1,43 @@
+﻿{
+    "name":  "gym-mirror-selfie",
+    "tag":  [
+                "ugc",
+                "selfie-pov",
+                "sporty-active",
+                "public-indoor",
+                "woman",
+                "gym",
+                "mirror"
+            ],
+    "image_type":  "gym-freeweights-mirror-selfie",
+    "image_vibe":  "clean-authentic-daylight",
+    "image_purpose":  "fitness mirror selfie",
+    "group":  "sporty-active",
+    "prompt":  {
+                   "project_info":  "Photorealistic gym mirror selfie adapted from the source prompt and supplied identity reference.",
+                   "main_subject":  "Clearly adult woman matching the supplied approved-adult identity, hair in a loose bun and polished natural makeup, wearing a black long-sleeved zipped jumpsuit and light sneakers, holding a water bottle and smartphone.",
+                   "composition_elements":  "Standing before a large mirror in the free-weights area, power rack and dumbbell rack reflected, workout app visible on phone without readable personal data.",
+                   "lighting_and_atmosphere":  "Natural daylight through large gym windows, clean authentic fitness atmosphere.",
+                   "technical_specs":  "Vertical realistic smartphone selfie, accurate mirror reflection, realistic clothing, gym equipment, hands and phone, natural texture.",
+                   "generated_prompt_string":  "Photorealistic vertical gym mirror selfie of a clearly adult woman matching the supplied approved-adult identity, hair in a loose bun and polished natural makeup, wearing a black long-sleeved zipped jumpsuit and light sneakers, holding a water bottle and smartphone with a generic workout app interface, standing in the free-weights area with power rack and dumbbell rack reflected, natural daylight through large windows, clean authentic fitness realism, no readable text or logos.",
+                   "negative_prompt":  "explicit, nsfw, overly revealing, exposed body, exposed breasts, exposed genitals, child, minor, private data, distorted anatomy, bad hands, watermark, text, logo",
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "gym-mirror-selfie_0.jpg",
+                                                                 "required":  true,
+                                                                 "source":  "local asset",
+                                                                 "usage":  "Use for approved-adult identity, black jumpsuit, sneakers, water bottle, phone and gym reflection."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  "Attach the local asset as required. Preserve identity, outfit, pose, generic app screen, free-weights area and daylight; use only an approved adult identity and do not reproduce celebrity likeness."
+                                          }
+               },
+    "policy_review":  {
+                          "status":  "pass",
+                          "changes":  [
+
+                                      ]
+                      }
+}

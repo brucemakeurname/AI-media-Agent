@@ -1,0 +1,84 @@
+{
+  "name": "badass-premium-shirt-new-arrival",
+  "tag": [
+    "premium shirt",
+    "new arrival",
+    "male model",
+    "fashion editorial",
+    "product launch",
+    "minimal luxury"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Sneak peeks",
+  "group": "badass_1027629239922782",
+  "prompt": {
+    "project_info": {
+      "theme": "Premium shirt new arrival campaign",
+      "color_palette": "Warm beige, soft cream, muted terracotta, black, off-white"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A stylish young Asian man wearing dark sunglasses and a light beige short-sleeve button-up premium shirt, standing in front of an upscale architectural background with columns and warm terracotta walls. He carries a dark leather tote bag and wears dark trousers, posed in a calm editorial manner.",
+      "style": "Photorealistic menswear editorial, soft luxury fashion campaign, clean premium styling, warm urban-resort atmosphere"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "PREMIUM SHIRT, BADASS, NEW ARRIVAL, STNTK714",
+      "items": [
+        "Top Left across the width: huge off-white uppercase headline 'PREMIUM SHIRT'.",
+        "Upper Left under the headline: smaller off-white brand text 'BADASS'.",
+        "Upper Right: smaller off-white text 'NEW ARRIVAL'.",
+        "Center: the male model in a light beige short-sleeve shirt, dark sunglasses, and dark trousers, turned slightly to his left.",
+        "Bottom Left: small white product code text 'STNTK714'.",
+        "Background: softly blurred premium exterior architecture with pale columns, terracotta walls, and a curved paved walkway."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft natural daylight",
+      "effect": "Warm diffuse sunlight, gentle skin tones, shallow background blur, luxury editorial softness, subtle highlights on shirt fabric and sunglasses"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic fashion advertising poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "male model with sunglasses",
+          "required": true,
+          "source": "source image model reference",
+          "usage": "Use to preserve identity, hairstyle, eyewear, pose, and calm premium expression."
+        },
+        {
+          "type": "product",
+          "name": "light beige premium short-sleeve shirt",
+          "required": true,
+          "source": "source image garment reference",
+          "usage": "Use to match collar shape, chest pocket, button placket, sleeve length, and subtle shirt tone."
+        },
+        {
+          "type": "text_layout",
+          "name": "PREMIUM SHIRT / BADASS / NEW ARRIVAL typography",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Preserve the exact wording, scale relationship, and top-edge placement of the text."
+        },
+        {
+          "type": "location",
+          "name": "architectural outdoor backdrop",
+          "required": false,
+          "source": "source image background reference",
+          "usage": "Use if the columns, terracotta wall palette, and walkway curvature need to stay close to the original setting."
+        }
+      ],
+      "prompt_instructions": [
+        "If using gpt-image-2, attach the source image as the primary reference for both model identity and shirt product fidelity.",
+        "Keep all visible text exactly as 'PREMIUM SHIRT', 'BADASS', 'NEW ARRIVAL', and 'STNTK714'.",
+        "Preserve the warm premium editorial mood and the top-heavy typography hierarchy."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square fashion poster for a premium shirt new arrival campaign. Show a stylish young Asian male model wearing dark sunglasses, a light beige short-sleeve button-up premium shirt with chest pocket, and dark trousers, posed calmly in front of a softly blurred upscale architectural backdrop with pale columns, terracotta walls, and a curved paved walkway. Add huge off-white uppercase text 'PREMIUM SHIRT' across the top, smaller off-white brand text 'BADASS' underneath on the left, and 'NEW ARRIVAL' on the upper right. Place small white product code text 'STNTK714' in the lower-left corner. Style should feel luxurious, clean, and fashion-editorial. Technical style: photorealistic fashion advertising poster, soft natural daylight, warm diffuse sunlight, shallow background blur, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, distorted face, malformed hands, incorrect text, low resolution, messy background, harsh shadows, flat 2d, extra people, wrong shirt color, crooked typography, watermark, signature, noise"
+  }
+}

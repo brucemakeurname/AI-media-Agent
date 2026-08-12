@@ -1,0 +1,27 @@
+{
+  "name": "realistic-university-classroom-teaching",
+  "tag": ["ugc", "casual-everyday", "other", "public-indoor", "education"],
+  "image_type": "classroom teaching visual",
+  "image_vibe": "documentary academic chalkboard lesson",
+  "image_purpose": "UGC-style educational and presentation visual",
+  "group": "other/public-indoor",
+  "prompt": {
+    "project_info": "Create a realistic university classroom teaching photograph using the attached image for the classroom, chalkboard, and diagram reference only.",
+    "main_subject": "An original approved adult teacher stands beside a large blackboard and gestures while explaining a design or knowledge topic. Use a generic adult teacher with no celebrity or public-figure likeness; no students are required.",
+    "composition_elements": "Landscape classroom composition, teacher positioned at the left beside a detailed blackboard, clear chalk diagrams including a hierarchy pyramid, connected circles, numbered principles, and a simple phone-interface sketch, with a dark classroom wall and chalk rail.",
+    "lighting_and_atmosphere": "Soft realistic classroom light with gentle highlights on the teacher and legible chalkboard contrast, documentary academic atmosphere, natural room texture.",
+    "technical_specs": "Realistic iPhone-style photograph, 16:9 landscape framing, moderate depth of field, natural skin and chalk texture, accurate board geometry, restrained color, no artificial HDR look.",
+    "generated_prompt_string": "Realistic 16:9 university classroom photograph of an original approved adult teacher standing at the left side of a large blackboard and gesturing while explaining a design or knowledge topic. No students are required and the teacher must not resemble any celebrity or public figure. The blackboard contains clear editable chalk diagrams: a hierarchy pyramid, connected circles, numbered principles, and a simple phone-interface sketch. Dark classroom wall, chalk rail, soft realistic classroom light, documentary academic atmosphere, natural skin and chalk texture, iPhone-style photography.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, minor, childlike features, celebrity likeness, public figure likeness, recognizable public speaker likeness, unreadable chalk text, random logos, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "assets": [
+        {"type": "environment", "name": "classroom blackboard reference", "required": true, "source": "attached source image", "usage": "Match the board layout, chalk diagrams, dark wall, chalk rail, framing, and classroom atmosphere; do not use the pictured person's identity."}
+      ],
+      "prompt_instructions": "Attach the required image as an environment-and-board reference only. Preserve the classroom layout, board graphics, and teaching composition, but replace the person with an original approved adult teacher and exclude any celebrity/public-figure likeness. Chalk wording, logos, typography, and diagrams remain editable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Replaced placeholder teacher wording with a generic approved adult teacher.", "Explicitly excluded the public-figure likeness visible in the reference image while retaining the classroom and board design.", "Added editable typography guidance and anti-slop exclusions."]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "name": "genz-night-platform-mixed-media-portrait",
+  "tag": [
+    "night-train-platform",
+    "adult-streetwear",
+    "chibi-companions",
+    "backpack-character",
+    "doodle-overlay"
+  ],
+  "image_type": "mixed-media-lifestyle-portrait",
+  "image_vibe": "playful-nighttime",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Mixed-media adult streetwear portrait on a night train platform",
+      "creative_direction": "Hyper-realistic portrait blended with playful flat chibi companions, hand-drawn outlines, and youthful doodle graphics",
+      "color_palette": "black hoodie, gray sweatpants, olive backpack, red-and-white commuter train, station amber, white ink, and black doodles"
+    },
+    "main_subject": {
+      "type": "clearly adult person",
+      "detail": "approved adult subject with consistent face and body shape, cool calm expression, holding the strap of an olive backpack with one hand",
+      "wardrobe": "oversized streetwear, layered black hoodie, gray sweatpants, and chunky sneakers",
+      "companions": "several cute 3D chibi versions of the same adult character wearing matching clothes and preserving the same face design"
+    },
+    "composition_elements": {
+      "framing": "vertical full-body portrait centered on the platform",
+      "environment": "realistic fictional commuter train side view at night with open doors, bright station lighting, and city-night ambiance",
+      "interaction": "one chibi sits on the adult subject's shoulder, one climbs the leg, and another peeks from the backpack",
+      "graphics": "white hand-drawn outline around the subject, scribbles, stars, sparkles, electric sparks, and fictional handwritten slogans such as forever young, night, and gen z vibes"
+    },
+    "lighting_and_atmosphere": {
+      "type": "overhead fluorescent station fixtures around 4300K with soft cyan night fill",
+      "effect": "cinematic platform highlights, controlled reflections on the train, readable clothing texture, and playful mixed-media separation"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 35mm lens, hyper-realistic photography blended with clean flat 3D cartoon illustration",
+      "resolution": "4k vertical social portrait",
+      "finish": "natural skin texture, crisp train detail, paper-like doodle linework, subtle grain, and controlled saturation"
+    },
+    "generated_prompt_string": "Create a high-quality mixed-media portrait of a clearly adult person using the approved uploaded person reference, standing coolly on a fictional commuter train station platform at night and holding the strap of an olive backpack with one hand. Preserve the same face and body shape. Dress the adult subject in oversized streetwear: a layered black hoodie, gray sweatpants, and chunky sneakers. Behind them, show a realistic fictional red-and-white commuter train side view with open doors, bright cinematic station lighting, and city-night ambiance. Surround the realistic subject with several cute 3D chibi versions of the same adult character in matching clothes and with the same face: one sitting on the shoulder, one climbing the leg, and another peeking from the backpack. Overlay vibrant hand-drawn doodles, white outlines, playful scribbles, stars, sparkles, electric sparks, and floating fictional handwritten slogans such as forever young, night, and gen z vibes. Seamlessly blend hyper-realistic photography with colorful flat cartoon illustrations.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, childlike realistic subject, real transit logo, real personal handle, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed anatomy, malformed chibi, broken train geometry, illegible slogans",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-uploaded-subject",
+          "required": true,
+          "source": "Uploaded person photo specified by the source prompt",
+          "usage": "Attach the approved adult person reference and preserve face, facial structure, body shape, and likeness; never substitute a minor or public-figure identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-hoodie-gray-sweatpants-olive-backpack",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the hoodie layers, gray sweatpants, chunky sneakers, and olive backpack; exact outfit continuity is required."
+        },
+        {
+          "type": "location",
+          "name": "fictional-night-commuter-platform",
+          "required": true,
+          "source": "Original train-platform preview image and source prompt",
+          "usage": "Attach to preserve the open train doors, platform lighting, train scale, and night ambiance; replace the transit system with a fictional cleared equivalent."
+        },
+        {
+          "type": "graphic",
+          "name": "chibi-and-doodle-overlay-set",
+          "required": true,
+          "source": "Original mixed-media preview image and source prompt",
+          "usage": "Attach to preserve chibi identity continuity, white outline, doodle hierarchy, and playful interactions; individual chibi poses and marks may be replaced."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person, wardrobe, platform, and mixed-media references. Keep the adult face and body shape, outfit, chibi likeness, backpack interactions, train scale, outline treatment, and doodle hierarchy consistent. Replace the transit brand, signage, slogans, and other text with fictional cleared graphics."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the source's Gen Z teenager as a clearly adult subject and changed the recognizable commuter-line setting and marks to a fictional non-branded equivalent while preserving the mixed-media concept."
+    ]
+  }
+}

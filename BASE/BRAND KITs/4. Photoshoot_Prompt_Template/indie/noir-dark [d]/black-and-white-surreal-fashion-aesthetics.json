@@ -1,0 +1,73 @@
+{
+  "name": "black-and-white-surreal-fashion-aesthetics",
+  "tag": [
+    "adult-woman",
+    "black-and-white",
+    "clean-profile",
+    "textured-volume",
+    "motion-blur"
+  ],
+  "image_type": "surreal-fashion-profile",
+  "image_vibe": "sculptural-monochrome-elegance",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Converted the exact-face instruction into a required approved adult non-public-figure identity reference while preserving the profile, hand gesture, textured garment, earrings, and motion-blur aesthetic."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "surreal black-and-white profile fashion editorial",
+      "color_palette": "white, black, graphite, and silver highlights",
+      "aspect_ratio": "1:1"
+    },
+    "main_subject": {
+      "description": "An adult woman matching the required approved adult non-public-figure identity reference, shown in a clean side profile with loose hair, natural skin texture, and a calm expression.",
+      "wardrobe": "Voluminous black textured faux-fur or feather-effect top with sculptural volume and round reflective earrings.",
+      "pose": "Elegant hand-at-chin gesture with the face held in a clean profile and eyes focused forward."
+    },
+    "composition_elements": {
+      "framing": "Centered vertical profile portrait with the face sharply resolved and the garment filling the lower frame.",
+      "environment": "Minimal pale studio background with a subtle horizontal motion-blur band crossing the top of the frame and no text or logos.",
+      "focus": "Sharp facial plane, fingers, earring reflection, and individual garment fibers."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft diffused high-contrast light with a bright face plane and controlled shadow across the garment.",
+      "atmosphere": "Surreal, elegant, sculptural, and quietly dramatic."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with an 85mm portrait lens at f/4, controlled studio exposure",
+      "quality": "Photorealistic monochrome, fine grain, realistic skin texture, crisp profile detail, subtle motion blur, and restrained highlights"
+    },
+    "generated_prompt_string": "Create a photorealistic 1:1 surreal black-and-white fashion editorial portrait of an adult woman matching the required approved adult non-public-figure identity reference. Show her in a clean side profile with loose hair, natural skin texture, and a calm expression. She wears a voluminous black textured faux-fur or feather-effect top and round reflective earrings, holding one hand elegantly at her chin with eyes focused forward. Use a minimal pale studio background with a subtle horizontal motion-blur band crossing the top of the frame. Keep the face sharply resolved with soft diffused high-contrast light, controlled garment shadows, realistic fibers, fine grain, and no text or logos.",
+    "negative_prompt": "minor, unapproved identity, celebrity likeness, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "The required approved adult identity reference must be attached and used only to preserve adult facial identity and facial structure. Optional wardrobe, background, or motion references may replace only their named element; preserve the clean profile, hand gesture, monochrome palette, and sculptural mood.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Preserve adult facial identity and structure only; do not imitate a celebrity or blend faces."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-textured-volume-top-and-round-earrings",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the textured top and earrings while preserving the sculptural monochrome styling."
+        },
+        {
+          "type": "background",
+          "name": "pale-studio-motion-blur-background",
+          "required": false,
+          "source": "user-uploaded background reference",
+          "usage": "Replace only the pale studio backdrop and horizontal motion-blur treatment; remove text."
+        }
+      ]
+    }
+  }
+}

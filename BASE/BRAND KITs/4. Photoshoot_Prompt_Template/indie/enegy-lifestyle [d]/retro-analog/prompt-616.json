@@ -1,0 +1,66 @@
+{
+  "name": "prompt-616",
+  "tag": [
+    "adult-identity-reference",
+    "woven-sofa",
+    "vintage-lifestyle",
+    "compact-film-flash",
+    "cozy-room"
+  ],
+  "image_type": "vintage-lifestyle-interior-portrait",
+  "image_vibe": "warm-candid-nostalgic",
+  "image_purpose": "lifestyle-editorial",
+  "group": "indie/enegy-lifestyle/retro-analog",
+  "source_url": "https://x.com/chatgptpaglu/status/1994689429487734995",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Restricted exact identity preservation to an approved adult reference and replaced the graphic text T-shirt with a plain cream shirt. The covered casual outfit and woven-sofa room composition remain."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "approved adult identity on a woven sofa in a warm vintage room",
+      "color_palette": "cream, light denim blue, woven tan, warm amber, white, and muted brown",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult woman whose face may match the approved adult reference, with long side-parted hair, small hair clip, light natural makeup, soft pink lips, and natural dewy skin texture.",
+      "wardrobe": "Plain cream oversized vintage T-shirt, light high-waisted denim trousers, and white sneakers.",
+      "pose": "Sitting comfortably on a woven sofa with legs folded naturally, one hand resting on the cushion, turning over her shoulder toward camera with a soft playful expression."
+    },
+    "composition_elements": {
+      "framing": "Wide vertical room portrait showing the subject and cozy interior details.",
+      "environment": "Warm lived-in room with woven sofa, white pillows, scattered folded clothes in foreground, small lamp, and authentic soft clutter; no readable labels or branding."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Warm dim indoor glow optionally accented by a compact 35mm camera flash, creating soft warm shadows.",
+      "atmosphere": "Candid, nostalgic, textured, and relaxed."
+    },
+    "technical_specs": {
+      "camera": "Olympus MJU II-inspired compact-film aesthetic",
+      "quality": "soft grain, warm VSCO-like rendering, rich fabric textures, natural skin, wide-room detail"
+    },
+    "generated_prompt_string": "Create a photoreal 4:5 warm vintage lifestyle photo of an adult woman, optionally matching an approved adult identity reference, sitting comfortably on a woven sofa in a cozy lived-in room. She has long side-parted hair with a small clip, light natural makeup, soft pink lips, and natural dewy skin. She wears a plain cream oversized vintage T-shirt, light high-waisted denim trousers, and white sneakers. Her legs are folded naturally, one hand rests on the cushion, and she turns over her shoulder toward camera with a soft playful expression. Include white pillows, folded clothes in the foreground, a small lamp, and soft warm clutter without readable labels. Use warm dim indoor glow with an optional compact 35mm flash, Olympus MJU II-inspired grain, warm vintage tones, and no text, logo, or watermark.",
+    "negative_prompt": "minor, unapproved identity reference, graphic shirt text, readable label, logo, watermark, nudity, explicit, nsfw, overly revealing clothing, plastic skin, distorted face, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "The adult identity reference is optional. Other references are optional and replace only hair, plain outfit, sofa, or room-light details; remove all text and brands.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved-adult-identity-reference",
+          "required": false,
+          "source": "user upload",
+          "usage": "Match adult face only, with no age alteration or identity blending."
+        },
+        {
+          "type": "environment_reference",
+          "name": "woven-sofa-warm-vintage-room",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace sofa, pillows, lamp, clutter, and warm-light character without labels."
+        }
+      ]
+    }
+  }
+}

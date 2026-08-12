@@ -1,0 +1,19 @@
+{
+  "name": "graffiti-wall-street-youth",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "graffiti", "skatepark"],
+  "image_type": "streetwear-skatepark-portrait",
+  "image_vibe": "quiet-confident-urban",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create an authentic iPhone-style streetwear portrait of an approved adult man seated at an urban skatepark or street-art zone.",
+    "main_subject": "An approved adult man with natural hair and a calm introspective expression, wearing a matte dark oversized T-shirt, loose black cargo pants, and an olive-green suede or canvas jacket. He sits on a low wooden platform, leans back on both hands, and turns his head slightly aside.",
+    "composition_elements": "Medium 3:4 portrait, centered subject, colorful graffiti walls, layered paint, metal skatepark structures, worn platform, and rough concrete floor.",
+    "lighting_and_atmosphere": "Soft diffused overcast daylight, natural skin and fabric texture, mild digital noise, grounded street-culture atmosphere.",
+    "technical_specs": "Photorealistic unedited iPhone-style 3:4 portrait, sharp subject, natural perspective, realistic hands, jacket fibers, graffiti, concrete, and depth.",
+    "generated_prompt_string": "Create an authentic photorealistic 3:4 iPhone-style portrait of an approved adult man seated on a low wooden platform in an urban skatepark or street-art zone. He wears a matte dark oversized T-shirt, loose black cargo pants, and an olive-green suede or canvas jacket, leans back on both hands, and turns his head slightly aside with a calm introspective expression. Include colorful graffiti, layered paint, metal structures, worn wood, and rough concrete under soft overcast daylight. Use natural tones, realistic texture, mild digital noise, and unedited street photography character.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, altered graffiti text",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-graffiti-skatepark-subject", "required": true, "source": "graffiti-wall-street-youth.jpg", "usage": "Preserve adult identity, expression, seated pose, and hand placement."}, {"type": "wardrobe", "name": "dark-tee-black-cargo-olive-jacket", "required": true, "source": "graffiti-wall-street-youth.jpg", "usage": "Keep streetwear layers and styling consistent; replace only with explicit references."}, {"type": "location", "name": "graffiti-skatepark-platform", "required": true, "source": "graffiti-wall-street-youth.jpg", "usage": "Maintain graffiti, metal structures, platform, concrete, and overcast light; replace only with explicit references."}, {"type": "text_layout", "name": "graffiti-wall-lettering", "required": false, "source": "graffiti-wall-street-youth.jpg", "usage": "Attach only when existing graffiti typography must be retained; do not invent or alter text."}], "prompt_instructions": "Attach person, wardrobe, location, and optional text-layout references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced exact-face-match language with approved-adult identity references.", "Added safe negative prompts and controlled graffiti/text handling."]}
+}

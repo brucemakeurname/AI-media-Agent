@@ -1,0 +1,39 @@
+{
+  "name": "High Fashion Low Angle Golden Fur",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "editorial-fashion"
+  ],
+  "image_type": "low-angle fashion editorial",
+  "image_vibe": "bold, tactile, minimalist, confident",
+  "image_purpose": "outerwear and footwear lookbook image",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create a high-fashion outerwear editorial photograph in a minimalist off-white concrete room.",
+    "main_subject": "An adult woman with an approved adult face-and-style reference, not an exact public-figure likeness, crouching elegantly in a voluminous golden-orange faux-fur coat. She wears secure, opaque fashion styling beneath the coat and clean white strappy sandals with a neat pedicure.",
+    "composition_elements": "Low-angle perspective, billowing textured coat, one sandal and foot prominent in the foreground, second foot visible behind, confident gaze toward camera, off-white concrete walls and floor.",
+    "lighting_and_atmosphere": "Soft studio light reveals the fur texture, sandal construction, realistic skin, and concrete surfaces; minimalist, tactile, premium editorial atmosphere.",
+    "technical_specs": "High-detail fashion photography, low-angle lens perspective, sharp footwear and coat texture, natural anatomy, realistic proportions, clean editorial framing.",
+    "generated_prompt_string": "High-fashion editorial photograph from a low angle of an adult woman with an approved adult face-and-style reference and original identity, crouching elegantly in a voluminous textured golden-orange faux-fur coat with secure opaque styling beneath, white strappy sandals and neat pedicure. One sandal and foot are prominent in the foreground, the second foot behind, confident gaze to camera, soft studio light, minimalist off-white concrete room, tactile premium fashion detail, realistic anatomy and proportions.",
+    "negative_prompt": "celebrity likeness, public figure likeness, exact facial identity, explicit, nsfw, overly revealing, nudity, fetish framing, blurry, low quality, distorted anatomy, deformed feet, missing toes, extra toes, dirty skin, watermark, text, logo, signature",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "high-fashion-low-angle-golden-fur.jpg",
+          "required": true,
+          "source": "workspace reference image",
+          "usage": "Reference the low-angle crouching pose, golden-orange coat, white sandals, concrete room, and framing while using an approved adult reference identity that remains replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the coat volume, sandal styling, pose, camera angle, background, and lighting consistency. Use only an approved adult face-and-style reference; do not reproduce a public figure or exact identity. Keep outfit secure and opaque, products generic and logo-free, environment consistent, and typography absent or replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced exact-likeness wording with an approved adult, original, replaceable identity and added secure opaque styling plus faux-fur wording."
+    ]
+  }
+}

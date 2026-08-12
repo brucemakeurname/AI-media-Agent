@@ -1,0 +1,64 @@
+{
+  "name": "Winter Red Knit Contact Sheet",
+  "tag": "winter-red-knit-contact-sheet",
+  "image_type": "four_frame_winter_portrait_collage",
+  "image_vibe": "soft_snowy_warm",
+  "image_purpose": "seasonal_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Winter Red Knit Contact Sheet",
+      "format": "single 2 by 2 grid still image",
+      "aspect_ratio": "1:1 square"
+    },
+    "main_subject": {
+      "description": "The same adult East Asian woman with shoulder-length dark-brown hair, soft natural makeup, and a gentle contemplative expression across four frames.",
+      "wardrobe": "A bright red cable-knit beanie, matching chunky red wool scarf, and plain black wool coat.",
+      "continuity": "Keep adult identity, wardrobe, snow detail, and high-key white winter setting consistent in every panel."
+    },
+    "composition_elements": {
+      "grid_sequence": [
+        "Close portrait smiling softly while holding scarf near chin.",
+        "Side-profile portrait looking upward at light snowfall.",
+        "Portrait beneath a plain red umbrella with one hand adjusting the scarf.",
+        "Three-quarter portrait with a small warm smile."
+      ],
+      "setting": "Minimal seamless white winter studio with real-looking snowflakes; no printed backdrop marks.",
+      "layout": "Four equal panels, thin white gutters, no captions or text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft high-key studio light with gentle facial modeling and natural snowy highlights.",
+      "mood": "Warm, serene, gentle, and wintery."
+    },
+    "technical_specs": {
+      "camera_style": "85mm high-end winter fashion portrait",
+      "lens": "85mm equivalent, f/2.2",
+      "rendering": "Visible pores, realistic snow on knit fibers, natural hands, crisp eyes, no retouch-heavy effect."
+    },
+    "generated_prompt_string": "Create a square 2 by 2 winter-fashion contact sheet of the same adult East Asian woman with shoulder-length dark-brown hair, soft natural makeup, and a gentle contemplative expression. In every frame she wears a bright red cable-knit beanie, matching chunky red wool scarf, and plain black wool coat. Show four equal panels: close portrait holding scarf near chin; side profile looking upward at snow; portrait under a plain red umbrella adjusting scarf; and a three-quarter warm smile. Use a minimal seamless white winter studio with realistic falling snow, thin white gutters, no captions, soft high-key 85mm lighting, visible pores, realistic snow on knit fibers, crisp eyes, natural hands, and no heavy retouching. No readable text, logo, watermark, or childlike styling.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, readable text, logo, watermark, plastic skin, distorted hands, extra fingers, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity references must depict a consenting adult. Wardrobe, umbrella, and snowy studio references are replaceable and cannot introduce text or brand marks.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Maintain broad adult facial and hair traits across the four panels."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "red_winter_knit_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide knit and scarf color/texture without labels."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adult identity, removed source watermark text, and preserved the safe winter portrait concept with replaceable references."
+  }
+}

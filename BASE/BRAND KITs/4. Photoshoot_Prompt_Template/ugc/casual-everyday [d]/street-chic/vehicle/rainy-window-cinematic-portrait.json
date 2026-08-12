@@ -1,0 +1,19 @@
+{
+  "name": "rainy-window-cinematic-portrait",
+  "tag": "ugc",
+  "image_type": "photograph",
+  "image_vibe": "moody cinematic rainy day",
+  "image_purpose": "street portrait and lifestyle content",
+  "group": "casual-everyday/street-chic/vehicle",
+  "prompt": {
+    "project_info": "Environmental lifestyle portrait framed through an open car window on a rainy day.",
+    "main_subject": "One generic approved adult woman with shoulder-length warm medium-brown hair, natural makeup and berry-red lipstick, wearing a dark green cap, round sunglasses, and oversized dark jacket; leaning out of the car window with forearms resting on the door and looking off-camera.",
+    "composition_elements": "Vertical medium close-up, subject center-left, horizontal car-door and window-frame lines, strong separation from fully blurred dense green foliage, raindrops on vehicle exterior.",
+    "lighting_and_atmosphere": "Soft diffused overcast ambient light, subtle hair highlights, soft shadows, muted forest-green and charcoal palette, calm introspective urban-casual cinematic mood.",
+    "technical_specs": "Portrait lens 50-85mm look, wide aperture f/1.8-f/2.8, clean low-noise image, frozen raindrops, creamy bokeh, slightly desaturated cool shadows and warm highlights.",
+    "generated_prompt_string": "Create a vertical photorealistic cinematic lifestyle portrait of one generic approved adult woman leaning from an open car window with forearms on the door, wearing a dark green cap, round sunglasses and oversized dark jacket, warm brown hair and berry lipstick, rainy dense green foliage behind, soft overcast light, creamy bokeh and muted tones.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, nudity, minors, celebrity likeness, public figure likeness, distorted anatomy, extra limbs, malformed hands, unreadable cap logo, watermark, logo overlay",
+    "reference_elements": {"assets": [{"type": "image", "name": "rainy-window-cinematic-portrait.jpg", "required": true, "source": "local", "usage": "Match adult subject, cap, sunglasses, jacket, lean-out pose, rainy car, foliage, framing, and muted cinematic light."}], "prompt_instructions": "Attach the required reference image. Preserve identity, hair, expression, accessories, pose, car geometry, weather, composition, and lighting. Cap typography is replaceable; keep it garment-integrated and avoid logos or overlay text."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Normalized schema and added safety/reference guidance."]}
+}

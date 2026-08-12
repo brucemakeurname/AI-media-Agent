@@ -1,0 +1,27 @@
+{
+  "name": "barca-bikini-girl-boat",
+  "tag": ["ugc", "boat-travel", "team-colors", "fjord-wake", "vacation-portrait"],
+  "image_type": "candid-travel-portrait",
+  "image_vibe": "joyful-nautical-adventure",
+  "image_purpose": "instagram-feed",
+  "group": "lifestyle-moment/beach-vacation/vehicle",
+  "prompt": {
+    "project_info": "Create a photorealistic candid travel portrait on the stern of a moving boat in a fjord-like bay.",
+    "main_subject": "An adult blonde woman with long straight layered hair, tanned skin, a bright natural smile, and relaxed vacation expression. She wears a blue-and-maroon striped FC Barcelona-color string bikini with the visible crest, a delicate gold pendant, and small hoop earrings. She holds a clear wine glass in her left hand.",
+    "composition_elements": "Centered medium shot from mid-thigh to head, seated upright on a beige cushioned stern surface, right hand supporting on the cushion and left hand holding the glass. Symmetrical foaming wake trails behind, with deep blue-grey water, steep grey rocky mountains, and overcast soft sky.",
+    "lighting_and_atmosphere": "Diffuse overcast daylight, soft even shadows, realistic natural skin and fabric highlights, joyful relaxed leisurely nautical vacation mood.",
+    "technical_specs": "Eye-level to slightly high angle, sharp subject, distant mountains slightly softened, photorealistic high-resolution candid travel photography, natural proportions and water texture.",
+    "generated_prompt_string": "Photorealistic candid travel photograph of an adult blonde woman with long straight layered hair, tanned skin, and a bright natural smile, seated upright on the beige cushioned stern of a moving boat. She wears a blue-and-maroon striped FC Barcelona-color string bikini with the visible crest, a delicate gold circular pendant and small hoop earrings, holding a clear wine glass with red wine in her left hand while her right hand supports her on the cushion. Medium shot from mid-thigh to top of head, centered with symmetrical white foaming wake behind, deep blue-grey moving water, steep grey rocky mountains rising from the bay, and an overcast grey-white sky. Soft diffuse daylight, natural highlights, relaxed joyful vacation mood, sharp subject, realistic water and fabric texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, body-part emphasis, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, extra limbs, extra fingers, deformed, altered crest, invented logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "blonde adult boat subject", "required": true, "source": "matching local preview image", "usage": "Preserve approved adult face, hair, smile, pose, accessories, and natural proportions; replaceable with another approved adult."},
+        {"type": "wardrobe", "name": "blue-maroon football-color bikini", "required": true, "source": "matching local preview image", "usage": "Preserve colors, stripe pattern, and existing crest exactly as shown; do not invent or redesign branding."},
+        {"type": "prop", "name": "wine glass", "required": true, "source": "matching local preview image", "usage": "Preserve glass, red drink, and hand placement; replaceable with an equivalent non-branded beverage prop."},
+        {"type": "location", "name": "fjord-like boat wake and mountains", "required": true, "source": "matching local preview image", "usage": "Preserve stern, wake, water, mountains, and overcast sky; replaceable with an equivalent mountainous bay."}
+      ],
+      "prompt_instructions": "Attach the preview for adult identity, outfit crest, prop, boat, and mountain continuity. Preserve existing crest without adding or altering logos. Person, wardrobe, prop, and location can be replaced only with equivalent approved references; no extra typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

@@ -1,0 +1,68 @@
+{
+  "name": "twilight-forest-goth-girl-realistic-portrait",
+  "tag": [
+    "approved-adult-face",
+    "goth-fashion",
+    "twilight-forest",
+    "lace-camisole",
+    "baggy-jeans",
+    "autumn"
+  ],
+  "image_type": "twilight-goth-fashion-portrait",
+  "image_vibe": "moody, cool-toned, introspective, realistic, alternative",
+  "image_purpose": "fashion-editorial, character-visual, moodboard",
+  "group": "indie / moody-portrait / outdoor-editorial",
+  "prompt": {
+    "project_info": {
+      "theme": "Realistic goth fashion portrait on an autumn forest floor at twilight",
+      "format": "vertical medium portrait",
+      "color_palette": "blue-gray twilight, muted autumn brown, white, denim blue, black"
+    },
+    "main_subject": {
+      "type": "adult woman using a required approved-adult face reference",
+      "detail": "An adult Western woman whose face, facial structure, proportions, features, and expression match the attached approved-adult reference. She has long straight dyed dark-blonde hair and an alternative goth-influenced style. She wears an opaque white lace-trim camisole, baggy medium-wash low-rise jeans with a dark belt, a black choker with a small pendant, bracelets, a ring, and a small visible tattoo.",
+      "style": "realistic cinematic alternative-fashion photography"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "adult woman sits on a mossy autumn forest floor with knees bent",
+        "hands rest naturally at her waistband or on her knees",
+        "head tilted down with an introspective expression",
+        "keep cool twilight forest and fallen leaves softly out of focus behind her",
+        "show the choker, jewelry, denim, and lace-trim styling as fashion details"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "dim blue-gray twilight at approximately 4500 to 5500 K",
+      "effect": "soft low-contrast natural light with gentle shadow detail",
+      "atmosphere": "quiet, cool, autumnal, and slightly gothic"
+    },
+    "technical_specs": {
+      "render_style": "realistic 35mm cinematic portrait with natural depth",
+      "resolution": "high-detail vertical image",
+      "color_treatment": "cool subdued grading, fine film grain, natural skin texture, no beauty-filter finish"
+    },
+    "generated_prompt_string": "Create a realistic cinematic portrait of an adult Western woman using the attached approved-adult face reference; preserve her face, facial structure, proportions, features, and expression exactly without celebrity or public-figure substitution. She has long straight dyed dark-blonde hair and an alternative goth-influenced style. She sits on a mossy autumn forest floor at twilight with knees bent, her hands resting naturally at her waistband or on her knees, and looks downward with a quiet introspective expression. She wears an opaque white lace-trim camisole, baggy medium-wash low-rise jeans with a dark belt, a black choker with a small pendant, bracelets, a ring, and a small visible tattoo. Keep fallen leaves and the cool forest softly out of focus behind her. Use dim blue-gray 4500 to 5500 K twilight, gentle low-contrast shadows, a realistic 35mm cinematic portrait treatment, cool subdued grading, fine film grain, and natural skin texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, opening clothing, exposed bra straps, sheer clothing, identity blending, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, text, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "Attach a required approved-adult face reference. Preserve the adult face and goth-fashion identity, dark-blonde straight hair, opaque white lace-trim camisole, baggy jeans, choker, jewelry, autumn forest, seated introspective pose, and blue-gray twilight. Do not use a celebrity/public-figure likeness or an undressing pose.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-reference",
+          "required": true,
+          "source": "user attachment",
+          "usage": "Keep adult face, facial structure, proportions, features, and expression exactly consistent."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Required an approved adult identity reference and removed the age range that could imply youth.",
+      "Kept the goth styling, lace-trim camisole, low-rise jeans, forest setting, and twilight mood while making the top opaque and changing the waistband-button action to a neutral seated hand position."
+    ]
+  }
+}

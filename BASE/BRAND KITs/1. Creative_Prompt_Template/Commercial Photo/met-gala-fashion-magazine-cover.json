@@ -1,0 +1,75 @@
+{
+    "name":  "met-gala-fashion-magazine-cover",
+    "tag":  [
+                "fashion",
+                "brand story",
+                "magazine cover",
+                "red carpet",
+                "celebrity editorial",
+                "paparazzi flash"
+            ],
+    "biz_niche":  "Fashion & Apparel / Editorial",
+    "content_format":  "Brand story",
+    "group":  "commercial_fashion_editorial",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Met Gala red-carpet magazine cover",
+                                        "color_palette":  "Black night, silver, red velvet, white flash, diamond sparkle"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Person",
+                                        "detail":  "A confident female celebrity turns back over her shoulder on the Met Gala red carpet, wearing a backless liquid-metal silver gown, diamond choker and stud earrings; her long hair moves in the flash-lit air.",
+                                        "style":  "Glossy A-list direct-flash fashion cover photography"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Person/Paparazzi/Magazine typography",
+                                                "text":  "Harper’s BAZAAR; 红毯之夜; 独家直击; 年度风尚大典",
+                                                "items":  [
+                                                              "Top: oversized white/silver Harper’s BAZAAR masthead.",
+                                                              "Center: tall model-like celebrity turning 45 degrees toward camera.",
+                                                              "Background: paparazzi cameras, direct flashes, red velvet ropes and black night.",
+                                                              "Bottom: three Chinese red-carpet editorial lines in bold white type."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Direct paparazzi flash",
+                                                   "effect":  "Hard high-contrast light, glistening skin, sharp shadows, sequined metallic reflections and flash bokeh"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Ultra-detailed 8K fashion magazine-cover photography",
+                                           "resolution":  "3:4 vertical"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "licensed talent face reference",
+                                                                 "required":  true,
+                                                                 "source":  "attach approved portrait reference",
+                                                                 "usage":  "Preserve eyes, nose and mouth only for an authorized subject."
+                                                             },
+                                                             {
+                                                                 "type":  "accessory",
+                                                                 "name":  "gown and jewelry reference",
+                                                                 "required":  true,
+                                                                 "source":  "approved styling images",
+                                                                 "usage":  "Match liquid-metal gown, choker and earrings."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "approved masthead and Chinese cover lines",
+                                                                 "required":  true,
+                                                                 "source":  "licensed editorial layout",
+                                                                 "usage":  "Use only approved magazine branding and correct Chinese typography."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Do not reproduce a real celebrity without authorized reference.",
+                                                                          "Attach licensed face, styling and masthead assets before rendering.",
+                                                                          "Keep cover text as approved layout, never auto-generated substitutions."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Create a high-end fashion magazine cover. Use the uploaded face for strict identity preservation. Aspect ratio 3:4, ultra-detailed, 8k, Met Gala red carpet event, direct flash photography, glamorous celebrity candid. Strictly preserve facial identity (eyes, nose, mouth) from the uploaded reference. Body proportions should be model-like and tall. Location: The Met Gala Red Carpet (New York), chaotic background with paparazzi cameras, red velvet ropes, bursts of camera flashes (bokeh orbs), dark night sky contrast, electric exclusive superstar energy. Direct Flash paparazzi lighting with high contrast hard light, glistening skin, sharp shadows behind subject and bright reflections on dress. Seductive confident smile looking back over shoulder, bold red lip, sharp contouring, glowing highlighter; walking away but turning head 45 degrees to look at camera, elegant posture, back slightly arched, hair blowing dramatically. Futuristic liquid-metal silver backless sequin gown, diamond choker and large stud earrings. Magazine Cover Layout: large bold Harper\u0027s BAZAAR logo at top in white or silver, Chinese text subtitles: 红毯之夜, 独家直击, 年度风尚大典. Luxurious, expensive, A-list celebrity, glossy magazine finish.",
+                   "negative_prompt":  "low resolution, ugly hands, distorted face, missing logo, text error, watermark, casual clothing, daylight, soft lighting"
+               }
+}

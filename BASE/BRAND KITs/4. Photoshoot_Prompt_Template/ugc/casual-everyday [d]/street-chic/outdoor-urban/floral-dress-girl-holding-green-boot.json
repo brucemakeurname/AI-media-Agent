@@ -1,0 +1,19 @@
+{
+  "name": "floral-dress-girl-holding-green-boot",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "floral-dress", "boho"],
+  "image_type": "stone-wall-fashion-portrait",
+  "image_vibe": "bohemian-soft-grunge",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create an ultra-photorealistic outdoor fashion portrait of an approved adult woman leaning against a textured stone wall.",
+    "main_subject": "An approved adult woman with long loose dark-chestnut waves, looking downward with an introspective expression. She wears a cream floral off-shoulder tiered dress with puff sleeves and corset-style bodice, black choker, silver rings, and red bracelet, holding a dark green crocodile-texture cowboy boot.",
+    "composition_elements": "Eye-level thigh-up portrait with body angled against irregular grey-beige stone masonry, soft depth behind, hands posed naturally at chest and side.",
+    "lighting_and_atmosphere": "Soft diffused daylight, even gentle shadows, realistic dress, skin, hair, boot, and masonry texture, casual artistic bohemian mood.",
+    "technical_specs": "Photorealistic 85mm f/2.8 portrait, vertical framing, sharp subject and dress detail, natural skin texture and depth.",
+    "generated_prompt_string": "Create an ultra-photorealistic vertical thigh-up portrait of an approved adult woman with long loose dark-chestnut waves leaning against an irregular stone wall. She looks downward with an introspective expression and wears a cream floral off-shoulder tiered dress with puff sleeves and corset-style bodice, black choker, silver rings, and red bracelet. She holds a dark green crocodile-texture cowboy boot by her side. Use soft diffused daylight, gentle shadows, 85mm f/2.8 perspective, detailed fabric and masonry, and a bohemian soft-grunge mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, malformed boot",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-floral-wall-subject", "required": true, "source": "floral-dress-girl-holding-green-boot.jpg", "usage": "Preserve adult identity, hair, expression, pose, and hand placement."}, {"type": "wardrobe", "name": "cream-floral-offshoulder-dress", "required": true, "source": "floral-dress-girl-holding-green-boot.jpg", "usage": "Keep dress, jewelry, and styling consistent; replace only with explicit references."}, {"type": "prop", "name": "dark-green-cowboy-boot", "required": true, "source": "floral-dress-girl-holding-green-boot.jpg", "usage": "Preserve boot color, texture, and hand interaction; replace only with explicit references."}, {"type": "location", "name": "irregular-stone-masonry-wall", "required": true, "source": "floral-dress-girl-holding-green-boot.jpg", "usage": "Maintain stone texture and soft daylight; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, prop, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the observed portrait.", "Added safe negative prompts and structured references."]}
+}

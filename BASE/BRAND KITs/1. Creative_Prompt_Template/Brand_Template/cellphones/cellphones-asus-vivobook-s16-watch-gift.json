@@ -1,0 +1,54 @@
+{
+  "name": "cellphones-asus-vivobook-s16-watch-gift",
+  "tag": ["cellphones", "asus vivobook", "laptop promo", "smartwatch gift", "installment"],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "cellphones_1317173853472245",
+  "prompt": {
+    "project_info": {
+      "theme": "Laptop sale with smartwatch gift",
+      "color_palette": "Red, white, electric blue, navy, silver, black"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A tech-sale poster promoting the ASUS Vivobook S16 S3607QA, showing the laptop on a futuristic blue digital background and a large Black Shark GT3 smartwatch gift visual inside a blue bonus panel.",
+      "style": "Modern electronics retail poster, futuristic gadget-sale composite"
+    },
+    "composition_elements": {
+      "type": "Product/Typography/Gift Panel",
+      "text": "cellphoneS, Vivobook S16 S3607QA, Giá ưu đãi 19.99 Triệu, Trả Góp 0%, MUA NGAY, Quà Tặng: Đồng hồ Black Shark GT3 (Bạc/Đen), ASUS VIVOBOOK",
+      "items": [
+        "Top Center: red cellphoneS logo block.",
+        "Upper Left: large white title 'Vivobook S16 S3607QA'.",
+        "Upper Right: rounded white price panel with blue text 'Giá ưu đãi 19.99 Triệu'.",
+        "Below price: white text 'Trả Góp 0%' and right-aligned 'MUA NGAY'.",
+        "Bottom Right: open ASUS Vivobook laptop angled toward viewer with colorful gradient wallpaper.",
+        "Bottom Left: blue gift panel containing a large black Black Shark GT3 smartwatch and white gift text.",
+        "Background: dark blue sci-fi data-wall and glowing floor grid."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Cool digital showroom lighting",
+      "effect": "Futuristic retail energy, glossy gadget highlights, crisp blue depth"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal tech-promo composite poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "logo", "name": "cellphoneS and ASUS branding", "required": true, "source": "source image brand references", "usage": "Preserve the retailer header and laptop screen wordmark."},
+        {"type": "product", "name": "ASUS Vivobook S16 laptop and Black Shark GT3 watch", "required": true, "source": "source image product reference", "usage": "Keep the laptop angle, wallpaper, and oversized smartwatch gift rendering."},
+        {"type": "text_layout", "name": "price panel and gift text", "required": true, "source": "source image text reference", "usage": "Preserve the exact model, price, installment text, and watch-gift wording."},
+        {"type": "background", "name": "blue digital-grid environment", "required": true, "source": "source image background reference", "usage": "Maintain the same futuristic backdrop and floor glow."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve smartwatch scale, laptop perspective, and retail text positions.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the cool blue futuristic tech-sale styling."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square tech-sale poster with a dark blue futuristic data-wall and glowing grid floor. Place a red cellphoneS logo at the top center, large white text 'Vivobook S16 S3607QA' on the left, and a rounded white price panel on the right reading 'Giá ưu đãi 19.99 Triệu'. Add 'Trả Góp 0%' and 'MUA NGAY'. In the lower right show an angled ASUS Vivobook laptop with a colorful gradient wallpaper. In the lower left place a blue gift panel containing a large black Black Shark GT3 smartwatch and the text 'Quà Tặng: Đồng hồ Black Shark GT3 (Bạc/Đen)'. Technical style: photoreal tech-promo composite poster, cool digital showroom lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark unreadable text, wrong laptop model, wrong watch shape, low resolution, cluttered layout, warped perspective, watermark, signature"
+  }
+}

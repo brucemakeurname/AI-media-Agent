@@ -1,0 +1,44 @@
+{
+  "name": "luxury-beauty-perfume-ad",
+  "tag": ["luxury-beauty", "perfume-product", "female-portrait", "editorial-ad", "typography"],
+  "image_type": "campaign-key-visual",
+  "image_vibe": "polished-commercial",
+  "image_purpose": "campaign",
+  "group": "campaign-key-visual",
+  "prompt": {
+    "project_info": {
+      "theme": "Luxury beauty perfume campaign",
+      "color_palette": "warm espresso brown, black, champagne gold, soft cream, rose perfume glass"
+    },
+    "main_subject": {
+      "type": "adult woman and perfume product",
+      "detail": "The woman from the reference image, with the same face, long dark wavy hair, black eyeglasses, black tailored fashion styling, natural glowing skin and refined makeup; she holds a faceted rose-colored perfume bottle in the lower-left foreground.",
+      "style": "premium beauty advertising portrait, visible natural skin texture and controlled hair movement"
+    },
+    "composition_elements": {
+      "layout": "vertical close portrait with the model centered and the bottle anchored at lower left",
+      "text": "Preserve the reference typography and visible copy: DIOR, CD, Timeless Beauty, The new fragrance, Miss Dior.",
+      "items": ["model face and eyeglasses remain the visual anchor", "perfume bottle label and faceted cap remain legible", "warm highlight blooms at upper-left and lower-right", "copy is stacked on the right side with generous negative space"]
+    },
+    "lighting_and_atmosphere": {
+      "type": "large diffused key through silk at camera-left, warm practical backlight at 3200K, subtle silver fill",
+      "effect": "soft gradient brown background, warm rim light on hair, controlled glossy reflections on the bottle and natural shadows"
+    },
+    "technical_specs": {
+      "render_style": "Canon EOS R5, RF 85mm f/1.2L, vertical commercial beauty photography",
+      "resolution": "8K",
+      "optics": "shallow depth of field, natural vignetting, restrained film grain and realistic glass reflections"
+    },
+    "generated_prompt_string": "Create a luxury beauty advertisement featuring the woman from the reference image, keeping her face exactly identical. She is styled in a premium fashion look with soft glowing skin, flawless makeup, and elegant hair flow. Background is minimal with soft gradient lighting. She is holding a high-end perfume bottle (inspired by Dior style). Add soft light reflections, glossy finish, premium branding aesthetic. Include text: \"Timeless Beauty\" and a subtle logo-style branding. Ultra-clean, commercial photography, 8K resolution.",
+    "negative_prompt": "explicit, nsfw, overly revealing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, illegible typography, distorted perfume bottle, altered face likeness",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-woman-face-and-likeness", "required": true, "source": "source image supplied with this template", "usage": "Preserve face, facial structure, eyeglasses, hair and likeness exactly."},
+        {"type": "product", "name": "faceted-rose-perfume-bottle", "required": true, "source": "source image supplied with this template", "usage": "Preserve bottle shape, cap, glass color, label placement and reflections."},
+        {"type": "text_layout", "name": "luxury-perfume-poster-typography", "required": true, "source": "source image supplied with this template", "usage": "Preserve the reference hierarchy and visible campaign copy when text is required."}
+      ],
+      "prompt_instructions": "Attach the source image for the adult face, product and text layout. Face identity, outfit, perfume bottle geometry and typography hierarchy must remain consistent. The person and product may be replaced only with approved adult and product references; the layout can be adapted for another campaign while preserving the same premium portrait structure."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

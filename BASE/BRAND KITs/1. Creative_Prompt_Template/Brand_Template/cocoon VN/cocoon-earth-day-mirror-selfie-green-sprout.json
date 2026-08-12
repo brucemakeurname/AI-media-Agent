@@ -1,0 +1,86 @@
+{
+  "name": "cocoon-earth-day-mirror-selfie-green-sprout",
+  "tag": [
+    "earth-day",
+    "lifestyle",
+    "mirror-shot",
+    "ugc-style",
+    "body-polish",
+    "eco-gift"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "User content",
+  "group": "cocoon_972558405131595",
+  "prompt": {
+    "project_info": {
+      "theme": "Earth Day lifestyle beauty snapshot with eco-friendly gifting and green sprout symbolism",
+      "color_palette": "Sky Blue, Grass Green, Cocoa Brown, Kraft Beige, Soft Pink, Sunlit Cream"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A candid mirror selfie composition centered on Cocoon Dak Lak coffee body polish in a dark brown jar with fresh green sprouts growing out of the open top, held forward by a smiling person reflected in a round mirror, with a small amber vial labeled 'Hạt giống Mầm Xanh Hạnh Phúc' placed in the foreground.",
+      "style": "Natural lifestyle product photography, scrapbook sticker accents, cheerful eco-campaign aesthetic, realistic handheld snapshot with playful youthful styling"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible packaging text includes 'MẦM XANH HẠNH PHÚC', Cocoon product label text, and the vial label 'Hạt giống Mầm Xanh Hạnh Phúc'.",
+      "items": [
+        "Top Left: Round mirror frame cutting into the scene, with a smiling person in beige shirt reflected and holding the coffee body polish toward the mirror.",
+        "Top Right: Second person partially visible in mirror taking the photo with a silver smartphone, plus an angled product box showing partial green vertical text on the outer edge.",
+        "Bottom Left: Soft-focus green leaves, a large flat illustrated brown shovel sticker, and product box packaging with recycling icon leaning into the mirror scene.",
+        "Bottom Right: Large white box with bold green text 'MẦM XANH HẠNH PHÚC', pink flower sticker with yellow sparkle center, and the small amber vial in the foreground.",
+        "Center/Background: Green textured fabric under all props, outdoor blue-sky reflection inside the mirror, grassy field horizon, and extra Cocoon bottles near the lower edge."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright natural sunlight",
+      "effect": "Direct sunny highlights, crisp outdoor reflections, soft real shadows from props, warm spring picnic mood, lightly glossy mirror glare"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity lifestyle product photography, smartphone social creative, realistic editorial flat-lay plus reflection composition",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for an Earth Day lifestyle beauty snapshot with eco-friendly gifting and green sprout symbolism. Centerpiece is a Cocoon Dak Lak coffee body polish jar with fresh green sprouts emerging from the top, presented toward a round mirror by a smiling person while a second person photographs the scene with a silver smartphone. Background is green textured picnic fabric surrounding a circular mirror reflection of blue sky and grassy field. Surrounding elements: kraft product boxes with recycling graphics, a large white box reading 'MẦM XANH HẠNH PHÚC', small amber vials labeled 'Hạt giống Mầm Xanh Hạnh Phúc', blurred foreground leaves, a flat brown shovel sticker, and a pink flower sticker. Keep the candid mirror-selfie angle, direct sunlight, realistic hand placement, exact Vietnamese wording, and youthful scrapbook styling. Technical style: high fidelity lifestyle product photography, smartphone social creative, bright natural sunlight, direct sunny highlights and crisp outdoor reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Cocoon Dak Lak coffee body polish jar",
+          "required": true,
+          "source": "Attach the exact product packshot or crop from the original creative",
+          "usage": "Preserve jar shape, lid proportion, label layout, cocoa-bean illustrations, and dark brown packaging color."
+        },
+        {
+          "type": "product",
+          "name": "Seed vial labeled 'Hạt giống Mầm Xanh Hạnh Phúc'",
+          "required": true,
+          "source": "Attach a crop of the vial and label from the original image",
+          "usage": "Keep the small amber bottle appearance, kraft paper wrap, and exact handwritten-style Vietnamese wording."
+        },
+        {
+          "type": "graphic",
+          "name": "MẦM XANH HẠNH PHÚC gift box artwork",
+          "required": true,
+          "source": "Attach the box face artwork from the original creative",
+          "usage": "Recreate the bold green title, Earth illustration, flower icons, and overall eco-gift packaging style."
+        },
+        {
+          "type": "person",
+          "name": "Two-person mirror selfie pose",
+          "required": true,
+          "source": "Use the original image as pose and crop reference",
+          "usage": "Maintain the smiling reflected pose, forward-reaching arm, and partial photographer figure with phone."
+        },
+        {
+          "type": "text_layout",
+          "name": "Mirror picnic composition",
+          "required": true,
+          "source": "Use the original image as layout reference",
+          "usage": "Preserve the circular mirror framing, foreground bottle placement, sticker positions, and packaging arrangement."
+        }
+      ],
+      "prompt_instructions": "When recreating with gpt-image-2, attach the original creative or tightly cropped refs for the product jar, seed vial, and gift box art. Instruct the model to preserve the exact mirror crop, smartphone-in-hand candid composition, visible Vietnamese text, and realistic sunny outdoor reflection. Do not simplify the prop arrangement or replace the handwritten vial label."
+    }
+  }
+}

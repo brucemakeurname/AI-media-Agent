@@ -1,0 +1,77 @@
+{
+  "name": "badass-beyond-roles-seated-ambassador",
+  "tag": [
+    "ambassador portrait",
+    "beyond roles",
+    "lifestyle editorial",
+    "white shirt",
+    "reading pose",
+    "collection campaign"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Brand story",
+  "group": "badass_1535602257970204",
+  "prompt": {
+    "project_info": {
+      "theme": "Beyond Roles collection ambassador portrait",
+      "color_palette": "Soft beige stone, white, navy, black"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A young Asian male ambassador sits casually on a white chair against a beige stone wall, wearing a white overshirt over a white tee, dark shorts, and white sneakers while holding an open magazine. The look is calm, polished, and minimal.",
+      "style": "Photorealistic ambassador lifestyle editorial, soft premium casualwear campaign, relaxed luxury portrait"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Typography",
+      "text": "BADASS x DIỄN VIÊN QUỐC TRƯỜNG, BEYOND ROLES COLLECTION, SHNTK715 - QSDOI704",
+      "items": [
+        "Center: seated male ambassador with crossed legs holding an open magazine.",
+        "Right Mid: white BADASS x DIỄN VIÊN QUỐC TRƯỜNG text block.",
+        "Bottom Left: white text 'BEYOND ROLES COLLECTION'.",
+        "Bottom Left Corner: small white product code text 'SHNTK715 - QSDOI704'.",
+        "Background: beige stone wall and matching floor with clean minimal architectural lines.",
+        "Foreground: white chair and white sneakers reinforcing the minimal palette."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft natural daylight",
+      "effect": "Gentle skin tones, clean editorial softness, quiet premium casual atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic lifestyle fashion poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "seated ambassador portrait",
+          "required": true,
+          "source": "source image model reference",
+          "usage": "Preserve face, hairstyle, seated reading pose, wardrobe, and expression."
+        },
+        {
+          "type": "location",
+          "name": "stone wall and floor setting",
+          "required": true,
+          "source": "source image architecture reference",
+          "usage": "Maintain the minimal stone-wall backdrop and neutral palette."
+        },
+        {
+          "type": "text_layout",
+          "name": "BADASS x DIỄN VIÊN QUỐC TRƯỜNG / BEYOND ROLES COLLECTION text",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Preserve exact wording and placement of the collaborator and collection labels."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve model identity, reading pose, and exact text placement.",
+        "Keep all visible text exactly as shown.",
+        "Maintain a calm premium portrait tone rather than a loud promotional style."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square lifestyle fashion poster for the Beyond Roles collection. Show a young Asian male ambassador seated casually on a white chair against a beige stone wall, wearing a white overshirt over a white tee, dark shorts, and white sneakers, holding an open magazine. Add white text at the right reading 'BADASS x DIỄN VIÊN QUỐC TRƯỜNG' and white text at the lower left reading 'BEYOND ROLES COLLECTION'. Include small white product code text 'SHNTK715 - QSDOI704' near the lower-left corner. Technical style: photorealistic lifestyle fashion poster, soft natural daylight, quiet premium casual mood, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry face, incorrect text, low resolution, distorted limbs, extra fingers, cluttered background, harsh shadows, watermark, signature"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "name": "minimalist-bw-amber-glasses",
+  "tag": [
+    "adult-man",
+    "amber-glasses",
+    "selective-color",
+    "black-turtleneck",
+    "minimalist-studio"
+  ],
+  "image_type": "selective-color-close-up",
+  "image_vibe": "modern-minimal-graphic",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "minimalist monochrome menswear close-up with amber eyewear",
+      "color_palette": "black, white, neutral gray, and translucent amber-orange accents",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult man with clean grooming, textured natural skin, neatly styled dark hair, and a neutral composed expression.",
+      "wardrobe": "Black turtleneck under a dark tailored coat with a modern minimalist silhouette.",
+      "pose": "Centered close-up headshot looking directly at camera with relaxed facial muscles and steady eye contact."
+    },
+    "composition_elements": {
+      "framing": "Centered close-up crop from upper chest to above the head with the glasses as the visual anchor.",
+      "environment": "Plain light studio background with no text or logos.",
+      "focus": "Sharp facial details, skin texture, coat structure, turtleneck knit, and translucent amber frames and lenses."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft studio light with controlled high contrast and subtle cinematic shadows under the coat collar and jawline.",
+      "atmosphere": "Clean, modern, confident, and editorial."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with an 85mm portrait lens at f/2.8, 1/125 s, ISO 100",
+      "quality": "Ultra-detailed photorealistic monochrome, realistic pores, crisp eyewear reflections, shallow depth of field, and restrained film grain"
+    },
+    "generated_prompt_string": "Create an ultra-realistic 4:5 minimalist studio close-up of an adult man with clean grooming, textured natural skin, neatly styled dark hair, and a neutral composed expression. He wears a black turtleneck under a dark tailored coat and bold translucent amber-orange glasses with a clean modern frame. Center him in a close-up headshot looking directly at camera against a plain light background. Render the image in monochrome black and white except for the glasses, using soft studio light, controlled high contrast, subtle cinematic shadows, realistic pores, crisp lens reflections, an 85mm portrait lens, shallow depth of field, subtle grain, and no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, celebrity likeness, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, distorted glasses, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original subject. Optional glasses, wardrobe, or studio references may replace only their named element; preserve the selective amber color, centered close-up, monochrome palette, and minimalist mood.",
+      "assets": [
+        {
+          "type": "accessory",
+          "name": "translucent-amber-orange-glasses",
+          "required": false,
+          "source": "user-uploaded eyewear reference",
+          "usage": "Replace only the frame shape, transparency, and amber tint while preserving selective color."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-turtleneck-dark-tailored-coat",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the turtleneck and coat while preserving the minimalist menswear silhouette."
+        },
+        {
+          "type": "location",
+          "name": "plain-light-studio-background",
+          "required": false,
+          "source": "user-uploaded studio reference",
+          "usage": "Replace only the plain light backdrop and studio light falloff; remove text and logos."
+        }
+      ]
+    }
+  }
+}

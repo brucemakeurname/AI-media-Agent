@@ -1,0 +1,57 @@
+{
+  "name": "vfe-bac-general-bac-techno-exam-calendar",
+  "tag": [
+    "vfe",
+    "bac",
+    "exam-calendar",
+    "french-education",
+    "infographic"
+  ],
+  "biz_niche": "Education",
+  "content_format": "Infographics",
+  "group": "vfe_1447980874027934",
+  "prompt": {
+    "project_info": {
+      "theme": "French Baccalauréat exam schedule calendar",
+      "color_palette": "Dark Navy, Electric Blue, White, Bright Red"
+    },
+    "main_subject": {
+      "type": "Text",
+      "detail": "A full-month French exam calendar poster with the large top title 'BAC GÉNÉRAL BAC TECHNO', dark navy calendar grid, and blue/red schedule bars marking subject exam dates across June into early July.",
+      "style": "High-contrast timetable infographic with French weekday abbreviations, structured grid system, and bold exam event labels."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "BAC GÉNÉRAL\nBAC TECHNO\nL M M J V S D\n1 juin\n1 juillet\nFRANÇAIS\nMATHS\nPHILO\nSPÉCIALITÉS\nGRAND ORAL\nORAL DE FRANÇAIS",
+      "items": [
+        "Top Left: Large blue rounded title blocks with white words 'BAC GÉNÉRAL' and 'BAC TECHNO'.",
+        "Top Right: No extra imagery, only the continuation of the calendar header row.",
+        "Bottom Left: Dark navy grid cells with dates starting at '1 juin' and the PHILO and GRAND ORAL bars.",
+        "Bottom Right: Red schedule bars for MATHS, ORAL DE FRANÇAIS, and the final cross-month bar reaching into early July.",
+        "Center/Background: Full June calendar matrix with French weekday initials and alternating white or navy header cells."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat digital infographic lighting",
+      "effect": "No photographic lighting, crisp high-contrast grid edges, clean bar-label legibility, and sharp saturated red-blue blocks."
+    },
+    "technical_specs": {
+      "render_style": "Vector timetable infographic",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality timetable infographic poster for the French Baccalauréat exam calendar. Centerpiece is a dark navy month grid labeled 'BAC GÉNÉRAL BAC TECHNO' with French weekday initials and June dates flowing into '1 juillet'. Background is a flat dark educational schedule design. Surrounding elements: blue and red subject bars labeled 'FRANÇAIS', 'MATHS', 'PHILO', 'SPÉCIALITÉS', 'GRAND ORAL', and 'ORAL DE FRANÇAIS'. Technical style: vector timetable infographic, flat digital infographic lighting, crisp grid edges, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "text_layout",
+          "name": "French exam calendar grid",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve grid geometry, weekday labels, date placements, and subject bar spans."
+        }
+      ],
+      "prompt_instructions": "The calendar itself is the content. Keep the French month/day wording exactly. The dates shown from June into July are in the past relative to Friday, July 17, 2026, so preserve them as a fixed schedule reference rather than updating them."
+    }
+  }
+}

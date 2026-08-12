@@ -1,0 +1,33 @@
+{
+  "name": "luxury-yacht-vacation",
+  "tag": ["luxury", "yacht", "vacation", "lifestyle"],
+  "image_type": "UGC lifestyle photo",
+  "image_vibe": "relaxed luxury, airy, candid, coastal",
+  "image_purpose": "Luxury travel and lifestyle social content",
+  "group": "ugc/lifestyle-moment/luxury-glamour/vehicle",
+  "prompt": {
+    "project_info": "Create a premium but natural-looking luxury yacht vacation lifestyle image for social media.",
+    "main_subject": "One generic approved adult woman relaxing barefoot on the bow sofa of a modern grey-silver sport yacht. She wears a black sleeveless tank top and dark fitted trousers, with a calm, comfortable expression and natural posture.",
+    "composition_elements": "Vertical 3:4 high-angle framing. Keep the woman prominent in the lower center, with the U-shaped yacht sofa, teak deck, open water, foamy wake, and distant industrial coastline visible around her. Include understated champagne and fruit on the side table without readable branding.",
+    "lighting_and_atmosphere": "Soft overcast daylight, cool blue-grey sea, hazy horizon, gentle natural contrast, quiet premium travel atmosphere.",
+    "technical_specs": "Photorealistic mobile lifestyle photography, vertical 3:4, natural skin texture, realistic anatomy and hands, balanced highlights, no artificial text or watermarks.",
+    "generated_prompt_string": "Photorealistic vertical 3:4 high-angle luxury yacht vacation lifestyle photo, one generic approved adult woman relaxing barefoot on a light grey U-shaped sofa at the bow of a modern silver-grey sport yacht, black sleeveless tank top, dark fitted trousers, teak deck, calm natural pose, champagne and fruit on a side table, choppy blue-grey sea with a frothy wake, hazy overcast sky and distant industrial coastline, soft cool daylight, premium candid social-media aesthetic, realistic anatomy, natural skin texture, no branding, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, celebrity likeness, public-figure likeness, distorted anatomy, extra fingers, malformed hands, duplicate subject, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "luxury-yacht-vacation reference",
+          "required": true,
+          "source": "Attach the provided reference image",
+          "usage": "Match the yacht setting, relaxed seated pose, vertical framing, wardrobe, and cool coastal palette while keeping the adult subject generic and replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the yacht architecture, sofa placement, composition, lighting mood, outfit category, and overall travel-lifestyle consistency. The person, outfit details, yacht, accessories, and environment must remain replaceable. Remove any incidental logos or readable branding."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

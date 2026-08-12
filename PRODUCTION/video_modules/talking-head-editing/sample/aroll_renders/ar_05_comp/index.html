@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1080, height=1920" />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 1080px; height: 1920px; overflow: hidden; background: transparent !important; }
+    #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+    #band { position: absolute; bottom: 0; left: 0; width: 1080px; height: 640px; overflow: hidden; }
+
+    #grain {
+      position: absolute; top: -50%; left: -50%; width: 200%; height: 200%;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
+      opacity: 0; pointer-events: none; z-index: 10; animation: grain-shift 0.5s steps(1) infinite paused;
+    }
+    #grain.active { animation-play-state: running; }
+    @keyframes grain-shift {
+      0%{transform:translate(0,0)} 10%{transform:translate(-5%,-5%)} 20%{transform:translate(-10%,5%)}
+      30%{transform:translate(5%,-10%)} 40%{transform:translate(-5%,15%)} 50%{transform:translate(-10%,5%)}
+      60%{transform:translate(15%,0%)} 70%{transform:translate(0%,10%)} 80%{transform:translate(-15%,0%)}
+      90%{transform:translate(10%,5%)} 100%{transform:translate(5%,0%)}
+    }
+
+    #card {
+      position: absolute; top: 32px; left: 60px; width: 960px;
+      background: rgba(10,14,26,0.88); border: 1px solid rgba(34,211,238,0.18);
+      border-left: 3px solid #22d3ee; border-radius: 20px; padding: 26px 48px 26px 44px;
+      box-shadow: 0 0 48px rgba(34,211,238,0.07), 0 12px 48px rgba(0,0,0,0.75); z-index: 5; overflow: hidden;
+    }
+    #edge-glow { position:absolute; top:0; left:0; width:3px; height:100%; background:#22d3ee; box-shadow:0 0 18px 3px rgba(34,211,238,0.7); border-radius:0 0 0 20px; z-index:6; opacity:0; }
+    #shimmer { position:absolute; inset:0; background:linear-gradient(120deg,transparent 0%,transparent 30%,rgba(255,255,255,0.40) 50%,transparent 70%,transparent 100%); mix-blend-mode:overlay; pointer-events:none; z-index:15; opacity:0; }
+
+    /* Badge */
+    #badge { display:inline-flex; align-items:center; gap:8px; background:rgba(34,211,238,0.10); border:1px solid rgba(34,211,238,0.35); border-radius:50px; padding:5px 16px; margin-bottom:16px; }
+    .badge-dot { width:7px; height:7px; border-radius:50%; background:#22d3ee; box-shadow:0 0 8px rgba(34,211,238,0.8); }
+    .badge-text { font-family:'Inter',sans-serif; font-weight:700; font-size:15px; color:#22d3ee; letter-spacing:0.12em; text-transform:uppercase; }
+
+    /* Process flow */
+    #flow { display:flex; align-items:center; gap:0; margin-bottom:14px; }
+
+    .flow-node {
+      flex:1; text-align:center; padding:10px 8px;
+      background:rgba(34,211,238,0.08); border:1px solid rgba(34,211,238,0.25);
+      border-radius:12px;
+    }
+    .flow-node span {
+      font-family:'Inter',sans-serif; font-weight:700; font-size:18px;
+      color:rgba(230,238,255,0.88); text-shadow:0 1px 8px rgba(0,0,0,0.8);
+      display:block; line-height:1.2;
+    }
+    #node-3 { background:rgba(34,211,238,0.16); border-color:rgba(34,211,238,0.50); }
+    #node-3 span { color:#22d3ee; text-shadow:0 0 12px rgba(34,211,238,0.35); }
+
+    .flow-arrow {
+      flex-shrink:0; width:0px; overflow:hidden;
+      display:flex; align-items:center; justify-content:center;
+      font-family:'Inter',sans-serif; font-size:22px; font-weight:700;
+      color:rgba(34,211,238,0.60);
+    }
+
+    /* Divider */
+    #divider { height:1px; width:0; background:linear-gradient(90deg,rgba(34,211,238,0.45) 0%,transparent 100%); margin-bottom:12px; }
+
+    /* Quote */
+    #quote {
+      font-family:'Playfair Display', serif; font-style:italic;
+      font-size:22px; color:rgba(230,238,255,0.72);
+      text-shadow:0 2px 12px rgba(0,0,0,0.85); line-height:1.3;
+    }
+    #quote .highlight { color:rgba(34,211,238,0.85); }
+
+    #brand-tag { position:absolute; bottom:20px; right:32px; font-family:'Inter',sans-serif; font-weight:700; font-size:13px; color:rgba(34,211,238,0.22); letter-spacing:0.16em; text-transform:uppercase; z-index:6; }
+  </style>
+</head>
+<body>
+  <div id="root" data-composition-id="aroll-05" data-start="0" data-duration="5.261" data-width="1080" data-height="1920">
+    <div id="band">
+      <div id="grain" class="clip" data-start="0" data-duration="5.261" data-track-index="0"></div>
+      <div id="card" class="clip" data-start="0" data-duration="5.261" data-track-index="1" data-layout-allow-overflow>
+        <div id="edge-glow"></div>
+        <div id="shimmer" data-layout-allow-overflow></div>
+
+        <!-- segs 44–50 rel=0.000 "lighting, and fashion. The AI is the brush, but you are still the artist. And finally, number four is the identity." -->
+        <div id="badge"><div class="badge-dot"></div><span class="badge-text">The Process</span></div>
+
+        <div id="flow">
+          <div class="flow-node" id="node-1"><span>Your Eye</span></div>
+          <div class="flow-arrow" id="arrow-1">→</div>
+          <div class="flow-node" id="node-2"><span>AI Tool</span></div>
+          <div class="flow-arrow" id="arrow-2">→</div>
+          <div class="flow-node" id="node-3"><span>The Art</span></div>
+        </div>
+
+        <div id="divider"></div>
+
+        <div id="quote">
+          The AI is the brush — but <span class="highlight">you are still the artist.</span>
+        </div>
+      </div>
+      <div id="brand-tag" class="clip" data-start="0" data-duration="5.261" data-track-index="2">SOLOFLOWS</div>
+    </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      gsap.set('#grain',     { opacity: 0 });
+      gsap.set('#card',      { y: 32, opacity: 0 });
+      gsap.set('#edge-glow', { opacity: 0 });
+      gsap.set('#badge',     { opacity: 0 });
+      gsap.set('#node-1',    { opacity: 0, x: -16 });
+      gsap.set('#arrow-1',   { opacity: 0, width: 0 });
+      gsap.set('#node-2',    { opacity: 0, x: -8 });
+      gsap.set('#arrow-2',   { opacity: 0, width: 0 });
+      gsap.set('#node-3',    { opacity: 0, x: -8 });
+      gsap.set('#divider',   { width: 0 });
+      gsap.set('#quote',     { opacity: 0, y: 8 });
+      gsap.set('#shimmer',   { x: '-130%', opacity: 0 });
+      gsap.set('#brand-tag', { opacity: 0 });
+
+      var tl = gsap.timeline({ paused: true });
+      window.__timelines = window.__timelines || {};
+      window.__timelines['aroll-05'] = tl;
+
+      tl.to('#grain',     { opacity:0.10, duration:0.30, ease:'power1.out', onStart:function(){ document.getElementById('grain').classList.add('active'); } }, 0);
+      tl.to('#card',      { y:0, opacity:1, duration:0.38, ease:'power3.out' }, 0.08);
+      tl.to('#edge-glow', { opacity:1, duration:0.30, ease:'power1.out' }, 0.18);
+      tl.to('#brand-tag', { opacity:1, duration:0.28 }, 0.28);
+      tl.to('#badge',     { opacity:1, duration:0.22, ease:'power2.out' }, 0.28);
+
+      // Process flow nodes
+      tl.to('#node-1',  { opacity:1, x:0, duration:0.28, ease:'power2.out' }, 0.42);
+      tl.to('#arrow-1', { opacity:1, width:40, duration:0.22, ease:'power2.out' }, 0.62);
+      tl.to('#node-2',  { opacity:1, x:0, duration:0.28, ease:'power2.out' }, 0.76);
+      tl.to('#arrow-2', { opacity:1, width:40, duration:0.22, ease:'power2.out' }, 0.96);
+      tl.to('#node-3',  { opacity:1, x:0, duration:0.30, ease:'back.out(1.4)' }, 1.10);
+
+      // Divider + quote
+      tl.to('#divider', { width:'100%', duration:0.34, ease:'power2.out' }, 1.50);
+      tl.to('#quote',   { opacity:1, y:0, duration:0.32, ease:'power2.out' }, 1.74);
+
+      // Shimmer
+      tl.to('#shimmer', { x:'130%', opacity:1, duration:0.60, ease:'power1.inOut' }, 2.60);
+
+      // Fade at 4.761s (5.261 − 0.500)
+      tl.to('#card',      { opacity:0, y:-8, duration:0.44, ease:'power2.in' }, 4.761);
+      tl.to('#brand-tag', { opacity:0, duration:0.28 }, 4.761);
+      tl.to('#grain', { opacity:0, duration:0.30, onComplete:function(){ document.getElementById('grain').classList.remove('active'); } }, 4.861);
+    });
+  </script>
+</body>
+</html>

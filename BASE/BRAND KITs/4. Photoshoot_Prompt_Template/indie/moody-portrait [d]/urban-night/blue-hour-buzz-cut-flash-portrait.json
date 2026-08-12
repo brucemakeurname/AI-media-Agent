@@ -1,0 +1,67 @@
+{
+  "name": "blue-hour-buzz-cut-flash-portrait",
+  "tag": [
+    "approved-adult-face",
+    "buzz-cut",
+    "blue-hour",
+    "on-camera-flash",
+    "brown-sweater",
+    "rocky-overlook"
+  ],
+  "image_type": "blue-hour-flash-fashion-portrait",
+  "image_vibe": "cinematic, calm, dramatic, nocturnal, understated",
+  "image_purpose": "fashion-editorial, character-visual, moodboard",
+  "group": "indie / moody-portrait / urban-night",
+  "prompt": {
+    "project_info": {
+      "theme": "Blue-hour flash portrait on a rocky overlook",
+      "format": "vertical full-body portrait",
+      "color_palette": "dark chocolate brown, dark denim, black, orange-crimson horizon, teal, deep blue"
+    },
+    "main_subject": {
+      "type": "adult man using a required approved-adult face reference",
+      "detail": "An adult man whose face, facial structure, proportions, features, and expression match the attached approved-adult reference. He has very short dark buzz-cut hair, a calm neutral expression, warm undertones, subtle facial imperfections, and natural skin texture. He wears a smooth solid dark-chocolate brown crewneck sweater with a relaxed boxy fit, slightly dropped shoulders, and ribbed collar, cuffs, and hem, paired with loose dark denim jeans and black boots.",
+      "style": "realistic cinematic flash photography"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "full-body vertical frame with the subject standing centered on a rock",
+        "hands relaxed by his sides and a calm direct gaze",
+        "deep dark rocky foreground and subtly silhouetted terrain",
+        "distant city lights or coastline barely visible through haze",
+        "expansive twilight sky with a warm orange-crimson horizon fading to teal and deep blue"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "dramatic frontal on-camera flash balanced with blue-hour ambient light",
+      "effect": "crisp highlights and hard falloff on the subject while retaining sky color",
+      "atmosphere": "quiet, expansive, and cinematic"
+    },
+    "technical_specs": {
+      "render_style": "realistic full-body editorial photography",
+      "resolution": "high-detail vertical image",
+      "color_treatment": "controlled contrast, rich twilight gradient, natural skin texture, restrained film grain"
+    },
+    "generated_prompt_string": "Create a full-body vertical blue-hour portrait of an adult man using the attached approved-adult face reference; preserve his face, facial structure, proportions, features, and expression exactly without celebrity or public-figure substitution. He stands centered on a rock with a calm neutral expression, warm undertones, subtle facial imperfections, natural skin texture, and very short dark buzz-cut hair. He wears a solid dark-chocolate brown crewneck sweater with a smooth non-textured surface, medium-heavy structured fabric, relaxed boxy fit, slightly dropped shoulders, and thick ribbed collar, cuffs, and hem, paired with loose dark denim jeans and black boots. Use dramatic frontal on-camera flash with crisp highlights and hard falloff, balanced to preserve an expansive twilight sky: a warm orange and crimson horizon fading into teal and deep blue. Include a deep rocky foreground, subtly silhouetted terrain, and a faint distant city or coastline in haze. Keep the result realistic and cinematic.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, identity blending, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, text, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "Attach a required approved-adult face reference. Preserve the adult man's facial identity, buzz cut, brown crewneck sweater, dark jeans, boots, centered rock stance, flash treatment, and blue-hour horizon. Do not use a celebrity/public-figure likeness.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-reference",
+          "required": true,
+          "source": "user attachment",
+          "usage": "Keep adult face, facial structure, proportions, features, and expression exactly consistent."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the reference subject must be an approved adult while preserving the original male portrait, wardrobe, flash, rock setting, and blue-hour mood."
+    ]
+  }
+}

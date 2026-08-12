@@ -1,0 +1,66 @@
+{
+  "name": "golden-hour-urban-fashion",
+  "tag": [
+    "urban-fashion",
+    "tailored-blazer",
+    "golden-hour",
+    "architectural",
+    "walking-portrait"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "polished-cinematic",
+  "image_purpose": "lookbook",
+  "group": "indie/enegy-lifestyle/golden-hour-street",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "cinematic golden-hour urban tailoring editorial",
+      "color_palette": "charcoal, taupe, deep shadow, blue glass, and warm gold",
+      "format": "vertical 2:3"
+    },
+    "main_subject": {
+      "description": "an adult woman with shoulder-length wavy hair and natural glowing makeup, in a tailored blazer, fitted knit top, wide-leg trousers, and understated accessories",
+      "pose_and_expression": "walking forward with relaxed shoulders, lifted chin, and a composed confident expression"
+    },
+    "composition_elements": {
+      "camera_angle": "low-to-mid angle tracking portrait",
+      "foreground": "moving tailored silhouette and handbag strap",
+      "background": "modern architecture with clean geometric lines",
+      "visual_hierarchy": "face, tailored outfit, then architectural depth"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "soft golden-hour sunlight with defined shadows and rim light on hair",
+      "atmosphere": "confident, refined, and quietly kinetic"
+    },
+    "technical_specs": {
+      "camera": "Leica SL2-S",
+      "lens": "35mm f/2",
+      "settings": "1/640s, f/2.8, ISO 100",
+      "rendering": "realistic skin and fabric texture, shallow depth of field, restrained cinematic motion"
+    },
+    "generated_prompt_string": "Ultra-realistic cinematic fashion-film street editorial at golden hour. An adult woman with shoulder-length voluminous wavy hair and natural glowing makeup walks forward through modern urban architecture with clean geometric lines and open space. She wears a contemporary tailored blazer layered over a fitted knit top and wide-leg trousers with subtle statement accessories. Relaxed but powerful runway posture, chin lifted, light wind moving her hair and outfit edges, premium fabric texture, a low-to-mid angle 35mm tracking view, balanced composition, sharp focus on the subject, and a recognizable softly blurred city background.",
+    "negative_prompt": "explicit, nsfw, overly revealing, glitch, surreal distortion, cyberpunk neon, fantasy, sci-fi props, exaggerated wind, anime, cartoon, low resolution, blurry face, distorted proportions, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, text, watermark, logo",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-model-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity only."
+        },
+        {
+          "type": "wardrobe",
+          "name": "tailored-look-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Match blazer and trousers while retaining the silhouette."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Maintain the golden-hour city architecture, composed walking pose, and tailored fashion-film mood; replace only approved person or wardrobe elements."
+    }
+  }
+}

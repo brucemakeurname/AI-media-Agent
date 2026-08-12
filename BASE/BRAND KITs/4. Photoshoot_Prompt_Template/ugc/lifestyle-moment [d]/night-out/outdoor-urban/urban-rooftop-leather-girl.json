@@ -1,0 +1,37 @@
+{
+  "name": "urban-rooftop-leather-girl",
+  "tag": ["leather", "rooftop", "patio-heater", "night-fashion"],
+  "image_type": "UGC rooftop fashion portrait",
+  "image_vibe": "edgy, warm, nocturnal, high-fashion",
+  "image_purpose": "Urban rooftop nightlife and fashion social content",
+  "group": "ugc/lifestyle-moment/night-out/outdoor-urban",
+  "prompt": {
+    "project_info": "Create an edgy high-fashion rooftop patio portrait at night with warm bistro lights and a patio heater.",
+    "main_subject": "One generic approved adult woman with long wavy ginger-auburn hair, fair complexion with light freckles, blue-green eyes, natural makeup and a soft pink lip. She wears a classic black leather biker jacket with silver hardware over a secure black fitted top, a high-waisted black leather mini skirt with vertical seams, and stands with a relaxed hand-on-hip pose near a patio heater.",
+    "composition_elements": "Vertical medium waist-up portrait centered near an industrial patio heater with orange flame glow. Include an upscale rooftop patio, woven bistro chairs, small cafe tables, potted greenery, warm string lights and an out-of-focus city skyline with lit skyscrapers.",
+    "lighting_and_atmosphere": "Warm cinematic ambient light from the patio heater and bistro bulbs contrasted with a dark night sky and cool city blues, soft bokeh, realistic leather sheen and confident nocturnal atmosphere.",
+    "technical_specs": "Photorealistic vertical fashion portrait, full-frame camera with 50mm lens, medium depth of field, realistic leather and skin texture, subtle warm film grain, natural shadows, no watermark.",
+    "generated_prompt_string": "Photorealistic vertical medium waist-up rooftop fashion portrait of one generic approved adult woman with long wavy ginger-auburn hair, fair complexion with light freckles, blue-green eyes, natural makeup and a soft pink lip. She wears a classic black leather biker jacket with silver hardware over a secure black fitted top and a high-waisted black leather mini skirt with vertical seam detailing. She stands near an industrial patio heater with a relaxed hand-on-hip pose, looking toward the camera or slightly upward. Include an upscale urban rooftop patio, woven bistro chairs, cafe tables, potted greenery, warm bistro string lights and a softly blurred city skyline. Warm heater glow contrasts with cool city blues and the dark sky, realistic leather sheen, soft bokeh, edgy high-fashion nocturnal mood, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, cleavage emphasis, keyhole exposure, body-part close-up, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "urban-rooftop-leather-girl reference",
+          "required": true,
+          "source": "Attach the provided reference image",
+          "usage": "Match the adult subject's auburn hair, freckles, leather jacket, secure black top, high-waisted skirt, patio heater, rooftop furniture, string lights and city-night palette while keeping identity and details replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the leather-fashion direction, secure layered top, skirt, hair, heater, patio composition, city bokeh and warm-cool lighting. Keep person, clothing details, heater, furniture, skyline and environment replaceable; avoid keyhole exposure, cleavage emphasis, logos and readable text."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the keyhole bralette/bikini top with a secure black fitted top layered under the jacket.",
+      "Preserved the leather jacket, skirt, auburn hair, rooftop patio, heater and night-fashion intent.",
+      "Added non-sexualized framing and anti-slop safety exclusions."
+    ]
+  }
+}

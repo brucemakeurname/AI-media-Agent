@@ -1,0 +1,70 @@
+{
+  "name": "samsung-galaxy-tab-s11-ultra-ultimate-dream-team-ecosystem",
+  "tag": [
+    "tablet-launch",
+    "ecosystem",
+    "galaxy-buds",
+    "wearables"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Brand story",
+  "group": "samsung_1235183798650096",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy Tab S11 Ultra ecosystem pairing poster",
+      "color_palette": "Off-white, navy blue, graphite gray, black, yellow tennis accents"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Lifestyle-free ecosystem poster showing the Galaxy Tab S11 Ultra in landscape drawing mode alongside a white S Pen, Galaxy Buds case, Galaxy Z Flip-style foldable phone, and Galaxy Watch to present the ultimate dream-team setup.",
+      "style": "Photorealistic clean product arrangement, ecosystem hero render, premium Samsung device family poster"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "The ultimate dream team / Galaxy Tab S11 Ultra",
+      "items": [
+        "Top Left: Large centered black title 'The ultimate dream team'.",
+        "Top Right: Smaller centered subtitle 'Galaxy Tab S11 Ultra'.",
+        "Bottom Left: Small gray footnotes about products being sold separately and image simulation.",
+        "Bottom Right: Negative space around the accessory arrangement.",
+        "Center/Background: Landscape Galaxy Tab S11 Ultra showing a tennis-court style illustration, with a white S Pen to the left, open Galaxy Buds case above, blue foldable phone to the upper right, and a black Galaxy Watch on the far right."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio lighting",
+      "effect": "Clean hardware shadows, light reflections on accessories, airy premium ecosystem presentation"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy Tab S11 Ultra ecosystem pairing poster. Centerpiece is a landscape Galaxy Tab S11 Ultra on an off-white background, displaying a tennis-court style creative canvas, surrounded by a white S Pen, an open Galaxy Buds case, a blue foldable Galaxy phone, and a black Galaxy Watch. Background is bright and minimal with lots of empty space. Surrounding elements: exact title 'The ultimate dream team', subtitle 'Galaxy Tab S11 Ultra', and small gray footnotes about products being sold separately. Technical style: photorealistic product render, soft studio lighting, clean hardware shadows and airy premium presentation, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy Tab S11 Ultra ecosystem device lineup",
+          "required": true,
+          "source": "official Samsung ecosystem renders",
+          "usage": "Match exact device types, positions, and color finishes."
+        },
+        {
+          "type": "ui_reference",
+          "name": "tennis-court drawing interface on tablet",
+          "required": true,
+          "source": "original creative screen render",
+          "usage": "Preserve the tennis-themed artwork and side toolbar."
+        },
+        {
+          "type": "text_layout",
+          "name": "ecosystem headline and footnotes",
+          "required": true,
+          "source": "original poster",
+          "usage": "Keep the centered title and lower-left footnote placement."
+        }
+      ],
+      "prompt_instructions": "Use refs for the entire accessory lineup. The composition depends on precise spacing between the tablet, buds, foldable phone, watch, and S Pen, so keep the top-down-ish arrangement accurate."
+    }
+  }
+}

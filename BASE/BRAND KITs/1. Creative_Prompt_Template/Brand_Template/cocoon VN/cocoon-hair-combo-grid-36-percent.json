@@ -1,0 +1,65 @@
+{
+  "name": "cocoon-hair-combo-grid-36-percent",
+  "tag": [
+    "combo-grid",
+    "hair-care",
+    "discount",
+    "catalog",
+    "pomelo",
+    "special-offer"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "cocoon_1424108756143236",
+  "prompt": {
+    "project_info": {
+      "theme": "Multi-combo catalog poster for hair and body care bundles",
+      "color_palette": "Clean White, Pomelo Green, Berry Pink, Amber Gold, Plum"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A clean white catalog-style poster presenting multiple Cocoon combo bundles with product pairs, pink price circles, and 'GIẢM 36%' badges, including pomelo shampoo refill, sugar shower gel, pomelo shampoo, pomelo hair tonic, and Gleditsia scalp scrub.",
+      "style": "Retail catalog poster, minimal e-commerce layout, realistic packshot arrangement"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes combo descriptions such as 'COMBO Túi Refill Dầu Gội Bưởi Không Sulfate 500ml Gel Tắm Đường Thốt Nốt An Giang 500ml', 'COMBO Dầu Gội Bưởi Không Sulfate 310ml Nước Dưỡng Tóc Tinh Dầu Bưởi 140ml', 'COMBO Dầu Gội Bưởi Không Sulfate 310ml Tẩy Da Chết Da Đầu Bồ Kết 200ml', along with 'GIẢM 36%' and prices '610K 389K', '423K 269K', '502K 319K'.",
+      "items": [
+        "Top Left: Large combo copy block on a white background describing the refill shampoo and sugar shower gel bundle.",
+        "Top Right: Product pair of a green refill pouch and amber shower gel bottle, beside a white-outlined pink discount badge and a filled pink price circle.",
+        "Bottom Left: Combo of pomelo shampoo and pomelo hair tonic with another pink discount-price badge pair.",
+        "Bottom Right: Combo of Gleditsia scalp scrub and pomelo shampoo with repeated 'GIẢM 36%' and sale-price circle.",
+        "Center/Background: Spacious white layout organizing multiple bundles in a grid-like retail presentation."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio catalog lighting",
+      "effect": "Even packshot illumination, faint grounding shadows, crisp price readability, clean e-commerce feel"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity retail catalog poster with realistic product packshots",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a multi-combo catalog of Cocoon hair and body care bundles. Centerpiece is a clean white retail layout with several product combos, including pomelo shampoo refill with sugar shower gel, pomelo shampoo with pomelo hair tonic, and pomelo shampoo with Gleditsia scalp scrub. Background is a plain white e-commerce field. Surrounding elements: combo text blocks, repeated 'GIẢM 36%' badges, and pink sale-price circles showing values like '610K 389K', '423K 269K', and '502K 319K'. Keep the neat grid structure, exact Vietnamese combo copy, and realistic packshot alignment. Technical style: high fidelity retail catalog poster with realistic product packshots, soft studio catalog lighting, even packshot illumination and crisp readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Cocoon combo packshot assortment",
+          "required": true,
+          "source": "Attach official packshots or crops from the original poster",
+          "usage": "Preserve exact product pairs, pack sizes, and product family colors."
+        },
+        {
+          "type": "text_layout",
+          "name": "Combo grid copy and pricing circles",
+          "required": true,
+          "source": "Use the original creative as layout reference",
+          "usage": "Keep the combo copy blocks, repeated 36 percent badges, and price-circle positions."
+        }
+      ],
+      "prompt_instructions": "Use the original poster as a composition reference for gpt-image-2. The output should retain the white retail grid feel and exact combo-price mapping, not compress or redesign the catalog layout."
+    }
+  }
+}

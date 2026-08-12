@@ -1,0 +1,75 @@
+{
+  "name": "zhao-lusi-red-black-gown",
+  "tag": [
+    "red-black-gala",
+    "floral-lace-applique",
+    "black-sequins",
+    "gold-jewelry",
+    "close-up-portrait"
+  ],
+  "image_type": "gala-evening-fashion-portrait",
+  "image_vibe": "bold-sophisticated-glamour",
+  "image_purpose": "press-kit",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Bold red, silver, and black evening-gala portrait",
+      "event_context": "fictional awards-ceremony gala",
+      "color_palette": "metallic silver, vivid red, black sequins, deep green bokeh, gold jewelry, and warm natural skin tones"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult woman centered and facing the camera with a gentle smile, sleek low bun with middle part, luminous natural skin texture, understated makeup, and calm sophisticated expression",
+      "wardrobe": "strapless evening gown with metallic silver embroidery transitioning into bold three-dimensional red floral lace appliqués and shimmering black sequined skirt creating a starry effect",
+      "accessories": "delicate gold necklace, drop earrings, stacked gold bangles on the left wrist, and soft iridescent manicure"
+    },
+    "composition_elements": {
+      "framing": "vertical close-up portrait with the adult woman centered",
+      "subject_position": "adult woman facing camera with relaxed arms and jewelry visible",
+      "background": "evening gala with blurred green and white lights and no recognizable public figures or event branding"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft diffused event key light at approximately 4500K with gentle warm fill",
+      "effect": "controlled sparkle on embroidery, red appliqués, sequins, and gold jewelry, soft luminous skin, elegant gala bokeh"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 85mm portrait lens, professional evening-gala photography",
+      "resolution": "4k vertical close-up portrait",
+      "finish": "realistic skin pores, accurate floral and sequin texture, restrained dewy highlights, subtle film grain"
+    },
+    "generated_prompt_string": "A vertical close-up portrait of a clearly adult woman centered and facing the camera with a gentle smile, sleek low bun with middle part, luminous natural skin texture, understated makeup, and calm sophisticated expression. She wears a strapless evening gown with metallic silver embroidery transitioning into bold three-dimensional red floral lace appliqués and a shimmering black sequined skirt creating a starry effect. Add a delicate gold necklace, drop earrings, stacked gold bangles on the left wrist, and soft iridescent manicure. Set the portrait at a fictional awards-ceremony gala with blurred green and white lights, no recognizable public figures or event branding. Use soft diffused event light at approximately 4500K with gentle warm fill, controlled sparkle on embroidery, red appliqués, sequins, and jewelry, an 85mm lens, realistic pores, accurate material texture, restrained dewy highlights, and subtle film grain. Use an approved adult model rather than a public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, celebrity likeness, recognizable public figures, real event logos, transparent fabric, visible intimate areas, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, illegible text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-red-black-gala-model",
+          "required": true,
+          "source": "Original red-black gown gala preview image",
+          "usage": "Attach an approved adult face reference for identity continuity; preserve facial structure without the source's named public-figure identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "silver-red-floral-black-sequin-gown",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the silver embroidery, red floral appliqués, black sequined skirt, gold jewelry, and manicure; keep the gown consistent."
+        },
+        {
+          "type": "location",
+          "name": "green-white-gala-bokeh",
+          "required": false,
+          "source": "Original preview image and source prompt",
+          "usage": "Optional environment reference; preserve the green-and-white evening bokeh and calm subject contrast while replacing venue details and guests."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person and exact gown/jewelry references; the gala background is optional. Keep the adult identity, low-bun pose, red floral appliqués, black sequins, gold accessories, and green-white bokeh consistent. Replace the source celebrity and real awards context with approved generic identity and fictional gala; venue and guests are replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public figure and real awards context with an approved clearly adult generic model and fictional gala while preserving the red-black gown, jewelry, and close-up composition."
+    ]
+  }
+}

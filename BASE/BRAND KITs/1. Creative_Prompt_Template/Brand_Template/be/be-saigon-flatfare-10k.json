@@ -1,0 +1,56 @@
+{
+  "name": "be-saigon-flatfare-10k",
+  "tag": ["saigon promo", "flat fare", "10k", "bebike", "voucher code"],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "be_27694281380258315",
+  "prompt": {
+    "project_info": {
+      "theme": "Saigon beBike flat-fare promotion",
+      "color_palette": "Royal blue, bright yellow, white, black, sky blue"
+    },
+    "main_subject": {
+      "type": "Text/Character/Object",
+      "detail": "A bright Saigon ride promo poster with a large 10K flat-fare headline, a big illustrated beBike scooter carrying two riders in the foreground, a giant smartphone showing the ride screen, and smaller scooter vignettes around a city landmark backdrop.",
+      "style": "Hybrid city-promo poster with vector mascots and app UI prop"
+    },
+    "composition_elements": {
+      "type": "Typography/Characters/Smartphone/City Background",
+      "text": "be, Quá xá rẻ Sài Gòn đi, Đồng giá 10K, Nhập mã SAIGONRE, Di chuyển, beBike, *Áp dụng cho beBike/beBike Plus",
+      "items": [
+        "Top Center: white be logo.",
+        "Upper Middle: large white text 'Quá xá rẻ Sài Gòn đi'.",
+        "Center: yellow rounded bar with black text 'Đồng giá 10K'.",
+        "Below center: white text 'Nhập mã' followed by a yellow coupon block 'SAIGONRE'.",
+        "Bottom Center: oversized illustrated beBike with two riders, one in sunglasses.",
+        "Right Center: giant smartphone showing the be app ride screen with a yellow scooter icon and text 'Di chuyển'.",
+        "Lower Left and Lower Right: smaller scooter mascot scenes.",
+        "Background: Saigon architecture with blue sky and street scene.",
+        "Bottom: white footnote '*Áp dụng cho beBike/beBike Plus'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright commercial daylight",
+      "effect": "Energetic city-offer mood, clean app-promo glow, crisp mascot illustration"
+    },
+    "technical_specs": {
+      "render_style": "Hybrid illustrated mobility promotion poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "graphic", "name": "beBike riders and smaller scooter scenes", "required": true, "source": "source image mascot reference", "usage": "Preserve the large foreground scooter pair and the two small side vignettes."},
+        {"type": "ui_reference", "name": "smartphone ride screen", "required": true, "source": "source image UI reference", "usage": "Keep the ride-selection layout and the 'Di chuyển' display."},
+        {"type": "location", "name": "Saigon street and landmark backdrop", "required": true, "source": "source image location reference", "usage": "Preserve the historic building and skyline mix."},
+        {"type": "text_layout", "name": "10K promo headline and code block", "required": true, "source": "source image text reference", "usage": "Keep the exact wording, yellow highlight bars, and footnote placement."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the layout balance between headline, scooter, phone, and background landmarks.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the bright blue-and-yellow be promotional style."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square beBike promotion poster with a blue-sky Saigon street background. Place the white be logo at the top center. Add large white text 'Quá xá rẻ Sài Gòn đi' and a large yellow rounded block with black text 'Đồng giá 10K'. Below, add 'Nhập mã' and a yellow coupon label 'SAIGONRE'. In the foreground place a large illustrated yellow beBike carrying two riders, with one rider in sunglasses. Add a giant smartphone on the right showing the be app ride screen with a yellow scooter icon and the text 'Di chuyển'. Include smaller scooter mascot scenes at the lower left and lower right, and a bottom footnote '*Áp dụng cho beBike/beBike Plus'. Technical style: hybrid illustrated mobility promotion poster, bright commercial daylight, 8k resolution, highly detailed.",
+    "negative_prompt": "dark mood, incorrect text, wrong app screen, distorted scooter, low resolution, cluttered layout, watermark, signature"
+  }
+}

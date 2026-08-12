@@ -1,0 +1,72 @@
+{
+  "name": "portrait-grid-studio",
+  "tag": [
+    "adult-woman",
+    "nine-grid",
+    "studio-portrait",
+    "beige-background",
+    "blue-shirt",
+    "editorial"
+  ],
+  "image_type": "studio-portrait-contact-sheet",
+  "image_vibe": "soft-intimate-editorial",
+  "image_purpose": "moodboard",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified an adult subject and kept the non-sexual portrait-study concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "nine-panel soft-beige studio portrait study",
+      "color_palette": "warm beige, deep navy, off-white, natural skin tone",
+      "format": "square 3x3 grid"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with long dark brown hair, natural makeup, a deep navy light shirt, off-white trousers, and simple gold hoop earrings.",
+      "style": "finely edited editorial portrait contact sheet with visible skin texture"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "nine equal image panels separated by slim warm-beige gutters",
+        "macro lip and finger detail, eye close-up, black-and-white chin-support portrait",
+        "half-hidden face, hands framing face, hair-over-eye crop, chin-touch detail",
+        "side seated half-body pose and cinematic tearful side profile",
+        "consistent soft beige studio, navy top, and off-white trousers"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "large area soft light front-right at approximately 4800K, silver reflector left, faint top rim light",
+      "effect": "gentle facial modeling, soft shadows, tactile skin and fabric, intimate editorial calm"
+    },
+    "technical_specs": {
+      "render_style": "mixed 85mm f/1.8 portrait and macro close-ups, shallow depth of field, fine film grain, coherent panel color grade",
+      "resolution": "high resolution square 3x3 grid"
+    },
+    "generated_prompt_string": "In a soft beige studio, construct a 3x3 finely edited photo grid of the same adult woman. She wears a deep navy light shirt, off-white trousers, and is barefoot in the seated panel to preserve raw natural texture. Use a large-area soft key from the front right, a silver reflector on the left, and a faint rim light from above. Create nine detailed compositions: an 85mm f/1.8 extreme lip close-up; an eye close-up; a black-and-white chin-support portrait; a half-covered face portrait; a hand-over-face close-up; a hair-over-one-eye composition; a hand-touching-chin detail; a half-body side sitting pose; and a cinematic side profile with a single tear. Keep the subject identity, wardrobe, soft-beige studio environment, natural skin texture, and visual grading consistent across all panels.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, mismatched panel identity, duplicated hands",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-woman-portrait-reference",
+          "required": false,
+          "source": "Attach an authorized adult reference when one identity must remain consistent across all nine panels.",
+          "usage": "Keep face, hair, and skin tone consistent across every panel; otherwise use a generic adult model."
+        },
+        {
+          "type": "wardrobe",
+          "name": "navy-shirt-and-off-white-trousers-reference",
+          "required": false,
+          "source": "Attach wardrobe references when exact garments matter.",
+          "usage": "Keep navy top and off-white trouser continuity; garments may be substituted."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Any person reference must depict an authorized adult and stay consistent across all nine panels. Preserve the 3x3 grid, pose sequence, beige studio, navy-and-off-white wardrobe palette, and gentle soft-light treatment."
+    }
+  }
+}

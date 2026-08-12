@@ -1,0 +1,64 @@
+{
+  "name": "extreme-wide-angle-grid-portrait",
+  "tag": [
+    "four-panel-grid",
+    "wide-angle",
+    "identity-preservation",
+    "dynamic-perspective",
+    "cinematic-portrait"
+  ],
+  "image_type": "cinematic-portrait-grid",
+  "image_vibe": "dynamic-bold-photorealistic",
+  "image_purpose": "moodboard",
+  "group": "indie/enegy-lifestyle/cinematic-portrait",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Retained dynamic wide-angle grid treatment while removing body-part-near-lens exaggeration and requiring adult identity preservation."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "four-panel wide-angle cinematic transformation of an attached adult portrait",
+      "color_palette": "derived strictly from the source image and expanded environment",
+      "format": "2x2 grid of mid-close dynamic portraits"
+    },
+    "main_subject": {
+      "type": "adult person from supplied reference image",
+      "detail": "Preserve exact adult identity, facial features, age presentation, hairstyle, clothing logic, and key visual traits across every panel.",
+      "style": "stylish photorealistic cinematic portrait with natural anatomy"
+    },
+    "composition_elements": {
+      "text": "preserve source text only if present; do not add text, logo, or watermark",
+      "items": [
+        "four distinct mid-close portrait views in a balanced 2x2 grid",
+        "dynamic viewpoints from low, high, and oblique positions",
+        "wide-angle perspective that expands space without exaggerating body parts",
+        "consistent expanded source environment across all panels"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "cinematic light derived from the source",
+      "effect": "controlled high contrast, coherent shadows, crisp natural textures, and precise shared color grade"
+    },
+    "technical_specs": {
+      "camera": "Sony A7R V",
+      "lens": "FE 20mm f/1.8 at f/4",
+      "render_style": "controlled wide-angle perspective, panel continuity, natural anatomy, no digital gloss"
+    },
+    "generated_prompt_string": "Using the attached adult reference image as mandatory identity and environment source, create a balanced 2x2 grid of four photorealistic cinematic mid-close portraits. Preserve the person's exact identity, face, age presentation, hairstyle, clothing logic, and key traits in every panel. Use four dynamic wide-angle viewpoints from low, high, and oblique positions, but maintain natural anatomy and keep all body proportions realistic; use perspective to reveal the setting rather than to enlarge body parts near the lens. Expand the original environment conservatively with consistent materials, palette, and lighting logic across the grid. Use controlled cinematic contrast, crisp natural textures, and precise shared color grading. Preserve source text only if clearly present; otherwise add no text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, identity change, face swap, age alteration, public figure, celebrity likeness, minor, child, body-part exaggeration, foot close-up, sexualized pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, duplicate person, extra limbs, deformed, inconsistent panels, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-and-environment-reference",
+          "required": true,
+          "source": "Attach the original authorized adult non-public-figure portrait image.",
+          "usage": "Mandatory source for exact adult identity, age presentation, clothing, source environment, lighting logic, and existing text."
+        }
+      ],
+      "prompt_instructions": "Original authorized adult non-public-figure reference is mandatory. Maintain identity and scene continuity across four panels; do not exaggerate body parts, introduce unverified assets, or add text or branding absent from the source."
+    }
+  }
+}

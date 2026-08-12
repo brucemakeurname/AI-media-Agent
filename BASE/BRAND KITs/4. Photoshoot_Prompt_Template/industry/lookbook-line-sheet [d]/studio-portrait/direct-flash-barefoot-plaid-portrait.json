@@ -1,0 +1,87 @@
+{
+  "name": "direct-flash-barefoot-plaid-portrait",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "direct-flash",
+    "plaid-tailoring"
+  ],
+  "image_type": "direct-flash tailored stairwell portrait",
+  "image_vibe": "raw, candid, high-contrast, editorial",
+  "image_purpose": "fashion lookbook and direct-flash editorial",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic 9:16 direct-flash editorial portrait of one original approved adult woman seated low on concrete stairs in gray plaid tailoring.",
+    "main_subject": "Original approved adult woman with voluminous golden-blonde hair and bottleneck bangs, blue-green eyes, natural pores and skin texture, neutral intense gaze, glossy black nail lacquer, white cotton poplin shirt, tailored gray Prince of Wales check blazer and matching lower garment, deep-crimson satin necktie, and barefoot styling.",
+    "composition_elements": [
+      "Subject sits in a low crouched position on concrete stairs with knees raised, hands near the feet, and face and extremities visible in a tight 9:16 vertical frame.",
+      "White plaster stairwell with subtle stippled texture, terracotta-toned step nosing, and a black tubular handrail in the background.",
+      "Hard flash shadow falls against the wall; maintain the gray plaid geometry, crimson tie, black nails, bare feet, and raw candid framing.",
+      "Keep the direct gaze and natural hand and toe anatomy consistent."
+    ],
+    "lighting_and_atmosphere": "Direct high-intensity on-camera flash with sharp drop shadow, high-contrast chiaroscuro, specular highlights on skin and black lacquer, and realistic flash falloff.",
+    "technical_specs": "Photorealistic 9:16 vertical medium close-up, 50mm or 85mm prime lens at f/2.8, ISO 200, 8K detail, sharp face and hands/feet, realistic cotton, wool-blend, skin, concrete, and nail texture, subtle film grain, no text or watermark.",
+    "generated_prompt_string": "Photorealistic 9:16 direct-flash editorial portrait of one original approved adult woman with voluminous golden-blonde hair and bottleneck bangs, blue-green eyes, natural pores and skin texture, neutral intense gaze, glossy black nail lacquer, white cotton poplin shirt, tailored gray Prince of Wales check blazer and matching lower garment, deep-crimson satin necktie, and barefoot styling. She sits in a low crouched position on concrete stairs with knees raised and hands near her feet, facing the camera in a tight vertical frame. Use a white plaster stairwell with subtle stippled texture, terracotta step nosing, black tubular handrail, hard direct on-camera flash, sharp wall shadow, high-contrast chiaroscuro, 50mm or 85mm lens at f/2.8, ISO 200, sharp face hands and feet, raw candid aesthetic, no text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "celebrity likeness",
+      "explicit measurements",
+      "body-part emphasis",
+      "glasses",
+      "shoes",
+      "socks",
+      "stockings",
+      "distorted fingers",
+      "fused toes",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "warped plaid",
+      "watermark",
+      "text",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "direct-flash-barefoot-plaid-portrait.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for original approved-adult identity, face, hair, expression, pose, and extremity reference."
+        },
+        {
+          "type": "wardrobe",
+          "name": "gray plaid tailoring, white shirt, crimson tie, black nail lacquer",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve plaid scale, shirt, tie, tailoring, nail color, and barefoot styling."
+        },
+        {
+          "type": "location",
+          "name": "white plaster concrete stairwell with terracotta nosing",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve steps, wall, handrail, direct-flash shadow, and environment."
+        }
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, and location references; no optional assets are needed. Keep identity, face, hair, outfit, nails, pose, bare feet, stairwell, lighting, environment, and typography consistent. Replace only with an equivalent approved adult, equivalent wardrobe, or equivalent stairwell reference. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public-figure identity and removed body-measurement emphasis while preserving the tailored outfit, barefoot stair pose, direct flash, and raw editorial intent."
+    ]
+  }
+}

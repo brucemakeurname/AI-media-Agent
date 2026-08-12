@@ -1,0 +1,51 @@
+{
+  "name": "zhao-lusi-silver-liquid-dress",
+  "tag": ["ugc", "viral-trending", "cinematic-portrait", "silver-liquid-dress", "red-carpet", "high-fashion"],
+  "image_type": "cinematic high-fashion portrait",
+  "image_vibe": "modern princess, dreamy, poised, red-carpet elegance",
+  "image_purpose": "editorial social visual",
+  "group": "ugc/viral-trending",
+  "prompt": {
+    "project_info": "Create a photorealistic vertical cinematic high-fashion portrait at 504x1002 target resolution with an ultra-clean editorial finish and cinematic realism.",
+    "main_subject": "One original adult woman with auburn loose voluminous waves, slightly side-parted hair, warm radiant makeup, dewy realistic skin, luminous facial contours, and bold cherry-red lips. She stands upright with an elegant posture, looks directly at the camera, and has a soft, poised expression with calm confidence. Do not reproduce Zhao Lusi, Rosy Zhao, or any other public-figure likeness.",
+    "composition_elements": "Dress the adult woman in a metallic silver mini dress with a liquid-shimmer finish, cowl neckline, thin spaghetti straps, a decorative rosette on the right shoulder, and a tiered ruffled hemline. Use a clean minimalist white studio backdrop and a vertical fashion-editorial composition. The styling should feel like modern-princess red-carpet elegance.",
+    "lighting_and_atmosphere": "Bright, soft, even, dreamy studio lighting with luminous but realistic facial highlights. Contrast the cool metallic silver dress against warm auburn hair and cherry-red lips while keeping the white studio background clean and uncluttered.",
+    "technical_specs": "Vertical 504x1002 composition, high-fashion editorial photography, cinematic realism, realistic liquid-shimmer fabric reflections, natural skin texture, crisp dress details, clean edges, no text or watermark.",
+    "generated_prompt_string": "Photorealistic vertical cinematic high-fashion portrait of one original adult woman standing upright and looking directly at the camera with soft poised calm confidence. Auburn loose voluminous waves, slightly side-parted, realistic dewy skin, luminous facial contours, warm radiant makeup and bold cherry-red lips. She wears a metallic silver liquid-shimmer mini dress with a cowl neckline, thin spaghetti straps, decorative rosette on the right shoulder and tiered ruffled hemline, modern-princess red-carpet elegance. Clean minimalist white studio backdrop, bright soft even dreamy studio lighting, cool silver dress contrasted with warm hair and lips, ultra-clean editorial finish, cinematic realism, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Zhao Lusi likeness, Rosy Zhao likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "zhao-lusi-silver-liquid-dress.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the silver liquid-shimmer mini dress, cowl neckline, rosette shoulder detail, ruffled hem, auburn waves, red lips, white studio, vertical framing, and dreamy lighting; replace the named actress with an original adult subject."
+        },
+        {
+          "type": "source_url",
+          "name": "original prompt post",
+          "required": false,
+          "source": "https://x.com/AnkitMi16412441/status/2021007744095092872",
+          "usage": "Context only; local written prompt is authoritative."
+        },
+        {
+          "type": "image_asset",
+          "name": "1775007505628-gla9b1si-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1775007505628-gla9b1si-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required; source URL and image asset are optional context. Keep wardrobe construction, hair, makeup, pose, vertical framing, studio background and lighting consistent. Replace identity only; do not introduce a celebrity likeness or change the dress design."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Zhao Lusi/Rosy Zhao's named identity and public-figure likeness with an original adult woman.",
+      "Added required safety and AI-artifact exclusions.",
+      "Preserved the source dress design, pose, styling, lighting, and high-fashion creative intent."
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "retro-indian-poster-girl",
+  "tag": ["indian-fashion", "emerald-saree", "retro-poster", "botanical-illustration", "magazine-cover"],
+  "image_type": "campaign-key-visual",
+  "image_vibe": "soft-romantic",
+  "image_purpose": "editorial",
+  "group": "campaign-key-visual",
+  "prompt": {
+    "project_info": {"theme": "Retro Indian fashion poster", "color_palette": "pale mint, emerald green, antique gold, white, pink peony and cream rose"},
+    "main_subject": {"type": "adult Indian woman", "detail": "Adult Indian woman with shoulder-length wavy black hair, emerald green silk saree with intricate gold zari motifs, cheerful expression looking slightly to the side and a single white daisy tucked behind her ear.", "style": "nostalgic grainy film portrait with soft cinematic lighting"},
+    "composition_elements": {"layout": "vertical poster portrait with large ALICE headline above and botanical illustrations in both lower corners", "text": "Face of a Golden Era. at top; ALICE. in tall dark forest-green vintage type.", "items": ["pale mint textured background", "pink peonies and cream roses at lower corners", "gold zari motifs on saree", "soft vintage paper wear and film grain"]},
+    "lighting_and_atmosphere": {"type": "large diffused key at 4800K with soft mint bounce and gentle hair rim", "effect": "soft light, nostalgic contrast, tactile paper texture and subtle botanical depth"},
+    "technical_specs": {"render_style": "Leica Q3, Summilux 28mm crop or 75mm portrait look, retro editorial poster photography", "resolution": "4K", "aspect_ratio": "4:5", "optics": "natural portrait perspective, visible film grain and softened highlights"},
+    "generated_prompt_string": "Use the reference image in a retro-style Indian movie poster or magazine cover featuring an adult woman with shoulder-length wavy black hair, wearing an emerald green silk saree with intricate gold zari motifs. She makes a playful cheerful expression and looks slightly to the side. A single white daisy is tucked behind her ear. Behind her, large tall bold vintage typography reads \"ALICE.\" in dark forest green. The background is textured pale mint with vintage botanical illustrations of pink peonies and cream roses on the bottom left and right. Small serif text at the top reads \"Face of a Golden Era.\" The image has nostalgic grainy film texture and soft lighting. Preserve the retro poster concept and the approved adult face reference; do not use a public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, misspelled ALICE text, distorted saree motifs, cluttered botanical background",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-indian-woman-face", "required": true, "source": "source image supplied with this template", "usage": "Preserve approved adult face, hair, expression and likeness."}, {"type": "wardrobe", "name": "emerald-silk-saree-gold-zari", "required": true, "source": "source image supplied with this template", "usage": "Preserve saree color, silk sheen, drape and gold motifs."}, {"type": "graphic", "name": "retro-botanical-mint-poster", "required": true, "source": "source image supplied with this template", "usage": "Preserve pale mint paper, flowers, film wear and typography hierarchy."}], "prompt_instructions": "Attach the approved adult face reference and source image for saree, daisy and poster layout. Keep the first visual concept authoritative; the source contains a second unrelated hoodie-and-letters prompt, which should be treated as a separate concept and not merged into this template."}
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

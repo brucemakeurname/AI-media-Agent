@@ -1,0 +1,27 @@
+{
+  "name": "twilight-satin-fashion-grid",
+  "tag": ["yellow-satin", "golden-hour", "vintage-film", "four-panel", "grid-collage"],
+  "image_type": "fashion-editorial-grid",
+  "image_vibe": "warm-radiant-vintage-cinematic",
+  "image_purpose": "lookbook",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Radiant four-panel fashion editorial collage inspired by warm sunlight and vintage film, with consistent color grading across all frames.",
+    "main_subject": "One original approved adult woman with long loose natural waves, fresh skin, sun-kissed glow and a confident radiant mood, wearing a butter-yellow or champagne satin slip dress.",
+    "composition_elements": "Four clean square panels. Panel 1: full body walking forward with dress flowing and soft fabric motion blur. Panel 2: three-quarter body standing tall with hands on waist and sharp focus. Panel 3: half body turning head over shoulder with soft smile and gentle hair motion blur. Panel 4: detail close-up of hands lifting the dress hem slightly, emphasizing satin folds, highlights and luxury texture. Use a minimal beige studio wall or sunlit balcony with no props.",
+    "lighting_and_atmosphere": "Golden-hour cinematic lighting with backlit rim light, warm side sunlight, soft glow and honey highlights, soft shadows and glowing natural skin tones.",
+    "technical_specs": "Analog fashion editorial, 50mm lens at f/1.8, selective clarity, film grain, halation, subtle bloom, slight vignette, medium-low filmic contrast, 1:1 four-panel grid.",
+    "generated_prompt_string": "Create a radiant fashion editorial collage inspired by warm sunlight and vintage film. Show one original approved adult woman with long loose natural waves, fresh skin, sun-kissed glow and a confident radiant mood, wearing a butter-yellow or champagne satin slip dress with flowing fabric and elegant reflective silk texture. Use a minimal beige studio wall or sunlit balcony, soft shadows, clean background and no props. Arrange four clean panels in a grid with consistent color grading. Panel 1: full body walking forward, dress flowing with motion and soft fabric movement blur, backlit golden-hour rim light. Panel 2: three-quarter body standing tall with hands on waist, still and sharp focus on face, warm side sunlight. Panel 3: half body turning head over shoulder with a soft smile, gentle motion blur in hair and soft glow. Panel 4: detail close-up of hands lifting the dress hem slightly, emphasizing fabric folds, highlights and luxury texture with highlight bloom. Use analog fashion editorial photography, 50mm lens at f/1.8, soft focus with selective clarity, film grain, halation, subtle bloom, natural imperfections, warm honey highlights, soft shadows, medium-low filmic contrast, slight vignette and 1:1 square grid composition.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, nudity, child, teen, identity drift, text, logo, watermark, cartoon style, oversharp HDR, plastic skin, waxy, over-smooth, over-saturated, airbrushed, extra fingers, deformed hands, distorted anatomy, low resolution, artifacts",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "twilight-satin-fashion-grid.jpg", "required": true, "source": "local reference image", "usage": "Attach for the original approved-adult face, facial structure, hair, expression and consistent identity across all four panels."},
+        {"type": "wardrobe", "name": "butter-yellow or champagne satin slip dress", "required": true, "source": "local reference image", "usage": "Preserve supplied satin color, reflective texture, drape and fit across panels."},
+        {"type": "background", "name": "minimal beige wall or sunlit balcony", "required": true, "source": "local reference image", "usage": "Preserve clean environment, warm backdrop and absence of props."},
+        {"type": "color_palette", "name": "butter yellow, champagne, warm beige and honey gold", "required": true, "source": "local reference image", "usage": "Preserve palette, filmic contrast, grain and consistent grading across the grid."}
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, background and color-palette references; no optional assets are needed. Keep approved-adult identity, outfit, four-panel count, poses, environment, lighting, color treatment and typography consistent. Replace only with an equivalent approved adult, supplied wardrobe or environment. Typography is not applicable; do not invent text, logos or watermark."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

@@ -1,0 +1,70 @@
+{
+  "name": "alpine-minimalist-girl",
+  "tag": [
+    "adult-woman",
+    "minimalism",
+    "motion-blur",
+    "crowd",
+    "black-turtleneck",
+    "editorial"
+  ],
+  "image_type": "minimalist-fashion-portrait",
+  "image_vibe": "quiet-stillness-in-motion",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "source_url": "https://x.com/nasan_0422/status/2021063269423677926",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "still figure within a blurred crowd",
+      "color_palette": "clean white, black, soft beige, muted skin tones",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with light blonde hair gathered in a low loose bun, blue eyes, small gold hoop earrings, and a black turtleneck.",
+      "style": "high-fashion editorial portrait with authentic film texture"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "sharp standing subject slightly right of center",
+        "three anonymous passersby rendered as horizontal motion blur",
+        "bright white minimal gallery-like background",
+        "subject turns head directly toward camera"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "large soft daylight source at approximately 5400K",
+      "effect": "gentle magazine contrast; background stays pale and abstract while subject is crisp"
+    },
+    "technical_specs": {
+      "render_style": "50mm editorial film photograph, subject sharp at f/2.8, controlled long-exposure blur on passersby",
+      "resolution": "high resolution, 4:5"
+    },
+    "generated_prompt_string": "A high-fashion magazine pictorial of an adult Alpine-looking woman standing still and turning her head toward the camera in the center of a bright, clean, slightly abstract interior. She wears a black minimalist turtleneck and has a calm, stoic expression. Surround her with blurry silhouettes of people passing by, emphasizing the contrast between motion blur and her static presence. Pure art photography, soft magazine texture, film composition, high resolution, 4:5.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-editorial-subject-reference",
+          "required": false,
+          "source": "Attach an adult person reference when exact likeness is required.",
+          "usage": "Preserve facial structure, low bun, and neutral expression."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-minimal-turtleneck",
+          "required": false,
+          "source": "Attach wardrobe reference when exact knit texture matters.",
+          "usage": "Keep a simple black high-neck silhouette."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult subject's stillness, black turtleneck, bright minimal interior, and anonymous blurred crowd. Subject and wardrobe can be independently replaced."
+    }
+  }
+}

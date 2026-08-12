@@ -1,0 +1,86 @@
+{
+  "name": "confident-spider-girl-studio-portrait",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "superhero-inspired",
+    "red-blue"
+  ],
+  "image_type": "superhero-inspired studio fashion portrait",
+  "image_vibe": "confident, playful, cinematic, polished",
+  "image_purpose": "character lookbook and editorial portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic studio portrait of one original approved adult woman with long wavy red hair seated on a concrete floor against a neutral gray backdrop.",
+    "main_subject": "Original approved adult woman with long wavy red hair, fair natural skin texture, relaxed confident expression, and subtle smile. She wears a red-and-blue spider-themed bodysuit with supplied web patterns and off-shoulder styling, treated as a fictional superhero-inspired costume without an unapproved franchise logo.",
+    "composition_elements": [
+      "Subject seated on a concrete floor, leaning back on one hand in a relaxed confident pose.",
+      "Neutral gray studio backdrop with uncluttered floor-to-wall transition.",
+      "Keep the red-and-blue color blocking, supplied web pattern, costume seams, and face clearly visible.",
+      "Use a medium-full editorial portrait with natural subject scale."
+    ],
+    "lighting_and_atmosphere": "Soft diffused studio lighting with cinematic tones, gentle shadows, natural skin rendering, and polished editorial clarity.",
+    "technical_specs": "Photorealistic 3:4 portrait, 85mm lens, shallow depth of field, high-detail fabric, concrete, and skin texture, subtle natural grain, sharp focus, no text or watermark.",
+    "generated_prompt_string": "Photorealistic studio portrait of one original approved adult woman with long wavy red hair and fair natural skin texture, seated on a concrete floor against a neutral gray backdrop. She wears a fictional superhero-inspired red-and-blue spider-themed bodysuit with supplied web patterns and off-shoulder styling, without any unapproved franchise logo. Her pose is relaxed and confident, leaning back on one hand with a soft natural expression and subtle smile. Use soft diffused studio lighting, cinematic tones, gentle shadows, natural skin texture, professional editorial photography, 85mm lens, shallow depth of field, 3:4 composition, no added text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "celebrity likeness",
+      "unapproved franchise logo",
+      "blurry",
+      "low resolution",
+      "distorted anatomy",
+      "extra fingers",
+      "bad hands",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "harsh lighting",
+      "overexposed highlights",
+      "underexposed shadows",
+      "watermark",
+      "text",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "confident-spider-girl-studio-portrait.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for original approved-adult identity, face, hair, expression, pose, and styling reference."
+        },
+        {
+          "type": "wardrobe",
+          "name": "red-and-blue spider-themed bodysuit with supplied web pattern",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the supplied web pattern, colors, seams, off-shoulder construction, and fictional costume treatment."
+        },
+        {
+          "type": "location",
+          "name": "neutral gray concrete studio",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the floor, backdrop, and soft studio environment."
+        }
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, and location references; no optional assets are needed. Keep identity, face, hair, outfit, web pattern, pose, studio environment, lighting, and color consistency. Replace only with an equivalent approved adult, equivalent supplied costume, or equivalent studio reference. Typography is not applicable; do not add logos, text, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an original approved adult and fictionalized the spider-inspired costume without changing its supplied red-blue web-pattern concept."
+    ]
+  }
+}

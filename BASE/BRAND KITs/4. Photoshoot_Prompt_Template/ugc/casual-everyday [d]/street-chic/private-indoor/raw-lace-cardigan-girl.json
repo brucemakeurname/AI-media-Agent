@@ -1,0 +1,19 @@
+{
+  "name": "raw-lace-cardigan-girl",
+  "tag": ["ugc", "casual-everyday", "street-chic", "private-indoor", "lace-cardigan", "portrait"],
+  "image_type": "indoor-torso-fashion-portrait",
+  "image_vibe": "soft-modern-candid",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic raw smartphone torso portrait of an approved adult woman seated in a softly lit interior.",
+    "main_subject": "An approved adult brunette woman with straight shoulder-length hair and natural skin texture, seated frontally with relaxed shoulders. She wears a black rib-knit V-neck top, cream open-weave crochet cardigan, fish pendant on a black cord, and red star brooch with gold trim.",
+    "composition_elements": "9:16 vertical torso framing with teal-green wall panels, white molding, beige upholstered seating, black technical bag at lower right, and light wood table at bottom.",
+    "lighting_and_atmosphere": "Soft warm 3000K indoor ambient light, gentle shadows through the cardigan weave and pendant, natural digital grain, calm modern mood.",
+    "technical_specs": "Photorealistic iPhone-style 35mm f/2.8 portrait, natural bokeh, realistic hair, skin, knit, lace, jewelry, wood, and upholstery texture.",
+    "generated_prompt_string": "Create a photorealistic 9:16 raw smartphone torso portrait of an approved adult brunette woman with straight shoulder-length hair seated frontally with relaxed shoulders. Dress her in a black rib-knit V-neck top and cream open-weave crochet cardigan, with a fish pendant on a black cord and red star brooch with gold trim. Place her before teal-green wall panels with white molding, beige seating, black bag at lower right, and light wood table at bottom. Use soft warm 3000K light, natural bokeh, realistic textures, and subtle digital grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, body-volume exaggeration, zero-imperfection skin, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted jewelry",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-lace-cardigan-subject", "required": true, "source": "raw-lace-cardigan-girl.jpg", "usage": "Preserve adult identity, hair, expression, seated pose, and natural skin texture."}, {"type": "wardrobe", "name": "black-rib-top-cream-crochet-cardigan", "required": true, "source": "raw-lace-cardigan-girl.jpg", "usage": "Keep top, cardigan, pendant, brooch, and styling consistent; replace only with explicit references."}, {"type": "location", "name": "teal-paneled-seating-interior", "required": true, "source": "raw-lace-cardigan-girl.jpg", "usage": "Maintain wall panels, molding, seating, bag, table, and warm light; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed artificial body and skin perfection instructions and clarified the subject as an approved adult.", "Added safe negative prompts and structured references."]}
+}

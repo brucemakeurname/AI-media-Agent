@@ -1,0 +1,78 @@
+{
+  "name": "viettel-england-vs-argentina-two-number-tens",
+  "tag": [
+    "viettel",
+    "tv360",
+    "england",
+    "argentina",
+    "match-promo"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Special offers",
+  "group": "viettel_1560930875424350",
+  "prompt": {
+    "project_info": {
+      "theme": "Two number-10 football stars entering the stage together",
+      "color_palette": "White, black, Viettel red, pitch green, Argentina sky blue, multicolor ribbon"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "Two football players are seen from behind walking out from a tunnel into a bright stadium. The left player wears an England number 10 jersey labeled 'ENGLAND 10'; the right player wears an Argentina number 10 jersey labeled 'ARGENTINA 10'. The top headline says 'KHI HAI SỐ 10 CHUNG MỘT SÂN KHẤU'. A small capsule line says 'ANH vs ARGENTINA | 2:00'. The bottom CTA says 'SOẠN DK CUP gửi 1331' and 'Chỉ 2.000/ngày để xem World Cup trên TV360'.",
+      "style": "Photoreal cinematic sports promo poster with heroic back-view composition"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "KHI HAI SỐ 10 CHUNG MỘT SÂN KHẤU; ANH vs ARGENTINA | 2:00; viettel telecom; SOẠN DK CUP gửi 1331; Chỉ 2.000/ngày để xem World Cup trên TV360",
+      "items": [
+        "Top Left: Huge red and black headline with a small gray capsule match-time line beneath it",
+        "Top Right: Viettel telecom logo in red and black",
+        "Bottom Left: Tunnel wall and multicolor ribbon entering from the left edge",
+        "Bottom Right: Red registration bar and small white pricing sentence ending with TV360 brand",
+        "Center/Background: Two number-10 footballers walking toward a sunlit packed stadium from a tunnel entrance"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Heroic stadium daylight",
+      "effect": "Bright backlight from the field, soft stadium haze, subtle rim light on the players, premium sports-promo contrast"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal cinematic sports advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for a TV360 football match promo featuring two number-10 stars entering the field together. Centerpiece is a photoreal back-view shot of an England number 10 player and an Argentina number 10 player walking side by side from a stadium tunnel into bright daylight. Include the exact visible text 'KHI HAI SỐ 10 CHUNG MỘT SÂN KHẤU', 'ANH vs ARGENTINA | 2:00', 'SOẠN DK CUP gửi 1331', and 'Chỉ 2.000/ngày để xem World Cup trên TV360'. Background is a packed stadium bowl with a bright field opening at the end of the tunnel. Surrounding elements: Viettel telecom logo in the top right, multicolor ribbon sweeping from the left across the lower frame, and a bold red CTA bar at the bottom. Technical style: photoreal cinematic sports advertising composite, heroic stadium daylight, bright backlight and subtle rim light, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel telecom logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Top-right lockup"
+        },
+        {
+          "type": "person",
+          "name": "England number 10 likeness reference",
+          "required": true,
+          "source": "real-player reference recommended",
+          "usage": "Preserve the left player's back-view silhouette and white England shirt styling"
+        },
+        {
+          "type": "person",
+          "name": "Argentina number 10 likeness reference",
+          "required": true,
+          "source": "real-player reference recommended",
+          "usage": "Preserve the right player's back-view silhouette, armband, tattooed arm, and Argentina stripe kit"
+        },
+        {
+          "type": "graphic",
+          "name": "Match-time capsule and CTA bar",
+          "required": true,
+          "source": "recreated from original layout",
+          "usage": "Keep the small 'ANH vs ARGENTINA | 2:00' line and the red DK CUP bar intact"
+        }
+      ],
+      "prompt_instructions": "This image depends on the tunnel-to-stadium reveal and the symmetry of the two players seen from behind. Keep the top headline large and airy, and do not replace the back-view with face portraits."
+    }
+  }
+}

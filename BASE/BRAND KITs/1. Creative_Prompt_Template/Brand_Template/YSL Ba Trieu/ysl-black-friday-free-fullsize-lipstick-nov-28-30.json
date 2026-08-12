@@ -1,0 +1,78 @@
+{
+  "name": "ysl-black-friday-free-fullsize-lipstick-nov-28-30",
+  "tag": [
+    "ysl",
+    "black-friday",
+    "free-fullsize-lipstick",
+    "promo",
+    "the-slim"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "ysl_1296431739188201",
+  "prompt": {
+    "project_info": {
+      "theme": "Black Friday free full-size lipstick promotion",
+      "color_palette": "Black, gold, cream, red-orange"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A Black Friday promotional poster with a giant black glitter star behind a YSL lipstick standing upright. Top text reads '28 - 30/11' and 'BLACK FRIDAY'. The offer copy says 'ƯU ĐÃI GIỚI HẠN: TẶNG NGAY 01 SON FULLSIZE CHO MỌI HÓA ĐƠN'. The product label at bottom center reads 'RPC THE SLIM #2024'. Footer fine print says '*SỐ LƯỢNG QUÀ TẶNG GIỚI HẠN, CÓ THỂ KẾT THÚC SỚM HƠN DỰ KIẾN. ÁP DỤNG 1 KHÁCH HÀNG/LẦN'.",
+      "style": "Luxury promotional product poster with Black Friday star iconography and crisp retail messaging"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "28 - 30/11; BLACK FRIDAY; ƯU ĐÃI GIỚI HẠN: TẶNG NGAY 01 SON FULLSIZE CHO MỌI HÓA ĐƠN; RPC THE SLIM #2024; *SỐ LƯỢNG QUÀ TẶNG GIỚI HẠN, CÓ THỂ KẾT THÚC SỚM HƠN DỰ KIẾN. ÁP DỤNG 1 KHÁCH HÀNG/LẦN",
+      "items": [
+        "Top Left: Large white date line and oversized 'BLACK FRIDAY' lettering",
+        "Top Right: YSL Beauté monogram/logo",
+        "Bottom Left: Fine-print promotion disclaimer",
+        "Bottom Right: Small gift icon in a black circle",
+        "Center/Background: Giant glitter-black star behind an upright YSL lipstick and its cap on a gold-beige stage"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Luxury promo studio lighting",
+      "effect": "Sparkly star texture, metallic lipstick reflections, clean ad contrast, festive retail sharpness"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal luxury promotional product composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury Black Friday promo poster for YSL Beauté. Centerpiece is an upright YSL lipstick and cap standing in front of a giant glitter-black star on a gold-beige stage. Include the exact text '28 - 30/11', 'BLACK FRIDAY', 'ƯU ĐÃI GIỚI HẠN: TẶNG NGAY 01 SON FULLSIZE CHO MỌI HÓA ĐƠN', 'RPC THE SLIM #2024', and '*SỐ LƯỢNG QUÀ TẶNG GIỚI HẠN, CÓ THỂ KẾT THÚC SỚM HƠN DỰ KIẾN. ÁP DỤNG 1 KHÁCH HÀNG/LẦN'. Add the small gift icon and YSL Beauté logo. Technical style: photoreal luxury promotional product composite, luxury promo studio lighting, sparkly star texture and crisp retail contrast, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "YSL Beauté monogram/logo",
+          "required": true,
+          "source": "original branding",
+          "usage": "Top-right brand mark"
+        },
+        {
+          "type": "product",
+          "name": "YSL The Slim lipstick in #2024",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Match the central lipstick and its cap placement"
+        },
+        {
+          "type": "graphic",
+          "name": "Black glitter star and gift icon",
+          "required": true,
+          "source": "original campaign artwork",
+          "usage": "Preserve the oversized star silhouette and small gift-symbol circle"
+        },
+        {
+          "type": "text_layout",
+          "name": "Black Friday promo typography",
+          "required": true,
+          "source": "original creative copy",
+          "usage": "Keep the exact date range, offer line, and footer disclaimer"
+        }
+      ],
+      "prompt_instructions": "The visible date range '28 - 30/11' is in the future relative to Friday, July 17, 2026 if interpreted as November 2026, but the image itself does not show a year. Recreate the poster exactly and do not invent a year inside the artwork."
+    }
+  }
+}

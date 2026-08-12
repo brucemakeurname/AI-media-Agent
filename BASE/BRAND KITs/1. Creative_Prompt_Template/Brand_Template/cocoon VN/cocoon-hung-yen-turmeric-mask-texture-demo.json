@@ -1,0 +1,65 @@
+{
+  "name": "cocoon-hung-yen-turmeric-mask-texture-demo",
+  "tag": [
+    "face-mask",
+    "texture-shot",
+    "turmeric",
+    "skincare",
+    "hands",
+    "close-up"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "cocoon_1533811228530888",
+  "prompt": {
+    "project_info": {
+      "theme": "Texture demonstration for Hung Yen turmeric face mask",
+      "color_palette": "Sky Blue, Warm Skin Tones, Turmeric Gold, Amber Brown, White"
+    },
+    "main_subject": {
+      "type": "Product/Person",
+      "detail": "A close-up beauty shot of a smiling woman holding an open jar of Cocoon Hung Yen turmeric face mask while showing a finger loaded with thick golden mask texture toward the camera.",
+      "style": "Soft natural skincare lifestyle photography, intimate texture-demo close-up, clean and friendly"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible product text includes 'Mặt nạ nghệ Hưng Yên / Hung Yen turmeric face mask'.",
+      "items": [
+        "Top Left: Out-of-focus smiling mouth and cheeks of the model against a blue-sky background.",
+        "Top Right: Raised index finger close to the lens with a mound of golden turmeric mask texture on the fingertip.",
+        "Bottom Left: The model's other hand gripping the glass jar from below with natural nails visible.",
+        "Bottom Right: Open jar rim and label side text, with creamy whipped mask texture heaped above the container opening.",
+        "Center/Background: Blue sleeveless ribbed top and soft sky backdrop creating a bright lifestyle feel."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft natural daylight",
+      "effect": "Gentle skin glow, shallow depth of field, creamy product texture emphasis, airy cheerful mood"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity skincare lifestyle photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a skincare texture demonstration. Centerpiece is an open jar of Cocoon Hung Yen turmeric face mask held in one hand while the other hand points a fingertip loaded with thick golden mask cream toward the camera. Background is a bright blue-sky lifestyle scene with a smiling woman softly out of focus. Surrounding elements: visible jar label text 'Hung Yen turmeric face mask', creamy whipped product surface, natural nails, and a pale blue sleeveless top. Keep the finger-to-camera perspective, realistic cream texture, and soft friendly beauty mood. Technical style: high fidelity skincare lifestyle photography, soft natural daylight, gentle skin glow and shallow depth of field, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Cocoon Hung Yen turmeric face mask jar",
+          "required": true,
+          "source": "Attach the product packshot or crop from the original image",
+          "usage": "Preserve jar shape, amber glass, white label, and bilingual product name."
+        },
+        {
+          "type": "person",
+          "name": "Finger texture-demo pose",
+          "required": true,
+          "source": "Use the original image as pose reference",
+          "usage": "Maintain the fingertip-forward perspective and jar-holding hand arrangement."
+        }
+      ],
+      "prompt_instructions": "Attach both the jar reference and the original pose reference in gpt-image-2. The output should preserve the thick turmeric mask texture on the fingertip and the soft sky-lit lifestyle framing."
+    }
+  }
+}

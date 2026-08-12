@@ -1,0 +1,64 @@
+{
+  "name": "y2k-snow-dynamic-portrait",
+  "tag": [
+    "adult-woman",
+    "y2k-fashion",
+    "snowy-taxi",
+    "fisheye",
+    "dynamic-editorial"
+  ],
+  "image_type": "dynamic-winter-fashion-portrait",
+  "image_vibe": "playful-y2k-crisp-snowy",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/cinematic-portrait",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-woman wording to an adult woman.",
+      "Replaced extreme hand-near-lens distortion with controlled high-angle fisheye perspective and natural anatomy."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "playful adult Y2K winter-fashion portrait on a snow-dusted black taxi",
+      "color_palette": "taxi black, snow white, sky blue, sunflower yellow, knitted blue, athletic red, and cool shadow gray",
+      "format": "vertical 9:16"
+    },
+    "main_subject": {
+      "type": "adult woman from supplied reference image",
+      "detail": "Preserve the exact adult identity, face, age presentation, hair, and core features from the attached reference. She wears the color-block Y2K winter outfit shown: yellow long-sleeve layer, knitted light-blue vest, red athletic shorts, dark opaque tights, striped leg warmers, winter boots, and blue earmuffs.",
+      "style": "playful dynamic winter fashion editorial with natural anatomy"
+    },
+    "composition_elements": {
+      "text": "Preserve source text only if present; otherwise no text, logo, or watermark.",
+      "items": [
+        "adult subject seated dynamically on the hood of a black taxi covered in patchy snow",
+        "high-angle 12mm fisheye view showing the car hood, snowy street, and surrounding city context",
+        "one hand reaches upward toward the lens but stays naturally proportioned",
+        "crisp snowbanks, clear blue winter sky, and distant storefronts with abstract unreadable signage"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "bright 5600K winter daylight with snow-reflected fill",
+      "effect": "crisp high-key snow detail, cool shadow tones, clear facial illumination, and saturated Y2K color contrast"
+    },
+    "technical_specs": {
+      "render_style": "Canon EOS R5 with RF 15-35mm at 12mm f/5.6, controlled high-angle fisheye perspective, sharp snow texture, fine grain, natural proportions, no digital gloss",
+      "resolution": "high resolution, vertical 9:16"
+    },
+    "generated_prompt_string": "Using the attached authorized adult reference as mandatory identity source, create a vertical 9:16 playful Y2K winter-fashion portrait of the same adult woman seated dynamically on the hood of a black taxi covered in patchy snow. Preserve her exact identity, face, age presentation, hair, and core features. Keep the color-block outfit shown: yellow long-sleeve layer, knitted light-blue vest, red athletic shorts, dark opaque tights, striped leg warmers, winter boots, and blue earmuffs. Use a controlled high-angle 12mm fisheye view that shows the car hood, snowy street, snowbanks, clear blue sky, and distant storefronts with abstract unreadable signs. One hand may reach upward toward the lens, but keep it naturally proportioned. Use bright 5600K winter daylight with snow-reflected fill, crisp detail, cool shadows, and saturated Y2K color contrast. Preserve source text only if visible; otherwise no text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, identity change, face swap, age alteration, public figure, celebrity likeness, minor, child, hand exaggeration, distorted hands, distorted limbs, extra fingers, deformed, sexualized pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, readable unapproved text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-and-wardrobe-reference",
+          "required": true,
+          "source": "Attach the original authorized adult non-public-figure reference image.",
+          "usage": "Mandatory source for exact adult identity, age presentation, Y2K outfit, taxi context, lighting logic, and any visible source text."
+        }
+      ],
+      "prompt_instructions": "The original authorized adult non-public-figure reference is mandatory. Preserve identity, outfit, snowy taxi, and playful high-angle fisheye perspective while keeping all anatomy naturally proportioned and avoiding unverified branding or text."
+    }
+  }
+}

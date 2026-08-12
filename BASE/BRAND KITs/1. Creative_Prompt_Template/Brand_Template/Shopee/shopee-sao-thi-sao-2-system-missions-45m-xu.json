@@ -1,0 +1,70 @@
+{
+  "name": "shopee-sao-thi-sao-2-system-missions-45m-xu",
+  "tag": [
+    "gamified-campaign",
+    "task-poster",
+    "rewards",
+    "livestream"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Challenge",
+  "group": "shopee_1823860455663755",
+  "prompt": {
+    "project_info": {
+      "theme": "Shopee Sao Thì Sao 2 mission-reward board poster",
+      "color_palette": "Kraft brown, paper white, Shopee orange, navy blue, red pin accents"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Detective-board style campaign poster designed like a pinned kraft envelope and document sheet listing three system missions with big reward amounts in xu and a livestream time range.",
+      "style": "Flatlay mixed-media advertising design, tactile paper-board aesthetic, gamified promo board"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Sao thì sao 2 / THỰC HIỆN NHIỆM VỤ HỆ THỐNG / TỔNG GIẢI THƯỞNG 45 TRIỆU XU / 1 KHOE KHOẢNH KHẮC YÊU THÍCH KHO XU 10 TRIỆU / 2 BÌNH CHỌN AI LÀ THỦ PHẠM KHO XU 35 TRIỆU / 3 NHẬP VAI 'NHÀ SÁNG TẠO TÀI BA' CÙNG SAO THÌ SAO 2 / 30 SET CARD SELFIE ĐỘC QUYỀN CỦA UPRIZE / ĐÓN XEM TẠI Shopee LIVE / 12H30 / 15.6 - 25.6",
+      "items": [
+        "Top Left: White Shopee bag icon on the board and a colorful 'Sao thì sao 2' sticker badge at the top right.",
+        "Top Right: Kraft-envelope flap with button fastener and red push pin on an orange torn-paper reward strip.",
+        "Bottom Left: Large numbered mission boxes '1', '2', and '3' in blue, with blurred photo cards clipped around the board edges.",
+        "Bottom Right: Orange Shopee card, black fountain-pen nib, and a Shopee Live footer bar with time/date info.",
+        "Center/Background: White paper sheet mounted on a detective-board layout listing mission rewards, dominated by the torn orange strip '45 TRIỆU XU'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft tabletop lighting",
+      "effect": "Paper texture visibility, pinned-board realism, warm desk ambiance, crisp flatlay shadows"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic flatlay advertising design",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Shopee Sao Thì Sao 2 mission-reward board poster. Centerpiece is a pinned kraft-envelope and paper dossier flatlay listing three system missions and big xu rewards, styled like a detective clue board. Background is a warm wooden desk with clipped photos, a Shopee card, and a pen nib. Surrounding elements: exact title 'THỰC HIỆN NHIỆM VỤ HỆ THỐNG', torn orange strip 'TỔNG GIẢI THƯỞNG 45 TRIỆU XU', mission rows 'KHO XU 10 TRIỆU', 'KHO XU 35 TRIỆU', '30 SET CARD SELFIE ĐỘC QUYỀN CỦA UPRIZE', and footer 'ĐÓN XEM TẠI Shopee LIVE / 12H30 / 15.6 - 25.6'. Technical style: photorealistic flatlay advertising design, soft tabletop lighting, tactile paper textures and crisp flatlay shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Shopee logo and Sao thì sao 2 badge",
+          "required": true,
+          "source": "official campaign assets or original creative",
+          "usage": "Preserve the board corner icons and show branding accurately."
+        },
+        {
+          "type": "background",
+          "name": "kraft envelope, paper dossier, and wooden desk flatlay",
+          "required": true,
+          "source": "original creative scene",
+          "usage": "Keep the envelope flap, push pin, clipped blurred photos, Shopee card, and pen nib arrangement."
+        },
+        {
+          "type": "text_layout",
+          "name": "mission list and reward typography",
+          "required": true,
+          "source": "original poster",
+          "usage": "Retain exact Vietnamese wording, mission numbering, and footer timing/date range even though 15.6 - 25.6 is in the past relative to Friday, July 17, 2026."
+        }
+      ],
+      "prompt_instructions": "Use refs for the exact paper-board layout and every reward line. This poster relies on tactile stationery styling and should not be simplified into a flat digital infographic."
+    }
+  }
+}

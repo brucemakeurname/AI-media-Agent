@@ -1,0 +1,78 @@
+{
+  "name": "ysl-libre-makeup-workshop-mini-gift-oct-29",
+  "tag": [
+    "ysl",
+    "libre-edp",
+    "makeup-workshop",
+    "event-promo",
+    "mini-gift"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "ysl_1885063375364079",
+  "prompt": {
+    "project_info": {
+      "theme": "YSL makeup workshop registration with Libre EDP mini gift",
+      "color_palette": "Black, white, champagne gold, nude skin tones"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A close portrait of a short-haired male beauty ambassador holding a miniature YSL Libre bottle up beside one eye inside a thin gold frame. The lower text says 'THAM GIA NGAY', 'MAKEUP WORKSHOP DUY NHẤT NGÀY 29.10', and on the right 'NHẬN NGAY LIBRE EDP 7.5ML' with 'Số lượng có hạn'. The whole poster uses a black marble background with gold crack veins.",
+      "style": "Luxury portrait-event poster with refined framing and product-closeup emphasis"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "YvesSaintLaurent BEAUTÉ; THAM GIA NGAY; MAKEUP WORKSHOP DUY NHẤT NGÀY 29.10; NHẬN NGAY LIBRE EDP 7.5ML; Số lượng có hạn",
+      "items": [
+        "Top Left: YSL Beauté logo on a black marble field",
+        "Top Right: Gold crack-vein marble background around the portrait frame",
+        "Bottom Left: Gold-highlighted label 'THAM GIA NGAY' above the workshop date text",
+        "Bottom Right: White gift-copy block 'NHẬN NGAY LIBRE EDP 7.5ML' and the small line 'Số lượng có hạn'",
+        "Center/Background: Framed close portrait of a male ambassador holding a miniature Libre bottle in front of one eye"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Luxury beauty portrait lighting",
+      "effect": "Soft skin glow, crisp perfume-bottle highlights, clean white portrait background against dark marble surround"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal luxury portrait-poster composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury event-registration poster for YSL Beauté. Centerpiece is a close photoreal portrait of a short-haired male beauty ambassador holding a miniature YSL Libre bottle beside one eye inside a thin gold frame. Include the exact text 'THAM GIA NGAY', 'MAKEUP WORKSHOP DUY NHẤT NGÀY 29.10', 'NHẬN NGAY LIBRE EDP 7.5ML', and 'Số lượng có hạn', plus the 'YvesSaintLaurent BEAUTÉ' logo. Background is a black marble field with thin gold crack veins surrounding the framed portrait. Technical style: photoreal luxury portrait-poster composite, luxury beauty portrait lighting, soft skin glow and crisp bottle highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Yves Saint Laurent Beauté logo",
+          "required": true,
+          "source": "original branding",
+          "usage": "Top logo lockup"
+        },
+        {
+          "type": "person",
+          "name": "Male beauty ambassador portrait reference",
+          "required": true,
+          "source": "real-person reference required",
+          "usage": "Preserve the face, hairstyle, blazer styling, and exact bottle-holding pose"
+        },
+        {
+          "type": "product",
+          "name": "YSL Libre EDP 7.5ml miniature bottle",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Match the small bottle proportions, cap, and cassandre logo held between fingers"
+        },
+        {
+          "type": "background",
+          "name": "Black marble with gold crack veins",
+          "required": true,
+          "source": "original campaign background",
+          "usage": "Maintain the luxury black-and-gold perimeter around the portrait frame"
+        }
+      ],
+      "prompt_instructions": "The visible date is written only as '29.10' without a year. Recreate the artwork exactly as shown and do not invent a year inside the image. Keep the portrait tightly framed and the miniature bottle aligned beside the subject's eye."
+    }
+  }
+}

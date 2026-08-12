@@ -1,0 +1,71 @@
+{
+  "name": "minimalist-bw-portrait-orange-glasses",
+  "tag": [
+    "adult-man",
+    "orange-acetate-glasses",
+    "selective-color",
+    "black-turtleneck",
+    "luxury-fashion"
+  ],
+  "image_type": "selective-color-editorial-portrait",
+  "image_vibe": "calm-confident-minimalist",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "minimalist selective-color luxury fashion portrait",
+      "color_palette": "monochrome black, white, graphite, and vivid translucent orange",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult man with strong well-defined facial features, a bald head, neatly groomed mustache and beard, natural imperfect skin texture, and a calm serious expression.",
+      "wardrobe": "Black tailored turtleneck layered under a high-collared black jacket with sharp clean lines.",
+      "pose": "Centered close-up portrait looking directly into the camera with a calm confident gaze."
+    },
+    "composition_elements": {
+      "framing": "Centered studio-style head-and-shoulders close-up with the eyewear as the only colored element.",
+      "environment": "Plain charcoal-gray studio background without text or logos.",
+      "focus": "Ultra-sharp facial texture, beard detail, jacket structure, turtleneck knit, and semi-transparent orange lenses."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft frontal studio light with gentle shadows, even skin tones, and controlled cinematic contrast.",
+      "atmosphere": "Calm, confident, contemporary, refined, and editorial."
+    },
+    "technical_specs": {
+      "camera": "Professional full-frame portrait camera with an 85mm lens at f/2.0, ISO 100, 1/125 s",
+      "quality": "Photorealistic selective-color monochrome, high resolution, realistic skin texture, sharp facial focus, and restrained film grain"
+    },
+    "generated_prompt_string": "Create a photorealistic 4:5 studio close-up editorial portrait of an adult man with strong well-defined facial features, a bald head, neatly groomed mustache and beard, natural imperfect skin texture, and a calm serious expression. He wears a black tailored turtleneck layered under a high-collared black jacket with sharp clean lines and semi-transparent orange acetate sunglasses with rectangular softly rounded frames, glossy finish, and amber gradient lenses. Center him against a plain charcoal-gray background looking directly into the camera. Render the image in monochrome black and white except for the vivid orange glasses, using soft frontal studio light, gentle shadows, controlled cinematic contrast, an 85mm lens at f/2.0, ultra-sharp facial detail, and no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, celebrity likeness, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, distorted glasses, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original subject. Optional glasses, wardrobe, or studio references may replace only their named element; preserve the selective orange accent, monochrome palette, centered close-up, and minimalist luxury styling.",
+      "assets": [
+        {
+          "type": "accessory",
+          "name": "semi-transparent-orange-acetate-sunglasses",
+          "required": false,
+          "source": "user-uploaded eyewear reference",
+          "usage": "Replace only the frame shape, gloss, lens gradient, and orange tint while preserving selective color."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-tailored-turtleneck-and-jacket",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the turtleneck and jacket while preserving the sharp minimalist menswear silhouette."
+        },
+        {
+          "type": "location",
+          "name": "charcoal-gray-studio-background",
+          "required": false,
+          "source": "user-uploaded studio reference",
+          "usage": "Replace only the background and soft studio light falloff; remove text and logos."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "prompt-1095",
+  "tag": ["athletic-motion", "pink-powder", "male-fashion", "studio-campaign", "dynamic-poster"],
+  "image_type": "campaign-key-visual",
+  "image_vibe": "playful",
+  "image_purpose": "campaign",
+  "group": "campaign-key-visual",
+  "prompt": {
+    "project_info": {"theme": "Pastel pink athletic motion fashion advertisement", "color_palette": "pale pink, blush powder, light gray, powder blue, white"},
+    "main_subject": {"type": "generic adult male athlete", "detail": "A generic adult male athlete is frozen mid-air as if running or jumping, wearing a pastel pink sweatshirt, light pink jogger pants and soft blue sneakers. Do not reproduce any celebrity or public-figure likeness from the source image.", "style": "hyper-realistic studio fashion advertising with natural skin texture"},
+    "composition_elements": {"layout": "vertical full-body airborne runner centered over large background typography", "text": "Large pale-pink campaign lettering partially visible behind the athlete.", "items": ["pink powder smoke exploding behind torso and around legs", "soft gray-to-pale-pink gradient background", "blue sneakers contrast against the pastel palette", "grounding shadow near the lower edge"]},
+    "lighting_and_atmosphere": {"type": "large diffused key at 5000K from front-left with soft pink bounce and narrow rim light", "effect": "cinematic soft shadows, powder translucency, crisp subject edges and gentle pastel atmosphere"},
+    "technical_specs": {"render_style": "Hasselblad X2D 100C, XCD 55mm f/2.5, commercial motion-fashion photography", "resolution": "8K", "optics": "shallow depth of field, frozen motion, restrained grain and natural vignetting"},
+    "generated_prompt_string": "A hyper-realistic studio photograph of a generic adult male athlete mid-air as if running or jumping, wearing a pastel pink sweatshirt and light pink jogger pants, with soft blue sneakers. Pink powder smoke is exploding and swirling around his body, especially behind him and around his legs, creating a dynamic motion effect. Clean minimal background with a soft gradient from light gray to pale pink. Cinematic lighting, ultra-sharp focus, shallow depth of field, fashion advertising style, high detail, 8k, soft shadows, professional studio photography.",
+    "negative_prompt": "explicit, nsfw, overly revealing, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, duplicated limbs, muddy powder edges",
+    "reference_elements": {"assets": [{"type": "person", "name": "generic-adult-male-athlete", "required": true, "source": "source image supplied with this template, used for pose and styling only", "usage": "Preserve airborne pose, outfit colors and athletic motion; do not preserve or reproduce any recognizable public-figure face."}, {"type": "graphic", "name": "pink-powder-motion-cloud", "required": true, "source": "source image supplied with this template", "usage": "Preserve powder placement, translucency and swirling motion."}, {"type": "text_layout", "name": "pastel-athletic-poster-type", "required": false, "source": "source image supplied with this template", "usage": "Use the background lettering placement as an optional layout reference."}], "prompt_instructions": "Attach the source image for pose, wardrobe palette and powder composition only. Use a newly generated generic adult athlete identity; never reproduce a celebrity or public-figure likeness. Wardrobe, pose and powder may be replaced only with approved alternatives."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed recognizable public-figure identity and retained only generic adult athlete pose, wardrobe palette and motion direction."]}
+}

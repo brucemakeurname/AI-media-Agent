@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-pet-recycled-tag-closeup-butterfly",
+  "tag": [
+    "recycled-pet",
+    "macro-closeup",
+    "packaging",
+    "eco-message",
+    "cute-graphic",
+    "lotus"
+  ],
+  "biz_niche": "Pets & Animals",
+  "content_format": "Infographics",
+  "group": "cocoon_795392610326782",
+  "prompt": {
+    "project_info": {
+      "theme": "Close-up packaging callout for recycled PET bottle material",
+      "color_palette": "Soft Pink, Leaf Green, Sky Blue, Cream White, Light Gold"
+    },
+    "main_subject": {
+      "type": "Product/Text",
+      "detail": "A tight close-up on the upper part of a pink Cocoon bottle, dominated by a bottle-shaped paper tag reading 'CHAI LÀM TỪ NHỰA PET TÁI CHẾ 100% GIẢM NHỰA NGUYÊN SINH', with a small cute blue butterfly doodle floating to the right.",
+      "style": "Macro packaging callout, friendly sustainability visual, crisp close crop with soft outdoor bokeh"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'CHAI LÀM TỪ NHỰA PET TÁI CHẾ 100% GIẢM NHỰA NGUYÊN SINH' and partial brand text 'the Cocoon ORIGINAL VIETNAM'.",
+      "items": [
+        "Top Left: Black bottle cap cropped close to the top edge.",
+        "Top Right: Cute blue butterfly doodle and a short yellow squiggle accent over blurred sky.",
+        "Bottom Left: Partial gold Cocoon logo and the curved shoulder of the pink bottle.",
+        "Bottom Right: The lower portion of the large green-and-white recycled PET tag filling most of the frame.",
+        "Center/Background: Soft sky and tree bokeh with the tag centered sharply in front."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft outdoor daylight",
+      "effect": "Gentle bokeh, crisp paper texture, friendly airy eco mood"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity macro product photography with doodle overlay",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a close-up packaging callout about recycled PET bottle material. Centerpiece is a bottle-shaped paper tag reading 'CHAI LÀM TỪ NHỰA PET TÁI CHẾ 100% GIẢM NHỰA NGUYÊN SINH' attached to the top of a pink Cocoon bottle. Background is soft outdoor sky and green bokeh. Surrounding elements: partial Cocoon branding, a black cap crop, and a cute blue butterfly doodle with a yellow squiggle. Keep the macro crop, readable paper texture, and friendly sustainability look. Technical style: high fidelity macro product photography with doodle overlay, soft outdoor daylight, gentle bokeh and crisp paper texture, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "graphic",
+          "name": "Bottle-shaped PET recycled tag",
+          "required": true,
+          "source": "Attach a crop of the tag from the original image",
+          "usage": "Preserve exact wording, shape, and green border styling."
+        },
+        {
+          "type": "product",
+          "name": "Pink Cocoon bottle shoulder and cap",
+          "required": true,
+          "source": "Use the original image as bottle reference",
+          "usage": "Keep the pink bottle tone, cap shape, and cropped brand mark."
+        },
+        {
+          "type": "graphic",
+          "name": "Blue butterfly doodle",
+          "required": true,
+          "source": "Use the original creative as overlay reference",
+          "usage": "Match the cute illustrated butterfly and yellow squiggle accent."
+        }
+      ],
+      "prompt_instructions": "Use the tag crop and bottle crop as reference attachments in gpt-image-2. The output should stay tightly cropped and text-legible, with the doodle kept light and secondary."
+    }
+  }
+}

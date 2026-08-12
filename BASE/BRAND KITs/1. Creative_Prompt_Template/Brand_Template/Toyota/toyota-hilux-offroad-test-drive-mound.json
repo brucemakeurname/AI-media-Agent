@@ -1,0 +1,70 @@
+{
+  "name": "toyota-hilux-offroad-test-drive-mound",
+  "tag": [
+    "hilux",
+    "offroad",
+    "test-drive",
+    "event"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Product demos",
+  "group": "toyota_1745857483420051",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Hilux off-road test-drive obstacle experience",
+      "color_palette": "Grass green, black, red, white, sky blue"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A live event photo showing a black Toyota Hilux climbing down a dirt mound on an outdoor obstacle course. Toyota branding appears top left and on tall event flags. The pickup is centered, angled slightly toward the camera, with a visible license plate and the front axle articulated over uneven dirt. The background contains orange cones, red inflatable Toyota arch structures, Toyota feather flags, trees, grass, and other Hilux event vehicles parked behind. Bottom-right script says 'Move your world'.",
+      "style": "Real event-documentary automotive photo emphasizing off-road capability and practical terrain articulation"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / Move your world",
+      "items": [
+        "Top Left: Toyota logo over a green park-like event setting",
+        "Top Right: Tall Toyota feather flag and apartment blocks behind trees",
+        "Bottom Left: Orange cones and grassy edge of the obstacle course",
+        "Bottom Right: Handwritten 'Move your world' over the grass",
+        "Center/Background: Black Toyota Hilux driving over a dirt mound within a branded off-road demo course framed by arches, cones, and support vehicles"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Natural outdoor event lighting",
+      "effect": "Documentary daylight, realistic dirt texture, crisp vehicle reflections, action-demo authenticity"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal event action photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Hilux off-road demo experience. Centerpiece is a black Toyota Hilux descending a dirt mound on a branded outdoor obstacle course. Background is a grassy event field with Toyota flags, an inflatable Toyota arch, cones, trees, and parked support vehicles. Surrounding elements: Toyota logo and the footer script 'Move your world'. Technical style: photoreal event action photography, natural outdoor event lighting, realistic dirt texture and crisp reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Black Toyota Hilux exterior reference",
+          "required": true,
+          "source": "event photo or official Hilux reference",
+          "usage": "Preserve the front stance, black finish, grille lettering, and wheel articulation"
+        },
+        {
+          "type": "location",
+          "name": "Toyota off-road demo course",
+          "required": true,
+          "source": "event photos of the same obstacle field",
+          "usage": "Keep the dirt mound, grass, cones, inflatable arch, and branded flags accurate"
+        },
+        {
+          "type": "text_layout",
+          "name": "Minimal event-photo Toyota layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the simple top-left logo and bottom-right signature without adding extra copy"
+        }
+      ],
+      "prompt_instructions": "This should remain a real event-action image, not a studio composite. Keep the natural obstacle-course messiness and the exact off-road wheel articulation."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+    "name":  "streetwear-showroom-collaboration-grid",
+    "tag":  [
+                "branding",
+                "lifestyle content",
+                "streetwear",
+                "showroom",
+                "fashion collaboration",
+                "editorial grid"
+            ],
+    "biz_niche":  "Fashion & Apparel / Editorial",
+    "content_format":  "Lifestyle content",
+    "group":  "branding_streetwear_showroom",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Streetwear brand showroom still-life grid",
+                                        "color_palette":  "Navy, burgundy, forest green, cream, white, brand accent colors"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A 2 by 2 showroom grid of branded varsity jackets hanging on white garment racks, each paired with coordinated footwear, accessories, and an understated brand backdrop.",
+                                        "style":  "Hypebeast retail editorial still life"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Apparel/Retail props/Logo/Typography",
+                                                "text":  "THE BRAND WITH THE 3 STRIPES; People on the Move; WHAT ARE YOU DOING FOR GUCCI?; A BETTER WAY FORWARD",
+                                                "items":  [
+                                                              "Upper left: Adidas varsity jacket, blue shoe boxes, navy background.",
+                                                              "Upper right: Kappa jacket, folded apparel and soccer balls, burgundy background.",
+                                                              "Lower left: Gucci sweater with handbag and cases, forest-green background.",
+                                                              "Lower right: Michelin jacket with tire, deep navy background."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft showroom studio lighting",
+                                                   "effect":  "Tactile apparel texture, controlled backdrop gradients, subtle ground shadow, premium retail mood"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "High-end fashion showroom still-life photography",
+                                           "resolution":  "Vertical 2 by 2 grid, highly detailed"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "apparel and accessory collection",
+                                                                 "required":  true,
+                                                                 "source":  "brand product packshots",
+                                                                 "usage":  "Preserve garment graphics, cut, color, and accessory identity."
+                                                             },
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "official brand marks",
+                                                                 "required":  true,
+                                                                 "source":  "approved brand asset",
+                                                                 "usage":  "Use accurate logos only on product and approved backdrop text."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach exact apparel packshots and approved logo assets.",
+                                                                          "Use a white garment rack as the shared structural language across cells.",
+                                                                          "Do not invent new brand logos, slogans, or collaboration claims."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Hypebeast showroom still shot",
+                   "negative_prompt":  "wrong logo, distorted garment, cluttered rack, inconsistent lighting, excessive props, low-detail textile, watermark"
+               }
+}

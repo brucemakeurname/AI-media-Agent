@@ -1,0 +1,70 @@
+{
+  "name": "shopee-vpbank-midmonth-350k-card-discount",
+  "tag": [
+    "bank-partner",
+    "payment-promo",
+    "credit-card",
+    "midmonth-sale"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Special offers",
+  "group": "shopee_1376435924385020",
+  "prompt": {
+    "project_info": {
+      "theme": "VPBank payment discount on Shopee",
+      "color_palette": "Shopee orange, deep blue, VPBank red and green, gold"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A bold promo poster with Shopee and VPBank logos at the top. The top-right badge reads 'NGAY 15 SALE GIUA THANG'. A giant blue rounded pill says 'GIAM DEN 350.000 DONG'. Below, multiple VPBank and Shopee co-branded cards float above an orange podium inside a blue-green rounded rectangular stage. Gold coins and outline shopping-bag icons float around the cards.",
+      "style": "Bright fintech promo poster with card-collage centerpiece, oversized discount typography, and clean vector-commercial staging"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "VPBank / NGAY 15 / SALE GIUA THANG / GIAM DEN 350.000 DONG / VISA / Super",
+      "items": [
+        "Top Left: Shopee logo and VPBank logo",
+        "Top Right: White badge with 'NGAY 15 SALE GIUA THANG'",
+        "Bottom Left: Orange podium base, floating coins, and outline shopping-bag icons",
+        "Bottom Right: Additional floating coins and shopping-bag icons around the card cluster",
+        "Center/Background: Large blue discount pill, rounded teal-blue stage box, and a layered cluster of VPBank and Shopee cards"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright commercial promo lighting",
+      "effect": "Glossy card highlights, floating coin shine, crisp vector shadows, saturated brand color contrast"
+    },
+    "technical_specs": {
+      "render_style": "Fintech promotion poster with product-card compositing and vector staging",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee x VPBank payment campaign. Centerpiece is a floating cluster of VPBank and Shopee co-branded cards above an orange podium inside a rounded blue-green stage box. Background is Shopee orange with floating gold coins and outline shopping-bag icons. Surrounding elements: Shopee and VPBank logos, top-right badge 'NGAY 15 SALE GIUA THANG', and a giant blue pill headline 'GIAM DEN 350.000 DONG'. Technical style: fintech promotion poster with product-card compositing and vector staging, bright commercial lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "VPBank and Shopee co-branded card renders",
+          "required": true,
+          "source": "official bank card renders",
+          "usage": "Attach for exact card design, logo placement, chip/contactless marks, and colors"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee and VPBank logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for the header branding"
+        },
+        {
+          "type": "text_layout",
+          "name": "VPBank 350k discount layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the huge blue discount pill, card cluster, and top-right sale badge"
+        }
+      ],
+      "prompt_instructions": "Preserve the exact discount amount and card-collage arrangement. 'NGAY 15' is in the past relative to Friday, July 17, 2026 and must remain visible exactly as shown."
+    }
+  }
+}

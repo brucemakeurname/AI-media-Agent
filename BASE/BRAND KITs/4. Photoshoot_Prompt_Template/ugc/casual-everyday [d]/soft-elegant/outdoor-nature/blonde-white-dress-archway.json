@@ -1,0 +1,26 @@
+{
+  "name": "blonde-white-dress-archway",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "outdoor-nature", "white-dress", "ivy-archway"],
+  "image_type": "lifestyle-fashion-portrait",
+  "image_vibe": "romantic-cottagecore",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/soft-elegant/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a photorealistic romantic cottagecore portrait of an approved adult woman in a rustic ivy-covered archway.",
+    "main_subject": "An approved adult woman with fair skin and long straight platinum-blonde hair, center-parted and tied with a large white bow. She wears a white halter-neck mini dress with a corset-style bodice, vertical boning, structural seams, and a flared pleated skirt, with white pointed-toe heels and simple pearl earrings.",
+    "composition_elements": "Vertical 3:4 full-body portrait, subject standing in the arched doorway with one hand resting high on the doorframe, body angled slightly, head turned away, and legs crossed at the ankles. Frame her with rough cream stone, white wood, climbing ivy, a warm beige interior, and black-and-white geometric floor tiles; keep the doorway as a natural frame.",
+    "lighting_and_atmosphere": "Soft natural daylight with gentle shadows and a summery afternoon atmosphere. Use natural color grading and controlled highlights across the white dress, hair, stone, and ivy.",
+    "technical_specs": "Photorealistic 4K portrait, 3:4 vertical crop, eye-level perspective, sharp subject detail, shallow depth of field, realistic fabric and stone textures, subtle natural grain, restrained dynamic range.",
+    "generated_prompt_string": "Create a 4K photorealistic portrait of an approved adult woman with fair skin and long platinum-blonde hair tied with a large white bow, standing in a rustic arched doorway. She wears a white halter-neck mini dress with a corset-style bodice, visible vertical boning and structural seams, a flared pleated skirt, white pointed-toe heels, and simple pearl earrings. She leans lightly against the doorframe with one hand raised, her body angled, head turned away, and legs crossed. The doorway is framed by rough white and cream stone walls, a white wooden frame, and lush ivy vines. The warm beige interior has black-and-white geometric mosaic floor tiles, with green lawn at the lower edge. Use soft natural daylight, gentle shadows, a dreamy but sharp cottagecore lifestyle aesthetic, natural color grading, detailed textures, and a 3:4 vertical composition.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted face, blurry subject, text, logo",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-blonde-subject", "required": true, "source": "blonde-white-dress-archway.jpg", "usage": "Preserve the adult subject's platinum hair, face, expression, and stance without reproducing any named public figure likeness."},
+        {"type": "wardrobe", "name": "white-halter-corset-mini-dress", "required": true, "source": "blonde-white-dress-archway.jpg", "usage": "Preserve the white halter dress, corset structure, pleated skirt, white heels, and bow; replace only with an explicitly attached wardrobe reference."},
+        {"type": "location", "name": "ivy-covered-rustic-arched-doorway", "required": true, "source": "blonde-white-dress-archway.jpg", "usage": "Maintain the stone arch, ivy, warm interior, and geometric tile floor; replace only with an explicit location reference."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep identity, adult status, outfit, pose, architecture, and environmental hierarchy consistent. Background foliage and props may be replaced only with explicit alternatives; preserve identity, outfit, product, logo, environment, and typography in any replacement. No logo or typography is present."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced the named public-figure identity with a generic approved adult while preserving the platinum-blonde, white-dress editorial concept.", "Added safe negative prompts and reference instructions."]}
+}

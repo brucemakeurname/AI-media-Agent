@@ -1,0 +1,48 @@
+{
+  "name": "vinamilk-susu-double-fun-ice-cream",
+  "tag": ["vinamilk", "susu", "ice-cream", "kids", "new-product"],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Product demos",
+  "group": "vinamilk_27904712625799463",
+  "prompt": {
+    "project_info": {
+      "theme": "Vinamilk SuSu two-flavor ice cream launch",
+      "color_palette": "Light lime green, pastel pink, soft yellow, black typography, fruit colors"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A playful illustrated product poster with three oversized two-tone ice cream bars standing upright. The top banner says 'Vinamilk SuSu' and the huge headline reads 'KEM HAI VỊ VUI GẤP ĐÔI!'. At the upper-right product window are three packaged bars labeled kiwi-lychee, strawberry-melon, and peach-lychee. A pink starburst says 'MỚI!'.",
+      "style": "Cute pastel commercial illustration with thick outlines, kid-friendly fruit graphics, and cheerful mascot doodles"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "Vinamilk SuSu; KEM HAI VỊ VUI GẤP ĐÔI!; MỚI!; KEM TUYẾT KIWI HƯƠNG VẢI; KEM TUYẾT DÂU DƯA LƯỚI; KEM TUYẾT ĐÀO HƯƠNG VẢI",
+      "items": [
+        "Top Left: Yellow Vinamilk SuSu header tabs and a row of yellow circles",
+        "Top Right: Product-packaging showcase panel with three flavor wrappers",
+        "Bottom Left: Fruit illustrations and a tiny winter-clothes character",
+        "Bottom Right: Pink 'MỚI!' burst and three playful cartoon kids sliding and pointing",
+        "Center/Background: Three giant pastel dual-flavor popsicles on a mint-green illustrated background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat cheerful illustration lighting",
+      "effect": "Soft grain texture, pastel color fill, clean glossy highlights on popsicles"
+    },
+    "technical_specs": {
+      "render_style": "Polished commercial illustration poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square illustrated product poster for a Vinamilk SuSu two-flavor ice cream launch. Centerpiece is a playful pastel composition with three oversized dual-flavor popsicles and the exact large headline 'KEM HAI VỊ VUI GẤP ĐÔI!'. Include the 'Vinamilk SuSu' top banner, the pink 'MỚI!' starburst, and the packaging callouts 'KEM TUYẾT KIWI HƯƠNG VẢI', 'KEM TUYẾT DÂU DƯA LƯỚI', and 'KEM TUYẾT ĐÀO HƯƠNG VẢI'. Background is a mint-green kid-friendly illustration field with fruits and cartoon children. Surrounding elements: packaging window at upper right, small fruit cutouts, and playful mascot doodles. Technical style: polished commercial illustration poster, flat cheerful illustration lighting, pastel grain texture and glossy popsicle highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {"type": "logo", "name": "Vinamilk SuSu branding", "required": true, "source": "original packaging/creative branding", "usage": "Top banner and wrapper branding"},
+        {"type": "product", "name": "SuSu ice cream bar packaging set", "required": true, "source": "real packaging reference recommended", "usage": "Match wrapper art and flavor labeling in the product window"},
+        {"type": "product", "name": "Three dual-flavor popsicles", "required": true, "source": "original illustration concept", "usage": "Keep the large center popsicles with soft pastel texture"},
+        {"type": "graphic", "name": "Cartoon kids and fruits", "required": false, "source": "recreated decorative illustration elements", "usage": "Support the playful children-focused tone"}
+      ],
+      "prompt_instructions": "Treat this as a cute illustrated product-launch poster. The giant popsicles and the bright headline are the core. Keep the packaging panel readable and preserve the exact Vietnamese flavor names."
+    }
+  }
+}

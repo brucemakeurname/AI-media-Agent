@@ -1,0 +1,70 @@
+{
+  "name": "samsung-galaxy-tab-s11-ultra-samsung-dex-productivity-powerhouse",
+  "tag": [
+    "tablet-launch",
+    "samsung-dex",
+    "productivity",
+    "desktop-mode"
+  ],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Tutorials",
+  "group": "samsung_1235183775316765",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy Tab S11 Ultra Samsung DeX productivity poster",
+      "color_palette": "Off-white, pastel pink desktop UI, light gray stand, black text"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Productivity poster showing Samsung DeX desktop mode on a large external monitor paired with a Galaxy Tab S11 Ultra acting as a companion screen, both displaying coordinated design and task-management workflows.",
+      "style": "Photorealistic clean tech render, productivity ecosystem demo, minimalist Samsung workspace visual"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Productivity powerhouse with Samsung DeX / Galaxy Tab S11 Ultra",
+      "items": [
+        "Top Left: Large centered black title 'Productivity powerhouse with Samsung DeX'.",
+        "Top Right: Smaller centered subtitle 'Galaxy Tab S11 Ultra'.",
+        "Bottom Left: Small gray multi-line DeX compatibility and performance disclaimer block.",
+        "Bottom Right: White space around the tablet companion screen and monitor stand.",
+        "Center/Background: Large desktop monitor showing a pastel DeX workspace with a 'Brand Guidelines' window and left-side file panel, plus a front tablet screen showing a task list interface; both float on a clean off-white background."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio lighting",
+      "effect": "Bright workspace clarity, gentle matte reflections, clean UI legibility"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy Tab S11 Ultra Samsung DeX productivity poster. Centerpiece is a large external monitor displaying a pastel desktop workspace with a 'Brand Guidelines' window and left-side file panel, paired with a Galaxy Tab S11 Ultra showing a design task list, all on a bright off-white background. Background is minimal and spacious. Surrounding elements: exact title 'Productivity powerhouse with Samsung DeX', subtitle 'Galaxy Tab S11 Ultra', and a small gray DeX compatibility disclaimer block at the bottom left. Technical style: photorealistic product render, soft studio lighting, bright UI clarity and gentle matte reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "ui_reference",
+          "name": "Samsung DeX desktop monitor UI and tablet companion UI",
+          "required": true,
+          "source": "original creative or official Samsung demo screens",
+          "usage": "Preserve the exact 'Brand Guidelines' layout, left navigation, and task-list screen on the tablet."
+        },
+        {
+          "type": "product",
+          "name": "external monitor and Galaxy Tab S11 Ultra render",
+          "required": true,
+          "source": "official Samsung marketing render",
+          "usage": "Match screen ratios, stand design, and tablet placement."
+        },
+        {
+          "type": "text_layout",
+          "name": "DeX headline and disclaimer",
+          "required": true,
+          "source": "original poster",
+          "usage": "Keep exact wording and bottom-left disclaimer block."
+        }
+      ],
+      "prompt_instructions": "Use refs for both UI screens and the exact monitor/tablet arrangement. This should feel like a polished productivity demo rather than a generic desktop mockup."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "prompt-1008",
+  "tag": [
+    "gold-sequin-dress",
+    "birthday-studio",
+    "number-balloons",
+    "party-hat",
+    "editorial-portrait"
+  ],
+  "image_type": "celebratory-fashion-portrait",
+  "image_vibe": "glamorous-playful",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Photoreal studio birthday fashion portrait with gold number balloons",
+      "creative_direction": "Editorial-quality celebratory image with metallic materials, playful pose, and clean neutral backdrop",
+      "color_palette": "metallic gold, warm beige, soft skin tones, champagne highlights, and neutral studio gray"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult woman with long light-brown hair with golden-blonde highlights in loose curls, playful cheeky thinking expression, and natural skin texture",
+      "wardrobe": "gold shimmering party hat and gold sequin party dress with modern asymmetric neckline cutout",
+      "action": "holding gold foil balloons shaped as numbers 20 and 26, one in each hand near the shoulders"
+    },
+    "composition_elements": {
+      "framing": "vertical high-resolution studio fashion portrait centered on the subject",
+      "props": "metallic gold foil number balloons with realistic creases, reflections, and highlight rolloff; gold party hat",
+      "background": "clean neutral beige studio backdrop with no text, logo, branding, or watermark"
+    },
+    "lighting_and_atmosphere": {
+      "type": "large soft key at approximately 5000K with gentle frontal fill and controlled flag",
+      "effect": "soft shadows, clean sequin sparkle, realistic balloon reflections, detailed hair strands, and polished but natural celebration mood"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 85mm portrait lens, editorial photorealism",
+      "resolution": "4k vertical social portrait",
+      "finish": "visible skin texture, sharp sequin detail, realistic metallic creases, restrained saturation, and subtle grain"
+    },
+    "generated_prompt_string": "Create a high-resolution photorealistic studio fashion portrait of a clearly adult woman with long light brown hair with golden blonde highlights in loose curls. Give her a playful, cheeky thinking expression while she looks off to the side with relaxed shoulders. She wears a gold shimmering party hat and a gold sequin party dress with a modern asymmetric neckline cutout. She holds gold foil balloons shaped as numbers 20 and 26, one in each hand raised near her shoulders. Use a clean neutral beige studio background, soft approximately 5000K key light with gentle shadows, visible skin texture, detailed hair strands, sharp sequin detail, and metallic balloons with realistic creases, reflections, and highlights. Keep the image editorial-quality, photorealistic, clean, and free of text, logos, branding, and watermarks.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, childlike styling, real logo, branding, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed hands, melted balloons, broken number shapes, distorted sequins",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-party-fashion-model",
+          "required": true,
+          "source": "Original birthday portrait preview image",
+          "usage": "Attach an approved adult person reference to preserve facial structure and likeness without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "gold-sequin-party-dress-and-hat",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the gold sequin dress, asymmetric neckline cutout, and party hat; do not change the reference-specified outfit."
+        },
+        {
+          "type": "accessory",
+          "name": "gold-number-2026-balloons",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the 20 and 26 balloon shapes, hand positions, metallic creases, and shoulder-level placement; numbers may be replaced for another approved celebration."
+        },
+        {
+          "type": "background",
+          "name": "neutral-beige-studio",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the clean beige background and soft shadow behavior; the studio may be replaced with an equivalent neutral set."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult model, exact outfit, balloon props, and studio references. Keep identity, dress, hat, balloon shapes, hand placement, neutral background, and metallic lighting consistent. Replace only the person, numbers, or set with approved equivalents; keep the result non-sexual and unbranded."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "be-acb-visa-payment-discount-50k",
+  "tag": ["acb visa", "payment promo", "50k off", "becar", "bebike"],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "be_4500455753530900",
+  "prompt": {
+    "project_info": {
+      "theme": "Payment-with-ACB Visa discount poster",
+      "color_palette": "Pale blue, royal blue, yellow, white, black"
+    },
+    "main_subject": {
+      "type": "Text/Object/Character",
+      "detail": "A co-branded payment promotion poster for be and ACB featuring a large headline about paying with an ACB Visa card, a giant smartphone checkout screen and black ACB Visa card, plus cheerful be mascots, a beCar, a beBike, and food props in the foreground.",
+      "style": "Hybrid fintech-and-mobility promo poster, playful commercial composite"
+    },
+    "composition_elements": {
+      "type": "Typography/Payment Props/Characters/Vehicles",
+      "text": "be, ACB, Thanh toán cùng Thẻ Visa ACB, giảm đến 50K, ACB, VISA Platinum, beCar, beBike",
+      "items": [
+        "Top Center: be and ACB logos.",
+        "Upper Middle: large blue headline 'Thanh toán cùng Thẻ Visa ACB'.",
+        "Center: blue highlight bar with yellow text 'giảm đến 50K'.",
+        "Middle: giant smartphone showing payment screen behind a black ACB Visa Platinum card.",
+        "Foreground Center: smiling be mascot holding drink and food bowl.",
+        "Bottom Left: yellow beCar with waving mascot driver.",
+        "Bottom Right: yellow beBike and three ACB card variants along the lower edge.",
+        "Background: pale blue stylized city skyline with cloud shapes."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright clean commercial lighting",
+      "effect": "Friendly fintech promo tone, crisp card visibility, airy city backdrop"
+    },
+    "technical_specs": {
+      "render_style": "Hybrid financial partnership poster with illustrated mascots and payment props",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "logo", "name": "be and ACB logos", "required": true, "source": "source image logo references", "usage": "Preserve the exact co-brand header."},
+        {"type": "product", "name": "ACB Visa cards and smartphone payment screen", "required": true, "source": "source image financial-product reference", "usage": "Keep the black hero card, smaller cards at bottom, and checkout UI."},
+        {"type": "graphic", "name": "be mascots with beCar and beBike", "required": true, "source": "source image mascot and vehicle reference", "usage": "Preserve the playful mobility illustration and placement."},
+        {"type": "text_layout", "name": "ACB payment promo headline", "required": true, "source": "source image text reference", "usage": "Keep the exact wording and blue highlight treatment for 'giảm đến 50K'."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the card arrangement, smartphone UI, and mascot composition.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the airy pale-blue skyline background and the bottom row of card variants."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square be x ACB payment promotion poster with a pale blue stylized city skyline background. Place the be and ACB logos at the top center. Add a large blue headline 'Thanh toán cùng Thẻ Visa ACB' and a blue highlight bar with yellow text 'giảm đến 50K'. In the middle, show a giant smartphone payment screen behind a black ACB Visa Platinum card. In the foreground, add a smiling be mascot holding a drink and food bowl, a yellow beCar with a waving driver on the left, a yellow beBike on the right, and three ACB card variants along the lower edge. Technical style: hybrid financial partnership poster with illustrated mascots and payment props, bright clean commercial lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark scene, incorrect logos, wrong card design, blurry text, low resolution, cluttered layout, distorted vehicles, watermark, signature"
+  }
+}

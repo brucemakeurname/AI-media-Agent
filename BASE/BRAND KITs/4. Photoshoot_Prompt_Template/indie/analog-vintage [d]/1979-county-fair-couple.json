@@ -1,0 +1,79 @@
+{
+  "name": "1979-county-fair-couple",
+  "tag": [
+    "adult-couple",
+    "1979",
+    "county-fair",
+    "analog-film",
+    "sunset",
+    "candid"
+  ],
+  "image_type": "vintage-candid-couple-photo",
+  "image_vibe": "nostalgic-warm-authentic",
+  "image_purpose": "moodboard",
+  "group": "indie/analog-vintage",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that both people are adults while preserving the 1979 county-fair concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "warm candid adult couple portrait at a 1979 county fair",
+      "color_palette": "sunset gold, faded denim blue, burgundy stripe, dusty cream, warm brown",
+      "format": "landscape 16:9"
+    },
+    "main_subject": {
+      "type": "adult couple",
+      "detail": "Two adult partners with feathered late-1970s hairstyles: a laughing woman in a striped knit top and high-waisted jeans, and a man in a sleeveless blue denim vest over a cream ringer T-shirt and jeans.",
+      "style": "natural candid 35mm fairground photograph"
+    },
+    "composition_elements": {
+      "text": "Fair signage remains soft and unreadable; no rendered text.",
+      "items": [
+        "adult couple walking close together near the center foreground",
+        "warm sunset rim light behind their hair",
+        "county-fair midway with ferris wheel, games stalls, flags, and anonymous crowd",
+        "unposed laughter and eye contact between the two people",
+        "dusty fairground path and long evening shadows"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "low golden-hour sunlight at approximately 3800K with soft backlight and ambient fairground fill",
+      "effect": "warm flare, slightly faded color, lived-in summer nostalgia, and candid movement"
+    },
+    "technical_specs": {
+      "render_style": "1979 35mm consumer film look, 50mm lens at f/2.8, visible grain, slight color fade, mild vignette, landscape 16:9",
+      "resolution": "high resolution with authentic analog texture"
+    },
+    "generated_prompt_string": "A landscape 16:9 candid photo taken in 1979 at a county fair. Two adult partners with feathered late-1970s hair walk together in warm golden-hour light: a laughing woman in a burgundy-and-cream striped knit top and high-waisted blue jeans, and a man in a sleeveless blue denim vest over a cream ringer T-shirt and jeans. Behind them are a ferris wheel, midway game stalls, flags, a dusty fairground path, and an anonymous crowd. Capture their natural laughter and connection with a 35mm consumer film look, visible grain, slightly faded warm colors, soft sunset flare, a 50mm lens at f/2.8, and no readable signage or text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, readable text, logo, watermark, modern clothing, smartphone, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-couple-reference",
+          "required": false,
+          "source": "Attach authorized adult references only when likeness continuity is required.",
+          "usage": "Preserve the adults' identities if supplied; otherwise both people can be replaced."
+        },
+        {
+          "type": "wardrobe",
+          "name": "late-seventies-fair-outfit-reference",
+          "required": false,
+          "source": "Attach wardrobe reference when exact denim or knit pattern is required.",
+          "usage": "Keep period-appropriate late-1970s silhouettes; garments may be replaced."
+        },
+        {
+          "type": "location",
+          "name": "county-fair-sunset-reference",
+          "required": false,
+          "source": "Attach a fairground plate when exact ride placement or crowd density is required.",
+          "usage": "Keep warm county-fair context and unreadable signage; location may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve two clearly adult partners, late-1970s clothes and hair, candid fairground connection, golden-hour light, and analog film texture. People, wardrobe, and fairground can be replaced independently."
+    }
+  }
+}

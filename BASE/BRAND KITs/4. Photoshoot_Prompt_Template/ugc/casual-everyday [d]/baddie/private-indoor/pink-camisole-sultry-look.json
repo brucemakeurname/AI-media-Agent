@@ -1,0 +1,58 @@
+{
+  "name": "pink-camisole-sultry-look",
+  "tag": [
+    "ugc",
+    "baddie",
+    "private-indoor",
+    "pink-lounge-set",
+    "over-shoulder-portrait",
+    "tattoo-detail"
+  ],
+  "image_type": "ugc-fashion-lifestyle-portrait",
+  "image_vibe": "moody-soft-pink-editorial",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic candid influencer-style indoor fashion portrait for a vertical social-media post, preserving the supplied reference's pink palette, artwork and lived-in luxury hallway setting.",
+    "main_subject": "One original approved adult woman with long voluminous platinum-blonde to silver-grey waves, fair natural skin texture, a black abstract tribal-style tattoo on the upper left arm, a small text tattoo on the left outer forearm or wrist, and a confident direct over-shoulder gaze. She wears a light pink cropped camisole with thin white straps, matching pink lounge shorts with white piping, and a gold bracelet.",
+    "composition_elements": "Medium portrait captured from behind at eye level to a slightly low angle. The adult subject stands with her back turned and body angled slightly left, turns her head over the left shoulder toward camera, and lets one arm rest alongside the thigh. Place her in front of a large framed abstract painting in pink, red, white and beige, with a dark console table, rectangular moss planter, stacked grey-spine coffee-table book and wooden floor visible.",
+    "lighting_and_atmosphere": "Dim warm-to-neutral ambient indoor light from the right or overhead, with subtle shadow on the left side of the back and arm. Keep the mood intimate, casual and self-assured while retaining natural muted pastel color and realistic texture.",
+    "technical_specs": "Vertical 4:5 or 2:3 framing, natural perspective, sharp focus on the subject, slight background falloff, realistic skin and hair strands, soft fabric texture, visible canvas texture, moderate contrast and restrained social-media color grading.",
+    "generated_prompt_string": "Create a photorealistic candid influencer-style indoor portrait of one original approved adult woman with long voluminous platinum-blonde to silver-grey wavy hair, fair natural skin texture, a black abstract tribal-style tattoo on the upper left arm, a small text tattoo on the left outer forearm or wrist, and a confident direct over-shoulder gaze. She wears a light pink cropped camisole with thin white straps, matching pink lounge shorts with white piping and a gold bracelet. Capture a medium portrait from behind at eye level to a slightly low angle; her back faces camera, her body angles slightly left, her head turns over the left shoulder toward the viewer, and one arm rests naturally alongside the thigh. Place her in an indoor hallway or living space with a large framed abstract painting in pink, red, white and beige, a dark sleek console table, a rectangular moss planter, a stacked grey-spine coffee-table book and wooden floor. Use dim warm-to-neutral ambient light from the right or overhead, subtle shadows, natural muted pastel color, realistic skin and hair strands, soft fabric texture, visible canvas texture and slight background falloff.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, body-part emphasis, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, unreadable text or logos",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "pink-camisole-sultry-look.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach the supplied image for the original approved-adult face, platinum hair, tattoos, outfit and likeness; preserve identity and pose while allowing a replacement adult subject when needed."
+        },
+        {
+          "type": "wardrobe",
+          "name": "pink camisole and matching lounge shorts",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the pink fabric, white straps and piping, bracelet and outfit fit; wardrobe may be replaced only with an explicitly supplied alternative."
+        },
+        {
+          "type": "background",
+          "name": "pink abstract painting, dark console, moss planter and coffee-table book",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the artwork composition, console, planter, book and environment; these background elements can be replaced individually without changing the subject identity or outfit."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and background references. Keep face, facial structure, hair, tattoos and likeness consistent; keep the pink outfit and its fit consistent; keep the painting, console and room environment consistent. Optional replacements may change the adult subject, wardrobe or background one at a time, but must preserve the same over-shoulder composition, color hierarchy and lighting. No supplied logo or typography is required; preserve any visible book typography only as indistinct, non-branded detail."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adult.",
+      "Removed explicit body-proportion and sexualized pose language while preserving the pink outfit, over-shoulder pose and editorial intent.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

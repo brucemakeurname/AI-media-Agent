@@ -1,0 +1,168 @@
+<template data-composition-id="10-reason-four-payoff">
+  <style>
+    @font-face {
+      font-family: "Barlow";
+      src: url("assets/fonts/Barlow-Black.woff2") format("woff2");
+      font-weight: 900;
+      font-display: block;
+    }
+    @font-face {
+      font-family: "Barlow";
+      src: url("assets/fonts/Barlow-Bold.woff2") format("woff2");
+      font-weight: 700;
+      font-display: block;
+    }
+
+    #root {
+      width: 1080px;
+      height: 1920px;
+      container-type: size;
+      overflow: hidden;
+      font-family: "Barlow", sans-serif;
+    }
+
+    .f10-bg {
+      position: absolute;
+      inset: 0;
+      background: #111111;
+    }
+
+    .f10-content {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding: 5.5cqw 5.5cqw 0 5.5cqw;
+    }
+
+    .f10-mark {
+      font-family: "Barlow", sans-serif;
+      font-weight: 900;
+      font-size: 10cqw;
+      line-height: 0.6;
+      color: #e85d26;
+      margin-top: 22cqw;
+      transform-origin: 0% 50%;
+      will-change: transform;
+    }
+
+    .f10-quote {
+      margin-top: 3cqw;
+      max-width: 78cqw;
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 0.9cqw;
+      row-gap: 0.4cqw;
+    }
+
+    .f10-word {
+      font-family: "Barlow", sans-serif;
+      font-weight: 700;
+      font-size: 3.8cqw;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      text-transform: lowercase;
+      color: #f0ece5;
+      will-change: transform, opacity;
+    }
+
+    .f10-word.f10-beat {
+      color: #e85d26;
+      font-weight: 900;
+    }
+  </style>
+
+  <div id="root" data-composition-id="10-reason-four-payoff" data-width="1080" data-height="1920">
+    <div class="f10-bg clip" data-start="0" data-duration="3.584" data-track-index="0"></div>
+
+    <div class="f10-content clip" data-start="0" data-duration="3.584" data-track-index="1">
+      <div class="f10-mark" id="f10-mark">&#8220;</div>
+      <div class="f10-quote" id="f10-quote">
+        <span class="f10-word" data-w="0">you&#8217;re</span>
+        <span class="f10-word" data-w="1">building</span>
+        <span class="f10-word" data-w="2">a</span>
+        <span class="f10-word f10-beat" data-w="3">media</span>
+        <span class="f10-word f10-beat" data-w="4">startup,</span>
+        <span class="f10-word" data-w="5">not</span>
+        <span class="f10-word" data-w="6">playing</span>
+        <span class="f10-word" data-w="7">a</span>
+        <span class="f10-word f10-beat" data-w="8">video</span>
+        <span class="f10-word f10-beat" data-w="9">game.</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+
+      var tl = gsap.timeline({ paused: true });
+      var root = document.querySelector(
+        '[data-composition-id="10-reason-four-payoff"] #root, #root[data-composition-id="10-reason-four-payoff"]'
+      );
+      var scope = root || document;
+
+      var mark = scope.querySelector("#f10-mark");
+      var words = scope.querySelectorAll(".f10-word");
+      var quoteBlock = scope.querySelector("#f10-quote");
+
+      // Scene 1 (0.0-0.6s): quote-mark spring-pop entrance, in-place, no bounce.
+      tl.fromTo(
+        mark,
+        { scale: 0, opacity: 0 },
+        { scale: 1, opacity: 1, duration: 0.5, ease: "power3.out" },
+        0.05
+      );
+
+      // Scene 2 (0.6-3.0s): quote-text per-word staggered reveal.
+      // "media startup" and "video game" (data-w 3/4 and 8/9) are the two landing beats:
+      // slightly heavier settle so they read as the emphasis words.
+      var STAGGER = 0.2;
+      var START = 0.6;
+      words.forEach(function (el, i) {
+        var isBeat = el.classList.contains("f10-beat");
+        var start = START + i * STAGGER;
+        if (isBeat) {
+          tl.fromTo(
+            el,
+            { opacity: 0, y: 18, scale: 0.86 },
+            { opacity: 1, y: 0, scale: 1, duration: 0.42, ease: "back.out(1.4)" },
+            start
+          );
+        } else {
+          tl.fromTo(
+            el,
+            { opacity: 0, y: 16, scale: 0.94 },
+            { opacity: 1, y: 0, scale: 1, duration: 0.35, ease: "power3.out" },
+            start
+          );
+        }
+      });
+
+      // Scene 3 (3.0-3.584s): held read, subtle jitter only (fourth deliberate held beat).
+      var IDLE_START = 3.0;
+      var IDLE_DUR = 3.584 - IDLE_START;
+      var phase = { p: 0 };
+      tl.to(
+        phase,
+        {
+          p: Math.PI * 2 * 1,
+          duration: IDLE_DUR,
+          ease: "none",
+          onUpdate: function () {
+            var s = Math.sin(phase.p);
+            if (quoteBlock) {
+              quoteBlock.style.transform =
+                "translateY(" + (s * 2).toFixed(3) + "px)";
+            }
+          },
+        },
+        IDLE_START
+      );
+
+      window.__timelines["10-reason-four-payoff"] = tl;
+    })();
+  </script>
+</template>

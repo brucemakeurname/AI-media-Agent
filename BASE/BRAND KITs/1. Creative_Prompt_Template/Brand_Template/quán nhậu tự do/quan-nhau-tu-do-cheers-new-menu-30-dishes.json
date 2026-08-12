@@ -1,0 +1,77 @@
+{
+  "name": "quan-nhau-tu-do-cheers-new-menu-30-dishes",
+  "tag": [
+    "menu-launch",
+    "food-promo",
+    "beer-cheers",
+    "restaurant-poster"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "quan-nhau-tu-do_1610478601079835",
+  "prompt": {
+    "project_info": {
+      "theme": "Quán Nhậu Tự Do new menu hero poster",
+      "color_palette": "Dark green, warm yellow, beer gold, wood brown, food natural tones"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Wide restaurant promotional banner with two hands clinking frosty beer glasses above a feast-filled wooden table of Vietnamese drinking dishes and hotpot, paired with oversized yellow typography announcing many new menu items.",
+      "style": "Photorealistic food advertising, polished hospitality campaign, rich appetizing textures"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "QUÁN NHẬU TỰ DO / CHẠM CỐC TỰ DO / MỞ VỊ MỚI / 30+ MÓN NHẬU MỚI TOANH / *1986 / quannhautudo.com",
+      "items": [
+        "Top Left: Quán Nhậu Tự Do logo in white on the dark green background.",
+        "Top Right: Two raised hands clinking full beer glasses with bright highlight flare.",
+        "Bottom Left: Contact row with phone icon and '*1986' plus globe icon and 'quannhautudo.com'.",
+        "Bottom Right: Large wooden table overflowing with dishes including hotpot, grilled fish, stir-fried dishes, salad, side bowls, and condiments.",
+        "Center/Background: Giant stacked headline 'CHẠM CỐC TỰ DO' in white and 'MỞ VỊ MỚI' in oversized yellow letters, with a yellow brush label '30+ MÓN NHẬU MỚI TOANH'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm commercial food lighting",
+      "effect": "Glossy highlights on beer foam, appetizing directional light on dishes, subtle background venue blur, vibrant hospitality energy"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic food advertising photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Quán Nhậu Tự Do new menu hero poster. Centerpiece is a wide banquet table full of Vietnamese drinking dishes and hotpot, with two hands clinking icy beer glasses above it. Background is a dark green hospitality backdrop with subtle venue imagery and atmospheric blur. Surrounding elements: top-left Quán Nhậu Tự Do logo, huge headline 'CHẠM CỐC TỰ DO' and 'MỞ VỊ MỚI', yellow brush label '30+ MÓN NHẬU MỚI TOANH', and bottom contact row '*1986' and 'quannhautudo.com'. Technical style: photorealistic food advertising photography, warm commercial food lighting, glossy beer highlights and appetizing dish textures, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Quán Nhậu Tự Do logo",
+          "required": true,
+          "source": "brand logo asset",
+          "usage": "Place at top-left and keep the exact white wordmark treatment."
+        },
+        {
+          "type": "product",
+          "name": "full table of Vietnamese dishes and beer glasses",
+          "required": true,
+          "source": "original food photography from the campaign",
+          "usage": "Preserve the table composition, dish selection, and clinking beer hero moment."
+        },
+        {
+          "type": "text_layout",
+          "name": "headline and offer brush-strip typography",
+          "required": true,
+          "source": "original poster layout",
+          "usage": "Keep the giant white/yellow headline blocks and bottom contact row."
+        },
+        {
+          "type": "background",
+          "name": "dark green hospitality backdrop",
+          "required": true,
+          "source": "original venue backdrop treatment",
+          "usage": "Maintain the moody green field and faint venue scene behind the table."
+        }
+      ],
+      "prompt_instructions": "Use refs for the beer-toast hands, the exact food table arrangement, and the typography layout. Keep the composition horizontally split: headline-heavy left side and food-table-heavy right side, with beer glasses bridging the top-center."
+    }
+  }
+}

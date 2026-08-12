@@ -1,0 +1,77 @@
+{
+  "name": "techcombank-household-business-tax-account-pho-shop",
+  "tag": [
+    "merchant-banking",
+    "small-business",
+    "real-person",
+    "qr-payment"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Case studies",
+  "group": "techcombank_1060008960305290",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank tax-compliant business account for merchants",
+      "color_palette": "Warm cream, red, black, green, wood brown"
+    },
+    "main_subject": {
+      "type": "Person/Object/Text",
+      "detail": "A realistic merchant banking poster set inside a Vietnamese pho shop. The Techcombank logo sits at top right. Main heading says 'Ho kinh doanh' and subheading 'Mo tai khoan chuan thue, an tam buon ban'. Four icon-led benefits read 'Khai bao don gian', 'Tuan thu dung quy dinh', 'Minh bach giao dich', and 'Kinh doanh ben vung'. At center, a smiling middle-aged female shop owner in a green shirt and dark apron holds up a smartphone showing a tax-mobile screen. A Techcombank QR stand sits on the counter in front. The restaurant background includes a menu board and the sign 'Pho Gia Truyen' with a worker preparing food. A large white bubble says 'Nhan ngay qua tang tri gia 16 TRIEU VND'. Bottom-left slogan is 'VUOT TROI MOI NGAY'.",
+      "style": "Trust-building merchant testimonial poster with realistic lifestyle photography, informative icon row, and clean retail-banking overlay"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TECHCOMBANK / Ho kinh doanh / Mo tai khoan chuan thue, an tam buon ban / Khai bao don gian / Tuan thu dung quy dinh / Minh bach giao dich / Kinh doanh ben vung / Pho Gia Truyen / Nhan ngay qua tang tri gia 16 TRIEU VND / VUOT TROI MOI NGAY",
+      "items": [
+        "Top Left: Icon row with four merchant-account benefit labels",
+        "Top Right: Techcombank logo",
+        "Bottom Left: Techcombank QR stand and slogan 'VUOT TROI MOI NGAY'",
+        "Bottom Right: Large white offer bubble 'Nhan ngay qua tang tri gia 16 TRIEU VND'",
+        "Center/Background: Smiling pho-shop owner holding a smartphone, authentic restaurant interior, menu board, shop sign, and a worker in the background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Natural indoor retail lighting",
+      "effect": "Warm ambient shop light, realistic skin tones, documentary-style depth, friendly merchant atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Lifestyle banking poster with photo-real documentary compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank merchant-banking campaign. Centerpiece is a smiling female pho-shop owner holding a smartphone inside her restaurant, with a Techcombank QR stand on the counter. Background is a realistic Vietnamese pho shop with menu board, 'Pho Gia Truyen' signage, and a worker in the kitchen area. Surrounding elements: Techcombank logo, heading 'Ho kinh doanh', subheading 'Mo tai khoan chuan thue, an tam buon ban', the four benefits 'Khai bao don gian', 'Tuan thu dung quy dinh', 'Minh bach giao dich', 'Kinh doanh ben vung', and a large white offer bubble 'Nhan ngay qua tang tri gia 16 TRIEU VND'. Technical style: lifestyle banking poster with photo-real documentary compositing, natural indoor retail lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Pho-shop owner portrait reference",
+          "required": true,
+          "source": "original campaign portrait or approved lifestyle photo",
+          "usage": "Attach for exact likeness, apron, pose, and expression"
+        },
+        {
+          "type": "ui_reference",
+          "name": "Tax Mobile phone screen",
+          "required": true,
+          "source": "source screenshot or campaign UI asset",
+          "usage": "Use for the exact phone display and tax-app interface"
+        },
+        {
+          "type": "location",
+          "name": "Pho shop interior reference",
+          "required": true,
+          "source": "original restaurant environment or matching location ref",
+          "usage": "Preserve menu board, 'Pho Gia Truyen' sign, counter placement, and overall shop realism"
+        },
+        {
+          "type": "text_layout",
+          "name": "Merchant-banking testimonial layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the exact headline stack, icon row, offer bubble, and QR stand placement"
+        }
+      ],
+      "prompt_instructions": "This should read as a real merchant success/testimonial poster, not a synthetic stock scene. Preserve the exact Vietnamese copy and the grounded restaurant setting."
+    }
+  }
+}

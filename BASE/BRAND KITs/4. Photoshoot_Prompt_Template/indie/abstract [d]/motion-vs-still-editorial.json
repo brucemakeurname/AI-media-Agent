@@ -1,0 +1,80 @@
+{
+  "name": "motion-vs-still-editorial",
+  "tag": [
+    "adult-man",
+    "hooded-jacket",
+    "crowd-blur",
+    "motion-contrast",
+    "bright-studio",
+    "editorial"
+  ],
+  "image_type": "cinematic-street-fashion-portrait",
+  "image_vibe": "still-focused-urban-clean",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Resolved conflicting gender language and clarified that the central subject is an adult man.",
+      "Replaced the aggressive wardrobe wording with a neutral brown hooded technical jacket."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "still adult man contrasted with a rushing blurred crowd",
+      "color_palette": "warm brown, black, winter white, soft gray",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult man",
+      "detail": "An adult man with loose curly light-brown hair, a calm stoic expression, and a brown hooded technical jacket.",
+      "style": "centered cold-weather fashion portrait"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "three-quarter adult man standing motionless in the center",
+        "hood up, head turned slightly toward camera",
+        "anonymous passersby crossing near camera in strong horizontal motion blur",
+        "bright lightly abstract winter street or transit setting",
+        "sharp face and brown outerwear contrasting with moving crowd"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft overcast daylight at approximately 6500K with pale ambient fill",
+      "effect": "clean bright background, gentle film texture, and a deliberate contrast between stillness and movement"
+    },
+    "technical_specs": {
+      "render_style": "50mm lens at f/2.8, subject focus with controlled slow-shutter crowd blur, subtle analog grain",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "A high-fashion editorial portrait of an adult man standing still in the center of a bright, clean, slightly abstract winter city setting. He has loose curly light-brown hair, wears a brown hooded technical jacket with the hood raised, and turns his head slightly toward the camera with a calm stoic expression. Surround him with anonymous people passing by in strong motion blur, while his face and clothing remain sharply focused. Emphasize the visual contrast between static presence and moving silhouettes. Use film composition, art-photography sensibility, soft magazine texture, overcast daylight, a 50mm lens at f/2.8, controlled slow-shutter blur, and portrait 4:5 framing.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, recognizable bystanders, text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-central-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult person reference only when facial likeness continuity is required.",
+          "usage": "Preserve the supplied adult identity, hair, and expression; otherwise use a generic adult man."
+        },
+        {
+          "type": "wardrobe",
+          "name": "brown-hooded-technical-jacket-reference",
+          "required": false,
+          "source": "Attach a wardrobe reference when exact jacket cut, fabric, or hood shape is required.",
+          "usage": "Keep the brown hooded outerwear silhouette; it may be replaced."
+        },
+        {
+          "type": "background",
+          "name": "bright-crowd-motion-reference",
+          "required": false,
+          "source": "Attach a location plate when a specific pedestrian density or motion direction is needed.",
+          "usage": "Maintain anonymous blurred passersby and a bright winter urban field; the location may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve an adult central man, brown hooded outerwear, sharp still subject, and anonymous crowd motion blur. Identity, wardrobe, and environment may be replaced independently."
+    }
+  }
+}

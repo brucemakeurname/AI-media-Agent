@@ -1,0 +1,19 @@
+{
+  "name": "prompt-651",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "boardwalk", "matcha"],
+  "image_type": "fisheye-boardwalk-closeup",
+  "image_vibe": "funny-intimate-casual",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic ultra-wide boardwalk close-up of an approved adult person enjoying an iced matcha latte.",
+    "main_subject": "An approved adult person in a bright green knit sweater and chunky blue sunglasses leans toward camera with a curious playful expression and sips a clear cup of iced matcha through a green-and-white spiral straw.",
+    "composition_elements": "Very close slightly low-angle fisheye framing with strong but controlled lens distortion, wooden boardwalk, colorful stalls, distant people, benches, umbrellas, and reflections in sunglasses.",
+    "lighting_and_atmosphere": "Bright midday sun, clear blue sky, clean natural color, shallow foreground focus and soft background, intimate playful mood.",
+    "technical_specs": "Photorealistic 12mm ultra-wide smartphone style, vertical framing, realistic glass, ice, drink, knit, sunglasses, wood, and background detail.",
+    "generated_prompt_string": "Create a photorealistic vertical ultra-wide fisheye close-up of an approved adult person wearing a bright green knit sweater and chunky blue sunglasses, leaning toward camera with a curious playful expression while sipping an iced matcha latte from a transparent cup through a green-and-white spiral straw. Show a sunny wooden boardwalk, colorful stalls, distant people, benches, umbrellas, and reflections in the glasses. Use 12mm perspective, controlled lens distortion, bright midday light, natural colors, and shallow foreground focus.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted cup",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-matcha-subject", "required": true, "source": "prompt-651.jpg", "usage": "Preserve adult identity, expression, glasses, and lean-in pose."}, {"type": "wardrobe", "name": "green-knit-blue-sunglasses", "required": true, "source": "prompt-651.jpg", "usage": "Keep sweater and sunglasses consistent; replace only with explicit references."}, {"type": "prop", "name": "iced-matcha-clear-cup", "required": true, "source": "prompt-651.jpg", "usage": "Preserve cup, ice, straw, drink, and sip action; replace only with explicit references."}, {"type": "location", "name": "sunny-boardwalk-stalls", "required": true, "source": "prompt-651.jpg", "usage": "Maintain planks, stalls, people, umbrellas, and daylight; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, prop, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the boardwalk matcha concept.", "Added safe negative prompts and structured references."]}
+}

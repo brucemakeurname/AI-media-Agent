@@ -1,0 +1,62 @@
+{
+  "name": "old-photo-to-dslr-portrait",
+  "tag": [
+    "photo-restoration",
+    "adult-female-portrait",
+    "face-preservation",
+    "color-recovery",
+    "damage-repair",
+    "archive"
+  ],
+  "image_type": "archival-photo-restoration",
+  "image_vibe": "faithful-natural-recovered",
+  "image_purpose": "photo-restoration",
+  "group": "indie/analog-vintage",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "faithful restoration of an attached adult portrait photograph",
+      "color_palette": "source-faithful natural warm color and recovered skin tones",
+      "format": "match the attached source photograph"
+    },
+    "main_subject": {
+      "type": "adult woman shown in the attached archival portrait",
+      "detail": "Preserve exactly her identity, adult age presentation, facial features, smile, curly hair, floral blouse, ring, hand placement, pose, and expression from the source image.",
+      "style": "conservative archival restoration, not a new portrait generation"
+    },
+    "composition_elements": {
+      "text": "Preserve source text only if present; do not add or alter text.",
+      "items": [
+        "retain the original close portrait crop and seated pose",
+        "retain the visible floral blouse, jewelry, curly hair, table, and interior background",
+        "repair fading, stains, scratches, noise, blur, and paper damage conservatively",
+        "do not alter her face, hands, clothing, background, or source framing"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "source-consistent exposure and natural color recovery",
+      "effect": "restrained denoise, realistic skin texture, and preserved family-photo character"
+    },
+    "technical_specs": {
+      "render_style": "non-generative high-resolution restoration comparable to DSLR clarity, exact identity preservation, subtle source grain, no beauty retouching",
+      "resolution": "highest recoverable detail at original aspect ratio"
+    },
+    "generated_prompt_string": "Restore the attached adult portrait photograph into a natural professional high-detail image. Preserve the exact identity, adult age presentation, facial features, smile, curly hair, floral blouse, ring, hands, pose, crop, table, background, and historical character of the source. Repair only fading, scratches, stains, noise, blur, and damaged areas while improving recoverable clarity and source-faithful natural color. Do not change the person, alter her face or age, reshape hands, replace clothing or jewelry, modify the background, change the pose, or invent details not verified by the original photograph.",
+    "negative_prompt": "identity change, face swap, age alteration, changed expression, changed hairstyle, changed hands, added jewelry, removed jewelry, changed clothing, changed pose, invented background, plastic skin, waxy, over-smooth, airbrushed, HDR look, watermark, logo, text alteration, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "source-adult-portrait",
+          "required": true,
+          "source": "Attach the original portrait photograph.",
+          "usage": "Mandatory source for the adult woman's identity, age presentation, expression, hair, hands, clothing, jewelry, pose, and background."
+        }
+      ],
+      "prompt_instructions": "Original portrait is mandatory. Apply only conservative restoration and retain every identifiable feature exactly as shown; do not infer or generate uncertain details."
+    }
+  }
+}

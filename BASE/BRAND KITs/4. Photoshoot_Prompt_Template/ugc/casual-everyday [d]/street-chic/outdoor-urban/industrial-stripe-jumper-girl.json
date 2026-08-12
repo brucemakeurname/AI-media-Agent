@@ -1,0 +1,19 @@
+{
+  "name": "industrial-stripe-jumper-girl",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "industrial", "knitwear"],
+  "image_type": "industrial-street-fashion-portrait",
+  "image_vibe": "minimal-confident-editorial",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic full-body candid fashion portrait of an approved adult woman in an industrial urban setting.",
+    "main_subject": "An approved adult brunette woman with long hair in a sleek ponytail, natural makeup and subtle freckles. She stands confidently with both hands in trouser pockets, wearing a thick black crocheted jumper with deep navy and teal horizontal stripes, fitted black trousers with lace-up ankle detail, and black strappy heels.",
+    "composition_elements": "2:3 full-body composition against an old brick warehouse wall, red metal door, exposed staircase and railings, and textured concrete ground.",
+    "lighting_and_atmosphere": "Soft daylight and gentle shadows, crisp knit and masonry texture, spontaneous modern street-editorial atmosphere.",
+    "technical_specs": "Photorealistic high-detail fashion photography, 2:3 vertical framing, sharp subject, natural body proportions, realistic fabric, hair, skin, concrete, and depth.",
+    "generated_prompt_string": "Create a photorealistic 2:3 full-body candid fashion portrait of an approved adult brunette woman with long hair in a sleek ponytail, natural makeup, and subtle freckles. She stands confidently with both hands in her pockets, wearing a thick black crocheted jumper with deep navy and teal horizontal stripes, fitted black trousers with lace-up ankle detail, and black strappy heels. Place her by an old brick warehouse wall, red metal door, exposed metal staircase, railings, and textured concrete. Use soft daylight, gentle shadows, realistic knit texture, and modern street-editorial mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted body, warped architecture",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-industrial-fashion-subject", "required": true, "source": "industrial-stripe-jumper-girl.jpg", "usage": "Preserve adult identity, hair, expression, and hands-in-pockets pose."}, {"type": "wardrobe", "name": "striped-crochet-jumper-black-trousers", "required": true, "source": "industrial-stripe-jumper-girl.jpg", "usage": "Keep knit, stripes, trousers, and heels consistent; replace only with explicit references."}, {"type": "location", "name": "brick-warehouse-red-door", "required": true, "source": "industrial-stripe-jumper-girl.jpg", "usage": "Maintain wall, door, staircase, railings, and concrete; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the street-fashion scene.", "Added safe negative prompts and structured references."]}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "dramatic-four-styles-character",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "four-panel", "piano"],
+  "image_type": "four-panel cinematic character fashion collage",
+  "image_vibe": "dramatic, glamorous, cinematic, eclectic",
+  "image_purpose": "character lookbook and social editorial collage",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic four-panel character fashion collage of one original approved adult woman across a consistent warm bedroom-and-piano environment.",
+    "main_subject": "Original approved adult woman with shoulder-length honey-blonde hair and bangs, confident expressive gaze, red lipstick, and natural skin texture. She wears a shimmering rose-gold embellished sleeveless costume with fringe details, pink textured tights, and pink heels across four coordinated looks.",
+    "composition_elements": ["Four mid-close-up and wide-angle panels with varied dynamic camera angles and confident poses.", "Green upright piano, bedroom, bed, curtains, lamps, and warm patterned carpet remain consistent.", "Panels show seated piano interaction, close-up portrait, extended-arm pose, and leaning piano portrait.", "Preserve face, costume embellishments, fringe, piano keys, and panel continuity."],
+    "lighting_and_atmosphere": "Cinematic warm indoor lighting with high contrast, crisp textures, controlled color grading, and a dramatic editorial mood.",
+    "technical_specs": "Photorealistic 4-panel collage, varied wide-angle and mid-close-up framing, realistic sequins, fringe, piano, hair, and skin, subtle grain, no text or watermark.",
+    "generated_prompt_string": "Transform the reference into a dramatic photorealistic four-panel fashion character collage featuring one original approved adult woman with shoulder-length honey-blonde hair and bangs, confident expressive gaze, red lipstick and natural skin texture. She wears a shimmering rose-gold embellished sleeveless costume with fringe details, pink textured tights and pink heels. Create four coordinated panels with varied dynamic angles and powerful poses in a consistent warm bedroom and green upright piano environment: seated by the piano, close-up at the keys, extended-arm pose, and leaning piano portrait. Use cinematic warm lighting, high contrast, crisp textures, precise color grading, realistic costume, piano, hair and skin detail, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "inconsistent identity", "wrong panel count", "distorted anatomy", "extra fingers", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "dramatic-four-styles-character.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult identity, face, hair, makeup, outfit, and panel continuity."}, {"type": "location", "name": "warm bedroom with green upright piano", "required": true, "source": "local reference image", "usage": "Preserve piano, bedroom, curtains, carpet, lamps, and environment across panels."}, {"type": "wardrobe", "name": "rose-gold embellished costume, pink tights, pink heels", "required": true, "source": "local reference image", "usage": "Preserve supplied costume, fringe, tights, and footwear."}],
+      "prompt_instructions": "Attach all required person, environment, and wardrobe references; no optional assets are needed. Keep identity, outfit, piano, bedroom, four-panel structure, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent location, or equivalent wardrobe. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced the public-figure likeness with an original approved adult while preserving the four-panel costume, piano environment, poses, and cinematic collage concept."]}
+}

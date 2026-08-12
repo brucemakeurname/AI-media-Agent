@@ -1,0 +1,19 @@
+{
+  "name": "prompt-1085",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "pink-studio", "playful-edit"],
+  "image_type": "identity-preserving playful portrait edit",
+  "image_vibe": "Cute tasteful pink-studio interaction with curious forward perspective",
+  "image_purpose": "Create a playful photorealistic portrait edit while preserving the approved adult subject's identity and styling.",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "A photorealistic edit using the required approved-adult person reference, changing only expression, pose, perspective, and background.",
+    "main_subject": "The adult person from the required approved-adult reference photo. Keep the same face, facial features, skin tone, hairstyle, outfit, accessories, gender presentation, and overall likeness unchanged. Give the subject gentle eye contact, slightly raised brows, and a subtle mischievous smirk with a playful, tasteful expression.",
+    "composition_elements": "The subject leans forward toward the camera like a curious cat, using a close 24-28mm wide-angle perspective with mild foreground exaggeration. Keep the face in sharp focus and replace the background with a clean solid pink seamless studio backdrop with an optional subtle gradient.",
+    "lighting_and_atmosphere": "Soft even studio lighting, clean pink background, natural facial modeling, playful curious mood, and realistic skin and hair texture without heavy retouching.",
+    "technical_specs": "24-28mm wide-angle lens, close perspective, sharp face focus, photorealistic high-resolution edit, natural optical distortion, no explicit styling, text, watermark, or frame.",
+    "generated_prompt_string": "Create a photorealistic edit using the required approved-adult person reference photo. Keep the same face, facial features, skin tone, hairstyle including color, bangs, length, and volume, outfit, accessories, gender presentation, and overall likeness unchanged; do not face-swap or create a new person. Change only the expression, pose, perspective, and background. Give the subject gentle eye contact, slightly raised brows, and a subtle mischievous smirk with a playful tasteful expression. Lean the subject forward toward the camera like a curious little cat, using a close 24-28mm wide-angle perspective with mild foreground exaggeration while keeping the face in sharp focus. Replace the background with a clean solid pink seamless studio backdrop with a very subtle gradient if needed. Use soft even lighting, natural skin and hair texture, and no explicit content, text, watermark, or frame.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, minor or teen-coded subject, identity drift, face swap, new person, changed outfit, sexualized pose, distorted anatomy, extra fingers, heavy blur, plastic skin, over-smooth, text, watermark, frame",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved adult identity and styling reference", "required": true, "source": "https://img.opennana.com/prompts/images/1085.jpeg", "usage": "Preserve the approved adult subject's face, facial features, skin tone, hairstyle, outfit, accessories, gender presentation, and overall likeness exactly while changing only expression, pose, perspective, and background."}], "prompt_instructions": "Attach the approved adult reference. Keep identity and styling unchanged; only the playful smirk, forward-leaning pose, 24-28mm perspective, and pink seamless background may change."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed the lower-lip-bite and boyfriend-teasing wording while preserving the curious playful expression and forward pose."]}
+}

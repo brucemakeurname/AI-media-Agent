@@ -1,0 +1,22 @@
+{
+  "name": "languid-red-dress-luxury-cinematic",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "red-satin", "cinematic-luxury"],
+  "image_type": "cinematic luxury fashion portrait",
+  "image_vibe": "languid, opulent, warm, cinematic",
+  "image_purpose": "luxury editorial and fashion campaign",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic cinematic luxury portrait of one original approved adult woman reclining on her side across a large rumpled bed in an opulent room.",
+    "main_subject": "Original approved adult woman with long dark hair, calm confident direct gaze, natural warm skin texture, and relaxed languid body language. She wears a ruby-red reflective satin strapless evening gown with an elegant neckline and soft folds cascading over the bed, with one hand touching her hair.",
+    "composition_elements": ["Full-shot eye-level composition with the subject reclining on her side, one hand touching her hair and the other resting on the bedding.", "Large rumpled bed with plush velvet and antique textiles, opulent decor, upholstered seating, and layered room detail.", "Preserve ruby-red satin sheen, soft draping, direct gaze, and luxurious warm-versus-teal color contrast."],
+    "lighting_and_atmosphere": "Dim natural window light with warm highlights on satin and skin, subtle teal undertones in the shadows, and soft ambient fill creating cinematic depth.",
+    "technical_specs": "Photorealistic 4:5 full-shot portrait, 50mm lens at f/1.8, low ISO, restrained slow-shutter ambient feel, realistic satin, bedding, skin and room texture, subtle film grain, no text or watermark.",
+    "generated_prompt_string": "Cinematic still close-up photograph in a full-shot eye-level composition of one original approved adult woman reclining on her side across a large rumpled bed, one hand touching her long dark hair, with a calm confident direct gaze. She wears a ruby-red reflective satin strapless evening gown with an elegant neckline and soft folds cascading over the bedding. Set the scene in an opulent room with plush velvet, antique textiles, upholstered seating, and layered decor. Use dim natural window light for warm highlights on the gown and skin, subtle teal undertones in the shadows, soft ambient fill, warm muted color palette, atmospheric texture, 50mm lens at f/1.8, photorealistic cinematic detail, subtle film grain, no text or watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "deep cleavage emphasis", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "extra fingers", "deformed", "text", "logo"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "languid-red-dress-luxury-cinematic.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult face, hair, expression, pose, and likeness reference."}, {"type": "wardrobe", "name": "ruby-red reflective satin strapless evening gown", "required": true, "source": "local reference image", "usage": "Preserve supplied color, satin sheen, elegant neckline, draping, and garment placement."}, {"type": "location", "name": "opulent bedroom with rumpled bed, velvet and antique textiles", "required": true, "source": "local reference image", "usage": "Preserve bed, bedding, room decor, window light, and warm-teal atmosphere."}],
+      "prompt_instructions": "Attach all required person, wardrobe, and location references; no optional assets are needed. Keep approved-adult identity, face, hair, outfit, pose, environment, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent supplied gown, or equivalent opulent room. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced the named public-figure identity with an original approved adult and removed explicit neckline emphasis while preserving the red satin gown, reclining composition, opulent room, and cinematic lighting."]}
+}

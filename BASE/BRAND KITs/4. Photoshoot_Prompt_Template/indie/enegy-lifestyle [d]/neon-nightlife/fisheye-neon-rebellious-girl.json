@@ -1,0 +1,75 @@
+{
+  "name": "fisheye-neon-rebellious-girl",
+  "tag": [
+    "adult-woman",
+    "fisheye",
+    "night-street",
+    "skatewear",
+    "neon-snapshot"
+  ],
+  "image_type": "fisheye-street-fashion",
+  "image_vibe": "gritty-loud-playful",
+  "image_purpose": "social-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject is an adult and removed the branded convenience store and noodle cup while retaining the fisheye streetwear snapshot energy."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult fisheye night-street snapshot",
+      "color_palette": "wet asphalt black, neon green, red, purple, and flash white",
+      "format": "vertical 9:16 circular-fisheye portrait"
+    },
+    "main_subject": {
+      "description": "an adult streetwear enthusiast with spiky space buns and colored tips, small tooth rhinestone accents, baggy denim shorts, an oversized unbranded vintage-style sports jersey, white socks, and chunky skate shoes",
+      "pose_and_expression": "sitting in a low relaxed curb squat, eating noodles with chopsticks and holding an unbranded noodle cup toward camera with an intense playful expression"
+    },
+    "composition_elements": {
+      "camera_angle": "extreme 8mm circular fisheye from just above the adult subject, with a curved horizon and strong but natural perspective",
+      "foreground": "adult subject, unbranded noodle cup, chopsticks, chunky skate shoes, and wet asphalt reflections",
+      "background": "wet curb outside an unbranded glowing corner shop at night, with a skateboard nearby and abstract green-red storefront light reflected on asphalt",
+      "visual_hierarchy": "adult face and playful expression, noodle cup and skatewear, then circular neon-street environment"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "direct flash plus neon storefront spill, with circular vignette and saturated wet-street reflections",
+      "atmosphere": "raw 1990s skate-video energy with modern casual street-fashion attitude"
+    },
+    "technical_specs": {
+      "camera": "digital camera with 8mm circular fisheye lens",
+      "lens": "8mm fisheye",
+      "settings": "1/125s, f/4, ISO 800",
+      "rendering": "controlled chromatic aberration at the circle edge, raw digital grain, crisp flash highlights, and no anatomy distortion"
+    },
+    "generated_prompt_string": "Create a vertical 9:16 extreme circular-fisheye night street-fashion snapshot of an adult streetwear enthusiast. She has spiky space buns with colored tips and small tooth rhinestone accents, wearing baggy denim shorts, an oversized unbranded vintage-style sports jersey, white socks, and chunky skate shoes. She sits in a low relaxed curb squat outside an unbranded glowing corner shop, eats noodles with chopsticks, and holds an unbranded noodle cup toward the lens. Include wet asphalt reflecting abstract green and red storefront light and a skateboard beside the curb. Use direct flash plus neon spill, a curved horizon, strong perspective, circular vignette, subtle chromatic aberration, raw grain, and no readable signage or logos.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, branded convenience store, branded noodle cup, readable text, logo, watermark, nudity, distorted anatomy, extra fingers, deformed hands",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use them only to replace the stated wardrobe, skateboard, or storefront-light element; remove logos and readable text.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-skate-subject-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity and hairstyle only."
+        },
+        {
+          "type": "wardrobe",
+          "name": "unbranded-skatewear-look-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Replace the adult subject's jersey, denim, and shoes."
+        },
+        {
+          "type": "environment",
+          "name": "wet-neon-corner-shop-reference",
+          "required": false,
+          "source": "approved environment reference",
+          "usage": "Replace storefront color and wet-curb texture without copying signs or brands."
+        }
+      ]
+    }
+  }
+}

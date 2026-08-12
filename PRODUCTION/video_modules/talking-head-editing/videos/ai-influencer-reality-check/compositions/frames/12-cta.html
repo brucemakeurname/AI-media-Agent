@@ -1,0 +1,118 @@
+<template data-composition-id="12-cta">
+  <style>
+    @font-face {
+      font-family: "Barlow";
+      src: url("assets/fonts/Barlow-Black.woff2") format("woff2");
+      font-weight: 900;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "IBM Plex Mono";
+      src: url("assets/fonts/IBMPlexMono-Medium.woff2") format("woff2");
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    #root {
+      position: absolute;
+      inset: 0;
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+    }
+
+    .cta-ground {
+      position: absolute;
+      inset: 0;
+      background: #e85d26; /* fire-orange register */
+    }
+
+    .cta-kicker {
+      position: absolute;
+      top: 130px;
+      left: 59px; /* 5.5% pad-x of 1080 */
+      right: 59px;
+      display: flex;
+    }
+
+    .cta-kicker-text {
+      font-family: "IBM Plex Mono", monospace;
+      font-weight: 600;
+      font-size: 34px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(17, 17, 17, 0.55); /* ink-on-orange-hint */
+    }
+
+    .cta-kicker-letter {
+      display: inline-block;
+    }
+
+    .cta-hero {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 700px; /* lands the word's optical center near y=806 (0.42 x 1920) */
+    }
+
+    .cta-hero-word {
+      font-family: "Barlow", sans-serif;
+      font-weight: 900;
+      font-size: 176px;
+      line-height: 0.88;
+      letter-spacing: -0.04em;
+      color: #111111; /* ink-black on fire-orange */
+      white-space: nowrap;
+      text-transform: lowercase;
+      will-change: transform, filter, opacity;
+    }
+  </style>
+
+  <div id="root" data-composition-id="12-cta" data-width="1080" data-height="1920" data-duration="1.877">
+    <div class="clip cta-ground" data-start="0" data-duration="1.877" data-track-index="0"></div>
+
+    <div class="clip cta-kicker" data-start="0" data-duration="1.877" data-track-index="1">
+      <div class="cta-kicker-text" id="cta-kicker-word">
+        <span class="cta-kicker-letter">S</span><span class="cta-kicker-letter">T</span><span
+          class="cta-kicker-letter"
+          >A</span
+        ><span class="cta-kicker-letter">R</span><span class="cta-kicker-letter">T</span>
+      </div>
+    </div>
+
+    <div class="clip cta-hero" data-start="0" data-duration="1.877" data-track-index="2">
+      <div class="cta-hero-word" id="cta-hero-word">business</div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const tl = gsap.timeline({ paused: true });
+
+      // Scene 1 (0.0-~0.4s): mono kicker "START" — per-word (per-letter, the
+      // only text unit this scene has) staggered reveal on one shared grid.
+      tl.fromTo(
+        "#cta-kicker-word .cta-kicker-letter",
+        { opacity: 0, y: 10 },
+        { opacity: 1, y: 0, duration: 0.22, ease: "power2.out", stagger: 0.045 },
+        0,
+      );
+
+      // Scene 2 (~0.12-0.57s): the display word "business" slams in on the VO
+      // landing "treating it like a business" — kinetic-beat-slam's
+      // scale+blur hit, single beat. This is the video's real exit: it lands
+      // and holds to black for the rest of the duration, no further motion.
+      tl.fromTo(
+        "#cta-hero-word",
+        { scale: 1.5, filter: "blur(16px)", opacity: 0 },
+        { scale: 1, filter: "blur(0px)", opacity: 1, duration: 0.45, ease: "power4.out" },
+        0.12,
+      );
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines["12-cta"] = tl;
+    })();
+  </script>
+</template>

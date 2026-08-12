@@ -1,0 +1,22 @@
+{
+  "name": "pink-gingham-sweeney-vintage-fashion",
+  "tag": ["industry", "lookbook-line-sheet", "editorial-fashion", "vintage-telephone", "gingham"],
+  "image_type": "vintage fashion editorial portrait",
+  "image_vibe": "playful, retro, polished, pastel",
+  "image_purpose": "fashion lookbook and campaign portrait",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create a photorealistic vintage fashion editorial portrait in a vibrant pink studio with a yellow wingback chair and rotary telephone.",
+    "main_subject": "An adult fictional woman with original non-celebrity features, honey-blonde hair in two braided pigtails with soft bangs, neutral poised expression, pink floral earrings, and white lace-trimmed gloves. She sits gracefully in a plush yellow wingback chair holding a pink vintage telephone receiver.",
+    "composition_elements": "9:16 vertical medium-full shot, centered framing, crossed-leg seated pose, pink gingham fitted romper with white lapels and matching bow tie, opaque white hosiery, black low-cut leather pumps, pink background, white pedestal table with rotary phone base.",
+    "lighting_and_atmosphere": "Bright even commercial high-key studio light, 5500K softbox look, gentle rim light defining hair and silhouette, vibrant pastel color saturation, cheerful retro mood.",
+    "technical_specs": "85mm prime-lens look at f/2.8, ISO 100 visual quality, 8K-style photorealistic texture, realistic leather and fabric detail, clean text-free surfaces and natural anatomy.",
+    "generated_prompt_string": "Photorealistic vintage fashion editorial portrait of an adult fictional woman with original non-celebrity features, honey-blonde hair in two braided pigtails with soft bangs, neutral poised expression, pink floral earrings, and white lace-trimmed gloves. She sits gracefully in a plush yellow wingback chair holding a pink vintage telephone receiver. Pink gingham fitted romper with white lapels and matching bow tie, opaque white hosiery, black low-cut leather pumps, vibrant soft-pink studio background, white pedestal table with rotary telephone base, centered 9:16 medium-full framing, bright even 5500K softbox lighting, subtle rim light, 85mm f/2.8 fashion photography, polished pastel retro mood.",
+    "negative_prompt": "celebrity likeness, public figure likeness, exact facial identity, explicit, nsfw, overly revealing, nudity, fetish framing, blurry, low quality, distorted anatomy, extra limbs, distorted fingers, watermark, logo, text, signature, plastic skin, airbrushed texture",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "pink-gingham-sweeney-vintage-fashion.jpg", "required": true, "source": "workspace reference image", "usage": "Reference the pink gingham outfit, braided hair, yellow chair, telephone, gloves, pose, and pastel studio while replacing the named celebrity with an original adult identity."}],
+      "prompt_instructions": "Attach the required reference image. Preserve the vintage outfit, props, seated composition, palette, and lighting. Replace celebrity identity and exact biometric likeness with an original adult fictional subject; keep products and logos generic, environment consistent, and typography absent or replaceable."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed celebrity biometric likeness and overly body-specific wording while preserving the gingham vintage fashion concept and adult subject."]}
+}

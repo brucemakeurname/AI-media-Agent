@@ -1,0 +1,75 @@
+{
+    "name":  "laptop-technical-breakdown-diagram",
+    "tag":  [
+                "laptop",
+                "technical diagram",
+                "exploded view",
+                "engineering sketch",
+                "product education"
+            ],
+    "biz_niche":  "Tech & Electronics",
+    "content_format":  "Infographics",
+    "group":  "infographic_technical_product",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Portable computing device technical breakdown",
+                                        "color_palette":  "Pure white, black ink, gray aluminum, charcoal screen"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Object",
+                                        "detail":  "An open silver laptop in three-quarter view reveals its keyboard deck and an illustrated cutaway of battery, SSD, RAM, fan, motherboard, and structural components.",
+                                        "style":  "Photoreal product render under hand-drawn black technical pen annotations and architectural diagram marks"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Annotations, dimension lines, cutaway, and schematics",
+                                                "text":  "[LAPTOP]; PORTABLE COMPUTING DEVICE – TECHNICAL BREAKDOWN.; SCREEN; KEYBOARD; AIRFLOW (IN); AIRFLOW (OUT); SPEAKERS; POWER INPUT; BATTERY; RAM; SSD; TOUCHPAD; HINGE MECHANISM; SCALE 1:2; MATERIAL CALLOUTS",
+                                                "items":  [
+                                                              "Top Left: hand-sketched title box and bold technical subtitle.",
+                                                              "Center: open laptop in perspective with a transparent/outlined internal deck showing key components.",
+                                                              "Across frame: black leader lines, arrows, dashed airflow paths, labels, dimension markers, and sectional details.",
+                                                              "Bottom Left: simplified system schematic and thin cross-section of chassis/keyboard.",
+                                                              "Bottom Right: scale bar and material-callout block on pure white negative space."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Bright white product studio lighting",
+                                                   "effect":  "Clean aluminum reflections and crisp black ink contrast, precise museum-manual presentation, no color accents"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Photoreal product render with technical pen illustration overlay",
+                                           "resolution":  "1080x1080, ultra-crisp, social-feed optimized"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "specific laptop exterior and internal hardware",
+                                                                 "required":  true,
+                                                                 "source":  "approved CAD, teardown, or product reference",
+                                                                 "usage":  "Use to keep all ports, hinge, layout, component shapes, and dimensions accurate."
+                                                             },
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "engineering annotation system",
+                                                                 "required":  true,
+                                                                 "source":  "source preview",
+                                                                 "usage":  "Preserve monochrome hand-drawn arrows, dimensions, section diagrams, and title-box style."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "technical labels",
+                                                                 "required":  true,
+                                                                 "source":  "approved technical specification sheet",
+                                                                 "usage":  "Verify every label, capacity, material, and measurement before typesetting."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach CAD or teardown imagery for exact component arrangement.",
+                                                                          "Treat annotated capacities and dimensions as placeholders unless confirmed by an engineering specification.",
+                                                                          "Use vector post-production for final dimension marks and text."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Create an infographic image of laptop ,combining a realistic photograph or photoreal render of the object with technical annotation overlays placed directly on top. Use black ink–style line drawings and text (technical pen / architectural sketch look) on a pure white studio background, including: •Key component labels •Internal cutaway or exploded-view outlines •Measurements, dimensions, and scale markers •Material callouts and quantities •Arrows indicating function, force, or flow (air, sound, power, pressure) •Simple schematic or sectional diagrams where relevant Place the title [OBJECT] inside a hand-drawn technical annotation box in one corner. Style \u0026 layout rules: •The real object remains clearly visible beneath the annotations •Annotations feel sketched, technical, and architectural •Clean composition with balanced negative space •Educational, museum-exhibit / engineering-manual vibe Visual style: Minimal technical illustration aesthetic, black linework over realistic imagery, precise but slightly hand-drawn feel. Color palette: White background, black annotation lines and text only. No colors. Output: 1080×1080, ultra-crisp, social-feed optimized, no watermark.”",
+                   "negative_prompt":  "wrong component layout, colored accents, cluttered lines, illegible measurements, broken perspective, low resolution, watermark, signature"
+               }
+}

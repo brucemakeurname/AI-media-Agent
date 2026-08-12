@@ -1,0 +1,72 @@
+{
+  "name": "moody-surreal-double-exposure-portrait",
+  "tag": [
+    "adult-woman",
+    "double-exposure",
+    "motion-blur",
+    "black-dress",
+    "golden-light",
+    "fashion-editorial"
+  ],
+  "image_type": "surreal-fashion-portrait",
+  "image_vibe": "moody-luxurious-dreamlike",
+  "image_purpose": "editorial",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the subject is an adult.",
+      "Replaced the named-magazine styling reference with generic luxury fashion-editorial language."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "long-exposure fashion portrait with ghosted motion silhouettes",
+      "color_palette": "near black, deep brown, warm amber gold, muted skin tone",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with a short tousled brown bob, understated dramatic makeup, and a long dark draped dress with opaque soft fabric.",
+      "style": "cinematic luxury fashion editorial with natural skin texture"
+    },
+    "composition_elements": {
+      "text": "No rendered text or watermark.",
+      "items": [
+        "sharp central three-quarter portrait against a near-black studio",
+        "two soft translucent-looking motion echoes created by the same subject moving on either side",
+        "long dark draped dress with a high-fashion silhouette",
+        "subtle warm halo behind the central head and shoulders"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "warm tungsten key at approximately 3000K with soft side fill and controlled volumetric haze",
+      "effect": "amber highlights, soft shadows, long-exposure ghosting, and an intimate surreal atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "85mm lens at f/2, long-exposure composite, shallow depth of field, subtle film grain, natural vignetting",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "A cinematic fashion portrait of an adult woman in a long dark draped dress with soft opaque fabric, short tousled brown hair, natural glowing skin, and understated dramatic makeup, standing in a dark moody studio. Create motion-blur ghost figures from her movement around a sharp central pose to form a surreal double-exposure effect. Use warm golden lighting, a dreamy atmosphere, long-exposure photography, shallow depth of field, soft shadows, a luxury fashion-editorial aesthetic, fine film grain, an 85mm lens, and restrained volumetric light. Keep the central subject clear, the motion echoes soft, and do not render a watermark or text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, watermark, logo, text, duplicate unrelated people, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "dark-draped-dress-reference",
+          "required": false,
+          "source": "Attach a wardrobe reference when the exact drape or sleeve construction must match.",
+          "usage": "Keep an opaque dark draped silhouette; the garment can be replaced independently."
+        },
+        {
+          "type": "graphic",
+          "name": "long-exposure-ghosting-reference",
+          "required": false,
+          "source": "Attach a motion-study reference when the placement of the ghosted poses must match.",
+          "usage": "Keep one sharp central adult subject with soft motion echoes from the same subject, not additional people."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve the adult subject, dark opaque draped dress, sharp central portrait, warm low-key studio, and same-subject motion echoes. Wardrobe and echo shape can be replaced independently."
+    }
+  }
+}

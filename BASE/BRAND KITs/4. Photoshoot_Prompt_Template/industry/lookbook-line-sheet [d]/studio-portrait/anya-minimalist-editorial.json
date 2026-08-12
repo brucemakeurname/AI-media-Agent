@@ -1,0 +1,74 @@
+{
+  "name": "anya-minimalist-editorial",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "white-shirt",
+    "minimalist-editorial"
+  ],
+  "image_type": "editorial waist-up fashion portrait",
+  "image_vibe": "minimal, bright, refined, clean",
+  "image_purpose": "fashion lookbook and professional editorial headshot",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a high-end minimalist editorial portrait series of one original approved adult woman in a clean studio setting.",
+    "main_subject": "Original approved adult woman with chestnut-brown hair with honey highlights, long soft waves parted slightly off-center, hazel-brown expressive eyes, subtle eyeliner, well-defined brows, and a soft confident smile or relaxed gaze. She wears a crisp white long-sleeved button-down with a structured pointed collar, supplied gold bee-shaped decorative buttons or pins, high-waisted black tailored trousers, small gold hoop earrings, and stacked gold rings.",
+    "composition_elements": [
+      "Medium shot and waist-up portrait framing.",
+      "Three restrained pose variations: front-facing with hand resting on stomach, hand tucked into pocket, and hand raised near the shoulder displaying rings.",
+      "Solid clean off-white or eggshell studio backdrop.",
+      "Keep the white, black, gold, and natural-skin-tone palette consistent."
+    ],
+    "lighting_and_atmosphere": "Soft even studio lighting with minimal shadows, a bright airy feel, neutral color balance, and delicate gold highlights.",
+    "technical_specs": "Photorealistic high-end editorial portrait, sharp facial focus, realistic shirt, jewelry, hair, and skin texture, 85mm portrait lens, f/4, 4:5 framing, subtle natural grain, no text or watermark.",
+    "generated_prompt_string": "High-end minimalist editorial portrait of one original approved adult woman with chestnut-brown hair and honey highlights, long soft waves parted slightly off-center, hazel-brown expressive eyes, natural no-makeup makeup, soft rose-tinted lips, subtle eyeliner and well-defined brows. She wears a crisp white long-sleeved button-down shirt with a structured pointed collar and supplied gold bee-shaped decorative buttons or pins along the placket, high-waisted black tailored trousers, small gold hoop earrings and stacked gold rings. Create a medium waist-up portrait with three subtle variations: front-facing with hand resting on stomach, hand tucked into pocket, or hand raised near shoulder displaying rings. Use a solid clean off-white eggshell studio backdrop, soft even studio lighting with minimal shadows, bright airy white-black-gold palette, sharp focus and realistic textures, high-end editorial professional-headshot aesthetic, no extra logos, no text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "celebrity likeness",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "distorted anatomy",
+      "extra fingers",
+      "warped buttons",
+      "watermark",
+      "unwanted text",
+      "logo distortion",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "anya-minimalist-editorial.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for original approved-adult identity, face, hair, makeup, outfit, and pose reference."
+        },
+        {
+          "type": "accessory",
+          "name": "supplied gold bee-shaped buttons or pins and stacked gold rings",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the supplied decorative details and jewelry placement without adding unrelated branding."
+        }
+      ],
+      "prompt_instructions": "Attach the required person and accessory references; there are no optional assets for this template. Keep identity, face, hairstyle, outfit, bee details, jewelry, studio environment, and lighting consistent. Replace only the adult identity or accessory reference with an equivalent approved adult or equivalent supplied accessory. Preserve typography as none/not applicable and do not add logos or text."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public-figure identity with an original approved adult while preserving the white-shirt, gold-detail, pose, and minimalist editorial concept."
+    ]
+  }
+}

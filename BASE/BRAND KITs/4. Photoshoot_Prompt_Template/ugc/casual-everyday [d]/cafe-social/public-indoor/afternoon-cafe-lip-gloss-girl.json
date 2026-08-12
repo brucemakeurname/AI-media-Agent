@@ -1,0 +1,58 @@
+{
+  "name": "afternoon-cafe-lip-gloss-girl",
+  "tag": [
+    "ugc",
+    "cafe-social",
+    "public-indoor",
+    "candid-beauty",
+    "lip-gloss-application",
+    "street-cafe"
+  ],
+  "image_type": "ugc-cafe-beauty-portrait",
+  "image_vibe": "bright-feminine-candid",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cafe-social/public-indoor",
+  "prompt": {
+    "project_info": "Create an ultra-realistic close-up beauty moment at a European street-cafe terrace in soft daytime light, preserving the lip-gloss application and lifestyle-influencer framing.",
+    "main_subject": "One original approved adult woman with shoulder-length platinum-white blonde waves, light green-blue eyes, natural fair skin texture with subtle freckles, defined natural brows and soft neutral makeup. She wears a beige-taupe ribbed halter-neck top and applies red lip gloss with a silver metallic wand while looking toward camera.",
+    "composition_elements": "Vertical 3:4 close-up from the face through upper shoulders, eye-level and straight-on. Keep the applicator near the lips and the beauty action clearly readable. Include wooden cafe tables and chairs, umbrellas, softly blurred patrons, stone buildings and a lively European street behind her.",
+    "lighting_and_atmosphere": "Soft diffused natural daylight evenly illuminates the face, hair, glossy lips and knit texture. Keep the mood casual, candid, feminine and warm-neutral without studio harshness.",
+    "technical_specs": "3:4 smartphone or mirrorless portrait, shallow depth of field, sharp eyes, lips, applicator and hair strands, natural skin texture, realistic glass and background bokeh, restrained color.",
+    "generated_prompt_string": "Create an ultra-realistic close-up beauty portrait at a European street-cafe terrace of one original approved adult woman with shoulder-length platinum-white blonde waves, light green-blue eyes, natural fair skin texture with subtle freckles, defined natural brows and soft neutral makeup. She wears a beige-taupe ribbed halter-neck top and applies red lip gloss with a silver metallic wand while looking toward camera. Use a vertical 3:4 eye-level close-up from face through upper shoulders, keeping the applicator near the lips. Include wooden cafe tables and chairs, umbrellas, softly blurred patrons and stone buildings in a lively street background. Use soft diffused daylight, sharp eyes and lip detail, realistic hair and knit texture, shallow depth of field and warm-neutral candid color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, cosmetic smears, invented logos, readable added text, recognizable public figure likeness",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "afternoon-cafe-lip-gloss-girl.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, platinum hair, eyes, makeup and likeness; preserve the visual identity without using a celebrity or public-figure likeness."
+        },
+        {
+          "type": "wardrobe",
+          "name": "beige-taupe ribbed halter-neck top and silver lip-gloss wand",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve top color, ribbing, straps and applicator action; replace only with explicitly supplied wardrobe or prop references."
+        },
+        {
+          "type": "location",
+          "name": "European street-cafe terrace with umbrellas and stone buildings",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve terrace, tables, umbrellas, patrons, street and daylight; environment may be replaced through explicit references while retaining close-up bokeh."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe/prop and location references. Keep the approved adult's face, hair, makeup, outfit, applicator action and cafe environment consistent. The adult, wardrobe and setting may be replaced separately through explicit references. Never reproduce a celebrity likeness; use only an original approved adult. No logo or typography is required."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed the named public-figure reference and replaced it with an original approved adult.",
+      "Preserved the platinum hair, cafe beauty action and outfit while removing age ambiguity.",
+      "Added safety, anti-artifact and anti-public-figure negative prompts."
+    ]
+  }
+}

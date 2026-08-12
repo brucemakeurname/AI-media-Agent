@@ -1,0 +1,71 @@
+{
+  "name": "vinamilk-world-dairy-innovation-awards-brochure-explainer",
+  "tag": [
+    "vinamilk",
+    "world-dairy-innovation-awards",
+    "brochure",
+    "explainer",
+    "award-context"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Infographics",
+  "group": "vinamilk_1526656525625367",
+  "prompt": {
+    "project_info": {
+      "theme": "Explainer card about the World Dairy Innovation Awards",
+      "color_palette": "Black, white, purple, warm floral accent colors"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A black-background explainer poster featuring a close-up angled brochure or magazine cover that reads 'WINNING INNOVATIONS 2026' and 'FOODBEV AWARDS'. The headline at top left says 'World Dairy Innovation Awards' and the body copy reads 'Giải thưởng thường niên uy tín với lịch sử gần 2 thập kỷ trong ngành sữa toàn cầu, tôn vinh những thương hiệu tiên phong sáng tạo và đổi mới.'",
+      "style": "Editorial explainer card with luxury black backdrop and macro printed-material photography"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "World Dairy Innovation Awards; Giải thưởng thường niên uy tín với lịch sử gần 2 thập kỷ trong ngành sữa toàn cầu, tôn vinh những thương hiệu tiên phong sáng tạo và đổi mới.; WINNING INNOVATIONS 2026; FOODBEV AWARDS",
+      "items": [
+        "Top Left: Large white title with an italic white paragraph beneath it and floral doodles along the edge",
+        "Top Right: Sparse black negative space with a small purple flower accent",
+        "Bottom Left: Angled magazine spread edge showing partial food photography and small circular FoodBev badge",
+        "Bottom Right: Purple 'FOODBEV AWARDS' block on the brochure and the corner of a plated food image",
+        "Center/Background: Close-up of a printed awards brochure laid diagonally across a black field"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Controlled editorial object lighting",
+      "effect": "Soft matte paper highlights, deep black negative space, crisp print legibility, refined brochure-photography mood"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal editorial still-life composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square editorial explainer poster about the World Dairy Innovation Awards. Centerpiece is a photoreal diagonal close-up of a printed brochure with the exact visible text 'WINNING INNOVATIONS 2026' and 'FOODBEV AWARDS'. Include the exact top-left title 'World Dairy Innovation Awards' and the full Vietnamese paragraph 'Giải thưởng thường niên uy tín với lịch sử gần 2 thập kỷ trong ngành sữa toàn cầu, tôn vinh những thương hiệu tiên phong sáng tạo và đổi mới.'. Background is a luxury black field with floral doodle accents and generous negative space. Technical style: photoreal editorial still-life composite, controlled editorial object lighting, matte paper highlights and crisp print legibility, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Winning Innovations 2026 / FoodBev Awards brochure",
+          "required": true,
+          "source": "original brochure photo reference",
+          "usage": "Maintain the diagonal brochure composition and the visible cover typography"
+        },
+        {
+          "type": "text_layout",
+          "name": "Award explainer heading and paragraph",
+          "required": true,
+          "source": "original creative copy",
+          "usage": "Keep exact line content and the left-aligned editorial hierarchy"
+        },
+        {
+          "type": "graphic",
+          "name": "Floral doodle accents",
+          "required": false,
+          "source": "recreated corner decoration",
+          "usage": "Match the top-left botanical trim and tiny purple flower"
+        }
+      ],
+      "prompt_instructions": "This is an editorial explainer, not a product ad. Preserve the heavy black negative space and the brochure close-up. The 2026 awards reference is a past-time context relative to Friday, July 17, 2026, but should remain verbatim in the design."
+    }
+  }
+}

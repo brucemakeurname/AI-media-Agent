@@ -1,0 +1,71 @@
+{
+  "name": "ysl-the-slim-couture-matte-lucky-red-packshot",
+  "tag": [
+    "ysl",
+    "the-slim",
+    "lipstick-packshot",
+    "lucky-red",
+    "product-hero"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "ysl_1333150275516347",
+  "prompt": {
+    "project_info": {
+      "theme": "Hero packshot for YSL The Slim Couture Matte Lipstick",
+      "color_palette": "Warm gold, black lacquer, champagne metallic, orange-red lipstick"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Two YSL The Slim Couture Matte Lipstick units stand upright on a glossy black base: one closed case on the left with the gold YSL monogram band, and one open lipstick on the right showing a squared orange-red bullet tip. Top logo reads 'YvesSaintLaurent BEAUTE'. Bottom copy reads 'YSL THE SLIM COUTURE MATTE LIPSTICK' and 'SẮC ĐỎ MAY MẮN, BỪNG KHÍ CHẤT ĐẦU NĂM'.",
+      "style": "Luxury cosmetic hero packshot, polished reflective product photography, premium minimal advertising"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "YvesSaintLaurent BEAUTE, YSL THE SLIM COUTURE MATTE LIPSTICK, SẮC ĐỎ MAY MẮN, BỪNG KHÍ CHẤT ĐẦU NĂM",
+      "items": [
+        "Top Left: White YSL brandmark typography centered near the top",
+        "Top Right: Warm gold gradient glow with soft studio hotspot",
+        "Bottom Left: Closed rectangular lipstick case with black upper shell, champagne metallic lower body, and gold YSL monogram band",
+        "Bottom Right: Open rectangular lipstick showing a squared orange-red bullet beside the closed case",
+        "Center/Background: Golden gradient studio backdrop with subtle light rays and a glossy black pedestal strip at the bottom"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Luxury studio product lighting",
+      "effect": "Controlled reflections on metallic surfaces, bright golden backglow, clean shadow falloff, glossy pedestal highlights"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal luxury product photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury product poster for YSL. Centerpiece is two upright YSL The Slim Couture Matte Lipstick units on a glossy black pedestal: a closed case on the left with the gold YSL monogram band and an open lipstick on the right showing a squared orange-red bullet. Include the exact text 'YvesSaintLaurent BEAUTE' near the top, 'YSL THE SLIM COUTURE MATTE LIPSTICK' in large white text at the bottom, and 'SẮC ĐỎ MAY MẮN, BỪNG KHÍ CHẤT ĐẦU NĂM' beneath it. Background is a warm golden gradient studio set with a bright luminous hotspot. Technical style: photoreal luxury product photography, luxury studio product lighting, controlled metallic reflections and glossy pedestal highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "YSL The Slim Couture Matte Lipstick packshot reference",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Match the exact casing proportions, gold monogram band, square bullet geometry, and orange-red shade"
+        },
+        {
+          "type": "logo",
+          "name": "Yves Saint Laurent Beaute logo",
+          "required": true,
+          "source": "official brand logo reference",
+          "usage": "Preserve the exact typography and placement near the top center"
+        },
+        {
+          "type": "text_layout",
+          "name": "Product poster typography layout",
+          "required": true,
+          "source": "original poster layout",
+          "usage": "Keep the stacked bottom headline and subtitle arrangement on the black footer area"
+        }
+      ],
+      "prompt_instructions": "Keep the product as a pristine hero packshot with exact casing geometry and clean studio reflections. The golden backdrop should feel premium and optimistic, not dark. Preserve the Vietnamese copy exactly."
+    }
+  }
+}

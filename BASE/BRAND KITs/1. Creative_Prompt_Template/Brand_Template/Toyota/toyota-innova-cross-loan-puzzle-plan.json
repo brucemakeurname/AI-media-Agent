@@ -1,0 +1,77 @@
+{
+  "name": "toyota-innova-cross-loan-puzzle-plan",
+  "tag": [
+    "loan-plan",
+    "innova-cross",
+    "finance",
+    "puzzle"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Infographics",
+  "group": "toyota_962155093528190",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota financing puzzle for big plans and easy loan approval",
+      "color_palette": "White, soft gray, dark blue, silver, black"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A minimal financing poster with the Toyota logo top left and a large headline 'KE HOACH LON BAT DAU TU BUOC NHO'. In the middle, oversized pale-gray jigsaw puzzle pieces form a backdrop for a silver Toyota Innova Cross placed in front. The puzzle pieces contain financing messages: 'HAN MUC VAY DEN 85%', 'THOI HAN VAY LEN DEN 8 NAM', 'DUYET VAY NHANH CHONG', and on a separate hand-held puzzle piece 'HO SO DON GIAN'. Another left piece says 'KHOAN VAY'. A realistic hand at bottom right holds the final puzzle piece. Bottom-left script says 'Move your world'.",
+      "style": "Minimal finance-offer poster combining product render, puzzle metaphor, and clean white corporate space"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / KE HOACH LON BAT DAU TU BUOC NHO / HAN MUC VAY DEN 85% / THOI HAN VAY LEN DEN 8 NAM / DUYET VAY NHANH CHONG / KHOAN VAY / HO SO DON GIAN / Move your world",
+      "items": [
+        "Top Left: Toyota logo on a clean white wall",
+        "Top Right: Empty negative space above the puzzle composition",
+        "Bottom Left: Handwritten 'Move your world' over white floor space",
+        "Bottom Right: Realistic hand holding the final puzzle piece labeled 'HO SO DON GIAN'",
+        "Center/Background: Large pale-gray interlocking puzzle pieces behind a silver Toyota Innova Cross, each piece containing loan-benefit text"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio commercial lighting",
+      "effect": "Clean shadowing, subtle product reflections, minimal white-space calm, clear infographic readability"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal automotive finance composite with minimalist product-stage styling",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota financing offer built around a puzzle metaphor. Centerpiece is a silver Toyota Innova Cross placed in front of oversized pale-gray puzzle pieces, with a real hand inserting the final piece labeled 'HO SO DON GIAN'. Background is a clean white studio wall. Surrounding elements: Toyota logo, exact headline 'KE HOACH LON BAT DAU TU BUOC NHO', puzzle text 'HAN MUC VAY DEN 85%', 'THOI HAN VAY LEN DEN 8 NAM', 'DUYET VAY NHANH CHONG', and 'KHOAN VAY', plus the footer script 'Move your world'. Technical style: photoreal automotive finance composite with minimalist product-stage styling, soft studio commercial lighting, clean shadows and subtle reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Toyota Innova Cross exterior reference",
+          "required": true,
+          "source": "official Innova Cross render",
+          "usage": "Preserve the front angle, grille details, and silver paint finish"
+        },
+        {
+          "type": "graphic",
+          "name": "Oversized jigsaw puzzle pieces",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the financing metaphor and the exact placement of offer copy on each piece"
+        },
+        {
+          "type": "accessory",
+          "name": "Human hand holding final puzzle piece",
+          "required": true,
+          "source": "source photo or this creative",
+          "usage": "Keep the realistic hand scale and insertion gesture at bottom right"
+        },
+        {
+          "type": "text_layout",
+          "name": "Finance puzzle poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the headline top, car-center, and puzzle messages around it"
+        }
+      ],
+      "prompt_instructions": "Preserve all finance terms exactly, especially '85%' and '8 NAM'. The puzzle-piece metaphor should stay minimal and clean, not playful or cartoonish."
+    }
+  }
+}

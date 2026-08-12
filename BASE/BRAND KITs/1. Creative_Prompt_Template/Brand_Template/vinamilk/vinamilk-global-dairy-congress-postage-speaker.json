@@ -1,0 +1,78 @@
+{
+  "name": "vinamilk-global-dairy-congress-postage-speaker",
+  "tag": [
+    "vinamilk",
+    "global-dairy-congress",
+    "speaker",
+    "postage-frame",
+    "conference"
+  ],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Brand story",
+  "group": "vinamilk_1343100071107916",
+  "prompt": {
+    "project_info": {
+      "theme": "Conference participation scrapbook stamp-style social post",
+      "color_palette": "Royal blue, white, purple, soft beige, playful pastel accents"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A real conference photo of a male executive speaking at a purple lectern reading 'GLOBAL DAIRY CONGRESS 2026' and 'Fit for purpose', framed inside a large white postage-stamp border. A blue ribbon tab at top left says 'HỘI NGHỊ SỮA TOÀN CẦU'. The outer background is a royal-blue striped pattern with checker blocks and small illustrated children in the bottom corners.",
+      "style": "Scrapbook-styled event recap card, mixing editorial photography with playful branded frame design"
+    },
+    "composition_elements": {
+      "type": "Background Elements",
+      "text": "HỘI NGHỊ SỮA TOÀN CẦU; GLOBAL DAIRY CONGRESS 2026; Fit for purpose; Platinum sponsor",
+      "items": [
+        "Top Left: Blue ribbon label with white text 'HỘI NGHỊ SỮA TOÀN CẦU'",
+        "Top Right: Blue striped frame area with white scalloped stamp perforations",
+        "Bottom Left: Blue checker blocks and a small illustrated skateboarding child",
+        "Bottom Right: Matching checker blocks and a small illustrated girl reaching upward",
+        "Center/Background: Large white stamp frame containing the conference photo of the speaker at the lectern"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft indoor conference lighting",
+      "effect": "Documentary realism inside the photo, flat crisp poster lighting on the outer decorative frame"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal event-photo composite with graphic scrapbook frame",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square scrapbook-style social poster for a Vinamilk conference participation recap. Centerpiece is a photoreal event photo of a male speaker at a purple lectern with the exact visible text 'GLOBAL DAIRY CONGRESS 2026', 'Fit for purpose', and 'Platinum sponsor', framed inside a giant white postage-stamp border. Include the exact blue label 'HỘI NGHỊ SỮA TOÀN CẦU' at the top left. Background is a royal-blue striped graphic field with checker blocks and tiny playful child illustrations in the bottom corners. Technical style: photoreal event-photo composite with graphic scrapbook frame, soft indoor conference lighting, documentary realism inside the photo and crisp outer poster treatment, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Conference speaker photo reference",
+          "required": true,
+          "source": "original event photo",
+          "usage": "Preserve the same male speaker, pose, lectern, and microphone setup"
+        },
+        {
+          "type": "location",
+          "name": "Global Dairy Congress 2026 stage",
+          "required": true,
+          "source": "original event photo",
+          "usage": "Maintain the purple podium and screen backdrop"
+        },
+        {
+          "type": "graphic",
+          "name": "Postage stamp frame and blue ribbon label",
+          "required": true,
+          "source": "original creative layout",
+          "usage": "Recreate the scalloped border, striped background, and blue corner label"
+        },
+        {
+          "type": "graphic",
+          "name": "Tiny child illustrations",
+          "required": false,
+          "source": "recreated decorative assets",
+          "usage": "Place in the bottom corners to preserve the playful branded frame"
+        }
+      ],
+      "prompt_instructions": "This is an archival event recap design. The 2026 congress reference is past relative to Friday, July 17, 2026. Keep the real-photo speaker intact and treat the blue striped stamp frame as a deliberate social-graphic wrapper."
+    }
+  }
+}

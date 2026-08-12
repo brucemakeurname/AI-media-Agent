@@ -1,0 +1,83 @@
+{
+  "name": "street-cool-peace-girl",
+  "tag": [
+    "street-fashion",
+    "peace-sign",
+    "denim-cape",
+    "phone-frame",
+    "moodboard-backdrop"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "unbothered-y2k-cool",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Confident adult street-fashion portrait surrounded by phones and a creative moodboard wall",
+      "creative_direction": "Clean commercial fashion image with frame-within-frame smartphone composition and early-2000s editorial energy",
+      "color_palette": "denim blue, clean white, black text accents, natural warm skin tones, and soft neutral studio wall"
+    },
+    "main_subject": {
+      "type": "clearly adult woman based on the approved portrait reference",
+      "detail": "adult woman with hair cascading over the shoulders, direct confident gaze, and relaxed unbothered closed-lip expression",
+      "wardrobe": "oversized denim jacket draped over the shoulders like a cape, white cropped top with fictional black graphic text, and matching denim bottoms",
+      "pose": "standing slightly angled but facing forward, right hand making a peace sign toward the camera, left arm relaxed"
+    },
+    "composition_elements": {
+      "framing": "4:5 three-quarter-body portrait above the knees with centered symmetry",
+      "foreground": "multiple adult hands holding smartphones entering from all four edges, creating a frame-within-frame effect",
+      "background": "white studio wall covered with fictional handwritten notes, scribbles, tape pieces, clips, and small denim fabric swatches",
+      "focus": "peace sign, denim drape, confident face, and editorial moodboard texture"
+    },
+    "lighting_and_atmosphere": {
+      "type": "large frontal softbox at approximately 5000K with gentle white fill",
+      "effect": "even flattering illumination, natural skin texture, soft controlled shadows, and clean commercial finish"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 60mm lens, Fujifilm ASTIA-inspired commercial fashion photography",
+      "resolution": "4k 4:5 vertical social portrait",
+      "finish": "low-to-medium contrast, soft highlight rolloff, clean detail, no grain, and realistic phone reflections"
+    },
+    "generated_prompt_string": "Create a confident street-fashion editorial portrait based on the approved reference of a clearly adult woman with hair cascading over her shoulders, a direct confident gaze, and a relaxed unbothered closed-lip expression. She stands slightly angled but faces forward, making a peace sign toward the camera with her right hand while her left arm rests naturally. Drape an oversized denim jacket over her shoulders like a cape and keep the white cropped top with fictional black graphic text and matching denim bottoms. Frame a 4:5 three-quarter-body composition above the knees with multiple adult hands holding smartphones entering from all four edges, creating a frame-within-frame effect. Set the scene in a clean studio with a white wall covered in fictional handwritten notes, scribbles, tape pieces, clips, and denim swatches. Use a 60mm lens, large approximately 5000K frontal softbox, Fujifilm ASTIA-inspired soft commercial color, natural skin texture, controlled shadows, and realistic phone reflections. Keep the pose non-sexual, the subject clearly adult, and all text fictional and unbranded.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, childlike styling, exaggerated pout, real logo, real handle, watermark, harsh shadows, hard flash, shallow depth of field, grainy, soft focus, overexposed, uneven lighting, distorted perspective, extra fingers, deformed hands, illegible notes",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-street-cool-model",
+          "required": true,
+          "source": "Uploaded portrait reference specified by the source prompt",
+          "usage": "Attach the approved adult face reference and preserve facial structure, hair, and likeness; never use a celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "denim-cape-cropped-top-look",
+          "required": true,
+          "source": "Uploaded clothing reference and original preview image",
+          "usage": "Attach to preserve the oversized denim cape, white cropped top, fictional black graphic text, and denim bottoms; do not change the reference-specified outfit."
+        },
+        {
+          "type": "graphic",
+          "name": "fictional-moodboard-wall",
+          "required": true,
+          "source": "Original moodboard preview image and source prompt",
+          "usage": "Attach to preserve handwritten note density, tape, clips, fabric swatches, and creative-chaos hierarchy; replace all readable personal or branded text with fictional marks."
+        },
+        {
+          "type": "accessory",
+          "name": "smartphone-frame-hands",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve phones entering from all edges, varied hand positions, and frame-within-frame composition; use adult hands and generic screens only."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult model, exact outfit, moodboard, and smartphone-hand references. Keep adult identity, peace sign, denim silhouette, phone framing, backdrop density, and soft commercial lighting consistent. Replace real logos, handles, and readable personal text with fictional cleared graphics."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the source's young woman as clearly adult and replaced pout/brand ambiguity with a relaxed non-sexual expression and fictional graphic text while preserving the street-fashion concept."
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "rustic-red-cowgirl-portrait",
+  "tag": ["red-tank", "cowgirl", "horse", "countryside", "ugc"],
+  "image_type": "rural-portrait",
+  "image_vibe": "calm-rustic-natural",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/outdoor-nature",
+  "prompt": {
+    "project_info": "High-resolution outdoor portrait in a peaceful rural countryside environment with natural daylight.",
+    "main_subject": "One original approved adult woman with braided reddish hair, natural skin texture and a relaxed confident expression, wearing a red ribbed tank top, light blue denim shorts, brown leather belt and straw cowboy hat.",
+    "composition_elements": "Portrait orientation with the subject centered and slightly leaning forward naturally. Use a wooden fence and brown horse behind her, large green trees with hanging moss, scattered sunlight, natural soil, dry leaves and grass. Keep the red top, denim shorts, belt and hat consistent.",
+    "lighting_and_atmosphere": "Natural daylight with soft shadows and bright highlights, calm rustic countryside atmosphere and shallow depth of field with a slightly blurred background.",
+    "technical_specs": "Sharp detailed portrait photography, portrait orientation, realistic skin and fabric texture, natural color palette of red, brown, green and blue, shallow background depth.",
+    "generated_prompt_string": "Create a high-resolution photorealistic outdoor portrait of one original approved adult woman with braided reddish hair, natural skin texture and a relaxed confident expression. She wears a fitted red ribbed tank top, light blue denim shorts, brown leather belt and a straw cowboy hat, standing with a natural slight forward lean. Center her in a peaceful rural farm environment with a wooden fence, a brown horse behind it, large green trees with hanging moss, scattered sunlight, natural soil, dry leaves and grass. Use natural daylight with soft shadows and bright highlights, portrait orientation, shallow depth of field with a gently blurred background, sharp fabric and skin detail, and a calm rustic countryside mood with red, brown, green and blue tones.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, nudity, child, teen, identity drift, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, duplicate horse, unreadable text or logos",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "rustic-red-cowgirl-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach for the original approved-adult face, braids, expression, skin texture and consistent likeness."},
+        {"type": "wardrobe", "name": "red ribbed tank top, light blue denim shorts, brown belt and straw cowboy hat", "required": true, "source": "local reference image", "usage": "Preserve supplied western wardrobe, colors, textures, belt and fit."},
+        {"type": "location", "name": "rural farm with wooden fence, brown horse, oak trees and moss", "required": true, "source": "local reference image", "usage": "Preserve fence, horse, trees, moss, ground and countryside environment."}
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe and location references; no optional assets are needed. Keep approved-adult identity, outfit, pose, horse, environment, lighting and typography consistent. Replace only with an equivalent approved adult, supplied western wardrobe or farm setting. Typography is not applicable; do not invent text, logos or watermark."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "sunny-patio-playful-pink-girl",
+  "tag": "ugc",
+  "image_type": "photograph",
+  "image_vibe": "bright cheerful lifestyle",
+  "image_purpose": "fashion lifestyle social portrait",
+  "group": "casual-everyday/street-chic/public-indoor",
+  "prompt": {
+    "project_info": "Ultra-detailed photorealistic lifestyle fashion portrait in a warm patio setting.",
+    "main_subject": "One generic approved young adult woman with long smooth ombre brown-to-golden-blonde hair, bright open-mouth smile, fair warm skin, soft natural makeup, wearing a soft blush-pink ribbed wrap crop top and deep burgundy velvet wrap skirt with delicate jewelry.",
+    "composition_elements": "Vertical waist-up medium shot at eye level, subject leaning casually against a textured beige column, one hand near waist, slightly off-center; soft-focus wooden chair, table, wall lantern, and patio details behind her.",
+    "lighting_and_atmosphere": "Natural daylight from the open outdoor side, soft shadows and gentle highlights, warm inviting bright cheerful lifestyle atmosphere.",
+    "technical_specs": "Full-frame DSLR look, 50mm portrait lens, f/2.0, ISO 100, 1/250s, sharp subject with softly blurred background, realistic skin and fabric texture.",
+    "generated_prompt_string": "Create a vertical photorealistic lifestyle fashion portrait of one generic approved young adult woman with long ombre brown-to-golden-blonde hair and a joyful open-mouth smile, leaning against a textured beige patio column, wearing a blush-pink ribbed wrap crop top and burgundy velvet wrap skirt with delicate jewelry; warm natural daylight, soft background bokeh, cheerful editorial realism.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, nudity, minors, celebrity likeness, public figure likeness, distorted anatomy, extra fingers, malformed jewelry, watermark, logo overlay, harsh artifacts",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "sunny-patio-playful-pink-girl.jpg", "required": true, "source": "local", "usage": "Match adult subject, joyful expression, hair, pink-and-burgundy outfit, column, patio environment, framing, and daylight."}],
+      "prompt_instructions": "Attach the required reference image. Preserve identity, hair, expression, pose, clothing silhouette, jewelry, environment, composition, and lighting. Outfit colors and accessory details are replaceable; do not add logos or overlay text. Use a generic approved adult and avoid celebrity likeness."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Normalized schema and slug.", "Added safety exclusions and reference consistency instructions."]}
+}

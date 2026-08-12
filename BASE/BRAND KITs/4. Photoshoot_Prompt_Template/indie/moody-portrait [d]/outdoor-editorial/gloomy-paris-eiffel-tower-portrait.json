@@ -1,0 +1,19 @@
+{
+  "name": "gloomy-paris-eiffel-tower-portrait",
+  "tag": ["approved-adult-face", "paris", "eiffel-tower", "black-overcoat", "rainy-day", "steel-column"],
+  "image_type": "cinematic-travel-fashion-portrait",
+  "image_vibe": "gloomy, elegant, somber, cinematic, confident",
+  "image_purpose": "travel-editorial, fashion-editorial, moodboard",
+  "group": "indie / moody-portrait / outdoor-editorial",
+  "prompt": {
+    "project_info":{"theme":"Gloomy Paris Eiffel Tower all-black portrait","format":"vertical full-body","color_palette":"muted gray, brown, deep black, wet asphalt"},
+    "main_subject":{"type":"adult person using a required approved-adult face reference","detail":"An adult person whose face, facial structure, expression, and likeness exactly match the attached approved-adult reference. They wear a long structured black wool overcoat, fitted black turtleneck, belted black trousers, and sturdy black leather boots.","style":"hyper-realistic rainy Paris cinematic fashion photography"},
+    "composition_elements":{"text":"","items":["leans casually against a massive gray riveted steel column at frame right", "hands in pockets and one leg crossed over the other", "Eiffel Tower distant in heavy bokeh and atmospheric mist", "horizontal metal railing, blurred autumn trees, wet reflective asphalt", "weathered column texture and rivets remain sharp"]},
+    "lighting_and_atmosphere":{"type":"soft diffuse shadowless rainy-afternoon daylight","effect":"subtle wet-ground reflections and misty background falloff","atmosphere":"somber, elegant, moody Paris"},
+    "technical_specs":{"render_style":"85mm f/2 full-body photograph, shallow depth","resolution":"high-detail vertical image","color_treatment":"desaturated cinematic gray, brown, and black palette with realistic rain-wet textures"},
+    "generated_prompt_string":"Create a hyper-realistic cinematic full-body portrait in Paris on a moody overcast day. Use the attached approved-adult face reference and preserve the person's face, facial structure, expression, and likeness exactly, with no celebrity or public-figure substitution. They lean casually against a massive gray riveted steel industrial column at frame right, hands in pockets with one leg crossed over the other. Dress them in a long structured black wool overcoat, fitted black turtleneck, belted black trousers, and sturdy black leather boots. In the misty bokeh background place the Eiffel Tower, a horizontal metal railing, and blurred autumn trees. Use wet slick asphalt with subtle reflections, soft diffuse rainy-afternoon light, realistic column weathering, an 85mm lens at f/2, shallow depth, and desaturated cinematic gray-brown-black tones.",
+    "negative_prompt":"explicit, nsfw, overly revealing, minor, sexual pose, identity blending, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, text, extra fingers, deformed",
+    "reference_elements":{"prompt_instructions":"Attach a required approved-adult face reference. Preserve adult face, facial structure, expression, likeness, all-black outfit, relaxed column-leaning pose, Eiffel Tower placement, rainy environment, and 85mm perspective; no celebrity/public-figure likeness.","assets":[{"type":"person","name":"approved-adult-face-reference","required":true,"source":"user attachment","usage":"Preserve adult face, facial structure, expression, and likeness exactly."}]}
+  },
+  "policy_review":{"status":"remediated","changes":["Retained face-reference use while requiring an approved adult and prohibiting celebrity/public-figure substitution.","Preserved all-black wardrobe, rainy Paris, column, Eiffel Tower, pose, and cinematic 85mm direction."]}
+}

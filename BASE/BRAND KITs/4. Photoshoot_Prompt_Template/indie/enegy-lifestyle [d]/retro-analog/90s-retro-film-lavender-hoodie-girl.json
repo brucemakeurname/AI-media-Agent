@@ -1,0 +1,66 @@
+{
+  "name": "90s-retro-film-lavender-hoodie-girl",
+  "tag": [
+    "adult-woman",
+    "lavender-hoodie",
+    "polaroid-wall",
+    "90s-film",
+    "disposable-camera"
+  ],
+  "image_type": "retro-film-fashion-portrait",
+  "image_vibe": "soft-nostalgic-casual",
+  "image_purpose": "social-editorial",
+  "group": "indie/enegy-lifestyle/retro-analog",
+  "source_url": "https://x.com/ChillaiKalan__/status/2021969978996740523",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Restricted the unchanged-face instruction to an approved adult identity reference and removed readable handwriting from Polaroid borders; the covered hoodie and 90s disposable-camera concept are retained."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult lavender-hoodie 1990s disposable-camera portrait",
+      "color_palette": "pastel lavender, cream, faded black, soft warm flash, and off-white",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult woman whose face may match the approved adult identity reference, with loose black hair, pale soft complexion, and a calm relaxed look.",
+      "wardrobe": "Oversized pastel-lavender hoodie with a softly worn texture and no printed graphics.",
+      "pose": "Close portrait with one hand lightly adjusting plain black sunglasses, looking toward camera."
+    },
+    "composition_elements": {
+      "framing": "Vertical chest-up portrait.",
+      "environment": "Wall densely covered in blank-border instant photos attached with pale tape; every photo is abstract, out of focus, and contains no readable writing."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Gentle direct flash with soft falloff and warm nostalgic tone.",
+      "atmosphere": "Casual, intimate, 1990s, and softly imperfect."
+    },
+    "technical_specs": {
+      "camera": "disposable-camera snapshot",
+      "quality": "subtle grain, slight softness, realistic hoodie wear, natural skin texture"
+    },
+    "generated_prompt_string": "Create a photoreal 4:5 1990s disposable-camera portrait of an adult woman, optionally matching an approved adult identity reference. She has loose black hair, pale soft natural complexion, a calm relaxed look, and wears an oversized pastel-lavender hoodie with a softly worn texture and no printed graphics. Frame her chest-up as she lightly adjusts plain black sunglasses. Place her before a wall densely covered in blank-border instant photos fixed with pale tape; every photo is abstract, out of focus, and has no readable writing. Use gentle direct flash, warm nostalgic tone, subtle film grain, slight softness, natural skin, and no text, logos, or watermark.",
+    "negative_prompt": "minor, unapproved identity reference, readable Polaroid writing, printed hoodie graphic, logo, watermark, nudity, explicit, nsfw, overly revealing clothing, plastic skin, distorted hands, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "The adult identity reference is optional. Other references are optional and replace only hairstyle, hoodie, or instant-photo-wall elements; remove all text and brands.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved-adult-face-reference",
+          "required": false,
+          "source": "user upload",
+          "usage": "Match approved adult facial identity only, with no age shift or blending."
+        },
+        {
+          "type": "environment_reference",
+          "name": "blank-instant-photo-wall",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace photo layout, tape, and backdrop while removing every label and handwritten mark."
+        }
+      ]
+    }
+  }
+}

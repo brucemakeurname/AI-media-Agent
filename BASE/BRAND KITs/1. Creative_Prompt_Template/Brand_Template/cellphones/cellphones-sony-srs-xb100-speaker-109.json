@@ -1,0 +1,52 @@
+{
+  "name": "cellphones-sony-srs-xb100-speaker-109",
+  "tag": ["cellphones", "sony speaker", "srs-xb100", "109 trieu", "portable audio"],
+  "biz_niche": "Education",
+  "content_format": "Special offers",
+  "group": "cellphones_1012037605142582",
+  "prompt": {
+    "project_info": {
+      "theme": "Compact Sony speaker sale poster",
+      "color_palette": "CellphoneS red, white, electric blue, peach"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A clean product-sale poster featuring two floating Sony SRS-XB100 compact speakers in peach and white, positioned above a blue pricing bar against a bold red product-stage background.",
+      "style": "Bold portable-speaker retail poster"
+    },
+    "composition_elements": {
+      "type": "Product/Typography/Pricing Bar",
+      "text": "cellphoneS, Sony SRS-XB100, GIÁ ƯU ĐÃI 1.09 Triệu, S-STUDENT | S-TEACHER GIẢM 50K, TRẢ GÓP 0% Trả Trước 0đ Phụ phí 0đ, Sử dụng đến 16 giờ - Kháng nước chuẩn IP67, SONY",
+      "items": [
+        "Top Center: red cellphoneS logo block.",
+        "Upper Middle: large white title 'Sony SRS-XB100'.",
+        "Center: two floating cylindrical Sony speakers, one peach on the left and one white on the right, both angled to show the grille top and vertical SONY branding.",
+        "Background: deep red locker-stage environment.",
+        "Bottom: wide blue price-and-benefit bar with price, student reduction, and 0% installment note.",
+        "Footer Below Bar: white text line 'Sử dụng đến 16 giờ - Kháng nước chuẩn IP67'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright studio product lighting",
+      "effect": "Strong retail contrast, crisp cylindrical textures, clean bold composition"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal compact-speaker sale poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "Sony SRS-XB100 speakers", "required": true, "source": "source image product reference", "usage": "Preserve the white and peach speaker angles, grille pattern, and logo orientation."},
+        {"type": "background", "name": "red product-stage backdrop", "required": true, "source": "source image background reference", "usage": "Keep the red geometric stage and high-contrast retail styling."},
+        {"type": "text_layout", "name": "title, price bar, and IP67 feature footer", "required": true, "source": "source image text reference", "usage": "Preserve all price, installment, discount, and usage-duration text exactly."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the speaker sizes, positions, and blue-bar formatting.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the bold red-stage portable-audio retail aesthetic."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square speaker-sale poster on a deep red product-stage background. Place the red cellphoneS logo at the top center and add the large white title 'Sony SRS-XB100'. Show two floating cylindrical Sony speakers in the center, one peach and one white, angled to reveal their top grille and vertical SONY logo. At the bottom use a wide blue pricing bar containing 'GIÁ ƯU ĐÃI 1.09 Triệu', 'S-STUDENT | S-TEACHER GIẢM 50K', and 'TRẢ GÓP 0% Trả Trước 0đ Phụ phí 0đ'. Below it add the feature line 'Sử dụng đến 16 giờ - Kháng nước chuẩn IP67'. Technical style: photoreal compact-speaker sale poster, bright studio product lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark muddy scene, incorrect text, wrong speaker colors, low resolution, distorted cylinder shape, clutter, watermark, signature"
+  }
+}

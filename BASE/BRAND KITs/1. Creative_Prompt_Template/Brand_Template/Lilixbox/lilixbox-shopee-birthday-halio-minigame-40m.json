@@ -1,0 +1,72 @@
+{
+  "name": "lilixbox-shopee-birthday-halio-minigame-40m",
+  "tag": [
+    "shopee-live",
+    "birthday-sale",
+    "minigame",
+    "beauty-devices",
+    "celebrity",
+    "halio"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "lilixbox_1252097597130640",
+  "prompt": {
+    "project_info": {
+      "theme": "Shopee birthday megalive with beauty-device giveaway",
+      "color_palette": "Blush Pink, White, Rose Pink, Soft Gold, Beige"
+    },
+    "main_subject": {
+      "type": "Person/Object",
+      "detail": "A glossy Shopee livestream birthday poster showing two celebrity hosts on the left and a lineup of Halio beauty devices on the right, promoting a minigame opportunity worth up to 40 million.",
+      "style": "K-pop-inspired livestream promo poster, glossy e-commerce event design, romantic pink sale aesthetic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'Shopee LIVE', 'Sinh Nhật Hoành Tráng', 'Xả Láng Deal Ngon', 'MEGALIVE SHOPEE 10H | 03.04', 'kênh lucienguyenlove', 'LIXIBOX', and 'Cơ Hội Tham Gia MINIGAME Lên Đến 40 Triệu'.",
+      "items": [
+        "Top Left: Shopee LIVE badge and the large pink birthday headline stack.",
+        "Top Right: LIXIBOX logo and a cluster of Halio products including facial device, razor-style tool, gold rectangular device, and mask-like lattice face tool over a heart shape.",
+        "Bottom Left: Seated male celebrity in a brown suit and standing female celebrity in a pale dress with one hand resting on his shoulder.",
+        "Bottom Right: Gift-box icons and a magenta CTA cluster reading 'Cơ Hội Tham Gia MINIGAME Lên Đến 40 Triệu'.",
+        "Center/Background: Soft pink glowing background with white sparkles and a translucent heart motif."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Glossy studio poster lighting",
+      "effect": "Soft glam highlights, dreamy sparkles, polished celebrity retouching, premium livestream energy"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity e-commerce event poster design",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a Shopee birthday megalive beauty-device event. Centerpiece is a pair of celebrity hosts on the left and a product cluster of Halio devices on the right. Background is a glossy blush-pink livestream setting with sparkles and a soft heart motif. Surrounding elements: 'Shopee LIVE', headline 'Sinh Nhật Hoành Tráng', subline 'Xả Láng Deal Ngon', badge 'MEGALIVE SHOPEE 10H | 03.04', channel text 'kênh lucienguyenlove', LIXIBOX logo, and CTA 'Cơ Hội Tham Gia MINIGAME Lên Đến 40 Triệu'. Keep the celebrity positions, product assortment, and romantic pink event mood. Technical style: high fidelity e-commerce event poster design, glossy studio poster lighting, soft glam highlights and dreamy sparkles, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed face, extra limbs, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Male and female host portraits",
+          "required": true,
+          "source": "Attach crops of both hosts from the original poster",
+          "usage": "Preserve facial identity, outfits, poses, and host arrangement."
+        },
+        {
+          "type": "product",
+          "name": "Halio beauty-device product cluster",
+          "required": true,
+          "source": "Attach product packshots or crops from the original poster",
+          "usage": "Keep the exact device models, colors, and right-side cluster layout."
+        },
+        {
+          "type": "text_layout",
+          "name": "Shopee birthday livestream typography",
+          "required": true,
+          "source": "Use the original poster as layout reference",
+          "usage": "Maintain the headline, date badge, channel label, and minigame CTA."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, attach both host portraits and the Halio device refs. The poster should remain a glossy Shopee-livestream promo with the same typography hierarchy and pink romantic styling."
+    }
+  }
+}

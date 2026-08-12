@@ -1,0 +1,60 @@
+{
+  "name": "lipstick-matrix-livestream",
+  "tag": ["adult-man", "identity-reference", "beauty-livestream", "lipstick-display", "omg-buy-it", "warm-retail-studio"],
+  "image_type": "livestream-commerce-set",
+  "image_vibe": "warm-energetic-persuasive",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Removed the public-figure livestream-host instruction and replaced it with an authorized adult identity reference while preserving the lipstick matrix, warm room, OMG buy-it signage, product demonstration, and Chinese retail atmosphere."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "warm beauty livestream room with lipstick matrix display wall",
+      "color_palette": "warm amber, rose red, black, gold, cream, and soft neon white",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult male beauty livestream host matching the authorized identity reference, with natural facial detail, expressive eyes, and an enthusiastic open-mouth presentation expression.",
+      "wardrobe": "Clean black button-down shirt with understated studio styling.",
+      "pose": "Seated or standing behind a livestream counter, holding an open lipstick near his face and presenting it toward the camera as if recommending the product.",
+      "styling": "Polished, approachable commerce-host presentation with expressive but natural gestures."
+    },
+    "composition_elements": {
+      "framing": "Vertical retail-livestream frame with host in the lower center and a dense lipstick matrix display wall filling the background.",
+      "environment": "Warmly lit beauty livestream room with rows of red, nude, pink, black, and gold lipsticks, decorative shelves, small collectibles, product signs, and amber practical lighting.",
+      "typography": "Large neon sign at top reading OMG 买它, bottom-left placard reading OMG 买它, and supportive Chinese promotional signs on the side shelves. Keep text legible and preserve the energetic livestream design.",
+      "focus": "Sharp authorized adult identity, lipstick in hand, product rows, neon sign, warm reflections, and clean retail details."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Warm ambient shelf lighting with soft key light on the host and subtle neon glow around the sign, realistic product highlights, and gentle shadows.",
+      "atmosphere": "Energetic, persuasive, warm, playful, and commercially inviting."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with a 50mm lens at f/2.8, 1/125 s, ISO 400",
+      "quality": "Photorealistic high-resolution livestream commerce scene, crisp lipstick labels, natural skin, realistic shelves, soft depth of field, accurate signage"
+    },
+    "generated_prompt_string": "Create a photorealistic 4:5 beauty livestream commerce scene using the authorized adult identity reference. Show an adult male beauty host in a clean black button-down shirt, seated behind a counter and holding an open lipstick near his face while presenting it toward camera with an enthusiastic but natural expression. Fill the warm amber room behind him with a dense matrix of red, nude, pink, black, and gold lipsticks on illuminated shelves, decorative collectibles, and product signs. Add a large soft-neon sign reading OMG 买它 at the top, a matching bottom-left placard, supportive Chinese promotional signs, warm shelf lighting, subtle neon glow, realistic product highlights, and no public-figure likeness, watermark, or extra text.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, public-figure likeness, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, illegible Chinese text, misspelled signage, distorted lipstick, extra fingers, deformed anatomy, watermark, cluttered shelves, harsh lighting",
+    "reference_elements": {
+      "prompt_instructions": "The authorized adult identity reference is required for the livestream host. Do not imitate Li Jiaqi or any other public figure. Optional lipstick, shelf, signage, room, or lighting references may replace only their named element while preserving the warm Chinese beauty-commerce setting and OMG 买它 message.",
+      "assets": [
+        {
+          "type": "identity",
+          "name": "authorized-adult-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public figure portrait",
+          "usage": "Preserve the authorized adult host's facial identity and natural features."
+        },
+        {
+          "type": "set-design",
+          "name": "warm-lipstick-matrix-livestream-room",
+          "required": false,
+          "source": "user-uploaded set reference",
+          "usage": "Replace only the shelving, product matrix, signage, collectibles, and warm lighting while preserving the host-centered commerce composition."
+        }
+      ]
+    }
+  }
+}

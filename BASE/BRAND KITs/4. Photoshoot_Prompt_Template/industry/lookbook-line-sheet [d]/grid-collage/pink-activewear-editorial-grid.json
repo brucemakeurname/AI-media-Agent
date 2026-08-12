@@ -1,0 +1,22 @@
+{
+  "name": "pink-activewear-editorial-grid",
+  "tag": ["industry", "lookbook-line-sheet", "grid-collage", "activewear", "fitness"],
+  "image_type": "four-panel activewear editorial grid",
+  "image_vibe": "vibrant, athletic, polished, energetic",
+  "image_purpose": "Activewear campaign and lookbook reference showing a coordinated pink fitness collection.",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Create a high-end four-panel activewear editorial grid for a fashion lookbook. Keep the same approved adult fictional model, styling language, and bright pink color story across all panels.",
+    "main_subject": "One adult fictional woman with an athletic build wearing coordinated bright pink activewear, with natural skin texture, confident expression, and consistent face, hair, and body proportions in every panel.",
+    "composition_elements": ["2x2 equal-panel collage with clean editorial spacing.", "Panel 1: standing stretch with both arms raised overhead in a pink asymmetric sports bra and leggings.", "Panel 2: dynamic forward lunge in a cropped pink zip jacket and pink biker shorts.", "Panel 3: side-profile workout pose in a seamless pink mesh workout set.", "Panel 4: kneeling pose beside a purple exercise ball in a pink athletic bodysuit with a tasteful functional cutout."],
+    "lighting_and_atmosphere": "Bright clean studio light with soft shadows, neutral minimal fitness-editorial environment, crisp color separation, polished commercial look.",
+    "technical_specs": "Ultra-photorealistic fashion campaign photography, high detail, realistic anatomy, sharp garment texture, balanced exposure, consistent model identity, 2x2 grid, no text or watermark.",
+    "generated_prompt_string": "High-end ultra-photorealistic four-panel activewear editorial grid, one consistent adult fictional athletic woman in coordinated bright pink activewear, four varied workout poses, clean neutral studio, bright soft commercial lighting, crisp garment details, polished fitness lookbook, consistent face and proportions, 2x2 equal panels, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "distorted anatomy", "extra limbs", "inconsistent face", "warped garments", "logos", "text", "watermark", "blurry image"],
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "pink-activewear-editorial-grid.jpg", "required": true, "source": "local reference image", "usage": "Attach as the required composition, pose, styling, and color reference."}],
+      "prompt_instructions": "Attach the required local reference image. Preserve the four-panel layout, adult model identity, activewear styling, pink palette, pose sequence, garment readability, and neutral studio environment. Keep the subject as an original fictional adult; do not introduce celebrity likeness, logos, or typography. The reference is replaceable only with another image matching the same composition and styling intent."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

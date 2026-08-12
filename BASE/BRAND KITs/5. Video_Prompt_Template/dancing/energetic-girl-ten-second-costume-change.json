@@ -1,0 +1,82 @@
+{
+  "name": "energetic-girl-ten-second-costume-change",
+  "tag": [
+    "adult-performer",
+    "rapid-costume-change",
+    "stylized-animation",
+    "multi-outfit",
+    "timed-transformation",
+    "vertical-video"
+  ],
+  "image_type": "stylized-transformation-video",
+  "image_vibe": "playful-fantastical",
+  "image_purpose": "short-form-video",
+  "group": "dancing",
+  "prompt": {
+    "project_info": {
+      "title": "Energetic ten-second costume change",
+      "model": "Seedance 2.0",
+      "source": "https://x.com/Adam38363368936/status/2024787496513720791"
+    },
+    "main_subject": "An adult performer in a stylized transformation sequence, moving energetically while changing through academy-inspired, Lolita-inspired, sportswear, ancient-style ruqun, spaghetti-strap, pajama, sailor-inspired, idol-stage, denim, and final uniform costumes.",
+    "composition_elements": "A single central performer remains framed consistently while each gesture creates a timed costume transition. The sequence uses face-covering, hair-swish, sleeve-sweep, jumps, turns, and hand shapes as visual transition devices.",
+    "lighting_and_atmosphere": "Use a lively, clean stylized atmosphere suitable for a fast costume-change short. No specific lighting source is provided; do not invent one.",
+    "technical_specs": {
+      "aspect_ratio": "Not specified in source.",
+      "duration_pacing": "Ten sequential one-second beats from 0-1s through 9-10s; preserve the source timing as narrative pacing.",
+      "camera": "Keep the performer and transition gestures clearly visible; exact camera movement is not specified.",
+      "motion": "Fast, readable transformations driven by the listed gestures."
+    },
+    "generated_prompt_string": "0-1s: Academy-inspired uniform, hopping on toes with hands behind back, tie swinging, head tilted, eyes smiling curved like crescent moons. 1-2s: Turning around and swishing hair to cover face, transforming into a Lolita-inspired dress. 2-3s: Crossing arms to cover face, transforming into sportswear. 3-4s: Sweeping sleeves across the lens, transforming into ancient-style ruqun. 4-5s: Covering face then separating hands, transforming into a sweet and cool spaghetti-strap dress. 5-6s: Small jump landing, transforming into pajamas, rubbing eyes and yawning. 6-7s: Turning around with back to camera, transforming into a sailor-inspired uniform, holding a heart shape and swinging left and right. 7-8s: Lowering head to fix collar then looking up, transforming into an idol stage costume, raising a hand as if holding a microphone. 8-9s: Hugging chest then releasing, transforming into a denim outfit, pulling the zipper and lifting the chin. 9-10s: Turning around and swinging arms, transforming back into the opening uniform.",
+    "negative_prompt": "blurry, low resolution, noise, watermark, text, logo, distortion, deformation, collapsed facial features, stiff movements, shaky image, disproportionate, explicit, nsfw, overly revealing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "moodboard",
+          "name": "provided stylized transformation reference",
+          "required": false,
+          "source": "dancing/energetic-girl-ten-second-costume-change_0.jpg",
+          "usage": "Optional visual reference for the overall stylized transformation treatment; do not treat it as a real-person identity reference."
+        }
+      ],
+      "prompt_instructions": "The source supplies one optional image asset. If attached, preserve the central performer continuity and the sequence's costume-transition concept. Individual outfits, colors, and performer details may be replaced only when explicitly requested; preserve the adult framing and non-explicit presentation."
+    },
+    "omni_video_prompt": {
+      "scene_description": "A stylized adult performer completes a rapid ten-second costume-change dance sequence, with each gesture triggering a new outfit.",
+      "style": "Playful, energetic, stylized transformation short with clear readable costume transitions.",
+      "camera_direction": "Keep the performer centered and visible during each timed gesture; exact shot size and movement are not specified.",
+      "lighting": "No specific lighting is given in the source; retain a clean lively presentation without inventing a lighting setup.",
+      "voice": "None; no dialogue or voice-over is specified.",
+      "SFX": "No sound effects or music are specified.",
+      "environment": "A minimal transformation-stage setting is implied by the continuous costume-change presentation; do not add unsupported location details.",
+      "element": [
+        {
+          "performer": "Adult performer whose identity and position remain consistent through the sequence.",
+          "costumes": "Academy-inspired uniform, Lolita-inspired dress, sportswear, ancient-style ruqun, spaghetti-strap dress, pajamas, sailor-inspired uniform, idol stage costume, denim outfit, then the opening uniform."
+        }
+      ],
+      "motion": "Follow the exact one-second gesture progression: toe hops, hair swish, face-covering, sleeve sweep, hand separation, jump landing, turn, collar adjustment, microphone-like hand raise, zipper pull, and final turn with arm swing.",
+      "ending": "Return to the opening uniform at 9-10 seconds and finish on the final arm-swing pose.",
+      "text": "None",
+      "keyword": [
+        "rapid costume change",
+        "ten-second transformation",
+        "adult performer",
+        "stylized dance",
+        "hair swish",
+        "sleeve sweep",
+        "jump transition",
+        "idol stage costume",
+        "vertical short"
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the performer as an adult and reframed age-coded outfit names as inspired costume styles.",
+      "Preserved all source timing, gestures, transformation order, and creative concept.",
+      "Added required safety and AI-slop negative-prompt terms."
+    ]
+  }
+}

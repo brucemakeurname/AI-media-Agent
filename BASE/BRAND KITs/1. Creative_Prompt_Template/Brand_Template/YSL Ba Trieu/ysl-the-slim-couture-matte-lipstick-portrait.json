@@ -1,0 +1,71 @@
+{
+  "name": "ysl-the-slim-couture-matte-lipstick-portrait",
+  "tag": [
+    "ysl",
+    "the-slim",
+    "couture-matte",
+    "portrait",
+    "beauty-editorial"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Brand story",
+  "group": "ysl_1326249452873096",
+  "prompt": {
+    "project_info": {
+      "theme": "Fashion-editorial portrait for YSL The Slim",
+      "color_palette": "Black, warm gold, soft platinum blonde, nude pink skin tones"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A platinum-blonde female model in black sunglasses and a sharp black blazer holds a YSL lipstick near her face. The bottom copy reads 'YSL THE SLIM COUTURE MATTE LIPSTICK'. The background is dark with a blurred golden Eiffel Tower-like glow on the left.",
+      "style": "Parisian luxury beauty editorial, sleek fashion portrait with moody gold city-light ambience"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "YSL THE SLIM COUTURE MATTE LIPSTICK",
+      "items": [
+        "Top Left: Blurred golden tower-like light shape against black",
+        "Top Right: Model's face with angular black sunglasses and platinum hair",
+        "Bottom Left: Hand holding the YSL lipstick near the jawline",
+        "Bottom Right: Large stacked white product-name typography",
+        "Center/Background: Fashion portrait of the model in a black blazer on a dark Paris-night style backdrop"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Luxury editorial portrait lighting",
+      "effect": "Soft skin radiance, glossy sunglass reflections, dark cinematic background, subtle golden city-light bokeh"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal beauty-editorial advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury beauty-editorial poster for YSL. Centerpiece is a photoreal portrait of a platinum-blonde female model wearing angular black sunglasses and a black blazer while holding a YSL lipstick near her face. Include the exact text 'YSL THE SLIM COUTURE MATTE LIPSTICK'. Background is a dark cinematic field with a blurred golden tower-like light on the left. Technical style: photoreal beauty-editorial advertising composite, luxury editorial portrait lighting, soft skin radiance and subtle golden city-light bokeh, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Platinum-blonde model portrait reference",
+          "required": true,
+          "source": "original editorial image",
+          "usage": "Preserve hair color, sunglasses shape, facial expression, and black blazer styling"
+        },
+        {
+          "type": "product",
+          "name": "YSL The Slim lipstick",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Match the lipstick casing held near the face"
+        },
+        {
+          "type": "background",
+          "name": "Dark city-light background with golden tower bokeh",
+          "required": true,
+          "source": "original portrait backdrop",
+          "usage": "Keep the blurred golden landmark-like glow behind the model"
+        }
+      ],
+      "prompt_instructions": "Keep the mood sleek, Parisian, and fashion-forward. The product is a styling accessory in the portrait, not a giant hero packshot. Preserve the sunglasses and dark-gold mood."
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+    "name":  "brand-geometric-montage-prompt-card",
+    "tag":  [
+                "editorial-design",
+                "brand-montage",
+                "geometric-grid",
+                "muted-palette",
+                "prompt-card"
+            ],
+    "biz_niche":  "Fashion & Apparel / Editorial",
+    "content_format":  "Tutorials",
+    "group":  "commercial-photo_geometric-montage-fashion-editorial",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Nano Banana smart prompt - change one variable for unlimited branded assets",
+                                        "color_palette":  "Sophisticated muted dusty rose, sage green, slate blue, warm cream, burgundy, mustard, black, and white"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Brand editorial montage and instructional social card",
+                                        "detail":  "A clean white square social post containing two rounded 2x2 brand montage examples: an athletic runner with a football and Adidas trefoil on the left, and a top-down Red Bull Formula 1 car composition on the right. Two rounded instructional cards below read \u0027Change one variable\u0027 and \u0027Hit \u0027Generate\u0027 get unlimited assets\u0027, connected by a dotted curved path; the footer reads \u0027Nano Banana smart prompt\u0027.",
+                                        "style":  "High-end commercial studio photography embedded into editorial geometric collage; matte flat color blocks, bold arcs, rounded cards, sparse sans-serif typography"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Grid panels, geometric overlays, logos, instructional UI cards, and connector graphics",
+                                                "text":  "Change one variable; Hit \u0027Generate\u0027 get unlimited assets; Nano Banana smart prompt; @AmirMushich",
+                                                "items":  [
+                                                              "Top left: rounded 2x2 athlete grid; running male athlete, football, footwear, muted sage/slate/dusty-pink blocks and a centered Adidas trefoil.",
+                                                              "Top right: rounded 2x2 motorsport grid; top-down blue Formula 1 car with driver, muted burgundy/slate/mustard panels and a white Red Bull logo.",
+                                                              "Across both montage cards: oversized cropped circles and arcs interweave with the person, car, limbs, wheels, and props to create the sandwich-effect depth.",
+                                                              "Bottom left: white rounded instruction card with black \u0027Change one variable\u0027 text and a black circular plus button.",
+                                                              "Bottom right: black rounded instruction card with white \u0027Hit \u0027Generate\u0027 get unlimited assets\u0027 text and a lime circular arrow button.",
+                                                              "Bottom: dotted curved connector from plus to arrow, black \u0027Nano Banana smart prompt\u0027 wordmark at left, and a small profile pill at right."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft diffused commercial studio lighting",
+                                                   "effect":  "Gentle highlights, soft object shadows, crisp matte graphic surfaces, clean white negative space, no harsh shadows"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "High-end commercial studio photography combined with minimalist editorial vector art",
+                                           "resolution":  "8k resolution, highly detailed"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "Authorized Adidas logo",
+                                                                 "required":  true,
+                                                                 "source":  "official or licensed Adidas brand asset",
+                                                                 "usage":  "Place a clean single-color trefoil centered in one left montage background block."
+                                                             },
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "Authorized Red Bull logo",
+                                                                 "required":  true,
+                                                                 "source":  "official or licensed Red Bull brand asset",
+                                                                 "usage":  "Place the white charging-bulls mark at the lower edge of the right montage."
+                                                             },
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "Licensed running athlete reference",
+                                                                 "required":  true,
+                                                                 "source":  "licensed athlete photo or generated replacement",
+                                                                 "usage":  "Embed the runner across left-side grid panels with limbs selectively occluded by shapes."
+                                                             },
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "Authorized Formula 1 car reference",
+                                                                 "required":  true,
+                                                                 "source":  "licensed motorsport imagery or approved brand reference",
+                                                                 "usage":  "Use a top-down car and driver in the right montage with wheels intersecting geometric overlays."
+                                                             },
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "Football and sports footwear references",
+                                                                 "required":  true,
+                                                                 "source":  "licensed product references",
+                                                                 "usage":  "Float each prop in its own balanced left-side grid quadrant."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "Nano Banana instructional layout",
+                                                                 "required":  true,
+                                                                 "source":  "the supplied reference image",
+                                                                 "usage":  "Match the two-card hierarchy, footer lockup, dotted connector, and text placement."
+                                                             },
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "Muted geometric arc system",
+                                                                 "required":  true,
+                                                                 "source":  "recreate from supplied reference image",
+                                                                 "usage":  "Use cropped circles and arcs as flat matte overlays; no gradients."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach approved logo and product references if exact brand marks or vehicles are required.",
+                                                                          "Preserve clean rounded-card spacing and legible text; do not invent additional taglines.",
+                                                                          "If trademarks are not authorized, replace them consistently with fictional marks while retaining the composition."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "[ BRAND NAME ]. Act as a World-Class Editorial Designer. PHASE 1: DYNAMIC SUBJECT LOGIC. Subject Selection: Autonomously analyze [ BRAND NAME ]. Layering (The Sandwich Effect): Interweave the subject with background shapes. Some parts of the car/person must be hidden behind geometric blocks, while other parts (wheels, limbs, props) must overlap them to create 3D depth. PHASE 2: GRID \u0026 GEOMETRY. Layout: A clean 2x2 grid composition. Overlays: Superimpose large, bold geometric arcs and circles over the grid. Visual Balance: Place one iconic product prop (e.g., a floating key fob for cars or a ball for sports) in a separate quadrant to balance the subject. PHASE 3: SOPHISTICATED MUTED PALETTE. Color Direction: DO NOT use aggressive neon or oversaturated colors. Palette: Identify the core colors of [ BRAND NAME ] and shift them to a \u0027Sophisticated Muted\u0027 spectrum. Tones: Use desaturated, earthy, or \u0027dusty\u0027 versions of the brand colors (e.g., instead of hot pink, use dusty rose; instead of bright mint, use sage green; instead of royal blue, use slate blue). Finish: Matte, flat color blocks with zero gradients. PHASE 4: PHOTOGRAPHY \u0026 LIGHTING. Subject Style: High-end commercial studio photography. Lighting: Soft, diffused studio lighting with gentle highlights. No harsh shadows. Integration: The subject must feel physically embedded into the graphic grid. PHASE 5: MINIMALIST BRANDING. Logo: Place a clean, single-color [ BRAND NAME ] logo in the center of one background block. No taglines, just the iconic symbol.",
+                   "negative_prompt":  "aggressive neon, oversaturated colors, gradients, harsh shadows, cluttered layout, unlicensed logo use, illegible text, distorted vehicle, malformed limbs, blurry photography, watermark, signature"
+               }
+}

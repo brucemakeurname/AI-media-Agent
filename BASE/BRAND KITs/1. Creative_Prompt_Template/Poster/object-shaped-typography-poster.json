@@ -1,0 +1,65 @@
+{
+    "name":  "object-shaped-typography-poster",
+    "tag":  [
+                "typography",
+                "word-shape",
+                "vector",
+                "brand-illustration",
+                "poster"
+            ],
+    "biz_niche":  "Generic/Universal Product Ad",
+    "content_format":  "Brand story",
+    "group":  "poster_316",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Type becomes [OBJECT]",
+                                        "color_palette":  "Vibrant high-contrast colors appropriate to [OBJECT]"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Typographic object",
+                                        "detail":  "A complete [OBJECT] silhouette constructed entirely from bold playful lettering that follows its curves and contours.",
+                                        "style":  "Clean vector illustration, graphic poster design"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Text silhouette and solid field",
+                                                "text":  "[CUSTOM WORDS OR BRAND MESSAGE]",
+                                                "items":  [
+                                                              "Center: [OBJECT] silhouette filled edge-to-edge with adaptive lettering.",
+                                                              "Background: one solid color supporting the silhouette.",
+                                                              "No extra props beyond minimal shape-defining details."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Flat graphic presentation",
+                                                   "effect":  "Crisp vector edges, no realistic shading, strong color contrast"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Vector-style typographic illustration",
+                                           "resolution":  "8k resolution, highly detailed, 1:1 aspect ratio"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "[OBJECT] silhouette reference",
+                                                                 "required":  true,
+                                                                 "source":  "user-supplied object sketch or licensed reference",
+                                                                 "usage":  "Define the external silhouette and critical contour bends."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "Object-typography reference",
+                                                                 "required":  true,
+                                                                 "source":  "supplied reference image",
+                                                                 "usage":  "Guide type density and contour-following behavior."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Ensure letters fill the whole silhouette while staying readable in major areas.",
+                                                                          "Do not use an unapproved logo as the silhouette."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Create a typographic illustration shaped like a {OBJECT}, where the text itself forms the shape - bold and playful lettering style that fills the entire silhouette - letters adapt fluidly to the curves and contours of the object - vibrant and contrasting color palette that fits the theme - background is solid and enhances the focus on the main shape - vector-style, clean, high resolution, poster format, 1:1 aspect ratio.",
+                   "negative_prompt":  "photorealism, empty silhouette, unreadable text, complex background, muddy palette, low resolution, watermark, signature"
+               }
+}

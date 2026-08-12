@@ -1,0 +1,78 @@
+{
+  "name": "vinamilk-youth-forum-international-integration-june-24-2024",
+  "tag": [
+    "vinamilk",
+    "youth-forum",
+    "international-integration",
+    "event-photo",
+    "brand-story"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Brand story",
+  "group": "vinamilk_2445311255959549",
+  "prompt": {
+    "project_info": {
+      "theme": "Vinamilk-linked youth forum participation recap",
+      "color_palette": "Royal blue, white, soft peach-red, conference beige"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A framed event-photo social card on a royal-blue striped background. At the top are the Vinamilk 50th anniversary logo and the 'ĐẠI HỘI XIII' emblem. Inside a white rounded frame is a real conference scene with two men in blue uniforms at a discussion table. The large screen behind them reads 'DIỄN ĐÀN TUỔI TRẺ VIỆT NAM SẴN SÀNG HỘI NHẬP QUỐC TẾ (TỔ THẢO LUẬN SỐ 8)' and appears to show 'Hà Nội, ngày 24 tháng 6 năm 2024'.",
+      "style": "Real-photo event recap card with scrapbook-like blue striped frame"
+    },
+    "composition_elements": {
+      "type": "Background Elements",
+      "text": "Vinamilk; 50; ĐẠI HỘI XIII; DIỄN ĐÀN; TUỔI TRẺ VIỆT NAM SẴN SÀNG HỘI NHẬP QUỐC TẾ; (TỔ THẢO LUẬN SỐ 8); Hà Nội, ngày 24 tháng 6 năm 2024",
+      "items": [
+        "Top Left: Vinamilk 50th anniversary logo",
+        "Top Right: 'ĐẠI HỘI XIII' emblem",
+        "Bottom Left: Blue checker floor-style blocks under the white frame",
+        "Bottom Right: Matching checker floor blocks",
+        "Center/Background: White rounded frame containing a real conference photo with two blue-shirt participants and a large blue stage backdrop"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft indoor event lighting",
+      "effect": "Slight projection-screen glow, documentary photo realism, crisp outer-frame graphic treatment"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal event-photo composite with branded frame",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square event-recap social poster for a Vinamilk-linked youth forum participation scene. Centerpiece is a real conference photo of two men in blue uniforms seated at a discussion table, framed inside a large white rounded border on a royal-blue striped background. Include the exact visible text 'ĐẠI HỘI XIII', 'DIỄN ĐÀN', 'TUỔI TRẺ VIỆT NAM SẴN SÀNG HỘI NHẬP QUỐC TẾ', '(TỔ THẢO LUẬN SỐ 8)', and 'Hà Nội, ngày 24 tháng 6 năm 2024'. Keep the Vinamilk 50th anniversary logo above the frame. Technical style: photoreal event-photo composite with branded frame, soft indoor event lighting, documentary realism inside the photo and crisp graphic outer treatment, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Vinamilk 50th anniversary logo",
+          "required": true,
+          "source": "original branding",
+          "usage": "Top-center logo above the framed photo"
+        },
+        {
+          "type": "graphic",
+          "name": "ĐẠI HỘI XIII emblem",
+          "required": true,
+          "source": "original event/organization mark",
+          "usage": "Place beside the Vinamilk anniversary logo"
+        },
+        {
+          "type": "person",
+          "name": "Two blue-uniform forum participants",
+          "required": true,
+          "source": "original event photo",
+          "usage": "Preserve the seated speaker at laptop and the standing/moderating speaker at right"
+        },
+        {
+          "type": "location",
+          "name": "Forum stage backdrop",
+          "required": true,
+          "source": "original event photo",
+          "usage": "Maintain the exact large blue title screen and table setup"
+        }
+      ],
+      "prompt_instructions": "The visible date '24 tháng 6 năm 2024' is in the past relative to Friday, July 17, 2026. Recreate the design exactly as an archival event recap card. Keep it as a real-photo composition inside a white frame on a striped blue branded background."
+    }
+  }
+}

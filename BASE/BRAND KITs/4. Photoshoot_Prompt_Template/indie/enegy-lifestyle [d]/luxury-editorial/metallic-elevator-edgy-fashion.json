@@ -1,0 +1,68 @@
+{
+  "name": "metallic-elevator-edgy-fashion",
+  "tag": [
+    "adult-woman",
+    "pink-t-shirt",
+    "black-leather-trousers",
+    "metallic-elevator",
+    "streetwear"
+  ],
+  "image_type": "streetwear-fashion-portrait",
+  "image_vibe": "edgy-cool-urban",
+  "image_purpose": "instagram-feed",
+  "group": "indie/enegy-lifestyle/luxury-editorial",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject is an adult and replaced the seductive expression and fixed reference-face instruction with an optional approved adult identity reference and a calm confident streetwear portrait."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "edgy adult streetwear fashion portrait in a metallic elevator",
+      "color_palette": "soft pink, black, silver, steel blue, and muted skin tones",
+      "format": "vertical 2:3 mid-length portrait"
+    },
+    "main_subject": {
+      "description": "an adult woman with long voluminous wavy bronde hair, natural makeup, an oversized soft-pink T-shirt, high-waisted black leather trousers, layered silver chain necklace, and dark nail polish",
+      "pose_and_expression": "standing inside the elevator with one hand lightly touching the metallic wall, relaxed posture, calm confident expression"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level mid-length editorial portrait",
+      "foreground": "pink T-shirt, leather trouser texture, silver chains, and hand on brushed metal",
+      "background": "sleek reflective silver elevator walls with soft mirrored color echoes",
+      "visual_hierarchy": "adult subject face, pink-and-black outfit, then metallic elevator depth"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "soft cool elevator highlights with subtle natural shadows",
+      "atmosphere": "cool, self-assured, modern, and urban"
+    },
+    "technical_specs": {
+      "camera": "Sony A7 IV",
+      "lens": "50mm f/1.8",
+      "settings": "1/160s, f/2, ISO 500",
+      "rendering": "realistic skin texture, crisp leather and metal reflections, shallow depth of field, subtle fine grain"
+    },
+    "generated_prompt_string": "An adult woman with long voluminous wavy bronde hair and natural makeup stands inside a sleek modern elevator with reflective silver metallic walls. She wears an oversized loose soft-pink T-shirt with wide short sleeves, high-waisted black leather trousers with a clean front zipper, layered silver chain necklaces, and dark nail polish. One hand touches the metal wall in a relaxed fashion pose; she gives a calm confident expression. Use soft cool elevator highlights, subtle natural shadows, sharp editorial focus, realistic skin texture, crisp leather detail, and a modern pink-black-silver streetwear palette.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, sexualized expression, body-part emphasis, nudity, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted reflections, extra fingers, deformed, watermark, logo, readable text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace identity only when supplied; all person references must depict authorized adults who are not public figures."
+        },
+        {
+          "type": "wardrobe",
+          "name": "pink-streetwear-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Match T-shirt, trousers, jewelry, and nail details when supplied."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult subject, pink tee, black leather trousers, metallic elevator, and cool streetwear direction; replace only approved identity or wardrobe elements."
+    }
+  }
+}

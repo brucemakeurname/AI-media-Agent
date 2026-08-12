@@ -1,0 +1,55 @@
+{
+  "name": "cellphones-msi-modern-15-backpack-gift",
+  "tag": ["cellphones", "msi modern 15", "laptop sale", "backpack gift", "student offer"],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "cellphones_1550724246604171",
+  "prompt": {
+    "project_info": {
+      "theme": "Student-lifestyle laptop sale with gift backpack",
+      "color_palette": "Red, white, black, pastel desk colors, gray"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A lifestyle laptop-sale poster featuring an MSI Modern 15 laptop centered on a bright student desk setup, with a gift-backpack badge and multiple stacked promotional price components along the bottom.",
+      "style": "Photoreal desk-lifestyle electronics promo"
+    },
+    "composition_elements": {
+      "type": "Laptop/Typography/Lifestyle Desk/Gift Badge",
+      "text": "cellphoneS, MSI Modern 15, CPU Intel Core 5 120U - RAM DDR4-3200 - Card đồ hoạ Intel Graphics, TẶNG NGAY, Balo Cellphones, TRẢ GÓP 0% Trả Trước 0đ Phụ phí 0đ, GIÁ SALE TỐT 21.39 Triệu, S-STUDENT & S-TEACHER GIẢM 1 Triệu, GIẢM THÊM 5% TỐI ĐA 1 TRIỆU, MSI",
+      "items": [
+        "Top Center: red cellphoneS logo block.",
+        "Upper Middle: huge white title 'MSI Modern 15' with the word 'got this' fading in the background on the right.",
+        "Below title: white specs line for CPU, RAM, and graphics.",
+        "Center: front-facing black MSI laptop on a tidy colorful desk, showing an abstract gradient wallpaper and MSI logo on screen.",
+        "Bottom Left: red-white gift badge 'TẶNG NGAY' plus backpack image and text 'Balo Cellphones'.",
+        "Bottom Right: white installment stack 'TRẢ GÓP 0% Trả Trước 0đ Phụ phí 0đ'.",
+        "Bottom Banner: dark gray rounded pricing strip with 'GIÁ SALE TỐT 21.39 Triệu', 'S-STUDENT & S-TEACHER GIẢM 1 Triệu', and 'GIẢM THÊM 5% TỐI ĐA 1 TRIỆU'.",
+        "Background: pastel study-room desk setup with books, pencil cups, rainbow ornament, sticky notes, and plants."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright soft indoor desk lighting",
+      "effect": "Friendly study-space ambience, crisp product realism, inviting back-to-school retail mood"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal laptop sale poster in lifestyle desk environment",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "MSI Modern 15 laptop and backpack gift", "required": true, "source": "source image product reference", "usage": "Keep the front-on laptop view, on-screen wallpaper, and small backpack gift panel."},
+        {"type": "background", "name": "pastel study desk scene", "required": true, "source": "source image environment reference", "usage": "Preserve the colorful desktop accessories, books, rainbow ornament, and student vibe."},
+        {"type": "text_layout", "name": "model specs and bottom price stack", "required": true, "source": "source image text reference", "usage": "Keep the exact model name, specs line, gift badge, installment note, and three-part bottom pricing band."},
+        {"type": "logo", "name": "cellphoneS and MSI branding", "required": true, "source": "source image brand reference", "usage": "Preserve the top retail logo and MSI marks on the laptop."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve desk props, laptop framing, and the bottom multi-part pricing bar.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the student-lifestyle desk aesthetic with the laptop as the centered hero."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square laptop-sale poster in a bright student desk environment. Place a red cellphoneS logo at the top center, then large white text 'MSI Modern 15' and the specs line 'CPU Intel Core 5 120U - RAM DDR4-3200 - Card đồ hoạ Intel Graphics'. Center a front-facing black MSI laptop on a colorful tidy desk with books, pencil holders, rainbow desk decor, sticky notes, and plants in the background. Add a red-white badge 'TẶNG NGAY' with a backpack image and text 'Balo Cellphones'. On the lower right place 'TRẢ GÓP 0% Trả Trước 0đ Phụ phí 0đ'. Use a dark rounded bottom pricing banner containing 'GIÁ SALE TỐT 21.39 Triệu', 'S-STUDENT & S-TEACHER GIẢM 1 Triệu', and 'GIẢM THÊM 5% TỐI ĐA 1 TRIỆU'. Technical style: photoreal laptop sale poster in lifestyle desk environment, bright soft indoor desk lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark room, incorrect text, wrong laptop, blurry props, low resolution, cluttered layout, watermark, signature"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "name": "luxury-car-backseat-flash-portrait",
+  "tag": [
+    "adult-woman",
+    "luxury-car",
+    "night-flash",
+    "black-leather",
+    "cinematic-fashion"
+  ],
+  "image_type": "night-car-flash-portrait",
+  "image_vibe": "glossy-cinematic-nightlife",
+  "image_purpose": "fashion-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the referenced subject must be an adult and replaced the reclining lace-camisole and short styling with a composed upright pose and covered black evening blouse with tailored trousers."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult nighttime luxury-car flash fashion portrait",
+      "color_palette": "black leather, dark charcoal, warm gold, deep wood brown, and night-city reflections",
+      "format": "vertical 9:16 three-quarter portrait"
+    },
+    "main_subject": {
+      "description": "an adult woman, optionally matching an approved adult non-public-figure identity reference, seated upright in the rear of an unbranded luxury car in a non-sheer black long-sleeve evening blouse, dark tailored trousers, layered unbranded gold necklaces, and simple gold bracelets",
+      "pose_and_expression": "one hand rests naturally beside a smartphone with an abstract unreadable screen; posture is relaxed, self-possessed, and non-suggestive"
+    },
+    "composition_elements": {
+      "camera_angle": "vertical three-quarter portrait from the opposite rear seat with a 35mm editorial perspective",
+      "foreground": "adult face, hands, gold jewelry, smartphone, and dark leather texture",
+      "background": "unbranded dark leather upholstery, subtle wood trim, window reflections, and soft out-of-focus city light outside",
+      "visual_hierarchy": "adult eyes and expression, covered black eveningwear, then flash-lit car materials and night reflections"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "direct on-camera flash with sharp but controlled highlights, supported by low nighttime ambient city light",
+      "atmosphere": "glossy, cinematic, intimate, and luxury-focused without sexualized framing"
+    },
+    "technical_specs": {
+      "camera": "full-frame camera",
+      "lens": "35mm f/1.8",
+      "settings": "1/160s, f/1.8, ISO 800",
+      "rendering": "high-detail photorealism, natural skin response to flash, realistic reflection control, and shallow depth of field"
+    },
+    "generated_prompt_string": "Create an ultra-realistic vertical flash-fashion portrait of an adult woman, optionally matching an approved adult non-public-figure identity reference, seated upright in the rear of an unbranded luxury car at night. She wears a non-sheer black long-sleeve evening blouse, dark tailored trousers, layered unbranded gold necklaces, and simple gold bracelets. One hand rests naturally beside a smartphone with an abstract unreadable screen. Show dark leather upholstery, subtle wood trim, soft window reflections, and blurred city light outside. Use direct on-camera flash, sharp controlled highlights, natural skin texture, 35mm lens character at f/1.8 and ISO 800, shallow depth of field, and an understated cinematic nightlife mood. No logos, readable text, or body reshaping.",
+    "negative_prompt": "minor, unapproved identity reference, explicit, nsfw, overly revealing, reclining pose, lace camisole, lingerie, short shorts, nudity, body reshaping, waist cinching, exaggerated curves, face alteration, age shift, readable phone text, logo, watermark, distorted anatomy, extra limbs, poorly drawn hands, plastic skin",
+    "reference_elements": {
+      "prompt_instructions": "The approved adult identity reference is optional. Every other reference is optional and replaces only the stated element; remove brands and readable text.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": false,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Match the authorized adult face and preserve natural apparent age, proportions, hair color, and ethnicity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "covered-black-evening-look-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Replace blouse, trousers, and unbranded jewelry styling."
+        },
+        {
+          "type": "environment",
+          "name": "unbranded-night-car-interior-reference",
+          "required": false,
+          "source": "approved environment reference",
+          "usage": "Replace upholstery, trim, and city-reflection character without copying badges or text."
+        }
+      ]
+    }
+  }
+}

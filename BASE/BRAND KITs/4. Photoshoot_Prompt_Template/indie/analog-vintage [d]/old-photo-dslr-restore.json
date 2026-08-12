@@ -1,0 +1,62 @@
+{
+  "name": "old-photo-dslr-restore",
+  "tag": [
+    "photo-restoration",
+    "family-photo",
+    "face-preservation",
+    "damage-repair",
+    "color-recovery",
+    "archive"
+  ],
+  "image_type": "archival-photo-restoration",
+  "image_vibe": "faithful-natural-recovered",
+  "image_purpose": "photo-restoration",
+  "group": "indie/analog-vintage",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "conservative restoration of a damaged family photograph",
+      "color_palette": "faithful to original material with realistic recovered color",
+      "format": "match attached source photograph"
+    },
+    "main_subject": {
+      "type": "people shown in the attached archival photograph",
+      "detail": "Treat the uploaded photo as the only authority for identity, age presentation, facial features, family relationship, pose, wardrobe, and surroundings.",
+      "style": "natural high-detail restoration, never a new generative portrait"
+    },
+    "composition_elements": {
+      "text": "Retain source writing only if it exists; do not introduce or alter text.",
+      "items": [
+        "preserve original framing and family grouping",
+        "repair physical damage, discoloration, fading, and low-detail regions conservatively",
+        "retain original clothes, decor, and era-specific setting",
+        "do not change number of people or their apparent ages"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "source-faithful light reconstruction",
+      "effect": "natural tonal balance, restrained denoise, realistic skin and fabric, preserved archival character"
+    },
+    "technical_specs": {
+      "render_style": "loss-minimizing high-resolution photo restoration with DSLR-like clarity, exact face preservation, subtle grain retention, no beauty retouching",
+      "resolution": "highest recoverable resolution at the original aspect ratio"
+    },
+    "generated_prompt_string": "Restore the attached old family photograph into a natural professional DSLR-quality image. Preserve the exact faces, identity, age presentation, family grouping, expression, pose, clothing, crop, background, and historical character visible in the source. Repair fading, tears, stains, scratches, noise, and low-resolution artifacts conservatively while recovering natural color, exposure, and detail. Retain authentic skin texture and period-appropriate environment. Do not add or remove people, modify faces or ages, change clothes, invent missing details, replace the background, or transform the photo into a newly staged image.",
+    "negative_prompt": "identity change, face swap, age alteration, added person, removed person, invented detail, changed clothing, changed pose, changed background, colorization artifacts, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, text alteration, deformed, extra fingers",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "source-family-archival-photo",
+          "required": true,
+          "source": "Attach the original family photograph.",
+          "usage": "Mandatory preservation reference for every person, face, age presentation, relationship, clothing, and background element."
+        }
+      ],
+      "prompt_instructions": "The original family photo is mandatory and must not be substituted. Apply only conservative restoration. Never infer or generate uncertain facial, body, clothing, or background information when it cannot be verified from the source."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "cocoon-summer-bi-da-combo-45",
+  "tag": ["cocoon", "winter melon", "summer combo", "45 percent", "skincare tray"],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "cocoon_973149001739202",
+  "prompt": {
+    "project_info": {
+      "theme": "Summer skincare combo discount",
+      "color_palette": "Sky blue, yellow, warm amber, mint green, brown"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A bright vertical summer-promo beauty poster where multiple Cocoon Winter Melon skincare products are arranged on a large round silver serving tray held overhead, surrounded by cucumber, leaves, and a yellow flower, with a big playful headline and 45 percent combo discount badge.",
+      "style": "Photoreal product-styling beauty campaign poster"
+    },
+    "composition_elements": {
+      "type": "Product/Hand/Typography/Fresh Props",
+      "text": "ĐÓN HÈ KHÔNG NGẠI 'BÍ ĐA', COMBO 2 GIẢM ĐẾN 45%, the cocoon ORIGINAL VIETNAM, Nước tẩy trang bí đao, Winter melon micellar water, Thạch bí đao, Sữa rửa mặt bí đao, Winter melon body polish, Winter melon gel cream",
+      "items": [
+        "Top: white headline 'ĐÓN HÈ KHÔNG NGẠI' and giant rounded quoted word 'BÍ ĐA'.",
+        "Upper Left: yellow circular badge 'COMBO 2 GIẢM ĐẾN 45%'.",
+        "Center: multiple Cocoon Winter Melon products styled upright and stacked on a large silver tray, including micellar water bottle, body polish jar, gel cream jars, a dropper bottle, and a cleansing product jar.",
+        "Fresh Props: cucumber slices in a glass, mint leaves, yellow flower blossom, and product droplets.",
+        "Bottom: a hand and partial upper body supporting the tray from below.",
+        "Background: bright blue sky with soft clouds."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright outdoor daylight",
+      "effect": "Refreshing summer freshness, glossy product droplets, vibrant food-meets-skincare styling"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal beauty-product styling poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "Cocoon Winter Melon skincare set", "required": true, "source": "source image product reference", "usage": "Preserve the exact assortment, upright bottle position, stacked jars, and visible labels."},
+        {"type": "accessory", "name": "silver serving tray and supporting hand", "required": true, "source": "source image prop and hand reference", "usage": "Keep the tray angle, hand support, and crop from below."},
+        {"type": "graphic", "name": "yellow discount badge and summer fresh props", "required": true, "source": "source image graphic reference", "usage": "Preserve the 45% badge plus cucumber, leaves, and flower styling."},
+        {"type": "text_layout", "name": "summer headline and combo offer", "required": true, "source": "source image text reference", "usage": "Keep the exact wording and the oversized 'BÍ ĐA' treatment."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the full product arrangement on the tray and the exact label visibility.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the bright summer-skincare styling against the blue-sky background."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality vertical skincare campaign poster under a bright blue sky. Add the white headline 'ĐÓN HÈ KHÔNG NGẠI' and the giant rounded quoted word 'BÍ ĐA'. Place a yellow circular badge reading 'COMBO 2 GIẢM ĐẾN 45%'. In the center, arrange a full Cocoon Winter Melon skincare set on a large silver serving tray held from below by a hand, including the Winter Melon Micellar Water bottle, jars, a dropper bottle, and additional Winter Melon products. Surround the arrangement with cucumber slices, a glass with cucumber, mint leaves, and a yellow flower. Technical style: photoreal beauty-product styling poster, bright outdoor daylight, 8k resolution, highly detailed.",
+    "negative_prompt": "dark beauty ad, incorrect text, wrong product assortment, low resolution, awkward tray perspective, cluttered composition, watermark, signature"
+  }
+}

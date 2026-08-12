@@ -1,0 +1,58 @@
+{
+  "name": "cold-blue-melancholic-gamer-girl",
+  "tag": [
+    "ugc",
+    "cozy-home",
+    "private-indoor",
+    "gamer-bedroom",
+    "blue-purple-neon",
+    "cyber-grunge"
+  ],
+  "image_type": "ugc-gaming-bedroom-portrait",
+  "image_vibe": "cold-blue-melancholic-tech",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic lo-fi gaming-bedroom portrait with cold blue laptop light and deep purple LED ambience, preserving the cyber-grunge tech-heavy atmosphere.",
+    "main_subject": "One original approved adult woman with colorful clipped pigtails, clear-rimmed glasses reflecting screen light, natural skin texture and a bored but absorbed expression. She lies on her stomach with chin supported in both hands, wearing a ribbed grey knit top, modest dark shorts and headphones around her neck, with white wired earphones loosely around her arms.",
+    "composition_elements": "Vertical 9:16 bedroom frame. Place the adult woman on a bed surrounded by an open laptop, multiple glowing screens, RGB keyboard, tangled white and black cables, headphones, generic energy-drink cans and sticker-covered headboard. Keep her face and glasses in focus while feet and distant screens may have slight motion blur.",
+    "lighting_and_atmosphere": "Cold blue laptop light and deep purple LED strips create moody high-contrast bloom around the silhouette, with realistic screen glare on glasses and natural digital shadows. Keep the mood nocturnal, intimate, melancholic and unpolished.",
+    "technical_specs": "9:16 vertical lo-fi digital-camera aesthetic, slightly soft focus, heavy but natural digital grain, saturated blue-purple neon, realistic cable and keyboard detail, screen reflections without readable code or brand text.",
+    "generated_prompt_string": "Create a photorealistic lo-fi gaming-bedroom portrait with cold blue laptop light and deep purple LED ambience of one original approved adult woman with colorful clipped pigtails, clear-rimmed glasses reflecting screen light, natural skin texture and a bored but absorbed expression. She lies on her stomach with chin supported in both hands, wearing a ribbed grey knit top, modest dark shorts and headphones around her neck, with white wired earphones loosely around her arms. Use a vertical 9:16 bedroom frame surrounded by an open laptop, multiple glowing screens, RGB keyboard, tangled white and black cables, generic energy-drink cans and a sticker-covered headboard. Keep face and glasses sharp while allowing slight motion blur on feet and distant screens. Use cold blue screen light, deep purple LED bloom, realistic reflections, natural digital grain and unpolished cyber-grunge color without readable code or brand text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, dangerous cable entanglement, electrical hazard, readable code, invented logos, added text overlays",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "cold-blue-melancholic-gamer-girl.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair clips, glasses, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "grey ribbed knit top, modest dark shorts, headphones and wired earphones",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve knit texture, headphone shape, earphone placement and modest outfit fit; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "neon gaming bedroom, bed, laptop, RGB keyboard and cable arrangement",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve blue-purple lighting, bed, screens, keyboard, cables and sticker-covered headboard; environment may be replaced through explicit references while keeping safe cable placement."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, face, hair clips, glasses, outfit, headphones, pose, screen glow and room layout consistent. The adult, wardrobe and environment may be replaced independently through explicit references. Keep screen content abstract and unreadable; do not invent logos, code or typography."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed age wording to original approved adult.",
+      "Preserved the gamer-bedroom concept, pose, clothing, neon palette and melancholic mood while adding safe cable guidance.",
+      "Added safety, electrical-hazard, anti-artifact and anti-text negative prompts."
+    ]
+  }
+}

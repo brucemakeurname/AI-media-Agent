@@ -1,0 +1,72 @@
+{
+  "name": "underwater-macro-half-face",
+  "tag": [
+    "adult-woman",
+    "underwater",
+    "macro",
+    "half-face",
+    "caustics",
+    "bubbles"
+  ],
+  "image_type": "underwater-macro-portrait",
+  "image_vibe": "immersive-dreamlike-precise",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the macro portrait subject is an adult."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "hyperreal half-face underwater macro study",
+      "color_palette": "muted teal, natural skin, pearly white, soft gold",
+      "format": "portrait 3:4"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman shown as the left half of a face only, partially submerged, with one brown eye in sharp focus, visible pores, detailed lashes, wet lips, and natural freckles.",
+      "style": "photoreal macro underwater portrait with physically accurate water optics"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "left half of the face fills the frame",
+        "single sharp eye positioned toward the upper-left third",
+        "waterline and suspended bubbles across the face",
+        "soft teal water field at frame right",
+        "dynamic caustic reflections across wet skin"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "cinematic underwater light at approximately 5200K shaped by moving surface water",
+      "effect": "crisp wet-skin highlights, soft natural shadows, realistic subsurface scattering, and immersive quiet"
+    },
+    "technical_specs": {
+      "render_style": "100mm macro lens in underwater housing, extremely shallow depth of field, micro-detail in focused eye area, subtle realistic grain",
+      "resolution": "ultra-high resolution, portrait 3:4"
+    },
+    "generated_prompt_string": "Create a hyper-realistic, ultra-detailed, photoreal macro portrait of the left half of an adult woman's face only, partially submerged underwater. Keep one brown eye in sharp focus near the upper-left area of the frame. Show visible pores, fine skin texture, detailed eyelashes, wet lips, natural freckles, suspended droplets, floating air bubbles, and subtle water movement. Use cinematic underwater lighting with light rays, dynamic caustic reflections, crisp highlights on wet skin and the water surface, soft natural underwater shadows, and realistic subsurface scattering. Use a macro lens with extremely shallow depth of field, physically accurate refraction, immersive dreamlike atmosphere, and portrait 3:4 framing.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, text, watermark, logo, duplicated eyes, distorted waterline, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-underwater-macro-reference",
+          "required": false,
+          "source": "Attach an authorized adult face reference when eye and facial identity need continuity.",
+          "usage": "Preserve adult identity and eye geometry if attached; otherwise subject may be replaced."
+        },
+        {
+          "type": "moodboard",
+          "name": "underwater-caustic-reference",
+          "required": false,
+          "source": "Attach a water-light reference when exact caustic pattern or color must match.",
+          "usage": "Keep physically plausible caustics and bubbles; lighting may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve one adult half-face, sharp single eye, underwater macro crop, bubbles, and caustic light. Identity and light pattern may be replaced independently."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "pink-wall-street-girl",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "street-fashion", "pink-wall"],
+  "image_type": "street-fashion portrait",
+  "image_vibe": "bold, high-contrast, cool, urban",
+  "image_purpose": "streetwear lookbook and fashion campaign portrait",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a 4:5 medium street-fashion portrait of one approved adult woman against a solid vibrant pink textured wall.",
+    "main_subject": "Adult woman with long dark hair and dark sunglasses, wearing a white corset-style top with black floral patterns and lace trim, black shorts, and an oversized black jacket with shearling lining draped loosely off her shoulders. Keep the styling confident and fashion-focused.",
+    "composition_elements": ["4:5 medium shot.", "Subject posed against the textured pink wall with jacket draped over shoulders.", "White floral corset, black shorts, dark outerwear, and sunglasses create strong graphic contrast.", "Bright natural sunlight and sharp shadows define the wall texture and garment details."],
+    "lighting_and_atmosphere": "Bright natural sunlight, sharp directional shadows, high contrast, vivid pink color field, bold street-fashion atmosphere.",
+    "technical_specs": "Photorealistic fashion photography, 4:5 aspect ratio, realistic skin, lace, shearling, leather, and wall texture, crisp focus, no text or watermark.",
+    "generated_prompt_string": "Create a 4:5 medium shot of an adult woman with long dark hair and dark sunglasses posing against a solid vibrant pink textured wall. She wears a white corset-style top with black floral patterns and lace trim, paired with black shorts. An oversized black jacket with shearling lining is draped loosely off her shoulders. Bright natural sunlight, sharp shadows, high contrast, bold street fashion photography, realistic fabric texture, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "distorted anatomy", "extra fingers", "inconsistent identity", "plastic skin", "over-smooth", "over-saturated", "HDR look", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "pink-wall-street-girl.jpg", "required": true, "source": "local reference image", "usage": "Attach for adult identity, face, hair, sunglasses, outfit, pose, and wall reference."}],
+      "prompt_instructions": "Attach the required approved-adult local reference. Preserve face, hair, sunglasses, corset, shorts, shearling jacket, pink wall, sunlight, and 4:5 framing. Keep the subject fictional and original, with no celebrity likeness, logos, or typography; replace only with an equivalent adult fashion reference."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

@@ -1,0 +1,83 @@
+{
+  "name": "quiet-luxury-scarf-photobook-spread",
+  "tag": [
+    "quiet-luxury",
+    "silk-scarf",
+    "photobook-grid",
+    "cream-beige-palette",
+    "four-pose-sequence"
+  ],
+  "image_type": "photobook-editorial-spread",
+  "image_vibe": "quiet-luxury",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Quiet-luxury silk scarf photobook page with four connected portraits",
+      "creative_direction": "Open printed photobook spread with a hero image and precise 2x2 editorial sequence",
+      "color_palette": "creamy white, soft beige, sage green, warm skin tones, black dividers, and muted silk accents"
+    },
+    "main_subject": {
+      "type": "clearly adult Eurasian woman",
+      "detail": "approved adult fashion model with natural skin texture, gentle expression, and consistent facial identity",
+      "wardrobe": "light neutral editorial outfit styled with a silk scarf",
+      "pose_sequence": "top-left cheek resting on hand while holding scarf; top-right scarf worn as head wrap with playful wink; bottom-right scarf held near chin with calm closed-lip expression; bottom-left scarf removed with arm lifted behind head and gaze above camera"
+    },
+    "composition_elements": {
+      "framing": "open photobook viewed at a slight angle on a polished stone surface, semi-gloss paper with visible grain and realistic ink reflection",
+      "layout": "hero image plus four-frame photobooth-style 2x2 grid with thin black dividers",
+      "typography": "minimal small fictional text near the bottom and a tiny non-functional QR-style graphic; no real signature, personal data, or claims",
+      "props": "one silk scarf used consistently across the four images"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft even editorial light at approximately 5000K with natural fill",
+      "effect": "natural skin tones, subtle shadows, visible paper grain, soft silk sheen, and old-money quiet-luxury mood"
+    },
+    "technical_specs": {
+      "render_style": "Hasselblad X2D-style medium-format photography with 80mm lens, printed photobook composite",
+      "resolution": "4k vertical social photobook spread",
+      "finish": "hyperrealistic print texture, natural movement, restrained grain, no lens flare, no CGI styling, and clean dividers"
+    },
+    "generated_prompt_string": "Create a hyperrealistic printed photobook page photographed in a Hasselblad X2D style with an 80mm lens, showing a clearly adult Eurasian fashion model in an outdoor editorial setting. View an open photobook spread from a slight angle resting on a polished stone surface, with semi-gloss paper, visible grain, and realistic ink reflection. Use a hero image plus a precise 2x2 photobooth-style grid with thin black dividers. In the top-left frame, the adult model rests her right cheek on her right hand, smiles softly, and loosely holds a silk scarf. In the top-right, she wears the scarf as a head wrap and adjusts it with one hand, with a playful wink. In the bottom-right, she holds the scarf near her chin with a calm closed-lip expression. In the bottom-left, the scarf is removed, one arm is lifted behind her head, and she looks above the camera. Use creamy whites, soft beiges, hints of sage green, soft even approximately 5000K light, natural skin tones, quiet-luxury high-fashion photography, minimal fictional bottom text, and a tiny non-functional QR-style detail. Do not add real signatures, personal information, logos, or watermarks.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, suggestive pout, childlike styling, real signature, personal data, functional QR code, logo, watermark, illustration, doll, toy, CGI look, lens flare, chromatic aberration, JPEG artifacts, plastic skin, extra fingers, broken grid",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-quiet-luxury-model",
+          "required": true,
+          "source": "Original photobook preview image",
+          "usage": "Attach an approved adult face reference and preserve the same facial structure and identity across the hero and four frames without celebrity likeness."
+        },
+        {
+          "type": "wardrobe",
+          "name": "cream-outfit-silk-scarf",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the light neutral outfit and silk scarf across every pose; maintain wardrobe continuity."
+        },
+        {
+          "type": "graphic",
+          "name": "quiet-luxury-photobook-grid",
+          "required": true,
+          "source": "Original printed spread preview image and source prompt",
+          "usage": "Attach to preserve page angle, paper grain, 2x2 grid, dividers, hero layout, and small fictional typography; replace real signatures and codes with non-functional placeholders."
+        },
+        {
+          "type": "background",
+          "name": "polished-stone-photobook-surface",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve polished stone surface, angled book perspective, and soft outdoor/editorial atmosphere; surface may be replaced with an equivalent material."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult model, exact scarf outfit, photobook layout, and surface references. Keep identity, scarf sequence, page angle, grid, typography, paper grain, and quiet-luxury palette consistent. Replace the person, signature, code, or location only with approved equivalents; all text and codes must remain fictional and non-functional."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the model as clearly adult, replaced the subtle pout with a calm closed-lip expression, and constrained signature/QR details to fictional non-functional graphics while preserving the four-pose photobook concept."
+    ]
+  }
+}

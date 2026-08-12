@@ -1,0 +1,85 @@
+{
+  "name": "be-fpt-football-festival-road-to-go",
+  "tag": [
+    "fpt event",
+    "football festival",
+    "go mall",
+    "voucher map",
+    "brand partnership"
+  ],
+  "biz_niche": "Travel & Hospitality",
+  "content_format": "Special offers",
+  "group": "be_1341056674236136",
+  "prompt": {
+    "project_info": {
+      "theme": "Road-to football festival event map with transport offers",
+      "color_palette": "Light blue, royal blue, white, orange, yellow, red"
+    },
+    "main_subject": {
+      "type": "Text/Object/Graphic",
+      "detail": "A dense infographic-style event poster mapping a route from a be scooter to a GO! shopping center and then to a football festival activation zone, combining large promo text, numbered route points, speech-bubble activity callouts, and several event booth mockups.",
+      "style": "Isometric event infographic poster, partnership activation map, high-information promotional visual"
+    },
+    "composition_elements": {
+      "type": "Typography/Map Graphics/Event Booths",
+      "text": "be, FPT, ROAD TO ĐẠI TIỆC BÓNG ĐÁ FPT, ĐẶT BE ĐẾN TRẢI NGHIỆM FPT TẠI GO!, GIẢM ĐẾN 50K, 1 VOUCHER ĐẠI TIỆC BÓNG ĐÁ FPT GIẢM 20% Tối đa 50k beBike /beCar (+Plus), 2, 3, Khám phá ưu đãi X3 GIẢI ĐẤU BẢNG THÔNG GIÁ CHỈ 0Đ, Vòng quay may mắn nhận quà hấp dẫn, Chụp ảnh photobooth, Thử thách penalty, Wi-Fi free, nước uống, sạc pin miễn phí, Bé tập tô màu, *Áp dụng cho các chuyến đi đến 12 điểm GO! toàn quốc",
+      "items": [
+        "Top Left: be and FPT logos.",
+        "Top Right and Center: stacked blue headline 'ROAD TO ĐẠI TIỆC BÓNG ĐÁ FPT' and subheadline 'ĐẶT BE ĐẾN TRẢI NGHIỆM FPT TẠI GO!'.",
+        "Upper Right Middle: blue promo block 'GIẢM ĐẾN 50K'.",
+        "Left Upper: beBike scooter with two mascots and a soccer ball.",
+        "Right Upper: GO! building rendered as a mall destination marked as step 2.",
+        "Center Lower: football event activation zone with stage, field, booth structures, and posters.",
+        "Map Ground: wide curved blue road connecting the scooter, mall, and event zone across a grid-like map floor.",
+        "Callout Bubbles: icons and labels for lucky wheel, photobooth, penalty challenge, free Wi-Fi water charging, and kids coloring."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright graphic daylight",
+      "effect": "Clean infographic readability, playful event energy, layered isometric depth"
+    },
+    "technical_specs": {
+      "render_style": "Isometric promotional infographic with event mockups and map graphics",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "be, FPT, and GO! logos",
+          "required": true,
+          "source": "source image brand references",
+          "usage": "Preserve the logos and the mall branding on the building."
+        },
+        {
+          "type": "graphic",
+          "name": "route map, numbered stops, and speech-bubble callouts",
+          "required": true,
+          "source": "source image infographic reference",
+          "usage": "Keep the route structure, icon bubbles, and numbered navigation logic."
+        },
+        {
+          "type": "ui_reference",
+          "name": "event booth mockups and posters",
+          "required": true,
+          "source": "source image activation-zone reference",
+          "usage": "Preserve the mini booth layout, football field props, and signage density."
+        },
+        {
+          "type": "text_layout",
+          "name": "FPT football festival headline and offer blocks",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Keep the exact wording, discount block, and supporting activity labels."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the route-map composition and information density.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the light-blue event-map aesthetic with curved road and numbered waypoints."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square be x FPT event infographic poster with a light-blue map background. Place the be and FPT logos at the top left. Add a large blue headline 'ROAD TO ĐẠI TIỆC BÓNG ĐÁ FPT' with the subheadline 'ĐẶT BE ĐẾN TRẢI NGHIỆM FPT TẠI GO!' and a blue block 'GIẢM ĐẾN 50K'. Show a beBike scooter with two mascots and a soccer ball at the upper left, a GO! mall building at the upper right, and a detailed football activation zone with stage, field, booths, and posters in the lower center. Connect them using a wide curved blue road over a grid-map floor with numbered route markers. Add speech-bubble callouts for lucky wheel, photobooth, penalty challenge, free Wi-Fi water charging, and kids coloring. Technical style: isometric promotional infographic with event mockups and map graphics, bright graphic daylight, 8k resolution, highly detailed.",
+    "negative_prompt": "dark map, missing booths, incorrect logos, wrong text, low resolution, cluttered unreadable layout, muddy colors, watermark, signature"
+  }
+}

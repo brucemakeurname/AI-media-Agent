@@ -1,0 +1,58 @@
+{
+  "name": "prompt-687",
+  "tag": [
+    "ugc",
+    "cafe-social",
+    "outdoor-urban",
+    "marais-paris",
+    "pixie-cut",
+    "cappuccino"
+  ],
+  "image_type": "ugc-cafe-street-portrait",
+  "image_vibe": "crisp-cool-morning-documentary",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cafe-social/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic candid iPhone-style cafe terrace image in Paris's Marais district on a crisp spring morning, preserving the street context and thoughtful cappuccino moment.",
+    "main_subject": "One original approved adult woman with a short dark pixie cut, natural skin texture and a thoughtful sideward gaze. She wears a dark coat or jacket with a chunky beige knitted scarf and gently stirs a cappuccino with a small spoon.",
+    "composition_elements": "Use a horizontal 3:2 or 16:9 street-cafe frame. Keep the adult woman in sharp focus at the foreground table, with the cappuccino and newspaper visible. Blur the waiter and passing street traffic behind her while retaining cafe patrons, bicycles, parked cars, classic Parisian facades and supplied storefront typography as atmospheric context.",
+    "lighting_and_atmosphere": "Crisp cool spring-morning daylight under clear skies, natural soft shadows and authentic iPhone exposure. Maintain candid imperfect framing and documentary street texture.",
+    "technical_specs": "35mm-equivalent smartphone perspective, sharp face, scarf, spoon and cappuccino, moderate depth of field with waiter and traffic blurred, natural color, realistic reflections and subtle phone-camera noise.",
+    "generated_prompt_string": "Create a photorealistic candid iPhone-style cafe terrace image in Paris's Marais district on a crisp cool spring morning of one original approved adult woman with a short dark pixie cut, natural skin texture and a thoughtful sideward gaze. She wears a dark coat or jacket with a chunky beige knitted scarf and gently stirs a cappuccino with a small spoon. Keep her in sharp focus at the foreground table with the cappuccino and newspaper visible. Blur the waiter and passing street traffic behind her while retaining cafe patrons, bicycles, parked cars, classic Parisian facades and supplied storefront typography as atmospheric context. Use clear-sky morning daylight, natural soft shadows, imperfect documentary framing, a 35mm-equivalent smartphone perspective and subtle phone-camera noise.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, duplicated patrons, invented logos, altered supplied storefront text, text overlays",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "prompt-687.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, pixie haircut, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "dark coat or jacket and chunky beige scarf",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve outerwear color, scarf knit, spoon interaction and fit; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "Marais cafe terrace, Paris street, patrons, waiter and traffic",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve terrace layout, supplied storefront typography, street geometry, patrons, waiter, bicycles and traffic blur; environment may be replaced with explicit references while retaining the morning documentary feel."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, face, hair, scarf, cappuccino action, focus hierarchy and street environment consistent. The adult, wardrobe and setting may be replaced separately through explicit references. Preserve existing storefront typography only when the source reference is retained; do not add new text or logos."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adult.",
+      "Preserved the Marais cafe, pixie cut, scarf, cappuccino and documentary street concept.",
+      "Added safety and anti-invented-text negative prompts."
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "viettel-ho-do-ta-tv360-live-rewards",
+  "tag": [
+    "viettel",
+    "tv360",
+    "live-rewards",
+    "football-fans",
+    "giveaway"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Competitions",
+  "group": "viettel_2670459026681627",
+  "prompt": {
+    "project_info": {
+      "theme": "Watch on TV360 and claim live match rewards",
+      "color_palette": "White, Viettel red, stadium gray, grass green, gift red, blue-green ribbon"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "Five duplicate football fans wearing horned Viking helmets and red-blue striped jerseys sit in a stadium cheering with fists forward. Large red headline says 'Hò Dô Ta' with black subline 'Bóng vào, quà ra'. A red bottom pill says 'MỞ TV360 SĂN QUÀ NGAY TRONG TRẬN'.",
+      "style": "Photoreal surreal sports advertising composite, fan-clone gimmick, celebratory giveaway mood"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "Hò Dô Ta; Bóng vào, quà ra; viettel telecom; MỞ TV360 SĂN QUÀ NGAY TRONG TRẬN",
+      "items": [
+        "Top Left: Giant red headline with small floating red confetti cubes",
+        "Top Right: Viettel telecom logo in red and black",
+        "Bottom Left: Prize podium display with a television showing football, a game console, a smartphone, and a white jersey labeled 'WORLD CUP 10'",
+        "Bottom Right: Rounded red call-to-action pill 'MỞ TV360 SĂN QUÀ NGAY TRONG TRẬN'",
+        "Center/Background: Five cheering Viking-helmet fans seated on a stadium field edge with wrapped gift boxes floating around them"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright stadium promo lighting",
+      "effect": "Crisp crowd blur, celebratory flare, glossy prize surfaces, energetic contrast"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal sports giveaway advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for a Viettel TV360 live-reward football giveaway. Centerpiece is a surreal row of five duplicate football fans in Viking helmets and red-blue striped jerseys cheering in a stadium. Include the exact text 'Hò Dô Ta', 'Bóng vào, quà ra', and 'MỞ TV360 SĂN QUÀ NGAY TRONG TRẬN'. Background is a crowded football stadium with field grass and soft haze. Surrounding elements: Viettel telecom logo in the top right, floating red gift/confetti blocks, wrapped present box, and a bottom-left prize display with a TV showing football, a game console, a smartphone, and a white jersey labeled 'WORLD CUP 10'. Technical style: photoreal sports giveaway advertising composite, bright stadium promo lighting, celebratory flare and glossy prize surfaces, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel telecom logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Top-right logo"
+        },
+        {
+          "type": "person",
+          "name": "Viking-helmet football fans",
+          "required": true,
+          "source": "recreated from original surreal fan concept",
+          "usage": "Duplicate the same cheering fan archetype across five positions"
+        },
+        {
+          "type": "product",
+          "name": "Prize display set",
+          "required": true,
+          "source": "original giveaway layout",
+          "usage": "Include TV, console, smartphone, and World Cup jersey at bottom left"
+        },
+        {
+          "type": "graphic",
+          "name": "Floating gift blocks and wrapped present",
+          "required": true,
+          "source": "recreated sports giveaway embellishments",
+          "usage": "Support the 'quà ra' message visually"
+        }
+      ],
+      "prompt_instructions": "Keep the surreal repeated-fan concept. This is not a real team photo. The big red headline and bottom CTA must remain dominant, with the stadium and gifts as secondary support."
+    }
+  }
+}

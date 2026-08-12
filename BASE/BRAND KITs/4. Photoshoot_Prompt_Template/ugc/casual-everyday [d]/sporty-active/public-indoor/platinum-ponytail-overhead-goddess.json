@@ -1,0 +1,26 @@
+{
+  "name": "platinum-ponytail-overhead-goddess",
+  "tag": ["ugc", "casual-everyday", "sporty-active", "public-indoor", "platinum-blonde", "high-angle"],
+  "image_type": "high-angle-athletic-portrait",
+  "image_vibe": "minimalist-cozy-polished",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/sporty-active/public-indoor",
+  "prompt": {
+    "project_info": "Create an ultra-photorealistic high-angle athletic lifestyle portrait of an approved adult platinum-blonde woman in a bright minimalist room.",
+    "main_subject": "An approved adult woman with sleek platinum-blonde hair, fair natural skin, light green eyes, defined brows, and a fit athletic build. She kneels on a shaggy beige rug, leans toward the overhead camera, and adjusts a high ponytail with both hands. She wears a black sleeveless ribbed top, matching high-waisted black yoga leggings, white pearl necklace, and small gold hoops.",
+    "composition_elements": "Extreme overhead 4:5 centered framing focused on face and upper body, with beige faux-fur rug, plain off-white wall, and clean uncluttered space.",
+    "lighting_and_atmosphere": "Soft diffused daylight or softbox illumination, even bright light with gentle shadows, confident cozy modern polished mood.",
+    "technical_specs": "Ultra-photorealistic raw fashion-lifestyle photography, 4:5 framing, 24mm f/1.4 wide-angle perspective, high detail, realistic rug fibers, ribbed fabric, hair strands, and skin pores.",
+    "generated_prompt_string": "Create an ultra-photorealistic 4:5 extreme high-angle portrait of an approved adult platinum-blonde woman kneeling on a shaggy beige faux-fur rug in a bright minimalist room. She leans toward the overhead camera and adjusts a high ponytail with both hands. Give her fair natural skin, light green eyes, defined brows, and a fit athletic build. Dress her in a black sleeveless ribbed top and matching high-waisted black yoga leggings with a white pearl necklace and small gold hoops. Use soft diffused daylight or softbox light, even illumination, realistic textures, and a confident cozy polished mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, malformed hair",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-platinum-blonde-subject", "required": true, "source": "platinum-ponytail-overhead-goddess.jpg", "usage": "Preserve adult identity, hair, eyes, expression, and overhead pose."},
+        {"type": "wardrobe", "name": "black-ribbed-athletic-set-pearls", "required": true, "source": "platinum-ponytail-overhead-goddess.jpg", "usage": "Keep black top, leggings, necklace, and earrings consistent; replace only with explicit wardrobe references."},
+        {"type": "location", "name": "beige-rug-minimalist-room", "required": true, "source": "platinum-ponytail-overhead-goddess.jpg", "usage": "Maintain rug, neutral wall, clean room, and soft light; replace only with explicit location references."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the high-angle athletic portrait.", "Added safe negative prompts and structured references."]}
+}

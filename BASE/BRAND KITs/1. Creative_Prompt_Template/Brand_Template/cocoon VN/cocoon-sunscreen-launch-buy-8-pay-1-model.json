@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-sunscreen-launch-buy-8-pay-1-model",
+  "tag": [
+    "launch-offer",
+    "sunscreen",
+    "model",
+    "portrait",
+    "buy-8-pay-1",
+    "special-offer"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "cocoon_2097488467838427",
+  "prompt": {
+    "project_info": {
+      "theme": "Launch-offer portrait for Hau Giang mineral sun fluid",
+      "color_palette": "Soft White, Skin Beige, Pink Accent, Matte Black, Gold"
+    },
+    "main_subject": {
+      "type": "Person/Product",
+      "detail": "A female model portrait holding a Cocoon Hau Giang lotus mineral sun fluid bottle beside her cheek, with large text announcing the launch offer and a pink bar reading 'MUA 8 TÍNH 1'.",
+      "style": "Minimal editorial beauty poster, bright soft studio portrait, clean launch-offer key visual"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'ƯU ĐÃI RA MẮT', 'SỮA CHỐNG NẮNG VÔ CƠ SEN HẬU GIANG', and 'MUA 8 TÍNH 1'.",
+      "items": [
+        "Top Left: Bright white portrait background around the model's forehead and bangs.",
+        "Top Right: Model face in three-quarter close crop with a calm confident expression.",
+        "Bottom Left: Pink label 'ƯU ĐÃI RA MẮT' above a stacked black headline for the product name.",
+        "Bottom Right: Large pink rectangular promo strip reading 'MUA 8 TÍNH 1'.",
+        "Center/Background: The model's hand presenting the sunscreen bottle upright near her face with the label facing forward."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft beauty portrait lighting",
+      "effect": "Clean skin texture, bright catalog clarity, premium minimal beauty mood"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity beauty portrait poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a sunscreen launch offer. Centerpiece is a female model holding a Cocoon Hau Giang lotus mineral sun fluid bottle beside her face on a bright minimal background. Surrounding elements: pink label 'ƯU ĐÃI RA MẮT', stacked headline 'SỮA CHỐNG NẮNG VÔ CƠ SEN HẬU GIANG', and a bold pink bar 'MUA 8 TÍNH 1'. Keep the elegant portrait crop, the bottle label facing the viewer, and the clean beauty-promo aesthetic. Technical style: high fidelity beauty portrait poster, soft beauty portrait lighting, bright catalog clarity and clean skin texture, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed face, extra fingers, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Female model portrait",
+          "required": true,
+          "source": "Attach a crop of the model from the original image",
+          "usage": "Preserve facial identity, bangs hairstyle, pose, and expression."
+        },
+        {
+          "type": "product",
+          "name": "Hau Giang lotus mineral sun fluid bottle",
+          "required": true,
+          "source": "Attach the official packshot or crop from the original poster",
+          "usage": "Keep the bottle shape, gold logo, SPF block, and tone-up beige badge."
+        },
+        {
+          "type": "text_layout",
+          "name": "Launch-offer headline and pink promo bar",
+          "required": true,
+          "source": "Use the original poster as layout reference",
+          "usage": "Maintain the black headline stack and the 'MUA 8 TÍNH 1' strip at the bottom."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, attach both the model portrait and the product bottle reference. The image should remain a clean portrait-led offer poster with the exact wording and same lower text hierarchy."
+    }
+  }
+}

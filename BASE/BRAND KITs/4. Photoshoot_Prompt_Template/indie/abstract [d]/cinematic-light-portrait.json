@@ -1,0 +1,72 @@
+{
+  "name": "cinematic-light-portrait",
+  "tag": [
+    "adult-woman",
+    "window-shadow",
+    "cinematic",
+    "closeup",
+    "film",
+    "natural-skin"
+  ],
+  "image_type": "cinematic-closeup-portrait",
+  "image_vibe": "quiet-warm-melancholic",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "source_url": "https://x.com/TzqQaiser/status/2020288622113792111",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed named public figures and converted the multi-reference source into a single original adult portrait concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "sunlit window-shadow cinematic portrait",
+      "color_palette": "warm gold, faded olive gray, natural skin, soft charcoal",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An original adult woman with pale blue-gray eyes, natural freckles, loose blonde hair in a soft updo, and bare shoulders framed above the collarbone.",
+      "style": "intimate cinematic portrait with unretouched natural texture"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "centered close portrait",
+        "rectangular window-frame shadows crossing forehead and face",
+        "shabby plaster wall in soft focus",
+        "subtle black film border"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "direct late-afternoon window sun at approximately 4300K",
+      "effect": "high-contrast geometric shadows with warm vintage highlights and gentle falloff"
+    },
+    "technical_specs": {
+      "render_style": "85mm cinematic portrait, f/2.0, Kodak Portra-inspired warm grain, visible pores and freckles",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Cinematic portraiture of an original adult woman looking calmly into the camera, with a quiet thoughtful expression. Sunlight passes through a metal-framed window to cast rectangular shadows across her face and shoulders. Keep natural skin texture, subtle freckles, and visible pores; use soft warm golden color, a slightly worn plaster background, and a gentle vintage film character. Frame as a close portrait with understated melancholy and minimalist gravity.",
+    "negative_prompt": "celebrity likeness, explicit, nsfw, overly revealing, minor, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-portrait-subject-reference",
+          "required": false,
+          "source": "Attach an adult person reference if likeness continuity is required.",
+          "usage": "Preserve face geometry, freckles, hairstyle, and calm expression."
+        },
+        {
+          "type": "location",
+          "name": "window-shadow-wall-reference",
+          "required": false,
+          "source": "Attach a window/light reference for exact shadow geometry.",
+          "usage": "Keep rectangular sun-shadow pattern and worn-wall texture."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve an original adult subject, natural skin, window-shadow geometry, and warm film treatment. Do not use celebrity likenesses."
+    }
+  }
+}

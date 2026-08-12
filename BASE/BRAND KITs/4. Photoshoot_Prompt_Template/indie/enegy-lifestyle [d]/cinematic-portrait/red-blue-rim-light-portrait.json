@@ -1,0 +1,63 @@
+{
+  "name": "red-blue-rim-light-portrait",
+  "tag": [
+    "adult-man",
+    "studio-portrait",
+    "red-blue-rim-light",
+    "sunglasses",
+    "professional"
+  ],
+  "image_type": "cinematic-studio-portrait",
+  "image_vibe": "confident-dramatic-professional",
+  "image_purpose": "profile-visual",
+  "group": "indie/enegy-lifestyle/cinematic-portrait",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-man wording to an adult man and structured the prompt in the required JSON schema."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "dramatic adult studio portrait with red and blue rim lighting",
+      "color_palette": "ink black, deep navy, electric blue, saturated red, and warm skin tones",
+      "format": "vertical 3:4"
+    },
+    "main_subject": {
+      "type": "adult man",
+      "detail": "Adult man with neatly styled dark hair, a short beard, black sunglasses, and a calm soft smile. He wears a black-dark-blue button-up shirt and stands with arms crossed beside a dark textured pillar.",
+      "style": "cinematic professional portrait with natural skin texture"
+    },
+    "composition_elements": {
+      "text": "No rendered text, logo, or watermark.",
+      "items": [
+        "chest-up portrait with arms crossed and shoulders square to camera",
+        "dark textured pillar rising along camera right",
+        "near-black studio background with restrained negative space",
+        "sunglasses with subtle controlled reflections"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "blue rim light from camera left and red rim light from camera right, with a soft neutral key",
+      "effect": "clean color separation around hair and shirt edges, controlled shadow depth, and a polished dramatic mood"
+    },
+    "technical_specs": {
+      "render_style": "Sony A7R V with FE 85mm f/1.4 at f/2.8, crisp fabric texture, natural skin detail, restrained contrast, no digital gloss",
+      "resolution": "high resolution, vertical 3:4"
+    },
+    "generated_prompt_string": "Create a vertical 3:4 cinematic studio portrait of an adult man with neatly styled dark hair, a short beard, black sunglasses, and a calm soft smile. He wears a black-dark-blue button-up shirt and stands with arms crossed beside a dark textured pillar. Use a near-black background with restrained negative space. Light him with a blue rim from camera left, a red rim from camera right, and a soft neutral key to create controlled color separation around his hair and shirt. Shoot on a Sony A7R V with an 85mm lens at f/2.8, preserving natural skin texture, crisp fabric detail, and a polished professional mood. No text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted sunglasses, extra fingers, deformed, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity continuity is required.",
+          "usage": "Replace only the adult identity while retaining crossed arms, dark shirt, sunglasses, dark pillar, and red-blue rim-light setup."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. Preserve the crossed-arm pose, dark pillar, dark shirt, sunglasses, and red-blue rim-light treatment."
+    }
+  }
+}

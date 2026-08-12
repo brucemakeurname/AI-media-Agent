@@ -1,0 +1,68 @@
+{
+    "name":  "mac-red-lipstick-campaign-grid",
+    "tag":  [
+                "beauty",
+                "product demo",
+                "campaign grid",
+                "red lipstick",
+                "luxury editorial",
+                "social grid"
+            ],
+    "biz_niche":  "Beauty & Personal Care",
+    "content_format":  "Product demos",
+    "group":  "product_multi-concept-grid",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Nine-concept luxury lipstick campaign",
+                                        "color_palette":  "Lipstick red, black, silver, white, crimson, neutral gray"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A consistent MAC red lipstick in black and brushed-silver packaging, depicted across a 3 by 3 grid of nine high-end commercial scenes.",
+                                        "style":  "Editorial luxury cosmetics photography, glossy hyperreal product consistency"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Grid/Props/Material studies",
+                                                "text":  "MAC",
+                                                "items":  [
+                                                              "Top row: hero lipstick on a red pedestal; macro bullet close-up; tilted lipstick through glossy red liquid.",
+                                                              "Middle row: lipstick framed by silver and red sculptural forms; floating lipstick with petals and water droplets; upright lipstick on red velvet.",
+                                                              "Bottom row: lipstick against saturated red geometry; lipstick surrounded by crushed pigment and creamy swatches; lipstick emerging from red crystal forms over reflective liquid.",
+                                                              "All cells: clean separation between product and background, with consistent black-and-silver packaging and red bullet."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft controlled studio lighting",
+                                                   "effect":  "High dynamic range, tight highlights on silver metal, realistic shadows, ultra-sharp hero focus"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Hyperreal luxury commercial product photography",
+                                           "resolution":  "3:4 vertical campaign grid, highly detailed"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "MAC red lipstick packaging",
+                                                                 "required":  true,
+                                                                 "source":  "attach exact product packshot",
+                                                                 "usage":  "Keep the tube, bullet shape, logo, silver collar, black base, and red shade consistent in all nine cells."
+                                                             },
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "MAC logo",
+                                                                 "required":  true,
+                                                                 "source":  "official MAC asset or product reference",
+                                                                 "usage":  "Render accurate logo placement on the silver collar."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach the exact lipstick reference for every grid render.",
+                                                                          "Generate a single 3 by 3 image, not nine unrelated outputs.",
+                                                                          "Never redesign the packaging, shade, label, or typography between cells."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Create a 3×3 grid in 3:4 aspect ratio for a high-end commercial marketing campaign using the uploaded product as the central subject. Each frame must present a distinct visual concept while maintaining perfect product consistency across all nine images. Grid Concepts (one per cell): 1. Iconic hero still life with bold composition 2. Extreme macro detail highlighting material, surface, or texture 3. Dynamic liquid or particle interaction surrounding the product 4. Minimal sculptural arrangement with abstract forms 5. Floating elements composition suggesting lightness and innovation 6. Sensory close-up emphasizing tactility and realism 7. Color-driven conceptual scene inspired by the product palette 8. Ingredient or component abstraction (non-literal, symbolic) 9. Surreal yet elegant fusion scene combining realism and imagination Visual Rules: Product must remain 100% accurate in shape, proportions, label, typography, color, and branding No distortion, deformation, or redesign of the product Clean separation between product and background Lighting \u0026 Style: Soft, controlled studio lighting Subtle highlights, realistic shadows High dynamic range, ultra-sharp focus Editorial luxury advertising aesthetic Premium sensory marketing look Overall Feel: Modern, refined, visually cohesive High-end commercial campaign Designed for brand websites, social grids, and digital billboards Hyperreal, cinematic, polished, and aspirational",
+                   "negative_prompt":  "inconsistent packaging, distorted lipstick bullet, wrong MAC logo, mismatched product proportions, duplicated grid cells, low detail, muddy colors, text artifacts, watermark"
+               }
+}

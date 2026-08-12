@@ -1,0 +1,19 @@
+{
+  "name": "minimal-haute-couture-aesthetics",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "minimal", "architectural-fashion"],
+  "image_type": "architectural haute couture portrait",
+  "image_vibe": "severe, modern, sculptural, cinematic",
+  "image_purpose": "fashion campaign and editorial lookbook",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic architectural high-fashion portrait of one original approved adult woman in a raw concrete interior.",
+    "main_subject": "Original approved adult woman with a sleek dark bob, composed expression, natural skin texture, black tailored blazer and supplied black structured fashion bodysuit. Preserve the feminine silhouette, geometric tailoring and confident posture shown in the reference.",
+    "composition_elements": ["Subject stands behind or leans against a rectangular raw-concrete block with hands resting on its top edge.", "Brutalist concrete walls, ceiling planes and a sharp skylight beam create geometric framing and strong negative space.", "Preserve the black-on-gray palette, short bob, concrete texture and architectural hierarchy."],
+    "lighting_and_atmosphere": "Directional daylight from the skylight with hard geometric shadow edges, controlled bounce fill, and cinematic neutral contrast.",
+    "technical_specs": "Photorealistic 1:1 portrait, Hasselblad H6D-100c with 80mm lens at f/5.6, sharp textile and concrete detail, visible pores, subtle grain, restrained gray grade, no text or watermark.",
+    "generated_prompt_string": "Photorealistic architectural high-fashion portrait of one original approved adult woman with a sleek dark bob and composed expression, wearing a black tailored blazer over a supplied black structured fashion bodysuit. She stands behind or leans against a rectangular raw-concrete block with her hands resting on its top edge. Use brutalist concrete walls and ceiling planes, a sharp skylight beam, geometric shadows, strong negative space, directional daylight, Hasselblad H6D-100c, 80mm lens at f/5.6, square composition, realistic skin and material detail, no text or watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "extra fingers", "deformed", "text", "logo"],
+    "reference_elements": {"assets": [{"type": "person", "name": "minimal-haute-couture-aesthetics.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult face, bob hairstyle, expression, outfit and pose."}, {"type": "wardrobe", "name": "black tailored blazer and structured black fashion bodysuit", "required": true, "source": "local reference image", "usage": "Preserve supplied tailoring, silhouette, black palette and texture."}, {"type": "location", "name": "raw concrete brutalist interior with skylight", "required": true, "source": "local reference image", "usage": "Preserve concrete block, planes, skylight, shadows and architectural space."}], "prompt_instructions": "Attach all required person, wardrobe and location references; no optional assets are needed. Keep approved-adult identity, outfit, pose, environment, lighting and typography consistent. Replace only with an equivalent approved adult, wardrobe or architectural studio. Typography is not applicable; do not add text, logos or watermark."}
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

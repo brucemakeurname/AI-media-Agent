@@ -1,0 +1,22 @@
+{
+  "name": "dark-mafia-luxury-male-portrait",
+  "tag": ["industry", "lookbook-line-sheet", "menswear", "luxury", "portrait"],
+  "image_type": "editorial menswear portrait",
+  "image_vibe": "dark luxury, cinematic, confident, burgundy",
+  "image_purpose": "menswear lookbook and luxury fashion editorial",
+  "group": "industry/lookbook-line-sheet/menswear",
+  "prompt": {
+    "project_info": "Create an ultra-realistic high-fashion studio portrait using the approved adult male reference as the only identity source. Preserve the face, facial structure, and likeness consistently.",
+    "main_subject": "Confident adult male model with olive skin, lean athletic build, sharp oval face, deep-set almond eyes, thick natural brows, straight nose, slightly parted lips, light stubble beard and moustache, and jet-black hair slicked back with natural volume. He wears a tailored charcoal-grey three-piece pinstripe suit, white spread-collar shirt, deep burgundy tie with gold tie bar, white pocket square, luxury metal watch, and silver index-finger ring; subtle neck and finger tattoos remain part of the styling.",
+    "composition_elements": ["Waist-up, centered, eye-level portrait.", "Left hand in trouser pocket; right hand raised near the lips holding a toothpick.", "Relaxed, assured fashion posture.", "Deep burgundy gradient background with smooth matte texture."],
+    "lighting_and_atmosphere": "Professional cinematic studio lighting with a soft frontal key, subtle fill, gentle rim light, warm cinematic color grading, and shallow depth of field.",
+    "technical_specs": "85mm portrait-lens look, ultra-sharp facial focus, 2:3 aspect ratio, raw photorealistic style, high detail, premium studio finish, 8K look, realistic skin and tailoring texture.",
+    "generated_prompt_string": "Create an ultra-realistic high-fashion studio portrait of a confident adult male model aged 25–30 using the uploaded approved-adult reference image as the only identity source, preserving the face with no alteration. Olive skin, lean athletic build, waist-up centered eye-level framing, 85mm portrait lens look, sharp oval face, deep-set almond eyes with a tired confident gaze, thick natural brows, straight nose, slightly parted lips, light stubble beard and moustache, jet-black hair slicked back with natural volume. Tailored charcoal-grey three-piece pinstripe suit, white spread-collar shirt, deep burgundy tie with gold tie bar, white pocket square, luxury metal watch, silver ring on index finger, left hand in trouser pocket and right hand near lips holding a toothpick. Professional cinematic studio lighting with soft frontal key, subtle fill and gentle rim light, deep burgundy matte gradient background, warm cinematic color grading, shallow depth of field, ultra-sharp face, luxury fashion editorial, modern mafia-inspired aesthetic, 8K photorealistic quality, 2:3 aspect ratio, raw style, high detail, premium studio finish.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "distorted anatomy", "extra fingers", "inconsistent identity", "plastic skin", "over-smooth", "over-saturated", "HDR look", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "dark-mafia-luxury-male-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach as the required adult identity and facial-structure reference."}],
+      "prompt_instructions": "Attach the required approved-adult face reference. Preserve face, facial structure, likeness, hairstyle, outfit, tattoos, burgundy environment, and lighting direction. The subject must remain an original adult model, not a celebrity or public figure. Replace the reference only with another approved-adult identity image when intentionally changing the model; keep the wardrobe and environment consistent."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "luxury-ice-snow-fashion",
+  "tag": "ugc lifestyle-moment luxury-glamour outdoor-nature",
+  "image_type": "alpine winter fashion editorial",
+  "image_vibe": "cool, minimal, premium, cinematic snow retreat",
+  "image_purpose": "show a high-fashion winter outfit in a snowy alpine setting",
+  "group": "ugc",
+  "prompt": {
+    "project_info": "alpine winter fashion editorial.",
+    "main_subject": "One generic approved adult woman seated comfortably on a sculpted ice block, wearing a black oversized puffer jacket, white wide-leg snow pants, white winter boots with red laces, plush white fur hat, and gloves. Keep a relaxed powerful editorial posture.",
+    "composition_elements": "Centered full-body portrait in a vast snowy alpine landscape, distant mountains, rolling snowdrifts, overcast sky, and a small warm chalet area. Remove any readable text from blanket or props.",
+    "lighting_and_atmosphere": "Soft diffused natural light under an overcast winter sky, cool blue-white palette, realistic snow, ice, fabric, and firelight detail.",
+    "technical_specs": "Photorealistic premium fashion editorial, 85mm lens look, shallow natural depth of field, sharp subject, clean minimal composition.",
+    "generated_prompt_string": "Photorealistic high-fashion winter editorial of one generic approved adult woman seated on a sculpted ice block in a snowy alpine landscape, black oversized puffer jacket, white wide-leg snow pants, white winter boots with red laces, plush white fur hat and gloves, distant snow-covered mountains, soft overcast light, cool blue-white palette, realistic ice and fabric texture, no readable text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, transparent clothing, sexualized posing, fetish styling, celebrity likeness, public figure likeness, readable text, watermark, logo artifacts, distorted anatomy, extra limbs, malformed hands, plastic skin, CGI, illustration",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "luxury-ice-snow-fashion-reference", "required": true, "source": "attached reference image", "usage": "Match the subject, wardrobe, environment, composition, lighting, and approved props. Replaceable with another approved reference for the same concept."}],
+      "prompt_instructions": "Attach the required reference image. Preserve generic approved adult identity cues, wardrobe, pose, environment, props, lighting, and creative story. Optional replacement references may change colors, hair, scenery, or safe props while retaining the concept. Keep products and logos replaceable or neutral; remove personal-name signage and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed sexualized or impossible-body wording and removed readable personal-name signage/text while preserving the fashion concept."]}
+}

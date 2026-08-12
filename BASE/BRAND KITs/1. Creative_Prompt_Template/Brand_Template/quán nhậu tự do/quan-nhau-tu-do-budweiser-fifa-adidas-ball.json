@@ -1,0 +1,70 @@
+{
+  "name": "quan-nhau-tu-do-budweiser-fifa-adidas-ball",
+  "tag": [
+    "brand-collab",
+    "world-cup",
+    "product-poster",
+    "budweiser"
+  ],
+  "biz_niche": "Sports & Fitness",
+  "content_format": "Special offers",
+  "group": "quan-nhau-tu-do_1625336259594069",
+  "prompt": {
+    "project_info": {
+      "theme": "Budweiser x Quán Nhậu Tự Do FIFA World Cup product poster",
+      "color_palette": "Solid red, white, black, multicolor football accents"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Minimal brand-collab poster on a solid red background featuring an Adidas FIFA World Cup football and its black display box, with Budweiser and Quán Nhậu Tự Do co-branding at the top.",
+      "style": "Clean premium product advertising, studio poster, minimal commercial packshot"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "BUDWEISER x QUÁN NHẬU TỰ DO / BIA CHÍNH THỨC CỦA FIFA WORLD CUP 2026™ / BÓNG ADIDAS / FIFA WORLD CUP / NGƯỜI DƯỚI 18 TUỔI KHÔNG ĐƯỢC UỐNG RƯỢU, BIA / BIA BUDWEISER 5,0% ĐỘ CỒN",
+      "items": [
+        "Top Left: FIFA trophy icon and Budweiser wordmark next to Quán Nhậu Tự Do logo on a red background.",
+        "Top Right: Clean empty red negative space.",
+        "Bottom Left: Large white product title 'BÓNG ADIDAS' over smaller line 'FIFA WORLD CUP'.",
+        "Bottom Right: Small alcohol responsibility disclaimer and 18+ icons.",
+        "Center/Background: Adidas FIFA World Cup football positioned in front of a black branded presentation box."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Studio lighting",
+      "effect": "Soft shadow under products, glossy object highlights, clean premium packshot contrast"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product advertising photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Budweiser x Quán Nhậu Tự Do FIFA World Cup product poster. Centerpiece is an Adidas FIFA World Cup football placed in front of a black branded box on a solid red studio background. Background is minimal and clean with strong brand color. Surrounding elements: top co-branding row with FIFA icon, Budweiser wordmark, and Quán Nhậu Tự Do logo; centered white title 'BÓNG ADIDAS' and 'FIFA WORLD CUP'; and bottom-right alcohol disclaimer with 18+ icons. Technical style: photorealistic product advertising photography, studio lighting, soft shadow and glossy packshot highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Budweiser, Quán Nhậu Tự Do, and FIFA logos",
+          "required": true,
+          "source": "official brand assets or original poster",
+          "usage": "Preserve exact co-branding order, scale, and white logo treatment."
+        },
+        {
+          "type": "product",
+          "name": "Adidas FIFA World Cup football and black presentation box",
+          "required": true,
+          "source": "official product packshots",
+          "usage": "Match the exact ball graphics, logo placement, and box design."
+        },
+        {
+          "type": "text_layout",
+          "name": "product title and disclaimer layout",
+          "required": true,
+          "source": "original creative",
+          "usage": "Keep the centered title lockup and bottom-right responsibility note."
+        }
+      ],
+      "prompt_instructions": "Use refs for the exact football model, the Adidas box, and the co-branding logos. Maintain the minimal red studio layout and avoid adding extra props or environmental context."
+    }
+  }
+}

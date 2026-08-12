@@ -1,0 +1,70 @@
+{
+  "name": "toyota-vios-peace-of-mind-passing-keys",
+  "tag": [
+    "vios",
+    "ownership-transfer",
+    "finance-offer",
+    "family"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Brand story",
+  "group": "toyota_2525114151663682",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Vios passed down with peace of mind and easy ownership",
+      "color_palette": "Sky blue, white, warm gold, gray, leafy green"
+    },
+    "main_subject": {
+      "type": "Person/Object/Text",
+      "detail": "A bright outdoor sales-and-family poster with Toyota logo top left and large gold text 'AN TAM TRUYEN DOI TOYOTA VIOS'. Two men stand in front of a modern house and city skyline; the older man passes a car key to the younger man. A white Toyota Vios sedan is parked on the right in a front three-quarter view. Across the bottom are gold finance plates reading 'HO TRO TUONG DUONG 50% LE PHI TRUOC BA', 'LAI SUAT UU DAI CHI TU 7.49%/NAM', and 'TRA TRUOC 0 DONG'. Bottom-right script says 'Move your world'. Small top-right note says the AI-generated details are for illustration only.",
+      "style": "Warm ownership-transfer automotive poster blending family trust, city-home lifestyle, and dealership-finance messaging"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / AN TAM TRUYEN DOI / TOYOTA VIOS / HO TRO TUONG DUONG 50% LE PHI TRUOC BA / LAI SUAT UU DAI CHI TU 7.49%/NAM / TRA TRUOC 0 DONG / Move your world",
+      "items": [
+        "Top Left: Toyota logo and gold campaign title over a blue sky",
+        "Top Right: Small AI-illustration disclaimer and tree canopy near the house facade",
+        "Bottom Left: Two men exchanging a key in front of the skyline and the first two finance-offer plates",
+        "Bottom Right: White Toyota Vios, the 'TRA TRUOC 0 DONG' plate, and handwritten 'Move your world'",
+        "Center/Background: A city-home courtyard scene combining a modern house, skyline, and a symbolic handover of the car key"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright lifestyle-commercial lighting",
+      "effect": "Sunny urban daylight, soft premium highlights on the car, clean emotional sales atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal automotive lifestyle sales composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Vios ownership-transfer campaign. Centerpiece is a symbolic key handover between an older and younger man beside a white Toyota Vios parked in a modern courtyard. Background is a bright city-home environment with skyline towers and a contemporary house facade. Surrounding elements: Toyota logo, exact title 'AN TAM TRUYEN DOI TOYOTA VIOS', finance plates 'HO TRO TUONG DUONG 50% LE PHI TRUOC BA', 'LAI SUAT UU DAI CHI TU 7.49%/NAM', and 'TRA TRUOC 0 DONG', plus the footer script 'Move your world'. Technical style: photoreal automotive lifestyle sales composite, bright lifestyle-commercial lighting, sunny premium atmosphere and clean highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Two men key-handover reference",
+          "required": true,
+          "source": "source photo or this creative",
+          "usage": "Preserve the age contrast, smiling expressions, and exact key-transfer gesture"
+        },
+        {
+          "type": "product",
+          "name": "Toyota Vios exterior reference",
+          "required": true,
+          "source": "official Toyota Vios render",
+          "usage": "Keep the sedan angle, grille, and wheel details accurate"
+        },
+        {
+          "type": "text_layout",
+          "name": "Vios ownership-transfer offer layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the title hierarchy, bottom finance plates, and person-car composition"
+        }
+      ],
+      "prompt_instructions": "Preserve all finance numbers exactly: '50%', '7.49%/NAM', and '0 DONG'. Keep the emotional cue of passing the key from one generation to another."
+    }
+  }
+}

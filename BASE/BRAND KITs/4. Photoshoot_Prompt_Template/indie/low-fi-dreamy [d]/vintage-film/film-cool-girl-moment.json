@@ -1,0 +1,33 @@
+{
+  "name": "film-cool-girl-moment",
+  "tag": ["indie", "low-fi-dreamy", "vintage-film", "record-store", "candid"],
+  "image_type": "lifestyle portrait",
+  "image_vibe": "Raw 90s point-and-shoot, Kodak Gold 200 warmth, indie sleaze, effortlessly cool",
+  "image_purpose": "Create a candid record-store discovery moment with authentic compact-camera energy.",
+  "group": "vintage-film",
+  "prompt": {
+    "project_info": "A candid vintage-film lifestyle portrait set in a cramped record store.",
+    "main_subject": "An original adult woman crouching beside record crates, excitedly holding a vinyl record toward the camera. She wears a fully opaque white camisole, an opaque charcoal mini skirt with secure coverage, black lace socks, and black loafers. A mustard-yellow bag rests beside her.",
+    "composition_elements": "Medium shot from slightly above, subject roughly centered but framed as a casual imperfect snapshot. Include stacked vinyl crates, band posters, cluttered shelves, and the mustard-yellow bag.",
+    "lighting_and_atmosphere": "Direct frontal on-camera flash with hard shadows on the wall, cool flash highlights on skin, warm surrounding tones, raw authentic 90s point-and-shoot mood.",
+    "technical_specs": "35mm compact-camera perspective, Kodak Gold 200 film simulation, warm amber tones, deep rich blacks, visible grain, candid messy framing.",
+    "generated_prompt_string": "Create a medium candid 35mm compact-camera portrait of an original adult woman crouching in a cramped vintage record store, holding up a vinyl record she just found. Frame from slightly above with imperfect casual snapshot composition. She wears a fully opaque white camisole, an opaque charcoal mini skirt with secure coverage, black lace socks, and black loafers; place a mustard-yellow bag beside her. Use direct frontal on-camera flash, hard wall shadows, Kodak Gold 200 warmth, cool flash highlights, deep blacks, visible grain, and an indie-sleaze 90s point-and-shoot mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor or teen-coded subject, exposed underwear, transparent clothing, nudity, soft studio lighting, bokeh, airbrushed skin, over-processed image, distorted anatomy, watermark, text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image_reference",
+          "name": "source record-store reference",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202601/1769871530350-syawkkum-1.jpeg",
+          "usage": "Use only for record-store composition, flash treatment, wardrobe palette, and film mood; do not copy identity."
+        }
+      ],
+      "prompt_instructions": "Preserve the excited vinyl-discovery concept, candid framing, Kodak Gold palette, and direct-flash aesthetic. Keep the subject clearly adult and all clothing opaque with secure coverage."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified an original adult subject.", "Added secure opaque coverage for the camisole and mini skirt and safety exclusions."]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "silver-sequin-red-carpet-bts",
+  "tag": ["ugc", "selfie-pov", "modern-luxury", "outdoor-urban", "four-panel", "silver-sequin", "red-carpet-bts"],
+  "image_type": "four-panel red-carpet fashion collage",
+  "image_vibe": "soft glamour, shimmer, playful, candid, editorial",
+  "image_purpose": "social-media carousel and red-carpet moodboard",
+  "group": "selfie-pov/modern-luxury/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic four-panel fashion collage showing one original adult woman preparing for a high-fashion event, with soft glamour, shimmering silver fabric, candid behind-the-scenes energy and cinematic editorial polish.",
+    "main_subject": "One original adult woman with chestnut-brown hair and honey-blonde balayage highlights, neutral pink lipstick, defined eyelashes and a consistent original identity across all panels. She wears a tulle-base dress with heavy silver and iridescent sequin embroidery in organic feather or leaf-like swirling motifs, white-gold or platinum jewelry with a multi-layered coiled bracelet, and a refined red-carpet styling. Do not reproduce Ana de Armas or any other public figure.",
+    "composition_elements": "Arrange four equal panels. Top-left: close-up mirror selfie with direct camera engagement, clear sequin texture, neutral pink lipstick and defined lashes, white iPhone with MagSafe case. Top-right: behind-the-scenes side profile while a makeup artist applies lipstick, photographer visible in background and natural window light. Bottom-left: medium over-the-shoulder smile with playful candid mood, showing the dress's deep cowl-back design and delicate crossover straps. Bottom-right: full-length side view on an outdoor balcony overlooking a city with palm trees and buildings during golden hour. Keep identity, dress, hair and jewelry consistent across panels.",
+    "lighting_and_atmosphere": "Use natural window light for the makeup touch-up panel, soft flattering mirror light for the selfie, balanced editorial light for the medium shot and warm golden-hour light for the balcony. Preserve silver and lavender-mist dominant colors with saddle-brown and light-pink accents, realistic sequin sparkle and candid red-carpet preparation atmosphere.",
+    "technical_specs": "Photorealistic four-panel collage, consistent adult identity and wardrobe, realistic tulle, sequins, jewelry, hair, skin, phone and city texture, clean panel alignment, high-fashion editorial finish, no text, logo or watermark.",
+    "generated_prompt_string": "Photorealistic four-panel red-carpet fashion collage of one original adult woman with chestnut-brown hair and honey-blonde balayage, neutral pink lipstick and defined lashes, wearing a tulle-base dress covered in silver and iridescent sequin feather/leaf motifs with white-gold or platinum coiled bracelet. Top-left close-up mirror selfie with white iPhone and clear sequin detail; top-right BTS side profile while lipstick is applied with photographer behind and natural window light; bottom-left medium over-shoulder playful smile showing deep cowl back and delicate crossover straps; bottom-right full-length balcony side view overlooking palm trees and city buildings at golden hour. Silver and lavender palette with brown and pink accents, soft glamour shimmer, candid editorial mood, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Ana de Armas likeness, inconsistent identity, inconsistent dress, distorted anatomy, extra fingers, malformed hands, broken collage alignment, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, random text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "silver-sequin-red-carpet-bts.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the four panels, silver sequin dress, hair, jewelry, phone, makeup BTS, balcony, city, palm trees, lighting and editorial mood; replace named identity with one original adult."
+        },
+        {
+          "type": "image_asset",
+          "name": "1774993332151-imp4j76f-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1774993332151-imp4j76f-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written four-panel prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required and image asset is optional; it is not inspected. Keep one adult identity, dress, jewelry, panel order, locations and lighting consistent. Replace celebrity identity only and do not add logos or text."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Ana de Armas with one original adult identity across the four panels.",
+      "Preserved the dress, jewelry, poses, locations, lighting and soft-glamour editorial direction.",
+      "Added required safety and artifact exclusions."
+    ]
+  }
+}

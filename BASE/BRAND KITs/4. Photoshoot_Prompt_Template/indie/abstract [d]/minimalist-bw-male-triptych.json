@@ -1,0 +1,72 @@
+{
+  "name": "minimalist-bw-male-triptych",
+  "tag": [
+    "adult-man",
+    "triptych",
+    "black-and-white",
+    "fashion-editorial",
+    "white-tshirt",
+    "gold-necklace"
+  ],
+  "image_type": "fashion-editorial-triptych",
+  "image_vibe": "minimalist-refined-monochrome",
+  "image_purpose": "lookbook",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the model is an adult while preserving the authorized-reference continuity instruction."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "minimalist monochrome men's fashion editorial in three stacked frames",
+      "color_palette": "black, white, neutral gray, muted gold",
+      "format": "vertical triptych 2:3"
+    },
+    "main_subject": {
+      "type": "adult man",
+      "detail": "An adult man with wavy short dark hair, light natural stubble, a white T-shirt, and a slim gold necklace.",
+      "style": "clean monochrome commercial fashion portrait with visible skin texture"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "three equal stacked portrait panels",
+        "top: downward reflective gaze and hand near necklace",
+        "middle: crisp left-facing side profile",
+        "bottom: frontal portrait with direct eye contact",
+        "seamless white studio background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "large diffused softbox at approximately 5000K with subtle negative fill",
+      "effect": "clean high-key monochrome, controlled facial contour, quiet elegance"
+    },
+    "technical_specs": {
+      "render_style": "full-frame mirrorless camera, 85mm lens at f/2, monochrome conversion, natural pores, fine film grain",
+      "resolution": "high resolution vertical triptych, 2:3"
+    },
+    "generated_prompt_string": "Preserve the face, proportions, and external features of the attached adult model reference when one is provided. A minimalist monochrome fashion editorial triptych featuring three stacked cinematic frames. The subject is an adult man with short dark hair, light natural stubble, a white T-shirt, and a slim gold necklace. Frame 1: emotional and introspective, looking downward with a hand near the necklace, highlighting bone structure with soft Rembrandt lighting. Frame 2: a crisp profile shot, gaze directed slightly upward. Frame 3: a frontal, thoughtful portrait with relaxed shoulders and direct eye contact. The composition is clean and modern, with visual continuity across a seamless white background. Commercial magazine quality, high-end mirrorless camera, authentic skin pores, soft bokeh, and elegant understated masculinity.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, mismatched panel identity",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-male-model-reference",
+          "required": false,
+          "source": "Attach an authorized adult model reference when likeness continuity is required.",
+          "usage": "Preserve adult identity and proportions across the triptych; otherwise use a generic adult man."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white-tshirt-and-gold-necklace-reference",
+          "required": false,
+          "source": "Attach a wardrobe reference when exact shirt or necklace details are required.",
+          "usage": "Keep white T-shirt and slim gold necklace consistent; both can be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. An attached person reference must depict an authorized adult and remain consistent across all panels. Preserve the three poses, stacked layout, monochrome treatment, and white T-shirt with gold necklace."
+    }
+  }
+}

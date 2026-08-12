@@ -1,0 +1,27 @@
+{
+  "name": "locker-room-shush-blonde",
+  "tag": ["ugc", "casual-everyday", "sporty-active", "private-indoor", "locker-room", "shush-gesture"],
+  "image_type": "locker-room-athleisure-portrait",
+  "image_vibe": "confident-editorial-fitness",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/sporty-active/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic vertical locker-room portrait of an approved adult woman making a quiet gesture beside a tiled stall wall.",
+    "main_subject": "An approved adult woman with dirty-blonde/light-brown hair in a high ponytail, cream fabric headband, fair warm skin, dramatic winged eyeliner, small gold hoops, and a white wireless earbud. She turns her back and head toward camera, holds one index finger vertically to her lips, and places the other palm on the wall. She wears a sage-green ribbed sports bra and dark forest-green high-waisted athletic shorts.",
+    "composition_elements": "9:16 eye-level portrait from behind, subject framed between a dark stall partition and beige tiled wall with brown accent stripe. Preserve the partial sign at left and silver stall hardware as environmental details.",
+    "lighting_and_atmosphere": "Overhead fluorescent indoor light with soft highlights and shadows, clean realistic tile and fabric texture, composed fitness-editorial mood.",
+    "technical_specs": "Photorealistic high detail, 9:16 vertical framing, eye-level perspective, sharp face and hands, natural skin texture, realistic hair flyaways and tile reflections.",
+    "generated_prompt_string": "Create a photorealistic 9:16 locker-room portrait of an approved adult woman with dirty-blonde/light-brown hair in a high ponytail and a cream fabric headband. She turns her back and head toward the camera, makes a quiet gesture with one index finger vertically against her lips, and rests her other palm on a tiled wall. Give her fair warm skin, dramatic winged eyeliner, small gold hoops, a white wireless earbud, and natural hair flyaways. Dress her in a sage-green ribbed sports bra and dark forest-green high-waisted athletic shorts. Frame her at eye level between a dark stall partition and beige ceramic tiles with a brown horizontal accent stripe; preserve the partial sign and silver stall hardware when references are attached. Use overhead fluorescent light, realistic textures, and a composed fitness-editorial mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, altered sign text",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-locker-room-subject", "required": true, "source": "locker-room-shush-blonde.jpg", "usage": "Preserve adult identity, hair, headband, expression, hand gesture, and pose."},
+        {"type": "wardrobe", "name": "sage-green-fitness-set", "required": true, "source": "locker-room-shush-blonde.jpg", "usage": "Keep sports bra, shorts, earbud, and accessories consistent; replace only with explicit wardrobe references."},
+        {"type": "location", "name": "tiled-locker-room-stall", "required": true, "source": "locker-room-shush-blonde.jpg", "usage": "Maintain partition, tiles, accent stripe, hardware, and overhead light; replace only with explicit location references."},
+        {"type": "text_layout", "name": "partial-locker-sign", "required": false, "source": "locker-room-shush-blonde.jpg", "usage": "Attach only when the existing sign layout must be preserved; do not invent or alter text."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, location, and optional text-layout references when exact consistency is required. Keep adult identity, outfit, environment, and optional typography consistent; supplied references are required for replacements. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and removed sexualized framing while preserving the fitness portrait concept.", "Added safe negative prompts and controlled sign/reference handling."]}
+}

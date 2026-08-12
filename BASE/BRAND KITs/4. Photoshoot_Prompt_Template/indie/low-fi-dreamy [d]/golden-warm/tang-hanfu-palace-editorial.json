@@ -1,0 +1,29 @@
+{
+  "name": "tang-hanfu-palace-editorial",
+  "tag": ["adult-woman", "tang-hanfu", "palace-corridor", "pink-silk", "carved-lattice", "editorial"],
+  "image_type": "fashion-lookbook",
+  "image_vibe": "romantic-heritage",
+  "image_purpose": "editorial",
+  "group": "indie/low-fi-dreamy/golden-warm",
+  "prompt": {
+    "project_info": "A graceful palace-corridor fashion editorial with long peach silk layers, red columns, and patterned sun patches.",
+    "main_subject": "An adult East Asian woman with a dark ornate half-up hairstyle, delicate floral hair ornaments, natural warm makeup, and a soft composed smile. She wears a Tang-inspired peach and pale-pink layered hanfu with a chest-high ruqun bodice, airy silk-and-gauze outer layers, wide sleeves, and a gold waist sash; the refined fit complements her feminine silhouette.",
+    "composition_elements": "Vertical full-length composition in a red-columned palace corridor. The subject lightly gathers one sleeve while standing beside a carved column; lattice windows, peach curtains, lanterns, and floating petals frame the scene. Exclude all watermarks, logos, and readable text.",
+    "lighting_and_atmosphere": "Warm daylight through lattice windows at 4200K creates patterned floor shadows with a gentle lantern fill. Sunlight highlights shoulders and chest area while realistic shadows enhance the garment's curves; retain airy sleeve movement, realistic wood patina, and subtle grain.",
+    "technical_specs": "Full-frame 50mm lens at f/2.2, vertical 2:3 crop, full-length frame, softly blurred corridor depth, restrained pastel grade and natural film grain.",
+    "generated_prompt_string": "Full-length palace-corridor editorial of an adult East Asian woman with a dark ornate half-up hairstyle and floral hair ornaments, wearing a Tang-inspired layered hanfu in peach and pale pink with a chest-high ruqun bodice, airy silk-and-gauze outer layers, wide sleeves, and a gold waist sash. Its refined fit complements her feminine silhouette. She stands beside a red carved column, lightly gathering one sleeve, with lattice windows, peach curtains, lanterns, patterned daylight on the floor, and a few floating petals. Warm daylight mixed with gentle lantern fill highlights her shoulders and chest area and creates realistic shadows enhancing the garment's curves, with realistic silk folds and aged wood, vertical 2:3 composition, no watermark, text, or logos.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, body-part emphasis, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "Use approved adult identity, wardrobe, and palace references when continuity is necessary. Preserve the chest-high peach ruqun, airy layered silk-and-gauze sleeves, red-column corridor, lattice-window light, and sleeve-gathering pose. Preserve face, facial structure, and likeness when the identity reference is attached. Hair ornaments and exact architecture may be substituted through approved assets.",
+      "assets": [
+        {"type": "person", "name": "approved-adult-hanfu-corridor-identity-reference", "required": false, "source": "attach when likeness is needed", "usage": "Preserve adult facial likeness and hair structure; never use a celebrity or public-figure likeness."},
+        {"type": "wardrobe", "name": "peach-tang-ruqun-reference", "required": false, "source": "attach when wardrobe continuity is needed", "usage": "Maintain chest-high ruqun construction, peach silk-and-gauze layering, wide sleeves, and gold sash."},
+        {"type": "background", "name": "red-column-palace-corridor-reference", "required": false, "source": "attach when setting continuity is needed", "usage": "Preserve corridor geometry and lattice-light direction without text."}
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Made the subject explicitly adult.", "Replaced body-part-focused and sensual wording with feminine-silhouette, garment-fit, and directional-lighting language while preserving the chest-high ruqun, layered silk-and-gauze styling, pose, and palace-corridor editorial intent.", "Removed preview watermark from generation instructions."]
+  }
+}

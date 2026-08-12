@@ -1,0 +1,71 @@
+{
+  "name": "yacht-hourglass-beauty",
+  "tag": [
+    "yacht-editorial",
+    "black-one-piece",
+    "silver-visor",
+    "mediterranean",
+    "luxury-lifestyle"
+  ],
+  "image_type": "fashion-lifestyle-editorial",
+  "image_vibe": "sunlit-polished-mediterranean",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/beach-summer",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed explicit body-part and fetishized wet-look emphasis, reframed the pose as relaxed yacht lifestyle, and made brand logo use conditional on an approved reference."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "sunlit Mediterranean yacht lifestyle editorial",
+      "color_palette": "deep black, reflective silver, sapphire blue, white upholstery, and warm golden sunlight",
+      "format": "vertical full-body yacht-deck portrait"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "Adult woman with a feminine silhouette, wet wavy brunette-to-blonde ombre hair, natural makeup, silver hoop earrings, and the reflective silver visor shown. She wears the black asymmetric one-piece swimsuit matching the reference.",
+      "style": "confident, refined luxury lifestyle editorial with natural skin texture"
+    },
+    "composition_elements": {
+      "text": "No text, logo, or watermark unless supplied as an approved logo reference.",
+      "items": [
+        "relaxed seated pose on a white upholstered yacht sunpad",
+        "polished chrome safety railings and vivid sapphire-blue open water",
+        "natural wet-hair texture and subtle water droplets after a swim",
+        "slightly elevated full-body camera angle with uncluttered deck composition"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "direct 5600K high-noon Mediterranean sunlight",
+      "effect": "crisp shadows, bright water caustics, sunlight gently shaping shoulders and chest area through the swimsuit, controlled highlights on visor and fabric, and a fresh open-water atmosphere"
+    },
+    "technical_specs": {
+      "camera": "Leica SL2-S",
+      "lens": "Summicron-SL 50mm f/2 at f/4",
+      "render_style": "natural skin texture, detailed yacht materials, balanced high-contrast daylight, realistic ocean-wave detail"
+    },
+    "generated_prompt_string": "Create a vertical full-body Mediterranean yacht lifestyle editorial of an adult woman with a feminine silhouette relaxing on a white upholstered sunpad aboard a luxury yacht. She has wet wavy brunette-to-blonde ombre hair, natural makeup, silver hoop earrings, and the reflective silver visor shown. Keep the black asymmetric one-piece swimsuit matching the reference. Include polished chrome railings and vivid sapphire-blue open water around the deck. Use a slightly elevated 50mm full-body perspective and direct 5600K high-noon sun, with crisp shadows, subtle water droplets, bright sea caustics, and light gently shaping her shoulders and chest area through the swimsuit. Keep the mood refined and confident. Apply a visor logo only if an approved logo reference is attached; otherwise keep it unbranded. No other text or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, sexualized pose, body-part emphasis, fetish framing, nudity, transparent clothing, wet-cling emphasis, unapproved logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, text, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity replacement is required.",
+          "usage": "Replace only the adult subject identity while retaining wet-hair direction, black one-piece silhouette, yacht pose, and Mediterranean composition."
+        },
+        {
+          "type": "logo",
+          "name": "approved-visor-logo-reference",
+          "required": false,
+          "source": "Attach approved logo artwork if branding must appear on the visor.",
+          "usage": "Use the exact supplied logo only; otherwise render the silver visor unbranded."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. Logo reference is optional; preserve the yacht deck, silver visor, black asymmetric one-piece swimsuit, open-water setting, and luxury lifestyle direction."
+    }
+  }
+}

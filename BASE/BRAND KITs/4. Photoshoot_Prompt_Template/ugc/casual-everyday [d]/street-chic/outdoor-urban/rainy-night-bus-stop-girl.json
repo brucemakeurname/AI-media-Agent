@@ -1,0 +1,19 @@
+{
+  "name": "rainy-night-bus-stop-girl",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "rain", "bus-stop"],
+  "image_type": "rainy-bus-stop-candid",
+  "image_vibe": "quiet-cinematic-rainy-night",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a realistic candid rainy-night bus-stop photograph of an approved adult woman waiting for transit.",
+    "main_subject": "An approved adult woman in a light jacket, dark midi skirt, and white sneakers looks down at her phone while holding a clear umbrella. She stands naturally in the right third of frame and does not look at camera.",
+    "composition_elements": "Vertical street snapshot with blurred foreground obstruction at left, bus-stop sign and light box, streetlight pole, wet pavement reflections, distant headlights, and neon bokeh.",
+    "lighting_and_atmosphere": "Cold blue rainy environment mixed with warm yellow streetlights, soft side/top light, slight motion blur and real-camera grain, unposed waiting mood.",
+    "technical_specs": "Photorealistic vertical candid photography, shallow depth, realistic rain, reflections, umbrella, phone, fabric, and imperfect composition.",
+    "generated_prompt_string": "Create a realistic vertical candid photograph of an approved adult woman waiting at a city bus stop on a rainy night. She wears a light jacket, dark midi skirt, and white sneakers, looks down at her phone, and holds a clear umbrella without looking at camera. Place her in the right third with a blurred obstruction at left, bus-stop sign, light box, pole, wet reflections, distant headlights, and neon bokeh. Mix cold blue rain with warm yellow streetlights, natural grain, slight motion blur, and unposed realism.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, invented text, extra fingers, deformed hands, distorted umbrella, posed advertising look",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-rainy-bus-subject", "required": true, "source": "rainy-night-bus-stop-girl.jpg", "usage": "Preserve adult identity, natural waiting pose, phone, and umbrella."}, {"type": "wardrobe", "name": "light-jacket-dark-midi-skirt", "required": true, "source": "rainy-night-bus-stop-girl.jpg", "usage": "Keep jacket, skirt, sneakers, and styling consistent; replace only with explicit references."}, {"type": "location", "name": "rainy-city-bus-stop", "required": true, "source": "rainy-night-bus-stop-girl.jpg", "usage": "Maintain sign, light box, pole, wet ground, rain, and night lights; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the candid waiting scene.", "Added safe negative prompts and structured references."]}
+}

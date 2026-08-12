@@ -1,0 +1,77 @@
+{
+  "name": "king-of-spades-symmetry-portrait",
+  "tag": [
+    "adult-man",
+    "playing-card",
+    "symmetry",
+    "reflection",
+    "maroon",
+    "studio-portrait"
+  ],
+  "image_type": "conceptual-studio-portrait",
+  "image_vibe": "regal-minimal-symmetrical",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "king-of-spades-inspired mirrored studio portrait",
+      "color_palette": "deep maroon, black, charcoal, warm skin, reflective black",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult man",
+      "detail": "An adult man with soft black wavy hair, brown eyes, subtle short beard, athletic build, and a fitted charcoal-black T-shirt.",
+      "style": "high-end symmetrical studio fashion portrait"
+    },
+    "composition_elements": {
+      "text": "Render the King of Spades card motif: a black K above a black spade in the top-left, mirrored in the bottom-right.",
+      "items": [
+        "adult man seated centered at reflective glass table",
+        "both hands placed symmetrically on the tabletop",
+        "perfect vertical reflection in lower half",
+        "deep maroon monochrome background",
+        "black King of Spades corner marks in the top-left and mirrored bottom-right"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft diffused studio key at approximately 4600K with controlled overhead reflection",
+      "effect": "clean facial modeling, natural skin texture, deep maroon falloff, and crisp table reflection"
+    },
+    "technical_specs": {
+      "render_style": "85mm studio portrait, front-on symmetrical framing, f/4 for hands and face sharp, subtle film grain",
+      "resolution": "ultra-high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Ultra-realistic studio portrait of an adult masculine-presenting person using the provided adult image as a facial reference. The adult subject has soft black wavy hair, brown eyes, a subtle short beard, natural skin tones, and wears a fitted charcoal-black T-shirt. Seat the subject at a reflective glass table with both hands resting symmetrically on the surface, creating a perfect vertical mirror reflection below. Compose like a King of Spades playing card against a clean deep-maroon background, with a black K above a black spade in the top-left and the mirrored King of Spades mark in the bottom-right. Use soft diffused studio light, sharp focus, high-end fashion photography, cinematic mood, clean background, and realistic textures.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed hands, broken reflection",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-king-of-spades-face-reference",
+          "required": true,
+          "source": "Attach the provided adult person reference.",
+          "usage": "Preserve adult facial identity, wavy hair, beard, and eye color."
+        },
+        {
+          "type": "layout",
+          "name": "playing-card-symmetry-layout",
+          "required": false,
+          "source": "Use the preview image as a composition reference for vertical reflection and card-corner placement.",
+          "usage": "Preserve the top-and-bottom playing-card symmetry and King of Spades corner motif."
+        },
+        {
+          "type": "background",
+          "name": "deep-maroon-studio-reference",
+          "required": false,
+          "source": "Attach a palette reference when exact maroon backdrop is required.",
+          "usage": "Keep the monochrome maroon background and reflective black table."
+        }
+      ],
+      "prompt_instructions": "Attach the adult person reference for identity continuity. Layout and palette references are optional. Preserve the symmetrical seated pose, mirrored reflection, maroon studio, and King of Spades motif."
+    }
+  }
+}

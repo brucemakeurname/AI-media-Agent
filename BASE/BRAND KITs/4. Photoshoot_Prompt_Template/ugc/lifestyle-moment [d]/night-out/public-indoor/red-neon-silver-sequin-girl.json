@@ -1,0 +1,44 @@
+{
+  "name": "red-neon-silver-sequin-girl",
+  "tag": ["red-neon", "silver-sequin", "restaurant", "iphone"],
+  "image_type": "UGC restaurant portrait",
+  "image_vibe": "luminous, polished, candid, red-lit",
+  "image_purpose": "Restaurant nightlife and fashion social content",
+  "group": "ugc/lifestyle-moment/night-out/public-indoor",
+  "prompt": {
+    "project_info": "Create a raw iPhone 17 Pro restaurant portrait under intense red neon lighting.",
+    "main_subject": "One generic approved adult woman matching the required identity and hair reference, with natural facial geometry and realistic skin texture. She wears a multi-tonal silver sequined mini-dress with a secure strapless architectural fit, long rhinestone drop earrings, a silver bracelet and black watch. She sits at a restaurant table with a calm expression and naturally relaxed arms resting on a white tablecloth.",
+    "composition_elements": "Vertical 9:16 seated portrait, subject centered at a restaurant table. Include white tablecloth, polished silver cutlery, wine glasses, distant patrons and soft restaurant bokeh; preserve red neon atmosphere without invented text.",
+    "lighting_and_atmosphere": "High-intensity directional red neon casts a vivid red atmosphere and sharp realistic shadows, with controlled specular sparkle on sequins and natural skin tones beneath the color cast.",
+    "technical_specs": "Photorealistic raw iPhone 17 Pro portrait, 35mm lens, f/2.2, natural bokeh, digital grain, realistic skin and sequin texture, no beauty retouching, no watermark.",
+    "generated_prompt_string": "Photorealistic raw iPhone 17 Pro vertical 9:16 restaurant portrait of one generic approved adult woman matching the required identity and hair reference, preserving natural facial geometry, realistic skin texture and natural expression. She wears a multi-tonal silver sequined mini-dress with a secure strapless architectural fit, long rhinestone drop earrings, a silver technical bracelet and black watch. She sits at a restaurant table with arms naturally resting on a white tablecloth, polished silver cutlery, wine glasses and distant patrons behind her. High-intensity directional red neon creates a vivid red cast and sharp realistic shadows, with controlled sequin sparkle, natural bokeh, digital grain and candid nightlife energy, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, body-part volume emphasis, artificial facial alteration, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult identity and hair reference",
+          "required": true,
+          "source": "Attach the provided identity and hair reference",
+          "usage": "Preserve approved adult facial and hair geometry, natural skin texture and identity without the source's artificial slimming or beautification."
+        },
+        {
+          "type": "image",
+          "name": "red-neon-silver-sequin-girl composition reference",
+          "required": true,
+          "source": "Attach the provided local composition reference image",
+          "usage": "Match the seated restaurant composition, silver sequin dress, jewelry, tableware, red neon and candid iPhone aesthetic while keeping details replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required identity/hair and composition references. Preserve approved adult identity, silver sequin dress category, jewelry, seated pose, restaurant setting, red neon and iPhone optics. Keep person, outfit details, tableware, patrons and environment replaceable; use natural anatomy and no body-volume emphasis."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed artificial slimming and explicit bust/waist/thigh volume emphasis.",
+      "Preserved the silver sequin dress, jewelry, seated restaurant composition, red neon and iPhone aesthetic.",
+      "Added natural-texture and non-sexualized safety exclusions."
+    ]
+  }
+}

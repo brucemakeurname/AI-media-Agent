@@ -1,0 +1,70 @@
+{
+  "name": "toyota-reverse-camera-precision-demo",
+  "tag": [
+    "reverse-camera",
+    "interior-tech",
+    "safety-demo",
+    "dashboard"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Product demos",
+  "group": "toyota_4543693105955573",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota reverse camera feature demonstration",
+      "color_palette": "Black, gray, silver, teal, white"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A close-up interior-tech poster centered on a Toyota infotainment display showing a reverse camera feed with teal parking guide lines. At the top of the screen the warning text says 'Vui long chu y xung quanh de dam bao an toan'. The device bezel has Toyota branding and visible side buttons. A soft rounded white frame surrounds the screen image, and the bottom headline reads 'CAMERA LUI CHUAN XAC'.",
+      "style": "Minimal product-demo poster with realistic dashboard hardware, crisp UI capture, and clean showroom-tech presentation"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "Vui long chu y xung quanh de dam bao an toan / TOYOTA / CAMERA LUI CHUAN XAC",
+      "items": [
+        "Top Left: Soft neutral gradient around the infotainment frame",
+        "Top Right: Clean empty space around the rounded screen border",
+        "Bottom Left: Dashboard vent structure below the display",
+        "Bottom Right: Screen side buttons and USB port details",
+        "Center/Background: Toyota infotainment display showing a reverse-camera image with teal parking guide lines and a safety warning bar"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio product lighting",
+      "effect": "Gentle edge glow around the screen, crisp black-plastic reflections, clean technical-product clarity"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal product close-up for automotive feature communication",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota reverse camera feature demonstration. Centerpiece is a close-up Toyota infotainment display showing a reverse camera view with teal parking guide lines and the warning text 'Vui long chu y xung quanh de dam bao an toan'. Background is a soft neutral gradient with a rounded white frame around the screen. Surrounding elements: Toyota branding on the device bezel and the exact bottom headline 'CAMERA LUI CHUAN XAC'. Technical style: photoreal product close-up for automotive feature communication, soft studio product lighting, gentle edge glow and crisp reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "ui_reference",
+          "name": "Toyota reverse camera screen capture",
+          "required": true,
+          "source": "official product photo or screen capture",
+          "usage": "Keep the exact warning bar, guide-line geometry, and camera-view composition"
+        },
+        {
+          "type": "product",
+          "name": "Toyota infotainment head unit reference",
+          "required": true,
+          "source": "official interior hardware photo",
+          "usage": "Preserve the bezel shape, side-button arrangement, and lower branding"
+        },
+        {
+          "type": "text_layout",
+          "name": "Reverse camera demo layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the central framed screen and the bottom headline placement"
+        }
+      ],
+      "prompt_instructions": "This should remain a precise feature-demo crop, not a generic dashboard photo. Preserve the exact warning text and teal parking guidelines."
+    }
+  }
+}

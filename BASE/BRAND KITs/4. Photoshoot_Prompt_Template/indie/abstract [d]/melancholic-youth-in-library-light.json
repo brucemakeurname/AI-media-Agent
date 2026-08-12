@@ -1,0 +1,79 @@
+{
+  "name": "melancholic-youth-in-library-light",
+  "tag": [
+    "adult-man",
+    "library",
+    "book-face-cover",
+    "school-tie",
+    "warm-light",
+    "editorial"
+  ],
+  "image_type": "cinematic-indoor-portrait",
+  "image_vibe": "quiet-introspective-surreal",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the subject is an adult while preserving the resting library concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "quiet, slightly surreal adult man resting in a library chair",
+      "color_palette": "warm brown wood, parchment beige, charcoal, muted cream",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult man",
+      "detail": "An adult man with short dark hair, wearing a wrinkled off-white button-up shirt, dark trousers, and a loosely worn patterned tie.",
+      "style": "moody editorial indoor portrait with natural fabric texture and matte paper texture"
+    },
+    "composition_elements": {
+      "text": "No readable book titles or rendered text.",
+      "items": [
+        "adult man reclined in a dark wooden chair against a large bookshelf",
+        "open hardcover book resting over the face so no facial features are visible",
+        "hands loosely folded at the stomach",
+        "bookcase filling the background with anonymous non-readable book spines",
+        "mid-torso-to-head crop, subject slightly right of center"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft warm window-like key light at approximately 3200K with gentle shadow fill",
+      "effect": "quiet academic stillness, soft shadows, warm wood grain, and restrained cinematic contrast"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera, 50mm lens at f/2.8, subtle 35mm grain, natural vignetting, shallow but readable bookshelf depth",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Cinematic indoor portrait of an adult man resting or dozing in a dark wooden chair in a quiet library or study room. He leans back against a large wooden bookshelf, wearing a wrinkled light beige or off-white button-up shirt, dark trousers, and a loosely worn patterned tie. His hands rest over his stomach and an open hardcover book fully covers his face, leaving no facial features visible. Frame him from mid torso to head, slightly right of center, with the bookshelf filling the background. Use soft warm indoor light with gentle shadows, matte paper texture on anonymous books, warm wood grain, subtle depth of field, and a quiet, calm, introspective, slightly surreal moody-editorial atmosphere. Do not render readable book titles or text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, readable text, book titles, watermark, logo, visible face, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "rumpled-shirt-and-patterned-tie-reference",
+          "required": false,
+          "source": "Attach a wardrobe reference when exact shirt fabric or tie pattern is required.",
+          "usage": "Preserve the relaxed academic silhouette; shirt and tie may be replaced independently."
+        },
+        {
+          "type": "location",
+          "name": "wooden-library-shelving-reference",
+          "required": false,
+          "source": "Attach an interior reference when exact library architecture is required.",
+          "usage": "Keep warm wood shelving and dense anonymous books; do not reproduce readable titles."
+        },
+        {
+          "type": "accessory",
+          "name": "open-face-covering-book-reference",
+          "required": false,
+          "source": "Attach a book prop reference only when its cover or size must match.",
+          "usage": "Keep the open book fully concealing the face; the book itself may be replaced."
+        }
+      ],
+      "prompt_instructions": "No asset is mandatory. Preserve the clearly adult subject, reclined pose, face-concealing open book, warm library setting, and anonymous book spines. Wardrobe, room, and book props may be replaced without changing the concept."
+    }
+  }
+}

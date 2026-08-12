@@ -1,0 +1,63 @@
+{
+  "name": "samsung-galaxy-s26-ultra-angle-hero-with-s-pen",
+  "tag": [
+    "smartphone-launch",
+    "product-hero",
+    "s-pen",
+    "s26-ultra"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Brand story",
+  "group": "samsung_1388178850017256",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy S26 Ultra angled hardware hero poster",
+      "color_palette": "Lavender gray, deep graphite, black lenses, white typography"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Cinematic horizontal hero render of the Galaxy S26 Ultra viewed from an elevated rear corner angle with visible S Pen, centered product lockup, and a smooth lavender-to-charcoal gradient background.",
+      "style": "Photorealistic flagship hardware hero render, premium Samsung launch aesthetic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Galaxy S26 Ultra / Galaxy AI",
+      "items": [
+        "Top Left: Small white legal note 'Samsung account login is required for certain AI features.'",
+        "Top Right: Centered white lockup 'Galaxy S26 Ultra' and 'Galaxy AI'.",
+        "Bottom Left: Soft dark gradient fading into the device corner.",
+        "Bottom Right: Large cropped camera-lens cluster and side profile of the phone with the black S Pen entering from the lower-left edge of the device.",
+        "Center/Background: Wide cinematic hardware crop against a smooth lavender-gray gradient with no additional clutter."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Studio lighting",
+      "effect": "Glossy lens reflections, subtle metallic edge highlights, soft cinematic gradient atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy S26 Ultra angled hardware hero poster. Centerpiece is a cinematic cropped rear-corner view of the Galaxy S26 Ultra with large black camera lenses and a visible black S Pen against a lavender-gray gradient background. Background is smooth and uncluttered. Surrounding elements: centered white lockup 'Galaxy S26 Ultra' and 'Galaxy AI', plus the small legal note 'Samsung account login is required for certain AI features.' at upper left. Technical style: photorealistic product render, studio lighting, glossy lens reflections and soft metallic highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy S26 Ultra rear-corner hero render with S Pen",
+          "required": true,
+          "source": "official Samsung render or original creative",
+          "usage": "Preserve exact lens arrangement, frame profile, and S Pen position."
+        },
+        {
+          "type": "text_layout",
+          "name": "centered lockup and upper-left legal note",
+          "required": true,
+          "source": "original poster",
+          "usage": "Keep the typography size, alignment, and empty-space balance of the wide banner."
+        }
+      ],
+      "prompt_instructions": "Use refs for the exact wide crop and lens cluster. This is a sparse hero visual; do not add extra specs or icons beyond the visible lockup and legal note."
+    }
+  }
+}

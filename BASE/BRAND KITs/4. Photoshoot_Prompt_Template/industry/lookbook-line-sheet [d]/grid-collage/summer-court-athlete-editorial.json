@@ -1,0 +1,27 @@
+{
+  "name": "summer-court-athlete-editorial",
+  "tag": ["tennis", "athletic-fashion", "golden-hour", "two-by-two", "grid-collage"],
+  "image_type": "sports-editorial-grid",
+  "image_vibe": "sunny-sporty-cinematic",
+  "image_purpose": "lookbook",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Photorealistic 2x2 editorial collage on an outdoor tennis court during warm golden sunlight, with no text, logos or watermark.",
+    "main_subject": "One original approved adult athletic brunette woman with natural makeup, defined brows, soft glossy lips, long slightly wavy dark hair and a fit sporty body.",
+    "composition_elements": "Portrait 2x2 grid with thin gutter and no outer border. Panel 1: woman lying relaxed on the green court beside a tennis racket and scattered balls, looking toward camera. Panel 2: top-down rackets and tennis balls arranged as a heart with white sneakers visible. Panel 3: woman sitting on the clay court near the net, smiling while tossing a tennis ball. Panel 4: dynamic sporty pose holding a racket with tennis balls around her. Outfit: black sporty tennis top, white tennis skirt and white sneakers.",
+    "lighting_and_atmosphere": "Natural golden-hour sunlight with bright sporty editorial atmosphere and soft realistic court shadows.",
+    "technical_specs": "Cinematic photorealism, editorial crispness, subtle film grain, 4:5 portrait aspect ratio, mix of overhead and eye-level 35mm shots, natural shallow depth of field.",
+    "generated_prompt_string": "Create a photorealistic 2x2 editorial collage on an outdoor tennis court during warm golden sunlight. Show one original approved adult athletic brunette woman with natural makeup, defined brows, soft glossy lips, long slightly wavy dark hair and a fit sporty body, consistent across all panels. Use a black sporty tennis top, white tennis skirt and white sneakers. Panel 1: woman lying relaxed on the green tennis court beside a tennis racket and scattered tennis balls, looking at camera. Panel 2: top-down view of tennis rackets and tennis balls arranged in a heart shape on the court with white sneakers visible. Panel 3: woman sitting on the clay tennis court near the net, smiling while tossing a tennis ball toward the camera. Panel 4: dynamic sporty pose holding a tennis racket with tennis balls around her. Use tennis green, clay red, neon yellow balls and sporty neutral tones, natural golden-hour sunlight, soft realistic shadows, bright sporty editorial photography, 35mm lens, mixed overhead and eye-level angles, natural shallow depth of field, cinematic photorealism, editorial crispness, subtle film grain, 4:5 portrait composition, no text, logos or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, nudity, child, teen, identity drift, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, duplicate rackets, unreadable text or logos",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "summer-court-athlete-editorial.jpg", "required": true, "source": "local reference image", "usage": "Attach for the original approved-adult face, hair, athletic styling and consistent identity across all four panels."},
+        {"type": "wardrobe", "name": "black tennis top, white tennis skirt and white sneakers", "required": true, "source": "local reference image", "usage": "Preserve supplied sports outfit, colors, fit and footwear."},
+        {"type": "accessory", "name": "tennis rackets and neon yellow tennis balls", "required": true, "source": "local reference image", "usage": "Preserve supplied racket shapes, ball count, heart arrangement and panel-specific actions."},
+        {"type": "location", "name": "green and clay outdoor tennis court with net", "required": true, "source": "local reference image", "usage": "Preserve court surfaces, net, sunlight direction and environment."}
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, accessory and location references; no optional assets are needed. Keep approved-adult identity, outfit, four-panel count, athletic actions, props, environment, lighting and typography consistent. Replace only with an equivalent approved adult, supplied sports gear or court. Typography is not applicable; do not invent text, logos or watermark."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

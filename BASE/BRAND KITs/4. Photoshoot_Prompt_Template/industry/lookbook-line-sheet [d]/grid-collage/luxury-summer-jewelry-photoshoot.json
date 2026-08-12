@@ -1,0 +1,22 @@
+{
+  "name": "luxury-summer-jewelry-photoshoot",
+  "tag": ["industry", "lookbook-line-sheet", "grid-collage", "jewelry", "summer"],
+  "image_type": "four-panel luxury jewelry lifestyle campaign",
+  "image_vibe": "sunlit, premium, relaxed, radiant",
+  "image_purpose": "luxury jewelry campaign and summer lookbook grid",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Create a cohesive 2x2 luxury jewelry lifestyle campaign in bright summer sunlight beside a pool or beach.",
+    "main_subject": "An adult fictional woman with original non-celebrity features, warm golden-tan skin with natural texture and faint freckles, dewy post-swim glow, minimal makeup, and short nude or soft-pink nails. She wears a white bikini with thin neon-yellow straps and ties and layered diamond-style jewelry: necklaces, tennis chains, gemstone pendants, tennis bracelet, and stacked thin rings.",
+    "composition_elements": "2x2 vertical grid: reclining torso and waist with hand on abdomen and bikini hip ties; hand on upper thigh focused on rings and bracelet; neck and collarbone close-up with layered necklaces; upper-chest close-up with hand touching collarbone. Poolside or beach lounge chair, neutral beige or cream surface, out-of-focus minimal background.",
+    "lighting_and_atmosphere": "Bright midday natural sunlight with strong highlights and sharp shadows, sparkle on jewelry, warm natural tones, relaxed high-end vacation atmosphere.",
+    "technical_specs": "4:5 vertical grid, 85mm DSLR look, shallow depth of field, sharp jewelry and realistic skin texture, coherent lighting and color grade, no logos or text.",
+    "generated_prompt_string": "Luxury summer jewelry lifestyle 2x2 grid of an adult fictional woman with original non-celebrity features, warm golden-tan skin with natural texture and faint freckles, dewy post-swim glow, minimal makeup, short nude or soft-pink nails, wearing a white bikini with thin neon-yellow straps and ties and layered diamond-style jewelry including necklaces, tennis chains, gemstone pendants, tennis bracelet, and stacked thin rings. Four panels: reclining torso and waist with hand on abdomen and hip ties visible; hand on upper thigh focused on rings and bracelet; neck and collarbone close-up with layered necklaces; upper-chest close-up with hand touching collarbone. Poolside or beach lounge chair, neutral beige or cream surface, bright midday sunlight, sharp natural shadows, 85mm DSLR look, shallow depth of field, warm premium vacation jewelry campaign.",
+    "negative_prompt": ["celebrity likeness", "public figure likeness", "minor or underage appearance", "explicit", "nsfw", "overly revealing", "nudity", "fetish framing", "blurry", "low quality", "distorted anatomy", "extra fingers", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "logo", "text", "signature"],
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "luxury-summer-jewelry-photoshoot.jpg", "required": true, "source": "workspace reference image", "usage": "Reference the adult model, white and neon-yellow bikini, four jewelry close-ups, poolside setting, sunlight, and jewelry placement."}],
+      "prompt_instructions": "Attach the required reference image. Preserve adult subject, wardrobe, jewelry pieces, panel order, skin texture, sunlight, and summer environment. Keep jewelry products and logos generic and replaceable; typography absent or replaceable."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified adult fictional subject and removed suggestive wording while preserving the bikini jewelry campaign, close-up structure, and summer editorial intent."]}
+}

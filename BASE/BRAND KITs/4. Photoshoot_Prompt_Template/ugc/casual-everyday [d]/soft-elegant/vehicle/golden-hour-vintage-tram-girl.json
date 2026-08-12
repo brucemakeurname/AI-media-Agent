@@ -1,0 +1,19 @@
+{
+  "name": "golden-hour-vintage-tram-girl",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "vehicle", "vintage-tram", "red-hair", "golden-hour"],
+  "image_type": "lifestyle-vehicle-portrait",
+  "image_vibe": "cheerful-summery-vintage",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/soft-elegant/vehicle",
+  "prompt": {
+    "project_info": "Create a cheerful photorealistic lifestyle portrait of an approved adult red-haired woman standing in the doorway of a vintage wooden tram.",
+    "main_subject": "An approved adult woman with long natural red hair and a warm smile, wearing a patterned sleeveless cropped top with a deep V neckline and high-waisted light denim shorts. She stands holding the tram doorway with both hands and looks toward camera.",
+    "composition_elements": "Centered full-body eye-level portrait framed by the wooden tram doorway, vintage interior wood, European city street visible through windows, and existing STOP sign as environmental typography.",
+    "lighting_and_atmosphere": "Warm golden-hour sunlight, soft shadows, shallow background depth, candid relaxed summery mood and realistic wood, denim, skin, and hair texture.",
+    "technical_specs": "35mm lens, f/2.8, sharp subject with soft city bokeh, 2:3 vertical framing, photorealistic high detail, subtle grain.",
+    "generated_prompt_string": "Create a cheerful photorealistic 2:3 lifestyle portrait of an approved adult woman with long natural red hair and a warm smile standing in the doorway of a vintage wooden tram. She wears a patterned sleeveless cropped top with a deep V neckline and high-waisted light denim shorts, holds the doorway naturally with both hands, and looks toward the camera. Center her in the wooden tram doorway, with vintage interior details, European city street visible through the windows, and the existing STOP sign preserved only when its typography is intentionally retained. Use warm golden-hour sunlight, soft shadows, 35mm f/2.8 perspective, sharp subject, soft city bokeh, realistic textures, and subtle grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, altered sign, extra fingers, deformed hands, distorted face",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-red-haired-tram-subject", "required": true, "source": "golden-hour-vintage-tram-girl.jpg", "usage": "Preserve the adult face, red hair, smile, pose, and identity."}, {"type": "wardrobe", "name": "patterned-crop-top-denim-shorts", "required": true, "source": "golden-hour-vintage-tram-girl.jpg", "usage": "Keep top pattern, shorts, and styling consistent; replace only with explicit wardrobe references."}, {"type": "location", "name": "vintage-wooden-tram-doorway", "required": true, "source": "golden-hour-vintage-tram-girl.jpg", "usage": "Maintain tram wood, doorway, city windows, and golden light; replace only with explicit location references."}, {"type": "text_layout", "name": "tram-stop-sign", "required": false, "source": "golden-hour-vintage-tram-girl.jpg", "usage": "Attach only if the existing STOP sign typography must be retained; do not invent or alter text."}], "prompt_instructions": "Attach person, wardrobe, location, and optional text-layout references when exact consistency is required. Keep adult identity, outfit, doorway framing, vehicle environment, and optional typography consistent. Text is optional and replaceable only with supplied copy; preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and added controlled handling for the existing vehicle sign.", "Added safe negative prompts and references."]}
+}

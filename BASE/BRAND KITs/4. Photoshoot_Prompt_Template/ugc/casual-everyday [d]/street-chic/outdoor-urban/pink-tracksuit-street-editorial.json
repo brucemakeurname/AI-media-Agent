@@ -1,0 +1,19 @@
+{
+  "name": "pink-tracksuit-street-editorial",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "pink-tracksuit", "alley"],
+  "image_type": "streetwear-squat-portrait",
+  "image_vibe": "nonchalant-editorial-urban",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create an ultra-photorealistic streetwear editorial portrait of an approved adult woman in a gritty industrial alley.",
+    "main_subject": "An approved adult woman with long thick wavy hair held by a white headband, neutral soulful expression, wearing an oversized bubblegum-pink fleece tracksuit over a white long-sleeve layer, silver rings, layered chains, watch, and bracelets. She sits in a balanced full squat with one hand on her knee; any cigarette is incidental and non-glamorized.",
+    "composition_elements": "Eye-level medium portrait against grey cinder-block wall and weathered asphalt, vibrant pink against monochrome industrial background.",
+    "lighting_and_atmosphere": "Soft flat overcast daylight, minimal harsh shadows, detailed fabric weave and concrete texture, cinematic nonchalant editorial mood.",
+    "technical_specs": "Photorealistic raw-style 50mm portrait, vertical framing, sharp subject, subtle depth, realistic anatomy and fine grain.",
+    "generated_prompt_string": "Create an ultra-photorealistic vertical 50mm streetwear portrait of an approved adult woman with long wavy hair held by a white headband and a neutral confident expression. She wears an oversized bubblegum-pink fleece tracksuit over a white long-sleeve layer with silver jewelry, and sits in a balanced full squat with one hand on her knee; keep any cigarette incidental and non-glamorized. Place her against a grey cinder-block wall and weathered asphalt under soft overcast light. Use detailed fabric weave, realistic concrete, subtle grain, and nonchalant editorial mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, glamorized smoking, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted body",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-pink-tracksuit-subject", "required": true, "source": "pink-tracksuit-street-editorial.jpg", "usage": "Preserve adult identity, hair, expression, squat pose, and hand placement."}, {"type": "wardrobe", "name": "bubblegum-pink-tracksuit-jewelry", "required": true, "source": "pink-tracksuit-street-editorial.jpg", "usage": "Keep tracksuit, headband, jewelry, and styling consistent; replace only with explicit references."}, {"type": "location", "name": "grey-industrial-alley", "required": true, "source": "pink-tracksuit-street-editorial.jpg", "usage": "Maintain cinder blocks, asphalt, overcast light, and urban texture; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and made smoking incidental rather than glamorized.", "Added safe negative prompts and structured references."]}
+}

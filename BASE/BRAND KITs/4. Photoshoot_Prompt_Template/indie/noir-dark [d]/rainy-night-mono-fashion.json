@@ -1,0 +1,59 @@
+{
+  "name": "rainy-night-mono-fashion",
+  "tag": ["adult-man", "streetwear", "rainy-night", "motion-blur", "urban-fashion", "monochrome"],
+  "image_type": "urban-street-fashion-photograph",
+  "image_vibe": "cinematic-energetic-gritty",
+  "image_purpose": "social-editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Converted the nested legacy prompt into the required schema, clarified the subject as an adult, and removed brand-specific wording while preserving the rainy urban streetwear concept and motion-blur editorial energy."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "cinematic motion-blur black-and-white urban fashion editorial",
+      "color_palette": "high-contrast black, charcoal, silver streetlight, and wet-pavement highlights",
+      "aspect_ratio": "16:9"
+    },
+    "main_subject": {
+      "description": "An adult man in practical urban streetwear walking confidently through a nighttime crowd, with natural facial detail and a focused expression.",
+      "wardrobe": "Dark weatherproof jacket, layered scarf or neck warmer, tapered dark trousers, and unbranded athletic sneakers.",
+      "pose": "Dynamic mid-stride crossing the street, one leg extended and arms naturally balanced, with the subject kept relatively sharp against moving pedestrians.",
+      "styling": "Realistic contemporary streetwear with understated editorial attitude and no visible logos."
+    },
+    "composition_elements": {
+      "framing": "Wide horizontal urban frame with the subject centered slightly right and enough depth for the crowd and streetlights.",
+      "environment": "Busy city street at night during light rain, blurred pedestrians, headlights, tall buildings, reflective wet pavement, and no readable signage.",
+      "focus": "Subject's stride, jacket texture, sneaker silhouette, rain reflections, and controlled crowd motion blur."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Cinematic high-contrast streetlights and vehicle headlights with soft rim highlights on the moving subject and bright reflections on wet pavement.",
+      "atmosphere": "Gritty, energetic, realistic, nocturnal, and cinematic."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with a 35mm wide-angle lens at f/4, 1/15 s shutter for controlled motion streaks, ISO 800",
+      "quality": "Photorealistic AI-art realism, authentic fine grain, crisp central subject, intentional peripheral motion blur, no artifacts"
+    },
+    "generated_prompt_string": "Create a photorealistic 16:9 black-and-white cinematic urban fashion photograph of an adult man in a dark weatherproof jacket, layered scarf or neck warmer, tapered dark trousers, and unbranded athletic sneakers. Capture him in a dynamic mid-stride crossing a busy city street at night during light rain, centered slightly right, with his face and clothing relatively sharp while pedestrians and vehicle lights streak with controlled motion blur. Include tall buildings, headlights, reflective wet pavement, cinematic high-contrast streetlights, soft rim highlights, authentic fine grain, and no readable signage or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, readable text, logo, watermark, brand mark, cartoonish rendering, static pose, low contrast, deformed anatomy, extra limbs, image artifacts",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult subject. Optional wardrobe, city, weather, or lighting references may replace only their named element; preserve the adult streetwear subject, dynamic stride, rainy-night setting, and monochrome motion-blur treatment.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "dark-urban-streetwear-layering",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the jacket, scarf, trousers, or sneakers while keeping all visible branding removed."
+        },
+        {
+          "type": "location",
+          "name": "rainy-night-city-street",
+          "required": false,
+          "source": "user-uploaded location reference",
+          "usage": "Replace only the city architecture, crowd, rain, and reflections while preserving the wide editorial composition."
+        }
+      ]
+    }
+  }
+}

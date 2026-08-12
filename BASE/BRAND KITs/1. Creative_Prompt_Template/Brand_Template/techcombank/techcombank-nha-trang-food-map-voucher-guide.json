@@ -1,0 +1,77 @@
+{
+  "name": "techcombank-nha-trang-food-map-voucher-guide",
+  "tag": [
+    "food-guide",
+    "city-map",
+    "voucher",
+    "travel-discovery"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Infographics",
+  "group": "techcombank_1769325097570274",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank Nha Trang food discovery map with vouchers",
+      "color_palette": "Sky blue, white, black, bright red, warm food tones"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A location-guide poster themed like a discovery map for Nha Trang. The main headline reads 'QUAN NGON PHAI THU TAI NHA TRANG' with supporting text 'Nhung cua hang noi bat tren Ban do Kham pha Viet Nam ruc ro'. Five pinned polaroid-style food photos are arranged across a blue map grid. The food spot names are 'LA COFFEE', 'COM TAM HONG SINCE 2003', 'TIEM MI QUANG NAM', 'NHA HANG AN VIET THON', and 'NHA HANG THUY 66'. Red ticket graphics float around with voucher values '500,000VND', '100,000VND', and '250,000VND'. The bottom shows a waterfront Nha Trang skyline collage.",
+      "style": "Travel-guide infographic poster with pinned snapshot cards, map markers, and bright tourism merchandising"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TECHCOMBANK / QUAN NGON PHAI THU / TAI NHA TRANG / Nhung cua hang noi bat tren Ban do Kham pha Viet Nam ruc ro / LA COFFEE / COM TAM HONG SINCE 2003 / TIEM MI QUANG NAM / NHA HANG AN VIET THON / NHA HANG THUY 66 / 500,000VND / 100,000VND / 250,000VND / VUOT TROI MOI NGAY",
+      "items": [
+        "Top Left: Red torn voucher ticket '500,000VND'",
+        "Top Right: Techcombank logo over open sky",
+        "Bottom Left: Ferris wheel and 'VUOT TROI MOI NGAY' lockup along the coast",
+        "Bottom Right: Red torn voucher ticket '100,000VND' and city buildings by the shoreline",
+        "Center/Background: Five pinned polaroid food snapshots with red map pins placed over a blue destination-grid backdrop"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright daytime travel-commercial lighting",
+      "effect": "Sunny sky glow, crisp food-photo contrast, soft drop shadows on pinned cards, cheerful map-poster atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Photo-collage infographic poster with travel map compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank Nha Trang food discovery map with vouchers. Centerpiece is a blue map-grid layout filled with five pinned polaroid-style restaurant and drink photos labeled 'LA COFFEE', 'COM TAM HONG SINCE 2003', 'TIEM MI QUANG NAM', 'NHA HANG AN VIET THON', and 'NHA HANG THUY 66'. Background is a bright sky and a Nha Trang waterfront skyline collage at the bottom. Surrounding elements: Techcombank logo, exact headline 'QUAN NGON PHAI THU TAI NHA TRANG', supporting copy 'Nhung cua hang noi bat tren Ban do Kham pha Viet Nam ruc ro', large red location pins, floating torn voucher tickets '500,000VND', '100,000VND', and '250,000VND', plus the bottom-left line 'VUOT TROI MOI NGAY'. Technical style: photo-collage infographic poster with travel map compositing, bright daytime travel-commercial lighting, sunny sky glow and soft drop shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "location",
+          "name": "Nha Trang skyline and waterfront landmarks",
+          "required": true,
+          "source": "reference cityscape photos of Nha Trang",
+          "usage": "Anchor the bottom coastal skyline and tourism context"
+        },
+        {
+          "type": "product",
+          "name": "Restaurant food and drink photos for the five venues",
+          "required": true,
+          "source": "original merchant photos or close matches",
+          "usage": "Preserve the dish types and casual snapshot look inside each pinned card"
+        },
+        {
+          "type": "graphic",
+          "name": "Red map pin and torn voucher ticket graphics",
+          "required": true,
+          "source": "brand campaign assets",
+          "usage": "Maintain the discovery-map visual language and discount callouts"
+        },
+        {
+          "type": "text_layout",
+          "name": "Nha Trang food-guide poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the five-card arrangement, headline hierarchy, and coastal skyline footer"
+        }
+      ],
+      "prompt_instructions": "Keep restaurant names and voucher values exactly as visible. The layout should feel like a curated city map with pinned snapshots, not a generic restaurant collage."
+    }
+  }
+}

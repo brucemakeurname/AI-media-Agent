@@ -1,0 +1,71 @@
+{
+  "name": "ysl-gold-rings-and-green-leaf-editorial",
+  "tag": [
+    "ysl",
+    "gold-rings",
+    "editorial-detail",
+    "green-leaf",
+    "fashion-closeup"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Lifestyle content",
+  "group": "ysl_1414771807354193",
+  "prompt": {
+    "project_info": {
+      "theme": "Minimal editorial detail with jewelry and foliage",
+      "color_palette": "Charcoal black, deep brown skin, gold metal, fresh green leaf"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A close-up of a dark-skinned hand wearing multiple sculptural gold rings rests against the upper chest and black lapel of a tailored jacket, holding a fresh green leafy sprig across the fingers.",
+      "style": "Quiet luxury editorial, tactile fashion detail, minimalist portrait fragment"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "",
+      "items": [
+        "Top Left: Black tailored lapel edge framing the chest",
+        "Top Right: Fresh green leafy sprig extending horizontally over the hand",
+        "Bottom Left: Thumb with glossy black nail polish touching the blazer",
+        "Bottom Right: Multiple sculptural gold rings wrapping several fingers",
+        "Center/Background: Warm brown skin against a dark tailored jacket in a tight cropped editorial composition"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft intimate editorial lighting",
+      "effect": "Gentle skin sheen, rich fabric texture, polished gold reflections, muted luxurious calm"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal fashion-editorial close-up photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square quiet-luxury editorial close-up. Centerpiece is a dark-skinned hand wearing multiple sculptural gold rings, resting against the chest and black lapel of a tailored jacket while holding a fresh green leafy sprig. Background is the model's skin and dark blazer in a tight minimalist crop. Technical style: photoreal fashion-editorial close-up photography, soft intimate editorial lighting, polished gold reflections and rich fabric texture, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Hand and torso crop reference",
+          "required": true,
+          "source": "original editorial image",
+          "usage": "Preserve the hand pose, skin tone, jacket lapel framing, and thumb placement"
+        },
+        {
+          "type": "accessory",
+          "name": "Sculptural gold ring set",
+          "required": true,
+          "source": "original styling reference",
+          "usage": "Match the ring thickness, placement across fingers, and polished metal finish"
+        },
+        {
+          "type": "graphic",
+          "name": "Green leafy sprig",
+          "required": true,
+          "source": "original botanical prop",
+          "usage": "Keep the fresh herb-like leaf shape and diagonal placement across the hand"
+        }
+      ],
+      "prompt_instructions": "This is an editorial texture-and-styling image. Do not introduce extra face detail or widen the crop; the intimacy comes from the cropped torso-hand composition."
+    }
+  }
+}

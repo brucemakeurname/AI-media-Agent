@@ -1,0 +1,42 @@
+﻿{
+    "name":  "seamless-face-swap-realistic",
+    "tag":  [
+                "ugc",
+                "selfie-pov",
+                "other",
+                "other",
+                "face-edit",
+                "realism"
+            ],
+    "image_type":  "seamless-face-reference-edit",
+    "image_vibe":  "natural-seamless-realism",
+    "image_purpose":  "identity-preserving face-edit prompt",
+    "group":  "other",
+    "prompt":  {
+                   "project_info":  "Adapted from the source face-edit instructions using the supplied source and target references.",
+                   "main_subject":  "Clearly adult subject in the target image receiving the supplied adult source identity, with facial structure, skin tone, expression and lighting integrated naturally.",
+                   "composition_elements":  "Preserve the target background, objects, pose and environment while blending the source face with matching scale, angle, shadows, highlights and color grading.",
+                   "lighting_and_atmosphere":  "Match source and target illumination physically, preserving original environment detail and natural photographic realism.",
+                   "technical_specs":  "High-resolution seamless edit, accurate facial geometry, edge blending, perspective and skin texture, no background changes.",
+                   "generated_prompt_string":  "Seamlessly integrate the face from the supplied source image onto the clearly adult subject in the supplied target image, preserving facial structure, expression, skin tone, lighting, shadows and highlights, matching perspective and color grading, keeping target background and objects unchanged, natural realistic photographic result with no visible artifacts.",
+                   "negative_prompt":  "explicit, nsfw, overly revealing, exposed body, exposed breasts, exposed genitals, child, minor, non-consensual identity use, distorted face, mismatched skin, visible seams, warped background, watermark, text, logo",
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "source-reference",
+                                                                 "name":  "seamless-face-swap-realistic_0.jpg",
+                                                                 "required":  true,
+                                                                 "source":  "local asset",
+                                                                 "usage":  "Use only as the supplied source/target edit reference; preserve clearly adult identity and target environment."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  "Attach the local asset as required and provide the separate adult source and target references when executing. Use only authorized adult references; do not reproduce celebrity likeness or alter unrelated people."
+                                          }
+               },
+    "policy_review":  {
+                          "status":  "pass",
+                          "changes":  [
+
+                                      ]
+                      }
+}

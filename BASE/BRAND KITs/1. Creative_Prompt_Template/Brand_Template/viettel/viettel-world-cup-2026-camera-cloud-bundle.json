@@ -1,0 +1,71 @@
+{
+  "name": "viettel-world-cup-2026-camera-cloud-bundle",
+  "tag": [
+    "viettel",
+    "world-cup-2026",
+    "camera-bundle",
+    "tv360",
+    "special-offer"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "viettel_1576510340527284",
+  "prompt": {
+    "project_info": {
+      "theme": "Viettel connectivity bundle combining World Cup 2026 viewing, home internet, TV, and security camera perks",
+      "color_palette": "Viettel Red, Soft Pink, White, Multicolor Sports Stripes"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A product-offer poster featuring a floating white indoor security camera on the upper-right of a large pink offer card, topped by a partial FIFA football and diagonal multicolor stripes on a bright red background.",
+      "style": "Bold retail-offer graphic with sports-season energy, glossy product cutout, and rounded promo-card layout."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "TẶNG CAMERA AN NINH +\nCLOUD 01 NGÀY 0Đ TRỌN ĐỜI\nXem World Cup 2026 bản quyền trên TV360\nInternet tốc độ cao đến 1 Gbps\nXem 130+ kênh truyền hình\nPhí hòa mạng: 400.000 đồng",
+      "items": [
+        "Top Left: Bright red background crossed by dark red, purple, lime, and green diagonal stripes.",
+        "Top Right: White Viettel indoor camera cutout and the lower edge of a FIFA football entering from above.",
+        "Bottom Left: Pink rounded promo card with bullet list and fee line.",
+        "Bottom Right: Empty extension of the promo card and product area.",
+        "Center/Background: Large red pill title area inside the pink card reading the main bundle offer."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright retail promo lighting",
+      "effect": "Clean product highlights, saturated sports colors, and sharp rounded-card contrast."
+    },
+    "technical_specs": {
+      "render_style": "Graphic retail offer poster with photoreal product cutouts",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality telecom bundle offer poster for Viettel. Centerpiece is a large pink rounded promo card over a bright red sports-themed background, highlighting a free security camera and cloud offer, with a white indoor camera product cutout and a partial FIFA football above. Surrounding elements: diagonal multicolor stripes, headline 'TẶNG CAMERA AN NINH + CLOUD 01 NGÀY 0Đ TRỌN ĐỜI', bullets about TV360 World Cup 2026, 1 Gbps internet, 130+ TV channels, and fee line 'Phí hòa mạng: 400.000 đồng'. Technical style: graphic retail offer poster with photoreal product cutouts, bright promo lighting, saturated sports energy, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Viettel indoor security camera reference",
+          "required": true,
+          "source": "product packshot",
+          "usage": "Place on the upper-right of the offer card."
+        },
+        {
+          "type": "graphic",
+          "name": "FIFA ball and multicolor stripe sports motif",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve as the seasonal sports cue across the red background."
+        },
+        {
+          "type": "text_layout",
+          "name": "Camera-cloud World Cup bundle card layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep exact offer wording, bullets, and fee line."
+        }
+      ],
+      "prompt_instructions": "Preserve the phrase 'World Cup 2026' exactly as a seasonal promotional hook. The visual balance depends on the camera product remaining secondary to the central offer card while still being clearly visible."
+    }
+  }
+}

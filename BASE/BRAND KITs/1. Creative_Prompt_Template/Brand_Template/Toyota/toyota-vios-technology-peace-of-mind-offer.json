@@ -1,0 +1,70 @@
+{
+  "name": "toyota-vios-technology-peace-of-mind-offer",
+  "tag": [
+    "vios",
+    "sales-offer",
+    "finance-support",
+    "sedan"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Special offers",
+  "group": "toyota_5398809050344940",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Vios technology and finance offer",
+      "color_palette": "Sky blue, white, champagne gold, gray, black"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A showroom-style car-sales poster with the Toyota logo at top left and huge gold-white text reading 'VUNG CONG NGHE TRON AN TAM'. Two white Toyota Vios sedans are parked side by side on a clean urban plaza. Bottom gold panels list the offers: 'HO TRO 50% LE PHI TRUOC BA', 'UU DAI LAI SUAT 7.49%/NAM', and 'TRA TRUOC 0 DONG'. The background combines a blue city skyline on the left and modern architectural columns on the right. Bottom-right script reads 'Move your world'.",
+      "style": "Premium automotive sales poster with glossy sedan renderings, urban-modern backdrop, and gold finance-offer badges"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / VUNG CONG NGHE TRON AN TAM / HO TRO 50% LE PHI TRUOC BA / UU DAI LAI SUAT 7.49%/NAM / TRA TRUOC 0 DONG / Move your world",
+      "items": [
+        "Top Left: Toyota logo over a blue urban skyline",
+        "Top Right: Large gold-highlighted headline against the open sky and building facade",
+        "Bottom Left: Gold finance-offer plate 'HO TRO 50% LE PHI TRUOC BA'",
+        "Bottom Right: Gold finance-offer plate 'TRA TRUOC 0 DONG' and handwritten slogan 'Move your world'",
+        "Center/Background: Two white Toyota Vios sedans on a clean city-plaza surface with a skyline-left and modern-building-right setting"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright automotive commercial lighting",
+      "effect": "Clean showroom reflections, soft urban daylight, subtle metallic highlights, reassuring premium-sales atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal automotive advertising composite with sales-poster retouching",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Vios technology and finance offer. Centerpiece is a pair of white Toyota Vios sedans parked on a clean urban plaza. Background is a modern city setting with blue skyline towers on the left and minimal architecture on the right. Surrounding elements: Toyota logo, exact headline 'VUNG CONG NGHE TRON AN TAM', and gold offer plates reading 'HO TRO 50% LE PHI TRUOC BA', 'UU DAI LAI SUAT 7.49%/NAM', and 'TRA TRUOC 0 DONG', plus the script 'Move your world'. Technical style: photoreal automotive advertising composite with sales-poster retouching, bright automotive commercial lighting, clean reflections and metallic highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Toyota Vios exterior reference",
+          "required": true,
+          "source": "official Toyota Vios product renders",
+          "usage": "Preserve front-three-quarter angles, grille styling, wheels, and body proportions"
+        },
+        {
+          "type": "logo",
+          "name": "Toyota logo and Move your world branding",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Maintain the exact header branding and handwritten footer signature"
+        },
+        {
+          "type": "text_layout",
+          "name": "Vios offer-poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the giant headline, two-car center stage, and three gold offer blocks"
+        }
+      ],
+      "prompt_instructions": "All finance terms must stay exact, especially '50%', '7.49%/NAM', and '0 DONG'. The cars should remain the hero objects with a polished dealership-ad feel."
+    }
+  }
+}

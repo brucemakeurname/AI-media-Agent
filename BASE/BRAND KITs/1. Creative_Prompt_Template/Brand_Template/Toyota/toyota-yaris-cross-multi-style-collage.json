@@ -1,0 +1,70 @@
+{
+  "name": "toyota-yaris-cross-multi-style-collage",
+  "tag": [
+    "yaris-cross",
+    "lifestyle",
+    "collage",
+    "gen-z"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Brand story",
+  "group": "toyota_2046074776025785",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Yaris Cross multi-style personality collage",
+      "color_palette": "White, blue, yellow, red, warm beige, black"
+    },
+    "main_subject": {
+      "type": "Person/Object/Text",
+      "detail": "A dynamic collage poster featuring multiple stylish young adults and Toyota Yaris Cross vehicles. The central headline reads 'YARIS CROSS NGHE DA CHIEU CHIEU DA KIEU'. Four collage panels show different personalities: a short-haired person in sunglasses on the phone beside the phrase 'LINH HOAT NHU CAU LAM BOSS CHUAN NGAU'; a woman in a red outfit standing by a red Yaris Cross with the phrase 'LINH HOAT CA TINH LAM \"EM XINH XAN\"'; a smiling man in blue posing beside a blue Yaris Cross with the phrase 'LINH HOAT TRAI NGHIEM LAM BAN NHIET HUYET'; and a man holding a Toyota key fob toward the camera with the phrase 'LINH HOAT TIEN ICH LAM \"CHANG\" BAN LINH'. Toyota logo is top left and 'Move your world' appears bottom left.",
+      "style": "Editorial lifestyle collage with bold youth-fashion photography, cutout panel layout, and energetic urban-brand storytelling"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / YARIS CROSS / NGHE DA CHIEU / CHIEU DA KIEU / LINH HOAT NHU CAU LAM BOSS CHUAN NGAU / LINH HOAT CA TINH LAM \"EM XINH XAN\" / LINH HOAT TRAI NGHIEM LAM BAN NHIET HUYET / LINH HOAT TIEN ICH LAM \"CHANG\" BAN LINH / Move your world",
+      "items": [
+        "Top Left: Toyota logo and a blue collage panel with a fashionable short-haired person on the phone",
+        "Top Right: Yellow collage panel with a red Yaris Cross and a woman in a red outfit",
+        "Bottom Left: Blue Yaris Cross and a smiling man in blue with an experience-oriented caption card",
+        "Bottom Right: Portrait of a smiling man extending a Toyota key fob toward the camera",
+        "Center/Background: Large layered title lockup 'YARIS CROSS NGHE DA CHIEU CHIEU DA KIEU' spanning across the four lifestyle panels"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright editorial-commercial lighting",
+      "effect": "Crisp cutout shadows, glossy car paint highlights, fashion-photo retouching, lively youth-culture energy"
+    },
+    "technical_specs": {
+      "render_style": "Photo-collage advertising poster with editorial fashion and automotive compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Yaris Cross multi-style personality collage. Centerpiece is a four-panel lifestyle composition mixing fashionable young adults, a red Yaris Cross, a blue Yaris Cross, and a close-up Toyota key fob. Background is a clean white collage field with blue and yellow panel blocks. Surrounding elements: Toyota logo, exact title 'YARIS CROSS NGHE DA CHIEU CHIEU DA KIEU', the four personality caption cards 'LINH HOAT NHU CAU LAM BOSS CHUAN NGAU', 'LINH HOAT CA TINH LAM \"EM XINH XAN\"', 'LINH HOAT TRAI NGHIEM LAM BAN NHIET HUYET', and 'LINH HOAT TIEN ICH LAM \"CHANG\" BAN LINH', plus the footer script 'Move your world'. Technical style: photo-collage advertising poster with editorial fashion and automotive compositing, bright editorial-commercial lighting, crisp cutout shadows and glossy car highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Four lifestyle talent references",
+          "required": true,
+          "source": "this creative or source photos",
+          "usage": "Preserve the distinct fashion styling, poses, and expressions in each panel"
+        },
+        {
+          "type": "product",
+          "name": "Toyota Yaris Cross vehicles and key fob",
+          "required": true,
+          "source": "official Toyota Yaris Cross renders and key-fob reference",
+          "usage": "Maintain the vehicle angles, colors, and the close-up remote key detail"
+        },
+        {
+          "type": "text_layout",
+          "name": "Yaris Cross multi-panel collage layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the four-panel segmentation, layered title lockup, and caption-card placements"
+        }
+      ],
+      "prompt_instructions": "Do not collapse the collage into one scene. The appeal comes from four distinct persona panels tied together by the Yaris Cross title and color-block layout."
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "samsung-galaxy-buds4-pro-one-ui-flow-controls",
+  "tag": [
+    "earbuds-launch",
+    "one-ui",
+    "controls",
+    "buds4-pro"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Infographics",
+  "group": "samsung_1388395939995547",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy Buds4 Pro One UI control integration poster",
+      "color_palette": "Pale lavender gray, teal UI cards, white earbuds, black phone glass, white typography"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Feature-integration poster with a smartphone showing a One UI quick-panel interface, layered floating control cards for Galaxy Buds4 Pro, and two white earbuds flanking the phone.",
+      "style": "Photorealistic UI-and-hardware render, modern Samsung ecosystem feature poster"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Now, everything flows as one in One UI / Galaxy Buds4 Pro / Bluetooth Galaxy Buds4... / L • R 80% | Case 100% / Off / Ambient sound / Adaptive / Active noise canceling / Active noise canceling level",
+      "items": [
+        "Top Left: Large white headline 'Now, everything flows as one in One UI'.",
+        "Top Right: Smaller white subtitle 'Galaxy Buds4 Pro'.",
+        "Bottom Left: One white earbud floating near the lower-left corner.",
+        "Bottom Right: Second white earbud floating near the upper-right side of the phone.",
+        "Center/Background: Front-facing smartphone showing a One UI control center with a time/date line '12:45 Wed, Feb 25', overlaid by teal floating cards for Bluetooth pairing, battery status 'L • R 80% | Case 100%', noise-mode selection, and ANC level slider."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio lighting",
+      "effect": "Glassy UI depth, clean teal card translucency, subtle earbud highlights, polished ecosystem feel"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product and UI render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy Buds4 Pro One UI control integration poster. Centerpiece is a smartphone on a pale lavender background showing a One UI control center, overlaid with teal floating Galaxy Buds4 Pro control cards for Bluetooth, battery status, sound modes, and ANC level. Background is clean and softly lit. Surrounding elements: exact headline 'Now, everything flows as one in One UI', subtitle 'Galaxy Buds4 Pro', and two white earbuds floating on either side of the phone. Technical style: photorealistic product and UI render, soft studio lighting, glossy UI depth and subtle earbud highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy Buds4 Pro white earbuds",
+          "required": true,
+          "source": "official Samsung render",
+          "usage": "Preserve exact earbud angle, color, and finish."
+        },
+        {
+          "type": "ui_reference",
+          "name": "One UI control center with Buds4 Pro control cards",
+          "required": true,
+          "source": "original creative UI",
+          "usage": "Keep exact floating cards, labels, slider, battery percentages, and visible 'Wed, Feb 25' text as on-screen copy."
+        },
+        {
+          "type": "text_layout",
+          "name": "One UI headline and subtitle",
+          "required": true,
+          "source": "original poster",
+          "usage": "Retain the exact centered white heading and subtitle over the pale background."
+        }
+      ],
+      "prompt_instructions": "Use refs for the exact One UI cards and the phone render. The visible 'Wed, Feb 25' should remain unchanged as UI copy rather than being normalized to the session date."
+    }
+  }
+}

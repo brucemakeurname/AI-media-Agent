@@ -1,0 +1,71 @@
+{
+  "name": "vfe-en-france-ensemble-group-photo",
+  "tag": [
+    "vfe",
+    "event-recap",
+    "group-photo",
+    "community",
+    "behind-the-scenes"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Behind the scenes",
+  "group": "vfe_1481177237374964",
+  "prompt": {
+    "project_info": {
+      "theme": "Community celebration photo from the En France Ensemble event",
+      "color_palette": "Warm Stage Gold, Charcoal, Soft Skin Tones, Pink, White"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A wide group photo of a large multi-row crowd of students, parents, and organizers posing indoors with raised hands in front of a brightly lit event stage backdrop reading 'EnFrance Ensemble'.",
+      "style": "Real event photography with wide-angle composition, balanced stage lighting, and candid group energy."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nEnFrance Ensemble",
+      "items": [
+        "Top Left: Small VFE logo in white corner overlay.",
+        "Top Right: Large decorative ceiling light installation and stage truss lighting rig.",
+        "Bottom Left: Front seated row of attendees in dresses and semi-formal clothing.",
+        "Bottom Right: Standing side attendees including a man in a pink polo waving at the edge.",
+        "Center/Background: Large crowd spanning the frame, warm stage backdrop with the event title, and conference hall interior."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Indoor event stage lighting",
+      "effect": "Warm ambient illumination, evenly exposed faces across a large group, subtle stage glow, and authentic conference-hall depth."
+    },
+    "technical_specs": {
+      "render_style": "Photoreal documentary event photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality event recap group photo for VFE. Centerpiece is a large multi-row crowd posing in front of a warm illuminated stage backdrop reading 'EnFrance Ensemble'. Background is a hotel or conference hall interior with stage truss, ceiling lights, and dark side walls. Surrounding elements: VFE logo overlay at top left, seated front row, standing middle and back rows, and wide indoor event perspective. Technical style: photoreal documentary event photography, indoor event stage lighting, even face exposure, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo small overlay",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place at top left."
+        },
+        {
+          "type": "person",
+          "name": "Full event group photo reference",
+          "required": true,
+          "source": "current creative source image",
+          "usage": "Needed to preserve crowd arrangement, attendee count impression, and front/back row composition."
+        },
+        {
+          "type": "background",
+          "name": "Event hall and stage backdrop",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve the warm 'EnFrance Ensemble' backdrop and overhead lighting rig."
+        }
+      ],
+      "prompt_instructions": "This is a real group event photo, so fidelity depends on preserving the broad crowd arrangement, the event backdrop, and the conference-hall setting. Do not stylize it into an illustration."
+    }
+  }
+}

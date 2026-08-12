@@ -1,0 +1,58 @@
+{
+  "name": "parisian-white-blazer-afternoon",
+  "tag": [
+    "ugc",
+    "cafe-social",
+    "outdoor-urban",
+    "parisian-cafe",
+    "white-tweed-blazer",
+    "coffee-portrait"
+  ],
+  "image_type": "ugc-european-cafe-editorial",
+  "image_vibe": "elegant-lively-parisian",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cafe-social/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic 9:16 European cafe lifestyle portrait at a lively Parisian terrace, preserving the supplied white tweed blazer, table setting and CARETTE context.",
+    "main_subject": "One original approved adult woman with natural facial features and hair as supplied, calm stylish expression and realistic skin texture. She wears a white tweed blazer with gold front and sleeve buttons, white cat-eye sunglasses resting on top of her head and a gold wristwatch. She holds a white coffee cup naturally with both hands.",
+    "composition_elements": "Vertical 9:16 eye-level medium portrait. Seat the adult woman at an outdoor cafe table facing slightly toward camera. Include a white cup, silver teapot, glass of water, croissant, dessert cup with whipped cream and the supplied CARETTE plate/signage. Frame a busy terrace with seated patrons and classic Parisian buildings softly distinct in the background.",
+    "lighting_and_atmosphere": "Soft natural afternoon daylight with realistic gentle shadows and highlights on tweed, buttons and tableware. Keep the atmosphere lively yet refined, with no artificial glamour filter.",
+    "technical_specs": "9:16 vertical portrait, 50–85mm equivalent lens, moderate depth of field, sharp face and garment texture, softly blurred but recognizable background, high-resolution photorealism and natural color.",
+    "generated_prompt_string": "Create a photorealistic 9:16 European cafe lifestyle portrait at a lively Parisian terrace of one original approved adult woman with natural facial features, realistic skin texture and a calm stylish expression. She wears a white tweed blazer with gold front and sleeve buttons, white cat-eye sunglasses resting on top of her head and a gold wristwatch, holding a white coffee cup naturally with both hands. Seat her at an outdoor cafe table facing slightly toward camera. Include a silver teapot, glass of water, croissant, dessert cup with whipped cream and the supplied CARETTE plate or signage. Show seated patrons and classic Parisian buildings in a softly distinct background. Use soft natural afternoon daylight, realistic shadows, detailed tweed and tableware, moderate depth of field and natural photorealistic color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, invented logos, altered supplied CARETTE typography, extra text overlays",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "parisian-white-blazer-afternoon.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair, expression, sunglasses and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white tweed blazer, cat-eye sunglasses and gold watch",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve tweed texture, white color, gold buttons, sunglasses and watch; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "CARETTE Parisian cafe terrace and classic buildings",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve terrace layout, supplied CARETTE sign/plate, patrons, buildings and tableware; environment may be replaced with explicit references while retaining the lively cafe composition."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, face, hair, outfit, cup gesture, table setting, CARETTE typography and Parisian environment consistent. The adult, wardrobe and location may be replaced independently through explicit references. Preserve supplied CARETTE text only when the reference is retained; do not invent additional logos or overlays."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adult.",
+      "Replaced strict identity-lock language with approved-adult reference guidance while preserving the editorial concept and wardrobe.",
+      "Added safety and anti-invented-text negative prompts."
+    ]
+  }
+}

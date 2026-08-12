@@ -1,0 +1,79 @@
+{
+  "name": "quiet-girl-crowded-sea",
+  "tag": [
+    "adult-woman",
+    "blue-puffer-jacket",
+    "crowd-blur",
+    "city-street",
+    "isolation",
+    "cinematic"
+  ],
+  "image_type": "cinematic-street-portrait",
+  "image_vibe": "melancholic-isolated-cool",
+  "image_purpose": "editorial",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the central subject is an adult in all three source prompt variants."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "still adult woman isolated inside a fast-moving city crowd",
+      "color_palette": "cobalt blue, slate gray, cool teal, traffic red, muted skin tone",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with dark hair loosely tied back, pale blue eyes, a melancholic expression, and a bright cobalt-blue puffer jacket.",
+      "style": "sharp central street portrait surrounded by radial long-exposure crowd motion"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "central chest-up portrait with intense direct eye contact",
+        "bright cobalt-blue puffer jacket remains sharp",
+        "anonymous crowd blurring radially around the subject",
+        "urban traffic, distant tall buildings, and soft light streaks",
+        "wind lifts a few loose hair strands"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft overcast daylight at approximately 6500K with cool city bounce",
+      "effect": "cool cinematic color grade, natural skin tone, strong subject isolation, and restless motion contrast"
+    },
+    "technical_specs": {
+      "render_style": "85mm f/1.8 central portrait with controlled radial crowd blur, subtle long-exposure effect, natural film grain",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Ultra-realistic cinematic street portrait of an adult woman in a bright cobalt-blue puffer jacket standing still in the middle of a busy city crowd. She holds intense eye contact with the camera and remains sharply focused while anonymous pedestrians rush around her in dynamic radial long-exposure motion blur. Include an urban background with traffic lights, tall buildings, soft light streaks, and a hint of wind moving loose strands of her dark hair. Use a cool cinematic color grade, natural skin tones, soft overcast daylight, shallow depth of field, an 85mm lens at f/1.8, strong subject isolation, editorial street-photography realism, and portrait 4:5 framing.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, recognizable bystanders, text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, duplicated subject",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-blue-puffer-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult face reference when likeness continuity is needed.",
+          "usage": "Keep adult identity, pale eyes, and hair consistent; otherwise the person may be replaced."
+        },
+        {
+          "type": "wardrobe",
+          "name": "cobalt-blue-puffer-jacket-reference",
+          "required": false,
+          "source": "Attach a wardrobe reference when exact quilting, shade, or jacket silhouette matters.",
+          "usage": "Preserve the bright cobalt-blue puffer as the visual anchor; it can be replaced independently."
+        },
+        {
+          "type": "background",
+          "name": "anonymous-city-crowd-motion-reference",
+          "required": false,
+          "source": "Attach a city location plate when exact crosswalk density or traffic arrangement is required.",
+          "usage": "Keep anonymous radial crowd motion and urban depth; the location may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve a clearly adult central subject, cobalt-blue puffer jacket, sharp direct gaze, anonymous crowd blur, and cool city mood. Person, jacket, and city plate can be replaced independently without changing the motion-isolation concept."
+    }
+  }
+}

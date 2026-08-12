@@ -1,0 +1,54 @@
+{
+  "name": "cellphones-acer-nitro-propanel-3199",
+  "tag": ["cellphones", "acer nitro", "gaming laptop", "3199 trieu", "student deal"],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "cellphones_3059019337628294",
+  "prompt": {
+    "project_info": {
+      "theme": "Gaming laptop promo with student offer",
+      "color_palette": "Black, purple, white, neon orange"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A high-contrast gaming-laptop sale poster for the Acer Gaming Nitro ProPanel ANV15-52-74UM, featuring a front-facing laptop with a space-rocket wallpaper, a secondary rear-angle view, and a wide purple price-and-offer footer.",
+      "style": "Gaming retail laptop poster"
+    },
+    "composition_elements": {
+      "type": "Laptop/Typography/Gaming Background/Pricing Footer",
+      "text": "cellphoneS, Acer Gaming Nitro ProPanel ANV15-52-74UM, NITRO PROPANEL, Intel Core i7 Processor 240H | RAM DDR5 Up to 5600 MHz | Card đồ họa NVIDIA RTX 3050, GIÁ ƯU ĐÃI 31.99 Triệu, HỌC SINH - SINH VIÊN Giảm thêm 1 TRIỆU + Quà tặng đặc quyền, Bảo hành 24 tháng | 1 đổi 1 trong 30 ngày",
+      "items": [
+        "Top Center: red cellphoneS logo block.",
+        "Upper Middle: large white title 'Acer Gaming Nitro ProPanel ANV15-52-74UM'.",
+        "Center: front-facing Acer Nitro laptop with dark chassis, orange-backlit keyboard, and 'NITRO PROPANEL' rocket-space wallpaper.",
+        "Left Midground: secondary rear/side laptop view opened at an angle.",
+        "Background: black-and-purple gaming-tech grid with neon hexagon motifs and circuit textures.",
+        "Lower Specs Line: white processor, RAM, and GPU spec text.",
+        "Bottom: large purple pricing footer with segments for '31.99 Triệu', 'Giảm thêm 1 TRIỆU', and 'Quà tặng đặc quyền'.",
+        "Footer Base: warranty line 'Bảo hành 24 tháng | 1 đổi 1 trong 30 ngày'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Neon gaming-promo lighting",
+      "effect": "High-contrast tech glow, cinematic laptop emphasis, strong gamer atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Gaming laptop retail campaign poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "Acer Nitro laptop front and rear renders", "required": true, "source": "source image product reference", "usage": "Preserve both laptop angles, the keyboard backlight color, and the exact wallpaper on the main screen."},
+        {"type": "background", "name": "purple gaming-tech backdrop", "required": true, "source": "source image background reference", "usage": "Maintain the neon hexagon mesh and circuit textures."},
+        {"type": "text_layout", "name": "model title, specs line, and purple pricing footer", "required": true, "source": "source image text reference", "usage": "Keep all visible model, spec, pricing, student-offer, and warranty text exactly."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the gaming wallpaper, the rear laptop angle, and the exact footer segmentation.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the black-purple gamer aesthetic with bright orange keyboard lighting."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square gaming-laptop sale poster with a black-and-purple neon tech background featuring hexagon mesh and circuit textures. Place a red cellphoneS logo at the top center and the large white title 'Acer Gaming Nitro ProPanel ANV15-52-74UM'. Show a front-facing Acer Nitro laptop with an orange-backlit keyboard and a rocket-space wallpaper reading 'NITRO PROPANEL', plus a secondary rear-angle laptop render on the left. Add the specs line 'Intel Core i7 Processor 240H | RAM DDR5 Up to 5600 MHz | Card đồ họa NVIDIA RTX 3050'. At the bottom use a wide purple pricing footer with 'GIÁ ƯU ĐÃI 31.99 Triệu', 'HỌC SINH - SINH VIÊN Giảm thêm 1 TRIỆU', and 'Quà tặng đặc quyền', plus the base line 'Bảo hành 24 tháng | 1 đổi 1 trong 30 ngày'. Technical style: gaming laptop retail campaign poster, neon gaming-promo lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark unreadable text, wrong laptop, low resolution, missing rear-angle render, messy glow, watermark, signature"
+  }
+}

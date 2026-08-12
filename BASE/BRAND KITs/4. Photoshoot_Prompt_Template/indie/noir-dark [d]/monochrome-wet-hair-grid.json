@@ -1,0 +1,73 @@
+{
+  "name": "monochrome-wet-hair-grid",
+  "tag": [
+    "adult-woman",
+    "wet-slicked-hair",
+    "strapless-black-top",
+    "2x2-fashion-grid",
+    "black-and-white"
+  ],
+  "image_type": "four-frame-fashion-grid",
+  "image_vibe": "glamorous-high-contrast-monochrome",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult and used neutral fitted-fashion language while preserving the strapless black top, wet slicked-back hair, four-frame grid, expressive poses, and glam monochrome intent."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "high-fashion black-and-white editorial collage with wet slicked-back hair",
+      "color_palette": "black, white, charcoal, and soft silver highlights",
+      "aspect_ratio": "1:1"
+    },
+    "main_subject": {
+      "description": "A clearly adult woman with wet slicked-back dark hair, natural skin texture, sculpted cheekbones, full natural lips, bold eye makeup, and a confident editorial presence.",
+      "wardrobe": "Fitted black strapless bandeau-style top with a flattering clean neckline and delicate cross necklace.",
+      "pose": "Four confident variations: fingers near lips, hands framing the face, one hand in the wet hair, and a relaxed direct-gaze stance."
+    },
+    "composition_elements": {
+      "framing": "Clean 2x2 grid layout with four equal portrait frames and consistent adult subject identity across panels.",
+      "environment": "Minimal light studio background with thin frame borders and no text or logos.",
+      "focus": "Strong eye contact, wet hair strands, sculpted facial planes, necklace detail, and fitted top texture."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Dramatic high-contrast studio lighting with controlled cinematic shadows and clean highlights on hair, cheekbones, and shoulders.",
+      "atmosphere": "Glamorous, confident, timeless, and editorial."
+    },
+    "technical_specs": {
+      "camera": "Full-frame studio camera with an 85mm portrait lens at f/2.8, 1/125 s, ISO 200",
+      "quality": "Ultra-realistic high-resolution monochrome, sharp eyes, realistic wet hair and skin texture, subtle grain, and professional magazine finish"
+    },
+    "generated_prompt_string": "Create a high-fashion 1:1 black-and-white editorial collage featuring one clearly adult woman with wet slicked-back dark hair, natural skin texture, sculpted cheekbones, full natural lips, bold eye makeup, and a confident editorial presence. She wears a fitted black strapless bandeau-style top with a flattering clean neckline and a delicate cross necklace. Arrange four equal portrait frames in a clean 2x2 grid: fingers near lips, hands framing the face, one hand in the wet hair, and a relaxed direct-gaze stance. Use a minimal light studio background, dramatic high-contrast lighting, controlled cinematic shadows, clean highlights on hair and cheekbones, sharp eyes, realistic wet hair and skin texture, subtle film grain, thin borders, and no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, inconsistent face, readable text, logo, watermark, plastic skin, over-smooth skin, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult subject. Optional wardrobe, necklace, studio, or film references may replace only their named element; preserve the four-frame grid, wet hair, fitted black top, expressive poses, and monochrome glamour.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "fitted-black-strapless-top-and-cross-necklace",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the adult subject's fitted top and necklace while preserving their clean editorial character."
+        },
+        {
+          "type": "location",
+          "name": "minimal-light-studio-grid-background",
+          "required": false,
+          "source": "user-uploaded studio reference",
+          "usage": "Replace only the studio background and border treatment while preserving the 2x2 layout."
+        },
+        {
+          "type": "moodboard",
+          "name": "wet-hair-monochrome-fashion-treatment",
+          "required": false,
+          "source": "user-uploaded film reference",
+          "usage": "Replace only the wet hair finish, grain, and monochrome tonal character."
+        }
+      ]
+    }
+  }
+}

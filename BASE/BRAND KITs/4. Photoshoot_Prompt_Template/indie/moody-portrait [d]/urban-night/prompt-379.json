@@ -1,0 +1,65 @@
+{
+  "name": "prompt-379",
+  "tag": [
+    "approved-adult-face",
+    "1920s-fashion",
+    "newsboy-cap",
+    "brick-alley",
+    "round-sunglasses",
+    "tweed"
+  ],
+  "image_type": "vintage-alley-fashion-portrait",
+  "image_vibe": "contemplative, mysterious, moody, tailored, cinematic",
+  "image_purpose": "fashion-editorial, character-visual, period-moodboard",
+  "group": "indie / moody-portrait / urban-night",
+  "prompt": {
+    "project_info": {
+      "theme": "1920s tailored portrait in a narrow atmospheric alley",
+      "format": "vertical medium portrait",
+      "color_palette": "charcoal gray, black, crisp white, weathered red brick, cool shadows"
+    },
+    "main_subject": {
+      "type": "adult person using a required approved-adult face reference",
+      "detail": "An adult person whose face, facial structure, proportions, features, and expression match the attached approved-adult reference. They have black hair and a neatly groomed black beard when present in the reference, and are styled in 1920s fashion: a gray tweed newsboy cap, black waistcoat over a crisp white shirt, slim black tie, black leather gloves, and a heavy wool overcoat draped over one shoulder.",
+      "style": "hyper-realistic cinematic period fashion portrait"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "medium shot leaning against a weathered brick wall in a narrow alley",
+        "face turned upward with a cool contemplative expression",
+        "round sunglasses as a central accessory",
+        "tailored waistcoat, crisp shirt, tie, gloves, cap, and draped overcoat clearly visible",
+        "brick alley recedes softly behind the subject"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "moody cool dramatic alley lighting",
+      "effect": "soft shadows create depth and mystery while preserving garment texture",
+      "atmosphere": "cool, contemplative, tailored, and cinematic"
+    },
+    "technical_specs": {
+      "render_style": "ultra-detailed sharp-focus cinematic portrait with shallow depth of field",
+      "resolution": "high-detail vertical image",
+      "color_treatment": "cool controlled tones, natural skin texture, soft background falloff"
+    },
+    "generated_prompt_string": "Use the attached approved-adult face reference as the sole identity standard; preserve the adult person's face, facial structure, proportions, features, and expression accurately without celebrity or public-figure substitution. Create a hyper-realistic cinematic medium shot of the subject styled in 1920s fashion: a gray tweed newsboy cap, black waistcoat over a crisp white shirt, slim black tie, black leather gloves, and a heavy wool overcoat draped over one shoulder. Have the person lean against a weathered brick wall in a narrow atmospheric alleyway, looking upward with a cool contemplative expression through round sunglasses. Use moody dramatic cool lighting, soft shadows, sharp focus, shallow depth of field, and a sense of depth and mystery.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, celebrity likeness, public-figure likeness, identity blending, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, text, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "Attach a required approved-adult face reference. Preserve the adult facial identity and the 1920s newsboy cap, waistcoat, white shirt, tie, gloves, draped wool coat, round sunglasses, brick wall, and upward contemplative pose. Do not use celebrity/public-figure likeness.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-reference",
+          "required": true,
+          "source": "user attachment",
+          "usage": "Keep adult face, facial structure, proportions, features, and expression exactly consistent."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

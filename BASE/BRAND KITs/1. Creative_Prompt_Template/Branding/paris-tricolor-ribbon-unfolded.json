@@ -1,0 +1,68 @@
+{
+    "name":  "paris-tricolor-ribbon-unfolded",
+    "tag":  [
+                "branding",
+                "brand story",
+                "city poster",
+                "textile sculpture",
+                "Paris",
+                "ribbon"
+            ],
+    "biz_niche":  "Arts & Culture",
+    "content_format":  "Brand story",
+    "group":  "branding_city_unfolded",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Paris Unfolded textile landmark poster",
+                                        "color_palette":  "French tricolor blue, white, red, stone gray, museum-paper cream"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Graphic",
+                                        "detail":  "A flowing French-tricolor silk ribbon crosses a warm off-white paper field; miniature Paris landmarks are sculpted as a bas-relief inside the fabric’s folds.",
+                                        "style":  "Gallery-grade textile realism fused with architectural miniature sculpture"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Ribbon/Architecture/Typography",
+                                                "text":  "PARIS UNFOLDED; A textile journey through the heart of the French capital, where history and cityscapes arise from woven dreams.",
+                                                "items":  [
+                                                              "Across center: blue, white, and red silk ribbon twists in an S curve.",
+                                                              "Inside ribbon only: Eiffel Tower, Sacré-Cœur, Notre-Dame and dense Parisian streets as pale sculpted relief.",
+                                                              "Lower center: refined serif title and small poetic subtitle.",
+                                                              "Background: off-white museum paper with broad negative space."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft gallery lighting",
+                                                   "effect":  "Tactile folds, subtle sculptural shadows, restrained highlights, elegant depth"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Ultra-detailed HDR 3D poster design",
+                                           "resolution":  "8K gallery-grade composition"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "location",
+                                                                 "name":  "Paris landmark reference",
+                                                                 "required":  true,
+                                                                 "source":  "licensed architectural reference or original city art direction",
+                                                                 "usage":  "Keep landmark silhouettes recognizable while sculpting them into the ribbon."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "title and subtitle placement",
+                                                                 "required":  true,
+                                                                 "source":  "source poster reference",
+                                                                 "usage":  "Preserve centered lower typography hierarchy."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach city landmark reference when a real city is requested.",
+                                                                          "Keep every architectural detail inside the ribbon boundary.",
+                                                                          "Use flag colors only as woven fabric, not flat background bands."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "A silk ribbon unfurls diagonally across the canvas, twisting gently in mid-air. Within the folds of the ribbon exists a miniature sculpted city of [CITY], carved as a 3D bas-relief emerging from woven fabric textures. Inside the ribbon: Landmarks, streets, and skyline rhythms of [CITY], flowing naturally with the ribbon’s curvature, layered in subtle depth. Style: Fabric realism fused with sculptural relief. Soft highlights, tactile folds, elegant poster design. Color palette: Derived from the national flag of [COUNTRY], woven seamlessly into the fabric tones. View \u0026 background: Top-down minimalist layout, off-white museum paper texture, strong negative space. Typography: Title: “[CITY] UNFOLDED” Refined serif subtitle with poetic geographic language. Composition rules: All architectural detail remains strictly inside the ribbon shape. Ultra-detailed, HDR, gallery-grade, 8K poster aesthetic.",
+                   "negative_prompt":  "landmarks outside ribbon, flat flag stripes, dark background, warped architecture, illegible title, cluttered layout, low resolution, watermark"
+               }
+}

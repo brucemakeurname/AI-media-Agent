@@ -1,0 +1,76 @@
+{
+  "name": "warm-home-glamour-soft-focus",
+  "tag": [
+    "soft-glam-home",
+    "east-asian-portrait",
+    "warm-lamp-bokeh",
+    "lace-slip-fashion",
+    "three-quarter-profile"
+  ],
+  "image_type": "indoor-editorial-portrait",
+  "image_vibe": "warm-quiet-luxury",
+  "image_purpose": "profile-visual",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Warm home soft-glam portrait with intimate fashion styling",
+      "color_palette": "warm gray, matte black, fair warm-neutral skin, peach, coral-pink, emerald green, and amber lamp light",
+      "creative_direction": "quiet, elegant, candid indoor beauty portrait"
+    },
+    "main_subject": {
+      "type": "clearly adult East Asian woman",
+      "detail": "adult East Asian woman in three-quarter profile with dark-brown loose updo, messy strands and soft flyaways, calm softly focused gaze to the right, serene expression, soft glam makeup, clean eyeliner, long lashes, peach blush, glossy coral-pink lips, and natural skin texture",
+      "body_description": "slim-to-average frame with soft curves and a feminine silhouette, described through clothing fit and gentle lighting rather than explicit body-part emphasis",
+      "wardrobe": "black lace-trimmed slip-style fashion top with thin straps, deep V lace trim, scalloped edging, small center bow, subtle opaque-lined panels, and matching draped skirt portion",
+      "accessories": "large white floral statement earrings and delicate gold chain necklace with emerald-green pendant"
+    },
+    "composition_elements": {
+      "framing": "tight medium close-up, chest-up, vertical 3:4 portrait",
+      "subject_position": "adult woman seated with torso angled slightly left, head turned right, one hand resting on top of the head in a hair-fixing gesture",
+      "background": "minimal modern living-room corner with warm gray wall, potted green plant on the left, black leather sofa in the foreground, and warm table lamp with patterned bokeh on the right"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft key light from front-left at approximately 4300K mixed with a warm 3000K practical lamp",
+      "effect": "soft highlights on collarbones, shoulders, hair, jewelry, and fabric, gentle shadow sculpting, cozy late-evening calm"
+    },
+    "technical_specs": {
+      "render_style": "full-frame or premium smartphone portrait with 50mm equivalent lens, natural social-media glamour realism",
+      "resolution": "4k vertical 3:4 portrait",
+      "finish": "mild low-noise softness, visible natural skin texture, subtle glow, shallow depth of field, no artificial airbrushing"
+    },
+    "generated_prompt_string": "A soft-glam indoor portrait of a clearly adult East Asian woman in three-quarter profile, seated with her torso angled slightly left and head turned right, one hand resting on top of her head in a natural hair-fixing gesture. She has a dark-brown loose updo with messy strands and soft flyaways, a calm softly focused gaze, serene expression, soft glam makeup, clean eyeliner, long lashes, peach blush, glossy coral-pink lips, and natural skin texture. She wears a black lace-trimmed slip-style fashion top with thin straps, deep V lace trim, scalloped edging, small center bow, subtle opaque-lined panels, and a matching draped skirt portion, plus large white floral statement earrings and a delicate gold chain with an emerald-green pendant. Set her in a minimal modern living-room corner with warm gray wall, potted plant on the left, black leather sofa in the foreground, and warm table lamp bokeh on the right. Use soft key light from front-left mixed with warm practical lamp light, approximately 4300K and 3000K, gentle shadow sculpting, a tight chest-up 3:4 frame, natural skin texture, subtle glow, shallow depth of field, and quiet late-evening warmth. Keep the fashion styling elegant, non-explicit, and editorial.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, explicit body-part emphasis, ambiguous age, transparent fabric, visible intimate areas, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, harsh flash, busy background, text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-east-asian-model",
+          "required": true,
+          "source": "Original warm-home portrait preview image",
+          "usage": "Attach an approved adult face reference for identity continuity; preserve facial structure and likeness without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-lace-trimmed-slip-fashion-look",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the black lace-trimmed slip styling, thin straps, opaque-lined panels, matching drape, earrings, and pendant; keep it fashion-editorial and non-explicit."
+        },
+        {
+          "type": "location",
+          "name": "warm-gray-living-room-lamp-bokeh",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the gray wall, plant left, black sofa, lamp right, warm bokeh, and intimate home environment; room details may be replaced while keeping the hierarchy."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person, wardrobe, and living-room references. Keep the adult identity, three-quarter profile, hand-on-head gesture, black lace-trimmed fashion look, jewelry, plant-left/lamp-right layout, and mixed cool-warm light consistent. Replace the person, room, and props only with approved equivalents; preserve facial structure without celebrity likeness and avoid transparent or explicit styling."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Reframed lingerie and sensual body-specific wording as an opaque-lined, non-explicit lace-trimmed fashion look; clarified the subject as clearly adult while retaining the intimate home editorial intent."
+    ]
+  }
+}

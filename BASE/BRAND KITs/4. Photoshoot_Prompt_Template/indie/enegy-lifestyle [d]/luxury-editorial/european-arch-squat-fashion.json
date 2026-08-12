@@ -1,0 +1,75 @@
+{
+  "name": "european-arch-squat-fashion",
+  "tag": [
+    "adult-woman",
+    "leather-jacket",
+    "european-arches",
+    "brown-tote",
+    "street-fashion"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "muted-urban-elegant",
+  "image_purpose": "lookbook",
+  "group": "indie/enegy-lifestyle/luxury-editorial",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Retained the adult European-arch street-fashion concept while replacing the deep squat, bodysuit, bare-leg emphasis, and suggestive gaze with covered tailoring and an upright editorial pose."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "muted high-fashion portrait beneath a classical European arcade",
+      "color_palette": "black, brown, stone beige, muted gray, and warm medium-tan skin tones",
+      "format": "vertical 3:4 full-length portrait"
+    },
+    "main_subject": {
+      "description": "an adult woman with shoulder-length bronde hair, soft curtain bangs, natural smoky eye makeup, a black leather biker jacket, black tailored trousers, brown leather ankle boots, gold hoop earrings, and a structured brown leather tote",
+      "pose_and_expression": "standing with one shoulder gently turned and one hand resting on the tote strap, direct neutral confident gaze"
+    },
+    "composition_elements": {
+      "camera_angle": "low-to-eye-level full-length fashion portrait with natural proportions",
+      "foreground": "leather jacket texture, brown tote, and stone paving",
+      "background": "classical European stone corridor with repeating arches, vaulted ceiling, and wrought-iron gates",
+      "visual_hierarchy": "adult subject face and leather silhouette, tote, then receding arches"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "soft diffused daylight entering from the open end of the corridor",
+      "atmosphere": "quietly confident, refined, and urban European"
+    },
+    "technical_specs": {
+      "camera": "Canon EOS R5",
+      "lens": "50mm f/2",
+      "settings": "1/320s, f/2.8, ISO 320",
+      "rendering": "natural skin texture, realistic leather creases, shallow-to-medium depth of field, muted earth-tone cinematic grade"
+    },
+    "generated_prompt_string": "Hyper-realistic high-fashion vertical portrait of an adult woman with shoulder-length bronde hair and soft curtain bangs beneath classical European stone arches. She wears an oversized black leather biker jacket with natural creases, black tailored trousers, brown leather ankle boots, thick gold hoop earrings, and a large structured brown leather tote on one shoulder. She stands with a gently turned shoulder, one hand resting on the tote strap, and a direct neutral confident gaze. Frame her in a classical stone corridor with repeating arches, a vaulted ceiling, wrought-iron gates, and soft diffused daylight from the open end behind her. Use a natural low-to-eye-level full-length perspective, sharp focus on the subject, softly blurred arches, realistic leather, natural proportions, and muted black-brown-gray-beige editorial color.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, bodysuit, deep squat, bare-leg emphasis, sexualized pose, seductive gaze, nudity, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-fashion-model-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity and hairstyle only."
+        },
+        {
+          "type": "wardrobe",
+          "name": "leather-look-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Match jacket, trousers, boots, or tote when supplied."
+        },
+        {
+          "type": "location",
+          "name": "european-arcade-reference",
+          "required": false,
+          "source": "approved location reference",
+          "usage": "Match arch rhythm, stone tone, and gates when supplied."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult subject, leather-and-tote styling, upright fashion pose, European arches, and soft daylight; replace only approved identity, wardrobe, or location details."
+    }
+  }
+}

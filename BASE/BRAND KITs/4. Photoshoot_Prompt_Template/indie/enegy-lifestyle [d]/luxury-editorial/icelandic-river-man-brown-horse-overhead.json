@@ -1,0 +1,75 @@
+{
+  "name": "icelandic-river-man-brown-horse-overhead",
+  "tag": [
+    "adult-man",
+    "brown-horse",
+    "icelandic-river",
+    "overhead-view",
+    "minimal-fashion"
+  ],
+  "image_type": "outdoor-fashion-editorial",
+  "image_vibe": "serene-natural-minimal",
+  "image_purpose": "moodboard",
+  "group": "indie/enegy-lifestyle/luxury-editorial",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Retained the Icelandic river, adult male model, brown horse, and overhead minimal editorial concept while removing the named-brand aesthetic and airbrushed rendering direction."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "minimal outdoor fashion editorial beside an Icelandic river",
+      "color_palette": "cream, brown, river gray-blue, moss green, and stone gray",
+      "format": "vertical 9:16 high-angle full scene"
+    },
+    "main_subject": {
+      "description": "an adult man in baggy cream trousers, a white knit sweater, and brown leather boots, standing calmly beside a brown horse",
+      "pose_and_expression": "relaxed, contemplative stance with hands near his pockets as the horse drinks from the river"
+    },
+    "composition_elements": {
+      "camera_angle": "high angle looking down to reveal the model, horse, riverbank, and surrounding terrain",
+      "foreground": "river stones, moss, and the adult model beside the horse",
+      "background": "shallow river current and natural green riverbank patterns",
+      "visual_hierarchy": "model-horse relationship, river texture, then negative space in the landscape"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "soft natural overcast daylight",
+      "atmosphere": "quiet, contemplative, clean, and understated"
+    },
+    "technical_specs": {
+      "camera": "Hasselblad X2D 100C",
+      "lens": "80mm f/1.9",
+      "settings": "1/500s, f/4, ISO 200",
+      "rendering": "natural skin texture, muted contrast, lightly enhanced landscape greens, crisp stone and water detail, subtle fine grain"
+    },
+    "generated_prompt_string": "High-angle fashion editorial looking down at an adult male model and a brown horse beside an Icelandic river. The adult model stands relaxed in baggy cream trousers, a white knit sweater, and brown leather boots, positioned thoughtfully beside the horse as it drinks water. Reveal the riverbank, stones, moss, and natural landscape patterns beneath them. Use a clean minimal composition with balanced negative space, soft natural overcast light, muted contrast, natural skin texture, restrained green landscape tones, and a serene contemporary outdoor-fashion aesthetic in vertical 9:16 framing.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, unsafe animal interaction, animal distress, named-brand aesthetic, airbrushed skin, plastic skin, waxy, over-smooth, over-saturated, HDR look, watermark, logo, readable text, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-male-model-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity only."
+        },
+        {
+          "type": "location",
+          "name": "riverbank-reference",
+          "required": false,
+          "source": "approved landscape reference",
+          "usage": "Match river shape, stones, moss, and terrain when supplied."
+        },
+        {
+          "type": "animal",
+          "name": "brown-horse-reference",
+          "required": false,
+          "source": "approved animal reference",
+          "usage": "Match coat and mane appearance while preserving a calm, safe, non-contact scene."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult model, calm brown horse, high-angle riverbank composition, and soft overcast light; replace only approved identity, landscape, or animal appearance elements."
+    }
+  }
+}

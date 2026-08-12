@@ -1,0 +1,44 @@
+{
+  "name": "morning-light-lazy-mirror-selfie",
+  "tag": ["ugc", "selfie-pov", "korean-pure", "private-indoor", "morning-light", "mirror-selfie", "lazy-bedroom"],
+  "image_type": "sunlit bedroom mirror selfie",
+  "image_vibe": "lazy, warm, hazy, intimate, natural",
+  "image_purpose": "social-media morning selfie",
+  "group": "selfie-pov/korean-pure/private-indoor",
+  "prompt": {
+    "project_info": "Photorealistic 9:16 vertical mirror selfie of one original adult woman seated on a bedroom floor in warm golden-hour morning light, with realistic mobile-camera optics and volumetric dust particles.",
+    "main_subject": "One original adult woman with natural realistic skin and hazel-green eyes, messy high bun secured with two wooden hair sticks, loose blonde-brunette tendrils framing the face, and a relaxed natural expression. She wears an opaque white cotton-jersey crop top with visible microfiber texture and raw-cut hem, plus high-waisted relaxed off-white cotton lounge shorts with a subtly gathered elastic waistband. Do not reproduce Ana de Armas or any other public-figure likeness.",
+    "composition_elements": "Seat the adult woman on the floor in a cross-legged tuck with her left arm draped over her knees and her right arm raised at a 45-degree angle holding a smartphone for a vertical mirror selfie. Show a sun-drenched bedroom through the mirror with beige high-pile plush carpet, minimalist wooden bed frame, rumpled white linens and white vanity chair. Preserve realistic mirror dust motes, vertical light streaks and gaze directed toward the phone screen or mirror focal plane.",
+    "lighting_and_atmosphere": "Hard directional golden-hour sunlight enters from a right-side window at a low angle, with warm #FFD27F color character, strong rim light on the silhouette, high-contrast floor shadows, realistic skin subsurface light and phone-glass highlights. Add suspended dust particles and hazy warm morning ambiance.",
+    "technical_specs": "Mobile sensor simulation, 24mm wide-angle perspective, f/1.8 shallow background depth, 9:16 vertical aspect ratio, slight chromatic aberration near mirror edges, realistic five-finger smartphone grip, natural texture, no text, logo or watermark.",
+    "generated_prompt_string": "Photorealistic 9:16 vertical mirror selfie of one original adult woman seated on a beige plush bedroom carpet in a cross-legged tuck, left arm draped over knees and right arm raised holding a smartphone. Natural hazel-green eyes, messy high bun secured with two wooden hair sticks, loose blonde-brunette tendrils, relaxed expression. Opaque white cotton-jersey crop top with raw hem and high-waisted off-white lounge shorts. Sunlit room with wooden bed, rumpled white linens and vanity chair visible in the mirror, realistic dust motes and vertical streaks. Hard low-angle golden-hour sunlight from right, warm #FFD27F glow, rim light, floor chiaroscuro, 24mm mobile lens, f/1.8, hazy lazy morning mood, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Ana de Armas likeness, transparent clothing, exposed underwear, extra limbs, extra fingers, distorted fingers, warped mirror, plastic skin, waxy, over-smooth, beautify smoothing, over-saturated, HDR look, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "morning-light-lazy-mirror-selfie.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult mirror-selfie subject, hairstyle, opaque white-and-off-white loungewear, floor pose, bedroom, mirror texture, golden-hour light and mobile-camera treatment; replace biometric celebrity identity."
+        },
+        {
+          "type": "image_asset",
+          "name": "1775064546431-a9eemlll-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1775064546431-a9eemlll-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required and image asset is optional; it is not inspected in the text-only workflow. Keep the original adult subject, clothing colors, hairstyle, pose, bedroom, mirror, lighting and camera details consistent. Replace identity only and use opaque clothing."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Ana de Armas biometric likeness with an original adult woman.",
+      "Changed the semi-transparent crop top to opaque cotton while preserving the source color, fit and lazy-bedroom direction.",
+      "Added required safety and artifact exclusions."
+    ]
+  }
+}

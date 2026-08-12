@@ -1,0 +1,70 @@
+{
+  "name": "techcom-insurance-song-an-health-plan",
+  "tag": [
+    "health-insurance",
+    "family",
+    "protection",
+    "techcominsurance"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Infographics",
+  "group": "techcombank_1451537443444646",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcom Insurance Song An health protection plan",
+      "color_palette": "Light blue, white, black, bright red, soft hospital blue"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A family-health insurance poster with 'TECHCOMINSURANCE' at top left and 'TECHCOMBANK' at top right. The headline reads 'Bao hiem suc khoe Techcom Insurance SONG AN' and the subheadline says 'Song hanh bu dap - An tam vien phi'. Three benefit columns list 'Han muc bao ve toi 2.1 ty VND', '160 benh hiem ngheo, benh thong thuong va tai nan', and 'Phi chi tu 499K/nam'. In the lower half, a smiling father, mother, and daughter stand in a softly blurred hospital or clinic environment while the father touches a glowing digital medical shield with a white cross.",
+      "style": "Clean family-protection healthcare poster with soft hospital ambience, realistic family portrait, and benefit-infographic layout"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TECHCOMINSURANCE / TECHCOMBANK / Bao hiem suc khoe Techcom Insurance SONG AN / Song hanh bu dap - An tam vien phi / Han muc bao ve toi 2.1 ty VND / 160 benh hiem ngheo, benh thong thuong va tai nan / Phi chi tu 499K/nam",
+      "items": [
+        "Top Left: TECHCOMINSURANCE logo lockup",
+        "Top Right: TECHCOMBANK logo lockup",
+        "Bottom Left: Mother and daughter smiling toward the father",
+        "Bottom Right: Father interacting with a glowing medical shield icon",
+        "Center/Background: Three-column insurance benefits above a softly blurred clinical interior and a family portrait framed by a translucent diamond shape"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft healthcare-commercial lighting",
+      "effect": "Bright clinical glow, gentle skin retouching, subtle hologram light, calm family reassurance"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal healthcare advertising composite with infographic typography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcom Insurance Song An health protection plan. Centerpiece is a smiling family of three in a softly blurred hospital environment, with the father touching a glowing medical shield containing a white cross. Background is a clean light-blue healthcare field with a translucent diamond overlay. Surrounding elements: TECHCOMINSURANCE and TECHCOMBANK logos, exact headline 'Bao hiem suc khoe Techcom Insurance SONG AN', subheadline 'Song hanh bu dap - An tam vien phi', and the three benefit statements 'Han muc bao ve toi 2.1 ty VND', '160 benh hiem ngheo, benh thong thuong va tai nan', and 'Phi chi tu 499K/nam'. Technical style: photoreal healthcare advertising composite with infographic typography, soft healthcare-commercial lighting, bright clinical glow and calm family reassurance, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Family portrait reference of father, mother, and daughter",
+          "required": true,
+          "source": "this creative or original family stock/source image",
+          "usage": "Preserve facial identity, clothing palette, and interaction around the hologram shield"
+        },
+        {
+          "type": "graphic",
+          "name": "Medical shield hologram icon",
+          "required": true,
+          "source": "campaign graphic asset",
+          "usage": "Keep the glowing cross shield as the health-protection focal icon"
+        },
+        {
+          "type": "text_layout",
+          "name": "Song An insurance infographic layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the three benefit columns, family portrait placement, and brand header structure"
+        }
+      ],
+      "prompt_instructions": "Preserve the numeric claims exactly: '2.1 ty VND', '160', and '499K/nam'. The mood should be reassuring healthcare protection, not luxury banking."
+    }
+  }
+}

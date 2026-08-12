@@ -1,0 +1,70 @@
+{
+  "name": "shopee-77-electric-scooter-winners",
+  "tag": [
+    "winner-announcement",
+    "motorbike-prize",
+    "7-7-campaign",
+    "stage-visual"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Competitions",
+  "group": "shopee_950279474711968",
+  "prompt": {
+    "project_info": {
+      "theme": "Shopee 7.7 winner announcement for electric scooters",
+      "color_palette": "Dark red, orange, gold, white"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A widescreen stage-style poster announcing winners with text 'DA CO NGUOI MAY MAN TRUNG' and giant yellow headline '77 XE MAY DIEN'. Five glossy orange-and-white retro electric scooters stand on a circular lit stage, with one large center scooter facing front. The top-right corner has a bold '77' badge. Floating discount tickets, golden shopping bags, and trophy statues decorate the sides.",
+      "style": "Grand prize-announcement visual with 3D showroom staging, dramatic lighting, and symmetrical product display"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "DA CO NGUOI MAY MAN TRUNG / 77 XE MAY DIEN / 77",
+      "items": [
+        "Top Left: White Shopee logo and orange percent ticket",
+        "Top Right: Large 77 badge and another orange percent ticket",
+        "Bottom Left: Gold trophy statue and floating Shopee shopping bag icon",
+        "Bottom Right: Matching gold trophy statue and more stage graphics",
+        "Center/Background: Circular red stage with spotlights, five retro electric scooters arranged symmetrically, and a dark red awards-show backdrop"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Dramatic awards-show lighting",
+      "effect": "Multiple overhead spotlights, glossy scooter reflections, warm stage glow, cinematic contrast"
+    },
+    "technical_specs": {
+      "render_style": "3D prize-announcement poster with showroom compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee winner announcement. Centerpiece is a symmetrical lineup of five glossy orange-and-white electric scooters on a circular illuminated stage, with the largest scooter front and center. Background is a dark red awards-show environment with spotlights. Surrounding elements: white Shopee logo, giant headline 'DA CO NGUOI MAY MAN TRUNG 77 XE MAY DIEN', top-right '77' badge, floating orange discount tickets, gold trophy statues, and Shopee shopping bag icons. Technical style: 3D prize-announcement poster with showroom compositing, dramatic awards-show lighting, glossy reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Electric scooter render reference",
+          "required": true,
+          "source": "official or campaign scooter render if exact model shape is required",
+          "usage": "Use for the five orange-and-white retro scooters"
+        },
+        {
+          "type": "text_layout",
+          "name": "77 winner-announcement layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the widescreen stage composition, headline hierarchy, and 77 badge"
+        },
+        {
+          "type": "graphic",
+          "name": "Award-stage props",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep trophy statues, Shopee bag icons, and floating discount tickets to maintain the celebratory award feel"
+        }
+      ],
+      "prompt_instructions": "Maintain the wide cinematic layout and the symmetrical five-scooter staging. The image is an announcement that winners already exist, so it should feel like a celebratory recap rather than a teaser."
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+    "name":  "glass-refraction-brand-poster",
+    "tag":  [
+                "brand-poster",
+                "glass-refraction",
+                "typography",
+                "minimal",
+                "product-design"
+            ],
+    "biz_niche":  "Entertainment & Pop Culture",
+    "content_format":  "Brand story",
+    "group":  "poster_147",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Minimal cinematic brand statement disrupted by glass",
+                                        "color_palette":  "Clean white or pale gray, black typography, transparent glass highlights, controlled brand accent"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Bold typography and product object",
+                                        "detail":  "A [BRAND NAME] poster with a black extra-bold slogan and a three-dimensional translucent glass strip that refracts and distorts part of the words and layout.",
+                                        "style":  "Clean modern graphic design, precise 3D glass optics, polished product-render realism"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Typography, logo, glass layer, and product object",
+                                                "text":  "[BRAND NAME]; [SIX-WORD SLOGAN]",
+                                                "items":  [
+                                                              "Top corner: small approved [BRAND NAME] logo.",
+                                                              "Center: bold black brand message and exactly six-word slogan.",
+                                                              "Across the composition: diagonal or curved 3D clear glass plane causing visible optical distortion.",
+                                                              "Upper or side: one brand-relevant product or sculptural object on the uncluttered background.",
+                                                              "Background: clean pale neutral field with smooth shadows and glossy highlights."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft glossy studio lighting",
+                                                   "effect":  "Smooth soft shadows, crisp glass refraction, subtle chromatic edge shift, controlled reflective highlights"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Premium 3D product poster and minimalist graphic design",
+                                           "resolution":  "8k resolution, highly detailed, 1:1 aspect ratio"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "Approved [BRAND NAME] logo",
+                                                                 "required":  true,
+                                                                 "source":  "official licensed brand kit",
+                                                                 "usage":  "Place at the top corner at restrained scale."
+                                                             },
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "Approved product reference",
+                                                                 "required":  false,
+                                                                 "source":  "official product imagery or licensed reference",
+                                                                 "usage":  "Match the included object if exact product identity matters."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "Glass-distortion typography layout",
+                                                                 "required":  true,
+                                                                 "source":  "supplied reference image",
+                                                                 "usage":  "Match oversized black type, clean spacing, and refraction path."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Use approved brand assets when exact logos or products are required.",
+                                                                          "Keep the slogan exactly six words and retain readable undistorted letterforms outside the glass."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Design a cinematic brand poster featuring \u0027[BRAND NAME]\u0027 - include a bold six-word slogan beneath - apply a 3D glass refraction effect that distorts part of the text or layout - incorporate the brand logo in the top corner - smooth shadows, glossy lighting, black extra-bold typography - clean modern background - high-resolution, 1:1 aspect ratio.",
+                   "negative_prompt":  "dark clutter, opaque glass, unreadable slogan, weak refraction, thin typography, warped logo, noisy background, low resolution, watermark, signature"
+               }
+}

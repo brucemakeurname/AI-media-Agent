@@ -1,0 +1,40 @@
+{
+  "name": "star-wars-sci-fi-meteor-shower",
+  "tag": ["ugc", "lifestyle-moment", "other", "other", "sci-fi", "space-opera", "meteor-shower", "edit-prompt"],
+  "image_type": "cinematic sci-fi character scene",
+  "image_vibe": "epic, space-opera, dramatic, luminous",
+  "image_purpose": "social-media sci-fi visual and edit template",
+  "group": "lifestyle-moment/other/other",
+  "prompt": {
+    "project_info": "Create a photorealistic cinematic sci-fi scene with one original adult human character centered slightly smaller in the frame, inspired by a space-opera aesthetic and a dramatic meteor shower.",
+    "main_subject": "One original adult human character positioned slightly smaller at the center of the composition. Keep the identity generic and original, with natural anatomy and a clear sci-fi atmosphere. Do not add or retain a crab or other unrelated foreground creature.",
+    "composition_elements": "Center the adult character in a wide environment shot, leaving substantial sky or space around them. Remove the crab and remove any circular blue glowing radiation line. Replace those elements with numerous bright shooting stars and meteor trails crossing the sky, while keeping the central character legible and visually anchored.",
+    "lighting_and_atmosphere": "Use dramatic cinematic space-opera lighting with cool blue atmospheric glow, luminous meteor trails, deep surrounding shadows and realistic reflected light on the character and ground. The scene should feel epic and otherworldly without introducing extra unrelated objects.",
+    "technical_specs": "Photorealistic cinematic sci-fi rendering, wide environmental composition, natural perspective, realistic shooting-star motion trails, detailed atmospheric depth, balanced blue glow, no text, logo or watermark.",
+    "generated_prompt_string": "Photorealistic cinematic space-opera-inspired sci-fi scene with one original adult human character positioned slightly smaller at the center of a wide composition. Remove the crab and remove any circular blue glowing radiation line. Fill the surrounding sky with many bright shooting stars and meteor trails, with cool blue atmospheric illumination, deep cinematic shadows, realistic reflected light, epic otherworldly mood, natural anatomy, clear central subject, no unrelated foreground creatures, no text or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, crab, unrelated creature, circular radiation ring, distorted anatomy, extra limbs, plastic surfaces, waxy, over-smooth, over-saturated, HDR look, random objects, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "star-wars-sci-fi-meteor-shower.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Follow the written edit instructions: center the human character slightly smaller, remove the crab, remove the circular blue radiation line, and add many shooting stars in a cinematic space-opera direction."
+        },
+        {
+          "type": "image_asset",
+          "name": "1775073409656-bi381ib9-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1775073409656-bi381ib9-1.jpg",
+          "usage": "Optional source asset only; not inspected and never used to override the written edit instructions."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required; the image asset is optional and is not inspected in the text-only workflow. Apply only the written transformations: smaller centered adult character, no crab, no circular radiation line, many shooting stars, and cinematic sci-fi atmosphere."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "ysl-libre-edp-90ml-gift-set-offer",
+  "tag": [
+    "ysl",
+    "libre-edp",
+    "gift-with-purchase",
+    "fragrance",
+    "luxury-beauty"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "ysl_1886877755182641",
+  "prompt": {
+    "project_info": {
+      "theme": "YSL Libre EDP 90ml gift-with-purchase offer",
+      "color_palette": "Black, gold, champagne beige, blush pink"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A premium product-offer poster showing a large YSL Libre perfume bottle on the left, with gift items on the right: a pink YSL pouch, a miniature YSL Libre EDT 7.5ml bottle, and a pink cushion compact. Top text reads 'NƯỚC HOA LIBRE EDP 90ML'. Round badges say 'MUA 4.800K' and 'TẶNG 1.800K'. Smaller copy says 'CUSHION DẠNG LƯỚI TOUCHE ÉCLAT GLOW PACT MINI', 'YSL LIBRE EDT 7.5ML MINIATURE', and 'TÚI ĐỰNG THỜI THƯỢNG YSL PINK'.",
+      "style": "Luxury retail promo poster with elevated gold blocks and glossy premium product lighting"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "YvesSaintLaurent BEAUTÉ; NƯỚC HOA LIBRE EDP 90ML; MUA 4.800K; TẶNG 1.800K; CUSHION DẠNG LƯỚI TOUCHE ÉCLAT GLOW PACT MINI; YSL LIBRE EDT 7.5ML MINIATURE; TÚI ĐỰNG THỜI THƯỢNG YSL PINK",
+      "items": [
+        "Top Left: YSL Beauté logo and centered gold headline",
+        "Top Right: Cream-gold gift-value badge 'TẶNG 1.800K'",
+        "Bottom Left: Large YSL Libre bottle standing on stepped gold blocks beside the 'MUA 4.800K' badge",
+        "Bottom Right: Pink pouch, miniature perfume, and pink cushion compact arranged on cream and bronze display cubes",
+        "Center/Background: Black luxury backdrop with layered gold and cream blocks supporting the products"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Glossy luxury product lighting",
+      "effect": "Glass reflections, metallic gold highlights, soft glow edges, premium retail-display depth"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal luxury cosmetics advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury product-offer poster for YSL Beauté. Centerpiece is a large YSL Libre perfume bottle on stepped gold blocks with the exact headline 'NƯỚC HOA LIBRE EDP 90ML'. Include round badges 'MUA 4.800K' and 'TẶNG 1.800K', plus the exact gift lines 'CUSHION DẠNG LƯỚI TOUCHE ÉCLAT GLOW PACT MINI', 'YSL LIBRE EDT 7.5ML MINIATURE', and 'TÚI ĐỰNG THỜI THƯỢNG YSL PINK'. Background is a black luxury display with cream and bronze geometric blocks. Technical style: photoreal luxury cosmetics advertising composite, glossy luxury product lighting, metallic gold highlights and premium retail depth, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Yves Saint Laurent Beauté logo",
+          "required": true,
+          "source": "original branding",
+          "usage": "Top luxury logo lockup"
+        },
+        {
+          "type": "product",
+          "name": "YSL Libre EDP 90ml bottle",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Match the bottle proportions, gold cassandre logo, cap shape, and amber juice"
+        },
+        {
+          "type": "product",
+          "name": "Pink pouch, Libre miniature, and pink cushion compact",
+          "required": true,
+          "source": "real product references required",
+          "usage": "Recreate the right-side gift set exactly as the offer bundle"
+        },
+        {
+          "type": "graphic",
+          "name": "Gold promotional block display",
+          "required": true,
+          "source": "original layout",
+          "usage": "Preserve stepped cream and bronze cubes under all products"
+        }
+      ],
+      "prompt_instructions": "Treat this as a high-fidelity retail promo board. Product accuracy matters more than atmosphere. Keep the black-and-gold YSL luxury staging and the exact price/gift wording."
+    }
+  }
+}

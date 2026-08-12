@@ -1,0 +1,64 @@
+{
+  "name": "architectural-mono-profile",
+  "tag": [
+    "adult-woman",
+    "monochrome-street",
+    "side-profile",
+    "architectural-tailoring",
+    "motion-blur"
+  ],
+  "image_type": "monochrome-street-profile",
+  "image_vibe": "minimal-architectural-noir",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "minimal architectural monochrome street portrait",
+      "color_palette": "black, white, charcoal, and soft gray",
+      "aspect_ratio": "2:3"
+    },
+    "main_subject": {
+      "description": "An adult woman with a short sleek light-brown bob, natural skin texture, and a defined jawline.",
+      "wardrobe": "Minimal structured dark tailoring with a clean architectural silhouette and understated texture.",
+      "pose": "Standing in a clean side profile with eyes focused forward and a calm, composed expression."
+    },
+    "composition_elements": {
+      "framing": "Chest-level vertical portrait with the subject centered in profile and blurred pedestrians sweeping through the foreground and background.",
+      "environment": "Urban architectural street setting with abstract building planes and indistinct moving pedestrians; no readable text or logos.",
+      "focus": "Crisp profile, jawline, hair texture, and tailoring against strong directional motion blur."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft overcast daylight with gentle shadow transitions and even monochrome tonal separation.",
+      "atmosphere": "Quiet, modern, graphic, and contemplative."
+    },
+    "technical_specs": {
+      "camera": "Leica SL3 with 75mm APO-Summicron lens at f/2.8, chest-level viewpoint, slow shutter speed",
+      "quality": "Photorealistic monochrome, shallow compression, authentic motion blur, fine grain, natural skin, and restrained contrast"
+    },
+    "generated_prompt_string": "Create a photorealistic 2:3 editorial monochrome street photograph of an adult woman with a short sleek light-brown bob, natural skin texture, and a defined jawline. She wears minimal structured dark tailoring with a clean architectural silhouette and stands in a clean side profile with eyes focused forward and a calm, composed expression. Capture her at chest level with a Leica SL3 and 75mm APO-Summicron at f/2.8 using a slow shutter, shallow compression, and strong motion blur from indistinct pedestrians moving around her. Use soft overcast daylight, gentle shadow transitions, graphic urban architecture, fine film grain, and no readable text or logos.",
+    "negative_prompt": "minor, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, excessive HDR, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original subject. Optional wardrobe, environment, or mood references may replace only their named element while preserving the side profile, motion blur, monochrome palette, and architectural minimalism.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "architectural-dark-tailoring",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the dark structured tailoring and preserve its clean silhouette."
+        },
+        {
+          "type": "location",
+          "name": "monochrome-urban-architecture",
+          "required": false,
+          "source": "user-uploaded location reference",
+          "usage": "Replace only the architectural street planes and pedestrian flow; remove readable text."
+        }
+      ]
+    }
+  }
+}

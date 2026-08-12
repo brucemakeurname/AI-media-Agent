@@ -1,0 +1,70 @@
+{
+  "name": "shopee-enchanteur-summer-bath-premium-beach",
+  "tag": [
+    "summer-promo",
+    "bodycare",
+    "beach-theme",
+    "product-hero"
+  ],
+  "biz_niche": "Travel & Hospitality",
+  "content_format": "Special offers",
+  "group": "shopee_1031958749353747",
+  "prompt": {
+    "project_info": {
+      "theme": "Premium summer bodycare beach promotion",
+      "color_palette": "Sky blue, beach sand beige, royal blue, pink, yellow, white"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "Two large Enchanteur Luxury bodycare bottles, one white foam bottle and one pink shower gel bottle, stand inside a yellow-and-white inflatable ring on a tropical beach. The headline says 'TRAI NGHIEM TAM CAO CAP CHAM DA SANG MIN'. Blue ticket banners read 'MUA 1 DUOC 3', 'VOUCHER SHOPEEVIP LEN DEN 20%', and 'UU DAI MO BAN'. Palm leaves frame the sky and small beach balls sit on the sand.",
+      "style": "Bright tropical bodycare promo with clean glossy packshots and vacation-themed merchandising"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "Enchanteur / TRAI NGHIEM TAM CAO CAP CHAM DA SANG MIN / MUA 1 DUOC 3 / VOUCHER SHOPEEVIP LEN DEN 20% / UU DAI MO BAN",
+      "items": [
+        "Top Left: White Shopee logo and Enchanteur brand logo",
+        "Top Right: Palm leaves and clear blue sky",
+        "Bottom Left: Small duck float toy on the sand",
+        "Bottom Right: Two small beach balls near the shoreline",
+        "Center/Background: Sandy tropical beach with sea horizon, a large yellow-white inflatable ring, and the two Enchanteur bottles tilted slightly toward each other"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright tropical daylight",
+      "effect": "Sunlit packaging glow, crisp shadows, cheerful beach reflections, high-key commercial clarity"
+    },
+    "technical_specs": {
+      "render_style": "Commercial product poster with photo-composite beach staging",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for Enchanteur on Shopee. Centerpiece is a tropical beach product setup with two large Enchanteur bodycare bottles inside a yellow-and-white inflatable swim ring on the sand. Background is a bright summer beach with palm leaves, blue sky, and sea horizon. Surrounding elements: Shopee and Enchanteur logos, headline 'TRAI NGHIEM TAM CAO CAP CHAM DA SANG MIN', and a blue three-part ticket banner reading 'MUA 1 DUOC 3', 'VOUCHER SHOPEEVIP LEN DEN 20%', and 'UU DAI MO BAN', plus small beach props. Technical style: commercial product poster with photo-composite beach staging, bright tropical daylight, crisp shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Enchanteur Luxury product packshots",
+          "required": true,
+          "source": "official product packshots for the shower foam and shower gel bottles",
+          "usage": "Attach for exact bottle shape, labels, flower artwork, and pump heads"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee, Enchanteur, and ShopeeVIP logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for top-left branding and the ShopeeVIP mention inside the offer banner if needed"
+        },
+        {
+          "type": "text_layout",
+          "name": "Summer bodycare promo layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the exact headline, blue offer strip, and beach float composition"
+        }
+      ],
+      "prompt_instructions": "Keep this as a bright product-hero beach poster with clean retail clarity. Preserve the exact visible wording and the product scale inside the inflatable ring."
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+    "name":  "fries-nightlight-24-hour-poster",
+    "tag":  [
+                "brand-poster",
+                "ambient-light",
+                "fries",
+                "minimal-advertising",
+                "logo"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Brand story",
+    "group":  "poster_1012",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "24-hour restaurant availability shown as a glowing fries nightlight",
+                                        "color_palette":  "Deep navy, warm golden yellow, dark brown, white, and red"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product metaphor",
+                                        "detail":  "A McDonald\u0027s-style fries carton converted into a plug-in nightlight; glowing golden fries emit warm light from a wall outlet.",
+                                        "style":  "Minimal conceptual advertising, tactile product photography, polished poster art"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Product prop, logo lockup, and sparse type",
+                                                "text":  "open 24 hours; Underwood Dessert",
+                                                "items":  [
+                                                              "Center: fries carton plugged into a wall outlet, its fries acting as the luminous bulb.",
+                                                              "Upper center: glowing golden arches symbol with tiny white \u0027open 24 hours\u0027 directly below.",
+                                                              "Bottom right: small approved brand logo lockup.",
+                                                              "Bottom center: tiny \u0027Underwood Dessert.\u0027 credit line.",
+                                                              "Background: dark navy painted wall with a circular warm-yellow pool of reflected light."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Warm practical glow against a dark room",
+                                                   "effect":  "Golden halo, subtle wall texture, soft shadows, high contrast, calm nighttime mood"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "High-end conceptual product advertising photography",
+                                           "resolution":  "8k resolution, highly detailed, vertical poster"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "Authorized McDonald\u0027s marks",
+                                                                 "required":  true,
+                                                                 "source":  "official licensed brand kit",
+                                                                 "usage":  "Use arches above the product and logo lockup at lower right only when authorized."
+                                                             },
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "Approved fries packaging reference",
+                                                                 "required":  true,
+                                                                 "source":  "official or licensed product reference",
+                                                                 "usage":  "Match carton silhouette and packaging material."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "Nightlight poster layout",
+                                                                 "required":  true,
+                                                                 "source":  "supplied reference image",
+                                                                 "usage":  "Match outlet placement, symbol hierarchy, and small-print locations."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Use brand marks only with approval; otherwise replace consistently with a fictional restaurant identity.",
+                                                                          "Keep the fries-as-light metaphor physically readable and do not add unrelated objects."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "The creative poster features a box of fries transformed into a nightlight in the center. The golden fries act as light, reflecting off the wall behind the outlet and casting a yellow glow on the McDonald\u0027s logo. Below the logo, the words \u0027open 24 hours\u0027 are displayed in tiny white print, directly announcing McDonald\u0027s 24-hour operation with its most recognizable element. The bottom right corner displays the McDonald\u0027s logo, and at the bottom center, in tiny print, is the word \u0027Underwood Dessert.\u0027",
+                   "negative_prompt":  "daylight, cluttered scene, extra food, illegible text, distorted fries, broken outlet, harsh flash, watermark, signature"
+               }
+}

@@ -1,0 +1,72 @@
+{
+  "name": "red-light-intense-stare",
+  "tag": [
+    "adult-woman",
+    "black-turtleneck",
+    "red-light-bar",
+    "dark-portrait",
+    "messy-hair",
+    "minimalist"
+  ],
+  "image_type": "cinematic-studio-portrait",
+  "image_vibe": "moody-intense-minimal",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the portrait subject is an adult."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "minimalist dark portrait split by a horizontal red light bar",
+      "color_palette": "charcoal gray, black, saturated red, muted skin tone",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with loose messy dark hair falling over one eye, a black turtleneck, and an intense direct gaze.",
+      "style": "centered minimalist cinematic portrait with natural skin texture"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "centered head-and-shoulders portrait",
+        "bright sharp horizontal red light bar crossing both eyes",
+        "hair partly obscuring one eye",
+        "matte gray wall background",
+        "all facial planes below and above the light bar falling into deep shadow"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "narrow red LED projector bar at eye level with minimal dim neutral fill",
+      "effect": "high contrast, saturated red eye highlight, deep sculpted shadow, and controlled psychological tension"
+    },
+    "technical_specs": {
+      "render_style": "85mm lens at f/2, centered framing, subtle film grain, natural vignetting, no beauty retouching",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Ultra-realistic dramatic portrait of an adult woman with messy dark hair falling over one eye, wearing a black turtleneck and centered with an intense direct stare. A bright sharp horizontal red light bar highlights only the eyes and casts a red reflection across a matte gray wall, while the rest of the portrait falls into deep shadow. Keep the image moody, minimalist, cinematic, and realistic, with natural skin texture, controlled contrast, an 85mm lens at f/2, and portrait 4:5 framing. No text or logo.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, glowing eyes, multiple light bars",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-portrait-reference",
+          "required": false,
+          "source": "Attach an authorized adult person reference when likeness continuity is required.",
+          "usage": "Preserve adult identity and hair silhouette if attached; otherwise use a generic adult subject."
+        },
+        {
+          "type": "graphic",
+          "name": "horizontal-red-light-bar-reference",
+          "required": false,
+          "source": "Attach a lighting reference if exact bar height, thickness, or red hue must match.",
+          "usage": "Keep a single sharp non-textual red bar at eye level; it may be adjusted independently."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve the adult centered portrait, black turtleneck, messy hair, one horizontal red eye-line bar, gray wall, and deep shadows. Identity and light-bar design may be replaced independently."
+    }
+  }
+}

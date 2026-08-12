@@ -1,0 +1,70 @@
+{
+  "name": "toyota-veloz-cross-bovoi-all-out-offer",
+  "tag": [
+    "veloz-cross",
+    "sales-offer",
+    "mascot",
+    "finance-promo"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Special offers",
+  "group": "toyota_1732402034613549",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Veloz Cross all-out promotional offer with Bovoi mascot",
+      "color_palette": "Sky blue, orange, white, chrome silver, city gray"
+    },
+    "main_subject": {
+      "type": "Object/Person/Text",
+      "detail": "A high-energy sales poster with Toyota logo top left and headline 'CHOT TOYOTA VELOZ CROSS BO VOI Lo het'. A blue elephant mascot in an orange striped polo and beige shorts stands on the left making an OK hand gesture. A white Toyota Veloz Cross is displayed on the right in a front three-quarter view. Above the car is a large chrome-framed scoreboard showing three orange offer panels: 'UU DAI 100% Le phi truoc ba', 'UU DAI LAI SUAT 0%', and 'TANG 01 NAM Bao hiem than vo'. Bottom right has an orange CTA button 'MUA NGAY'. Bottom-left script says 'Move your world'.",
+      "style": "Glossy dealership campaign poster with mascot branding, metallic offer-board styling, and polished city backdrop"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / CHOT TOYOTA VELOZ CROSS / BO VOI / Lo het / UU DAI 100% Le phi truoc ba / UU DAI LAI SUAT 0% / TANG 01 NAM Bao hiem than vo / MUA NGAY / Move your world",
+      "items": [
+        "Top Left: Toyota logo against a bright blue city sky",
+        "Top Right: White cloud and skyline towers framing the large sales board",
+        "Bottom Left: Blue elephant mascot and handwritten 'Move your world'",
+        "Bottom Right: White Toyota Veloz Cross and glowing orange CTA button 'MUA NGAY'",
+        "Center/Background: Large chrome-framed promotional board with three orange finance-and-insurance offer panels"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright commercial automotive lighting",
+      "effect": "Glossy reflections on the car, chrome highlights on the offer board, upbeat promotional glow"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal automotive sales composite with mascot and 3D promo-board treatment",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Veloz Cross all-out promotional offer. Centerpiece is a white Toyota Veloz Cross beside a cheerful blue elephant mascot in an orange shirt. Background is a bright city scene under a blue sky with a large metallic offer board. Surrounding elements: Toyota logo, exact headline 'CHOT TOYOTA VELOZ CROSS BO VOI Lo het', three offer panels 'UU DAI 100% Le phi truoc ba', 'UU DAI LAI SUAT 0%', and 'TANG 01 NAM Bao hiem than vo', plus the orange CTA 'MUA NGAY' and footer script 'Move your world'. Technical style: photoreal automotive sales composite with mascot and 3D promo-board treatment, bright commercial automotive lighting, glossy reflections and chrome highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Toyota Veloz Cross exterior reference",
+          "required": true,
+          "source": "official Veloz Cross renders",
+          "usage": "Preserve the front grille, wheel design, and front-three-quarter angle"
+        },
+        {
+          "type": "person",
+          "name": "Bovoi elephant mascot reference",
+          "required": true,
+          "source": "this creative or campaign mascot asset",
+          "usage": "Keep the exact blue-elephant character, orange polo, beige shorts, and OK pose"
+        },
+        {
+          "type": "text_layout",
+          "name": "Veloz Cross promo-board layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the top headline, three-panel offer board, and CTA placement"
+        }
+      ],
+      "prompt_instructions": "Preserve all offer numbers exactly: '100%', '0%', and '01 NAM'. Keep the tone lively and sales-driven rather than premium-minimal."
+    }
+  }
+}

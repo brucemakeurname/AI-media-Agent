@@ -1,0 +1,66 @@
+{
+  "name": "retro-flash-street-girl-supra",
+  "tag": [
+    "adult-woman",
+    "retro-coupe",
+    "streetwear",
+    "direct-flash",
+    "urban-night"
+  ],
+  "image_type": "night-streetwear-portrait",
+  "image_vibe": "gritty-retro-confident",
+  "image_purpose": "streetwear-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "source_url": "https://x.com/harboriis/status/2028494151671767502",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject is an adult, changed the exact-face request to an approved adult reference workflow, and removed the named car, shirt logo, graffiti lettering, and wall text."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult retro-flash streetwear portrait beside an unbranded sports coupe",
+      "color_palette": "white car paint, charcoal, black denim, tan suede, concrete gray, and flash white",
+      "aspect_ratio": "2:3"
+    },
+    "main_subject": {
+      "description": "An adult woman whose face may match an approved adult reference, with messy wavy black wolf-cut hair and a calm confident expression.",
+      "wardrobe": "Oversized charcoal corduroy crewneck with a blank chest, baggy black denim jeans, tan suede boots, and a plain silver chain.",
+      "pose": "Leaning casually against the hood of an unbranded white retro sports coupe, hands in pockets, full body visible."
+    },
+    "composition_elements": {
+      "framing": "Candid full-body vertical portrait at eye level.",
+      "environment": "Gritty urban corner with a concrete wall carrying abstract non-letter graffiti marks, no readable text, badges, or license plates."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Direct camera flash with hard shadows and a dark underexposed street background.",
+      "atmosphere": "Raw 1990s streetwear, candid, and self-possessed."
+    },
+    "technical_specs": {
+      "render_style": "raw 4K flash photography",
+      "quality": "realistic fabric, concrete texture, natural skin, controlled grain"
+    },
+    "generated_prompt_string": "Create a realistic candid full-body night portrait of an adult woman, optionally matching an approved adult face reference, leaning casually against an unbranded white retro sports coupe. She has messy wavy black wolf-cut hair, a calm confident expression, an oversized charcoal corduroy crewneck with a blank chest, baggy black denim jeans, tan suede boots, and a plain silver chain. Her hands are in her pockets. Set the scene on a gritty urban corner with a concrete wall marked only by abstract non-letter graffiti shapes, no readable writing, badges, or license plates. Use direct camera flash, hard shadows, a dark underexposed background, raw 1990s streetwear character, 4K realism, and natural texture.",
+    "negative_prompt": "minor, unapproved identity reference, Toyota, Supra, logo, readable shirt text, graffiti words, license plate, watermark, nudity, explicit, nsfw, overly revealing clothing, distorted hands, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "The adult identity reference is optional. Other references are optional and replace only the stated element; remove branded or readable details.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved-adult-face-reference",
+          "required": false,
+          "source": "user upload",
+          "usage": "Match approved adult facial identity only, without age changes or blending."
+        },
+        {
+          "type": "vehicle_reference",
+          "name": "unbranded-white-retro-coupe",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace vehicle silhouette while removing badges and plates."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "dark-red-silk-dancer",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "aerial-silk",
+    "burgundy"
+  ],
+  "image_type": "aerial silk performance fashion portrait",
+  "image_vibe": "dramatic, poetic, athletic, theatrical",
+  "image_purpose": "fashion campaign and performance editorial",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic studio portrait of one approved adult aerial-silk artist suspended in a dynamic pose against a dark matte black void.",
+    "main_subject": "Approved adult woman with flowing platinum-silver hair, focused serene expression, deep burgundy-red silk or satin flowing dress with a high side slit, white aerial-silk wraps around the torso and one ankle, thick black choker, and pointed bare feet. She grips one vertical white aerial silk above her head with the right hand while the left arm extends outward.",
+    "composition_elements": [
+      "Medium-full shot shows the entire suspended pose and dramatic fan-like red dress arc.",
+      "Vertical white silk creates a strong central line against the black background and wraps the torso and ankle safely.",
+      "Open near-split aerial pose with one leg extended and one bent/wrapped, emphasizing athletic control and fabric motion.",
+      "Keep face, core, silk tension, dress folds, hair movement, and limb anatomy sharp and coherent."
+    ],
+    "lighting_and_atmosphere": "Theatrical chiaroscuro spotlight with strong highlights on skin and fabric folds, soft edge halo around hair and limbs, controlled shadows, and visible silk texture.",
+    "technical_specs": "Photorealistic 4:5 studio portrait, 50mm lens at f/5.6, high-speed capture of fabric motion, sharp face and core focus, realistic silk, skin, hair, and wrap texture, subtle film grain, no text or watermark.",
+    "generated_prompt_string": "Photorealistic professional studio portrait of one approved adult aerial-silk artist with flowing platinum-silver hair, focused serene expression, suspended in a dynamic open near-split pose against a dark matte black void. She grips a single vertical white aerial silk above her head with her right hand, extends her left arm outward, and wears a deep burgundy-red silk or satin flowing dress with a high side slit, white aerial-silk wraps around her torso and one ankle, a thick black choker, and pointed bare feet. The red dress billows outward in a large fan-like arc, while the central white silk forms a strong vertical line. Use theatrical chiaroscuro spotlighting, strong highlights on fabric folds, a soft edge halo around hair and limbs, sharp face and core focus, high-speed fabric motion, 50mm f/5.6, 4:5 composition, no text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "celebrity likeness",
+      "unsafe rigging",
+      "broken silk",
+      "distorted anatomy",
+      "extra limbs",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "garbled fabric",
+      "watermark",
+      "text",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "dark-red-silk-dancer.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for adult identity, face, hair, expression, body orientation, and performance pose."
+        },
+        {
+          "type": "wardrobe",
+          "name": "burgundy silk dress, white aerial wraps, black choker",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve dress color, motion, slit, wraps, choker, and fabric texture."
+        },
+        {
+          "type": "accessory",
+          "name": "vertical white aerial silk",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve rigging direction, tension, wrap placement, and safe pose geometry."
+        }
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, and aerial-silk references; no optional assets are needed. Keep identity, outfit, silk, pose, rigging, lighting, environment, and fabric motion consistent. Replace only with an equivalent approved adult, equivalent supplied wardrobe, or equivalent performance reference. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "golden-hour-backyard-bbq",
+  "tag": [
+    "ugc",
+    "cozy-home",
+    "outdoor-nature",
+    "backyard-bbq",
+    "golden-hour",
+    "food-lifestyle"
+  ],
+  "image_type": "ugc-backyard-lifestyle-portrait",
+  "image_vibe": "warm-cheerful-suburban",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cozy-home/outdoor-nature",
+  "prompt": {
+    "project_info": "Create an ultra-photorealistic cinematic backyard barbecue lifestyle portrait during golden-hour sunset, preserving the warm suburban family-home atmosphere and realistic food preparation.",
+    "main_subject": "One original approved adult woman with neatly styled shoulder-length light-brown hair, soft natural makeup, realistic skin texture and stylish eyeglasses. She wears a fitted neutral-tone T-shirt and green plaid apron, smiles warmly toward camera and holds metal grilling tongs while turning steaks.",
+    "composition_elements": "Vertical 4:5 or 2:3 medium-full portrait beside a modern stainless-steel barbecue grill. Keep the woman in sharp focus at the right, with ribeye steaks, flame and natural smoke in the foreground. Include an outdoor counter with a beer glass, supplied barbecue sauce bottle, spice grinder and small sauce bowl with fresh herbs; show blurred trees, wooden fence and brick house behind her.",
+    "lighting_and_atmosphere": "Warm golden sunset creates a gentle rim light on hair and shoulders, soft natural shadows and creamy background bokeh. Preserve realistic smoke and fire dynamics, clean but lived-in outdoor surfaces and cheerful suburban atmosphere.",
+    "technical_specs": "85mm portrait lens feel at f/1.8, shallow depth of field, sharp eyes, glasses, food and grill detail, realistic skin and fabric texture, warm natural grading, cinematic highlight rolloff and no HDR or plastic processing.",
+    "generated_prompt_string": "Create an ultra-photorealistic cinematic backyard barbecue portrait during golden-hour sunset of one original approved adult woman with neatly styled shoulder-length light-brown hair, soft natural makeup, realistic skin texture and stylish eyeglasses. She wears a fitted neutral-tone T-shirt and green plaid apron, smiles warmly toward camera and holds metal grilling tongs while turning ribeye steaks on a modern stainless-steel barbecue grill. Use a vertical 4:5 or 2:3 medium-full frame with the woman sharp at the right, steaks, flame and natural smoke in the foreground, and an outdoor counter holding a beer glass, supplied barbecue sauce bottle, spice grinder and small sauce bowl with fresh herbs. Include blurred trees, wooden fence and brick house in the background. Use warm sunset rim light, soft shadows, creamy bokeh, realistic smoke and fire, detailed food, skin and fabric texture, an 85mm f/1.8 look and warm natural color without HDR processing.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, unsafe grill handling, uncontrolled fire, spilled hot liquid, invented logos, altered supplied label, unreadable added text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "golden-hour-backyard-bbq.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair, glasses, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "neutral fitted T-shirt, green plaid apron and eyeglasses",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve shirt color, apron plaid, glasses and fit; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "stainless grill, outdoor counter, wooden fence, trees and brick house",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve grill position, counter, fence, trees, house, sunset direction and safe cooking environment; setting may be replaced through explicit references."
+        },
+        {
+          "type": "product",
+          "name": "ribeye steaks, beer glass, barbecue sauce bottle, spice grinder and herb bowl",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve food, props and supplied label only when the reference is retained; products may be replaced with explicit references without inventing branding."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe, location and product references. Keep identity, face, hair, glasses, outfit, grilling action, food placement, smoke, fire and golden-hour environment consistent. The adult, wardrobe, setting and products may be replaced independently through explicit references. Preserve existing product typography only when supplied; do not invent logos or readable labels."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an original approved adult.",
+      "Removed generic HDR processing language and preserved natural cinematic lighting and texture.",
+      "Added safety, fire-handling, anti-artifact and anti-invented-label negative prompts."
+    ]
+  }
+}

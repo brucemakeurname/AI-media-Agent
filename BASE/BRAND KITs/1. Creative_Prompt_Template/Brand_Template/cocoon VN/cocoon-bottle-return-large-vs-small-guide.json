@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-bottle-return-large-vs-small-guide",
+  "tag": [
+    "recycling",
+    "sorting-guide",
+    "bottle-return",
+    "eco-campaign",
+    "flatlay",
+    "text-explainer"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Process post",
+  "group": "cocoon_1672633197116795",
+  "prompt": {
+    "project_info": {
+      "theme": "Bottle-return sorting guide for large and small Cocoon packaging",
+      "color_palette": "Warm Cream, Soft Pink, Amber Orange, Forest Green, Deep Brown"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A sunlit overhead still life showing two collections of used Cocoon packaging: a large white wire basket filled with full-size bottles and pouches on the left, and a white tray filled with small-size products and minis on the right, with a hand holding a pink Hau Giang lotus micellar water bottle above the basket.",
+      "style": "Lifestyle flat-lay product classification visual, warm natural sunlight, home-organizing aesthetic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'VỎ CHAI LỚN Bao gồm tất cả sản phẩm hũ, tuýp, túi refill, các lọ tinh chất, hũ mặt nạ, thạch dưỡng bằng thủy tinh từ 30ml...' and 'VỎ CHAI NHỎ Bao gồm thỏi son, tinh chất chấm mụn và các sản phẩm dùng thử dung tích từ 50ml trở xuống.'",
+      "items": [
+        "Top Left: A hand entering from the left holding a pink Cocoon Hau Giang lotus micellar water bottle in front of a wire basket.",
+        "Top Right: White floorboards with sharp botanical shadows and the upper rim of the large wire basket.",
+        "Bottom Left: Cream text card labeled 'VỎ CHAI LỚN' beneath the basket of full-size bottles, refill pouch, shampoo bottle, micellar water, and amber products.",
+        "Bottom Right: White rectangular tray containing many mini products and a cream text card labeled 'VỎ CHAI NHỎ'.",
+        "Center/Background: Warm indoor sun patches, crisp shadows, and neatly arranged Cocoon products grouped by size."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Direct natural window sunlight",
+      "effect": "Sharp cast shadows, cozy domestic warmth, glossy bottle highlights, clear sorting-guide readability"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity lifestyle flat-lay product photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a bottle-return sorting guide. Centerpiece is a warm sunlit overhead composition with two used Cocoon package groups: a white wire basket of large-format bottles and refill pouches on the left, and a white tray of small-format minis on the right, while a hand presents a pink Hau Giang lotus micellar water bottle above the basket. Background is pale wood flooring with strong leafy shadows. Surrounding elements: cream text cards labeled 'VỎ CHAI LỚN' and 'VỎ CHAI NHỎ' with the exact Vietnamese explanatory copy, plus realistic used product assortment in each container. Technical style: high fidelity lifestyle flat-lay product photography, direct natural window sunlight, sharp cast shadows and glossy bottle highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Mixed Cocoon used bottles, minis, and refill pouch assortment",
+          "required": true,
+          "source": "Attach the original image or crops of the key packaging groups",
+          "usage": "Preserve the exact size grouping logic, product mix, and recognizable packaging colors."
+        },
+        {
+          "type": "text_layout",
+          "name": "Large-versus-small bottle explainer cards",
+          "required": true,
+          "source": "Use the original creative as layout reference",
+          "usage": "Keep the exact Vietnamese wording, card shapes, and placement under each grouped container."
+        },
+        {
+          "type": "background",
+          "name": "Wire basket and white tray flat-lay setup",
+          "required": true,
+          "source": "Use the original image as composition reference",
+          "usage": "Maintain the overhead angle, warm floorboards, and hard plant shadows."
+        }
+      ],
+      "prompt_instructions": "When recreating with gpt-image-2, attach the original composition or strong crops so the large-versus-small grouping stays accurate. Preserve the exact explainer copy, container types, and warm sunlit home aesthetic rather than turning it into a generic product flat lay."
+    }
+  }
+}

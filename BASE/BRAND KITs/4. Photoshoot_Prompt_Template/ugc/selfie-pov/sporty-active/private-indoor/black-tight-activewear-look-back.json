@@ -1,0 +1,43 @@
+﻿{
+    "name":  "black-tight-activewear-look-back",
+    "tag":  [
+                "ugc",
+                "selfie-pov",
+                "sporty-active",
+                "private-indoor",
+                "black-activewear",
+                "mirror",
+                "fitness"
+            ],
+    "image_type":  "activewear-mirror-selfie",
+    "image_vibe":  "confident-athletic-natural",
+    "image_purpose":  "fitness fashion mirror selfie",
+    "group":  "sporty-active",
+    "prompt":  {
+                   "project_info":  "Photorealistic activewear mirror selfie adapted from the source prompt.",
+                   "main_subject":  "Clearly adult athletic woman with long dark wavy hair, red hibiscus behind one ear, fair skin and soft direct smile, wearing a fitted black activewear set with secure coverage.",
+                   "composition_elements":  "Mirror selfie with subject looking back over shoulder, phone visible, indoor workout or changing-room setting and natural posture.",
+                   "lighting_and_atmosphere":  "Natural indoor light, realistic skin and fabric, confident athletic lifestyle mood.",
+                   "technical_specs":  "Vertical smartphone mirror selfie, realistic reflection, clear activewear seams and hair, natural contrast and subtle grain.",
+                   "generated_prompt_string":  "Photorealistic vertical mirror selfie of a clearly adult athletic woman with long dark wavy hair and a red hibiscus behind one ear, fair skin and soft direct smile, wearing a fitted secure black activewear set, looking back over her shoulder with phone visible in an indoor workout space, natural light, realistic fabric and skin texture, confident fitness lifestyle mood, no text or logos.",
+                   "negative_prompt":  "explicit, nsfw, overly revealing, exposed body, exposed breasts, exposed genitals, child, minor, sexual pose, exaggerated anatomy, bad hands, watermark, text, logo",
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "moodboard",
+                                                                 "name":  "black-tight-activewear-look-back_0.jpg",
+                                                                 "required":  true,
+                                                                 "source":  "local asset",
+                                                                 "usage":  "Use for hair, hibiscus, black activewear, mirror pose and indoor fitness setting."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  "Attach the local asset as required. Preserve the clearly adult subject, outfit, look-back pose and athletic mood; remove exaggerated body emphasis and do not reproduce celebrity likeness."
+                                          }
+               },
+    "policy_review":  {
+                          "status":  "remediated",
+                          "changes":  [
+                                          "Removed extreme body-emphasis wording while preserving fitted activewear and look-back composition."
+                                      ]
+                      }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Nineties Grainy Fire-Escape Portrait",
+  "tag": "90s-grainy-fire-escape-man",
+  "image_type": "noir_street_portrait",
+  "image_vibe": "gritty_black_and_white_noir",
+  "image_purpose": "mens_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Nineties Grainy Fire-Escape Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "2:3 vertical"
+    },
+    "main_subject": {
+      "description": "An adult man with tousled dark hair, a relaxed downward gaze, and an understated expression.",
+      "wardrobe": "A dark button-front shirt with a modest open collar, dark straight trousers, plain chunky sneakers, dark sunglasses, and a simple unbranded bracelet.",
+      "pose_and_expression": "Seated securely on a metal fire-escape landing, hands resting naturally and both feet supported."
+    },
+    "composition_elements": {
+      "setting": "A night cityscape behind a metal fire escape, with anonymous lit windows and dense urban geometry.",
+      "framing": "Full-body vertical portrait from a slightly elevated neighboring landing; city softly recedes behind him.",
+      "text_and_brand_control": "No face-preservation dependency, building address, logo, visible brand, or readable urban text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "High-contrast monochrome city light with deep shadows and controlled highlight edges.",
+      "mood": "Gritty, introspective, nineties, and noir."
+    },
+    "technical_specs": {
+      "camera_style": "high-grain 35mm black-and-white film",
+      "lens": "50mm equivalent",
+      "rendering": "Pronounced authentic grain, detailed metal texture, natural hands, and realistic low-light contrast."
+    },
+    "generated_prompt_string": "Create a 2:3 vertical black-and-white 35mm noir photograph of an adult man with tousled dark hair and a relaxed downward gaze, seated securely on a metal fire-escape landing with both feet supported. He wears a dark button-front shirt with a modest open collar, dark straight trousers, plain chunky sneakers, dark sunglasses, and a simple unbranded bracelet. Behind him show anonymous lit city windows and dense nighttime geometry. Use a slightly elevated full-body vertical composition, high-contrast city light, deep shadows, controlled highlight edges, pronounced authentic film grain, detailed metal, natural hands, and realistic low-light contrast. No brands, address, readable signage, text, watermark, or face-preservation requirement.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, unsafe ledge pose, logo, readable text, watermark, distorted hands, extra limbs, plastic skin, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity references must depict a consenting adult. Wardrobe and architectural references are replaceable and must be stripped of brand marks, text, and address details.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult facial and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "fire_escape_city_reference",
+          "required": false,
+          "source": "user-provided architectural reference",
+          "usage": "Guide metal stairs and night geometry after removing text and location identifiers."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed unqualified facial preservation, clarified an adult subject and secure pose, and prohibited brands and readable location details."
+  }
+}

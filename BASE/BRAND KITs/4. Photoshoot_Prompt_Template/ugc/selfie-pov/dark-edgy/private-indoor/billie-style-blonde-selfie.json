@@ -1,0 +1,44 @@
+{
+  "name": "billie-style-blonde-selfie",
+  "tag": ["ugc", "selfie-pov", "dark-edgy", "private-indoor", "platinum-blonde", "grunge", "night-window"],
+  "image_type": "dark-edgy vertical selfie portrait",
+  "image_vibe": "drowsy, deadpan, grunge, candid, nocturnal",
+  "image_purpose": "social-media profile selfie",
+  "group": "selfie-pov/dark-edgy/private-indoor",
+  "prompt": {
+    "project_info": "Hyper-realistic 4K-style 9:16 vertical smartphone selfie of an original adult woman in a dim interior beside a multi-pane window at night, with candid amateur realism and slight image noise.",
+    "main_subject": "One original adult woman with platinum-blonde shoulder-length shag hair, heavy textured curtain bangs, messy tousled flyaways, ocean-blue-gray heavy-lidded eyes, pale natural skin with visible pores and light freckles, soft glossy pink lip balm, and minimal makeup. She has a neutral drowsy deadpan gaze directed into the lens and wears large chunky black chain-link hoop earrings, a white freshwater pearl choker, a small black bead choker and thin silver chain necklace. Her heather-gray oversized T-shirt has thin cream and muted yellow-tan horizontal stripes and a black graphic print detail on the lower chest. Do not reproduce Billie Eilish or any other public-figure likeness.",
+    "composition_elements": "Use a close-up vertical selfie perspective with sharp focus on the eyes and jewelry. Place a white multi-pane window frame behind the adult woman, with dark night sky and slight interior reflections visible through the glass. Preserve the candid relaxed pose and grunge-inspired oversized styling.",
+    "lighting_and_atmosphere": "Soft warm tungsten-like indoor illumination from the front creates a realistic amateur selfie-flash effect, with gentle shadow falloff and subtle window reflections. Keep the nocturnal atmosphere candid, drowsy and dark-edgy without harsh studio polish.",
+    "technical_specs": "4K-style photorealistic smartphone front-camera selfie, 9:16 vertical, close-up focal length, sharp eyes and jewelry, visible skin texture, slight natural digital noise, realistic window reflections, no text, logo or watermark.",
+    "generated_prompt_string": "Hyper-realistic 4K-style 9:16 vertical selfie of one original adult woman with platinum-blonde shoulder-length messy shag hair, heavy textured curtain bangs and flyaways, ocean-blue-gray heavy-lidded eyes, pale natural freckled skin, glossy pink lip balm and minimal makeup. Neutral drowsy deadpan gaze into lens. Large black chain-link hoop earrings, white pearl choker, black bead choker and thin silver chain. Oversized heather-gray T-shirt with thin cream and muted yellow-tan stripes and black lower-chest graphic. White multi-pane window behind her, dark night sky and subtle reflections, warm tungsten-like front light with candid selfie-flash realism, sharp eyes and jewelry, slight digital noise, dark-edgy grunge mood, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Billie Eilish likeness, distorted anatomy, extra fingers, malformed hands, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, random text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "billie-style-blonde-selfie.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult platinum-blonde shag, deadpan window selfie, layered necklaces, black earrings, oversized striped gray tee, warm night lighting and dark-edgy grunge direction; replace the named identity with an original adult."
+        },
+        {
+          "type": "image_asset",
+          "name": "1775046251519-y58xq9ip-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1775046251519-y58xq9ip-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required and the image asset is optional; it is not inspected in the text-only workflow. Keep the adult subject, hair, expression, jewelry, striped shirt, window, nighttime mood, selfie framing and warm tungsten light consistent. Replace identity only."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Billie Eilish identity with an original adult woman.",
+      "Preserved the non-explicit dark-edgy selfie styling, expression, wardrobe, environment and lighting.",
+      "Added required safety and artifact exclusions."
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+    "name":  "food-calorie-breakdown-grid",
+    "tag":  [
+                "nutrition infographic",
+                "calorie card",
+                "food science",
+                "macro breakdown",
+                "social carousel"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Infographics",
+    "group":  "infographic_nutrition_system",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "High-information food calorie and macro system",
+                                        "color_palette":  "White, light gray, charcoal, orange calorie accent, blue protein, yellow carbs, green fats"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Food and data bubble",
+                                        "detail":  "A grid of four top-down white plates shows salmon grain bowl, chocolate-filled pastry, pizza slice, and smoothie bowl, each with an oversized orange-ring total-calories bubble.",
+                                        "style":  "Apple UI meets National Geographic food science, with crisp food photography and precise black technical connectors"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Four food modules with nutrition diagrams",
+                                                "text":  "TOTAL CALORIES; 850 kcal; 350 kcal; 550 kcal; PROTEIN; CARBS; FATS; OMEGA-3 FATTY ACIDS; SALMON; VEGETABLES; QUINOA \u0026 RICE; FLOUR; SUGAR \u0026 COCOA; FAT \u0026 OIL; CRUST; CHEESE/SAUCE; TOPPINGS; SMOOTHIE BASE; FRUIT TOPPINGS; GRANOLA \u0026 SEEDS",
+                                                "items":  [
+                                                              "Four quadrants: salmon bowl, chocolate pastry, pizza slice, and fruit smoothie bowl on white plates.",
+                                                              "Each top section: large round gray-and-orange calorie bubble, intentionally dominant at thumbnail size.",
+                                                              "Left of each plate: stacked colored protein, carbs, and fats percentage bars with gram labels.",
+                                                              "Right of each plate: three circular ingredient-composition icons joined by dotted black connectors.",
+                                                              "Bottom of each module: preparation/time/origin/source/aging data strip with small pictograms."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft overhead studio light",
+                                                   "effect":  "White seamless field, crisp food texture, controlled plate shadow, extremely readable modular data hierarchy"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Photoreal food flat-lay with precision vector infographic overlay",
+                                           "resolution":  "1080x1080, ultra-crisp, social-feed optimized"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "specific food plates",
+                                                                 "required":  true,
+                                                                 "source":  "approved recipe or food photography",
+                                                                 "usage":  "Maintain each food\u0027s cross-section, portion, and top-down plate treatment."
+                                                             },
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "calorie and macro visualization system",
+                                                                 "required":  true,
+                                                                 "source":  "source preview",
+                                                                 "usage":  "Preserve the dominant orange calorie bubble, colored macro bars, and dotted leader lines."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "nutrition data",
+                                                                 "required":  true,
+                                                                 "source":  "verified nutritional database or recipe calculation",
+                                                                 "usage":  "Do not reproduce shown calorie or macro values without current factual validation."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach food references and verified nutrition data for every card.",
+                                                                          "Use exactly one accent color for the calorie bubble; retain monochrome UI elsewhere.",
+                                                                          "Add final numerical labels in a layout tool after nutrition review."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Ultra-clean top-down (90° flat lay) infographic composition. A perfectly centered white ceramic plate sits on a seamless light background. On the plate: [FOOD], shown in a precise cross-section or layered cutaway, revealing internal ingredients, textures, and structure with extreme clarity. PRIMARY FOCAL POINT (HERO ELEMENT): Above the plate, occupying a large portion of the upper canvas, place an oversized floating infographic bubble displaying: TOTAL CALORIES [XXXX kcal] The calorie bubble is significantly larger than any other element, instantly readable at thumbnail size. Design it with strong visual contrast: bold sans-serif typography, thick outline or semi-transparent glassmorphism, subtle glow or drop shadow, and clean UI styling. This is the first thing the eye sees. SECONDARY ELEMENTS: Surrounding the plate, fill the remaining space with a dense, high-information infographic system: – Nutritional breakdown charts (protein, carbs, fats) – Ingredient percentage bars and rings – Cooking or preparation temperatures and times – Origin, aging, or production icons – Measurement scales, micro-diagrams, data badges. Use thin vector connectors, dotted lines, arrows, pictograms, and radial charts clearly linking data to specific food components. Visual hierarchy rules: Calorie bubble = dominant. Plate + food = secondary anchor. Surrounding data = tertiary but dense and readable. Design language: premium editorial infographic, Apple UI × National Geographic food science, extremely clean, structured, and modern. Color palette: natural food colors, monochrome infographic UI, one accent color reserved exclusively for the calorie bubble. Lighting: soft studio lighting, zero clutter, flat background for maximum contrast. Output: 1080×1080, ultra-crisp, social-feed optimized, no watermark.",
+                   "negative_prompt":  "unverified calorie claims, weak hierarchy, oversized food, cluttered data lines, unreadable macros, poor plate geometry, low resolution, watermark, signature"
+               }
+}

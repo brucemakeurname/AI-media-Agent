@@ -1,0 +1,77 @@
+{
+  "name": "shopee-laneige-neo-cushion-new-version-debut",
+  "tag": [
+    "beauty-launch",
+    "celebrity-endorsement",
+    "debut-campaign",
+    "minimal-luxury"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Endorsement",
+  "group": "shopee_1565745021582697",
+  "prompt": {
+    "project_info": {
+      "theme": "Laneige Neo Cushion exclusive Shopee debut",
+      "color_palette": "Soft gray-lavender, chrome silver, white, orange-red, black"
+    },
+    "main_subject": {
+      "type": "Person/Object/Text",
+      "detail": "A premium minimalist poster featuring Laneige and Shopee Debut. Top-right badge reads 'CON 1 NGAY' and 'NGAY 15 SALE GIUA THANG'. The core copy says 'RA MAT DOC QUYEN PHIEN BAN MOI NEO CUSHION TAI DINH NGHIA LOP NEN HOAN HAO'. A male celebrity in a black leather jacket leans on a dark tabletop, resting his face on one hand and touching two compact cases, one silver and one pastel pink. Chrome star-shaped decorative elements float around the scene. Bottom CTA says 'MUA NGAY TAI SHOPEE'.",
+      "style": "Luxury minimalist beauty campaign with muted editorial backdrop, realistic celebrity portrait, and glossy chrome typography accents"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "LANEIGE / SHOPEE DEBUT / CON 1 NGAY / NGAY 15 SALE GIUA THANG / RA MAT DOC QUYEN / PHIEN BAN MOI / NEO CUSHION / TAI DINH NGHIA LOP NEN HOAN HAO / MUA NGAY TAI SHOPEE",
+      "items": [
+        "Top Left: Shopee logo and Laneige logo",
+        "Top Right: Orange-blue countdown badge with 'CON 1 NGAY' and 'NGAY 15 SALE GIUA THANG'",
+        "Bottom Left: Male celebrity portrait leaning over the table",
+        "Bottom Right: Chrome star ornament and bottom CTA bar",
+        "Center/Background: Soft gray-lavender seamless background, Shopee Debut badge, large chrome 'NEO CUSHION' title, and two compact cases on the tabletop"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft luxury studio lighting",
+      "effect": "Gentle skin glow, subtle chrome reflections, muted shadows, editorial calmness"
+    },
+    "technical_specs": {
+      "render_style": "Premium beauty key visual with photo-composite portrait and product props",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for Laneige Neo Cushion on Shopee Debut. Centerpiece is a male celebrity in a black leather jacket leaning on a dark table and touching two compact cases, one silver and one pastel pink. Background is a soft gray-lavender studio field with chrome star ornaments. Surrounding elements: Shopee and Laneige logos, Shopee Debut badge, countdown 'CON 1 NGAY' and 'NGAY 15 SALE GIUA THANG', headline 'RA MAT DOC QUYEN PHIEN BAN MOI NEO CUSHION TAI DINH NGHIA LOP NEN HOAN HAO', and orange CTA 'MUA NGAY TAI SHOPEE'. Technical style: premium beauty key visual with photo-composite portrait and product props, soft luxury studio lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Male celebrity campaign portrait",
+          "required": true,
+          "source": "original campaign portrait or approved celebrity image",
+          "usage": "Attach for exact likeness, hairstyle, pose, and wardrobe"
+        },
+        {
+          "type": "product",
+          "name": "Laneige Neo Cushion compact refs",
+          "required": true,
+          "source": "official product renders for the silver and pastel-pink compacts",
+          "usage": "Use for the exact compact shape, finish, and branding"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee, Laneige, and Shopee Debut assets",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Preserve the header and debut badge"
+        },
+        {
+          "type": "text_layout",
+          "name": "Neo Cushion debut layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the exact title stack, countdown badge, celebrity placement, and CTA"
+        }
+      ],
+      "prompt_instructions": "Preserve the subdued luxury feel and large empty gray space. 'NGAY 15' is in the past relative to Friday, July 17, 2026 and must remain unchanged because it is visible campaign text."
+    }
+  }
+}

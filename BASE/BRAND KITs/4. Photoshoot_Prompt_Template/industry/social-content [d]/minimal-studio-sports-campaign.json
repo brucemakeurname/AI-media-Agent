@@ -1,0 +1,84 @@
+{
+  "name": "minimal-studio-sports-campaign",
+  "tag": [
+    "sports-campaign",
+    "triptych-layout",
+    "retro-athleticwear",
+    "boombox-prop",
+    "bold-typography"
+  ],
+  "image_type": "sports-brand-campaign",
+  "image_vibe": "cinematic-disciplined",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Minimal industrial triptych fitness editorial with an audio-theme prop system",
+      "creative_direction": "Cinematic sports campaign replacing gym equipment with vintage boomboxes and cassette tapes",
+      "color_palette": "deep navy, forest green, burgundy, warm concrete gray, off-white, and slightly desaturated amber highlights"
+    },
+    "main_subject": {
+      "type": "clearly adult athletic woman",
+      "detail": "fit adult woman with confident focused expression and hair tied in a high ponytail or braid",
+      "wardrobe": "dark navy, deep green, or burgundy retro-inspired athletic set with fitted sports bra, high-waisted shorts with side stripes, white crew socks, chunky white sneakers, and wristbands",
+      "action": "three grounded athletic poses: seated beside a boombox, lifting one on the shoulder, and standing with one leg bent while holding a cassette"
+    },
+    "composition_elements": {
+      "framing": "cinematic three-panel triptych with one large top panel and two smaller bottom panels",
+      "environment": "minimal industrial concrete studio with scattered loose audio cassettes and stacked tapes used as workout-style props",
+      "top_panel": "subject seated or leaning beside a large boombox, one arm resting on it, strong sunlight beam, headline STRENGTH IS EARNED. DISCIPLINE KEEPS IT., and small copy BUILT ON CONSISTENCY. DRIVEN BY FOCUS.",
+      "bottom_panels": "left subject in a grounded slight squat holding a boombox with FOCUS. FUEL. FINISH.; right subject standing with one leg bent, cassette in hand, boombox on floor, and DISCIPLINE DRIVES DOMINANCE.",
+      "typography": "bold fictional sans-serif campaign copy with no real brand logo; use a small abstract mark only"
+    },
+    "lighting_and_atmosphere": {
+      "type": "hard directional side sunlight at approximately 4300K with large white bounce fill",
+      "effect": "dramatic concrete shadows, sculpted athletic form, warm slightly desaturated tones, subtle grain, and focused campaign energy"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 50mm lens, cinematic sports editorial photography and graphic layout",
+      "resolution": "4k square triptych social campaign",
+      "finish": "high contrast, stable anatomy, crisp boombox texture, readable typography, subtle film grain, and clean panel dividers"
+    },
+    "generated_prompt_string": "Create a cinematic three-panel triptych fitness editorial image set in a minimal industrial concrete studio with dramatic side lighting and soft shadows. Feature a clearly adult athletic woman with a confident focused expression and hair tied in a high ponytail or braided style. Dress her in a dark navy, deep green, or burgundy retro-inspired athletic set: fitted sports bra, high-waisted shorts with side stripes, white crew socks, chunky white sneakers, and wristbands. Replace gym equipment with an audio theme: a vintage cassette player or boombox, loose audio cassettes scattered on the floor, and cassette tapes stacked like workout props. In the top panel, show her seated or leaning beside a large boombox with one arm resting on it and a strong sunlight beam across the scene, with the typography STRENGTH IS EARNED. DISCIPLINE KEEPS IT. and BUILT ON CONSISTENCY. DRIVEN BY FOCUS. In the bottom-left panel, show a dynamic grounded athletic pose holding or lifting a boombox with FOCUS. FUEL. FINISH. In the bottom-right panel, show her standing with one leg bent against the wall, holding a cassette, with a boombox on the floor and DISCIPLINE DRIVES DOMINANCE. Use bold fictional sans-serif typography, high contrast, warm slightly desaturated tones, subtle grain, and no real brand marks.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, real brand logo, trademark, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed anatomy, broken panel grid, illegible typography, melted boombox",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-athletic-model",
+          "required": true,
+          "source": "Original sports campaign preview image",
+          "usage": "Attach an approved adult model reference and preserve facial structure, athletic silhouette, and likeness without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "retro-navy-athletic-set",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the sports bra, high-waisted shorts, socks, chunky sneakers, and wristbands; keep the exact reference-specified outfit."
+        },
+        {
+          "type": "product",
+          "name": "fictional-vintage-boombox-and-cassettes",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve boombox shape, cassette props, placement, and audio-theme continuity; replace any recognizable product branding with fictional marks."
+        },
+        {
+          "type": "text_layout",
+          "name": "discipline-triptych-typography",
+          "required": true,
+          "source": "Original campaign preview image and source prompt",
+          "usage": "Attach to preserve three-panel hierarchy, headline placement, panel copy, and bold sans-serif treatment; render the supplied fictional copy accurately and remove real logos."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult model, exact athletic wardrobe, fictional boombox, and typography references. Keep one adult identity, outfit, three poses, prop continuity, concrete studio, panel hierarchy, copy placement, and side-light direction consistent. Replace only the person, props, or environment with approved equivalents; all logos and marks must remain fictional."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the athletic subject as clearly adult and replaced the visible brand-like mark with a fictional abstract mark while preserving the sports campaign, outfit, triptych, and typography."
+    ]
+  }
+}

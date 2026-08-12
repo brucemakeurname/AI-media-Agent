@@ -1,0 +1,19 @@
+{
+  "name": "golden-hour-eiffel-legs",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "eiffel-tower", "golden-hour"],
+  "image_type": "low-angle-paris-fashion-detail",
+  "image_vibe": "cinematic-elegant-sunset",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a cinematic golden-hour Paris fashion detail portrait of an approved adult woman near the Eiffel Tower.",
+    "main_subject": "An approved adult woman shown from waist to feet in a white short skirt, blue patterned jacket, and blue pointed heels, standing elegantly on a stone terrace with one leg naturally bent. Keep the focus on fashion styling and composition rather than body emphasis.",
+    "composition_elements": "Extreme low-angle vertical framing with the Eiffel Tower glowing in the background, stone balustrade, Paris avenue depth, and warm sunset sky.",
+    "lighting_and_atmosphere": "Photorealistic golden-hour light, warm highlights, soft shadows, cinematic elegant Paris mood, realistic skin, fabric, stone, and skyline texture.",
+    "technical_specs": "High-detail vertical fashion photography, low-angle perspective, sharp clothing and footwear, natural depth of field, realistic sunset exposure.",
+    "generated_prompt_string": "Create a photorealistic vertical golden-hour Paris fashion detail portrait of an approved adult woman shown from waist to feet near the Eiffel Tower. She wears a white short skirt, blue patterned jacket, and blue pointed heels, standing elegantly on a stone terrace with one leg naturally bent. Frame her from a respectful fashion-editorial angle with the Eiffel Tower glowing behind, stone balustrade, Paris avenue, and warm sunset sky. Emphasize styling, architecture, fabric movement, realistic textures, and cinematic elegance rather than body emphasis.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, voyeuristic angle, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra limbs, deformed feet, distorted tower",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-eiffel-fashion-subject", "required": true, "source": "golden-hour-eiffel-legs.jpg", "usage": "Preserve adult identity when visible, pose, and fashion styling."}, {"type": "wardrobe", "name": "white-skirt-blue-jacket-heels", "required": true, "source": "golden-hour-eiffel-legs.jpg", "usage": "Keep outfit and footwear consistent; replace only with explicit references."}, {"type": "location", "name": "eiffel-tower-golden-hour-terrace", "required": true, "source": "golden-hour-eiffel-legs.jpg", "usage": "Maintain tower, balustrade, avenue, sunset, and Paris environment; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Reframed the body-detail concept as respectful fashion composition and clarified the subject as an approved adult.", "Added safe negative prompts and structured references."]}
+}

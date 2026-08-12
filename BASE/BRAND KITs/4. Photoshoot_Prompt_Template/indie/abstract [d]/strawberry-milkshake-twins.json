@@ -1,0 +1,80 @@
+{
+  "name": "strawberry-milkshake-twins",
+  "tag": [
+    "adult-woman",
+    "diptych",
+    "strawberry-milkshake",
+    "yellow-tshirt",
+    "green-tshirt",
+    "city-lifestyle"
+  ],
+  "image_type": "lifestyle-editorial-diptych",
+  "image_vibe": "playful-sunny-surreal",
+  "image_purpose": "social-content",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that both diptych depictions show the same adult woman."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "playful two-frame lifestyle illusion linked by one strawberry milkshake",
+      "color_palette": "strawberry pink, sunny yellow, grass green, black brick, daylight blue",
+      "format": "vertical diptych 9:16"
+    },
+    "main_subject": {
+      "type": "same adult woman in two coordinated poses",
+      "detail": "The same adult woman appears in both panels: upper panel with a high casual bun and clear rimless glasses; lower panel with long straight silver-blonde hair and glossy black sunglasses.",
+      "style": "photoreal lifestyle editorial with authentic skin texture and bright natural sunlight"
+    },
+    "composition_elements": {
+      "text": "Preserve the playful cat graphics shown on the oversized shirts; no logo or watermark.",
+      "items": [
+        "two horizontal panels stacked vertically with a clean central divider",
+        "single transparent cup of strawberry milkshake bridging both panels",
+        "lower-panel hand raises the cup through the divider",
+        "one pale straw continues upward to the upper-panel woman's lips",
+        "upper yellow oversized T-shirt with a small cat graphic and lower green oversized T-shirt with a large CATS-and-cat graphic",
+        "tall dark brick building softly blurred behind both views"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "bright direct midday sunlight at approximately 5600K with gentle urban bounce fill",
+      "effect": "crisp natural shadows, condensation highlights on the cup, cheerful visual connection, and tactile fabric"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera, 50mm lens at f/2.8, coherent daylight exposure across panels, fine realistic grain",
+      "resolution": "high resolution vertical diptych, 9:16"
+    },
+      "generated_prompt_string": "Create a photorealistic vertical lifestyle-editorial diptych of the same adult woman in two coordinated horizontal frames, connected by one clear plastic cup of strawberry milkshake. In the upper frame, she has a high casual bun with loose strands, wears clear rimless glasses and an oversized yellow crew-neck T-shirt with a small cat graphic, and drinks through a pale straw. In the lower frame, the same adult woman has long straight silver-blonde hair, wears glossy black sunglasses, a bracelet, and an oversized green T-shirt with a large CATS-and-cat graphic; she raises the milkshake cup upward so her hand appears to pass through the central divider. Keep the cup centered between frames, with pink milkshake, condensation, and light reflections visible. Use bright sunlight, natural skin texture, a softly blurred dark-brick building background, playful visual illusion, and vertical 9:16 framing. Do not render a logo or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, logo, watermark, mismatched identity, duplicate cup, disconnected straw, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-lifestyle-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult person reference when the same identity must appear in both panels.",
+          "usage": "Preserve adult identity across upper and lower panels; otherwise use a generic adult model in both roles."
+        },
+        {
+          "type": "product",
+          "name": "strawberry-milkshake-cup-reference",
+          "required": false,
+          "source": "Attach a product reference when cup size, lid, straw, or drink color must match.",
+          "usage": "Keep one cup and one continuous straw joining both panels; the product styling may be replaced."
+        },
+        {
+          "type": "wardrobe",
+          "name": "yellow-and-green-cat-graphic-tshirt-reference",
+          "required": false,
+          "source": "Attach wardrobe references when exact color or fit must match.",
+          "usage": "Keep yellow upper-panel and green lower-panel shirt hierarchy with playful cat graphics; garments may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve one authorized adult identity across both panels, a single milkshake cup and straw visually connecting frames, yellow top above, green top below, and bright city daylight. Identity, cup, and wardrobe can be replaced independently while retaining the linked-diptych illusion."
+    }
+  }
+}

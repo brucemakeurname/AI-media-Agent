@@ -1,0 +1,22 @@
+{
+  "name": "green-blazer-monogram-editorial",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "monogram", "tailored"],
+  "image_type": "monogram tailored fashion portrait",
+  "image_vibe": "refined, playful, polished, modern",
+  "image_purpose": "fashion lookbook and luxury editorial",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic studio portrait of one original approved adult woman seated on a clean light-gray studio floor in a tailored black fashion look with supplied monogram elements.",
+    "main_subject": "Original approved adult woman with dark hair in a neat low updo, calm serious direct gaze, soft editorial makeup, and natural skin texture. She wears a structured black double-breasted blazer dress with puffed shoulders, an oversized white satin bow at the collar, supplied monogram-patterned sheer tights, white ankle socks, black leather loafers with gold-tone hardware, white gloves, and carries a supplied structured monogram handbag.",
+    "composition_elements": ["Subject seated side-oriented on the floor with torso upright, one hand supporting behind and legs extended diagonally.", "Clean seamless light-gray to white background and continuous smooth floor.", "Preserve monogram pattern and handbag as supplied brand assets without inventing new logos.", "Keep bow, gloves, socks, loafers, pose, and direct gaze clear."],
+    "lighting_and_atmosphere": "Soft even studio illumination with controlled shadow, clean neutral background, realistic tailoring and leather highlights, and polished editorial clarity.",
+    "technical_specs": "Photorealistic 4:5 portrait, 50mm lens at f/4, sharp face, tights, handbag, and tailoring detail, realistic skin, fabric, leather, and monogram texture, subtle grain, no text or watermark.",
+    "generated_prompt_string": "Photorealistic tailored fashion portrait of one original approved adult woman with dark hair in a neat low updo, calm serious direct gaze, soft editorial makeup and natural skin texture. She sits side-oriented on a clean light-gray studio floor wearing a structured black double-breasted blazer dress with puffed shoulders, an oversized white satin bow at the collar, supplied monogram-patterned sheer tights, white ankle socks, black leather loafers with gold-tone hardware and white gloves, with a supplied structured monogram handbag beside her. Use a seamless light-gray to white background, soft even studio light, realistic tailoring leather and monogram texture, 50mm f/4, 4:5 composition, no invented logos, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "invented logo", "distorted monogram", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "distorted anatomy", "extra fingers", "watermark", "text", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "green-blazer-monogram-editorial.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult identity, face, hair, makeup, expression, outfit, and pose."}, {"type": "wardrobe", "name": "black blazer dress, white bow, monogram tights, socks, loafers and gloves", "required": true, "source": "local reference image", "usage": "Preserve supplied outfit, bow, monogram, footwear, and gloves."}, {"type": "product", "name": "supplied structured monogram handbag", "required": true, "source": "local reference image", "usage": "Preserve bag shape, supplied pattern, hardware, and placement."}],
+      "prompt_instructions": "Attach all required person, wardrobe, and handbag references; no optional assets are needed. Keep identity, outfit, supplied logo/monogram, product, pose, environment, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent supplied wardrobe, or equivalent supplied product. Preserve product branding only from the attached asset; do not invent logos, text, or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced the implied public-figure identity, aligned the outfit to the black look visible in the reference, and preserved supplied monogram/product assets without inventing branding."]}
+}

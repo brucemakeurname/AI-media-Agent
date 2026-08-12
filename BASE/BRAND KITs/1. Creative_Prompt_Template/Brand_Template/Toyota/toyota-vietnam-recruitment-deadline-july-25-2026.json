@@ -1,0 +1,70 @@
+{
+  "name": "toyota-vietnam-recruitment-deadline-july-25-2026",
+  "tag": [
+    "recruitment",
+    "toyota-vietnam",
+    "hiring",
+    "deadline"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "toyota_2538142013324269",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Vietnam recruitment announcement",
+      "color_palette": "Light blue, white, navy, coral red, soft teal"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A clean recruitment poster with the Toyota logo at top left and the headline 'BANG TIN TUYEN DUNG TOYOTA VIET NAM'. The central deadline text reads 'HAN NHAN HO SO 25/7/2026' with the note '(Co the ket thuc som hon du kien)'. Below are three flat-style illustrated office professionals: one holding a giant magnifying glass, one holding a briefcase while looking through a telescope, and one holding a laptop. The pastel background contains large translucent gear shapes and abstract blue organic forms. Bottom-right script says 'Move your world'.",
+      "style": "Corporate flat-illustration recruitment poster with clean employer-brand layout and pastel professional visuals"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / BANG TIN TUYEN DUNG / TOYOTA VIET NAM / HAN NHAN HO SO 25/7/2026 / (Co the ket thuc som hon du kien) / Move your world",
+      "items": [
+        "Top Left: Toyota logo over a pale blue abstract background",
+        "Top Right: Large translucent gear icon and curved blue background forms",
+        "Bottom Left: Decorative plant illustration near the standing office characters",
+        "Bottom Right: Female laptop-holding character and the handwritten 'Move your world' script",
+        "Center/Background: Three illustrated job-seeker professionals under the recruitment headline and deadline text"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat clean corporate illustration lighting",
+      "effect": "Soft pastel gradients, crisp vector edges, calm professional hiring tone"
+    },
+    "technical_specs": {
+      "render_style": "Vector-style corporate recruitment illustration poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Vietnam recruitment announcement. Centerpiece is a trio of flat-style corporate characters: one holding a giant magnifying glass, one using a telescope while carrying a briefcase, and one holding a laptop. Background is a pale blue pastel abstract field with gear silhouettes and organic shapes. Surrounding elements: Toyota logo, exact headline 'BANG TIN TUYEN DUNG TOYOTA VIET NAM', deadline 'HAN NHAN HO SO 25/7/2026', note '(Co the ket thuc som hon du kien)', and footer script 'Move your world'. Technical style: vector-style corporate recruitment illustration poster, flat clean corporate illustration lighting, soft pastel gradients and crisp edges, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "graphic",
+          "name": "Flat corporate hiring illustrations and gear background",
+          "required": true,
+          "source": "this creative or source vector assets",
+          "usage": "Preserve the three-character arrangement, pastel business style, and gear motif"
+        },
+        {
+          "type": "logo",
+          "name": "Toyota logo and Move your world signature",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Keep the exact corporate branding top-left and script footer"
+        },
+        {
+          "type": "text_layout",
+          "name": "Recruitment poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the headline stack, the centered deadline, and the note below it"
+        }
+      ],
+      "prompt_instructions": "Preserve '25/7/2026' exactly. Relative to Friday, July 17, 2026, this deadline is in the future and should remain unchanged because it is visible application copy."
+    }
+  }
+}

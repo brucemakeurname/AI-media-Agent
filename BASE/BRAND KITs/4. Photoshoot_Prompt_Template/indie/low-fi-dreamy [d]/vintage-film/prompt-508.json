@@ -1,0 +1,19 @@
+{
+  "name": "prompt-508",
+  "tag": ["indie", "low-fi-dreamy", "vintage-film", "beach", "melancholic"],
+  "image_type": "cinematic beach portrait",
+  "image_vibe": "Moody dusk beach, cool low-saturation film, hazy melancholic atmosphere",
+  "image_purpose": "Create an emotional coastal portrait with natural wind and soft cinematic film texture.",
+  "group": "vintage-film",
+  "prompt": {
+    "project_info": "A soft emotional film-style close-up portrait on a beach at dusk.",
+    "main_subject": "An original adult woman standing by the sea, with dark hair messy from the breeze and strands crossing her face. She wears a white opaque spaghetti-strap top and denim bottoms, with natural slightly flushed skin and realistic subtle texture.",
+    "composition_elements": "Close-up portrait, dark ocean waves behind her, moody sky, and soft sunset colors of dusty pink, blue-gray, and muted lavender.",
+    "lighting_and_atmosphere": "Natural dusk light, hazy atmosphere, soft contrast, cool low-saturation cinematic treatment, melancholic but gentle mood.",
+    "technical_specs": "Close-up portrait, realistic details, subtle film grain, cool-toned cinematic film filter, natural wind movement, no artificial sharpening.",
+    "generated_prompt_string": "Create a close-up soft emotional film-style portrait of an original adult woman standing on a beach at dusk. Her dark hair is messy from the sea breeze with strands blowing across her face; she wears a white opaque spaghetti-strap top and denim bottoms. Give her natural slightly flushed skin with subtle grainy texture. Show dark ocean waves and a moody sky with dusty pink, blue-gray, and muted lavender sunset colors. Use a low-saturation cool-toned cinematic film filter, soft contrast, slight grain, hazy atmosphere, natural lighting, and realistic details.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor or teen-coded subject, transparent top, exposed underwear, nudity, sexualized pose, plastic skin, waxy, over-smooth, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {"assets": [{"type": "image_reference", "name": "source dusk beach reference", "required": false, "source": "https://img.opennana.com/prompts/images/508.jpeg", "usage": "Use only for beach composition, wind, sunset palette, and film treatment; do not copy identity."}], "prompt_instructions": "Preserve the dusk beach, white spaghetti-strap top, denim bottoms, windblown hair, cool film palette, and melancholic mood. Keep the subject original adult and the top opaque."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified an original adult subject and opaque top coverage.", "Added safety and anti-artifact exclusions while preserving the beach-fashion concept."]}
+}

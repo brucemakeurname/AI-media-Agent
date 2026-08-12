@@ -1,0 +1,27 @@
+{
+  "name": "prompt-736",
+  "tag": ["ugc", "macbook-screen", "photo-booth", "couple-selfie", "screen-simulation"],
+  "image_type": "embedded-screen-couple-portrait",
+  "image_vibe": "candid-nocturnal-digital",
+  "image_purpose": "profile-visual",
+  "group": "viral-trending",
+  "prompt": {
+    "project_info": "Create a photorealistic downward-angled photograph of a MacBook screen displaying a candid Photo Booth couple portrait.",
+    "main_subject": "An adult couple inside the Photo Booth window, both in oversized black hoodies with hoods pushed back and faces visible. The male subject holds a phone with a reflective case; the female subject reclines closely beside him. Preserve both approved adult identities when face references are attached.",
+    "composition_elements": "MacBook screen fills approximately 95% of the frame, with a thin keyboard strip at the bottom, subtle pixel-grid moire, dust, fingerprints, and ambient reflection on glossy glass. Dark-mode macOS interface with Spotify Liked Songs dimmed at left and Photo Booth dominant at right. Nested image shows a dim bedroom, off-white wall, rumpled bedding, and candid couple selfie.",
+    "lighting_and_atmosphere": "Cool screen glow mixed with warm skin tones, deep nocturnal shadows, low-key candid blue atmosphere, raw unedited screen-simulation realism.",
+    "technical_specs": "3:4 portrait, 1152x1536 target, high-angle downward camera, full-frame screen simulation, visible physical imperfections, natural digital interface sharpness, no invented UI beyond the observed interface.",
+    "generated_prompt_string": "Hyper-realistic downward shot of a MacBook screen filling approximately 95% of the frame, with visible dust, subtle pixel grid, fingerprints, and faint ambient reflection on the glossy glass, plus a thin strip of physical keyboard at the lower edge. The dark-mode macOS interface shows a dimmed Spotify Liked Songs playlist on the left and a dominant Photo Booth live-preview window on the right. Inside the Photo Booth window, an adult couple reclines closely together in a dim bedroom with an off-white wall and rumpled bedding, both wearing oversized black hoodies with hoods pushed back and faces fully visible. The adult male holds a phone with a clear reflective case and the adult female rests beside him. Cool blue screen glow mixed with warm skin tones, deep nocturnal shadows, candid raw unedited realism, 3:4 vertical composition.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, identity drift, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, flat screenshot, clean glass, daylight, studio lighting, cartoon, 3d render, painting, blurry, bad anatomy, extra fingers, deformed, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved adult couple identities", "required": true, "source": "matching local preview image and optional face references", "usage": "Preserve both approved adult faces, hair, expressions, hoodie styling, and relationship-neutral proximity; replaceable with another approved adult pair."},
+        {"type": "product", "name": "MacBook and phone", "required": true, "source": "matching local preview image", "usage": "Preserve screen angle, keyboard edge, interface framing, phone scale, and reflective case; replaceable only with equivalent devices."},
+        {"type": "location", "name": "dim bedroom Photo Booth scene", "required": true, "source": "matching local preview image", "usage": "Preserve wall, bedding, low-key night light, and nested screen hierarchy; replaceable with an equivalent bedroom."},
+        {"type": "ui_reference", "name": "dark-mode macOS and Spotify/Photo Booth interface", "required": true, "source": "matching local preview image", "usage": "Preserve observed interface structure and legibility; do not invent extra controls or readable text."}
+      ],
+      "prompt_instructions": "Attach the preview and optional approved adult face references to lock nested identities, device perspective, interface, and room. Keep people, hoodies, phone, screen layers, and lighting consistent. Replaceable assets must retain the same hierarchy; do not add logos, UI, or typography not present in the reference."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

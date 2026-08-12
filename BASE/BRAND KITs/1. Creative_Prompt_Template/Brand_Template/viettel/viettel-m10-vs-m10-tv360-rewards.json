@@ -1,0 +1,78 @@
+{
+  "name": "viettel-m10-vs-m10-tv360-rewards",
+  "tag": [
+    "viettel",
+    "tv360",
+    "messi",
+    "mbappe",
+    "football-meme"
+  ],
+  "biz_niche": "Sports & Fitness",
+  "content_format": "Fun facts",
+  "group": "viettel_1561984955547418",
+  "prompt": {
+    "project_info": {
+      "theme": "World Cup star comparison joke leading to TV360 reward message",
+      "color_palette": "Field green, white, black, Argentina sky blue, navy blue, red accent"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A cartoon chibi Lionel Messi in Argentina number 10 kit points at a chibi Kylian Mbappe seen from behind in a navy number 10 shirt with 'MBAPPE 10'. Large white text says 'CŨNG LÀ M10' and angled white text says 'HỤT PEN CHỈ 8 BÀN'. A large lower caption in red says 'VÀ TẤT CẢ ĐỀU CHƯA SĂN ĐƯỢC QUÀ TRÊN TV360'.",
+      "style": "Clean chibi football illustration with meme-like comparison humor and sharp social-poster text hierarchy"
+    },
+    "composition_elements": {
+      "type": "Background Elements",
+      "text": "viettel telecom; CŨNG LÀ M10; HỤT PEN CHỈ 8 BÀN; VÀ TẤT CẢ ĐỀU CHƯA SĂN ĐƯỢC QUÀ TRÊN TV360; MBAPPE 10",
+      "items": [
+        "Top Left: Viettel telecom logo in white",
+        "Top Right: Large white tilted text 'CŨNG LÀ M10'",
+        "Bottom Left: Angled white text 'HỤT PEN CHỈ 8 BÀN'",
+        "Bottom Right: Large red caption over a white faded lower panel",
+        "Center/Background: Green football field illustration with a chibi Messi pointing at a chibi Mbappe from behind"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat illustrated sports-poster lighting",
+      "effect": "Clean linework, soft character shading, bright field color, high readability"
+    },
+    "technical_specs": {
+      "render_style": "Polished digital chibi illustration",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square illustrated social poster for a World Cup comparison joke leading into a TV360 reward message. Centerpiece is a polished chibi Lionel Messi in Argentina number 10 kit pointing toward a chibi Kylian Mbappe seen from behind in a navy shirt labeled 'MBAPPE 10'. Include the exact text 'CŨNG LÀ M10', 'HỤT PEN CHỈ 8 BÀN', and 'VÀ TẤT CẢ ĐỀU CHƯA SĂN ĐƯỢC QUÀ TRÊN TV360'. Background is a simple green football field with white pitch markings. Surrounding elements: Viettel telecom logo in white at top left and strong white-to-red text hierarchy across the composition. Technical style: polished digital chibi illustration, flat illustrated sports-poster lighting, clean linework and high readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel telecom logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Top-left white logo"
+        },
+        {
+          "type": "person",
+          "name": "Lionel Messi chibi reference",
+          "required": true,
+          "source": "real-person likeness reference adapted into chibi style",
+          "usage": "Preserve beard, hairstyle, Argentina kit, and pointing pose"
+        },
+        {
+          "type": "person",
+          "name": "Kylian Mbappe chibi reference",
+          "required": true,
+          "source": "real-person likeness reference adapted into chibi style",
+          "usage": "Preserve the back-view silhouette, short hair fade, and 'MBAPPE 10' jersey"
+        },
+        {
+          "type": "background",
+          "name": "Simplified green football field",
+          "required": true,
+          "source": "recreated illustrated pitch",
+          "usage": "Keep the clean minimal field without extra clutter"
+        }
+      ],
+      "prompt_instructions": "This should read as a humorous illustrated football post, not a realistic sports render. Use attached likeness refs if necessary for Messi and Mbappe, but keep the final output in consistent chibi style with strong readable text."
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "name": "quan-nhau-tu-do-new-flavors-86-hong-tien",
+  "tag": [
+    "branch-promo",
+    "food-collage",
+    "location-promo",
+    "restaurant-poster"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Brand story",
+  "group": "quan-nhau-tu-do_1615832080544487",
+  "prompt": {
+    "project_info": {
+      "theme": "Quán Nhậu Tự Do branch promo at 86 Hồng Tiến",
+      "color_palette": "White, red, black, deep green, warm amber night lights, food natural tones"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Vertical restaurant promo poster pairing a real nighttime venue photo of the 86 Hồng Tiến branch with a foreground cutout collage of beer and signature dishes around a central hotpot burner.",
+      "style": "Photorealistic venue-and-food composite, nightlife restaurant promotion, crisp sticker-cutout food collage"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "CHẠM CỐC TỰ DO – MỞ VỊ MỚI TẠI 86 HỒNG TIẾN",
+      "items": [
+        "Top Left: Red and black headline on white background 'CHẠM CỐC TỰ DO – MỞ VỊ MỚI TẠI 86 HỒNG TIẾN'.",
+        "Top Right: Rounded-corner nighttime photo of the 86 Hồng Tiến branch with glowing signs and crowded outdoor seating.",
+        "Bottom Left: Two cutout beer glasses and plated dishes with white sticker-style outlines.",
+        "Bottom Right: Additional cutout dishes including sliced meat with vegetables around the green tabletop.",
+        "Center/Background: Large central hotpot on a tabletop burner layered over the branch photo, with the whole lower half composed as a food-collage spread."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Mixed night venue and food lighting",
+      "effect": "Warm amber venue illumination, crisp collage edges, inviting nightlife ambiance, bright dish highlights"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic composite advertising poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Quán Nhậu Tự Do branch promo at 86 Hồng Tiến. Centerpiece is a large hotpot on a tabletop burner surrounded by cutout dishes and beer glasses, layered in front of a real nighttime photo of the 86 Hồng Tiến branch. Background is a white text header above a deep green lower tabletop. Surrounding elements: exact headline 'CHẠM CỐC TỰ DO – MỞ VỊ MỚI TẠI 86 HỒNG TIẾN', branch facade photo with glowing signs and diners, two beer glasses at the lower left, and multiple dish cutouts across the bottom. Technical style: photorealistic composite advertising poster, mixed night venue and food lighting, warm amber glow with crisp cutout edges, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Quán Nhậu Tự Do logo",
+          "required": true,
+          "source": "brand asset and venue signage",
+          "usage": "Retain the venue branding visible within the photo and on facade signs."
+        },
+        {
+          "type": "location",
+          "name": "86 Hồng Tiến branch facade at night",
+          "required": true,
+          "source": "original location photo",
+          "usage": "Preserve the real branch architecture, signage, and outdoor dining scene."
+        },
+        {
+          "type": "product",
+          "name": "hotpot and featured dish collage",
+          "required": true,
+          "source": "campaign dish photos",
+          "usage": "Keep the same dish assortment, white cutout borders, and placement around the hotpot."
+        },
+        {
+          "type": "text_layout",
+          "name": "headline and collage page structure",
+          "required": true,
+          "source": "original poster",
+          "usage": "Preserve exact address wording and the white-header / venue-photo / green-table layout."
+        }
+      ],
+      "prompt_instructions": "Use refs for the real branch photo, the hotpot, and the exact dish cutout arrangement. Keep the branch-specific architecture accurate and do not replace it with a generic nightlife venue."
+    }
+  }
+}

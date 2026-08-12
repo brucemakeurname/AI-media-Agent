@@ -1,0 +1,44 @@
+{
+  "name": "mediterranean-goddess-ruins",
+  "tag": ["ugc", "selfie-pov", "modern-luxury", "outdoor-urban", "mediterranean-goddess", "fitness", "two-set-collection"],
+  "image_type": "luxury lifestyle two-set collection",
+  "image_vibe": "ethereal, cinematic, athletic, polished, high-fidelity",
+  "image_purpose": "social-media collection and editorial moodboard",
+  "group": "selfie-pov/modern-luxury/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic two-set lifestyle collection featuring one original adult woman across an ethereal Mediterranean ruins set and a high-intensity athlete realism set.",
+    "main_subject": "One original adult woman with a consistent non-celebrity identity across both sets. Set 1 uses graceful contemplative sitting and standing poses in a Grecian sleeveless flowing gown with dusty rose, mauve, emerald, royal blue or yellow color variants and an ornate gold snake armband on the upper arm. Set 2 uses a textured high ponytail, natural workout flush and realistic sweat glow while leaning against gym mirrors. Do not reproduce Ana de Armas or any other public figure.",
+    "composition_elements": "Set 1: ancient marble columns stand in shallow crystal-clear water with high-fidelity reflections; style the adult woman in the Grecian flowing gown and gold snake armband. Set 2: industrial modern gym with warm overhead lights and accurate mirror reflections; show the adult woman in either a monochromatic pink sports crop top with drawstring sweatpants or a charcoal-gray racerback with royal-blue side-striped joggers. Keep the two settings visually distinct but identity and realism consistent.",
+    "lighting_and_atmosphere": "Use cinematic reflected light and clear water highlights for the Mediterranean ruins. Use warm overhead gym lighting with natural sweat sheen and workout flush for the athlete set. Maintain polished 8K editorial realism and clear material, water, marble, mirror and fabric reflections.",
+    "technical_specs": "Photorealistic 8K-style collection, square 1080x1080 social-media layouts, consistent adult identity, accurate reflections, natural anatomy, realistic gown, athletic fabric, water, marble, gym mirror and skin texture, no text, logos or watermark.",
+    "generated_prompt_string": "Photorealistic luxury lifestyle collection featuring one original adult woman across two sets. Set 1: ethereal Mediterranean goddess among ancient marble columns in shallow crystal-clear water, graceful contemplative sitting and standing poses, Grecian sleeveless flowing gown in dusty rose, mauve, emerald, royal blue or yellow, ornate gold snake armband, cinematic reflections. Set 2: high-intensity athlete realism in an industrial modern gym with warm overhead light, textured high ponytail, natural sweat glow and workout flush, leaning against gym mirrors with accurate reflections; pink sports crop top with drawstring sweatpants or charcoal-gray racerback with royal-blue side-striped joggers. 8K-style photorealism, polished editorial detail, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Ana de Armas likeness, distorted anatomy, extra fingers, malformed hands, inconsistent identity, broken reflections, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, random text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "mediterranean-goddess-ruins.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve both source sets, ruins and gym environments, wardrobe variants, gold snake armband, poses, reflections and production quality; replace named identity with one original adult."
+        },
+        {
+          "type": "image_asset",
+          "name": "1774984924341-4928hxnq-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1774984924341-4928hxnq-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written collection prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required and image asset is optional; it is not inspected. Keep one consistent adult identity across the ruins and gym sets, preserve wardrobe variants, reflections, environments and cinematic/athletic direction. Replace identity only."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Ana de Armas with one original adult identity across both sets.",
+      "Preserved the source's Grecian, water-reflection, gym, fitness and wardrobe-variant concepts.",
+      "Added required safety and artifact exclusions."
+    ]
+  }
+}

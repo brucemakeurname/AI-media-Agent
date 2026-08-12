@@ -1,0 +1,22 @@
+{
+  "name": "golden-satin-luxury",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "golden-satin", "luxury"],
+  "image_type": "luxury satin bedroom portrait",
+  "image_vibe": "intimate, luxurious, warm, cinematic",
+  "image_purpose": "eveningwear lookbook and lifestyle editorial",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a cinematic full-body portrait of one original approved adult woman reclining on a large rumpled bed in a warm opulent bedroom.",
+    "main_subject": "Original approved adult woman with natural warm skin, dark shoulder-length hair, calm confident direct gaze, and realistic skin texture. She wears a golden strapless satin gown with a reflective finish and soft folds cascading across the bed.",
+    "composition_elements": ["Eye-level full shot with subject reclining comfortably on a large rumpled bed.", "Opulent room with warm wood, plush velvet, antique textiles, window, and soft teal shadow undertones.", "Gown spreads across the bed with realistic satin draping and highlights.", "Keep face, fabric sheen, bed texture, window, and quiet luxury hierarchy clear."],
+    "lighting_and_atmosphere": "Natural warm window light with dim ambient fill, soft contrast, warm highlights on satin and skin, subtle teal shadows, atmospheric cinematic depth.",
+    "technical_specs": "Photorealistic 4:5 full-body portrait, 50mm lens at f/1.8, shallow depth of field, low ISO, slow ambient-light exposure, realistic satin, bedding, skin, and wood texture, subtle film grain, no text or watermark.",
+    "generated_prompt_string": "Cinematic full-body luxury bedroom portrait of one original approved adult woman with dark shoulder-length hair, natural warm skin, realistic texture and a calm confident direct gaze. She reclines comfortably on a large rumpled bed wearing a golden strapless satin gown with a highly reflective finish, soft folds and a train cascading across the bedding. Use an opulent room with warm wood, plush velvet, antique textiles and window light, dim ambient fill, warm highlights, subtle teal undertones in the shadows, 50mm f/1.8, shallow depth of field, low ISO, soft atmospheric film grain, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "explicit measurements", "body-part emphasis", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "warped satin", "distorted anatomy", "extra fingers", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "golden-satin-luxury.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult identity, face, hair, expression, pose, and skin reference."}, {"type": "wardrobe", "name": "golden strapless reflective satin gown", "required": true, "source": "local reference image", "usage": "Preserve gown color, neckline, sheen, draping, and train."}, {"type": "location", "name": "opulent warm bedroom with window light", "required": true, "source": "local reference image", "usage": "Preserve bed, textiles, wood, window, lighting, and teal shadow undertones."}],
+      "prompt_instructions": "Attach all required person, wardrobe, and location references; no optional assets are needed. Keep identity, face, outfit, pose, satin, bed, room, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent gown, or equivalent bedroom reference. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced the named public-figure identity and removed body-emphasis wording while preserving the golden satin gown, reclining pose, bedroom, lighting, and luxury editorial concept."]}
+}

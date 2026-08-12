@@ -1,0 +1,22 @@
+{
+  "name": "minimalist-white-studio-swimsuit-grid",
+  "tag": ["industry", "lookbook-line-sheet", "grid-collage", "swimwear", "comp-card"],
+  "image_type": "nine-panel swimsuit comp-card",
+  "image_vibe": "minimal, clean, clinical, catalog-like",
+  "image_purpose": "swimwear lookbook and model comp sheet",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Create a clean 3x3 studio contact sheet showing the same adult swimsuit model in standard modeling angles.",
+    "main_subject": "One adult fictional female model with original non-celebrity features, hair pulled into a tight bun, wearing a plain white triangle bikini top and high-cut bottoms. Keep poses neutral and non-sexualized with natural proportions and consistent identity.",
+    "composition_elements": "Nine tiled panels with thin white borders, centered full-body framing, consistent camera height and distance, front, three-quarter, side, and back variations against a white or cream seamless background.",
+    "lighting_and_atmosphere": "Even soft studio lighting with minimal shadows, clean neutral catalog presentation, crisp realistic fabric and skin texture.",
+    "technical_specs": "3x3 grid in a 3:4 vertical canvas, photorealistic studio photography, consistent scale, alignment, exposure, and color grade, no text or logos.",
+    "generated_prompt_string": "Photorealistic studio contact sheet, 3x3 grid of the same adult fictional female model with original non-celebrity features wearing a plain white triangle bikini top and high-cut bottoms, hair in a sleek bun, neutral expression, standing in standard non-sexualized modeling angles across nine tiles: front, three-quarter, side, and back variations. Clean white seamless background, even soft studio lighting, minimal shadows, consistent camera height and distance, centered full-body framing, crisp high-resolution editorial catalog look, thin white borders separating panels.",
+    "negative_prompt": ["minor or underage appearance", "celebrity likeness", "public figure likeness", "explicit", "nsfw", "overly revealing", "nudity", "erotic posing", "lingerie boudoir style", "pornographic", "blurry", "low resolution", "warped anatomy", "extra limbs", "duplicated faces", "text", "watermark", "logo", "plastic skin", "waxy", "over-smooth", "HDR look"],
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "minimalist-white-studio-swimsuit-grid.jpg", "required": true, "source": "workspace reference image", "usage": "Reference the adult model, white bikini, tight bun, nine-panel angles, white studio, and consistent catalog lighting."}],
+      "prompt_instructions": "Attach the required reference image. Preserve adult identity, swimsuit, neutral poses, panel layout, camera distance, background, and lighting. Keep model identity fictional and replaceable, with no products, logos, or typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

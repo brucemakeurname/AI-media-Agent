@@ -1,0 +1,60 @@
+{
+  "name": "a-concise-and-modern-fashion-promotional-advertisement",
+  "tag": ["adult-woman", "fashion-sale", "ecommerce-banner", "green-tshirt", "studio-advertisement", "typography-layout"],
+  "image_type": "fashion-promotional-advertisement",
+  "image_vibe": "clean-modern-confident",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an adult and converted the face instruction to an authorized adult identity reference while preserving the sale layout, exact offer copy, outfit, pose, and ecommerce intent."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "clean modern fashion sale advertisement",
+      "color_palette": "light gray, white, green, black, and red accent typography",
+      "aspect_ratio": "1:1"
+    },
+    "main_subject": {
+      "description": "An adult woman matching the authorized identity reference, with a curvy feminine silhouette, natural makeup, long straight dark hair, and a calm confident expression looking directly at camera.",
+      "wardrobe": "Black baseball cap, oversized green T-shirt, black shorts, white mid-calf socks, and chunky white sneakers with black sole details.",
+      "pose": "Seated on the studio floor in a relaxed pose, slightly leaning forward, one knee bent upward and the other leg extended outward; one hand near the chin and the other touching the shoe.",
+      "styling": "Minimal contemporary fashion e-commerce styling with clean natural beauty."
+    },
+    "composition_elements": {
+      "framing": "Straight-on square fashion advertisement with the adult subject centered and enough negative space for typography.",
+      "environment": "Minimal light-gray studio background with very large semi-transparent white text behind the subject reading SALE.",
+      "typography": "Large bold center-front text: 20% OFF. Below: on orders above ₹990. Small white label: USE CODE AUQIB10, with USE CODE in black and AUQIB10 in red. Bottom-center thin white outlined button: SHOP NOW.",
+      "focus": "Sharp subject, clothing texture, sneakers, clean typography, and balanced commercial layout; text must be rendered exactly and legibly."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft studio lighting with gentle realistic shadows and flattering illumination across the adult subject and clothing.",
+      "atmosphere": "Modern, minimal, approachable, confident, and commercially polished."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with a 50mm lens at f/5.6, 1/200 s, ISO 100",
+      "quality": "High-resolution photorealistic fashion photography, sharp focus, clean edges, accurate typography, realistic skin and fabric texture"
+    },
+    "generated_prompt_string": "Create a clean modern 1:1 fashion sale advertisement on a light-gray studio background. Feature one adult woman matching the authorized identity reference, with a curvy feminine silhouette, natural makeup, long straight dark hair, and a calm confident expression looking directly at camera. She wears a black baseball cap, oversized green T-shirt, black shorts, white mid-calf socks, and chunky white sneakers with black sole details. Seat her on the floor in a relaxed pose, slightly leaning forward, one knee bent upward and the other leg extended outward, one hand near her chin and the other touching the shoe. Place very large semi-transparent white SALE text behind her. Add large bold center text 20% OFF, below it on orders above ₹990, a small white label reading USE CODE AUQIB10 with the code in red, and a thin white outlined SHOP NOW button at bottom center. Use soft studio lighting, high-resolution photorealistic detail, accurate legible typography, and no extra text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, readable text errors, misspelled offer, extra text, logo, watermark, deformed anatomy, extra fingers, distorted shoes, cluttered layout, harsh shadows",
+    "reference_elements": {
+      "prompt_instructions": "The authorized adult identity reference is required for the face and overall identity. Optional wardrobe, studio, typography, or layout references may replace only their named element; preserve the exact offer copy, adult seated pose, green T-shirt styling, and clean ecommerce composition. Do not imitate a public figure.",
+      "assets": [
+        {
+          "type": "identity",
+          "name": "authorized-adult-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public figure portrait",
+          "usage": "Preserve the authorized adult's facial identity in the centered fashion advertisement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "green-tshirt-black-shorts-sneaker-look",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the outfit pieces while preserving the relaxed adult styling and commercial composition."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "gym-pink-girl-stretching",
+  "tag": ["ugc", "casual-everyday", "sporty-active", "public-indoor", "stretching", "pink-fitness"],
+  "image_type": "post-workout-stretching-portrait",
+  "image_vibe": "focused-warm-fitness",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/sporty-active/public-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic indoor gym portrait of an approved adult woman stretching after strength training.",
+    "main_subject": "An approved adult woman with a focused serious expression and visible post-workout sheen, wearing a fitted pink sports crop top and matching pink sweatpants. She stretches one arm across her chest.",
+    "composition_elements": "Vertical medium portrait with the subject centered in a clean organized fitness center. Include weight machines, dumbbells, and hanging lights in the background with realistic depth.",
+    "lighting_and_atmosphere": "Warm indoor gym lighting, natural sweat and skin texture, focused active-lifestyle mood, realistic equipment and fabric detail.",
+    "technical_specs": "Photorealistic digital photograph, vertical 4:5 framing, sharp subject, softly detailed gym background, natural perspective and accurate hands.",
+    "generated_prompt_string": "Create a photorealistic 4:5 indoor gym portrait of an approved adult woman with a focused serious expression and natural post-workout sheen. She wears a fitted pink sports crop top and matching pink sweatpants and stretches one arm across her chest after strength training. Center her in a clean organized fitness center with weight machines, dumbbells, and hanging lights behind her. Use warm indoor lighting, realistic skin and fabric texture, accurate anatomy, and a focused active-lifestyle mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, malformed equipment",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-pink-gym-subject", "required": true, "source": "gym-pink-girl-stretching.jpg", "usage": "Preserve adult identity, expression, stretch pose, and post-workout state."},
+        {"type": "wardrobe", "name": "matching-pink-fitness-set", "required": true, "source": "gym-pink-girl-stretching.jpg", "usage": "Keep pink crop top, sweatpants, and styling consistent; replace only with explicit wardrobe references."},
+        {"type": "location", "name": "organized-indoor-fitness-center", "required": true, "source": "gym-pink-girl-stretching.jpg", "usage": "Maintain machines, dumbbells, hanging lights, and warm gym light; replace only with explicit location references."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, equipment/product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the post-workout stretching concept.", "Added safe negative prompts and structured references."]}
+}

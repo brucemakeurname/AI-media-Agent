@@ -1,0 +1,67 @@
+{
+  "name": "reed-trench-cinematic-fashion",
+  "tag": ["adult-woman", "beige-trench-coat", "cream-scarf", "dry-reeds", "overcast", "editorial"],
+  "image_type": "outdoor-fashion-editorial-portrait",
+  "image_vibe": "moody, elegant, natural, earthy, cinematic",
+  "image_purpose": "fashion-editorial, campaign-visual, moodboard",
+  "group": "indie / moody-portrait / outdoor-editorial",
+  "prompt": {
+    "project_info": {
+      "theme": "Cinematic trench coat portrait in windblown reeds",
+      "format": "vertical editorial portrait",
+      "color_palette": "muted beige, sand, cream, warm brown, soft gray"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with naturally wind-tousled hair, calm introspective expression, and minimal natural makeup wears a beige trench coat with a tied belt and a voluminous cream scarf.",
+      "style": "refined outdoor fashion editorial"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "frame a chest-up to three-quarter portrait among tall dry reeds",
+        "let wind move her hair, scarf, and the reeds",
+        "keep her gaze soft and slightly away from camera",
+        "use a softly blurred reed field behind her",
+        "retain a clean editorial silhouette with natural fabric texture"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft diffuse overcast daylight",
+      "effect": "gentle facial modeling, muted highlights, and delicate texture in coat and scarf",
+      "atmosphere": "quiet, windswept, earthy, and cinematic"
+    },
+    "technical_specs": {
+      "render_style": "cinematic fashion photography with shallow depth of field",
+      "resolution": "high-detail vertical image",
+      "color_treatment": "muted warm neutrals, restrained contrast, fine film grain, natural skin texture"
+    },
+    "generated_prompt_string": "Create a cinematic outdoor fashion-editorial portrait of an adult woman standing among tall dry reeds on an overcast day. She has naturally wind-tousled hair, a calm introspective expression, and minimal natural makeup. Dress her in a beige trench coat with a tied belt and a voluminous cream scarf. Frame her chest-up to three-quarter length with a soft gaze slightly away from camera; let the wind move her hair, scarf, and the reeds. Keep the reed field softly blurred behind her and preserve natural fabric texture. Use soft diffuse daylight, gentle facial modeling, muted highlights, a palette of beige, sand, cream, warm brown, and soft gray, restrained contrast, fine film grain, and natural skin texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, identity blending, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, text, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "If supplied, use an approved adult face reference and retain its facial identity. Preserve the beige trench coat, tied belt, cream scarf, windblown dry reeds, muted neutral palette, and overcast editorial mood. Do not use celebrity or public-figure likeness.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-reference",
+          "required": false,
+          "source": "user attachment when provided",
+          "usage": "Maintain the adult subject's face, facial structure, proportions, features, and expression."
+        },
+        {
+          "type": "wardrobe",
+          "name": "beige-trench-and-cream-scarf-reference",
+          "required": false,
+          "source": "user attachment when provided",
+          "usage": "Match the beige trench coat with tied belt and voluminous cream scarf."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult while retaining the original trench, scarf, reeds, overcast setting, and editorial mood."
+    ]
+  }
+}

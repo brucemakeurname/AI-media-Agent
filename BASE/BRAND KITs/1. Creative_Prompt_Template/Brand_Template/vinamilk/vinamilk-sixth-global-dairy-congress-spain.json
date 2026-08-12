@@ -1,0 +1,48 @@
+{
+  "name": "vinamilk-sixth-global-dairy-congress-spain",
+  "tag": ["vinamilk", "global-dairy-congress", "spain", "booth", "anniversary"],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Industry news",
+  "group": "vinamilk_2286781452061374",
+  "prompt": {
+    "project_info": {
+      "theme": "Vinamilk 50th anniversary global dairy congress participation announcement",
+      "color_palette": "Deep royal blue, white, light blue, small red-yellow fireworks accents"
+    },
+    "main_subject": {
+      "type": "Text",
+      "detail": "A square event-announcement poster with a strong blue stage-like background. The top center has a heart-shaped '50' anniversary mark with curved text 'PHUNG SU KHAT VONG VIET', 'EST', '1976', and 'Vinamilk'. The main headline reads 'LẦN THỨ 6 VINAMILK THAM GIA HỘI NGHỊ SỮA TOÀN CẦU' and subheadline 'TẠI TÂY BAN NHA'. At the bottom is a stylized Vinamilk exhibition booth packed with products.",
+      "style": "Bold graphic event poster, celebratory corporate exhibition style, clean stage symmetry"
+    },
+    "composition_elements": {
+      "type": "Background Elements",
+      "text": "PHUNG SU KHAT VONG VIET; 50; EST; 1976; Vinamilk; LẦN THỨ 6 VINAMILK THAM GIA HỘI NGHỊ SỮA TOÀN CẦU; TẠI TÂY BAN NHA",
+      "items": [
+        "Top Left: Small firework doodle on striped blue background",
+        "Top Right: Matching firework doodle on the opposite side",
+        "Bottom Left: Small white flowers and blue checker border",
+        "Bottom Right: Matching floral decoration and checker border",
+        "Center/Background: Vertical striped blue backdrop, 50th anniversary logo, giant white headline, and a centered illustrated exhibition booth on a rounded stage"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright flat poster lighting",
+      "effect": "Even illumination, crisp typography, festive decorative accents, minimal shadows"
+    },
+    "technical_specs": {
+      "render_style": "High-end vector-style corporate event poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square corporate event poster for Vinamilk's 50th anniversary global dairy congress participation announcement. Centerpiece is a bold blue stage-like layout with the exact text 'LẦN THỨ 6 VINAMILK THAM GIA HỘI NGHỊ SỮA TOÀN CẦU' and 'TẠI TÂY BAN NHA', plus a heart-shaped '50' anniversary mark reading 'PHUNG SU KHAT VONG VIET', 'EST', '1976', and 'Vinamilk'. Background is a vertically striped royal-blue poster with small fireworks and floral decorations. Surrounding elements: a centered illustrated Vinamilk exhibition booth at the bottom, checker borders, and celebratory accents. Technical style: high-end vector-style corporate event poster, bright flat poster lighting, crisp typography and festive decorative accents, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {"type": "logo", "name": "Vinamilk 50th anniversary logo", "required": true, "source": "original creative branding", "usage": "Top-center emblem with the same heart-shaped 50 lockup"},
+        {"type": "logo", "name": "Vinamilk booth branding", "required": true, "source": "original booth creative", "usage": "Preserve booth logo placement and product display feel"},
+        {"type": "product", "name": "Vinamilk congress booth", "required": true, "source": "booth reference from original image", "usage": "Recreate the centered exhibition stand with multi-shelf product arrangement"},
+        {"type": "text_layout", "name": "Event announcement typography", "required": true, "source": "original creative copy", "usage": "Keep exact Vietnamese wording and large stacked layout"}
+      ],
+      "prompt_instructions": "Prioritize the poster hierarchy and the congress-booth reveal. This is a corporate news card, not a lifestyle scene. Keep the royal-blue palette dominant and the booth small but centered at the bottom."
+    }
+  }
+}

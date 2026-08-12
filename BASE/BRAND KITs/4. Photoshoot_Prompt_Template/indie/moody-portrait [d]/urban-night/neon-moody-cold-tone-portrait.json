@@ -1,0 +1,67 @@
+{
+  "name": "neon-moody-cold-tone-portrait",
+  "tag": [
+    "adult-woman",
+    "urban-night",
+    "dark-coat",
+    "wool-scarf",
+    "teal-green",
+    "city-bokeh"
+  ],
+  "image_type": "cold-tone-urban-night-portrait",
+  "image_vibe": "calm, introspective, cool, atmospheric, emotional",
+  "image_purpose": "fashion-editorial, character-visual, moodboard",
+  "group": "indie / moody-portrait / urban-night",
+  "prompt": {
+    "project_info": {
+      "theme": "Cold teal-green city portrait with windblown hair",
+      "format": "vertical close portrait",
+      "color_palette": "teal green, dark charcoal, warm amber bokeh, muted gray"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman stands outdoors at night wearing a dark elegant coat and a thick wool scarf wrapped around her neck. Loose hair strands are gently blown by the wind around her face; she has natural skin texture, subtle makeup, and a calm introspective expression.",
+      "style": "ultra-realistic cold-tone cinematic photography"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "vertical close portrait outdoors at night",
+        "loose windblown hair framing the face",
+        "calm introspective gaze slightly off camera",
+        "dark coat and thick scarf visible in the foreground",
+        "soft creamy city-light bokeh in the background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft ambient city light",
+      "effect": "gentle cinematic illumination and diffused bokeh against a cool teal-green environment",
+      "atmosphere": "quiet, atmospheric, emotional, and cold-toned"
+    },
+    "technical_specs": {
+      "render_style": "ultra-realistic 85mm f/1.4-look night photography",
+      "resolution": "high-detail low-noise vertical 8K image",
+      "color_treatment": "moody teal-green grade, film-like softness, natural skin texture, controlled bokeh"
+    },
+    "generated_prompt_string": "Create a cinematic nighttime portrait of an adult woman standing outdoors, softly lit by ambient city lights. She wears a dark elegant coat with a thick wool scarf wrapped around her neck. Loose strands of hair gently blown by the wind frame her face. Give her a calm introspective expression, natural skin texture, and subtle makeup. Use moody teal-green color grading, soft cinematic lighting, shallow depth of field, and creamy bokeh city lights glowing in the background. Render with film-like softness, an atmospheric emotional tone, an 85mm f/1.4 look, ultra-realistic photography, high detail, low noise, and vertical 8K quality.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, text, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "If supplied, use an approved adult face reference and preserve its facial structure, proportions, features, and expression. Preserve the dark coat, wool scarf, windblown hair, teal-green lighting, and creamy city bokeh. Do not use celebrity/public-figure likeness.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-reference",
+          "required": false,
+          "source": "user attachment when provided",
+          "usage": "Maintain adult face, facial structure, proportions, features, and expression."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult while preserving the original dark coat, scarf, city bokeh, teal-green grading, and emotional night mood."
+    ]
+  }
+}

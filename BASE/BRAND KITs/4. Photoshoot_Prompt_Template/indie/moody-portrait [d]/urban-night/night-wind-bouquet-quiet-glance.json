@@ -1,0 +1,65 @@
+{
+  "name": "night-wind-bouquet-quiet-glance",
+  "tag": [
+    "subway-platform",
+    "passing-train",
+    "bouquet",
+    "dark-trench-coat",
+    "motion-blur",
+    "poetic"
+  ],
+  "image_type": "cinematic-subway-night-portrait",
+  "image_vibe": "moody, poetic, calm, reflective, melancholic",
+  "image_purpose": "cinematic-moodboard, narrative-editorial, character-visual",
+  "group": "indie / moody-portrait / urban-night",
+  "prompt": {
+    "project_info": {
+      "theme": "Quiet bouquet portrait beside a passing train at night",
+      "format": "vertical medium portrait",
+      "color_palette": "dark charcoal, steel gray, muted blue, dim platform light, floral accents"
+    },
+    "main_subject": {
+      "type": "woman",
+      "detail": "A woman with long wavy blonde bob hair stands on a night-time train-station or subway platform. She wears a long dark trench coat and holds a bouquet of flowers; wind from the moving train softly moves her hair and coat fabric.",
+      "style": "dark cinematic realism with a poetic editorial tone"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "woman standing on a subway platform with her body slightly turned away",
+        "face looking directly toward the camera or a rear three-quarter interpretation preserving the quiet glance",
+        "bouquet held visibly in her hands",
+        "fast-passing train behind her creates strong horizontal motion blur",
+        "platform structure recedes into darkness with quiet cinematic depth"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "low platform light with deep shadows",
+      "effect": "subdued illumination on figure and bouquet, contrasting with train motion blur",
+      "atmosphere": "moody, poetic, reflective, and quietly intense"
+    },
+    "technical_specs": {
+      "render_style": "cinematic realism with motion blur and film grain",
+      "resolution": "high-detail vertical image",
+      "color_treatment": "muted colors, deep blacks, soft film texture, restrained contrast"
+    },
+    "generated_prompt_string": "Create a dark cinematic scene on a moving-train station or subway platform at night. A woman stands on the platform with her body slightly turned away while her face looks directly toward the camera; alternatively use a rear three-quarter view that preserves the same quiet, reflective glance. She has long wavy blonde bob hair gently moved by the wind and wears a long dark trench coat. A train passes fast behind her, creating strong motion blur, while the wind softly moves her hair and coat fabric. She holds a bouquet of flowers in her hands. Give her a calm, reflective, slightly melancholic expression and make the atmosphere moody and poetic. Use low light, deep shadows, muted colors, cinematic realism, a slow emotional moment, film grain, and quiet intensity.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, text, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "If supplied, preserve the face reference's facial structure, proportions, features, and expression. Preserve the blonde bob, dark trench coat, bouquet, platform, passing-train motion blur, wind movement, and quiet night mood. Do not use celebrity/public-figure likeness.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "face-reference",
+          "required": false,
+          "source": "user attachment when provided",
+          "usage": "Maintain facial structure, proportions, features, and expression."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

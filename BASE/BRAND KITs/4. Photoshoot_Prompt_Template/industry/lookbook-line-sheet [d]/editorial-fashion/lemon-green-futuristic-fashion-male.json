@@ -1,0 +1,39 @@
+{
+  "name": "Lemon Green Futuristic Fashion Male",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "editorial-fashion"
+  ],
+  "image_type": "futuristic menswear editorial",
+  "image_vibe": "fresh, luminous, relaxed, futuristic",
+  "image_purpose": "menswear lookbook and line-sheet image",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create a fashion editorial x futuristic studio portrait with a controlled lemon-green palette.",
+    "main_subject": "An adult fictional male model with an approved adult face-and-style reference, wearing an oversized white sweatshirt, lemon-green oversized combat jeans, neutral lemon-green sneakers, and white ribbed socks. He sits elegantly on a lemon-green bench with a relaxed posture and slight smile.",
+    "composition_elements": "Seated three-quarter portrait, futuristic lemon-green studio with geometric architectural panels and bench, clean monochrome styling, visible garment construction and footwear.",
+    "lighting_and_atmosphere": "Soft cinematic glow highlights realistic skin and fabric texture; luminous lemon-green environment with calm, polished futuristic mood.",
+    "technical_specs": "High-detail fashion editorial photography, sharp subject focus, realistic anatomy and textiles, balanced studio exposure, clean commercial lookbook framing.",
+    "generated_prompt_string": "Fashion editorial x futuristic studio image of an adult fictional male model with an approved adult face-and-style reference, slight smile, oversized white sweatshirt, lemon-green oversized combat jeans, neutral lemon-green sneakers, and white ribbed socks. He sits elegantly on a lemon-green bench in a geometric futuristic lemon-green studio, relaxed posture, soft cinematic glow highlighting skin and fabric textures, polished monochrome composition, high-detail commercial lookbook photography.",
+    "negative_prompt": "celebrity likeness, public figure likeness, exact facial identity, recognizable brand logo, trademark text, explicit, nsfw, overly revealing, blurry, low quality, distorted anatomy, malformed hands, warped footwear, watermark, signature, illegible text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "lemon-green-futuristic-fashion-male.jpg",
+          "required": true,
+          "source": "workspace reference image",
+          "usage": "Reference the adult model styling, seated pose, lemon-green geometric studio, white sweatshirt, combat jeans, socks, and monochrome sneakers while keeping identity and products replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the lemon-green palette, seated composition, garment silhouette, footwear placement, and soft glow for consistency. Use an approved adult fictional identity rather than an exact person; replace branded footwear with generic logo-free sneakers. Keep outfit, environment, product, logo, and typography details clean and replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced face-upload identity lock and branded sneaker reference with an approved adult fictional subject and generic logo-free footwear."
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "toyota-series-vios-national-car-fact",
+  "tag": [
+    "vios",
+    "fact-post",
+    "toyota-series",
+    "sales-proof"
+  ],
+  "biz_niche": "Automotive",
+  "content_format": "Fun facts",
+  "group": "toyota_990167800498455",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Series fact post about Vios as a national favorite",
+      "color_palette": "Sky blue, white, black, gray, green"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A fact-style social post with a red tag '# TOYOTA SERIES' and the large question 'BAN CO BIET ?'. The main statement says 'Vios la mot trong nhung mau xe \"quoc dan\" tai Viet Nam'. A white Toyota Vios sedan drives on an open road under a blue sky. Bottom statistics read 'CAN MOC 250.000+ XE' and 'DAI LY 80+ PHAN PHOI CA NUOC'. Bottom-right script says 'Move your world'. Toyota logo is top right.",
+      "style": "Clean educational automotive social poster with moving-road hero shot and bold fact typography"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "# TOYOTA SERIES / BAN CO BIET ? / Vios la mot trong nhung mau xe \"quoc dan\" tai Viet Nam / VUNG VANG CHUYEN DONG - TU DO VUON XA / CAN MOC 250.000+ XE / DAI LY 80+ PHAN PHOI CA NUOC / TOYOTA / Move your world",
+      "items": [
+        "Top Left: Red '# TOYOTA SERIES' tag and the question 'BAN CO BIET ?'",
+        "Top Right: Toyota logo over a blue sky",
+        "Bottom Left: Statistic block 'CAN MOC 250.000+ XE'",
+        "Bottom Right: Statistic block 'DAI LY 80+ PHAN PHOI CA NUOC' and handwritten 'Move your world'",
+        "Center/Background: White Toyota Vios driving on an open road with trees and sky behind it"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright outdoor driving-daylight lighting",
+      "effect": "Clean motion-road realism, crisp body reflections, informative upbeat tone"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal educational automotive social poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Series fact post about the Vios. Centerpiece is a white Toyota Vios driving on an open road under a blue sky. Background is a clear roadside scene with light trees and motion-suggestive road texture. Surrounding elements: red tag '# TOYOTA SERIES', exact question 'BAN CO BIET ?', the statement 'Vios la mot trong nhung mau xe \"quoc dan\" tai Viet Nam', the line 'VUNG VANG CHUYEN DONG - TU DO VUON XA', and bottom statistics '250.000+ XE' and '80+ PHAN PHOI CA NUOC', plus the Toyota logo and footer script 'Move your world'. Technical style: photoreal educational automotive social poster, bright outdoor driving-daylight lighting, crisp reflections and an informative upbeat tone, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "White Toyota Vios exterior reference",
+          "required": true,
+          "source": "official Vios render or source photo",
+          "usage": "Preserve the driving angle, grille styling, and body proportions"
+        },
+        {
+          "type": "text_layout",
+          "name": "Toyota Series fact-post layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the top red tag, question hierarchy, main fact statement, and the two bottom statistics"
+        }
+      ],
+      "prompt_instructions": "Preserve '250.000+' and '80+' exactly. The post should read as an informative fact card with a real driving shot, not as a generic sales ad."
+    }
+  }
+}

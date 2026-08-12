@@ -1,0 +1,63 @@
+{
+  "name": "toyota-june-2026-sales-announcement-6717",
+  "tag": [
+    "sales-announcement",
+    "june-2026",
+    "innova-cross",
+    "milestone"
+  ],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Infographics",
+  "group": "toyota_1546282173773360",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Vietnam June 2026 sales announcement",
+      "color_palette": "White, red, warm gold, soft gray, black"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A corporate sales-announcement poster with text 'TOYOTA VIET NAM CONG BO DOANH SO THANG 6/2026'. Giant glossy red numerals '6717' dominate the center, followed by 'XE DA BAN RA*'. A white Toyota Innova Cross is parked on the right in front of a glowing waterfront skyline. Bottom-left note says '(*) Da bao gom doanh so cua Lexus'. Top-right Toyota logo and bottom-right script read 'Move your world'.",
+      "style": "Clean corporate sales-milestone poster with oversized glossy numerals, skyline energy streaks, and product support image"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA VIET NAM / CONG BO DOANH SO / THANG 6/2026 / 6717 / XE DA BAN RA* / (*) Da bao gom doanh so cua Lexus / TOYOTA / Move your world",
+      "items": [
+        "Top Left: Corporate title block with red line accents",
+        "Top Right: Toyota logo over a warm skyline glow",
+        "Bottom Left: Lexus footnote under the huge red sales number",
+        "Bottom Right: White Toyota Innova Cross and handwritten 'Move your world'",
+        "Center/Background: Giant glossy red '6717' numerals over a reflective city-waterfront scene with light trails"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright corporate-commercial lighting",
+      "effect": "Glossy numeric reflections, warm skyline bloom, clean milestone-announcement clarity"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal sales-announcement composite with bold infographic numerals",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Vietnam June 2026 sales announcement. Centerpiece is an oversized glossy red number '6717' with light trails and reflective city energy. Background is a waterfront skyline glowing in warm daylight. Surrounding elements: exact title 'TOYOTA VIET NAM CONG BO DOANH SO THANG 6/2026', the line 'XE DA BAN RA*', footnote '(*) Da bao gom doanh so cua Lexus', a white Toyota Innova Cross on the right, Toyota logo, and footer script 'Move your world'. Technical style: photoreal sales-announcement composite with bold infographic numerals, bright corporate-commercial lighting, glossy reflections and skyline bloom, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "White Toyota Innova Cross reference",
+          "required": true,
+          "source": "official Innova Cross render",
+          "usage": "Preserve the front angle, grille, and clean white product finish"
+        },
+        {
+          "type": "text_layout",
+          "name": "June 2026 sales announcement layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the huge '6717', the title block, and the Lexus footnote exactly arranged"
+        }
+      ],
+      "prompt_instructions": "Preserve 'THANG 6/2026' exactly. Relative to Friday, July 17, 2026, June 2026 is in the past and should remain unchanged because it is visible reporting copy."
+    }
+  }
+}

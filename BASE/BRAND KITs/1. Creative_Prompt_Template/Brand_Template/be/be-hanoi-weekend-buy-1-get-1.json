@@ -1,0 +1,52 @@
+{
+  "name": "be-hanoi-weekend-buy-1-get-1",
+  "tag": ["hanoi weekend", "bebike", "buy 1 get 1", "city promo", "ride deal"],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Special offers",
+  "group": "be_1730615841309119",
+  "prompt": {
+    "project_info": {
+      "theme": "Hanoi weekend ride promotion",
+      "color_palette": "Warm yellow, black, blue, green, pink"
+    },
+    "main_subject": {
+      "type": "Text/Character",
+      "detail": "A bright Hanoi-themed poster showing two illustrated passengers riding a yellow beBike scooter down a city road, under a warm glowing sky with Hanoi landmarks and a headline announcing a weekend buy-1-get-1 ride deal.",
+      "style": "Illustrated city-promo poster with cheerful brand-mascot energy"
+    },
+    "composition_elements": {
+      "type": "Typography/Characters/City Background",
+      "text": "be, Hà Nội ơi, xoã cuối tuần Có be đưa đón, Đi 1 tặng 1, Chỉ thứ 7, chủ nhật. Giảm 15% chuyến sau, beBike",
+      "items": [
+        "Top Left: blue be logo.",
+        "Upper Left: large black headline 'Hà Nội ơi, xoã cuối tuần Có be đưa đón'.",
+        "Mid Left: yellow rounded box with blue text 'Đi 1 tặng 1'.",
+        "Below: smaller black line 'Chỉ thứ 7, chủ nhật. Giảm 15% chuyến sau'.",
+        "Bottom Center: illustrated male driver and female passenger with pink hair on a yellow beBike scooter.",
+        "Background: glowing Hanoi skyline with road perspective and landmark temples."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm glowing graphic daylight",
+      "effect": "Cheerful weekend energy, bright city ambiance, soft illustrated bloom"
+    },
+    "technical_specs": {
+      "render_style": "Illustrated mobility promotion poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "graphic", "name": "beBike scooter with rider and passenger", "required": true, "source": "source image illustration reference", "usage": "Preserve the two-character scooter composition and outfit colors."},
+        {"type": "location", "name": "Hanoi landmark skyline", "required": true, "source": "source image city reference", "usage": "Keep the mix of skyline and temple landmarks behind the road."},
+        {"type": "text_layout", "name": "weekend offer headline", "required": true, "source": "source image text reference", "usage": "Keep the exact wording and highlight box for 'Đi 1 tặng 1'."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image for exact Hanoi background, scooter composition, and text hierarchy.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the warm yellow weekend atmosphere and the road-leading composition."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square be weekend promotion poster with a warm yellow glowing sky and a Hanoi landmark skyline behind a road perspective. Place the blue be logo at top left. Add large black text 'Hà Nội ơi, xoã cuối tuần Có be đưa đón' and a yellow rounded box with blue text 'Đi 1 tặng 1'. Below, add 'Chỉ thứ 7, chủ nhật. Giảm 15% chuyến sau'. At the bottom center, show an illustrated male driver and female passenger riding a yellow beBike scooter. Technical style: illustrated mobility promotion poster, warm glowing graphic daylight, 8k resolution, highly detailed.",
+    "negative_prompt": "dark mood, wrong text, missing landmarks, low resolution, distorted scooter, extra characters, watermark, signature"
+  }
+}

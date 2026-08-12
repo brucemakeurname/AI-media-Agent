@@ -1,0 +1,22 @@
+{
+  "name": "extreme-red-black-studio-portrait",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "red-black", "menswear"],
+  "image_type": "red-black close-up studio portrait",
+  "image_vibe": "intense, mysterious, powerful, cinematic",
+  "image_purpose": "menswear lookbook and editorial portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic 4:5 medium close-up studio portrait of one approved adult man in a black textured polo against a vibrant red-orange gradient.",
+    "main_subject": "Approved adult man with natural facial features and skin texture, short dark hair, light stubble, serious concentrated expression, and gaze slightly above the camera. He wears a premium fitted matte-black piqué cotton polo shirt with visible weave.",
+    "composition_elements": ["Face and shoulders dominate a low-angle medium close-up.", "Smooth red-orange gradient with no motifs behind the subject.", "Keep face sharp, polo texture visible, and subject centered with a subtle power-oriented perspective."],
+    "lighting_and_atmosphere": "Dramatic colored studio lighting with strong directional key shadows shaping the face and a strong rim light separating the subject from the red-orange background.",
+    "technical_specs": "Photorealistic 4:5 portrait, 85mm lens at f/4, 2K or higher detail, sharp facial focus, smooth gradient, realistic piqué and skin texture, controlled contrast, no text or watermark.",
+    "generated_prompt_string": "Photorealistic 4:5 editorial close-up of one approved adult man with short dark hair, light stubble, natural skin texture, serious concentrated expression, and gaze slightly above the camera. He wears a premium fitted matte-black piqué cotton polo shirt with visible weave. Use a low-angle medium close-up, smooth vibrant red-orange gradient background without motifs, dramatic colored studio lighting, strong directional chiaroscuro key and strong rim light separating him from the background, sharp face, realistic skin and fabric, cinematic heroic editorial mood, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "distorted face", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "blurred face", "warped fabric", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "extreme-red-black-studio-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach for adult identity, face, hair, expression, pose, and shirt reference."}, {"type": "wardrobe", "name": "premium matte-black piqué polo", "required": true, "source": "local reference image", "usage": "Preserve collar, fit, black color, and piqué texture."}, {"type": "background", "name": "smooth vibrant red-orange gradient", "required": true, "source": "local reference image", "usage": "Preserve gradient direction, saturation, and clean background."}],
+      "prompt_instructions": "Attach all required person, wardrobe, and background references; no optional assets are needed. Keep identity, face, outfit, pose, gradient, lighting, environment, and typography consistent. Replace only with an equivalent approved adult, equivalent wardrobe, or equivalent background. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

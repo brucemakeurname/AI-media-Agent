@@ -1,0 +1,51 @@
+{
+  "name": "golden-hour-roman-goddess-bath",
+  "tag": ["ugc", "lifestyle-moment", "luxury-glamour", "outdoor-nature", "diptych", "roman-bath", "golden-hour"],
+  "image_type": "two-panel mythic fashion portrait",
+  "image_vibe": "serene, ancient, majestic, mysterious, golden-hour",
+  "image_purpose": "social-media carousel and editorial moodboard",
+  "group": "lifestyle-moment/luxury-glamour/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a photorealistic two-image editorial diptych with an ancient mythological goddess aesthetic, set around Roman bath or temple ruins during a soft natural golden hour.",
+    "main_subject": "One original adult woman with a serene authoritative expression in the first panel and a quiet mysterious expression in the second. Give her a wet-look hairstyle and a gold snake armlet with a Cleopatra or Medusa-inspired visual character. Do not reproduce Sydney Sweeney or any other public-figure likeness.",
+    "composition_elements": "Panel 1 is a medium portrait of the adult woman kneeling in water with a serene authoritative expression, wearing a rose-pink silky ancient-chiton-inspired dress and the gold snake armlet. Include three large Corinthian columns, a clear blue sky, and their reflections in the water. Panel 2 is a full-length side-angle composition with her leaning against a large stone pedestal and her feet immersed in water; show the full figure and surrounding stones, wet-look hair and realistic water droplets. Include the upper entablature of the columns, gentle ripples, ancient earthen walls and stone. Keep the two panels consistent in identity, wardrobe, jewelry, ruins and water setting.",
+    "lighting_and_atmosphere": "Use soft natural golden-hour light with warm gold highlights, serene ancient grandeur and subtle mystery. Use a palette of mauve, gold, sky blue and stone gray, with realistic water reflections and gentle ripples.",
+    "technical_specs": "Photorealistic two-panel editorial diptych, medium portrait plus full-length side angle, natural perspective, realistic silky fabric, wet hair, stone and water texture, golden-hour daylight, clean high-detail composition, no text or watermark.",
+    "generated_prompt_string": "Photorealistic two-panel editorial diptych of one original adult woman in an ancient Roman bath / temple-ruins setting during soft golden hour. Panel 1: medium portrait of her kneeling in clear water with a serene authoritative expression, wearing a rose-pink silky ancient-chiton-inspired dress and a gold snake armlet; three large Corinthian columns, clear blue sky and reflections in the water. Panel 2: full-length side angle of the same woman leaning against a large stone pedestal with feet immersed in water, quiet mysterious expression, wet-look hair and realistic water droplets; show the surrounding stones, column entablature, gentle ripples, ancient earthen walls and stone. Mauve, gold, sky-blue and stone-gray palette, soft natural golden-hour light, serene majestic mythological goddess mood, consistent original adult identity and wardrobe, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Sydney Sweeney likeness, transparent fabric, distorted anatomy, extra fingers, malformed hands, inconsistent identity, inconsistent wardrobe, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, broken reflections, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "golden-hour-roman-goddess-bath.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the two-panel structure, rose-pink chiton, gold snake armlet, kneeling and pedestal poses, Roman bath ruins, water reflections, golden-hour light and ancient goddess mood; replace the named identity with an original adult."
+        },
+        {
+          "type": "source_url",
+          "name": "original prompt post",
+          "required": false,
+          "source": "https://x.com/TzqQaiser/status/2020729384555204852",
+          "usage": "Context only; local written prompt is authoritative."
+        },
+        {
+          "type": "image_asset",
+          "name": "1775007460019-7nvh9y08-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1775007460019-7nvh9y08-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required; source URL and image asset are optional context. Treat the written source as a two-panel diptych. Keep panel order, subject identity, pink chiton, snake armlet, Roman ruins, water, golden-hour lighting and poses consistent. Replace identity only and do not introduce transparency or celebrity likeness."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Sydney Sweeney's named identity with an original adult woman.",
+      "Kept the ancient goddess fashion and wet-look concept while removing unsafe transparency implications.",
+      "Preserved the source's two-panel composition, colors, poses, ruins, water and golden-hour intent."
+    ]
+  }
+}

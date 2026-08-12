@@ -1,0 +1,78 @@
+{
+  "name": "vinamilk-premium-gelato-matcha-best-ice-cream-2026",
+  "tag": [
+    "vinamilk",
+    "premium-gelato",
+    "matcha",
+    "award",
+    "ice-cream"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Endorsement",
+  "group": "vinamilk_1346941340736557",
+  "prompt": {
+    "project_info": {
+      "theme": "Award-winning Vinamilk Premium Gelato Matcha announcement",
+      "color_palette": "Deep forest green, matcha green, caramel brown, cream white"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Three large scoops of pale matcha gelato stacked in a branded cup on the right side, with glossy caramel-brown syrup dripping over the scoops. On the left are the award badge '2026 WORLD DAIRY INNOVATION AWARDS WINNER', the line 'BEST ICE-CREAM 2026', the main headline 'KEM NGON NHẤT NĂM 2026', and the subline 'PREMIUM GELATO MATCHA'. A Vinamilk 50th anniversary logo sits near the bottom left.",
+      "style": "Premium food advertising poster, minimalist high-contrast studio setup, luxury gelato presentation"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "2026 WORLD DAIRY INNOVATION AWARDS WINNER; BEST ICE-CREAM 2026; KEM NGON NHẤT NĂM 2026; PREMIUM GELATO MATCHA; PHUNG SU KHAT VONG VIET; EST; 1976; Vinamilk",
+      "items": [
+        "Top Left: Floating geometric World Dairy Innovation Awards winner badge",
+        "Top Right: Large cropped matcha gelato scoops with syrup drips dominating the frame",
+        "Bottom Left: Vinamilk 50th anniversary lockup in cream white",
+        "Bottom Right: Oversized gelato cup crop with dense block text and large 'MATCHA GOT...' lettering partially visible",
+        "Center/Background: Clean dark-green studio backdrop with strong negative space and left-aligned premium typography"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Controlled studio food lighting",
+      "effect": "Soft directional highlights, crisp texture on ice cream, glossy syrup sheen, premium shadow separation"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal premium food advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square premium food advertising poster for an award-winning Vinamilk Premium Gelato Matcha. Centerpiece is three large pale-matcha gelato scoops stacked in a branded cup on the right, with glossy brown syrup dripping over the scoops. Include the exact visible text '2026 WORLD DAIRY INNOVATION AWARDS WINNER', 'BEST ICE-CREAM 2026', 'KEM NGON NHẤT NĂM 2026', and 'PREMIUM GELATO MATCHA', plus the Vinamilk 50th anniversary logo near the bottom left. Background is a minimalist deep forest-green studio backdrop with wide negative space and left-aligned typography. Technical style: photoreal premium food advertising composite, controlled studio food lighting, crisp ice-cream texture and glossy syrup sheen, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Vinamilk 50th anniversary logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Bottom-left anniversary lockup"
+        },
+        {
+          "type": "product",
+          "name": "Vinamilk Premium Gelato Matcha cup",
+          "required": true,
+          "source": "real packaging reference recommended",
+          "usage": "Match the cup typography, copy block, and partial large flavor lettering"
+        },
+        {
+          "type": "graphic",
+          "name": "World Dairy Innovation Awards 2026 winner badge",
+          "required": true,
+          "source": "award badge from original creative",
+          "usage": "Float on the upper-left side with the same diamond composition"
+        },
+        {
+          "type": "text_layout",
+          "name": "Award announcement typography",
+          "required": true,
+          "source": "original creative copy",
+          "usage": "Preserve the exact lines and premium serif/sans hierarchy on the left"
+        }
+      ],
+      "prompt_instructions": "Treat the visible 2026 award phrasing as past-tense archival marketing artwork relative to Friday, July 17, 2026, but recreate the poster exactly as shown. The gelato texture and the dramatic cup crop are the fidelity anchors."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "prompt-341",
+  "tag": [
+    "adult-woman",
+    "subway-stairwell",
+    "motion-blur",
+    "high-grain",
+    "urban-snapshot"
+  ],
+  "image_type": "analog-urban-motion-portrait",
+  "image_vibe": "humid-urgent-nostalgic",
+  "image_purpose": "street-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "source_url": "https://x.com/cheerselflin/status/1979203277553307820",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject is an adult and replaced the tied shirt and short skirt with a buttoned blouse and wide-leg trousers, preserving the blurred disposable-camera subway energy."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult urban subway-stairwell motion snapshot",
+      "color_palette": "cold green-blue fluorescent light, white, navy, charcoal, and muted skin tones",
+      "aspect_ratio": "2:3"
+    },
+    "main_subject": {
+      "description": "An adult woman descending a subway stairwell, with loose dark hair swept by movement and a present, alert expression.",
+      "wardrobe": "Buttoned white short-sleeve blouse, navy wide-leg trousers, black shoulder bag, and simple flat shoes.",
+      "pose": "Caught mid-step with one hand near the rail, motion naturally blurring hair and the edge of the clothing."
+    },
+    "composition_elements": {
+      "framing": "Tilted high-angle vertical snapshot from the upper landing, subject centered amid a tight stairwell.",
+      "environment": "Tokyo-style underground stairwell with tube lights, commuters reduced to indistinct silhouettes, and no readable signs or advertisements."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Harsh cool overhead fluorescents with green-blue tint, uneven exposure, and slight bloom.",
+      "atmosphere": "Humid, urgent, raw, dreamlike, and imperfect."
+    },
+    "technical_specs": {
+      "camera": "disposable-camera snapshot aesthetic",
+      "quality": "high grain, chromatic aberration, lens distortion, partial focus drift, realistic motion blur"
+    },
+    "generated_prompt_string": "Create a photoreal vertical high-grain disposable-camera snapshot in a Tokyo-style subway stairwell. An adult woman descends the stairs mid-step, wearing a buttoned white short-sleeve blouse, navy wide-leg trousers, simple flat shoes, and a black shoulder bag. Her loose dark hair is swept by movement, one hand near the rail, and her alert expression remains partially sharp while the clothing and commuters blur naturally. Shoot from an upper landing with a tilted urgent composition. Use cold green-blue fluorescent tube lights, humid atmosphere, high film grain, chromatic aberration, lens distortion, uneven exposure, focus drift, and no readable station signs, advertisements, logos, or text.",
+    "negative_prompt": "minor, tied shirt, short skirt, revealing clothing, nudity, explicit, nsfw, overly revealing clothing, readable sign, advertisement, logo, watermark, plastic skin, distorted anatomy, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use them only to replace wardrobe, stairwell architecture, or analog texture; remove text and brands.",
+      "assets": [
+        {
+          "type": "environment_reference",
+          "name": "underground-stairwell-fluorescent-light",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace stairwell geometry, tube-light character, and crowd density."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "covered-subway-motion-look",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace the adult subject's covered blouse and trouser styling."
+        }
+      ]
+    }
+  }
+}

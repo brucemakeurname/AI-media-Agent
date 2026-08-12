@@ -1,0 +1,22 @@
+{
+  "name": "mediterranean-cliff-overhead",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "coastal", "overhead"],
+  "image_type": "overhead coastal swimwear editorial",
+  "image_vibe": "raw, high-contrast, stoic, Mediterranean",
+  "image_purpose": "swimwear lookbook and high-fashion coastal editorial",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a hyper-realistic overhead coastal fashion editorial with two approved adult women arranged symmetrically on contrasting towels beside the Mediterranean.",
+    "main_subject": "Two approved adult women with golden blonde wind-swept beach waves, sun-kissed natural skin, athletic but natural builds, direct camera gaze, and neutral intense expressions. Woman A wears a deep navy crinkle-textured knit bikini; Woman B wears a matte white high-cut technical spandex one-piece with an athletic racer-back silhouette. Both wear large gold hoop earrings.",
+    "composition_elements": ["Direct bird's-eye full-body view, subjects arranged head-to-toe in reciprocal horizontal alignment.", "Both lie on their backs with relaxed, symmetrical limbs for a graphic geometric composition.", "Coastal limestone cliffside, jagged textured rocks, deep azure sea, and distant white foam.", "One pristine white towel and one vibrant crimson towel form sharp color blocks against beige stone."],
+    "lighting_and_atmosphere": "Direct midday sun with high-contrast short shadows, crisp highlights, realistic natural skin and fabric texture, and a raw unfiltered high-fashion mood.",
+    "technical_specs": "50mm portrait lens from a directly overhead camera to maintain natural proportions, hyper-realistic detail, high-resolution editorial photography, high saturation in crimson, navy, white, and azure, no text or watermark.",
+    "generated_prompt_string": "Hyper-realistic bird's-eye coastal fashion editorial of two approved adult women with golden blonde wind-swept beach waves, sun-kissed natural skin and athletic but natural builds. Both look directly at the camera with neutral intense expressions. Woman A wears a deep navy blue crinkle-textured knit bikini and Woman B wears a matte white high-cut technical spandex one-piece with an athletic racer-back silhouette; both wear large gold hoop earrings. They lie flat on their backs in reciprocal head-to-toe positioning on one pristine white towel and one vibrant crimson towel, arranged symmetrically for a graphic overhead composition. Coastal limestone cliffside overlooking the Mediterranean, jagged rocks, deep azure seawater and distant white foam. Direct midday sun, high-contrast short shadows, raw unfiltered skin and fabric texture, 50mm overhead perspective, hyper-realistic high-fashion editorial, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "body-part emphasis", "anatomical distortion", "extra limbs", "inconsistent identities", "plastic skin", "airbrushed", "warped rocks", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "mediterranean-cliff-overhead.jpg", "required": true, "source": "local reference image", "usage": "Attach for the two adult subjects, swimwear, symmetry, and pose reference."}, {"type": "location", "name": "Mediterranean limestone cliffside", "required": true, "source": "local reference image", "usage": "Preserve towels, rocks, sea, color blocks, and overhead composition."}],
+      "prompt_instructions": "Attach the required local reference. Preserve two distinct adult identities, navy bikini, white one-piece, earrings, reciprocal overhead arrangement, towels, rocks, sea, and midday lighting. Keep the fashion framing non-sexualized and natural; replace references only with equivalent adult subjects or coastal environments. No celebrity likeness, logos, or typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed explicit body-part and anatomical-emphasis wording while preserving the swimwear, natural builds, overhead geometry, raw texture, and editorial intent."]}
+}

@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-sensitive-skin-combo46-towel-setup",
+  "tag": [
+    "combo-offer",
+    "sensitive-skin",
+    "sunscreen",
+    "lotus",
+    "towel-props",
+    "special-offer"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "cocoon_1508603184350973",
+  "prompt": {
+    "project_info": {
+      "theme": "Sensitive-skin combo poster with soft towel-styled set",
+      "color_palette": "Warm Beige, Pastel Pink, Soft Yellow, Powder Blue, White, Rose Pink"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A cozy styled product poster showing Hau Giang lotus toner, Hau Giang lotus cleanser, and Hau Giang lotus mineral sun fluid arranged among plush towels, with a large claim about cleansing, recovery, and high protection for ultra-sensitive skin plus a pink discount circle reading 'COMBO 2 GIẢM 46%'.",
+      "style": "Soft lifestyle merchandising, clean skincare still life, warm tactile retail poster"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'LÀM SẠCH, PHỤC HỒI, BẢO VỆ CAO CHO DA RẤT NHẠY CẢM' and 'COMBO 2 GIẢM 46%'. Product labels for toner, cleanser, and mineral sun fluid are visible.",
+      "items": [
+        "Top Left: Large cream headline stacked over a textured beige wall.",
+        "Top Right: Bright pink circular badge reading 'COMBO 2 GIẢM 46%'.",
+        "Bottom Left: Pink Hau Giang lotus toner bottle leaning diagonally over a peach towel.",
+        "Bottom Right: White Hau Giang lotus mineral sun fluid bottle upright beside blue and cream towels.",
+        "Center/Background: Pink pump cleanser bottle standing vertically in front of striped yellow towel props."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm soft studio lighting",
+      "effect": "Cozy towel texture, gentle shadows, tactile skincare warmth, premium sensitive-skin calm"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity styled skincare product photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a sensitive-skin skincare combo. Centerpiece is a warm towel-styled arrangement of Cocoon Hau Giang lotus toner, cleanser, and mineral sun fluid, framed by plush pastel towels. Background is a textured beige wall. Surrounding elements: large claim 'LÀM SẠCH, PHỤC HỒI, BẢO VỆ CAO CHO DA RẤT NHẠY CẢM', a pink badge 'COMBO 2 GIẢM 46%', and visible product labels. Keep the cozy tactile styling, diagonal toner bottle, and upright sunscreen bottle in the front-right. Technical style: high fidelity styled skincare product photography, warm soft studio lighting, cozy towel texture and gentle shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Hau Giang lotus toner, cleanser, and mineral sun fluid",
+          "required": true,
+          "source": "Attach official packshots or crops from the original poster",
+          "usage": "Preserve exact bottle shapes, product family colors, and label details."
+        },
+        {
+          "type": "background",
+          "name": "Pastel towel prop arrangement",
+          "required": true,
+          "source": "Use the original image as staging reference",
+          "usage": "Maintain the striped yellow towel, blue towel, peach towel, and textured beige wall."
+        },
+        {
+          "type": "text_layout",
+          "name": "Sensitive-skin claim and 46 percent discount badge",
+          "required": true,
+          "source": "Use the original poster as layout reference",
+          "usage": "Keep the stacked headline and the pink circular offer badge placement."
+        }
+      ],
+      "prompt_instructions": "When recreating with gpt-image-2, attach the original poster and product packshots so the towel styling and exact claim remain intact. The scene should feel soft and tactile, not like a sterile plain studio catalog."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+# Local credentials and environment files
+env.local
+.env
+.env.*
+!.env.example
+
+# macOS and Python local state
+.DS_Store
+**/__pycache__/
+**/*.py[cod]
+**/.venv/
+
+# Runtime state and generated module output
+**/*.db-shm
+**/*.db-wal
+**/logs/
+**/output/

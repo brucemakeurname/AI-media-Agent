@@ -1,0 +1,19 @@
+{
+  "name": "minimalist-pink-fashion-portrait",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "pink-monochrome", "mirror-composition"],
+  "image_type": "pink monochrome studio portrait",
+  "image_vibe": "playful, polished, surreal, soft",
+  "image_purpose": "fashion editorial and lookbook portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic pink monochrome fashion portrait of one original approved adult woman lying on a glossy pink studio floor with a clear reflection.",
+    "main_subject": "Original approved adult woman with shoulder-length blonde soft waves, natural soft-glam makeup, calm composed expression and visible natural skin texture. She wears a coordinated dusty-rose sleeveless draped top and full-length ribbed wide-leg pants with a thin black wrist band.",
+    "composition_elements": ["Subject lies on her back with arms relaxed outward and legs together, captured in an upside-down editorial orientation with a crisp floor reflection below.", "Monochromatic pink curved studio environment with subtle horizontal gradient bands and low-reflective glossy floor.", "Preserve hair spread, garment drape, reflection symmetry, wrist band and soft graphic palette."],
+    "lighting_and_atmosphere": "Soft frontal studio illumination with low contrast, gentle highlights on the glossy floor, controlled pink ambient fill and minimal soft shadows.",
+    "technical_specs": "Photorealistic 4:5 portrait, 50mm lens at f/5.6, sharp subject and reflection, realistic skin pores, ribbed fabric and floor reflection, subtle grain, no text or watermark.",
+    "generated_prompt_string": "Photorealistic pink monochrome studio fashion portrait of one original approved adult woman with shoulder-length blonde soft waves, natural soft-glam makeup, calm composed expression and visible natural skin texture. She lies on her back with arms relaxed outward and legs together, captured in an upside-down editorial orientation with a crisp reflection below on a glossy pink floor. She wears a coordinated dusty-rose sleeveless draped top and full-length ribbed wide-leg pants with a thin black wrist band. Use a curved pink studio environment with subtle horizontal gradient bands, soft even light, low contrast, 50mm lens, 4:5 framing, realistic fabric and reflection detail, no text or watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "reflection mismatch", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "extra fingers", "deformed", "text", "logo"],
+    "reference_elements": {"assets": [{"type": "person", "name": "minimalist-pink-fashion-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult face, hair, expression, pose and styling."}, {"type": "wardrobe", "name": "dusty-rose draped top, ribbed wide-leg pants and black wrist band", "required": true, "source": "local reference image", "usage": "Preserve supplied color, fabric, drape, pants and wrist band."}, {"type": "background", "name": "pink curved studio with glossy reflective floor", "required": true, "source": "local reference image", "usage": "Preserve pink gradients, floor reflection, orientation and symmetry."}], "prompt_instructions": "Attach all required person, wardrobe and background references; no optional assets are needed. Keep approved-adult identity, outfit, pose, reflection, environment, lighting and typography consistent. Replace only with an equivalent approved adult, supplied wardrobe or studio. Typography is not applicable; do not add text, logos or watermark."}
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

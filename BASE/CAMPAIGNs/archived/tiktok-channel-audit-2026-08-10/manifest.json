@@ -1,0 +1,25 @@
+{
+  "status": "download-complete",
+  "source": "Apify clockworks/tiktok-profile-scraper metadata + direct TikWM fallback downloads",
+  "collectedAt": "2026-08-10",
+  "outputs": {
+    "top20Count": 20,
+    "recent30Count": 30,
+    "uniqueFilesOnDisk": 50,
+    "totalBytes": 365119188
+  },
+  "directories": [
+    "videos/top-20",
+    "videos/recent-30"
+  ],
+  "files": [
+    "Ticket.md",
+    "manifest.json",
+    "node/apify-profile-crawl.json",
+    "node/top-20-selection.json",
+    "node/recent-30-selection.json",
+    "node/download-report.json",
+    "node/findings.md"
+  ],
+  "verification": "50/50 video files downloaded, all checked as valid ISO Media MP4 binaries."
+}

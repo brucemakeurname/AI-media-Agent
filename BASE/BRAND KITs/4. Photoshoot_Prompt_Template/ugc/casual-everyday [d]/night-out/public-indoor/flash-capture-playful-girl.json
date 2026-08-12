@@ -1,0 +1,27 @@
+{
+  "name": "flash-capture-playful-girl",
+  "tag": ["ugc", "casual-everyday", "night-out", "public-indoor", "flash-snapshot"],
+  "image_type": "indoor flash lifestyle snapshot",
+  "image_vibe": "playful raw nightlife flash",
+  "image_purpose": "UGC-style social snapshot",
+  "group": "night-out/public-indoor",
+  "prompt": {
+    "project_info": "Create a realistic casual indoor flash snapshot of an original approved adult woman in a nightlife setting.",
+    "main_subject": "An original approved adult woman with long brown hair, a bright playful smile, and relaxed confident expression leans against a dark green door. She wears a white ribbed tank top with lace trim, layered gold necklaces with a heart pendant, hoop earrings, a gold bracelet, and a dark brown patterned shoulder bag. Preserve the reference's natural feminine silhouette and form-fitting top without adding body-part emphasis.",
+    "composition_elements": "Eye-level mid-shot with slight wide-angle perspective, one arm extended out of frame and the other angled down, head tilted slightly right, dark green door and handle behind her, black subway tiles on the left, strong subject-to-background contrast.",
+    "lighting_and_atmosphere": "Direct harsh on-camera front flash with hard drop shadow on the door, warm flushed skin, bright white ribbed fabric, raw unedited nightlife snapshot mood.",
+    "technical_specs": "Realistic 3:4 digital flash photography, sharp foreground, slight image noise, natural perspective, minimal processing, visible fabric and jewelry texture, no artificial HDR look.",
+    "generated_prompt_string": "Realistic 3:4 casual indoor flash snapshot of an original approved adult woman with long brown hair and a bright playful smile leaning against a dark green door. She wears a white ribbed tank top with lace trim, layered gold necklaces with a heart pendant, hoop earrings, a gold bracelet, and a dark brown patterned shoulder bag. One arm extends out of frame, the other angles down, and her head tilts slightly right. Black subway tiles frame the left side. Direct harsh on-camera flash creates a hard shadow behind her, with warm natural skin, sharp foreground detail, slight digital noise, and a raw unedited nightlife mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy, unreadable text",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "green door flash snapshot reference", "required": true, "source": "attached source image", "usage": "Match the original adult model, face, hair, white tank, jewelry, bag, door, subway tiles, pose, and direct flash."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve adult identity, face, outfit, jewelry, bag, pose, environment, and flash direction. Product, logo, typography, bag pattern, and architectural details are replaceable editable elements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an original approved adult model.", "Removed explicit body-part emphasis while preserving the specified outfit and flash snapshot intent.", "Added anti-slop and safety exclusions."]
+  }
+}

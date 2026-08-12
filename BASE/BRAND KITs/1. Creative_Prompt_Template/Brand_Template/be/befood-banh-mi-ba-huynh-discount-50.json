@@ -1,0 +1,53 @@
+{
+  "name": "befood-banh-mi-ba-huynh-discount-50",
+  "tag": ["befood", "banh mi", "50 percent off", "city backdrop", "restaurant promo"],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "be_2218805698967659",
+  "prompt": {
+    "project_info": {
+      "theme": "Banh mi restaurant discount with city-landmark backdrop",
+      "color_palette": "Sky blue, yellow, white, golden brown, green"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A food promotion poster centered on a giant Vietnamese banh mi sandwich on a white plate over a wooden table, with blue-sky clouds and Saigon landmarks behind, plus two yellow discount tickets and a call-to-action pill at the bottom.",
+      "style": "Photoreal food campaign poster with landmark composite"
+    },
+    "composition_elements": {
+      "type": "Food Props/Typography/Landmarks",
+      "text": "beFood, Bánh mì Bà Huynh, Giảm đến 50%, giao không ghép đơn, Đặt món ngay",
+      "items": [
+        "Top Center: white beFood wordmark and a small partner logo square.",
+        "Upper Middle: large blue title 'Bánh mì Bà Huynh'.",
+        "Below title: two yellow ticket panels reading 'Giảm đến 50%' and 'giao không ghép đơn'.",
+        "Center Bottom: oversized banh mi sandwich on a white plate placed on a round wooden tabletop.",
+        "Bottom Center: white rounded call-to-action button 'Đặt món ngay'.",
+        "Background Left and Right: skyscraper and cathedral landmarks with fluffy clouds."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright daylight food lighting",
+      "effect": "Fresh appetizing sandwich texture, airy urban composite, clean promo finish"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal food poster with composited city scenery",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "banh mi sandwich", "required": true, "source": "source image food reference", "usage": "Preserve the giant sandwich scale, fillings, and plate placement."},
+        {"type": "logo", "name": "beFood and partner logo", "required": true, "source": "source image logo references", "usage": "Keep the exact top branding."},
+        {"type": "location", "name": "city landmark backdrop", "required": true, "source": "source image background reference", "usage": "Preserve the left tower and right cathedral framing."},
+        {"type": "text_layout", "name": "discount tickets and CTA", "required": true, "source": "source image text reference", "usage": "Keep the exact wording and yellow ticket shapes."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve food scale, city backdrop, and ticket layout.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the hero sandwich composition over the round wooden table."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square beFood restaurant promotion poster with a bright sky-blue cloudy background and city landmarks. At the top center place the white beFood wordmark and a small partner logo. Add the large blue title 'Bánh mì Bà Huynh'. Below it place two yellow ticket-style boxes reading 'Giảm đến 50%' and 'giao không ghép đơn'. Show an oversized photoreal banh mi sandwich on a white plate sitting on a round wooden table. Add a white rounded button at the bottom center reading 'Đặt món ngay'. Technical style: photoreal food poster with composited city scenery, bright daylight food lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark food, incorrect text, deformed sandwich, missing landmarks, low resolution, muddy colors, watermark, signature"
+  }
+}

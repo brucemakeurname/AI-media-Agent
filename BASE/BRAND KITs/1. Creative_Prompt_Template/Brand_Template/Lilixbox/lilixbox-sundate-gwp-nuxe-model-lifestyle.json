@@ -1,0 +1,72 @@
+{
+  "name": "lilixbox-sundate-gwp-nuxe-model-lifestyle",
+  "tag": [
+    "gwp",
+    "model-lifestyle",
+    "nuxe",
+    "summer-glow",
+    "coupon-code",
+    "lilixbox"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "User content",
+  "group": "lilixbox_1014417144409128",
+  "prompt": {
+    "project_info": {
+      "theme": "Sunset-glow lifestyle promo for Sundate GWP",
+      "color_palette": "Warm Bronze, Orange, White, Coral, Natural Skin Tones"
+    },
+    "main_subject": {
+      "type": "Person/Product",
+      "detail": "A glowing lifestyle image of a woman outdoors at sunset holding a square NUXE shimmering oil bottle near her shoulder, with a large white-orange coupon banner promoting a GWP at Lixibox and the code 'SUNDATE'.",
+      "style": "Golden-hour beauty lifestyle poster, aspirational summer glow campaign, soft luxury promo photo"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'Tặng hộp quà GWP khi mua hàng tại Website/App/Store Lixibox' and 'NHẬP MÃ: SUNDATE'.",
+      "items": [
+        "Top Left: Wooden architectural roof beams and open-sky edge framing a warm outdoor setting.",
+        "Top Right: Close portrait of a woman with glossy skin and long dark hair, softly smiling downward.",
+        "Bottom Left: Large white banner with orange border and the GWP message across the lower third.",
+        "Bottom Right: Orange coupon strip 'NHẬP MÃ: SUNDATE' inset inside the banner and a glimpse of orange packaging at the base.",
+        "Center/Background: The model holds a NUXE oil bottle near her shoulder, showcasing bronzy shimmer and summer skin glow."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Golden-hour outdoor lighting",
+      "effect": "Warm bronzed skin highlights, soft sunset romance, aspirational summer glow"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity beauty lifestyle photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a golden-hour beauty gifting campaign. Centerpiece is a woman outdoors in warm sunset light holding a shimmering NUXE oil bottle near her shoulder, showing glossy summer skin. Background is a resort-style exterior with wooden beams and open sky. Surrounding elements: a white-orange lower banner reading 'Tặng hộp quà GWP khi mua hàng tại Website/App/Store Lixibox' and an orange coupon strip 'NHẬP MÃ: SUNDATE'. Keep the intimate beauty-lifestyle framing and warm bronzed skin finish. Technical style: high fidelity beauty lifestyle photography, golden-hour outdoor lighting, soft sunset romance and glossy skin highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed face, extra fingers, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Female model sunset portrait",
+          "required": true,
+          "source": "Attach a crop of the model from the original image",
+          "usage": "Preserve facial identity, pose, glossy skin, and shoulder framing."
+        },
+        {
+          "type": "product",
+          "name": "NUXE shimmering oil bottle",
+          "required": true,
+          "source": "Attach the bottle crop from the original image",
+          "usage": "Keep the square bottle shape, shimmer liquid look, and label orientation."
+        },
+        {
+          "type": "text_layout",
+          "name": "GWP banner and SUNDATE code strip",
+          "required": true,
+          "source": "Use the original poster as layout reference",
+          "usage": "Maintain the lower banner size, wording, orange border, and code placement."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, attach the original image or strong crops of both the model and bottle. Preserve the exact banner wording and sunset-glow lifestyle mood instead of converting it to a studio ad."
+    }
+  }
+}

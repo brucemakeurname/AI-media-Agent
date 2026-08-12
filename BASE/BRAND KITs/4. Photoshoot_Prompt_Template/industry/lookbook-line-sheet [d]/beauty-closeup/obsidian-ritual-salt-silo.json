@@ -1,0 +1,34 @@
+{
+  "name": "Obsidian Ritual Salt Silo",
+  "tag": "industry/lookbook-line-sheet/beauty-closeup",
+  "image_type": "editorial beauty portrait",
+  "image_vibe": "monochrome avant-garde tribal brutalism",
+  "image_purpose": "high-end editorial fashion and large-format print",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": "Create a hyper-realistic monochrome editorial portrait with tactile textile, pigment, salt-crystal, and film-grain detail.",
+    "main_subject": "A clearly adult fictional woman with a neutral expression and direct intense gaze, matte black vertical geometric face paint, a sculptural charcoal raw-silk and coarse-linen turban, dark loose tunic, and hands clasped beneath the chin in a calm contemplative gesture.",
+    "composition_elements": "Central symmetrical 9:16 close-up at eye level; shoulders and hands visible; weathered salt-silo interior, crystallized salt walls, dusty concrete, shallow depth of field.",
+    "lighting_and_atmosphere": "Harsh angular monochrome sunlight with negative fill, deep chiaroscuro shadows, subtle highlight on turban texture, dry silent atmosphere.",
+    "technical_specs": "Hasselblad 500C/M, Ilford HP5 Plus black-and-white film simulation, heavy grain, crushed blacks, sharp eyes, high-end large-format print quality.",
+    "generated_prompt_string": "Hyper-realistic monochrome editorial close-up of a clearly adult fictional woman in avant-garde tribal brutalism, matte black vertical geometric face paint, sculptural charcoal raw-silk and coarse-linen turban, dark loose tunic, hands clasped calmly beneath her chin, weathered salt-silo with crystallized salt walls, harsh angular sunlight, negative fill, deep chiaroscuro, tactile pores and fabric weave, Hasselblad 500C/M, Ilford HP5 Plus film grain, 9:16, central symmetry, sharp eyes, no text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, restraint, injury, gore, child, teen, ageless person, distorted hands, extra fingers, celebrity likeness, public figure likeness, watermark, logo, text, neon colors",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "obsidian ritual portrait reference",
+          "required": true,
+          "source": "Attach the supplied source image as the visual reference.",
+          "usage": "Match the adult subject's face-paint geometry, turban silhouette, centered hand pose, monochrome contrast, and salt-silo atmosphere; keep identity replaceable and use a fictional adult."
+        }
+      ],
+      "instructions": "Attach the source image before generation. Preserve composition, styling, texture, and environment consistency while allowing the fictional adult identity, wardrobe colors, and set details to be replaceable. Do not infer a real person or cultural identity from the reference."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": "Reframed the subject as a clearly adult fictional person and kept the contemplative hand pose nonsexual; removed any implication of real-person identity.",
+    "notes": "Editorial body paint and styling are non-graphic and nonsexual."
+  }
+}

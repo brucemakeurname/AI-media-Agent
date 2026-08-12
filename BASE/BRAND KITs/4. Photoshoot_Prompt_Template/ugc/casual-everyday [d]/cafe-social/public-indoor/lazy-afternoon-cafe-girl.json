@@ -1,0 +1,58 @@
+{
+  "name": "lazy-afternoon-cafe-girl",
+  "tag": [
+    "ugc",
+    "cafe-social",
+    "public-indoor",
+    "bookstore-cafe",
+    "contemplative",
+    "knit-polo"
+  ],
+  "image_type": "ugc-indoor-lifestyle-portrait",
+  "image_vibe": "calm-understated-editorial",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cafe-social/public-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic indoor cafe or bookstore portrait with a calm contemplative mood, preserving the knit rugby-style pullover, sunglasses and modern interior geometry.",
+    "main_subject": "One original approved adult woman with dark-brown softly wavy hair and straight fringe, natural makeup, round metal-frame sunglasses with dark lenses and a calm off-camera gaze. She wears a cream, navy and soft-grey textured knit rugby-style pullover with ribbed cuffs and supplied red chest lettering.",
+    "composition_elements": "Vertical medium close-up, subject centered slightly right and seated at a wooden table. She leans forward with one elbow on the table and chin resting on her hand. Use table edge and ceiling lines as subtle leading lines; include bookshelves or retail fixtures, track lighting and recessed lights in a softly defocused modern cafe interior.",
+    "lighting_and_atmosphere": "Soft mixed window daylight and overhead interior lighting from the frontal side, gentle highlights on cheekbones and hair with minimal shadow falloff. Keep the mood calm, introspective, clean and slightly muted.",
+    "technical_specs": "4:5 vertical portrait, standard portrait focal length, f/2–f/3.5 look, sharp face, sunglasses and knit texture, shallow-to-moderate depth of field, natural skin tones and balanced neutral color grade.",
+    "generated_prompt_string": "Create a photorealistic indoor cafe or bookstore portrait of one original approved adult woman with dark-brown softly wavy hair and straight fringe, natural makeup, round metal-frame sunglasses with dark lenses and a calm off-camera gaze. She wears a cream, navy and soft-grey textured knit rugby-style pullover with ribbed cuffs and supplied red chest lettering. Use a vertical medium close-up with her seated slightly right at a wooden table, leaning forward with one elbow on the table and chin resting on her hand. Use table edge and ceiling lines as subtle leading lines, with bookshelves or retail fixtures, track lighting and recessed lights softly defocused behind her. Use soft mixed window and interior light, gentle highlights, realistic knit texture, natural skin, moderate depth of field and understated muted color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, altered supplied lettering, invented logos, added text overlays",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "lazy-afternoon-cafe-girl.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair, sunglasses, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "cream-navy-grey knit rugby-style pullover with supplied red lettering",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve knit blocks, cuffs, collar, sunglasses and existing chest lettering; replace only with an explicitly supplied wardrobe reference."
+        },
+        {
+          "type": "location",
+          "name": "modern indoor cafe or bookstore with wooden table and shelves",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve table, bookshelves, lighting fixtures, ceiling geometry and interior atmosphere; environment may be replaced independently through explicit references."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, face, hair, sunglasses, outfit blocks, supplied lettering, pose and cafe/bookstore environment consistent. The adult, wardrobe and setting may be replaced independently through explicit references. Preserve existing lettering only when supplied; do not invent additional logos or typography."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adult.",
+      "Preserved the contemplative cafe portrait, knit pullover and supplied lettering while removing no creative intent.",
+      "Added safety and anti-invented-text negative prompts."
+    ]
+  }
+}

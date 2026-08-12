@@ -1,0 +1,27 @@
+{
+  "name": "soft-light-pink-knit-girl",
+  "tag": ["ugc", "casual-everyday", "cozy-home", "private-indoor", "knitwear"],
+  "image_type": "cozy bedroom seated portrait",
+  "image_vibe": "soft daylight pink knit comfort",
+  "image_purpose": "UGC-style homewear portrait",
+  "group": "cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create a realistic seated bedroom portrait of an original approved adult model in a pink cable-knit outfit.",
+    "main_subject": "An original approved adult Asian woman with black hair in twin braids and pink ribbon bows, soft direct gaze, and natural makeup sits on the bed facing camera. Preserve the matching fuzzy pink cable-knit cropped tank and high-waisted knit shorts, small forearm tattoo, and feminine silhouette shown in the reference.",
+    "composition_elements": "Slightly high-angle vertical composition with the subject centered on a bed, hands resting naturally on the sheet, gray duvet, folded pink knit cardigan, dark wardrobe, wooden shelf with original plush toys, a pink heart pillow, and a bright window at frame right.",
+    "lighting_and_atmosphere": "Soft natural window light from the right, cool neutral shadows, warm pink knit accents, calm home atmosphere, gentle highlights revealing cable-knit texture.",
+    "technical_specs": "Realistic smartphone photography, 28mm wide-angle perspective, f/2.8, 1/60s, ISO 400, natural skin variation, modest depth of field, rule-of-thirds balance.",
+    "generated_prompt_string": "Realistic seated bedroom portrait of an original approved adult Asian woman with black hair in twin braids tied with pink ribbon bows and a soft direct gaze. Preserve the matching fuzzy pink cable-knit cropped tank and high-waisted knit shorts, small forearm tattoo, and feminine silhouette from the reference. She sits naturally on a bed facing camera with her hands resting on the sheet. Gray duvet, folded pink cardigan, dark wardrobe, wooden shelf with original plush toys, fluffy pink heart pillow, and a bright right-side window define the room. Soft natural window light, cool gray shadows, warm pink knit accents, 28mm smartphone perspective, f/2.8, realistic texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, copyrighted character dependence, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "seated pink knit bedroom reference", "required": true, "source": "attached source image", "usage": "Match the adult identity, braided hairstyle, pink bows, knit outfit, seated pose, room arrangement, and daylight."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve face, facial structure, adult identity, hairstyle, outfit, tattoo, seated pose, environment, and lighting consistency. Plush toys, logos, typography, products, and decorative graphics remain replaceable; use original approved alternatives for replacements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an original approved adult model.", "Preserved the reference knit outfit and seated composition without sexualized wording.", "Added replaceable decorative-asset guidance and anti-slop exclusions."]
+  }
+}

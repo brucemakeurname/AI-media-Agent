@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js" integrity="sha384-sG0Hv1tP1lZCk9KQmrIbY/XNwi+OY84GQqhMscbnsoBFqAz8KNCil1kvfL3Hbbk2" crossorigin="anonymous"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: #000;
+      }
+      #root {
+        position: relative;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: #F0ECE5;
+      }
+      .scene {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="59.606"
+      data-width="1080"
+      data-height="1920"
+    >
+      <div
+        id="el-01-hook"
+        class="scene"
+        data-composition-id="01-hook"
+        data-composition-src="compositions/frames/01-hook.html"
+        data-start="0"
+        data-duration="8.363"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-01-hook-voice"
+        src="assets/voice/01.wav"
+        data-start="0"
+        data-duration="8.363"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-02-reality-check"
+        class="scene"
+        data-composition-id="02-reality-check"
+        data-composition-src="compositions/frames/02-reality-check.html"
+        data-start="8.363"
+        data-duration="1.941"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-02-reality-check-voice"
+        src="assets/voice/02.wav"
+        data-start="8.363"
+        data-duration="1.941"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-03-reason-one"
+        class="scene"
+        data-composition-id="03-reason-one"
+        data-composition-src="compositions/frames/03-reason-one.html"
+        data-start="10.304"
+        data-duration="8.448"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-03-reason-one-voice"
+        src="assets/voice/03.wav"
+        data-start="10.304"
+        data-duration="8.448"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-04-reason-one-payoff"
+        class="scene"
+        data-composition-id="04-reason-one-payoff"
+        data-composition-src="compositions/frames/04-reason-one-payoff.html"
+        data-start="18.752000000000002"
+        data-duration="2.603"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-04-reason-one-payoff-voice"
+        src="assets/voice/04.wav"
+        data-start="18.752000000000002"
+        data-duration="2.603"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-05-reason-two"
+        class="scene"
+        data-composition-id="05-reason-two"
+        data-composition-src="compositions/frames/05-reason-two.html"
+        data-start="21.355000000000004"
+        data-duration="9.195"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-05-reason-two-voice"
+        src="assets/voice/05.wav"
+        data-start="21.355000000000004"
+        data-duration="9.195"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-06-reason-two-payoff"
+        class="scene"
+        data-composition-id="06-reason-two-payoff"
+        data-composition-src="compositions/frames/06-reason-two-payoff.html"
+        data-start="30.550000000000004"
+        data-duration="2.027"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-06-reason-two-payoff-voice"
+        src="assets/voice/06.wav"
+        data-start="30.550000000000004"
+        data-duration="2.027"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-07-reason-three"
+        class="scene"
+        data-composition-id="07-reason-three"
+        data-composition-src="compositions/frames/07-reason-three.html"
+        data-start="32.577000000000005"
+        data-duration="8.32"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-07-reason-three-voice"
+        src="assets/voice/07.wav"
+        data-start="32.577000000000005"
+        data-duration="8.32"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-08-reason-three-payoff"
+        class="scene"
+        data-composition-id="08-reason-three-payoff"
+        data-composition-src="compositions/frames/08-reason-three-payoff.html"
+        data-start="40.897000000000006"
+        data-duration="3.221"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-08-reason-three-payoff-voice"
+        src="assets/voice/08.wav"
+        data-start="40.897000000000006"
+        data-duration="3.221"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-09-reason-four"
+        class="scene"
+        data-composition-id="09-reason-four"
+        data-composition-src="compositions/frames/09-reason-four.html"
+        data-start="44.11800000000001"
+        data-duration="7.659"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-09-reason-four-voice"
+        src="assets/voice/09.wav"
+        data-start="44.11800000000001"
+        data-duration="7.659"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-10-reason-four-payoff"
+        class="scene"
+        data-composition-id="10-reason-four-payoff"
+        data-composition-src="compositions/frames/10-reason-four-payoff.html"
+        data-start="51.77700000000001"
+        data-duration="3.584"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-10-reason-four-payoff-voice"
+        src="assets/voice/10.wav"
+        data-start="51.77700000000001"
+        data-duration="3.584"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-11-takeaway"
+        class="scene"
+        data-composition-id="11-takeaway"
+        data-composition-src="compositions/frames/11-takeaway.html"
+        data-start="55.36100000000001"
+        data-duration="2.368"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-11-takeaway-voice"
+        src="assets/voice/11.wav"
+        data-start="55.36100000000001"
+        data-duration="2.368"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+      <div
+        id="el-12-cta"
+        class="scene"
+        data-composition-id="12-cta"
+        data-composition-src="compositions/frames/12-cta.html"
+        data-start="57.72900000000001"
+        data-duration="1.877"
+        data-track-index="1"
+      ></div>
+      <audio
+        id="el-12-cta-voice"
+        src="assets/voice/12.wav"
+        data-start="57.72900000000001"
+        data-duration="1.877"
+        data-track-index="10"
+        data-volume="1"
+      ></audio>
+
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = gsap.timeline({ paused: true });
+    </script>
+  </body>
+</html>

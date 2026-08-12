@@ -1,0 +1,64 @@
+{
+  "name": "extreme-wide-angle-perspective-portrait",
+  "tag": [
+    "four-panel-grid",
+    "wide-angle",
+    "identity-preservation",
+    "interior-editorial",
+    "dynamic-perspective"
+  ],
+  "image_type": "cinematic-portrait-grid",
+  "image_vibe": "fashion-forward-intimate-cinematic",
+  "image_purpose": "moodboard",
+  "group": "indie/enegy-lifestyle/cinematic-portrait",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Retained the four-view wide-angle interior editorial while removing foot-focused and body-part-near-lens exaggeration; adult reference is mandatory."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "four-panel wide-angle adult fashion portrait in a quiet modern interior",
+      "color_palette": "black, cream, warm oak, muted gray, and silver mirror highlights",
+      "format": "balanced 2x2 grid of mid-close portraits"
+    },
+    "main_subject": {
+      "type": "adult person from supplied reference image",
+      "detail": "Preserve exact adult identity, face, age presentation, hairstyle, wardrobe logic, and key visual traits in every panel.",
+      "style": "modern fashion editorial with natural anatomy and controlled perspective"
+    },
+    "composition_elements": {
+      "text": "preserve source text only if present; do not add text, logo, or watermark",
+      "items": [
+        "four complementary wide-angle viewpoints in a 2x2 grid",
+        "seated, standing, and reflective-mirror portrait variations",
+        "quiet interior with chair, warm wood flooring, mirror, and minimal magazines",
+        "wide-angle depth used to reveal the room, never to enlarge feet or body parts"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft direct-flash editorial lighting with warm interior ambient fill",
+      "effect": "crisp subject detail, defined shadows, reflective accents, restrained fashion-magazine energy"
+    },
+    "technical_specs": {
+      "camera": "Leica Q3",
+      "lens": "28mm f/1.7 at f/4",
+      "render_style": "controlled wide-angle perspective, natural anatomy, consistent panels, fine grain, no digital gloss"
+    },
+    "generated_prompt_string": "Using the attached adult reference image as mandatory identity and interior source, create a balanced 2x2 grid of four photorealistic fashion-editorial portraits. Preserve the person's exact identity, face, age presentation, hairstyle, wardrobe logic, and key traits across every panel. Use complementary wide-angle views: seated, standing, and mirror-reflection variations within a quiet modern room with a chair, warm wood flooring, a mirror, and minimal magazines. Use perspective only to reveal the room and pose dynamism; keep feet, hands, and all body proportions natural without close foreground emphasis. Light with soft direct flash plus warm interior ambient fill for crisp detail and controlled shadows. Preserve any source text only if clearly present; otherwise no text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, identity change, face swap, age alteration, public figure, celebrity likeness, minor, child, foot close-up, foot fetish, body-part exaggeration, sexualized pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, duplicate person, extra limbs, deformed, inconsistent panels, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-and-interior-reference",
+          "required": true,
+          "source": "Attach the original authorized adult non-public-figure portrait image.",
+          "usage": "Mandatory source for exact adult identity, age presentation, wardrobe, interior cues, lighting logic, and existing text."
+        }
+      ],
+      "prompt_instructions": "Original authorized adult non-public-figure reference is mandatory. Preserve identity and room continuity in all panels; do not use foot-focused or body-part-exaggerated composition, and do not add unverified branding or text."
+    }
+  }
+}

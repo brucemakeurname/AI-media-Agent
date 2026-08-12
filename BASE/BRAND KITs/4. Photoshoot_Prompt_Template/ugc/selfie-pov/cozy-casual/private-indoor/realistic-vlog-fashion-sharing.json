@@ -1,0 +1,22 @@
+{
+  "name": "realistic-vlog-fashion-sharing",
+  "tag": ["ugc", "selfie-pov", "cozy-casual", "private-indoor"],
+  "image_type": "front-facing vlog keyframe",
+  "image_vibe": "warm intimate fashion-sharing moment",
+  "image_purpose": "static keyframe for a natural UGC fashion vlog",
+  "group": "cozy-casual/private-indoor",
+  "prompt": {
+    "project_info": "Create a single photorealistic still/keyframe from a front-facing indoor UGC fashion vlog of an approved adult woman seated and ready to speak.",
+    "main_subject": "Approved adult woman with long light-brown hair and bangs, wearing a dusty-pink cable-knit sweater, blue high-waisted jeans, black sneakers, and a small black shoulder bag; calm relaxed expression with a faint smile.",
+    "composition_elements": "Face-height fixed camera directly in front, stable seated composition, personal indoor space with warm curtains and soft bedding. One hand lightly touches the sweater to indicate the fashion feature. No dialogue text or audio notation in the still.",
+    "lighting_and_atmosphere": "Warm bright indoor evening light with realistic gentle bokeh caused by the camera, no beauty filter, no artificial sharpening.",
+    "technical_specs": "Photorealistic smartphone/video-frame still, 4:5 portrait, face clearly visible, natural skin texture, mild camera grain, stable framing, realistic exposure.",
+    "generated_prompt_string": "Static photorealistic keyframe from a front-facing UGC fashion vlog: approved adult woman seated at face height in a warm personal room, wearing a dusty-pink cable-knit sweater, blue high-waisted jeans, black sneakers, and a small black shoulder bag. She lightly touches the sweater and gives a calm faint smile. Use realistic evening indoor light, natural skin, mild camera grain, and real camera bokeh. No filters, text, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, underage, childlike, sexualized pose, nudity, lingerie, transparent clothing, dramatic angle, motion blur, beauty filter, artificial sharpening, plastic skin, distorted anatomy, watermark, logo invention, public figure likeness.",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "realistic-vlog-fashion-sharing_0.jpg", "required": true, "source": "local preview", "usage": "Identity, outfit, seated composition, room, lighting, and keyframe mood reference."}],
+      "prompt_instructions": "Attach the required local image. Preserve identity, hair, outfit, bag, seated framing, room, lighting, and natural expression; replaceability applies only to the identity with an approved reference. Treat spoken fashion details as optional metadata outside the image; keep typography absent."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Converted the video-style instruction into a safe static keyframe template for this non-video folder."]}
+}

@@ -1,0 +1,60 @@
+{
+  "name": "double-exposure-sports-poster",
+  "tag": ["adult-woman", "identity-reference", "soccer-athlete", "double-exposure", "usa-team", "relentless-poster"],
+  "image_type": "double-exposure-sports-poster",
+  "image_vibe": "heroic-intense-national-pride",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Removed the public-figure likeness and name instruction, replacing it with an authorized adult identity reference while preserving the USA soccer uniform, number 10, stadium, double exposure, and RELENTLESS campaign message."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "cinematic USA soccer double-exposure campaign poster",
+      "color_palette": "navy, white, red, stadium green, silver highlights, and deep night blue",
+      "aspect_ratio": "9:16"
+    },
+    "main_subject": {
+      "description": "An elite adult female soccer athlete matching the authorized identity reference, with natural athletic build, realistic skin texture, focused eyes, and emotionally intense determination.",
+      "wardrobe": "Modern USA national-team-style navy soccer jersey and shorts with white number 10, captain armband, white crest, navy socks, and performance cleats; preserve approved team marks if supplied.",
+      "pose": "Powerful full-body stance with one foot on a soccer ball, shoulders squared, and gaze slightly off-camera; a large close-up portrait of the same authorized adult is blended behind her.",
+      "styling": "Professional elite sports campaign styling with realistic sweat, fabric texture, and decisive athletic presence."
+    },
+    "composition_elements": {
+      "framing": "Vertical 9:16 poster with foreground full-body athlete, large cinematic close-up portrait behind, and layered graphic hierarchy.",
+      "environment": "Night stadium with floodlights, soft crowd bokeh, atmospheric haze, moisture particles, rain or mist, national red-white-blue paint strokes, and a soccer pitch.",
+      "typography": "Top-left team badge and UNITED WE RISE-style small heading, number 10, athlete name field left blank or generic, large red brush headline RELENTLESS, subline FOR THE CREST., and bottom copy ONE NATION. ONE GOAL. Render text accurately without using a public figure's name.",
+      "focus": "Consistent authorized adult identity across both layers, jersey number, crest, ball, realistic sweat and fabric, stadium depth, and legible typography."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Dramatic stadium floodlights with high-contrast shadows, volumetric beams through mist, cool rim light, and red-blue reflections across the athlete and pitch.",
+      "atmosphere": "Powerful, elite, focused, emotionally intense, heroic, and representative of team pride."
+    },
+    "technical_specs": {
+      "camera": "Full-frame sports camera with a 50mm lens at f/2.8, 1/500 s, ISO 800",
+      "quality": "Ultra-realistic 8K advertising poster, sharp facial and uniform detail, cinematic depth of field, controlled double exposure, motion energy, and print-ready typography"
+    },
+    "generated_prompt_string": "Create an ultra-realistic 9:16 cinematic USA soccer double-exposure campaign poster using the authorized adult identity reference. Show an elite adult female soccer athlete in a modern navy USA national-team-style jersey and shorts with white number 10, captain armband, crest, navy socks, and performance cleats, standing powerfully with one foot on a soccer ball and gaze slightly off-camera. Behind her, blend a large close-up portrait of the same authorized adult with consistent identity. Set the scene in a night stadium with floodlights, crowd bokeh, haze, rain or mist, red-white-blue paint strokes, and a realistic pitch. Add accurate typography: UNITED WE RISE-style heading, number 10, RELENTLESS in red brush lettering, FOR THE CREST., and ONE NATION. ONE GOAL.; leave any athlete-name field generic and do not reference a public figure. Use dramatic volumetric light, realistic sweat and fabric texture, and no watermark.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, public-figure likeness, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, inconsistent double-exposure identity, illegible text, misspelled team marks, distorted crest, extra limbs, deformed anatomy, watermark, flat lighting",
+    "reference_elements": {
+      "prompt_instructions": "The authorized adult identity reference is required and must remain consistent in the full-body and close-up layers. Do not imitate Sydney Sweeney or any other public figure. Optional uniform, stadium, ball, typography, or lighting references may replace only their named element while preserving the USA soccer campaign and RELENTLESS message.",
+      "assets": [
+        {
+          "type": "identity",
+          "name": "authorized-adult-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public figure portrait",
+          "usage": "Preserve the authorized adult's facial identity consistently across both double-exposure layers."
+        },
+        {
+          "type": "wardrobe",
+          "name": "navy-usa-soccer-number-10-uniform",
+          "required": false,
+          "source": "user-uploaded uniform reference",
+          "usage": "Replace only the jersey, shorts, crest, armband, socks, or cleats while preserving the soccer campaign composition."
+        }
+      ]
+    }
+  }
+}

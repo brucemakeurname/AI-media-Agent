@@ -1,0 +1,66 @@
+{
+  "name": "prompt-715",
+  "tag": [
+    "ugc",
+    "casual-everyday",
+    "soft-elegant",
+    "dollcore",
+    "victorian-lolita",
+    "teddy-bear",
+    "warm-portrait"
+  ],
+  "image_type": "lifestyle-portrait",
+  "image_vibe": "warm-nostalgic-dollcore",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/soft-elegant/other",
+  "prompt": {
+    "project_info": "Create a warm, intimate UGC-style portrait of an approved adult woman in a vintage romantic dollcore aesthetic, preserving the reference face and the comfort-focused teddy-bear embrace.",
+    "main_subject": "An approved adult woman with very smooth pale skin and a warm undertone, a gentle slightly melancholic expression, large round sparkling dark-brown eyes, peach-pink blush under the eyes and along the sides of the nose, soft peach glossy lips, voluminous softly curled dark-brown hair with light highlights, a thin center-parted fringe, and small white ribbons with delicate lace framing the hair. She wears predominantly cream-and-white vintage clothing with floral lace, off-white ribbons, and layered thin fabrics in a soft Victorian, Lolita, or cottagecore style. She hugs a light-brown plush teddy bear with a red, black, and white checkered ribbon around its neck.",
+    "composition_elements": "Vertical close portrait from the chest up, face centered and fully recognizable, the teddy bear held close in the foreground, hands gently supporting the bear, body leaning slightly forward, and white hair ribbons visible on both sides. Use a wooden interior with decorative vintage ornaments, clocks, lace trim, framed details, and a warm lamp in the background; keep the subject and teddy bear as the visual hierarchy.",
+    "lighting_and_atmosphere": "Warm golden nostalgic light with soft directional illumination from the right, gentle facial highlights, natural shadows, and a dreamy comforting atmosphere. Preserve the cozy childhood-warmth feeling, romantic vintage softness, dollcore elegance, and intimate sense of security without sexualized framing.",
+    "technical_specs": "Photorealistic vertical smartphone-style UGC portrait, approximately 4:5 to 9:16 crop, natural skin texture, shallow depth of field, detailed lace and plush fur, realistic hands and fingers, warm cream-brown color treatment, restrained bloom, and subtle authentic photographic grain.",
+    "generated_prompt_string": "Edit this photo without changing the face. The face must remain completely authentic and 100% recognizable. Depict an approved adult woman with very smooth, pale skin with a warm undertone, giving a soft porcelain-doll appearance. Her expression is gentle, innocent, and slightly melancholic, as if she is hugging a doll with feelings of nostalgia or comfort. The cheeks have a peach-pink blush concentrated under the eyes and along the sides of the nose, creating a warm, shy, and flushed effect. Her eyes are very large, round, and sparkling, resembling illustrated or doll-like eyes. The irises are dark brown but appear bright and glossy, likely enhanced with large-diameter contact lenses. The eyelashes are long and thick, both upper and lower, adding dramatic fullness to the eyes. Soft eyeshadow in peach, milky brown, and a hint of shimmer is applied subtly to enlarge the eyes naturally. A faint line under the eyes gives a cute, youthful-inspired impression while clearly depicting an adult. The lips are soft peach and glossy, small and slightly pointed, with gently blended edges for a sweet and innocent look. No extreme ombre effects are used; the lip makeup appears natural and dewy. Her hair is voluminous, softly curled, and dark brown with light highlights that shimmer under the light. A thin center-parted fringe frames the face gently. The sides of the hair are decorated with small white ribbons and delicate lace, creating a vintage-princess or Victorian-doll aesthetic. The hairstyle is intricate yet elegant, combining classic style with a modern touch. She is hugging a light-brown beige teddy bear with soft plush fur. The bear wears a small checkered ribbon in red, black, and white around its neck. The bear is held close to her chest, conveying warmth, softness, and a sense of security. Her hands are smooth and slender, gently holding the teddy bear, with long fingers and natural neatly kept nails. Her body leans slightly forward, as if embracing the bear more closely. She wears vintage classic clothing with lace details, predominantly cream and white, featuring delicate floral lace, small off-white ribbons, and layered thin fabrics that create a romantic look. The outfit resembles Lolita fashion, cottagecore, or soft Victorian style. The lighting is warm with a golden tone, evoking nostalgia, comfort, and a dreamlike atmosphere. The background contains decorative wooden textures, vintage ornaments, clocks, lace trim, and soft golden hues, supporting the theme of comfort, childhood warmth, softness, and doll-like innocence. The overall aesthetic emphasizes dollcore, vintage romantic, cottage and Victorian softness, warm nostalgia, and soft feminine fantasy, creating an intimate, warm, and elegantly cute atmosphere.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, fetish styling, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, duplicated teddy bear, distorted face, malformed eyes, blurry subject, text, logo",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-and-identity-reference",
+          "required": true,
+          "source": "prompt-715.jpg",
+          "usage": "Preserve the adult subject's facial structure, recognizable identity, expression, hair, and makeup while allowing only the requested photographic refinement; never reproduce a celebrity or public-figure likeness."
+        },
+        {
+          "type": "accessory",
+          "name": "beige-teddy-bear-with-checkered-ribbon",
+          "required": true,
+          "source": "prompt-715.jpg",
+          "usage": "Keep the light-brown plush bear, soft fur, scale, close embrace, and red-black-white checkered neck ribbon consistent; this prop may be replaced only with another clearly specified comfort plush."
+        },
+        {
+          "type": "wardrobe",
+          "name": "cream-white-lace-victorian-dollcore-outfit",
+          "required": true,
+          "source": "prompt-715.jpg",
+          "usage": "Preserve the cream-and-white lace clothing, layered fabrics, ribbons, and soft Victorian/Lolita silhouette; replace only when a new wardrobe reference is explicitly attached."
+        },
+        {
+          "type": "location",
+          "name": "warm-wood-vintage-ornament-interior",
+          "required": true,
+          "source": "prompt-715.jpg",
+          "usage": "Maintain the wooden wall, clocks, lace-trimmed shelf, vintage ornaments, framed details, and warm lamp atmosphere; the environment is replaceable only with an explicitly specified location reference."
+        }
+      ],
+      "prompt_instructions": "Attach the person, teddy bear, wardrobe, and environment references when exact consistency is required. The face/identity, adult status, outfit silhouette, teddy-bear details, and warm interior hierarchy must remain consistent. The background props and color treatment may be replaced only with explicitly supplied alternatives; preserve any replacement's identity, outfit, product/prop details, logo treatment, environment, and typography if present. No logo or typography is present in this reference."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an approved adult and softened age-ambiguous youthful wording while preserving the dollcore aesthetic.",
+      "Added policy-safe negative prompts and explicit anti-distortion constraints.",
+      "Added structured metadata, rendering details, and replaceable reference assets based on the source image."
+    ]
+  }
+}

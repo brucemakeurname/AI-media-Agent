@@ -1,0 +1,75 @@
+{
+  "name": "spotlight-pop-queen-performance",
+  "tag": [
+    "pop-performance",
+    "orange-fuchsia-sequins",
+    "stage-spotlight",
+    "vertical-social-portrait",
+    "film-grain"
+  ],
+  "image_type": "concert-performance-portrait",
+  "image_vibe": "high-energy-cinematic-pop",
+  "image_purpose": "story-reel-cover",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "High-energy pop performance under a theatrical spotlight",
+      "format": "vertical 9:16 social portrait",
+      "color_palette": "orange, fuchsia, golden stage light, deep black arena background, and warm film tones"
+    },
+    "main_subject": {
+      "type": "clearly adult woman pop performer",
+      "detail": "adult blonde performer with a soft-focus ponytail, individual flyaway strands, joyful charismatic smile, natural laugh lines, direct gaze toward the crowd, and realistic skin texture",
+      "wardrobe": "custom-fit opaque orange and fuchsia sequined performance bodysuit with prismatic reflections, paired with matching knee-high glitter boots",
+      "pose": "dynamic contrapposto stance with weight shifted to the left leg and arms raised behind the head, elbows flared wide, creating a powerful celebratory silhouette"
+    },
+    "composition_elements": {
+      "framing": "low-angle vertical crop cutting slightly above the shins for larger-than-life stage presence",
+      "subject_position": "performer slightly off-center like a front-row fan photograph, stage edge and indistinct crowd at the bottom",
+      "background": "deep black arena void with bright overhead theatrical fixtures and subtle audience darkness"
+    },
+    "lighting_and_atmosphere": {
+      "type": "intense overhead theatrical spot at approximately 5600K with warm gold rim light",
+      "effect": "golden rim along hair, prismatic highlights across sequins and boots, realistic lens flare blooming upper left, high-contrast stage atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Sony A7R V concert camera look, 85mm lens, f/2.8, 1/250s, ISO 100, 5600K",
+      "resolution": "4k vertical 9:16 portrait",
+      "finish": "Kodak Portra 400-inspired color treatment, warm vintage Valencia-like social grade, creamy skin tones, muted highlights, fine film grain, candid human realism"
+    },
+    "generated_prompt_string": "A breathtaking vertical 9:16 Instagram portrait shot on a Sony A7R V at f/2.8, 1/250s, ISO 100, 5600K, capturing a clearly adult blonde pop performer during a high-energy live performance. She stands in a dynamic contrapposto pose, weight shifted to her left leg while her arms are raised behind her head and elbows flare wide, creating a powerful celebratory silhouette. She wears a custom-fit opaque orange and fuchsia sequined performance bodysuit that catches the stage lights with intense prismatic reflections, paired with matching knee-high glitter boots. Low-angle framing cuts slightly above the shins for larger-than-life stage presence. Her expression is pure joy with a wide charismatic smile, direct locked gaze toward the crowd, natural laugh lines, and high-fidelity skin texture. Intense overhead theatrical spotlights create a brilliant golden rim along her blonde hair, showing individual flyaway strands and a soft-focus ponytail, while the deep black arena background remains a clean high-contrast void. Process with a warm vintage-inspired social color treatment over a Kodak Portra 400-style look, creamy skin tones, muted highlights, slight amateur off-center crop, realistic upper-left lens flare, and fine film grain for raw front-row fan-captured energy. Use a fictional adult performer rather than a public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, celebrity likeness, public-figure identity, ambiguous age, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, broken sequins, text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-pop-performer",
+          "required": true,
+          "source": "Original concert performance preview image",
+          "usage": "Attach an approved adult performer reference for identity continuity; preserve facial structure and likeness without using the source's public-figure identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "orange-fuchsia-sequined-performance-look",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the opaque sequined bodysuit, color split, boot height, and reflective stage styling; keep the outfit consistent and non-explicit."
+        },
+        {
+          "type": "location",
+          "name": "black-arena-stage-spotlight",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the stage edge, overhead fixtures, black arena, crowd darkness, golden rim, and candid crop; venue details may be replaced."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person, exact performance wardrobe, and stage environment references. Keep one adult performer identity, the opaque orange-fuchsia outfit, raised-arm pose, low-angle crop, black arena, and golden spotlight consistent. Replace the source public figure with an approved adult; stage, crowd, and background are replaceable, while the pose remains celebratory and non-sexual."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public-figure resemblance and explicit body measurement with a fictional clearly adult performer, preserving the stage pose, opaque outfit, and performance energy."
+    ]
+  }
+}

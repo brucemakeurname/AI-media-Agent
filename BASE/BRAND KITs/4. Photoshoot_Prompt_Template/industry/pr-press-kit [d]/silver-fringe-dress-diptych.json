@@ -1,0 +1,77 @@
+{
+  "name": "silver-fringe-dress-diptych",
+  "tag": [
+    "silver-fringe-dress",
+    "fashion-diptych",
+    "after-party-editorial",
+    "joyful-motion",
+    "crystal-beading"
+  ],
+  "image_type": "fashion-editorial-diptych",
+  "image_vibe": "glamorous-joyful-after-party",
+  "image_purpose": "instagram-feed",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "High-end fashion editorial diptych with silver fringe",
+      "format": "one vertical image containing two side-by-side panels",
+      "color_palette": "silver, crystal white, dark taupe, warm brown, iridescent shoe highlights, and neutral skin tones"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "same adult woman appears twice with wet-look brushed-back dark hair, soft waves, glowy skin, defined eyeliner, warm blush, glossy nude-pink lips, realistic pores, and joyful confident energy",
+      "wardrobe": "fully opaque shimmering silver beaded halter mini dress densely embellished with crystal beads and sequins, long fringe tassels along the hem, iridescent transparent high-heel sandals with ankle straps, and small elegant stud earrings",
+      "style": "high-end after-party fashion editorial with consistent identity and styling"
+    },
+    "composition_elements": {
+      "layout": "two-panel vertical diptych inside one image with a clean seam between left and right panels, 4:5 aspect ratio",
+      "left_panel": "relaxed pose, smiling and looking off-camera",
+      "right_panel": "playful movement, one leg lifted, laughing, with fringe motion visible",
+      "framing": "mid-thigh to head, flattering fashion crop, subject centered in each panel",
+      "environment": "minimal indoor backdrop with smooth dark taupe and brown wall panels, clean modern surfaces, no clutter"
+    },
+    "lighting_and_atmosphere": {
+      "type": "cinematic fashion flash with soft warm fill, approximately 3800K to 4500K",
+      "effect": "soft frontal flash slightly above eye line, controlled specular highlights on beads, gentle shadows, realistic movement in fringe, glamorous intimate after-party hallway mood"
+    },
+    "technical_specs": {
+      "render_style": "full-frame fashion camera with 50mm lens, photorealistic editorial diptych",
+      "resolution": "4k vertical 4:5 image",
+      "finish": "natural skin texture, restrained highlights, fine film grain, accurate crystal and fringe detail, no artificial smoothing"
+    },
+    "generated_prompt_string": "Create a high-end fashion editorial diptych: the same clearly adult woman appears twice side-by-side in two different joyful moments, like a magazine collage. The left panel shows a relaxed pose, smiling and looking off-camera; the right panel shows playful movement with one leg lifted and the adult woman laughing. Both panels feel like the same evening with identical styling. She has wet-look brushed-back dark hair with soft texture and slightly wavy length, glowy skin, defined eyeliner, warm blush, glossy nude-pink lips, realistic pores, and wears a fully opaque shimmering silver beaded halter mini dress densely embellished with crystal beads and sequins, long fringe tassels along the hem that swing with motion, iridescent transparent high-heel sandals with ankle straps, and small elegant stud earrings. Use a minimal indoor backdrop of smooth dark taupe and brown wall panels, a clean seam between two vertical panels, mid-thigh-to-head fashion crops, cinematic fashion flash slightly above eye level with soft warm fill, controlled highlights on beads, natural shadows, and a glamorous intimate after-party hallway mood. Photograph with a 50mm fashion lens, 4:5 aspect ratio, realistic skin and material texture, visible fine grain, and no logos or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, eroticized styling, ambiguous age, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, broken diptych seam, malformed fringe, text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-silver-dress-model",
+          "required": true,
+          "source": "Original silver fringe diptych preview image",
+          "usage": "Attach an approved adult face reference for identity lock; preserve facial structure and likeness in both panels without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "opaque-silver-beaded-fringe-dress",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the fully opaque silver halter dress, crystal bead pattern, fringe tassels, sandals, and earrings; do not replace the specified outfit."
+        },
+        {
+          "type": "location",
+          "name": "dark-taupe-after-party-hallway",
+          "required": false,
+          "source": "Original preview image and source prompt",
+          "usage": "Optional environment reference; preserve the clean dark taupe wall panels, evening mood, flash, and diptych continuity while allowing the hallway to be replaced."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person and wardrobe references; the environment reference is optional. Keep one consistent adult identity across both panels, the exact opaque silver fringe outfit, joyful non-sexual gestures, clean diptych seam, and flash treatment consistent. The model identity may be replaced only with another approved adult; backdrop, wall color, and panel spacing are replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as a clearly adult woman and explicitly preserved the opaque outfit and joyful non-sexual editorial movement while retaining the original diptych concept."
+    ]
+  }
+}

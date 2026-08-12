@@ -1,0 +1,22 @@
+{
+  "name": "fashion-glasses-beige-portrait",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "glasses", "beige"],
+  "image_type": "tailored fashion portrait",
+  "image_vibe": "confident, clean, modern, polished",
+  "image_purpose": "fashion lookbook and editorial portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create an ultra-realistic 2:3 fashion portrait of one original approved adult woman with long black wavy hair and rectangular glasses against a clean beige studio wall.",
+    "main_subject": "Original approved adult woman with long black wavy hair, black rectangular glasses, confident expression, soft natural makeup, realistic fair skin texture, white cropped long-sleeved button-up shirt, beige high-waisted tailored mini skirt with belt and front slit, and black sheer thigh-high hosiery. One hand rests near the collar.",
+    "composition_elements": ["Standing fashion pose in a medium-full 2:3 vertical frame.", "Minimal clean beige background with soft wall shadow.", "Keep glasses, shirt collar, belt, skirt construction, hosiery, face, and hand visible.", "Omit the incidental small source mark on the skirt unless a supplied brand asset is intentionally attached."],
+    "lighting_and_atmosphere": "Soft directional studio lighting with gentle wall shadow, clean neutral beige color balance, realistic skin rendering, and polished editorial clarity.",
+    "technical_specs": "Photorealistic 2:3 portrait, 85mm lens at f/4, sharp focus, realistic hair, glasses, cotton, tailoring, hosiery, and skin texture, subtle natural grain, no text or watermark.",
+    "generated_prompt_string": "Ultra-realistic fashion portrait of one original approved adult woman with long black wavy hair, black rectangular glasses, confident expression, soft natural makeup and realistic fair skin texture. She wears a white cropped long-sleeved button-up shirt, beige high-waisted tailored mini skirt with belt and front slit, and black sheer thigh-high hosiery, with one hand near the collar. Use a standing medium-full 2:3 vertical fashion pose against a minimal clean beige background with soft wall shadow, professional photography, sharp focus, realistic textures, clean cinematic lighting, omit incidental source marks and do not add text, logos, or watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "distorted glasses", "extra limbs", "bad anatomy", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "unwanted logo", "watermark", "text", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "fashion-glasses-beige-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult identity, face, hair, glasses, outfit, pose, and skin reference."}, {"type": "wardrobe", "name": "white cropped shirt, beige tailored skirt, belt and black hosiery", "required": true, "source": "local reference image", "usage": "Preserve exact outfit silhouette, colors, glasses, belt, slit, and hosiery."}, {"type": "location", "name": "clean beige wall with soft shadow", "required": true, "source": "local reference image", "usage": "Preserve background, wall shadow, and neutral environment."}],
+      "prompt_instructions": "Attach all required person, wardrobe, and location references; no optional assets are needed. Keep identity, face, glasses, outfit, pose, background, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent wardrobe, or equivalent beige environment. Typography is not applicable; omit incidental source marks and do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an original approved adult, removed age ambiguity, and excluded the incidental source mark while preserving the supplied outfit, glasses, pose, and beige studio concept."]}
+}

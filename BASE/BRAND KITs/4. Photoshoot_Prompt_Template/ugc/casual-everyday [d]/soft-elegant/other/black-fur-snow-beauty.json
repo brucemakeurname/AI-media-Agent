@@ -1,0 +1,27 @@
+{
+  "name": "black-fur-snow-beauty",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "other", "winter-night"],
+  "image_type": "snowy night lifestyle portrait",
+  "image_vibe": "playful black-fur winter glamour",
+  "image_purpose": "UGC-style winter fashion visual",
+  "group": "soft-elegant/other",
+  "prompt": {
+    "project_info": "Create a realistic winter-night lifestyle portrait of an original approved adult woman in a snowy urban park.",
+    "main_subject": "An original approved adult woman with long brunette hair, light olive complexion, bright hazel-green eyes, and a joyful playful expression looks upward toward falling snow. She wears a voluminous black faux-fur coat over a light gray hoodie and carries a black quilted leather shoulder bag with a silver chain strap.",
+    "composition_elements": "Vertical 9:16 candid three-quarter portrait, subject turned slightly away while looking toward the sky, snow-covered path, tall leafless trees, deep snow, glowing spherical street lamps creating bokeh, and dark winter sky.",
+    "lighting_and_atmosphere": "Night streetlight and subtle on-camera flash illuminate snowflakes, fur texture, hair, and natural skin; cool winter ambience with warm lamp bokeh, candid joyful mood.",
+    "technical_specs": "Realistic smartphone lifestyle photography, vertical 9:16, three-quarter portrait, natural low-light exposure, visible snow texture, moderate depth of field, restrained contrast, no artificial HDR look.",
+    "generated_prompt_string": "Realistic vertical 9:16 winter-night lifestyle portrait of an original approved adult woman with long brunette hair, light olive complexion, bright hazel-green eyes, and a joyful playful expression looking upward toward falling snow. She wears a voluminous black faux-fur coat over a light gray hoodie and carries a black quilted leather shoulder bag with a silver chain strap. Snow-covered path, tall leafless trees, deep snow, glowing spherical street lamps with bokeh, and a dark winter sky surround her. Subtle flash mixed with ambient streetlight, realistic fur and snow texture, candid joyful atmosphere.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, unsafe winter traffic, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy, unreadable logo",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "black fur snow portrait reference", "required": true, "source": "attached source image", "usage": "Match the original adult model, hair, eyes, fur coat, hoodie, bag, snow park, lamps, and night lighting."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve adult identity, face, outfit, bag, environment, snowfall, and lighting. Luxury-brand marks, logos, typography, and bag hardware are replaceable editable elements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Removed the named actress likeness and specified an original approved adult.", "Preserved the winter outfit, upward gaze, snow, and playful lifestyle direction.", "Added anti-slop and safety exclusions."]
+  }
+}

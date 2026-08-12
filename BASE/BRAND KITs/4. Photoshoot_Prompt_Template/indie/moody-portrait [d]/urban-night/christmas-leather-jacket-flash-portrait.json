@@ -1,0 +1,68 @@
+{
+  "name": "christmas-leather-jacket-flash-portrait",
+  "tag": [
+    "approved-adult-face",
+    "christmas-cafe",
+    "leather-jacket",
+    "fur-hat",
+    "direct-flash",
+    "y2k-camera"
+  ],
+  "image_type": "christmas-cafe-flash-fashion-portrait",
+  "image_vibe": "festive, cozy, polished, playful, y2k",
+  "image_purpose": "holiday-campaign, fashion-editorial, social-content",
+  "group": "indie / moody-portrait / urban-night",
+  "prompt": {
+    "project_info": {
+      "theme": "Y2K direct-flash Christmas cafe portrait",
+      "format": "vertical seated portrait",
+      "color_palette": "black, white, warm orange, pine green, red, gold, marble gray"
+    },
+    "main_subject": {
+      "type": "adult woman using a required approved-adult face reference",
+      "detail": "An adult woman whose face, facial structure, proportions, features, and expression match the attached approved-adult reference. She has long dark-brown hair moving slightly in the wind, very fair natural skin, and polished Korean-inspired makeup: long curled lashes, softly flushed pink cheeks and nose tip, and glossy pink lips. She wears a shiny black leather jacket over a white fitted inner top, a fitted black mini-skirt, black fishnet tights, and a fluffy fur hat.",
+      "style": "hyper-realistic Y2K compact-camera fashion portrait"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "adult woman seated at a dark wooden table with chin resting on one hand",
+        "slight smile while holding a Christmas-decorated drink in her right hand",
+        "brown kraft-paper bouquet of cotton flowers and pine leaves on the table",
+        "gold compact camera on the table as a visible prop",
+        "marble-gray vintage cafe exterior framed by a Christmas tree, pine decorations, and ornaments"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "warm orange tungsten ambience combined with strong direct frontal flash",
+      "effect": "bright clear skin, hard shadow behind the subject, and a slightly darker festive background",
+      "atmosphere": "inviting, cozy, festive, and flash-forward"
+    },
+    "technical_specs": {
+      "render_style": "sharp Y2K digital compact-camera photography",
+      "resolution": "high-detail vertical image",
+      "color_treatment": "Fuji Pro 400H-inspired color, old-lens character, light film grain, realistic skin texture"
+    },
+    "generated_prompt_string": "Create a hyper-realistic vertical Christmas cafe portrait of an adult woman using the attached approved-adult face reference; preserve her face, facial structure, proportions, features, and expression exactly without celebrity or public-figure substitution. She sits at a dark wooden table with her chin resting on one hand, smiles slightly, and holds a Christmas-decorated drink in her right hand. She has long dark-brown hair moving gently in the wind, fair natural skin, long curled lashes, softly flushed pink blush on her cheeks and nose tip, and glossy pink lips. Dress her in a shiny black leather jacket over a white fitted inner top, a fitted black mini-skirt, black fishnet tights, and a fluffy fur hat. Place a brown kraft-paper bouquet of cotton flowers and pine leaves and a gold compact camera on the table. Set this outside a marble-gray vintage-style cafe with a Christmas tree, pine decorations, and festive ornaments. Use warm orange tungsten ambience with a strong direct frontal flash, bright subject, hard shadow behind her, a slightly darker background, sharp Y2K compact-camera character, Fuji Pro 400H-inspired tones, old-lens texture, light film grain, and realistic skin texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, identity blending, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, text, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "Attach a required approved-adult face reference. Preserve the adult face, leather jacket, white fitted inner top, mini-skirt, fishnet tights, fur hat, chin-on-hand seated pose, Christmas drink, bouquet, compact camera, cafe decor, and direct-flash styling. Do not use celebrity/public-figure likeness.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-reference",
+          "required": true,
+          "source": "user attachment",
+          "usage": "Keep adult face, facial structure, proportions, features, and expression exactly consistent."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the identity reference and subject must be an approved adult while preserving the original festive leather-and-fishnet fashion concept, seated pose, props, and flash treatment.",
+      "Kept the attractive styling as fashion presentation without explicit or sexualized wording."
+    ]
+  }
+}

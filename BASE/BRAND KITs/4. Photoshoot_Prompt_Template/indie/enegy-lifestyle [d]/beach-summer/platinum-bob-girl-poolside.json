@@ -1,0 +1,71 @@
+{
+  "name": "platinum-bob-girl-poolside",
+  "tag": [
+    "resort-pool",
+    "competitive-swimwear",
+    "platinum-bob",
+    "summer-editorial",
+    "blue-pink"
+  ],
+  "image_type": "swimwear-editorial-portrait",
+  "image_vibe": "sunlit-athletic-resort",
+  "image_purpose": "lookbook",
+  "group": "indie/enegy-lifestyle/beach-summer",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult and removed body-emphasis wording while retaining the resort-pool competitive-swimwear concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "sunlit resort-pool competitive swimwear editorial",
+      "color_palette": "royal blue, bubblegum pink, pool cyan, palm green, and warm white",
+      "format": "vertical 3:4 medium-full portrait"
+    },
+    "main_subject": {
+      "type": "adult East Asian woman",
+      "detail": "Adult woman with a shoulder-length platinum-blonde bob and soft bangs, standing at the tiled edge of a sunny pool after swimming. She wears a glossy two-tone competitive one-piece swimsuit with a royal-blue center panel and pink side panels.",
+      "style": "athletic resort swimwear editorial, composed and non-sexualized"
+    },
+    "composition_elements": {
+      "text": "no text, logo, or watermark",
+      "items": [
+        "upright relaxed stance at the tiled pool edge",
+        "sparkling blue water and visible blue mosaic pool tiles",
+        "white lounge chairs, trimmed hedges, palm trees, and villa pergola in the background",
+        "wet hair and subtle water droplets consistent with recent swimming"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "bright high-key midday sunlight",
+      "effect": "defined yet soft outdoor shadows, clean specular detail on wet fabric and pool water, lively tropical-resort atmosphere"
+    },
+    "technical_specs": {
+      "camera": "Nikon Z8",
+      "lens": "NIKKOR Z 85mm f/1.2 at f/2.8",
+      "render_style": "sharp natural detail, moderate background blur, realistic water droplets and swimsuit fabric, no artificial skin gloss"
+    },
+    "generated_prompt_string": "Create a vertical 3:4 medium-full athletic swimwear editorial of an adult East Asian woman at the tiled edge of an upscale outdoor resort pool on a sunny day. She has a shoulder-length platinum-blonde bob with soft bangs and wears a glossy two-tone competitive one-piece swimsuit with a royal-blue center panel and bubblegum-pink side panels. Keep her stance upright and relaxed, with subtle wet hair and water droplets suggesting recent swimming. Include sparkling pool water with blue mosaic tiles, white lounge chairs, lush trimmed hedges, palm trees, and a villa-style pergola in the background. Use bright high-key midday sunlight, clear natural fabric and water texture, and moderate background blur. No body emphasis, text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, sexualized pose, body-part emphasis, nudity, transparent clothing, latex fetish styling, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity replacement is required.",
+          "usage": "Replace only the adult subject identity while retaining the platinum bob direction, athletic stance, swimwear silhouette, and pool composition."
+        },
+        {
+          "type": "wardrobe",
+          "name": "two-tone-swimsuit-reference",
+          "required": false,
+          "source": "Attach a swimsuit reference if exact garment details are required.",
+          "usage": "Replace only paneling or material details while preserving a modest competitive one-piece silhouette and blue-pink palette."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. Subject and wardrobe references are optional; preserve the upright athletic pose, resort-pool setting, midday lighting, and non-sexualized swimwear editorial mood."
+    }
+  }
+}

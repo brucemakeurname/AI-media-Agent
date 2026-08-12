@@ -1,0 +1,78 @@
+{
+  "name": "vfe-uni-gate-gen-8-personalized-visa-guidance",
+  "tag": [
+    "vfe",
+    "uni-gate",
+    "gen-8",
+    "visa-guidance",
+    "special-offer"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "vfe_1227262946033213",
+  "prompt": {
+    "project_info": {
+      "theme": "One-to-one personalized study abroad dossier and visa interview guidance",
+      "color_palette": "White, French Blue, Red, Soft Gray, Skin Tones"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A real consultation scene shows two women sitting across a white table, one advisor with a laptop and one student listening, while a television screen behind them displays a UNI-GATE Gen 8 France study poster.",
+      "style": "Photoreal office consultation poster with overlaid promotional text, soft natural indoor light, and branded educational event framing."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nDU HỌC PHÁP\nHƯỚNG ĐI MỚI\nSAU TỐT NGHIỆP 2026\nUNI-GATE Gen 8\nDu học Pháp ngay tháng 09/2026 dù chưa biết tiếng Pháp\nDành cho học sinh, sinh viên chưa biết tiếng Pháp\nCam kết 100% học viên du học Pháp thành công\nCố vấn học tập đồng hành 1:1 trong 03 năm\nĐĂNG KÝ NGAY\nHỒ SƠ CÁ NHÂN HOÁ 1-1\nHướng dẫn chọn trường, ngành và luyện phỏng vấn xin visa",
+      "items": [
+        "Top Left: VFE logo in rounded white corner.",
+        "Top Right: Navy-red program header 'DU HỌC PHÁP HƯỚNG ĐI MỚI SAU TỐT NGHIỆP 2026'.",
+        "Bottom Left: Large red rounded label 'HỒ SƠ CÁ NHÂN HOÁ 1-1'.",
+        "Bottom Right: Notebook-paper style text panel 'Hướng dẫn chọn trường, ngành và luyện phỏng vấn xin visa'.",
+        "Center/Background: Real office meeting scene with TV screen showing UNI-GATE Gen 8 slide, advisor and student facing each other, tea set and laptop on the table."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft indoor daylight",
+      "effect": "Bright neutral meeting-room light, real skin tones, reflective TV screen glow, and clean conversion-poster overlays."
+    },
+    "technical_specs": {
+      "render_style": "Photoreal consultation marketing poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality educational consultation poster for VFE Uni-Gate Gen 8. Centerpiece is a real one-to-one consultation scene with an advisor and student seated across a table, while a TV behind them displays a Uni-Gate France study slide. Background is a clean indoor office setting. Surrounding elements: VFE logo, top-right header 'DU HỌC PHÁP HƯỚNG ĐI MỚI SAU TỐT NGHIỆP 2026', large red label 'HỒ SƠ CÁ NHÂN HOÁ 1-1', notebook-style text 'Hướng dẫn chọn trường, ngành và luyện phỏng vấn xin visa', and on-screen CTA 'ĐĂNG KÝ NGAY'. Technical style: photoreal consultation marketing poster, soft indoor daylight, clean educational conversion overlays, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place top left."
+        },
+        {
+          "type": "person",
+          "name": "Advisor and student consultation photo",
+          "required": true,
+          "source": "current creative source photo",
+          "usage": "Keep the same seated positions, expressions, and indoor setup."
+        },
+        {
+          "type": "ui_reference",
+          "name": "TV screen Uni-Gate slide",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve the on-screen Uni-Gate Gen 8 layout and CTA."
+        },
+        {
+          "type": "text_layout",
+          "name": "One-to-one dossier guidance overlay layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep the big red lower-left banner and notebook text panel at lower right."
+        }
+      ],
+      "prompt_instructions": "This is a real-service credibility creative. Keep the office setting and authentic human interaction. The date 'tháng 09/2026' on the TV slide is in the future relative to Friday, July 17, 2026, so preserve it as a forward-looking intake claim."
+    }
+  }
+}

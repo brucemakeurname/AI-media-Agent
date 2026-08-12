@@ -1,0 +1,70 @@
+{
+  "name": "toyota-hilux-city-traffic-july-1",
+  "tag": [
+    "hilux",
+    "city-use",
+    "july-update",
+    "pickup"
+  ],
+  "biz_niche": "Automotive",
+  "content_format": "Infographics",
+  "group": "toyota_1491998418873376",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Hilux urban driving eligibility from July 1",
+      "color_palette": "Sky blue, orange, white, charcoal, city gray"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A regulation-explainer poster with Toyota logo top left and a headline stack: 'TU 01/07: HILUX THOAI MAI VAO PHO'. Supporting copy says 'Xe ban tai va xe tai van co khoi luong toan bo khong lon hon 3500kg duoc luu thong nhu o to con'. Centered is an orange Toyota Hilux driving through a modern city boulevard. Along the bottom are three icon captions: 'VAO PHO THOAI MAI', 'KHONG LO CAM GIO', and 'LAI KHOE, PHO EM'. Bottom-right script says 'Move your world'.",
+      "style": "Bold urban pickup-info poster with regulation messaging, textured headline typography, and moving city-road hero image"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / TU 01/07: / HILUX / THOAI MAI VAO PHO / Xe ban tai va xe tai van co khoi luong toan bo khong lon hon 3500kg duoc luu thong nhu o to con / VAO PHO THOAI MAI / KHONG LO CAM GIO / LAI KHOE, PHO EM / Move your world",
+      "items": [
+        "Top Left: Toyota logo and the orange 'TU 01/07:' label over a blue city sky",
+        "Top Right: High-rise city skyline fading into warm sunlight haze",
+        "Bottom Left: Road-lane icon and 'VAO PHO THOAI MAI'",
+        "Bottom Right: Steering-wheel icon with 'LAI KHOE, PHO EM' and handwritten 'Move your world'",
+        "Center/Background: Orange Toyota Hilux driving on a city boulevard beneath the large textured headline stack"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright urban commercial lighting",
+      "effect": "Motion-ready road sheen, city haze, glossy orange paint highlights, assertive product-message energy"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal automotive product-information campaign composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Hilux urban-use regulation message. Centerpiece is an orange Toyota Hilux driving through a modern city boulevard. Background is a bright skyline with warm haze and moving-road perspective. Surrounding elements: Toyota logo, exact headline 'TU 01/07: HILUX THOAI MAI VAO PHO', supporting statement about vehicles under 3500kg circulating like passenger cars, and bottom icons with 'VAO PHO THOAI MAI', 'KHONG LO CAM GIO', and 'LAI KHOE, PHO EM', plus the footer script 'Move your world'. Technical style: photoreal automotive product-information campaign composite, bright urban commercial lighting, glossy highlights and road-motion energy, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Orange Toyota Hilux exterior reference",
+          "required": true,
+          "source": "official Hilux render",
+          "usage": "Preserve the orange body color, front angle, grille lettering, and pickup proportions"
+        },
+        {
+          "type": "background",
+          "name": "Modern city boulevard backdrop",
+          "required": true,
+          "source": "campaign background reference",
+          "usage": "Maintain the urban-use context and smooth city-lane perspective"
+        },
+        {
+          "type": "text_layout",
+          "name": "Hilux city-use regulation poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the top date label, giant headline, explanatory paragraph, and three bottom icon messages"
+        }
+      ],
+      "prompt_instructions": "Preserve 'TU 01/07' exactly. Relative to Friday, July 17, 2026, July 1, 2026 is in the past, but the visible policy-start date must remain unchanged in the poster."
+    }
+  }
+}

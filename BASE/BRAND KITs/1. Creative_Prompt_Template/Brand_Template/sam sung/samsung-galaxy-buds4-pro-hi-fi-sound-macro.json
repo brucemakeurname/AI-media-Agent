@@ -1,0 +1,63 @@
+{
+  "name": "samsung-galaxy-buds4-pro-hi-fi-sound-macro",
+  "tag": [
+    "earbuds-launch",
+    "hi-fi-sound",
+    "macro",
+    "buds4-pro"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Infographics",
+  "group": "samsung_1388391109996030",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy Buds4 Pro Hi-Fi Sound macro poster",
+      "color_palette": "Warm white, metallic silver, pale beige, black typography"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Extreme macro poster focusing on the brushed-metal speaker grille area of a Galaxy Buds4 Pro earbud, paired with a short Hi-Fi sound headline on a clean pale background.",
+      "style": "Photorealistic macro hardware render, premium audio-detail advertising"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Hi-Fi Sound",
+      "items": [
+        "Top Left: Soft out-of-focus white earbud body filling the background.",
+        "Top Right: Black text 'Hi-Fi Sound'.",
+        "Bottom Left: Brushed-metal earbud stem extending diagonally from lower left toward center.",
+        "Bottom Right: Minimal empty pale background space.",
+        "Center/Background: Macro oval speaker grille mesh framed at the end of the metallic stem with a shallow depth-of-field product aesthetic."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft macro studio lighting",
+      "effect": "Brushed-metal shimmer, subtle depth blur, delicate premium highlight rolloff"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic macro product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy Buds4 Pro Hi-Fi Sound macro poster. Centerpiece is an extreme macro of a Galaxy Buds4 Pro earbud focusing on the oval speaker grille and brushed-metal stem. Background is a pale, softly blurred close-up of the earbud body. Surrounding elements: short black headline 'Hi-Fi Sound' placed at upper right with plenty of negative space. Technical style: photorealistic macro product render, soft macro studio lighting, metallic shimmer and shallow depth blur, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy Buds4 Pro macro earbud detail",
+          "required": true,
+          "source": "official Samsung macro render or original creative",
+          "usage": "Preserve exact speaker grille mesh, brushed-metal texture, and macro crop angle."
+        },
+        {
+          "type": "text_layout",
+          "name": "minimal Hi-Fi Sound headline",
+          "required": true,
+          "source": "original poster",
+          "usage": "Keep the concise black copy and the strong negative-space balance."
+        }
+      ],
+      "prompt_instructions": "Use refs for the exact macro hardware crop. The success of this prompt depends on shallow depth-of-field and precise metallic texture fidelity."
+    }
+  }
+}

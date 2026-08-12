@@ -1,0 +1,71 @@
+{
+  "name": "wet-rem-maid-in-pool",
+  "tag": [
+    "pool-cosplay",
+    "pastel-pink-hair",
+    "maid-inspired",
+    "turquoise-water",
+    "sunlit-portrait"
+  ],
+  "image_type": "cosplay-lifestyle-portrait",
+  "image_vibe": "playful-sunlit-anime-inspired",
+  "image_purpose": "cosplay-editorial",
+  "group": "indie/enegy-lifestyle/beach-summer",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified adult identity reference use, replaced seductive and transparent-clothing direction with playful opaque cosplay styling, and converted named character cosplay into an original anime-inspired maid design."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "bright outdoor pool portrait in original anime-inspired maid cosplay",
+      "color_palette": "turquoise water, white ruffles, black trim, pastel pink hair, and sunlit sky blue",
+      "format": "vertical 9:16 close lifestyle portrait"
+    },
+    "main_subject": {
+      "type": "adult person from supplied reference image",
+      "detail": "Preserve the exact adult identity, age presentation, face, skin tone, and core features from the attached reference. Style the person with long wet pastel-pink hair, side-swept bangs, and a playful sun-shielding expression.",
+      "style": "original anime-inspired cosplay editorial, playful and non-sexualized"
+    },
+    "composition_elements": {
+      "text": "no text, logo, watermark, or character name",
+      "items": [
+        "adult subject seated or floating calmly in turquoise pool water, upper body above the surface",
+        "one hand shades the eyes from overhead sun while the other stays relaxed beneath water",
+        "opaque black-and-white maid-inspired outfit with ruffled collar, black bow, apron details, and headband",
+        "softly blurred pool edge, water ripples, and sky in the background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "bright direct midday sunlight",
+      "effect": "gentle water caustics, natural droplets, rim light on wet hair, cheerful high-contrast summer atmosphere"
+    },
+    "technical_specs": {
+      "camera": "Sony A1",
+      "lens": "FE 85mm f/1.4 at f/2.2",
+      "render_style": "shallow depth of field, clear eye focus, realistic water ripples and opaque fabric texture, restrained natural skin detail"
+    },
+    "generated_prompt_string": "Using the attached adult identity reference as mandatory source, create a vertical 9:16 sunlit pool cosplay portrait. Preserve the person's exact adult identity, face, age presentation, skin tone, and recognizable features. Give them long wet pastel-pink hair with side-swept bangs and dress them in an original opaque black-and-white anime-inspired maid outfit with a ruffled collar, black bow, apron details, and a simple headband. Place them calmly in vibrant turquoise pool water, with one hand raised to shade their eyes from the bright midday sun and the other relaxed beneath the surface. Use natural droplets, gentle water caustics, rim light on wet hair, soft pool-edge blur, and clear eye focus. Keep the mood playful, editorial, and non-sexualized. No named character identity, transparent fabric, text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, identity change, face swap, public figure, celebrity likeness, seductive expression, sexualized pose, fetish framing, nudity, transparent clothing, wet-cling emphasis, named character likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-identity-reference",
+          "required": true,
+          "source": "Attach a portrait of the authorized adult non-public-figure person to portray.",
+          "usage": "Mandatory identity reference. Preserve exact adult identity, face, age presentation, skin tone, and key facial features; do not swap or alter identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "maid-cosplay-reference",
+          "required": false,
+          "source": "Attach an original or licensed wardrobe reference if exact costume details are required.",
+          "usage": "Replace only costume details while retaining opaque coverage, black-and-white palette, pool-safe construction, and original character-free styling."
+        }
+      ],
+      "prompt_instructions": "An authorized adult non-public-figure identity reference is mandatory. Keep identity exact and use only original or licensed wardrobe references. Preserve the turquoise pool, sun-shielding hand gesture, pastel-pink hair, and playful non-sexualized cosplay mood."
+    }
+  }
+}

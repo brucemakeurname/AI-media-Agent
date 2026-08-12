@@ -1,0 +1,85 @@
+{
+  "name": "toyota-7-seater-full-protection-package-offer",
+  "tag": [
+    "toyota",
+    "veloz-cross",
+    "avanza-premio",
+    "special-offer",
+    "7-seater"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "toyota_1565442181926546",
+  "prompt": {
+    "project_info": {
+      "theme": "7-seater ownership offer with insurance and financing support",
+      "color_palette": "Sky Blue, White, Deep Blue, Orange, Fresh Green"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Two white Toyota 7-seater models, Avanza Premio on the left and Veloz Cross on the right, are parked on a lakeside park road beneath a pale blue sky, while giant offer numbers and financing text dominate the upper half.",
+      "style": "Photoreal promotional automotive composite with airy daytime scenery, oversized offer typography, and glossy catalog-grade vehicle rendering."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "TOYOTA\nRUOC BO DOI 7 CHO\nSo huu GOI BAO VE TOAN DIEN\nTANG 1 NAM BAO HIEM THAN VO\nDanh cho Veloz Cross & Avanza Premio\nUU DAI LAI SUAT (*)\n0% /NAM\nHO TRO TUONG DUONG LEN DEN\n100%\nLE PHI TRUOC BA\nChuong trinh ap dung cho khach hang mua xe tu ngay 01/07/2026 - 31/07/2026\n(*)Voi cac muc uu dai theo tung dong xe. Vui long lien he dai ly gan nhat de biet them chi tiet\nMove your world",
+      "items": [
+        "Top Left: Black Toyota logo on light sky background.",
+        "Top Center: Mixed orange uppercase and blue handwritten-style headline with a painterly underline stroke.",
+        "Bottom Left: White Avanza Premio in front three-quarter view with insurance offer block above it.",
+        "Bottom Right: White Veloz Cross in front three-quarter view, larger than the Avanza, with handwritten 'Move your world' in white script.",
+        "Center/Background: Soft park lake, tree line, bright lawn, and three-column pricing/benefit structure featuring giant blue '0%' and giant orange '100%'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright natural park daylight",
+      "effect": "Even daylight, crisp car reflections, soft atmospheric haze in the distance, glossy headline effects, and clean sales-poster clarity."
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic promotional automotive poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Toyota 7-seater ownership offers. Centerpiece is a pair of white Toyota family MPVs, Avanza Premio and Veloz Cross, parked on a scenic park road by a lake under a pale blue sky. Background is a bright landscaped park with trees and water. Surrounding elements: Toyota logo at top left, large Vietnamese sales headline 'RUOC BO DOI 7 CHO' and 'So huu GOI BAO VE TOAN DIEN', benefit block for 1-year body insurance, giant blue '0% /NAM', giant orange '100% LE PHI TRUOC BA', and small footer date line '01/07/2026 - 31/07/2026'. Technical style: photorealistic promotional automotive poster, bright natural park daylight, glossy headline effects, clean sales-poster clarity, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Toyota corporate logo black version",
+          "required": true,
+          "source": "brand asset / Toyota official logo",
+          "usage": "Place at top left exactly as in the creative."
+        },
+        {
+          "type": "product",
+          "name": "Toyota Avanza Premio white exterior reference",
+          "required": true,
+          "source": "product reference image",
+          "usage": "Use for the smaller left vehicle with correct grille and proportions."
+        },
+        {
+          "type": "product",
+          "name": "Toyota Veloz Cross white exterior reference",
+          "required": true,
+          "source": "product reference image",
+          "usage": "Use for the larger right vehicle with sharper front fascia and wheel details."
+        },
+        {
+          "type": "location",
+          "name": "Park lake road background",
+          "required": true,
+          "source": "landscape reference",
+          "usage": "Recreate calm green park, lake, and open sky."
+        },
+        {
+          "type": "text_layout",
+          "name": "Offer typography and three-column incentive layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve exact date range, giant '0%' and '100%' scale, and blue script/orange uppercase headline mix."
+        }
+      ],
+      "prompt_instructions": "The date line '01/07/2026 - 31/07/2026' is an active July 2026 campaign window relative to Friday, July 17, 2026; preserve it exactly. Keep the Veloz Cross larger and closer to camera than the Avanza Premio. The mood should be optimistic and open-air, not urban or studio-based."
+    }
+  }
+}

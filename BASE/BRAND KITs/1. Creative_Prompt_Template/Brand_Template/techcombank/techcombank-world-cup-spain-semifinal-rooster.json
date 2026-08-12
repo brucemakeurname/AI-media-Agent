@@ -1,0 +1,70 @@
+{
+  "name": "techcombank-world-cup-spain-semifinal-rooster",
+  "tag": [
+    "world-cup",
+    "football",
+    "semifinal",
+    "brand-campaign"
+  ],
+  "biz_niche": "Sports & Fitness",
+  "content_format": "Brand story",
+  "group": "techcombank_1572643497830557",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank World Cup 2026 semifinal celebration story",
+      "color_palette": "Grass green, white, maroon, black, soft stadium gold"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A football celebration poster seen from above on a grass pitch. Two players in white jerseys with maroon shorts celebrate face to face over a giant translucent Techcombank diamond graphic embedded into the field. The large headline says 'VUOT QUA \"GA TRONG GO-LOA\" THANG TIEN CHUNG KET'. The player on the left shows jersey number 21 from the back, and the player on the right wears number 16 with a blue captain armband. Bottom-right copy says 'TECHCOMBANK & HE SINH THAI DONG HANH CUNG VTV thuc hien su menh phung su Quoc gia mang FIFA WORLD CUP 2026 TM Den trieu trieu trai tim Viet Nam'. Bottom-left line reads 'VUOT TROI MOI NGAY'.",
+      "style": "Sports-campaign hero visual with realistic player cutouts, overhead field composition, and celebratory tournament energy"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TECHCOMBANK / VUOT QUA \"GA TRONG GO-LOA\" THANG TIEN CHUNG KET / TECHCOMBANK & HE SINH THAI DONG HANH CUNG VTV / FIFA WORLD CUP 2026 / Den trieu trieu trai tim Viet Nam / VUOT TROI MOI NGAY",
+      "items": [
+        "Top Left: Open grass field with oversized headline text",
+        "Top Right: Techcombank wordmark and white diamond logo",
+        "Bottom Left: 'VUOT TROI MOI NGAY' lockup on the grass",
+        "Bottom Right: World Cup partnership statement and VTV logo block",
+        "Center/Background: Two celebrating footballers standing inside a giant translucent Techcombank diamond shape on a marked grass pitch"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright stadium-sports lighting",
+      "effect": "Crisp grass texture, subtle confetti specks, sharp player cutout shadows, triumphant match-day atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal sports composite with campaign-poster typography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank World Cup 2026 semifinal celebration story. Centerpiece is a pair of footballers in white-and-maroon kits celebrating on a green pitch, positioned over a giant translucent Techcombank diamond shape. Background is an overhead football field with visible white pitch lines and scattered confetti flecks. Surrounding elements: Techcombank logo, exact headline 'VUOT QUA \"GA TRONG GO-LOA\" THANG TIEN CHUNG KET', bottom-left line 'VUOT TROI MOI NGAY', and the bottom-right partnership copy with VTV and 'FIFA WORLD CUP 2026'. Technical style: photoreal sports composite with campaign-poster typography, bright stadium-sports lighting, crisp grass texture and triumphant atmosphere, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Footballer pose and kit references",
+          "required": true,
+          "source": "sports photo references matching the two-player celebration poses",
+          "usage": "Preserve the exact body orientation, jersey numbering, and celebratory emotion"
+        },
+        {
+          "type": "graphic",
+          "name": "Translucent Techcombank diamond overlay",
+          "required": true,
+          "source": "brand shape asset",
+          "usage": "Maintain the oversized transparent diamond embedded into the field"
+        },
+        {
+          "type": "text_layout",
+          "name": "World Cup semifinal field poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the top headline, bottom-right partnership block, and centered player placement"
+        }
+      ],
+      "prompt_instructions": "Preserve the quoted phrase 'GA TRONG GO-LOA' exactly as visible. This should remain a field-top sports poster, not a realistic broadcast photo."
+    }
+  }
+}

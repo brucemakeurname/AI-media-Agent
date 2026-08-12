@@ -1,0 +1,71 @@
+{
+  "name": "sunset-beach-bikini-beauty",
+  "tag": [
+    "sunset-beach",
+    "swimwear-editorial",
+    "direct-flash",
+    "yellow-floral",
+    "resort-night"
+  ],
+  "image_type": "swimwear-editorial-portrait",
+  "image_vibe": "twilight-flash-cinematic",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/beach-summer",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed explicit body-part and clothing-fit emphasis, and clarified the subject as an adult while retaining the dusk beach flash swimwear editorial."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "twilight beach swimwear editorial with direct flash",
+      "color_palette": "yellow floral, wet-sand beige, deep ocean blue, sunset orange, and dusky purple",
+      "format": "vertical mid-thigh portrait"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "Adult woman with long dark-brown wavy hair, a tanned complexion, minimal natural makeup, and a calm direct expression. She wears a yellow floral two-piece swimsuit with ruffled edges and small hoop earrings.",
+      "style": "confident non-sexualized swimwear editorial"
+    },
+    "composition_elements": {
+      "text": "no text, logo, or watermark",
+      "items": [
+        "upright relaxed standing pose, arms naturally at sides",
+        "wet sand reflecting both ambient sunset and flash light",
+        "gentle ocean waves with distant beachgoers",
+        "resort hotel silhouette, palms, and a violet-orange twilight sky"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "ambient sunset backlight combined with direct on-camera flash",
+      "effect": "crisp flash-lit subject, soft dusky background, reflective wet-sand highlights, candid night-beach energy"
+    },
+    "technical_specs": {
+      "camera": "Canon EOS R5",
+      "lens": "RF 35mm f/1.8 at f/3.2",
+      "render_style": "moderate depth of field, natural skin texture, sharp direct-flash detail, realistic ocean and wet-sand reflection"
+    },
+    "generated_prompt_string": "Create a vertical mid-thigh swimwear editorial of an adult woman standing naturally on wet sand at a beach at dusk. She has long dark-brown wavy hair, a tanned complexion, minimal natural makeup, and wears a yellow floral two-piece swimsuit with subtle ruffled edges and small hoop earrings. Keep her upright and relaxed with arms naturally at her sides. Behind her, show gentle ocean waves with distant beachgoers, a tall resort silhouette, palm trees, and a twilight sky shifting from warm orange at the horizon to dusky purple. Use ambient sunset backlight combined with direct on-camera flash for a crisp subject and softly darkened background; preserve realistic skin texture and wet-sand reflections. Keep it fashion-editorial and non-sexualized. No text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, sexualized pose, cleavage emphasis, body-part emphasis, nudity, transparent clothing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity replacement is required.",
+          "usage": "Replace only the adult subject identity while retaining hair direction, calm stance, floral swimwear silhouette, flash treatment, and beach composition."
+        },
+        {
+          "type": "wardrobe",
+          "name": "yellow-floral-swimwear-reference",
+          "required": false,
+          "source": "Attach a garment reference if exact floral print or ruffle details are required.",
+          "usage": "Replace only the garment's print or trim while preserving modest swimwear coverage and the yellow-floral color direction."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. References are optional; preserve the standing pose, dusk beach, direct-flash look, yellow floral wardrobe direction, and non-sexualized editorial mood."
+    }
+  }
+}

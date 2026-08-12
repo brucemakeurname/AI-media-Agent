@@ -1,0 +1,22 @@
+{
+  "name": "retro-barbie-pink-portrait",
+  "tag": ["industry", "lookbook-line-sheet", "retro-vintage", "barbiecore", "pink"],
+  "image_type": "1960s retro glamour portrait",
+  "image_vibe": "polished, playful, cinematic, pastel",
+  "image_purpose": "vintage fashion lookbook and editorial cover portrait",
+  "group": "industry/lookbook-line-sheet/retro-vintage",
+  "prompt": {
+    "project_info": "Create a photorealistic cinematic 1960s Barbiecore fashion portrait using the approved adult reference while preserving facial structure, natural skin tone, and original silhouette.",
+    "main_subject": "Approved adult woman with natural facial structure and skin tone, soft confident smile, pink rollers in voluminous curls, pearl earrings, and a bubblegum-pink satin off-shoulder mini dress with puff sleeves. She sits in a powder-pink velvet chair holding a vintage white-and-gold telephone receiver near her face.",
+    "composition_elements": ["Vertical 2:3 tight bust-up portrait with a slightly low angle.", "Bright solid pink studio background and powder-pink velvet chair.", "One hand rests near the collarbone; the other holds the vintage telephone.", "Monochromatic bubblegum and powder pink palette with white and gold accents."],
+    "lighting_and_atmosphere": "High-key soft warm beauty lighting, gentle highlights on satin and natural skin, subtle dimensional shadows, glossy polished cinematic finish.",
+    "technical_specs": "85mm portrait lens, photorealistic pores and fabric texture, no plastic smoothing, vertical 2:3, no text or watermark.",
+    "generated_prompt_string": "World-class commercial editorial portrait in retro 1960s Barbiecore fashion, using the approved adult reference image and preserving facial structure, natural skin tone and original proportions. Adult woman with a soft confident natural smile, voluminous curls set with pink rollers, pearl earrings, wearing a bubblegum-pink satin off-shoulder mini dress with puff sleeves. Vertical 2:3 tight bust-up portrait in a studio with bright solid pink background; she sits on a powder-pink velvet chair, one hand near collarbone and the other holding a vintage white-and-gold telephone receiver near her face. High-key soft warm beauty lighting, gentle highlights, subtle shadows, luminous inviting tone, 85mm lens, ultra-realistic visible pores, glossy satin texture, polished 1960s vintage fashion magazine aesthetic, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "distorted anatomy", "extra fingers", "inconsistent identity", "plastic skin", "over-smooth", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "retro-barbie-pink-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach for approved-adult identity, face, hair, wardrobe, chair, and pose."}, {"type": "accessory", "name": "vintage white-and-gold telephone", "required": true, "source": "local reference image", "usage": "Preserve receiver, cord, color, and hand placement."}],
+      "prompt_instructions": "Attach the required approved-adult and prop references. Preserve face, facial structure, identity, pink rollers, dress, chair, telephone, palette, pose, and lighting. Replace only with another approved-adult identity; keep wardrobe and prop consistent, with no celebrity likeness, logos, or typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Reframed flirtatious wording as a soft confident fashion expression while preserving the 1960s glamour concept, silhouette, pose, and wardrobe."]}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "tropical-pool-swimsuit-girl",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "poolside", "swimwear"],
+  "image_type": "tropical pool swimwear portrait",
+  "image_vibe": "sunny, polished, athletic, tropical",
+  "image_purpose": "swimwear lookbook and resort campaign",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a photorealistic 3:4 tropical poolside fashion portrait of one approved adult woman with a platinum-blonde bob and soft bangs.",
+    "main_subject": "Approved adult woman with fair natural skin, shoulder-length platinum-blonde bob with soft bangs, calm engaging expression, and realistic athletic proportions. She wears a glossy competitive one-piece swimsuit with vivid bubblegum-pink center panel and yellow side panels, high-shine wet-lycra finish, and the supplied small pink chest logo.",
+    "composition_elements": ["Medium-full knees-up shot from a slightly elevated angle.", "Subject kneels on the tiled pool edge, leaning slightly forward with right hand flat on the deck and left arm relaxed.", "Sparkling blue pool and mosaic tiles in foreground.", "Upscale resort patio with white lounge chairs, hedges, palm trees, and Bali-style wooden pergola."],
+    "lighting_and_atmosphere": "Bright high-key natural sunlight, realistic wet highlights, defined soft shadows, vivid tropical palette, polished resort atmosphere.",
+    "technical_specs": "3:4 photorealistic high-resolution photography, sharp subject, shallow depth of field, realistic wet skin, fabric, water, and tile texture, no added text or watermark.",
+    "generated_prompt_string": "Photorealistic highly detailed 3:4 poolside fashion portrait of an approved adult woman with shoulder-length platinum-blonde bob hair and soft bangs, fair natural skin and a calm engaging expression looking directly at camera. She kneels on the tiled edge of a swimming pool, leaning slightly forward with her right hand resting flat on the pool deck for support and her left arm relaxed by her side. She wears a glossy competitive one-piece swimsuit with vivid bubblegum-pink center panel and yellow side panels, high-shine wet-lycra finish, and the supplied small pink chest logo. Upscale tropical resort pool on a sunny day, sparkling blue water, mosaic tiles, white lounge chairs, green hedges, palm trees, Bali-style villa pergola, bright high-key natural sunlight, realistic wet texture, medium-full knees-up shot, no added text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "body-part emphasis", "distorted anatomy", "extra fingers", "inconsistent identity", "plastic skin", "over-smooth", "over-saturated", "HDR look", "watermark", "unwanted text", "logo distortion", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "tropical-pool-swimsuit-girl.jpg", "required": true, "source": "local reference image", "usage": "Attach for approved-adult identity, hair, expression, pose, and swimwear reference."}, {"type": "product", "name": "pink-and-yellow competitive swimsuit with supplied chest logo", "required": true, "source": "local reference image", "usage": "Preserve panel colors, wet-lycra material, fit, and supplied logo."}, {"type": "location", "name": "upscale tropical resort pool", "required": true, "source": "local reference image", "usage": "Preserve pool, tiles, patio, lounge chairs, hedges, palms, and pergola."}],
+      "prompt_instructions": "Attach the required references. Preserve the adult subject, face, hair, one-piece swimsuit, color panels, supplied chest logo, pool pose, resort, lighting, and 3:4 framing. Keep the product-fashion framing non-sexualized; replace only with equivalent adult, product, or resort references. Do not add unrelated logos or typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the source's young-woman wording as an approved adult and removed hourglass/body-emphasis language while preserving the competitive swimsuit, pose, product colors, and poolside concept."]}
+}

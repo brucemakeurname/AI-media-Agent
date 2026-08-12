@@ -1,0 +1,70 @@
+{
+  "name": "shopee-lashe-superfood-jelly-facial-wash-beach",
+  "tag": [
+    "summer-promo",
+    "skincare",
+    "beach-theme",
+    "product-hero"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "shopee_1393304412671016",
+  "prompt": {
+    "project_info": {
+      "theme": "Lashe Superfood anti-acne cleanser tropical product hero",
+      "color_palette": "Sky blue, sand beige, royal blue, yellow, white, green"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A single white tube of 'LASHE superfood JELLY FACIAL WASH Oil Removal & Anti-Acne' stands inside a yellow-and-white inflatable ring on a sunny beach. The headline reads 'SUA RUA MAT DANG THACH SACH SAU, GIAM MUN'. A blue three-part claim strip says 'CHIET XUAT XUONG RONG & RAU MA', 'CONG NGHE BAO BOC DHA', and 'AN TOAN CHO DA NHAY CAM'. The tube label also includes 'Encapsulated BHA & Niacinamide' and 'Cactus & Centella'.",
+      "style": "Bright tropical skincare poster with clean product render, cheerful beach props, and claim-driven ecommerce composition"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "LASHE superfood / SUA RUA MAT DANG THACH SACH SAU, GIAM MUN / CHIET XUAT XUONG RONG & RAU MA / CONG NGHE BAO BOC DHA / AN TOAN CHO DA NHAY CAM / JELLY FACIAL WASH / Oil Removal & Anti-Acne / Encapsulated BHA & Niacinamide / Cactus & Centella",
+      "items": [
+        "Top Left: White Shopee logo and Lashe Superfood brand logo",
+        "Top Right: Palm leaves over blue sky",
+        "Bottom Left: Small duck float toy on the sand",
+        "Bottom Right: Beach balls near the shoreline",
+        "Center/Background: Sandy beach and turquoise sea with the cleanser tube standing inside a yellow-white inflatable ring and a blue claim strip above"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright tropical daylight",
+      "effect": "Sunlit sand, clean packaging shadows, high-key clarity, cheerful summer ambience"
+    },
+    "technical_specs": {
+      "render_style": "Commercial skincare poster with photo-composite beach staging",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for Lashe Superfood on Shopee. Centerpiece is a realistic white cleanser tube labeled 'JELLY FACIAL WASH Oil Removal & Anti-Acne' standing inside a yellow-and-white inflatable ring on a bright beach. Background is blue sky, turquoise sea, sand, palm leaves, and beach toys. Surrounding elements: Shopee and Lashe Superfood logos, headline 'SUA RUA MAT DANG THACH SACH SAU, GIAM MUN', and a blue three-part claim strip reading 'CHIET XUAT XUONG RONG & RAU MA', 'CONG NGHE BAO BOC DHA', and 'AN TOAN CHO DA NHAY CAM'. Preserve the visible label details such as 'Encapsulated BHA & Niacinamide' and 'Cactus & Centella'. Technical style: commercial skincare poster with photo-composite beach staging, bright tropical daylight, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Lashe Superfood cleanser packshot",
+          "required": true,
+          "source": "official product packshot or render",
+          "usage": "Attach for exact tube shape, cap, label typography, and botanical artwork"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee and Lashe Superfood brand assets",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for the top-left brand header"
+        },
+        {
+          "type": "text_layout",
+          "name": "Beach cleanser-claim poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the exact headline, three-part blue strip, and product-in-float arrangement"
+        }
+      ],
+      "prompt_instructions": "Rebuild this as a bright summer skincare ad with the tube large and readable. Preserve the exact Vietnamese claim wording and the tropical merchandising layout."
+    }
+  }
+}

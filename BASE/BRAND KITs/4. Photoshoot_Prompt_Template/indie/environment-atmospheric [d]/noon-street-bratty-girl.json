@@ -1,0 +1,59 @@
+{
+  "name": "Noon City Sidewalk Candid",
+  "tag": "noon-city-sidewalk-candid",
+  "image_type": "daylight_street_portrait",
+  "image_vibe": "raw_sunlit_confident",
+  "image_purpose": "streetwear_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Noon City Sidewalk Candid",
+      "format": "single still photograph",
+      "aspect_ratio": "4:3 landscape"
+    },
+    "main_subject": {
+      "description": "An adult woman with long pink hair, dark cat-eye sunglasses, and a self-assured small smile.",
+      "wardrobe": "A white short-sleeve crew-neck knit top with a full-length soft gray denim skirt and plain low-top sneakers.",
+      "pose_and_expression": "Walking forward on a city sidewalk and turning her head back toward camera in a relaxed, confident moment."
+    },
+    "composition_elements": {
+      "setting": "Busy generic city sidewalk at noon, with anonymous passersby and vehicles blurred behind her.",
+      "framing": "Natural 24mm candid street perspective with subject at medium-full distance.",
+      "text_and_brand_control": "No sexualized wording, logos, store names, license plates, or readable signs."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Hard noon sunlight, sun glare, and light natural motion blur.",
+      "mood": "Lively, sunlit, and candid."
+    },
+    "technical_specs": {
+      "camera_style": "raw smartphone street photograph",
+      "lens": "24mm wide equivalent",
+      "rendering": "Natural skin, realistic hair, accurate hands, subtle phone-camera texture, no artificial enhancement."
+    },
+    "generated_prompt_string": "Create a 4:3 raw smartphone street photograph of an adult woman with long pink hair, dark cat-eye sunglasses, and a self-assured small smile. She wears a white short-sleeve crew-neck knit top, a full-length soft gray denim skirt, and plain low-top sneakers. Capture her walking on a generic busy city sidewalk at noon and turning her head back toward camera. Use a natural 24mm candid perspective, hard sun, slight glare, light natural motion blur, anonymous blurred passersby and vehicles, natural skin, realistic hair, and accurate hands. No sexualized wording, logos, license plates, store names, readable signs, text, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, braless, low-rise shorts, lingerie, fetish styling, logo, readable text, watermark, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Identity references are optional and must depict a consenting adult. Wardrobe and streetscape references are replaceable and must remove logos and readable copy.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult face and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "noon_city_sidewalk_reference",
+          "required": false,
+          "source": "user-provided location reference",
+          "usage": "Guide light and urban activity after blanking all text and brands."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adult subject and replaced suggestive/revealing styling with covered streetwear."
+  }
+}

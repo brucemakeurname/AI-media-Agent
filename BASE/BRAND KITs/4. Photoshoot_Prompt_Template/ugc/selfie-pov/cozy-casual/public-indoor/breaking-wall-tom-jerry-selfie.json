@@ -1,0 +1,22 @@
+{
+  "name": "breaking-wall-tom-jerry-selfie",
+  "tag": ["ugc", "selfie-pov", "cozy-casual", "public-indoor"],
+  "image_type": "cafe selfie with cartoon crossover",
+  "image_vibe": "warm playful photorealistic-animation blend",
+  "image_purpose": "cafe selfie and clearly animated character compositing reference",
+  "group": "cozy-casual/public-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic cafe selfie of an approved adult main subject with clearly animated cartoon characters integrated as 2D/3D figures.",
+    "main_subject": "Approved adult person seated at a small wooden cafe table, holding a smartphone slightly above eye level, wearing a casual sweater and optional scarf, with a warm natural smile.",
+    "composition_elements": "Cozy cafe interior, coffee cups, pastries, wooden decor, softly blurred patrons, animated gray cat and orange mouse characters seated near the cups. Characters must remain clearly cartoon-styled and non-realistic; do not add additional named characters.",
+    "lighting_and_atmosphere": "Warm ambient cafe lighting, soft matching shadows, shallow depth of field, cozy coffee-time mood.",
+    "technical_specs": "Photorealistic selfie composition with 2D/3D animated overlay, portrait 4:5, high detail, sharp subject face, believable light interaction.",
+    "generated_prompt_string": "Approved adult person takes a warm cafe selfie at a wooden table with coffee and pastries, while a clearly animated gray cat and orange mouse sit nearby as cartoon crossover figures. Keep the human photorealistic and the characters fully animated, with matching warm shadows and a cozy cafe background. No extra named characters, watermark, or invented logo.",
+    "negative_prompt": "explicit, nsfw, overly revealing, underage, childlike, sexualized pose, nudity, realistic animal-person hybrid, horror, distorted hands, extra fingers, cartoon human subject, blurry face, watermark, logo invention, public figure likeness.",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "breaking-wall-tom-jerry-selfie_0.jpg", "required": true, "source": "local preview", "usage": "Human selfie, cafe, table, drinks, pastries, lighting, and cartoon placement reference."}],
+      "prompt_instructions": "Attach the required local image. Preserve the approved adult identity, cafe composition, props, lighting, and cartoon placement; replaceability applies to the human identity with an approved reference. Keep cartoon characters clearly animated and typography absent."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed the follow-on request for additional named characters and constrained the crossover to supplied clearly animated figures."]}
+}

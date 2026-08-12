@@ -1,0 +1,58 @@
+{
+  "name": "bikini-vending-machine-glance",
+  "tag": [
+    "ugc",
+    "baddie",
+    "public-indoor",
+    "coastal-balcony",
+    "vending-machine",
+    "over-shoulder-crouch"
+  ],
+  "image_type": "ugc-vacation-lifestyle-portrait",
+  "image_vibe": "sunny-candid-confident",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/public-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic candid vacation snapshot at a bright coastal high-rise vending area, preserving the yellow checkerboard swimwear and ocean-city context.",
+    "main_subject": "One original approved adult woman with tanned Mediterranean-toned skin, realistic pores, subtle freckles, natural sun-lotion sheen and long wavy dark hair in a loose ponytail. She wears a yellow-and-white checkerboard halter bikini with thin ties and small gold hoops. Preserve a natural feminine silhouette and authentic skin texture without explicit body emphasis.",
+    "composition_elements": "Medium full-body vertical frame from a low-to-medium angle. The adult subject crouches beside an illuminated vending machine with her back angled toward camera, torso turned left for a confident over-shoulder glance, right hand using the keypad and left hand relaxed near the knee. Include glass railing, ocean horizon, coastal cityscape and vending-machine drinks with realistic reflections.",
+    "lighting_and_atmosphere": "Bright direct midday sun with flash-like highlights, crisp natural shadows and warm vacation color. Preserve the candid smartphone feel and realistic reflections on the machine and glass.",
+    "technical_specs": "Vertical 4:5 or 2:3 framing, 35–50mm smartphone perspective, sharp subject and vending-machine detail, slight background depth, realistic skin and fabric texture, natural color and no artificial smoothing.",
+    "generated_prompt_string": "Create a photorealistic candid vacation snapshot of one original approved adult woman with tanned Mediterranean-toned skin, realistic pores, subtle freckles, natural sun-lotion sheen and long wavy dark hair in a loose ponytail. She wears a yellow-and-white checkerboard halter bikini with thin ties and small gold hoops. Use a medium full-body vertical frame from a low-to-medium angle; she crouches beside an illuminated vending machine, her back angled toward camera, torso turned left for a confident over-shoulder glance, right hand using the keypad and left hand relaxed near the knee. Include the machine with softly indistinct drink packaging, glass railing, ocean horizon and coastal cityscape in the background. Use bright direct midday sun with flash-like highlights, crisp natural shadows, realistic reflections, authentic skin and fabric texture and candid smartphone color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, body-part emphasis, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, unsafe crouch, invented logos, readable brand text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "bikini-vending-machine-glance.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair, skin texture, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "yellow-white checkerboard halter bikini and gold hoops",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve checkerboard colors, tie placement, fabric fit and earrings; replace only with an explicitly supplied wardrobe reference."
+        },
+        {
+          "type": "location",
+          "name": "illuminated vending machine, glass railing, ocean and cityscape",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve machine position, keypad interaction, balcony, horizon and reflections; individual environment elements may be replaced while retaining the coastal daylight composition."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, facial structure, hair, outfit, pose, machine interaction, ocean environment and light direction consistent. The approved adult, wardrobe, vending machine and background may be replaced separately through explicit references. Keep product packaging generic and text indistinct; no logo or readable typography is required."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adult.",
+      "Removed explicit body and sexualized wording while preserving the bikini, crouch, over-shoulder pose and vacation intent.",
+      "Added safety, anti-artifact and anti-invented-brand negative prompts."
+    ]
+  }
+}

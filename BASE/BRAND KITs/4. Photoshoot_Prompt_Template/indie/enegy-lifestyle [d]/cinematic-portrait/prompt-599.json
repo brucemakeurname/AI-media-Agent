@@ -1,0 +1,64 @@
+{
+  "name": "prompt-599",
+  "tag": [
+    "adult-woman",
+    "heart-hands",
+    "extreme-closeup",
+    "natural-beauty",
+    "soft-diffused-light"
+  ],
+  "image_type": "extreme-closeup-beauty-portrait",
+  "image_vibe": "soft-playful-expressive",
+  "image_purpose": "social-portrait",
+  "group": "indie/enegy-lifestyle/cinematic-portrait",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed the ambiguous young subject to an adult woman.",
+      "Retained the heart-hand close-up and playful expression while removing intimate and flirtatious wording."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "playful adult extreme close-up framed by heart-shaped hands",
+      "color_palette": "soft natural skin tones, black hair, warm pink, and pale neutral background",
+      "format": "vertical 9:16"
+    },
+    "main_subject": {
+      "type": "adult East Asian woman",
+      "detail": "Adult East Asian woman with straight black hair, loose natural strands across her face, dark brown almond-shaped eyes, a small mole beneath her left eye, soft eyeliner, defined lashes, and a natural pink lip tint.",
+      "style": "expressive natural beauty portrait with realistic skin texture"
+    },
+    "composition_elements": {
+      "text": "No rendered text, logo, or watermark.",
+      "items": [
+        "both hands form a heart shape directly in front of the lens",
+        "one eye gives a playful wink while the other remains softly open",
+        "a subtle playful pursed-lip expression within the hand-heart frame",
+        "extreme close crop showing eyes, nose, lips, and hands against an unobtrusive pale background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft diffused 5200K beauty light",
+      "effect": "even illumination, minimal shadows, natural highlights, and a light expressive mood"
+    },
+    "technical_specs": {
+      "render_style": "Canon EOS R5 with RF 100mm f/2.8L Macro at f/3.2, sharp eye focus, shallow depth of field, subtle film-like softness, no digital gloss",
+      "resolution": "high resolution, vertical 9:16"
+    },
+    "generated_prompt_string": "Create a vertical 9:16 extreme close-up beauty portrait of an adult East Asian woman with straight black hair and loose natural strands across her face. She has dark brown almond-shaped eyes, a small mole beneath her left eye, soft eyeliner, defined lashes, and natural pink lip tint. Frame her face through both hands forming a heart shape directly in front of the lens. She gives one playful wink, keeps the other eye softly open, and has a subtle playful pursed-lip expression. Use soft 5200K diffused beauty light, realistic natural skin texture, sharp eye focus, shallow depth of field, and a pale unobtrusive background. No text, logo, watermark, or sexualized framing.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, sexualized expression, intimate framing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted hands, extra fingers, deformed, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity continuity is required.",
+          "usage": "Replace only the adult subject identity while retaining the heart-hand framing, wink, hair direction, extreme-close composition, and soft light."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. Preserve the heart-hand frame, extreme close crop, playful wink, natural skin texture, and soft diffused lighting."
+    }
+  }
+}

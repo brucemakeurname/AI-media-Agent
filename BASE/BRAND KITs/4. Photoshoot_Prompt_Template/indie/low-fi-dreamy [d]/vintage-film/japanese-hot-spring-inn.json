@@ -1,0 +1,33 @@
+{
+  "name": "japanese-hot-spring-inn",
+  "tag": ["indie", "low-fi-dreamy", "vintage-film", "onsen-ryokan", "japanese"],
+  "image_type": "editorial portrait",
+  "image_vibe": "Warm vintage Japanese onsen ryokan, atmospheric 35mm film, quiet and refined",
+  "image_purpose": "Create an atmospheric editorial portrait in a traditional Japanese hot-spring inn setting.",
+  "group": "vintage-film",
+  "prompt": {
+    "project_info": "A warm 35mm film portrait set inside a traditional wooden Japanese onsen ryokan.",
+    "main_subject": "An original adult woman with refined natural features, porcelain skin with visible texture, soft natural makeup, and long dark-brown hair in a loose low bun with wispy strands. She wears a loose white yukata fully wrapped and securely tied with opaque coverage, seated calmly on the edge of a wooden engawa veranda.",
+    "composition_elements": "Intimate medium shot, body slightly turned toward the camera, one leg bent and the other relaxed, one hand holding the yukata fabric and the other supported on the wooden floor. Include warm wooden interiors, paper sliding doors, and a distant steaming hot spring in soft focus.",
+    "lighting_and_atmosphere": "Soft ambient wooden-lantern light mixed with gentle natural window light, subtle rim light on fabric and hair, warm peaceful atmosphere, and restrained editorial intimacy.",
+    "technical_specs": "35mm film photography, subtle grain, gentle color shift, authentic warm film grading, realistic fabric wrinkles and hair strands, detailed but natural skin, no plastic rendering or digital oversharpening.",
+    "generated_prompt_string": "Create an atmospheric intimate-medium 35mm film portrait of an original adult woman seated calmly on a wooden engawa veranda inside a traditional Japanese onsen ryokan. Give her natural refined features, visible skin texture, soft makeup, and long dark-brown hair in a loose low bun with wispy strands. Dress her in a loose white yukata fully wrapped and securely tied with opaque coverage. Include paper sliding doors, warm wood, and a distant steaming hot spring in soft focus. Use warm lantern light blended with gentle window light, subtle rim lighting, warm vintage color grading, authentic grain, realistic fabric texture, and a peaceful refined editorial mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor or teen-coded subject, slipped clothing, exposed cleavage, nudity, seductive pose, fetish styling, plastic skin, digital oversharpening, airbrushing, distorted anatomy, watermark, text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image_reference",
+          "name": "source Japanese ryokan reference",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1776646868548-zx0wg4lb-1776646869100-1.jpg",
+          "usage": "Use only for ryokan setting, wardrobe silhouette, composition, and warm film atmosphere; do not copy identity."
+        }
+      ],
+      "prompt_instructions": "Preserve the traditional ryokan, yukata, veranda, hot-spring, and 35mm film concepts. Remediate sexualized wording into a calm editorial portrait with an original adult and secure opaque coverage."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Removed idol/identity and seductive framing.", "Specified an original adult subject and fully wrapped secure opaque yukata coverage."]
+  }
+}

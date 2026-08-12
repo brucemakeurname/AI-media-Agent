@@ -1,0 +1,69 @@
+{
+  "name": "cinematic-motion-blur-fashion",
+  "tag": [
+    "city-night",
+    "motion-blur",
+    "trench-coat",
+    "street-fashion",
+    "long-exposure"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "urban-kinetic-cinematic",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/cinematic-portrait",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "kinetic city-crossing fashion portrait at blue hour",
+      "color_palette": "cool navy, charcoal, neon magenta, taxi orange, and soft white sky",
+      "format": "vertical full-body street portrait"
+    },
+    "main_subject": {
+      "type": "adult fashion subject",
+      "detail": "Adult subject in a long stone-colored trench coat crosses a busy downtown intersection, their coat hem moving in the wind and face kept softly shadowed.",
+      "style": "modern urban fashion editorial"
+    },
+    "composition_elements": {
+      "text": "no readable text, logo, or watermark",
+      "items": [
+        "tall glass-and-concrete city buildings",
+        "crosswalk and dense traffic flowing behind the subject",
+        "long-exposure taxi and headlight streaks in orange, cyan, and white",
+        "bright abstract billboards rendered without legible copy"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "blue-hour ambient city light with neon and vehicle spill",
+      "effect": "high-contrast silhouette, controlled motion streaks, reflective urban energy"
+    },
+    "technical_specs": {
+      "camera": "Nikon Zf",
+      "lens": "NIKKOR Z 35mm f/1.8 at f/8",
+      "render_style": "slow-shutter street photography, intentional subject blur, fine grain, natural neon bloom"
+    },
+    "generated_prompt_string": "Create a vertical full-body urban fashion editorial at blue hour. An adult subject in a long stone-colored trench coat crosses a busy downtown intersection, with their coat hem moving in the wind and face kept softly shadowed. Surround them with tall glass-and-concrete buildings, a crosswalk, dense traffic, bright abstract billboards with no readable text, and controlled long-exposure streaks from taxis and headlights in orange, cyan, and white. Use cool ambient city light mixed with neon and vehicle spill, high-contrast silhouette, intentional slow-shutter motion blur, fine grain, and natural neon bloom. No readable text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, sexualized pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, accidental blur, duplicate person, extra limbs, deformed, readable text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-fashion-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if a specific subject identity is required.",
+          "usage": "Replace only the adult subject identity while retaining the trench coat, crossing pose, downtown composition, and blue-hour motion treatment."
+        },
+        {
+          "type": "location",
+          "name": "city-intersection-reference",
+          "required": false,
+          "source": "Attach a location reference if a specific intersection or skyline is required.",
+          "usage": "Replace only architecture and traffic details while preserving crosswalk framing, billboards without readable copy, and long-exposure motion streaks."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. References are optional; preserve the city crossing, trench coat, long-exposure motion, blue-hour palette, and urban fashion editorial mood."
+    }
+  }
+}

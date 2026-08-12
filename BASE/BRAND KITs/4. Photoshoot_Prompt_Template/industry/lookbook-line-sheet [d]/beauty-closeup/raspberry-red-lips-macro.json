@@ -1,0 +1,34 @@
+{
+  "name": "Raspberry Red Lips Macro Grid",
+  "tag": "industry/lookbook-line-sheet/beauty-closeup",
+  "image_type": "2x2 macro beauty editorial grid",
+  "image_vibe": "warm berry luxury, crisp editorial texture",
+  "image_purpose": "beauty campaign concept and product texture board",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": "Create a consistent 2x2 macro beauty grid with berry-red makeup, natural skin texture, and fresh raspberries as a still-life prop.",
+    "main_subject": "The same clearly adult fictional woman across all four panels, with natural pores and faint freckles, sleek dark hair, hazel-brown eyes, dusty rose blush, sharp eyeliner, separated lashes, and deep berry-red glossy lipstick; lips remain relaxed and closed.",
+    "composition_elements": "4:5 2x2 grid: eye-cheek-lips crops with raspberries held beside the cheek or lower face, never in the mouth and never touching the lips; minimal warm-neutral studio background, thin gutter, consistent identity, makeup, and styling.",
+    "lighting_and_atmosphere": "Soft directional studio light from the side, medium-soft contrast, warm-neutral temperature, controlled gloss highlights, soft shadow falloff, subtle film grain.",
+    "technical_specs": "100mm macro lens, f/2.8, shallow but legible depth of field, editorial-crisp detail, light retouching with high texture preservation, no HDR or plastic skin.",
+    "generated_prompt_string": "High-fashion 2x2 macro beauty editorial grid featuring the same clearly adult fictional woman in every panel, natural pores and faint freckles, sleek dark hair, hazel-brown eyes, dusty rose blush, sharp winged eyeliner, deep berry-red glossy lipstick with relaxed closed lips, fresh raspberries held beside the cheek or lower face without mouth contact, warm-neutral minimal studio, soft side light, 100mm macro at f/2.8, subtle film grain, 4:5, no text or logos.",
+    "negative_prompt": "explicit, nsfw, overly revealing, open-mouth pose, raspberry in mouth, food on lips, lip biting, tongue, sexualized framing, child, teen, ageless person, celebrity likeness, public figure likeness, plastic skin, watermark, logo, text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "raspberry macro grid reference",
+          "required": true,
+          "source": "Attach the supplied source image as the visual reference.",
+          "usage": "Match the 2x2 layout, berry-red makeup, natural skin texture, warm background, and berry prop scale; keep identity, crop variations, berry placement, and wardrobe replaceable."
+        }
+      ],
+      "instructions": "Attach the source image before generation. Preserve the grid structure and beauty-campaign intent, but place raspberries beside the face with closed lips for a nonsexual still-life interaction. Keep the fictional adult identity consistent across panels."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": "Replaced sensual mouth contact with berries held beside the face and specified relaxed closed lips; clarified the subject as a fictional adult.",
+    "notes": "Food styling remains nonsexual and product-editorial."
+  }
+}

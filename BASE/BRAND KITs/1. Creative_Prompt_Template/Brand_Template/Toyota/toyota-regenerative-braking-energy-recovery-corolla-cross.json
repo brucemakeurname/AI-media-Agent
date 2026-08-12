@@ -1,0 +1,78 @@
+{
+  "name": "toyota-regenerative-braking-energy-recovery-corolla-cross",
+  "tag": [
+    "toyota",
+    "corolla-cross",
+    "regenerative-braking",
+    "hybrid",
+    "product-demo"
+  ],
+  "biz_niche": "Automotive",
+  "content_format": "Product demos",
+  "group": "toyota_3095741187287703",
+  "prompt": {
+    "project_info": {
+      "theme": "Hybrid regenerative braking and energy optimization",
+      "color_palette": "Sky Blue, Cyan Glow, Red, White, Asphalt Gray, Yellow"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A red Toyota Corolla Cross drives over yellow-and-black speed bumps on a city road, with glowing cyan highlights around the wheels to symbolize regenerative braking energy capture.",
+      "style": "Photoreal hybrid-technology poster with clean urban motion, luminous energy accents, and polished feature marketing composition."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "TOYOTA\nPHANH TAI SINH\nTAI TAO NANG LUONG, TOI UU VAN HANH\nMove your world",
+      "items": [
+        "Top Left: White Toyota logo on flat blue sky.",
+        "Top Center: Cyan gradient headline bar 'PHANH TAI SINH' with large white subheadline 'TAI TAO NANG LUONG, TOI UU VAN HANH'.",
+        "Bottom Left: Speed-bump lane markings in black and yellow under the front half of the car.",
+        "Bottom Right: Handwritten white 'Move your world'.",
+        "Center/Background: Red Corolla Cross in front three-quarter view, soft city skyline, roadside greenery blur, and glowing wheel accents."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright clean daylight with hybrid-tech glow",
+      "effect": "Commercial daylight, subtle motion blur, cyan energy aura at the wheels, glossy red paint reflections, clean urban atmosphere."
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic hybrid-feature automotive poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Toyota regenerative braking. Centerpiece is a red Toyota Corolla Cross crossing yellow-and-black speed bumps on a city road, with cyan glowing wheel accents suggesting energy recovery. Background is a bright urban skyline with slight roadside motion blur. Surrounding elements: headline 'PHANH TAI SINH', subheadline 'TAI TAO NANG LUONG, TOI UU VAN HANH', Toyota logo at top left, and handwritten 'Move your world' at bottom right. Technical style: photorealistic hybrid-feature automotive poster, bright clean daylight with hybrid-tech glow, subtle motion blur, glossy reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Toyota corporate logo white version",
+          "required": true,
+          "source": "brand asset / Toyota official logo",
+          "usage": "Place top left on bright blue background."
+        },
+        {
+          "type": "product",
+          "name": "Toyota Corolla Cross red exterior reference",
+          "required": true,
+          "source": "product reference image",
+          "usage": "Match the front three-quarter view and body details."
+        },
+        {
+          "type": "graphic",
+          "name": "Wheel energy-glow effect",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep the cyan glow ring subtle and tied to hybrid energy recovery."
+        },
+        {
+          "type": "text_layout",
+          "name": "Hybrid regenerative braking feature layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve exact Vietnamese wording and top-bar style."
+        }
+      ],
+      "prompt_instructions": "The speed bumps are important because they justify the braking-energy story. Keep the scene clean and controlled, with the vehicle stable and the wheel glow used as a restrained explanatory effect rather than a sci-fi exaggeration."
+    }
+  }
+}

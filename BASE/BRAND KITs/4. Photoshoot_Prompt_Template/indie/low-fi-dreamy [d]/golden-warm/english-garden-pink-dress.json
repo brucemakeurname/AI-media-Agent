@@ -1,0 +1,59 @@
+{
+  "name": "English Garden Pink Midi Dress Portrait",
+  "tag": "english-garden-pink-midi-dress",
+  "image_type": "country_garden_fashion_portrait",
+  "image_vibe": "romantic_serene_summer",
+  "image_purpose": "fashion_editorial",
+  "group": "indie/low-fi-dreamy/golden-warm",
+  "prompt": {
+    "project_info": {
+      "title": "English Garden Pink Midi Dress Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with medium-brown hair moving in a gentle summer breeze, luminous natural skin, and a relaxed dreamy smile.",
+      "wardrobe": "A pastel-pink floral cotton midi dress with short sleeves, high neckline, fitted waist, and full mid-calf skirt; simple pearl necklace.",
+      "pose_and_expression": "Standing gracefully among hydrangeas, one hand lightly adjusting hair."
+    },
+    "composition_elements": {
+      "setting": "Classic country garden with pink hydrangeas, trimmed boxwood hedges, and an anonymous softly blurred brick cottage.",
+      "framing": "Full-length vertical portrait with creamy background bokeh.",
+      "text_and_brand_control": "No property name, logo, readable text, watermark, or body emphasis."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Warm golden-hour sunlight filtered through garden foliage.",
+      "mood": "Dreamy, romantic, elegant, and serene."
+    },
+    "technical_specs": {
+      "camera_style": "85mm editorial lifestyle film",
+      "lens": "85mm equivalent, f/2",
+      "rendering": "Natural skin, refined fabric folds, lifelike flowers, gentle grain, and realistic hands."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical 85mm country-garden fashion portrait of an adult woman with medium-brown hair moving gently in a summer breeze, luminous natural skin, and a relaxed dreamy smile. She wears a pastel-pink floral cotton midi dress with short sleeves, high neckline, fitted waist, full mid-calf skirt, and a simple pearl necklace. Pose her standing among pink hydrangeas, one hand lightly adjusting hair. Include trimmed boxwood hedges and an anonymous softly blurred brick cottage. Use warm golden-hour foliage-filtered sun, creamy bokeh, natural skin, refined fabric folds, lifelike flowers, gentle grain, realistic hands, and no body emphasis. No property name, logo, readable text, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, sleeveless dress, deep neckline, logo, readable text, watermark, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity references must depict a consenting adult. Garden and wardrobe references are replaceable and must be unbranded/text-free.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult face and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "country_garden_reference",
+          "required": false,
+          "source": "user-provided garden reference",
+          "usage": "Guide flowers, hedges, and cottage tone without identifiers."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adult, covered styling and removed any potential body emphasis while preserving garden editorial mood."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "name": "extreme-close-up-red-cap-fashion",
+  "tag": [
+    "red-baseball-cap",
+    "matching-hoodie",
+    "eye-macro",
+    "embroidered-mark",
+    "fashion-campaign"
+  ],
+  "image_type": "fashion-beauty-crop",
+  "image_vibe": "bold-confident",
+  "image_purpose": "lookbook-line-sheet",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": {
+      "theme": "Extreme red cap and hoodie fashion beauty crop",
+      "creative_direction": "Tight portrait emphasizing cap embroidery, eyes, fabric stitching, and confident campaign energy",
+      "color_palette": "deep red, warm ivory, natural skin, soft brown studio, and subtle shadow charcoal"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult female fashion model with eyes and natural facial texture visible beneath the cap brim",
+      "wardrobe": "reference red baseball cap and matching red hoodie with an abstract fictional embroidered mark",
+      "pose": "both hands softly gripping the hoodie collar to create subtle fabric folds"
+    },
+    "composition_elements": {
+      "framing": "tight crop from nose to forehead, with cap and eyes filling the frame",
+      "focus": "fictional embroidered mark centered above the eyes, visible stitching and thread depth, clear eyelashes and pores",
+      "background": "minimal warm ivory-to-beige studio gradient"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft frontal studio light at approximately 4800K with faint cheekbone shadow",
+      "effect": "fabric texture and embroidery clarity, subtle facial sculpting, bold fashion-house campaign mood"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 100mm macro portrait lens, photoreal fashion beauty crop",
+      "resolution": "4k vertical close-up",
+      "finish": "ultra-sharp thread detail, natural skin, shallow depth of field, cinematic realism, and no branding overlay"
+    },
+    "generated_prompt_string": "Create an ultra-realistic fashion beauty crop of a clearly adult woman wearing a reference red baseball cap and matching red hoodie. Frame tightly from the nose to the forehead so the cap and eyes fill the image. Center an abstract fictional embroidered mark above the model's eyes, showing precise stitching and thread depth but no real logo or recognizable brand. Have the adult model grip the hoodie collar softly with both hands, creating subtle fabric folds. Use soft approximately 4800K frontal studio light with faint cheekbone shadows, a warm ivory-to-beige minimalist backdrop, a 100mm macro portrait lens, natural pores, sharp textile detail, cinematic realism, and no text, branding overlay, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, real logo, trademark, celebrity likeness, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed hands, distorted cap, illegible embroidery",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-red-cap-model",
+          "required": true,
+          "source": "Original red cap beauty preview image",
+          "usage": "Attach an approved adult face reference and preserve eyes, facial structure, and likeness without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "red-cap-matching-hoodie",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve cap shape, red hoodie, collar grip, fabric weight, and fictional embroidered mark; replace the real logo with an abstract cleared mark."
+        },
+        {
+          "type": "background",
+          "name": "warm-ivory-studio-gradient",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve warm minimal background and soft shadow behavior; background may be replaced with an equivalent studio gradient."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult model, exact red outfit, and studio references. Keep crop, eyes, cap, hoodie, collar grip, fictional embroidery, and lighting consistent. Replace the real logo and person identity with fictional cleared equivalents."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the visible real cap logo with an abstract fictional embroidered mark and clarified the subject as clearly adult while preserving the extreme close-up fashion concept."
+    ]
+  }
+}

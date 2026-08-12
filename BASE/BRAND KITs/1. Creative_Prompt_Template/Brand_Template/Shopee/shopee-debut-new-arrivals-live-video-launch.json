@@ -1,0 +1,70 @@
+{
+  "name": "shopee-debut-new-arrivals-live-video-launch",
+  "tag": [
+    "new-arrivals",
+    "product-collage",
+    "launch-promo",
+    "shopee-live"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Introduce team",
+  "group": "shopee_2816519248732158",
+  "prompt": {
+    "project_info": {
+      "theme": "Shopee debut new arrivals launch event",
+      "color_palette": "Shopee red, golden yellow, royal blue, white, orange"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "Huge center headline says 'SHOPEE DEBUT' and 'HANG MOI VE SAN'. A wide blue-and-gold rounded banner below includes 'Shopee LIVE x ShopeeVideo', 'VOUCHER GIAM 25%', 'SAN PHAM MOI LAN DAU RA MAT', and 'FREE SHIP 0D DON LIVE & VIDEO'. Around the frame are floating product cutouts: a black electric shaver, Cocoon and AHC skincare items, Enchanteur bottle, and a Maxkleen detergent pouch.",
+      "style": "Loud ecommerce launch poster with chunky 3D headline treatment and product-collage merchandising"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "SHOPEE DEBUT / HANG MOI VE SAN / Shopee LIVE x ShopeeVideo / VOUCHER GIAM 25% / SAN PHAM MOI LAN DAU RA MAT / FREE SHIP 0D DON LIVE & VIDEO",
+      "items": [
+        "Top Left: White Shopee bag logo and floating electric shaver product cutout",
+        "Top Right: Cocoon pouch and AHC bottle on a yellow display island, plus a floating percent coin",
+        "Bottom Left: Large pink Enchanteur bottle rising from the corner",
+        "Bottom Right: Purple Maxkleen detergent pouch on a circular display pad",
+        "Center/Background: Red abstract wavy backdrop, giant yellow headline, swirling yellow ribbon shapes, and a long blue-orange offer banner"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright retail-ad lighting",
+      "effect": "High saturation, glossy product highlights, soft drop shadows, energetic ribbon motion"
+    },
+    "technical_specs": {
+      "render_style": "Commercial merchandising poster with product cutouts and bold vector text styling",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee new-arrivals launch campaign. Centerpiece is a massive chunky yellow headline reading 'SHOPEE DEBUT' and 'HANG MOI VE SAN'. Background is a layered Shopee-red abstract field with yellow ribbon shapes. Surrounding elements: Shopee logo at top left, a broad blue-and-gold offer banner with exact text 'Shopee LIVE x ShopeeVideo', 'VOUCHER GIAM 25%', 'SAN PHAM MOI LAN DAU RA MAT', and 'FREE SHIP 0D DON LIVE & VIDEO', plus multiple floating product cutouts including an electric shaver, Cocoon pouch, AHC bottle, Enchanteur bottle, and Maxkleen detergent pouch. Technical style: commercial merchandising poster with product cutouts and bold vector text styling, bright retail-ad lighting, glossy highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Mixed product cutout set",
+          "required": true,
+          "source": "original product packshots for the electric shaver, Cocoon pouch, AHC bottle, Enchanteur bottle, and Maxkleen pouch",
+          "usage": "Attach if exact product packaging and label fidelity are needed"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee, Shopee Live, and ShopeeVideo logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for top-left brand mark and the central live-video strip"
+        },
+        {
+          "type": "text_layout",
+          "name": "New arrivals poster typography system",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the exact oversized headline and long blue-orange promo pill structure"
+        }
+      ],
+      "prompt_instructions": "This is a merchandising collage, not a clean single-product ad. Preserve the exact wording and product placements around the perimeter. Keep the floating retail-island props and broad central offer bar."
+    }
+  }
+}

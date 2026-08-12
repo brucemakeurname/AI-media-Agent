@@ -1,0 +1,70 @@
+{
+  "name": "toyota-july-2026-mega-offer-multi-model",
+  "tag": [
+    "multi-model",
+    "july-offer",
+    "finance",
+    "insurance"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Special offers",
+  "group": "toyota_984730157725176",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota July 2026 mega offers across multiple models",
+      "color_palette": "Sunset cream, sky blue, orange, deep blue, white"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A sunset waterfront sales poster with large headline 'UU DAI CUC CHAT Don he cuc vui'. Big offer callouts read 'TANG 1 NAM BAO HIEM THAN VO Danh cho Veloz Cross & Avanza Premio', 'UU DAI LAI SUAT (*) 0%/NAM', and 'HO TRO TUONG DUONG LEN DEN 100% LE PHI TRUOC BA'. At the bottom, four white Toyota models are lined up: Yaris Cross, Veloz Cross, Avanza Premio, and Vios. Bottom text states 'Chuong trinh ap dung cho khach hang mua xe tu ngay 01/07/2026 - 31/07/2026' with a footnote about incentives varying by model. Bottom-left script says 'Move your world'.",
+      "style": "High-energy multi-model sales poster with sunset-city backdrop, strong offer hierarchy, and dealership campaign polish"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / UU DAI CUC CHAT / Don he cuc vui / TANG 1 NAM BAO HIEM THAN VO / Danh cho Veloz Cross & Avanza Premio / UU DAI LAI SUAT (*) 0%/NAM / HO TRO TUONG DUONG LEN DEN 100% LE PHI TRUOC BA / Chuong trinh ap dung cho khach hang mua xe tu ngay 01/07/2026 - 31/07/2026 / Move your world",
+      "items": [
+        "Top Left: Bold blue-orange headline over a glowing sunset sky",
+        "Top Right: Toyota logo over the skyline and warm cloud glow",
+        "Bottom Left: Four-car lineup beginning with Yaris Cross and handwritten 'Move your world'",
+        "Bottom Right: Vios at the end of the lineup and the date-range footnote text",
+        "Center/Background: Large centered finance and insurance offer callouts above a polished four-model waterfront lineup"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm sunset commercial lighting",
+      "effect": "Golden skyline glow, glossy white-car reflections, upbeat campaign atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal multi-model automotive campaign composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for Toyota July 2026 mega offers across multiple models. Centerpiece is a lineup of four white Toyota vehicles by a waterfront skyline at sunset, topped by large offer callouts for 1-year body insurance, 0% annual interest, and support up to 100% registration fee. Background is a warm sunset cityscape with open sky and reflective tiled ground. Surrounding elements: Toyota logo, exact headline 'UU DAI CUC CHAT Don he cuc vui', model note 'Danh cho Veloz Cross & Avanza Premio', the date range '01/07/2026 - 31/07/2026', and footer script 'Move your world'. Technical style: photoreal multi-model automotive campaign composite, warm sunset commercial lighting, golden glow and glossy reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Toyota Yaris Cross, Veloz Cross, Avanza Premio, and Vios references",
+          "required": true,
+          "source": "official model renders",
+          "usage": "Preserve the exact model lineup order, body shapes, and white finishes"
+        },
+        {
+          "type": "background",
+          "name": "Sunset waterfront skyline backdrop",
+          "required": true,
+          "source": "campaign background reference",
+          "usage": "Maintain the warm seasonal city-sales atmosphere"
+        },
+        {
+          "type": "text_layout",
+          "name": "Multi-model July offer poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the giant headline, three major offer blocks, bottom lineup, and date-range disclaimer"
+        }
+      ],
+      "prompt_instructions": "Preserve '01/07/2026 - 31/07/2026' exactly. Relative to Friday, July 17, 2026, this offer is currently active in the middle of its visible campaign window and should remain unchanged."
+    }
+  }
+}

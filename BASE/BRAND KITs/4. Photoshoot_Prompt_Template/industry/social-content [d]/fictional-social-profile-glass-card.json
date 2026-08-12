@@ -1,0 +1,75 @@
+{
+  "name": "fictional-social-profile-glass-card",
+  "tag": [
+    "glass-profile-card",
+    "neon-acrylic",
+    "social-profile-ui",
+    "handheld-object",
+    "futuristic-gradient"
+  ],
+  "image_type": "social-profile-product-visual",
+  "image_vibe": "futuristic-neon",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Fictional transparent social-profile card held between two fingers",
+      "creative_direction": "Futuristic glass or acrylic profile badge with luminous gradient edges and clean interface typography",
+      "color_palette": "clear glossy glass, pink, purple, orange, electric blue accents, and deep charcoal background"
+    },
+    "main_subject": {
+      "type": "transparent rectangular glass or acrylic profile card",
+      "detail": "rounded corners, glossy surface, softly glowing neon edge gradient, and a generic illustrated avatar",
+      "interaction": "card held gently between two adult fingers with realistic skin texture and natural contact reflections"
+    },
+    "composition_elements": {
+      "framing": "vertical close-up product composition with the card centered and fingers entering from the lower edges",
+      "interface": "fictional social-profile information rendered in modern minimal sans-serif typography",
+      "profile_fields": "generic display name, handle, bio, website placeholder, join date placeholder, and follower counts with no real personal data",
+      "background": "dark studio background with controlled neon reflections"
+    },
+    "lighting_and_atmosphere": {
+      "type": "small soft key at approximately 4200K with magenta, violet, and amber edge lights",
+      "effect": "glowing pink-purple-orange rim, realistic transparent refraction, soft finger highlights, and premium futuristic mood"
+    },
+    "technical_specs": {
+      "render_style": "macro product photography with 90mm lens, photoreal transparent material and graphic UI",
+      "resolution": "4k vertical social visual",
+      "finish": "sharp glass edges, realistic fingerprints and reflections, restrained bloom, legible fictional placeholders, and natural skin texture"
+    },
+    "generated_prompt_string": "Create a hyper-realistic vertical close-up of a transparent social-profile card designed like a futuristic glass ID badge, held gently between two adult fingers. Make the rectangular card rounded-corner clear glossy glass or acrylic with glowing neon edges in a pink, purple, and orange gradient. Display a generic illustrated avatar and fictional profile information using modern minimal sans-serif typography: a generic display name, handle, short bio, placeholder website, placeholder join date, and invented follower counts. Do not include any real platform name, real username, verified badge, phone status, personal data, or official logo. Use a deep charcoal studio background, approximately 4200K soft key light with magenta-violet-amber edge lights, realistic refraction, fingerprints, reflections, and premium product-detail styling.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, real social platform, real username, real personal data, phone verification, real logo, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed hands, broken glass, illegible UI text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "fictional-neon-glass-profile-card",
+          "required": true,
+          "source": "Original glass card preview image and source prompt",
+          "usage": "Attach to preserve rounded transparent card geometry, neon rim, glossy material, and centered profile layout; replace all real profile data and branding with fictional placeholders."
+        },
+        {
+          "type": "ui_reference",
+          "name": "fictional-social-profile-fields",
+          "required": true,
+          "source": "Original profile-card concept and source prompt",
+          "usage": "Attach to preserve avatar, display name, handle, bio, website, date, and count hierarchy; every value must be invented and non-identifying."
+        },
+        {
+          "type": "accessory",
+          "name": "adult-finger-card-grip",
+          "required": true,
+          "source": "Original preview image",
+          "usage": "Attach to preserve two-finger grip, scale, contact reflections, and natural skin texture; the hand may be replaced with another adult hand."
+        }
+      ],
+      "prompt_instructions": "Attach the card, fictional UI, and hand references. Keep card geometry, transparent material, neon edge, grip, and profile hierarchy consistent. Replace the platform, handle, avatar, verification, dates, counts, and all personal data with fictional cleared placeholders; the card must not identify a real person or function as an official ID."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Converted the real-looking social profile and personal metadata into a fictional non-platform profile card, removing usernames, verification, phone status, and identifying data while preserving the glass-card concept."
+    ]
+  }
+}

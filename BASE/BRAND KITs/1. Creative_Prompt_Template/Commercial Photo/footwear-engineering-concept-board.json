@@ -1,0 +1,82 @@
+{
+    "name":  "footwear-engineering-concept-board",
+    "tag":  [
+                "footwear",
+                "product demo",
+                "engineering board",
+                "technical sketch",
+                "streetwear",
+                "Pantone"
+            ],
+    "biz_niche":  "Fashion & Apparel / Editorial",
+    "content_format":  "Product demos",
+    "group":  "commercial_footwear_concept",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Branded footwear engineering concept board",
+                                        "color_palette":  "Warm white graph paper, black, brand-specific Pantone accents"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A high-end branded sneaker floats in three-quarter view over graph paper, surrounded by technical sketches, handwritten material notes, specification fields, Pantone chips and a taped lifestyle photo.",
+                                        "style":  "Luxury industrial-design editorial with authentic streetwear reference photography"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Footwear/Technical drawing/Lifestyle photo/Typography",
+                                                "text":  "ADVANCED TECHNOLOGY \u0026 TEXTURE; DELIVERING COMFORT; ELEVATE YOUR JOURNEY; PROJECT; DATE; SIZE; MODEL",
+                                                "items":  [
+                                                              "Center: enlarged sneaker with clearly visible texture and brand technology.",
+                                                              "Background: graph-paper grid, sketch outlines, arrows and handwritten engineering notes.",
+                                                              "Corner: taped Polaroid-style lifestyle photo of brand clothing in motion.",
+                                                              "Lower area: bold slogan, project/date/size/model labels and Pantone color chips."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Clean product studio lighting",
+                                                   "effect":  "Crisp material detail, soft shadow under floating shoe, paper texture and high-contrast typography"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "High-detail commercial product-design board",
+                                           "resolution":  "1:1 square"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "exact footwear reference",
+                                                                 "required":  true,
+                                                                 "source":  "approved shoe packshot and material sheet",
+                                                                 "usage":  "Preserve sole, upper panels, logo placement and texture."
+                                                             },
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "official brand logo",
+                                                                 "required":  true,
+                                                                 "source":  "approved brand asset",
+                                                                 "usage":  "Use exact logo only in approved positions."
+                                                             },
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "licensed lifestyle photo",
+                                                                 "required":  false,
+                                                                 "source":  "approved streetwear photography",
+                                                                 "usage":  "Use as taped corner reference or generate a generic model in brand clothing."
+                                                             },
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "Pantone palette and engineering spec",
+                                                                 "required":  true,
+                                                                 "source":  "brand guidelines",
+                                                                 "usage":  "Keep color chips and labels aligned to product DNA."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach shoe, logo and palette references.",
+                                                                          "Invent technology and model naming only when explicitly requested; do not present fiction as real product specifications.",
+                                                                          "Keep graph-paper/technical layout behind, not over, the product silhouette."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "create image with 1:1 ratio A branded footwear ad for [Brand], showcasing the high-end Brand shoe using brand technology and texture.(fiction a technology and texture based on brand DNA). The shoe is shown in dynamic floating perspective over a graph paper background layout with technical sketches and handwritten notes. A random lifestyle authentic photo featuring brand clothing in motion is taped in the corner, styled with street wear fashion. Emphasize the product\u0027s slogan with bold typography. Layout features include product spec labels like Project a fiction brand title, Date, Size, and fiction model name in engineering style. The background reference with brand pantone color palettes with code number",
+                   "negative_prompt":  "incorrect shoe silhouette, fake logo, unreadable specs, cluttered board, warped laces, flat materials, low resolution, watermark"
+               }
+}

@@ -1,0 +1,75 @@
+{
+  "name": "cyber-techwear-arcade-girl",
+  "tag": [
+    "adult-woman",
+    "retro-arcade",
+    "techwear",
+    "rgb-lighting",
+    "editorial-snapshot"
+  ],
+  "image_type": "retro-futurist-arcade-portrait",
+  "image_vibe": "nocturnal-electric-nostalgic",
+  "image_purpose": "social-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Kept the adult techwear arcade concept while replacing sheer and low-rise styling, branded cabinet references, and readable screen text with covered unbranded alternatives."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult retro-futurist arcade fashion snapshot",
+      "color_palette": "hot pink, cyan, teal, charcoal, silver, and saturated RGB glow",
+      "format": "vertical 9:16 three-quarter portrait"
+    },
+    "main_subject": {
+      "description": "a stylish adult woman with a short bixie cut tipped with subtle neon color, clear-rimmed glasses, an opaque charcoal high-neck techwear top, cropped utility jacket, high-waisted cargo skirt over fitted shorts, and silver unbranded jewelry",
+      "pose_and_expression": "leaning casually against an unbranded arcade-cabinet joystick while holding a colorful unbranded juice box and looking directly toward the lens"
+    },
+    "composition_elements": {
+      "camera_angle": "vertical three-quarter portrait with a 35mm snapshot perspective",
+      "foreground": "adult subject, clear glasses reflecting abstract pixel light, juice box, and unbranded joystick controls",
+      "background": "dim crowded retro arcade with blurred rows of unbranded cabinets, abstract pixel-light screens, reflective worn floor, and dust motes in projector beams",
+      "visual_hierarchy": "adult face and glasses, covered techwear silhouette, then pink-cyan arcade atmosphere"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "direct RGB glow from cabinets, pink on one side and teal on the other, with deep but natural face shadows",
+      "atmosphere": "electric, cool, nostalgic, and fashion-forward"
+    },
+    "technical_specs": {
+      "camera": "35mm film camera",
+      "lens": "35mm vintage prime f/2",
+      "settings": "1/125s, f/2, ISO 800 film",
+      "rendering": "high-contrast snapshot, film-like grain, restrained lens flare, saturated color bleed, and realistic pores"
+    },
+    "generated_prompt_string": "Create a vertical retro-futurist arcade fashion portrait of a stylish adult woman with a short bixie cut tipped with subtle neon color and clear-rimmed glasses. She wears an opaque charcoal high-neck techwear top, cropped utility jacket, high-waisted cargo skirt over fitted shorts, and unbranded silver jewelry. She leans casually against an unbranded arcade-cabinet joystick, holding a colorful unbranded juice box and looking directly into the lens. Set her in a dim crowded arcade with blurred unbranded cabinets, abstract pink-and-cyan pixel screens, reflective worn floor, and drifting dust in projector beams. Use direct RGB light, pink on one side and teal on the other, a 35mm high-contrast snapshot look, film grain, restrained lens flare, realistic skin texture, and no readable text or logos.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, sheer clothing, transparent clothing, lingerie, nudity, branded arcade cabinet, game title, readable screen text, logo, watermark, distorted hands, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "Every reference is optional. Replace only the specified element and remove any logos or readable game text from a supplied reference.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-techwear-subject-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity and hairstyle only."
+        },
+        {
+          "type": "wardrobe",
+          "name": "covered-techwear-look-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Replace the adult subject's covered techwear silhouette."
+        },
+        {
+          "type": "prop",
+          "name": "unbranded-retro-arcade-cabinet-reference",
+          "required": false,
+          "source": "approved prop reference",
+          "usage": "Replace cabinet shape and controls; remove all names, logos, and readable display text."
+        }
+      ]
+    }
+  }
+}

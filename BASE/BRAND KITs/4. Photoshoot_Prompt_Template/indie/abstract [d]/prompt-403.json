@@ -1,0 +1,72 @@
+{
+  "name": "prompt-403",
+  "tag": [
+    "adult-woman",
+    "underwater",
+    "macro-portrait",
+    "caustics",
+    "water-droplets",
+    "ethereal"
+  ],
+  "image_type": "underwater-macro-portrait",
+  "image_vibe": "ethereal-serene-surreal",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the underwater portrait subject is an adult."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "hyperreal underwater macro portrait with caustic light",
+      "color_palette": "warm peach skin, muted teal water, soft gold highlights, deep shadow",
+      "format": "portrait 3:4"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with natural fair skin, dark hair drifting into water, calm expression, and one eye sharply focused.",
+      "style": "ultra-detailed underwater macro photography with visible pores and natural water texture"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "extreme close-up of the left side of the adult woman's face",
+        "one eye in sharp focus near the upper center",
+        "face partially submerged with waterline and suspended droplets",
+        "dark hair receding into the teal water at frame right",
+        "soft rippling caustic patterns over forehead, cheek, nose, and lips"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "focused underwater sunlight at approximately 5200K shaped through moving surface water",
+      "effect": "crisp caustic highlights, cinematic soft shadow, floating bubbles, depth, and calm dreamlike stillness"
+    },
+    "technical_specs": {
+      "render_style": "100mm macro lens in underwater housing at f/4, shallow depth of field, fine film grain, physically plausible water refraction",
+      "resolution": "ultra-high resolution, portrait 3:4"
+    },
+    "generated_prompt_string": "Hyper-realistic, ultra-detailed close-up portrait of the left half of an adult woman's face submerged in water. One eye is in sharp focus. Light rays create caustic reflections and fluid patterns across her skin. Tiny suspended water droplets and bubbles add depth. Her dark hair is visible on the right side, extending into the water. Keep her expression calm and serene with an intense focused gaze. Use underwater macro portrait photography, shallow depth of field, physically plausible refraction, cinematic soft shadows with crisp highlights, and portrait 3:4 framing. Emphasize textures and the interplay of light, water, and natural skin without rendered text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, duplicated eyes, distorted waterline, dry hair",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-underwater-face-reference",
+          "required": false,
+          "source": "Attach an authorized adult face reference only when likeness continuity is required.",
+          "usage": "Preserve adult identity and eye shape if attached; otherwise the subject can be replaced."
+        },
+        {
+          "type": "moodboard",
+          "name": "underwater-caustic-light-reference",
+          "required": false,
+          "source": "Attach a water-light reference when caustic direction or color must match.",
+          "usage": "Maintain realistic underwater caustic patterns and droplets; the light pattern may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve the adult underwater macro crop, one sharply focused eye, natural skin, dark hair in water, and realistic caustic light. Identity and lighting pattern can be replaced independently."
+    }
+  }
+}

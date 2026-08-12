@@ -1,0 +1,22 @@
+{
+  "name": "retro-denim-street-fashion-stylish-man",
+  "tag": ["industry", "lookbook-line-sheet", "menswear", "denim", "street-style"],
+  "image_type": "retro denim street-fashion editorial",
+  "image_vibe": "cool, vintage-inspired, sunny, urban",
+  "image_purpose": "menswear lookbook, street-style campaign, and fashion editorial reference",
+  "group": "industry/lookbook-line-sheet/menswear",
+  "prompt": {
+    "project_info": "Create a hyper-realistic cinematic street-fashion editorial using the approved adult male face reference while preserving the denim-on-denim styling, urban architecture, and natural daylight.",
+    "main_subject": "Stylish adult man with the approved reference face, messy dark hair, groomed beard, and dark sunglasses. He wears a blue denim button-down shirt with sleeves rolled to the elbows, high-waisted wide-leg blue denim jeans, brown leather belt, slightly visible white undershirt, and chunky black leather boots. He carries a rectangular brown leather satchel by its strap and wears a classic wristwatch.",
+    "composition_elements": ["Standing confidently on a paved walkway.", "Right hand resting on hip; left arm relaxed while holding the satchel.", "Elegant urban exterior with stone facade, large classic arched windows, and beige-brown brickwork.", "Bright daytime sunlight with natural sharp shadows.", "The source image is a two-panel variation; preserve the street-fashion look and bag visibility."],
+    "lighting_and_atmosphere": "Direct bright daytime sunlight with crisp architectural shadows, warm natural color, and a cool vintage-inspired street mood.",
+    "technical_specs": "35mm film look, 8K detail, hyper-realistic textures in denim, leather, stone, and hair, cinematic depth of field, sharp focus, photorealistic street-style photography, no text or watermark.",
+    "generated_prompt_string": "Subject: A stylish adult man with the approved face reference, messy dark hair and a groomed beard, wearing dark sunglasses. He exudes a cool, vintage-inspired street fashion vibe. Outfit: a full denim-on-denim ensemble with blue denim button-down shirt sleeves rolled to the elbows, tucked into high-waisted wide-leg blue denim jeans, brown leather belt, slightly visible white undershirt at the neckline, and chunky black leather boots. Accessories: he holds a rectangular brown leather satchel by its strap and wears a classic wristwatch. Pose: standing confidently on a paved walkway, right hand resting on his hip and left arm relaxed by his side holding the bag. Background: elegant urban exterior with stone building facade, large classic arched windows and beige-brown brickwork. Sunlight casts natural sharp shadows on the ground in bright daytime. Technical specifications: 8K resolution, hyper-realistic, cinematic lighting, shot on 35mm film, detailed denim fabric, leather grain and stone texture, depth of field, sharp focus, photorealistic street-style photography, fashion editorial look.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "distorted anatomy", "extra fingers", "inconsistent identity", "warped denim", "plastic skin", "over-smooth", "over-saturated", "HDR look", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "retro-denim-street-fashion-stylish-man.jpg", "required": true, "source": "local reference image", "usage": "Attach as the required adult face and identity reference."}, {"type": "accessory", "name": "brown leather satchel and wristwatch", "required": true, "source": "local reference image", "usage": "Preserve the visible accessories and their placement."}],
+      "prompt_instructions": "Attach the required approved-adult face reference and preserve face, facial structure, likeness, hairstyle, sunglasses, denim outfit, satchel, watch, urban environment, sunlight, and pose. Keep the accessories and typography-free environment consistent; replace the face reference only with another approved-adult identity image. Never use a celebrity or public-figure likeness."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

@@ -1,0 +1,84 @@
+{
+  "name": "badass-office-wear-for-men",
+  "tag": [
+    "office wear",
+    "menswear campaign",
+    "shirt rack",
+    "workwear styling",
+    "retail visual",
+    "fashion editorial"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Lifestyle content",
+  "group": "badass_1303249761969190",
+  "prompt": {
+    "project_info": {
+      "theme": "Office wear for men collection visual",
+      "color_palette": "White, pale blue-gray, navy blue, black, cool neutral grays"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A close-up premium menswear rack featuring a row of crisp white and pale-blue office shirts on black branded hangers, photographed at a shallow angle so the shirt collars create a diagonal rhythm from foreground to background. A small polaroid-style office interior photo sits in the bottom-right corner.",
+      "style": "Photorealistic retail merchandising photography, clean corporate fashion campaign, premium minimal editorial layout"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "OFFICE WEAR FOR MEN",
+      "items": [
+        "Foreground Right: a sharply focused white collared shirt with visible fabric weave and a partial BADASS neck label.",
+        "Upper Row: repeating black branded hangers on silver hooks forming a diagonal line into the background.",
+        "Midground Left: a sequence of softly receding white and pale shirts creating depth through shallow focus.",
+        "Bottom Left: large navy-blue uppercase text 'OFFICE WEAR' with smaller black text 'FOR MEN' underneath.",
+        "Bottom Right: a tilted polaroid-style photo frame showing a grayscale modern office interior.",
+        "Background: a bright clean white poster margin surrounding the main apparel photo, preserving airy negative space."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio-retail lighting",
+      "effect": "Clean high-key illumination, gentle highlights on collars and hangers, shallow depth of field, crisp fabric texture, premium officewear mood"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic fashion merchandising poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "office shirts on rack",
+          "required": true,
+          "source": "source image apparel reference",
+          "usage": "Use to preserve collar shapes, shirt spacing, white tone variations, and the diagonal rack perspective."
+        },
+        {
+          "type": "logo",
+          "name": "BADASS hanger and neck label branding",
+          "required": false,
+          "source": "source image brand detail reference",
+          "usage": "Use if the embossed BADASS hanger branding and visible neck label need to remain accurate."
+        },
+        {
+          "type": "text_layout",
+          "name": "OFFICE WEAR FOR MEN typography",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Preserve the wording, hierarchy, and placement of the headline and subheadline in the lower-left corner."
+        },
+        {
+          "type": "location",
+          "name": "office interior inset photo",
+          "required": false,
+          "source": "source image inset reference",
+          "usage": "Use if the small polaroid-style office scene must closely match the original environment."
+        }
+      ],
+      "prompt_instructions": [
+        "If using gpt-image-2, attach the source image so the shallow-angle rack composition and shirt rhythm remain close to the original.",
+        "Keep the visible text exactly as 'OFFICE WEAR' and 'FOR MEN'.",
+        "Preserve the clean white margins and the small tilted office inset photo in the lower-right area."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square menswear campaign poster for an office wear collection. Show a close-up diagonal row of crisp white and pale office shirts on black branded hangers with silver hooks, photographed from a shallow angle so the collars repeat into the distance. Keep the front-right shirt in sharp focus with visible woven fabric texture and a subtle BADASS neck label, while the rest of the shirts recede in softer focus. Add a clean white border and airy negative space around the main image. In the lower-left corner place large navy-blue uppercase text 'OFFICE WEAR' with smaller black text 'FOR MEN' below it. In the lower-right corner place a slightly tilted polaroid-style frame containing a grayscale modern office interior. Technical style: photorealistic fashion merchandising poster, soft studio-retail lighting, shallow depth of field, clean high-key finish, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, messy store, extra garments, distorted collars, unreadable text, low resolution, flat 2d, cluttered background, harsh shadows, warped hangers, incorrect inset photo, watermark, signature, noisy image"
+  }
+}

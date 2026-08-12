@@ -1,0 +1,19 @@
+{
+  "name": "golden-hour-redhead-girl",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "red-hair", "top-down"],
+  "image_type": "top-down-street-portrait",
+  "image_vibe": "warm-introspective-candid",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic top-down golden-hour street portrait of an approved adult red-haired woman seated on stone pavement.",
+    "main_subject": "An approved adult woman with wavy red hair and soft green eyes looks upward with a calm introspective expression while an adult hand gently touches her cheek. She wears a grey zip hoodie over a dark tank, black thigh-high stockings, a delicate choker, and has a small black handbag beside her.",
+    "composition_elements": "Top-down vertical portrait on textured stone pavement, warm long shadows, face and gentle hand interaction as the focal point, handbag at side.",
+    "lighting_and_atmosphere": "Warm golden-hour sunlight with soft natural shadows, cinematic but grounded candid mood, realistic skin, hair, fabric, pavement, and hand texture.",
+    "technical_specs": "Photorealistic 85mm-style vertical portrait, shallow depth of field, high detail, accurate hands and anatomy, natural tones.",
+    "generated_prompt_string": "Create a photorealistic vertical top-down golden-hour portrait of an approved adult red-haired woman seated on textured stone pavement. Give her wavy red hair, soft green eyes, and a calm introspective expression looking upward while an adult hand gently touches her cheek. Dress her in a grey zip hoodie over a dark tank with black thigh-high stockings and a delicate choker; place a small black handbag beside her. Use warm sunlight, long soft shadows, cinematic natural tones, realistic textures, and accurate anatomy.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, fetish framing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-redhead-street-subject", "required": true, "source": "golden-hour-redhead-girl.jpg", "usage": "Preserve adult identity, hair, eyes, expression, seated pose, and hand interaction."}, {"type": "wardrobe", "name": "grey-hoodie-dark-tank-black-stockings", "required": true, "source": "golden-hour-redhead-girl.jpg", "usage": "Keep wardrobe and choker consistent; replace only with explicit references."}, {"type": "location", "name": "golden-hour-stone-pavement", "required": true, "source": "golden-hour-redhead-girl.jpg", "usage": "Maintain pavement, shadows, and warm outdoor environment; replace only with explicit references."}, {"type": "prop", "name": "small-black-handbag", "required": true, "source": "golden-hour-redhead-girl.jpg", "usage": "Preserve handbag placement; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, location, and prop references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified both the subject and interacting hand as adults and removed fetish framing.", "Added safe negative prompts and structured references."]}
+}

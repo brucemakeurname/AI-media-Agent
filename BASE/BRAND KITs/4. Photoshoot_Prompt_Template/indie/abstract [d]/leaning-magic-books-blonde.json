@@ -1,0 +1,79 @@
+{
+  "name": "leaning-magic-books-blonde",
+  "tag": [
+    "adult-woman",
+    "mystical-library",
+    "vintage-books",
+    "green-room",
+    "cozy",
+    "portrait"
+  ],
+  "image_type": "cozy-editorial-portrait",
+  "image_vibe": "warm-mystical-whimsical",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the subject is an adult."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "cozy mystical-bookroom portrait",
+      "color_palette": "forest green, warm wood, antique gold, moss, muted auburn",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with long blonde hair and soft bangs, wearing an oversized charcoal-gray T-shirt and a gentle smile.",
+      "style": "warm shallow-depth editorial photograph"
+    },
+    "composition_elements": {
+      "text": "Vintage book spines may carry the Magic and the Supernatural, Folklore, and Witchcraft titles shown in the reference.",
+      "items": [
+        "adult woman kneeling on a plush green rug",
+        "chin and elbows resting on a tall stack of vintage books",
+        "forest-green wall with wood shelves",
+        "glass bottles, crystals, plants, dried herbs, globe, and string lights",
+        "hanging glass lamp overhead"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "warm ambient practical lights at approximately 2700K plus soft daylight fill",
+      "effect": "cozy amber highlights, mysterious shelf depth, and gentle bokeh"
+    },
+    "technical_specs": {
+      "render_style": "50mm lens at f/2.0, subject and foreground books sharp, shelves softly blurred, visible subtle film grain",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Create a warm editorial portrait of an adult woman with long blonde hair and bangs in a cozy cluttered mystical room. She wears an oversized charcoal-gray T-shirt and kneels on a plush textured green rug, resting her elbows and chin on a tall stack of vintage books while looking at the camera with a gentle smile. The book spines may read Magic and the Supernatural, Folklore, and Witchcraft. Behind her, forest-green walls hold wooden shelves filled with glass bottles, small lights, plants, dried herbs, crystals, a globe, and vintage books. Include a hanging glass lamp and warm string lights. Use soft warm ambient lighting, shallow depth of field, high-quality photographic realism, and a cozy mysterious atmosphere.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-mystical-room-subject-reference",
+          "required": false,
+          "source": "Attach an adult person reference when likeness continuity is required.",
+          "usage": "Preserve adult face, blonde hair, bangs, and gentle expression."
+        },
+        {
+          "type": "location",
+          "name": "green-mystical-library-reference",
+          "required": false,
+          "source": "Attach interior reference when exact shelf inventory and wall color are required.",
+          "usage": "Keep green wall, wood shelving, magical curiosities, and rug relationship."
+        },
+        {
+          "type": "accessory",
+          "name": "vintage-book-stack",
+          "required": false,
+          "source": "Attach a prop reference when exact book colors, titles, and height matter.",
+          "usage": "Use as the central posing prop."
+        }
+      ],
+      "prompt_instructions": "All references are optional. Preserve the adult subject, kneeling pose, green mystical bookroom, book stack, and warm practical lights. Identity, room, and props can be replaced independently."
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "name": "shopee-aqua-football-sale-stadium-tv-fridge",
+  "tag": [
+    "football-campaign",
+    "electronics-appliances",
+    "stadium-theme",
+    "family-promo"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Brand story",
+  "group": "shopee_2137796640130752",
+  "prompt": {
+    "project_info": {
+      "theme": "AQUA football-season sale in stadium scene",
+      "color_palette": "Sunset orange, stadium blue, grass green, white"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A large stadium poster with AQUA branding and top-right badge 'NGAY 15 SALE GIUA THANG'. The headline reads 'HOA NHIP BONG DA SALE SAP GIA'. In the center is a huge TV screen showing cartoon children playing soccer, with a giant wet soccer ball in the foreground. An AQUA washing machine stands on the left side of the field and a refrigerator stands on the right. Bottom CTA says 'MUA NGAY TAI SHOPEE'.",
+      "style": "Family-friendly sports-event appliance poster with bright cinematic stadium scene and playful animated TV content"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "AQUA / NGAY 15 / SALE GIUA THANG / HOA NHIP BONG DA SALE SAP GIA / MUA NGAY TAI SHOPEE",
+      "items": [
+        "Top Left: Shopee logo and AQUA logo",
+        "Top Right: White sale badge 'NGAY 15 SALE GIUA THANG'",
+        "Bottom Left: Realistic AQUA washing machine on the stadium grass",
+        "Bottom Right: Refrigerator product and a small soccer ball near the field edge",
+        "Center/Background: Giant TV showing cartoon soccer players, oversized wet soccer ball in front, full illuminated stadium bowl, and sunset sky"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Cinematic stadium sunset lighting",
+      "effect": "Floodlight glow, warm sunset sky, glossy appliance reflections, lively sports-event ambience"
+    },
+    "technical_specs": {
+      "render_style": "Appliance campaign poster with photo-composite stadium scene and animated screen content",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for AQUA on Shopee. Centerpiece is a large stadium field scene with a giant TV showing cartoon children playing soccer and a huge wet soccer ball in the foreground. Background is a packed illuminated stadium under a warm sunset sky. Surrounding elements: Shopee and AQUA logos, white badge 'NGAY 15 SALE GIUA THANG', headline 'HOA NHIP BONG DA SALE SAP GIA', an AQUA washing machine on the left, a refrigerator on the right, and bottom CTA 'MUA NGAY TAI SHOPEE'. Technical style: appliance campaign poster with photo-composite stadium scene and animated screen content, cinematic stadium sunset lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "AQUA washing machine and refrigerator renders",
+          "required": true,
+          "source": "official appliance product renders",
+          "usage": "Attach for exact product silhouette, controls, and finish"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee and AQUA logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for the top-left branding"
+        },
+        {
+          "type": "graphic",
+          "name": "Cartoon soccer TV scene and stadium environment",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the cartoon-children TV content, giant soccer ball, and stadium composition"
+        },
+        {
+          "type": "text_layout",
+          "name": "AQUA football-sale layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the exact headline, sale badge, product placement, and CTA"
+        }
+      ],
+      "prompt_instructions": "This image combines realistic appliances with animated TV imagery. Keep that hybrid feel, and retain 'NGAY 15' exactly as shown; it is in the past relative to Friday, July 17, 2026."
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "befood-kem-bo-trai-cay-to-251-deal-1k",
+  "tag": [
+    "befood",
+    "1k deal",
+    "kem bo",
+    "fruit shop promo",
+    "summer food"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "be_1979212489513834",
+  "prompt": {
+    "project_info": {
+      "theme": "1K food deal beach-style summer promo",
+      "color_palette": "Cyan, yellow, black, pink, lime green, sand beige"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A colorful summer-themed food promotion featuring a pink avocado smoothie cup, a yellow fruit dessert cup, and a hamburger arranged on a sandy beach foreground beneath a beFood title and two yellow promo tickets announcing a 1K deal and non-batched delivery.",
+      "style": "Photoreal food promo poster with playful beach composite"
+    },
+    "composition_elements": {
+      "type": "Food Props/Typography/Beach Background",
+      "text": "beFood, Kem Bơ - Trái Cây Tô 251, Vạn deal 1K, giao không ghép đơn, Kem Bơ / Trái Cây Tô 251 / A TO Z FRUIT / 0972.91.93.93",
+      "items": [
+        "Top Center: beFood logo and a circular partner logo badge.",
+        "Upper Middle: dark-green title 'Kem Bơ - Trái Cây Tô 251'.",
+        "Center Upper: two yellow ticket panels reading 'Vạn deal 1K' and 'giao không ghép đơn'.",
+        "Bottom Left Foreground: large pink smoothie cup with printed shop branding and phone number.",
+        "Center Foreground: yellow fruit dessert cup with whipped topping and printed shop branding.",
+        "Bottom Right Foreground: glossy hamburger on a white plate.",
+        "Bottom Left Corner: inflatable swim ring prop.",
+        "Background: sandy beach with soft water, rocks, and a pastel cyan sky."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright summery daylight",
+      "effect": "Fresh appetizing highlights, playful beach-vacation mood, crisp product cutouts"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal food composite poster with stylized summer backdrop",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "beFood and partner shop logos",
+          "required": true,
+          "source": "source image logo references",
+          "usage": "Preserve the top logos and the printed branding on the cups."
+        },
+        {
+          "type": "product",
+          "name": "smoothie cup, dessert cup, and burger",
+          "required": true,
+          "source": "source image food reference",
+          "usage": "Keep the exact product lineup, cup artwork, and plate arrangement."
+        },
+        {
+          "type": "background",
+          "name": "summer beach composite",
+          "required": true,
+          "source": "source image background reference",
+          "usage": "Preserve the sandy foreground, water, rocks, and inflatable ring."
+        },
+        {
+          "type": "text_layout",
+          "name": "1K deal promo tickets",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Keep the exact wording and the yellow ticket shapes."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve cup branding, beach props, and product scale.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the bright summer promo mood and the mixed drink-dessert-burger lineup."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square beFood summer promo poster with a pastel cyan sky, beach sand foreground, soft water, and rocks. At the top center place the beFood logo and a circular partner badge. Add a dark-green title 'Kem Bơ - Trái Cây Tô 251'. Below it place two yellow ticket-style promo boxes reading 'Vạn deal 1K' and 'giao không ghép đơn'. In the foreground, show a large pink branded smoothie cup on the left, a yellow dessert cup with whipped topping in the center, and a glossy hamburger on a white plate on the right. Add a small inflatable swim ring on the lower left. Technical style: photoreal food composite poster with stylized summer backdrop, bright summery daylight, fresh appetizing finish, 8k resolution, highly detailed.",
+    "negative_prompt": "dark food, incorrect text, missing cup logos, low resolution, deformed burger, muddy beach colors, clutter, watermark, signature"
+  }
+}

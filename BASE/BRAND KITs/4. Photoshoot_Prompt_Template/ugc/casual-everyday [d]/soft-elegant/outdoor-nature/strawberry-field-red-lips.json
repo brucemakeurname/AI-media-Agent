@@ -1,0 +1,27 @@
+{
+  "name": "strawberry-field-red-lips",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "outdoor-nature", "strawberry-field", "pink-dress", "closeup"],
+  "image_type": "lifestyle-editorial-closeup",
+  "image_vibe": "romantic-summer-countryside",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/soft-elegant/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a romantic countryside fashion close-up of an approved adult woman harvesting strawberries in warm early-summer light.",
+    "main_subject": "An approved adult woman with long dark hair flowing beneath a soft pink headscarf, natural freckles, sun-kissed skin, soft flushed cheeks, and a confident gentle expression. She wears a light-pink spaghetti-strap summer dress with a tiny strawberry print and flowing cotton fabric, and holds a woven basket filled with fresh strawberries at waist level.",
+    "composition_elements": "Vertical medium close-up, slightly below eye level, subject's head gently tilted, face and basket prominent, strawberry rows and green leaves creating a soft countryside background. Preserve the basket weave, ripe berries, pink headscarf, dress print, and natural crop.",
+    "lighting_and_atmosphere": "Golden-hour natural sunlight with warm side light, gentle bounce from greenery, soft cinematic shadows, controlled natural moisture on the lips, and a warm early-summer harvest glow.",
+    "technical_specs": "Full-frame camera, 85mm lens, f/1.8, shallow creamy background separation, steady handheld realism, sharp face, lips, basket, and strawberries, realistic pores and fabric, warm daylight around 5500K, soft cinematic contrast with lifted mids.",
+    "generated_prompt_string": "Create a photorealistic romantic countryside fashion close-up of an approved adult woman with long dark hair softly flowing beneath a delicate soft-pink headscarf, natural freckles, glowy sun-kissed skin, subtle flushed cheeks, and a soft but confident expression. She stands in a sunlit strawberry field, gently tilting her head and holding a woven basket filled with fresh red strawberries at waist level. She wears a light-pink spaghetti-strap summer dress with a tiny strawberry print and flowing cotton fabric. Add a natural strawberry-juice sheen with a subtle deep-red tint on the lips, fresh and organic rather than exaggerated. Use strawberry rows, green leaves, ripe berries, a soft countryside horizon, and gentle breeze movement in the background. Compose a vertical medium close-up slightly below eye level, sharp on the face, lips, basket, and strawberries, with creamy bokeh. Use golden-hour sunlight, warm side light, gentle green bounce, soft cinematic shadows, full-frame 85mm lens at f/1.8, warm daylight around 5500K, realistic skin pores, visible strawberry seeds, woven basket texture, and soft cinematic contrast.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, fetish styling, minor or child, age ambiguity, celebrity likeness, public-figure likeness, excessive lip gloss, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted face, blurry strawberries, text, logo",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-strawberry-field-subject", "required": true, "source": "strawberry-field-red-lips.jpg", "usage": "Preserve the adult subject's face, hair, headscarf, expression, and identity without reproducing a celebrity likeness."},
+        {"type": "wardrobe", "name": "pink-strawberry-print-dress-and-headscarf", "required": true, "source": "strawberry-field-red-lips.jpg", "usage": "Keep the pink strawberry-print dress and headscarf consistent; replace only with an explicit wardrobe reference."},
+        {"type": "product", "name": "woven-basket-of-fresh-strawberries", "required": true, "source": "strawberry-field-red-lips.jpg", "usage": "Preserve the basket, berry count impression, red strawberries, and natural harvest detail; replace only with an explicitly specified prop."},
+        {"type": "location", "name": "sunlit-strawberry-field", "required": true, "source": "strawberry-field-red-lips.jpg", "usage": "Maintain the strawberry rows, greenery, countryside horizon, and golden-hour environment; replace only with an explicit location reference."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, basket/produce, and location references when exact consistency is required. Keep identity, adult status, outfit, basket, lip detail, and field hierarchy consistent. Produce and distant foliage are replaceable only with explicit alternatives; preserve any replacement's identity, outfit, product, logo, environment, and typography. No logo or typography is present."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and kept the source's subtle natural lip detail without sexualized framing.", "Added safe negative prompts and structured visual references."]}
+}

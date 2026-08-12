@@ -1,0 +1,68 @@
+{
+  "name": "exhausted-urban-executive",
+  "tag": [
+    "adult-executive",
+    "elevator-hallway",
+    "corporate-burnout",
+    "blue-gray-dress",
+    "editorial-storytelling"
+  ],
+  "image_type": "cinematic-lifestyle-portrait",
+  "image_vibe": "quietly-exhausted-polished",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/luxury-editorial",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Retained the adult corporate-exhaustion story while replacing the specific investment-app UI and all visible text with an abstract unreadable chart interface."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "high-fashion corporate burnout beside a modern elevator",
+      "color_palette": "blue-gray, red, beige, black, steel, and soft daylight",
+      "format": "vertical 2:3 seated portrait"
+    },
+    "main_subject": {
+      "description": "an adult woman in a blue-gray sleeveless business dress, black stiletto heels, and a red lanyard with an unbranded blank ID badge",
+      "pose_and_expression": "seated gracefully on the floor beside an elevator, leaning lightly on the wall with bent legs, looking upward with a calm, slightly exhausted expression"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level seated editorial framing",
+      "foreground": "beige handbag, smartphone, glasses, and open laptop near the adult subject",
+      "background": "sleek modern elevator hallway with clean lines and smooth surfaces",
+      "visual_hierarchy": "adult expression, workwear silhouette, then carefully arranged office items"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "soft natural window light with gentle shadow transitions",
+      "atmosphere": "serene, refined, quietly tired, and contemporary"
+    },
+    "technical_specs": {
+      "camera": "Sony A7R V",
+      "lens": "50mm f/2",
+      "settings": "1/250s, f/2.8, ISO 250",
+      "rendering": "natural skin texture, realistic fabric, balanced highlights, shallow depth of field, fine editorial grain"
+    },
+    "generated_prompt_string": "An adult executive wears a blue-gray sleeveless business dress, black stiletto heels, and a red lanyard with a blank unbranded ID badge. She is seated gracefully on the floor, leaning slightly against a wall beside a modern elevator. Both legs are bent in an elegant relaxed posture. Her expression is calm and composed but slightly exhausted as she looks upward toward the ceiling. A beige handbag, smartphone, glasses, and an open laptop sit nearby; the laptop displays only an abstract unreadable downward-trending chart interface with no text or logos. The minimalist hallway emphasizes clean lines and smooth surfaces. Use soft natural light, refined high-fashion editorial storytelling, and natural realistic detail.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, sexualized pose, nudity, readable text, logo, branded UI, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, distorted anatomy",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-executive-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace only the authorized adult identity and hairstyle."
+        },
+        {
+          "type": "wardrobe",
+          "name": "executive-outfit-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Match dress, shoes, lanyard, or handbag while keeping badges unbranded."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult executive, elevator hallway, seated fatigue narrative, office props, and unreadable abstract laptop display; replace only approved identity or wardrobe elements."
+    }
+  }
+}

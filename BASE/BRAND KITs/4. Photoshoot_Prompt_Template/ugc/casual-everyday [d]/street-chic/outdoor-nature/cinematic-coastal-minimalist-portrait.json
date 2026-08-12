@@ -1,0 +1,26 @@
+{
+  "name": "cinematic-coastal-minimalist-portrait",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-nature", "coastal", "menswear"],
+  "image_type": "coastal-menswear-portrait",
+  "image_vibe": "calm-classy-cinematic",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-nature",
+  "prompt": {
+    "project_info": "Create an ultra-realistic cinematic lifestyle portrait of an approved adult man beside a rocky seaside coastline.",
+    "main_subject": "An approved adult man with natural dark hair and beard, wearing matte black sunglasses, an olive-brown linen shirt with sleeves casually rolled, off-white linen trousers, a metal wristwatch, and a subtle forearm tattoo. He looks slightly downward while rolling one sleeve with the opposite hand.",
+    "composition_elements": "Centered vertical medium-full portrait on a rocky shoreline, with ocean waves, blurred palm foliage, and overcast sky behind. Keep relaxed confident posture and detailed fabric texture.",
+    "lighting_and_atmosphere": "Soft diffused cloudy daylight, muted earthy color grading, shallow coastal bokeh, calm premium modern masculine mood.",
+    "technical_specs": "Photorealistic flagship-smartphone or DSLR look, vertical Instagram framing, sharp subject, realistic skin, hair, beard, linen weave, rocks, and waves.",
+    "generated_prompt_string": "Create an ultra-realistic vertical cinematic lifestyle portrait of an approved adult man with natural dark hair and beard beside a rocky seaside coastline. He wears matte black sunglasses, an olive-brown linen shirt with sleeves rolled casually, off-white linen trousers, a metal wristwatch, and a subtle forearm tattoo. He looks slightly downward while rolling one sleeve with the other hand. Center him against dark rocks, soft ocean waves, blurred palms, and an overcast sky. Use diffused daylight, muted earthy tones, shallow depth of field, realistic textures, and calm premium coastal style.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, fake beard",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-coastal-male-subject", "required": true, "source": "cinematic-coastal-minimalist-portrait.jpg", "usage": "Preserve adult identity, hair, beard, sunglasses, expression, and sleeve-rolling pose."},
+        {"type": "wardrobe", "name": "olive-linen-shirt-offwhite-trousers", "required": true, "source": "cinematic-coastal-minimalist-portrait.jpg", "usage": "Keep shirt, trousers, watch, and styling consistent; replace only with explicit wardrobe references."},
+        {"type": "location", "name": "rocky-coastal-shoreline", "required": true, "source": "cinematic-coastal-minimalist-portrait.jpg", "usage": "Maintain rocks, waves, palms, sky, and diffused light; replace only with explicit location references."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the coastal menswear concept.", "Added safe negative prompts and structured references."]}
+}

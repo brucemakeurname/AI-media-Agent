@@ -1,0 +1,70 @@
+{
+  "name": "samsung-galaxy-tab-s11-ultra-sleek-fit-keyboard-slim",
+  "tag": [
+    "tablet-launch",
+    "keyboard-accessory",
+    "product-hero",
+    "tab-s11-ultra"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Brand story",
+  "group": "samsung_1235183781983431",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy Tab S11 Ultra slim keyboard fit poster",
+      "color_palette": "Off-white, graphite gray, soft pink display gradient, black text"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Minimal product poster showing the Galaxy Tab S11 Ultra mounted on a Book Cover Keyboard Slim in a side profile that emphasizes thinness and a sleek laptop-like silhouette.",
+      "style": "Photorealistic minimalist product render, clean accessory ecosystem hero shot"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "A sleek fit for a slim tablet / Galaxy Tab S11 Ultra",
+      "items": [
+        "Top Left: Large centered black title 'A sleek fit for a slim tablet'.",
+        "Top Right: Smaller centered subtitle 'Galaxy Tab S11 Ultra'.",
+        "Bottom Left: Small gray footnotes stating '*Book Cover Keyboard Slim sold separately.' and '*Image simulated for illustrative purposes. Actual UI may differ.'",
+        "Bottom Right: Clean empty off-white negative space.",
+        "Center/Background: Graphite Galaxy Tab S11 Ultra in profile on a dark gray keyboard base with kickstand, showing a thin side frame and pink abstract wallpaper on screen."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio lighting",
+      "effect": "Gentle matte highlights, light shadow grounding, crisp hardware edges, airy premium ecommerce mood"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy Tab S11 Ultra slim keyboard fit poster. Centerpiece is a side-profile Galaxy Tab S11 Ultra mounted on a dark Book Cover Keyboard Slim, showing an ultra-thin silhouette and a soft pink display wallpaper. Background is an off-white minimal ecommerce field with generous negative space. Surrounding elements: exact title 'A sleek fit for a slim tablet', subtitle 'Galaxy Tab S11 Ultra', and tiny gray disclaimers about the keyboard being sold separately and image simulation at the bottom left. Technical style: photorealistic product render, soft studio lighting, gentle matte highlights and crisp hardware edges, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy Tab S11 Ultra with Book Cover Keyboard Slim",
+          "required": true,
+          "source": "official Samsung product renders",
+          "usage": "Preserve exact side profile, hinge geometry, and keyboard deck proportions."
+        },
+        {
+          "type": "ui_reference",
+          "name": "pink abstract tablet wallpaper",
+          "required": true,
+          "source": "official wallpaper asset",
+          "usage": "Keep the gentle pink gradient visible on the screen."
+        },
+        {
+          "type": "text_layout",
+          "name": "minimal title and footnotes",
+          "required": true,
+          "source": "original creative",
+          "usage": "Retain exact centered headline and bottom-left disclaimer placement."
+        }
+      ],
+      "prompt_instructions": "Use refs for the exact keyboard stand geometry and tablet thinness profile. This poster works because of its large negative space and side-view silhouette, so keep it sparse."
+    }
+  }
+}

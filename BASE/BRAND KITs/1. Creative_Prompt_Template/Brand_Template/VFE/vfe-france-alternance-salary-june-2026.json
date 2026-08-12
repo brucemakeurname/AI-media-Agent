@@ -1,0 +1,71 @@
+{
+  "name": "vfe-france-alternance-salary-june-2026",
+  "tag": [
+    "vfe",
+    "alternance",
+    "salary",
+    "june-2026",
+    "infographic"
+  ],
+  "biz_niche": "Education",
+  "content_format": "Infographics",
+  "group": "vfe_1539101027703934",
+  "prompt": {
+    "project_info": {
+      "theme": "Alternance salary table in France from June 1, 2026",
+      "color_palette": "Navy Blue, Red, White, Soft Money Green Gray"
+    },
+    "main_subject": {
+      "type": "Text",
+      "detail": "A clear wage-table infographic explaining alternance salaries in France from 01/06/2026, featuring a centered headline, a navy subheader for second training year, and a three-column table by student age, SMIC percentage, and gross monthly salary.",
+      "style": "Structured labor-information poster with soft blurred money background and a crisp red-navy-white data table."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nMỨC LƯƠNG ALTERNANCE TẠI PHÁP\n(CHƯƠNG TRÌNH VỪA HỌC VỪA LÀM)\nTỪ 01/06/2026\nĐỐI VỚI NĂM HAI ĐÀO TẠO\nĐộ tuổi của học sinh\n% mức lương tối thiểu (SMIC)\nLương tối thiểu (brut/tháng)\n16–17 tuổi 39% 728,14 €\n18–20 tuổi 51% 952,18 €\n21–25 tuổi 61% 1.138,88 €\nTừ 26 tuổi trở lên 100% 1.867,02 €\n*Theo: Code du travail numérique (Bộ Lao động Pháp)",
+      "items": [
+        "Top Left: No decorative object, only the broad headline across a blurred money background.",
+        "Top Right: VFE logo in a rounded white label.",
+        "Bottom Left: Source note '*Theo: Code du travail numérique (Bộ Lao động Pháp)'.",
+        "Bottom Right: Final salary row 'Từ 26 tuổi trở lên 100% 1.867,02 €'.",
+        "Center/Background: Large red-and-navy table over a softly blurred euro-note and coin background."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat infographic lighting with soft photo backdrop",
+      "effect": "Crisp tabular contrast, mild background blur, and strong salary-value readability."
+    },
+    "technical_specs": {
+      "render_style": "Educational wage-table infographic poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality salary infographic poster for alternance programs in France. Centerpiece is a three-column wage table showing student age, SMIC percentage, and gross monthly salary, topped by the headline 'MỨC LƯƠNG ALTERNANCE TẠI PHÁP (CHƯƠNG TRÌNH VỪA HỌC VỪA LÀM) TỪ 01/06/2026'. Background is a softly blurred money-themed photo. Surrounding elements: VFE logo, navy section bar 'ĐỐI VỚI NĂM HAI ĐÀO TẠO', four age rows, and source note from Code du travail numérique. Technical style: educational wage-table infographic poster, crisp tabular contrast, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place at the top center-right on a white pill."
+        },
+        {
+          "type": "background",
+          "name": "Blurred euro money backdrop",
+          "required": true,
+          "source": "currency photo reference",
+          "usage": "Use as a low-detail soft-focus background behind the table."
+        },
+        {
+          "type": "text_layout",
+          "name": "Alternance salary table layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve exact rows, columns, euro values, and date line."
+        }
+      ],
+      "prompt_instructions": "The date '01/06/2026' is in the past relative to Friday, July 17, 2026, so preserve it as an already-effective wage table reference. Keep every euro value exact."
+    }
+  }
+}

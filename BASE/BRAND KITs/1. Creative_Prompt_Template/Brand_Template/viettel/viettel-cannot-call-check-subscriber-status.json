@@ -1,0 +1,78 @@
+{
+  "name": "viettel-cannot-call-check-subscriber-status",
+  "tag": [
+    "viettel",
+    "cannot-call",
+    "subscriber-status",
+    "illustration",
+    "product-demos"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Product demos",
+  "group": "viettel_1326458689460059",
+  "prompt": {
+    "project_info": {
+      "theme": "Check subscriber verification status when calls fail",
+      "color_palette": "Soft Cream, Pink, Viettel Red, Gray"
+    },
+    "main_subject": {
+      "type": "Person/Object",
+      "detail": "A stylized 3D-cute girl in a pink sweater stares worriedly at her smartphone while floating cloud thought-bubbles show possible causes like a broken phone, unpaid bill, and signal outage, with a bold red instruction to check subscriber verification status.",
+      "style": "Cute 3D illustration advertising poster with soft pastel shading, expressive character face, and explanatory cloud icons."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "viettel telecom\nKHÔNG GỌI ĐƯỢC?\nĐiện thoại hỏng\nChưa đóng tiền cước\nMất sóng\nHãy kiểm tra tình trạng\nxác thực thông tin thuê bao\ntrước bạn nhé!",
+      "items": [
+        "Top Left: Viettel telecom logo.",
+        "Top Right: Large cloud-shaped headline 'KHÔNG GỌI ĐƯỢC?' and signal-loss cloud icon.",
+        "Bottom Left: Labels for broken phone and unpaid bill beside their cloud bubbles.",
+        "Bottom Right: Big red advisory text about checking subscriber verification status.",
+        "Center/Background: Cute 3D girl holding a smartphone with worried expression, surrounded by soft white cloud thought-bubbles."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft pastel commercial illustration lighting",
+      "effect": "Gentle 3D shading, creamy highlights, expressive face rendering, and clean text readability."
+    },
+    "technical_specs": {
+      "render_style": "Cute 3D illustration advertising poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality illustrative telecom poster for Viettel subscriber verification awareness. Centerpiece is a cute 3D girl in a pink sweater looking worried at her smartphone, surrounded by cloud thought-bubbles showing a broken phone, an unpaid bill, and signal loss. Background is a soft cream-pink gradient. Surrounding elements: Viettel telecom logo, cloud headline 'KHÔNG GỌI ĐƯỢC?', and large red advisory text 'Hãy kiểm tra tình trạng xác thực thông tin thuê bao trước bạn nhé!'. Technical style: cute 3D illustration advertising poster, soft pastel lighting, expressive character rendering, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel Telecom logo",
+          "required": true,
+          "source": "official Viettel brand asset",
+          "usage": "Place at top left."
+        },
+        {
+          "type": "person",
+          "name": "Cute 3D girl smartphone character",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve hairstyle, pink sweater, worried expression, and phone pose."
+        },
+        {
+          "type": "icon",
+          "name": "Broken phone, bill, and signal cloud icons",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep each cause inside soft thought bubbles."
+        },
+        {
+          "type": "text_layout",
+          "name": "Cannot-call advisory layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve exact headline and red advisory copy."
+        }
+      ],
+      "prompt_instructions": "Keep the cute 3D style and explanatory clouds. This is an awareness poster, so the visual should stay friendly rather than alarming."
+    }
+  }
+}

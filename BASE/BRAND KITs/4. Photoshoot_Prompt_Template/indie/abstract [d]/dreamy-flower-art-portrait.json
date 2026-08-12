@@ -1,0 +1,80 @@
+{
+  "name": "dreamy-flower-art-portrait",
+  "tag": [
+    "adult-woman",
+    "sage-green",
+    "flower",
+    "slow-shutter",
+    "fine-art",
+    "double-exposure"
+  ],
+  "image_type": "fine-art-portrait",
+  "image_vibe": "dreamy-poetic-serene",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "source_url": "https://x.com/john_my07/status/2020885340287021109",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject is an adult and preserved identity-reference use only for an adult person reference."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "sage-green flower-streak fine-art portrait",
+      "color_palette": "muted sage green, ivory flower petals, warm beige, soft rose skin",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with softly waved auburn hair, natural minimal makeup, and a calm, introspective expression.",
+      "style": "tight editorial fine-art portrait with painterly realism"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "tight front-facing portrait",
+        "single ivory cosmos flower crossing one eye",
+        "horizontal slow-shutter flower and light streaks",
+        "hand lightly supporting chin",
+        "seamless muted sage-green backdrop"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "gentle diffused daylight at approximately 5000K",
+      "effect": "soft skin highlights, preserved pores, dreamy bloom, and flowing motion blur"
+    },
+    "technical_specs": {
+      "render_style": "85mm portrait at f/2.0 with slow-shutter foreground movement and subtle double exposure",
+      "resolution": "ultra-high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Create an ultra-realistic fine-art portrait of an adult woman with soft natural features, minimal skin-focused makeup, and a calm introspective expression. Use a muted pastel sage-green seamless background. A delicate ivory flower drifts across the foreground on a long stem, partially obscuring one eye and creating intentional horizontal slow-shutter motion blur and soft streaks of light. Add only subtle poetic double exposure across the face. Keep facial focus sharp, natural skin texture visible, shallow depth of field, cinematic softness, painterly realism, gentle diffused lighting, and a serene emotional tone.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, text, logo",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-fine-art-subject-reference",
+          "required": false,
+          "source": "Attach an adult person reference only when identity continuity is required.",
+          "usage": "Preserve adult facial structure, auburn hair, and calm expression."
+        },
+        {
+          "type": "graphic",
+          "name": "ivory-cosmos-flower-reference",
+          "required": false,
+          "source": "Attach a flower reference when exact species and petal shape matter.",
+          "usage": "Place the flower across one eye with horizontal motion blur."
+        },
+        {
+          "type": "background",
+          "name": "sage-green-backdrop-reference",
+          "required": false,
+          "source": "Attach a palette reference when exact sage tone is required.",
+          "usage": "Maintain a seamless muted sage-green field."
+        }
+      ],
+      "prompt_instructions": "All references are optional. Preserve adult subject, one drifting ivory flower, sage background, horizontal motion streak, and fine-art realism. Person, flower, and color palette can be replaced independently."
+    }
+  }
+}

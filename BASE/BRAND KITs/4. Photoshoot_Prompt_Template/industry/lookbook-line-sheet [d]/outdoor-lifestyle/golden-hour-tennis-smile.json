@@ -1,0 +1,22 @@
+{
+  "name": "golden-hour-tennis-smile",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "tennis", "sporty"],
+  "image_type": "sporty lifestyle fashion portrait",
+  "image_vibe": "playful, athletic, sunny, preppy",
+  "image_purpose": "sporty lookbook and active lifestyle editorial",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a golden-hour tennis lifestyle portrait of one consistent approved adult woman with vibrant red hair and a joyful over-shoulder expression.",
+    "main_subject": "Adult woman with long vibrant solid crimson-red wavy hair, sparkling green eyes, luminous natural skin, and a big joyful smile. She wears a pale-yellow collared tennis polo dress with short sleeves, cream-white slouchy leg warmers, and clean white sneakers, holding a classic tennis racket.",
+    "composition_elements": ["Full-body shot from slightly behind and to the side, capturing the look-back gesture.", "Subject leaning lightly on a white tennis net while holding the racket.", "Lush green grass court with scattered yellow tennis balls, tall hedges, and cypress trees.", "Playful athletic posture and natural evening-breeze movement in the hair."],
+    "lighting_and_atmosphere": "Golden-hour sunset backlight with a warm halo around red hair, soft lens flares, long gentle shadows, and playful sporty-preppy atmosphere.",
+    "technical_specs": "3:4 photorealistic tennis lifestyle photography, full-body framing, natural proportions, realistic fabric and hair texture, shallow-to-moderate depth of field, no text or watermark.",
+    "generated_prompt_string": "Tennis lifestyle photo of an adult woman with long vibrant solid red wavy hair, giving a big joyful smile while looking over her shoulder at the camera. She wears a pale yellow tennis polo dress with collar and short sleeves, leaning on a white tennis net and holding a racket. Her slender fit athletic frame is complemented by cream-white slouchy leg warmers and white sneakers. The setting is a lush green grass tennis court with yellow tennis balls scattered on the ground and some floating in the air, tall green hedges and cypress trees in the background under golden-hour sunset sunlight with warm lens flares. Playful athletic lifestyle content, sporty preppy aesthetic, 3:4 aspect ratio.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "tattoos", "ink", "body art", "blonde hair", "brown hair", "black hair", "muscular build", "heavy build", "indoor", "serious expression", "dark lighting", "winter", "harsh shadows", "studio backdrop", "plastic skin", "airbrushed", "watermark", "text", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "golden-hour-tennis-smile.jpg", "required": true, "source": "local reference image", "usage": "Attach for approved-adult identity, red hair, expression, outfit, and pose reference."}, {"type": "accessory", "name": "classic tennis racket and court elements", "required": true, "source": "local reference image", "usage": "Preserve racket, net, balls, hedges, and tennis environment."}],
+      "prompt_instructions": "Attach the required approved-adult identity and scene references. Preserve face, hair, joyful expression, tennis outfit, racket, court, golden-hour light, and non-sexualized athletic tone. Replace the identity only with another approved-adult reference; keep wardrobe and environment consistent, with no logos or typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed explicit height and weight measurements and retained only the visible slender, fit athletic styling supported by the source image."]}
+}

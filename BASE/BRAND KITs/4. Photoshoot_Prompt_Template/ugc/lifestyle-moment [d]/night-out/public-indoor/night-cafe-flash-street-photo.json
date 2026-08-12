@@ -1,0 +1,40 @@
+{
+  "name": "night-cafe-flash-street-photo",
+  "tag": ["night-cafe", "flash", "street-photo", "face-reference"],
+  "image_type": "UGC cafe flash portrait",
+  "image_vibe": "raw, calm, authentic, casual",
+  "image_purpose": "Cafe lifestyle and social profile content",
+  "group": "ugc/lifestyle-moment/night-out/public-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic casual direct-flash cafe portrait using the required approved-adult face reference.",
+    "main_subject": "The same approved adult person as the required face reference, standing relaxed slightly right of center with one hand touching the hair at the back of the neck and the other near the hip. The person wears an oversized plain white T-shirt, wide black trousers, white retro sneakers with black stripes, a belt and optional unbranded chain or keys.",
+    "composition_elements": "Vertical full-body portrait from chest-height camera. Include a black metal chair resting on a white backpack with abstract black graphics and no readable text, a beige cafe/lounge with large dark window, wooden bar counter, black chairs, wooden tables and a potted indoor plant.",
+    "lighting_and_atmosphere": "Strong direct camera flash creates defined shadows on beige walls and floor, slight background blur, compact-camera/iPhone spam-photo aesthetic, natural complexion and light grain.",
+    "technical_specs": "Photorealistic vertical cafe snapshot, full-frame camera with 35mm-equivalent lens, direct flash, slight depth of field, realistic skin and clothing texture, subtle grain, no watermark.",
+    "generated_prompt_string": "Create a photorealistic lifestyle editorial portrait in the style of a casual direct-flash street photo at a night cafe, using the same approved adult face and identity as the attached reference image. Preserve the person's face, facial proportions, eye shape, nose, lips, skin tone, age and hairstyle without alteration or beautification. The person stands relaxed slightly right of center beside a black metal chair, one hand touching the back of the neck and the other near the hip, one leg straight and the other slightly bent with heel raised. The person wears an oversized plain white T-shirt, wide black trousers, white retro sneakers with black stripes, a belt and an unbranded chain or keys. The beige cafe has a dark window onto the night, wooden bar counter, black metal chairs, wooden tables and a potted indoor plant. A white backpack with abstract black graphics and no readable text rests under the chair. Strong direct camera flash creates defined wall and floor shadows, slight background blur, natural complexion, light grain and an authentic compact-camera/iPhone spam-photo feel, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, readable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult face and identity reference",
+          "required": true,
+          "source": "Attach the provided local face reference image",
+          "usage": "Preserve the approved adult person's exact face, facial structure, proportions, skin texture, age and hairstyle without alteration or beautification."
+        },
+        {
+          "type": "image",
+          "name": "night-cafe-flash-street-photo composition reference",
+          "required": true,
+          "source": "Attach the provided local composition reference image",
+          "usage": "Match the full-body pose, white T-shirt, wide trousers, sneakers, cafe interior, chair, backpack, flash shadows and casual framing while keeping details replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required face and composition references. Preserve identity exactly, outfit categories, pose, cafe layout, chair/backpack, flash direction and casual mood. Keep person replaceable only with another approved adult reference; keep clothing details, backpack, furniture and environment replaceable, with no readable text or logos."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

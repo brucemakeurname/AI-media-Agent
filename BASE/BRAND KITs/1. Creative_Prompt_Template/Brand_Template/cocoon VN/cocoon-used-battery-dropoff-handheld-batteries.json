@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-used-battery-dropoff-handheld-batteries",
+  "tag": [
+    "battery-recycling",
+    "dropoff-point",
+    "outdoor",
+    "hands",
+    "campaign-signage",
+    "eco-campaign"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Process post",
+  "group": "cocoon_978076007913168",
+  "prompt": {
+    "project_info": {
+      "theme": "How-to drop off used batteries at a Cocoon collection point",
+      "color_palette": "Campaign Green, Black, White, Warm Stone Gray, Soft Yellow"
+    },
+    "main_subject": {
+      "type": "Object/Person",
+      "detail": "A vertical outdoor campaign photo showing a large green-and-black used-battery collection bin from a high front angle, while two hands hold a handful of mixed used batteries over the drop hole beside a green information sign.",
+      "style": "Instructional event photography, realistic campaign documentation, scrapbook sticker embellishments"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'ĐIỂM THU HỒI PIN CŨ', 'TỐI THIỂU 2 VIÊN PIN CŨ (ĐÃ SỬ DỤNG) ĐỔI LẤY', and the circular lid warning beginning '* LƯU Ý'.",
+      "items": [
+        "Top Left: SP University logo and Cocoon logo above the green sign board.",
+        "Top Right: Youth union logo and a pair of hands presenting assorted used batteries, with two yellow sparkle stickers nearby.",
+        "Bottom Left: Large battery collection bin body with giant vertical white text 'ĐIỂM THU HỒI PIN CŨ' and doodle grass stickers at the base.",
+        "Bottom Right: Bin lid graphic showing the minimum 2 used batteries exchange message, arrow icons, and a small pomelo shampoo reward image.",
+        "Center/Background: Green sign board with earth doodle and QR area, stone-paved outdoor ground under strong sunlight."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Direct outdoor sunlight",
+      "effect": "Sharp midday shadows, bright heaty highlights, real event-documentation feel, crisp signage contrast"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity vertical event photography with sticker overlays",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a how-to used battery drop-off campaign. Centerpiece is a tall green-and-black Cocoon collection bin photographed vertically outdoors, with two hands holding a pile of assorted used batteries over the collection opening. Background is stone pavement with a green information sign reading 'ĐIỂM THU HỒI PIN CŨ' and campaign logos across the top. Surrounding elements: SP University logo, youth union logo, lid graphics stating 'TỐI THIỂU 2 VIÊN PIN CŨ (ĐÃ SỬ DỤNG) ĐỔI LẤY', a small pomelo shampoo reward image, sparkles, butterfly sticker, and doodle grass. Keep the exact signage wording, realistic hands, and high-angle documentation crop. Technical style: high fidelity vertical event photography with sticker overlays, direct outdoor sunlight, sharp midday shadows and crisp signage contrast, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "SP University logo and youth union logo",
+          "required": true,
+          "source": "Attach clean logo files or crop them from the original",
+          "usage": "Maintain the partner identity strip at the top of the creative."
+        },
+        {
+          "type": "graphic",
+          "name": "Battery collection sign and lid design",
+          "required": true,
+          "source": "Attach clear crops from the original image",
+          "usage": "Preserve sign wording, QR block, earth doodle, and lid exchange instructions."
+        },
+        {
+          "type": "person",
+          "name": "Hands holding mixed used batteries",
+          "required": true,
+          "source": "Use the original image as pose reference",
+          "usage": "Keep the exact top-right hand pose and pile of varied battery sizes."
+        }
+      ],
+      "prompt_instructions": "Use the original campaign signage and partner logos as reference attachments in gpt-image-2. Ask for a vertical documentary crop with the collection bin dominating the frame and real hands hovering over the opening with used batteries."
+    }
+  }
+}

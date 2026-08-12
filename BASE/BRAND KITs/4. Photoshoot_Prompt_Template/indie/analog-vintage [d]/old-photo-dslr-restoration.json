@@ -1,0 +1,62 @@
+{
+  "name": "old-photo-dslr-restoration",
+  "tag": [
+    "photo-restoration",
+    "family-portrait",
+    "face-preservation",
+    "color-recovery",
+    "damage-repair",
+    "dslr-detail"
+  ],
+  "image_type": "archival-photo-restoration",
+  "image_vibe": "faithful-natural-restored",
+  "image_purpose": "photo-restoration",
+  "group": "indie/analog-vintage",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "faithful professional restoration of an uploaded old family portrait",
+      "color_palette": "source-faithful natural color with neutral whites and realistic skin tones",
+      "format": "match the attached source photograph"
+    },
+    "main_subject": {
+      "type": "people shown in the attached archival photograph",
+      "detail": "Use only the people, identity, age presentation, facial geometry, expression, clothing, pose, and relationship already visible in the attached source image.",
+      "style": "natural DSLR-quality restoration, not a reinterpretation or regeneration"
+    },
+    "composition_elements": {
+      "text": "Preserve only source text if present; do not add, alter, or invent writing.",
+      "items": [
+        "match the original crop and composition",
+        "repair scratches, fading, stains, noise, and paper damage",
+        "retain authentic background, clothing, props, and historical context",
+        "preserve every person exactly as represented in the source"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "reconstruct plausible source-consistent lighting without changing direction or mood",
+      "effect": "balanced natural exposure, recovered shadow detail, restrained color restoration, no artificial glamour"
+    },
+    "technical_specs": {
+      "render_style": "high-resolution non-generative restoration comparable to a Canon EOS R6 Mark II portrait capture, precise face preservation, natural detail recovery, no smoothing",
+      "resolution": "deliver at the source aspect ratio and highest recoverable detail"
+    },
+    "generated_prompt_string": "Restore the attached old photograph into a professional DSLR-quality portrait with natural color and recovered detail. Preserve the exact facial features, identity, age presentation, expression, pose, clothing, background, crop, and relationships of every person in the source image. Repair scratches, fading, stains, noise, blur, and damaged areas conservatively. Improve clarity, tonal balance, and recoverable detail to a level comparable to a Canon EOS R6 Mark II portrait, but keep authentic skin texture, historical character, and the original photographic mood. Do not add people, remove people, alter faces, change clothing, invent details, or modernize the scene beyond faithful restoration.",
+    "negative_prompt": "identity change, face swap, age alteration, added person, removed person, invented clothing, invented background, colorized artifacts, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, text alteration, deformed, extra fingers",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "source-archival-photo",
+          "required": true,
+          "source": "Attach the original old photograph to be restored.",
+          "usage": "This source is mandatory. Preserve all people and their exact visible identity, age presentation, pose, clothing, and relationships."
+        }
+      ],
+      "prompt_instructions": "The original archival photo is mandatory. Do not replace its people or environment. Only restore recoverable technical quality: damage repair, exposure, color, detail, and noise. If a source region is too damaged to verify, preserve uncertainty rather than inventing content."
+    }
+  }
+}

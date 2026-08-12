@@ -1,0 +1,19 @@
+{
+  "name": "minimalist-red-black-tech-portrait",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "menswear", "red-black-tech"],
+  "image_type": "minimal menswear studio portrait",
+  "image_vibe": "modern, composed, cinematic, high-contrast",
+  "image_purpose": "menswear campaign and profile visual",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create an ultra-realistic minimalist studio portrait of one original approved adult man against a deep red background.",
+    "main_subject": "Original approved adult man with clean haircut, short well-groomed beard, calm composed expression and red-tinted rectangular sunglasses. He wears a fitted black turtleneck and faces slightly to the side with a modern technology-founder editorial presence.",
+    "composition_elements": ["Waist-up to chest-up portrait with subject slightly off-center against a deep red studio backdrop.", "Strong black-red contrast, clean negative space and controlled sunglasses reflections.", "Preserve turtleneck, glasses, haircut, expression and minimalist fashion hierarchy."],
+    "lighting_and_atmosphere": "Soft directional key light with subtle fill, gentle face shadows, controlled red reflections in the glasses and cinematic contrast.",
+    "technical_specs": "Photorealistic 4:5 portrait, 85mm lens at f/2.8, shallow depth of field, crisp face, beard, fabric and glasses detail, subtle grain, no text or watermark.",
+    "generated_prompt_string": "Ultra-realistic minimalist menswear portrait of one original approved adult man with a clean haircut, short well-groomed beard, calm composed expression and red-tinted rectangular sunglasses. He wears a fitted black turtleneck and faces slightly to the side against a deep red studio background. Use soft directional lighting, subtle face shadows, controlled red reflections, high contrast between black outfit and red backdrop, 85mm lens at f/2.8, 4:5 editorial framing, no text or watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "extra fingers", "deformed", "text", "logo"],
+    "reference_elements": {"assets": [{"type": "person", "name": "minimalist-red-black-tech-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult face, hair, beard, expression, glasses and pose."}, {"type": "wardrobe", "name": "fitted black turtleneck and red-tinted rectangular sunglasses", "required": true, "source": "local reference image", "usage": "Preserve supplied clothing, glasses, color and styling."}, {"type": "background", "name": "deep red studio backdrop", "required": true, "source": "local reference image", "usage": "Preserve red background, contrast, negative space and mood."}], "prompt_instructions": "Attach all required person, wardrobe and background references; no optional assets are needed. Keep approved-adult identity, outfit, glasses, pose, environment, lighting and typography consistent. Replace only with an equivalent approved adult, supplied wardrobe or studio. Typography is not applicable; do not add text, logos or watermark."}
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

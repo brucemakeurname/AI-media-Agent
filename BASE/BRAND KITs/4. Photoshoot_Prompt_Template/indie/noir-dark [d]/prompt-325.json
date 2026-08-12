@@ -1,0 +1,66 @@
+{
+  "name": "prompt-325",
+  "tag": [
+    "adult-woman",
+    "black-knit-set",
+    "lamppost-pose",
+    "european-city",
+    "monochrome-street-style"
+  ],
+  "image_type": "street-style-fashion-portrait",
+  "image_vibe": "effortless-chic-sophisticated",
+  "image_purpose": "social-editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult and used curvy-silhouette, fitted-knit, and flattering-light language while preserving the street-style pose, black ribbed set, European architecture, and monochrome editorial intent."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "effortless chic monochrome European street-style portrait",
+      "color_palette": "dominant black, light stone gray, muted charcoal, and soft neutral skin tones",
+      "aspect_ratio": "2:3"
+    },
+    "main_subject": {
+      "description": "A stylish adult woman with a curvy feminine silhouette, long wavy dark hair falling naturally over one shoulder, natural skin texture, and a gentle soft expression.",
+      "wardrobe": "Fitted sleeveless black ribbed-knit top with a flattering neckline, matching short ribbed-knit skirt, and black slingback high heels.",
+      "pose": "Leaning with her back against a dark ornate metal lamppost on the left side of frame, one leg bent and lifted behind her, looking slightly away from camera."
+    },
+    "composition_elements": {
+      "framing": "Eye-level medium full-body side portrait with the subject and lamppost clearly separated from a creamy bokeh background.",
+      "environment": "European city square or wide pedestrian street with classical light-stone buildings, indistinct distant pedestrians, and light stone pavers; no text or logos.",
+      "focus": "Sharp adult subject, ribbed knit texture, metal lamppost ornament, heels, and realistic stone surface."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft diffused overcast daylight or open shade with even flattering illumination and realistic shadows enhancing the fitted silhouette.",
+      "atmosphere": "Chic, relaxed, sophisticated, and quietly cinematic."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with an 85mm lens at f/1.4, 1/250 s, ISO 200",
+      "quality": "Hyper-realistic photorealistic detail, shallow depth of field, creamy bokeh, natural skin, crisp ribbed knit, and subtle monochrome grain"
+    },
+    "generated_prompt_string": "Create a hyper-realistic 2:3 monochrome street-style fashion portrait of a stylish adult woman with a curvy feminine silhouette, long wavy dark hair falling over one shoulder, natural skin texture, and a gentle soft expression. She wears a fitted sleeveless black ribbed-knit top with a flattering neckline, a matching short ribbed-knit skirt, and black slingback high heels. Pose her leaning with her back against a dark ornate metal lamppost on the left side of frame, one leg bent and lifted behind her, looking slightly away from camera. Set the scene in a European city square with classical light-stone buildings, indistinct distant pedestrians, and light stone pavers. Use soft diffused overcast daylight or open shade, even flattering illumination, realistic shadows enhancing her fitted silhouette, an 85mm lens at f/1.4, creamy bokeh, crisp knit texture, and no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, readable text, logo, watermark, plastic skin, over-smooth skin, harsh sunlight, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult subject. Optional knit set, lamppost, architecture, or lighting references may replace only their named element; preserve the curvy silhouette, fitted knit styling, lifted-leg pose, and chic monochrome street mood without explicit body-part wording.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "fitted-black-ribbed-knit-set-and-heels",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the adult subject's knit top, skirt, and heels while preserving the polished fitted silhouette."
+        },
+        {
+          "type": "location",
+          "name": "european-stone-square-ornate-lamppost",
+          "required": false,
+          "source": "user-uploaded location reference",
+          "usage": "Replace only the lamppost, stone buildings, pavers, and distant pedestrian ambience; remove readable text."
+        }
+      ]
+    }
+  }
+}

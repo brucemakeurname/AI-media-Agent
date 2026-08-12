@@ -1,0 +1,48 @@
+{
+  "name": "vinamilk-nguyen-quang-tri-global-dairy-quote",
+  "tag": ["vinamilk", "executive", "global-dairy-congress", "quote", "speaker"],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Quote",
+  "group": "vinamilk_1631187911307790",
+  "prompt": {
+    "project_info": {
+      "theme": "Executive quote card from Global Dairy Congress 2026",
+      "color_palette": "Purple, white, black, soft conference beige, floral accent colors"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A real conference photo of a middle-aged Asian male executive speaking at a lectern with a microphone. The podium front reads 'GLOBAL DAIRY CONGRESS 2026' and 'Fit for purpose'. Lower-left text identifies him as 'Ông Nguyễn Quang Trí' and 'Giám đốc Điều hành khối Marketing'. A long quotation reads 'Vinamilk Optimum A2 Pro+ được ra đời nhằm nâng cao chuẩn dinh dưỡng cho trẻ em Việt, dựa trên nền tảng khoa học thực chứng và nguồn cảm hứng từ dưỡng chất “vàng” trong sữa Mẹ.'",
+      "style": "Editorial conference portrait adapted into branded quote-card social creative"
+    },
+    "composition_elements": {
+      "type": "Background Elements",
+      "text": "GLOBAL DAIRY CONGRESS 2026; Fit for purpose; Ông Nguyễn Quang Trí; Giám đốc Điều hành khối Marketing; Vinamilk Optimum A2 Pro+ được ra đời nhằm nâng cao chuẩn dinh dưỡng cho trẻ em Việt, dựa trên nền tảng khoa học thực chứng và nguồn cảm hứng từ dưỡng chất “vàng” trong sữa Mẹ.",
+      "items": [
+        "Top Left: Out-of-focus conference backdrop and microphone arm",
+        "Top Right: Soft blurred stage wall and the edge of a floral doodle accent",
+        "Bottom Left: White name caption and long italic quote block",
+        "Bottom Right: Hand-drawn floral corner decoration in green, orange, and purple",
+        "Center/Background: Real speaker at a purple lectern in a conference environment"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft indoor conference lighting",
+      "effect": "Shallow depth of field, gentle stage highlights, documentary realism with social-card overlay"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal event photography with branded editorial overlay",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square quote-card social poster for a Vinamilk executive statement at Global Dairy Congress 2026. Centerpiece is a photoreal conference photo of a middle-aged Asian male executive speaking at a purple lectern with the exact visible podium text 'GLOBAL DAIRY CONGRESS 2026' and 'Fit for purpose'. Include the exact lower-left text 'Ông Nguyễn Quang Trí', 'Giám đốc Điều hành khối Marketing', and the full quote 'Vinamilk Optimum A2 Pro+ được ra đời nhằm nâng cao chuẩn dinh dưỡng cho trẻ em Việt, dựa trên nền tảng khoa học thực chứng và nguồn cảm hứng từ dưỡng chất “vàng” trong sữa Mẹ.'. Background is a softly blurred conference stage. Surrounding elements: microphone arm, podium, white text overlays, and a floral corner illustration. Technical style: photoreal event photography with branded editorial overlay, soft indoor conference lighting, shallow depth of field and gentle stage highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "Nguyễn Quang Trí photo reference", "required": true, "source": "real speaker photo reference required", "usage": "Preserve face, glasses, suit, and speaking pose"},
+        {"type": "location", "name": "Global Dairy Congress 2026 podium", "required": true, "source": "original event photo", "usage": "Maintain the purple lectern and conference microphone setup"},
+        {"type": "text_layout", "name": "Name, title, and quote overlay", "required": true, "source": "original creative copy", "usage": "Keep the full Vietnamese wording intact and legible"},
+        {"type": "graphic", "name": "Floral corner illustration", "required": false, "source": "recreated decorative overlay", "usage": "Match the branded quote-card embellishment in the bottom-right corner"}
+      ],
+      "prompt_instructions": "This should remain a real-photo corporate quote card. Do not replace the speaker with a synthetic generic businessman. Preserve the podium text, the exact Vietnamese name/title/quote, and the soft conference bokeh."
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "ysl-lipstick-rpc-holiday-2022-os-gift-offer",
+  "tag": [
+    "ysl",
+    "lipstick",
+    "holiday-2022",
+    "gift-with-purchase",
+    "luxury-beauty"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "ysl_1886877955182621",
+  "prompt": {
+    "project_info": {
+      "theme": "YSL Holiday 2022 lipstick offer with skincare gifts",
+      "color_palette": "Black, champagne gold, cream beige, red-orange, soft blush"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A premium lipstick-offer poster with a Holiday 2022 YSL lipstick standing beside its decorative gold box on the left, and two small skincare gift items on the right. The top text reads 'SON MÔI RPC HOLIDAY 2022 OS'. Round badges say 'MUA 1.140K' and 'TẶNG 466K'. Lower copy says 'KEM LÓT NÂNG TÔNG TOP SECRETS INSTANT TONE UP ROSYLIGHT' and 'HYDRA BOUNCE LOTION 10ML'.",
+      "style": "Luxury retail makeup offer poster with festive gold packaging and clean cosmetics merchandising"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "YvesSaintLaurent BEAUTÉ; SON MÔI RPC HOLIDAY 2022 OS; MUA 1.140K; TẶNG 466K; KEM LÓT NÂNG TÔNG TOP SECRETS INSTANT TONE UP ROSYLIGHT; HYDRA BOUNCE LOTION 10ML",
+      "items": [
+        "Top Left: YSL Beauté logo and gold offer headline",
+        "Top Right: Cream-gold circular gift-value badge 'TẶNG 466K'",
+        "Bottom Left: Holiday 2022 lipstick and patterned gold lipstick box near the 'MUA 1.140K' badge",
+        "Bottom Right: Two skincare mini products arranged on a bronze display cube",
+        "Center/Background: Black luxury backdrop with layered cream and bronze product podium blocks"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Luxury retail studio lighting",
+      "effect": "Glossy gold reflections, sharp product edges, soft highlight bloom, premium black-background contrast"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal luxury cosmetics advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury cosmetics offer poster for YSL Beauté. Centerpiece is a Holiday 2022 YSL lipstick and matching gold-patterned box on the left, with two skincare gift miniatures on the right. Include the exact text 'SON MÔI RPC HOLIDAY 2022 OS', 'MUA 1.140K', 'TẶNG 466K', 'KEM LÓT NÂNG TÔNG TOP SECRETS INSTANT TONE UP ROSYLIGHT', and 'HYDRA BOUNCE LOTION 10ML'. Background is a black luxury display with cream and bronze podium blocks. Technical style: photoreal luxury cosmetics advertising composite, luxury retail studio lighting, glossy gold reflections and premium contrast, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Yves Saint Laurent Beauté logo",
+          "required": true,
+          "source": "original branding",
+          "usage": "Top logo lockup"
+        },
+        {
+          "type": "product",
+          "name": "Holiday 2022 YSL lipstick and box",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Match the bullet shade, patterned festive gold casing, and retail box design"
+        },
+        {
+          "type": "product",
+          "name": "Top Secrets Rosylight and Hydra Bounce Lotion minis",
+          "required": true,
+          "source": "real product references required",
+          "usage": "Use as the two right-side gift items"
+        },
+        {
+          "type": "graphic",
+          "name": "Luxury cream and bronze podium blocks",
+          "required": true,
+          "source": "original layout",
+          "usage": "Preserve the stepped display system under the products"
+        }
+      ],
+      "prompt_instructions": "The visible 'HOLIDAY 2022' reference is in the past relative to Friday, July 17, 2026. Recreate the artwork exactly as an archival retail offer board without updating the collection year."
+    }
+  }
+}

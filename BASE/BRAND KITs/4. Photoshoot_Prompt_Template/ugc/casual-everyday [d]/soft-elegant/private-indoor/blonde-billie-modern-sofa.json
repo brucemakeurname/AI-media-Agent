@@ -1,0 +1,51 @@
+{
+  "name": "blonde-billie-modern-sofa",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "private-indoor", "blonde", "sofa", "lazy-luxury"],
+  "image_type": "photorealistic lifestyle portrait",
+  "image_vibe": "soft-glam, warm, relaxed, upscale modern",
+  "image_purpose": "instagram-feed",
+  "group": "casual-everyday/soft-elegant/private-indoor",
+  "prompt": {
+    "project_info": "Photorealistic vertical 9:16 portrait at a 3840x2160 target resolution, natural warm D65 color treatment, realistic path-traced rendering.",
+    "main_subject": "One original adult woman with bleached-blonde long messy-chic waves, symmetrical center part, visible individual strands, soft-glam makeup with sharp feline winged eyeliner, nude-beige eyeshadow, clear high-shine lip gloss, natural pore-level skin detail and a soft matte finish. She wears a black micro-ribbed elastane bandeau crop top, a high-waisted black silk-blend skirt with a thigh-high left-side slit and ruched side knot, layered gold-plated chains with small circular pendants, and a thin gold chain bracelet on her right wrist. Do not reproduce Billie Eilish or any other public-figure likeness.",
+    "composition_elements": "Reclined on a beige oversized sectional, leaning weight on the right armrest. The right hand is flattened on the sofa cushion and the left hand rests relaxed on the upper thigh. Direct-to-lens eye contact with a soft gaze. Upscale modern living room with eggshell warm-yellow walls, floor-to-ceiling mirrored panels with subtle edge beveling, heavy-weave linen sofa fabric, earth-tone kilim-patterned throw pillows, and mirrored reflections of minimalist kitchen cabinetry, a stainless-steel refrigerator, a wooden dining set, and modern cylindrical black pendant lights.",
+    "lighting_and_atmosphere": "Warm 3000K ceiling track lighting combined with directional natural daylight from a side window. Soft contact shadows, minimal harsh edges, warm quiet-luxury atmosphere, and soft-orb bokeh in the mirrored highlights.",
+    "technical_specs": "35mm wide-angle lens, f/2.8 shallow depth of field, pin-sharp focus on the eyes, realistic hair and fabric texture, clean vertical social-media framing.",
+    "generated_prompt_string": "Photorealistic vertical 9:16 portrait of an original adult blonde woman reclining on a beige oversized sectional in an upscale modern living room. Bleached-blonde long messy-chic waves, soft-glam makeup, black micro-ribbed bandeau crop top, high-waisted black silk-blend skirt with a left thigh-high slit and ruched side knot, layered gold chains and a thin bracelet. Warm yellow eggshell walls, floor-to-ceiling beveled mirrors reflecting minimalist kitchen cabinetry, stainless-steel refrigerator and wooden dining set, earth-tone kilim pillows, black cylindrical pendant lights. Warm 3000K track lighting with side daylight, soft contact shadows, 35mm lens, f/2.8, sharp eyes, realistic skin and textile detail, relaxed upscale lazy-luxury mood. No public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Billie Eilish likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed anatomy, text, logo",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "blonde-billie-modern-sofa.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the supplied blonde hair, black outfit, sofa pose, modern living-room setting, lighting, and camera direction; use an original adult subject rather than a named person's likeness."
+        },
+        {
+          "type": "source_url",
+          "name": "original prompt post",
+          "required": false,
+          "source": "https://x.com/chatgptpaglu/status/2018277620291408232",
+          "usage": "Context only; local prompt text is authoritative."
+        },
+        {
+          "type": "image_asset",
+          "name": "1774980999844-0aona04r-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1774980999844-0aona04r-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "Use the existing prompt and folder context as the source of truth. The prompt-source asset is required; the source URL and image asset are optional context. Keep the outfit, pose, environment, lighting, and photographic treatment consistent; only identity is replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Billie Eilish's named high-likeness identity with an original adult woman.",
+      "Added required safety exclusions and AI-artifact negatives.",
+      "Preserved the source clothing, pose, environment, lighting, and lazy-luxury creative direction using text-only adaptation."
+    ]
+  }
+}

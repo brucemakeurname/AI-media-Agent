@@ -1,0 +1,70 @@
+{
+  "name": "black-hair-blue-eyes-film-photo",
+  "tag": [
+    "adult-woman",
+    "analog-print",
+    "black-hair",
+    "blue-eyes",
+    "green-corduroy",
+    "wood-table"
+  ],
+  "image_type": "tangible-film-print-portrait",
+  "image_vibe": "nostalgic-raw-melancholic",
+  "image_purpose": "moodboard",
+  "group": "indie/analog-vintage",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "physical expired-film portrait print on a scratched wooden table",
+      "color_palette": "faded emerald, warm wood brown, pale skin, muted cream, subtle green-magenta tint",
+      "format": "portrait print within a square tabletop composition"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with tousled shoulder-length jet-black hair, pale freckled skin, clear ice-blue eyes, a faint confident almost-smile, and a worn faded-emerald corduroy jacket over a dark T-shirt.",
+      "style": "medium close-up rendered inside a tangible 35mm print"
+    },
+    "composition_elements": {
+      "text": "No rendered text, logo, or watermark.",
+      "items": [
+        "matte off-white-bordered photographic print resting flat on scratched warm wooden table",
+        "medium close-up adult portrait inside the print",
+        "blurred cafe or bohemian apartment interior with warm wood and plants inside photo",
+        "optional ceramic coffee cup partly outside print",
+        "soft worn print corners and physical paper texture"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft side window light at approximately 5000K",
+      "effect": "gentle cheekbone shadow, subtle warm-earthy tones, tangible aged-paper feel, raw nostalgic calm"
+    },
+    "technical_specs": {
+      "render_style": "Kodak Portra 400 35mm film slightly expired, 50mm lens at f/2, heavy natural grain, matte print texture, slight green-magenta shift",
+      "resolution": "high resolution tangible print scene"
+    },
+    "generated_prompt_string": "Create a tangible physical analog film photograph print resting flat on a scratched textured wooden table. Inside the matte off-white-bordered print is a medium close-up portrait of an adult woman with tousled shoulder-length jet-black hair, very pale skin with natural freckles, clear ice-blue eyes, a faint confident almost-smile, and a worn faded-emerald corduroy jacket over a dark T-shirt. The interior behind her is a softly blurred vintage cafe or bohemian apartment with warm wood and plants. Use soft natural side window light. Make the image feel like a slightly expired Kodak Portra 400 35mm print with heavy natural grain, warm earthy desaturation, subtle green-magenta tint, matte paper texture, and slightly worn corners. No readable text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, glossy digital paper, clean perfect edges",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-film-portrait-reference",
+          "required": false,
+          "source": "Attach an authorized adult reference when facial identity must match.",
+          "usage": "Preserve adult face, black hair, and eye color if supplied; otherwise use a generic adult subject."
+        },
+        {
+          "type": "background",
+          "name": "matte-film-print-on-wood-reference",
+          "required": false,
+          "source": "Attach a tabletop or print reference when exact paper edge, wood texture, or coffee prop matters.",
+          "usage": "Keep physical matte print and worn wood relationship; elements may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve an adult portrait inside a real tangible analog print, black hair and blue eyes, faded green corduroy, matte paper, and scratched wood setting. Identity and tabletop elements can be replaced independently."
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "name": "badass-striped-polo-gift-box",
+  "tag": [
+    "striped polo",
+    "product styling",
+    "gift box",
+    "premium packaging",
+    "menswear display",
+    "brand packaging"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Product demos",
+  "group": "badass_4709131059374056",
+  "prompt": {
+    "project_info": {
+      "theme": "Premium striped polo and packaging display",
+      "color_palette": "White, black, gray, dark brown wood, deep green"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A premium tabletop product styling scene featuring two folded striped polos standing upright beside stacked BADASS gift boxes, staged against a dark vertical slat wall with warm sunlight.",
+      "style": "Photorealistic premium packaging still life, luxury menswear merchandising, clean tabletop styling"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "BADASS, SLOW FASHION, POKTK740",
+      "items": [
+        "Left: two stacked white BADASS boxes, one upright and one flat, with subtle 'SLOW FASHION' text and green ribbon detail.",
+        "Center Right: two folded striped polos standing upright, one gray-white striped with white collar and one black-white striped with black collar.",
+        "Top Right: white BADASS wordmark on the dark slat background.",
+        "Bottom Left: small white product code 'POKTK740'.",
+        "Background: dark vertical wooden slat wall and dark wood tabletop catching directional sunlight."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Directional natural sunlight",
+      "effect": "Warm shadow bands, crisp highlights on fabric texture and box edges, upscale boutique product mood"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic premium product still life",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "folded striped polos",
+          "required": true,
+          "source": "source image apparel reference",
+          "usage": "Use to preserve stripe spacing, collar colors, fold angles, and standing presentation."
+        },
+        {
+          "type": "product",
+          "name": "BADASS packaging boxes",
+          "required": true,
+          "source": "source image packaging reference",
+          "usage": "Maintain box proportions, BADASS branding, SLOW FASHION text, and green ribbon detail."
+        },
+        {
+          "type": "text_layout",
+          "name": "BADASS / SLOW FASHION / POKTK740 text",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Preserve the small visible product code and packaging branding."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image for exact fold styling, box placement, and stripe pattern fidelity.",
+        "Keep visible text exactly where readable, especially 'BADASS', 'SLOW FASHION', and 'POKTK740'.",
+        "Preserve the warm sunlight and dark slat backdrop because they define the premium mood."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square premium menswear product still life. Create a dark wood tabletop scene against a dark vertical slat wall with warm directional sunlight. On the left place two stacked white BADASS gift boxes, one upright and one flat, with subtle 'SLOW FASHION' text and a deep green ribbon detail. On the right place two folded striped polos standing upright: one gray-white striped with a white collar and one black-white striped with a black collar. Add a white BADASS wordmark in the upper-right corner and small white product code text 'POKTK740' in the lower-left corner. Technical style: photorealistic premium product still life, directional natural sunlight, crisp fabric texture, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, low resolution, distorted folds, wrong stripe spacing, incorrect branding, cluttered props, flat lighting, watermark, signature, noisy textures"
+  }
+}

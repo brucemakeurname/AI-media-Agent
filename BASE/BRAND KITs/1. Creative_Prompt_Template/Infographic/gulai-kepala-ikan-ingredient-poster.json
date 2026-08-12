@@ -1,0 +1,66 @@
+{
+    "name":  "gulai-kepala-ikan-ingredient-poster",
+    "tag":  [
+                "Indonesian food",
+                "fish curry",
+                "Gulai Kepala Ikan",
+                "floating ingredients",
+                "culinary poster"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Infographics",
+    "group":  "infographic_indonesian_food",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Gulai Kepala Ikan from Padang ingredient poster",
+                                        "color_palette":  "Turmeric gold, curry yellow, black typography, fish pink, leaf green"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Food",
+                                        "detail":  "A whole fish head in rich yellow curry fills a round clay bowl at the bottom, while a raw fish head and aromatics hover above inside a curling curry splash.",
+                                        "style":  "Ultra-real food advertising with warm golden studio light and poster-like Indonesian ingredient labels"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Floating food ingredients and curved labels",
+                                                "text":  "GULAI KEPALA IKAN; ASAL: PADANG, SUMATERA BARAT; BUNGA KECOMBRANG; KUNYIT; KEPALA KAKAP; KUAH GULAI; LENGKUAS; ASAM KANDIS; DAUN KARI",
+                                                "items":  [
+                                                              "Top: bold black dish title and origin on textured mustard-yellow background.",
+                                                              "Middle: floating snapper head, turmeric, torch ginger, galangal, asam kandis, curry leaves, and a dynamic yellow curry splash.",
+                                                              "Around ingredients: curved black arrows and bold Indonesian labels.",
+                                                              "Bottom: steaming clay bowl with cooked fish head in glossy curry."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Rich golden studio lighting",
+                                                   "effect":  "Appetizing curry sheen, shallow depth, visible steam, clean dramatic negative space"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Professional ultra-realistic food photography infographic",
+                                           "resolution":  "8k resolution, highly detailed, vertical format"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "Gulai Kepala Ikan recipe and plated reference",
+                                                                 "required":  true,
+                                                                 "source":  "approved regional recipe and food styling reference",
+                                                                 "usage":  "Preserve authentic fish, curry, herbs, bowl, and regional ingredient treatment."
+                                                             },
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "Indonesian ingredient callouts",
+                                                                 "required":  true,
+                                                                 "source":  "source preview",
+                                                                 "usage":  "Maintain curved label-arrow system and top-to-bottom hierarchy."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach an authentic food reference and verify all Indonesian wording.",
+                                                                          "Use the image only as a layout reference; typeset final labels after native-language review."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "{ \"image_prompt\": { \"type\": \"Ultra-realistic Indonesian traditional food infographic poster\", \"layout_and_composition\": { \"orientation\": \"Vertical composition\", \"style\": \"Modern culinary infographic design, editorial layout\", \"background\": \"Dramatic but clean background\" }, \"typography_elements\": { \"headline\": { \"position\": \"Top\", \"style\": \"Bold text showing dish name and origin (ASAL)\" }, \"labels\": { \"style\": \"Clean Indonesian typography\", \"connectors\": \"Curved label arrows pointing to ingredients\" } }, \"visual_content\": { \"main_action\": \"Cinematic floating ingredients suspended in mid-air\", \"details\": [\"Glossy curry splash\", \"Fresh herbs\", \"Spices\", \"Steam rising from the bowl\"], \"textures\": \"Hyper-detailed, glossy, appetizing\" }, \"lighting_and_atmosphere\": { \"lighting_style\": \"Rich golden lighting, studio lighting\", \"mood\": \"Professional, appetizing, high-end\" }, \"technical_specs\": { \"quality\": \"8K ultra-realistic, DSLR quality\", \"focus\": \"Shallow depth of field\", \"style\": \"Professional food photography\" } } }",
+                   "negative_prompt":  "wrong fish species, inauthentic curry, muddy sauce, garbled Indonesian labels, weak composition, low resolution, watermark, signature"
+               }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "sunlit-hyper-realistic-portrait",
+  "tag": ["adult-woman", "bedroom", "morning-light", "ivory-bedding", "blonde-waves", "portrait"],
+  "image_type": "editorial-portrait",
+  "image_vibe": "sunlit-quiet",
+  "image_purpose": "moodboard",
+  "group": "indie/low-fi-dreamy/golden-warm",
+  "prompt": {
+    "project_info": "A quiet morning bedroom portrait with side-window chiaroscuro and ivory linen texture.",
+    "main_subject": "An adult woman with a feminine silhouette, long natural blonde waves, subtle peach-rose makeup, and visible natural skin texture, seated on a bed and holding a large ivory duvet. She wears the source-inspired warm beige satin camisole with a flattering neckline.",
+    "composition_elements": "Vertical waist-up close portrait; bed and ivory duvet fill the lower frame, a dark neutral room recedes behind her, and all text, logos, and watermarks are absent.",
+    "lighting_and_atmosphere": "Strong side-window morning light at 4700K creates defined highlights, soft shadows enhancing the feminine silhouette, and sunlight highlighting shoulders and chest area. Preserve pores, flyaway hairs, linen wrinkles, muted gold/ivory palette, and natural grain.",
+    "technical_specs": "35mm lens at f/1.8, vertical 3:4 crop, shallow depth of field, filmic highlight roll-off, realistic perspective, subtle 35mm grain.",
+    "generated_prompt_string": "Hyper-realistic close portrait of an adult woman with a feminine silhouette sitting on a bed and holding a large fluffy ivory duvet, long naturally wavy blonde hair, subtle peach-rose makeup, visible natural skin texture, and a warm beige satin camisole with a flattering neckline. Strong natural morning sunlight from a side window creates pronounced chiaroscuro, sunlight highlighting shoulders and chest area, and realistic shadows enhancing curves; ivory bedding, dark neutral room, realistic linen wrinkles, shallow depth of field, 35mm f/1.8, vertical framing, no text, logos, or watermarks.",
+    "negative_prompt": "explicit, nsfw, overly revealing, lingerie, sexualized pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers, deformed hands",
+    "reference_elements": {"prompt_instructions": "Attach the approved adult face reference when supplied and preserve face, facial structure, and likeness exactly. Preserve the beige satin camisole, duvet-holding pose, ivory bedding, and side-window light; the room and bedding may be replaced through approved references.", "assets": [{"type":"person","name":"approved-adult-bedroom-face-reference","required":true,"source":"provided face reference when available","usage":"Preserve the approved adult face, facial structure, and likeness exactly; never substitute a celebrity."},{"type":"wardrobe","name":"beige-satin-camisole-reference","required":false,"source":"attach when wardrobe continuity is needed","usage":"Preserve the source-inspired satin camisole and flattering neckline."},{"type":"background","name":"ivory-bedroom-window-reference","required":false,"source":"attach when setting continuity is needed","usage":"Preserve linen and side-light direction without branding."}]}
+  },
+  "policy_review": {"status":"remediated","changes":["Made the subject explicitly adult.","Retained the satin camisole and duvet pose using feminine-silhouette and directional-light wording rather than explicit body descriptions.","Removed watermark instruction and retained approved-adult face-reference support."]}
+}

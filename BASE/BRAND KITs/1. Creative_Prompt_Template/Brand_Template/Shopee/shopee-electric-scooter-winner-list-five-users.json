@@ -1,0 +1,70 @@
+{
+  "name": "shopee-electric-scooter-winner-list-five-users",
+  "tag": [
+    "winner-list",
+    "ugc-proof",
+    "campaign-recap",
+    "electric-scooter"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "User content",
+  "group": "shopee_1504522928361196",
+  "prompt": {
+    "project_info": {
+      "theme": "Winner list recap for Shopee electric scooter campaign",
+      "color_palette": "Dark stage red, orange, gold, white"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A winner-announcement board with the giant title 'DANH SACH TRUNG THUONG'. Five user-submitted portraits are shown inside glowing orange-red frames, each holding up a phone screenshot. Visible names are 'THANH TAI', 'HAU LUONG', 'NGUYEN UYEN', 'LIG MY', and 'NHI MAI'. Bottom CTA line says 'VAN CON NHIEU XE MAY DIEN DANG CHO CHU, VAO SHOPEE LAY NGAY!'.",
+      "style": "Prize-recap collage with framed user photos, stage backdrop, and celebratory reward-show design"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "DANH SACH TRUNG THUONG / THANH TAI / HAU LUONG / NGUYEN UYEN / LIG MY / NHI MAI / VAN CON NHIEU XE MAY DIEN DANG CHO CHU, VAO SHOPEE LAY NGAY!",
+      "items": [
+        "Top Left: White Shopee logo under stage spotlights",
+        "Top Right: Orange discount ticket and warm stage particles",
+        "Bottom Left: Orange Shopee shopping bag icon and gold statuette silhouette",
+        "Bottom Right: Matching gold statuette silhouette and another Shopee bag icon",
+        "Center/Background: Five framed user photos on a dark red stage background with overhead light beams and glowing orange card frames"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Stage recap lighting",
+      "effect": "Spotlight beams, warm orange glow, framed-photo highlights, celebratory show ambience"
+    },
+    "technical_specs": {
+      "render_style": "Photo-collage campaign recap poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee campaign winner recap. Centerpiece is a collage of five user portraits inside glowing orange-red frames, each person holding a phone screenshot, under the title 'DANH SACH TRUNG THUONG'. Background is a dark red stage with overhead spotlights and floating promo icons. Surrounding elements: Shopee logo top left, orange discount tickets, gold statuette silhouettes, Shopee bag icons, name plaques 'THANH TAI', 'HAU LUONG', 'NGUYEN UYEN', 'LIG MY', 'NHI MAI', and bottom line 'VAN CON NHIEU XE MAY DIEN DANG CHO CHU, VAO SHOPEE LAY NGAY!'. Technical style: photo-collage campaign recap poster, stage lighting, warm glow, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Five winner selfie/reference photos",
+          "required": true,
+          "source": "original user-submitted photos shown in the creative",
+          "usage": "Attach if exact likeness and the phone-screen proof shots are required"
+        },
+        {
+          "type": "ui_reference",
+          "name": "Phone-screen reward claim screenshots",
+          "required": true,
+          "source": "screens visible in the users' phones",
+          "usage": "Use if the exact reward-claim interface on the phones must be preserved"
+        },
+        {
+          "type": "text_layout",
+          "name": "Winner list collage layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the five-card arrangement, names, headline, and bottom CTA line"
+        }
+      ],
+      "prompt_instructions": "This creative functions as social proof and recap. Preserve the real-user-photo feel instead of beautifying or stylizing the faces. Maintain the exact names and the five-frame arrangement."
+    }
+  }
+}

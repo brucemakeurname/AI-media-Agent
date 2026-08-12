@@ -1,0 +1,65 @@
+{
+  "name": "vertical-glass-influencer-portrait",
+  "tag": [
+    "adult-woman",
+    "reeded-glass",
+    "optical-refraction",
+    "red-and-silver",
+    "moody-portrait"
+  ],
+  "image_type": "architectural-glass-portrait",
+  "image_vibe": "moody-enchanting-optical",
+  "image_purpose": "creative-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "source_url": "https://x.com/BrentLynch/status/2010858394052411454",
+  "policy_review": {
+    "status": "pass",
+    "changes": [
+      "The source already identifies an adult subject and contains no unsafe content; it was expanded into the required structured template with reference replacement support."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult portrait through vertically reeded architectural glass",
+      "color_palette": "muted red, silver, charcoal, and warm natural skin tones",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult woman in her thirties with medium-length dark brown hair, calm expression, natural skin texture, and a covered charcoal blouse.",
+      "pose": "Standing close behind reeded glass, facing camera with relaxed shoulders and hands outside the frame."
+    },
+    "composition_elements": {
+      "framing": "Vertical head-and-shoulders portrait entirely obscured by medium vertical glass grooves from edge to edge.",
+      "optics": "Real physical light refraction creates vertical repetitions and displacement of the face; there are no unobstructed clear-glass areas."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Moody diffused red and silver side lighting passing through the architectural glass.",
+      "atmosphere": "Enchanting, tactile, restrained, and cinematic."
+    },
+    "technical_specs": {
+      "render_style": "photoreal optical portrait photography",
+      "quality": "true glass refraction, realistic grooves, soft depth, natural skin, no digital glitch effect"
+    },
+    "generated_prompt_string": "Create a photoreal 4:5 head-and-shoulders portrait of an adult woman in her thirties, viewed entirely through vertically reeded architectural glass. She has medium-length dark brown hair, a calm expression, natural skin texture, and a covered charcoal blouse. The glass has medium grooves running top to bottom across the entire frame, with no unobstructed areas. Use true physical light refraction to create vertical repetitions and displacement of her face, rather than a digital glitch. Light with moody diffused red and silver side light, retain realistic glass texture and soft depth, and exclude text, logos, and watermarks.",
+    "negative_prompt": "minor, unobstructed clear glass, digital glitch, readable text, logo, watermark, nudity, explicit, nsfw, overly revealing clothing, plastic skin, distorted anatomy",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use them only to replace adult hairstyle, glass groove pattern, or red-silver lighting; do not copy identity or branding.",
+      "assets": [
+        {
+          "type": "material_reference",
+          "name": "vertical-reeded-architectural-glass",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace groove width, glass opacity, and refraction strength."
+        },
+        {
+          "type": "lighting_reference",
+          "name": "moody-red-silver-side-light",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace red-silver color balance and side-light direction."
+        }
+      ]
+    }
+  }
+}

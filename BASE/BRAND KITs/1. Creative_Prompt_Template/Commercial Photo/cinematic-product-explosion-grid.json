@@ -1,0 +1,82 @@
+{
+    "name":  "cinematic-product-explosion-grid",
+    "tag":  [
+                "product demo",
+                "action advertising",
+                "product explosion",
+                "cinematic 3D",
+                "viral campaign",
+                "brand logo"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Product demos",
+    "group":  "commercial_product_explosion",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "High-energy product explosion campaign",
+                                        "color_palette":  "Deep black, product-specific neon accents, high-contrast highlight colors"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A four-panel grid demonstrates the template with exploding Cheetos, Coca-Cola, PF Chang’s dish and neon running shoes, each captured in a dramatic product-specific action burst.",
+                                        "style":  "Cinematic hyperreal 3D action advertising"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Product/Particles/Logo/Slogan",
+                                                "text":  "UNLEASH THE CHEETLE; TASTE THE EXPLOSION.; FLAVOR UNLEASHED.; IGNITE YOUR PACE",
+                                                "items":  [
+                                                              "Upper left: snack explosion and product-element logo.",
+                                                              "Upper right: chilled soda can breaks through ice and liquid.",
+                                                              "Lower left: plated food burst in dark red restaurant space.",
+                                                              "Lower right: running shoes surge through neon-green energy and particles."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Bold dramatic studio lighting",
+                                                   "effect":  "Intense specular highlights, deep shadows, frozen particles, slow-motion impact and wet reflective ground"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Hyper-detailed cinematic 3D commercial render",
+                                           "resolution":  "1:1 square"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "hero product",
+                                                                 "required":  true,
+                                                                 "source":  "exact approved product reference",
+                                                                 "usage":  "Preserve packaging, proportions and surface material."
+                                                             },
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "official brand logo",
+                                                                 "required":  true,
+                                                                 "source":  "approved vector asset",
+                                                                 "usage":  "Use exact brand mark, optionally constructed from product elements only when approved."
+                                                             },
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "approved slogan",
+                                                                 "required":  true,
+                                                                 "source":  "campaign copy",
+                                                                 "usage":  "Place a sleek concise slogan beneath the action scene."
+                                                             },
+                                                             {
+                                                                 "type":  "ingredient",
+                                                                 "name":  "product-specific particles",
+                                                                 "required":  false,
+                                                                 "source":  "ingredient reference",
+                                                                 "usage":  "Use food, ice, liquid, fabric, dust or energy particles that reflect the real product."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach product, logo and copy references before rendering.",
+                                                                          "Make one product category per output; do not combine unrelated brands.",
+                                                                          "Use product-specific physical effects rather than generic explosion debris."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Cinematic 3D action-packed advertisement of [PRODUCT], captured in a dramatic mid-motion scene that embodies its core energy. Use bold studio lighting with intense highlights and deep shadows, dynamic particles, and slow-motion effects to amplify impact. The environment should feel surreal yet hyperrealistic, designed to reflect the product’s personality (crunchy, energetic, fast, luxurious, refreshing, etc.). Integrate the brand logo crafted from product elements if possible, and place a sleek creative slogan beneath it that matches the mood. Composition in 1:1 aspect ratio, hyper-detailed, sharp, bold, and designed to go viral.",
+                   "negative_prompt":  "wrong product, generic logo, unrelated particles, flat action, weak contrast, low resolution, unreadable slogan, watermark"
+               }
+}

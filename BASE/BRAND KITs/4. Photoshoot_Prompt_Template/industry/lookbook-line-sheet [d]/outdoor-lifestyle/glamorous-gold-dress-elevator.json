@@ -1,0 +1,22 @@
+{
+  "name": "glamorous-gold-dress-elevator",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "nightlife", "fashion"],
+  "image_type": "luxury nightlife fashion portrait",
+  "image_vibe": "glamorous, luxurious, confident, cinematic",
+  "image_purpose": "fashion lookbook and high-end nightlife editorial",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a photorealistic high-fashion portrait of one approved adult woman inside a modern glass elevator with a nighttime city skyline.",
+    "main_subject": "Adult woman in a shimmering gold halter mini dress with a flattering structured neckline and elegant strappy high heels, maintaining natural anatomy and tasteful fashion coverage. She stands with her back lightly against the glass, one leg crossed elegantly, one arm raised to touch the glass, and a confident editorial gaze.",
+    "composition_elements": ["Full-body fashion shot from a slightly angled perspective.", "Modern glass elevator interior with metallic trim and reflective surfaces.", "Nighttime city skyline filled with illuminated skyscrapers visible through the glass.", "Keep gold sequins, glass reflections, and architectural lines legible."],
+    "lighting_and_atmosphere": "Warm cinematic lighting reflecting softly from glass and metal, golden highlights on the dress, controlled city glow, luxurious nightlife mood.",
+    "technical_specs": "Photorealistic high-fashion editorial photography, sharp focus, glossy texture detail, realistic skin and fabric, full-body composition, no text or watermark.",
+    "generated_prompt_string": "A glamorous photorealistic high-fashion photoshoot of an adult woman posing inside a modern glass elevator. She wears a shimmering gold halter mini dress with a flattering structured neckline and elegant strappy high heels. Transparent glass elevator walls reveal a nighttime city skyline filled with illuminated skyscrapers. Warm cinematic lighting enhances the golden tones of her outfit and reflects subtly on the glass and metallic details. She stands with her back lightly resting against the glass wall, one leg crossed elegantly in front of the other, one arm raised above her head touching the glass, gazing directly at the camera with a confident editorial expression. Luxury nightlife fashion, high-end editorial photography, sharp detail, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "distorted anatomy", "extra fingers", "inconsistent identity", "plastic skin", "over-smooth", "over-saturated", "HDR look", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "glamorous-gold-dress-elevator.jpg", "required": true, "source": "local reference image", "usage": "Attach for approved-adult identity, dress, pose, and styling reference."}, {"type": "location", "name": "modern glass elevator with nighttime skyline", "required": true, "source": "local reference image", "usage": "Preserve the elevator, reflections, city view, and composition."}],
+      "prompt_instructions": "Attach the required approved-adult identity and composition references. Preserve face, facial structure, gold dress, heels, pose, glass elevator, nighttime skyline, and warm lighting. Replace the subject only with another approved-adult identity while preserving wardrobe and environment. No celebrity likeness, logos, or typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

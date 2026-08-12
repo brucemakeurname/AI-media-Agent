@@ -1,0 +1,75 @@
+{
+  "name": "vintage-elevator-pink-goddess",
+  "tag": [
+    "adult-woman",
+    "pink-crystal-gown",
+    "vintage-elevator",
+    "green-velvet",
+    "gold-mirror"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "glamorous-moody-nostalgic",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/luxury-editorial",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named-celebrity likeness and strapless body-focused styling with an original adult model in a covered pale-pink crystal-embellished gown while preserving the vintage elevator concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "nostalgic pink crystal fashion portrait in a vintage luxury elevator",
+      "color_palette": "pale pink, deep green velvet, antique gold, dark wood, and muted green carpet",
+      "format": "vertical 2:3 full-length portrait"
+    },
+    "main_subject": {
+      "description": "an original adult woman with long softly waved blonde hair, wearing a pale-pink crystal-embellished long-sleeve column gown with a modest bateau neckline and carrying a matching crystal-beaded bucket bag",
+      "pose_and_expression": "standing in side profile near the mirror, one hand gently near her cheek, calm soft expression toward camera"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level full-length fashion portrait",
+      "foreground": "pale-pink crystal gown texture and matching beaded bag",
+      "background": "dark-green velvet elevator walls, polished wood trim, gold-framed ornate mirror, and muted green patterned carpet",
+      "visual_hierarchy": "adult subject face and pink gown, gold mirror reflection, then vintage elevator materials"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "soft warm elevator light with controlled crystal highlights and gentle mirror reflection",
+      "atmosphere": "glamorous, moody, nostalgic, and refined"
+    },
+    "technical_specs": {
+      "camera": "Leica SL2-S",
+      "lens": "50mm f/2",
+      "settings": "1/125s, f/2.5, ISO 500",
+      "rendering": "natural skin texture, detailed crystal beading, soft-focus highlights, warm film grain"
+    },
+    "generated_prompt_string": "A cinematic high-fashion photograph of an original adult woman posing in a vintage luxury elevator with dark-green velvet walls and polished wood trim. She wears a pale-pink crystal-embellished long-sleeve column gown with a modest bateau neckline that sparkles under soft warm lighting, and carries a matching crystal-beaded bucket bag. She stands in side profile near an ornate gold-framed mirror, one hand gently near her cheek, looking toward the camera with a calm soft expression. The mirror reflects the gown and warm elevator interior; the floor is muted green patterned carpet. Capture a glamorous moody nostalgic editorial with detailed beadwork, natural skin, slight film grain, and soft-focus highlights.",
+    "negative_prompt": "minor, celebrity likeness, named-person likeness, explicit, nsfw, overly revealing, strapless gown, body-part emphasis, sexualized pose, nudity, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-vintage-elevator-model-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity and hairstyle only; do not imitate a named public figure."
+        },
+        {
+          "type": "wardrobe",
+          "name": "pink-crystal-gown-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Match crystal beading, gown silhouette, and bag only when supplied."
+        },
+        {
+          "type": "location",
+          "name": "vintage-elevator-reference",
+          "required": false,
+          "source": "approved location reference",
+          "usage": "Match velvet, wood, mirror, and carpet details when supplied."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult model, pink crystal gown, green velvet elevator, gold mirror, and nostalgic warm light; replace only approved identity, wardrobe, or elevator elements."
+    }
+  }
+}

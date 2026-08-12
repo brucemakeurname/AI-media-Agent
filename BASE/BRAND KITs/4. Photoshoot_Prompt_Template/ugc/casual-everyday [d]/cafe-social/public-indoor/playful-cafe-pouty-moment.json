@@ -1,0 +1,58 @@
+{
+  "name": "playful-cafe-pouty-moment",
+  "tag": [
+    "ugc",
+    "cafe-social",
+    "public-indoor",
+    "european-old-town",
+    "tiramisu",
+    "playful-spoon-portrait"
+  ],
+  "image_type": "ugc-street-cafe-lifestyle-portrait",
+  "image_vibe": "warm-playful-everyday",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cafe-social/public-indoor",
+  "prompt": {
+    "project_info": "Create an ultra-realistic candid street-cafe portrait in a European old town during warm daylight, preserving the playful spoon gesture and detailed dessert table.",
+    "main_subject": "One original approved adult woman with natural facial proportions, realistic skin texture, dark straight hair and small hoop earrings. She wears a simple black long-sleeve top and minimal rings, holds a small spoon near her lips and makes a gentle playful pout toward camera.",
+    "composition_elements": "Vertical 3:4 seated portrait at a small round cafe table with a crisp white tablecloth. Keep the adult subject centered, with tiramisu in a glass goblet, cappuccino with latte art, spare spoon, folded napkin, flat smartphone and small silver sugar holder in the foreground. Include pedestrians, cobblestones, historic stone building, arched doors, carved signage and ornate details behind her.",
+    "lighting_and_atmosphere": "Natural warm daylight with soft realistic shadows and a lively but relaxed European street atmosphere. Preserve true-to-life face proportions and detailed food/table textures.",
+    "technical_specs": "3:4 vertical smartphone or mirrorless portrait, eye-level seated angle, sharp face, spoon, tiramisu and cappuccino, moderate background detail, natural color and candid street-photo realism.",
+    "generated_prompt_string": "Create an ultra-realistic candid street-cafe portrait in a European old town during warm daylight of one original approved adult woman with natural facial proportions, realistic skin texture, dark straight hair and small hoop earrings. She wears a simple black long-sleeve top and minimal rings, holds a small spoon near her lips and makes a gentle playful pout toward camera. Use a vertical 3:4 seated portrait at a small round table with a crisp white tablecloth. Include tiramisu in a glass goblet, cappuccino with latte art, spare spoon, folded napkin, flat smartphone and a small silver sugar holder. Show pedestrians on a cobblestone street, a historic stone building with arched doors, carved signage and ornate details in the background. Use natural warm daylight, soft shadows, detailed food and table texture and candid street-photo color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, spilled food, distorted face, invented logos, added text overlays",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "playful-cafe-pouty-moment.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair, expression, earrings and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black long-sleeve top, small hoop earrings and rings",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve black top, jewelry and spoon gesture; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "European cobblestone cafe street, historic stone building and table setting",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve tablecloth, tiramisu, cappuccino, phone, sugar holder, street, architecture and pedestrians; environment may be replaced through explicit references."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location/table references. Keep identity, face proportions, hair, outfit, spoon action, food arrangement and old-town environment consistent. The adult, wardrobe, props and setting may be replaced independently through explicit references. No logo or typography is required; keep any carved signage indistinct unless specifically supplied."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adult.",
+      "Preserved the playful cafe action, food arrangement and European street setting while removing no creative intent.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

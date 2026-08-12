@@ -1,0 +1,65 @@
+{
+  "name": "istanbul-spring-park-coffee-romance",
+  "tag": [
+    "ugc",
+    "cafe-social",
+    "outdoor-nature",
+    "istanbul-park",
+    "two-person-candid",
+    "coffee-and-animals"
+  ],
+  "image_type": "ugc-candid-street-romance",
+  "image_vibe": "warm-natural-documentary",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cafe-social/outdoor-nature",
+  "prompt": {
+    "project_info": "Create an ultra-photorealistic candid street-film still in Gülhane Park, Istanbul, showing a quiet everyday coffee moment between two original approved adults and nearby park animals.",
+    "main_subject": "Two original approved adult people seated together on a weathered wooden park bench, faces visible and eyes naturally sharp. The woman has long dark wavy hair and wears a colorful floral dress with natural fit and minimal makeup. The man wears a light-blue T-shirt, casual blue jeans and white sneakers. Both have realistic skin texture, ordinary unretouched features and relaxed soft smiles.",
+    "composition_elements": "Vertical 4:5 eye-level 35mm-equivalent portrait with imperfect documentary framing. The couple sits close together, looking at one another while holding small unbranded takeaway coffee cups. Place a realistic squirrel on the bench near them and a calm calico street cat beside the bench, with the couple, animals and bench forming the main visual hierarchy. Include distant visitors softly out of focus, a park path, green trees, stone walls and railings.",
+    "lighting_and_atmosphere": "Motivated spring daylight filtered through tree shade with dappled highlights and detailed soft shadows. Preserve subtle halation, slight natural film grain, real park textures, fallen leaves and twigs, and a warm quiet-romance atmosphere without a studio look.",
+    "technical_specs": "4:5 portrait, 35mm lens equivalent, eye-level camera, crisp-but-natural sharpness on faces and cups, slight background motion blur only, true-to-life spring color grade, natural dynamic range rather than HDR, realistic animal fur and skin texture.",
+    "generated_prompt_string": "Create an ultra-photorealistic candid street-film still in Gülhane Park, Istanbul, of two original approved adults seated together on a weathered wooden bench. The woman has long dark wavy hair and wears a colorful floral dress with natural fit and minimal makeup; the man wears a light-blue T-shirt, casual blue jeans and white sneakers. Their faces are visible with natural skin texture and relaxed soft smiles as they look at each other and hold small unbranded takeaway coffee cups. Include a realistic squirrel on the bench near them and a calm calico street cat beside the bench, with green trees, dappled spring light, a park path, distant softly blurred visitors, stone walls and railings in the background. Use a vertical 4:5 eye-level 35mm perspective with imperfect documentary framing, subtle 35mm grain, gentle highlight halation, crisp natural faces and real park textures including fallen leaves and twigs.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, duplicated person, duplicated animal, cartoon animals, aggressive animals, invented logos, readable brand text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "istanbul-spring-park-coffee-romance.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the two original approved-adult faces, hair, expressions, outfits and likeness; preserve each person's identity while allowing approved-adult replacements."
+        },
+        {
+          "type": "wardrobe",
+          "name": "colorful floral dress and light-blue T-shirt with jeans",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve floral print, dress silhouette, shirt color, denim, sneakers and natural fit; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "Gülhane Park bench, path, trees, stone walls and railings",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve bench position, park path, spring foliage, stone walls, railings, shade and distant visitors; environment may be replaced through explicit references while retaining the documentary composition."
+        },
+        {
+          "type": "accessory",
+          "name": "two unbranded coffee cups, squirrel and calico street cat",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve cup placement, realistic squirrel scale and calm cat posture; individual props or animals may be replaced with explicit references but must remain natural and proportionate."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe, location and accessory references. Keep both adult identities, faces, outfits, relationship, coffee-cup interaction, bench, animals, environment and daylight consistent. Adults, wardrobe, animals and setting may be replaced independently using explicit references, but retain the same quiet coffee-romance action and documentary framing. No logo or typography is required; cups must remain unbranded."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous early-20s wording to two original approved adults.",
+      "Preserved the source's candid romance, animal interaction, wardrobe and park setting while removing unnecessary age ambiguity.",
+      "Added safety, anti-artifact and natural-animal negative prompts."
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "midnight-paris-luxury-aesthetic",
+  "tag": ["parisian-lounge", "two-women", "sequins", "cocktail"],
+  "image_type": "UGC nightlife duo portrait",
+  "image_vibe": "sophisticated, detached, crimson, luxurious",
+  "image_purpose": "Nightlife duo and lounge fashion social content",
+  "group": "ugc/lifestyle-moment/night-out/public-indoor",
+  "prompt": {
+    "project_info": "Create a high-end noir-themed Parisian lounge portrait featuring two generic approved adult women and cocktail coupes.",
+    "main_subject": "Two generic approved adult women in their mid-20s with natural unfiltered skin texture and neutral detached expressions. The standing woman has voluminous golden-blonde waves and wears a midnight-blue sequin gown with a secure elegant neckline. The seated woman has honey-blonde damp-textured hair with curtain fringe and wears an architectural matte-black leather mini-dress with opaque structured paneling. Both hold art-deco crystal cocktail coupes.",
+    "composition_elements": "Vertical medium composition with layered standing and seated subjects: the standing woman leans slightly forward holding her coupe, while the seated woman rests one hand lightly on the standing woman's upper leg area and leans into a crimson velvet banquette. Include a mahogany table with gold trim and red-glass neon signage kept abstract/unreadable.",
+    "lighting_and_atmosphere": "Dual-source lighting with high-contrast red ambient neon rim light and soft warm-white frontal key, deep shadows in upholstery, realistic skin and fabric texture, sophisticated luxury-lounge mood.",
+    "technical_specs": "Photorealistic vertical 4:5 duo portrait, full-frame camera with 50mm prime lens, realistic anatomy and hands, shallow depth of field, subtle film grain, controlled highlights, no watermark.",
+    "generated_prompt_string": "Photorealistic vertical 4:5 noir-themed Parisian lounge portrait of two generic approved adult women in their mid-20s with natural unfiltered skin texture and neutral detached expressions. The standing woman has voluminous golden-blonde waves and wears a midnight-blue sequin gown with a secure elegant neckline; the seated woman has honey-blonde damp-textured hair with curtain fringe and wears an architectural matte-black leather mini-dress with opaque structured paneling. The standing woman leans slightly forward holding an art-deco crystal cocktail coupe, while the seated woman rests one hand lightly on the standing woman's upper leg area and leans into a crimson velvet banquette, also holding a coupe. Include a mahogany circular table with gold trim, abstract red-glass neon signage with no readable text and deep shadow-filled corners. Red neon rim light pairs with a soft warm-white frontal key, realistic skin and fabric texture, sophisticated luxury mood, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, celebrity likeness, public-figure likeness, explicit body-part emphasis, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, spilled drink, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "midnight-paris-luxury-aesthetic reference",
+          "required": true,
+          "source": "Attach the provided reference image",
+          "usage": "Match the two-adult layered composition, hair, gowns, leather dress, cocktail coupes, velvet banquette, red neon and warm key-light direction while keeping identity and details replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required duo composition reference. Preserve two approved adult subjects, pose hierarchy, wardrobe categories, coupes, lounge furniture, red neon, warm key and abstract signage. Keep identities, outfits, accessories, furniture and environment replaceable; keep signage unreadable and use neutral anatomy language."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed explicit pectoral/bust anatomy and body-part volume wording.",
+      "Reframed mesh/structured clothing as opaque structured paneling and secure elegant neckline.",
+      "Preserved the two-woman Parisian lounge composition, sequin and leather fashion, cocktails and lighting."
+    ]
+  }
+}

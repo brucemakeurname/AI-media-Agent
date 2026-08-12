@@ -1,0 +1,65 @@
+{
+  "name": "cocoon-recycled-pet-bottle-grass-flatlay",
+  "tag": [
+    "recycled-pet",
+    "sustainability",
+    "grass-flatlay",
+    "product-group",
+    "eco-message",
+    "packaging"
+  ],
+  "biz_niche": "Pets & Animals",
+  "content_format": "Brand story",
+  "group": "cocoon_1155939376742725",
+  "prompt": {
+    "project_info": {
+      "theme": "Sustainability pack shot emphasizing 100 percent recycled PET bottles",
+      "color_palette": "Grass Green, Amber Brown, Soft Pink, Cream White, Fresh Lime"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A vertical outdoor flat lay of four Cocoon bottles placed on bright grass, each tagged with a bottle-shaped label stating 'CHAI LÀM TỪ NHỰA PET TÁI CHẾ 100% GIẢM NHỰA NGUYÊN SINH', plus a speech-bubble recycling icon near the top left.",
+      "style": "Natural outdoor sustainability flat lay, sunlit eco-awareness product grouping"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible label text includes 'CHAI LÀM TỪ NHỰA PET TÁI CHẾ 100% GIẢM NHỰA NGUYÊN SINH'. Product labels include Winter melon micellar water, Winter melon shower gel, Hau Giang lotus soothing micellar water, and Hau Giang lotus soothing cleanser.",
+      "items": [
+        "Top Left: White speech-bubble icon containing a green recycle symbol over the grass.",
+        "Top Right: Amber winter melon shower gel bottle with its large PET tag placed over the shoulder area.",
+        "Bottom Left: Large pink Hau Giang lotus micellar water bottle angled diagonally with clear label visibility.",
+        "Bottom Right: Pink Hau Giang lotus cleanser bottle and a dark amber bottle cropped at the edges, each bearing the same PET tag.",
+        "Center/Background: Dense sunlit lawn texture with products arranged in a loose pinwheel composition."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright outdoor sunlight",
+      "effect": "Sharp natural highlights, crisp grass texture, cheerful eco-campaign freshness"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity outdoor product flat-lay photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a sustainability pack shot emphasizing 100 percent recycled PET bottles. Centerpiece is a group of Cocoon bottles arranged on bright green grass, each overlaid with a bottle-shaped tag reading 'CHAI LÀM TỪ NHỰA PET TÁI CHẾ 100% GIẢM NHỰA NGUYÊN SINH'. Background is a sunlit lawn. Surrounding elements: a recycle speech-bubble icon, pink lotus bottles, amber winter melon bottles, and clear package labels. Keep the grass-flatlay perspective, repeated PET tags, and natural eco-campaign mood. Technical style: high fidelity outdoor product flat-lay photography, bright outdoor sunlight, sharp natural highlights and crisp grass texture, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Cocoon bottle assortment with PET tags",
+          "required": true,
+          "source": "Attach the original image or crops of each featured bottle",
+          "usage": "Preserve the exact product selection, label fronts, and outdoor arrangement."
+        },
+        {
+          "type": "graphic",
+          "name": "Bottle-shaped PET recycled tag and recycle icon",
+          "required": true,
+          "source": "Use the original creative as overlay reference",
+          "usage": "Keep the exact tag silhouette, wording, and speech-bubble recycle symbol."
+        }
+      ],
+      "prompt_instructions": "When recreating with gpt-image-2, attach the original composition so the product angles and repeated PET tags stay accurate. Do not replace the grass background with a studio surface."
+    }
+  }
+}

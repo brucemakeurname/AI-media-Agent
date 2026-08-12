@@ -1,0 +1,27 @@
+{
+  "name": "prompt-620",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "other", "dinner-portrait"],
+  "image_type": "flash dinner lifestyle portrait",
+  "image_vibe": "nostalgic elegant balcony dinner",
+  "image_purpose": "UGC-style dining and evening fashion visual",
+  "group": "soft-elegant/other",
+  "prompt": {
+    "project_info": "Create a realistic nostalgic dinner portrait of an original approved adult woman at a luxury hotel terrace or seaside balcony.",
+    "main_subject": "An original approved adult woman with silver-blonde hair in a large top bun tied with a white ribbon, soft glam makeup, and a relaxed dreamy smile rests her chin on both hands at a white dinner table. She wears a soft gray puff-sleeve dress and delicate jewelry, with any visible luxury-brand motifs treated as replaceable placeholders.",
+    "composition_elements": "Vertical 3:4 close-up portrait, woman centered behind a table, white rose in a wine glass, wine glass and bottle, white tableware, knife and fork, large T-bone steak, candle, balcony rail, floor-to-ceiling glass, and night sky with stars and a shooting star.",
+    "lighting_and_atmosphere": "2000s digital-camera direct flash mixed with warm candle and hotel light, gentle skin shine, cozy nostalgic elegant mood, deep blue evening sky and warm interior reflections.",
+    "technical_specs": "Realistic 3:4 flash photography, close-up portrait, natural handheld perspective, visible food, glass, fabric, and hair texture, restrained warm tone, no artificial HDR look.",
+    "generated_prompt_string": "Realistic vertical 3:4 nostalgic dinner portrait of an original approved adult woman with silver-blonde hair in a large top bun tied with a white ribbon, soft glam makeup, and a relaxed dreamy smile resting her chin on both hands at a white dinner table. She wears a soft gray puff-sleeve dress and delicate jewelry. A white rose in a wine glass, wine glass and bottle, white tableware, large T-bone steak, candle, balcony rail, floor-to-ceiling glass, and a deep blue starry evening sky with a shooting star surround her. 2000s digital-camera direct flash mixed with warm candlelight, realistic texture, elegant relaxed atmosphere.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, intoxication, unsafe balcony behavior, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy, unreadable labels",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "nostalgic dinner balcony reference", "required": true, "source": "attached source image", "usage": "Match the original adult model, hair bow, gray dress, table setting, steak, wine, balcony, stars, and direct-flash mood."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve adult identity, face, hairstyle, outfit, pose, dining props, environment, and lighting. Luxury watch, jewelry, logos, typography, bottle labels, and hotel details are replaceable editable elements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an original approved adult.", "Removed sexy/brand-dependent wording while retaining the elegant dinner concept and visible props.", "Added balcony safety, replaceable-brand, and anti-slop exclusions."]
+  }
+}

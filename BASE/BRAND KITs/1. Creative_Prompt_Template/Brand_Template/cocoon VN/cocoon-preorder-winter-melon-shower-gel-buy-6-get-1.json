@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-preorder-winter-melon-shower-gel-buy-6-get-1",
+  "tag": [
+    "pre-order",
+    "shower-gel",
+    "winter-melon",
+    "offer",
+    "body-care",
+    "lifestyle"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "cocoon_990059293381506",
+  "prompt": {
+    "project_info": {
+      "theme": "Pre-order launch poster for improved winter melon shower gel",
+      "color_palette": "Warm Sunlit Green, White, Pale Yellow, Amber Brown, Skin Tones"
+    },
+    "main_subject": {
+      "type": "Product/Person",
+      "detail": "A warm outdoor lifestyle beauty poster showing a hand gripping the pump of a Cocoon Winter Melon Shower Gel bottle resting against a bare shoulder, with large offer text and a yellow 'MUA 6 TÍNH 1' badge.",
+      "style": "Sunlit lifestyle commercial, skin-and-product close-up, premium personal care launch creative"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'PRE-ORDER', 'GEL TẮM BÍ ĐAO', 'CẢI TIẾN VƯỢT TRỘI', 'SẠCH BÃ NHỜN', 'GIẢM MỤN & MÙI CƠ THỂ', the PET badge wording, and the yellow circle 'MUA 6 TÍNH 1'.",
+      "items": [
+        "Top Left: Large white pre-order headline and product name stacked over a blurred green outdoor background.",
+        "Top Right: Pale yellow offer circle reading 'MUA 6 TÍNH 1' and a hand pressing the pump near the shoulder.",
+        "Bottom Left: PET recycling badge and lower half of the amber bottle with visible water droplets.",
+        "Bottom Right: Bare shoulder and collarbone in warm sunlight, with the bottle leaning diagonally across the skin.",
+        "Center/Background: The Cocoon bottle label stays front-facing and readable, framed by soft garden bokeh."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Golden natural sunlight",
+      "effect": "Warm skin highlights, outdoor bokeh, glossy water droplets, intimate premium-care mood"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity lifestyle beauty photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a pre-order launch of Cocoon Winter Melon Shower Gel. Centerpiece is an amber pump bottle resting diagonally against a sunlit shoulder while a hand grips the pump, with the label clearly visible. Background is a softly blurred green outdoor setting. Surrounding elements: large text 'PRE-ORDER GEL TẮM BÍ ĐAO', subheadline 'CẢI TIẾN VƯỢT TRỘI', benefits 'SẠCH BÃ NHỜN' and 'GIẢM MỤN & MÙI CƠ THỂ', a PET recycling badge, and a pale yellow circle reading 'MUA 6 TÍNH 1'. Keep the sensual skincare framing, warm natural light, and realistic skin texture. Technical style: high fidelity lifestyle beauty photography, golden natural sunlight, warm skin highlights and glossy water droplets, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Cocoon Winter Melon Shower Gel 500ml packshot",
+          "required": true,
+          "source": "Attach the exact bottle reference or crop from the original creative",
+          "usage": "Preserve the label, amber liquid tone, pump design, and droplet details."
+        },
+        {
+          "type": "person",
+          "name": "Shoulder-and-hand pose",
+          "required": true,
+          "source": "Use the original image as pose reference",
+          "usage": "Maintain the hand placement on the pump and the bottle leaning against the shoulder."
+        },
+        {
+          "type": "text_layout",
+          "name": "Pre-order typography and offer badge",
+          "required": true,
+          "source": "Use the original creative as layout reference",
+          "usage": "Keep the text stack, white type scale, and yellow promotional badge position."
+        }
+      ],
+      "prompt_instructions": "When rebuilding in gpt-image-2, attach the product packshot and original pose/layout ref. The output should preserve exact copy hierarchy and warm skin-product intimacy, not turn into a generic flat product advertisement."
+    }
+  }
+}

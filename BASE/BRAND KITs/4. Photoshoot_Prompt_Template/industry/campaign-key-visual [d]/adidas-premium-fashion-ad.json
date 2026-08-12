@@ -1,0 +1,60 @@
+{
+  "name": "adidas-premium-fashion-ad",
+  "tag": ["adult-man", "adult-woman", "adidas-originals", "tracksuit", "architectural-setting", "sale-advertisement"],
+  "image_type": "brand-fashion-advertisement",
+  "image_vibe": "luxury-editorial-confident",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "premium Adidas Originals fashion sale advertisement",
+      "color_palette": "black, cream, white, warm concrete, and soft architectural shadows",
+      "aspect_ratio": "1:1"
+    },
+    "main_subject": {
+      "description": "Two stylish adult models: one confident adult man with a sharp jawline and styled hair, crouching in front; one elegant adult woman with soft features and long hair standing beside him. Both look slightly off-camera with confident expressions.",
+      "wardrobe": "The man wears a black Adidas tracksuit with white three-stripes and white sneakers. The woman wears a beige or cream Adidas cropped sweatshirt with matching joggers and white sneakers. Visible Adidas logos and signature stripes are retained.",
+      "pose": "Male model in a powerful crouched pose; female model standing beside him with relaxed posture and one hand in a pocket.",
+      "styling": "Luxury sportswear editorial styling with polished natural grooming."
+    },
+    "composition_elements": {
+      "framing": "Slightly low cinematic angle with balanced square framing and negative space for text.",
+      "environment": "Modern architectural outdoor setting with warm concrete planes, clean lines, soft natural daylight, and aesthetic shadows.",
+      "typography": "Top left: 35% OFF in bold clean typography with Adidas logo below. Top right: ADIDAS ORIGINALS COLLECTION. Lower left tagline: MOVE YOUR WORLD. WEAR YOUR CONFIDENCE. Bottom-center CTA button: SHOP NOW. Render all text accurately and legibly.",
+      "focus": "Sharp adult models, tracksuit fabric, three-stripes, footwear, architectural geometry, and balanced commercial typography."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft natural light with gentle architectural shadows, warm highlights, and crisp but flattering detail across the models and clothing.",
+      "atmosphere": "Luxury, editorial, confident, modern, and commercially polished."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with a 35mm lens at f/5.6, 1/250 s, ISO 100, slightly low angle",
+      "quality": "Ultra-realistic high-detail fashion advertising photography, sharp focus, clean typography, 4K-quality texture and natural skin"
+    },
+    "generated_prompt_string": "Create a premium 1:1 Adidas Originals fashion advertisement in a modern architectural outdoor setting with warm concrete planes, clean lines, soft natural light, and aesthetic shadows. Feature two stylish adults: a confident adult man with sharp jawline and styled hair crouching in front, wearing a black Adidas tracksuit with white three-stripes and white sneakers; and an elegant adult woman with soft features and long hair standing beside him, wearing a beige or cream Adidas cropped sweatshirt with matching joggers and white sneakers. Both gaze slightly off-camera. Use a slightly low cinematic angle, balanced framing, and negative space for accurate legible typography: 35% OFF top left with Adidas logo below, ADIDAS ORIGINALS COLLECTION top right, MOVE YOUR WORLD. WEAR YOUR CONFIDENCE. lower left, and a SHOP NOW button bottom center. Preserve visible Adidas logos and signature stripes, with ultra-realistic 4K-quality fashion detail.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, illegible text, misspelled brand name, distorted logo, extra limbs, deformed anatomy, watermark, cluttered layout, harsh overexposure",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for these original adult models. Optional wardrobe, architecture, typography, or lighting references may replace only their named element; preserve the Adidas branding, exact offer copy, two-adult composition, and premium sportswear campaign intent.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "adidas-originals-black-and-cream-tracksuits",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the adult models' tracksuits or footwear while preserving Adidas logos and signature stripes."
+        },
+        {
+          "type": "location",
+          "name": "warm-modern-architectural-setting",
+          "required": false,
+          "source": "user-uploaded location reference",
+          "usage": "Replace only the architecture, concrete planes, and shadow geometry while preserving the low-angle campaign framing."
+        }
+      ]
+    }
+  }
+}

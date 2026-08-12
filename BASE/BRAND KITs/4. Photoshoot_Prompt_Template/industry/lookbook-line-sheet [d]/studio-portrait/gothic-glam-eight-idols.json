@@ -1,0 +1,22 @@
+{
+  "name": "gothic-glam-eight-idols",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "gothic-glamour", "group-portrait"],
+  "image_type": "eight-person Gothic glamour group portrait",
+  "image_vibe": "opulent, intense, polished, cinematic",
+  "image_purpose": "fashion campaign and group lookbook",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic vertical 9:16 Gothic glamour group portrait of eight original approved adult women in a luxurious dark classical interior.",
+    "main_subject": "Eight original approved adult women with varied dark and highlighted hairstyles, confident poised expressions, bold smoky makeup, Gothic jewelry, black glossy fashion dresses in varied silhouettes, and black platform heels. Preserve each distinct face and styling while keeping the coordinated group aesthetic.",
+    "composition_elements": ["Balanced symmetrical layered group composition with front row seated and middle/back rows standing.", "Full-body to three-quarter framing at eye level.", "Dark wood wall panels, silver ornaments, velvet curtains, crystal chandelier, gilded mirrors, antique furniture, and polished wood floor.", "Keep all eight people visible, identities distinct, and spacing coherent."],
+    "lighting_and_atmosphere": "Dramatic front, side, and back studio lighting with sharp highlights on glossy dresses and jewelry, deep shadows, high contrast, and refined Gothic cinematic atmosphere.",
+    "technical_specs": "Photorealistic 9:16 group portrait, 35mm lens at f/5.6, 8K detail, realistic skin, hair, glossy fabric, jewelry, wood, and crystal texture, subtle film grain, no text or watermark.",
+    "generated_prompt_string": "Photorealistic 9:16 Gothic glamour group portrait of eight original approved adult women in a luxurious dark classical interior. Give each woman a distinct face, varied dark or highlighted professional hairstyle, confident poised expression, bold smoky makeup, Gothic jewelry, coordinated black glossy fashion dress in varied silhouettes, and black platform heels. Arrange front row seated with middle and back rows standing in a balanced symmetrical layered composition. Include dark wood panels, silver ornaments, velvet curtains, a crystal chandelier, gilded mirrors, antique furniture, and polished wood floor. Use dramatic front side and back lighting, sharp highlights on glossy dresses and jewelry, deep shadows, high contrast, 35mm f/5.6, 8K photorealism, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "wrong person count", "inconsistent faces", "distorted anatomy", "extra limbs", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "gothic-glam-eight-idols.jpg", "required": true, "source": "local reference image", "usage": "Attach for all eight original approved-adult identities, faces, hair, outfits, poses, and group arrangement."}, {"type": "wardrobe", "name": "coordinated black glossy Gothic fashion dresses and platform heels", "required": true, "source": "local reference image", "usage": "Preserve varied silhouettes, jewelry, footwear, and coordinated styling."}, {"type": "location", "name": "dark Gothic classical mansion interior", "required": true, "source": "local reference image", "usage": "Preserve wood, curtains, chandelier, mirrors, furniture, and floor."}],
+      "prompt_instructions": "Attach all required group, wardrobe, and location references; no optional assets are needed. Keep each identity, face, outfit, group count, pose, environment, lighting, and typography consistent. Replace only with an equivalent approved-adult group, equivalent wardrobe, or equivalent interior reference. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced the named public-figure group with eight original approved adult women while preserving the group count, Gothic wardrobe, interior, composition, and lighting."]}
+}

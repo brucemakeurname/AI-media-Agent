@@ -1,0 +1,68 @@
+{
+  "name": "crimson-velvet-backless-satin-look-back",
+  "tag": [
+    "adult-woman",
+    "crimson-wall",
+    "satin-gown",
+    "direct-flash",
+    "fashion-editorial"
+  ],
+  "image_type": "flash-fashion-portrait",
+  "image_vibe": "crimson-luxury-nightlife",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Kept the adult identity-reference workflow and crimson satin concept while replacing the open-back, body-emphasis styling with a structured high-back satin gown and a non-suggestive three-quarter pose."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult red-wall fashion editorial",
+      "color_palette": "deep crimson, oxblood, warm skin tones, and subtle metallic accents",
+      "format": "vertical 4:5 waist-up portrait"
+    },
+    "main_subject": {
+      "description": "an adult woman whose face matches an approved identity reference exactly, wearing a deep-red high-back satin evening gown with draped shoulders and small unbranded earrings",
+      "pose_and_expression": "three-quarter turned pose with relaxed arm placement, head turned gently toward camera, and a calm confident smile"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level waist-up three-quarter portrait",
+      "foreground": "adult subject face, crisp satin folds, and controlled direct-flash highlights",
+      "background": "deep-crimson vertical-panel wall with understated small metal rivets and no text or branding",
+      "visual_hierarchy": "adult face and expression, red satin texture, then monochrome crimson architecture"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "direct editorial flash with controlled falloff and rich crimson color separation",
+      "atmosphere": "cinematic, polished, intimate nightlife fashion without sexualized framing"
+    },
+    "technical_specs": {
+      "camera": "Canon EOS R5",
+      "lens": "50mm f/2",
+      "settings": "1/160s, f/4, ISO 200",
+      "rendering": "ultra-photoreal editorial flash portrait, realistic skin texture, natural dynamic range, crisp satin, and very subtle film grain"
+    },
+    "generated_prompt_string": "Use the uploaded approved adult non-public-figure identity reference and preserve the same adult facial identity, face structure, skin tone, and defining features. Create a photoreal editorial flash portrait of her before a deep-crimson vertical-panel wall with small metal rivets. She wears a deep-red high-back satin evening gown with draped shoulders, long glossy dark waves, small unbranded earrings, and refined wine-red evening makeup. Frame a vertical waist-up three-quarter turn; she looks gently back at camera with a calm confident smile. Use controlled direct flash, rich crimson color separation, realistic skin texture, crisp satin folds, no text, no logos, and a polished cinematic nightlife mood.",
+    "negative_prompt": "different identity, identity blending, age shift, minor, explicit, nsfw, overly revealing, open-back body emphasis, sexualized pose, nudity, beauty-filtered skin, logos, readable text, watermark, distorted hands, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "The approved adult non-public-figure identity reference is mandatory. A style reference is optional and may guide only the crimson palette, lighting, and composition.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Match facial identity and natural facial proportions only; do not blend identities or alter apparent age."
+        },
+        {
+          "type": "style",
+          "name": "crimson-flash-editorial-reference",
+          "required": false,
+          "source": "approved style reference",
+          "usage": "Guide crimson palette, direct-flash character, and vertical composition only."
+        }
+      ]
+    }
+  }
+}

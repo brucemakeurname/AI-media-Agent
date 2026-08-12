@@ -1,0 +1,68 @@
+{
+    "name":  "pillow-charging-supplement-bottle",
+    "tag":  [
+                "branding",
+                "brand story",
+                "surreal advertising",
+                "sleep",
+                "supplement bottle",
+                "visual metaphor"
+            ],
+    "biz_niche":  "Health & Wellness",
+    "content_format":  "Brand story",
+    "group":  "branding_visual_metaphor",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Rest as a charging supplement",
+                                        "color_palette":  "Muted navy blue, amber brown, white textile, matte black"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "An oversized amber supplement bottle lies open in the upper left on a matte blue surface, pouring miniature soft quilted white pillows diagonally across the frame.",
+                                        "style":  "Minimal surreal commercial still life"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Product/Surreal prop/Typography",
+                                                "text":  "Use for Charging; PILLow",
+                                                "items":  [
+                                                              "Upper left: tipped amber bottle, open neck facing down-right.",
+                                                              "Left middle: black screw cap resting nearby.",
+                                                              "Diagonal center to lower right: small white quilted pillows spilling from bottle.",
+                                                              "Bottom: open blue negative space for a sparse PILLow wordmark."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft directional studio lighting",
+                                                   "effect":  "Crisp textile texture, subtle amber-glass reflections, controlled blue shadows, calm matte finish"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Ultra-sharp modern commercial product photography",
+                                           "resolution":  "Vertical high resolution"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "supplement bottle and label",
+                                                                 "required":  true,
+                                                                 "source":  "exact packaging reference",
+                                                                 "usage":  "Preserve amber glass profile, cap, label layout, and approved wording."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "PILLow logo placement",
+                                                                 "required":  false,
+                                                                 "source":  "source image layout reference",
+                                                                 "usage":  "Use only if reproducing the original campaign lockup."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach the bottle packaging reference.",
+                                                                          "Use pillows as the single visual metaphor and leave bottom space open.",
+                                                                          "Keep copy accurate; do not generate unapproved medical claims."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Minimalist advertising still life featuring an oversized amber glass supplement bottle tipped on its side, open black cap placed nearby. The bottle label reads “Use for Charging” in clean modern typography. From the bottle opening, several small white pillows spill out onto a smooth matte blue surface, arranged organically as if poured. The pillows are soft, rectangular, quilted, and plush, resembling miniature ergonomic bed pillows. Strong visual contrast between the dark amber glass, crisp white pillows, and muted blue background. Composition: top-down / three-quarter angle product shot, bottle positioned in the upper left, pillows scattered diagonally across the frame toward the lower right. Clear negative space at the bottom for branding text \"PILLow\". Lighting: studio lighting with soft directional shadows, high clarity, subtle reflections on glass, controlled highlights. Style: modern commercial product photography, surreal conceptual advertising aesthetic. Color palette: deep blue background, warm amber glass, white textiles, black accents. Mood: calm, clever, restful, contemporary. Quality cues: ultra-sharp focus, high resolution, professional advertising campaign look. Optional Negative Prompt cluttered scene, harsh lighting, plastic texture, low contrast, messy shadows, distorted text, unrealistic materials",
+                   "negative_prompt":  "cluttered scene, harsh lighting, plastic pillows, low contrast, messy shadows, distorted text, unrealistic materials, watermark"
+               }
+}

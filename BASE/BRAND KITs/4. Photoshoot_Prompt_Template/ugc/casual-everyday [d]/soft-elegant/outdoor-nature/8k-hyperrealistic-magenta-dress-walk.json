@@ -1,0 +1,26 @@
+{
+  "name": "8k-hyperrealistic-magenta-dress-walk",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "outdoor-nature", "magenta-dress", "golden-hour"],
+  "image_type": "lifestyle-fashion-portrait",
+  "image_vibe": "airy-peaceful-summery",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/soft-elegant/outdoor-nature",
+  "prompt": {
+    "project_info": "Create an ultra-photorealistic countryside UGC fashion portrait of an approved adult woman walking peacefully on a rural road.",
+    "main_subject": "An approved adult woman with fair skin and wavy shoulder-length brunette hair, wearing a vibrant magenta off-the-shoulder mini dress with a layered ruffle neckline, lightweight cotton-blend fabric, and white platform slide sandals with ruffled straps. She holds a thin sprig of wild grass and has a serene gentle smile while looking thoughtfully away from camera.",
+    "composition_elements": "Vertical full-body shot, subject walking gracefully forward on a weathered asphalt country road, centered with a natural countryside perspective. Dense green bushes and tall wild grass border the road, with a distant soft treeline and airy sky; preserve the visible dress silhouette, sandals, sprig, and natural walking pose.",
+    "lighting_and_atmosphere": "Golden-hour sunlight from a 45-degree side angle, warm ambient glow, soft-edged shadows, and cinematic rim lighting on the hair. Keep the mood youthful in energy but clearly adult, airy, peaceful, and summery.",
+    "technical_specs": "Sony A7R IV, 35mm f/1.4 prime lens, f/2.2, ISO 100, natural depth of field, sharp subject and visible fabric weave with soft background bokeh, hyper-realistic skin texture and subtle photographic grain.",
+    "generated_prompt_string": "Create an ultra-photorealistic 8K full-body lifestyle fashion photograph of an approved adult woman with fair skin and wavy shoulder-length brunette hair, wearing a vibrant magenta off-the-shoulder mini dress with a layered ruffle flounce neckline and lightweight cotton-blend fabric, plus white platform slide sandals with ruffled decorative straps and a minimalist silver necklace. She has a serene gentle smile and looks thoughtfully away from the camera while walking gracefully forward on a weathered asphalt country road, holding a thin sprig of wild grass. Dense green bushes and tall wild grass border the road, with a clear blue sky, soft cirrus clouds, and a distant blurred treeline. Use golden-hour sunlight from a 45-degree side angle, warm ambient glow, soft-edged shadows, and cinematic rim lighting on the hair. Photograph with a Sony A7R IV, 35mm f/1.4 prime lens, f/2.2 aperture, ISO 100, sharp focus on the subject, natural depth of field, realistic skin texture, visible fabric weave, and soft background bokeh. Preserve the airy, peaceful, summery countryside mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted face, blurry subject, text, logo",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-woman-reference", "required": true, "source": "8k-hyperrealistic-magenta-dress-walk.jpg", "usage": "Preserve the adult subject's facial identity, hair, expression, and pose; never reproduce a celebrity or public-figure likeness."},
+        {"type": "wardrobe", "name": "magenta-ruffle-dress-and-white-platform-slides", "required": true, "source": "8k-hyperrealistic-magenta-dress-walk.jpg", "usage": "Keep the magenta off-shoulder layered-ruffle dress and white ruffled platform sandals consistent; replace only with an explicitly attached wardrobe reference."},
+        {"type": "location", "name": "rural-road-greenery-golden-hour", "required": true, "source": "8k-hyperrealistic-magenta-dress-walk.jpg", "usage": "Maintain the country road, grasses, bushes, sky, and golden-hour environment; replace only with a specified location reference."}
+      ],
+      "prompt_instructions": "Attach the person, wardrobe, and location references when exact consistency is required. Identity, adult status, outfit silhouette, walking pose, and natural color hierarchy must remain consistent. The sprig and background foliage are replaceable only with explicit alternatives. Preserve any replacement's identity, outfit, product, logo, environment, or typography; no logo or typography is present here."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and removed age-ambiguous phrasing while preserving the youthful airy mood.", "Added safe negative prompts and structured references."]}
+}

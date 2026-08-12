@@ -1,0 +1,47 @@
+{
+  "name": "golden-dreamy-girl-closeup",
+  "tag": [
+    "adult-woman",
+    "close-up-portrait",
+    "golden-glow",
+    "motion-blur",
+    "dreamy",
+    "vertical"
+  ],
+  "image_type": "editorial-portrait",
+  "image_vibe": "dreamy-warm",
+  "image_purpose": "moodboard",
+  "group": "indie/low-fi-dreamy/golden-warm",
+  "prompt": {
+    "project_info": "A vertical low-fi dreamy portrait centered on warm reflected sunlight, softened focus, and intimate cinematic texture.",
+    "main_subject": "Cinematic close-up portrait of an adult woman with dark, slightly messy hair and a black high-neck outfit. Her hand rests beneath her chin while an outstretched forearm softly crosses one side of her face; her expression is calm and contemplative.",
+    "composition_elements": "Tight head-and-shoulders framing, face centered slightly above mid-frame, a pale minimal wall receding behind her, foreground arm creating a gentle diagonal, and a broad patch of reflected warm light across the left side of the image. No text, logos, or watermarks.",
+    "lighting_and_atmosphere": "Late-afternoon golden light reflected from a nearby pale surface, approximately 4200K, with soft facial shadows and a hazy glow. Preserve visible pores, slight natural skin variation, loose hair strands, and subtle handheld motion blur.",
+    "technical_specs": "Canon EOS R5 with an 85mm portrait lens at f/1.8, vertical 3:4 crop, shallow depth of field, soft diffusion, lifted blacks, natural vignetting, and restrained 35mm-inspired grain.",
+    "generated_prompt_string": "Cinematic close-up portrait of an adult woman with dark messy hair and a black high-neck outfit, one hand under her chin and an outstretched forearm softly covering one side of her face, calm contemplative expression, soft golden reflected light with glow, light minimal background, artistic realistic photography, shallow depth of field, subtle motion blur, vertical framing, natural skin texture and loose hair strands, no text or branding.",
+    "negative_prompt": "explicit, nsfw, overly revealing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers, deformed hands, distorted face",
+    "reference_elements": {
+      "prompt_instructions": "Attach an approved adult identity reference only when likeness continuity is required; preserve the attached person's face and dark tousled hair. The black high-neck wardrobe, pale wall, warm reflected light, and hand-under-chin composition should remain consistent, while identity and exact background may be replaced. No reference is required for a standalone render.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-portrait-reference",
+          "required": false,
+          "source": "attach when identity continuity is needed",
+          "usage": "Preserve adult facial likeness and hair character; do not copy any text or branding from the reference."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-high-neck-outfit-reference",
+          "required": false,
+          "source": "attach when exact wardrobe continuity is needed",
+          "usage": "Keep the covered black silhouette while allowing a substitute garment of the same visual weight."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

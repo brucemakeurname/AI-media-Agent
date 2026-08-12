@@ -1,0 +1,76 @@
+{
+  "name": "korean-idol-grid-photobook",
+  "tag": [
+    "adult-woman",
+    "korean-idol",
+    "photobook",
+    "three-by-three-grid",
+    "white-shirt",
+    "vertical-collage"
+  ],
+  "image_type": "fashion-photobook-collage",
+  "image_vibe": "soft, natural, airy, intimate, everyday",
+  "image_purpose": "instagram-feed, photobook, moodboard",
+  "group": "indie / low-fi-dreamy / styled-idol",
+  "prompt": {
+    "project_info": {
+      "theme": "Korean idol photobook portrait series",
+      "format": "9:16 vertical 3x3 grid collage",
+      "color_palette": "soft white, pale blue, charcoal black, airy neutral gray"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "The same adult Korean woman appears consistently in all nine frames, with long voluminous dark hair, clean minimal idol-style makeup, natural ultra-realistic skin texture, and a soft gentle expression.",
+      "style": "intimate handheld portrait photography with a photocard aesthetic"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "a nine-frame 3x3 vertical grid with consistent face, proportions, hairstyle, and identity across every frame",
+        "white button-up shirt and light short bottoms, styled consistently across the series",
+        "top row: standing and looking away; facing camera in slight motion; gentle side angle",
+        "middle row: thoughtful upward gaze; direct close-up with a gentle smile; turning-body candid",
+        "bottom row: seated or leaning; partial back turn and over-shoulder gaze; close playful portrait",
+        "minimal studio or simple indoor setting with a plain wall and no competing background detail"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft diffused window light, approximately 5000K",
+      "effect": "gentle highlights, low contrast, airy tone, slight softness in motion frames",
+      "atmosphere": "natural, soft, everyday Korean photobook charm"
+    },
+    "technical_specs": {
+      "render_style": "Sony A7R IV, 50mm f/1.8 lens, lightly handheld framing, subtle analog grain",
+      "resolution": "high-detail vertical grid collage",
+      "color_treatment": "softly desaturated with natural skin texture, minor framing imperfections, and light motion blur where appropriate"
+    },
+    "generated_prompt_string": "9:16 vertical — a 3x3 grid collage of nine photographs forming a Korean idol portrait photobook series. Each frame features the same adult Korean woman, maintaining consistent facial features, proportions, long slightly tousled dark hair, and identity across all nine shots. She wears the same cohesive Korean idol styling: a white shirt with light short bottoms, youthful, clean, casual, and styled. Use natural, ultra-realistic skin texture with no retouching or smoothing, clean minimal idol makeup, a soft glow, and subtle imperfections. Set the series against a minimal studio or simple indoor plain wall with soft diffused window light, gentle highlights, low contrast, airy tones, and subtle film-like softness. The grid includes natural standing, gentle side-angle, close-up, seated or leaning, over-shoulder, and soft mid-motion portraits. Sony A7R IV, 50mm f/1.8, an intimate handheld feel, minor grain, occasional slight motion blur, and imperfect framing. Preserve the soft, natural, everyday Korean idol photobook aesthetic.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, childlike appearance, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "An approved-adult face/identity reference is required to maintain one consistent person across all nine frames; preserve her face, facial structure, likeness, hair, and proportions. A wardrobe reference is optional and should preserve the white shirt and light short bottoms when supplied. The studio background can be replaced, but it must stay minimal, pale, and subordinate to the subject.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult face and identity reference",
+          "required": true,
+          "source": "user-supplied approved reference",
+          "usage": "Keep the exact adult person's face, facial structure, hair, proportions, and likeness consistent in every grid cell."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white shirt and light short bottoms",
+          "required": false,
+          "source": "user-supplied wardrobe reference",
+          "usage": "Preserve the same clean casual styling in all nine frames when continuity is needed."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the recurring subject is an adult to remove age ambiguity.",
+      "Kept the original grid structure, outfit direction, frame breakdown, and photobook aesthetic."
+    ]
+  }
+}

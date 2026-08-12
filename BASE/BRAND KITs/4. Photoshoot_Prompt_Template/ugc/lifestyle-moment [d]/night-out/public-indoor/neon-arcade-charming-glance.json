@@ -1,0 +1,51 @@
+{
+  "name": "neon-arcade-charming-glance",
+  "tag": ["ugc", "lifestyle-moment", "night-out", "public-indoor", "arcade", "neon-noir", "motorcycle-game"],
+  "image_type": "candid cinematic arcade portrait",
+  "image_vibe": "effortless, cool, playful, neon-noir, modern",
+  "image_purpose": "social-media night-out visual",
+  "group": "lifestyle-moment/night-out/public-indoor",
+  "prompt": {
+    "project_info": "Photorealistic 3:4 vertical portrait in an indoor late-night arcade, with studio-grade clarity, visible skin and fabric detail, and a 35mm film-inspired candid documentary aesthetic.",
+    "main_subject": "One original adult woman with softly tousled honey-blonde hair, luminous realistic skin, natural cinematic makeup, subtle freckles, expressive almond-shaped eyes, softly defined lips, and a warm playful smile caught mid-laugh. She is seated sideways on an arcade motorcycle game, one foot on the platform, one hand loosely gripping the handlebar, glancing back over her shoulder with effortless confidence. Do not reproduce Ana de Armas or any other public-figure likeness.",
+    "composition_elements": "Frame a 3:4 vertical candid portrait with the arcade motorcycle cabinet in detailed foreground, glowing interface lights, holographic speed indicators and reflective surfaces. In the background include softly blurred pinball machines, pixelated scoreboards, neon signage and polished floors with deep spatial depth. Dress the adult woman in a muted-red vintage-inspired cropped racer jacket with soft leather texture, visible stitching and slightly rolled sleeves, high-waisted ivory matte leather-look shorts with clean tailoring and natural creases, minimalist silver hoops and a thin chain necklace. No visible branding.",
+    "lighting_and_atmosphere": "Use moody cinematic lighting with deep shadows, neon cyan and crimson rim lights, soft facial fill and subtle reflections for a noir mood. Grade with crimson red, cool cyan blue, soft purple and dark graphite tones. Add slight motion blur only where natural while keeping face and subject readable.",
+    "technical_specs": "8K-style photorealistic detail, 3:4 vertical, 35mm film aesthetic, shallow depth of field, candid documentary framing, realistic neon reflections, sharp fabric grain and skin texture, no readable text, logos or watermark.",
+    "generated_prompt_string": "Photorealistic 3:4 vertical candid portrait of one original adult woman with softly tousled honey-blonde hair, luminous realistic skin, natural cinematic makeup, subtle freckles, expressive almond-shaped eyes and a warm playful mid-laugh smile. She sits sideways on an arcade motorcycle game, one foot on the platform, one hand loosely on the handlebar, glancing back over her shoulder with effortless confidence. Muted-red vintage cropped racer jacket with soft leather texture and visible stitching, high-waisted ivory matte leather-look shorts, silver hoop earrings and thin chain necklace, no branding. Late-night retro-futuristic arcade, detailed motorcycle cabinet with glowing interfaces, blurred pinball machines, pixelated scoreboards, neon signage and reflective polished floor. Deep shadows, cyan and crimson rim lights, soft face fill, neon-noir 35mm film aesthetic, shallow depth of field, slight natural motion blur, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Ana de Armas likeness, visible brand logos, distorted anatomy, extra fingers, malformed hands, warped arcade machine, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, unreadable text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "neon-arcade-charming-glance.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult honey-blonde subject, red racer jacket, ivory shorts, arcade motorcycle pose, neon arcade environment, cyan/crimson rim light and 35mm candid mood; replace the named identity and omit branding."
+        },
+        {
+          "type": "source_url",
+          "name": "original prompt post",
+          "required": false,
+          "source": "https://x.com/Cicily_aura/status/2018230028488589332",
+          "usage": "Context only; local written prompt is authoritative."
+        },
+        {
+          "type": "image_asset",
+          "name": "1774980448658-p98mrx8h-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1774980448658-p98mrx8h-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required; source URL and image asset are optional context. Keep the adult subject, outfit, arcade motorcycle pose, neon color palette, candid framing and 35mm film treatment consistent. Replace celebrity identity and omit logos or readable arcade text."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Ana de Armas identity with an original adult woman.",
+      "Preserved the source's non-explicit fashion, pose, arcade environment and candid neon-noir direction.",
+      "Added identity, branding, safety and artifact exclusions."
+    ]
+  }
+}

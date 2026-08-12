@@ -1,0 +1,51 @@
+{
+  "name": "sweet-japanese-girl-at-subway-door",
+  "tag": ["ugc", "viral-trending", "subway", "japanese-style", "sweet", "fresh", "candid"],
+  "image_type": "lifestyle transit portrait",
+  "image_vibe": "sweet, charming, fresh, natural",
+  "image_purpose": "social-media lifestyle visual",
+  "group": "ugc/viral-trending",
+  "prompt": {
+    "project_info": "Create a photorealistic social-media lifestyle portrait of an adult woman at a subway door, with a fresh Japanese-inspired visual style and natural candid charm.",
+    "main_subject": "One adult woman with a sweet, charming, natural expression and polished Japanese-inspired styling. Keep her identity original and clearly adult; do not depict a minor or reproduce a public figure.",
+    "composition_elements": "Place the adult woman standing beside an open subway door, with the train doorway and interior framing her naturally. Use a straightforward portrait composition that makes the subway setting immediately legible while keeping her as the central subject. Preserve a gentle, approachable presence.",
+    "lighting_and_atmosphere": "Use realistic subway-station and carriage lighting with a clean, fresh atmosphere and soft natural facial rendering. Keep the color treatment balanced and believable for an everyday transit moment.",
+    "technical_specs": "Photorealistic lifestyle portrait, natural perspective, realistic subway-door materials and interior details, clean social-media framing, sharp subject detail, no text or watermark.",
+    "generated_prompt_string": "Photorealistic lifestyle portrait of one clearly adult woman with sweet charming Japanese-inspired styling standing beside an open subway door. The subway doorway and carriage interior frame her naturally, while she remains the central subject with a gentle approachable expression. Realistic station and train lighting, fresh clean atmosphere, natural skin and fabric detail, believable transit materials, straightforward social-media composition, no minor and no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, childlike proportions, public-figure likeness, distorted anatomy, extra fingers, malformed hands, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, unreadable text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "sweet-japanese-girl-at-subway-door.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the source's adult Japanese-inspired sweet and charming subject direction, subway-door setting, and fresh everyday mood."
+        },
+        {
+          "type": "source_url",
+          "name": "original prompt post",
+          "required": false,
+          "source": "https://x.com/iamzhihui/status/1991440022869069840",
+          "usage": "Context only; local written prompt is authoritative."
+        },
+        {
+          "type": "image_asset",
+          "name": "1772984724309-bax9xdkb-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1772984724309-bax9xdkb-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required; source URL and image asset are optional context. Keep the clearly adult subject, subway-door environment, Japanese-inspired sweet styling, fresh mood, and natural everyday composition. Identity, exact clothing and minor background details may be replaced without inventing logos or text."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced ambiguous girl wording with a clearly adult woman.",
+      "Added age and safety exclusions while preserving the sweet Japanese-inspired subway concept.",
+      "Adapted from the written prompt only; the image asset was not inspected."
+    ]
+  }
+}

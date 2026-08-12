@@ -1,0 +1,77 @@
+{
+  "name": "toyota-family-car-laden-love-story",
+  "tag": [
+    "family-car",
+    "veloz-mascot",
+    "lifestyle",
+    "home-scene"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Brand story",
+  "group": "toyota_1736648448022246",
+  "prompt": {
+    "project_info": {
+      "theme": "The most beautiful car is the one full of family love",
+      "color_palette": "White, soft beige, leafy green, orange, blue"
+    },
+    "main_subject": {
+      "type": "Object/Person/Text",
+      "detail": "A warm family-home poster with large text across the top reading 'CHIEC XE DEP NHAT LA CHIEC XE CO Dau an CUA GIA DINH'. A blue elephant mascot in an orange shirt stands left with arms crossed. On the right, a white MPV is parked in a residential driveway with its tailgate open. The trunk is full of family objects: teddy bear, soccer ball, water bottle, handbag, blanket, kids drawing, and children's shoes on the ground. A child's drawing is also taped to the rear door. Bottom-left script says 'Move your world'. Toyota logo is top right.",
+      "style": "Photoreal home-lifestyle automotive poster with sentimental family props and friendly mascot support"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "CHIEC XE DEP NHAT / LA CHIEC XE CO / Dau an / CUA GIA DINH / TOYOTA / Move your world",
+      "items": [
+        "Top Left: Large white headline with orange handwritten 'Dau an' over a sunny residential facade",
+        "Top Right: Toyota logo over the house and tree canopy",
+        "Bottom Left: Blue mascot and handwritten 'Move your world'",
+        "Bottom Right: Open-tailgate family car with duffel bag, yellow shoes, and children's belongings in the driveway",
+        "Center/Background: White family MPV parked in front of a house, trunk open to reveal toys, drawings, and daily family items"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Natural residential daylight",
+      "effect": "Soft tree shadows, realistic driveway light, cozy family-home warmth"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal automotive family-lifestyle composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota family lifestyle story. Centerpiece is a white family MPV parked in a residential driveway with its tailgate open, revealing a trunk full of family objects including a teddy bear, soccer ball, blanket, bottle, and children's drawings. Background is a sunny house exterior with trees and soft shadows. Surrounding elements: exact headline 'CHIEC XE DEP NHAT LA CHIEC XE CO Dau an CUA GIA DINH', Toyota logo, a blue elephant mascot in an orange shirt, and footer script 'Move your world'. Technical style: photoreal automotive family-lifestyle composite, natural residential daylight, soft shadows and cozy family-home warmth, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "White family MPV exterior reference",
+          "required": true,
+          "source": "official Toyota family-car reference",
+          "usage": "Preserve the rear-three-quarter view, open tailgate, and body proportions"
+        },
+        {
+          "type": "person",
+          "name": "Bovoi elephant mascot",
+          "required": true,
+          "source": "campaign mascot asset",
+          "usage": "Keep the mascot on the left with folded-arm pose and exact outfit"
+        },
+        {
+          "type": "accessory",
+          "name": "Family props in trunk and driveway",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the teddy bear, soccer ball, bottle, kids drawing, duffel bag, and children's shoes"
+        },
+        {
+          "type": "text_layout",
+          "name": "Family-love poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the large top quote, mascot-left car-right composition, and open-trunk storytelling"
+        }
+      ],
+      "prompt_instructions": "Do not clean away the lived-in family details. The emotional hook is the open trunk filled with everyday family traces and the hand-drawn orange 'Dau an' word."
+    }
+  }
+}

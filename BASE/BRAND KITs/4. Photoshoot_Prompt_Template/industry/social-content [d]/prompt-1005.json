@@ -1,0 +1,83 @@
+{
+  "name": "prompt-1005",
+  "tag": [
+    "instant-photo-illusion",
+    "pop-out-portrait",
+    "cafe-table",
+    "ootd-annotations",
+    "forced-perspective"
+  ],
+  "image_type": "optical-illusion-lifestyle-portrait",
+  "image_vibe": "playful-editorial",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Adult fashion portrait emerging from a freshly developed instant photo",
+      "creative_direction": "Photoreal forced-perspective composite with physical print texture and readable outfit annotations",
+      "color_palette": "warm autumn brown, cream, beige knitwear, dark leather brown, white photo border, and muted cafe tones"
+    },
+    "main_subject": {
+      "type": "clearly adult woman matching the approved portrait reference",
+      "detail": "adult woman with long loose wavy hair, playful confident eyes, natural skin texture, and slight wind movement",
+      "wardrobe": "high-neck knit turtleneck, mini skirt, and leather boots",
+      "pose": "upper torso and head rising out of a glossy instant photo, one hand slightly forward as if stepping into reality, with a closed-lip playful smile"
+    },
+    "composition_elements": {
+      "framing": "top-down three-quarter close POV with the instant photo and face sharp against cafe bokeh",
+      "illusion": "full outfit visible inside the print while the head and upper body emerge above it, casting a real shadow onto the table",
+      "props": "glossy Polaroid-style print with fingerprint smudges and micro-scratches, espresso cup, fallen leaves, stone pavement, and distant pedestrians",
+      "annotations": "legible non-mirrored handwritten labels leather boots, clean turtleneck, and mini skirt with arrows pointing to the printed outfit; fictional caption OOTD ESCAPE - PARIS"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft overcast daylight at approximately 5600K with gentle cafe bounce",
+      "effect": "natural print shadow, subtle glossy reflections, autumn cafe warmth, and realistic paper texture"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 90mm macro lens, photoreal forced-perspective composite",
+      "resolution": "4k 3:4 vertical social image",
+      "finish": "shallow depth of field, natural skin texture, visible paper scratches, restrained grain, and no CGI gloss"
+    },
+    "generated_prompt_string": "Create a hyper-realistic optical-illusion photograph using the approved adult portrait reference. The clearly adult woman appears to emerge from a freshly developed Polaroid-style instant photo lying on a small Paris sidewalk cafe table in autumn. In the glossy print, show her full outfit: a high-neck knit turtleneck, mini skirt, and leather boots; in reality, her upper body and head rise out of the print, casting a real shadow onto the table. Give her long loose waves with realistic shine and slight wind movement, playful confident eyes, and a closed-lip playful smile while one hand reaches slightly forward as if stepping into reality. Add fingerprint smudges and micro-scratches to the print, an espresso cup, fallen leaves, stone pavement, and soft distant pedestrian bokeh. Add readable, non-mirrored white handwritten annotations leather boots, clean turtleneck, and mini skirt with arrows to the printed outfit, plus the fictional caption OOTD ESCAPE - PARIS. Use a top-down three-quarter angle, 90mm macro lens, soft approximately 5600K overcast daylight, real contact shadows, and photoreal texture rather than CGI.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, pout, blowing a kiss, childlike styling, 3d render, cartoon, anime, plastic skin, illegible text, mirrored text, watermark, oversharpened halos, uncanny face, extra fingers, deformed hands, fake glossy CGI print",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-instant-photo-model",
+          "required": true,
+          "source": "Uploaded portrait reference specified by the source prompt",
+          "usage": "Attach the approved adult face reference and preserve identity, hairline, facial structure, and likeness across the emerging subject and printed image."
+        },
+        {
+          "type": "wardrobe",
+          "name": "turtleneck-mini-skirt-leather-boots",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the high-neck knit turtleneck, mini skirt, and leather boots inside the print; outfit may be replaced only with an equivalent adult fashion look."
+        },
+        {
+          "type": "graphic",
+          "name": "fictional-annotated-instant-print",
+          "required": true,
+          "source": "Original instant-photo preview image and source prompt",
+          "usage": "Attach to preserve print border, caption, annotation placement, paper scratches, and pop-out geometry; replace all text with fictional cleared labels."
+        },
+        {
+          "type": "location",
+          "name": "autumn-paris-cafe-table",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the wooden cafe table, espresso, fallen leaves, pavement, and soft street bokeh; exact cafe details may be replaced."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person, exact wardrobe, instant-print, and cafe references. Keep identity continuity, outfit, print texture, annotations, pop-out contact shadow, top-down perspective, and autumn atmosphere consistent. Replace text, person, or cafe only with approved equivalents; keep all expressions and poses non-sexual."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as clearly adult and replaced the source's kiss/pout direction with a closed-lip playful expression while preserving the optical-illusion fashion concept."
+    ]
+  }
+}

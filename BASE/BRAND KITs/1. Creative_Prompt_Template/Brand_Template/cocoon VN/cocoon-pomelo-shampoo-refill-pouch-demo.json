@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-pomelo-shampoo-refill-pouch-demo",
+  "tag": [
+    "refill",
+    "pomelo-shampoo",
+    "eco-refill",
+    "product-demo",
+    "garden",
+    "water"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "cocoon_3148889531977226",
+  "prompt": {
+    "project_info": {
+      "theme": "Eco-refill shampoo demonstration in a lush garden setting",
+      "color_palette": "Deep Green, Botanical Lime, Warm Gold, Cream White"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A product demo showing Cocoon pomelo shampoo being poured from a dark green eco-refill pouch into a standing dark green shampoo bottle, set on a wet wooden surface beside sparkling water spray and dense tropical plants.",
+      "style": "Premium outdoor beauty product demonstration, realistic refill-use scenario, eco-luxury botanical photography"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes the refill badge '78% GIẢM NHỰA SO VỚI DẠNG CHAI' and the main label 'Dầu gội bưởi / Pomelo shampoo'.",
+      "items": [
+        "Top Left: Vertical sparkling water streaks catching sunlight like a shower or sprinkler.",
+        "Top Right: Two hands holding and squeezing a dark green refill pouch downward toward the bottle opening.",
+        "Bottom Left: Full-size dark green pomelo shampoo bottle standing upright on a wet wooden ledge with label facing front.",
+        "Bottom Right: Soft-focus fern leaves and water droplets across a lush tropical background.",
+        "Center/Background: A white stream of shampoo pouring cleanly from the refill pouch into the open bottle neck."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright outdoor sunlight",
+      "effect": "Sparkling water highlights, glossy wet surfaces, fresh botanical humidity, crisp product shine"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity outdoor product photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for an eco-refill shampoo demonstration. Centerpiece is Cocoon pomelo shampoo being poured from a dark green refill pouch into a standing dark green shampoo bottle. Background is a lush tropical garden with sparkling water spray and a wet wooden surface. Surrounding elements: hands holding the refill pouch, visible label text 'Dầu gội bưởi / Pomelo shampoo', the refill badge '78% GIẢM NHỰA SO VỚI DẠNG CHAI', and fresh green foliage. Keep the real pouring action, outdoor humidity feel, and exact refill-use demonstration. Technical style: high fidelity outdoor product photography, bright outdoor sunlight, sparkling water highlights and glossy wet surfaces, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Cocoon pomelo shampoo bottle and eco-refill pouch",
+          "required": true,
+          "source": "Attach official packshots or crops from the original image",
+          "usage": "Preserve the pouch shape, badge placement, bottle silhouette, and exact label system."
+        },
+        {
+          "type": "person",
+          "name": "Hands performing the refill action",
+          "required": true,
+          "source": "Use the original image as pose reference",
+          "usage": "Maintain the tilt angle of the pouch, the stream direction, and the bottle-mouth alignment."
+        },
+        {
+          "type": "background",
+          "name": "Water-sparkle botanical garden setup",
+          "required": true,
+          "source": "Use the original image as environmental reference",
+          "usage": "Keep the sprinkler-like water streaks, tropical greenery, and wet wooden surface."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, attach both package refs and the original action frame. The refill stream, pouch angle, and water-sparkle garden environment are critical to fidelity and should not be replaced by a generic studio product shot."
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "name": "badass-gift-box-fashion-giveaway",
+  "tag": [
+    "giveaway",
+    "fashion retail",
+    "gift promotion",
+    "brand ambassador",
+    "Vietnamese typography",
+    "social creative"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "badass_1318678297093003",
+  "prompt": {
+    "project_info": {
+      "theme": "BADASS premium fashion gift giveaway promotion",
+      "color_palette": "Bright yellow, royal blue, white, black, deep green"
+    },
+    "main_subject": {
+      "type": "Person/Object",
+      "detail": "A photorealistic young Asian man posed three-quarter front, seated or leaning slightly at the lower right, wearing a white short-sleeve textured knit polo shirt with subtle vertical cable lines and a small dark chest crest, black trousers, and a brown-strap wristwatch. His left arm rests casually on a large white gift box tied with a dark green ribbon and printed with the bold black word 'BADASS'.",
+      "style": "Clean commercial fashion campaign, celebrity-style brand ambassador portrait, polished ecommerce retouching, minimal high-contrast promotional layout"
+    },
+    "composition_elements": {
+      "type": "Typography Panels/Graphic Shapes/Product Prop",
+      "text": "BADASS, SLOW FASHION, TẶNG 2 SỊP BADASS CAO CẤP, TẶNG ÁO / QUẦN BADASS",
+      "items": [
+        "Background: full bright yellow backdrop with soft radial glow and smooth gradient.",
+        "Top Right: large abstract royal-blue jagged geometric shape cropped off the edge.",
+        "Center Right: upper-body portrait of the male model, facing camera with calm friendly expression.",
+        "Center Left: oversized white gift box with dark green ribbon bow and diagonal ribbon bands.",
+        "Gift Box Front: large black text 'BADASS' centered; tiny text 'SLOW FASHION' near the lower edge.",
+        "Bottom Left: glossy rounded blue caption panel with white text 'TẶNG 2 SỊP BADASS CAO CẤP'.",
+        "Bottom Right: matching glossy rounded blue caption panel with white text 'TẶNG ÁO / QUẦN BADASS'.",
+        "Lower Right Corner: cropped white chair seat visible beneath the model."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright studio-commercial lighting",
+      "effect": "Soft frontal beauty light, even skin illumination, crisp cutout edges, subtle background glow, cheerful high-key promotional atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic fashion advertising poster with graphic promo overlays",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "male model portrait and pose",
+          "required": true,
+          "source": "Use the source image as the primary face, hairstyle, expression, body angle, wardrobe fit, and arm placement reference.",
+          "usage": "Recreate the same celebrity-like young Asian male with neat black hair, direct gaze, white textured polo, black trousers, and relaxed leaning pose."
+        },
+        {
+          "type": "product",
+          "name": "white BADASS gift box with ribbon",
+          "required": true,
+          "source": "Use the source image as the exact prop reference for box proportions, ribbon placement, ribbon color, and printed branding.",
+          "usage": "Preserve the large white box, dark green bow and diagonal ribbon, and the centered BADASS wordmark."
+        },
+        {
+          "type": "logo",
+          "name": "BADASS wordmark and crest logo",
+          "required": true,
+          "source": "Use the source image or brand assets for the exact BADASS typography and the small chest crest on the polo.",
+          "usage": "Keep 'BADASS' accurate on the gift box and preserve the small dark chest emblem on the shirt."
+        },
+        {
+          "type": "text_layout",
+          "name": "promotional text panels",
+          "required": true,
+          "source": "Use the source image as the exact text, panel shape, size, placement, and line-break reference.",
+          "usage": "Reproduce the two blue rounded rectangles with exactly 'TẶNG 2 SỊP BADASS CAO CẤP' and 'TẶNG ÁO / QUẦN BADASS' in bold white uppercase text."
+        },
+        {
+          "type": "graphic",
+          "name": "blue corner shape and yellow background",
+          "required": true,
+          "source": "Use the source image as the composition reference for the bright yellow field and cropped royal-blue angular corner graphic.",
+          "usage": "Maintain the same simple promo backdrop and top-right visual anchor without adding extra objects."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image as the main composition reference to preserve subject placement, crop, prop scale, and text-panel layout.",
+        "Use the source image as a strict face and wardrobe reference for the model so gpt-image-2 stays close to the original portrait.",
+        "Preserve all visible text exactly: 'BADASS', 'SLOW FASHION', 'TẶNG 2 SỊP BADASS CAO CẤP', and 'TẶNG ÁO / QUẦN BADASS'.",
+        "Keep the image square and maintain the large empty yellow background with the cropped blue shape at the top right.",
+        "Do not replace the gift box with shopping bags or other props; the white ribboned box is essential to the promo concept."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for a BADASS premium fashion gift giveaway promotion. Create a bright yellow background with a soft glowing gradient and a large cropped royal-blue angular graphic shape in the top-right corner. Place a photorealistic young Asian male model on the right half, upper-body to thigh crop, facing camera with a calm friendly expression, neat black hair, wearing a white short-sleeve textured knit polo with subtle vertical cable lines and a small dark crest logo on the chest, black trousers, and a brown-strap wristwatch. His left arm should rest casually on a large white gift box on the left side, tied with a dark green ribbon bow and diagonal ribbon bands. Print the bold black word 'BADASS' on the front of the box and small text 'SLOW FASHION' near the lower edge. At the bottom, add two glossy rounded royal-blue text panels with bold white uppercase Vietnamese text exactly reading 'TẶNG 2 SỊP BADASS CAO CẤP' on the left and 'TẶNG ÁO / QUẦN BADASS' on the right. Include a small cropped white chair seat at the lower right under the model. Style should feel like a polished celebrity fashion promo with clean ecommerce retouching, bright studio-commercial lighting, crisp cutout edges, cheerful high-key atmosphere, photorealistic fashion advertising poster with graphic promo overlays, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, low resolution, noisy skin, distorted face, extra fingers, malformed hand, warped gift box, incorrect Vietnamese text, messy typography, wrong logo, dull colors, flat 2d, cluttered background, extra props, shopping bag instead of gift box, deformed polo collar, cropped text panels, watermark, signature"
+  }
+}

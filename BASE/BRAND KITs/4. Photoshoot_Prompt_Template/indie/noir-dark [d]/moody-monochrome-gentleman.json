@@ -1,0 +1,71 @@
+{
+  "name": "moody-monochrome-gentleman",
+  "tag": [
+    "adult-man",
+    "black-topcoat",
+    "rectangular-sunglasses",
+    "architectural-street",
+    "monochrome-editorial"
+  ],
+  "image_type": "menswear-street-editorial",
+  "image_vibe": "sophisticated-mysterious-urban",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "classic European monochrome street-style menswear portrait",
+      "color_palette": "black, light gray, mid gray, and white accents",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "A stylish adult man with short layered wavy hair, natural flyaways, light stubble, and a calm confident expression.",
+      "wardrobe": "Tailored black topcoat over a white shirt and dark tie, paired with rectangular dark sunglasses.",
+      "pose": "Standing in a relaxed low-angle three-quarter stance with both hands in the coat pockets and gaze turned slightly away from camera."
+    },
+    "composition_elements": {
+      "framing": "Asymmetric rule-of-thirds vertical portrait showing the subject from mid-thigh upward.",
+      "environment": "Historic European architectural setting with stone balustrade, textured walls, columns, and no readable text or logos.",
+      "focus": "High-contrast face and sunglasses, then coat lapels, tie, pocketed hands, and architectural background details."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Diffused natural window-like daylight from above with soft gradual shadows beneath the chin, nose, and coat folds.",
+      "atmosphere": "Elegant, timeless, sophisticated, and slightly mysterious."
+    },
+    "technical_specs": {
+      "camera": "Full-frame digital camera with a 50mm lens, f/4, 1/250 s, ISO 200, low-angle perspective",
+      "quality": "Realistic sharp texture, fine film grain, neutral high-contrast monochrome, medium depth of field, and natural proportions"
+    },
+    "generated_prompt_string": "Create a photorealistic 4:5 monochrome menswear editorial portrait of a stylish adult man with short layered wavy hair, natural flyaways, light stubble, and a calm confident expression. He wears a tailored black topcoat over a white shirt and dark tie, paired with rectangular dark sunglasses. Place him in an asymmetric rule-of-thirds vertical composition from mid-thigh upward, standing in a relaxed low-angle three-quarter stance with both hands in the coat pockets and his gaze turned slightly away from camera. Use a historic European architectural setting with stone balustrade, textured walls, and columns, diffused daylight from above, soft gradual shadows, fine film grain, neutral high-contrast monochrome, and no readable text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, celebrity likeness, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, distorted sunglasses, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult subject. Optional coat, sunglasses, architecture, or lighting references may replace only their named element; preserve the asymmetric composition, monochrome palette, pocketed-hands pose, and timeless menswear mood.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "black-topcoat-white-shirt-dark-tie",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the coat, shirt, and tie while preserving the refined tailored silhouette."
+        },
+        {
+          "type": "accessory",
+          "name": "rectangular-dark-sunglasses",
+          "required": false,
+          "source": "user-uploaded eyewear reference",
+          "usage": "Replace only the sunglasses shape and finish while preserving the understated monochrome styling."
+        },
+        {
+          "type": "location",
+          "name": "historic-european-stone-architecture",
+          "required": false,
+          "source": "user-uploaded location reference",
+          "usage": "Replace only the balustrade, columns, and wall textures while removing readable text."
+        }
+      ]
+    }
+  }
+}

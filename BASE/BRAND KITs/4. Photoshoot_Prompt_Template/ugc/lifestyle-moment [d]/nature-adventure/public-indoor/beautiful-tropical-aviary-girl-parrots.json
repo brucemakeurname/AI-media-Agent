@@ -1,0 +1,40 @@
+{
+  "name": "beautiful-tropical-aviary-girl-parrots",
+  "tag": ["tropical-aviary", "parrots", "face-reference", "travel"],
+  "image_type": "UGC candid travel portrait",
+  "image_vibe": "joyful, lush, candid, immersive",
+  "image_purpose": "Travel attraction and social media portrait content",
+  "group": "ugc/lifestyle-moment/nature-adventure/public-indoor",
+  "prompt": {
+    "project_info": "Create a cinematic photorealistic candid travel portrait in a lush tropical aviary or jungle garden using the required approved-adult face reference.",
+    "main_subject": "The same approved adult woman as the required face reference, standing centered and smiling brightly while looking slightly upward. She has long dark loose waves with a few humid-weather strands, fresh natural makeup, realistic skin texture, and wears a modest black off-shoulder short dress with subtle texture and a small ruffle hem, minimal jewelry, and a small mesh handbag.",
+    "composition_elements": "Vertical 4:5 portrait. Rest the woman's forearms on a natural wooden branch or rail and form a small heart shape with her hands. Place a vivid red parrot on her right forearm, a green parrot on her left forearm, and a dark cockatoo-like bird on a higher branch behind her. Surround the scene with dense greenery and palm fronds; no readable text.",
+    "lighting_and_atmosphere": "Soft natural daylight filtered through tropical foliage, lush green palette, natural skin tones, subtle 35mm grain, immersive joyful aviary atmosphere, realistic not HDR.",
+    "technical_specs": "Photorealistic vertical 4:5 candid travel photo, full-frame camera with 35mm lens, crisp but natural sharpness, realistic feathers, skin pores, fabric folds and hands, shallow environmental depth, subtle 35mm film grain, no logos or watermark.",
+    "generated_prompt_string": "Photorealistic vertical 4:5 candid travel portrait using the same approved adult face and identity as the attached reference image. The woman stands centered in a lush tropical aviary or jungle garden, smiling brightly and looking slightly upward, forearms resting on a natural wooden branch or rail, hands forming a small heart shape. A vivid red parrot perches on her right forearm, a green parrot on her left forearm, and a dark cockatoo-like bird perches on a higher branch behind her. Dense greenery and palm fronds surround the scene. She wears a modest black off-shoulder short dress with subtle texture and a small ruffle hem, natural fabric folds, long dark loose waves, fresh natural makeup, realistic skin texture, minimal jewelry, and a small mesh handbag. Soft daylight filters through the tropical foliage, with lush natural colors, subtle 35mm grain, crisp but natural detail, and no readable text, logos, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, celebrity likeness, public-figure likeness, animal distress, unsafe animal handling, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, extra birds, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult face and identity reference",
+          "required": true,
+          "source": "Upload the approved adult face reference image",
+          "usage": "Lock the adult woman's face, facial structure, proportions, skin texture, eye shape, nose shape, lips, jawline, and any visible identifying marks without beautification or age shift."
+        },
+        {
+          "type": "image",
+          "name": "beautiful-tropical-aviary-girl-parrots composition reference",
+          "required": true,
+          "source": "Attach the provided local reference image",
+          "usage": "Match the aviary composition, parrot placement, black dress category, heart-hand gesture, tropical palette, and candid travel mood while keeping the environment and wardrobe details replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required approved-adult face reference and the required composition reference. Preserve face identity exactly from the face reference and preserve the parrot arrangement, gesture, outfit category, tropical environment, and lighting from the composition reference. Person identity may be replaced only with another approved adult face reference; birds, dress details, handbag, branches, and environment remain replaceable. Remove incidental logos and readable text."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

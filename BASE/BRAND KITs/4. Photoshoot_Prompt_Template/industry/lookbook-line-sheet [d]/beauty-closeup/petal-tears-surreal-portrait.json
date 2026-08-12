@@ -1,0 +1,34 @@
+{
+  "name": "Petal Tears Surreal Portrait",
+  "tag": "industry/lookbook-line-sheet/beauty-closeup",
+  "image_type": "macro editorial beauty portrait",
+  "image_vibe": "organic melancholy, warm analog surrealism",
+  "image_purpose": "editorial art photography and beauty concept development",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": "Create a tactile macro portrait in a sunlit botanical preservation lab, with realistic skin and delicate yellow petal prosthetics.",
+    "main_subject": "A clearly adult fictional person with hyper-detailed natural skin, a wet dewy finish, neutral intense gaze, slicked-back hair or hair out of frame, and translucent vibrant yellow flower petals gently adhered beneath the eyes as an artistic tear motif.",
+    "composition_elements": "4:5 extreme close-up at eye level, face centered with shadowed negative space, shoulders obscured, head slightly turned to catch a narrow light strip, blurred grey-green botanical lab background.",
+    "lighting_and_atmosphere": "Hard daylight strip with controlled warm bounce, deep soft shadow, subtle halation on petals, humid quiet sun-warmed air, no neon.",
+    "technical_specs": "Hasselblad H6D-100c, 120mm macro, f/2.8, extremely shallow depth of field, Kodak Portra 160 simulation, fine grain, warm skin tones, no digital plasticity.",
+    "generated_prompt_string": "Hyper-realistic macro editorial portrait of a clearly adult fictional person in a humid botanical preservation lab, translucent vibrant yellow flower petals gently placed beneath the eyes as an organic tear motif, tactile pores and vellus hair, dewy skin, stoic gaze, hard sunlight strip, deep chiaroscuro shadow, soft grey-green bokeh, Hasselblad H6D-100c, 120mm macro at f/2.8, Kodak Portra 160 film look, 4:5, no neon, no text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, crying distress, injury, blood, child, teen, ageless person, fake plastic skin, neon, celebrity likeness, public figure likeness, watermark, logo, text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "yellow petal macro reference",
+          "required": true,
+          "source": "Attach the supplied source image as the visual reference.",
+          "usage": "Match the petal placement, macro crop, wet skin texture, hard-light pattern, and muted botanical background; keep the adult fictional identity, petal species, and lab details replaceable."
+        }
+      ],
+      "instructions": "Attach the source image before generation. Preserve the close-up composition, petal-tear concept, lighting contrast, and analog texture. Keep identity and environment replaceable, and ensure petals are gentle cosmetic prosthetics rather than injury."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": "Replaced universal/ageless wording with clearly adult fictional person and clarified the petals as gentle cosmetic prosthetics.",
+    "notes": "Surreal beauty styling is non-graphic and nonsexual."
+  }
+}

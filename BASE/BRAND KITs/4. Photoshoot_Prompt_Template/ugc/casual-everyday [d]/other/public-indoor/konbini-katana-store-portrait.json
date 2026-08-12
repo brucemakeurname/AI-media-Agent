@@ -1,0 +1,28 @@
+{
+  "name": "konbini-katana-store-portrait",
+  "tag": ["ugc", "casual-everyday", "other", "public-indoor", "konbini-lifestyle"],
+  "image_type": "convenience-store character portrait",
+  "image_vibe": "cool fluorescent surreal street snapshot",
+  "image_purpose": "UGC-style public indoor character visual",
+  "group": "other/public-indoor",
+  "prompt": {
+    "project_info": "Create a realistic vertical convenience-store portrait of an original approved adult woman using an attached adult face reference when identity continuity is needed.",
+    "main_subject": "An original approved adult woman with dark shoulder-length hair and a contemplative downward gaze sits on a round wooden stool in a convenience store. She wears a white cotton-poplin button-down blouse, navy-and-white striped bow tie, and high-waisted navy plaid pleated skirt. Both hands hold a black katana prop across her lap; keep the blade safely controlled and non-threatening as shown in the reference.",
+    "composition_elements": "Vertical 9:16 medium full-body profile framing, wooden counter and stool, shelves of colorful snacks and bottled drinks, Japanese-style signage, checkout area, bright fluorescent ceiling lights, warm pendant lamps, and realistic reflections and shadows.",
+    "lighting_and_atmosphere": "Dual-source cool fluorescent and warm pendant lighting, crisp convenience-store detail, neutral contemplative expression, candid surreal everyday atmosphere.",
+    "technical_specs": "Realistic iPhone-style photography, 35mm perspective, f/2.8-style depth, vertical 9:16, natural digital grain, realistic textile and packaging texture, restrained color, no artificial HDR look.",
+    "generated_prompt_string": "Realistic vertical 9:16 convenience-store portrait of an original approved adult woman with dark shoulder-length hair and a contemplative downward gaze sitting on a round wooden stool. She wears a white cotton-poplin button-down blouse, navy-and-white striped bow tie, and high-waisted navy plaid pleated skirt. Both hands hold a black katana prop across her lap in a controlled non-threatening pose. Wooden counter, colorful snack and drink shelves, Japanese-style signage, checkout area, fluorescent ceiling strips, and warm pendant lamps create a cool fluorescent surreal street snapshot. iPhone-style photography, 35mm perspective, natural digital grain, realistic texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, unsheathed weapon, violence, threatening gesture, unsafe public weapon handling, inconsistent identity, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy, unreadable text",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved adult face reference", "required": true, "source": "attached source image", "usage": "Preserve the approved adult face, facial structure, hair, and identity without celebrity or public-figure likeness."},
+        {"type": "environment", "name": "konbini katana environment reference", "required": true, "source": "attached source image", "usage": "Match the stool, counter, shelves, signage, controlled prop, and dual-source store lighting."}
+      ],
+      "prompt_instructions": "Attach the required adult face reference and environment reference; they may be the same image. Preserve adult identity, outfit, pose, prop safety, store environment, and light balance. Logos, typography, signs, product packaging, and prop details are replaceable editable elements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Replaced exact-face wording with approved-adult identity-reference instructions.", "Clarified the subject as an adult and added safe prop-handling language.", "Added replaceable-brand and anti-slop guidance."]
+  }
+}

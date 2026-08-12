@@ -1,0 +1,22 @@
+{
+  "name": "warm-bar-glance",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "bar", "lifestyle"],
+  "image_type": "warm hospitality lifestyle portrait",
+  "image_vibe": "relaxed, warm, chic, candid",
+  "image_purpose": "lifestyle lookbook and hospitality editorial",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a warm candid lifestyle portrait of one adult woman standing at an upscale marble bar and looking over her shoulder.",
+    "main_subject": "Adult woman in her late 20s to early 30s with long dark-brown wavy hair, tanned natural skin, neutral expression, silver watch, and small beige handbag. She wears a beige knitted two-piece set with a backless top and long skirt with tasteful side cutouts.",
+    "composition_elements": ["Medium portrait in over-the-shoulder perspective, eye-level, subject on the left third.", "Woman stands with her back toward camera and looks over her right shoulder.", "Marble counter and rattan shelf create leading lines toward the side profile.", "Organized bar items, drinks, liquor bottles, glasses, and a person in a white shirt remain in the background.", "No typography is present."],
+    "lighting_and_atmosphere": "Natural daylight from a large window on the left, soft warm diffusion, subtle shadows defining the bar and clothing, gentle highlights on shoulder, hair, and marble.",
+    "technical_specs": "Smartphone or DSLR look, standard or slightly wide lens, f/2.8, ISO 400, 1/60s, 1080x1350 portrait, shallow depth of field, warm muted earthy palette, no text or watermark.",
+    "generated_prompt_string": "A warm medium over-the-shoulder portrait of an adult woman in her late 20s to early 30s with long dark-brown wavy hair and tanned natural skin, wearing a beige knitted two-piece set with a backless top and long skirt with tasteful side cutouts, standing at a marble bar and looking over her right shoulder. She carries a small beige handbag and wears a silver watch. The upscale bar has rattan shelving, terracotta tiles, warm wood, gold accents, organized drinks, liquor bottles, glasses and a person in a white shirt in the background. Natural daylight comes from a large left window, creating soft warm diffused light and gentle shadows. Portrait orientation, subject on left third, shallow depth of field, candid lifestyle photography, relaxed warm chic mood, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "distorted anatomy", "extra fingers", "inconsistent identity", "plastic skin", "over-smooth", "over-saturated", "HDR look", "messy background", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "warm-bar-glance.jpg", "required": true, "source": "local reference image", "usage": "Attach for adult identity, hair, outfit, pose, handbag, and expression reference."}, {"type": "location", "name": "upscale bar with marble, rattan, and terracotta details", "required": true, "source": "local reference image", "usage": "Preserve counter, shelving, window light, bar items, and warm palette."}],
+      "prompt_instructions": "Attach the required adult subject and bar references. Preserve identity, hair, beige knit outfit, handbag, watch, pose, bar environment, daylight, and warm color treatment. Keep the outfit and side profile tasteful; replace only with equivalent adult identity or hospitality environment references, with no logos or typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

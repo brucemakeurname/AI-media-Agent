@@ -1,0 +1,61 @@
+{
+    "name":  "tropical-rush-soda-splash",
+    "tag":  [
+                "beverage",
+                "product demo",
+                "tropical soda",
+                "neon splash",
+                "fruit advertising",
+                "hero can"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Product demos",
+    "group":  "product_beverage_hero",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Tropical fruit soda energy burst",
+                                        "color_palette":  "Fiery orange, neon pink, tropical yellow, red, clear water, dark metallic gray"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A centered TROPICAL RUSH soda can, wet with condensation and covered in fiery fruit graphics, standing upright amid an explosive water splash and tropical fruit pile.",
+                                        "style":  "Bright high-energy commercial poster photography"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Water splash/Fruit/Packaging typography",
+                                                "text":  "TROPICAL RUSH; TROPICAL FRUIT SODA",
+                                                "items":  [
+                                                              "Center: upright dark soda can with large TROPICAL RUSH label.",
+                                                              "Behind and around can: wide crown-shaped water splash with sharp droplets.",
+                                                              "Foreground: passion fruit, pineapple, strawberry, grapes, and citrus segments.",
+                                                              "Background: orange-to-pink saturated light field with wet reflective surface below."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Bold neon studio lighting",
+                                                   "effect":  "Crisp water refraction, wet can highlights, vivid color separation, cinematic splash energy"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Professional hyper-realistic beverage poster photography, Canon 50mm look",
+                                           "resolution":  "Ultra-high resolution, 3:4 aspect ratio"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "TROPICAL RUSH can packaging",
+                                                                 "required":  true,
+                                                                 "source":  "exact package artwork",
+                                                                 "usage":  "Preserve label wording, tropical fruit illustration, can proportions, and cap details."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach the exact can artwork before rendering.",
+                                                                          "Maintain readable TROPICAL RUSH branding at center.",
+                                                                          "Use real tropical fruit and water, not generic graphic substitutes."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Three ultra-dynamic soda cans in one vibrant high-end advertising composition — a can of TROPICAL RUSH exploding with dramatic water and tropical fruit splash, vibrant orange and pink background lighting; a can of LEMON ICED splashed with cold water against a glowing green dynamic light background; both cans covered in realistic condensation and motion-blurred droplets, bursting with fruity, refreshing energy. Deep orange, pink, and neon green lighting blend together in a bold studio setup. Captured by a professional photographer using a Canon 50mm lens, hyper-realistic textures, crisp details, ultra high resolution, bright commercial poster aesthetic, rich color vibrancy, cinematic splash effects --ar 3:4",
+                   "negative_prompt":  "wrong can label, distorted fruit, flat water, no condensation, muted color, unreadable text, poor reflections, low resolution, watermark"
+               }
+}

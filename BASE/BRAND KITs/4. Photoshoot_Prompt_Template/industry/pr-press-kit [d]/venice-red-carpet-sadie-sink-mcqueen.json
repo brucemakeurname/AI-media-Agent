@@ -1,0 +1,75 @@
+{
+  "name": "venice-red-carpet-sadie-sink-mcqueen",
+  "tag": [
+    "venice-red-carpet",
+    "black-velvet-gown",
+    "copper-red-hair",
+    "gothic-elegance",
+    "architectural-couture"
+  ],
+  "image_type": "red-carpet-couture-portrait",
+  "image_vibe": "gothic-hollywood-glamour",
+  "image_purpose": "press-kit",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Gothic elegance black velvet red-carpet portrait",
+      "event_context": "fictional international film festival gala",
+      "color_palette": "vibrant red backdrop, deep black velvet, copper red hair, silver jewelry, and warm skin tones"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult woman with copper-red loose voluminous waves just past the shoulders, bold matte red lipstick, subtle blue-eye makeup, and confident poised expression",
+      "wardrobe": "custom strapless floor-length black velvet gown with a structured architectural bodice, lined geometric cutout details, and elegant sculptural construction",
+      "accessories": "silver drop earrings and restrained rings"
+    },
+    "composition_elements": {
+      "framing": "vertical 4:5 medium-full red-carpet portrait",
+      "subject_position": "adult woman centered with direct front-facing and slight three-quarter stance options",
+      "background": "vibrant red fictional festival press wall with abstract white event emblem and no real festival or beauty branding"
+    },
+    "lighting_and_atmosphere": {
+      "type": "bright even event flash at approximately 5000K with controlled fill",
+      "effect": "clean highlights on velvet, hair, jewelry, and facial structure, soft background separation, high-fashion gothic mood"
+    },
+    "technical_specs": {
+      "render_style": "full-frame event camera with 85mm lens, polished couture red-carpet photography",
+      "resolution": "4k vertical portrait",
+      "finish": "realistic skin texture, controlled reflective highlights, accurate velvet pile, subtle event grain"
+    },
+    "generated_prompt_string": "A clearly adult woman at a fictional international film festival gala, with copper-red loose voluminous waves just past the shoulders, bold matte red lipstick, subtle blue-eye makeup, warm realistic skin texture, and a confident poised expression. She wears a custom strapless floor-length black velvet gown with a structured architectural bodice, lined geometric cutout details, and elegant sculptural construction, plus silver drop earrings and restrained rings. Use a vibrant red fictional festival press wall with an abstract white event emblem and no real festival or beauty branding. Bright even event flash creates clean highlights on velvet, hair, jewelry, and facial structure with soft background separation. Capture a vertical 4:5 medium-full portrait using an 85mm event lens, realistic material texture, controlled highlights, and subtle grain in a gothic Hollywood glamour style.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, celebrity likeness, transparent fabric, exposed intimate areas, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, real event logos, illegible text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-gothic-couture-model",
+          "required": true,
+          "source": "Original Venice red-carpet preview image",
+          "usage": "Attach an approved adult face reference for continuity; preserve facial structure without the source's named public-figure likeness."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-velvet-architectural-gown",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the strapless black velvet silhouette, architectural bodice, lined cutouts, earrings, and rings; keep the outfit fashion-editorial and non-explicit."
+        },
+        {
+          "type": "text_layout",
+          "name": "fictional-red-festival-press-wall",
+          "required": false,
+          "source": "Original red-carpet backdrop",
+          "usage": "Optional graphic reference; preserve red field, white emblem scale, and hierarchy, while replacing real festival and brand marks with cleared fictional graphics."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person and wardrobe references; the press wall is optional. Keep the adult identity, copper-red hair, black velvet gown, lined architectural cutouts, central pose, and bright flash consistent. Replace the source celebrity, real festival, and beauty branding with generic cleared equivalents; the venue and graphics are replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public figure and real event branding with an approved clearly adult generic model and fictional gala; specified lined cutout construction and removed public-figure references while preserving the gown concept."
+    ]
+  }
+}

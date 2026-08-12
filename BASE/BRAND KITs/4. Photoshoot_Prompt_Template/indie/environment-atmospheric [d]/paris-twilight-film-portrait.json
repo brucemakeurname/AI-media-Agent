@@ -1,0 +1,66 @@
+{
+  "name": "Twilight Vintage Shopfront Portrait",
+  "tag": "twilight-vintage-shopfront",
+  "image_type": "moody_street_editorial_portrait",
+  "image_vibe": "rainy_winter_film",
+  "image_purpose": "fashion_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Twilight Vintage Shopfront Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with shoulder-length light-brown hair, a calm distant gaze, and natural skin texture.",
+      "wardrobe": "An oversized worn brown leather bomber with a thick black faux-shearling collar, dark knit layer, and plain dark trousers.",
+      "pose_and_expression": "Standing close to a shop entrance in three-quarter stance, one hand at the pocket opening and the other arm relaxed."
+    },
+    "composition_elements": {
+      "setting": "An aged dark-green wooden shopfront at overcast twilight, with smudged reflective glass, faint abstract botanical display, and small unlabeled interior objects.",
+      "framing": "Eye-level mid-thigh vertical portrait; the window and doorframe create balanced background structure.",
+      "text_and_brand_control": "Window, menu board, products, and signage are blank or abstract: no French lettering, readable copy, logo, or brand."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft cool ambient street light with a faint warmer interior glow, no direct flash.",
+      "mood": "Cozy, quiet, rainy-winter, and cinematic."
+    },
+    "technical_specs": {
+      "camera_style": "film-scanned 35mm street editorial",
+      "lens": "50mm equivalent",
+      "rendering": "Subtle grain, highlight halation, mild vignette, aged-paint detail, natural pores, and realistic hands."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical film-scanned 35mm street-editorial portrait of an adult woman with shoulder-length light-brown hair, a calm distant gaze, and natural skin texture. She wears an oversized worn brown leather bomber with a thick black faux-shearling collar, dark knit layer, and plain dark trousers. Pose her close to an aged dark-green shop entrance in three-quarter stance, one hand at the pocket opening. Behind her show smudged reflective glass, a faint abstract botanical display, and small unlabeled interior objects. Use soft cool twilight street light with faint warmer interior glow, no flash, subtle grain, highlight halation, mild vignette, aged-paint texture, natural pores, and realistic hands. Make every window, menu, product, and sign blank or abstract: no readable lettering, logos, brands, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, logo, readable French text, menu text, watermark, plastic skin, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity references must depict a consenting adult. Shopfront and wardrobe references are replaceable and must remove all labels, menus, brands, and text.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult face and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "vintage_shopfront_reference",
+          "required": false,
+          "source": "user-provided exterior reference",
+          "usage": "Guide wood, glass, and twilight lighting while blanking all copy."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "shearling_bomber_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide leather and faux-shearling texture without marks."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed readable shop and menu text while preserving the twilight vintage-shop concept and adult, covered styling."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "tang-hanfu-beauty-palace",
+  "tag": ["adult-woman", "tang-hanfu", "imperial-palace", "apricot-pink", "historical-fashion", "vertical"],
+  "image_type": "fashion-lookbook",
+  "image_vibe": "poetic-luxury",
+  "image_purpose": "editorial",
+  "group": "indie/low-fi-dreamy/golden-warm",
+  "prompt": {
+    "project_info": "A high-fashion historical palace portrait balancing flowing Tang-inspired layers with warm carved-wood architecture.",
+    "main_subject": "An adult East Asian woman with long soft dark waves, a refined updo with floral hair ornaments, warm natural makeup, and a serene smile. She wears a Tang-inspired improved hanfu with a chest-high ruqun bodice, flowing wide sleeves, and multi-layered lightweight silk and gauze in soft apricot, pale lotus pink, misty rose, and subtle gold; its refined fit complements her feminine silhouette.",
+    "composition_elements": "Vertical full-length editorial portrait beside a red lacquered pillar or carved railing. She stands in an elegant relaxed posture, one hand resting on the railing and the other holding a section of the flowing skirt. Grand red pillars, carved lattice screens, silk curtains, lanterns, and a few floating petals create depth; omit text, logos, and cosplay branding.",
+    "lighting_and_atmosphere": "Soft daylight through carved windows mixed with warm lantern ambience at 4000K. Sunlight highlights her shoulders and chest area while realistic shadows enhance the garment's curves; preserve realistic fabric folds, hair strands, aged wood, gentle petal movement, and low-contrast film warmth.",
+    "technical_specs": "Full-frame camera with 50mm lens at f/2, vertical 2:3 crop, side/slightly low eye-level, shallow architectural depth, natural grain, muted warm grade.",
+    "generated_prompt_string": "High-fashion historical palace portrait of an adult East Asian woman in a Tang-inspired improved hanfu with a chest-high ruqun bodice, flowing wide sleeves, and multi-layered lightweight silk and gauze in soft apricot, pale lotus pink, misty rose, and subtle gold. Its refined fit complements her feminine silhouette. She stands beside a red lacquered pillar in a magnificent ancient Chinese palace, one hand resting on the railing and the other holding her flowing skirt, serene gentle expression, floral hair ornaments, carved lattice screens, silk curtains, lanterns, daylight through carved windows mixed with warm ambient lantern light that highlights her shoulders and chest area and creates realistic shadows enhancing the garment's curves, occasional soft petals, full-length vertical editorial composition, realistic fabric and wood texture, no text or logos.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, body-part emphasis, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "Attach the approved adult identity reference when likeness continuity is required; preserve face, facial structure, and likeness. Attach wardrobe or palace references when continuity matters. Preserve the chest-high ruqun silhouette, flowing sleeves, layered silk-and-gauze fabric, apricot-pink-gold palette, red pillars, carved architecture, and warm mixed light. Hair ornaments and individual palace details may be replaced through approved unbranded references.",
+      "assets": [
+        {"type": "person", "name": "approved-adult-hanfu-identity-reference", "required": true, "source": "provided approved-adult face reference", "usage": "Preserve adult face, facial structure, likeness, and approved hairstyle; never substitute a celebrity or public figure."},
+        {"type": "wardrobe", "name": "tang-ruqun-silk-gauze-reference", "required": false, "source": "attach when outfit continuity is needed", "usage": "Maintain the chest-high ruqun silhouette, wide sleeves, layered silk-and-gauze materials, and palette."},
+        {"type": "background", "name": "imperial-palace-interior-reference", "required": false, "source": "attach when setting continuity is needed", "usage": "Preserve red pillars, carved screens, and warm lantern mood."}
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Made the subject explicitly adult.", "Replaced body-part-focused and sensual wording with feminine-silhouette, garment-fit, and directional-lighting language while preserving the chest-high ruqun, layered silk-and-gauze styling, pose, and palace editorial intent.", "Retained the required approved-adult identity reference because the source calls for locked character consistency."]
+  }
+}

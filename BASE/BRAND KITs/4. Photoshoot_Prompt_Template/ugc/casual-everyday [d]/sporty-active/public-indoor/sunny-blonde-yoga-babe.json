@@ -1,0 +1,26 @@
+{
+  "name": "sunny-blonde-yoga-babe",
+  "tag": ["ugc", "casual-everyday", "sporty-active", "public-indoor", "yoga", "outdoor-park"],
+  "image_type": "outdoor-yoga-portrait",
+  "image_vibe": "joyful-peaceful-afternoon",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/sporty-active/public-indoor",
+  "prompt": {
+    "project_info": "Create a candid smartphone-style outdoor yoga portrait of an approved adult blonde woman practicing on a mat in a leafy public park.",
+    "main_subject": "An approved adult woman with long wavy blonde hair, natural light skin, and a bright genuine smile looking directly at camera. She wears a white long-sleeved ribbed crop top and pastel-pink ribbed leggings, kneeling in a relaxed puppy-pose variation with forearms on the mat and head turned toward camera.",
+    "composition_elements": "Low ground-level 35-50mm portrait with profile body view and frontal face. Show a light tan yoga mat on green grass, mature trees with twisting branches, dense foliage, bushes, and bright sky through the canopy.",
+    "lighting_and_atmosphere": "Soft shaded daylight on the subject with dappled sunlight on grass and trees, soft shadows beneath the body, joyful playful relaxed outdoor-fitness mood.",
+    "technical_specs": "Photorealistic unedited smartphone photography, full-body vertical framing, natural depth, slight foreshortening, realistic ribbed fabric, hair strands, grass blades, and medium natural contrast.",
+    "generated_prompt_string": "Create a candid photorealistic smartphone-style portrait of an approved adult blonde woman practicing yoga on a light tan mat in a leafy public park. She has long wavy blonde hair, natural light skin, and a bright genuine smile toward the camera. Dress her in a white long-sleeved ribbed crop top and pastel-pink ribbed leggings. Show a relaxed puppy-pose variation with knees and shins on the mat, forearms supporting her, hips raised naturally, and face turned toward the lens. Use a low ground-level 35-50mm perspective, green grass, mature twisting trees, dense foliage, bushes, dappled daylight, soft shadows, and unedited realistic texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted body, impossible yoga anatomy",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-blonde-yoga-subject", "required": true, "source": "sunny-blonde-yoga-babe.jpg", "usage": "Preserve adult identity, hair, smile, and relaxed yoga pose."},
+        {"type": "wardrobe", "name": "white-top-pink-ribbed-leggings", "required": true, "source": "sunny-blonde-yoga-babe.jpg", "usage": "Keep top and leggings consistent; replace only with explicit wardrobe references."},
+        {"type": "location", "name": "green-park-yoga-mat", "required": true, "source": "sunny-blonde-yoga-babe.jpg", "usage": "Maintain mat, grass, trees, foliage, and dappled daylight; replace only with explicit location references."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, equipment/product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed objectifying body language and clarified the subject as an approved adult while preserving the yoga scene.", "Added safe negative prompts and structured references."]}
+}

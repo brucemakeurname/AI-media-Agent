@@ -1,0 +1,85 @@
+{
+  "name": "befood-nem-nuong-dran-discount-50",
+  "tag": [
+    "befood",
+    "restaurant promo",
+    "nem nuong",
+    "50 percent off",
+    "saigon landmarks"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "be_924566114003295",
+  "prompt": {
+    "project_info": {
+      "theme": "beFood restaurant discount with city-landmark backdrop",
+      "color_palette": "Sky blue, white, bright yellow, fresh green, warm brown"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A food promotion poster centered on a large basket platter of Nem Nướng D'ran overflowing with grilled pork rolls, sliced cucumber, herbs, lettuce, and rice-paper ingredients, set on a round wooden table with Saigon landmarks and clouds behind.",
+      "style": "Photoreal food composite poster, fresh bright delivery campaign"
+    },
+    "composition_elements": {
+      "type": "Food Props/Typography/Landmark Background",
+      "text": "beFood, D'ran, Nem Nướng D'ran, Giảm đến 50%, Giao không ghép đơn",
+      "items": [
+        "Top Center: white beFood wordmark and the D'ran logo badge.",
+        "Upper Middle: large blue title 'Nem Nướng D'ran'.",
+        "Below title: two yellow ticket-shaped promo panels reading 'Giảm đến 50%' and 'Giao không ghép đơn'.",
+        "Center: oversized round bamboo basket platter filled with grilled pork rolls, cucumber slices, herbs, scallions, lettuce, carrot strips, noodles, and rice-paper pieces.",
+        "Bottom: light wooden round tabletop platform.",
+        "Background Left: Bitexco-style skyscraper.",
+        "Background Right: large cathedral facade with cross and clock.",
+        "Background Overall: bright blue sky with fluffy clouds."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright daylight food photography lighting",
+      "effect": "Fresh appetizing highlights, airy city mood, clean composite shadowing"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal food advertising poster with composited landmark scenery",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "beFood and D'ran logos",
+          "required": true,
+          "source": "source image brand references",
+          "usage": "Preserve both logos and their top placement."
+        },
+        {
+          "type": "product",
+          "name": "Nem Nướng D'ran platter",
+          "required": true,
+          "source": "source image food reference",
+          "usage": "Keep the exact food assortment, basket angle, and abundance of fresh herbs."
+        },
+        {
+          "type": "location",
+          "name": "city landmarks backdrop",
+          "required": true,
+          "source": "source image landmark reference",
+          "usage": "Preserve the left skyscraper and right cathedral silhouettes for location identity."
+        },
+        {
+          "type": "text_layout",
+          "name": "restaurant promo typography",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Keep the exact wording and yellow ticket-shaped promo boxes."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve food arrangement and the landmark-backed composite layout.",
+        "Keep all visible text exactly as shown.",
+        "Maintain strong appetizing food realism while keeping the graphic promo boxes crisp."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square beFood restaurant promotion poster. Use a bright sky-blue background with fluffy clouds, a city skyscraper on the left, and a cathedral facade on the right. At the top center place the white beFood wordmark and the D'ran logo badge. Add a large blue title 'Nem Nướng D'ran'. Below it place two yellow ticket-shaped promo boxes reading 'Giảm đến 50%' and 'Giao không ghép đơn'. In the center, show a large photoreal bamboo basket platter filled with grilled pork rolls, cucumber slices, herbs, lettuce, carrot strips, noodles, and rice-paper pieces, resting on a light wooden round table. Technical style: photoreal food advertising poster with composited landmark scenery, bright daylight food photography lighting, fresh appetizing finish, 8k resolution, highly detailed.",
+    "negative_prompt": "dark food, incorrect text, missing logos, wilted vegetables, muddy colors, low resolution, deformed platter, cluttered background, watermark, signature"
+  }
+}

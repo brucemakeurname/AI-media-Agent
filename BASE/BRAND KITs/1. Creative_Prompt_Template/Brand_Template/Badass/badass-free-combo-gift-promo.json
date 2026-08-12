@@ -1,0 +1,85 @@
+{
+  "name": "badass-free-combo-gift-promo",
+  "tag": [
+    "free gift promo",
+    "combo offer",
+    "male fashion",
+    "promotion creative",
+    "yellow blue campaign",
+    "retail incentive"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Special offers",
+  "group": "badass_1487498023391653",
+  "prompt": {
+    "project_info": {
+      "theme": "Free combo gift promo with menswear purchase",
+      "color_palette": "Bright yellow, royal blue, white, black, beige"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A young Asian male model in a soft cream shirt layered over a white tee and matching shorts stands on a gravel outdoor setting, holding a dark brown leather tote. On the right side, blue glowing product panels showcase shirts and underwear, with large promotional Vietnamese text announcing a free combo gift.",
+      "style": "Photorealistic retail promo poster, bold ecommerce graphic composition, lifestyle-meets-offer visual, bright sale campaign aesthetic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "BADASS, TẶNG COMBO ÁO HOẶC SỊP, MIỄN PHÍ, SHNTK711 - QSVTK711",
+      "items": [
+        "Left Side: a full-body male model wearing sunglasses, a cream overshirt over white tee, matching shorts, and white slides, holding a dark brown tote bag.",
+        "Top Right: black BADASS wordmark on bright yellow background.",
+        "Upper Right Panel: a glowing blue rounded rectangle containing two product packshots of a polo and a white T-shirt.",
+        "Middle Right Panel: another glowing blue rounded rectangle containing two underwear product images.",
+        "Bottom Right: large stacked white and blue-outlined Vietnamese text 'TẶNG COMBO ÁO HOẶC SỊP' and a blue rounded badge reading 'MIỄN PHÍ'.",
+        "Bottom Left: small white product code text 'SHNTK711 - QSVTK711'.",
+        "Background: the layout is split between an outdoor beige lifestyle scene on the left and a flat bright yellow promo background on the right."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright natural daylight with graphic glow accents",
+      "effect": "Warm outdoor light on the model, crisp retail-promo contrast, soft blue halo around product panels, energetic promotional mood"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic fashion promo poster with ecommerce graphic panels",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "male model outdoor outfit",
+          "required": true,
+          "source": "source image model reference",
+          "usage": "Use to preserve face, hairstyle, sunglasses, pose, tote, and cream summer outfit styling."
+        },
+        {
+          "type": "product",
+          "name": "gift combo apparel and underwear",
+          "required": true,
+          "source": "source image product packshot reference",
+          "usage": "Use to keep the shirt, tee, and underwear packshots close to the original promo arrangement."
+        },
+        {
+          "type": "text_layout",
+          "name": "promo typography and badge",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Preserve the exact wording and hierarchy of 'TẶNG COMBO ÁO HOẶC SỊP' and 'MIỄN PHÍ'."
+        },
+        {
+          "type": "logo",
+          "name": "BADASS wordmark",
+          "required": true,
+          "source": "source image brand reference",
+          "usage": "Use for the top-right BADASS branding."
+        }
+      ],
+      "prompt_instructions": [
+        "If using gpt-image-2, attach the source image to preserve both the model identity and the exact offer layout.",
+        "Keep the yellow-blue promo palette and the glowing blue product panels.",
+        "Preserve all visible text exactly, especially 'TẶNG COMBO ÁO HOẶC SỊP' and 'MIỄN PHÍ'."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square retail promotion poster for a free combo gift offer. Split the composition with a photorealistic outdoor lifestyle scene on the left and a bright yellow promo background on the right. Show a young Asian male model wearing sunglasses, a cream short-sleeve overshirt over a white tee, matching shorts, and white sandals, holding a dark brown leather tote, standing on beige gravel. On the right, place black BADASS text at the top, a glowing blue rounded rectangle with product packshots of a polo and white T-shirt, and below it another glowing blue rounded rectangle with underwear packshots. At the bottom-right, add large stacked Vietnamese text 'TẶNG COMBO ÁO HOẶC SỊP' with a blue rounded badge reading 'MIỄN PHÍ'. Add small white product code text 'SHNTK711 - QSVTK711' in the lower-left area. Technical style: photorealistic fashion promo poster with ecommerce graphic panels, bright natural daylight with graphic glow accents, energetic sale mood, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, incorrect text, blurry model, distorted products, low resolution, messy sale layout, flat 2d, extra people, wrong brand, harsh noise, warped tote bag, malformed hands, watermark, signature"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Sunlit Minimalist Product Skin",
+  "tag": "industry/lookbook-line-sheet/beauty-closeup",
+  "image_type": "lifestyle product photograph",
+  "image_vibe": "warm sunlit minimalism, tactile body-care luxury",
+  "image_purpose": "beauty or body-care product campaign",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": "Create a hyper-realistic lifestyle product photograph with a foreground product and a softly blurred sunlit human form in the background.",
+    "main_subject": "{{PRODUCT}} standing upright on a rustic, slightly worn wooden stool; in the softly out-of-focus background, a clearly adult fictional person's sun-kissed upper leg and hip are covered by a clean white ribbed one-piece swimsuit with modest coverage.",
+    "composition_elements": "Vertical product-first composition, product in sharp focus, wooden stool grain and imperfections visible, no extra objects, warm minimal body-care advertising language, background softly blurred.",
+    "lighting_and_atmosphere": "Warm natural daylight with strong but soft sunlight, realistic gentle shadows, flattering visible skin texture, tiny body hairs and pores without over-retouching.",
+    "technical_specs": "Ultra-detailed 8K photorealistic DSLR look, cinematic shallow depth of field, product label and design preserved exactly as supplied by the user, no invented text, no unrelated branding.",
+    "generated_prompt_string": "Hyper-realistic lifestyle product photograph of {{PRODUCT}} standing upright on a rustic worn wooden stool, product in sharp focus with its user-supplied label and design preserved exactly, softly blurred background showing the covered sun-kissed upper leg and hip of a clearly adult fictional person wearing a modest white ribbed one-piece swimsuit, warm natural sunlight, realistic shadows, visible wood grain, flattering pores and fine body hairs, minimal elegant body-care campaign, shallow depth of field, 8K DSLR realism, no extra objects, no invented text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, exposed intimate areas, sexualized framing, child, teen, ageless person, celebrity likeness, public figure likeness, distorted product label, invented text, watermark, clutter, CGI, 3D render, plastic skin, extra limbs, incorrect anatomy, low resolution",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "sunlit product composition reference",
+          "required": true,
+          "source": "Attach the supplied source image and attach the final product asset separately.",
+          "usage": "Match the stool, warm sunlight, product-first focus, white ribbed swimwear, and soft body-skin background; preserve the supplied product identity and label only when the user provides it, while keeping the human identity fictional and replaceable."
+        }
+      ],
+      "instructions": "Attach the source image before generation and provide {{PRODUCT}} as a separate product reference. Preserve product geometry, label, and composition consistency; keep the adult fictional person, wardrobe, and background replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": "Clarified the background person as a clearly adult fictional subject with modest one-piece coverage and made product-label preservation conditional on a user-supplied asset.",
+    "notes": "Product and body-care styling are non-graphic and nonsexual."
+  }
+}

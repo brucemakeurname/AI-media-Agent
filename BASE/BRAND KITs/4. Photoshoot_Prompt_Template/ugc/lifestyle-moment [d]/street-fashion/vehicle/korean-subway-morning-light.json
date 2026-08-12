@@ -1,0 +1,55 @@
+{
+  "name": "korean-subway-morning-light",
+  "tag": [
+    "ugc",
+    "subway",
+    "morning",
+    "korean-fashion",
+    "commute"
+  ],
+  "image_type": "UGC commuter lifestyle portrait",
+  "image_vibe": "quiet, minimalist, cool-toned, realistic",
+  "image_purpose": "Lifestyle feed post and urban-fashion moodboard",
+  "group": "ugc/lifestyle-moment [d]/street-fashion/vehicle",
+  "prompt": {
+    "project_info": "Create an ultra-realistic vertical commuter-fashion portrait on a modern Korean subway platform in the early morning.",
+    "main_subject": "One approved adult Korean woman with long straight black hair and natural everyday makeup. She wears a light-gray tailored coat left open over a simple white top, high-waisted straight-leg black trousers, clean minimalist white sneakers, and a crossbody leather bag. She shifts her weight naturally to one leg, holds the bag strap with one hand, and keeps the other relaxed while waiting for the train.",
+    "composition_elements": "9:16 full-body vertical composition on a modern subway platform. Include blurred train headlights and distant train lights, cool gray concrete and tile textures, tactile yellow platform paving, waiting passengers, overhead fixtures, subtle morning mist, and the visible station sign typography from the reference without inventing or translating new text.",
+    "lighting_and_atmosphere": "Soft diffused morning daylight entering from one side, cool overall tones, natural shadows beneath the subject, gentle reflections on the platform, no dramatic neon or heavy contrast. Calm thoughtful quiet-city atmosphere.",
+    "technical_specs": "50mm lifestyle lens look, 9:16 vertical full-body framing, realistic fabric folds, natural body proportions, sharp subject focus with believable background falloff, subtle film grain, restrained saturation, mild natural vignetting.",
+    "generated_prompt_string": "Ultra-realistic vertical 9:16 lifestyle photograph of one approved adult Korean woman with long straight black hair and natural everyday makeup standing on a modern subway platform in the early morning. She wears a light-gray tailored coat open over a simple white top, high-waisted straight-leg black trousers, clean minimalist white sneakers, and a crossbody leather bag. She shifts her weight naturally to one leg, holds the bag strap with one hand, and keeps the other relaxed, with a calm thoughtful expression as if waiting for the train. Include blurred train headlights, cool gray concrete and tile textures, tactile yellow platform paving, waiting passengers, overhead fixtures, subtle morning mist, and the visible station sign typography from the reference. Soft diffused daylight, cool tones, natural shadows, realistic fabric folds, 50mm lifestyle lens look, sharp subject focus, and quiet city-morning realism.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, child or teen appearance, celebrity likeness, unsafe platform position, standing on tracks, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, dramatic neon, harsh flash, distorted hands, extra fingers, deformed, invented signage, random text, watermark, low resolution, blur",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "korean-subway-morning-light.jpg",
+          "required": true,
+          "source": "local approved subject and wardrobe reference",
+          "usage": "Preserve approved adult identity, facial structure, long black hair, exact coat-and-trouser outfit, bag, pose, and natural makeup."
+        },
+        {
+          "type": "location",
+          "name": "korean-subway-morning-light.jpg",
+          "required": true,
+          "source": "local approved subway-platform reference",
+          "usage": "Preserve platform geometry, train, tactile paving, cool gray materials, passengers, morning light, and station environment."
+        },
+        {
+          "type": "text_layout",
+          "name": "korean-subway-morning-light.jpg",
+          "required": false,
+          "source": "visible station-sign reference",
+          "usage": "Preserve the visible Korean and English station-sign layout and lettering when the sign is included; do not invent replacement text or logos."
+        }
+      ],
+      "prompt_instructions": "Attach the required person and location reference; attach the optional text-layout reference whenever signage fidelity matters. Preserve identity, outfit, bag, safe platform environment, train context, lighting, station-sign typography, and composition. Passengers, distant lights, and minor props are replaceable. Any replacement person must be an approved adult; preserve environment and typography rather than inventing logos, products, or text."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an approved adult and added a safe-platform constraint while preserving the commuter-fashion concept."
+    ]
+  }
+}

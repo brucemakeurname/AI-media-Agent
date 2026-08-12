@@ -1,0 +1,52 @@
+{
+  "name": "cellphones-oppo-reno16-selfie-50mp",
+  "tag": ["cellphones", "oppo reno16", "selfie camera", "50mp", "sample shots"],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Product demos",
+  "group": "cellphones_1375265664704532",
+  "prompt": {
+    "project_info": {
+      "theme": "Ultra-wide selfie camera sample comparison",
+      "color_palette": "Soft lavender, white, light gray, skin tones, red accent"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A clean smartphone-camera comparison poster for OPPO Reno16 Series 5G showing two side-by-side sample selfies: a tight portrait of a girl in red on the left and an ultra-wide group selfie on the right, with zoom overlays and a pastel violet campaign frame.",
+      "style": "Premium smartphone-camera sample comparison poster"
+    },
+    "composition_elements": {
+      "type": "Sample Photos/Typography/UI Overlay",
+      "text": "OPPO Reno16 Series 5G, CAMERA SELFIE GÓC SIÊU RỘNG 50MP, 2x, 0.6x, 1, 2, 3.5, 6, Một Mình Đã Xinh, “Nhiều Mình” Xinh Gấp Bội",
+      "items": [
+        "Top Right: 'OPPO Reno16 Series 5G' wordmark.",
+        "Upper Middle: large lavender headline 'CAMERA SELFIE GÓC SIÊU RỘNG 50MP'.",
+        "Center Left: portrait selfie of a girl in a red sleeveless knit top waving near the lens, with a zoom bar overlay showing '2x' highlighted.",
+        "Center Right: wide-angle group selfie with four friends on an outdoor parking-ramp scene, with a zoom bar overlay showing '0.6x' highlighted.",
+        "Bottom: two caption lines 'Một Mình Đã Xinh' and '“Nhiều Mình” Xinh Gấp Bội'.",
+        "Decor: soft purple sparkle/star graphics and a rounded lavender panel base."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft natural daylight with premium graphic finish",
+      "effect": "Clean sample-photo realism, polished comparison clarity, airy pastel campaign styling"
+    },
+    "technical_specs": {
+      "render_style": "Smartphone selfie-feature comparison poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "portrait and group selfie subjects", "required": true, "source": "source image people reference", "usage": "Preserve the exact selfie framing, facial expressions, clothing, and group arrangement."},
+        {"type": "text_layout", "name": "camera headline, captions, and zoom overlays", "required": true, "source": "source image text reference", "usage": "Keep the exact Vietnamese copy and the lens zoom overlay numbers with correct highlights."},
+        {"type": "ui_reference", "name": "selfie zoom interface overlay", "required": true, "source": "source image UI reference", "usage": "Preserve the circular selected-zoom markers and bar position at the bottom of each sample."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the sample-photo crops and the zoom-overlay positions.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the clean pastel comparison layout with the left portrait and right group wide-angle sample."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square OPPO Reno16 Series 5G selfie-feature poster on a soft lavender-white background. Place the wordmark 'OPPO Reno16 Series 5G' at the top right and the large headline 'CAMERA SELFIE GÓC SIÊU RỘNG 50MP' at the top center. Show two side-by-side sample selfies: on the left a close portrait of a girl in a red sleeveless knit top waving toward the lens with a zoom bar showing '2x' highlighted, and on the right a wide-angle group selfie of four friends outdoors with a zoom bar showing '0.6x' highlighted. Add the bottom captions 'Một Mình Đã Xinh' and '“Nhiều Mình” Xinh Gấp Bội'. Technical style: smartphone selfie-feature comparison poster, soft natural daylight with premium graphic finish, 8k resolution, highly detailed.",
+    "negative_prompt": "dark muddy tones, incorrect text, altered selfie composition, low resolution, warped faces, cluttered layout, watermark, signature"
+  }
+}

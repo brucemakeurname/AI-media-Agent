@@ -1,0 +1,72 @@
+{
+  "name": "lilixbox-halio-ipl-free-gwp-69m",
+  "tag": [
+    "ipl-device",
+    "gwp",
+    "gift-with-purchase",
+    "halio",
+    "luxury-bundle",
+    "cta"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "lilixbox_2277812352967527",
+  "prompt": {
+    "project_info": {
+      "theme": "Buy hair-removal device, receive luxury gift set",
+      "color_palette": "Sky Blue, Orange, White, Black, Gold, Coral"
+    },
+    "main_subject": {
+      "type": "Product/Object",
+      "detail": "A bright sales poster with a large yellow Halio hair-removal device on the left and a LIXIBOX gift-with-purchase box packed with NUXE oils and accessories on the right, promoting a free GWP worth 6.9 million.",
+      "style": "Premium e-commerce promo poster, device-led bundle visual, clean high-value offer layout"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'LIXIBOX', 'MUA MÁY TRIỆT NHẬN QUÀ SIÊU HỜI', 'FREE GWP TRỊ GIÁ 6.9TRIỆU', 'LIXIBOX Gift with Purchase', and 'MUA NGAY'.",
+      "items": [
+        "Top Left: LIXIBOX logo centered above the headline over a sky-blue background.",
+        "Top Right: Large black circular badge 'FREE GWP TRỊ GIÁ 6.9TRIỆU'.",
+        "Bottom Left: Tall yellow Halio device standing upright with illuminated indicator marks.",
+        "Bottom Right: Orange LIXIBOX box overflowing with NUXE oils, tote, cap, small speaker-like accessory, lip item, and other gifts.",
+        "Center/Background: Large orange headline 'MUA MÁY TRIỆT NHẬN QUÀ SIÊU HỜI' and a black CTA box 'MUA NGAY'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright studio poster lighting",
+      "effect": "Crisp product shine, cheerful high-value promo energy, clean commercial readability"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity e-commerce bundle poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a high-value beauty-tech bundle offer. Centerpiece is a large upright yellow Halio device on the left and an orange LIXIBOX gift-with-purchase box full of luxury beauty items on the right. Background is a sky-blue to warm yellow retail gradient. Surrounding elements: LIXIBOX logo, headline 'MUA MÁY TRIỆT NHẬN QUÀ SIÊU HỜI', black round badge 'FREE GWP TRỊ GIÁ 6.9TRIỆU', branding 'LIXIBOX Gift with Purchase', and the black CTA button 'MUA NGAY'. Keep the oversized device scale, the premium gift-box density, and the clean commercial offer hierarchy. Technical style: high fidelity e-commerce bundle poster, bright studio poster lighting, crisp product shine and readable promotional layout, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Yellow Halio device",
+          "required": true,
+          "source": "Attach the device crop from the original poster",
+          "usage": "Preserve its color, vertical stance, button area, and glowing indicators."
+        },
+        {
+          "type": "product",
+          "name": "LIXIBOX GWP bundle assortment",
+          "required": true,
+          "source": "Attach the right-side gift-box section from the original poster",
+          "usage": "Maintain the product mix, orange box branding, and cap/tote/speaker placement."
+        },
+        {
+          "type": "text_layout",
+          "name": "Headline and CTA layout",
+          "required": true,
+          "source": "Use the original poster as text reference",
+          "usage": "Keep the headline, round free-GWP badge, and the black 'MUA NGAY' CTA at the bottom."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, the device and gift box should be attached as refs. Keep the exact left-right product balance and do not reduce the number of GWP items or alter the 6.9 triệu claim."
+    }
+  }
+}

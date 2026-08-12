@@ -1,0 +1,78 @@
+{
+  "name": "toyota-yaris-cross-top1-halfyear-2026",
+  "tag": [
+    "toyota",
+    "yaris-cross",
+    "top1",
+    "half-year-2026",
+    "infographic"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Infographics",
+  "group": "toyota_1078094294574713",
+  "prompt": {
+    "project_info": {
+      "theme": "Yaris Cross top half-year sales with purchase incentives",
+      "color_palette": "Sky Blue, Green, Red, White, Electric Blue, Silver"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A silver Toyota Yaris Cross drives forward on a glowing blue roadway while a giant denim crown with colorful buttons rises behind it, surrounded by bold celebratory typography declaring the model top-ranked in the first half of 2026.",
+      "style": "Playful achievement-plus-offer automotive poster mixing symbolic props, infographic ribbons, and premium retail callout badges."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "TOYOTA\nVUNG CHOI,\nDan dau\nTIENG THOM\nBEN LAU\nTOP1\nDOANH SO XE BAN RA\nTRONG NUA DAU NAM 2026\n50\nUU DAI TUONG DUONG\nTRIEU dong\nUU DAI\nLAI SUAT CHI TU 7.75%\nTRA TRUOC 0 DONG\nBAO HANH AC QUY DIEN HYBRID LEN DEN 10 NAM HOAC 185.000 KM (*)\nYARIS CROSS\nMove your world\n(*) So lieu thong ke tu Hiep hoi Cac nha san xuat o to Viet Nam (VAMA) danh cho xe dong co dot trong.",
+      "items": [
+        "Top Left: White Toyota logo on sky blue background.",
+        "Top Center: Large layered headline 'VUNG CHOI, Dan dau TIENG THOM BEN LAU' with a red button integrated into the word 'THOM'.",
+        "Bottom Left: Huge yellow-orange '50' followed by offer line 'UU DAI TUONG DUONG TRIEU dong'.",
+        "Bottom Right: Three bottom offer badges for interest rate, zero down payment, and hybrid battery warranty up to 10 years or 185,000 km, plus handwritten white 'Move your world'.",
+        "Center/Background: Silver Yaris Cross driving toward camera, denim crown with colored buttons, blue ribbon 'TOP1 DOANH SO XE BAN RA TRONG NUA DAU NAM 2026', and city skyline with light streak road."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright celebratory commercial daylight",
+      "effect": "High-energy blue glow trails, glossy car highlights, soft confetti accents, clean retail-ad sharpness, and polished infographic readability."
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic celebratory automotive infographic poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Toyota Yaris Cross half-year sales leadership and purchase incentives. Centerpiece is a silver Toyota Yaris Cross driving on a glowing blue roadway with a denim crown prop behind it. Background is a modern city skyline with blue speed-light trails. Surrounding elements: Toyota logo top left, layered celebratory headline 'VUNG CHOI, Dan dau TIENG THOM BEN LAU', blue ribbon 'TOP1 DOANH SO XE BAN RA TRONG NUA DAU NAM 2026', large yellow '50' for equivalent incentive value, bottom offer boxes for '7.75%', '0 DONG', and hybrid battery warranty up to '10 NAM' or '185.000 KM', plus handwritten 'Move your world'. Technical style: photorealistic celebratory automotive infographic poster, bright celebratory commercial daylight, blue glow trails, polished retail clarity, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Toyota corporate logo white version",
+          "required": true,
+          "source": "brand asset / Toyota official logo",
+          "usage": "Place top left."
+        },
+        {
+          "type": "product",
+          "name": "Toyota Yaris Cross silver exterior reference",
+          "required": true,
+          "source": "product reference image",
+          "usage": "Match the front three-quarter driving angle and plate."
+        },
+        {
+          "type": "graphic",
+          "name": "Denim crown with colored buttons",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep as a quirky symbolic topper behind the car."
+        },
+        {
+          "type": "text_layout",
+          "name": "Top1 half-year sales ribbon and offer strip",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve exact half-year 2026 wording and bottom incentive badge layout."
+        }
+      ],
+      "prompt_instructions": "The phrase 'TRONG NUA DAU NAM 2026' refers to the first half of 2026, which is in the past relative to Friday, July 17, 2026; preserve it as a recap claim. Keep the denim crown and button pun because it is the distinctive visual metaphor of this creative."
+    }
+  }
+}

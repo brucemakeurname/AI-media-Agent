@@ -1,0 +1,78 @@
+{
+  "name": "gaze-in-crowd-blur",
+  "tag": [
+    "adult-woman",
+    "crowd-blur",
+    "street-portrait",
+    "olive-jacket",
+    "teal-orange",
+    "documentary"
+  ],
+  "image_type": "candid-street-portrait",
+  "image_vibe": "moody-urban-stillness",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "source_url": "https://x.com/oggii_0/status/2019796635379986755",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "quiet gaze amid blurred city movement",
+      "color_palette": "olive, muted teal, amber, charcoal, pale sky blue",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with long wind-tossed dark hair, natural makeup, and an oversized olive-green rain jacket.",
+      "style": "candid handheld paparazzi-inspired street photograph"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "sharp centered portrait",
+        "hair draped naturally across face",
+        "moving crowd rendered as radial and lateral blur",
+        "dense city street with soft bokeh lights",
+        "covered olive outerwear dominating lower frame"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft overcast daylight at approximately 6000K",
+      "effect": "teal-and-warm film grade, soft city haze, and documentary realism"
+    },
+    "technical_specs": {
+      "render_style": "handheld 50mm lens, f/2.0, slow shutter crowd blur with sharp locked focus on subject",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Candid street portrait of an adult woman centered sharply in a busy city crowd. Give her long windblown dark hair, natural makeup, and an oversized olive-green jacket. Surround her with anonymous pedestrians in slow-shutter motion blur; use a handheld documentary viewpoint, shallow depth of field, soft overcast daylight, cinematic teal-and-warm color grading, light bokeh, film grain, and an intense calm gaze. The visual idea is a frozen moment of stillness inside urban chaos.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, recognizable bystanders, paparazzi harassment, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, text, logo",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-gaze-subject-reference",
+          "required": false,
+          "source": "Attach an adult person reference when likeness continuity is required.",
+          "usage": "Preserve adult face geometry, dark hair, and intense quiet expression."
+        },
+        {
+          "type": "wardrobe",
+          "name": "olive-oversized-jacket-reference",
+          "required": false,
+          "source": "Attach wardrobe reference when exact rain-jacket material or silhouette is needed.",
+          "usage": "Keep the loose olive outerwear as the key subject anchor."
+        },
+        {
+          "type": "background",
+          "name": "city-crowd-motion-reference",
+          "required": false,
+          "source": "Attach a location plate when exact street depth or crowd density is needed.",
+          "usage": "Maintain anonymized moving crowd and bokeh city context."
+        }
+      ],
+      "prompt_instructions": "All references are optional. Preserve adult subject, olive jacket, sharp central face, anonymized crowd blur, and teal-warm documentary grade. Do not render identifiable bystanders."
+    }
+  }
+}

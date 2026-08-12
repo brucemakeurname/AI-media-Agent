@@ -1,0 +1,78 @@
+{
+  "name": "toyota-trc-wet-road-corolla-cross",
+  "tag": [
+    "toyota",
+    "corolla-cross",
+    "trc",
+    "wet-road",
+    "product-demo"
+  ],
+  "biz_niche": "automotive",
+  "content_format": "Product demos",
+  "group": "toyota_2826624394361957",
+  "prompt": {
+    "project_info": {
+      "theme": "Traction control stability in uncertain weather",
+      "color_palette": "Rainy Blue, Electric Cyan, Red, White, Wet Asphalt Gray"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A red Toyota Corolla Cross corners across a wet reflective road in rainy weather, with a glowing cyan ring around the front wheel and a circular traction-control scan graphic under the car.",
+      "style": "Photoreal safety-tech automotive poster with rainy road realism, holographic driving-assist effects, and clean feature-led typography."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "TOYOTA\nHE THONG TRC\nTHOI TIET KHO DOAN? BAM DUONG VUNG HON\nMove your world",
+      "items": [
+        "Top Left: White Toyota logo over deep blue rainy sky.",
+        "Top Center: Cyan gradient headline bar 'HE THONG TRC' with large white subheadline 'THOI TIET KHO DOAN? BAM DUONG VUNG HON'.",
+        "Bottom Left: Wet reflective roadway with ripples and spray beneath the tires.",
+        "Bottom Right: Handwritten white 'Move your world'.",
+        "Center/Background: Red Corolla Cross in three-quarter front view, rainy skyline, blurred trees, and glowing traction-circle graphics."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Rainy overcast commercial lighting",
+      "effect": "Soft storm light, wet reflections, tire spray, subtle rain streaks, cyan holographic glow around wheel and road-contact area."
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic automotive safety-feature poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Toyota TRC traction control. Centerpiece is a red Toyota Corolla Cross driving on a wet reflective road in rainy weather, with a glowing cyan wheel highlight and circular traction-control scan graphic under the vehicle. Background is a rainy urban skyline with blurred greenery. Surrounding elements: top headline 'HE THONG TRC', subheadline 'THOI TIET KHO DOAN? BAM DUONG VUNG HON', Toyota logo at top left, and handwritten 'Move your world' at bottom right. Technical style: photorealistic automotive safety-feature poster, rainy overcast commercial lighting, wet reflections, tire spray, subtle cyan holographic glow, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Toyota corporate logo white version",
+          "required": true,
+          "source": "brand asset / Toyota official logo",
+          "usage": "Place top left on the rainy blue background."
+        },
+        {
+          "type": "product",
+          "name": "Toyota Corolla Cross red exterior reference",
+          "required": true,
+          "source": "product reference image",
+          "usage": "Match the exact front three-quarter stance and body details."
+        },
+        {
+          "type": "graphic",
+          "name": "TRC wheel and road-contact hologram",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Rebuild the glowing wheel ring and concentric traction graphic on wet road."
+        },
+        {
+          "type": "text_layout",
+          "name": "TRC weather-safety layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve exact title and subtitle hierarchy."
+        }
+      ],
+      "prompt_instructions": "The wet road, rain mood, and blue TRC visualization are essential. Keep the car planted and stable rather than drifting wildly; this image sells controlled grip in bad weather, not speed-racing."
+    }
+  }
+}

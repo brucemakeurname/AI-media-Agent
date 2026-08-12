@@ -1,0 +1,79 @@
+{
+  "name": "cocoon-earth-day-body-polish-seed-vial",
+  "tag": [
+    "earth-day",
+    "product-shot",
+    "hands",
+    "body-polish",
+    "seed-vial",
+    "eco-campaign"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Product demos",
+  "group": "cocoon_972558388464930",
+  "prompt": {
+    "project_info": {
+      "theme": "Earth Day product close-up with green sprout symbolism and cheerful eco-campaign graphics",
+      "color_palette": "Sky Blue, Fresh Leaf Green, Cocoa Brown, Warm Skin Tones, Pale Mint, Pastel Pink, Sunny Yellow"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A low-angle outdoor close-up of a hand holding Cocoon Dak Lak coffee body polish in a dark brown jar topped with vivid green sprouts, while another hand presents a tiny amber vial labeled 'Hạt giống Mầm Xanh Hạnh Phúc' beside it against a bright blue sky.",
+      "style": "Natural product hero photography, realistic skincare close-up, playful scrapbook doodles, optimistic Earth Day campaign styling"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "Visible text includes the Cocoon label with 'Cà phê Đắk Lắk làm sạch da chết cơ thể / Dak Lak coffee body polish' and the vial label 'Hạt giống Mầm Xanh Hạnh Phúc'.",
+      "items": [
+        "Top Left: Large pink paper-cut style arrow or abstract pointer entering from the upper corner with a white outline.",
+        "Top Right: Two yellow sparkle/star stickers floating against the blue sky.",
+        "Bottom Left: Large left hand gripping the body polish jar, with realistic skin texture and a soft green fabric surface at the bottom edge.",
+        "Bottom Right: Right hand pinching a small amber vial with kraft label reading 'Hạt giống Mầm Xanh Hạnh Phúc'.",
+        "Center/Background: Clean bright sky with faint clouds, the Cocoon jar label fully facing the viewer, and fresh sprouts spilling upward from the open jar."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Strong natural daylight",
+      "effect": "Hard sunlit highlights, clean shadows, vibrant spring atmosphere, airy sky backdrop, crisp product edges"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity outdoor product photography, smartphone social creative, realistic commercial skincare shot",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for an Earth Day product close-up with green sprout symbolism and cheerful eco-campaign graphics. Centerpiece is a Cocoon Dak Lak coffee body polish jar held by a hand, with bright green sprouts growing from the open jar, while a second hand presents a tiny amber vial labeled 'Hạt giống Mầm Xanh Hạnh Phúc'. Background is a clear blue sky with faint clouds and a soft green fabric base at the lower edge. Surrounding elements: a large pink paper-cut arrow in the upper left, blue droplet cutout graphics near the sprouts, and two yellow sparkle stickers in the upper right. Keep the exact bilingual product label orientation, realistic fingers and crop, upward low-angle perspective, and bright optimistic Earth Day mood. Technical style: high fidelity outdoor product photography, smartphone social creative, strong natural daylight, hard sunlit highlights and crisp product edges, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Cocoon Dak Lak coffee body polish jar",
+          "required": true,
+          "source": "Attach the exact product packshot or crop from the original creative",
+          "usage": "Preserve the jar silhouette, label typography, cocoa-bean drawings, and dark brown plastic appearance."
+        },
+        {
+          "type": "product",
+          "name": "Seed vial labeled 'Hạt giống Mầm Xanh Hạnh Phúc'",
+          "required": true,
+          "source": "Attach a close crop of the vial from the original image",
+          "usage": "Maintain the small amber bottle form, translucent cap, kraft wrap, and exact Vietnamese wording."
+        },
+        {
+          "type": "graphic",
+          "name": "Sticker and paper-cut overlay set",
+          "required": true,
+          "source": "Use the original creative as overlay reference",
+          "usage": "Match the pink arrow shape, blue droplets, yellow stars, white cutout edges, and playful scrapbook feel."
+        },
+        {
+          "type": "text_layout",
+          "name": "Low-angle hands-and-products composition",
+          "required": true,
+          "source": "Use the original image as framing reference",
+          "usage": "Keep the jar dominant in the center-left, the vial on the right, and the sky-heavy upward crop."
+        }
+      ],
+      "prompt_instructions": "When regenerating in gpt-image-2, attach product and vial refs so the label text stays legible and faithful. Explicitly request a low-angle outdoor shot, two realistic hands, fresh sprouts emerging from the jar, and the exact sticker overlay positions. Do not replace the Vietnamese label text or simplify the scrapbook graphics."
+    }
+  }
+}

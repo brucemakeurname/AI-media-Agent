@@ -1,0 +1,59 @@
+{
+  "name": "City Rooftop Sunset Portrait",
+  "tag": "city-rooftop-sunset",
+  "image_type": "golden_hour_rooftop_portrait",
+  "image_vibe": "warm_candid_urban",
+  "image_purpose": "lifestyle_editorial",
+  "group": "indie/low-fi-dreamy/golden-warm",
+  "prompt": {
+    "project_info": {
+      "title": "City Rooftop Sunset Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult East Asian woman with long flowing dark hair and a natural candid smile.",
+      "wardrobe": "A black zip-front jacket over a plain ivory crew-neck top and high-waisted dark trousers.",
+      "pose_and_expression": "Standing comfortably beside a rooftop railing, head turned slightly into the wind."
+    },
+    "composition_elements": {
+      "setting": "Safe rooftop terrace at sunset with a generic blurred city skyline and no identifiable buildings.",
+      "framing": "85mm close-medium portrait with hair rim-lit and skyline softened.",
+      "text_and_brand_control": "No logo, building signage, text, watermark, or celebrity likeness."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Warm sunset backlight with soft glow around hair and natural facial fill.",
+      "mood": "Relaxed, candid, warm, and urban."
+    },
+    "technical_specs": {
+      "camera_style": "professional golden-hour photography",
+      "lens": "85mm equivalent, f/2",
+      "rendering": "Natural skin, wind-touched hair, soft bokeh, fine grain, and realistic architecture."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical professional golden-hour portrait of an adult East Asian woman with long flowing dark hair and a natural candid smile. She wears a black zip-front jacket over a plain ivory crew-neck top and high-waisted dark trousers. Place her standing comfortably beside a rooftop railing at sunset, head turned slightly into the wind, with a generic blurred city skyline behind. Use 85mm close-medium framing, warm rim light around hair, natural face fill, soft bokeh, fine grain, realistic architecture, and natural skin. No logo, building signage, readable text, watermark, or celebrity likeness.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, unsafe rooftop pose, logo, readable text, watermark, plastic skin, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity references must show a consenting adult. Rooftop and wardrobe references are replaceable and must have all branded or readable content removed.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult facial and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "sunset_rooftop_reference",
+          "required": false,
+          "source": "user-provided rooftop reference",
+          "usage": "Guide railing, skyline blur, and sunset light without identifiers."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "notes": "Original concept was safe; schema and adult/reference controls were standardized."
+  }
+}

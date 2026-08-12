@@ -1,0 +1,40 @@
+{
+  "name": "emerald-sequin-night-balcony",
+  "tag": ["emerald-sequin", "balcony", "city-lights", "face-reference"],
+  "image_type": "UGC fashion night portrait",
+  "image_vibe": "luxurious, polished, luminous, urban",
+  "image_purpose": "Nightlife fashion and social media portrait content",
+  "group": "ugc/lifestyle-moment/night-out/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a luxury night-balcony fashion portrait using the required approved-adult face and composition reference.",
+    "main_subject": "The same approved adult woman as the required face reference, in sleek high ponytail and clean glam makeup, with a confident downward side gaze. She wears the same emerald-green halter-neck full-length sequin gown with a form-fitting editorial silhouette and the same gold statement earrings with green stone detail.",
+    "composition_elements": "Vertical 4:5 three-quarter-body portrait matching the reference side-profile angle, head tilt and hand placement behind the body. Keep the subject dominant with a balcony railing edge and blurred high-rise city skyline and streetlights as creamy bokeh; no readable signs.",
+    "lighting_and_atmosphere": "Soft directional key from camera-left, minimal fill retaining facial detail, subtle cool city-ambient rim light, controlled specular sparkle on sequins, mixed warm city bokeh and neutral skin key.",
+    "technical_specs": "Photorealistic luxury-magazine night portrait, full-frame camera with 85mm f/1.8 lens, shallow depth of field, balanced dynamic range without HDR, high texture preservation, subtle 35mm film grain, no watermark.",
+    "generated_prompt_string": "Photorealistic vertical 4:5 luxury night-balcony fashion portrait using the same approved adult woman's face and identity as the attached reference image. Preserve the exact side-profile angle, head tilt, hand placement behind the body, sleek high ponytail, emerald-green halter-neck full-length sequin gown and gold statement earrings with green stone detail. Frame her as a dominant three-quarter-body subject against a high-rise balcony at night, with distant city skyline and streetlights as soft creamy bokeh and no readable signs. Use a soft directional key from camera-left, minimal fill, subtle cool city rim light, controlled sparkle on the sequins, mixed warm city bokeh and neutral skin key, balanced editorial realism, natural skin texture and subtle 35mm grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, clipped sequin highlights, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult face and identity reference",
+          "required": true,
+          "source": "Attach the provided local face reference image",
+          "usage": "Preserve the approved adult woman's face, facial structure, proportions, likeness and natural skin texture without beautification or age shift."
+        },
+        {
+          "type": "image",
+          "name": "emerald-sequin-night-balcony composition reference",
+          "required": true,
+          "source": "Attach the provided local composition reference image",
+          "usage": "Preserve the exact pose, side profile, head tilt, hand placement, ponytail, emerald gown, earrings, balcony setting, bokeh and lighting direction."
+        }
+      ],
+      "prompt_instructions": "Attach the required face and composition references. Preserve identity, facial structure, pose, wardrobe, earrings, lighting behavior and night-balcony composition. Keep identity replaceable only with another approved adult reference; keep city, balcony, dress details and accessories replaceable while maintaining visual consistency. Avoid invented text and logos."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

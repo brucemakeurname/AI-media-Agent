@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-hau-giang-sun-fluid-lotus-glass-hero",
+  "tag": [
+    "sunscreen",
+    "hero-shot",
+    "lotus",
+    "product-launch",
+    "glass-prop",
+    "spf50"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "cocoon_1519629122520355",
+  "prompt": {
+    "project_info": {
+      "theme": "Hero product shot for Hau Giang lotus mineral sun fluid",
+      "color_palette": "Sky Blue, Soft Peach Pink, White, Matte Black, Gold, Lotus Pink"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A clean hero poster centered on a Cocoon Hau Giang lotus mineral sun fluid bottle with SPF 50+ label, framed by a translucent glass vessel containing a pink lotus bud on the left and a curved glass edge in the lower right.",
+      "style": "Minimal premium skincare hero photography, airy launch visual, elegant prop styling"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'SỮA CHỐNG NẮNG VÔ CƠ SEN HẬU GIANG' and product label text 'Hau Giang lotus mineral sun fluid', 'SPF 50+ QUANG PHỔ RỘNG BROAD SPECTRUM PA++++', and 'TONE-UP BEIGE'.",
+      "items": [
+        "Top Left: Large white product-name headline on the blue gradient background.",
+        "Top Right: Open sky-blue negative space continuing the clean hero layout.",
+        "Bottom Left: Glass vessel edge with water bubbles and a pink lotus bud partially submerged or leaning inside.",
+        "Bottom Right: Curved translucent glass line entering from the corner, echoing the premium prop styling.",
+        "Center/Background: White sunscreen bottle upright in the center with black cap and gold logo, against the blue-to-peach gradient."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio beauty lighting",
+      "effect": "Clean bottle highlights, gentle glass reflections, airy freshness, premium launch clarity"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity beauty product hero photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a skincare hero launch shot. Centerpiece is a Cocoon Hau Giang lotus mineral sun fluid bottle standing upright with visible SPF 50+ and tone-up beige labeling. Background is a blue-to-soft-peach gradient. Surrounding elements: large headline 'SỮA CHỐNG NẮNG VÔ CƠ SEN HẬU GIANG', a translucent glass vessel with a pink lotus bud and water bubbles on the left, and a curved glass edge in the lower right. Keep the airy premium hero composition and clean packshot fidelity. Technical style: high fidelity beauty product hero photography, soft studio beauty lighting, clean bottle highlights and gentle glass reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Hau Giang lotus mineral sun fluid bottle",
+          "required": true,
+          "source": "Attach the official packshot or crop from the original poster",
+          "usage": "Preserve bottle proportions, black cap, gold logo, and SPF/tone-up text system."
+        },
+        {
+          "type": "background",
+          "name": "Glass vessel with lotus bud prop",
+          "required": true,
+          "source": "Use the original image as prop-layout reference",
+          "usage": "Maintain the lotus bud placement, water bubbles, and curved glass accents."
+        },
+        {
+          "type": "text_layout",
+          "name": "Hero headline placement",
+          "required": true,
+          "source": "Use the original poster as layout reference",
+          "usage": "Keep the headline position and white uppercase scale at the top."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, attach the original hero poster and product packshot. The glass vessel, lotus bud, and central bottle alignment are essential and should not be simplified."
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "name": "neon-night-sultry-lookback",
+  "tag": [
+    "adult-woman",
+    "neon-lounge",
+    "look-back",
+    "beige-tailoring",
+    "night-editorial"
+  ],
+  "image_type": "neon-lounge-fashion-portrait",
+  "image_vibe": "confident-polished-cinematic",
+  "image_purpose": "fashion-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Preserved the adult fitted-dress nightlife editorial using neutral silhouette, clothing, and lighting language; removes any explicit framing or unapproved identity."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult neon-lounge look-back fashion portrait",
+      "color_palette": "beige, deep red velvet, walnut wood, neon blue, purple, and gold",
+      "aspect_ratio": "9:16"
+    },
+    "main_subject": {
+      "description": "An adult woman, optionally matching an approved adult non-public-figure identity reference, with a curvy feminine silhouette, long voluminous wavy blonde hair, and a confident warm smile.",
+      "wardrobe": "Fitted beige ruched cocktail dress with slender shoulder straps, gold hoop earrings, and a pearl bracelet.",
+      "pose": "Standing beside a walnut wall with one hand resting naturally near the waist, shoulders gently turned, and a warm over-the-shoulder gaze to camera."
+    },
+    "composition_elements": {
+      "framing": "Vertical three-quarter portrait at eye level.",
+      "environment": "Luxury lounge at night with walnut wall, deep-red velvet chairs, and blurred architectural neon lines.",
+      "focus": "Sharp eyes, hair strands, and tailoring texture with gentle background bokeh."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Blue, purple, and gold neon ambience balanced with soft flattering fill and realistic shadows enhancing the fitted silhouette.",
+      "atmosphere": "Cinematic, elegant, and self-assured."
+    },
+    "technical_specs": {
+      "camera": "full-frame fashion portrait, 50mm perspective",
+      "quality": "photorealistic, natural skin, detailed fabric, controlled neon highlights"
+    },
+    "generated_prompt_string": "Create a photorealistic 9:16 fashion portrait of an adult woman, optionally matching an approved adult non-public-figure identity reference, in a luxury lounge at night. She has a curvy feminine silhouette, long voluminous wavy blonde hair, and a confident warm smile. She wears a fitted beige ruched cocktail dress with slender shoulder straps, gold hoop earrings, and a pearl bracelet. Pose her beside a walnut wall with one hand naturally near the waist, shoulders gently turned, and a warm over-the-shoulder gaze to camera. Include deep-red velvet chairs and softly blurred blue, purple, and gold architectural neon. Use an eye-level 50mm three-quarter portrait, sharp eyes, natural skin texture, detailed fabric, controlled reflections, realistic shadows enhancing her fitted silhouette, and an elegant cinematic atmosphere without text or branding.",
+    "negative_prompt": "minor, unapproved identity, nudity, explicit, nsfw, overly revealing, readable text, logo, watermark, distorted anatomy, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use them only to replace identity, wardrobe, room, or lighting details; remove brands and text.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": false,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Match adult facial identity only, with no blending or age change."
+        },
+        {
+          "type": "wardrobe",
+          "name": "beige-ruched-evening-dress",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace dress and accessory styling."
+        },
+        {
+          "type": "environment",
+          "name": "walnut-neon-lounge",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace wall, chairs, and blue-purple-gold ambient lighting."
+        }
+      ]
+    }
+  }
+}

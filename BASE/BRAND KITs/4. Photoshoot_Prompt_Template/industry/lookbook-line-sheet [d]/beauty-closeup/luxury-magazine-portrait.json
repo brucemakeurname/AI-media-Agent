@@ -1,0 +1,75 @@
+{
+  "name": "luxury-magazine-portrait",
+  "tag": [
+    "low-key-beauty",
+    "wet-look-hair",
+    "black-satin-ribbon",
+    "gloved-hand",
+    "dark-gray-background"
+  ],
+  "image_type": "luxury-editorial-beauty-portrait",
+  "image_vibe": "cinematic-intimate",
+  "image_purpose": "lookbook-line-sheet",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": {
+      "theme": "High-end low-key editorial beauty portrait with wet-look hair and black ribbons",
+      "creative_direction": "Tight head-to-clavicle portrait focused on tactile hair, fabric weave, soft glove texture, and emotional calm",
+      "color_palette": "cool dark gray, black, natural warm skin, subtle charcoal, and soft neutral highlights"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult woman with long wavy hair, fine side braids, black satin ribbons, natural skin texture, calm direct gaze, and composed expression",
+      "wardrobe": "black semi-transparent knit top with visible weave texture and modest coverage, plus a black mesh glove",
+      "pose": "relaxed elegant pose with one gloved hand gently touching the face or chin and a slight lean toward camera"
+    },
+    "composition_elements": {
+      "framing": "vertical tight close-up from head to clavicle, sole subject anchor",
+      "background": "cool dark-gray seamless background with creamy bokeh",
+      "details": "intentional hair imperfection, fine braid detail, knit weave, glove transparency, and clean subject-background separation"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft directional key from camera-left at approximately 4300K, minimal fill, and subtle rim light",
+      "effect": "sculpted facial planes, preserved shadow depth, hair volume, fabric texture, and cinematic low-key mood"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 85mm telephoto lens at f/1.8, photoreal luxury editorial",
+      "resolution": "4k vertical beauty portrait",
+      "finish": "medium-low contrast, smooth tonal transitions, low ISO cleanliness, realistic skin with light professional retouching, and editorial sharpness"
+    },
+    "generated_prompt_string": "Create a high-end editorial beauty portrait of a clearly adult woman in a controlled studio setting. Use tight vertical framing from head to clavicle with the adult subject as the sole visual anchor, an 85mm telephoto lens at f/1.8, and a cool dark-gray background with creamy bokeh. Give her long wavy hair with intentional imperfection, fine side braids, and black satin ribbons. Dress her in a black semi-transparent knit top with visible weave texture and modest coverage, plus a black mesh glove. Have one gloved hand gently touch the face or chin in a relaxed elegant pose with a slight lean toward camera. Use a soft directional approximately 4300K key from camera-left, minimal fill, subtle rim light, natural warm skin tones, medium-low contrast, realistic hair and fabric, and restrained professional retouching. Keep the portrait non-sexual, adult, and free of logos or text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, transparent nudity, celebrity likeness, watermark, logo, harsh flash, plastic skin, waxy, over-smooth, over-saturated, HDR look, extra fingers, deformed hand, broken fabric weave, flat lighting",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-low-key-beauty-model",
+          "required": true,
+          "source": "Original luxury portrait preview image",
+          "usage": "Attach an approved adult face reference and preserve facial structure, hair, gaze, and likeness without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-knit-ribbon-glove-editorial-look",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve wavy hair, side braids, satin ribbons, knit top, and mesh glove; maintain modest coverage and exact editorial silhouette."
+        },
+        {
+          "type": "background",
+          "name": "cool-dark-gray-bokeh-studio",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve cool dark-gray background, soft bokeh, and low-key separation; background may be replaced with an equivalent studio."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult model, exact hair/wardrobe, and dark studio references. Keep identity, pose, modest knit coverage, glove, ribbons, shadow depth, and low-key palette consistent. Replace only with approved equivalents and keep the fashion portrait non-sexual."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as clearly adult, specified modest coverage for the semi-transparent knit, and removed intimate wording while preserving the low-key luxury beauty direction."
+    ]
+  }
+}

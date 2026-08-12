@@ -1,0 +1,58 @@
+{
+  "name": "relaxed-patio-girl",
+  "tag": [
+    "ugc",
+    "cafe-social",
+    "outdoor-urban",
+    "patio-candid",
+    "brown-top",
+    "relaxed-drink"
+  ],
+  "image_type": "ugc-patio-lifestyle-portrait",
+  "image_vibe": "relaxed-authentic-daylight",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cafe-social/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a candid, eye-level patio portrait with a warm authentic daytime cafe atmosphere and natural smartphone-photo character.",
+    "main_subject": "One original approved adult woman with long wavy dark-brown hair, peaceful closed-eye expression and natural skin texture. She wears a comfortable casual brown top and holds a red canned beverage while enjoying a drink; preserve the supplied relaxed posture and non-performative expression.",
+    "composition_elements": "Eye-level medium close portrait centered on the adult woman's face and upper torso. In the supplied first-image action, she lifts the red can toward her lips; if rendering the alternate moment, her hand lowers the can just out of frame after drinking. Include a warm outdoor cafe or patio, wooden table edge, indistinct patrons and beverage dispensers in a softly blurred background.",
+    "lighting_and_atmosphere": "Soft natural daytime light with warm gentle highlights and realistic mild shadows. Keep the mood relaxed, authentic and unretouched, with natural background color and slight phone-camera softness.",
+    "technical_specs": "4:5 vertical smartphone portrait, eye-level medium close framing, sharp natural facial detail, soft background blur, realistic hair and fabric texture, restrained warm color and no beauty filter.",
+    "generated_prompt_string": "Create a candid eye-level patio portrait of one original approved adult woman with long wavy dark-brown hair, a peaceful closed-eye expression and natural skin texture. She wears a comfortable casual brown top and holds a red canned beverage while enjoying a drink. In the supplied first-image action, she lifts the can toward her lips; for the alternate moment, her hand lowers the can just out of frame after drinking. Use a medium close portrait centered on her face and upper torso, with a warm outdoor cafe or patio, wooden table edge, indistinct patrons and beverage dispensers softly blurred behind her. Use soft natural daytime light, warm gentle highlights, realistic mild shadows, slight phone-camera softness and authentic unretouched color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, invented logos, altered can branding, readable added text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "relaxed-patio-girl.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, dark hair, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "comfortable brown casual top and red canned beverage",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve brown top, can color, hand action and fit; replace only with explicitly supplied wardrobe or prop references."
+        },
+        {
+          "type": "location",
+          "name": "warm outdoor cafe patio, wooden table, patrons and beverage dispensers",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve patio warmth, table edge, background figures and dispensers; environment may be replaced through explicit references while retaining soft blur and daytime mood."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe/prop and location references. Keep identity, face, hair, brown top, can interaction, relaxed expression and patio environment consistent. The adult, outfit, beverage and setting may be replaced independently with explicit references. Preserve existing can branding only when supplied; do not invent logos or readable text."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adult.",
+      "Preserved the relaxed drink action, brown top, patio environment and authentic smartphone aesthetic.",
+      "Added safety and anti-invented-brand negative prompts."
+    ]
+  }
+}

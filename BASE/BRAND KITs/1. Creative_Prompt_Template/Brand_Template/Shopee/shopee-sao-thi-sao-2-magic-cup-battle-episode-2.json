@@ -1,0 +1,77 @@
+{
+  "name": "shopee-sao-thi-sao-2-magic-cup-battle-episode-2",
+  "tag": [
+    "entertainment-campaign",
+    "cast-poster",
+    "fantasy-theme",
+    "livestream-series"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Challenge",
+  "group": "shopee_2239610956794065",
+  "prompt": {
+    "project_info": {
+      "theme": "Shopee Sao Thi Sao 2 fantasy cast poster",
+      "color_palette": "Dark stone gray, crimson red, orange, gold, black"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A dramatic ensemble poster set in a fantasy stone hall. Center banner reads 'SHOPEE SAO THI SAO 2' and a wooden sign says 'TAP 2'. Nine cast members in black robes with orange accents pose in rows with visible name tags such as 'UPRIZE WONBI', 'UPRIZE LAVM', 'UPRIZE O.D', 'UPRIZE BEX', 'UPRIZE PN', 'UPRIZE LEON', 'UPRIZE DYLAN', 'NGOC PHUOC', 'TUAN KIET', and 'DUONG QUOC MY'. A Shopee box mascot with crown and sunglasses stands behind them. Giant glowing title reads 'CUP THAN DAI CHIEN' and the subtitle says 'TAP 2: AI SE BI HAC HOA TIEP THEO'. Footer reads 'DON XEM TAI Shopee LIVE 12H30 | 15.7 - 25.7'.",
+      "style": "High-drama fantasy poster with photo-composite cast cutouts, cinematic lighting, glowing title treatment, and magical-school costumes"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "SHOPEE / SAO THI SAO 2 / TAP 2 / CUP THAN DAI CHIEN / TAP 2: AI SE BI HAC HOA TIEP THEO / DON XEM TAI Shopee LIVE / 12H30 / 15.7 - 25.7",
+      "items": [
+        "Top Left: Shopee logo within a rounded frame",
+        "Top Right: Wooden hanging sign 'TAP 2'",
+        "Bottom Left: Wizard hat icon and part of the Shopee Live footer",
+        "Bottom Right: Bronze trophy cup icon and social-style heart/menu symbols",
+        "Center/Background: Large red vertical show banner, stone-arch fantasy hall, crowned Shopee mascot, nine cast portraits in robes, floating feather, and glowing title typography"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Cinematic fantasy stage lighting",
+      "effect": "Warm rim light on faces, magical glow, smoky depth, luminous title bloom, theatrical contrast"
+    },
+    "technical_specs": {
+      "render_style": "Cinematic cast poster with photo-composite fantasy art direction",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for Shopee Sao Thi Sao 2. Centerpiece is a fantasy ensemble cast in black-and-orange wizard-style robes standing inside a stone hall beneath a large red banner that reads 'SHOPEE SAO THI SAO 2'. Background is a dramatic magical interior with stone arches and warm cinematic lighting. Surrounding elements: crowned Shopee mascot in sunglasses, wooden sign 'TAP 2', glowing headline 'CUP THAN DAI CHIEN', subtitle 'TAP 2: AI SE BI HAC HOA TIEP THEO', visible character name tags, wizard hat and trophy icons, and footer 'DON XEM TAI Shopee LIVE 12H30 | 15.7 - 25.7'. Technical style: cinematic cast poster with photo-composite fantasy art direction, magical glow, theatrical contrast, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Full cast portrait set",
+          "required": true,
+          "source": "original cutouts for the nine cast members",
+          "usage": "Attach if exact likeness, hair, costume fit, and pose need to match the source poster"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee, Shopee Live, and Sao Thi Sao 2 title assets",
+          "required": true,
+          "source": "official campaign assets",
+          "usage": "Use for the show banner, Shopee logo, and footer"
+        },
+        {
+          "type": "graphic",
+          "name": "Shopee crown mascot and fantasy prop set",
+          "required": true,
+          "source": "this creative or original mascot asset set",
+          "usage": "Preserve the mascot, wizard hat, trophy, and fantasy-school iconography"
+        },
+        {
+          "type": "text_layout",
+          "name": "Episode 2 cast-poster typography layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the exact headline, subtitle, cast-name badges, and footer timing strip"
+        }
+      ],
+      "prompt_instructions": "Keep all visible dates exact: '15.7 - 25.7' spans from past to future relative to Friday, July 17, 2026 and must not be normalized. Preserve the crowded ensemble composition and fantasy-stone-hall atmosphere."
+    }
+  }
+}

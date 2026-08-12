@@ -1,0 +1,85 @@
+{
+  "name": "toyota-dot4-brake-fluid-confident-journey",
+  "tag": [
+    "toyota",
+    "brake-fluid",
+    "dot4",
+    "aftermarket",
+    "product-demo"
+  ],
+  "biz_niche": "Automotive",
+  "content_format": "Product demos",
+  "group": "toyota_1383690606966683",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota genuine brake fluid protection and braking confidence",
+      "color_palette": "Red, Black, White, Metallic Silver, Warm Sunset Beige"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A large Toyota DOT4 brake fluid bottle with a red cap dominates the right side foreground, backed by a dramatic close-up of a brake disc and caliper; a white Toyota Corolla Cross appears small at the lower left on a road scene.",
+      "style": "Hybrid photoreal product key visual with premium ad compositing, glossy packaging, metallic brake texture, and bold editorial typography."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "DAU PHANH DOT 4\nNANG CAP BAO VE, HANH TRINH VUNG TIN\nBAO VE HE THONG PHANH\nHIEU SUAT PHANH ON DINH\nTOYOTA CHUAN QUOC TE DOT 4\nMove your world\nTOYOTA\n500mL",
+      "items": [
+        "Top Left: Huge black headline 'DAU PHANH' and 'DOT' with oversized red number '4' and a red underline accent.",
+        "Top Right: White Toyota logo on dark mechanical background.",
+        "Bottom Left: White Corolla Cross on a curving road with warm cityscape silhouette and bridge in the distance; three icon callouts above the car.",
+        "Bottom Right: Handwritten white 'Move your world' over glossy black floor reflection.",
+        "Center/Background: Giant brake fluid bottle, diagonal translucent red shape, and macro brake rotor and caliper close-up."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Studio-commercial composite lighting",
+      "effect": "High contrast product lighting, glossy highlights on bottle and metal parts, subtle sunset haze in the left background, dramatic red reflections, sharp packaging readability."
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic commercial product poster compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Toyota genuine DOT4 brake fluid. Centerpiece is a large silver brake-fluid bottle with red cap on the right foreground, beside a realistic close-up brake disc and caliper, with a small white Toyota Corolla Cross on a road at lower left. Background is a clean warm-to-dark composite with diagonal red translucent graphics and mechanical textures. Surrounding elements: bold Vietnamese headline 'DAU PHANH DOT 4', red slanted banner 'NANG CAP BAO VE, HANH TRINH VUNG TIN', three monochrome line icons with captions, Toyota logo at top right, handwritten 'Move your world' at bottom right. Technical style: photorealistic commercial product poster compositing, studio-commercial composite lighting, glossy highlights, dramatic red reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Toyota corporate logo white version",
+          "required": true,
+          "source": "brand asset / Toyota official logo",
+          "usage": "Place at top right in white over dark mechanical background."
+        },
+        {
+          "type": "product",
+          "name": "Toyota brake fluid DOT4 500mL bottle",
+          "required": true,
+          "source": "packshot reference",
+          "usage": "Match bottle silhouette, label design, red cap, and exact front-facing product proportions."
+        },
+        {
+          "type": "product",
+          "name": "Toyota Corolla Cross white exterior reference",
+          "required": true,
+          "source": "product reference image",
+          "usage": "Recreate small lower-left vehicle with correct grille, headlamp, and wheel details."
+        },
+        {
+          "type": "graphic",
+          "name": "Brake disc and caliper macro reference",
+          "required": true,
+          "source": "mechanical component reference",
+          "usage": "Use as right-background hero texture behind the bottle."
+        },
+        {
+          "type": "text_layout",
+          "name": "DOT4 product-poster typography layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve large black headline, red numeral, icon row, and slanted red banner wording."
+        }
+      ],
+      "prompt_instructions": "Maintain the exact visible wording, including 'DAU PHANH DOT 4' and the three benefit captions. Keep the bottle much larger than the car, and keep the brake disc close-up filling the right background for mechanical credibility."
+    }
+  }
+}

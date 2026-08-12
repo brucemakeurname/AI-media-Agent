@@ -1,0 +1,22 @@
+{
+  "name": "golden-orange-goddess-low-street",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "street-fashion", "low-angle"],
+  "image_type": "wide-angle urban fashion hero portrait",
+  "image_vibe": "powerful, glamorous, wind-blown, cinematic",
+  "image_purpose": "street-fashion campaign and editorial hero visual",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a photorealistic low-angle urban fashion hero portrait based on the approved character and clothing references, with wind movement and a teal-orange cinematic grade.",
+    "main_subject": "Confident adult woman with wind-blown hair, direct gaze, red lips, and a powerful editorial attitude. She holds a fluttering magazine page in one hand and wears the approved clothing reference, preserving its silhouette, color, and material.",
+    "composition_elements": ["Full-body frame with an extreme low angle, camera below ankle level and tilted upward.", "20–24mm ultra-wide perspective with dramatic near-far scale; shoes larger in foreground and legs leading toward the subject.", "Subject stands in a power stance with a slight lean against a street pole.", "Modern CBD street, glass skyscrapers, street lamps, traffic signs, white sports car, and a non-readable magazine billboard.", "Wind-blown hair and paper create movement."],
+    "lighting_and_atmosphere": "Golden-hour natural side-backlight from the right rear, warm rim light on hair and shoulders, cool ambient building fill, teal-orange contrast, soft golden highlight roll-off, cool teal shadows, subtle grain.",
+    "technical_specs": "8K photorealistic fashion editorial, 20–24mm wide-angle lens, deep depth of field, Classic Chrome-inspired color treatment, medium-high contrast, subtle grain, low-angle hero shot, no readable text or watermark.",
+    "generated_prompt_string": "Based on the approved character and clothing references, create a powerful confident adult woman with flowing hair dramatically blown by the wind, holding a fluttering non-readable magazine page in one hand. Direct confident gaze at camera, red lips, and an 'I own this city' editorial attitude. Standing with legs apart in a power stance, slight lean against a street pole. Full body with legs dominating the lower two-thirds, 20–24mm ultra-wide angle, extreme low angle with camera almost touching the ground, dramatic near-far perspective and leaning skyscrapers. Golden-hour side-backlight from the right rear, warm rim light on hair and shoulders, cool ambient fill from buildings, Fujifilm Classic Chrome-inspired teal-orange grade, subtle grain. Modern CBD urban street with glass skyscrapers, street lamps, traffic signs, white sports car and non-readable magazine billboard. 8K photorealistic wind-blown fashion editorial, deep depth of field, low-angle hero shot, no readable text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "soft unfocused background", "telephoto compression", "eye-level angle", "flat lighting", "no wind movement", "dull colors", "overcast sky", "distorted anatomy", "warped buildings", "readable text", "watermark", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "golden-orange-goddess-low-street.jpg", "required": true, "source": "local reference image", "usage": "Attach for approved-adult character identity, hair, expression, and pose reference."}, {"type": "wardrobe", "name": "approved clothing reference", "required": true, "source": "local reference image", "usage": "Preserve the clothing silhouette, material, fit, and color."}, {"type": "location", "name": "modern CBD street at golden hour", "required": true, "source": "local reference image", "usage": "Preserve buildings, street pole, car, light, and urban geometry."}],
+      "prompt_instructions": "Attach the required adult character, wardrobe, and scene references. Preserve identity, clothing, low-angle composition, wind, urban environment, and teal-orange treatment. The magazine page and billboard must remain non-readable and replaceable; do not add celebrity likeness, logos, or typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

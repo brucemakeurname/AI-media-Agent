@@ -1,0 +1,22 @@
+{
+  "name": "relaxed-streetwear-portrait",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "streetwear", "studio"],
+  "image_type": "streetwear lifestyle portrait",
+  "image_vibe": "casual, relaxed, youthful, cool-neutral",
+  "image_purpose": "streetwear lookbook and lifestyle fashion portrait",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a medium full-body vertical studio lifestyle portrait of one approved adult woman in relaxed streetwear, preserving the supplied garment typography and muted palette.",
+    "main_subject": "Approved adult woman with round-to-oval face, light brown or hazel eyes, natural straight brows, visible freckles, medium-brown long hair in two low braids with loose front strands, and relaxed mildly introspective expression. She wears a dark-green baseball cap with 'IDOL' lettering, oversized dark-green fleece sweatshirt with white-and-gold collegiate 'Atlanta Georgia' lettering and sleeve patch, black track pants with white piping, black-and-white sneakers, and layered thin chain necklaces.",
+    "composition_elements": ["Vertical medium full-body portrait with the subject centered.", "Seated on the floor with one knee raised and head resting on one hand.", "Light-gray seamless matte studio backdrop fully in focus.", "Dark green, black, gray, white, gold, and muted-yellow palette.", "Preserve visible garment typography and its chest/sleeve placement."],
+    "lighting_and_atmosphere": "Soft diffused frontal studio light, gentle fill, minimal soft-edged shadows, neutral-to-slightly-cool color temperature, even exposure.",
+    "technical_specs": "DSLR or mirrorless portrait camera, 35–50mm equivalent lens, high overall clarity, minimal skin retouching, cool-neutral grading, vertical full-body framing, no additional text or watermark.",
+    "generated_prompt_string": "Create a medium full-body vertical studio lifestyle portrait of an approved adult woman with a round-to-oval face, light brown or hazel eyes, natural straight brows, visible freckles across cheeks and nose, medium-brown long hair in two low braids with loose front strands, and a relaxed mildly introspective expression. She wears a dark-green baseball cap with 'IDOL' lettering, an oversized dark-green cotton-fleece sweatshirt with white-and-gold collegiate 'Atlanta Georgia' lettering and sleeve patch, black plush track pants with white side piping, black-and-white street sneakers, and layered thin chain necklaces. She sits on the floor with one knee raised and head resting on one hand, centered against a smooth light-gray seamless studio backdrop. Soft diffused frontal light, gentle fill, moderate depth of field with background in focus, cool-neutral streetwear editorial, 35–50mm portrait lens, realistic texture, no added text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "distorted anatomy", "extra fingers", "inconsistent identity", "warped typography", "plastic skin", "over-smooth", "over-saturated", "HDR look", "watermark", "unwanted text", "logo distortion", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "relaxed-streetwear-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach for approved-adult identity, face, hair, pose, and styling reference."}, {"type": "text_layout", "name": "IDOL and Atlanta Georgia garment lettering", "required": true, "source": "local reference image", "usage": "Preserve supplied lettering and placement; do not invent additional typography."}],
+      "prompt_instructions": "Attach the required local reference. Preserve the adult subject, face, freckles, braids, cap, sweatshirt typography, track pants, sneakers, pose, studio, and muted lighting. Keep 'IDOL' and 'Atlanta Georgia' as supplied garment graphics; replace only with equivalent licensed text-layout references. No celebrity likeness or extra logos."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the source's ambiguous teen-to-young-adult range as an approved adult woman while preserving the streetwear styling and supplied garment typography."]}
+}

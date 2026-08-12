@@ -1,0 +1,70 @@
+{
+  "name": "samsung-galaxy-tab-s11-ultra-safe-from-waterdrops-and-dust",
+  "tag": [
+    "tablet-launch",
+    "durability",
+    "water-dust-resistance",
+    "product-hero"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Infographics",
+  "group": "samsung_1235183825316760",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy Tab S11 Ultra water and dust resistance poster",
+      "color_palette": "White, graphite gray, white S Pen, black camera rings, transparent water droplets"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Clean durability poster showing a close-up corner of the Galaxy Tab S11 Ultra covered with realistic water droplets beside a white S Pen, beneath a bold safety headline.",
+      "style": "Photorealistic macro product render, minimal durability campaign aesthetic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Safe from waterdrops and dust / Galaxy Tab S11 Ultra",
+      "items": [
+        "Top Left: Large black headline 'Safe from waterdrops and dust'.",
+        "Top Right: Smaller subtitle 'Galaxy Tab S11 Ultra'.",
+        "Bottom Left: White S Pen entering diagonally from the lower-left corner.",
+        "Bottom Right: Dense multi-line legal and IP rating disclaimers in light gray.",
+        "Center/Background: Extreme close-up of the rear corner of a graphite Galaxy Tab S11 Ultra with two camera rings and many realistic water droplets across the surface."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio lighting",
+      "effect": "Clean macro highlights on droplets, subtle matte-metal reflections, precise premium clarity"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy Tab S11 Ultra water and dust resistance poster. Centerpiece is a macro close-up of the rear corner of a graphite Galaxy Tab S11 Ultra covered in realistic water droplets, paired with a white S Pen on a bright white background. Background is minimal and highly clinical. Surrounding elements: exact headline 'Safe from waterdrops and dust', subtitle 'Galaxy Tab S11 Ultra', and a long light-gray legal/IP disclaimer block at the bottom left. Technical style: photorealistic product render, soft studio lighting, crisp droplet highlights and subtle matte-metal reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy Tab S11 Ultra rear-corner macro render with S Pen",
+          "required": true,
+          "source": "official Samsung render or original creative",
+          "usage": "Preserve camera-ring scale, edge cuts, S Pen angle, and surface finish."
+        },
+        {
+          "type": "graphic",
+          "name": "water droplet pattern",
+          "required": true,
+          "source": "original poster render",
+          "usage": "Keep the realistic droplet sizes and distribution across the tablet surface."
+        },
+        {
+          "type": "text_layout",
+          "name": "durability headline and disclaimer block",
+          "required": true,
+          "source": "original poster",
+          "usage": "Retain exact wording and clean top-heavy whitespace."
+        }
+      ],
+      "prompt_instructions": "Use refs for the exact macro crop and droplet pattern. Do not turn this into a lifestyle waterproof scene; it must remain a minimal close-up product proof visual."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "underground-garage-fashion-roses",
+  "tag": ["luxury", "fashion", "roses", "garage"],
+  "image_type": "UGC fashion editorial photo",
+  "image_vibe": "elegant, serene, cinematic, high-end",
+  "image_purpose": "Luxury automotive and floral fashion content",
+  "group": "ugc/lifestyle-moment/luxury-glamour/vehicle",
+  "prompt": {
+    "project_info": "Create a high-end fashion editorial portrait in an underground parking garage with a luxury vehicle and white roses.",
+    "main_subject": "One generic approved adult woman seated inside the open trunk of a black luxury SUV, wearing a black tracksuit. She has long softly styled hair, soft matte pink lips, natural polished makeup, and a gentle contemplative expression while looking at the flowers.",
+    "composition_elements": "Vertical 3:4 fashion framing. Place the open trunk facing camera, fill the trunk with abundant white roses with a few blooms spilling slightly around the subject, and show the vehicle silhouette and concrete garage environment. Keep the subject's hands lightly touching the flowers and avoid readable vehicle branding.",
+    "lighting_and_atmosphere": "Direct flash photography with high contrast on the subject and white roses, subtle reflections on the black vehicle, dim ambient garage light, cinematic premium mood.",
+    "technical_specs": "Photorealistic vertical 3:4 fashion editorial image, realistic anatomy and hands, crisp rose petals, controlled flash highlights, natural hair texture, no watermark or readable logos.",
+    "generated_prompt_string": "Photorealistic vertical 3:4 high-end fashion editorial photo of one generic approved adult woman seated inside the open trunk of a black luxury SUV in an underground parking garage, abundant white roses filling the entire trunk and spilling slightly around her, black tracksuit, long softly styled hair, natural polished makeup and soft matte pink lips, hands lightly touching the roses, gentle contemplative expression, direct flash, high contrast, subtle reflections on the vehicle, dim concrete garage background, elegant serene cinematic mood, realistic anatomy and flowers, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, celebrity likeness, public-figure likeness, distorted anatomy, extra fingers, malformed hands, duplicate subject, wilted flowers, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "underground-garage-fashion-roses reference",
+          "required": true,
+          "source": "Attach the provided reference image",
+          "usage": "Match the open-trunk composition, black SUV, white-rose installation, black tracksuit, flash lighting, and underground garage mood while keeping the adult identity, vehicle, flowers, and environment replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the trunk framing, floral volume, fashion-editorial pose, flash contrast, garage architecture, and monochrome palette. Keep identity, outfit details, car, flowers, and environment replaceable. Remove incidental logos and license-plate text."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

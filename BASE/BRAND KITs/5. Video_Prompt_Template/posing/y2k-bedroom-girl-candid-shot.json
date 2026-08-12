@@ -1,0 +1,67 @@
+{
+  "name": "y2k-bedroom-girl-candid-shot",
+  "tag": ["adult-woman", "y2k", "bedroom", "candid", "smartphone", "beauty-vlog"],
+  "image_type": "ugc-candid-portrait",
+  "image_vibe": "soft-y2k-casual",
+  "image_purpose": "story-reel-cover",
+  "group": "posing",
+  "source_url": "https://x.com/Adam38363368936/status/2026551465951867126",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced age-coded and sexualized wording with an explicitly adult, playful casual portrait direction.",
+      "Changed the garment description to a modest off-shoulder winter top and added safe-content exclusions."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "Y2K bedroom candid beauty selfie",
+      "color_palette": "warm ivory, cream, pale wood, soft black",
+      "format": "vertical 9:16"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with dark hair in a vintage high ponytail, slanted bangs, a small pendant necklace, and a gentle hand-to-cheek smile.",
+      "style": "casual front-camera close-up with imperfect smartphone exposure"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "head-and-shoulders portrait slightly left of center",
+        "right hand lightly touching the cheek",
+        "cream ruffled off-shoulder winter top",
+        "wardrobe and bed softly visible in a bedroom background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "diffuse bedroom daylight at approximately 5200K",
+      "effect": "slight overexposure and visible digital grain for an unplanned snapshot feel"
+    },
+    "technical_specs": {
+      "render_style": "ordinary iPhone front-camera candid, close-up, low-fidelity phone grain",
+      "resolution": "high definition, original vertical aspect ratio"
+    },
+    "generated_prompt_string": "Character face reference image 1. Bedroom scene, full of girlishness. The main subject of the picture is an adult woman wearing a modest winter off-shoulder top, with a vintage high ponytail and slanted bangs. She has fair natural skin, a gentle playful temperament, and a cute expression with her hand near her cheek. This is a photo taken with an ordinary iPhone (do not show the phone itself); the image has slight motion blur, snapshot style of a casual shot, candid capture, slight overexposure, imperfect image quality, close-up framing, obvious graininess, and a Y2K atmosphere filter. High definition, original aspect ratio. Beauty vlog.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, minor, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-character-face-reference",
+          "required": true,
+          "source": "User-supplied adult face reference image 1.",
+          "usage": "Keep the adult subject's facial structure and likeness consistent."
+        },
+        {
+          "type": "wardrobe",
+          "name": "cream-ruffled-off-shoulder-top",
+          "required": false,
+          "source": "Attach a wardrobe reference when exact fabric, ruffles, and neckline are important.",
+          "usage": "Retain the cream ruffle silhouette; this garment may be replaced with another modest winter top."
+        }
+      ],
+      "prompt_instructions": "Attach an adult person reference to preserve identity. A wardrobe reference is optional. Keep the casual bedroom framing, phone-camera imperfection, and Y2K treatment; the room layout and accessories may be replaced."
+    },
+    "omni_video_prompt": {"scene_description": "An adult woman records a grainy Y2K bedroom beauty-vlog close-up with a playful hand-to-cheek expression.", "style": "Soft casual Y2K smartphone portrait.", "camera_direction": "Front-camera head-and-shoulders close-up with imperfect exposure.", "lighting": "Diffuse bedroom daylight with slight overexposure.", "voice": "None; no dialogue supplied.", "SFX": "No specific audio supplied.", "environment": "Bedroom with softly visible bed and wardrobe.", "element": [{"subject": "Adult woman with vintage high ponytail and slanted bangs.", "wardrobe": "Cream ruffled modest winter top."}], "motion": "Hold hand near cheek and make a gentle playful smile.", "ending": "End on the candid close-up.", "text": "None.", "keyword": ["adult woman", "Y2K", "bedroom", "beauty vlog", "iPhone grain", "hand to cheek"]}
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "museum-whisper-statue-playful-moment",
+  "tag": ["ugc", "lifestyle-moment", "social-cozy", "public-indoor", "museum", "statue"],
+  "image_type": "museum lifestyle editorial",
+  "image_vibe": "playful, warm gallery luxe, photorealistic",
+  "image_purpose": "Create a social lifestyle image with a playful museum interaction.",
+  "group": "lifestyle-moment",
+  "prompt": {
+    "project_info": "UGC social-cozy public-indoor museum interaction concept.",
+    "main_subject": "One approved adult woman with shoulder-length blonde hair, standing in side profile and facing a classical statue. She wears a sleeveless black top, light beige pants or jeans, sunglasses on top of her head, a wristwatch, bracelets, and a brown leather crossbody bag. Use an approved adult identity reference only if supplied; do not use a celebrity or public-figure likeness.",
+    "composition_elements": "Portrait 4:5 smartphone/lifestyle framing. Place the woman in the foreground-left and a large white marble statue group on the foreground-right. She cups her hands around her mouth and leans toward the statue's ear as if whispering. Include a white statue base, deep red patterned wallpaper, a large gold-framed landscape painting centered high on the wall, two smaller gold-framed paintings to the right, warm wooden floor, museum bench, and a small classical statue on a pedestal in the far-right background. Preserve realistic scale and object positions.",
+    "lighting_and_atmosphere": "Warm indoor museum lighting with soft highlights and realistic shadows; warm gallery-luxe color grade, natural skin texture, matte marble with subtle specular highlights.",
+    "technical_specs": "Ultra-photorealistic natural smartphone lifestyle photograph, portrait 4:5, crisp but natural detail, minimal film grain, accurate perspective, correct hand anatomy, no studio look.",
+    "generated_prompt_string": "A photorealistic 4:5 natural smartphone lifestyle photograph inside a classic museum gallery. An approved adult woman with shoulder-length blonde hair stands in the foreground-left in side profile facing a large white marble statue group on the foreground-right. She cups her hands naturally around her mouth and leans toward the statue's ear as if whispering. She wears a sleeveless black top, light beige pants or jeans, sunglasses resting on top of her head, a wristwatch, bracelets, and a brown leather crossbody bag visible at her hip. Deep red patterned wallpaper, a large gold-framed landscape painting centered high on the wall, two smaller gold-framed paintings to its right, warm wooden floor, a museum bench, and a small classical statue on a pedestal form the background. Warm indoor gallery lighting, realistic shadows, accurate perspective and scale, natural skin texture, matte marble detail, crisp but natural photorealism, minimal grain, no readable text, signage, watermark or logo.",
+    "negative_prompt": "explicit, nsfw, overly revealing, real-person likeness, celebrity resemblance, incorrect statue scale, extra fingers, malformed hands, distorted anatomy, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, readable text, signage, watermark, logo",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult identity reference",
+          "required": true,
+          "source": "Attach an approved adult face or identity reference when identity continuity is required",
+          "usage": "Preserve the approved adult's face, facial structure, proportions, skin texture and hairstyle without beautification; replace with another approved adult only when authorized."
+        },
+        {
+          "type": "location",
+          "name": "museum gallery composition reference",
+          "required": true,
+          "source": "Existing text prompt and its declared composition reference",
+          "usage": "Preserve the gallery layout, red wallpaper, framed paintings, marble statue, woman-left/statue-right placement, pose and warm lighting; individual decor may be replaced while maintaining the museum concept."
+        }
+      ],
+      "prompt_instructions": "Attach the required approved-adult identity reference and museum composition reference when available. Preserve identity, pose, outfit categories, gallery layout, statue scale and warm smartphone realism. Keep the person replaceable only with another approved adult; keep decor replaceable without adding readable text or logos."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

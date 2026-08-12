@@ -1,0 +1,59 @@
+{
+  "name": "prompt-930",
+  "tag": ["adult-woman", "identity-reference", "90s-vintage", "ruffled-white-fabric", "wind-blown-hair", "monochrome-portrait"],
+  "image_type": "vintage-fashion-portrait",
+  "image_vibe": "poetic-emotional-cinematic",
+  "image_purpose": "social-editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Replaced the unrestricted face-preservation instruction with an authorized adult identity reference and clarified the adult subject while preserving the 90s monochrome portrait, ruffled white fabric, open-shoulder styling, and emotional cinematic intent."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "1990s vintage black-and-white poetic portrait",
+      "color_palette": "deep charcoal, soft black, bright white fabric, and luminous grayscale skin tones",
+      "aspect_ratio": "2:3"
+    },
+    "main_subject": {
+      "description": "A beautiful adult woman matching the authorized identity reference, with classic facial features, a curvy feminine silhouette, and long voluminous wavy black hair moving naturally as if in a light breeze.",
+      "wardrobe": "Ruffled white off-shoulder blouse or fabric wrap held securely across the upper torso, preserving elegant coverage and the original white-on-dark contrast.",
+      "pose": "Three-quarter portrait, gazing off to the side with a pensive poetic expression, hands gently holding the ruffled fabric across the torso.",
+      "styling": "Minimal 1990s editorial styling with natural makeup and expressive hair texture."
+    },
+    "composition_elements": {
+      "framing": "Medium close-up portrait with generous dark negative space and the wind-blown hair forming a soft frame around the subject.",
+      "environment": "Plain dark textured studio background with no text, logos, or watermark.",
+      "focus": "Sharp eyes, hair movement, ruffled fabric texture, natural skin, and delicate hand placement."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft directional light that gently defines cheekbones, shoulders, hair texture, and the white fabric against the dark background.",
+      "atmosphere": "Poetic, emotional, nostalgic, cinematic, and quietly powerful."
+    },
+    "technical_specs": {
+      "camera": "35mm film camera aesthetic, portrait lens equivalent around 85mm, f/2.0, 1/125 s",
+      "quality": "Masterpiece-quality photorealistic detail, pronounced authentic 35mm film grain, soft tonal rolloff, natural texture, and refined monochrome finish"
+    },
+    "generated_prompt_string": "Create a masterpiece-quality 2:3 1990s vintage black-and-white portrait of a beautiful adult woman matching the authorized identity reference. She has classic facial features, a curvy feminine silhouette, and long voluminous wavy black hair moving naturally in a light breeze. She wears a ruffled white off-shoulder blouse or fabric wrap held securely across the upper torso, with elegant coverage, and gently holds the fabric with both hands. Frame a medium close-up three-quarter portrait as she gazes off to the side with a pensive poetic expression. Use a plain dark textured studio background, soft directional light defining cheekbones, shoulders, hair, and fabric, a 35mm film aesthetic, pronounced authentic grain, soft tonal rolloff, and no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, exposed anatomy, wardrobe malfunction, readable text, logo, watermark, plastic skin, deformed anatomy, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "The authorized adult identity reference is required for the face and overall identity. Optional hair, blouse, fabric, studio, or lighting references may replace only their named element; preserve the poetic gaze, curvy silhouette, elegant coverage, and 90s monochrome mood. Do not imitate a public figure.",
+      "assets": [
+        {
+          "type": "identity",
+          "name": "authorized-adult-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public figure portrait",
+          "usage": "Preserve the authorized adult's facial identity while keeping the vintage portrait styling."
+        },
+        {
+          "type": "wardrobe",
+          "name": "ruffled-white-off-shoulder-fabric",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the white ruffled garment or fabric while preserving elegant coverage and the original pose."
+        }
+      ]
+    }
+  }
+}

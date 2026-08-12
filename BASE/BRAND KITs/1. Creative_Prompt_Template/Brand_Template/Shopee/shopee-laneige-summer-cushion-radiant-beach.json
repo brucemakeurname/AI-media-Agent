@@ -1,0 +1,77 @@
+{
+  "name": "shopee-laneige-summer-cushion-radiant-beach",
+  "tag": [
+    "beauty-promo",
+    "summer-creative",
+    "product-hero",
+    "beach-theme"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Brand story",
+  "group": "shopee_1710990763358807",
+  "prompt": {
+    "project_info": {
+      "theme": "Shopee x Laneige radiant summer beach beauty poster",
+      "color_palette": "Bright sky blue, sandy beige, pastel pink, sunny yellow, aqua pool blue"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Cute summer beauty ad centered on an oversized pink Laneige cushion compact opened to reveal the puff, placed on top of a yellow-and-white inflatable swim ring on a beach.",
+      "style": "Glossy 3D product illustration mixed with photoreal beach props, playful summer ecommerce aesthetic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "LANEIGE / CĂNG MONG RẠNG RỠ DA XINH TỎA SÁNG",
+      "items": [
+        "Top Left: White Shopee bag logo, divider line, and lavender Laneige wordmark badge.",
+        "Top Right: Tropical palm leaves and bright blue sky with soft vignette.",
+        "Bottom Left: Yellow-and-white inflatable ring, tiny rubber duck float, and pool edge transitioning into beach sand.",
+        "Bottom Right: Small beach ball, orange starfish, beach loungers, umbrellas, and ocean horizon.",
+        "Center/Background: Large pink Laneige cushion compact with embossed lid and branded puff, lit like a premium 3D hero object on a sunny beach."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright summer sunlight",
+      "effect": "Warm beach highlights, soft toy-like gloss on the compact, cheerful vacation atmosphere, clean product shadows"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic 3D advertising illustration",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Shopee x Laneige radiant summer beach beauty poster. Centerpiece is an oversized pink Laneige cushion compact opened to show the branded puff, sitting inside a yellow-and-white inflatable ring on beach sand. Background is a bright tropical beach with blue sky, pool water, palm trees, loungers, umbrellas, and playful summer props. Surrounding elements: Shopee and Laneige logos at top left, exact headline 'CĂNG MONG RẠNG RỠ DA XINH TỎA SÁNG', a beach ball, starfish, duck float, and resort details. Technical style: photorealistic 3D advertising illustration, bright summer sunlight, warm beach highlights and clean product shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Shopee logo and Laneige brand mark",
+          "required": true,
+          "source": "official brand assets or original creative",
+          "usage": "Preserve the exact top-left lockup and Laneige badge styling."
+        },
+        {
+          "type": "product",
+          "name": "Laneige cushion compact and puff",
+          "required": true,
+          "source": "official product packshots or original creative",
+          "usage": "Match the compact shape, pink finish, embossed logo, and puff band branding."
+        },
+        {
+          "type": "background",
+          "name": "tropical beach and poolside prop setup",
+          "required": true,
+          "source": "original creative scene",
+          "usage": "Keep the inflatable ring, palm trees, umbrellas, loungers, and sandy beach composition."
+        },
+        {
+          "type": "text_layout",
+          "name": "summer beauty headline",
+          "required": true,
+          "source": "original creative",
+          "usage": "Retain exact Vietnamese wording and centered yellow headline hierarchy."
+        }
+      ],
+      "prompt_instructions": "Use refs for the exact Laneige compact, logo lockup, and beach prop arrangement. The ad should feel playful and premium, with the product scaled heroically over the beach scene."
+    }
+  }
+}

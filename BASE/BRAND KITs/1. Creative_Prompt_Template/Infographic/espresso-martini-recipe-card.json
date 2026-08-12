@@ -1,0 +1,76 @@
+{
+    "name":  "espresso-martini-recipe-card",
+    "tag":  [
+                "cocktail recipe",
+                "espresso martini",
+                "luxury food editorial",
+                "recipe infographic",
+                "bar menu"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Infographics",
+    "group":  "infographic_cocktail_recipe",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Luxury Espresso Martini recipe and serving guide",
+                                        "color_palette":  "Deep espresso brown, crema beige, warm taupe, brass gold, cream"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Drink",
+                                        "detail":  "A premium coupe glass of dark Espresso Martini sits slightly left of center on a stone bar; a thick crema cap with exactly three coffee beans crowns the drink.",
+                                        "style":  "High-end bar photography mixed with refined vector information design and translucent editorial panels"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Recipe callouts, icons, and editorial typography",
+                                                "text":  "ESPRESSO MARTINI; BOLD. SMOOTH. UNFORGETTABLE.; ABV ~18%; PREP TIME 5 MIN; STRENGTH HIGH; GLASS COUPE; INGREDIENTS; VODKA 45 ml; COFFEE LIQUEUR 30 ml; FRESH ESPRESSO 30 ml; SIMPLE SYRUP 15 ml; ICE As needed; GARNISH 3 Coffee Beans; 1 ADD INGREDIENTS; 2 SHAKE; 3 DOUBLE STRAIN; 4 GARNISH; PRO TIPS",
+                                                "items":  [
+                                                              "Top Left: oversized two-line Espresso Martini title with gold accent on MARTINI.",
+                                                              "Top Right: four translucent statistic badges for ABV, prep time, strength, and glass.",
+                                                              "Left: dark rounded ingredients card with bottle and ingredient icons connected by thin gold leader lines.",
+                                                              "Center: softly lit hero coupe glass with crema, condensation, coffee-bean scatter, and shallow background blur.",
+                                                              "Right: numbered preparation steps in a descending curved arrow flow with shaker and strainer line icons.",
+                                                              "Bottom Left: dark pro-tips card; background includes a metal jigger and scattered coffee beans on a warm stone bar."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Warm soft studio bar lighting",
+                                                   "effect":  "High-contrast specular glass reflections, creamy foam highlights, subtle glassmorphism panels, intimate upscale cocktail-bar ambience"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Photoreal beverage photography composited with vector infographic design",
+                                           "resolution":  "4k resolution, highly detailed, square format"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "Espresso Martini hero drink",
+                                                                 "required":  true,
+                                                                 "source":  "source preview or approved beverage reference",
+                                                                 "usage":  "Preserve the coupe silhouette, crema thickness, dark liquid, and three-bean garnish."
+                                                             },
+                                                             {
+                                                                 "type":  "accessory",
+                                                                 "name":  "shaker, jigger, strainer, and coffee beans",
+                                                                 "required":  false,
+                                                                 "source":  "bar-prop reference",
+                                                                 "usage":  "Use for controlled supporting detail without competing with the hero glass."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "recipe-card hierarchy",
+                                                                 "required":  true,
+                                                                 "source":  "source preview",
+                                                                 "usage":  "Maintain ingredients-left, drink-center, steps-right, stats-top hierarchy."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach the drink reference when exact glass and foam appearance matters.",
+                                                                          "Keep all measurements and four-step preparation flow; verify recipe claims with the brand or bar before publishing.",
+                                                                          "Set final small recipe text in a layout tool for legibility."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Ultra-clean modern cocktail recipe infographic. Showcase an Espresso Martini in a premium coupe glass, slightly angled perspective, rich dark brown liquid with thick crema foam on top. Three coffee beans placed precisely on foam surface, glossy reflections, subtle condensation on glass. Ingredients, steps, and tips arranged in a dynamic editorial layout around the hero drink, not top-down. Ingredients section includes minimal vector icons for vodka, coffee liqueur, fresh espresso, simple syrup, ice, and garnish. Each item includes precise measurements in ml and arranged in a structured flow that visually connects to the glass. Steps section shows numbered preparation flow with clean arrows and bar tool icons: shaker, jigger, strainer. Steps are placed around the composition in a circular motion, guiding eye movement toward the final drink. Additional info badges near the drink: ABV ~18%, prep time 5 min, strength high, glass type coupe. Visual style: editorial food magazine meets luxury cocktail bar menu design. Deep espresso browns, creamy beige foam, warm neutral background, soft studio lighting, high contrast highlights on glass. Modern sans-serif typography, subtle glassmorphism panels, soft shadows, minimal clutter, premium aesthetic. Composition: hero cocktail centered slightly off-axis. Ingredients left cluster, steps right flow, stats top corner. Clear hierarchy: drink \u003e steps \u003e ingredients \u003e stats. Ultra-crisp, high-end bar photography realism mixed with vector infographic elements. No watermark.",
+                   "negative_prompt":  "flat drink, missing crema, wrong garnish count, unreadable recipe text, clutter, harsh flash, low resolution, watermark, signature"
+               }
+}

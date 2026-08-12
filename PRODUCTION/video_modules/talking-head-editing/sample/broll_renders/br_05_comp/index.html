@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1080, height=1920" />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 1080px; height: 1920px; overflow: hidden; background: #1C1C1E; }
+    #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+
+    #canvas-wrap { position: absolute; top: 0; left: 0; width: 1080px; height: 1920px; z-index: 0; }
+    #canvas-wrap canvas { display: block; }
+
+    /* TOP ZONE: 0–640px */
+    #top-tag {
+      position: absolute; top: 80px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 700; font-size: 22px;
+      color: #1F7FFE; letter-spacing: 0.22em; text-transform: uppercase; z-index: 10;
+    }
+    #top-rule {
+      position: absolute; top: 122px; left: 190px; width: 0; height: 1.5px;
+      background: rgba(31,127,254,0.55); z-index: 10;
+    }
+    #top-context {
+      position: absolute; top: 152px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 800; font-size: 64px;
+      color: rgba(255,255,255,0.90); line-height: 1.1; letter-spacing: -2px; z-index: 10;
+    }
+    #top-sub {
+      position: absolute; top: 428px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 400; font-size: 27px;
+      color: rgba(255,255,255,0.35); letter-spacing: 0.05em; z-index: 10;
+    }
+
+    /* BOTTOM ZONE: 1280–1920px */
+    #btm-label {
+      position: absolute; bottom: 520px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 600; font-size: 28px;
+      color: rgba(255,255,255,0.60); letter-spacing: 8px; text-transform: uppercase; z-index: 10;
+    }
+    #btm-rule {
+      position: absolute; bottom: 458px; left: 200px; width: 0; height: 1.5px;
+      background: rgba(207,255,4,0.45); z-index: 10;
+    }
+    #btm-italic {
+      position: absolute; bottom: 294px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Playfair Display', serif; font-style: italic; font-size: 50px;
+      color: #CFFF04; z-index: 10;
+    }
+    #btm-brand {
+      position: absolute; bottom: 145px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 600; font-size: 20px;
+      color: rgba(255,255,255,0.20); letter-spacing: 0.18em; text-transform: uppercase; z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"
+       data-composition-id="broll-05"
+       data-start="0" data-duration="5.629"
+       data-width="1080" data-height="1920">
+
+    <div id="canvas-wrap" class="clip" data-start="0" data-duration="5.629" data-track-index="0"></div>
+
+    <div id="top-tag"     class="clip" data-start="0" data-duration="5.629" data-track-index="1">Your Edge</div>
+    <div id="top-rule"    class="clip" data-start="0" data-duration="5.629" data-track-index="2"></div>
+    <div id="top-context" class="clip" data-start="0" data-duration="5.629" data-track-index="3">Viral sensation<br>or cringe bot?</div>
+    <div id="top-sub"     class="clip" data-start="0" data-duration="5.629" data-track-index="4">the only thing separating them is your taste</div>
+
+    <div id="btm-label"  class="clip" data-start="0" data-duration="5.629" data-track-index="5">YOUR EYE</div>
+    <div id="btm-rule"   class="clip" data-start="0" data-duration="5.629" data-track-index="6"></div>
+    <div id="btm-italic" class="clip" data-start="0" data-duration="5.629" data-track-index="7">is your weapon</div>
+    <div id="btm-brand"  class="clip" data-start="0" data-duration="5.629" data-track-index="8">SoloFlows · AI Creator · 2025</div>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+
+    /* ── Three.js renderer ── */
+    var W = 1080, H = 1920;
+    var renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(W, H);
+    renderer.setPixelRatio(1);
+    renderer.setClearColor(0x1C1C1E);
+    document.getElementById('canvas-wrap').appendChild(renderer.domElement);
+
+    var scene = new THREE.Scene();
+
+    var camera = new THREE.PerspectiveCamera(58, W / H, 0.1, 3000);
+    camera.position.set(0, 0, 520);
+    camera.lookAt(0, 0, 0);
+
+    // Ambient fill + rim light
+    scene.add(new THREE.AmbientLight(0xffffff, 0.20));
+    var rimLight = new THREE.PointLight(0x1F7FFE, 2.5, 1200);
+    rimLight.position.set(200, 300, 300);
+    scene.add(rimLight);
+    var backLight = new THREE.PointLight(0x4a9fff, 1.2, 1000);
+    backLight.position.set(-300, -200, -200);
+    scene.add(backLight);
+
+    /* ── SCENE 1: Main cube ── */
+    var cubeGeo = new THREE.BoxGeometry(130, 130, 130);
+    var cubeMesh = new THREE.Mesh(cubeGeo,
+      new THREE.MeshPhongMaterial({ color: 0x1C1C1E, emissive: 0x051535, shininess: 60 })
+    );
+    var cubeEdges = new THREE.LineSegments(
+      new THREE.EdgesGeometry(cubeGeo),
+      new THREE.LineBasicMaterial({ color: 0x1F7FFE })
+    );
+    var cubeGroup = new THREE.Group();
+    cubeGroup.add(cubeMesh);
+    cubeGroup.add(cubeEdges);
+    cubeGroup.scale.setScalar(0);
+    scene.add(cubeGroup);
+
+    /* ── SCENE 2: Fragment cubes (8, deterministic positions) ── */
+    var fragTargets = [
+      [ 190,  170,  60], [-190,  175, -55],
+      [ 185, -175,  55], [-185, -170, -60],
+      [ 240,   20, 110], [-235,   25,-110],
+      [  25,  245,-130], [  30, -240, 130],
+    ];
+    var frags = [];
+    fragTargets.forEach(function (_, i) {
+      var fg = new THREE.BoxGeometry(32, 32, 32);
+      var fm = new THREE.Mesh(fg,
+        new THREE.MeshPhongMaterial({ color: 0x1C1C1E, emissive: 0x0A1E40, shininess: 50 })
+      );
+      var fe = new THREE.LineSegments(
+        new THREE.EdgesGeometry(fg),
+        new THREE.LineBasicMaterial({ color: 0x1F7FFE, opacity: 0.7, transparent: true })
+      );
+      var group = new THREE.Group();
+      group.add(fm);
+      group.add(fe);
+      group.scale.setScalar(0);
+      scene.add(group);
+      frags.push(group);
+    });
+
+    /* ── SCENE 3: Icosahedron wireframe ── */
+    var icoGeo = new THREE.IcosahedronGeometry(140, 1);
+    var icoEdges = new THREE.LineSegments(
+      new THREE.EdgesGeometry(icoGeo),
+      new THREE.LineBasicMaterial({ color: 0x1F7FFE, opacity: 0.85, transparent: true })
+    );
+    var icoGroup = new THREE.Group();
+    icoGroup.add(icoEdges);
+    icoGroup.scale.setScalar(0);
+    scene.add(icoGroup);
+
+    /* ── SCENE 4: Torus ring ── */
+    var torusGeo = new THREE.TorusGeometry(170, 4, 12, 80);
+    var torusEdges = new THREE.LineSegments(
+      new THREE.EdgesGeometry(torusGeo),
+      new THREE.LineBasicMaterial({ color: 0x1F7FFE })
+    );
+    var torusMesh = new THREE.Mesh(torusGeo,
+      new THREE.MeshPhongMaterial({ color: 0x0D2558, emissive: 0x0A2050, shininess: 80 })
+    );
+    var torusGroup = new THREE.Group();
+    torusGroup.add(torusMesh);
+    torusGroup.add(torusEdges);
+    torusGroup.scale.setScalar(0);
+    scene.add(torusGroup);
+
+    // Initial render
+    renderer.render(scene, camera);
+
+    /* ── GSAP initial states ── */
+    gsap.set('#top-tag',     { opacity: 0, y: -14 });
+    gsap.set('#top-rule',    { width: 0 });
+    gsap.set('#top-context', { opacity: 0, y: 20 });
+    gsap.set('#top-sub',     { opacity: 0 });
+    gsap.set('#btm-label',   { opacity: 0, y: 20 });
+    gsap.set('#btm-rule',    { width: 0 });
+    gsap.set('#btm-italic',  { opacity: 0 });
+    gsap.set('#btm-brand',   { opacity: 0 });
+
+    /* ── Timeline ── */
+    var tl = gsap.timeline({
+      paused: true,
+      onUpdate: function () { renderer.render(scene, camera); }
+    });
+    window.__timelines = window.__timelines || {};
+    window.__timelines['broll-05'] = tl;
+
+    /* Scene 1 — Cube intro: 0–1.4s */
+    tl.to(cubeGroup.scale, { x: 1, y: 1, z: 1, duration: 0.5, ease: 'back.out(1.6)' }, 0.15);
+    // Cube rotates continuously through scene 1
+    tl.to(cubeGroup.rotation, { y: Math.PI * 1.5, duration: 1.4, ease: 'none' }, 0.15);
+    tl.to(cubeGroup.rotation, { x: Math.PI * 0.6, duration: 1.4, ease: 'none' }, 0.15);
+
+    // TOP text in: 0.3–1.0s
+    tl.to('#top-tag',     { opacity: 1, y: 0, duration: 0.30, ease: 'power2.out' }, 0.30);
+    tl.to('#top-rule',    { width: 700, duration: 0.38, ease: 'power3.out' }, 0.52);
+    tl.to('#top-context', { opacity: 1, y: 0, duration: 0.40, ease: 'power2.out' }, 0.62);
+    tl.to('#top-sub',     { opacity: 1, duration: 0.30, ease: 'power2.out' }, 0.96);
+
+    /* Scene 2 — Fragment burst: 1.4–2.8s */
+    // Cube fades out
+    tl.to([cubeMesh.material, ...cubeEdges.material.map ? [] : [cubeEdges.material]],
+      { opacity: 0, duration: 0.25, ease: 'power2.in' }, 1.4);
+    tl.to(cubeGroup.scale, { x: 0.01, y: 0.01, z: 0.01, duration: 0.25, ease: 'power2.in' }, 1.4);
+
+    // Fragments burst outward
+    frags.forEach(function (g, i) {
+      var target = fragTargets[i];
+      var delay = 1.45 + i * 0.06;
+      tl.to(g.scale, { x: 1, y: 1, z: 1, duration: 0.25, ease: 'power3.out' }, delay);
+      tl.to(g.position, {
+        x: target[0], y: target[1], z: target[2],
+        duration: 0.65, ease: 'expo.out'
+      }, delay);
+      tl.to(g.rotation, { y: Math.PI * (i % 2 === 0 ? 2 : -2), duration: 0.9, ease: 'expo.out' }, delay);
+      // Frag fades: 2.5–2.8s
+      tl.to(g.scale, { x: 0.01, y: 0.01, z: 0.01, duration: 0.3, ease: 'power2.in' }, 2.5 + i * 0.02);
+    });
+
+    /* Scene 3 — Icosahedron: 2.6–3.9s */
+    tl.to(icoGroup.scale, { x: 1, y: 1, z: 1, duration: 0.55, ease: 'back.out(1.5)' }, 2.60);
+    // Slow spin
+    tl.to(icoGroup.rotation, { y: Math.PI * 2, duration: 2.8, ease: 'none' }, 2.60);
+
+    // BOTTOM text: 2.8–3.5s
+    tl.to('#btm-label',  { opacity: 1, y: 0, duration: 0.35, ease: 'power2.out' }, 2.80);
+    tl.to('#btm-rule',   { width: 680, duration: 0.38, ease: 'power3.out' }, 3.02);
+    tl.to('#btm-italic', { opacity: 1, duration: 0.40, ease: 'power2.out' }, 3.22);
+    tl.to('#btm-brand',  { opacity: 1, duration: 0.30, ease: 'power2.out' }, 3.52);
+
+    /* Scene 4 — Torus ring: 3.8–5.129s */
+    tl.to(icoGroup.scale, { x: 0.01, y: 0.01, z: 0.01, duration: 0.35, ease: 'power2.in' }, 3.80);
+    tl.to(torusGroup.scale, { x: 1, y: 1, z: 1, duration: 0.4, ease: 'back.out(1.4)' }, 3.88);
+    // Torus spins: 2 full revolutions over remaining ~1.2s
+    tl.to(torusGroup.rotation, { y: Math.PI * 4, duration: 1.2, ease: 'none' }, 3.90);
+    tl.to(torusGroup.rotation, { x: Math.PI * 1.6, duration: 1.2, ease: 'none' }, 3.90);
+
+    // Fade out: 5.129s
+    tl.to('#root', { opacity: 0, duration: 0.5, ease: 'power2.in' }, 5.129);
+  });
+  </script>
+</body>
+</html>

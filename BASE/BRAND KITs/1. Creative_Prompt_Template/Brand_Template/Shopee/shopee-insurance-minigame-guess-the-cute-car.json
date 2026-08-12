@@ -1,0 +1,70 @@
+{
+  "name": "shopee-insurance-minigame-guess-the-cute-car",
+  "tag": [
+    "minigame",
+    "insurance-promo",
+    "quiz-creative",
+    "orange-branding"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Competitions",
+  "group": "shopee_910878965351800",
+  "prompt": {
+    "project_info": {
+      "theme": "Shopee insurance minigame quiz poster",
+      "color_palette": "Shopee orange, royal blue, white, golden yellow"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A centered white mystery car silhouette with three large red-and-blue outlined question marks over it, placed on a glowing folded blue ribbon platform. Large stacked headline above reads 'Mini Game', 'NHIN HINH DOAN TEN', 'QUA XIN CHO BAN', followed by the exact date line 'TU 16.06.2026 - 30.06.2026'. Four big answer cards fill the lower half with labels A, B, C, D and the exact options 'BAO HIEM DAN SU XE MAY', 'BAO HIEM DAN SU XE O TO', 'BAO HIEM TAI NAN XE O TO', 'BAO HIEM TAI NAN'. Bottom CTA pill reads 'THAM GIA NGAY'.",
+      "style": "Glossy ad graphic with thick white typography, soft 3D shadows, rounded buttons, cartoon-composite vector look"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "Mini Game / NHIN HINH DOAN TEN / QUA XIN CHO BAN / TU 16.06.2026 - 30.06.2026 / A BAO HIEM DAN SU XE MAY / B BAO HIEM DAN SU XE O TO / C BAO HIEM TAI NAN XE O TO / D BAO HIEM TAI NAN / THAM GIA NGAY",
+      "items": [
+        "Top Left: White Shopee bag logo on solid orange background",
+        "Top Right: Small floating wrapped gift box and golden ribbon confetti",
+        "Bottom Left: Large blue answer card A and large blue answer card C with yellow letter blocks",
+        "Bottom Right: Large blue answer card B and large blue answer card D plus orange CTA pill",
+        "Center/Background: Orange radial burst behind the mystery car, floating vouchers, stars, shield badge with checkmark, blue layered ribbon platform"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright commercial studio glow",
+      "effect": "Radial sunburst, soft drop shadows, glossy highlights, warm bloom, festive confetti accents"
+    },
+    "technical_specs": {
+      "render_style": "High-polish vector advertising poster with pseudo-3D compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee insurance minigame. Centerpiece is a white mystery car silhouette with three large question marks on top, sitting on a glowing folded blue ribbon stage. Background is solid Shopee orange with a radial burst and floating vouchers, gift boxes, stars, shield icon, and ribbon confetti. Surrounding elements: Shopee logo at top left, large Vietnamese headline 'Mini Game', 'NHIN HINH DOAN TEN', 'QUA XIN CHO BAN', exact date line 'TU 16.06.2026 - 30.06.2026', four oversized answer cards labeled A/B/C/D with the exact answer text, and a bottom CTA pill 'THAM GIA NGAY'. Technical style: high-polish vector advertising poster with pseudo-3D compositing, bright commercial studio glow, radial sunburst, soft shadows, glossy highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Shopee bag logo",
+          "required": true,
+          "source": "existing Shopee brand asset",
+          "usage": "Place at top left exactly as the white shopping bag icon with orange S"
+        },
+        {
+          "type": "text_layout",
+          "name": "Insurance minigame typography layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Replicate the stacked headline, date line, four answer-card layout, and bottom CTA wording exactly"
+        },
+        {
+          "type": "graphic",
+          "name": "Mystery car silhouette and answer-card system",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the white car silhouette, blue ribbon platform, shield, vouchers, gifts, and four blue quiz cards"
+        }
+      ],
+      "prompt_instructions": "Preserve all visible Vietnamese copy exactly as shown. Treat 'TU 16.06.2026 - 30.06.2026' as historical campaign text relative to Friday, July 17, 2026, not as a live current offer. Keep a square crop, centered car silhouette, and quiz-answer hierarchy with strong orange-blue Shopee branding."
+    }
+  }
+}

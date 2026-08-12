@@ -1,0 +1,70 @@
+{
+  "name": "samsung-galaxy-s25-series-introducing-camera-array",
+  "tag": [
+    "smartphone-launch",
+    "series-intro",
+    "product-hero",
+    "galaxy-ai"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Brand story",
+  "group": "samsung_1104780415023769",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy S25 Series introduction hero poster",
+      "color_palette": "Silver titanium, navy blue, black, white, electric blue accent glow"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Premium close-cropped launch poster showing four overlapping Galaxy S25 series devices arranged radially to emphasize camera arrays, device finishes, and an S Pen, with a minimal title at the bottom.",
+      "style": "Photorealistic flagship product hero render, luxury hardware photography, minimal Samsung launch aesthetic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Introducing Galaxy S25 Series / Galaxy AI",
+      "items": [
+        "Top Left: Silver device back with three large camera rings.",
+        "Top Right: Front display corner showing the lockscreen and a 'Now Brief Get today's highlight' pill over a deep blue-lit center seam.",
+        "Bottom Left: Another silver/titanium device back with larger camera cluster plus a white S Pen partially entering from the corner.",
+        "Bottom Right: Navy blue device back with triple camera layout and flash.",
+        "Center/Background: Radial meeting point of four devices with cool blue glow; lower center white title 'Introducing Galaxy S25 Series' and 'Galaxy AI' with sparkle icon; tiny legal footnote at the bottom left."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Studio lighting",
+      "effect": "Sharp metallic reflections, camera lens gloss, cool electric blue seam glow, premium high-contrast hardware mood"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy S25 Series introduction hero poster. Centerpiece is a radial arrangement of four overlapping Galaxy S25 devices showing multiple back finishes, camera arrays, a front display corner with a 'Now Brief Get today's highlight' pill, and a white S Pen. Background is a dark premium studio setup with cool blue glow at the center seam. Surrounding elements: exact lower title 'Introducing Galaxy S25 Series', 'Galaxy AI' with sparkle icon, and a tiny legal footnote in the lower-left corner. Technical style: photorealistic product render, studio lighting, sharp metallic reflections and cool electric blue seam glow, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy S25 series multi-device hardware render",
+          "required": true,
+          "source": "official Samsung launch renders",
+          "usage": "Match exact camera-ring geometry, finishes, device overlap, and S Pen placement."
+        },
+        {
+          "type": "ui_reference",
+          "name": "Now Brief lockscreen pill",
+          "required": true,
+          "source": "original creative or official UI render",
+          "usage": "Preserve the small callout pill and its placement on the front device."
+        },
+        {
+          "type": "text_layout",
+          "name": "bottom introductory typography",
+          "required": true,
+          "source": "original poster",
+          "usage": "Keep the exact wording, alignment, and minimal lower-title composition."
+        }
+      ],
+      "prompt_instructions": "Use refs for the exact multi-device arrangement. This poster depends on tight hardware composition and lighting; do not simplify it into a single phone hero shot."
+    }
+  }
+}

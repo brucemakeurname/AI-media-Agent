@@ -1,0 +1,68 @@
+{
+    "name":  "brand-metaphor-print-ad-grid",
+    "tag":  [
+                "branding",
+                "brand story",
+                "print ad",
+                "visual metaphor",
+                "campaign grid",
+                "minimalism"
+            ],
+    "biz_niche":  "Fashion & Apparel / Editorial",
+    "content_format":  "Brand story",
+    "group":  "branding_visual_metaphor",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Four minimalist brand visual metaphors",
+                                        "color_palette":  "Off-white, black, Cheetos orange, Nike neon green, Oreo blue, Sprite lime"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Graphic",
+                                        "detail":  "A 2 by 2 square grid of premium minimalist brand print ads: Cheetos powder becomes a smiling cheese puff cloud, Nike shoe is wrapped in neon energy, Oreo opens into a cloud dream, and Sprite bottle is filled with lime slices.",
+                                        "style":  "Surreal photoreal print advertising with oversized negative space"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Brand logo/Metaphor/Typography",
+                                                "text":  "Pure Cheese.; LIGHT IT UP.; DREAM BIG; QUENCH REALITY",
+                                                "items":  [
+                                                              "Upper left: Cheetos logo, cheese puff and orange powder face on white.",
+                                                              "Upper right: Nike swoosh, green running shoe, luminous green energy on black.",
+                                                              "Lower left: Oreo logo, opening cookie and cloud cream on pale gray.",
+                                                              "Lower right: Sprite logo, lime-filled bottle on a white plinth."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Clean premium studio lighting",
+                                                   "effect":  "Soft contact shadows, crisp product edges, controlled surreal material detail"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "8K photorealistic square print-ad composition",
+                                           "resolution":  "1:1 high resolution"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "official brand logo",
+                                                                 "required":  true,
+                                                                 "source":  "official approved brand asset",
+                                                                 "usage":  "Use the exact vector mark with correct proportions, never a generated wordmark."
+                                                             },
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "hero product reference",
+                                                                 "required":  true,
+                                                                 "source":  "exact product packshot",
+                                                                 "usage":  "Preserve product silhouette and brand identity."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach the official logo and hero product reference for the selected brand.",
+                                                                          "Create one hero metaphor plus one accent only; retain abundant negative space.",
+                                                                          "Treat the two-word slogan as brand-approved text, not improvised copy."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Create a surreal minimalist photoreal print-ad using the INPUT only. Auto-detect the brand from the INPUT and add the brand’s REAL official logo (not a generic wordmark), high fidelity, correct proportions, clean vector/print look, placed top-left with subtle ink-like texture. Use one bold visual metaphor, 1 hero + 1 accent max, huge negative space, studio lighting, 8K ultra-sharp, premium print-ad composition. Add a two-word slogan bottom-right that matches the brand tone. No clutter, no watermark, no extra text. Aspect ratio 1:1",
+                   "negative_prompt":  "generic logo, altered packaging, clutter, multiple metaphors, extra text, weak negative space, low resolution, watermark"
+               }
+}

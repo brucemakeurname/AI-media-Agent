@@ -1,0 +1,66 @@
+{
+  "name": "Ultra-Wide Subway Platform Portrait",
+  "tag": "ultra-wide-subway-platform",
+  "image_type": "ultra_wide_transit_portrait",
+  "image_vibe": "cold_liminal_urban",
+  "image_purpose": "fashion_editorial",
+  "group": "indie/enegy-lifestyle/urban-indie",
+  "prompt": {
+    "project_info": {
+      "title": "Ultra-Wide Subway Platform Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "9:16 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with back-combed damp-texture hair, defined dark eyeliner, and a neutral expression.",
+      "wardrobe": "A fully buttoned white long-sleeve shirt, oversized dark tie, high-waisted wide-leg charcoal trousers, and knee-high plain leather boots.",
+      "pose_and_expression": "Sitting upright on a clean platform bench near the camera, feet grounded and hands resting beside her."
+    },
+    "composition_elements": {
+      "setting": "A clean modern subway platform with white tiles, evenly spaced pillars, abstract train light blur in the distance, and a blank safety strip.",
+      "framing": "High-angle 0.5x ultra-wide smartphone look with mild edge barrel distortion and long platform perspective.",
+      "text_and_brand_control": "No station name, map, route symbol, poster, safety-line wording, brand, logo, or readable text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Cold overhead fluorescent tubes with faint blue ambient fill and long floor reflections.",
+      "mood": "Cold, liminal, editorial, and composed."
+    },
+    "technical_specs": {
+      "camera_style": "0.5x ultra-wide smartphone snapshot",
+      "lens": "13mm equivalent",
+      "rendering": "Mild barrel distortion at edges, sharp digital texture, subtle dust, gentle chromatic aberration, realistic anatomy and hands."
+    },
+    "generated_prompt_string": "Create a 9:16 vertical ultra-wide 0.5x smartphone fashion-editorial still of an adult woman with back-combed damp-texture hair, defined dark eyeliner, and a neutral expression. She wears a fully buttoned white long-sleeve shirt, oversized dark tie, high-waisted wide-leg charcoal trousers, and knee-high plain leather boots. Seat her upright on a clean platform bench near camera, feet grounded and hands beside her. Place her in a clean modern subway platform of white tiles and repeating pillars, with distant abstract train light blur, blank safety strip, and no signage. Use a high-angle 13mm-equivalent perspective with mild edge barrel distortion, cold fluorescent lighting, faint blue ambient fill, long floor reflections, sharp digital texture, subtle dust, gentle chromatic aberration, realistic anatomy and hands. No station name, map, route symbol, poster, logo, readable text, watermark, or sexualized styling.",
+    "negative_prompt": "minor, schoolgirl, celebrity likeness, explicit, nsfw, overly revealing clothing, lingerie, fetish styling, short skirt, unbuttoned shirt, kneeling pose, station text, route map, logo, watermark, distorted limbs, extra fingers, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity references must show a consenting adult. Replaceable outfit and transit references guide only form, palette, and perspective; blank all transport text, maps, symbols, and branding.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general adult face and hair traits only."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "covered_transit_editorial_outfit_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide shirt, tie, trousers, and boot silhouette without labels."
+        },
+        {
+          "type": "environment_reference",
+          "name": "modern_subway_platform_reference",
+          "required": false,
+          "source": "user-provided transit reference",
+          "usage": "Guide platform geometry and fluorescent mood after removing all signs, maps, and labels."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adult status, replaced school-coded/revealing styling and floor pose with covered safe bench pose, and removed all transit text and branding."
+  }
+}

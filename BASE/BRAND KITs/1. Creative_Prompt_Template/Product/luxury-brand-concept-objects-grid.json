@@ -1,0 +1,76 @@
+{
+    "name":  "luxury-brand-concept-objects-grid",
+    "tag":  [
+                "brand concept",
+                "product demo",
+                "industrial design",
+                "editorial grid",
+                "luxury materials",
+                "concept study"
+            ],
+    "biz_niche":  "Fashion & Apparel / Editorial",
+    "content_format":  "Product demos",
+    "group":  "product_multi-concept-grid",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Luxury brand invented utility-object concept studies",
+                                        "color_palette":  "Ultra-light mint, off-white, brushed titanium silver, forest green, muted orange"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Object",
+                                        "detail":  "A four-panel concept-study layout featuring unexpected functional objects, such as a desk organizer, hydration vessel, portable espresso system, and ergonomic chair, each interpreted through a luxury outdoor or sports brand material vocabulary.",
+                                        "style":  "Glossy concept-art magazine editorial, sculptural yet functional industrial design"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Product grid/Typography/UI elements",
+                                                "text":  "CONCEPT STUDY: [AI inserts invented product name]. MATERIAL: [AI inserts main materials]. SS25.",
+                                                "items":  [
+                                                              "Upper left: close macro crop of a titanium, ceramic, and carbon-fiber desk organizer.",
+                                                              "Upper right: green textured smart hydration vessel with small logo at lower right.",
+                                                              "Lower left: compact titanium-and-carbon portable espresso system with orange technical straps.",
+                                                              "Lower right: olive textile and chrome ergonomic chair with visible sculptural curves.",
+                                                              "Each panel: ultra-light pastel cyclorama and small gray concept-study annotation at lower left."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Sophisticated studio softbox lighting",
+                                                   "effect":  "Gentle enveloping fill, precise rim highlights, shallow depth of field, creamy bokeh, and tactile material contrast"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Medium-format Phase One editorial product photograph with 100mm macro lens",
+                                           "resolution":  "High resolution, highly detailed"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "selected brand logo",
+                                                                 "required":  true,
+                                                                 "source":  "official brand logo",
+                                                                 "usage":  "Place a small monochrome gray logo at each lower-right corner."
+                                                             },
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "brand material and design-language references",
+                                                                 "required":  true,
+                                                                 "source":  "brand archive or moodboard",
+                                                                 "usage":  "Anchor the invented object in the brand’s actual material vocabulary and design philosophy."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "concept study annotation",
+                                                                 "required":  true,
+                                                                 "source":  "source image layout reference",
+                                                                 "usage":  "Keep compact lower-left annotation with tight Manrope-like tracking."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach the brand logo and material references.",
+                                                                          "Invent a functional object, never a standard shoe, garment, or bag.",
+                                                                          "Keep lower-left annotation and lower-right logo precisely understated."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "[ BRAND NAME ]: A high-end, glossy concept art magazine editorial photograph of a unique, unexpected functional object conceptualized and designed by the brand. **1. The Concept \u0026 Object (AI Invention):** Based on the design philosophy, heritage, and material vocabulary of the specified brand, the AI must invent a novel utility product (NOT standard clothing, shoes, or bags). Examples could be home goods, tech accessories, tools, or sporting equipment, reinterpretated through the brand\u0027s lens. The object should feel sculptural yet functional. **2. Materials \u0026 Details (Hyper-Premium):** The object is constructed from ultra-premium, highly tactile materials characteristic of the brand (e.g., patinated exotic leathers, brushed aerospace-grade titanium, sculpted matte ceramics, molded carbon fiber, or technical high-fashion textiles). Every detail is hyper-realistic: visible stitching, microscopic material grain, precision engravings, and complex texture contrasts. **3. Photography \u0026 Lighting (Cinematic Studio):** Shot on a medium format Phase One camera with a 100mm macro lens. Extremely shallow depth of field, with sharp focus on the hero details of the object and a creamy, smooth bokeh background. The lighting is sophisticated studio softbox lighting: gentle, enveloping fill light with precise rim lighting to accentuate contours and material textures. **4. Environment:** A seamless, impeccably clean studio cyclorama background in a pure, ultra-light pastel tone (e.g., desaturated mint, pale blush, or off-white), free of shadows. **5. Layout \u0026 UI Elements (Strict Placement):** - **Bottom Right Corner:** A small, understated, monochrome gray logo of the brand. - **Bottom Left Corner:** Small, minimalist monochrome gray text describing the invented product. The font style looks like Manrope Regular with very tight tracking (kerning) and balanced line spacing. Example format: \"CONCEPT STUDY: [AI inserts invented product name]. MATERIAL: [AI inserts main materials]. SS25.\"",
+                   "negative_prompt":  "standard fashion product, ordinary shoes, generic bag, warped logo, cluttered background, harsh shadows, cheap plastic materials, low detail, unreadable annotation, watermark"
+               }
+}

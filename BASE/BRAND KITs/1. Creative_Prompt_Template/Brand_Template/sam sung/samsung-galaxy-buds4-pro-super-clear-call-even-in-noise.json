@@ -1,0 +1,77 @@
+{
+  "name": "samsung-galaxy-buds4-pro-super-clear-call-even-in-noise",
+  "tag": [
+    "earbuds-launch",
+    "call-quality",
+    "noise-canceling",
+    "buds4-pro"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Infographics",
+  "group": "samsung_1388395973328877",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy Buds4 Pro clear call in noise poster",
+      "color_palette": "White, pale blue, mint green, metallic silver, dark phone-screen gradients"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Communication-feature poster showing two smartphones on active calls to AVA and SAM, with two Galaxy Buds4 Pro earbuds and layered signal-wave lines around a central phone icon.",
+      "style": "Photorealistic UI-and-hardware render, clean call-quality feature infographic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Super clear call, even in noise / Galaxy Buds4 Pro / AVA / SAM",
+      "items": [
+        "Top Left: Large centered black headline 'Super clear call, even in noise'.",
+        "Top Right: Smaller centered subtitle 'Galaxy Buds4 Pro'.",
+        "Bottom Left: Smartphone call screen labeled 'AVA' with call controls and timer strip.",
+        "Bottom Right: Matching smartphone call screen labeled 'SAM' with the same control layout.",
+        "Center/Background: Two metallic Buds4 Pro earbuds facing inward around a green phone icon, with layered mint and blue signal-wave curves spanning across the middle on a pale white-blue background."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio lighting",
+      "effect": "Clear UI readability, subtle metallic earbud highlights, airy communication-tech feel"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product and UI render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy Buds4 Pro clear call in noise poster. Centerpiece is a pair of metallic Galaxy Buds4 Pro earbuds suspended between two smartphones on active calls, with a green phone icon and layered mint-blue signal-wave curves connecting them. Background is a clean pale white-blue field. Surrounding elements: exact headline 'Super clear call, even in noise', subtitle 'Galaxy Buds4 Pro', left call screen labeled 'AVA', and right call screen labeled 'SAM'. Technical style: photorealistic product and UI render, soft studio lighting, crisp UI readability and subtle metallic highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy Buds4 Pro earbuds",
+          "required": true,
+          "source": "official Samsung render",
+          "usage": "Preserve exact earbud finish, orientation, and center placement."
+        },
+        {
+          "type": "ui_reference",
+          "name": "dual smartphone call screens labeled AVA and SAM",
+          "required": true,
+          "source": "original creative UI",
+          "usage": "Keep exact names, timer bar, call controls, and phone-screen gradients."
+        },
+        {
+          "type": "graphic",
+          "name": "signal-wave mesh and green phone icon",
+          "required": true,
+          "source": "original poster graphics",
+          "usage": "Preserve the layered communication-wave design behind the earbuds."
+        },
+        {
+          "type": "text_layout",
+          "name": "call-quality headline",
+          "required": true,
+          "source": "original poster",
+          "usage": "Retain exact centered wording and spacing."
+        }
+      ],
+      "prompt_instructions": "Use refs for both call screens and the wave-graphic background. This image depends on precise symmetry between the left and right phones and earbuds."
+    }
+  }
+}

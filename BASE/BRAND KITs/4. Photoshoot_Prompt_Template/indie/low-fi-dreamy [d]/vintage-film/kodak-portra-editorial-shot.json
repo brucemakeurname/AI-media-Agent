@@ -1,0 +1,22 @@
+{
+  "name": "kodak-portra-editorial-shot",
+  "tag": ["indie", "low-fi-dreamy", "vintage-film", "kodak-portra", "editorial"],
+  "image_type": "fashion editorial portrait",
+  "image_vibe": "Kodak Portra warmth, contemplative mountain-cabin editorial, refined vintage fashion",
+  "image_purpose": "Create a cinematic editorial portrait with a rustic cabin and mountain landscape.",
+  "group": "vintage-film",
+  "prompt": {
+    "project_info": "A masterfully composed medium-format-inspired portrait at the doorway of a rustic log cabin.",
+    "main_subject": "An original adult woman standing three-quarters to camera in a blue floral dress with opaque coverage, over-knee tan suede boots, gold earrings, and a fine silver necklace. She gazes slightly past the camera toward distant mountains with a contemplative expression.",
+    "composition_elements": "Subject at the right third, framed mid-thigh up, one hand touching the weathered door frame, natural weight shift, rustic wood walls, and majestic mountains in a softly focused background. Negative space on the left follows her gaze.",
+    "lighting_and_atmosphere": "Soft morning sunlight at a 45-degree angle diffused by thin clouds, warm wood fill light, subtle doorway rim light, luminous shadows, and soulful refined atmosphere.",
+    "technical_specs": "Medium-format aesthetic, 85mm equivalent lens, f/2.0 shallow depth of field, vintage optical soft focus, Kodak Portra 160 grain, medium-low saturation, warm honey wood and cool blue-gray mountain tones, subtle vignette.",
+    "generated_prompt_string": "Create a cinematic fashion editorial portrait of an original adult woman standing in the doorway of a rustic log cabin with majestic mountains softly visible behind her. She wears a blue floral dress with opaque coverage, over-knee tan suede boots, gold earrings, and a fine silver necklace. Frame her three-quarters at the right third, mid-thigh up, with one hand on the weathered door frame and her gaze directed slightly past camera toward the mountains. Use soft diffused morning light, warm wood fill, subtle doorway rim light, medium-format 85mm f/2 depth of field, Zeiss Planar-like optical softness, Kodak Portra 160 grain, warm honey tones, cool blue-gray distance, and contemplative refined mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor or teen-coded subject, transparent dress, exposed underwear, nudity, celebrity identity, harsh digital blur, plastic skin, excessive retouching, distorted anatomy, watermark, text",
+    "reference_elements": {
+      "assets": [{"type": "image_reference", "name": "source Kodak Portra cabin reference", "required": false, "source": "https://img.opennana.com/prompts/assets/202601/1769871478377-1r5r2jja-1.jpeg", "usage": "Use only for cabin composition, light, wardrobe palette, and film aesthetic; do not copy identity."}],
+      "prompt_instructions": "Preserve the mountain-cabin editorial concept, contemplative gaze, Portra palette, and vintage optical treatment. Use an original adult and opaque dress coverage."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed idol identity framing and clarified original adult subject.", "Specified opaque dress coverage and safety exclusions."]}
+}

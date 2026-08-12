@@ -1,0 +1,22 @@
+{
+  "name": "elegant-blonde-assistant-debate-forum",
+  "tag": ["ugc", "debate", "event", "assistant", "portrait"],
+  "image_type": "UGC documentary event portrait",
+  "image_vibe": "professional, friendly, confident, realistic",
+  "image_purpose": "Event documentation and professional social content",
+  "group": "ugc/lifestyle-moment [d]/social-cozy/public-indoor",
+  "prompt": {
+    "project_info": "Create a realistic documentary-style event portrait of an approved adult debate-forum assistant.",
+    "main_subject": "One approved adult woman with long golden-blonde waves and a friendly confident expression, holding a clipboard and pen. She wears an opaque white button-up blouse with a modest collar and a black knee-length tailored skirt, with a small gold pendant.",
+    "composition_elements": "Mid-thigh-to-head portrait in an indoor debate forum, slight low eye-level angle, blue event banner and dark curtains behind, folding chairs, tables, water bottle, and papers softly visible.",
+    "lighting_and_atmosphere": "Soft neutral overhead event lighting, even illumination, mild natural shadows, authentic community-hall documentary feel.",
+    "technical_specs": "Full-frame DSLR look, 85mm, f/2.8, 1/200s, ISO 200, natural tones, sharp subject and soft background depth of field, 3:4 vertical.",
+    "generated_prompt_string": "A realistic documentary-style 3:4 vertical event portrait of one approved adult woman with long golden-blonde waves and a friendly confident expression, holding a clipboard and black pen. She wears an opaque white button-up blouse with a modest collar, black knee-length tailored skirt, and small gold pendant. Indoor debate forum or community hall, blue event banner, dark curtains, folding chairs, tables, water bottle and papers softly visible, neutral overhead lighting, natural tones, full-frame DSLR 85mm f/2.8, authentic event photography.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, transparent blouse, deep cleavage, sexualized pose, micro-skirt, distorted hands, extra fingers, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, random readable text, watermark, random logos, celebrity likeness, low resolution, blur",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "elegant-blonde-assistant-debate-forum.jpg", "required": true, "source": "local approved reference", "usage": "Use for approved adult subject styling, debate event, clipboard, banner, curtains, lighting, and framing."}],
+      "prompt_instructions": "Attach the required reference image. Preserve the approved adult, modest professional outfit, event environment, clipboard, and composition consistently. The reference is replaceable with another approved adult event assistant or debate setting while retaining professional coverage and documentary realism. Explicitly define replacement identity, outfit, product, logo, environment, or typography; do not invent them."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed translucent blouse, deep-neckline, hourglass emphasis, and overly short skirt language; retained the professional debate-forum context."]}
+}

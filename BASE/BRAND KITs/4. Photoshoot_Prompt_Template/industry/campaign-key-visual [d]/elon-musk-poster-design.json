@@ -1,0 +1,60 @@
+{
+  "name": "elon-musk-poster-design",
+  "tag": ["adult-man", "identity-reference", "industrial-futurism", "forward-motion", "monolithic-typography", "concept-poster"],
+  "image_type": "industrial-concept-poster",
+  "image_vibe": "minimal-powerful-futuristic",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Removed the public-figure name and likeness instruction, replacing it with an authorized adult identity reference while preserving the industrial futurist concept, monolithic MUSK title treatment, walking figure, launch-plane perspective, and orange trajectory."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "minimal industrial futurist concept poster about forward momentum",
+      "color_palette": "warm off-white paper, graphite black, charcoal gray, and one precise hot-orange accent",
+      "aspect_ratio": "9:16"
+    },
+    "main_subject": {
+      "description": "One realistic adult man matching the authorized identity reference, walking alone with a calm determined expression and natural facial detail.",
+      "wardrobe": "Long black technical coat, dark tailored trousers, black boots, and understated industrial styling.",
+      "pose": "Walking forward toward the upper right, body slightly leaning into resistance, arms relaxed, not speaking, waving, or posing.",
+      "styling": "Refined solitary futurist with restrained modern presence."
+    },
+    "composition_elements": {
+      "framing": "Vertical 9:16 poster with strong negative space, figure anchored at the lower third, and enormous monolithic MUSK letters interlocking behind him as architectural walls.",
+      "environment": "Industrial runway or launch platform with metallic horizon, atmospheric haze, subtle paper grain, and realistic structural occlusion between figure, letters, and ground plane.",
+      "typography": "Giant physical-space title MUSK in bold monolithic graphite letters. Optional small text: FORWARD IS THE ONLY DIRECTION. Render typography as built architecture, not pasted text.",
+      "focus": "Sharp adult identity, coat movement, industrial ground plane, scale contrast, occlusion, and one precise orange rocket trajectory slash through the composition."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Restrained directional industrial light with soft charcoal shadows, warm paper illumination, and a precise hot-orange trajectory glow without neon over-bloom.",
+      "atmosphere": "Minimal, powerful, solitary, engineered, and quietly futuristic."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with a 50mm lens at f/5.6, 1/250 s, ISO 200",
+      "quality": "Museum-quality print design, ultra-realistic 8K detail, subtle paper grain, ray-traced structural texture, restrained contrast, and clean typography"
+    },
+    "generated_prompt_string": "Create a museum-quality 9:16 industrial futurist concept poster using the authorized adult identity reference. Show one realistic adult man in a long black technical coat, dark tailored trousers, and black boots walking alone toward the upper right across a metallic launch platform, body slightly leaning into resistance with a calm determined expression. Build enormous graphite MUSK letters into the physical architecture behind him, with scale contrast and realistic occlusion between letters, figure, and ground plane. Use a warm off-white paper background, charcoal industrial structures, subtle haze, strong negative space, subtle paper grain, and one precise hot-orange rocket trajectory slash cutting upward through the composition. Add optional small text FORWARD IS THE ONLY DIRECTION. Do not imitate Elon Musk or any public figure, and do not add logos or clutter.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, public-figure likeness, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, ordinary celebrity portrait, keynote poster, logos, piles of rockets, cars, satellites, neon cyberpunk, over-glow, motivational template, pasted text, deformed anatomy, watermark",
+    "reference_elements": {
+      "prompt_instructions": "The authorized adult identity reference is required for the walking figure. Preserve the approved adult's identity without imitating Elon Musk or any other public figure. Optional coat, architectural letters, runway, typography, or lighting references may replace only their named element while preserving the industrial forward-motion concept.",
+      "assets": [
+        {
+          "type": "identity",
+          "name": "authorized-adult-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public figure portrait",
+          "usage": "Preserve the authorized adult's facial identity and natural features in the solitary walking figure."
+        },
+        {
+          "type": "set-design",
+          "name": "monolithic-musk-letter-architecture-and-launch-runway",
+          "required": false,
+          "source": "user-uploaded architectural reference",
+          "usage": "Replace only the letter architecture, runway, metallic horizon, or trajectory element while preserving physical-space typography and scale contrast."
+        }
+      ]
+    }
+  }
+}

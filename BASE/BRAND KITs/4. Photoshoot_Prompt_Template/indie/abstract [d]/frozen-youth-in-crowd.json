@@ -1,0 +1,72 @@
+{
+  "name": "frozen-youth-in-crowd",
+  "tag": [
+    "adult-man",
+    "black-and-white",
+    "crowd-blur",
+    "city-street",
+    "long-exposure",
+    "fine-art"
+  ],
+  "image_type": "black-and-white-street-portrait",
+  "image_vibe": "lonely-urban-contemplative",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "source_url": "https://x.com/iamrealsnow/status/2029527112261263570",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the person as an adult while preserving the uploaded-reference identity workflow."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "still adult man in a moving monochrome crowd",
+      "color_palette": "black, charcoal, silver gray, soft white",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult man",
+      "detail": "An adult man with tousled curly dark hair, light stubble, and a dark charcoal turtleneck.",
+      "style": "high-contrast black-and-white fine-art street portrait"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "full torso subject centered on city street",
+        "anonymous pedestrians blurred in every direction",
+        "historic urban facades, buses, and taxis in soft background blur",
+        "sharp direct gaze and dark turtleneck"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft natural overcast street light",
+      "effect": "controlled high contrast, gentle face light, deep monochrome street texture"
+    },
+    "technical_specs": {
+      "render_style": "50mm black-and-white long-exposure photograph, subject frozen sharp, surrounding traffic and pedestrians blurred",
+      "resolution": "ultra-realistic high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Black-and-white cinematic portrait of an adult man based on the uploaded adult face reference, standing still in the center of a busy urban crowd. Keep the subject in sharp focus while anonymous people and traffic rush around him in long-exposure motion blur. Use a historic city street, dark turtleneck, centered composition, shallow depth of field, high-contrast lighting, soft natural light on the face, and a moody fine-art documentary atmosphere. Keep the subject's adult facial identity consistent with the supplied reference.",
+    "negative_prompt": "explicit, nsfw, minor, recognizable bystanders, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, text, logo",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-male-face-reference",
+          "required": true,
+          "source": "Attach the uploaded adult face reference.",
+          "usage": "Preserve adult facial geometry, curly hair, and light stubble."
+        },
+        {
+          "type": "background",
+          "name": "monochrome-city-street-reference",
+          "required": false,
+          "source": "Attach a city-street plate when exact architecture or vehicle placement is required.",
+          "usage": "Keep anonymized crowd motion and central urban vanishing point."
+        }
+      ],
+      "prompt_instructions": "Attach the adult person reference for identity continuity. City background is optional. Preserve monochrome, sharp-versus-blurred contrast, central stillness, and anonymous crowd; do not render recognizable bystanders."
+    }
+  }
+}

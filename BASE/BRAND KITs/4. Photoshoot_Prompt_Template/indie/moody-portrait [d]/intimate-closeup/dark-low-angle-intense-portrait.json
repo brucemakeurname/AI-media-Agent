@@ -1,0 +1,76 @@
+{
+  "name": "dark-low-angle-intense-portrait",
+  "tag": [
+    "approved-adult-reference",
+    "low-angle",
+    "black-polo",
+    "studio-portrait",
+    "rim-light",
+    "intense-editorial"
+  ],
+  "image_type": "studio-editorial-portrait",
+  "image_vibe": "heroic, focused, commanding, cinematic, high-contrast",
+  "image_purpose": "profile-visual, editorial, moodboard",
+  "group": "indie / moody-portrait / intimate-closeup",
+  "prompt": {
+    "project_info": {
+      "theme": "Low-angle intense black-polo studio portrait",
+      "format": "vertical head-and-shoulders medium close-up",
+      "color_palette": "matte black, charcoal gray, cool white edge light, natural skin tones"
+    },
+    "main_subject": {
+      "type": "approved adult person",
+      "detail": "Use the attached approved adult face reference as the sole identity source. Preserve facial structure, skin tone, proportions, hairstyle, age, and overall likeness exactly, with natural pores and no reshaping or beautifying.",
+      "style": "high-impact cinematic studio editorial"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "medium close-up from a low angle looking slightly upward",
+        "squared shoulders, strong upright posture, and off-camera upward gaze",
+        "serious focused expression",
+        "premium matte-black piqué polo with visible cotton mesh texture and a structured tailored fit",
+        "solid seamless charcoal gradient studio backdrop with no props, patterns, or texture"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "strong directional key with a cool-white rim light, approximately 5000K",
+      "effect": "dramatic chiaroscuro across facial structure and jawline, strong edge separation, depth and dimensionality",
+      "atmosphere": "heroic, intense, commanding, professional"
+    },
+    "technical_specs": {
+      "render_style": "Sony A7R V, 85mm f/1.8, low-angle head-and-shoulders framing, sharp face focus",
+      "resolution": "high-detail studio editorial photograph",
+      "color_treatment": "smooth dark backdrop gradient, natural skin texture, restrained contrast, no smoothing"
+    },
+    "generated_prompt_string": "Create a high-impact vertical studio editorial portrait using the attached approved adult face reference as the sole identity source. Preserve the subject's facial structure, skin tone, proportions, hairstyle, age, and overall likeness exactly; do not reshape, beautify, smooth, or reinterpret facial features. Frame a head-and-shoulders medium close-up from a low angle looking slightly upward. The subject has squared shoulders, strong upright posture, an off-camera upward gaze, and a serious focused expression. Dress them in a premium matte-black piqué polo with visible cotton mesh texture and a sharp structured fit. Use a solid seamless charcoal-gradient studio backdrop with no props, patterns, or texture. Light with a strong directional key and cool-white rim light at approximately 5000K to create dramatic chiaroscuro across facial structure and jawline plus a powerful edge separation. Sony A7R V, 85mm f/1.8, sharp face focus, natural pores, no smoothing, and a heroic cinematic editorial finish.",
+    "negative_prompt": "explicit, nsfw, overly revealing, celebrity likeness, public-figure likeness, minor, altered identity, face reshaping, beauty retouching, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, text, logo, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "An approved-adult face and identity reference is required and is the sole identity source. Preserve facial structure, skin tone, proportions, hairstyle, age, and likeness exactly; do not alter or beautify facial features. A wardrobe reference is optional and should preserve the matte-black piqué polo. The backdrop may be replaced only with a seamless dark studio gradient free of props and patterns.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult face and identity reference",
+          "required": true,
+          "source": "user-supplied approved reference",
+          "usage": "Sole identity source; preserve face, facial structure, skin tone, proportions, hairstyle, age, and likeness exactly."
+        },
+        {
+          "type": "wardrobe",
+          "name": "matte-black piqué polo shirt",
+          "required": false,
+          "source": "user-supplied wardrobe reference",
+          "usage": "Preserve the tailored structured fit and visible cotton mesh texture."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Made the identity-reference workflow explicitly approved-adult and mandatory.",
+      "Preserved the low-angle composition, black piqué polo, studio gradient, chiaroscuro, and rim-light direction.",
+      "Added safeguards against identity alteration and public-figure likeness."
+    ]
+  }
+}

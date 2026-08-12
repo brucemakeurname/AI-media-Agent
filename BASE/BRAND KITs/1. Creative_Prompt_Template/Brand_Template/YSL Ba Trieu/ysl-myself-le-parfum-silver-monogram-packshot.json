@@ -1,0 +1,71 @@
+{
+  "name": "ysl-myself-le-parfum-silver-monogram-packshot",
+  "tag": [
+    "ysl",
+    "myslf-le-parfum",
+    "fragrance",
+    "silver-monogram",
+    "packshot"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "ysl_1525280999039359",
+  "prompt": {
+    "project_info": {
+      "theme": "Metallic monogram hero for MYSLF Le Parfum",
+      "color_palette": "Matte black, polished silver, white, charcoal"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A matte black MYSLF Le Parfum bottle stands vertically in the center in front of a giant polished silver YSL monogram background. Bottom copy reads 'MYSLF LE PARFUM', 'SÂU SẮC, TÁO BẠO', and 'TIÊU ĐEN, HOA CAM, VANILLA BOURBON, HỔ PHÁCH'.",
+      "style": "Luxury masculine fragrance hero packshot, high-contrast metallic branding, bold modern product poster"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "MYSLF LE PARFUM, SÂU SẮC, TÁO BẠO, TIÊU ĐEN, HOA CAM, VANILLA BOURBON, HỔ PHÁCH",
+      "items": [
+        "Top Left: Giant polished silver monogram curves filling the background",
+        "Top Right: Matte black bottle cap with small embossed logo",
+        "Bottom Left: Large white product name block overlapping the lower bottle area",
+        "Bottom Right: White tagline and fragrance-note copy stacked beneath the product name",
+        "Center/Background: Matte black rectangular MYSLF Le Parfum bottle with embossed YSL logo standing in front of the oversized metallic monogram"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "High-contrast studio lighting",
+      "effect": "Sharp metallic reflections, matte-versus-gloss material contrast, premium monochrome drama"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal luxury fragrance photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury fragrance poster for YSL. Centerpiece is a matte black MYSLF Le Parfum bottle standing vertically in the center against an oversized polished silver YSL monogram background. Include the exact text 'MYSLF LE PARFUM', 'SÂU SẮC, TÁO BẠO', and 'TIÊU ĐEN, HOA CAM, VANILLA BOURBON, HỔ PHÁCH' in white at the bottom. Technical style: photoreal luxury fragrance photography, high-contrast studio lighting, sharp metallic reflections and strong material contrast, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "MYSLF Le Parfum bottle",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Preserve the matte black bottle shape, embossed logo, and cap proportions"
+        },
+        {
+          "type": "logo",
+          "name": "Oversized silver YSL monogram",
+          "required": true,
+          "source": "official brand monogram reference",
+          "usage": "Match the reflective silver monogram filling the background"
+        },
+        {
+          "type": "text_layout",
+          "name": "Bottom masculine fragrance copy layout",
+          "required": true,
+          "source": "original poster layout",
+          "usage": "Keep the bold white product name and supporting notes at the bottom"
+        }
+      ],
+      "prompt_instructions": "Keep the composition hyper-clean and centered. The core fidelity comes from the matte black bottle against the oversized silver monogram and the bold lower-third typography."
+    }
+  }
+}

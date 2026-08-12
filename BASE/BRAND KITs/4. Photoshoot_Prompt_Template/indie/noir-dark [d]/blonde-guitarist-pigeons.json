@@ -1,0 +1,78 @@
+{
+  "name": "blonde-guitarist-pigeons",
+  "tag": [
+    "adult-woman",
+    "electric-guitar",
+    "pigeons-in-flight",
+    "black-and-white",
+    "metal-album-editorial"
+  ],
+  "image_type": "high-angle-music-editorial",
+  "image_vibe": "gritty-analog-chaotic",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "cinematic monochrome electric-guitar editorial surrounded by pigeons",
+      "color_palette": "black, white, gray, and muted metallic highlights",
+      "aspect_ratio": "4:3"
+    },
+    "main_subject": {
+      "description": "An adult woman with long light-blonde hair blowing in the wind, natural skin texture, and an intense upward gaze directly into the lens.",
+      "wardrobe": "Minimal black distressed clothing with textured fabric and no visible branding.",
+      "pose": "Standing or kneeling on textured outdoor ground while actively playing a black electric guitar."
+    },
+    "composition_elements": {
+      "framing": "High-angle near bird's-eye composition with the adult guitarist centered and one pigeon crossing the extreme foreground for depth.",
+      "environment": "Dry grass, scattered feathers, and open sky tones around a dynamic flock of pigeons in flight; no text or logos.",
+      "focus": "Sharp eyes and guitar details with motion blur on wings and layered foreground depth."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Hard natural daylight with deep shadows, bright cloud separation, and crisp highlights on hair and guitar hardware.",
+      "atmosphere": "Gritty, energetic, cinematic, and rebellious."
+    },
+    "technical_specs": {
+      "camera": "High-angle full-frame camera with a 35mm lens, f/5.6, 1/500 s, ISO 200",
+      "quality": "Analog black-and-white film character, textured grain, sharp subject detail, realistic guitar materials, and natural wing motion blur"
+    },
+    "generated_prompt_string": "Create a cinematic 4:3 black-and-white analog music editorial photograph of an adult woman with long light-blonde hair blowing in the wind, natural skin texture, and an intense upward gaze directly into the lens. She wears minimal black distressed clothing with no branding and actively plays a black electric guitar. Use a high-angle near bird's-eye composition with her centered on textured outdoor ground, dry grass and scattered feathers around her, and a dynamic flock of pigeons in flight. Place one pigeon in the extreme foreground for depth, with motion blur on wings and sharp focus on her eyes and guitar. Use hard natural daylight, deep shadows, bright cloud separation, film grain, and a gritty metal-album-cover atmosphere with no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, deformed guitar, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original subject. Optional guitar, wardrobe, environment, or bird-motion references may replace only their named element while preserving the high-angle composition, monochrome film treatment, dynamic flock, and gritty music mood.",
+      "assets": [
+        {
+          "type": "product",
+          "name": "black-electric-guitar",
+          "required": false,
+          "source": "user-uploaded instrument reference",
+          "usage": "Replace only the guitar body, hardware, and finish while preserving playable proportions and removing logos."
+        },
+        {
+          "type": "wardrobe",
+          "name": "minimal-black-distressed-music-look",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the adult subject's distressed black clothing without adding revealing styling or branding."
+        },
+        {
+          "type": "location",
+          "name": "dry-grass-open-sky-ground",
+          "required": false,
+          "source": "user-uploaded location reference",
+          "usage": "Replace only the outdoor ground texture, sky, and feather details."
+        },
+        {
+          "type": "moodboard",
+          "name": "pigeons-in-flight-motion-reference",
+          "required": false,
+          "source": "user-uploaded motion reference",
+          "usage": "Replace only the flock density, wing motion, and foreground bird depth."
+        }
+      ]
+    }
+  }
+}

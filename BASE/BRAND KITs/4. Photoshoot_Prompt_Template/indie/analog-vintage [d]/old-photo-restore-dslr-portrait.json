@@ -1,0 +1,62 @@
+{
+  "name": "old-photo-restore-dslr-portrait",
+  "tag": [
+    "photo-restoration",
+    "family-photo",
+    "baby",
+    "face-preservation",
+    "damage-repair",
+    "archive"
+  ],
+  "image_type": "archival-photo-restoration",
+  "image_vibe": "faithful-natural-family-archive",
+  "image_purpose": "photo-restoration",
+  "group": "indie/analog-vintage",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "conservative restoration of an attached family portrait with an adult and baby",
+      "color_palette": "source-faithful natural color and original interior tones",
+      "format": "match the attached source photograph"
+    },
+    "main_subject": {
+      "type": "family members shown in the attached archival photograph",
+      "detail": "Preserve exactly the visible adult and baby identities, age presentation, expression, pose, hand placement, clothing, background curtain, and family relationship from the source image.",
+      "style": "faithful archival restoration, not generative restaging"
+    },
+    "composition_elements": {
+      "text": "Preserve source text only if present; do not add or alter text.",
+      "items": [
+        "match original portrait crop and family grouping",
+        "conservatively repair fading, stains, scratches, noise, blur, and paper damage",
+        "retain source clothing, interior curtain pattern, and original pose",
+        "do not change the baby, adult, or their physical relationship"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "source-consistent exposure and color recovery",
+      "effect": "natural skin and fabric detail, restrained denoise, and preserved family-photo character"
+    },
+    "technical_specs": {
+      "render_style": "non-generative high-resolution restoration comparable to DSLR clarity, exact face and age preservation, subtle source grain, no beauty retouching",
+      "resolution": "highest recoverable detail at original aspect ratio"
+    },
+    "generated_prompt_string": "Restore the attached family photograph into a natural professional high-detail image. Preserve the exact visible adult and baby identities, age presentation, expressions, poses, hand placement, clothing, family relationship, crop, curtain background, and historical character of the source. Repair fading, scratches, stains, noise, blur, and damaged areas conservatively while improving only recoverable clarity and natural color. Do not add or remove people, change any face or age, alter the baby, modify the adult-child relationship, change clothing, hands, background, or pose, or invent details not verified by the original photograph.",
+    "negative_prompt": "identity change, face swap, adult age alteration, child age alteration, added person, removed person, changed family relationship, changed pose, changed hand placement, invented clothing, invented background, plastic skin, waxy, over-smooth, airbrushed, HDR look, watermark, logo, text alteration, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "source-family-photo-adult-and-baby",
+          "required": true,
+          "source": "Attach the original family photograph.",
+          "usage": "Mandatory source for every adult and child identity, age presentation, pose, hand placement, clothing, relationship, and background."
+        }
+      ],
+      "prompt_instructions": "Original family photo is mandatory. Apply only conservative restoration. Preserve every person exactly as source shows, especially the baby; do not infer or generate uncertain details."
+    }
+  }
+}

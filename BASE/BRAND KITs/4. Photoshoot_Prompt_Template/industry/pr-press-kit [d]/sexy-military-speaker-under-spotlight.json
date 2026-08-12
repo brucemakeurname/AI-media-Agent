@@ -1,0 +1,82 @@
+{
+  "name": "sexy-military-speaker-under-spotlight",
+  "tag": [
+    "military-uniform",
+    "podium-speech",
+    "press-photography",
+    "spotlight",
+    "political-event"
+  ],
+  "image_type": "press-event-photograph",
+  "image_vibe": "authoritative-cinematic",
+  "image_purpose": "editorial-news-visual",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Authoritative uniformed speaker under an event spotlight",
+      "creative_direction": "press photography and photojournalism at a fictional public forum",
+      "color_palette": "dark olive green, black, warm wood, blue and white sign, cool navy audience shadows, and neutral stage light"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult blonde woman with platinum hair pulled into a neat low bun, clean professional makeup, focused forward gaze, determined expression, strong upright posture, and confident speaking presence",
+      "wardrobe": "tailored dark olive military-style service jacket with colorful ribbon racks, silver badges, sleeve chevrons, and gold buttons, paired with a tailored olive skirt, sheer black tights, and black pointed-toe pumps",
+      "action": "standing behind a wooden podium and speaking into two microphones"
+    },
+    "composition_elements": {
+      "framing": "slight low-angle full-body to medium-full press photograph in a 4:5 vertical frame",
+      "subject_position": "speaker behind the podium, body angled slightly left with head facing forward, clear glass teleprompter panel to the left",
+      "background": "fictional seated audience and event officials in soft focus, no recognizable public figures, with a blue-and-white podium sign reading BORDER OF PEACE"
+    },
+    "lighting_and_atmosphere": {
+      "type": "bright stadium spotlights at approximately 4200K with cooler ambient audience light and subtle overhead rim",
+      "effect": "sharp subject focus, controlled highlights on hair and uniform buttons, darker audience background, high-ISO event grain, and cinematic tension"
+    },
+    "technical_specs": {
+      "render_style": "professional press camera with 200mm telephoto lens compression, photojournalistic realism",
+      "resolution": "4k vertical 4:5 event photograph",
+      "finish": "natural digital grain, realistic fabric and skin texture, restrained contrast, no artificial glamour retouching"
+    },
+    "generated_prompt_string": "A clearly adult blonde woman delivers a speech at a wooden podium in a fictional public forum. She has platinum blonde hair sleekly pulled into a neat low bun, clean professional makeup, a focused forward gaze, intense determined energy, and a serious resolute expression. She wears a highly tailored dark olive military-style service uniform jacket with colorful ribbon racks on the chest, silver badges, sleeve chevrons, and gold buttons, paired with a tailored olive skirt, sheer black tights, and black pointed-toe pumps. Her body faces slightly left while her head faces forward; she stands firmly behind the podium and speaks into two black microphones, with a clear glass teleprompter panel positioned to the left. The wooden podium carries a blue-and-white sign reading BORDER OF PEACE. Use a slight low angle, full-body to medium-full 4:5 press photograph, stadium spotlights on the speaker, darker ambient audience light, 200mm telephoto compression, sharp subject focus, subtle high-ISO grain, and fictional seated officials in the background with no recognizable public figures. Keep the tone authoritative and professional rather than sexualized.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, eroticized styling, ambiguous age, recognizable public figures, celebrity likeness, political impersonation, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, illegible sign, random insignia, text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-event-speaker",
+          "required": true,
+          "source": "Original podium event preview image",
+          "usage": "Attach an approved adult face reference if identity continuity is needed; preserve facial structure without using the recognizable public figures shown in the source background."
+        },
+        {
+          "type": "wardrobe",
+          "name": "olive-service-uniform-and-black-tights",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the tailored olive jacket, ribbon racks, badges, chevrons, gold buttons, skirt, tights, and pumps; retain the authoritative professional fit."
+        },
+        {
+          "type": "location",
+          "name": "fictional-forum-podium-stage",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the podium, microphones, teleprompter, stage, audience seating, and spotlight arrangement; replace the venue and officials with generic fictional equivalents."
+        },
+        {
+          "type": "text_layout",
+          "name": "border-of-peace-podium-sign",
+          "required": false,
+          "source": "Visible sign in the original preview image",
+          "usage": "Optional typography reference; preserve the blue-and-white hierarchy and legible BORDER OF PEACE wording, or replace with cleared fictional event text."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person, uniform wardrobe, and podium-stage references; the sign reference is optional. Keep the professional speaker, exact uniform details, podium, microphones, teleprompter, spotlight, and press-photo framing consistent. Replace all recognizable public figures and real political identities with generic fictional adults; venue, audience, insignia, and sign text are replaceable with cleared equivalents."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed sexualized source wording, clarified the speaker as a clearly adult professional, and replaced recognizable public figures in the audience with generic fictional officials while preserving the uniform, podium, and event composition."
+    ]
+  }
+}

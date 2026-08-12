@@ -1,0 +1,78 @@
+{
+  "name": "vfe-bastille-day-july-14-2026-greeting",
+  "tag": [
+    "vfe",
+    "bastille-day",
+    "july-14",
+    "holiday-greeting",
+    "brand-story"
+  ],
+  "biz_niche": "Travel & Hospitality",
+  "content_format": "Brand story",
+  "group": "vfe_1391000782920624",
+  "prompt": {
+    "project_info": {
+      "theme": "French National Day greeting",
+      "color_palette": "French Blue, Red, White, Sepia Stone, Sky Blue"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A patriotic France-themed greeting poster with oversized text 'BONNE FÊTE NATIONALE FRANÇAISE', a July 2026 calendar card highlighting the 14th, torn-paper cityscape photo collage, and French tricolor blocks framing the layout.",
+      "style": "Travel-postcard editorial collage with patriotic brand design, vintage stamp motif, and clean celebratory typography."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\n2026\nTHÁNG BẢY\n14/07: Quốc khánh Pháp (Hay còn gọi là ngày Bastille)\nBONNE FÊTE NATIONALE FRANÇAISE\nChúc mừng ngày Quốc khánh Pháp 14/07",
+      "items": [
+        "Top Left: VFE logo block and a large Eiffel postal stamp illustration.",
+        "Top Right: July 2026 calendar card with the 14th highlighted and a French tricolor sticker.",
+        "Bottom Left: Torn-paper photo collage of a French classical building facade.",
+        "Bottom Right: White note card reading 'Chúc mừng ngày Quốc khánh Pháp 14/07' framed by blue and red corner blocks.",
+        "Center/Background: Large stacked navy headline 'BONNE FÊTE NATIONALE FRANÇAISE' on a cream grid-paper texture."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat editorial greeting-poster lighting",
+      "effect": "Crisp collage edges, clear patriotic contrast, and scrapbook-style paper texture."
+    },
+    "technical_specs": {
+      "render_style": "Editorial holiday greeting collage poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality holiday greeting poster for French National Day. Centerpiece is a large navy typographic headline 'BONNE FÊTE NATIONALE FRANÇAISE' on a cream grid-paper background, surrounded by French patriotic collage elements. Background includes a July 2026 calendar card highlighting the 14th, Eiffel stamp artwork, torn-paper French architecture photo, and VFE branding. Surrounding elements: note card 'Chúc mừng ngày Quốc khánh Pháp 14/07' and tricolor framing blocks. Technical style: editorial holiday greeting collage poster, crisp paper texture and patriotic contrast, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Use in the left-side brand block."
+        },
+        {
+          "type": "graphic",
+          "name": "Eiffel postal stamp and July 2026 calendar card",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve both as the key holiday-identification graphics."
+        },
+        {
+          "type": "location",
+          "name": "French civic architecture collage",
+          "required": true,
+          "source": "city architecture photo reference",
+          "usage": "Use for the torn-paper lower-left building element and the upper city square photo."
+        },
+        {
+          "type": "text_layout",
+          "name": "Bastille Day greeting layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep the exact holiday text hierarchy and note-card placement."
+        }
+      ],
+      "prompt_instructions": "The date '14/07' is in the past relative to Friday, July 17, 2026, so preserve it as a recent holiday greeting. Keep the French patriotic look balanced and clean rather than noisy."
+    }
+  }
+}

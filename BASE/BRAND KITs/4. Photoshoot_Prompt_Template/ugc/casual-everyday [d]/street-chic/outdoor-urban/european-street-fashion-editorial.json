@@ -1,0 +1,19 @@
+{
+  "name": "european-street-fashion-editorial",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "european-city", "streetwear"],
+  "image_type": "urban-street-fashion-portrait",
+  "image_vibe": "casual-editorial-overcast",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic full-body street-fashion portrait of an approved adult woman at a European city intersection.",
+    "main_subject": "An approved adult woman wearing a camouflage baseball cap, striped shirt, olive-green hoodie, beige wide-leg trousers, chunky black platform shoes, and carrying a black leather handbag. She stands casually beside a metal street pole.",
+    "composition_elements": "Centered full-body composition with red-brick buildings, yellow road markings, urban intersection, and soft city depth behind her.",
+    "lighting_and_atmosphere": "Soft natural overcast daylight, cinematic street-photography mood, realistic fabric, leather, brick, pavement, and architectural texture.",
+    "technical_specs": "Photorealistic high-detail 35mm-style portrait, vertical full-body framing, shallow depth of field, natural color and accurate proportions.",
+    "generated_prompt_string": "Create a photorealistic vertical full-body street-fashion portrait of an approved adult woman standing beside a metal pole at a European city intersection. Dress her in a camouflage baseball cap, striped shirt, olive-green hoodie, beige wide-leg trousers, chunky black platform shoes, and a black leather handbag. Include red-brick buildings, yellow road markings, soft overcast daylight, realistic urban texture, and cinematic editorial street photography with a 35mm perspective.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, warped architecture",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-european-street-subject", "required": true, "source": "european-street-fashion-editorial.jpg", "usage": "Preserve adult identity, cap, expression, posture, and full-body pose."}, {"type": "wardrobe", "name": "cap-striped-hoodie-wide-trousers", "required": true, "source": "european-street-fashion-editorial.jpg", "usage": "Keep clothing, shoes, and handbag consistent; replace only with explicit references."}, {"type": "location", "name": "european-brick-intersection", "required": true, "source": "european-street-fashion-editorial.jpg", "usage": "Maintain pole, buildings, road markings, pavement, and overcast light; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product/bag, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the European street-fashion concept.", "Added safe negative prompts and structured references."]}
+}

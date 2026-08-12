@@ -1,0 +1,22 @@
+{
+  "name": "ana-de-armas-gold-legs",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "luxury", "gold"],
+  "image_type": "luxury fashion seated portrait",
+  "image_vibe": "soft, confident, polished, high-fashion",
+  "image_purpose": "luxury fashion lookbook and editorial portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create an ultra-realistic 3:4 luxury studio fashion portrait of one original approved adult woman seated on a minimalist surface.",
+    "main_subject": "Original approved adult woman with a natural curvy feminine silhouette, pore-level realistic skin, soft confident expression, direct engaging gaze, and natural brunette hair. She wears an ivory silk or satin mini dress with delicate lace overlay, spaghetti straps, subtle floral embroidery, scalloped lace edges, and metallic-gold stiletto sandals with delicate ankle straps.",
+    "composition_elements": ["3:4 full-body to medium seated editorial framing.", "Torso leans slightly forward; legs are crossed and raised naturally toward the foreground.", "Neutral architectural studio background.", "Minimal gold earrings and warm metallic accents."],
+    "lighting_and_atmosphere": "Large softbox key light for smooth natural skin, subtle rim light defining hair and silhouette, clean luxurious high-fashion mood.",
+    "technical_specs": "85mm prime lens, f/2.8, full-frame look, 8K detail, realistic lace, satin, skin, and metallic reflections, no text or watermark.",
+    "generated_prompt_string": "Ultra-realistic 3:4 luxury studio fashion portrait of an original approved adult woman with a natural curvy feminine silhouette, pore-level realistic skin, soft confident expression and direct engaging gaze. Natural brunette hair, ivory silk or satin mini dress with delicate lace overlay, spaghetti straps, subtle floral embroidery and scalloped lace edges, metallic-gold stiletto sandals with delicate ankle straps, minimalist gold earrings. She is seated on a minimalist surface with torso leaning slightly forward and legs crossed naturally toward the foreground. Neutral architectural studio, large softbox key light, subtle rim light defining hair and silhouette, clean luxurious high-fashion editorial mood, 85mm f/2.8, 8K photorealism, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "celebrity likeness", "minor or age ambiguity", "explicit measurements", "body-part emphasis", "distorted anatomy", "extra limbs", "plastic skin", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "ana-de-armas-gold-legs.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult identity, face, hair, outfit, pose, and lighting."}, {"type": "wardrobe", "name": "ivory lace satin dress and metallic-gold sandals", "required": true, "source": "local reference image", "usage": "Preserve wardrobe silhouette, lace, straps, embroidery, heels, and gold accents."}],
+      "prompt_instructions": "Attach the required references. Preserve an original adult identity, not Ana de Armas or any public figure; preserve ivory outfit, gold shoes, seated pose, silhouette, and lighting. Express attractiveness through fit, fabric, and light rather than measurements or body-part emphasis. Replace only with equivalent adult identity or wardrobe references; no celebrity likeness or typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced the named celebrity identity and removed explicit likeness/body-emphasis wording while preserving the ivory luxury outfit, curvy silhouette, seated composition, and lighting."]}
+}

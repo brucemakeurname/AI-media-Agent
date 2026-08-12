@@ -1,0 +1,60 @@
+{
+  "name": "disruptive-loafer-campaign",
+  "tag": ["adult-woman", "miu-miu", "platform-loafers", "utility-streetwear", "forced-perspective", "rules-are-obsolete"],
+  "image_type": "luxury-footwear-fashion-poster",
+  "image_vibe": "disruptive-raw-premium",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the model as an adult and used curvy-silhouette, fitted-utility-layering, and directional-light language while preserving the exact Miu Miu outfit, dynamic jump, hero loafer perspective, typography, and campaign copy."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "disruptive luxury footwear campaign with exaggerated movement and forced perspective",
+      "color_palette": "warm rust red, dusty olive, caramel brown leather, warm cream, deep crimson, and brick tones",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult female fashion model with a curvy feminine silhouette, natural skin texture, long windblown hair, and a confident smirk gazing away from camera.",
+      "wardrobe": "Oversized cropped deep rust-red Miu Miu technical jacket, extremely baggy dusty olive multi-pocket cargo pants, warm caramel-brown platform Miu Miu loafers with brass buckles, and opaque cream socks.",
+      "pose": "Dynamic mid-stride jump with the front platform loafer extremely close to camera in hero perspective, body twisting with controlled energy and hair flying naturally.",
+      "styling": "Premium utility streetwear with raw editorial attitude and polished product focus."
+    },
+    "composition_elements": {
+      "framing": "Vertical 4:5 ultra-wide low-angle frame at ground level; front loafer tack sharp and dominant, background shoe slightly softer, no crop.",
+      "environment": "Industrial warehouse loft with aged terracotta brick walls, patinaed brass factory windows, distressed concrete floor with cracks, and warm diffused daylight.",
+      "typography": "Right-aligned stacked text RULES ARE OBSOLETE., with OBSOLETE. in deep crimson painted brush style. Bottom-right: ENGINEERING DISSIDENCE. NOT CONFORMITY. and icon row BUILT TO LAST, RULES DON'T APPLY, CREATE DANGER, PARIS FRANCE. Top-right MIU MIU; bottom-left MIUMIU® AW24 COLLECTION; bottom-right miumiu. Render all copy accurately.",
+      "focus": "Hero loafer leather grain, brass buckles, platform tread, cargo texture, adult subject, and legible campaign typography."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Warm natural window daylight with directional shadows for depth, realistic highlights on leather and buckles, and soft shadows enhancing the fitted jacket silhouette.",
+      "atmosphere": "Raw, disruptive, energetic, premium, and urban."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with an 18-24mm ultra-wide lens at f/5.6, 1/500 s, ISO 400, ground-level perspective",
+      "quality": "Ultra-high-resolution 8K fashion campaign, foreground product tack sharp, controlled background blur, subtle 2-3% film grain, micro-contrast on leather and clean print-ready typography"
+    },
+    "generated_prompt_string": "Create a print-ready 4:5 luxury footwear fashion poster with a disruptive forced-perspective concept. Show an adult female model with a curvy feminine silhouette, natural skin texture, long windblown hair, and confident smirk gazing away from camera. She wears an oversized cropped deep rust-red Miu Miu technical jacket, extremely baggy dusty olive multi-pocket cargo pants, warm caramel-brown platform Miu Miu loafers with brass buckles, and opaque cream socks. Capture her in a dynamic mid-stride jump with the front platform loafer extremely close to camera and tack sharp, body twisting with controlled energy and hair flying naturally. Set her in an industrial warehouse loft with aged terracotta brick, patinaed brass windows, cracked concrete floor, warm natural daylight, directional shadows, and realistic leather highlights. Add accurate right-aligned typography RULES ARE OBSOLETE. with OBSOLETE. in deep crimson brush style, plus ENGINEERING DISSIDENCE. NOT CONFORMITY. and the supplied Miu Miu collection labels. No watermark or extra text.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, wardrobe malfunction, illegible text, misspelled brand, distorted loafers, deformed anatomy, extra limbs, muddy leather, watermark, flat lighting, crop",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult model. Optional wardrobe, loafer, warehouse, typography, or lighting references may replace only their named element; preserve the exact Miu Miu outfit, curvy silhouette, dynamic product-first pose, forced perspective, and supplied campaign copy.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "miu-miu-rust-jacket-olive-cargo-and-caramel-loafer-look",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the jacket, cargo pants, socks, or loafers while preserving the hero footwear perspective and premium coverage."
+        },
+        {
+          "type": "location",
+          "name": "terracotta-warehouse-loft-with-brass-windows",
+          "required": false,
+          "source": "user-uploaded location reference",
+          "usage": "Replace only the warehouse architecture, windows, floor, and daylight while preserving the ground-level forced perspective."
+        }
+      ]
+    }
+  }
+}

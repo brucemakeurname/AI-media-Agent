@@ -1,0 +1,52 @@
+{
+  "name": "cellphones-speaker-deals-hear-it-love-it",
+  "tag": ["cellphones", "bluetooth speakers", "audio deals", "multi-brand", "sound promo"],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Product demos",
+  "group": "cellphones_887778903892114",
+  "prompt": {
+    "project_info": {
+      "theme": "Portable speaker deal showcase",
+      "color_palette": "CellphoneS red, white, blue, purple, orange"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A lively audio-promo poster with multiple floating portable speakers from different brands arranged against a red geometric product-stage background, under a playful slogan about good sound and attractive pricing.",
+      "style": "Bold retail speaker showcase poster"
+    },
+    "composition_elements": {
+      "type": "Products/Typography/Decorative Icons",
+      "text": "cellphoneS, Âm Hay Giá Nhẹ, Nghe Là Mê Ngay, JBL, SONY, HAVIT",
+      "items": [
+        "Top Center: red cellphoneS logo block.",
+        "Upper Middle: oversized blue-and-white slogan 'Âm Hay Giá Nhẹ' and brush-style line 'Nghe Là Mê Ngay'.",
+        "Center: four floating portable speakers, including a large white Sony cylinder, a red cube speaker, a purple JBL box speaker, and a flat orange speaker at the lower left.",
+        "Lower Right: small white-pink Havit speaker.",
+        "Decor: floating blue music-note icons around the products.",
+        "Background: deep red geometric stage with square recesses and strong product contrast."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright commercial product lighting",
+      "effect": "Glossy speaker surfaces, energetic youth-audio mood, strong red-blue contrast"
+    },
+    "technical_specs": {
+      "render_style": "Retail multi-product speaker poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "speaker lineup", "required": true, "source": "source image product reference", "usage": "Preserve the exact five-device composition, brand placements, and speaker orientations."},
+        {"type": "graphic", "name": "music-note icons and red product-stage background", "required": true, "source": "source image graphic reference", "usage": "Keep the note positions and the deep red stage layout."},
+        {"type": "text_layout", "name": "audio-deal slogan typography", "required": true, "source": "source image text reference", "usage": "Preserve the exact slogan wording and layered blue/white outline styling."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the speaker arrangement and the slogan's outline treatment.",
+        "Keep all visible brand and slogan text exactly as shown.",
+        "Maintain the vibrant red audio-showcase mood with floating music notes."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square speaker showcase poster on a deep red geometric stage background. Place the red cellphoneS logo at the top center. Add the bold outlined slogan 'Âm Hay Giá Nhẹ' and the brush-style line 'Nghe Là Mê Ngay'. Float multiple portable speakers in the center: a large white SONY cylinder, a red cube speaker, a purple JBL speaker, an orange rectangular speaker at the lower left, and a small white-pink HAVIT speaker at the lower right. Scatter blue music-note icons around the scene. Technical style: retail multi-product speaker poster, bright commercial product lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark muddy render, incorrect brand text, missing speakers, low resolution, distorted proportions, cluttered composition, watermark, signature"
+  }
+}

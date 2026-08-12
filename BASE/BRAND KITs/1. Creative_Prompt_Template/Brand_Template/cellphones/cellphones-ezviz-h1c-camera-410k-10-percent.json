@@ -1,0 +1,52 @@
+{
+  "name": "cellphones-ezviz-h1c-camera-410k-10-percent",
+  "tag": ["cellphones", "ezviz", "ip camera", "410k", "10 percent off"],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "cellphones_1434635271802255",
+  "prompt": {
+    "project_info": {
+      "theme": "Minimal home-security product price card",
+      "color_palette": "Red, white, warm brown, beige, wood brown, black"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A minimal commercial poster featuring a white Ezviz H1C indoor security camera standing on a wooden tabletop in a softly lit home setting, topped by a large price-and-discount banner.",
+      "style": "Photoreal retail product card, home-lifestyle electronics promo"
+    },
+    "composition_elements": {
+      "type": "Product/Typography/Interior Background",
+      "text": "cellphoneS, Camera IP 2MP Ezviz H1C, GIÁ ƯU ĐÃI 410K + 10% GIẢM (Tối đa 300K), EZVIZ",
+      "items": [
+        "Top Center: red cellphoneS logo block.",
+        "Upper Middle: large white-outlined headline 'Camera IP 2MP Ezviz H1C'.",
+        "Center: brown rounded pricing banner with white text 'GIÁ ƯU ĐÃI 410K + 10% GIẢM (Tối đa 300K)'.",
+        "Bottom Center: white Ezviz H1C camera standing on a white pedestal base on a wooden table.",
+        "Background: softly blurred beige curtains and warm-toned interior with an orange armchair on the left."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft indoor lifestyle lighting",
+      "effect": "Warm home ambience, gentle product shadows, clean electronics-catalog polish"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal electronics product-ad poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "logo", "name": "cellphoneS and EZVIZ branding", "required": true, "source": "source image brand reference", "usage": "Preserve the top red brand block and the camera logo mark."},
+        {"type": "product", "name": "Ezviz H1C camera", "required": true, "source": "source image product reference", "usage": "Keep the exact product shape, lens face, stand, and tabletop placement."},
+        {"type": "background", "name": "warm home-interior backdrop", "required": true, "source": "source image interior reference", "usage": "Preserve the curtains, orange chair blur, and the wood-surface environment."},
+        {"type": "text_layout", "name": "price-and-discount banner", "required": true, "source": "source image text reference", "usage": "Keep the exact wording and the brown rounded banner style."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve product scale, tabletop angle, and exact retail typography.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the warm minimalist home-security product look with centered device focus."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square retail product poster for a home-security camera. Use a softly blurred warm interior with beige curtains, an orange chair blur on the left, and a wooden tabletop in the foreground. Place a red cellphoneS logo at the top center and add a large white outlined headline 'Camera IP 2MP Ezviz H1C'. Below it add a brown rounded banner reading 'GIÁ ƯU ĐÃI 410K + 10% GIẢM (Tối đa 300K)'. Center a photoreal white Ezviz H1C indoor camera standing on its white base on the wooden table. Technical style: photoreal electronics product-ad poster, soft indoor lifestyle lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark room, incorrect text, wrong product shape, low resolution, cluttered background, distorted lens, watermark, signature"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "talking-head-editing",
+  "version": "1.0.0",
+  "description": "Talking-head video editing pipeline — deterministic execution scripts",
+  "scripts": {
+    "phase0:transcripts": "node scripts/build-transcripts.js",
+    "phase0:combine": "python scripts/combine_analysis.py",
+    "phase1:cut": "node scripts/cut-segments.js",
+    "phase1:zoom": "node scripts/apply-zoom.js",
+    "phase3:composite": "node scripts/composite-aroll.js",
+    "phase5:timestamps": "node scripts/compute-exact-timestamps.js",
+    "phase5:pretrim": "node scripts/pretrim-brolls.js",
+    "phase5:broll": "node scripts/composite-broll.js",
+    "phase5:subtitle-comp": "node scripts/build-subtitle-comp.js",
+    "phase5:subtitle": "node scripts/composite-subtitle.js",
+    "phase5:audio": "node scripts/mix-audio.js",
+    "cleanup:dryrun": "node scripts/cleanup-completed.js",
+    "cleanup:confirm": "node scripts/cleanup-completed.js --confirm"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "puppeteer": "^25.0.4"
+  }
+}

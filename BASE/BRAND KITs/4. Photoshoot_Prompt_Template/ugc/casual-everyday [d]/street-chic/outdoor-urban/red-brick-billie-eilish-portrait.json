@@ -1,0 +1,19 @@
+{
+  "name": "red-brick-billie-eilish-portrait",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "red-brick", "white-leather"],
+  "image_type": "architectural-crouch-fashion-portrait",
+  "image_vibe": "bold-clean-editorial",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic architectural fashion portrait of an approved adult woman crouched on a concrete corner.",
+    "main_subject": "An approved adult blonde woman with natural full hair, defined brows, large silver hoops, and a beaded bracelet. She wears a white leather strapless corset-style top, white mini skirt, and white knee-high boots, crouching with one hand on her knee and looking directly at camera.",
+    "composition_elements": "Vertical 9:16 portrait with smooth concrete ground, weathered plywood wall and white-framed window on the left, red brick wall, white fluted column, and concrete base on the right.",
+    "lighting_and_atmosphere": "Natural diffused daylight, soft shadows, sharp leather, hair, wood, brick, and concrete texture, bold clean editorial mood.",
+    "technical_specs": "Photorealistic 4K-style vertical photography, sharp subject, realistic proportions, natural color and depth.",
+    "generated_prompt_string": "Create a photorealistic 9:16 architectural fashion portrait of an approved adult blonde woman crouched on a smooth concrete corner. She wears a white leather strapless corset-style top, white mini skirt, and white knee-high boots, with silver hoops and a beaded bracelet. Place weathered plywood and a white-framed window to the left, red brick and a white fluted column to the right. She looks directly at camera with one hand on her knee. Use diffused daylight, soft shadows, realistic leather and masonry texture, and bold clean editorial mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, warped architecture",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-red-brick-subject", "required": true, "source": "red-brick-billie-eilish-portrait.jpg", "usage": "Preserve adult identity, hair, expression, crouched pose, and hand placement."}, {"type": "wardrobe", "name": "white-leather-corset-skirt-boots", "required": true, "source": "red-brick-billie-eilish-portrait.jpg", "usage": "Keep outfit and accessories consistent; replace only with explicit references."}, {"type": "location", "name": "plywood-red-brick-architectural-corner", "required": true, "source": "red-brick-billie-eilish-portrait.jpg", "usage": "Maintain window, plywood, brick, column, concrete, and daylight; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed celebrity placeholder and clarified the subject as an approved adult.", "Added safe negative prompts and structured references."]}
+}

@@ -1,0 +1,74 @@
+{
+  "name": "cinematic-evening-stroll",
+  "tag": [
+    "cinematic-street",
+    "evening-portrait",
+    "dark-green-coat",
+    "warm-bokeh",
+    "urban-editorial"
+  ],
+  "image_type": "cinematic-candid-portrait",
+  "image_vibe": "dreamy-urban-elegance",
+  "image_purpose": "editorial-moodboard",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Cinematic Evening Street Elegance",
+      "category": "street photography",
+      "color_palette": "warm red, orange, dark green, and soft neutral tones with muted evening shadows"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "stylish adult woman with long, smooth light-brown hair flowing naturally over her shoulders, calm confident expression with a touch of mystery, wearing an elegant dark-green winter coat",
+      "style": "candid cinematic street portrait with natural facial detail and realistic proportions"
+    },
+    "composition_elements": {
+      "framing": "vertical medium-full portrait, subject walking and glancing slightly toward the camera",
+      "subject_position": "adult woman in the foreground, softly blurred pedestrians and city lights behind her",
+      "background": "evening city street with warm red tones, orange practical lights, and soft circular bokeh"
+    },
+    "lighting_and_atmosphere": {
+      "type": "warm ambient evening light with a subtle on-camera fill, approximately 3200K to 4000K",
+      "effect": "gentle light on the face and coat, soft falloff, atmospheric red glow, natural motion and film grain"
+    },
+    "technical_specs": {
+      "render_style": "full-frame mirrorless camera, 50mm lens at approximately f/1.8, cinematic candid photography",
+      "resolution": "4k editorial portrait",
+      "finish": "slightly lifted blacks, muted saturation, visible fine film grain, natural vignetting and subtle optical softness"
+    },
+    "generated_prompt_string": "Cinematic Evening Street Elegance, street photography: a stylish clearly adult woman walking through a softly lit city street during the evening. She has long, smooth light brown hair flowing naturally over her shoulders and is dressed in a dark green winter coat. Her subtle expression carries calm confidence with a touch of mystery as she glances slightly toward the camera. The background is filled with warm red tones and blurred city lights, creating a dreamy cinematic atmosphere. Candid walking glance, sharp subject with a blurred background, warm ambient lighting with a soft bokeh effect, elegant urban dreamy modern mood. Shoot as a vertical medium-full portrait on a full-frame mirrorless camera with a 50mm lens at approximately f/1.8, muted film color, natural skin texture, visible fine grain, realistic shadows, subtle vignetting, and no artificial polish.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-woman-style-reference",
+          "required": false,
+          "source": "Original preview image for cinematic-evening-stroll",
+          "usage": "Optional visual reference for the hair shape, calm expression, coat silhouette, and candid walking angle; replace the person with an approved clearly adult subject and do not preserve a recognizable public-figure identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "dark-green-winter-coat",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach when exact wardrobe continuity matters; preserve the dark-green elegant winter coat, while the subject identity and hair may be replaced."
+        },
+        {
+          "type": "location",
+          "name": "warm-red-evening-city-street",
+          "required": false,
+          "source": "Original preview image and source prompt",
+          "usage": "Optional environment reference; preserve the warm red city glow, blurred pedestrians, evening atmosphere, and soft bokeh, but allow the street to be replaced."
+        }
+      ],
+      "prompt_instructions": "Attach the wardrobe reference when the coat must remain consistent; the person and location references are optional. Keep the adult subject clearly adult, the dark-green coat, walking glance, warm red-orange palette, and evening bokeh consistent. The person identity, street architecture, and background pedestrians are replaceable; if a face reference is supplied, use only an approved adult and preserve its facial structure without celebrity likeness."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the ambiguous source wording young woman as a clearly adult woman and excluded recognizable public-figure identity."
+    ]
+  }
+}

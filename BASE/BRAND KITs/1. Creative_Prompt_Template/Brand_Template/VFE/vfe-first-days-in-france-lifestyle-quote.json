@@ -1,0 +1,64 @@
+{
+  "name": "vfe-first-days-in-france-lifestyle-quote",
+  "tag": [
+    "vfe",
+    "france-life",
+    "quote",
+    "brand-story",
+    "lifestyle"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Brand story",
+  "group": "vfe_1368300665216963",
+  "prompt": {
+    "project_info": {
+      "theme": "Emotional reality of adapting to life in France",
+      "color_palette": "Warm Sunset Orange, Deep Brown, Streetlight Amber, White"
+    },
+    "main_subject": {
+      "type": "Location/Text",
+      "detail": "A moody Paris street scene at dusk with the Eiffel Tower centered in the distance, café tables and diners in the foreground, warm shop signs and lanterns glowing on the right, and a reflective Vietnamese quote overlaid in elegant white type.",
+      "style": "Cinematic lifestyle street photography with emotional travel-editorial text overlay."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "Những ngày đầu ở Pháp,\nđiều khiến mình áp lực nhất\nkhông phải là giao tiếp...\nmà là học cách tự mình xoay sở\nvới cuộc sống hoàn toàn mới.",
+      "items": [
+        "Top Left: Warm Paris street canyon leading toward the Eiffel Tower silhouette.",
+        "Top Right: Café storefront, glowing lamps, and signage including 'BLANC DES VOSGES'.",
+        "Bottom Left: Large decorative opening quotation mark and the first lines of the white italic quote.",
+        "Bottom Right: Outdoor café seating, menu board, and the last lines of the quote.",
+        "Center/Background: Sunset sky behind the Eiffel Tower, parked cars, pedestrians, and narrow street perspective."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Golden-hour street cinematic lighting",
+      "effect": "Warm dusk sky, practical lamp glow, reflective pavement, intimate travel mood, and strong editorial quote legibility."
+    },
+    "technical_specs": {
+      "render_style": "Photoreal cinematic street lifestyle poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality lifestyle quote poster about adapting to life in France. Centerpiece is a cinematic Paris street at dusk with the Eiffel Tower in the distance, warm café lights, outdoor tables, and a reflective Vietnamese quote overlaid in elegant white text. Background is a narrow street scene with sunset sky and authentic urban storefront details. Surrounding elements: large opening quotation mark, café diners, menu board, and warm shop signage. Technical style: photoreal cinematic street lifestyle poster, golden-hour street lighting, intimate travel-editorial mood, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "location",
+          "name": "Paris dusk street with Eiffel Tower view",
+          "required": true,
+          "source": "current creative source image",
+          "usage": "Preserve the exact street perspective and the distant Eiffel Tower alignment."
+        },
+        {
+          "type": "text_layout",
+          "name": "Lifestyle quote overlay layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep the large opening quote mark, line breaks, and elegant serif/italic treatment."
+        }
+      ],
+      "prompt_instructions": "This is a mood-led storytelling visual. Keep the quote wording exactly and preserve the warm dusk atmosphere rather than turning it into a generic tourism shot."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": "old-photo-portrait-restore",
+  "tag": [
+    "photo-restoration",
+    "couple-photo",
+    "face-preservation",
+    "vintage-monochrome",
+    "damage-repair",
+    "archive"
+  ],
+  "image_type": "archival-photo-restoration",
+  "image_vibe": "faithful-tender-recovered",
+  "image_purpose": "photo-restoration",
+  "group": "indie/analog-vintage",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "conservative restoration of an attached vintage couple photograph",
+      "color_palette": "source-faithful monochrome or sepia, do not force colorization",
+      "format": "match attached source photograph"
+    },
+    "main_subject": {
+      "type": "two people shown in the attached archival photograph",
+      "detail": "Preserve exactly the visible adult identities, affectionate pose, expression, clothing, hair, interior wallpaper, crop, and relationship in the source.",
+      "style": "archival restoration, never reinterpretation"
+    },
+    "composition_elements": {
+      "text": "Preserve source text only if present; do not add or modify text.",
+      "items": [
+        "retain original couple pose and framing",
+        "repair crease, fade, stains, noise, and low-resolution damage",
+        "retain historical wallpaper and original tonal character",
+        "do not alter intimacy, age presentation, or relationship"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "source-faithful light and contrast recovery",
+      "effect": "clean recovered detail while preserving the original tender archival mood"
+    },
+    "technical_specs": {
+      "render_style": "loss-minimizing high-resolution restoration with exact face preservation, restrained denoise, subtle source grain, no automatic colorization",
+      "resolution": "highest recoverable detail at original aspect ratio"
+    },
+    "generated_prompt_string": "Restore the attached vintage couple photograph into a natural high-detail archival image. Preserve the exact two adult faces, identities, age presentation, affectionate pose, expression, hair, clothing, framing, wallpaper background, and historical tonal character visible in the source. Repair fading, creases, scratches, stains, noise, and low-resolution artifacts conservatively. Recover clarity and tonal balance while retaining original monochrome or sepia character unless the source has verifiable color. Do not change faces, ages, relationship, pose, clothes, crop, background, or add or remove any person or object.",
+    "negative_prompt": "identity change, face swap, age alteration, relationship alteration, added person, removed person, invented details, changed pose, colorization artifacts, plastic skin, waxy, over-smooth, airbrushed, HDR look, watermark, logo, text alteration, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "source-archival-couple-photo",
+          "required": true,
+          "source": "Attach the original vintage couple photograph.",
+          "usage": "Mandatory source for both identities, their relationship, pose, clothing, setting, and original tone."
+        }
+      ],
+      "prompt_instructions": "Original couple photo is mandatory. Only restore verified image information. Do not alter the people, affection, relationship, or historical context, and do not invent missing regions."
+    }
+  }
+}

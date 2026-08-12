@@ -1,0 +1,70 @@
+{
+  "name": "samsung-galaxy-s26-ultra-multitasking-beast-now-brief",
+  "tag": [
+    "smartphone-launch",
+    "ui-feature",
+    "multitasking",
+    "s26-ultra"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Brand story",
+  "group": "samsung_1388403919994749",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy S26 Ultra multitasking feature poster",
+      "color_palette": "White, deep blue-violet, pastel widget colors, black text"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Minimal white-background product poster featuring a front-facing blue-violet Galaxy S26 Ultra showing a widget-rich home screen with Sleep score, Steps, calendar, and Now brief modules, paired with campaign copy about being a multitasking beast.",
+      "style": "Photorealistic premium smartphone render, clean UI-led launch poster"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "This is who you asked to / Be a multitasking beast",
+      "items": [
+        "Top Left: Large white negative space with small black copy at mid-left reading 'This is who you asked to Be a multitasking beast'.",
+        "Top Right: Floating front-facing blue-violet Galaxy S26 Ultra with centered punch-hole camera.",
+        "Bottom Left: Home-screen widgets including Sleep score '92 Excellent' and Steps '4,350 /6,000'.",
+        "Bottom Right: 'Now brief' widget and app dock icons along the lower edge of the screen.",
+        "Center/Background: The phone screen also shows a July calendar and a lounge-chair illustration, all on a bright minimalist white field."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio lighting",
+      "effect": "Clean glass reflections, bright UI legibility, airy premium ecommerce tone"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy S26 Ultra multitasking feature poster. Centerpiece is a front-facing blue-violet Galaxy S26 Ultra floating on a white background, displaying a modular widget home screen with Sleep score '92 Excellent', Steps '4,350 /6,000', a July calendar, and a 'Now brief' tile. Background is minimal white with substantial negative space. Surrounding elements: exact side copy 'This is who you asked to Be a multitasking beast'. Technical style: photorealistic product render, soft studio lighting, clean glass reflections and bright UI legibility, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy S26 Ultra front render in blue-violet",
+          "required": true,
+          "source": "official Samsung render or original creative",
+          "usage": "Match exact frame color, punch-hole placement, and screen proportions."
+        },
+        {
+          "type": "ui_reference",
+          "name": "widget home screen with Sleep score, Steps, July calendar, and Now brief",
+          "required": true,
+          "source": "original creative UI",
+          "usage": "Preserve exact widget arrangement, colors, and visible numbers/text."
+        },
+        {
+          "type": "text_layout",
+          "name": "left-side campaign copy",
+          "required": true,
+          "source": "original poster",
+          "usage": "Keep the exact sentence and its left-of-device placement."
+        }
+      ],
+      "prompt_instructions": "Use refs for the exact UI widgets and device color. The visual depends on the sparse white composition and the phone floating slightly right of center."
+    }
+  }
+}

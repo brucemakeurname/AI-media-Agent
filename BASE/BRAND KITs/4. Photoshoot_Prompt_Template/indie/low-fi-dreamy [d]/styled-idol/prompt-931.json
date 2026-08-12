@@ -1,0 +1,76 @@
+{
+  "name": "prompt-931",
+  "tag": [
+    "adult-woman",
+    "korean-editorial",
+    "windblown-hair",
+    "hard-light",
+    "prism-refraction",
+    "close-up"
+  ],
+  "image_type": "editorial-close-up-portrait",
+  "image_vibe": "cool, restrained, sharp, moody, fashion-editorial",
+  "image_purpose": "editorial, profile-visual, moodboard",
+  "group": "indie / low-fi-dreamy / styled-idol",
+  "prompt": {
+    "project_info": {
+      "theme": "Korean editorial portrait in a windblown hard-light moment",
+      "format": "vertical close-up portrait",
+      "color_palette": "charcoal gray, black, porcelain skin tones, muted rose, faint prism color"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman using the attached approved face reference, with black hair lifted mid-motion by wind, clean K-beauty matte makeup, softly structured brows, minimal eyeliner, low-saturation lips, and a steady slightly sideward gaze toward the camera.",
+      "style": "Korean fashion-editorial close-up with face identity preserved"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "vertical head-and-shoulders close-up with the face dominant",
+        "black hair crosses the face in mid-motion",
+        "a simple black garment recedes into the lower frame",
+        "the background remains neutral dark gray and without text",
+        "expression is cool, controlled, and restrained; lips are slightly parted"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "single narrow hard key at a 45-degree diagonal, approximately 5200K",
+      "effect": "only the facial planes are illuminated while the remaining frame falls into deep shadow; a faint narrow prism-refraction rainbow sits within the lit area",
+      "atmosphere": "cool confidence, detached poise, sharp editorial contrast"
+    },
+    "technical_specs": {
+      "render_style": "Sony A7R V, 85mm f/1.8 lens, vertical head-and-shoulders crop, shallow depth of field",
+      "resolution": "high-detail editorial portrait",
+      "color_treatment": "clean low-saturation grade, visible natural skin texture, controlled contrast, subtle optical refraction"
+    },
+    "generated_prompt_string": "A Korean-editorial vertical close-up portrait of an adult woman using the attached approved face reference. Preserve her exact face, facial structure, and likeness. Capture a fleeting moment in which wind lifts her black hair across her face. Her makeup is clean and matte: softly structured brows, minimal eyeliner, low-saturation lips, and natural skin texture. Her eyes hold a steady, unbothered expression with a slight side gaze toward the camera; her lips are slightly parted, with a cool restrained confidence. Place her in a simple black garment against a neutral dark-gray background. A single narrow hard key at a 45-degree diagonal, approximately 5200K, lights only her facial planes while everything else falls into deep shadow; a very faint prism-refraction rainbow is visible only within the lit area. Sony A7R V, 85mm f/1.8, shallow depth, clean low-saturation editorial grade, controlled contrast, and subtle optical refraction.",
+    "negative_prompt": "explicit, nsfw, overly revealing, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "An approved-adult face and identity reference is required. Attach it and preserve that exact person's face, facial structure, hairline, and likeness; never substitute a celebrity or public figure. The source moodboard is optional for the windblown black hair, dark garment, hard diagonal light, and faint prism effect. The background can be replaced only with a similarly quiet neutral backdrop.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult face and identity reference",
+          "required": true,
+          "source": "user-supplied approved reference",
+          "usage": "Keep the exact adult person's face, facial structure, hairline, and likeness consistent."
+        },
+        {
+          "type": "moodboard",
+          "name": "hard-light Korean editorial source",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/images/931.jpeg",
+          "usage": "Use for the black-hair motion, deep shadow, dark garment, diagonal hard light, and subtle prism-refraction look."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the subject is an adult and retained the requested face-reference workflow as mandatory.",
+      "Preserved the windblown hair, close crop, hard diagonal light, prism effect, and restrained Korean editorial direction.",
+      "Added a guardrail against celebrity or public-figure likeness."
+    ]
+  }
+}

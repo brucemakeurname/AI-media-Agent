@@ -1,0 +1,56 @@
+{
+  "name": "cellphones-edra-ek375w-student-deal",
+  "tag": ["cellphones", "edra keyboard", "student deal", "890k", "gift promo"],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Special offers",
+  "group": "cellphones_1053359063879683",
+  "prompt": {
+    "project_info": {
+      "theme": "Student-deal keyboard promotion",
+      "color_palette": "CellphoneS red, white, pink, deep blue, yellow"
+    },
+    "main_subject": {
+      "type": "Object/Person/Character",
+      "detail": "A playful student-sale poster featuring an E-Dra EK375W mechanical keyboard as the hero product, accompanied by a cheerful female student model, the CellphoneS mascot, and a bottom pricing band with exclusive gift props.",
+      "style": "Retail promo poster with lifestyle cutout and mascot support"
+    },
+    "composition_elements": {
+      "type": "Product/Typography/People/Mascot/Gift Props",
+      "text": "TÙNG TỪNG DEAL KHỦNG, Duy nhất 1.6 - 31.10, cellphoneS, Ưu đãi Học sinh - Sinh viên, E-Dra EK375W, Giảm thêm đến 89k, Giá Ưu Đãi 890K, Quà tặng đặc quyền",
+      "items": [
+        "Top Left: sale title 'TÙNG TỪNG DEAL KHỦNG' and date pill 'Duy nhất 1.6 - 31.10'.",
+        "Top Right: red cellphoneS corner banner.",
+        "Center Right: large angled E-Dra EK375W mechanical keyboard in navy, black, and yellow keycaps.",
+        "Left: smiling female student in white blouse and red skirt holding a small handheld fan or gadget.",
+        "Lower Left Center: CellphoneS mascot pointing forward.",
+        "Bottom Left: blue rounded student-offer badge 'Ưu đãi Học sinh - Sinh viên'.",
+        "Bottom Center: red pricing band with 'Giảm thêm đến 89k' and 'Giá Ưu Đãi 890K'.",
+        "Bottom Right: exclusive gift props including a small fan and a red voucher pack.",
+        "Background: soft pink grid-tile floor and backdrop."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright playful retail lighting",
+      "effect": "Youthful campaign energy, glossy product highlights, clean cutout layering"
+    },
+    "technical_specs": {
+      "render_style": "Commercial electronics retail poster with mixed photo and mascot elements",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "E-Dra EK375W keyboard", "required": true, "source": "source image product reference", "usage": "Preserve the exact keyboard angle, knob detail, and keycap colors."},
+        {"type": "person", "name": "female student model", "required": true, "source": "source image model reference", "usage": "Keep the clothing, pose, glasses, and handheld prop."},
+        {"type": "graphic", "name": "CellphoneS mascot and gift props", "required": true, "source": "source image mascot and gift reference", "usage": "Preserve mascot pose and the exact small-fan plus voucher-gift arrangement."},
+        {"type": "text_layout", "name": "student pricing and campaign headers", "required": true, "source": "source image text reference", "usage": "Keep all sale wording, date, discount, and price formatting exactly."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the keyboard perspective, the student cutout scale, and the bottom price band.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the pink youth-campaign backdrop and the playful retail composition."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square student-sale poster with a soft pink tiled background. Place the red cellphoneS header in the top-right corner and on the top-left add 'TÙNG TỪNG DEAL KHỦNG' with the date pill 'Duy nhất 1.6 - 31.10'. Show a large angled E-Dra EK375W mechanical keyboard on the right, a smiling female student in white blouse and red skirt on the left holding a small handheld gift, and the CellphoneS mascot pointing near the lower left. Add a blue badge 'Ưu đãi Học sinh - Sinh viên', a red pricing band with 'Giảm thêm đến 89k' and 'Giá Ưu Đãi 890K', and gift props on the bottom right. Technical style: commercial electronics retail poster with mixed photo and mascot elements, bright playful retail lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark scene, incorrect text, wrong keyboard colors, low resolution, distorted model hands, cluttered layout, watermark, signature"
+  }
+}

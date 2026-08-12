@@ -1,0 +1,26 @@
+{
+  "name": "turquoise-sea-turning-bikini",
+  "tag": ["ugc", "turquoise-sea", "over-shoulder", "black-bikini", "water-snapshot"],
+  "image_type": "lifestyle-beach-portrait",
+  "image_vibe": "raw-candid-sunlit",
+  "image_purpose": "instagram-feed",
+  "group": "lifestyle-moment/beach-vacation/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a high-fidelity raw-snapshot beach photograph in shallow turquoise water with natural daylight and authentic water texture.",
+    "main_subject": "An adult woman with tanned skin, water droplets, wet wavy blonde hair gathered up, and a relaxed neutral expression. She wears a black string bikini with thin straps, a gold watch on her left wrist, and a small earring.",
+    "composition_elements": "Standing in waist-deep water with her body facing away, torso turning right and head turned left in profile over the shoulder. Her left hand touches her forehead and right hand rests behind her neck. Frame from mid-thigh up at slightly above water level, with shallow cyan water, sandy bottom, sparse seagrass, clear blue sky, distinct horizon, and a distant parasail speck at right.",
+    "lighting_and_atmosphere": "Bright direct daylight, natural high-contrast shadows, realistic highlights on wet skin and shoulders, relaxed candid beach atmosphere, vibrant deep-blue sky, cyan water, bronze skin, and black swimwear.",
+    "technical_specs": "3:4 vertical medium shot, sharp subject focus, slight water refraction at the bottom, high-fidelity raw snapshot realism, visible sand texture and water droplets, natural perspective.",
+    "generated_prompt_string": "High-fidelity raw snapshot realism of an adult woman with tanned skin and water droplets, wet wavy blonde hair gathered up, wearing a black string bikini with thin straps, a gold watch on her left wrist, and a small earring. She stands in waist-deep turquoise ocean water with her body facing away, torso twisted right, head turned left looking down over her shoulder in profile, left hand touching her forehead and right hand behind her neck. Medium shot from mid-thigh up at slightly above water level, shallow sandy water with sparse seagrass, clear bright blue sky, distinct horizon and a distant parasail speck on the right. Bright direct daylight, natural high-contrast shadows, realistic wet-skin highlights, sharp focus, slight water refraction, relaxed candid beach setting, vibrant natural colors, 3:4 vertical composition.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, anatomical exaggeration, body-part emphasis, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, stylization, aesthetic correction, body normalization, shape refinement, geometric reinterpretation, anatomical distortion, proportion changes, depth flattening, blurry, extra limbs, extra fingers, deformed, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "blonde adult water subject", "required": true, "source": "matching local preview image", "usage": "Preserve approved adult face profile, hair, accessories, pose, and natural proportions; replaceable with another approved adult."},
+        {"type": "wardrobe", "name": "black string bikini and gold watch", "required": true, "source": "matching local preview image", "usage": "Keep black swimwear, watch, and small earring consistent; replaceable only with equivalent beach wardrobe."},
+        {"type": "location", "name": "shallow turquoise sea", "required": true, "source": "matching local preview image", "usage": "Preserve water depth, sandy bottom, seagrass, horizon, sky, and parasail hierarchy; replaceable with equivalent shallow coastal water."}
+      ],
+      "prompt_instructions": "Attach the preview when exact adult identity, pose, outfit, water level, and horizon must remain consistent. Keep face profile, hair, accessories, wardrobe, hand placement, water texture, and 3:4 crop consistent. Person, wardrobe, and environment may be replaced only with equivalent approved references; no typography or logos are needed."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed explicit body-part emphasis and volumetric control language while preserving the over-shoulder water pose, black bikini, lighting, and raw snapshot intent."]}
+}

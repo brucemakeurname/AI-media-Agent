@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1080, height=1920" />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 1080px; height: 1920px; overflow: hidden; background: #1C1C1E; }
+    #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+
+    #bg-fill { position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+      background: #1C1C1E; z-index: 0; }
+
+    /* TOP HALF panel — light: "The Surface" */
+    #panel-top { position: absolute; top: 0; left: 0; width: 1080px; height: 960px;
+      background: #F4F4F4; z-index: 1; transform-origin: top center; }
+
+    /* BOTTOM HALF panel — dark: "The Void" */
+    #panel-btm { position: absolute; top: 960px; left: 0; width: 1080px; height: 960px;
+      background: #1C1C1E; z-index: 1; transform-origin: bottom center; }
+
+    /* Divider */
+    #divider { position: absolute; top: 957px; left: 0; width: 0; height: 4px;
+      background: #1F7FFE; z-index: 10; }
+
+    /* VS / contrast badge */
+    #badge { position: absolute; top: 910px; left: 490px; width: 100px; height: 100px;
+      border-radius: 50%; background: #1F7FFE; z-index: 12;
+      display: flex; align-items: center; justify-content: center; }
+    #badge-text { font-family: 'Inter', sans-serif; font-weight: 900; font-size: 28px;
+      color: #fff; letter-spacing: 0.02em; }
+
+    /* TOP HALF content (light bg, dark text) */
+    #top-label { position: absolute; top: 80px; left: 80px;
+      font-family: 'Inter', sans-serif; font-weight: 700; font-size: 22px;
+      color: #1F7FFE; letter-spacing: 0.16em; text-transform: uppercase; z-index: 5; }
+    #top-headline { position: absolute; top: 130px; left: 80px; width: 920px;
+      font-family: 'Inter', sans-serif; font-weight: 900; font-size: 86px;
+      color: #111; line-height: 0.95; letter-spacing: -0.02em; z-index: 5; }
+    #top-b1 { position: absolute; top: 380px; left: 80px;
+      font-family: 'Inter', sans-serif; font-weight: 500; font-size: 30px; color: #333; z-index: 5; }
+    #top-b2 { position: absolute; top: 450px; left: 80px;
+      font-family: 'Inter', sans-serif; font-weight: 500; font-size: 30px; color: #333; z-index: 5; }
+    #top-b3 { position: absolute; top: 520px; left: 80px;
+      font-family: 'Inter', sans-serif; font-weight: 500; font-size: 30px; color: #333; z-index: 5; }
+    #top-line { position: absolute; top: 360px; left: 80px; width: 0; height: 2px;
+      background: #ddd; z-index: 5; }
+
+    /* MID ZONE — overlay label at divider */
+    #mid-label-l { position: absolute; top: 882px; left: 80px;
+      font-family: 'Inter', sans-serif; font-weight: 600; font-size: 22px;
+      color: #888; letter-spacing: 0.12em; text-transform: uppercase; z-index: 6; }
+    #mid-label-r { position: absolute; top: 882px; right: 80px;
+      font-family: 'Inter', sans-serif; font-weight: 600; font-size: 22px;
+      color: #555; letter-spacing: 0.12em; text-transform: uppercase; z-index: 6; }
+
+    /* BOTTOM HALF content (dark bg, light text) */
+    #btm-label { position: absolute; top: 1000px; left: 80px;
+      font-family: 'Inter', sans-serif; font-weight: 700; font-size: 22px;
+      color: #555; letter-spacing: 0.16em; text-transform: uppercase; z-index: 5; }
+    #btm-headline { position: absolute; top: 1050px; left: 80px; width: 920px;
+      font-family: 'Inter', sans-serif; font-weight: 900; font-size: 86px;
+      color: #fff; line-height: 0.95; letter-spacing: -0.02em; z-index: 5; }
+    #btm-b1 { position: absolute; top: 1290px; left: 80px;
+      font-family: 'Inter', sans-serif; font-weight: 400; font-size: 30px; color: #888; z-index: 5; }
+    #btm-b2 { position: absolute; top: 1360px; left: 80px;
+      font-family: 'Inter', sans-serif; font-weight: 400; font-size: 30px; color: #888; z-index: 5; }
+    #btm-b3 { position: absolute; top: 1430px; left: 80px;
+      font-family: 'Inter', sans-serif; font-weight: 400; font-size: 30px; color: #888; z-index: 5; }
+    #btm-line { position: absolute; top: 1270px; left: 80px; width: 0; height: 2px;
+      background: #333; z-index: 5; }
+    #btm-italic { position: absolute; top: 1568px; left: 80px; width: 920px;
+      font-family: 'Playfair Display', serif; font-style: italic; font-size: 44px;
+      color: #CFFF04; z-index: 5; }
+    #btm-brand { position: absolute; top: 1768px; left: 80px;
+      font-family: 'Inter', sans-serif; font-weight: 800; font-size: 22px;
+      color: rgba(255,255,255,0.25); letter-spacing: 0.14em; text-transform: uppercase; z-index: 5; }
+  </style>
+</head>
+<body>
+  <div id="root"
+       data-composition-id="broll-02"
+       data-start="0" data-duration="4.544"
+       data-width="1080" data-height="1920">
+
+    <!-- Layer 0: Environment -->
+    <div id="bg-fill" class="clip" data-start="0" data-duration="4.544" data-track-index="0"></div>
+
+    <!-- Layer 1: Panels (primary visual — TOP/BOTTOM split) -->
+    <div id="panel-top" class="clip" data-start="0" data-duration="4.544" data-track-index="1"></div>
+    <div id="panel-btm" class="clip" data-start="0" data-duration="4.544" data-track-index="2"></div>
+    <div id="divider" class="clip" data-start="0" data-duration="4.544" data-track-index="3"></div>
+    <div id="badge" class="clip" data-start="0" data-duration="4.544" data-track-index="4">
+      <span id="badge-text">VS</span>
+    </div>
+
+    <!-- Layer 2: Primary text — TOP zone -->
+    <div id="top-label" class="clip" data-start="0" data-duration="4.544" data-track-index="5">The Surface</div>
+    <div id="top-headline" class="clip" data-start="0" data-duration="4.544" data-track-index="6">PERFECT<br/>SKIN.</div>
+    <div id="top-line" class="clip" data-start="0" data-duration="4.544" data-track-index="7"></div>
+    <div id="top-b1" class="clip" data-start="0" data-duration="4.544" data-track-index="8">✓ Photorealistic render</div>
+    <div id="top-b2" class="clip" data-start="0" data-duration="4.544" data-track-index="9">✓ Always on-brand look</div>
+    <div id="top-b3" class="clip" data-start="0" data-duration="4.544" data-track-index="10">✓ Pixel-perfect, every time</div>
+
+    <!-- Layer 2: MID ZONE labels -->
+    <div id="mid-label-l" class="clip" data-start="0" data-duration="4.544" data-track-index="11">Human</div>
+    <div id="mid-label-r" class="clip" data-start="0" data-duration="4.544" data-track-index="12">AI Avatar</div>
+
+    <!-- Layer 2: Primary text — BOTTOM zone -->
+    <div id="btm-label" class="clip" data-start="0" data-duration="4.544" data-track-index="13">The Void</div>
+    <div id="btm-headline" class="clip" data-start="0" data-duration="4.544" data-track-index="14">ZERO<br/>SOUL.</div>
+    <div id="btm-line" class="clip" data-start="0" data-duration="4.544" data-track-index="15"></div>
+    <div id="btm-b1" class="clip" data-start="0" data-duration="4.544" data-track-index="16">✗ No personality</div>
+    <div id="btm-b2" class="clip" data-start="0" data-duration="4.544" data-track-index="17">✗ No struggle, no story</div>
+    <div id="btm-b3" class="clip" data-start="0" data-duration="4.544" data-track-index="18">✗ Digital screensaver</div>
+
+    <!-- Layer 3: Accent — BOTTOM zone -->
+    <div id="btm-italic" class="clip" data-start="0" data-duration="4.544" data-track-index="19">"you cannot automate a soul"</div>
+    <div id="btm-brand" class="clip" data-start="0" data-duration="4.544" data-track-index="20">SOLOFLOWS</div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      gsap.set('#panel-top', { scaleY: 0 });
+      gsap.set('#panel-btm', { scaleY: 0 });
+      gsap.set('#divider', { width: 0 });
+      gsap.set('#badge', { scale: 0, transformOrigin: 'center center' });
+      gsap.set('#top-label', { opacity: 0 });
+      gsap.set('#top-headline', { opacity: 0, y: -20 });
+      gsap.set('#top-line', { width: 0 });
+      gsap.set('#top-b1,#top-b2,#top-b3', { opacity: 0, y: 14 });
+      gsap.set('#mid-label-l,#mid-label-r', { opacity: 0 });
+      gsap.set('#btm-label', { opacity: 0 });
+      gsap.set('#btm-headline', { opacity: 0, y: 20 });
+      gsap.set('#btm-line', { width: 0 });
+      gsap.set('#btm-b1,#btm-b2,#btm-b3', { opacity: 0, y: 14 });
+      gsap.set('#btm-italic', { opacity: 0, y: 12 });
+      gsap.set('#btm-brand', { opacity: 0 });
+
+      var tl = gsap.timeline({ paused: true });
+      window.__timelines = window.__timelines || {};
+      window.__timelines['broll-02'] = tl;
+
+      // env: 0–0.3s
+      tl.to('#panel-top', { scaleY: 1, duration: 0.4, ease: 'power3.out' }, 0);
+      tl.to('#panel-btm', { scaleY: 1, duration: 0.4, ease: 'power3.out' }, 0.1);
+
+      // primary visual: 0.3–1.2s — divider + badge
+      tl.to('#divider', { width: 1080, duration: 0.4, ease: 'power3.out' }, 0.35);
+      tl.to('#badge', { scale: 1, duration: 0.4, ease: 'back.out(2)' }, 0.55);
+      tl.to('#mid-label-l', { opacity: 1, duration: 0.25, ease: 'power2.out' }, 0.7);
+      tl.to('#mid-label-r', { opacity: 1, duration: 0.25, ease: 'power2.out' }, 0.78);
+
+      // primary text: 0.8–1.8s
+      tl.to('#top-label', { opacity: 1, duration: 0.25 }, 0.8);
+      tl.to('#top-headline', { opacity: 1, y: 0, duration: 0.4, ease: 'power3.out' }, 0.9);
+      tl.to('#top-line', { width: 920, duration: 0.35, ease: 'power3.out' }, 1.2);
+      tl.to('#top-b1', { opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' }, 1.2);
+      tl.to('#top-b2', { opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' }, 1.32);
+      tl.to('#top-b3', { opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' }, 1.44);
+      tl.to('#btm-label', { opacity: 1, duration: 0.25 }, 1.0);
+      tl.to('#btm-headline', { opacity: 1, y: 0, duration: 0.4, ease: 'power3.out' }, 1.1);
+
+      // accent: 1.5–2.5s
+      tl.to('#btm-line', { width: 920, duration: 0.35, ease: 'power3.out' }, 1.5);
+      tl.to('#btm-b1', { opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' }, 1.55);
+      tl.to('#btm-b2', { opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' }, 1.68);
+      tl.to('#btm-b3', { opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' }, 1.81);
+      tl.to('#btm-italic', { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out' }, 2.0);
+      tl.to('#btm-brand', { opacity: 1, duration: 0.3, ease: 'power2.out' }, 2.3);
+
+      // fade: 4.044s
+      tl.to('#root', { opacity: 0, duration: 0.5, ease: 'power2.inOut' }, 4.044);
+    });
+  </script>
+</body>
+</html>

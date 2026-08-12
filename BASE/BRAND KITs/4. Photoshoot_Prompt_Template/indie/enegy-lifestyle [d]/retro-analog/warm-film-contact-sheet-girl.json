@@ -1,0 +1,76 @@
+{
+  "name": "Warm Studio Motion Contact Sheet",
+  "tag": "warm-film-motion-contact-sheet",
+  "image_type": "nine_frame_motion_contact_sheet",
+  "image_vibe": "soft_lofi_warm",
+  "image_purpose": "social_editorial",
+  "group": "indie/enegy-lifestyle/retro-analog",
+  "prompt": {
+    "project_info": {
+      "title": "Warm Studio Motion Contact Sheet",
+      "format": "single 3 by 3 grid still image",
+      "aspect_ratio": "1:1 square"
+    },
+    "main_subject": {
+      "description": "The same adult woman with long dark wind-moved hair and minimal natural makeup across nine candid frames.",
+      "wardrobe": "A white short-sleeve crew-neck fitted T-shirt and mid-rise blue jeans with no visible logos.",
+      "continuity": "Keep identity, covered wardrobe, beige studio wall, and soft lighting consistent across every panel."
+    },
+    "composition_elements": {
+      "grid_sequence": [
+        "Upper-body head turn with hair moving.",
+        "Full-body side step.",
+        "Close face-and-shoulder crop with hair crossing the cheek.",
+        "Tilted close-up with soft motion.",
+        "Mid shot with one hand near the collarbone.",
+        "Mid-full frame with arms lifted in a joyful stretch.",
+        "Close crop of hands adjusting a shirt sleeve.",
+        "Back-view mid-full turn with hair lifted.",
+        "Waist-up turn with gentle blur."
+      ],
+      "setting": "Minimal warm beige studio wall with no props, text, or logos.",
+      "layout": "Nine equal panels, thin white gutters, no outer border."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft warm diffused side light with gentle falloff; no hard flash.",
+      "mood": "Casual, airy, imperfect, and quietly energetic."
+    },
+    "technical_specs": {
+      "camera_style": "handheld 35mm lo-fi film",
+      "lens": "35mm equivalent",
+      "rendering": "Intentional soft focus and restrained motion blur, low-medium contrast, subtle grain, natural body proportions and hands."
+    },
+    "generated_prompt_string": "Create a square 3 by 3 contact sheet of nine equal hyper-realistic lo-fi 35mm studio stills of the same adult woman with long dark wind-moved hair, minimal natural makeup, a white short-sleeve crew-neck fitted T-shirt, and mid-rise blue jeans. Use a minimal warm beige wall with no props. Across the nine frames show a head turn, side step, face-and-shoulder crop, tilted close-up, hand near collarbone, joyful arms-up stretch, hands adjusting a sleeve, back-view turn, and a waist-up turn. Keep the identity, fully covered wardrobe, wall, and soft diffused side light consistent. Add thin white gutters, gentle motion blur, soft focus, subtle analog grain, low-medium contrast, realistic hands and anatomy. No readable text, logos, watermarks, or sexualized framing.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, lingerie, fetish styling, low-rise exposure, cleavage focus, logos, readable text, watermark, distorted hands, extra limbs, warped face, inconsistent identity, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity references must depict a consenting adult. Use them to guide general identity only; all wardrobe and studio elements remain replaceable and unbranded.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Maintain general adult face and hair continuity across the grid."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "white_tee_denim_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide covered T-shirt and jeans styling without labels."
+        },
+        {
+          "type": "environment_reference",
+          "name": "warm_beige_studio_reference",
+          "required": false,
+          "source": "user-provided backdrop reference",
+          "usage": "Guide the neutral wall tone and diffused-light quality."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified an adult subject, replaced revealing and body-focused direction with covered wardrobe and neutral action, and retained replaceable references."
+  }
+}

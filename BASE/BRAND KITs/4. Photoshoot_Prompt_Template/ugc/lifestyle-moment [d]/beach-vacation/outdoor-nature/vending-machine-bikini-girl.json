@@ -1,0 +1,27 @@
+{
+  "name": "vending-machine-bikini-girl",
+  "tag": ["ugc", "vending-machine", "checkerboard-bikini", "flash-snapshot", "crouching-portrait"],
+  "image_type": "lifestyle-candid-portrait",
+  "image_vibe": "raw-flash-playful",
+  "image_purpose": "instagram-feed",
+  "group": "lifestyle-moment/beach-vacation/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a photorealistic direct-flash snapshot connecting an adult subject with a brightly lit vending machine in a sheltered public setting.",
+    "main_subject": "An adult blonde woman with long loose waves, tanned skin, natural skin texture, and a fit curvy feminine silhouette. She wears a yellow-and-white checkerboard bikini with visible yellow back ties, a thin bracelet, and a ring. She looks back over her left shoulder with a neutral, relaxed expression.",
+    "composition_elements": "Use a medium-full rear three-quarter shot with the subject in a grounded crouching pose, torso turned slightly left, right hand interacting with the vending machine keypad, and left hand relaxed near the knee. Keep the illuminated red-framed vending machine sharp, with rows of beverages, keypad, bill acceptor, digital display, tiled floor, and existing visible machine branding in the background.",
+    "lighting_and_atmosphere": "Direct on-camera flash, hard high-contrast snapshot lighting, controlled specular highlights on skin and hair, raw playful candid atmosphere.",
+    "technical_specs": "35–50mm standard lens, no wide-angle distortion, deep depth of field keeping subject and vending machine sharp, photorealistic detail, natural skin texture, vertical composition.",
+    "generated_prompt_string": "Photorealistic direct-flash snapshot of an adult blonde woman with long loose wavy hair, tanned skin, natural skin texture, and a fit curvy feminine silhouette, wearing a yellow-and-white checkerboard bikini with visible yellow back ties, a thin bracelet, and a ring. She is turned away in a grounded crouching pose, torso slightly twisted left, looking back over her left shoulder toward the camera with a neutral relaxed expression. Her right hand interacts with the keypad of a large illuminated red-framed vending machine; her left hand rests naturally near her knee. Keep rows of dark sodas, orange juices, teas, blue water bottles, keypad, bill acceptor, digital display, tiled floor, and existing visible machine branding sharp. Slightly low eye-level perspective while crouching, 35–50mm lens, direct on-camera flash, hard high-contrast snapshot lighting, raw playful candid mood, deep depth of field, vertical frame.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, anatomical exaggeration, body-part emphasis, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, cartoon, illustration, grainy, pixelated, extra limbs, extra fingers, deformed, invented logos, altered readable branding, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "blonde adult vending-machine subject", "required": true, "source": "matching local preview image", "usage": "Preserve approved adult face, hair, expression, pose, and proportions; replaceable with another approved adult."},
+        {"type": "wardrobe", "name": "yellow-white checkerboard bikini", "required": true, "source": "matching local preview image", "usage": "Keep checkerboard colors, back ties, bracelet, and ring consistent; replaceable with equivalent swimwear only when exact outfit is not required."},
+        {"type": "graphic", "name": "existing vending-machine branding", "required": true, "source": "matching local preview image", "usage": "Preserve only the visible machine frame and existing branding as shown; do not invent, redesign, or add logos or typography."},
+        {"type": "product", "name": "beverage vending machine contents", "required": true, "source": "matching local preview image", "usage": "Preserve beverage rows, keypad, display, and machine structure; replaceable with a comparable non-branded vending machine when needed."}
+      ],
+      "prompt_instructions": "Attach the preview when exact adult identity, checkerboard outfit, crouching pose, machine contents, and visible branding must remain consistent. Preserve existing branding without adding or altering text. Person, wardrobe, and vending-machine content may be replaced only with equivalent approved references; typography is not independently editable."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced explicit posterior emphasis and sexualized body wording with a natural feminine silhouette and candid pose description while preserving the flash snapshot and vending-machine concept."]}
+}

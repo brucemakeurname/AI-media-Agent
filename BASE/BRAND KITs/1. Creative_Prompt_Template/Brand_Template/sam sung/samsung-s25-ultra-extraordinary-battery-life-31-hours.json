@@ -1,0 +1,70 @@
+{
+  "name": "samsung-s25-ultra-extraordinary-battery-life-31-hours",
+  "tag": [
+    "smartphone-launch",
+    "battery-life",
+    "infographic",
+    "galaxy-ai"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Infographics",
+  "group": "samsung_1104780341690443",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy S25 Ultra battery life performance poster",
+      "color_palette": "Black, white, silver, dusk city lights, cyan-blue highlight text, red video progress bar"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Black-background battery-life ad featuring a horizontal Galaxy S25 Ultra displaying a city skyline video player, paired with large battery and playback duration metrics beneath.",
+      "style": "Photorealistic premium tech advertising, minimal launch infographic, polished product render"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Extraordinary battery life / Galaxy S25 Ultra / Galaxy AI / 5000 mAh / Video playback up to 31 hrs",
+      "items": [
+        "Top Left: Large centered white title 'Extraordinary battery life'.",
+        "Top Right: Centered subheading 'Galaxy S25 Ultra' and 'Galaxy AI'.",
+        "Bottom Left: Blue battery icon and metric '5000 mAh'.",
+        "Bottom Right: White and blue text 'Video playback up to 31 hrs'.",
+        "Center/Background: Horizontal silver Galaxy S25 Ultra showing a dusk city skyline in a video player with a large white play button overlay, a red progress bar, thumbnail scrub strip, '30:30 / 31:00' at bottom right of the screen, and a small circular '100' badge at top right of the display; long legal footnote copy runs along the bottom of the poster."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Studio lighting",
+      "effect": "Clean metallic reflections, subtle screen glow, crisp contrast between black field and bright UI elements"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy S25 Ultra battery life performance poster. Centerpiece is a horizontal silver Galaxy S25 Ultra on a pure black background, displaying a dusk skyline video player with a large play icon, red progress bar, timeline thumbnails, '30:30 / 31:00', and a small '100' badge. Background is minimal black with strong premium reflections. Surrounding elements: exact title 'Extraordinary battery life', subheading 'Galaxy S25 Ultra' and 'Galaxy AI', bottom metrics '5000 mAh' and 'Video playback up to 31 hrs', and a dense white legal footnote paragraph along the lower edge. Technical style: photorealistic product render, studio lighting, clean metallic reflections and subtle screen glow, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Samsung Galaxy S25 Ultra horizontal device render",
+          "required": true,
+          "source": "official Samsung renders or original creative",
+          "usage": "Match bezel shape, frame finish, and horizontal orientation."
+        },
+        {
+          "type": "ui_reference",
+          "name": "video player interface on screen",
+          "required": true,
+          "source": "original creative",
+          "usage": "Preserve the skyline video frame, play icon, timeline thumbnails, progress bar, and duration numbers."
+        },
+        {
+          "type": "text_layout",
+          "name": "battery metric typography and footnotes",
+          "required": true,
+          "source": "original poster",
+          "usage": "Keep the exact metric wording, colors, and long bottom disclaimer block."
+        }
+      ],
+      "prompt_instructions": "Use refs for the phone render and on-screen player UI. Keep the product centered low in the composition with a large empty black header, because the spare negative space is part of the premium Samsung launch language."
+    }
+  }
+}

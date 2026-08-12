@@ -1,0 +1,51 @@
+{
+  "name": "ana-de-armas-gold-beach",
+  "tag": ["ugc", "lifestyle-moment", "other", "other", "overcast-beach", "gold-jewelry", "serene-portrait"],
+  "image_type": "overcast beach lifestyle portrait",
+  "image_vibe": "somber, serene, muted, elemental",
+  "image_purpose": "social-media portrait and moodboard",
+  "group": "lifestyle-moment/other/other",
+  "prompt": {
+    "project_info": "Photorealistic 9:16 portrait of an original adult woman resting on a granular sandy beach under overcast diffused light, with a muted gray, tan, light-brown, gold and green palette.",
+    "main_subject": "One original adult woman with fair natural skin texture, long loose light-brown hair decorated with small interwoven gold beads, leaning back with her weight supported by the sand. Her left hand holds a small green leaf. She wears a matte tan one-piece swimsuit with a sweetheart neckline and side cut-outs, secure coverage, thin gold arm cuffs on both upper arms, multiple gold bracelets, and a delicate gold anklet. Do not reproduce Ana de Armas or any other public-figure likeness.",
+    "composition_elements": "Use a vertical 9:16 portrait. Place the adult woman in the foreground on granular sand, leaning back with the leaf held in her left hand. Give the choppy ocean with heavy waves visual weight in the midground, and a low-visibility gray horizon beneath an overcast sky in the background. Keep the composition somber and serene with the gold jewelry as a warm detail against the muted landscape.",
+    "lighting_and_atmosphere": "Use diffused overcast daylight with soft natural shadows, subdued contrast and realistic wet ocean texture. Maintain a somber, serene elemental atmosphere with muted gray, tan, light brown, gold and green tones.",
+    "technical_specs": "Photorealistic vertical 9:16 portrait, natural perspective, realistic sand granularity, hair, beads, matte swimsuit, gold jewelry, choppy water and overcast sky, crisp subject detail, no text, logo or watermark.",
+    "generated_prompt_string": "Photorealistic 9:16 overcast beach portrait of one original adult woman with fair natural skin, long loose light-brown hair interwoven with small gold beads, leaning back on granular sand and holding a small green leaf in her left hand. Matte tan one-piece swimsuit with sweetheart neckline, secure coverage and side cut-outs, thin gold arm cuffs, multiple gold bracelets and delicate gold anklet. Choppy ocean with heavy waves in the midground, low gray horizon and overcast sky behind her. Diffused daylight, muted gray-tan-light-brown-gold-green palette, somber serene elemental mood, realistic sand, ocean and jewelry detail, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Ana de Armas likeness, transparent clothing, exposed underwear, distorted anatomy, extra fingers, malformed hands, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "ana-de-armas-gold-beach.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult beach subject, light-brown beaded hair, tan one-piece swimsuit, gold jewelry, leaf prop, leaning pose, sand, choppy ocean, overcast sky and muted serene palette; replace the named identity with an original adult."
+        },
+        {
+          "type": "source_url",
+          "name": "original prompt post",
+          "required": false,
+          "source": "https://x.com/YaseenK7212/status/2017309968555196917",
+          "usage": "Context only; local written prompt is authoritative."
+        },
+        {
+          "type": "image_asset",
+          "name": "1774306915961-kxh4dl6a-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1774306915961-kxh4dl6a-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required; source URL and image asset are optional context. Keep the adult subject, tan swimsuit with secure coverage, gold jewelry, leaf, leaning pose, sand, heavy waves, overcast sky and muted palette consistent. Replace identity only; do not add logos or text."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Ana de Armas identity with an original adult woman.",
+      "Clarified secure coverage while preserving the source swimsuit silhouette and side-cutout design.",
+      "Preserved the beach setting, pose, jewelry, prop, weather and somber-serene creative direction."
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "golden-hour-tattoo-biker-girl",
+  "tag": [
+    "tattooed-adults",
+    "motorcycle",
+    "urban-street",
+    "golden-hour",
+    "candid-fashion"
+  ],
+  "image_type": "lifestyle-candid",
+  "image_vibe": "sunlit-rebellious",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/golden-hour-street",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified both riders as adults and retained the tattooed motorcycle street style without sexualized framing."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "sunny urban motorcycle street-fashion candid",
+      "color_palette": "red, yellow, black, warm stone, and gold",
+      "format": "vertical 2:3"
+    },
+    "main_subject": {
+      "description": "an adult tattooed blonde woman in a striped sleeveless top and yellow shorts seated side-saddle behind an adult motorcyclist in a black helmet",
+      "pose_and_expression": "she adjusts her messy high ponytail and looks calmly toward camera"
+    },
+    "composition_elements": {
+      "camera_angle": "street-level three-quarter view",
+      "foreground": "red motorcycle, tattooed arms, and rider silhouette",
+      "background": "European-style apartment facades, parked cars, and a crosswalk",
+      "visual_hierarchy": "adult passenger, red motorcycle, then city street"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "natural late-afternoon golden-hour side light",
+      "atmosphere": "casual, energetic, and documentary-like"
+    },
+    "technical_specs": {
+      "camera": "Nikon Z8",
+      "lens": "50mm f/1.8",
+      "settings": "1/800s, f/2.8, ISO 160",
+      "rendering": "realistic street photography, shallow depth of field, natural skin texture, fine grain"
+    },
+    "generated_prompt_string": "A stylish tattooed adult blonde woman sits side-saddle on a red motorcycle in a sunny urban street. She wears a striped sleeveless top and yellow shorts, with detailed floral tattoos across her arms and legs; her hair is in a messy high ponytail as she adjusts it and looks calmly toward the camera. The adult rider in front wears a black helmet and black outfit while checking a phone. European-style apartment buildings, parked cars, a crosswalk, and warm golden-hour light create a realistic high-detail cinematic street photograph, shot on a 50mm lens with shallow depth of field.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, sexualized pose, nudity, distorted anatomy, extra limbs, poorly drawn hands, blurry, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, overexposed, underexposed, watermark, readable text, logo",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-passenger-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace only the authorized adult passenger identity and tattoos."
+        },
+        {
+          "type": "vehicle",
+          "name": "motorcycle-reference",
+          "required": false,
+          "source": "approved vehicle reference",
+          "usage": "Match the motorcycle color and form without reproducing branding."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Keep both people clearly adult and retain the motorcycle, urban street, warm light, and non-sexualized candid framing; replace only the approved person or vehicle elements."
+    }
+  }
+}

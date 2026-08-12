@@ -1,0 +1,81 @@
+{
+  "name": "pastel-light-korean-boy",
+  "tag": [
+    "adult-man",
+    "white-hoodie",
+    "pastel-light-painting",
+    "long-exposure",
+    "dreamy",
+    "portrait"
+  ],
+  "image_type": "long-exposure-editorial-portrait",
+  "image_vibe": "dreamy-pastel-kinetic",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the subject is an adult.",
+      "Removed direct imitation of named photographers and retained the underlying film and lighting characteristics.",
+      "Changed translucent-shirt wording to an opaque white hoodie."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "pastel light-painting portrait of a hooded adult man",
+      "color_palette": "pale blue, soft yellow, pink, white",
+      "format": "portrait 3:4"
+    },
+    "main_subject": {
+      "type": "adult Korean man",
+      "detail": "An adult Korean man with tousled dark hair, an opaque white hoodie layered with a light outer shirt, and a calm neutral expression.",
+      "style": "dreamy fine-art long-exposure portrait with natural skin texture"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "three-quarter chest-up portrait angled slightly left",
+        "pastel light-painting lines crossing the eye area",
+        "hood framing loose dark hair",
+        "minimal pale yellow and blue color-block background",
+        "soft blur around the shoulders and light trails"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "diffused pastel key light at approximately 5600K plus controlled long-exposure light trails",
+      "effect": "retro pastel color, soft glow edges, lifted blacks, and dreamy motion"
+    },
+    "technical_specs": {
+      "render_style": "low-angle 50mm lens at f/2 on Kodak Portra 400 film, visible fine grain, subtle chromatic aberration",
+      "resolution": "high resolution, portrait 3:4"
+    },
+    "generated_prompt_string": "Art photography of an adult Korean man in an opaque white hoodie layered with a light outer shirt, photographed from a slightly low angle against a minimal pale-yellow and light-blue background. Create strong long-exposure pastel light-painting lines across his eyes, with motion blur, a retro color filter, and a lively dreamy atmosphere. His tousled dark hair is framed by the hood and his expression remains calm. Use Kodak Portra film characteristics, a 50mm lens at f/2, soft pastel lighting, ultra-soft focus, diffused light, subtle glow edges, visible fine grain, and portrait 3:4 framing. No other person and no readable text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, harsh neon clipping",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-hooded-man-reference",
+          "required": false,
+          "source": "Attach an adult person reference only when authorized facial continuity is required.",
+          "usage": "Preserve the supplied adult identity; otherwise this person can be replaced."
+        },
+        {
+          "type": "wardrobe",
+          "name": "opaque-white-hoodie-and-light-overshirt-reference",
+          "required": false,
+          "source": "Attach wardrobe references when exact fabric or layering is required.",
+          "usage": "Keep the opaque white layered silhouette; garments may be replaced independently."
+        },
+        {
+          "type": "graphic",
+          "name": "pastel-eye-line-light-painting-reference",
+          "required": false,
+          "source": "Attach a graphic reference when a specific trail shape or color sequence is required.",
+          "usage": "Keep non-textual pastel light lines crossing the eye area; their exact path may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve the adult subject, opaque white hooded layers, pastel background, and non-textual long-exposure line over the eyes. Identity, wardrobe, and trail artwork can be replaced separately."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "neon-rainy-rebel-singer",
+  "tag": [
+    "adult-musician",
+    "rainy-gas-station",
+    "pink-neon",
+    "fisheye",
+    "street-editorial"
+  ],
+  "image_type": "fisheye-night-street-portrait",
+  "image_vibe": "bold-rainy-electric",
+  "image_purpose": "music-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "source_url": "https://x.com/JustBethanyai/status/2021888973774147898",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed the named singer, body-focused description, crop top and mini skirt, obscene gesture, branded car, and readable station sign. The image remains an original adult musician at a rainy neon station."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "original adult musician at a rainy neon service station",
+      "color_palette": "hot pink, white, black, wet asphalt gray, and magenta reflections",
+      "aspect_ratio": "9:16"
+    },
+    "main_subject": {
+      "description": "An original adult woman musician with curly hair, large hoop earrings, and a confident friendly smile; she must not resemble a real person.",
+      "wardrobe": "Pink long-sleeve crew-neck top, white wide-leg trousers, pink-and-white sneakers, and a lightweight white rain jacket tied at the waist.",
+      "pose": "Standing naturally beneath the canopy, holding a plain takeaway cup and giving a small peace sign with the other hand."
+    },
+    "composition_elements": {
+      "framing": "Vertical low-angle wide fisheye portrait with circular perspective and the subject sharply focused.",
+      "environment": "Unbranded service-station canopy in hot-pink neon, abstract pumps, a parked unbranded pink coupe, and rain-wet pavement reflecting the light; all signage is unreadable."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Bright pink canopy neon and white overhead fixtures producing crisp highlights and colorful rain reflections.",
+      "atmosphere": "Joyful, bold, rainy, and cinematic."
+    },
+    "technical_specs": {
+      "camera": "wide circular fisheye lens, slightly low angle",
+      "quality": "photorealistic wet pavement, natural skin, controlled lens distortion, sharp foreground"
+    },
+    "generated_prompt_string": "Create a photoreal 9:16 low-angle circular-fisheye portrait of an original adult woman musician at an unbranded rainy service station at night. She has curly hair, large hoop earrings, a confident friendly smile, a pink long-sleeve crew-neck top, white wide-leg trousers, pink-and-white sneakers, and a lightweight white rain jacket tied at the waist. She stands naturally under a hot-pink neon canopy, holding a plain takeaway cup and making a small peace sign. Include abstract unbranded pumps, an unbranded pink coupe, and wet asphalt reflecting pink and white light, with all signs unreadable. Keep the subject sharp, use a vibrant cinematic rain mood, and exclude celebrity likenesses, brands, and text.",
+    "negative_prompt": "celebrity likeness, Madison Beer, minor, crop top, mini skirt, obscene gesture, middle finger, readable sign, branded car, logo, watermark, nudity, explicit, nsfw, overly revealing clothing, distorted hands, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use each only to replace the stated wardrobe, vehicle shape, or rainy-light element; remove identities, brands, and text.",
+      "assets": [
+        {
+          "type": "wardrobe_reference",
+          "name": "covered-pink-rainy-music-look",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace the adult musician's covered outfit."
+        },
+        {
+          "type": "environment_reference",
+          "name": "unbranded-pink-rainy-service-station",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace canopy, vehicle shape, wet pavement, and neon palette without copying text."
+        }
+      ]
+    }
+  }
+}

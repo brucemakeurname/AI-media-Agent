@@ -1,0 +1,22 @@
+{
+  "name": "stylish-woman-black-outfit",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "black-outfit", "street-style"],
+  "image_type": "minimal urban fashion portrait",
+  "image_vibe": "moody, minimal, sharp, high-fashion",
+  "image_purpose": "street-fashion lookbook and editorial portrait",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a moody minimalist urban fashion portrait of one approved adult woman standing against a modern concrete wall.",
+    "main_subject": "Adult woman with hair tied in a neat low bun, sleek sunglasses, minimalist jewelry, and an all-black outfit consisting of a long coat and refined streetwear layers. Preserve her confident profile and clean silhouette.",
+    "composition_elements": ["Standing portrait against a modern concrete wall.", "Sharp cast shadow of the subject on the wall.", "Minimal architectural background with clean lines and no distractions.", "Black coat, sunglasses, low bun, and jewelry form a restrained monochrome composition."],
+    "lighting_and_atmosphere": "Directional moody light with crisp shadow geometry, subdued urban palette, high-fashion street-style atmosphere.",
+    "technical_specs": "Photorealistic fashion photography, realistic coat and concrete texture, crisp focus, controlled contrast, editorial composition, no text or watermark.",
+    "generated_prompt_string": "A stylish adult woman standing against a modern concrete wall, wearing an all-black outfit with a long coat, sleek sunglasses and minimalist jewelry. Her hair is tied in a neat low bun, casting a sharp shadow on the wall. Moody directional lighting, minimalistic urban aesthetic, high-fashion street-style photography, realistic texture, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "distorted anatomy", "extra fingers", "inconsistent identity", "plastic skin", "over-smooth", "over-saturated", "HDR look", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "stylish-woman-black-outfit.jpg", "required": true, "source": "local reference image", "usage": "Attach for adult identity, face, hair, coat, accessories, pose, and shadow reference."}, {"type": "location", "name": "modern concrete wall", "required": true, "source": "local reference image", "usage": "Preserve wall texture, architecture, and cast-shadow geometry."}],
+      "prompt_instructions": "Attach the required approved-adult and wall references. Preserve face, low bun, sunglasses, black coat, jewelry, profile, wall, shadow, and moody lighting. Replace only with equivalent adult identity or architectural references; no celebrity likeness, logos, or typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

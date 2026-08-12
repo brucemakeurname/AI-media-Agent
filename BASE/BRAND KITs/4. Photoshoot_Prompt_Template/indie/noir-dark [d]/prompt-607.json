@@ -1,0 +1,59 @@
+{
+  "name": "prompt-607",
+  "tag": ["adult-woman", "identity-reference", "3x3-grid", "charcoal-dress", "editorial-portrait", "cool-grey-studio"],
+  "image_type": "editorial-contact-sheet",
+  "image_vibe": "cool-refined-introspective",
+  "image_purpose": "social-editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Replaced the unrestricted face-match instruction with an authorized adult identity reference and clarified the subject as an adult while preserving the complete 3x3 editorial shot list, charcoal dress, and lighting direction."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "cool-grey seamless editorial 3x3 portrait contact sheet",
+      "color_palette": "cool gray, charcoal, soft black, muted skin tones, and restrained natural color accents",
+      "aspect_ratio": "1:1"
+    },
+    "main_subject": {
+      "description": "An adult woman matching the authorized identity reference, with a curvy feminine silhouette, natural skin texture, and softly styled shoulder-length hair.",
+      "wardrobe": "Charcoal sleeveless dress with a clean editorial silhouette.",
+      "pose": "Nine distinct portraits arranged as a 3x3 grid: intimate close-ups, direct gaze, chin-on-hand, over-shoulder, angled raw portrait, hands near collarbone, seated profile, and profile macro.",
+      "styling": "Editorial softness, calm expression, natural beauty styling, and consistent identity across all panels."
+    },
+    "composition_elements": {
+      "framing": "A clean 3x3 contact sheet with each panel clearly separated and consistent cool-grey seamless background.",
+      "shot_list": "1) tight cheek-and-neck close-up with a blurred finger foreground; 2) eyes locked to lens with top-light reflection; 3) monochrome chin-on-hand portrait; 4) half-obscured over-shoulder shot through a blurred dress strap; 5) head-on close-up with intersecting shadows across face; 6) angled tousled-hair portrait; 7) tight detail of hands resting near collarbone; 8) seated half-body profile with blurred frame edges; 9) profile macro with a single water-droplet highlight.",
+      "environment": "Cool-grey seamless studio backdrop with no text, logos, or watermark."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Large overhead softbox with faint side bounce, smooth contrast, soft directional shadows, and subtle highlights on the face, neck, shoulders, and fitted dress.",
+      "atmosphere": "Cool, intimate, introspective, polished, and quietly cinematic."
+    },
+    "technical_specs": {
+      "camera": "Editorial full-frame capture; use 85mm at f/1.8 for tight cheek-and-neck and profile macro, 85mm at f/2.0 for gaze and over-shoulder shots, 50mm at f/2.2-f/3.2 for portraits and hand detail, and 35mm at f/4.5 for seated profile.",
+      "quality": "RAW-style photorealistic detail, shallow depth of field where specified, smooth contrast, refined grayscale finish with restrained natural color accents"
+    },
+    "generated_prompt_string": "Create a photorealistic cool-grey seamless editorial 3x3 contact sheet featuring one consistent adult woman matching the authorized identity reference. She has a curvy feminine silhouette, natural skin texture, softly styled shoulder-length hair, and wears a charcoal sleeveless dress. Arrange nine distinct panels: 1) tight cheek-and-neck close-up with blurred finger foreground at 85mm f/1.8; 2) eyes locked to lens with top-light reflection at 85mm f/2.0; 3) monochrome chin-on-hand portrait with strong frame fill at 50mm f/2.2; 4) half-obscured over-shoulder shot through a blurred dress strap at 85mm f/2.0; 5) head-on close-up with intersecting shadows across face at 50mm f/2.5; 6) angled tousled-hair portrait at 85mm f/2.2; 7) tight detail of hands resting near collarbone at 50mm f/3.2; 8) seated half-body profile with blurred frame edges at 35mm f/4.5; 9) profile macro with a single water-droplet highlight at 85mm f/1.9. Use a large overhead softbox, faint side bounce, smooth contrast, editorial softness, and no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, exposed anatomy, readable text, logo, watermark, inconsistent identity, duplicate panels, deformed anatomy, extra fingers, plastic skin",
+    "reference_elements": {
+      "prompt_instructions": "The authorized adult identity reference is required for the face and overall identity; preserve it consistently across all nine panels. Optional wardrobe, studio, lighting, or composition references may replace only their named element. Do not imitate a public figure or use an unauthorized face.",
+      "assets": [
+        {
+          "type": "identity",
+          "name": "authorized-adult-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public figure portrait",
+          "usage": "Preserve the authorized adult's facial identity consistently across all nine editorial panels."
+        },
+        {
+          "type": "wardrobe",
+          "name": "charcoal-sleeveless-dress",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the dress while preserving the contact-sheet composition and polished fitted silhouette."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "quan-nhau-tu-do-new-flavors-mega-grand-world",
+  "tag": [
+    "branch-promo",
+    "location-promo",
+    "food-collage",
+    "restaurant-poster"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Brand story",
+  "group": "quan-nhau-tu-do_1618827906911571",
+  "prompt": {
+    "project_info": {
+      "theme": "Quán Nhậu Tự Do branch promo at Mega Grand World",
+      "color_palette": "White, red, black, warm amber, deep green, food natural tones"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Vertical branch poster featuring a real nighttime photo of the brightly lit Quán Nhậu Tự Do Mega Grand World building above a lower collage of beer and signature dishes around a central hotpot.",
+      "style": "Photorealistic venue-and-food composite, premium nightlife restaurant promotion"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "CHẠM CỐC TỰ DO – MỞ VỊ MỚI TẠI MEGA GRAND WORLD",
+      "items": [
+        "Top Left: Red and black headline 'CHẠM CỐC TỰ DO – MỞ VỊ MỚI TẠI MEGA GRAND WORLD' on white background.",
+        "Top Right: Large rounded-corner nighttime venue photo showing the Quán Nhậu Tự Do Mega Grand World facade lit in warm red-orange tones.",
+        "Bottom Left: Two beer glasses and plated dishes cut out with white sticker-style outlines.",
+        "Bottom Right: Additional meat and vegetable platters around a green tabletop base.",
+        "Center/Background: Central hotpot on a portable burner bridging the venue photo and lower food collage."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Mixed night venue and food lighting",
+      "effect": "Warm architectural glow, crisp dish cutout contrast, crowded nightlife ambiance"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic composite advertising poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Quán Nhậu Tự Do branch promo at Mega Grand World. Centerpiece is a tabletop hotpot surrounded by sticker-cutout dishes and beers, layered below a large real photo of the Mega Grand World branch at night. Background is a clean white header zone above a dark green lower section. Surrounding elements: exact headline 'CHẠM CỐC TỰ DO – MỞ VỊ MỚI TẠI MEGA GRAND WORLD', warm-lit venue facade photo, multiple dish cutouts, and green tabletop base. Technical style: photorealistic composite advertising poster, mixed night venue and food lighting, warm amber glow and crisp cutout edges, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "location",
+          "name": "Mega Grand World branch facade",
+          "required": true,
+          "source": "original venue photo",
+          "usage": "Preserve the real architecture, signage, and lighting of the branch."
+        },
+        {
+          "type": "product",
+          "name": "hotpot, beer, and featured dish collage",
+          "required": true,
+          "source": "campaign dish photos",
+          "usage": "Keep the exact lower-half arrangement and white cutout outline treatment."
+        },
+        {
+          "type": "text_layout",
+          "name": "headline and overall poster structure",
+          "required": true,
+          "source": "original creative",
+          "usage": "Preserve the Mega Grand World wording and the header-photo-collage structure."
+        }
+      ],
+      "prompt_instructions": "Use refs for the actual venue architecture and all dish cutouts. This creative depends on location specificity, so maintain the true branch facade instead of replacing it with a generic nightlife building."
+    }
+  }
+}

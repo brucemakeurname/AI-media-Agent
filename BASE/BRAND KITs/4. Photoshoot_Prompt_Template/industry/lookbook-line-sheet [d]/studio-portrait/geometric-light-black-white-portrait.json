@@ -1,0 +1,22 @@
+{
+  "name": "geometric-light-black-white-portrait",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "black-and-white", "geometric-light"],
+  "image_type": "black-and-white geometric light portrait",
+  "image_vibe": "minimal, introspective, cinematic, high-contrast",
+  "image_purpose": "beauty lookbook and editorial portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a high-resolution 9:16 black-and-white portrait of one approved adult woman in a minimalist studio with geometric cross-beam light.",
+    "main_subject": "Approved adult woman with black hair in a neat Korean-style low bun, calm introspective slightly distant expression, small gold earrings, natural skin texture, and a sharp black ribbed turtleneck.",
+    "composition_elements": ["Subject stands slightly to the side in a vertical portrait with soft background falloff.", "Bold geometric window-like light and shadow shapes cross the face, body, and dark studio background.", "Keep side profile, bun, turtleneck ribbing, earrings, and high-contrast facial detail clear."],
+    "lighting_and_atmosphere": "Dramatic side studio lighting with strong cross-beams and geometric shadows, one side of the face illuminated and the other in deep shadow, restrained cinematic monochrome tone.",
+    "technical_specs": "Photorealistic 9:16 portrait, 85mm lens at f/4, 8K detail, sharp face and suit texture, soft background blur, fine monochrome grain, no text or watermark.",
+    "generated_prompt_string": "High-resolution black-and-white portrait of one approved adult woman with black hair in a neat low bun, small gold earrings, calm introspective slightly distant expression, and a sharp black ribbed turtleneck. She stands slightly to the side in a minimalist studio as dramatic cross-beams of light create bold geometric shadows on her face and the background. Use cinematic high contrast, fine facial and fabric detail, soft background falloff, 85mm lens, 9:16 framing, 8K photorealism, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "flat lighting", "warped shadows", "distorted anatomy", "extra fingers", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "geometric-light-black-white-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach for adult identity, face, hair, bun, expression, earrings, and outfit reference."}, {"type": "wardrobe", "name": "black ribbed turtleneck", "required": true, "source": "local reference image", "usage": "Preserve collar, ribbing, black tone, and silhouette."}, {"type": "location", "name": "minimal dark studio with geometric window light", "required": true, "source": "local reference image", "usage": "Preserve wall, shadow shapes, light direction, and monochrome environment."}],
+      "prompt_instructions": "Attach all required person, wardrobe, and location references; no optional assets are needed. Keep identity, face, hair, outfit, earrings, light geometry, environment, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent turtleneck, or equivalent studio reference. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

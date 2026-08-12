@@ -1,0 +1,75 @@
+{
+  "name": "blonde-id-close-up",
+  "tag": [
+    "identity-card-mockup",
+    "blonde-portrait",
+    "laminate-detail",
+    "top-down-closeup",
+    "security-graphic"
+  ],
+  "image_type": "fictional-document-product-detail",
+  "image_vibe": "clean-forensic-editorial",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Close-up fictional identity-card mockup held by a hand",
+      "creative_direction": "visual study of portrait-card layout, laminate, holographic pattern, and typography",
+      "color_palette": "warm ivory card, deep blue text, pale holographic rainbow, blonde hair, burgundy nail polish, and charcoal background"
+    },
+    "main_subject": {
+      "type": "fictional adult woman portrait printed on a clearly non-governmental mock card",
+      "detail": "adult woman with long straight blonde hair parted in the middle, fair skin with natural freckles across the nose and cheeks, neutral forward expression, hazel-green eyes, black top, and small silver studs",
+      "card_design": "fictional identity-card design with clearly invented institution name, placeholder fields, non-functional serial, and no real national emblem, government mark, or personal data"
+    },
+    "composition_elements": {
+      "framing": "top-down vertical close-up focused entirely on the mock card and thumb",
+      "subject_position": "fictional portrait on the left side of the card, placeholder text fields on the right, thumb holding the lower-right corner",
+      "surface": "glossy laminate with abstract holographic security patterns, guilloche lines, and controlled reflections",
+      "typography": "legible fictional labels such as SAMPLE IDENTITY CARD and PLACEHOLDER, with no real names, dates, addresses, ID numbers, or government wording"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft even indoor light at approximately 5000K",
+      "effect": "slight controlled reflection on laminate and glossy deep-burgundy nail polish, clean forensic product-detail mood"
+    },
+    "technical_specs": {
+      "render_style": "macro product-detail camera with 90mm macro lens, top-down flat-lay perspective",
+      "resolution": "4k vertical close-up",
+      "finish": "sharp card texture, realistic portrait print, restrained reflections, no readable real personal data"
+    },
+    "generated_prompt_string": "Create a top-down vertical close-up photograph of a clearly fictional, non-governmental SAMPLE IDENTITY CARD held by a fair hand with a glossy deep-burgundy almond-shaped thumbnail. The card contains a fictional adult woman portrait: long straight blonde hair parted in the middle, fair skin with prominent natural freckles across the nose and cheeks, neutral expression, hazel-green eyes looking directly forward, black top, and small silver stud earrings. Place the portrait on the left and clearly invented placeholder fields on the right. Use legible labels such as SAMPLE IDENTITY CARD, PLACEHOLDER, and FICTIONAL DESIGN only; do not include real names, birth dates, addresses, ID numbers, national emblems, government wording, or functional document details. Add glossy laminate, abstract holographic security patterns, guilloche lines, soft even indoor light at approximately 5000K, slight controlled reflection, and clean forensic editorial product-detail styling. The card must be visibly fictional and unusable as identification.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, real government ID, real personal data, readable PII, real national emblem, real passport design, functional document, official logo, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed hand, illegible placeholder text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "fictional-adult-card-portrait",
+          "required": true,
+          "source": "Original card portrait preview image",
+          "usage": "Attach only as a visual portrait-style reference; use an approved adult fictional subject and do not preserve any real person's identity or personal data."
+        },
+        {
+          "type": "graphic",
+          "name": "fictional-identity-card-layout",
+          "required": true,
+          "source": "Original card composition and source prompt",
+          "usage": "Attach to preserve left portrait/right fields, laminate, holographic pattern, and hand placement, but replace all official government design, real data, and logos with clearly fictional placeholders."
+        },
+        {
+          "type": "accessory",
+          "name": "burgundy-polished-thumb",
+          "required": false,
+          "source": "Original preview image",
+          "usage": "Optional hand/nail reference; preserve the thumb holding the lower-right corner and glossy burgundy polish, while the hand may be replaced."
+        }
+      ],
+      "prompt_instructions": "Attach the fictional portrait and layout references; the nail reference is optional. Keep the card close-up, portrait-left/fields-right hierarchy, thumb placement, laminate, and holographic texture consistent. Replace all personal data, national identity marks, official logos, and government language with clearly fictional SAMPLE/PLACEHOLDER content so the result cannot function as identification."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Converted the real-government-ID-looking source into an unusable fictional mock card, removed personal data and official marks, and retained the visual card-detail concept."
+    ]
+  }
+}

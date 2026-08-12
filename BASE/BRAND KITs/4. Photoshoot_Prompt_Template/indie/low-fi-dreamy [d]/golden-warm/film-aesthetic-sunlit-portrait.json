@@ -1,0 +1,59 @@
+{
+  "name": "Sunlit Gingham Bedroom Portrait",
+  "tag": "sunlit-gingham-bedroom-portrait",
+  "image_type": "sunlit_interior_editorial_portrait",
+  "image_vibe": "soft_cottagecore_analog",
+  "image_purpose": "fashion_editorial",
+  "group": "indie/low-fi-dreamy/golden-warm",
+  "prompt": {
+    "project_info": {
+      "title": "Sunlit Gingham Bedroom Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with long wavy platinum-ash hair, light freckles, and a calm dreamy gaze.",
+      "wardrobe": "A pale-peach short-sleeve cotton midi dress with high neckline, subtle vertical stripes, and a full softly pleated skirt.",
+      "pose_and_expression": "Sitting comfortably on the edge of a bed, one hand gently adjusting a pearl hair clip and the other resting on the gingham duvet."
+    },
+    "composition_elements": {
+      "setting": "Bright airy bedroom with beige-and-white gingham duvet, white French windows, and abstract soft outdoor light beyond.",
+      "framing": "Slight high-angle medium-full portrait with face and fabric in focus.",
+      "text_and_brand_control": "No sensual bedroom framing, lingerie, logo, readable text, watermark, or body-focused crop."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Natural morning window light creating gentle geometric shadow patterns across duvet and dress.",
+      "mood": "Soft, relaxed, cottagecore, and safe."
+    },
+    "technical_specs": {
+      "camera_style": "Portra-inspired 50mm film portrait",
+      "lens": "50mm equivalent, f/2.2",
+      "rendering": "Fine grain, natural skin, realistic folds, creamy bokeh, and no HDR treatment."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical Portra-inspired 50mm bedroom portrait of an adult woman with long wavy platinum-ash hair, light freckles, and a calm dreamy gaze. She wears a pale-peach short-sleeve cotton midi dress with high neckline, subtle vertical stripes, and a full softly pleated skirt. Seat her comfortably on the edge of a bed, one hand adjusting a pearl hair clip and the other resting on a beige-and-white gingham duvet. Use a bright airy bedroom with white French windows, soft abstract outdoor light, natural morning window light, gentle geometric shadows, fine grain, natural skin, realistic folds, creamy bokeh, and no HDR. No sensual framing, lingerie, logo, readable text, watermark, or body-focused crop.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, sweetheart neckline, spaghetti straps, bed sensuality, lingerie, logo, readable text, watermark, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity reference must depict a consenting adult. Wardrobe, bedding, and window references are replaceable/unbranded and may not introduce text.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult face and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "gingham_bedroom_reference",
+          "required": false,
+          "source": "user-provided interior reference",
+          "usage": "Guide bedding, window, and sunlight pattern without personal details."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Reframed intimate/sensual bed direction as a covered, neutral seated interior portrait."
+  }
+}

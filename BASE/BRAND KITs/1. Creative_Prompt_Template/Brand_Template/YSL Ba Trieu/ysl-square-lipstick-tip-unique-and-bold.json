@@ -1,0 +1,71 @@
+{
+  "name": "ysl-square-lipstick-tip-unique-and-bold",
+  "tag": [
+    "ysl",
+    "square-tip",
+    "lipstick-detail",
+    "packshot",
+    "design-feature"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Fun facts",
+  "group": "ysl_1326249466206428",
+  "prompt": {
+    "project_info": {
+      "theme": "Signature square-tip lipstick design feature",
+      "color_palette": "Warm gold, black, muted rose"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "An extreme macro packshot of a square-tipped lipstick bullet rising from a black square case against a warm gold background. The top text says 'THIẾT KẾ ĐẦU SON VUÔNG' and the bottom text says 'ĐỘC ĐÁO & CÁ TÍNH'.",
+      "style": "Minimal luxury macro product study emphasizing form, geometry, and premium texture"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "THIẾT KẾ ĐẦU SON VUÔNG; ĐỘC ĐÁO & CÁ TÍNH",
+      "items": [
+        "Top Left: Large white feature headline",
+        "Top Right: Soft warm gold negative space and a blurred lipstick shadow block",
+        "Bottom Left: Lower black square casing edge",
+        "Bottom Right: Large white feature-benefit line across the lower edge",
+        "Center/Background: Extreme close-up of the geometric lipstick bullet emerging from a black square tube"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Macro studio product lighting",
+      "effect": "Soft highlight bloom, precise matte texture on the lipstick surface, sculptural shadow geometry"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal macro luxury product composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square macro luxury lipstick poster for YSL. Centerpiece is an extreme close-up of a square-tipped lipstick bullet emerging from a black square case against a warm gold studio background. Include the exact text 'THIẾT KẾ ĐẦU SON VUÔNG' and 'ĐỘC ĐÁO & CÁ TÍNH'. Technical style: photoreal macro luxury product composite, macro studio product lighting, sculptural shadow geometry and precise matte lipstick texture, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "YSL square-tip lipstick bullet",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Preserve the sharp geometric lipstick tip and matte muted-rose shade"
+        },
+        {
+          "type": "background",
+          "name": "Warm gold macro backdrop",
+          "required": true,
+          "source": "original setup",
+          "usage": "Maintain the soft golden glow and blurred geometric shadow"
+        },
+        {
+          "type": "text_layout",
+          "name": "Design-feature typography",
+          "required": true,
+          "source": "original creative copy",
+          "usage": "Keep the top and bottom feature statements exactly"
+        }
+      ],
+      "prompt_instructions": "This is a design-feature explainer poster. Keep it minimal and macro, with no extra props. The square tip shape is the hero and must be unmistakable."
+    }
+  }
+}

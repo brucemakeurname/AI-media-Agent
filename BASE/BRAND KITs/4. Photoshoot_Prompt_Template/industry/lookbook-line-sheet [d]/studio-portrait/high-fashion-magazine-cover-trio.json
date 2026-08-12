@@ -1,0 +1,22 @@
+{
+  "name": "high-fashion-magazine-cover-trio",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "fashion-trio", "glossy-editorial"],
+  "image_type": "three-person fashion editorial portrait",
+  "image_vibe": "polished, graphic, playful, high-fashion",
+  "image_purpose": "fashion campaign and magazine-cover concept",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create an ultra-realistic high-fashion studio portrait of three original approved adult women in a coordinated editorial trio composition.",
+    "main_subject": "Three distinct original approved adult women: two kneeling symmetrically at left and right in glossy light-pink long-sleeve high-neck bodysuits with subtle white curved line patterns and white platform high-top sneakers, and one standing centrally with crossed arms in a glossy black version of the same high-neck outfit. Preserve distinct faces, natural skin texture, hair variation, and confident direct eye contact.",
+    "composition_elements": ["Two women kneel with knees together, hands flat on the floor in front, and bodies leaning forward; the central woman stands tall behind and between them with arms crossed.", "Bright minimalist gray studio background and clean smooth floor.", "Maintain the symmetrical three-person hierarchy, pink-black color contrast, glossy fabric reflections, and clear footwear."],
+    "lighting_and_atmosphere": "Bright clean large-source studio lighting with soft frontal fill, controlled specular reflections on glossy fabric, gentle floor shadows, and polished magazine-editorial atmosphere.",
+    "technical_specs": "Photorealistic 4:5 group portrait, medium-format camera with 80mm lens at f/8, sharp faces and fabric seams, natural skin texture, restrained grain, clean neutral grading, no text or watermark.",
+    "generated_prompt_string": "Ultra-realistic high-fashion studio portrait of three original approved adult women in a coordinated editorial trio. Two distinct women kneel symmetrically at left and right on a smooth studio floor with knees together, hands flat on the ground in front, bodies leaning forward, and direct eye contact; they wear form-fitting long-sleeve light-pink glossy high-neck bodysuits with subtle white curved line patterns and white platform high-top sneakers. A third distinct woman stands tall between them with crossed arms, wearing the same glossy high-neck outfit in black. Give them varied natural hairstyles, minimal polished makeup, and realistic skin texture. Use bright clean studio lighting, soft fabric reflections, a minimalist gray background, a balanced magazine-cover composition, medium-format camera, 80mm lens at f/8, photorealistic detail, no text or watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "extreme body proportions", "body-part emphasis", "wrong person count", "inconsistent faces", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "extra fingers", "deformed", "text", "logo"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "high-fashion-magazine-cover-trio.jpg", "required": true, "source": "local reference image", "usage": "Attach for three original approved-adult identities, faces, hair, expressions, and group arrangement."}, {"type": "wardrobe", "name": "pink and black glossy high-neck bodysuits with white sneakers", "required": true, "source": "local reference image", "usage": "Preserve supplied garment colors, white line patterns, glossy material, and footwear."}, {"type": "location", "name": "minimalist gray studio floor and background", "required": true, "source": "local reference image", "usage": "Preserve clean floor, neutral background, spacing, and soft shadows."}],
+      "prompt_instructions": "Attach all required person, wardrobe, and location references; no optional assets are needed. Keep three-person count, identities, outfits, poses, environment, lighting, and typography consistent. Replace only with an equivalent approved-adult trio, equivalent wardrobe, or equivalent studio. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced named public figures with three original approved adult women and removed exaggerated body emphasis while preserving the exact trio arrangement, glossy wardrobe, color contrast, and fashion-cover intent."]}
+}

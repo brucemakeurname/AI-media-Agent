@@ -1,0 +1,60 @@
+{
+  "name": "high-fashion-editorial-poster-design",
+  "tag": ["adult-women", "four-panel-editorial", "color-block-fashion", "typographic-mask", "studio-portrait", "luxury-campaign"],
+  "image_type": "multi-panel-fashion-poster",
+  "image_vibe": "graphic-bold-editorial",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Converted the placeholder template into the observed four-panel editorial layout, clarified all subjects as adults, and used feminine-silhouette, fitted-tailoring, and directional-light language while preserving the color-block portraits and typographic masks."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "high-fashion editorial typography poster in four color-block panels",
+      "color_palette": "deep green, glossy crimson, warm mustard gold, and saturated turquoise with crisp white typography",
+      "aspect_ratio": "3:4"
+    },
+    "main_subject": {
+      "description": "Four distinct adult women with natural skin texture and confident editorial expressions, each styled in a monochromatic color story.",
+      "wardrobe": "Panel 1: tailored deep-green leather jacket and coordinated styling. Panel 2: glossy crimson fitted fashion look with long red gloves. Panel 3: sculptural mustard pleated blouse with dramatic sleeves. Panel 4: glossy turquoise structured coat over a high-neck top.",
+      "pose": "Panel 1 side portrait with arms crossed; Panel 2 upper-body pose with gloved hand framing the face; Panel 3 direct portrait with one hand lifting the updo and the other near the collar; Panel 4 three-quarter portrait with one hand in coat pocket.",
+      "styling": "Premium studio beauty styling with natural facial detail and graphic color coordination."
+    },
+    "composition_elements": {
+      "framing": "A clean 2x2 grid of rounded-corner vertical panels, each split with a white typographic mask occupying the left third and the subject filling the right two-thirds.",
+      "environment": "Monochromatic studio backgrounds matching each panel: green, crimson, mustard, and turquoise, with smooth gradients and no clutter.",
+      "typography": "Panel words: VOGUE, ICON, RADIANT, and NEW. Add small sophisticated white editorial captions at top-right of each panel. Typography must touch panel edges and act as a stencil mask revealing parts of the portrait.",
+      "focus": "Sharp adult faces, tailored and pleated fabric, glossy surfaces, expressive hands, and crisp full-bleed typography."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "High-end studio lighting with crisp directional highlights, realistic shadows, controlled color separation, and natural skin texture in each panel.",
+      "atmosphere": "Bold, sophisticated, modern, graphic, and timeless."
+    },
+    "technical_specs": {
+      "camera": "Full-frame portrait camera with an 85mm lens at f/2.8, 1/200 s, ISO 100",
+      "quality": "8K photorealistic editorial portraits, sharp textile and skin detail, clean stencil typography, high contrast, print-ready four-panel layout"
+    },
+    "generated_prompt_string": "Create a high-fashion 3:4 editorial poster as a clean 2x2 grid of rounded-corner color-block panels, each with a white full-bleed typographic mask occupying the left third and an adult woman filling the right two-thirds. Panel 1 uses deep green with an adult woman in a tailored green leather jacket, side portrait and crossed arms, masked word VOGUE. Panel 2 uses glossy crimson with an adult woman in a fitted red fashion look and long red gloves framing her face, masked word ICON. Panel 3 uses warm mustard with an adult woman in a sculptural pleated blouse and dramatic sleeves, one hand lifting her updo, masked word RADIANT. Panel 4 uses saturated turquoise with an adult woman in a glossy structured coat, three-quarter pose, masked word NEW. Add small sophisticated white editorial captions, crisp directional studio light, natural skin and fabric texture, no extra text, and no watermark.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, wardrobe malfunction, illegible text, misspelled panel words, distorted faces, extra limbs, muddy color blocks, watermark, inconsistent grid alignment",
+    "reference_elements": {
+      "prompt_instructions": "No identity references are required for these original adult subjects. Optional wardrobe, panel color, typography, studio, or lighting references may replace only their named element; preserve the four-adult grid, color stories, typographic stencil masks, and editorial pose structure.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "four-color-editorial-fashion-looks",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the green, crimson, mustard, or turquoise outfits while preserving polished coverage and each panel's color story."
+        },
+        {
+          "type": "graphic-style",
+          "name": "full-bleed-white-typographic-stencil-masks",
+          "required": false,
+          "source": "user-uploaded graphic reference",
+          "usage": "Replace only the panel words, captions, and mask geometry while preserving the rounded 2x2 grid and portrait reveal."
+        }
+      ]
+    }
+  }
+}

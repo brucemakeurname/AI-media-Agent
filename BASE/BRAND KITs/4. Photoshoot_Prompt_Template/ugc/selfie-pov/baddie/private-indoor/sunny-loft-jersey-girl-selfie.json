@@ -1,0 +1,51 @@
+{
+  "name": "sunny-loft-jersey-girl-selfie",
+  "tag": ["ugc", "selfie-pov", "baddie", "private-indoor", "soccer-jersey", "loft-bedroom", "sunlit-selfie"],
+  "image_type": "candid high-angle bedroom selfie",
+  "image_vibe": "soft, relaxed, confident, sunny, casual",
+  "image_purpose": "social-media sports-fashion selfie",
+  "group": "selfie-pov/baddie/private-indoor",
+  "prompt": {
+    "project_info": "Photorealistic 4K-style high-angle candid selfie of a clearly adult woman reclining in a bright attic or loft bedroom with soft skylight daylight and a social-media aesthetic.",
+    "main_subject": "One original adult woman with fair skin and detailed natural skin texture, long dark-brown straight-to-slightly-wavy hair falling behind her shoulders, green-hazel eyes looking directly at the camera, soft relaxed confident expression, minimal makeup and small gold diamond hoop earrings. Do not reproduce Ana de Armas or any other public-figure likeness.",
+    "composition_elements": "Use a high-angle selfie perspective with the arm extended. The adult woman reclines on her belly on a bed with her feet raised, bare lower legs visible in the background, and the close-up centered on her upper body while capturing the legs behind. She wears a bright white soccer jersey with navy-blue accents, deep V neckline, thin vertical navy pinstripes, loose casual fit, navy sleeve trim, black Adidas logo on the right chest, navy shoulder stripes, shield-shaped yellow-green team crest on the left chest, and the source-described abstract black sponsor graphic on the center. Include pink or mauve plush bedding and pillows.",
+    "lighting_and_atmosphere": "Natural daylight enters through a rectangular skylight in the slanted wood ceiling, creating soft diffused high-key light and gentle shadows across the face, bedding and jersey folds. Keep the atmosphere sunny, relaxed and casual.",
+    "technical_specs": "Photorealistic 4K-style HD candid selfie, high-angle smartphone perspective, realistic skin texture and jersey creases, natural smartphone optics, crisp subject detail, no added text, logos or watermark beyond the source-described jersey elements.",
+    "generated_prompt_string": "Photorealistic 4K-style high-angle selfie of one original adult woman with fair skin, detailed natural skin texture, long dark-brown straight-to-slightly-wavy hair, green-hazel eyes looking into camera, soft relaxed confident expression, minimal makeup and small gold diamond hoops. She reclines on her belly on pink-mauve plush bedding with feet raised and bare lower legs visible behind. Bright white soccer jersey with navy accents, deep V neckline, thin navy pinstripes, loose fit, navy sleeve trim, black Adidas logo, navy shoulder stripes, yellow-green shield crest and abstract black center sponsor graphic. Bright attic loft bedroom, slanted wood ceiling, rectangular skylight, yellow three-drawer dresser, mushroom lamp, framed line-art print and books. Soft diffused skylight daylight, gentle shadows, candid social-media sports-fashion mood, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Ana de Armas likeness, distorted anatomy, extra fingers, malformed hands, warped jersey logos, random text, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "sunny-loft-jersey-girl-selfie.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult dark-haired selfie subject, jersey colors and source-described branding, belly-down pose, loft architecture, decor, bedding, skylight and soft daylight; replace the named identity with an original adult."
+        },
+        {
+          "type": "wardrobe",
+          "name": "source-described soccer jersey",
+          "required": true,
+          "source": "Existing local prompt text",
+          "usage": "Keep the white/navy pinstriped jersey, Adidas mark, shoulder stripes, yellow-green crest and abstract center sponsor graphic exactly as described; do not invent additional branding."
+        },
+        {
+          "type": "image_asset",
+          "name": "1774301999992-5p9sz4vm-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1774301999992-5p9sz4vm-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source and wardrobe description are required; image asset is optional and not inspected. Keep the adult subject, jersey, selfie angle, pose, loft setting, decor, bedding, skylight and daylight consistent. Replace identity only and do not add unrequested logos or text."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Ana de Armas with an original adult woman.",
+      "Preserved the source soccer jersey, pose, room, decor, lighting and candid sports-fashion intent.",
+      "Added age and safety exclusions while keeping the non-explicit casual composition."
+    ]
+  }
+}

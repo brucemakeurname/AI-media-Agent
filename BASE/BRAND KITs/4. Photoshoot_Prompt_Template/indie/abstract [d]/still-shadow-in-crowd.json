@@ -1,0 +1,72 @@
+{
+  "name": "still-shadow-in-crowd",
+  "tag": [
+    "adult-woman",
+    "crowd-blur",
+    "golden-backlight",
+    "city-street",
+    "isolation",
+    "conceptual"
+  ],
+  "image_type": "conceptual-city-portrait",
+  "image_vibe": "existential-warm-kinetic",
+  "image_purpose": "editorial",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the central subject is an adult while retaining the city-isolation concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "frozen adult woman inside a rushing golden city crowd",
+      "color_palette": "sunset gold, warm amber, charcoal, pale cream",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with a short wavy brown bob, a neutral unsettled expression, and a light striped button-up shirt.",
+      "style": "central conceptual fashion portrait with intense radial crowd motion"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "adult woman frozen in the central foreground",
+        "rushing anonymous urban crowd expanding radially around her",
+        "strong low warm light burst directly behind her head",
+        "narrow tall city street forming a central vanishing point",
+        "sharp face and shirt contrasted with blurred crowd edges"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "strong late-afternoon backlight at approximately 3800K with warm street bounce",
+      "effect": "golden halo, deep moving silhouettes, warm graphic field, and psychological tension"
+    },
+    "technical_specs": {
+      "render_style": "50mm lens at f/2.8 with radial slow-shutter crowd blur, controlled flare, subtle analog grain",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Cinematic conceptual portrait of an adult woman standing still inside a rushing urban crowd. She has a short wavy brown bob, wears a light striped button-up shirt, and faces the camera with a quiet unsettled expression. Apply extreme radial motion blur to anonymous pedestrians and city edges while keeping her face sharply frozen. Place an intense warm light burst directly behind her head in a narrow city street to create bold golden backlight, graphic cinematic framing, psychological tension, existential solitude, surreal realism, and experimental fashion-editorial energy. Use a 50mm lens at f/2.8, controlled slow-shutter blur, natural skin texture, and portrait 4:5 framing.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, recognizable bystanders, text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, duplicate subject",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-golden-crowd-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult person reference when likeness continuity is required.",
+          "usage": "Preserve adult face and bob silhouette if attached; otherwise the subject may be replaced."
+        },
+        {
+          "type": "background",
+          "name": "golden-city-crowd-motion-reference",
+          "required": false,
+          "source": "Attach a city plate when exact architecture, backlight position, or crowd density is required.",
+          "usage": "Keep a central warm backlight and anonymous radial crowd motion; location may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve the adult central subject, striped shirt, narrow city vanishing point, gold halo, and anonymous radial crowd blur. Person and city plate may be replaced independently."
+    }
+  }
+}

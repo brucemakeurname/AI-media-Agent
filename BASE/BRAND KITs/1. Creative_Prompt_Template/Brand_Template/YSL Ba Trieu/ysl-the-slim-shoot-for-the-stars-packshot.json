@@ -1,0 +1,71 @@
+{
+  "name": "ysl-the-slim-shoot-for-the-stars-packshot",
+  "tag": [
+    "ysl",
+    "the-slim",
+    "packshot",
+    "lipstick",
+    "luxury-beauty"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "ysl_1901157293754687",
+  "prompt": {
+    "project_info": {
+      "theme": "YSL The Slim bold product packshot campaign",
+      "color_palette": "Ruby red, metallic gold, black, warm coral"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A dramatic vertical product packshot of multiple YSL The Slim lipsticks arranged like a sculpture against a faceted red-and-gold geometric background. At the bottom the text reads 'SHOOT FOR THE STARS' and 'THE SLIM'.",
+      "style": "High-gloss luxury product sculpture, fashion-beauty still life, bold geometric glamour"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "SHOOT FOR THE STARS; THE SLIM",
+      "items": [
+        "Top Left: Angled illuminated red-gold geometric planes",
+        "Top Right: Glittering red starfield-like background texture",
+        "Bottom Left: Horizontal lipstick casings stacked as a base",
+        "Bottom Right: Large cream text 'SHOOT FOR THE STARS' and 'THE SLIM'",
+        "Center/Background: Multiple YSL The Slim lipsticks standing vertically and diagonally in a sculptural arrangement"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "High-gloss product studio lighting",
+      "effect": "Metallic reflections, sharp edge highlights, dramatic shadow depth, glam campaign shine"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal luxury product still-life composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality vertical luxury beauty packshot for YSL The Slim. Centerpiece is a sculptural arrangement of multiple YSL The Slim lipsticks in black and gold casings against a faceted ruby-red and metallic-gold geometric background. Include the exact text 'SHOOT FOR THE STARS' and 'THE SLIM' at the bottom. Technical style: photoreal luxury product still-life composite, high-gloss product studio lighting, metallic reflections and dramatic glam-campaign depth, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "YSL The Slim lipstick lineup",
+          "required": true,
+          "source": "real product references required",
+          "usage": "Match the tall slim bullet shape, black-and-gold casing, and mixed warm-tone exposed shades"
+        },
+        {
+          "type": "background",
+          "name": "Red-and-gold faceted campaign backdrop",
+          "required": true,
+          "source": "original campaign visual",
+          "usage": "Preserve the angular illuminated planes and glittering red field"
+        },
+        {
+          "type": "text_layout",
+          "name": "Bottom slogan typography",
+          "required": true,
+          "source": "original creative copy",
+          "usage": "Keep 'SHOOT FOR THE STARS' and 'THE SLIM' centered at the bottom"
+        }
+      ],
+      "prompt_instructions": "This is a pure campaign packshot with sculptural product styling. Do not add people. Keep the red-gold geometry intense and the lipsticks stacked like a fashion sculpture."
+    }
+  }
+}

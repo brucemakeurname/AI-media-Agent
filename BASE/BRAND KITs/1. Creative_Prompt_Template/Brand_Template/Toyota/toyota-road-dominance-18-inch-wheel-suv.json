@@ -1,0 +1,78 @@
+{
+  "name": "toyota-road-dominance-18-inch-wheel-suv",
+  "tag": [
+    "toyota",
+    "suv",
+    "18-inch-wheel",
+    "offroad",
+    "product-demo"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Product demos",
+  "group": "toyota_1755340175476291",
+  "prompt": {
+    "project_info": {
+      "theme": "Rugged Toyota SUV confidence on challenging terrain",
+      "color_palette": "Midnight Blue, Black, Charcoal, Metallic Silver, Warm Beige"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A black boxy Toyota SUV charges diagonally downhill across rocky terrain at dusk with bright headlights cutting through smoke, while two inset panels at the bottom showcase the front fascia and 18-inch wheel details.",
+      "style": "Cinematic off-road automotive poster with dramatic atmosphere, high-contrast lighting, aggressive perspective, and feature-callout panel design."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "TOYOTA\nBAN LINH\nTRONG TUNG DUONG NET\nTHIET KE DAU XE\nThach thuc va cham\nMAM XE 18 INCH\nChinh phuc dia hinh",
+      "items": [
+        "Top Left: White Toyota logo on dark dusk sky.",
+        "Top Center: Large metallic-beige headline 'BAN LINH' with white and outlined blue line 'TRONG TUNG DUONG NET'.",
+        "Bottom Left: Inset detail panel showing the SUV front-end design with caption 'THIET KE DAU XE' and smaller line 'Thach thuc va cham'.",
+        "Bottom Right: Inset detail panel showing the wheel with caption 'MAM XE 18 INCH' and smaller line 'Chinh phuc dia hinh'.",
+        "Center/Background: Main black SUV drifting over rocky slope, mountain switchback road in the distance, fog/smoke, and low-light mountain landscape."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Cinematic dusk off-road lighting",
+      "effect": "Headlight glare, moody mountain haze, wet-rock sheen, dramatic contrast, motion blur in the wheels, and smoky atmosphere."
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic cinematic off-road automotive poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a rugged Toyota SUV off-road capability feature. Centerpiece is a black boxy Toyota SUV descending rocky terrain at dusk with bright headlights and smoky mist. Background is a mountainous landscape with winding road and stormy evening sky. Surrounding elements: metallic headline 'BAN LINH', line 'TRONG TUNG DUONG NET', two lower feature panels for front-end design and 18-inch wheels, and Toyota logo at top left. Technical style: photorealistic cinematic off-road automotive poster, cinematic dusk off-road lighting, headlight glare, smoky haze, dramatic contrast, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Toyota corporate logo white version",
+          "required": true,
+          "source": "brand asset / Toyota official logo",
+          "usage": "Place top left on dark scene."
+        },
+        {
+          "type": "product",
+          "name": "Black boxy Toyota SUV reference",
+          "required": true,
+          "source": "product reference image",
+          "usage": "Match the upright silhouette, TOYOTA grille lettering, headlamp shape, and wheel design."
+        },
+        {
+          "type": "location",
+          "name": "Rocky mountain off-road slope",
+          "required": true,
+          "source": "terrain reference",
+          "usage": "Recreate the slanted rugged terrain and distant winding mountain road."
+        },
+        {
+          "type": "text_layout",
+          "name": "Two-panel rugged feature layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve headline hierarchy and bottom inset panel geometry."
+        }
+      ],
+      "prompt_instructions": "Do not turn the SUV into a generic crossover; keep the boxy, upright, almost off-road icon silhouette. The mood must stay cinematic and rugged, with bright headlight bloom and smoky terrain drama."
+    }
+  }
+}

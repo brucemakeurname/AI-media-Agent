@@ -1,0 +1,70 @@
+{
+  "name": "shopee-loyal-customer-super-member-day-20-6",
+  "tag": [
+    "membership-promo",
+    "celebrity-collage",
+    "vip-benefits",
+    "event-day"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Special offers",
+  "group": "shopee_27348950261456116",
+  "prompt": {
+    "project_info": {
+      "theme": "Shopee loyal customer super member day poster",
+      "color_palette": "Golden orange, red-orange, electric blue, white, yellow"
+    },
+    "main_subject": {
+      "type": "Text/Person",
+      "detail": "Large central headline reads 'SIEU HOI THANH VIEN 20.6' under the Shopee and 'KHACH HANG THAN THIET' lockup. A three-panel blue benefit bar states 'GIA DOC QUYEN', 'MA 4 TRIEU DONG', 'HOAN 800.000 DONG', and 'UU DAI SINH NHAT ShopeeVIP'. Four celebrity portraits line the bottom edge with red name tags including 'NINH DUONG STORY', 'PHUONG LINH', and 'NGOC CHAU'. Floating voucher and coin icons frame the layout.",
+      "style": "Bold ecommerce event poster with oversized white-outline typography, crisp celebrity cutouts, and glossy benefit panels"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "KHACH HANG THAN THIET / SIEU HOI THANH VIEN / 20.6 / GIA DOC QUYEN / MA 4 TRIEU DONG / HOAN 800.000 DONG / UU DAI SINH NHAT ShopeeVIP / NINH DUONG STORY / PHUONG LINH / NGOC CHAU",
+      "items": [
+        "Top Left: White Shopee bag logo and loyal-customer badge icon",
+        "Top Right: Floating yellow ticket reading 4 TRIEU DONG and gold Shopee coin",
+        "Bottom Left: Two male celebrity cutouts over stacks of coins with red name plaque",
+        "Bottom Right: Two female celebrity cutouts with red name plaques and more floating coins",
+        "Center/Background: Golden spotlight burst on orange backdrop with huge headline and a wide three-block blue promo bar"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright event-poster glow",
+      "effect": "Warm spotlight center, drop shadows, glossy panel highlights, saturated orange gradients"
+    },
+    "technical_specs": {
+      "render_style": "Commercial poster compositing with photo cutouts and vector promo graphics",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee loyal-customer event. Centerpiece is a giant headline 'SIEU HOI THANH VIEN 20.6' above a glossy blue three-panel benefits bar that includes 'GIA DOC QUYEN', 'MA 4 TRIEU DONG', 'HOAN 800.000 DONG', and 'UU DAI SINH NHAT ShopeeVIP'. Background is a radiant golden-orange event glow with floating coins and voucher tickets. Surrounding elements: Shopee logo and loyalty badge at top left, celebrity portraits lined across the bottom with red name plaques such as 'NINH DUONG STORY', 'PHUONG LINH', and 'NGOC CHAU'. Technical style: commercial poster compositing with photo cutouts and vector promo graphics, bright event-poster glow, warm spotlight, glossy highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Celebrity portrait set",
+          "required": true,
+          "source": "original cutouts for Ninh Duong, Phuong Linh, Ngoc Chau, and the additional male creator shown",
+          "usage": "Attach if exact likeness and hairstyle/wardrobe are required in the bottom celebrity lineup"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee, Khach Hang Than Thiet, and ShopeeVIP logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for the top-left lockups and inside the birthday-benefit panel"
+        },
+        {
+          "type": "text_layout",
+          "name": "Super member day headline and benefit bar",
+          "required": true,
+          "source": "this creative",
+          "usage": "Replicate exact hierarchy, line breaks, and the three blue rectangular offer blocks"
+        }
+      ],
+      "prompt_instructions": "Preserve '20.6' exactly as visible campaign copy and treat it as past relative to Friday, July 17, 2026. Keep the square crop with headline dominating the upper half and celebrity cutouts anchored tightly along the bottom edge."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "cellphones-neck-massagers-energy-reset",
+  "tag": ["cellphones", "massager", "neck relief", "wellness", "recovery devices"],
+  "biz_niche": "Health & Wellness",
+  "content_format": "Product demos",
+  "group": "cellphones_1377555640939880",
+  "prompt": {
+    "project_info": {
+      "theme": "Neck and shoulder wellness-device showcase",
+      "color_palette": "Light blue, white, green, navy, orange"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A wellness-device showcase poster displaying three wearable neck-and-shoulder massagers in different colors and shapes beneath a large green health-benefit headline.",
+      "style": "Clean wellness-product showcase poster"
+    },
+    "composition_elements": {
+      "type": "Products/Typography/Minimal Background",
+      "text": "cellphoneS, XOA DỊU ĐAU MỎI, TÁI TẠO NĂNG LƯỢNG",
+      "items": [
+        "Top Center: red cellphoneS logo block.",
+        "Upper Middle: large green headline 'XOA DỊU ĐAU MỎI' and 'TÁI TẠO NĂNG LƯỢNG'.",
+        "Center: three massager products aligned horizontally, including a pale green shoulder-wrap device on the left, a navy electronic neck massager in the center, and an orange shoulder-neck massager on the right.",
+        "Background: light blue minimal backdrop with a soft circular halo/ring behind the products and a gently curved surface below."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft catalog lighting",
+      "effect": "Clean wellness-product clarity, calm restorative mood, gentle product shadows"
+    },
+    "technical_specs": {
+      "render_style": "Minimal wellness-device product poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "three neck and shoulder massagers", "required": true, "source": "source image product reference", "usage": "Preserve the exact product shapes, colors, and left-center-right arrangement."},
+        {"type": "text_layout", "name": "green wellness headline", "required": true, "source": "source image text reference", "usage": "Keep the exact wording and stacked headline layout."},
+        {"type": "background", "name": "minimal blue halo backdrop", "required": true, "source": "source image background reference", "usage": "Maintain the circular halo effect and the calm pastel platform."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the relative size and spacing of the three devices.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the calm minimal wellness aesthetic without adding clutter."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square wellness-product poster on a clean light-blue background with a soft circular halo behind the products. Place a red cellphoneS logo at the top center and add the large green headline 'XOA DỊU ĐAU MỎI' and 'TÁI TẠO NĂNG LƯỢNG'. Show three wearable neck-and-shoulder massagers aligned horizontally: a pale green wrap device on the left, a navy electronic neck massager in the center, and an orange shoulder-neck massager on the right. Technical style: minimal wellness-device product poster, soft catalog lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark scene, incorrect text, wrong product colors, low resolution, cluttered background, distorted device shapes, watermark, signature"
+  }
+}

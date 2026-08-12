@@ -1,0 +1,82 @@
+{
+    "name":  "trifecta-dunk-every-macro-ad",
+    "tag":  [
+                "fitness food",
+                "sports advertising",
+                "chicken breast",
+                "basketball",
+                "macro nutrition"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Brand story",
+    "group":  "poster_trifecta_fitness",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Dunk Every Macro fitness meal campaign",
+                                        "color_palette":  "Clear sky blue, white, basketball orange, grilled chicken brown, Trifecta orange"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Person and food",
+                                        "detail":  "A muscular Black athlete in a white tank performs a one-handed dunk with a grilled chicken breast, shot from below beneath an orange basketball hoop.",
+                                        "style":  "High-energy outdoor commercial sports photography with minimal bold ad typography"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Athlete, hoop, headline, and logo",
+                                                "text":  "DUNK EVERY MACRO; TRIFECTA",
+                                                "items":  [
+                                                              "Upper Left: huge stacked white DUNK EVERY MACRO headline.",
+                                                              "Upper Right: orange rim, net, and cropped backboard against a clear blue sky.",
+                                                              "Center: low-angle athlete freezes in a dunk pose while holding grilled chicken breast.",
+                                                              "Lower Right: orange Trifecta logo lockup.",
+                                                              "Background: clean daylight sky with sparse soft clouds."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Bright natural midday sports light",
+                                                   "effect":  "Crisp muscle definition, warm grilled-food texture, energetic blue-sky clarity"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Photoreal outdoor sports campaign photography",
+                                           "resolution":  "4k resolution, highly detailed, square format"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "athlete action reference",
+                                                                 "required":  true,
+                                                                 "source":  "licensed sports photography or model reference",
+                                                                 "usage":  "Preserve safe believable dunk anatomy and low-angle framing."
+                                                             },
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "grilled chicken breast",
+                                                                 "required":  true,
+                                                                 "source":  "approved food-styling reference",
+                                                                 "usage":  "Keep a recognizably grilled chicken breast at the hand and rim."
+                                                             },
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "Trifecta logo",
+                                                                 "required":  true,
+                                                                 "source":  "approved brand asset",
+                                                                 "usage":  "Use only authorized logo and exact orange treatment."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "DUNK EVERY MACRO headline",
+                                                                 "required":  true,
+                                                                 "source":  "source preview",
+                                                                 "usage":  "Preserve oversized stacked white headline placement."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach licensed athlete, food, and logo references.",
+                                                                          "Keep food handoff physically plausible and headline unobstructed.",
+                                                                          "Typeset logo and headline after render for accuracy."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Muscular African man dunks a grilled chicken breast into a basketball hoop with \u0027DUNK EVERY MACRO\u0027 text, under a clear sky. Fitness-themed, with Trifecta logo.",
+                   "negative_prompt":  "unsafe anatomy, distorted hoop, unapproved logo, weak food texture, cloudy dark sky, unreadable headline, low resolution, watermark, signature"
+               }
+}

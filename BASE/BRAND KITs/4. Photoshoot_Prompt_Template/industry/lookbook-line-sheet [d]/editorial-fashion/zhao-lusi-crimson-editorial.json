@@ -1,0 +1,22 @@
+{
+  "name": "zhao-lusi-crimson-editorial",
+  "tag": ["industry", "lookbook-line-sheet", "editorial-fashion", "crimson", "chiffon"],
+  "image_type": "crimson couture fashion editorial",
+  "image_vibe": "serene, elegant, glossy, cinematic",
+  "image_purpose": "luxury lookbook and multi-scene fashion campaign",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create an 8K high-fashion editorial series with a crimson chiffon gown, black tailored blazer, and cinematic wet-look beauty styling.",
+    "main_subject": "An adult fictional East Asian woman with original non-celebrity features, serene elegant expression, clean low bun, high-shine dewy skin, polished natural makeup with coral lip gloss, floral-shaped silver or crystal earrings, and a chunky statement ring. She wears a vibrant crimson strapless chiffon gown with vertical ruffled tiers, an oversized matte-black tailored blazer draped over the shoulders, and black open-toe heeled sandals.",
+    "composition_elements": "Three scenes: full-length walking shot holding a generic blue patterned phone with gown ruffles flowing; close-up portrait with warm directional light on dewy skin and collarbone; seated sculptural pose with chiffon folds and blazer silhouette. Maintain shallow bokeh and subject focus.",
+    "lighting_and_atmosphere": "Professional cinematic lighting, warm directional close-up light, glossy but realistic skin and chiffon reflections, elegant crimson-black atmosphere.",
+    "technical_specs": "Sony A7R IV-inspired 85mm f/1.8 look, 8K-style detail, shallow depth of field, sharp subject, natural anatomy, photorealistic fabric and jewelry texture, no logos or text.",
+    "generated_prompt_string": "High-fashion editorial series of an adult fictional East Asian woman with original non-celebrity features, serene elegant expression, clean low bun, high-shine dewy skin, polished natural makeup with coral lip gloss, floral-shaped silver or crystal earrings, and chunky statement ring. She wears a vibrant crimson strapless chiffon gown with vertical ruffled tiers, an oversized matte-black tailored blazer draped over her shoulders, and black open-toe heeled sandals. Three scenes: full-length walking while holding a generic blue patterned phone with ruffles flowing; close-up portrait under warm directional light; seated sculptural pose emphasizing chiffon folds and blazer silhouette. 85mm f/1.8, shallow bokeh, 8K-style photorealistic editorial fashion, cinematic lighting.",
+    "negative_prompt": "celebrity likeness, public figure likeness, exact facial identity, explicit, nsfw, overly revealing, nudity, blurry, low quality, distorted anatomy, extra fingers, deformed, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, text, signature",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "zhao-lusi-crimson-editorial.jpg", "required": true, "source": "workspace reference image", "usage": "Reference the adult model, crimson gown, black blazer, low bun, wet-look lighting, seated pose, and red-black palette while replacing the named celebrity identity."}],
+      "prompt_instructions": "Attach the required reference image. Preserve gown, blazer, hair, makeup, three-scene structure, phone prop, lighting, and editorial consistency. Replace celebrity likeness with an original adult identity; keep phone, jewelry, logos, and typography generic and replaceable."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed named celebrity identity and exact likeness while preserving the crimson couture wardrobe, three-scene structure, lighting, and visual intent."]}
+}

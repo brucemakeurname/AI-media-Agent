@@ -1,0 +1,22 @@
+{
+  "name": "prompt-640",
+  "tag": ["industry", "lookbook-line-sheet", "grid-collage", "beauty", "editorial"],
+  "image_type": "nine-panel beauty editorial grid",
+  "image_vibe": "soft, refined, intimate, golden-beige",
+  "image_purpose": "Beauty and fashion lookbook reference emphasizing face, fabric, makeup, and expressive detail.",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Create a polished 3x3 beauty editorial grid using one consistent approved adult fictional woman and a soft golden-beige studio palette.",
+    "main_subject": "One adult fictional woman with consistent facial identity, natural skin texture, refined makeup, and a glossy ivory silk saree-inspired drape with minimal jewelry.",
+    "composition_elements": ["3x3 equal-panel collage.", "Extreme close-up of lips and cheek with warm soft light.", "Close-up of one expressive eye and brow.", "Black-and-white close-up of chin and hand.", "Fabric-framed shoulder and neckline detail.", "Soft portrait with ivory silk drape visible.", "Close-up of hands interacting with fabric.", "Profile beauty crop with gentle gaze.", "Textural macro detail of silk and jewelry.", "Final centered beauty portrait with consistent face and styling."],
+    "lighting_and_atmosphere": "Large diffuse warm softbox, gentle golden-beige bounce, subtle highlights on skin and silk, calm luxury beauty atmosphere.",
+    "technical_specs": "Ultra-photorealistic editorial photography, high-resolution skin and silk texture, controlled depth of field, consistent identity across nine panels, clean 3x3 grid, no text or watermark.",
+    "generated_prompt_string": "Ultra-photorealistic 3x3 luxury beauty editorial grid, one consistent adult fictional woman in an ivory silk saree-inspired drape with minimal jewelry, varied close-up beauty panels featuring lips, eye, cheek, chin, hands, fabric, profile, and final portrait, soft golden-beige seamless studio, warm diffuse softbox, refined makeup, realistic skin texture, elegant calm fashion lookbook, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "distorted anatomy", "extra fingers", "inconsistent identity", "plastic skin", "warped fabric", "logos", "text", "watermark", "blurry image"],
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "prompt-640.jpg", "required": true, "source": "local reference image", "usage": "Attach for the required nine-panel composition, face, fabric, lighting, and makeup reference."}],
+      "prompt_instructions": "Attach the required local reference image. Preserve the approved adult subject identity, nine-panel rhythm, ivory silk styling, beauty crops, warm studio, makeup, and fabric details. Keep the subject fictional and original, with no celebrity likeness, logo, or typography. Replace only with an equivalent nine-panel beauty reference if necessary."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

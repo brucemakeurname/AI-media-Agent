@@ -1,0 +1,34 @@
+{
+  "name": "Cloud Sweet Cupid Dream",
+  "tag": "industry/lookbook-line-sheet/conceptual-surreal",
+  "image_type": "full-body fantasy fashion portrait",
+  "image_vibe": "ethereal romantic cloudscape, pastel editorial",
+  "image_purpose": "fantasy fashion campaign and conceptual lookbook",
+  "group": "conceptual-surreal",
+  "prompt": {
+    "project_info": "Create a bright high-key fantasy fashion portrait in a cloud landscape with playful cupid-inspired props and fully covered styling.",
+    "main_subject": "A clearly adult fictional woman with messy blonde updo, soft face-framing curls, dewy makeup and wispy lashes, wearing a glossy red fully covered short dress with opaque matching tights, pale pink feathered wings, textured gold bow, and a red heart-tipped arrow held as a prop; dynamic crouched three-quarter pose with secure clothing.",
+    "composition_elements": "Full-body centered vertical portrait, head tilted, white clouds surrounding the subject, clean white and petal-pink palette with gold and soft-red accents, clear silhouette.",
+    "lighting_and_atmosphere": "Large diffused softbox, high-key even light, extremely soft shadows, glowy controlled highlights, romantic whimsical dream mood.",
+    "technical_specs": "Sharp facial focus with gentle highlight bloom, realistic latex-like glossy fabric without transparency, detailed feather texture, no text or logos.",
+    "generated_prompt_string": "High-key full-body fantasy fashion portrait of a clearly adult fictional woman in a fully covered glossy red short dress with opaque red tights, pale pink feathered wings, textured gold bow, and red heart-tipped arrow prop, messy blonde updo, soft curls, dewy makeup, centered three-quarter crouched pose with secure clothing, surrounded by large white clouds, pastel pink and clean white palette, diffused softbox lighting, realistic feathers and fabric, no text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, open hips, lingerie, sheer fabric, fetish styling, sexualized pose, child, teen, ageless person, celebrity likeness, public figure likeness, distorted anatomy, watermark, logo, text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "cloud cupid fashion reference",
+          "required": true,
+          "source": "Attach the supplied source image as the visual reference.",
+          "usage": "Match the cloud environment, pastel palette, wings, gold bow, heart prop, hairstyle, and centered fantasy composition; replace lingerie-like styling with full coverage and keep identity replaceable."
+        }
+      ],
+      "instructions": "Attach the source image before generation. Preserve the romantic cloud-cupid concept and physical prop details, while using clearly adult presentation, opaque full coverage, and a nonsexual balanced pose. Identity and costume details remain replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": "Replaced open-hip lingerie styling with a fully covered dress and opaque tights; clarified the subject as a clearly adult fictional person.",
+    "notes": "Fantasy styling and prop interaction are non-graphic."
+  }
+}

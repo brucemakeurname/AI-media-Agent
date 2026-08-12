@@ -1,0 +1,78 @@
+{
+  "name": "vfe-nguyen-bao-minh-son-insa-lyon-case-study",
+  "tag": [
+    "vfe",
+    "insa-lyon",
+    "student-profile",
+    "case-study",
+    "success-story"
+  ],
+  "biz_niche": "Education",
+  "content_format": "Case studies",
+  "group": "vfe_1503676078460351",
+  "prompt": {
+    "project_info": {
+      "theme": "Student success story for admission to INSA Lyon",
+      "color_palette": "Lavender, Cream, Navy Blue, Red, Warm Skin Tones"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A scrapbook-style student success poster for Nguyễn Bảo Minh Sơn, featuring a cream note panel with academic bullet points on the left, two polaroid photos of the student on the right, and admission proof documents arranged along the bottom.",
+      "style": "Youthful academic success poster with layered paper textures, travel-study symbols, institutional proof documents, and bold high-school identity cues."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nNGUYỄN BẢO MINH SƠN\nTân sinh viên INSA Lyon\nTrúng tuyển 3/3 NV Licence EEEA tại Sorbonne, Montpellier, Côte d'Azur\nGPA 3 năm cấp 3 môn Toán Lý Hoá >9.0\nHuy chương vàng WICO 2024\nChứng chỉ tiếng Pháp TCF B2\n2K8 Chuyên Lý\nTHPT Chuyên KHTN, Hà Nội\nTân sinh viên INSA Lyon\nNHẬN TƯ VẤN NGAY",
+      "items": [
+        "Top Left: Large cream nameplate 'NGUYỄN BẢO MINH SƠN' and VFE logo above.",
+        "Top Right: Polaroid portrait of the student with medals, a mini Eiffel Tower model, and Paris postal doodle.",
+        "Bottom Left: Admission table screenshot and INSA Lyon attestation document.",
+        "Bottom Right: Second polaroid photo of the student playing guitar with label 'Tân sinh viên INSA Lyon', plus red CTA button 'NHẬN TƯ VẤN NGAY'.",
+        "Center/Background: Purple locker-like backdrop and cream note panel containing five bullet academic highlights."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft scrapbook poster lighting",
+      "effect": "Paper-layer contrast, casual youth-photo warmth, readable document overlays, and cheerful success-story polish."
+    },
+    "technical_specs": {
+      "render_style": "Scrapbook-style admissions case study poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality admissions success poster for Nguyễn Bảo Minh Sơn and INSA Lyon. Centerpiece is a scrapbook collage with a cream bullet-point panel on the left, polaroid student photos on the right, and official admission documents across the bottom. Background is a purple locker-like wall with a VFE logo, mini Eiffel Tower, and Paris travel doodle. Surrounding elements: academic highlights including WICO 2024, TCF B2, and 3/3 admission offers, high-school identity '2K8 Chuyên Lý THPT Chuyên KHTN, Hà Nội', and red CTA 'NHẬN TƯ VẤN NGAY'. Technical style: scrapbook-style admissions case study poster, soft paper-layer contrast, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE and INSA Lyon logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use VFE at top and INSA Lyon within the document proof area."
+        },
+        {
+          "type": "person",
+          "name": "Nguyễn Bảo Minh Sơn portrait photos",
+          "required": true,
+          "source": "source photos from current creative",
+          "usage": "Keep the same identity, student styling, and polaroid treatment."
+        },
+        {
+          "type": "ui_reference",
+          "name": "Admission documents and acceptance table",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve as proof-of-result assets in the bottom section."
+        },
+        {
+          "type": "text_layout",
+          "name": "Student success collage layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep the left bullet panel and right polaroid collage placement."
+        }
+      ],
+      "prompt_instructions": "Maintain this as a proof-driven success story, not a generic school promo. Keep the academic bullets, school names, and the visual evidence documents visible."
+    }
+  }
+}

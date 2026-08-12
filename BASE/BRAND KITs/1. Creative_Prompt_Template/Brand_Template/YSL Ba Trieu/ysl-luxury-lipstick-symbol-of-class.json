@@ -1,0 +1,71 @@
+{
+  "name": "ysl-luxury-lipstick-symbol-of-class",
+  "tag": [
+    "ysl",
+    "luxury-lipstick",
+    "classy",
+    "editorial-detail",
+    "packshot"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Brand story",
+  "group": "ysl_1326249499539758",
+  "prompt": {
+    "project_info": {
+      "theme": "YSL lipstick as a symbol of class",
+      "color_palette": "Black, gold, warm nude skin tone"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A luxury editorial close-up of a hand with black nail polish slipping a black-and-gold YSL lipstick into a textured black blazer pocket. The bottom text says 'BIỂU TƯỢNG ĐẲNG CẤP'.",
+      "style": "Minimal high-fashion editorial product moment, tactile tailoring and luxury accessory styling"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "BIỂU TƯỢNG ĐẲNG CẤP",
+      "items": [
+        "Top Left: Hand and fingers with black manicure entering from the upper edge",
+        "Top Right: Black textured blazer fabric filling the frame",
+        "Bottom Left: Soft fold shadows in the black garment",
+        "Bottom Right: Large white caption 'BIỂU TƯỢNG ĐẲNG CẤP'",
+        "Center/Background: Close-up of a YSL lipstick partially inserted into a blazer pocket, emphasizing the gold cassandre logo"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Editorial fashion close-up lighting",
+      "effect": "Soft fabric sheen, metallic gold pop on the logo, elegant skin-to-textile contrast"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal luxury editorial product composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury editorial poster for YSL lipstick. Centerpiece is a photoreal close-up of a hand with black nail polish slipping a black-and-gold YSL lipstick into the pocket of a textured black blazer. Include the exact text 'BIỂU TƯỢNG ĐẲNG CẤP'. Technical style: photoreal luxury editorial product composite, editorial fashion close-up lighting, elegant fabric texture and metallic logo contrast, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "YSL lipstick with gold cassandre logo",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Match the closed lipstick casing and visible gold logo placement"
+        },
+        {
+          "type": "person",
+          "name": "Hand with black manicure",
+          "required": true,
+          "source": "original editorial image",
+          "usage": "Preserve the grip and the elegant black-polished nails"
+        },
+        {
+          "type": "background",
+          "name": "Black tailored blazer fabric",
+          "required": true,
+          "source": "original styling",
+          "usage": "Maintain the textured garment fold and pocket setting"
+        }
+      ],
+      "prompt_instructions": "This is an editorial luxury detail shot. Keep it intimate and tactile. The lipstick should feel like an accessory tucked into tailoring, not a standalone packshot."
+    }
+  }
+}

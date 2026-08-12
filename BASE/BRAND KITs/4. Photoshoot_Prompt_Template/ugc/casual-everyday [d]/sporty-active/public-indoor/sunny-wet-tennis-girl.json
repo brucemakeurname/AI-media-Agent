@@ -1,0 +1,27 @@
+{
+  "name": "sunny-wet-tennis-girl",
+  "tag": ["ugc", "casual-everyday", "sporty-active", "public-indoor", "tennis", "hydration"],
+  "image_type": "tennis-court-hydration-portrait",
+  "image_vibe": "sunny-refreshing-post-match",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/sporty-active/public-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic candid post-match hydration portrait of an approved adult woman courtside in warm afternoon light.",
+    "main_subject": "An approved adult woman with sun-kissed skin, natural post-match perspiration, and long dark-brown hair in a damp high ponytail. She wears a white fitted athletic tank top, pleated tennis skirt, white ankle socks, and sneakers. She drinks from a water bottle with one hand on her hip while looking confidently at camera.",
+    "composition_elements": "Vertical 9:16 medium shot from upper thighs to head with a slightly low angle. Show clay tennis court, net, racket, and towel nearby. Preserve natural water droplets and damp fabric without sexualized emphasis.",
+    "lighting_and_atmosphere": "Warm golden afternoon sunlight, realistic athletic glow, refreshing post-match energy, natural water and fabric texture.",
+    "technical_specs": "Photorealistic iPhone-style candid lifestyle photography, 9:16 vertical framing, realistic 8k detail, natural perspective, accurate hands, bottle, racket, and water effects.",
+    "generated_prompt_string": "Create a photorealistic 9:16 candid post-match hydration portrait of an approved adult woman on a clay tennis court in warm golden afternoon light. Give her sun-kissed skin, natural perspiration, and long dark-brown hair in a slightly damp high ponytail. She wears a white fitted athletic tank top, pleated tennis skirt, white ankle socks, and sneakers, drinks from a water bottle with one hand on her hip, and looks confidently toward the camera. Include the tennis net, racket, and towel nearby. Show realistic water droplets and damp fabric as athletic details without sexualized emphasis, using natural iPhone-style perspective and refreshing post-match energy.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, dry perfect skin, dry clothing, malformed racket",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-tennis-subject", "required": true, "source": "sunny-wet-tennis-girl.jpg", "usage": "Preserve adult identity, dark ponytail, expression, hydration pose, and athletic state."},
+        {"type": "wardrobe", "name": "white-tennis-outfit", "required": true, "source": "sunny-wet-tennis-girl.jpg", "usage": "Keep tank, pleated skirt, socks, and sneakers consistent; replace only with explicit wardrobe references."},
+        {"type": "location", "name": "sunny-clay-tennis-court", "required": true, "source": "sunny-wet-tennis-girl.jpg", "usage": "Maintain court, net, racket, towel, golden light, and hydration environment; replace only with explicit location references."},
+        {"type": "prop", "name": "water-bottle-hydration", "required": true, "source": "sunny-wet-tennis-girl.jpg", "usage": "Preserve bottle position and water action; replace only with explicit prop references."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, location, and prop references when exact consistency is required. Keep adult identity, outfit, product/bottle, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced celebrity and sexualized wording with an approved adult athletic hydration concept.", "Added safe negative prompts and structured references."]}
+}

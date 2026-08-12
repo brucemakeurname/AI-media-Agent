@@ -1,0 +1,60 @@
+{
+  "name": "fashion-poster-of-woman-sneaker",
+  "tag": ["adult-woman", "stride-sneaker", "oversized-product", "white-sweatsuit", "blue-studio", "fashion-poster"],
+  "image_type": "oversized-sneaker-fashion-poster",
+  "image_vibe": "clean-modern-confident",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "high-end oversized sneaker fashion advertisement",
+      "color_palette": "light blue, white, soft gray, and glossy silver reflections",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult woman with natural skin texture, sleek pulled-back hair, and a calm confident expression.",
+      "wardrobe": "All-white oversized hooded sweatsuit with relaxed tailoring and clean white sneakers.",
+      "pose": "Leaning casually against a giant white sneaker approximately three times her height, one hand in a pocket, relaxed weight shift, and face turned slightly toward camera.",
+      "styling": "Minimal editorial sportswear with understated polish."
+    },
+    "composition_elements": {
+      "framing": "Vertical 4:5 poster with giant sneaker dominating the lower foreground and adult subject integrated at left.",
+      "environment": "Light blue studio background with glossy reflective floor and large white STRIDE typography filling the backdrop.",
+      "typography": "Sneaker side label STRIDE. Bottom-center italic tagline: Walk into your next chapter. Top-right small text: Designed with GPT Image 2. Render all supplied text accurately and legibly.",
+      "focus": "Sharp sneaker leather grain and sole, adult subject, sweatsuit texture, floor reflection, and clean typography."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Bright soft commercial studio lighting with gentle shadows, clean white product highlights, and subtle reflection beneath the sneaker.",
+      "atmosphere": "Modern, approachable, premium, and optimistic."
+    },
+    "technical_specs": {
+      "camera": "Medium-format camera look with a 50mm lens at f/5.6, 1/200 s, ISO 100",
+      "quality": "Photorealistic high-resolution editorial advertising, sharp product texture, clean edges, accurate typography, and polished reflective floor"
+    },
+    "generated_prompt_string": "Create a high-end 4:5 fashion advertisement poster. Show an adult woman with natural skin texture, sleek pulled-back hair, and calm confident expression, wearing an all-white oversized hooded sweatsuit and clean white sneakers. Have her lean casually against a giant white sneaker approximately three times her height, one hand in a pocket and weight shifted naturally. The sneaker is labeled STRIDE and dominates the lower foreground. Set the scene in a light blue studio with a glossy reflective floor and huge white STRIDE typography behind her. Add the italic bottom tagline Walk into your next chapter. and small top-right text Designed with GPT Image 2. Use soft commercial lighting, crisp leather and sole detail, accurate legible typography, and no watermark or extra text.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, illegible text, misspelled STRIDE, distorted sneaker geometry, extra limbs, deformed anatomy, flat lighting, watermark, cluttered layout",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult subject. Optional sweatsuit, sneaker, typography, studio, or lighting references may replace only their named element; preserve the product-dominant scale, relaxed pose, white styling, blue palette, and exact copy.",
+      "assets": [
+        {
+          "type": "product",
+          "name": "giant-white-stride-sneaker",
+          "required": false,
+          "source": "user-uploaded product reference",
+          "usage": "Replace only the sneaker silhouette, sole, leather finish, or STRIDE label while preserving the oversized foreground dominance."
+        },
+        {
+          "type": "wardrobe",
+          "name": "all-white-oversized-sweatsuit",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the hoodie, pants, or shoes while preserving the clean all-white editorial styling."
+        }
+      ]
+    }
+  }
+}

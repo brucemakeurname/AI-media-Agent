@@ -1,0 +1,61 @@
+{
+    "name":  "mango-elixir-bottle-splash",
+    "tag":  [
+                "beverage",
+                "product demo",
+                "mango juice",
+                "fruit splash",
+                "bottle",
+                "high-speed photography"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Product demos",
+    "group":  "product_beverage_hero",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Premium mango elixir splash",
+                                        "color_palette":  "Mango gold, amber orange, leaf green, ice clear, warm brown"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A slightly tilted glass Mango Elixir juice bottle floats at center with dense condensation, readable pale label typography, and a shallow reflection beneath.",
+                                        "style":  "High-end cinematic fruit-beverage advertising"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Fruit/Liquid splash/Ice",
+                                                "text":  "Mango Elixir; Juice Premium",
+                                                "items":  [
+                                                              "Center: tilted chilled glass bottle with gold cap and readable label.",
+                                                              "Behind bottle: frozen golden juice splash.",
+                                                              "Around bottle: whole mangoes, mango cheeks and cubes, green leaves, and ice cubes.",
+                                                              "Background: rich warm golden-orange gradient with a reflective lower plane."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Cinematic studio lighting",
+                                                   "effect":  "Bright bottle highlights, crisp condensation, high-speed fruit and splash motion, rich premium contrast"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Ultra-realistic 3D commercial product shot",
+                                           "resolution":  "Ultra-HD, 4:5 aspect ratio"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "Mango Elixir bottle and label",
+                                                                 "required":  true,
+                                                                 "source":  "exact packaging reference",
+                                                                 "usage":  "Preserve glass profile, cap, label typography, fruit icon, and liquid color."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach the exact juice bottle packaging reference.",
+                                                                          "Follow the visible mango variant in the reference image; do not substitute cherry ingredients.",
+                                                                          "Keep liquid splash behind the readable label."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Create an ultra-realistic 3D commercial-style product shot of a premium cherry juice bottle, suspended mid-air with intricate condensation droplets on its surface. The bottle should appear fresh and vibrant, with each condensation bead reflecting ambient light to enhance photorealism. Surround the product with dynamic elements like splashing droplets of cherry juice, whole cherries, and ice cubes, frozen in high-speed motion, each element sharply defined with vibrant clarity. Floating cherry stems and leaves should also be included to enhance the sense of freshness and energy. Set the background against a rich, deep red and burgundy gradient, which complements the rich color of the cherry juice and evokes a sense of indulgence and premium quality. The product should be centrally placed, slightly tilted to convey a sense of movement and sophistication. Use cinematic, studio-style lighting with bright highlights reflecting off the bottle, crisp shadows, and high contrast to create a luxurious, polished look. Ensure the bottle’s label is clearly visible, with subtle reflections beneath it, adding depth and realism to the scene. The overall aesthetic must evoke indulgence, freshness, and premium quality, with all elements contributing to a high-end, visually striking image. The scene should feel rich, fresh, and full of vitality,with a focus on the vibrant color and fresh nature of the cherry juice. Technical Specifications: Aspect Ratio: 4:5 Resolution: Ultra-HD quality Lighting: Studio-style, cinematic with bright highlights, subtle reflections, and high contrast Detailing: Extreme attention to condensation, droplets, and high-speed motion of elements",
+                   "negative_prompt":  "wrong bottle label, cherry fruit, red burgundy scene, opaque glass, missing condensation, flat splash, unreadable label, low resolution, watermark"
+               }
+}

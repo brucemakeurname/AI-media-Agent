@@ -1,0 +1,22 @@
+{
+  "name": "navy-pinstripe-suit-gentleman",
+  "tag": "ugc",
+  "image_type": "photograph",
+  "image_vibe": "sophisticated structured editorial",
+  "image_purpose": "menswear and professional social portrait",
+  "group": "casual-everyday/street-chic/public-indoor",
+  "prompt": {
+    "project_info": "Ultra-realistic editorial menswear portrait with a classic gentleman aesthetic.",
+    "main_subject": "One generic approved young adult male with short styled brown hair and groomed beard, serious neutral expression, wearing a navy double-breasted pinstripe suit, blue striped shirt, and burgundy red polka-dot tie.",
+    "composition_elements": "Vertical 3:4 centered medium portrait, straight-on perspective, symmetrical framing against a black door with white architectural trim; face and red tie are primary focal points.",
+    "lighting_and_atmosphere": "Bright soft diffused frontal natural/window light, neutral temperature, faint soft shadows under chin, professional and refined mood.",
+    "technical_specs": "Realistic digital photography, tack-sharp subject, medium depth of field, high-contrast navy-white-burgundy palette, clean texture and no grain.",
+    "generated_prompt_string": "Create a vertical 3:4 photorealistic editorial portrait of one generic approved young adult man in a navy double-breasted pinstripe suit, blue striped shirt, and burgundy polka-dot tie, centered before a black door with white trim; face and tie in sharp focus, soft diffused frontal light, sophisticated classic menswear mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized styling, nudity, minors, celebrity likeness, public figure likeness, distorted anatomy, extra limbs, malformed hands, warped pinstripes, illegible tie pattern, watermark, logo overlay",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "navy-pinstripe-suit-gentleman.jpg", "required": true, "source": "local", "usage": "Match adult subject styling, centered composition, suit pattern, tie, black door, white trim, and soft light."}],
+      "prompt_instructions": "Attach the required reference image. Preserve the approved adult identity, facial expression, pose, outfit, pinstripe direction, tie pattern, background architecture, framing, and lighting. Garment patterns are replaceable; do not add logos or overlay typography. Avoid celebrity likeness."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Normalized schema and slug.", "Removed incomplete source serialization and added safety/reference guidance."]}
+}

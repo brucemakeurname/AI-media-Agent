@@ -1,0 +1,19 @@
+{
+  "name": "night-highway-sadie-sink-portrait",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "night-drive", "car-interior"],
+  "image_type": "night-car-interior-portrait",
+  "image_vibe": "moody-candid-night-drive",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic candid night-drive portrait of an approved adult woman seated inside a luxury car.",
+    "main_subject": "An approved adult woman with shoulder-length copper-red hair, fair natural skin, and a calm direct gaze. She wears a fitted black long-sleeve outfit and sits naturally in a light quilted leather car seat with one hand near her face.",
+    "composition_elements": "Vertical close-to-medium framing inside the car, dashboard and light interior visible, blurred city lights and traffic outside the window, natural seated pose.",
+    "lighting_and_atmosphere": "Mixed city-night light and subtle interior illumination, realistic low-light grain, intimate moody candid atmosphere.",
+    "technical_specs": "Photorealistic vertical smartphone-style photography, sharp face and hair, realistic leather, glass, reflections, and night bokeh.",
+    "generated_prompt_string": "Create a photorealistic vertical candid night-drive portrait of an approved adult woman with shoulder-length copper-red hair and fair natural skin seated inside a luxury car. She wears a fitted black long-sleeve outfit, sits in a light quilted leather seat, and rests one hand near her face while looking calmly at camera. Show car interior details, dashboard, window reflections, blurred city lights and traffic outside, mixed low-light illumination, natural grain, and intimate moody atmosphere.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted car interior",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-night-drive-subject", "required": true, "source": "night-highway-sadie-sink-portrait.jpg", "usage": "Preserve adult identity, copper hair, gaze, seated pose, and hand placement."}, {"type": "wardrobe", "name": "black-long-sleeve-outfit", "required": true, "source": "night-highway-sadie-sink-portrait.jpg", "usage": "Keep outfit and styling consistent; replace only with explicit references."}, {"type": "location", "name": "luxury-car-night-interior", "required": true, "source": "night-highway-sadie-sink-portrait.jpg", "usage": "Maintain seat, interior, window lights, and night-drive environment; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced celebrity/video wording with an approved-adult image portrait concept.", "Added safe negative prompts and structured references."]}
+}

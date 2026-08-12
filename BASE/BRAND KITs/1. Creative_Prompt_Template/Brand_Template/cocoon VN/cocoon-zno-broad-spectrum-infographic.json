@@ -1,0 +1,65 @@
+{
+  "name": "cocoon-zno-broad-spectrum-infographic",
+  "tag": [
+    "infographic",
+    "zno",
+    "sunscreen",
+    "broad-spectrum",
+    "chart",
+    "education"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Infographics",
+  "group": "cocoon_993824100320847",
+  "prompt": {
+    "project_info": {
+      "theme": "Educational infographic explaining broad-spectrum ZnO absorption",
+      "color_palette": "Soft Pink, White, Sky Blue, Lavender, Spectrum Rainbow, Black"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A pastel infographic dominated by giant white letters 'ZnO' above a horizontal color-spectrum bar labeled UVB, UVA, HEV, ÁNH SÁNG KHẢ KIẾN (VIS), and TIA HỒNG NGOẠI (IR), with an absorption graph and caption about broad-spectrum absorption of inorganic ZnO filters.",
+      "style": "Modern scientific beauty infographic, pastel educational graphic, clean minimal data visualization"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'ZnO', spectrum labels 'UVB', 'UVA', 'HEV', 'ÁNH SÁNG KHẢ KIẾN (VIS)', 'TIA HỒNG NGOẠI (IR)', side label 'ĐỘ HẤP THU', right text 'SAU KHI TIẾP XÚC UV', main caption 'Biểu đồ thể hiện độ hấp thụ quang phổ rộng của màng lọc vô cơ ZnO(*)', and footnote '(* )Kiểm nghiệm invitro đo lường chỉ số bảo vệ quang phổ rộng tại trung tâm Weneos (Pháp).'.",
+      "items": [
+        "Top Left: Huge oversized white letters 'ZnO' cropped by the frame on a pink pastel backdrop.",
+        "Top Right: Rounded blue gradient blob overlapping the upper-right edge.",
+        "Bottom Left: White absorption-area graph shape under the spectrum bar with dashed vertical guides and the vertical label 'ĐỘ HẤP THU'.",
+        "Bottom Right: Black text 'SAU KHI TIẾP XÚC UV' and the caption-plus-footnote area.",
+        "Center/Background: Horizontal rainbow spectrum bar running across the graphic with wavelength markers 290, 320, 400, 500, 800, 1400."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat graphic lighting",
+      "effect": "Clean vector-like clarity, soft pastel gradients, polished infographic readability"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity vector-style infographic design",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for an educational infographic about broad-spectrum ZnO absorption. Centerpiece is giant white 'ZnO' lettering above a horizontal rainbow spectrum bar labeled UVB, UVA, HEV, ÁNH SÁNG KHẢ KIẾN (VIS), and TIA HỒNG NGOẠI (IR), with a white absorption graph shape below. Background is a soft pink pastel scientific graphic with blue gradient blobs. Surrounding elements: dashed wavelength guides at 290, 320, 400, 500, 800, 1400, side label 'ĐỘ HẤP THU', right text 'SAU KHI TIẾP XÚC UV', caption 'Biểu đồ thể hiện độ hấp thụ quang phổ rộng của màng lọc vô cơ ZnO(*)', and the small Weneos footnote. Keep the exact infographic hierarchy, pastel-science aesthetic, and legible Vietnamese labels. Technical style: high fidelity vector-style infographic design, flat graphic lighting, clean pastel gradients and polished readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "graphic",
+          "name": "ZnO spectrum chart layout",
+          "required": true,
+          "source": "Use the original image as full infographic reference",
+          "usage": "Preserve the exact chart geometry, wavelength markers, spectrum colors, and text labels."
+        },
+        {
+          "type": "text_layout",
+          "name": "Scientific caption and footnote block",
+          "required": true,
+          "source": "Use the original creative as text reference",
+          "usage": "Keep the full Vietnamese caption and footnote wording in place."
+        }
+      ],
+      "prompt_instructions": "When rebuilding with gpt-image-2, attach the original infographic as a required reference. The model should reproduce the exact chart structure and labels with high fidelity instead of improvising a new science graphic."
+    }
+  }
+}

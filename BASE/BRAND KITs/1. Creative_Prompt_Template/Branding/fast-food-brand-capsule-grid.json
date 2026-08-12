@@ -1,0 +1,69 @@
+{
+    "name":  "fast-food-brand-capsule-grid",
+    "tag":  [
+                "branding",
+                "brand story",
+                "capsule",
+                "fast food",
+                "logo icon",
+                "macro product shot"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Brand story",
+    "group":  "branding_capsule_identity",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Fast-food identity as a capsule",
+                                        "color_palette":  "KFC red, Subway green, McDonald’s red and gold, Burger King orange and navy, wet neutral gray"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Graphic",
+                                        "detail":  "A 2 by 2 grid of horizontal transparent-and-colored brand capsules hovering above a wet surface, with each capsule containing a floating 3D brand icon.",
+                                        "style":  "Hyper-real macro industrial product advertising"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Capsule/Logo/Icon/Surface",
+                                                "text":  "KFC; SUBWAY; McDonald’s; BURGER KING",
+                                                "items":  [
+                                                              "Upper left: red KFC capsule with floating Colonel icon.",
+                                                              "Upper right: green Subway capsule with yellow-green S arrow icon.",
+                                                              "Lower left: McDonald’s capsule with floating gold arches.",
+                                                              "Lower right: Burger King capsule with floating burger-logo icon.",
+                                                              "All cells: wet condensation-covered surface, shallow warm neutral blur, sharp reflections and refractions."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Professional macro studio lighting",
+                                                   "effect":  "Strong capsule reflections, glass refraction, wet ground highlights, soft blurred background"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "DSLR-captured hyper-realistic product photography",
+                                           "resolution":  "1080 by 1080 high detail"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "official brand logo or icon",
+                                                                 "required":  true,
+                                                                 "source":  "approved brand vector asset",
+                                                                 "usage":  "Place exact approved mark centered in the glass half of the capsule."
+                                                             },
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "brand color specification",
+                                                                 "required":  true,
+                                                                 "source":  "official brand guidelines",
+                                                                 "usage":  "Use on the glossy plastic capsule half."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach approved logo and color references.",
+                                                                          "Use only one brand identity per execution.",
+                                                                          "Retain the transparent-glass half, colored-plastic half, wet surface, and zero-gravity icon."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Create a hyper-realistic, stylish poster [1080x1080] aspect ratio featuring a horizontal tablet-capsule hovering above a surface covered in condensation and water droplets, with its shadow cast on the wet ground. One side of the capsule is transparent glass, while the other is glossy [BRAND COLORS] plastic, displaying the [BRAND] logo and name. Seamlessly floating inside the glass portion of the capsule is a photorealistic 3D model of the [BRAND LOGO OR ICON], perfectly centered and suspended in zero gravity. The glass and plastic surfaces showcase strong reflections, refractions, and environmental distortions. The background is a softly blurred, elegant light-toned setting. Use a dynamic perspective with a stylish camera angle, professional studio lighting, and ultra-high detail to make the image look like a DSLR-captured photograph with impeccable realism.",
+                   "negative_prompt":  "incorrect logo, opaque glass, missing condensation, warped capsule, crowded background, low-resolution icon, flat lighting, watermark"
+               }
+}

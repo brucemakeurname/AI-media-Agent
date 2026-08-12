@@ -1,0 +1,72 @@
+{
+  "name": "modern-sunglasses-nyc-reflection",
+  "tag": [
+    "adult-woman",
+    "aviator-sunglasses",
+    "city-reflection",
+    "camel-scarf",
+    "macro-portrait",
+    "street-fashion"
+  ],
+  "image_type": "street-fashion-close-up",
+  "image_vibe": "metropolitan-polished-observational",
+  "image_purpose": "campaign",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed the specific eyewear-brand mark while preserving the oversized black aviator-sunglasses concept.",
+      "Clarified that the subject is an adult."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "extreme close-up city fashion portrait with an urban reflection in sunglasses",
+      "color_palette": "black, charcoal, taxi yellow, camel beige, soft skin tone",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult city dweller cropped tightly to the forehead, eyes, nose, and lips, wearing oversized unbranded black aviator sunglasses and a camel-beige cashmere scarf.",
+      "style": "photorealistic editorial close-up with matte natural makeup and visible skin texture"
+    },
+    "composition_elements": {
+      "text": "No rendered brand name, logo, or text.",
+      "items": [
+        "oversized black aviator sunglasses dominate the frame",
+        "crisp reflection of a dense Manhattan-like avenue and yellow taxis within both lenses",
+        "close crop of eyes, nose, lips, and scarf texture",
+        "soft blurred city background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "diffused open-shade city light at approximately 6200K",
+      "effect": "sophisticated metropolitan calm, matte skin, controlled dark lens reflections, and tactile scarf weave"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera, 100mm macro lens at f/3.2, realistic reflection geometry, subtle 35mm grain, natural vignetting",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "An extreme close-up, high-fashion editorial portrait of an adult chic city dweller, cropped to focus on the eyes, nose, and lips. The subject wears oversized unbranded black aviator sunglasses that dominate the frame and a camel-beige cashmere scarf that emphasizes textile texture. The lenses contain a crystal-clear photorealistic reflection of a dense Manhattan-like city avenue with yellow taxis as the visual focal point. Render natural soft matte makeup and authentic skin texture. Use diffused city shade, realistic lens-reflection geometry, and a sophisticated metropolitan atmosphere. Do not render a brand name, logo, or readable text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, brand name, logo, readable text, watermark, warped reflections, crossed eyes, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "unbranded-black-aviators-and-camel-scarf-reference",
+          "required": false,
+          "source": "Attach product or wardrobe references if frame shape or scarf weave must match.",
+          "usage": "Preserve the unbranded oversized aviator silhouette and camel scarf texture; either asset can be replaced."
+        },
+        {
+          "type": "background",
+          "name": "city-avenue-reflection-reference",
+          "required": false,
+          "source": "Attach a city plate when a particular avenue or vehicle density must be reflected.",
+          "usage": "Keep a plausible urban avenue reflection inside the lenses; location may be substituted."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve the adult close crop, oversized unbranded black aviators, photoreal urban lens reflection, and camel scarf. Never reproduce a logo or readable brand mark when replacing product references."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "sunglasses-girl-cliff-coast",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "automotive", "coastal"],
+  "image_type": "coastal automotive lifestyle portrait",
+  "image_vibe": "cinematic, relaxed, sunlit, quietly confident",
+  "image_purpose": "automotive and lifestyle fashion lookbook",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a cinematic coastal lifestyle portrait of one approved adult woman seated in a classic black vintage coupe on a cliffside highway.",
+    "main_subject": "Adult woman with long naturally wavy brown hair flowing in the sea breeze, black rectangular sunglasses with subtle gloss, minimal black outfit, and calm confident half-smile conveying quiet self-assurance.",
+    "composition_elements": ["Slightly low driver-side perspective from the open window.", "Classic deep-black vintage coupe with reflective chrome accents and polished side mirror.", "Cliffside coastal road overlooking rocky shoreline and open sea.", "Subject sharply focused while coast and road fall into soft background blur."],
+    "lighting_and_atmosphere": "Soft directional natural sunlight, warm highlights, gentle shadows, cool ocean blues balanced with warm skin tones, cinematic moderate contrast.",
+    "technical_specs": "50mm lens, f/1.8, shallow depth of field, photorealistic editorial photography, natural skin texture, no artificial smoothing, no overprocessing, no text or watermark.",
+    "generated_prompt_string": "A cinematic lifestyle editorial of an adult woman seated in the driver's seat of a classic black vintage coupe, window down, cruising along a cliffside coastal highway. She has long naturally wavy brown hair flowing in the sea breeze, black rectangular sunglasses with subtle gloss, a minimal black outfit, and a calm confident half-smile conveying quiet self-assurance. Rocky shoreline and open sea appear beyond the road, with a polished chrome side mirror reflecting the coastline. Slightly low driver-side perspective, 50mm lens, f/1.8, sharp subject, shallow background depth of field, cool ocean blues balanced with warm skin tones, natural daylight, filmic realism, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "plastic skin", "over-sharpening", "harsh HDR", "cartoonish colors", "AI artifacts", "distorted anatomy", "warped car", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "sunglasses-girl-cliff-coast.jpg", "required": true, "source": "local reference image", "usage": "Attach for adult identity, hair, sunglasses, outfit, pose, and expression reference."}, {"type": "location", "name": "classic black coupe on coastal cliff road", "required": true, "source": "local reference image", "usage": "Preserve vehicle, open window, road, ocean, cliff, and chrome details."}],
+      "prompt_instructions": "Attach the required approved-adult and automotive/coastal references. Preserve identity, hair movement, sunglasses, black outfit, car, cliff road, ocean, lighting, and cinematic depth of field. Replace only with equivalent adult identity or vehicle/environment references; no celebrity likeness, logos, or typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

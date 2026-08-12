@@ -1,0 +1,112 @@
+{
+  "post_summary": {
+    "content_format": "TikTok AI UGC short-video thumbnail",
+    "biz_niche": "sports nutrition / greens supplement",
+    "audience": "Singapore-based gym-goers aged 20–35 balancing a work-and-training routine",
+    "vibe": "friendly, candid, functional gym discovery",
+    "desired_response": "Recognise the chocolate-flavoured greens product and tap to watch the real gym demo."
+  },
+  "retrieved_patterns": [
+    {
+      "sample_name": "gym selfie UGC reference",
+      "sample_path": "BASE/BRAND KITs/4. Photoshoot_Prompt_Template/ugc/selfie-pov/sporty-active/public-indoor/hyper-realistic-gym-mirror-selfie.json",
+      "why_relevant": "Supports an adult gym setting, casual phone-camera intimacy and natural athletic styling.",
+      "patterns_to_adapt": ["adult athlete", "public indoor gym", "casual phone-photo framing", "natural skin texture"],
+      "patterns_not_to_copy": ["mirror-selfie pose", "any copied identity", "third-party clothing marks"]
+    },
+    {
+      "sample_name": "fitness lifestyle portrait",
+      "sample_path": "BASE/BRAND KITs/5. Video_Prompt_Template/posing/sunset-gym-pov-touch.json",
+      "why_relevant": "Supports a respectful, adult fitness environment and natural available light.",
+      "patterns_to_adapt": ["adult athletic subject", "gym background", "natural breathing room around product"],
+      "patterns_not_to_copy": ["cinematic styling", "sunset colour treatment", "yoga activity"]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "A",
+      "name": "Friendly discovery with clear tub",
+      "styling": "Adult Singaporean male in plain fitted black gym T-shirt; no visible brand clothing marks.",
+      "setting": "Modern Singapore gym drink-prep counter with blurred rack and mirror; transparent shaker in hand.",
+      "lighting": "Soft daylight with warm gym practicals; natural, slightly imperfect phone-photo exposure.",
+      "composition": "Vertical 9:16 medium close shot. Man sits on left third with a small surprised smile; approved Mutant Big Greens Just Chocolate tub is at right, label front-facing and unobstructed; leave modest top safe area for optional approved post text.",
+      "reference_requirements": [
+        {"type": "person", "name": "Singapore Gym Bro", "required": true},
+        {"type": "product", "name": "Mutant Big Greens Just Chocolate", "required": true},
+        {"type": "location", "name": "Gym Drink Prep Counter", "required": true}
+      ],
+      "score": {
+        "vibe_authenticity": 5,
+        "styling_accuracy": 5,
+        "human_realism": 5,
+        "mood_coherence": 5,
+        "brand_fit": 5,
+        "platform_utility": 5,
+        "rendering_feasibility": 5,
+        "reference_readiness": 5
+      },
+      "total": 40
+    },
+    {
+      "id": "B",
+      "name": "Scoop texture close-up",
+      "styling": "Hands and gym shirt only.",
+      "setting": "Gym prep counter.",
+      "lighting": "Daylight plus warm practicals.",
+      "composition": "Macro scoop of green powder falling into shaker, tub on counter.",
+      "reference_requirements": [
+        {"type": "product", "name": "Mutant Big Greens Just Chocolate", "required": true}
+      ],
+      "score": {
+        "vibe_authenticity": 4,
+        "styling_accuracy": 4,
+        "human_realism": 3,
+        "mood_coherence": 4,
+        "brand_fit": 5,
+        "platform_utility": 4,
+        "rendering_feasibility": 5,
+        "reference_readiness": 5
+      },
+      "total": 34
+    },
+    {
+      "id": "C",
+      "name": "Shaker taste reaction",
+      "styling": "Adult Singaporean male in black gym T-shirt.",
+      "setting": "Gym bench near rack.",
+      "lighting": "Natural gym light.",
+      "composition": "Vertical selfie response after a sip, product on bench in background.",
+      "reference_requirements": [
+        {"type": "person", "name": "Singapore Gym Bro", "required": true},
+        {"type": "product", "name": "Mutant Big Greens Just Chocolate", "required": true}
+      ],
+      "score": {
+        "vibe_authenticity": 5,
+        "styling_accuracy": 5,
+        "human_realism": 5,
+        "mood_coherence": 4,
+        "brand_fit": 4,
+        "platform_utility": 4,
+        "rendering_feasibility": 5,
+        "reference_readiness": 5
+      },
+      "total": 37
+    }
+  ],
+  "selected_concept_id": "A",
+  "selection_rationale": "Concept A wins because it makes the accurate product tub readable on the first frame while retaining a relatable adult gym-goer and raw Singapore gym environment. It best supports TikTok scroll-stop utility without becoming a polished product poster.",
+  "design_tokens": {
+    "palette": ["#111111", "#75C843", "#DFC14A", "#C9B39B"],
+    "styling_language": "raw gym UGC, friendly discovery, label-first but human-led",
+    "lighting_language": "soft daylight plus warm gym practicals, no studio treatment"
+  },
+  "revision_log": [
+    {
+      "round": 1,
+      "action": "initial",
+      "scores": {"A": 40, "B": 34, "C": 37},
+      "changed": []
+    }
+  ],
+  "gaps_open": []
+}

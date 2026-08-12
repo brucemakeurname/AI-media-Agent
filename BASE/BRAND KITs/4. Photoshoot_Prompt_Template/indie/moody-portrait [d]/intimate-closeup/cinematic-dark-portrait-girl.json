@@ -1,0 +1,75 @@
+{
+  "name": "cinematic-dark-portrait-girl",
+  "tag": [
+    "adult-woman",
+    "chiaroscuro",
+    "golden-brown-hair",
+    "black-background",
+    "upward-gaze",
+    "fine-art-portrait"
+  ],
+  "image_type": "fine-art-editorial-portrait",
+  "image_vibe": "dreamy, wistful, melancholic, painterly, dramatic",
+  "image_purpose": "editorial, moodboard, profile-visual",
+  "group": "indie / moody-portrait / intimate-closeup",
+  "prompt": {
+    "project_info": {
+      "theme": "Dark chiaroscuro portrait of quiet longing",
+      "format": "vertical head-and-shoulders portrait",
+      "color_palette": "pitch black, golden brown, pale skin tones, muted brick red"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "Use the attached approved adult face reference as the identity. She has long golden-brown voluminous hair, softly tousled layered shag or wolf-cut bangs, pale natural skin, softly shaded eyes, and muted brick-red lips.",
+      "style": "cinematic fine-art chiaroscuro portrait"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "head tilted slightly back and turned to the side, revealing neck and jawline",
+        "eyes gaze upward and away from the camera; lips are gently parted and relaxed",
+        "black or very dark clothing recedes into the shadows",
+        "pitch-black background with pure negative space around the head and shoulders"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "focused upper-left hard beam at approximately 4000K",
+      "effect": "illuminates the nose bridge, upper lip, chin tip, and left cheek while the eyes and far face fall into deep shadow",
+      "atmosphere": "wistful, vulnerable, emotional, high-contrast painterly realism"
+    },
+    "technical_specs": {
+      "render_style": "Sony A7R V, 85mm f/1.8, head-and-shoulders crop, shallow depth of field",
+      "resolution": "high-detail fine-art photograph",
+      "color_treatment": "natural skin texture, restrained brick-red lip, subtle film grain, deep blacks, controlled highlight roll-off"
+    },
+    "generated_prompt_string": "Use the attached approved adult face reference as the exact identity and preserve her face, facial structure, and likeness. Create a vertical cinematic fine-art portrait of an adult woman in a dark minimalist setting. Her head tilts slightly backward and turns to the side, revealing her neck and jawline; her eyes gaze upward and away from the camera, with a dreamy wistful melancholic expression and gently parted relaxed lips. She has long golden-brown voluminous hair with soft tousled layered shag or wolf-cut bangs, pale natural skin, softly shaded eyes, and muted brick-red lips. Black or very dark clothing recedes into a pitch-black background with pure negative space. Use dramatic chiaroscuro: a focused upper-left hard beam at approximately 4000K illuminates the nose bridge, upper lip, chin tip, and left cheek while the eyes and far face fall into deep shadow. Sony A7R V, 85mm f/1.8, head-and-shoulders crop, shallow depth, natural skin texture, subtle film grain, deep blacks, and controlled highlight roll-off.",
+    "negative_prompt": "explicit, nsfw, overly revealing, celebrity likeness, public-figure likeness, minor, sexual pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "An approved-adult face and identity reference is required. Preserve the exact adult person's face, facial structure, and likeness; never substitute a celebrity or public figure. The source moodboard is optional for the upward gaze, golden-brown layered hair, black wardrobe, black background, and upper-left chiaroscuro beam. Background and hair styling may be varied only when the fine-art dark-light composition is retained.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult face and identity reference",
+          "required": true,
+          "source": "user-supplied approved reference",
+          "usage": "Keep the exact adult person's face, facial structure, and likeness consistent."
+        },
+        {
+          "type": "moodboard",
+          "name": "dark chiaroscuro portrait source",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202601/1768226621090-xb087e6l-1.jpeg",
+          "usage": "Use for the pose, hair, black background, and upper-left chiaroscuro lighting."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the reference identity must be an approved adult.",
+      "Preserved the upward side gaze, golden-brown hair, black background, and chiaroscuro fine-art direction.",
+      "Added a guardrail against celebrity or public-figure likeness."
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "night-luxury-car-blonde-flash",
+  "tag": [
+    "adult-woman",
+    "platinum-blonde",
+    "luxury-car",
+    "night-flash",
+    "cinematic-editorial"
+  ],
+  "image_type": "luxury-car-flash-portrait",
+  "image_vibe": "quiet-glossy-nightlife",
+  "image_purpose": "fashion-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "source_url": "https://x.com/youngcatwoman/status/2025838034583994585",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject is an adult and changed the reclining camisole-and-shorts look to an upright pose with a covered ivory blouse and tailored trousers, while retaining natural body proportions."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult platinum-blonde luxury-car night flash editorial",
+      "color_palette": "ivory, black leather, dark wood, gold, and warm city bokeh",
+      "aspect_ratio": "3:4"
+    },
+    "main_subject": {
+      "description": "An adult Japanese woman with platinum-blonde hair, dark almond eyes, fair skin with natural pores, and natural unaltered body proportions.",
+      "wardrobe": "Ivory long-sleeve silk blouse with a high neckline, white tailored trousers, layered unbranded gold necklaces, and simple gold bracelets.",
+      "pose": "Seated upright and comfortably in the rear seat with one hand resting beside a phone with an abstract unreadable screen."
+    },
+    "composition_elements": {
+      "framing": "Three-quarter vertical portrait from the opposite rear seat.",
+      "environment": "High-end unbranded car with black leather upholstery, dark wood trim, window reflections, and blurred night-city lights outside."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Direct on-camera flash layered with dark nighttime ambience, crisp highlights, and no studio diffusion.",
+      "atmosphere": "Quiet, glossy, cinematic, and refined."
+    },
+    "technical_specs": {
+      "camera": "35mm equivalent, f/1.8, ISO 800",
+      "quality": "high-detail photorealism, natural skin, realistic leather and wood textures, shallow depth of field"
+    },
+    "generated_prompt_string": "Create a photoreal 3:4 editorial flash portrait of an adult Japanese woman with platinum-blonde hair, dark almond eyes, fair skin with natural pores, and natural unaltered body proportions. She sits upright and comfortably in the rear seat of an unbranded luxury car, wearing an ivory high-neck long-sleeve silk blouse, white tailored trousers, layered unbranded gold necklaces, and simple gold bracelets. One hand rests beside a phone with an abstract unreadable screen. Include black leather upholstery, dark wood trim, subtle window reflections, and blurred city lights outside. Use direct on-camera flash plus dark ambient night light, a 35mm lens at f/1.8 and ISO 800, crisp controlled highlights, shallow depth of field, and no logos or text.",
+    "negative_prompt": "minor, reclining pose, camisole, shorts, lingerie, nudity, explicit, nsfw, overly revealing clothing, body reshaping, waist cinching, face alteration, age shift, readable phone screen, logo, watermark, distorted anatomy, extra limbs, plastic skin",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use each only to replace identity, clothing, or car elements; an identity reference must depict an adult and brands/text must be removed.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved-adult-identity-reference",
+          "required": false,
+          "source": "user upload",
+          "usage": "Match approved adult face only and preserve natural age, ethnicity, and proportions."
+        },
+        {
+          "type": "environment_reference",
+          "name": "unbranded-black-leather-car-interior",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace upholstery, trim, and night window reflections without copying badges."
+        }
+      ]
+    }
+  }
+}

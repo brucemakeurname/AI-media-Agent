@@ -1,0 +1,19 @@
+{
+  "name": "pure-champagne-satin-portrait",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "private-indoor", "champagne-satin", "chair-portrait", "natural-glam"],
+  "image_type": "lifestyle-fashion-portrait",
+  "image_vibe": "soft-natural-elegant",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/soft-elegant/private-indoor",
+  "prompt": {
+    "project_info": "Create a natural elegant indoor satin portrait of an approved adult woman seated on a beige upholstered chair.",
+    "main_subject": "An approved adult woman with wavy light-brown hair, rosy cheeks, a soft smile, and natural makeup. She sits with legs crossed, raises one hand near her hair, looks directly at camera, and wears a champagne-light-gold satin slip dress with cowl neckline and spaghetti straps, plus small silver drop earrings and a delicate silver chain.",
+    "composition_elements": "Medium knees-up portrait, beige upholstered chair, cream curtains and dark window behind, direct gaze, hand near hair, crossed-leg pose, and satin texture clearly visible.",
+    "lighting_and_atmosphere": "Soft frontal light or ring-light-like illumination, gentle facial and satin highlights, natural skin, warm quiet indoor mood, restrained contrast.",
+    "technical_specs": "Photorealistic 4K portrait, natural perspective, sharp face and dress texture, realistic satin folds and hands, medium depth, subtle grain.",
+    "generated_prompt_string": "Create a natural photorealistic 4K indoor portrait of an approved adult woman with wavy light-brown hair, rosy cheeks, a soft smile, and natural makeup. She sits with legs crossed on a beige upholstered chair, raises one hand near her hair, and looks directly at the camera. She wears a champagne-light-gold satin slip dress with a cowl neckline and spaghetti straps, small silver drop earrings, and a delicate silver chain. Include cream curtains and a dark window behind, medium knees-up framing, soft frontal or ring-light-like illumination, realistic skin and satin texture, gentle highlights, natural color, and subtle grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted face, text, logo",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-light-brown-haired-subject", "required": true, "source": "pure-champagne-satin-portrait.jpg", "usage": "Preserve the adult face, light-brown hair, expression, gaze, pose, and identity."}, {"type": "wardrobe", "name": "champagne-satin-cowl-slip-dress", "required": true, "source": "pure-champagne-satin-portrait.jpg", "usage": "Keep the champagne satin dress and silver jewelry consistent; replace only with explicit wardrobe references."}, {"type": "location", "name": "beige-chair-curtains-dark-window", "required": true, "source": "pure-champagne-satin-portrait.jpg", "usage": "Maintain chair, curtains, window, and frontal light; replace only with explicit location references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, hair, outfit, pose, chair, and lighting hierarchy consistent. Furniture and background may be replaced only with explicit alternatives; preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and removed lipstick-removal artifacts while preserving natural makeup intent.", "Added safe negative prompts and structured references."]}
+}

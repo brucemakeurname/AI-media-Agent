@@ -1,0 +1,70 @@
+{
+  "name": "techcombank-world-cup-final-who-will-be-king",
+  "tag": [
+    "world-cup",
+    "football",
+    "final",
+    "question-post"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Ask a question",
+  "group": "techcombank_2245429266289657",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank World Cup 2026 final engagement question",
+      "color_palette": "Sky blue, stadium gold, grass green, black, bright red"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A dramatic stadium poster showing two football players from behind walking arm in arm onto the field. One wears a striped light-blue-and-white jersey with number 10, and the other wears a red jersey with number 19. The huge headline asks 'CUOC HOI NGO SAU 19 NAM NGOI VUONG SE GOI TEN AI?'. The scene is packed with confetti, bright stadium lights, and a giant translucent Techcombank diamond shape behind the players. Bottom-right text says 'TECHCOMBANK & HE SINH THAI DONG HANH CUNG VTV thuc hien su menh phung su Quoc gia mang FIFA WORLD CUP 2026 TM Den trieu trieu trai tim Viet Nam'. Bottom-left line says 'VUOT TROI MOI NGAY'.",
+      "style": "Epic sports-drama engagement poster with cinematic stadium scale, back-view player heroism, and debate-provoking tournament energy"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TECHCOMBANK / CUOC HOI NGO SAU 19 NAM / NGOI VUONG SE GOI TEN AI? / TECHCOMBANK & HE SINH THAI DONG HANH CUNG VTV / FIFA WORLD CUP 2026 / Den trieu trieu trai tim Viet Nam / VUOT TROI MOI NGAY",
+      "items": [
+        "Top Left: Stadium sky and spotlight arc under the headline",
+        "Top Right: Techcombank wordmark and white logo",
+        "Bottom Left: 'VUOT TROI MOI NGAY' lockup on the grass",
+        "Bottom Right: World Cup partnership copy with VTV logo",
+        "Center/Background: Two football players seen from behind walking together into a packed stadium, framed by a giant translucent Techcombank diamond and celebratory confetti"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Cinematic stadium lighting",
+      "effect": "Backlit arena glow, confetti sparkle, dramatic crowd bokeh, heroic match-final atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal sports-campaign composite with cinematic retouching",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank World Cup 2026 final engagement question. Centerpiece is a back-view shot of two football players, one in a striped number-10 kit and one in a red number-19 kit, walking arm in arm across a stadium field. Background is a giant packed arena with bright lights, confetti, and a translucent Techcombank diamond shape behind them. Surrounding elements: Techcombank logo, exact headline 'CUOC HOI NGO SAU 19 NAM NGOI VUONG SE GOI TEN AI?', bottom-left line 'VUOT TROI MOI NGAY', and the bottom-right partnership block with VTV and 'FIFA WORLD CUP 2026'. Technical style: photoreal sports-campaign composite with cinematic retouching, cinematic stadium lighting, confetti sparkle and heroic atmosphere, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Two footballer back-view references",
+          "required": true,
+          "source": "sports photo references matching the shoulder-linked walking pose",
+          "usage": "Preserve the exact friendship-rivalry posture, kit colors, and jersey numbers"
+        },
+        {
+          "type": "background",
+          "name": "Packed football stadium with confetti",
+          "required": true,
+          "source": "stadium photo reference",
+          "usage": "Rebuild the final-match scale and lighting behind the players"
+        },
+        {
+          "type": "text_layout",
+          "name": "World Cup final question poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the oversized headline, giant center diamond, and bottom-right partnership block"
+        }
+      ],
+      "prompt_instructions": "This post is built around the question headline. Preserve the exact wording and the rear-view composition of the two players; they should feel iconic and balanced rather than action-shot chaotic."
+    }
+  }
+}

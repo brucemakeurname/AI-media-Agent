@@ -1,0 +1,78 @@
+{
+  "name": "viettel-world-cup-cup30-office-laptop",
+  "tag": [
+    "viettel",
+    "world-cup",
+    "office",
+    "laptop-streaming",
+    "monthly-package"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "viettel_1256805189686870",
+  "prompt": {
+    "project_info": {
+      "theme": "Viettel monthly World Cup laptop streaming package for office workers",
+      "color_palette": "White, Viettel red, black, soft beige, city-window gray, muted green accent ribbon"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A young woman in a mustard-yellow shirt sits at a white office desk facing a laptop that shows football players celebrating in a stadium. She raises one fist in excitement. The exact headline text in the top left is '15.000Đ / THÁNG' and 'DK CUP30 gửi 1331'.",
+      "style": "Photoreal office lifestyle advertising image with premium bright workspace and sports-streaming context"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "15.000Đ / THÁNG; DK CUP30 gửi 1331; viettel telecom; Xem trọn vẹn World Cup 2026 | Miễn phí data 4G/5G Viettel | +120 kênh truyền hình trong nước & quốc tế; Xem các giải Bundesliga, V.League | Xem đồng thời trên 02 thiết bị",
+      "items": [
+        "Top Left: Large red monthly price and black registration code",
+        "Top Right: Viettel telecom logo in red and black",
+        "Bottom Left: Curved dark green ribbon entering from the lower-left corner and a white benefit-copy strip along the bottom edge",
+        "Bottom Right: White office chair and part of a shelf with yellow binders",
+        "Center/Background: Bright city-view office with floor-to-ceiling windows, white desk, laptop with football match, coffee mug and small plants"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright natural office daylight",
+      "effect": "Soft sun haze through windows, high-key interior exposure, realistic screen glow on the laptop"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal lifestyle advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for a Viettel monthly World Cup laptop streaming package for office workers. Centerpiece is a young woman in a mustard shirt sitting at a white office desk, cheering with one raised fist while watching football on an open laptop. Include the exact text '15.000Đ / THÁNG' and 'DK CUP30 gửi 1331' in the top left. Background is a bright office with large city-view windows, white furnishings, a coffee mug, and small desk plants. Surrounding elements: Viettel telecom logo in the top right, a dark green curved ribbon entering from the lower left, and small white benefit copy along the bottom reading 'Xem trọn vẹn World Cup 2026 | Miễn phí data 4G/5G Viettel | +120 kênh truyền hình trong nước & quốc tế' and 'Xem các giải Bundesliga, V.League | Xem đồng thời trên 02 thiết bị'. Technical style: photoreal lifestyle advertising composite, bright natural office daylight, soft sun haze and realistic laptop screen glow, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel telecom logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Top-right logo lockup"
+        },
+        {
+          "type": "person",
+          "name": "Young office woman cheering at laptop",
+          "required": true,
+          "source": "recreated from the original scene",
+          "usage": "Maintain seated rear three-quarter angle with raised fist"
+        },
+        {
+          "type": "ui_reference",
+          "name": "Football celebration on laptop screen",
+          "required": true,
+          "source": "original creative concept",
+          "usage": "Small but readable football scene on the laptop display"
+        },
+        {
+          "type": "background",
+          "name": "Bright city-view office",
+          "required": true,
+          "source": "recreated from the original setting",
+          "usage": "Large windows and bright modern desk environment"
+        }
+      ],
+      "prompt_instructions": "Keep the composition airy and productivity-oriented. The subject should feel like she is stealing a football moment during work hours. Preserve the exact top-left price and code text, plus the lower benefit strip."
+    }
+  }
+}

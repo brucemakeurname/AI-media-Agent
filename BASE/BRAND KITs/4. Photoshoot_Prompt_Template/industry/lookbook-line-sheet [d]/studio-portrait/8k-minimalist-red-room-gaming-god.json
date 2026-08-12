@@ -1,0 +1,67 @@
+{
+  "name": "8k-minimalist-red-room-gaming-god",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "gaming", "red-room"],
+  "image_type": "full-body gaming lifestyle portrait",
+  "image_vibe": "minimal, monochromatic, playful, cinematic",
+  "image_purpose": "gaming lifestyle lookbook and commercial portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic 4:5 full-body studio portrait of one approved adult woman gaming in a stylized monochromatic red room, matching the viewed reference image.",
+    "main_subject": "Approved adult woman with preserved face, facial structure, hairstyle, and natural skin tone from the required reference. She wears a deep-red crewneck sweatshirt, light-gray joggers, red slide sandals, and red wireless headphones, holding a white video-game controller.",
+    "composition_elements": [
+      "Subject seated casually on a large red beanbag chair.",
+      "White gaming console beside her, red floor lamp, and red popcorn bucket.",
+      "Solid flat red background and minimal monochromatic set.",
+      "Keep controller, headphones, console, popcorn, and face clearly visible."
+    ],
+    "lighting_and_atmosphere": "Clean bright studio lighting with soft reflections and realistic skin rendering, crisp red-on-red palette, minimal cinematic clarity.",
+    "technical_specs": "8K photorealistic detail, full-body 4:5 composition, sharp focus, realistic fabric, plastic, and skin texture, raw style, no text or watermark.",
+    "generated_prompt_string": "Highly detailed 8K full-body photorealistic portrait of an approved adult woman gaming in a stylized monochromatic red room. She sits in a large red beanbag chair wearing a deep-red crewneck sweatshirt, light-gray joggers, red slide sandals and red wireless headphones, holding a white video-game controller. A modern white gaming console sits beside her, with a red floor lamp and red bucket of popcorn. Solid flat red background with clean minimal aesthetic. Preserve the exact approved-reference face shape, eyes, lips, hairstyle and natural skin tone without alteration. Clean bright studio lighting with soft reflections, realistic skin tone rendering, sharp focus, cinematic clarity, 4:5 raw composition, no text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "distorted anatomy",
+      "extra fingers",
+      "inconsistent identity",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "watermark",
+      "text",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "8k-minimalist-red-room-gaming-god.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for approved-adult identity, face, hairstyle, and styling reference."
+        },
+        {
+          "type": "accessory",
+          "name": "white controller, console, red headphones, lamp, and popcorn",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve prop placement and red-room composition."
+        }
+      ],
+      "prompt_instructions": "Attach the required approved-adult and prop references. Preserve identity, face, hairstyle, outfit, gaming pose, red room, console, controller, lamp, popcorn and lighting. Replace only with equivalent adult identity or prop references; no celebrity likeness, logos, added text, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Aligned the subject gender presentation to the adult woman visible in the local reference image while preserving the gaming scene, wardrobe palette, props, and composition."
+    ]
+  }
+}

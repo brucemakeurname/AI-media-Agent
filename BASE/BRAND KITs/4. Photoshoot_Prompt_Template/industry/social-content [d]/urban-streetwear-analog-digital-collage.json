@@ -1,0 +1,83 @@
+{
+  "name": "urban-streetwear-analog-digital-collage",
+  "tag": [
+    "streetwear-collage",
+    "brown-plaid-blazer",
+    "amber-sunglasses",
+    "retro-digital",
+    "music-player-overlay"
+  ],
+  "image_type": "streetwear-editorial-collage",
+  "image_vibe": "retro-analog-digital",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Urban streetwear editorial collage with analog ghosting and fictional music UI",
+      "creative_direction": "9:16 multi-panel fashion poster blending reflective glass, cobblestone street snapshots, and restrained digital overlays",
+      "color_palette": "warm ambers, washed neutrals, soft gray, muted brown, polished leather, and stone pavement"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult streetwear model with relaxed confident expression, brown cap, and oversized amber-tinted rectangular sunglasses",
+      "wardrobe": "brown plaid blazer, white button-up shirt, yellow tie, loose dark trousers, and wired earphones",
+      "poses": "phone held before face in reflective window, hands in pockets on cobblestones, and overhead selfie holding a drink"
+    },
+    "composition_elements": {
+      "framing": "9:16 editorial multi-panel collage with reflective window frame upper left, downward ultra-wide street portrait upper right, and overhead selfie lower right",
+      "effects": "layered ghosting, architectural overlays, curvature distortion, radiating cobblestones, faint digital grid, and minimal square facial-bounding graphic",
+      "ui_elements": "fictional translucent music-player card with invented track title and artist, abstract artwork, timeline, and playback controls; no Apple, Spotify, real artist, or platform branding",
+      "constraints": "no stickers, extra subjects, wardrobe changes, incorrect fictional UI icons, neon color shifts, or futuristic sci-fi elements"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft overcast daylight at approximately 5600K with warm shop-window bounce",
+      "effect": "quiet street realism, reflective glass, muted color, natural skin, and subtle analog grain"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 28mm and 50mm lenses across panels, photoreal editorial collage",
+      "resolution": "4k 9:16 vertical social poster",
+      "finish": "realistic wool plaid, polished leather, stone pavement, controlled ghosting, and restrained digital texture"
+    },
+    "generated_prompt_string": "Create a 9:16 urban streetwear editorial collage with a retro analog-digital fusion aesthetic. Feature the same clearly adult woman in every panel wearing a brown plaid blazer, white button-up shirt, yellow tie, loose dark trousers, brown cap, oversized amber-tinted rectangular sunglasses, and wired earphones. In the upper-left panel, show a reflective window shot with the phone held before her face, layered ghosting, architectural overlays, and curvature distortion. In the upper-right panel, create a close-range downward-angled ultra-wide portrait on a cobblestone street with hands in pockets and a confident closed-lip expression. In the lower-right panel, show an intimate overhead selfie holding a drink with soft overcast light and a faint digital-grid facial bounding graphic. Add a translucent fictional music-player card with invented track title, artist, abstract artwork, timeline, and generic playback controls; do not use Apple, Spotify, real artist, platform, or logo branding. Use warm ambers, washed neutrals, soft grays, muted browns, reflective glass, wool plaid, polished leather, stone pavement, restrained ghosting, and no futuristic sci-fi elements.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, exaggerated pout, real music platform, real artist, real song title, real logo, watermark, stickers, extra subjects, wardrobe changes, neon color shifts, plastic skin, waxy, over-smooth, over-saturated, HDR look, extra fingers, deformed, incorrect UI icons",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-streetwear-model",
+          "required": true,
+          "source": "Original urban collage preview image",
+          "usage": "Attach an approved adult person reference and preserve the same facial structure and likeness across all panels without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "plaid-blazer-yellow-tie-amber-glasses",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve blazer, shirt, tie, trousers, cap, amber glasses, and earphones consistently across every panel."
+        },
+        {
+          "type": "graphic",
+          "name": "retro-analog-digital-collage-system",
+          "required": true,
+          "source": "Original collage preview image and source prompt",
+          "usage": "Attach to preserve panel geometry, ghosting, glass reflections, digital grid, and fictional music-player placement; replace all real brands, artist names, and artwork."
+        },
+        {
+          "type": "location",
+          "name": "muted-cobblestone-city-street",
+          "required": true,
+          "source": "Original street panels and source prompt",
+          "usage": "Attach to preserve reflective window, cobblestones, architecture, and overcast street atmosphere; exact city details may be replaced."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult model, exact wardrobe, collage system, and street references. Keep identity, outfit, panel poses, analog texture, muted palette, and music-card hierarchy consistent. Replace all real platform, artist, song, logo, and social UI cues with fictional cleared graphics."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as clearly adult, replaced the real music service/artist/song overlay with fictional UI, and removed exaggerated pout wording while preserving the analog-digital streetwear collage."
+    ]
+  }
+}

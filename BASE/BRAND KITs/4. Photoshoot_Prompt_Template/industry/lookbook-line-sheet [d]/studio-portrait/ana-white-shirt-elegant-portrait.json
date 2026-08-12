@@ -1,0 +1,22 @@
+{
+  "name": "ana-white-shirt-elegant-portrait",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "white-shirt", "gold"],
+  "image_type": "elegant studio fashion portrait",
+  "image_vibe": "bright, refined, minimal, confident",
+  "image_purpose": "fashion lookbook and elegant portrait campaign",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a bright waist-up studio portrait of one original approved adult woman in a crisp white shirt and black tailored trousers.",
+    "main_subject": "Original approved adult woman with chestnut-brown hair and honey highlights, long soft waves, natural no-makeup makeup, soft confident smile, hazel-brown expressive eyes, small gold hoops, and stacked gold rings. She wears a crisp white long-sleeved button-down with pointed collar and supplied gold bee-shaped buttons or pins, paired with high-waisted black tailored trousers.",
+    "composition_elements": ["Medium waist-up portrait against a clean off-white eggshell backdrop.", "Three subtle hand variations: resting on stomach, tucked into pocket, and raised near shoulder displaying rings.", "Front-facing relaxed gaze with refined white-black-gold palette.", "Preserve the supplied gold bee detail without adding other logos."],
+    "lighting_and_atmosphere": "Soft even studio lighting with minimal shadows, bright airy feel, clean neutral color balance, delicate gold highlights.",
+    "technical_specs": "Photorealistic fashion portrait, medium waist-up framing, realistic shirt, jewelry, hair, and skin texture, crisp focus, no text or watermark.",
+    "generated_prompt_string": "Elegant studio portrait of an original approved adult woman with chestnut-brown hair and honey highlights, long soft waves, hazel-brown expressive eyes, natural no-makeup makeup, soft confident smile, subtle eyeliner and well-defined brows. She wears a crisp white long-sleeved button-down shirt with structured pointed collar and supplied gold bee-shaped decorative buttons or pins, high-waisted black tailored trousers, small gold hoop earrings and stacked gold rings. Clean off-white eggshell studio backdrop, medium waist-up portrait, front-facing relaxed gaze, three subtle hand variations resting on stomach, tucked into pocket or raised near shoulder displaying rings, soft even studio lighting, bright airy white-black-gold palette, no extra logos, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "celebrity likeness", "minor or age ambiguity", "distorted anatomy", "extra fingers", "inconsistent identity", "warped buttons", "plastic skin", "over-smooth", "watermark", "unwanted text", "logo distortion", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "ana-white-shirt-elegant-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult identity, face, hair, makeup, outfit, poses, and rings."}, {"type": "accessory", "name": "gold bee-shaped buttons or pins", "required": true, "source": "local reference image", "usage": "Preserve supplied bee detail and placement without adding unrelated branding."}],
+      "prompt_instructions": "Attach the required references. Preserve an original adult identity, not Ana de Armas or any public figure; preserve hair, makeup, shirt, bee details, trousers, jewelry, hand variations, and off-white backdrop. Replace only with equivalent adult identity or accessory references; no celebrity likeness or extra typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced the named celebrity identity with an original approved adult while preserving the white-shirt, bee-detail, gold-jewelry, and elegant studio concept."]}
+}

@@ -1,0 +1,51 @@
+{
+  "name": "befood-pizza-company-watch-30s-deal",
+  "tag": ["befood", "pizza", "1k deal", "minimal product", "yellow poster"],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "be_2490281978120393",
+  "prompt": {
+    "project_info": {
+      "theme": "Minimal pizza deal teaser",
+      "color_palette": "Bright yellow, blue, black, pizza red-brown"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A minimal product-first poster featuring a large pepperoni pizza in an open branded Pizza Company box on a solid yellow background, with a beFood header and a playful line about waiting 30 seconds to see the deal plus a tiny 1k marker.",
+      "style": "Minimal food offer poster, bold product cutout advertising"
+    },
+    "composition_elements": {
+      "type": "Typography/Product/Flat Background",
+      "text": "beFood, nhìn đủ 30 giây sẽ thấy deal, THE PIZZA COMPANY, 1k",
+      "items": [
+        "Top Center: blue beFood wordmark.",
+        "Upper: blue text 'nhìn đủ 30 giây sẽ thấy deal'.",
+        "Center: giant pepperoni pizza in an open branded The Pizza Company delivery box angled toward the viewer.",
+        "Right edge near box: small white text '1k'.",
+        "Background: solid bright yellow."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Clean product-ad lighting",
+      "effect": "Crisp appetizing pizza texture, uncluttered focus, playful minimalism"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal food cutout on flat graphic background",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "pepperoni pizza in Pizza Company box", "required": true, "source": "source image food reference", "usage": "Preserve the pizza topping pattern, box branding, and angle."},
+        {"type": "logo", "name": "beFood and The Pizza Company branding", "required": true, "source": "source image brand reference", "usage": "Keep the top beFood mark and the box typography."},
+        {"type": "text_layout", "name": "30-second deal teaser copy", "required": true, "source": "source image text reference", "usage": "Preserve the exact teaser wording and tiny 1k placement."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image for product scale, box angle, and exact minimalist spacing.",
+        "Keep all visible text exactly as shown.",
+        "Do not add extra props; the spare yellow layout is part of the look."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square minimal beFood poster on a solid bright yellow background. At the top center place the blue beFood wordmark and the blue text 'nhìn đủ 30 giây sẽ thấy deal'. In the center show a large photoreal pepperoni pizza inside an open branded THE PIZZA COMPANY box angled toward the viewer. Add a small white '1k' near the right edge of the box. Technical style: photoreal food cutout on flat graphic background, clean product-ad lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark background, extra props, incorrect text, deformed pizza, low resolution, blurry box logo, watermark, signature"
+  }
+}

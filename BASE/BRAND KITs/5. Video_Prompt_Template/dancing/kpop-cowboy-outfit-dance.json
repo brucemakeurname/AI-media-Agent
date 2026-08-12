@@ -1,0 +1,90 @@
+{
+  "name": "kpop-cowboy-outfit-dance",
+  "tag": [
+    "adult-woman",
+    "k-pop-stage",
+    "cowboy-inspired-fashion",
+    "heart-gesture",
+    "gimbal-push-in",
+    "cinematic-dance"
+  ],
+  "image_type": "fashion-dance-video",
+  "image_vibe": "polished-cinematic",
+  "image_purpose": "instagram-reel",
+  "group": "dancing",
+  "prompt": {
+    "project_info": {
+      "title": "K-pop cowboy-inspired outfit dance",
+      "model": "Seedance 2.0",
+      "source": "https://x.com/Adam38363368936/status/2027327515707269576"
+    },
+    "main_subject": "An adult woman based on the approved uploaded face reference, wearing a K-pop stage-style outfit: an off-white hollow-out knitted short-sleeve crop top, beige tube top underneath, high-waisted vintage blue denim shorts with leopard-print plush edge decoration, dark leather belt, and brown heart-shaped plush pendant.",
+    "composition_elements": "Medium shot of one consistent dancer on a fashionable, simple indoor stage. Her hands make varied gestures near the chest, including a heart shape, while her body gently grooves and sways to the beat.",
+    "lighting_and_atmosphere": "Warm side light and backlight outline the dancer's edges. Use cinematic depth of field to blur the stage background while keeping the subject clear.",
+    "technical_specs": {
+      "camera": "Stable medium shot with a slow lens push-in, simulating a professional gimbal follow shot.",
+      "quality": "4K Ultra HD look, cinematic texture, sharp detail, natural realistic colors, no flicker.",
+      "motion": "Slow, coherent, smooth dance movement without stiffness or jumping.",
+      "body_constraints": "Normal human body structure and stable facial features without deformation."
+    },
+    "generated_prompt_string": "Use the approved uploaded face reference for an adult woman, keeping the character's facial structure and likeness consistent without celebrity or public-figure identity. Dress her in a K-pop stage-style outfit: an off-white hollow-out knitted short-sleeve crop top with a beige tube top underneath, high-waisted vintage blue denim shorts with leopard-print plush decoration on the edges, a dark leather belt, and a brown heart-shaped plush pendant hanging from one side of the belt. She has a gentle, pure temperament and clear facial features. She dances to a light rhythm, naturally raising her hands in front of her chest to make varied gestures including a heart-shaped gesture, while her body grooves and sways with the beat. Keep the movement slow, coherent, smooth, and silky without stiffness. Use a fashionable simple indoor stage, warm side light and backlight outlining her edges, and cinematic depth of field blurring the background. Use a stable medium shot with a slow lens push-in, simulating a professional gimbal follow shot, with no shaking. Render a 4K Ultra HD cinematic texture with sharp detail, natural realistic colors, no flickering, normal human body structure, and no jumping actions.",
+    "negative_prompt": "blurry, low resolution, noise, watermark, text, logo, distortion, deformation, disfigured face, facial drift, stiff movements, camera shake, flicker, disproportionate, explicit, nsfw, overly revealing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult face reference",
+          "required": true,
+          "source": "dancing/kpop-cowboy-outfit-dance_0.jpg",
+          "usage": "Preserve the approved adult character's facial structure and likeness consistently without using celebrity or public-figure identity language."
+        },
+        {
+          "type": "wardrobe",
+          "name": "K-pop cowboy-inspired outfit",
+          "required": true,
+          "source": "prompt source text",
+          "usage": "Preserve the off-white knit top, beige underlayer, vintage blue denim shorts, leopard-print plush edge decoration, dark leather belt, and brown heart pendant."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult face reference. Preserve the character's facial structure, the specified outfit, heart pendant, stage environment, warm side/backlight, and medium gimbal push-in. These elements are required for consistency; only background styling or non-essential accessories may be replaced when explicitly requested. Do not use exact-match or real-person-photography wording."
+    },
+    "omni_video_prompt": {
+      "scene_description": "An adult woman in a K-pop cowboy-inspired stage outfit performs a smooth light-rhythm dance on a simple indoor stage.",
+      "style": "Polished cinematic fashion-dance video with natural realistic colors, sharp detail, and a gentle K-pop stage mood.",
+      "camera_direction": "Stable medium shot with a slow push-in, simulating a professional gimbal follow shot; no camera shake.",
+      "lighting": "Warm side light and backlight outline the dancer's edges; cinematic depth of field softens the stage background.",
+      "voice": "None; no dialogue or voice-over is specified.",
+      "SFX": "Light rhythmic dance music is implied; no additional sound effects are specified.",
+      "environment": "Fashionable, simple indoor stage.",
+      "element": [
+        {
+          "dancer": "Adult woman with approved face reference, wearing the specified K-pop stage outfit.",
+          "pendant": "Brown heart-shaped plush pendant hanging from one side of the dark leather belt."
+        }
+      ],
+      "motion": "Hands rise naturally in front of the chest for varied gestures including a heart shape; the dancer grooves and sways smoothly with the beat without jumping.",
+      "ending": "No specific ending is provided; maintain the stable smooth performance through the final frame.",
+      "text": "None",
+      "keyword": [
+        "K-pop stage outfit",
+        "cowboy-inspired fashion",
+        "adult woman",
+        "heart gesture",
+        "smooth groove",
+        "warm side light",
+        "backlight rim",
+        "medium shot",
+        "gimbal push-in",
+        "cinematic depth of field"
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult and retained the specified outfit without adding sexualized styling.",
+      "Replaced exact facial-restoration language with approved-adult likeness consistency wording and removed real-person-photography phrasing.",
+      "Added required safety and AI-slop negative-prompt terms."
+    ]
+  }
+}

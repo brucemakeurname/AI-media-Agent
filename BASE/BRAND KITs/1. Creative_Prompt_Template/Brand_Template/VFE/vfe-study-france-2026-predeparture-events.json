@@ -1,0 +1,71 @@
+{
+  "name": "vfe-study-france-2026-predeparture-events",
+  "tag": [
+    "vfe",
+    "predeparture",
+    "events",
+    "study-france",
+    "ask-a-question"
+  ],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Ask a question",
+  "group": "vfe_1064934305969236",
+  "prompt": {
+    "project_info": {
+      "theme": "Pre-departure event series for students going to France in 2026",
+      "color_palette": "White, Navy Blue, Red"
+    },
+    "main_subject": {
+      "type": "Text",
+      "detail": "A clean schedule poster titled 'HÀNH TRANG DU HỌC PHÁP 2026', listing three pre-departure events with city/date/time information and content bullets, using strong navy bars, red calendar icons, and a red CTA button.",
+      "style": "Structured event-series infographic with high informational clarity, minimal decoration, and bold section dividers."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nHÀNH TRANG DU HỌC PHÁP 2026\n1. WORKSHOP: CHUẨN BỊ HÀNH TRANG TỚI PHÁP\nHCM: 8h30, ngày 04/07/2026\nHà Nội: 8h30, ngày 11/07/2026\nNội dung:\nVượt qua tháng đầu tiên tại Pháp\nLàm thêm & phỏng vấn xin việc\nSơ cứu, đặt lịch khám tại Pháp\n2. ĐÊM TIỆC KẾT NỐI \"EN FRANCE, ENSEMBLE\"\nHCM: 18h30, ngày 04/07/2026\nHà Nội: 18h30, ngày 11/07/2026\nTiệc đứng - chủ đề mùa hè\nSự kiện DÀNH RIÊNG cho học viên và phụ huynh của VFE cùng Đội ngũ cựu du học sinh Pháp VFE\n3. HƯỚNG DẪN THỦ TỤC HÀNH CHÍNH KHI SANG PHÁP\n20h00 | Thứ 5, 16/07/2026\nHình thức: Online qua Google Meet\nChuỗi sự kiện dành riêng cho học viên & phụ huynh VFE\nĐĂNG KÝ NGAY",
+      "items": [
+        "Top Left: Large navy title 'HÀNH TRANG DU HỌC PHÁP 2026'.",
+        "Top Right: VFE logo in the upper-right corner.",
+        "Bottom Left: Red calendar icons preceding each city/time line.",
+        "Bottom Right: Red CTA button 'ĐĂNG KÝ NGAY'.",
+        "Center/Background: White clean background with thick navy rounded section bars for the three event titles and red icon bullets for content details."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat event-infographic lighting",
+      "effect": "Maximum readability, no realistic shadows, and clean institutional poster clarity."
+    },
+    "technical_specs": {
+      "render_style": "Vector-style event schedule infographic",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality event schedule infographic poster for France pre-departure preparation. Centerpiece is a structured list of three events under the title 'HÀNH TRANG DU HỌC PHÁP 2026', with navy rounded section bars, red calendar icons, bullet-point content descriptions, and a red CTA 'ĐĂNG KÝ NGAY'. Background is a clean white institutional layout with VFE branding. Surrounding elements: detailed HCM and Hà Nội schedules, online Google Meet session line, and event subtitles including 'EN FRANCE, ENSEMBLE'. Technical style: vector-style event schedule infographic, flat event-infographic lighting, crisp text readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place at the upper right."
+        },
+        {
+          "type": "icon",
+          "name": "Calendar, lightbulb, glass, people, and video icons",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve the icon set used for time and content callouts."
+        },
+        {
+          "type": "text_layout",
+          "name": "Three-event schedule poster layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep the three navy section bars, the exact city/time lines, and the CTA placement."
+        }
+      ],
+      "prompt_instructions": "The dates '04/07/2026', '11/07/2026', and '16/07/2026' are all in the past relative to Friday, July 17, 2026. Preserve them exactly as scheduled event dates and do not update them."
+    }
+  }
+}

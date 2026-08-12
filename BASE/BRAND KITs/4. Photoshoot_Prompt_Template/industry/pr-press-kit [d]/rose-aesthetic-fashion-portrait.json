@@ -1,0 +1,80 @@
+{
+  "name": "rose-aesthetic-fashion-portrait",
+  "tag": [
+    "rose-portrait",
+    "menswear-editorial",
+    "pastel-background",
+    "soft-aesthetic",
+    "fashion-closeup"
+  ],
+  "image_type": "editorial-male-portrait",
+  "image_vibe": "soft-dreamy-fashion",
+  "image_purpose": "profile-visual",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Soft aesthetic fashion portrait with a red rose",
+      "color_palette": "pastel pink and lavender background, red rose, pale blue cap, denim blue, white, and silver",
+      "creative_direction": "dreamy editorial fashion portrait"
+    },
+    "main_subject": {
+      "type": "adult man",
+      "detail": "adult man with two-tone hair, black with blonde streaks, light stubble beard, calm direct expression, wearing a light-blue baseball cap with a small embroidered flower, denim jacket over a white shirt, and a silver chain necklace",
+      "action": "holding a red rose vertically so the flower covers one eye",
+      "style": "soft aesthetic male fashion portrait with natural skin texture and realistic facial detail"
+    },
+    "composition_elements": {
+      "framing": "vertical close-up portrait with the face and rose dominant in frame",
+      "subject_position": "adult man centered slightly to the right, rose stem extending toward the lower foreground",
+      "background": "minimal pastel studio background with generous negative space and no extra objects"
+    },
+    "lighting_and_atmosphere": {
+      "type": "large diffused softbox at approximately 5000K with gentle frontal fill",
+      "effect": "soft natural highlights, delicate shadow modeling, shallow depth of field, dreamy quiet atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with a 50mm portrait lens at approximately f/2, editorial fashion photography",
+      "resolution": "4k vertical portrait",
+      "finish": "soft color treatment, visible natural skin texture, restrained saturation, subtle film grain and natural vignetting"
+    },
+    "generated_prompt_string": "A soft aesthetic portrait of an adult man holding a red rose flower over one eye, wearing a light blue baseball cap with a small embroidered flower, two-tone hair black with blonde streaks, light stubble beard, denim jacket over a white shirt, and silver chain necklace. Use a minimal pastel background, soft natural lighting, shallow depth of field, editorial fashion photography, dreamy mood, high detail, a 50mm lens, and a soft color palette. Frame as a vertical close-up with the rose and face dominant, natural skin texture, restrained saturation, subtle grain, and realistic shadow detail.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted face, duplicate rose, text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-male-fashion-model",
+          "required": true,
+          "source": "Original rose portrait preview image",
+          "usage": "Attach an approved adult male face reference when identity continuity is needed; preserve facial structure and likeness without using a celebrity or public-figure likeness."
+        },
+        {
+          "type": "accessory",
+          "name": "light-blue-flower-cap-and-red-rose",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the flower embroidery, rose placement over one eye, rose stem, and color relationship; the cap and flower may be replaced only when the concept is intentionally adapted."
+        },
+        {
+          "type": "wardrobe",
+          "name": "denim-jacket-white-shirt-silver-chain",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the denim jacket, white shirt, and silver chain; keep the outfit consistent while allowing the adult model to be replaced."
+        },
+        {
+          "type": "background",
+          "name": "minimal-pastel-studio-background",
+          "required": false,
+          "source": "Original preview image and source prompt",
+          "usage": "Optional color/environment reference; preserve the minimal pastel field and soft negative space, while the exact hue can be replaced."
+        }
+      ],
+      "prompt_instructions": "Attach the adult person, accessory, and wardrobe references for identity and styling continuity; the pastel background is optional. Keep the rose-over-one-eye composition, cap flower, denim-and-white outfit, silver chain, and soft pastel mood consistent. The adult identity, exact pastel hue, and background are replaceable; if a face reference is supplied, preserve its facial structure and likeness without celebrity identity."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

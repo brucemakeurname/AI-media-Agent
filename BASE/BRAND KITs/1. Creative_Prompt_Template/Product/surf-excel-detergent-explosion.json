@@ -1,0 +1,61 @@
+{
+    "name":  "surf-excel-detergent-explosion",
+    "tag":  [
+                "household",
+                "product demo",
+                "detergent",
+                "explosion shot",
+                "freshness",
+                "FMCG"
+            ],
+    "biz_niche":  "Entertainment & Pop Culture",
+    "content_format":  "Product demos",
+    "group":  "product_fmcg_explosion",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Fresh laundry detergent powder burst",
+                                        "color_palette":  "Aqua blue, white, leaf green, soft floral pink, clean sky blue"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A centered Surf excel Easy Wash detergent pouch on a pale blue reflective base, its top opening erupting into a white powder cloud with water droplets, fabric wisps, leaves, and flower petals.",
+                                        "style":  "Premium FMCG product-explosion advertisement with clean freshness"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Particle explosion/Fabric/Ingredients",
+                                                "text":  "Surf excel Easy Wash",
+                                                "items":  [
+                                                              "Bottom center: upright blue detergent pouch with logo and Easy Wash product text.",
+                                                              "Upper center: high frozen plume of white powder, foam fragments, and blue droplets.",
+                                                              "Within plume: translucent white fabric, green leaves, and small pink flowers.",
+                                                              "Background: airy blue studio gradient fading pale near the base."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Dramatic clean studio lighting",
+                                                   "effect":  "Ultra-sharp frozen particles, bright soft blue backlight, clear packaging, delicate shadow at base"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Ultra-realistic FMCG commercial photography",
+                                           "resolution":  "8K quality, 3:4 aspect ratio"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "Surf excel Easy Wash pouch",
+                                                                 "required":  true,
+                                                                 "source":  "exact packaging reference",
+                                                                 "usage":  "Keep pouch silhouette, logo, graphics, colors, and wording authentic."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach the exact detergent pouch reference.",
+                                                                          "Do not obscure the branding with the explosion.",
+                                                                          "Use freshness props only as physically light suspended particles."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Ultra - realistic commercial FMCG photography showing a BRAND_NAME PRODUCT_TYPE revealed or opened at the bottom center of the frame. The product bursts upward in frozen mid - air motion. Dynamic splashes, pours, fragments, or particles related to VARIANT explode around it. Fresh KEY_INGREDIENT elements appear whole and cut, suspended naturally with fine particles. The BRAND_NAME logo and “VARIANT” text are clearly readable on realistic packaging with authentic material texture. Gradient background inspired by the variant. Dramatic studio lighting. Ultra - sharp focus. Premium cinematic advertising realism. 8K quality. 3:4 aspect ratio.",
+                   "negative_prompt":  "altered package, incorrect Surf excel logo, unreadable variant text, heavy dark shadows, muddy powder, weak burst, low resolution, watermark"
+               }
+}

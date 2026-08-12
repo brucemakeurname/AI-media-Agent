@@ -1,0 +1,59 @@
+{
+  "name": "Blue Knit Flash Selfie Portrait",
+  "tag": "blue-knit-flash-selfie",
+  "image_type": "flash_selfie_portrait",
+  "image_vibe": "cool_modern_lofi",
+  "image_purpose": "beauty_social_editorial",
+  "group": "indie/low-fi-dreamy/cool-moody",
+  "prompt": {
+    "project_info": {
+      "title": "Blue Knit Flash Selfie Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An original adult woman with long dark-brown side-parted hair and a soft slightly cheerful expression.",
+      "wardrobe": "An oversized blue-and-white striped knit sweater, small plain silver hoops, and delicate unbranded silver rings.",
+      "pose_and_expression": "High-angle close selfie with both hands gently cupping the cheeks."
+    },
+    "composition_elements": {
+      "setting": "Dim neutral room with a dark plain wall and no visible personal items.",
+      "framing": "High-angle close portrait, hands and face in sharp focus, sweater texture visible.",
+      "text_and_brand_control": "No named person, exact face preservation, logo, text, watermark, or branded model/tool wording."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Cool dim ambient light plus soft direct camera flash.",
+      "mood": "Friendly, dreamy, modern, and low-fi."
+    },
+    "technical_specs": {
+      "camera_style": "35mm flash selfie aesthetic",
+      "lens": "35mm equivalent",
+      "rendering": "Natural skin, precise hands, knitted texture, faint grain, no plastic retouching."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical 35mm flash-selfie portrait of an original adult woman with long dark-brown side-parted hair and a soft slightly cheerful expression. She wears an oversized blue-and-white striped knit sweater, small plain silver hoops, and delicate unbranded silver rings. Frame a high-angle close selfie as both hands gently cup her cheeks. Use a dim neutral room with a dark plain wall, cool ambient light plus soft direct flash, natural skin, precise hands, visible knitted texture, faint grain, and no plastic retouching. No named person, exact face preservation, model/tool reference, logo, readable text, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, named person, identity lock, explicit, nsfw, overly revealing clothing, logo, readable text, watermark, distorted hands, extra fingers, plastic skin, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Any identity reference is optional and must depict a consenting adult. Wardrobe and makeup references are replaceable guides that cannot contain labels or text.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult face and hair traits only."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "blue_striped_knit_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide sweater color, stripe scale, and knit texture without labels."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed named-person and exact-face requirement while retaining a safe adult flash-selfie concept."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "name": "cyberpunk-neon-street-portrait",
+  "tag": [
+    "adult-woman",
+    "neon-street",
+    "short-bob",
+    "cyberpunk",
+    "fashion-editorial"
+  ],
+  "image_type": "night-street-portrait",
+  "image_vibe": "electric-cinematic-futurist",
+  "image_purpose": "fashion-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the stylish subject is an adult and retained the cinematic neon street-fashion concept without readable signage or branding."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult cyberpunk street-fashion portrait",
+      "color_palette": "teal, cyan, magenta, warm orange, and glossy black",
+      "format": "vertical 4:5 chest-up portrait"
+    },
+    "main_subject": {
+      "description": "a stylish adult woman with a sleek short bob, natural makeup, realistic skin texture, and a glossy black high-fashion jacket with tailored trousers and no visible branding",
+      "pose_and_expression": "standing with a confident, intense gaze toward camera while remaining naturally poised within a moving crowd"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level chest-up street portrait with the adult subject sharply in focus",
+      "foreground": "adult face, glossy black fabric, and soft teal-orange edge light",
+      "background": "crowded city street with motion-blurred pedestrians and abstract neon glows without readable signage",
+      "visual_hierarchy": "adult face and bob haircut, black tailored silhouette, then cyan-magenta city bokeh"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "teal-and-orange cinematic key light with cyan and magenta practical glow and a fine rim light around the face",
+      "atmosphere": "moody, electric, nocturnal, and editorial"
+    },
+    "technical_specs": {
+      "camera": "full-frame camera",
+      "lens": "85mm f/1.4",
+      "settings": "1/160s, f/1.4, ISO 800",
+      "rendering": "ultra-realistic street photography meets fashion editorial, high detail, natural skin texture, heavy bokeh, and shallow depth of field"
+    },
+    "generated_prompt_string": "Ultra-realistic cinematic chest-up portrait of a stylish adult woman standing in a crowded city street. She has a sleek short bob, natural makeup, realistic skin texture, and a glossy black high-fashion jacket with tailored trousers. Keep her sharply focused while pedestrians become soft motion blur. Surround her with abstract teal, cyan, magenta, and warm-orange city glows, heavy bokeh, shallow depth of field, teal-and-orange grading, and a fine rim light around her face. Shoot on a full-frame camera with an 85mm lens at f/1.4: moody cyberpunk street photography meets fashion editorial, with no readable signage or branding.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing, nudity, readable text, logos, watermark, plastic skin, distorted face, extra limbs, deformed hands",
+    "reference_elements": {
+      "prompt_instructions": "All listed references are optional; use them only to replace the stated visual element without copying branded or readable text.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-neon-subject-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity and hairstyle only."
+        },
+        {
+          "type": "wardrobe",
+          "name": "unbranded-glossy-black-tech-fashion-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Replace the jacket and trouser silhouette without branding."
+        },
+        {
+          "type": "environment",
+          "name": "abstract-neon-city-palette-reference",
+          "required": false,
+          "source": "approved environment reference",
+          "usage": "Replace the city glow palette and bokeh character only."
+        }
+      ]
+    }
+  }
+}

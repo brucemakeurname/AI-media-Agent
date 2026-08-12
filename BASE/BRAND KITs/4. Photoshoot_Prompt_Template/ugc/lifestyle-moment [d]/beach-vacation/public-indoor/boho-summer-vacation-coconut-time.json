@@ -1,0 +1,27 @@
+{
+  "name": "boho-summer-vacation-coconut-time",
+  "tag": ["ugc", "tropical-cafe", "boho", "coconut-drink", "tattooed-model"],
+  "image_type": "lifestyle-resort-portrait",
+  "image_vibe": "boho-tropical-relaxed",
+  "image_purpose": "instagram-feed",
+  "group": "lifestyle-moment/beach-vacation/public-indoor",
+  "prompt": {
+    "project_info": "Create photorealistic boho tropical lifestyle photography in a shaded café with warm natural textures.",
+    "main_subject": "An adult blonde woman with visible artistic tattoos on arms and legs, wearing a light green bikini-style top, sheer mint wrap skirt, and straw hat. She holds a fresh coconut drink and has a relaxed confident vacation expression.",
+    "composition_elements": "Centered seated subject in a tropical café with bamboo furniture, wooden tables, hanging plants with purple flowers, and lush greenery. Soft woven canopy overhead creates patterned natural shadows. Use 50mm DSLR look, shallow depth of field, cozy tropical background.",
+    "lighting_and_atmosphere": "Soft diffused sunlight through woven canopy, warm natural textures, relaxed tropical escape mood, realistic tattoo, skin, bamboo, and foliage detail.",
+    "technical_specs": "Photorealistic high-resolution lifestyle photography, 50mm lens, f/2.0, centered composition, shallow depth of field, natural skin texture and realistic proportions.",
+    "generated_prompt_string": "A stylish tropical café scene featuring an adult blonde woman with visible artistic tattoos on her arms and legs, wearing a light green bikini-style top, a sheer mint wrap skirt, and a straw hat, holding a fresh coconut drink. Bamboo furniture, wooden tables, hanging plants with purple flowers, and lush greenery create a warm natural background. Soft sunlight filters through a woven canopy, creating patterned natural shadows. Photorealistic lifestyle photography, 50mm DSLR look, f/2.0, centered subject, shallow depth of field, relaxed confident tropical escape mood, detailed natural skin and fabric texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, extra limbs, extra fingers, deformed, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "tattooed blonde adult café subject", "required": true, "source": "matching local preview image", "usage": "Preserve approved adult face, hair, tattoo placement, outfit, hat, and seated pose; replaceable with another approved adult."},
+        {"type": "wardrobe", "name": "green bikini-style top and mint wrap skirt", "required": true, "source": "matching local preview image", "usage": "Keep green-mint palette, wrap construction, and straw hat consistent; replaceable with equivalent boho resort styling."},
+        {"type": "prop", "name": "fresh coconut drink", "required": true, "source": "matching local preview image", "usage": "Preserve coconut, straw, and handheld placement; replaceable with an equivalent non-branded tropical drink."},
+        {"type": "location", "name": "boho tropical café", "required": true, "source": "matching local preview image", "usage": "Preserve bamboo, canopy, hanging flowers, tables, and foliage; replaceable with an equivalent tropical café."}
+      ],
+      "prompt_instructions": "Attach the preview for adult identity, tattoos, outfit, coconut prop, and café continuity. Preserve face, hair, tattoos, wardrobe, prop, lighting, and centered composition. Replacement assets must remain equivalent and non-branded; no typography is needed."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

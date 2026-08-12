@@ -1,0 +1,26 @@
+{
+  "name": "tropical-island-vacation-girl",
+  "tag": ["ugc", "island-resort", "pastel-romance", "travel-lifestyle", "vertical"],
+  "image_type": "travel-lifestyle-portrait",
+  "image_vibe": "serene-soft-tropical",
+  "image_purpose": "instagram-feed",
+  "group": "lifestyle-moment/beach-vacation/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a bright pastel-toned tropical lifestyle portrait showing a relaxed seaside getaway moment.",
+    "main_subject": "An adult woman with soft rounded features, subtle smile, rosy cheeks, and long loose dark brown waves. She wears a wide-brim straw hat, a white plumeria flower near her right ear, a cream woven shoulder tote, a white off-shoulder corset-style top with front lacing, and a light-yellow tiered flowing skirt.",
+    "composition_elements": "Vertical mid-length framing from head to below knees, single subject centered slightly right, relaxed standing pose with torso angled slightly left and gaze toward camera. Balance her with vertical palm trunks and thatched huts. Show manicured green lawn, ocean shoreline, clear blue sky, and low visual clutter.",
+    "lighting_and_atmosphere": "Soft even natural daylight from overhead and slightly frontal, minimal harsh shadows, warm airy pastel yellow, white, palm green, sky blue, straw beige, and soft pink palette.",
+    "technical_specs": "Eye-level standard-to-slight-wide portrait lens, moderate depth of field with the subject sharp and background identifiable, clean low-noise high-resolution travel photography, natural skin tones and gentle contrast, no typography.",
+    "generated_prompt_string": "A bright pastel-toned tropical lifestyle portrait featuring an adult woman with long loose dark brown waves, a subtle smile and rosy cheeks, wearing a wide-brim straw hat, a white plumeria flower near her right ear, a cream woven shoulder tote, a white off-shoulder corset-style top with front lacing, and a light-yellow tiered flowing skirt. Relaxed standing pose, torso angled slightly left, gaze on-camera, vertical portrait framing from head to below knees, subject centered slightly right. Set her on a resort lawn with tall palms, thatched-roof huts, ocean shoreline, and clear blue sky. Soft natural daylight, warm airy pastel palette, eye-level standard-to-slight-wide portrait lens, moderate depth of field, clean low-noise lifestyle travel photography, serene idyllic vacation mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, cartoon, illustration, grainy, pixelated, extra limbs, extra fingers, deformed, watermark, unwanted text, logo",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "dark-haired adult resort subject", "required": true, "source": "matching local preview image", "usage": "Preserve approved adult identity, hair, expression, hat, and standing pose; replaceable with another approved adult."},
+        {"type": "wardrobe", "name": "white top, pastel yellow skirt, straw hat and woven tote", "required": true, "source": "matching local preview image", "usage": "Keep garment colors, silhouette, flower, hat, and tote consistent; replaceable with an equivalent soft tropical outfit."},
+        {"type": "location", "name": "palm-lined tropical resort lawn", "required": true, "source": "matching local preview image", "usage": "Preserve lawn, palms, huts, ocean, and clear sky hierarchy; replaceable with an equivalent resort environment."}
+      ],
+      "prompt_instructions": "Attach the preview for exact adult identity, wardrobe, and resort continuity. Preserve face, hair, hat, flower, outfit, tote, pastel palette, and vertical hierarchy. Person, wardrobe, and location can be replaced independently only with equivalent approved references; typography is absent and must not be invented."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

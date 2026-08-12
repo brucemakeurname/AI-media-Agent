@@ -1,0 +1,58 @@
+{
+  "name": "sunny-kitchen-sexy-freckled-glance",
+  "tag": [
+    "ugc",
+    "baddie",
+    "public-indoor",
+    "freckles",
+    "kitchen-portrait",
+    "over-shoulder-glance"
+  ],
+  "image_type": "ugc-kitchen-lifestyle-portrait",
+  "image_vibe": "sunny-natural-confident",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/public-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic candid kitchen portrait with warm freckles, dark headband and a confident over-shoulder glance, preserving the visible tattoos and residential setting.",
+    "main_subject": "One original approved adult woman with sun-kissed natural skin, prominent freckles across the nose and cheeks, long wavy dark-blonde hair with lighter balayage and dark roots, held by a thick navy headband. She wears a black ribbed sleeveless high-neck crop top, black tie-side bottoms, small silver hoops and a silver bracelet. Preserve the black line-art tattoos on the left hand, forearm and upper left thigh as supplied visual identity details.",
+    "composition_elements": "Medium three-quarter rear-side portrait from a slightly elevated eye level. The adult woman leans forward against the back of a black leather bar stool, twists her torso and looks over her left shoulder with a warm playful smile. Include light oak floor, white shaker cabinetry, white island, stainless appliances, plantation shutters, crystal pendant and distant dining area.",
+    "lighting_and_atmosphere": "Ample diffused daylight enters from the windows on the right and background, creating gentle highlights on freckles, hair and clothing with natural shadows. Keep the atmosphere bright, domestic and candid.",
+    "technical_specs": "Vertical 4:5 or 2:3 frame, 28–35mm equivalent lens, subject sharp with recognizable kitchen detail and mild background softening, realistic pores, tattoos, hair and fabric texture, natural color.",
+    "generated_prompt_string": "Create a photorealistic candid kitchen portrait of one original approved adult woman with sun-kissed natural skin, prominent freckles across the nose and cheeks, long wavy dark-blonde hair with lighter balayage and dark roots held by a thick navy headband. She wears a black ribbed sleeveless high-neck crop top, black tie-side bottoms, small silver hoops and a silver bracelet. Preserve the supplied black line-art tattoos on her left hand, forearm and upper left thigh. Use a medium three-quarter rear-side portrait from a slightly elevated eye level; she leans against a black leather bar stool, twists her torso and looks over her left shoulder with a warm playful smile. Include light oak floor, white shaker cabinetry, white island, stainless appliances, plantation shutters, crystal pendant and distant dining area. Use ample diffused daylight, gentle highlights, natural shadows, realistic texture and a candid 28–35mm perspective.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, body-part emphasis, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, tattoo drift, invented logos, unreadable text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "sunny-kitchen-sexy-freckled-glance.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, freckles, headband, hair, tattoos and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black ribbed high-neck top, tie-side bottoms and silver jewelry",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve black ribbing, headband, side ties, jewelry and tattoos; replace only with an explicitly supplied wardrobe reference."
+        },
+        {
+          "type": "location",
+          "name": "white residential kitchen, black stool, oak floor and stainless appliances",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve kitchen layout, stool, floor, windows, appliances and daylight; environment may be replaced through explicit references while retaining the rear-side composition."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, face, freckles, headband, hair, tattoos, outfit, stool interaction, kitchen environment and light direction consistent. The approved adult, wardrobe and location can be replaced independently through explicit references; preserve tattoos when the same person reference is retained. No logo or typography is required."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adult.",
+      "Removed sexualized/body-emphasis language while preserving freckles, tattoos, over-shoulder pose and kitchen setting.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

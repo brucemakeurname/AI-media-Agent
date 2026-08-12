@@ -1,0 +1,51 @@
+{
+  "name": "cellphones-opening-voucher-mascot-july",
+  "tag": ["cellphones", "opening campaign", "mascot", "voucher", "july sale"],
+  "biz_niche": "E-commerce & Retail",
+  "content_format": "Competitions",
+  "group": "cellphones_1634628337628682",
+  "prompt": {
+    "project_info": {
+      "theme": "Grand-opening mascot voucher campaign",
+      "color_palette": "CellphoneS red, white, sky blue, green, pink"
+    },
+    "main_subject": {
+      "type": "Character",
+      "detail": "A cute 3D CellphoneS mascot with red antenna-like ears sits in a shopping cart while holding a large grand-opening sign, surrounded by promotional voucher tickets in a bright outdoor cartoon setting.",
+      "style": "Cute 3D mascot sale poster"
+    },
+    "composition_elements": {
+      "type": "Mascot/Tickets/Typography",
+      "text": "ƯU ĐÃI BÙNG NỔ, 10 VOUCHER, TƯNG BỪNG KHAI TRƯƠNG, 11 - 17.07, VOUCHER GIẢM 50% TỐI ĐA 1 TRIỆU, Duy nhất Ngày 11 - 12.07",
+      "items": [
+        "Center Left: oversized smiling 3D CellphoneS mascot seated in a red shopping cart.",
+        "Center Right: large white sign with red outline reading 'TƯNG BỪNG KHAI TRƯƠNG' and a red rounded date pill '11 - 17.07'.",
+        "Upper Right: two floating red ticket shapes reading 'ƯU ĐÃI BÙNG NỔ' and '10 VOUCHER'.",
+        "Bottom Right: diagonal red voucher ticket reading 'VOUCHER GIẢM 50% TỐI ĐA 1 TRIỆU' and 'Duy nhất Ngày 11 - 12.07'.",
+        "Background: soft sky-blue outdoor cartoon city scene with clouds, greenery, and small CellphoneS signposts."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright playful outdoor lighting",
+      "effect": "Friendly mascot charm, glossy toy-like surfaces, festive opening-campaign energy"
+    },
+    "technical_specs": {
+      "render_style": "Cute 3D commercial mascot illustration",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "graphic", "name": "CellphoneS 3D mascot and shopping cart", "required": true, "source": "source image mascot reference", "usage": "Preserve the exact mascot facial style, red antenna ears, and seated-cart pose."},
+        {"type": "text_layout", "name": "grand-opening sign and voucher tickets", "required": true, "source": "source image text reference", "usage": "Keep the exact wording, ticket angles, date ranges, and sign hierarchy."},
+        {"type": "background", "name": "cartoon outdoor city setting", "required": true, "source": "source image background reference", "usage": "Maintain the sky-blue soft-focus environment with clouds and greenery."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the mascot/cart pose and the ticket placements.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the cute toy-like 3D rendering and festive grand-opening feel."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square grand-opening mascot poster in a bright sky-blue outdoor cartoon setting. Show a cute 3D CellphoneS mascot with red antenna-like ears sitting in a red shopping cart, holding a large white sign with red border reading 'TƯNG BỪNG KHAI TRƯƠNG' and a rounded red date block '11 - 17.07'. Add floating red ticket props reading 'ƯU ĐÃI BÙNG NỔ' and '10 VOUCHER', plus a lower-right voucher ticket reading 'VOUCHER GIẢM 50% TỐI ĐA 1 TRIỆU' and 'Duy nhất Ngày 11 - 12.07'. Technical style: cute 3D commercial mascot illustration, bright playful outdoor lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark scene, incorrect text, distorted mascot, low resolution, stiff cart, cluttered background, watermark, signature"
+  }
+}

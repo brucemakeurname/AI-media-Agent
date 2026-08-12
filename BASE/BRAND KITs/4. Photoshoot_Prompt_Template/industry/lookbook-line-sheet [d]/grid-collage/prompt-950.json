@@ -1,0 +1,27 @@
+{
+  "name": "prompt-950",
+  "tag": ["christmas", "twin-concept", "split-screen", "studio-fashion", "grid-collage"],
+  "image_type": "editorial-split-collage",
+  "image_vibe": "fun-playful-festive",
+  "image_purpose": "lookbook",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Fun creative Christmas studio photography with a two-panel twin or cloning effect and playful narrative.",
+    "main_subject": "One original approved adult woman represented consistently in two coordinated panels, with natural skin texture and stable approved-adult facial structure.",
+    "composition_elements": "Two side-by-side panels interact across the frame edge as if looking at herself. Left panel leans right in a green sweater and Santa hat, holding one end of a Christmas cracker. Right panel leans left in a red sweater, holding the other end. Christmas lights, wrapped gifts and a snowman doll sit around the lower frame.",
+    "lighting_and_atmosphere": "Flat, bright, shadowless studio lighting with a yellow or teal bright background and cheerful festive atmosphere.",
+    "technical_specs": "Photorealistic studio photography, 16:9 aspect ratio, clean vertical split, crisp fabric and prop detail, balanced panel alignment.",
+    "generated_prompt_string": "Photorealistic two-panel vertical split Christmas studio photograph with one original approved adult woman represented consistently in both panels, preserving approved-adult facial structure, natural skin texture and recognizable styling. The two panels interact with the frame edge as if she is looking at herself. Left panel: green sweater and Santa hat, leaning right and holding one end of a Christmas cracker ready to pull. Right panel: red sweater, leaning left and holding the other end. Surround the lower frame with Christmas lights, wrapped gifts and a snowman doll. Use a bright yellow or teal studio background, flat bright shadowless lighting, a fun creative cloning effect, playful narrative and 16:9 composition.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, nudity, child, teen, identity drift, mismatched faces, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, duplicated props, unreadable text",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "prompt-950.jpg", "required": true, "source": "local reference image", "usage": "Attach for one original approved-adult face and facial structure to preserve consistently in both panels."},
+        {"type": "wardrobe", "name": "green sweater, red sweater and Santa hat", "required": true, "source": "local reference image", "usage": "Preserve supplied colors, knit texture, hat and panel-specific styling; replace only with equivalent supplied wardrobe."},
+        {"type": "accessory", "name": "Christmas cracker, lights, wrapped gifts and snowman doll", "required": true, "source": "local reference image", "usage": "Preserve prop count, interaction, placement and festive details."},
+        {"type": "background", "name": "bright yellow or teal studio background", "required": true, "source": "local reference image", "usage": "Preserve the clean split background and bright studio environment."}
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, accessory and background references; no optional assets are needed. Keep approved-adult identity, two-panel count, outfits, cracker interaction, props, environment, lighting and typography consistent. Replace only with an equivalent approved adult or supplied festive asset. Typography is not applicable; do not invent text, logos or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced exact source-face locking with an original approved adult while preserving the two-panel cloning concept, outfits, props and festive composition."]}
+}

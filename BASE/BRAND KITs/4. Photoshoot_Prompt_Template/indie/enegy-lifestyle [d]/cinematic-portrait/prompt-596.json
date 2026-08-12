@@ -1,0 +1,69 @@
+{
+  "name": "prompt-596",
+  "tag": [
+    "instagram-grid",
+    "person-and-dog",
+    "identity-preservation",
+    "pet-lifestyle",
+    "nine-panel"
+  ],
+  "image_type": "social-feed-portrait-grid",
+  "image_vibe": "warm-modern-cohesive",
+  "image_purpose": "instagram-feed",
+  "group": "indie/enegy-lifestyle/cinematic-portrait",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "cohesive 3x3 modern lifestyle feed featuring an adult person and their dog",
+      "color_palette": "derived from the attached reference, balanced across warm neutrals, natural greens, and modern city tones",
+      "format": "3x3 grid of nine separate vertical 3:4 posts"
+    },
+    "main_subject": {
+      "type": "adult person and dog from supplied reference image",
+      "detail": "Preserve the exact adult identity, face, age presentation, hairstyle, and recognizable style, plus the dog's exact breed appearance, coat markings, size, and facial features. The center panel must reproduce the attached reference image unchanged.",
+      "style": "warm modern pet-lifestyle photography with consistent identity across the full feed"
+    },
+    "composition_elements": {
+      "text": "preserve source text only if present; do not add text, logo, or watermark",
+      "items": [
+        "nine separate 3:4 images arranged in an even 3x3 grid",
+        "center panel exactly matches the attached reference image",
+        "surrounding panels mix close portrait, indoor reading, street walk, studio, cafe, beach, garden, and travel-adjacent lifestyle moments",
+        "each panel includes the same adult person and dog with coherent styling and a balanced visual rhythm"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "natural and studio lighting varied by panel but harmonized through one soft modern grade",
+      "effect": "authentic expressions, natural skin and fur texture, professional depth of field, cohesive feed atmosphere"
+    },
+    "technical_specs": {
+      "camera": "Canon EOS R5",
+      "lens": "RF 50mm f/1.2 and RF 35mm f/1.8 as appropriate per panel",
+      "render_style": "professional lifestyle photography, realistic canine anatomy, natural skin texture, consistent color grading, clean grid alignment"
+    },
+    "generated_prompt_string": "Using the attached adult person-and-dog reference image as mandatory source, create an even 3x3 Instagram-style grid of nine separate vertical 3:4 lifestyle portraits. The center panel must reproduce the attached reference image unchanged. Across all nine panels, preserve the adult person's exact identity, face, age presentation, hairstyle, and recognizable style, and preserve the dog's exact breed appearance, coat markings, size, and facial features. Create a balanced mix of close portrait, indoor reading, city street walk, minimalist studio, cafe, beach, garden, and travel-adjacent lifestyle moments, with the same adult person and dog visible in each. Vary lighting naturally but unify every panel with one warm modern color grade, authentic expressions, natural skin and fur texture, realistic canine anatomy, and professional depth of field. Preserve source text only when present; otherwise add no text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, identity change, face swap, age alteration, public figure, celebrity likeness, minor, child, dog breed change, changed coat markings, extra animal, missing animal, distorted dog anatomy, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, inconsistent panels, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-identity-reference",
+          "required": true,
+          "source": "Attach the original authorized adult non-public-figure person-and-dog photograph.",
+          "usage": "Mandatory source for the adult person's exact identity, age presentation, face, hair, style, and the unchanged center-grid panel."
+        },
+        {
+          "type": "accessory",
+          "name": "dog-identity-reference",
+          "required": true,
+          "source": "Use the same attached person-and-dog photograph.",
+          "usage": "Mandatory source for the dog's exact breed appearance, coat markings, size, facial features, collar details if visible, and unchanged center-grid panel."
+        }
+      ],
+      "prompt_instructions": "The single attached authorized adult non-public-figure person-and-dog image is mandatory. Keep both identities consistent in every panel and copy it unchanged in the center. Only vary setting, wardrobe, pose, and lighting in the eight surrounding panels; never change the person, dog, their relationship, or unverified visual identifiers."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "istanbul-sunset-kiss",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "outdoor-urban", "istanbul", "sunset-couple", "candid-kiss"],
+  "image_type": "lifestyle-couple-portrait",
+  "image_vibe": "warm-cinematic-romantic",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/soft-elegant/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a warm, real, affectionate present-day Istanbul Moda seaside couple portrait captured like candid film photography.",
+    "main_subject": "Two approved adults sharing a gentle closed-lip kiss on the Moda shoreline path. The woman wears a long warm-neutral trench over an opaque outfit, with natural modern hair moved by the sea breeze and minimal jewelry. The man wears a clean fitted dark coat/jacket and trousers with no logos. Their expressions and hands are relaxed and natural; she lightly holds his coat sleeve and his hand rests softly at her waist level without gripping.",
+    "composition_elements": "Vertical 4:5 close-medium portrait at eye level, both faces and hands sharp, couple centered in the foreground, sea behind them, low sun and reflected water, a distant ferry, softly blurred people, and a street cat on a shore rock. Keep the candid closeness and natural body proportions.",
+    "lighting_and_atmosphere": "True golden-hour sunset with warm skin tones, soft contrast, controlled flare, natural sea haze, light wind in hair and coat fabric, and a quiet affectionate atmosphere. Avoid theatrical posing or HDR.",
+    "technical_specs": "Ultra-photorealistic cinematic film still, 85mm portrait lens, eye-level close-medium shot, very shallow depth of field, faces and hands sharp, subtle fine film grain, natural dynamic range, 4:5 portrait crop.",
+    "generated_prompt_string": "Create an ultra-photorealistic cinematic film still of two approved adults sharing a gentle closed-lip kiss on the present-day Istanbul Moda shoreline path at sunset. The woman lightly holds the man's coat sleeve near the wrist with relaxed fingers; his hand rests softly at her waist level without gripping. Both have calm natural micro-expressions and realistic skin texture. She wears a long warm-neutral trench over an opaque outfit, with natural modern hair moved by the sea breeze and minimal subtle jewelry. He wears a clean fitted dark coat or jacket and trousers with no logos. The sea is behind them with low sun reflecting on the water, a ferry far in the background, a few distant people fully out of focus, and a street cat sitting on a shore rock. Include authentic stone shoreline textures, simple railings or low rocks, natural sea haze, and controlled warm sunset flare with no readable signage or billboards. Use an eye-level 85mm close-medium portrait, very shallow depth of field, faces and hands sharp, subtle fine film grain, warm skin, soft contrast, and natural non-HDR dynamic range in a 4:5 vertical composition.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, coercive contact, distorted faces, deformed hands, extra fingers, warped limbs, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, readable signage, random text, logo",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-female-couple-reference", "required": true, "source": "istanbul-sunset-kiss.jpg", "usage": "Preserve the adult woman's face, hair, expression, coat, and identity."},
+        {"type": "person", "name": "approved-adult-male-couple-reference", "required": true, "source": "istanbul-sunset-kiss.jpg", "usage": "Preserve the adult man's face, hair, expression, coat, and identity."},
+        {"type": "wardrobe", "name": "warm-neutral-trench-and-dark-coat", "required": true, "source": "istanbul-sunset-kiss.jpg", "usage": "Keep both coats, opaque outfit, fabric folds, and logo-free styling consistent; replace only with explicit wardrobe references."},
+        {"type": "location", "name": "istanbul-moda-seaside-sunset", "required": true, "source": "istanbul-sunset-kiss.jpg", "usage": "Maintain the shoreline path, sea, ferry, sunset, railing, and distant cat; replace only with an explicit location reference."}
+      ],
+      "prompt_instructions": "Attach both person references, wardrobe, and location when exact consistency is required. Preserve both adult identities, facial structure, couple contact, clothing, environment, and camera hierarchy. The ferry, cat, and distant people may be replaced only with explicit alternatives; preserve identity, outfit, product, logo, environment, and typography in any replacement. No logo or typography is present."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified both subjects as approved adults and retained the source's affectionate non-explicit kiss.", "Added anatomy, consent-safe contact, and anti-distortion constraints."]}
+}

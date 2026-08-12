@@ -1,0 +1,72 @@
+{
+  "name": "vintage-film-ming-noble",
+  "tag": [
+    "historical-fashion",
+    "ming-inspired",
+    "court-attire",
+    "cinematic-portrait",
+    "vintage-film",
+    "menswear"
+  ],
+  "image_type": "historical-editorial-portrait",
+  "image_vibe": "poetic-warm-vintage-cinematic",
+  "image_purpose": "editorial-concept-art",
+  "group": "indie/analog-vintage",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced generic quality-padding and named-film emulation with concrete camera, lighting, and texture direction."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "poetic historical editorial of an adult courtly figure in a Ming-inspired setting",
+      "color_palette": "low-saturation warm brown, ivory, muted black, and embroidered jewel tones",
+      "format": "vertical full-body fashion portrait"
+    },
+    "main_subject": {
+      "type": "adult East Asian man",
+      "detail": "Tall poised figure walking forward in a black winged official-style hat and an ivory round-collar robe with colorful circular dragon embroidery across the chest and shoulders, secured with a gold-toned belt.",
+      "style": "historical editorial realism with a restrained, observant expression"
+    },
+    "composition_elements": {
+      "text": "no text, logos, watermarks, or modern signage",
+      "items": [
+        "a second adult attendant in dark historical clothing follows in the background",
+        "carved wooden corridor columns and lattice windows frame the scene",
+        "use a softly blurred foreground column for depth",
+        "keep the lead figure sharply defined against a softened background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "late-afternoon side backlight with dappled highlights",
+      "effect": "quiet, unhurried, cinematic atmosphere with natural contrast and gentle haze"
+    },
+    "technical_specs": {
+      "camera": "Fujifilm GFX100 II",
+      "lens": "110mm f/2 at f/2.8",
+      "render_style": "fine analog grain, gentle halation, restrained warm film color, tactile silk texture, natural skin detail"
+    },
+    "generated_prompt_string": "Create a vertical full-body historical editorial portrait of an adult East Asian man walking through a carved wooden corridor. He wears a black winged official-style hat and an ivory Ming-inspired round-collar robe with colorful circular dragon embroidery on the chest and shoulders, plus a gold-toned belt. A second adult attendant in dark historical attire follows behind him. Frame the scene through a softly blurred wooden column, with lattice windows and carved architecture receding in the background. Use late-afternoon side backlight, dappled highlights, low-saturation warm brown and ivory tones, shallow depth of field, restrained analog grain, gentle halation, and realistic fabric and skin texture. No modern objects, text, logos, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, contemporary clothing, modern architecture, fantasy armor, plastic skin, excessive glow, oversaturation, cluttered frame, distorted hands, duplicate person, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-lead-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult reference portrait when a specific non-public-figure identity is required.",
+          "usage": "Replace only the lead adult subject's identity while retaining the historical wardrobe, pose direction, and scene composition."
+        },
+        {
+          "type": "wardrobe",
+          "name": "ming-inspired-ivory-robe-reference",
+          "required": false,
+          "source": "Attach a garment reference.",
+          "usage": "Replace the robe's embroidery and material while preserving the ivory silhouette and formal historical mood."
+        }
+      ],
+      "prompt_instructions": "If references are attached, prioritize their identity or garment details only for the matching element; retain the adult subject, historical setting, corridor layout, and lighting design."
+    }
+  }
+}

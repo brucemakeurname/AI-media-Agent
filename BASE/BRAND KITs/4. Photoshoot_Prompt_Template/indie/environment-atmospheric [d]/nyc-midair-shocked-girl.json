@@ -1,0 +1,59 @@
+{
+  "name": "Golden-Hour Street Leap Portrait",
+  "tag": "golden-hour-street-leap",
+  "image_type": "action_street_portrait",
+  "image_vibe": "cinematic_energetic_golden_hour",
+  "image_purpose": "lifestyle_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Golden-Hour Street Leap Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with shoulder-length brown hair and a surprised delighted expression.",
+      "wardrobe": "An olive bomber jacket, gray crew-neck T-shirt, black straight jeans, and black ankle boots.",
+      "pose_and_expression": "A small joyful leap on a wide pedestrian plaza, one hand extended naturally for balance."
+    },
+    "composition_elements": {
+      "setting": "Generic historic city streetscape at golden hour, with abstracted brownstone-like facades, distant anonymous traffic, and a marked pedestrian-only plaza.",
+      "framing": "Cinematic freeze frame at eye level, subject sharp with moving background softened.",
+      "text_and_brand_control": "No named city, taxi brand, street name, readable signs, logos, or text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Warm late-afternoon sun with a small natural lens flare.",
+      "mood": "Playful, surprising, and energetic."
+    },
+    "technical_specs": {
+      "camera_style": "high-speed cinematic digital still",
+      "lens": "35mm equivalent",
+      "rendering": "Frozen natural action, accurate limbs and hands, realistic fabric motion, moderate depth of field."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical cinematic freeze-frame of an adult woman with shoulder-length brown hair and a surprised delighted expression. She wears an olive bomber jacket, gray crew-neck T-shirt, black straight jeans, and black ankle boots. Capture a small joyful leap on a wide pedestrian-only plaza, with one hand extended naturally for balance. Surround her with a generic historic city streetscape at golden hour, abstract brownstone-like facades, and distant anonymous traffic. Use eye-level 35mm framing, sharp subject, softly moving background, warm late-afternoon sun, a small natural lens flare, frozen natural action, accurate limbs and hands, realistic fabric movement, and moderate depth of field. No named city, taxi branding, street names, readable signage, logos, text, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, unsafe traffic jump, explicit, nsfw, overly revealing clothing, logo, street name, readable text, watermark, distorted limbs, extra fingers, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Any identity reference must depict a consenting adult. Location and wardrobe references are replaceable; blank all location and commercial identifiers.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult face and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "golden_hour_pedestrian_plaza_reference",
+          "required": false,
+          "source": "user-provided streetscape reference",
+          "usage": "Guide plaza and facade texture without city identifiers."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adult subject, replaced a live traffic jump with a pedestrian-plaza action, and removed named-city/signage dependencies."
+  }
+}

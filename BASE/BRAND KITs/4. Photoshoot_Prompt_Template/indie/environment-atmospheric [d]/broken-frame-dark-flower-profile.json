@@ -1,0 +1,66 @@
+{
+  "name": "Crimson Flower Field Broken-Frame Profile",
+  "tag": "crimson-flower-broken-frame-profile",
+  "image_type": "conceptual_profile_portrait",
+  "image_vibe": "melancholic_misty_film",
+  "image_purpose": "creative_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Crimson Flower Field Broken-Frame Profile",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with short platinum-blonde hair and a contemplative side profile.",
+      "wardrobe": "A matte black high-neck coat with no visible labels.",
+      "pose_and_expression": "Standing still in profile among flowers, eyes directed toward the distant hills."
+    },
+    "composition_elements": {
+      "setting": "A broad field of deep crimson flowers, misty mountain silhouette, and heavy overcast sky.",
+      "graphic_device": "A thin white rectangular graphic frame centered in the image, crossed naturally by the subject's head and shoulders.",
+      "framing": "Medium profile portrait with foreground flowers softly blurred."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft back-diffused cloud light forming a restrained rim around hair and profile.",
+      "mood": "Melancholic, calm, modern, and cinematic."
+    },
+    "technical_specs": {
+      "camera_style": "high-grain fine-art film portrait",
+      "lens": "85mm equivalent",
+      "rendering": "Shallow depth of field, rich flower texture, natural skin, subtle haze, clean geometric overlay."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical high-grain fine-art film profile portrait of an adult woman with short platinum-blonde hair, a contemplative sideways gaze, and a matte black high-neck coat. Stand her in a broad field of deep crimson flowers beneath a heavy overcast sky, with misty mountains distant behind her. Add a thin white rectangular graphic frame centered in the image; her head and shoulders naturally cross its top and bottom edges. Use medium-profile framing, softly blurred foreground flowers, soft back-diffused cloud light, restrained rim light, shallow 85mm depth of field, rich flower texture, natural skin, subtle haze, and clean geometry. No text, logo, watermark, celebrity likeness, or sexualized styling.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, lingerie, readable text, logo, watermark, distorted profile, malformed hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional adult identity references may guide general approved traits. Flower-field and graphic-layout references are replaceable and do not supply text or brand content.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_profile_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general adult profile and hair texture only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "crimson_flower_field_reference",
+          "required": false,
+          "source": "user-provided landscape reference",
+          "usage": "Guide flower density, mist, and mountains."
+        },
+        {
+          "type": "layout_reference",
+          "name": "thin_rectangle_overlay_reference",
+          "required": false,
+          "source": "user-provided composition reference",
+          "usage": "Guide geometric overlay placement only."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adult status and retained a non-sensitive conceptual portrait with replaceable identity, landscape, and layout guides."
+  }
+}

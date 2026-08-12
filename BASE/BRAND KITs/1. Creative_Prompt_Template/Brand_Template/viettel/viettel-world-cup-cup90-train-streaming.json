@@ -1,0 +1,78 @@
+{
+  "name": "viettel-world-cup-cup90-train-streaming",
+  "tag": [
+    "viettel",
+    "world-cup",
+    "streaming",
+    "data-free",
+    "train-scene"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "viettel_1720852642544719",
+  "prompt": {
+    "project_info": {
+      "theme": "Viettel TV360 World Cup mobile streaming package on public transport",
+      "color_palette": "White, Viettel red, black, rainbow ribbon stripes, warm skin tones, muted subway interior"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "Two young men seen from behind sitting on a train or metro bench, watching a football match on a smartphone held landscape near the window. The headline in the top left reads '40.000/3 THÁNG' and 'DK CUP90 gửi 1331'.",
+      "style": "Realistic lifestyle advertising photo composite with promo typography and branded curved ribbon overlay"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "40.000/3 THÁNG; DK CUP90 gửi 1331; viettel telecom; Xem trọn vẹn World Cup 2026 | Miễn phí data 4G/5G Viettel | +120 kênh truyền hình trong nước & quốc tế; Xem các giải Bundesliga, V.League | Xem đồng thời trên 02 thiết bị",
+      "items": [
+        "Top Left: Large red price headline and black registration code text",
+        "Top Right: Viettel telecom logo in red and black",
+        "Bottom Left: White benefit text over a darkened band at the lower edge",
+        "Bottom Right: Curved multicolor ribbon arcs framing the right side of the image",
+        "Center/Background: Bright subway interior with motion blur outside the window and two men focused on football streaming on a phone"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Natural daylight lifestyle lighting",
+      "effect": "Soft ambient train-window light, motion blur outside, realistic skin tones, mild advertisement polish"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal lifestyle advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for a Viettel TV360 World Cup mobile streaming package on public transport. Centerpiece is a realistic lifestyle scene of two young men sitting on a metro bench, seen from behind while watching a football match on a smartphone near the train window. Include the exact text '40.000/3 THÁNG' and 'DK CUP90 gửi 1331' in the upper left. Background is a bright train interior with motion blur outside the window. Surrounding elements: Viettel telecom logo in the top right, large curved multicolor ribbon arcs along the right edge, and small white benefit copy at the bottom reading 'Xem trọn vẹn World Cup 2026 | Miễn phí data 4G/5G Viettel | +120 kênh truyền hình trong nước & quốc tế' and 'Xem các giải Bundesliga, V.League | Xem đồng thời trên 02 thiết bị'. Technical style: photoreal lifestyle advertising composite, natural daylight lifestyle lighting, soft ambient train-window light and motion blur, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel telecom logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Top-right corner brand lockup"
+        },
+        {
+          "type": "person",
+          "name": "Two young male passengers",
+          "required": true,
+          "source": "recreated from the original photo composition",
+          "usage": "Rear-view subjects watching football on a phone in a train"
+        },
+        {
+          "type": "ui_reference",
+          "name": "Football stream visible on smartphone screen",
+          "required": true,
+          "source": "original creative concept",
+          "usage": "Small but recognizable live match view on the phone display"
+        },
+        {
+          "type": "graphic",
+          "name": "Multicolor World Cup ribbon arcs",
+          "required": true,
+          "source": "recreated branded sports motif",
+          "usage": "Frame the right side and reinforce campaign continuity"
+        }
+      ],
+      "prompt_instructions": "Keep this as a square social ad with a candid but polished travel moment. The metro window blur and the small phone screen are critical. Do not replace the train with a home scene. All promotional text should stay in the same top-left and bottom-edge hierarchy."
+    }
+  }
+}

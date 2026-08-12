@@ -1,0 +1,22 @@
+{
+  "name": "intense-red-hair-blue-eyes-fashion-foreshortening",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "red-hair", "foreshortening"],
+  "image_type": "dynamic fashion studio portrait",
+  "image_vibe": "intense, bold, dramatic, fashion-forward",
+  "image_purpose": "editorial campaign and lookbook portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic dynamic fashion portrait of one original approved adult woman in a minimalist white studio with controlled forced perspective.",
+    "main_subject": "Original approved adult woman with long voluminous wavy bright-red hair parted in the middle, pale natural skin with visible pores, light blue eyes, intense direct gaze, and neutral confident expression. She wears the supplied black strapless structured corset bodysuit with boning detail, sheer black opera-length gloves, and sheer black tights.",
+    "composition_elements": ["Dynamic crouching or kneeling stance leaning toward camera, with the right hand reaching toward the lens for dramatic foreshortening and slight foreground motion blur.", "Face and eyes remain in sharp focus while the hand falls gently out of focus.", "Clean white cyclorama with the corner of a large professional softbox visible in the upper-left frame and natural contact shadow on the floor."],
+    "lighting_and_atmosphere": "Soft diffused large-softbox lighting with even face exposure, gentle hair highlights, controlled shadows defining the supplied corset structure, and bold cinematic fashion atmosphere.",
+    "technical_specs": "Photorealistic 4:5 wide-angle portrait, 35mm lens at f/2.8 with controlled forced perspective, shallow depth of field, 8K RAW-style detail, realistic skin pores and fabric, subtle grain, no text or watermark.",
+    "generated_prompt_string": "Photorealistic high-fashion studio portrait of one original approved adult woman with long voluminous wavy bright-red hair parted in the middle, pale natural skin with visible pores, light blue eyes, an intense direct gaze, and a neutral confident expression. She wears the supplied black strapless structured corset bodysuit with boning detail, sheer black opera-length gloves, and sheer black tights. Show her in a dynamic crouching or kneeling stance leaning toward the camera, with her right hand reaching dramatically toward the lens for extreme foreshortening; keep the face and eyes sharp while the hand has slight depth-of-field blur. Use a clean white cyclorama, a softbox corner visible in the upper left, natural floor contact shadows, soft diffused lighting, 35mm lens, 4:5 framing, 8K RAW-style detail, no text or watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "explicit body measurements", "distorted perspective", "malformed hands", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "extra fingers", "deformed", "text", "logo"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "intense-red-hair-blue-eyes-fashion-foreshortening.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult face, red hair, eyes, expression, and pose."}, {"type": "wardrobe", "name": "black structured corset bodysuit, sheer opera gloves and tights", "required": true, "source": "local reference image", "usage": "Preserve supplied outfit, boning, glove length, tights, and black styling."}, {"type": "location", "name": "white cyclorama with visible softbox corner", "required": true, "source": "local reference image", "usage": "Preserve studio background, softbox placement, floor, and contact shadow."}],
+      "prompt_instructions": "Attach all required person, wardrobe, and location references; no optional assets are needed. Keep approved-adult identity, face, hair, outfit, foreshortened pose, environment, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent supplied wardrobe, or equivalent studio. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and removed explicit or body-measurement language while preserving the supplied corset outfit, gloves, tights, foreshortened pose, and dramatic fashion intent."]}
+}

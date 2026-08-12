@@ -1,0 +1,59 @@
+{
+  "name": "Night Street Flash Snapshot",
+  "tag": "night-street-flash-snapshot",
+  "image_type": "candid_street_flash_portrait",
+  "image_vibe": "playful_gritty_classic_negative",
+  "image_purpose": "social_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Night Street Flash Snapshot",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with a bright playful smile and strong lens awareness.",
+      "wardrobe": "A textured faux-fur jacket over a plain charcoal knit, straight dark jeans, and simple black ankle boots.",
+      "pose_and_expression": "She leans slightly toward camera in a relaxed upright stance, hands loosely together in front, with eyes toward the lens."
+    },
+    "composition_elements": {
+      "setting": "An urban sidewalk at night, subject in the left third with blurred anonymous city lights and storefront shapes filling the negative space.",
+      "framing": "Medium-full off-center eye-level street snap.",
+      "text_and_brand_control": "No user-portrait requirement, storefront copy, logos, watermark, or visible brand graphic."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Hard direct on-camera flash against a dark cool street background with defined drop shadow.",
+      "mood": "Spontaneous, friendly, slightly gritty, and energetic."
+    },
+    "technical_specs": {
+      "camera_style": "Fujifilm Classic Negative-inspired street snapshot",
+      "lens": "35mm equivalent",
+      "rendering": "Cool background, warm flash skin tones, high contrast, crisp face, realistic hands, and restrained grain."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical Fujifilm Classic Negative-inspired flash street snapshot of an adult woman with a bright playful smile and strong lens awareness. She wears a textured faux-fur jacket over a plain charcoal knit, straight dark jeans, and simple black ankle boots. Place her upright and slightly leaning toward camera in the left third of a nighttime sidewalk; her hands rest loosely together in front and her eyes meet the lens. Fill the right-side negative space with blurred anonymous city lights and storefront shapes. Use hard direct on-camera flash, defined drop shadow, cool background, warm flash skin, high contrast, crisp face, realistic hands, and restrained grain. No portrait-slot dependency, readable storefront copy, logos, watermark, or brand graphics.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, fetish styling, sexualized pose, forced knees-in pose, logo, readable text, watermark, distorted hands, extra limbs, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Identity references are optional and must depict a consenting adult. Replaceable wardrobe and streetscape references must omit store text, logos, and personal identity information.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general adult face and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "night_sidewalk_reference",
+          "required": false,
+          "source": "user-provided street reference",
+          "usage": "Guide lights and sidewalk depth while blanking signage."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed face-upload dependency and youth-coded/body-emphasizing directions; clarified an adult, covered, neutral street pose."
+  }
+}

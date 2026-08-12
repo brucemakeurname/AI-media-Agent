@@ -1,0 +1,64 @@
+{
+  "name": "a-selfie-of-a-pretty-girl",
+  "tag": [
+    "summer-lifestyle",
+    "grass-portrait",
+    "low-angle",
+    "lavender-camisole",
+    "golden-hour"
+  ],
+  "image_type": "lifestyle-candid",
+  "image_vibe": "playful-warm-summery",
+  "image_purpose": "instagram-feed",
+  "group": "indie/enegy-lifestyle/beach-summer",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed sexualized pose, body-part emphasis, intimate framing, and public-figure styling; retained the adult summer grass portrait concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "relaxed adult summer lifestyle portrait on grass",
+      "color_palette": "lavender, coral, leaf green, sky blue, and warm gold",
+      "format": "vertical 4:5"
+    },
+    "main_subject": {
+      "type": "adult East Asian woman",
+      "detail": "Adult woman with long brunette hair and a feminine silhouette, resting comfortably on a grassy lawn and smiling softly toward a low camera in the lavender camisole and colorful swirled skirt shown.",
+      "style": "casual, confident summer fashion candid with natural skin texture"
+    },
+    "composition_elements": {
+      "text": "no text, logo, or watermark",
+      "items": [
+        "grass-level low-angle view",
+        "weathered tree trunk behind the subject",
+        "lush leaves and blue sky above",
+        "lavender camisole, colorful swirled skirt, white sneakers, and simple gold necklaces"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "golden-hour sunlight filtered through foliage at approximately 4800K",
+      "effect": "warm rim light on hair, sunlight gently highlighting shoulders and chest area through the camisole, gentle dappled shadows, and a lazy outdoor afternoon"
+    },
+    "technical_specs": {
+      "camera": "Contax 645",
+      "lens": "Zeiss 80mm f/2 at f/2.8",
+      "render_style": "warm medium-format film color, gentle grain, natural skin texture, shallow depth of field"
+    },
+    "generated_prompt_string": "Create a vertical 4:5 casual summer lifestyle portrait of an adult East Asian woman with a feminine silhouette, resting comfortably on green grass beneath a large weathered tree. Use a grass-level low angle with leafy branches and blue sky overhead. Keep the lavender camisole, colorful swirled skirt, white sneakers, and subtle layered gold necklaces shown; her long brunette hair catches warm backlight. She smiles softly at the camera in a relaxed, playful manner. Use filtered 4800K golden-hour sunlight, dappled leaf shadows, and light gently highlighting her shoulders and chest area through the camisole, with warm medium-format film color, natural skin texture, and shallow depth of field. Keep the full composition fashion-lifestyle focused, with no sexualized pose, text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, sexualized pose, cleavage emphasis, nudity, lingerie, intimate gaze, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity replacement is required.",
+          "usage": "Replace only the adult subject identity while preserving wardrobe, relaxed pose, tree setting, and golden-hour lighting."
+        }
+      ],
+      "prompt_instructions": "Optional adult subject reference only. Preserve the grass-level composition, tree, outfit palette, camera angle, and non-sexualized lifestyle mood."
+    }
+  }
+}

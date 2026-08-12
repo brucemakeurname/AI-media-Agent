@@ -1,0 +1,19 @@
+{
+  "name": "prompt-1048",
+  "tag": ["indie", "low-fi-dreamy", "vintage-film", "film-collage", "beauty"],
+  "image_type": "2x2 portrait collage",
+  "image_vibe": "Analog film beauty collage, dreamlike lighting, expressive emotional sequence",
+  "image_purpose": "Create a four-panel cinematic close-up collage showing varied natural facial expressions.",
+  "group": "vintage-film",
+  "prompt": {
+    "project_info": "A 2x2 grid cinematic analog-film collage using one consistent original adult subject.",
+    "main_subject": "An original adult woman shown in four close-up portraits with consistent facial features, natural dewy skin, and glossy but tasteful lips.",
+    "composition_elements": "Four equal panels: top-left direct cold high-fashion gaze; top-right playful wink and subtle smirk; bottom-left shy soft gaze with relaxed lips; bottom-right genuine bright laugh with eyes crinkled and head slightly tilted back.",
+    "lighting_and_atmosphere": "Dreamlike soft lighting, gentle highlight roll-off, emotional atmosphere, soft focus, and consistent light across the four-panel sequence.",
+    "technical_specs": "2x2 grid collage, close-up portrait framing, analog film photography, heavy but controlled grain, natural dewy skin texture, consistent subject across all panels, no text.",
+    "generated_prompt_string": "Create a 2x2 cinematic analog-film photo collage of the same original adult woman in four close-up portraits. Top-left: cold aloof direct gaze. Top-right: playful wink with subtle smirk. Bottom-left: shy soft gaze with relaxed lips. Bottom-right: genuine bright laugh with crinkled eyes and head slightly tilted back. Use dreamlike soft lighting, soft focus, natural dewy skin, tasteful glossy lips, controlled heavy film grain, and a cohesive emotional sequence with no text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor or teen-coded subject, nudity, sexualized expression, distorted face, inconsistent identity between panels, plastic skin, excessive retouching, watermark, text",
+    "reference_elements": {"assets": [{"type": "image_reference", "name": "source four-panel beauty reference", "required": false, "source": "https://img.opennana.com/prompts/images/1048.jpeg", "usage": "Use only for four-panel layout, expression sequence, and analog-film treatment; do not copy identity."}], "prompt_instructions": "Preserve the 2x2 expressive collage and analog-film beauty concept. Keep one original adult subject consistent across all panels."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced named/identity-based subject with one original adult subject.", "Kept expressions non-explicit and added consistency/safety exclusions."]}
+}

@@ -1,0 +1,78 @@
+{
+  "name": "viettel-messi-tv360-reward-invite",
+  "tag": [
+    "viettel",
+    "tv360",
+    "messi",
+    "reward-invite",
+    "prize-promo"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "viettel_1019809400452474",
+  "prompt": {
+    "project_info": {
+      "theme": "Messi-style character invites users to TV360 to claim rewards",
+      "color_palette": "White, black, Viettel red, soft beige, Argentina sky blue, product gray"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A cartoon-styled Lionel Messi-like character in an Argentina striped kit sits casually on a bench in front of a large blank television. A speech bubble says 'VÔ NGAY TV360 NHẬN QUÀ LIỀN'. The headline above reads 'ANH MƯỜI NGỒI ĐÂY TỪ CHIỀU QUÀ CÒN NHIỀU'. Large prizes stand beside him: a white PlayStation 5-like console on the left and a dark Samsung smartphone on the right.",
+      "style": "Soft digital cartoon illustration with big-headed celebrity caricature and clean prize-promo layout"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "viettel telecom; ANH MƯỜI NGỒI ĐÂY TỪ CHIỀU QUÀ CÒN NHIỀU; VÔ NGAY TV360 NHẬN QUÀ LIỀN; TV360; SAMSUNG",
+      "items": [
+        "Top Left: Open white space with soft warm gradient",
+        "Top Right: Viettel telecom logo in red and black",
+        "Bottom Left: Large white PS5-style game console in the foreground",
+        "Bottom Right: Large dark Samsung smartphone leaning near the bench",
+        "Center/Background: Messi-like cartoon sitting on a bench in front of a large black TV with a speech bubble pointing from his face"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft illustrated ambient lighting",
+      "effect": "Gentle gradient wash, clean line shading, friendly promo mood, product emphasis without harsh contrast"
+    },
+    "technical_specs": {
+      "render_style": "Polished digital cartoon illustration",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square illustrated social poster for a TV360 prize-promo invite featuring a Messi-like character. Centerpiece is a polished digital cartoon of a Lionel Messi-style football star in an Argentina striped kit sitting casually on a bench in front of a large blank TV. Include the exact visible text 'ANH MƯỜI NGỒI ĐÂY TỪ CHIỀU QUÀ CÒN NHIỀU' and 'VÔ NGAY TV360 NHẬN QUÀ LIỀN'. Background is a simple bright outdoor or stadium-side bench setting with a large TV. Surrounding elements: Viettel telecom logo at top, a white PS5-style console in the left foreground, and a dark Samsung smartphone in the right foreground. Technical style: polished digital cartoon illustration, soft illustrated ambient lighting, gentle gradient wash and clean line shading, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel telecom logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Top-center/right brand lockup"
+        },
+        {
+          "type": "person",
+          "name": "Lionel Messi caricature reference",
+          "required": true,
+          "source": "real-player likeness reference adapted into cartoon style",
+          "usage": "Preserve face shape, beard, haircut, and Argentina-kit identity"
+        },
+        {
+          "type": "product",
+          "name": "PlayStation 5-like console",
+          "required": true,
+          "source": "real product reference if exact silhouette matters",
+          "usage": "Left foreground reward hero"
+        },
+        {
+          "type": "product",
+          "name": "Samsung smartphone",
+          "required": true,
+          "source": "real product reference if exact silhouette matters",
+          "usage": "Right foreground reward hero"
+        }
+      ],
+      "prompt_instructions": "Keep the tone playful and prize-oriented. The character should look like a soft celebrity caricature, not a realistic portrait. Preserve the exact speech-bubble copy and the oversized reward products flanking the bench."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "tiktok-beauty-live-interface",
+  "tag": ["ugc", "live-stream", "beauty-host", "mobile-ui", "social-interface"],
+  "image_type": "live-stream-interface-screenshot",
+  "image_vibe": "intimate-authentic-social",
+  "image_purpose": "story-reel-cover",
+  "group": "viral-trending",
+  "prompt": {
+    "project_info": "Create a social live-stream interface screenshot featuring an adult beauty host broadcasting from a dim indoor room.",
+    "main_subject": "An adult woman with tied-back dark hair and a natural beauty-host presentation, seated close to the camera with one hand near her cheek. Preserve her approved adult identity and calm engaged expression.",
+    "composition_elements": "Vertical mobile live-stream screen with host image centered, profile/avatar area at top, follower/viewer count, live ranking and gift panels, scrolling comments at lower left, action icons, and bottom comment field. Preserve the observed Chinese/Douyin-style interface structure in the preview rather than inventing a different UI.",
+    "lighting_and_atmosphere": "Soft indoor low-light beauty-stream atmosphere, gentle face illumination, realistic phone-camera texture, authentic social broadcasting mood.",
+    "technical_specs": "9:16 mobile interface composition, photorealistic host image, coherent UI layers, readable hierarchy, realistic icons and translucent comment overlays, no unrelated branding or fabricated text.",
+    "generated_prompt_string": "Generate a 9:16 social live-stream interface screenshot featuring an adult beauty host broadcasting from a dim indoor room. She has tied-back dark hair, sits close to the camera with one hand near her cheek, and maintains a calm engaged expression. Center the photorealistic host image within a mobile live interface with profile/avatar area, viewer or follower count, live ranking and gift panels, scrolling comments, action icons, and bottom comment field. Preserve the observed Chinese/Douyin-style interface structure, soft indoor face illumination, realistic phone-camera texture, and authentic social-broadcasting mood. Do not invent unrelated branding or random readable text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, identity drift, illegible UI, random text, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, extra limbs, extra fingers, deformed, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved adult live-stream host", "required": true, "source": "matching local preview image", "usage": "Preserve approved adult face, hair, expression, pose, and natural styling; replaceable with another approved adult host."},
+        {"type": "ui_reference", "name": "Chinese mobile live-stream interface", "required": true, "source": "matching local preview image", "usage": "Preserve observed top bars, comments, gifts, icons, and translucent overlays; replaceable only with equivalent platform UI structure."},
+        {"type": "location", "name": "dim indoor streaming room", "required": true, "source": "matching local preview image", "usage": "Preserve dark room, bed/background context, and soft face lighting; replaceable with an equivalent streaming environment."}
+      ],
+      "prompt_instructions": "Attach the matching preview to lock adult host identity, UI arrangement, and room lighting. Preserve face, hair, interface hierarchy, and comment/gift placement. UI text may be replaced with equivalent non-misleading text; do not add logos, unrelated platform marks, or unsupported claims."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

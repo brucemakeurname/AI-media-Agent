@@ -1,0 +1,37 @@
+{
+  "name": "neon-night-masquerade-fashion",
+  "tag": ["masquerade", "sequin-dress", "rooftop", "raw-flash"],
+  "image_type": "UGC masquerade fashion portrait",
+  "image_vibe": "magnetic, nocturnal, polished, dramatic",
+  "image_purpose": "Night fashion and event social content",
+  "group": "ugc/lifestyle-moment/night-out/outdoor-urban",
+  "prompt": {
+    "project_info": "Create an ultra-photorealistic raw-flash editorial portrait on a luxury rooftop or balcony at night.",
+    "main_subject": "One generic approved adult woman in her early 20s with long thick dark-brown hair, expressive eyes, natural confident expression and realistic skin texture. She wears a silver sequin dress with secure full coverage and a high elegant neckline, a minimal diamond necklace, and holds an ornate silver-and-black Venetian masquerade mask in her raised right hand. Her left hand rests at her hip in a poised fashion stance.",
+    "composition_elements": "Vertical 3:4 close portrait with the subject near the camera, slight forward lean, chin gently lowered and eyes toward the lens. Keep the ornate mask fully visible near her cheek and a very dark softly blurred city-light background with no readable signs.",
+    "lighting_and_atmosphere": "Direct flash slightly above eye level, crisp highlights on eyes, cheekbones, collarbones, sequins and mask, clean shadows, raw paparazzi-flash aesthetic and nocturnal rooftop mood.",
+    "technical_specs": "Photorealistic vertical 3:4 raw fashion photography, full-frame camera with 35mm lens, tack-sharp eyes and mask, shallow depth of field, natural pores and hair strands, controlled sequin reflections, subtle grain, no watermark.",
+    "generated_prompt_string": "Ultra-photorealistic vertical 3:4 raw-flash editorial portrait of one generic approved adult woman in her early 20s with long thick dark-brown hair, expressive eyes, natural confident expression and realistic skin texture, standing close to the camera on a luxury rooftop or balcony at night. She wears a silver sequin dress with secure full coverage and a high elegant neckline, a minimal diamond necklace, and holds an ornate silver-and-black Venetian masquerade mask raised near her cheek and fully visible. Her left hand rests at her hip in a poised fashion stance, with a slight forward lean and chin gently lowered. Direct flash slightly above eye level creates crisp highlights on the eyes, mask and sequins, with a very dark softly blurred city-light background and no readable signs, natural pores, hair strands and subtle film grain, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, celebrity likeness, public-figure likeness, deep neckline, cleavage emphasis, body-part close-up, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "neon-night-masquerade-fashion reference",
+          "required": true,
+          "source": "Attach the provided reference image",
+          "usage": "Match the generic adult subject's dark hair, silver sequin dress category, mask, hand placement, raw flash, rooftop setting and close portrait composition while keeping identity and details replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the masquerade concept, mask detail, sequin sparkle, secure dress category, pose, flash direction, rooftop and blurred city lights. Keep person, dress details, mask, jewelry and environment replaceable; maintain full coverage and avoid named-character likeness or readable branding."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced deep neckline and cleavage emphasis with a secure high elegant neckline.",
+      "Preserved the silver sequin dress, Venetian mask, raw flash and rooftop-night fashion concept.",
+      "Added explicit body-part and anti-slop exclusions."
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "shopee-live-host-schedule-july-10-to-15",
+  "tag": [
+    "host-schedule",
+    "livestream-lineup",
+    "creator-promo",
+    "event-board"
+  ],
+  "biz_niche": "Arts & Culture",
+  "content_format": "Infographics",
+  "group": "shopee_958430873920692",
+  "prompt": {
+    "project_info": {
+      "theme": "Shopee Live creator schedule board",
+      "color_palette": "Shopee red, orange gradient, black, white, electric blue"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A simple schedule poster with three creator portrait cards on an orange-red stage background. The cards read '10.7 | 10H GIANH LAM', '15.7 | 10H NGHI GIAO', and '15.7 | 12H NGOC TAM'. A blue footer strip reads 'TU NGAY 10.7 - 15.7' and 'DON XEM TAI Shopee LIVE'.",
+      "style": "Clean livestream lineup board with high-contrast portrait cards and simple program-grid logic"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "10.7 | 10H / GIANH LAM / 15.7 | 10H / NGHI GIAO / 15.7 | 12H / NGOC TAM / TU NGAY 10.7 - 15.7 / DON XEM TAI Shopee LIVE",
+      "items": [
+        "Top Left: White Shopee logo",
+        "Top Right: Empty red stage space with subtle card-connector lines",
+        "Bottom Left: Blue date footer beginning with TU NGAY 10.7 - 15.7",
+        "Bottom Right: Shopee LIVE lockup inside the blue footer strip",
+        "Center/Background: Three portrait cards arranged in a triangular layout over vertical red curtain-style texture"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat promotional stage lighting",
+      "effect": "Clean card shadows, subtle background glow, crisp cutout edges"
+    },
+    "technical_specs": {
+      "render_style": "Program schedule poster with photo cutouts and simple vector framing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee Live creator schedule. Centerpiece is a triangular arrangement of three creator portrait cards over a red vertical-texture stage background. Background is a bright Shopee-red field with subtle connector lines. Surrounding elements: white Shopee logo at top left, portrait cards labeled '10.7 | 10H GIANH LAM', '15.7 | 10H NGHI GIAO', and '15.7 | 12H NGOC TAM', plus a blue footer reading 'TU NGAY 10.7 - 15.7' and 'DON XEM TAI Shopee LIVE'. Technical style: program schedule poster with photo cutouts and simple vector framing, flat promotional stage lighting, crisp cutout edges, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Creator portrait set",
+          "required": true,
+          "source": "original portraits for Gianh Lam, Nghi Giao, and Ngoc Tam",
+          "usage": "Attach if exact likeness and wardrobe are needed on each schedule card"
+        },
+        {
+          "type": "text_layout",
+          "name": "Shopee Live schedule-card layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the exact times, names, and triangular card arrangement"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee and Shopee Live logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for the top-left brand mark and bottom footer lockup"
+        }
+      ],
+      "prompt_instructions": "Dates '10.7' and '15.7' are historical relative to Friday, July 17, 2026 and should remain exact in the rebuilt image. Keep the design intentionally simple, with most of the communication coming from the portrait cards and footer strip."
+    }
+  }
+}

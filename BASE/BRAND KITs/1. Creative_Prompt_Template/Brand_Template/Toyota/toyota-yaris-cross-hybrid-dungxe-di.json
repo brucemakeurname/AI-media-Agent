@@ -1,0 +1,70 @@
+{
+  "name": "toyota-yaris-cross-hybrid-dungxe-di",
+  "tag": [
+    "yaris-cross",
+    "hybrid",
+    "lifestyle-collage",
+    "female-talent"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Brand story",
+  "group": "toyota_1370371298402456",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Yaris Cross Hybrid makes stopping unnecessary",
+      "color_palette": "Warm yellow, coral red, deep blue, white, black"
+    },
+    "main_subject": {
+      "type": "Person/Object/Text",
+      "detail": "A vibrant collage poster featuring a stylish young woman in a red sweater and pleated mini skirt with a red Toyota Yaris Cross Hybrid. The poster combines multiple angled panels: one panel shows her leaning on the car, one shows her seated in the driver's area, one shows her in a top-down fashion pose beside the car, and another shows passengers smiling inside the vehicle. Large headline text reads 'SAO PHAI co \"DUNG XE DI\"? YARIS CROSS NANG NGAI CHI!'. Bottom offer strip lists 'UU DAI TUONG DUONG 50 TRIEU DONG', 'UU DAI LAI SUAT CHI TU 7.75%', 'TRA TRUOC 0 DONG', and 'BAO HANH XE VA AC QUY DIEN HYBRID LEN DEN 10 NAM HOAC 185.000 KM (*)'. Bottom-right script says 'Move your world'.",
+      "style": "Energetic editorial collage with fashion-commercial photography, hybrid product messaging, and neon-panel framing"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / HYBRID / SAO PHAI co \"DUNG XE DI\"? / YARIS CROSS / NANG NGAI CHI! / UU DAI TUONG DUONG 50 TRIEU DONG / UU DAI LAI SUAT CHI TU 7.75% / TRA TRUOC 0 DONG / BAO HANH XE VA AC QUY DIEN HYBRID LEN DEN 10 NAM HOAC 185.000 KM (*) / Move your world",
+      "items": [
+        "Top Left: Toyota logo and bright collage panels with the woman leaning on the red Yaris Cross",
+        "Top Right: Right-side vertical interior panel showing the woman seated in the driver area",
+        "Bottom Left: Large hybrid title and the beginning of the four-box offer strip",
+        "Bottom Right: Top-down car-and-talent panel and 'Move your world' signature",
+        "Center/Background: Layered diagonal collage of the red Yaris Cross Hybrid, female talent, and happy passengers inside the car"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright editorial-commercial lighting",
+      "effect": "Glossy automotive highlights, warm neon edge glows, fashion retouching, lively youth-campaign energy"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal fashion-automotive collage poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Yaris Cross Hybrid lifestyle campaign. Centerpiece is a multi-panel collage built around a red Toyota Yaris Cross Hybrid and a stylish young woman in a red sweater and pleated skirt, shown in several poses including leaning on the car, sitting inside, and standing beside it. Background is a warm yellow gradient with diagonal collage dividers and glowing panel edges. Surrounding elements: Toyota logo, exact headline 'SAO PHAI co \"DUNG XE DI\"? YARIS CROSS NANG NGAI CHI!', and the bottom offer strip with '50 TRIEU DONG', '7.75%', '0 DONG', and '10 NAM HOAC 185.000 KM'. Technical style: photoreal fashion-automotive collage poster, bright editorial-commercial lighting, glossy highlights and youth-campaign energy, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Female talent fashion shoot reference",
+          "required": true,
+          "source": "source photo set or this creative",
+          "usage": "Preserve the exact wardrobe, hair, poses, and expression across all collage panels"
+        },
+        {
+          "type": "product",
+          "name": "Red Toyota Yaris Cross Hybrid reference",
+          "required": true,
+          "source": "official Yaris Cross Hybrid renders",
+          "usage": "Keep the red body color, top-down angle, and front-quarter views accurate"
+        },
+        {
+          "type": "text_layout",
+          "name": "Yaris Cross Hybrid collage layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the diagonal segmentation, mixed talent-car panels, and bottom four-box offer strip"
+        }
+      ],
+      "prompt_instructions": "Do not flatten this into one single scene. The multi-panel collage and the contrast between fashion poses, cabin moments, and vehicle views are essential."
+    }
+  }
+}

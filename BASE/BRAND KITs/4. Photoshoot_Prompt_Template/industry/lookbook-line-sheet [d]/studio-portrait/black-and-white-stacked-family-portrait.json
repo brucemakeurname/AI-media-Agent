@@ -1,0 +1,76 @@
+{
+  "name": "black-and-white-stacked-family-portrait",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "black-and-white",
+    "family",
+    "stacked-composition"
+  ],
+  "image_type": "black-and-white family studio portrait",
+  "image_vibe": "sculptural, intimate, symmetrical, timeless",
+  "image_purpose": "family portrait editorial and studio lookbook",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a hyperrealistic 3:4 black-and-white studio portrait of one family of four in a strict vertical stacked composition, preserving all four approved reference identities and ages.",
+    "main_subject": "Four people in one family: an adult man at the top, an adult woman below him, an older child below the woman, and a younger child at the bottom. Preserve each person's face, features, proportions, age, skin texture, hair length, and hair color from the required family reference without retouching or smoothing. Everyone wears an identical plain black turtleneck without decorations.",
+    "composition_elements": [
+      "Strictly center all four people in a single vertical line against a completely black background.",
+      "The youngest child at the bottom looks directly at camera with a light natural smile.",
+      "The older child stands behind the younger child with both hands gently resting on the younger child's crown.",
+      "The adult woman rests both hands gently on the older child's crown, and the adult man stands behind her with folded palms gently resting on her head.",
+      "Keep distances, hand placement, faces, and age relationships unchanged."
+    ],
+    "lighting_and_atmosphere": "Soft frontal light slightly above camera, sculptural modeling, moderate contrast, crisp skin detailing without glossy effect, and a quiet timeless black-and-white atmosphere.",
+    "technical_specs": "Hyperrealistic 8K black-and-white portrait, 3:4 vertical composition, 50mm full-frame lens at f/5.6, sharp facial and hand detail, natural monochrome tonal range, no text or watermark.",
+    "generated_prompt_string": "STRICTLY preserve the appearance of all four approved family members from the attached reference—faces, features, proportions, age, skin texture, hair length and color—without retouching or smoothing. Create a hyperrealistic black-and-white studio portrait in a 3:4 vertical symmetrical composition. Four people are aligned strictly in the center in a single vertical line: at the bottom, the youngest child looks directly at the camera with a light natural smile; above the child, an older child stands behind with both hands gently resting on the younger child's crown, fingers intertwined and a soft lively smile; above them, an adult woman rests both hands gently on the older child's crown, fingers intertwined and a soft lively smile; at the top, an adult man stands behind the woman with both palms folded and gently resting on her head, fingers intertwined, looking directly at camera with a calm confident expression. Everyone wears an identical plain black turtleneck without decorations. Use a completely black textureless background and soft frontal light slightly from above, sculptural moderate contrast, crisp skin detailing, no glossy effect, no changes to poses or distances, 50mm f/5.6, 8K, no text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "sexualized pose",
+      "nudity",
+      "age alteration",
+      "adultification of children",
+      "changed family relationships",
+      "distorted anatomy",
+      "extra fingers",
+      "inconsistent identity",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "glossy effect",
+      "watermark",
+      "text",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "black-and-white-stacked-family-portrait.jpg",
+          "required": true,
+          "source": "local family reference image",
+          "usage": "Attach for all four approved identities, ages, faces, hair, proportions, clothing, and hand relationships."
+        },
+        {
+          "type": "wardrobe",
+          "name": "identical plain black turtlenecks",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the identical plain wardrobe and absence of decoration."
+        }
+      ],
+      "prompt_instructions": "Attach the required family and wardrobe references; no optional assets are needed. Keep every identity, age, outfit, hand placement, family relationship, black background, lighting, and vertical hierarchy consistent. Replace only with an equivalent approved family reference or equivalent plain wardrobe reference, never by changing a child's age or identity. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

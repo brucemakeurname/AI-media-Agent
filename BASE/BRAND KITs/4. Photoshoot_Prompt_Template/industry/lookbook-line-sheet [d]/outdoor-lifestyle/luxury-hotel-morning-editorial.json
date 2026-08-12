@@ -1,0 +1,22 @@
+{
+  "name": "luxury-hotel-morning-editorial",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "hotel", "luxury"],
+  "image_type": "luxury hotel lifestyle editorial",
+  "image_vibe": "calm, premium, elegant, feminine",
+  "image_purpose": "luxury lifestyle lookbook and morning fashion editorial",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create an ultra-realistic luxury lifestyle editorial in a high-end hotel bedroom, preserving the approved adult identity reference and the calm premium morning atmosphere.",
+    "main_subject": "Adult woman with the exact approved-reference face, unchanged skin tone, facial structure, identity, and natural skin texture. She has long softly wavy hair and natural glamorous editorial makeup with soft pink lips. She wears a chic black sleeveless dress with pearl strap details and a classy tweed skirt, styled with an elegant feminine luxury mood.",
+    "composition_elements": ["Relaxed confident lying-on-bed pose with soft editorial expression.", "White satin bedding, quilted headboard, minimalist luxury decor, white-and-beige palette, and white roses.", "Fashion magazine held as a prop with no readable text.", "Foreground breakfast tray with croissants, fresh berries, porcelain tea cups, gold-accented cutlery, and natural room styling."],
+    "lighting_and_atmosphere": "Soft warm morning light, calm premium atmosphere, gentle highlights on satin and pearls, soft background blur, quiet luxury color treatment.",
+    "technical_specs": "Ultra-realistic professional fashion photography, high-end editorial camera look, soft depth of field, 8K sharp detail, realistic skin, satin, tweed, pearl, porcelain, and food textures, no readable text or watermark.",
+    "generated_prompt_string": "Use the uploaded approved reference image to preserve the exact same adult face, skin tone, facial structure and identity with no modification. Create an ultra-realistic luxury lifestyle editorial in a high-end hotel bedroom with calm premium atmosphere and soft warm morning light. White satin bedding, quilted headboard, minimalist luxury decor, white-and-beige palette and white roses. The adult woman has long smooth softly wavy hair, natural glamorous editorial makeup, realistic skin texture and soft pink lips. She lies on the bed in a relaxed confident pose wearing a chic black sleeveless dress with pearl strap details and classy tweed skirt. She holds a fashion magazine with no readable text. In the foreground, a luxury breakfast tray holds croissants, fresh berries, porcelain tea cups and gold-accented cutlery. Professional high-end fashion photography, ultra-realistic, soft background blur, 8K sharp detail, no logos, no readable text, no face modification.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "identity change", "face modification", "plastic skin", "waxy", "over-smooth", "over-saturated", "HDR look", "distorted anatomy", "extra fingers", "watermark", "readable text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "luxury-hotel-morning-editorial.jpg", "required": true, "source": "local reference image", "usage": "Attach as the required approved-adult face, identity, skin tone, and facial-structure reference."}, {"type": "location", "name": "luxury hotel bedroom", "required": true, "source": "local reference image", "usage": "Preserve bedding, headboard, decor, palette, flowers, and lighting."}, {"type": "accessory", "name": "fashion magazine and breakfast tray", "required": true, "source": "local reference image", "usage": "Preserve prop placement and use no readable text or logos."}],
+      "prompt_instructions": "Attach the required approved-adult face reference and scene reference. Preserve face, facial structure, identity, outfit, pearl details, hotel environment, magazine, breakfast tray, and morning lighting. The magazine must remain non-readable and brand-free. Replace the face only with another approved-adult identity reference; keep wardrobe and environment consistent, with no celebrity likeness."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

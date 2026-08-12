@@ -1,0 +1,70 @@
+{
+  "name": "samsung-galaxy-tab-s11-ultra-smarter-writing-made-simple",
+  "tag": [
+    "tablet-launch",
+    "ai-writing",
+    "writing-assist",
+    "product-demo"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Tutorials",
+  "group": "samsung_1235183808650095",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy Tab S11 Ultra writing assist feature poster",
+      "color_palette": "Black, white, soft tablet UI pastels, pale blue highlights"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Feature-demo poster showing the Galaxy Tab S11 Ultra in landscape with split-screen productivity apps, an on-device writing-style popup, and a white S Pen laid diagonally across the display.",
+      "style": "Photorealistic premium product render, UI-feature launch poster, clean Samsung AI productivity aesthetic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Smarter writing, made simple / Galaxy Tab S11 Ultra / Galaxy AI",
+      "items": [
+        "Top Left: Large centered white title 'Smarter writing, made simple'.",
+        "Top Right: Smaller centered lockup 'Galaxy Tab S11 Ultra' and 'Galaxy AI' with sparkle icon.",
+        "Bottom Left: Small white legal/availability footnote block.",
+        "Bottom Right: Black negative space and glossy product reflection.",
+        "Center/Background: Landscape tablet showing split screen with 'Budgeting Breakdown' design work on the left and a 'Makers Market' webpage on the right, plus a floating 'Writing style' popup and a white S Pen laid diagonally across the upper-right portion of the screen."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Studio lighting",
+      "effect": "Crisp glass reflections, bright UI legibility, elegant contrast against deep black background"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy Tab S11 Ultra writing assist feature poster. Centerpiece is a landscape Galaxy Tab S11 Ultra on a black background, showing a split-screen workflow with 'Budgeting Breakdown' on the left, a 'Makers Market' webpage on the right, a floating 'Writing style' popup, and a white S Pen crossing the top-right of the screen. Background is minimal black with subtle reflection. Surrounding elements: exact title 'Smarter writing, made simple', lockup 'Galaxy Tab S11 Ultra' and 'Galaxy AI', and a small white legal footnote block at the bottom left. Technical style: photorealistic product render, studio lighting, crisp UI legibility and glass reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy Tab S11 Ultra landscape render with S Pen",
+          "required": true,
+          "source": "official Samsung render",
+          "usage": "Match exact tablet proportions, notch, screen ratio, and pen angle."
+        },
+        {
+          "type": "ui_reference",
+          "name": "split-screen Writing Assist demo",
+          "required": true,
+          "source": "original feature demo UI",
+          "usage": "Preserve the left budgeting layout, right webpage, writing-style popup, and all visible UI hierarchy."
+        },
+        {
+          "type": "text_layout",
+          "name": "feature headline and legal text",
+          "required": true,
+          "source": "original creative",
+          "usage": "Keep exact centered heading, Galaxy AI lockup, and lower legal block."
+        }
+      ],
+      "prompt_instructions": "Use refs for the exact tablet UI and S Pen placement. This poster depends on split-screen app fidelity, so do not replace the interface with generic notes or generic web pages."
+    }
+  }
+}

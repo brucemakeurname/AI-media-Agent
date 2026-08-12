@@ -1,0 +1,81 @@
+{
+  "name": "classic-hollywood-valentine-portrait",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "classic-hollywood",
+    "valentine"
+  ],
+  "image_type": "classic Hollywood full-body studio portrait",
+  "image_vibe": "timeless, romantic, glamorous, cinematic",
+  "image_purpose": "fashion campaign and Valentine editorial portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a classic Hollywood studio portrait of one approved adult woman against a deep-crimson backdrop with a large bright ivory heart-shaped light behind her.",
+    "main_subject": "Approved adult woman standing in left-facing profile with a calm confident expression, dark hair styled in a low vintage bun with smooth waves, classic glam makeup with bold red lipstick, subtle winged eyeliner, softly contoured cheeks, luminous natural skin, multi-strand pearl choker, pearl drop earrings, and a black strapless evening gown with a sweetheart neckline, fitted silhouette, one-sided high slit, and matte or soft-satin finish.",
+    "composition_elements": [
+      "Vertical 9:16 full-body or three-quarter-body framing, subject centered slightly left with elegant negative space.",
+      "Large symmetrical bright ivory heart shape aligned behind the head and upper torso with a clean soft edge glow.",
+      "Subject's hands remain placed behind her back, shoulders relaxed, chin slightly lifted.",
+      "Deep crimson background, black gown, warm skin tones, pearl jewelry, and controlled rich-red palette."
+    ],
+    "lighting_and_atmosphere": "Classic studio key light from camera-left, soft fill from the right, subtle rim light separating subject from backdrop, Hollywood glamour highlights on cheekbones and shoulders, and evenly illuminated heart without banding or clipping.",
+    "technical_specs": "Photorealistic 9:16 vertical portrait, 85mm lens at f/2.8, sharp face and jewelry, crisp dress edges, softened but clean heart backdrop, fine film grain, medium-high controlled contrast, no text or watermark.",
+    "generated_prompt_string": "Classic Hollywood studio portrait of one approved adult woman standing in left-facing profile with hands behind her back, relaxed shoulders and chin slightly lifted. She has dark hair in a low vintage bun with smooth waves, bold red lipstick, subtle winged eyeliner, softly contoured cheeks, luminous natural skin, a multi-strand pearl choker and pearl drop earrings. She wears a black strapless evening gown with a sweetheart neckline, fitted silhouette, one-sided high slit, and matte or soft-satin finish. Use a deep crimson studio backdrop with a large bright ivory symmetrical heart-shaped light behind her head and upper torso, soft edge glow, elegant negative space, 9:16 vertical full-body or three-quarter framing, classic key from camera-left, soft fill from right, subtle rim light, Hollywood glamour highlights, controlled rich-red grading, 85mm f/2.8, fine film grain, no text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "distorted anatomy",
+      "extra fingers",
+      "asymmetry artifacts",
+      "warped heart geometry",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "banding",
+      "blown-out heart",
+      "watermark",
+      "text",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "classic-hollywood-valentine-portrait.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for adult identity, profile, hair, makeup, expression, jewelry, and pose reference."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black strapless evening gown and pearl jewelry",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve neckline, silhouette, slit, finish, pearl choker, and earrings."
+        },
+        {
+          "type": "graphic",
+          "name": "bright ivory heart-shaped light backdrop",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve heart symmetry, scale, position, soft edge glow, and deep-crimson field."
+        }
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, and heart-light references; no optional assets are needed. Keep identity, outfit, jewelry, pose, heart geometry, environment, lighting, color, and composition consistent. Replace only with an equivalent approved adult, equivalent wardrobe, or equivalent heart-light graphic. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

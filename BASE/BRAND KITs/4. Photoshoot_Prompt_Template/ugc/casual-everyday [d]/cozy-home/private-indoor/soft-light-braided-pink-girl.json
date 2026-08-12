@@ -1,0 +1,27 @@
+{
+  "name": "soft-light-braided-pink-girl",
+  "tag": ["ugc", "casual-everyday", "cozy-home", "private-indoor", "knitwear"],
+  "image_type": "cozy bedroom portrait",
+  "image_vibe": "soft pink knit and gentle daylight",
+  "image_purpose": "UGC-style homewear portrait",
+  "group": "cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create a realistic cozy bedroom portrait of an original approved adult model in a pink knit set.",
+    "main_subject": "An original approved adult Asian woman with long black hair in twin braids decorated with small pink satin bows, loose bangs, glasses, a soft doe-eyed gaze, and a neutral-to-sweet expression looks directly at camera. Preserve the matching fuzzy pink cable-knit cropped tank and high-waisted knit shorts, plus the small visible forearm tattoo.",
+    "composition_elements": "The adult subject kneels on the bed in a seiza-style folded-leg pose, torso angled slightly right, one hand supporting on the sheets and the other relaxed in her lap. Crumpled light-gray duvet, discarded pink cardigan, dark wardrobe, wooden shelving with three plush toys, and a large fluffy pink heart pillow create the room context.",
+    "lighting_and_atmosphere": "Soft diffused natural window light from frame right, cool gray shadows contrasted with warm pink accents, gentle flattering highlights on knit texture, no harsh shadows.",
+    "technical_specs": "Realistic smartphone photography, slightly high angle, 28mm lens, f/2.8, 1/60s, ISO 400, rule-of-thirds composition, natural skin texture and modest optical falloff.",
+    "generated_prompt_string": "Realistic cozy bedroom portrait of an original approved adult Asian woman with long black hair in twin braids decorated with small pink satin bows, loose bangs, glasses, and a soft direct gaze. Preserve the matching fuzzy pink cable-knit cropped tank and high-waisted knit shorts, plus the small forearm tattoo. She kneels on a bed in a seiza-style folded-leg pose, torso angled slightly right, one hand supporting on crumpled light-gray sheets and the other resting in her lap. A discarded pink cardigan, dark wardrobe, wooden shelving with original plush toys, and a fluffy pink heart pillow fill the room. Soft diffused window light from frame right, cool gray shadows, warm pink accents, 28mm smartphone perspective, f/2.8, natural texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, copyrighted character dependence, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "pink braided knit bedroom reference", "required": true, "source": "attached source image", "usage": "Match the adult identity, glasses, braids, bows, knit outfit, kneeling pose, bedroom, plush toys, and window light."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve face, facial structure, adult identity, hairstyle, outfit, tattoo, pose, environment, and lighting consistency. Plush toys, logos, typography, products, and decorative graphics are replaceable; use original approved designs for any replacements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an original approved adult model.", "Preserved the specified knit outfit and pose without adding sexualized framing.", "Added original-design guidance for decorative assets and anti-slop exclusions."]
+  }
+}

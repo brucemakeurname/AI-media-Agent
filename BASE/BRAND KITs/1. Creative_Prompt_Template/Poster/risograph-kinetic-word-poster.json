@@ -1,0 +1,59 @@
+{
+    "name":  "risograph-kinetic-word-poster",
+    "tag":  [
+                "kinetic-type",
+                "risograph",
+                "minimal-poster",
+                "surreal",
+                "illustration"
+            ],
+    "biz_niche":  "Entertainment & Pop Culture",
+    "content_format":  "Brand story",
+    "group":  "poster_177",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Surreal visual metaphor for [KEYWORD]",
+                                        "color_palette":  "Two bold contrasting risograph inks only"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Kinetic typography",
+                                        "detail":  "The word [KEYWORD] becomes the main visual object, shaped or distorted to embody its meaning, with one symbolic flat illustration.",
+                                        "style":  "Minimal flat risograph print, cinematic-surreal graphic poster"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Text and symbolic illustration",
+                                                "text":  "[KEYWORD]; [POETIC SHORT QUOTE]",
+                                                "items":  [
+                                                              "Center: oversized transformed [KEYWORD].",
+                                                              "Integrated: a minimal flat symbolic figure or object.",
+                                                              "Bottom or edge: poetic short quote.",
+                                                              "Background: clean two-color field with visible print grain."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Flat print treatment",
+                                                   "effect":  "No gradients, restrained risograph misregistration and tactile ink texture"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Vector-like risograph poster art",
+                                           "resolution":  "8k resolution, highly detailed, vertical"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "Kinetic word-poster reference",
+                                                                 "required":  true,
+                                                                 "source":  "supplied reference image",
+                                                                 "usage":  "Match vertical hierarchy and type-led metaphor."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Use exactly two bold contrasting colors and no gradients.",
+                                                                          "Keep the illustration subordinate to the word\u0027s visual meaning."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Create a surreal 2D poster design based on the word \u0027[KEYWORD]\u0027 - the layout should be dominated by kinetic typography where the word is visually shaped or distorted to reflect its meaning - integrate a symbolic flat minimal illustration that reinforces the concept - the style must be inspired by risograph print: only 2 bold contrasting colors (no gradients) - include a poetic, short quote that resonates emotionally with the keyword - background must be clean and minimal - composition must be vertical, with strong visual impact and artistic balance - the overall tone should feel cinematic, surreal, and graphic - ultra-sharp, high-resolution, no clutter.",
+                   "negative_prompt":  "gradients, more than two colors, photorealism, clutter, generic typography, illegible quote, watermark, signature"
+               }
+}

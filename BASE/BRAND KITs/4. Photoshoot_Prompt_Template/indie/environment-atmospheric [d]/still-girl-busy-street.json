@@ -1,0 +1,59 @@
+{
+  "name": "Still Figure in Busy Pedestrian Zone",
+  "tag": "still-figure-busy-pedestrian-zone",
+  "image_type": "motion_contrast_street_portrait",
+  "image_vibe": "overcast_introspective_urban",
+  "image_purpose": "documentary_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Still Figure in Busy Pedestrian Zone",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with a short ash-gray bob, round glasses, and a calm introspective expression.",
+      "wardrobe": "An oversized dark-gray sweater, black pleated midi skirt, brown lace-up ankle boots, and a plain backpack.",
+      "pose_and_expression": "Standing still at the center of a dedicated pedestrian plaza, holding a few blank-spined books close to her chest."
+    },
+    "composition_elements": {
+      "setting": "Modern urban pedestrian plaza in overcast daylight; anonymous office commuters pass in gentle motion blur at a respectful distance.",
+      "framing": "Full-body eye-level street portrait with subject sharp and surrounding movement softly blurred.",
+      "text_and_brand_control": "No active traffic lane, identifiable bystanders, corporate logos, coffee brand, book titles, signs, or readable text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft natural overcast light with muted city tones.",
+      "mood": "Stillness in motion, quiet, cinematic, and safe."
+    },
+    "technical_specs": {
+      "camera_style": "35mm documentary street photograph",
+      "lens": "35mm equivalent, f/2",
+      "rendering": "Realistic skin, fabric, books, and boots; natural motion blur and accurate anatomy."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical 35mm documentary street portrait of an adult woman with a short ash-gray bob, round glasses, and a calm introspective expression. She wears an oversized dark-gray sweater, black pleated midi skirt, brown lace-up ankle boots, and a plain backpack, standing still in the center of a dedicated pedestrian plaza while holding a few blank-spined books close to her chest. Render anonymous office commuters in gentle motion blur at a respectful distance. Use full-body eye-level framing, soft overcast light, muted city tones, sharp subject, realistic skin and fabric, natural movement blur, and accurate anatomy. No active traffic lane, identifiable bystanders, corporate logos, coffee brand, book titles, signage, readable text, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, unsafe road pose, explicit, nsfw, logo, readable text, identifiable bystander, watermark, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional and replaceable. Identity reference must depict a consenting adult; crowd, backpack, and book references cannot retain identities, logos, or readable content.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult facial and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "pedestrian_plaza_reference",
+          "required": false,
+          "source": "user-provided city reference",
+          "usage": "Guide urban depth and motion blur while anonymizing people and blanking all copy."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Specified adult subject, safe pedestrian-plaza staging, anonymized bystanders, and removed readable commercial/book content."
+  }
+}

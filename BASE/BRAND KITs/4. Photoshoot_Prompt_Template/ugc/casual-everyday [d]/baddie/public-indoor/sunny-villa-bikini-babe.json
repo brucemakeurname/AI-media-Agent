@@ -1,0 +1,58 @@
+{
+  "name": "sunny-villa-bikini-babe",
+  "tag": [
+    "ugc",
+    "baddie",
+    "public-indoor",
+    "bright-villa",
+    "white-textured-bikini",
+    "sofa-portrait"
+  ],
+  "image_type": "ugc-villa-lifestyle-portrait",
+  "image_vibe": "bright-airy-resort",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/public-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic bright airy villa lifestyle portrait with a textured white two-piece set, exposed beams and large windows opening to a sunny landscape.",
+    "main_subject": "One original approved adult Asian woman with a tanned glowing natural complexion, long dark wavy hair parted in the middle and realistic skin texture. She wears a white textured bandeau-style top with a central knot, detached off-shoulder ruffled sleeves and matching white side-tie bottoms, plus gold hoops, a delicate pendant chain, thin bangle and ring with white manicure. Preserve a natural feminine silhouette without explicit measurements.",
+    "composition_elements": "Centered medium shot from thighs upward at eye level. The adult subject sits upright but relaxed on a white sofa, torso slightly angled left, left hand supporting on the cushion and right hand resting on the upper thigh, with one leg bent and the other extending along the sofa. Show white cushions, exposed white beams, large glass doors, a black lantern and lush trees with blue sky outside.",
+    "lighting_and_atmosphere": "Bright high-key daylight from the right and front with soft diffused shadows and warm sunny tone. Keep the atmosphere clean, airy, luxurious and candid.",
+    "technical_specs": "Vertical 4:5 or 2:3 frame, 50–85mm portrait lens, subject sharp with a softly distinct background, realistic skin, fabric, jewelry and architecture detail, natural color grading.",
+    "generated_prompt_string": "Create a photorealistic bright airy villa lifestyle portrait of one original approved adult Asian woman with a tanned glowing natural complexion, long dark wavy hair parted in the middle and realistic skin texture. She wears a white textured bandeau-style top with a central knot, detached off-shoulder ruffled sleeves and matching white side-tie bottoms, plus gold hoops, a delicate pendant chain, thin bangle and ring with white manicure. Use a centered medium shot from thighs upward at eye level; she sits upright but relaxed on a white sofa, torso slightly angled left, left hand supporting on the cushion, right hand resting on the upper thigh, one leg bent and the other extending along the sofa. Show white cushions, exposed white beams, large glass doors, a black lantern and lush trees with blue sky outside. Use bright high-key daylight from the right and front, soft diffused shadows, realistic material detail and warm natural color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, body-part emphasis, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, wardrobe malfunction, invented logos, unreadable text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "sunny-villa-bikini-babe.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair, complexion, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white textured bandeau knot top, ruffled sleeves, side-tie bottoms and gold jewelry",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve fabric texture, knot, sleeves, side ties, jewelry and manicure; replace only with an explicitly supplied wardrobe reference."
+        },
+        {
+          "type": "location",
+          "name": "white-beam villa, sofa, glass doors, black lantern and sunny trees",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve sofa, cushions, beams, doors, lantern, view and daylight; environment may be replaced independently through explicit references."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, facial structure, hair, outfit construction, jewelry, pose, villa architecture and light direction consistent. The approved adult, wardrobe and environment can be replaced separately using explicit references. No logo or typography is required."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adult.",
+      "Removed explicit bust-volume and body-emphasis wording while preserving the white textured outfit, sofa pose and villa setting.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

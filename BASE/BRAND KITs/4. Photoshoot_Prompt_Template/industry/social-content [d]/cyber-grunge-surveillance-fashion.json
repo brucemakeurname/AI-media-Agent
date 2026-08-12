@@ -1,0 +1,83 @@
+{
+  "name": "cyber-grunge-surveillance-fashion",
+  "tag": [
+    "cctv-fashion",
+    "cyber-grunge",
+    "raglan-streetwear",
+    "hud-overlay",
+    "inset-collage"
+  ],
+  "image_type": "surveillance-fashion-editorial",
+  "image_vibe": "dystopian-urban-nonchalance",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Cyber-grunge surveillance fashion editorial",
+      "format": "8K-style 4:5 editorial with one full-body CCTV frame and three inset crops",
+      "color_palette": "sun-bleached gray plaza, white, rust red, denim black, burgundy, gold, and vivid crimson HUD overlays"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "cool detached adult woman with chin-length textured bob and casual bangs, thick black sunglasses, head slightly lowered, walking across a plaza while holding a drink and pastry",
+      "wardrobe": "oversized white T-shirt with rust-red raglan sleeves and small fictional chest mark, loosely tucked into baggy black carpenter jeans with white stitching, burgundy loafers, and fine gold pendant",
+      "props": "iced coffee or chocolate cup with straw in the left hand and half-eaten pastry in the right hand"
+    },
+    "composition_elements": {
+      "framing": "high-angle CCTV vantage with 35mm look and deep focus, full-body central frame plus face/drink, torso, and pants-cuff inset crops",
+      "subject_position": "adult woman mid-stride across sun-bleached gray plaza tiles with long diagonal shadows cast leftward",
+      "overlay": "crimson bounding boxes, crosshairs, scanlines, telemetry glyphs, timecode 18/02, fictional ID string CCWW | TR521, numeric stream, and abstract hashtags connected by thin red vector lines",
+      "layout": "fragmented surveillance interface with inset crops linked to the main frame"
+    },
+    "lighting_and_atmosphere": {
+      "type": "late-afternoon golden-hour sunlight at approximately 4200K with hard directional shadows",
+      "effect": "diagonal plaza shadows, crisp fabric weave and pavement grit, raw privacy-invasion editorial mood, subtle chromatic aberration"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 35mm lens from high CCTV angle, deep focus photorealism",
+      "resolution": "4:5 vertical 4k social editorial",
+      "finish": "visible grain, subtle chromatic aberration, high sharpness, realistic pores and fabric texture, raw photoreal fidelity"
+    },
+    "generated_prompt_string": "Cyber-grunge surveillance fashion editorial in a 4:5 vertical composition: a clearly adult cool detached woman with chin-length textured bob and casual bangs, thick black sunglasses, and head slightly down walks mid-stride across sun-bleached gray plaza tiles. She wears an oversized white T-shirt with rust-red raglan sleeves and a small fictional chest mark, loosely tucked into baggy black carpenter jeans with white stitching, burgundy loafers, and a fine gold pendant. She holds an iced coffee or chocolate cup with straw in her left hand and a half-eaten pastry in her right. Shoot from a high-angle CCTV vantage with a 35mm look and deep focus, late-afternoon golden-hour light carving hard diagonal shadows leftward. Build a fragmented layout: one main full-body frame plus three inset crops of face/drink, torso, and pants cuff linked by thin red vector lines. Add vivid crimson HUD overlays with bounding boxes, crosshairs, telemetry glyphs, scanlines, timecode 18/02, fictional ID CCWW | TR521, numeric stream, and abstract hashtags. Include grain, subtle chromatic aberration, high sharpness, pavement grit, realistic pores, and raw photoreal fidelity. Keep the surveillance aesthetic fictional and non-identifying.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, celebrity likeness, real personal data, real surveillance ID, real license plate, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed hands, malformed insets, broken vector lines, illegible HUD text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-cyber-grunge-model",
+          "required": true,
+          "source": "Original surveillance fashion preview image",
+          "usage": "Attach an approved adult face reference for identity continuity; preserve facial structure without celebrity identity and avoid real biometric identification."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white-rust-raglan-carpenter-jeans-look",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the raglan tee, fictional chest mark, carpenter jeans, burgundy loafers, gold pendant, coffee, and pastry; props may be replaced with equivalents."
+        },
+        {
+          "type": "graphic",
+          "name": "fictional-crimson-surveillance-hud",
+          "required": true,
+          "source": "Original HUD overlay composition and source prompt",
+          "usage": "Attach to preserve bounding boxes, crosshairs, scanlines, timecode, ID glyphs, inset crops, and red vector lines; keep all identifiers fictional and non-personal."
+        },
+        {
+          "type": "location",
+          "name": "sun-bleached-gray-plaza",
+          "required": false,
+          "source": "Original preview image and source prompt",
+          "usage": "Optional environment reference; preserve plaza tiles, golden-hour shadows, pavement grit, and urban scale while allowing the location to be replaced."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person, wardrobe, HUD, and optional plaza references. Keep one adult identity, streetwear, props, high-angle frame, inset layout, red HUD hierarchy, and golden-hour shadows consistent. Replace the person and location with approved equivalents; all IDs, timecodes, text, and overlays must remain fictional and must not encode real personal data."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as a clearly adult woman and constrained the surveillance overlay to fictional non-identifying data while preserving the cyber-grunge editorial concept."
+    ]
+  }
+}

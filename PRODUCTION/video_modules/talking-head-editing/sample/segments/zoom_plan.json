@@ -1,0 +1,535 @@
+{
+  "source": "main_clean_2.mp4",
+  "total_segments": 65,
+  "generated_by": "claude-zoom-analysis-v1",
+  "rules_applied": [
+    "Default (narrative / lead-in): 100%",
+    "Emphasis (punch word / key verdict): 115%",
+    "Enumeration ascending: 105 → 110 → 120 (120 reserved for most-important list item)",
+    "No two consecutive segments at identical zoom level",
+    "First segment (id=0): always 105%",
+    "Last segment (id=64): always 105%"
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.391, "end": 1.352, "duration": 0.961,
+      "text": "Everyone is shouting",
+      "zoom": 105,
+      "type": "first",
+      "reason": "First segment rule — always 105%"
+    },
+    {
+      "id": 1,
+      "start": 1.372, "end": 2.493, "duration": 1.121,
+      "text": "that you need to launch",
+      "zoom": 100,
+      "type": "default",
+      "reason": "Lead-in subordinate clause, narrative — default 100%"
+    },
+    {
+      "id": 2,
+      "start": 2.553, "end": 3.895, "duration": 1.342,
+      "text": "an AI influencer right now",
+      "zoom": 110,
+      "type": "elevated",
+      "reason": "Core claim noun phrase — slight elevation to draw eye to 'AI influencer'"
+    },
+    {
+      "id": 3,
+      "start": 4.135, "end": 4.635, "duration": 0.500,
+      "text": "to get rich.",
+      "zoom": 115,
+      "type": "emphasis",
+      "reason": "Hook punchline close — maximum emphasis on the cynical promise"
+    },
+    {
+      "id": 4,
+      "start": 4.936, "end": 5.977, "duration": 1.041,
+      "text": "But no one is telling",
+      "zoom": 100,
+      "type": "default",
+      "reason": "Counter-hook opener, narrative reset after emphasis"
+    },
+    {
+      "id": 5,
+      "start": 5.997, "end": 7.478, "duration": 1.481,
+      "text": "you the ugly truth",
+      "zoom": 110,
+      "type": "elevated",
+      "reason": "'ugly truth' is a rhetorical escalation — elevate above default"
+    },
+    {
+      "id": 6,
+      "start": 7.598, "end": 10.080, "duration": 2.482,
+      "text": "about why 99%",
+      "zoom": 115,
+      "type": "emphasis",
+      "reason": "Stat anchor — 99% is the shock number, maximum zoom to land the claim"
+    },
+    {
+      "id": 7,
+      "start": 10.821, "end": 11.562, "duration": 0.741,
+      "text": "in the first month",
+      "zoom": 100,
+      "type": "default",
+      "reason": "Time qualifier — context phrase, pull back to default"
+    },
+    {
+      "id": 8,
+      "start": 12.202, "end": 13.123, "duration": 0.921,
+      "text": "is the reality check.",
+      "zoom": 110,
+      "type": "elevated",
+      "reason": "'reality check' closes the hook — slight elevation, not full emphasis (not consecutive with 100)"
+    },
+    {
+      "id": 9,
+      "start": 13.363, "end": 13.724, "duration": 0.361,
+      "text": "Number one,",
+      "zoom": 100,
+      "type": "header",
+      "reason": "Section header — structural marker, neutral default zoom"
+    },
+    {
+      "id": 10,
+      "start": 14.144, "end": 15.966, "duration": 1.822,
+      "text": "most AI influencers fail.",
+      "zoom": 115,
+      "type": "emphasis",
+      "reason": "Section 1 thesis — stark failure statement, maximum emphasis"
+    },
+    {
+      "id": 11,
+      "start": 16.286, "end": 17.507, "duration": 1.221,
+      "text": "The market is getting flooded",
+      "zoom": 100,
+      "type": "default",
+      "reason": "Narrative setup sentence — default, pull back after thesis emphasis"
+    },
+    {
+      "id": 12,
+      "start": 17.567, "end": 18.789, "duration": 1.222,
+      "text": "with low effort,",
+      "zoom": 105,
+      "type": "elevated",
+      "reason": "'low effort' is a mild qualifier — slight bump above default"
+    },
+    {
+      "id": 13,
+      "start": 19.189, "end": 20.290, "duration": 1.101,
+      "text": "dead-eyed avatars",
+      "zoom": 115,
+      "type": "emphasis",
+      "reason": "Key visual insult — the strongest descriptor in this sentence, full emphasis"
+    },
+    {
+      "id": 14,
+      "start": 20.390, "end": 23.293, "duration": 2.903,
+      "text": "because people confuse using a tool",
+      "zoom": 100,
+      "type": "default",
+      "reason": "Causal explanation — long narrative clause, pull back to default"
+    },
+    {
+      "id": 15,
+      "start": 23.333, "end": 24.554, "duration": 1.221,
+      "text": "with building a brand.",
+      "zoom": 105,
+      "type": "elevated",
+      "reason": "'building a brand' is the positive contrast — slight elevation above the explanation"
+    },
+    {
+      "id": 16,
+      "start": 24.914, "end": 25.835, "duration": 0.921,
+      "text": "Just because she moves",
+      "zoom": 100,
+      "type": "default",
+      "reason": "Conditional clause setup — default, building tension before punchline"
+    },
+    {
+      "id": 17,
+      "start": 25.935, "end": 27.136, "duration": 1.201,
+      "text": "doesn't mean she matters.",
+      "zoom": 115,
+      "type": "emphasis",
+      "reason": "Section 1 punchline close — 'she matters' is the hardest hit, full emphasis"
+    },
+    {
+      "id": 18,
+      "start": 27.296, "end": 27.696, "duration": 0.400,
+      "text": "Number two,",
+      "zoom": 100,
+      "type": "header",
+      "reason": "Section header — structural marker, neutral default"
+    },
+    {
+      "id": 19,
+      "start": 28.176, "end": 29.117, "duration": 0.941,
+      "text": "content comes fast,",
+      "zoom": 110,
+      "type": "elevated",
+      "reason": "Antithesis part 1 — first half of contrast pair, elevated above default"
+    },
+    {
+      "id": 20,
+      "start": 29.457, "end": 30.638, "duration": 1.181,
+      "text": "AI comes late.",
+      "zoom": 115,
+      "type": "emphasis",
+      "reason": "Antithesis resolution — 'AI comes late' is the sharp truth, full emphasis"
+    },
+    {
+      "id": 21,
+      "start": 30.658, "end": 32.880, "duration": 2.222,
+      "text": "Your character has photorealistic skin,",
+      "zoom": 100,
+      "type": "default",
+      "reason": "Subject introduction — descriptive setup, pull back to default after emphasis"
+    },
+    {
+      "id": 22,
+      "start": 33.641, "end": 35.222, "duration": 1.581,
+      "text": "zero personality,",
+      "zoom": 105,
+      "type": "enumeration",
+      "reason": "Deficiency list item 1 — enumeration ascending start"
+    },
+    {
+      "id": 23,
+      "start": 35.522, "end": 36.142, "duration": 0.620,
+      "text": "no struggle,",
+      "zoom": 110,
+      "type": "enumeration",
+      "reason": "Deficiency list item 2 — enumeration ascending middle"
+    },
+    {
+      "id": 24,
+      "start": 36.222, "end": 36.843, "duration": 0.621,
+      "text": "no story.",
+      "zoom": 120,
+      "type": "enumeration_peak",
+      "reason": "Deficiency list item 3 — final item, most philosophically important (story > personality > struggle), peak enumeration zoom"
+    },
+    {
+      "id": 25,
+      "start": 37.223, "end": 38.604, "duration": 1.381,
+      "text": "She's just a digital screensaver,",
+      "zoom": 100,
+      "type": "default",
+      "reason": "Verdict sentence — pulls back to default to let the insult breathe"
+    },
+    {
+      "id": 26,
+      "start": 38.985, "end": 39.685, "duration": 0.700,
+      "text": "not creator.",
+      "zoom": 115,
+      "type": "emphasis",
+      "reason": "Contrast close — 'not creator' is the stinging contrast word, full emphasis"
+    },
+    {
+      "id": 27,
+      "start": 40.426, "end": 41.006, "duration": 0.580,
+      "text": "You cannot",
+      "zoom": 110,
+      "type": "elevated",
+      "reason": "Modal setup — elevated tension before the verb drop. Not 115 (reserved for 'automate' and 'a soul')"
+    },
+    {
+      "id": 28,
+      "start": 41.146, "end": 41.466, "duration": 0.320,
+      "text": "automate",
+      "zoom": 120,
+      "type": "emphasis_peak",
+      "reason": "Single verb at maximum isolation — the hardest word in section 2, peak zoom (120, not standard emphasis 115)"
+    },
+    {
+      "id": 29,
+      "start": 41.527, "end": 41.847, "duration": 0.320,
+      "text": "a soul.",
+      "zoom": 115,
+      "type": "emphasis",
+      "reason": "Final landing word — 'soul' closes section 2, full emphasis. Different from 120 on 'automate'"
+    },
+    {
+      "id": 30,
+      "start": 42.227, "end": 42.627, "duration": 0.400,
+      "text": "Number three,",
+      "zoom": 100,
+      "type": "header",
+      "reason": "Section header — structural marker, reset to default"
+    },
+    {
+      "id": 31,
+      "start": 42.968, "end": 43.908, "duration": 0.940,
+      "text": "your personal taste",
+      "zoom": 105,
+      "type": "elevated",
+      "reason": "Section 3 thesis subject — 'personal taste' is the hero concept, mild elevation"
+    },
+    {
+      "id": 32,
+      "start": 44.169, "end": 45.890, "duration": 1.721,
+      "text": "is the only competitive advantages.",
+      "zoom": 115,
+      "type": "emphasis",
+      "reason": "Section 3 thesis predicate — 'only competitive advantage' is the core insight, full emphasis"
+    },
+    {
+      "id": 33,
+      "start": 46.330, "end": 47.631, "duration": 1.301,
+      "text": "Everyone has access",
+      "zoom": 100,
+      "type": "default",
+      "reason": "Equalizer statement — narrative setup, pull back after thesis"
+    },
+    {
+      "id": 34,
+      "start": 47.691, "end": 48.532, "duration": 0.841,
+      "text": "to the same tools,",
+      "zoom": 105,
+      "type": "elevated",
+      "reason": "'same tools' is the key qualifier that sets up the list — slight elevation"
+    },
+    {
+      "id": 35,
+      "start": 48.652, "end": 49.172, "duration": 0.520,
+      "text": "Midjourney,",
+      "zoom": 110,
+      "type": "enumeration",
+      "reason": "Tool list item 1 — most recognized brand name, opens the list at 110"
+    },
+    {
+      "id": 36,
+      "start": 49.593, "end": 49.973, "duration": 0.380,
+      "text": "Kling,",
+      "zoom": 105,
+      "type": "enumeration",
+      "reason": "Tool list item 2 — secondary tool, step down from Midjourney"
+    },
+    {
+      "id": 37,
+      "start": 50.193, "end": 50.653, "duration": 0.460,
+      "text": "Luma,",
+      "zoom": 100,
+      "type": "enumeration",
+      "reason": "Tool list item 3 — tertiary, continues descent before the punchline spike"
+    },
+    {
+      "id": 38,
+      "start": 51.454, "end": 52.294, "duration": 0.840,
+      "text": "Nano Banana Bro.",
+      "zoom": 120,
+      "type": "enumeration_peak",
+      "reason": "Tool list punchline — absurd final item gets peak zoom for comedic emphasis"
+    },
+    {
+      "id": 39,
+      "start": 52.594, "end": 54.015, "duration": 1.421,
+      "text": "So the only thing separating",
+      "zoom": 100,
+      "type": "default",
+      "reason": "Transition clause — narrative reset before the key contrast"
+    },
+    {
+      "id": 40,
+      "start": 54.135, "end": 55.195, "duration": 1.060,
+      "text": "a viral sensation",
+      "zoom": 110,
+      "type": "elevated",
+      "reason": "Aspirational contrast term — elevated to match its positive weight"
+    },
+    {
+      "id": 41,
+      "start": 55.315, "end": 56.195, "duration": 0.880,
+      "text": "from a cringe bot",
+      "zoom": 105,
+      "type": "contrast",
+      "reason": "Negative contrast term — slightly lower than aspirational term (105 vs 110)"
+    },
+    {
+      "id": 42,
+      "start": 56.455, "end": 57.696, "duration": 1.241,
+      "text": "is your specific eyes",
+      "zoom": 100,
+      "type": "default",
+      "reason": "Answer clause — pull back to let the key noun list that follows hit harder"
+    },
+    {
+      "id": 43,
+      "start": 58.076, "end": 58.856, "duration": 0.780,
+      "text": "for aesthetics,",
+      "zoom": 105,
+      "type": "enumeration",
+      "reason": "Sense list item 1 — enumeration ascending start"
+    },
+    {
+      "id": 44,
+      "start": 59.236, "end": 59.636, "duration": 0.400,
+      "text": "lighting,",
+      "zoom": 110,
+      "type": "enumeration",
+      "reason": "Sense list item 2 — enumeration ascending middle"
+    },
+    {
+      "id": 45,
+      "start": 59.756, "end": 60.256, "duration": 0.500,
+      "text": "and fashion.",
+      "zoom": 120,
+      "type": "enumeration_peak",
+      "reason": "Sense list item 3 (final) — fashion is the most on-brand for AI influencer, peak zoom to close"
+    },
+    {
+      "id": 46,
+      "start": 60.577, "end": 61.557, "duration": 0.980,
+      "text": "The AI is the brush,",
+      "zoom": 100,
+      "type": "default",
+      "reason": "Metaphor first half — pull back to let the metaphor read plainly before the contrast"
+    },
+    {
+      "id": 47,
+      "start": 61.657, "end": 62.657, "duration": 1.000,
+      "text": "but you are still",
+      "zoom": 105,
+      "type": "elevated",
+      "reason": "'still' carries the entire rhetorical weight of persistence — slight elevation"
+    },
+    {
+      "id": 48,
+      "start": 62.677, "end": 63.157, "duration": 0.480,
+      "text": "the artist.",
+      "zoom": 115,
+      "type": "emphasis",
+      "reason": "Section 3 close — 'the artist' is the human identity claim, full emphasis"
+    },
+    {
+      "id": 49,
+      "start": 63.577, "end": 64.138, "duration": 0.561,
+      "text": "And finally,",
+      "zoom": 100,
+      "type": "transition",
+      "reason": "Transition adverb — signals final section, neutral default reset"
+    },
+    {
+      "id": 50,
+      "start": 64.578, "end": 65.918, "duration": 1.340,
+      "text": "number four is the identity.",
+      "zoom": 105,
+      "type": "header",
+      "reason": "Final section header — slight elevation (more weight than prior headers, it's the last)"
+    },
+    {
+      "id": 51,
+      "start": 66.238, "end": 68.839, "duration": 2.601,
+      "text": "Between high-end GPU costs,",
+      "zoom": 100,
+      "type": "default",
+      "reason": "Cost list opener — narrative setup, default"
+    },
+    {
+      "id": 52,
+      "start": 69.279, "end": 70.439, "duration": 1.160,
+      "text": "multiple subscriptions",
+      "zoom": 105,
+      "type": "enumeration",
+      "reason": "Cost item 2 — enumeration ascending start"
+    },
+    {
+      "id": 53,
+      "start": 70.499, "end": 71.960, "duration": 1.461,
+      "text": "to get consistent basis,",
+      "zoom": 110,
+      "type": "enumeration",
+      "reason": "Cost item 2 qualifier — ascending"
+    },
+    {
+      "id": 54,
+      "start": 72.240, "end": 73.460, "duration": 1.220,
+      "text": "and the time you spend",
+      "zoom": 100,
+      "type": "default",
+      "reason": "Cost item 3 opener — pull back before the final cost detail"
+    },
+    {
+      "id": 55,
+      "start": 73.760, "end": 74.500, "duration": 0.740,
+      "text": "fixing glitches,",
+      "zoom": 105,
+      "type": "enumeration",
+      "reason": "Cost item 3 detail — slight elevation above the opener"
+    },
+    {
+      "id": 56,
+      "start": 74.901, "end": 76.341, "duration": 1.440,
+      "text": "this is capital investment.",
+      "zoom": 115,
+      "type": "emphasis",
+      "reason": "Cost list verdict — 'capital investment' reframes the cost as serious business, full emphasis"
+    },
+    {
+      "id": 57,
+      "start": 76.641, "end": 77.981, "duration": 1.340,
+      "text": "You are building a media startup,",
+      "zoom": 100,
+      "type": "default",
+      "reason": "Positive reframe statement — pull back after emphasis to let it breathe"
+    },
+    {
+      "id": 58,
+      "start": 78.261, "end": 79.362, "duration": 1.101,
+      "text": "not playing a video game.",
+      "zoom": 110,
+      "type": "contrast",
+      "reason": "Contrast close — 'video game' is the dismissive contrast, elevated above default"
+    },
+    {
+      "id": 59,
+      "start": 79.682, "end": 80.983, "duration": 1.301,
+      "text": "So, if you're going to",
+      "zoom": 100,
+      "type": "default",
+      "reason": "CTA setup clause — narrative transition, default"
+    },
+    {
+      "id": 60,
+      "start": 81.064, "end": 81.364, "duration": 0.300,
+      "text": "do it,",
+      "zoom": 105,
+      "type": "elevated",
+      "reason": "Conditional resolution — brief but decisive, slight elevation above setup"
+    },
+    {
+      "id": 61,
+      "start": 81.765, "end": 82.607, "duration": 0.842,
+      "text": "stop treating it",
+      "zoom": 110,
+      "type": "emphasis_build",
+      "reason": "First imperative verb — CTA build, elevated"
+    },
+    {
+      "id": 62,
+      "start": 82.747, "end": 83.589, "duration": 0.842,
+      "text": "like a cheat code",
+      "zoom": 100,
+      "type": "default",
+      "reason": "What to stop — pull back before the positive instruction"
+    },
+    {
+      "id": 63,
+      "start": 83.689, "end": 84.852, "duration": 1.163,
+      "text": "and start treating it",
+      "zoom": 110,
+      "type": "emphasis_build",
+      "reason": "Second imperative — parallel with 'stop', elevated to match"
+    },
+    {
+      "id": 64,
+      "start": 84.932, "end": 86.015, "duration": 1.083,
+      "text": "like a business.",
+      "zoom": 105,
+      "type": "last",
+      "reason": "Last segment rule — always 105%. Also: 'business' is the final call-to-action word, 105 lands it with authority without overcooking"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "golden-hour-fashion-editorial",
+  "tag": [
+    "adult-woman",
+    "fashion-editorial",
+    "cat-eye-sunglasses",
+    "golden-hour",
+    "soft-haze",
+    "close-up"
+  ],
+  "image_type": "fashion-lookbook",
+  "image_vibe": "quiet-luxury",
+  "image_purpose": "editorial",
+  "group": "indie/low-fi-dreamy/golden-warm",
+  "prompt": {
+    "project_info": "A minimal luxury fashion close-up with warm amber haze, elegant black styling, and photographic softness created in-camera.",
+    "main_subject": "Cinematic close-up of an adult woman wearing oversized black cat-eye sunglasses and a black high-neck top. Her short dark hair is gathered into a loose messy updo with windblown strands; she has natural makeup, a composed expression, and visible natural skin texture.",
+    "composition_elements": "Vertical head-and-shoulders crop, face turned slightly toward camera, sunglasses as the dominant accessory, black collar visible at the lower edge, translucent fabric creating an out-of-focus foreground veil, and a neutral uncluttered background. No readable text, logos, or branded marks.",
+    "lighting_and_atmosphere": "Warm golden-hour side light at about 3900K, softened through translucent fabric for creamy haze and gentle highlight roll-off. Keep loose hair strands, slightly softened edges, natural skin variation, and a muted amber-beige palette.",
+    "technical_specs": "Full-frame camera with an 85mm portrait lens at f/2, vertical 3:4 crop, shallow depth of field, soft foreground diffusion, natural vignette, Kodak Portra 400-inspired muted grading, and fine visible film grain.",
+    "generated_prompt_string": "Ultra-realistic cinematic fashion portrait of an adult woman wearing oversized black cat-eye sunglasses and a black high-neck top, short dark hair in a loose messy updo with soft windblown strands, natural makeup, warm golden-hour side light illuminating the face, hazy foreground blur created by translucent fabric, shallow depth of field, creamy bokeh, warm beige and amber color grading, natural skin texture, luxury fashion editorial mood, elegant minimal neutral background, 85mm portrait lens, vertical framing, no text or branding.",
+    "negative_prompt": "explicit, nsfw, overly revealing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers, distorted face, duplicate sunglasses",
+    "reference_elements": {
+      "prompt_instructions": "Attach an approved adult identity reference if facial continuity is needed and retain the subject's face and dark hair. The black cat-eye sunglasses and black high-neck top can be supplied as separate wardrobe/accessory references. Preserve the amber side light, soft foreground veil, and minimal backdrop; identity, exact sunglasses shape, and neutral background may be substituted when references change.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-fashion-identity-reference",
+          "required": false,
+          "source": "attach when likeness continuity is needed",
+          "usage": "Preserve adult face and hair character without transferring any logos or text."
+        },
+        {
+          "type": "accessory",
+          "name": "black-cat-eye-sunglasses-reference",
+          "required": false,
+          "source": "attach when exact eyewear continuity is needed",
+          "usage": "Maintain oversized black cat-eye proportions; use unbranded eyewear only."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-high-neck-fashion-top-reference",
+          "required": false,
+          "source": "attach when exact garment continuity is needed",
+          "usage": "Maintain a covered black high-neck silhouette while allowing equivalent wardrobe substitution."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed the named magazine-style imitation and retained a generic luxury fashion editorial direction."
+    ]
+  }
+}

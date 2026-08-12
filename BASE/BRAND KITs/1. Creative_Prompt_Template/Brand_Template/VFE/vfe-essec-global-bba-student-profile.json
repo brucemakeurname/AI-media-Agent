@@ -1,0 +1,78 @@
+{
+  "name": "vfe-essec-global-bba-student-profile",
+  "tag": [
+    "vfe",
+    "essec",
+    "student-profile",
+    "case-study",
+    "global-bba"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Case studies",
+  "group": "vfe_1444933440999344",
+  "prompt": {
+    "project_info": {
+      "theme": "Student success profile for ESSEC Business School admission",
+      "color_palette": "White, Red, Navy, Soft Gray, Campus Green"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A student profile poster featuring the name 'Hành Hà', the red badge '2K8 TP. HCM', a long achievement list about admission to Global BBA ESSEC Business School, plus taped scrapbook-style student and campus photos on the right.",
+      "style": "Editorial admissions success poster with scrapbook paper textures, structured bullet achievements, institutional branding, and advisory CTA."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nHành Hà\n2K8 TP. HCM\nTÂN SINH VIÊN GLOBAL BBA\nESSEC BUSINESS SCHOOL\nHọc sinh THPT Nguyễn Thượng Hiền (TP.HCM)\nTop 15% kỳ thi Olympic Kinh tế cấp Quốc gia tại Việt Nam\nGiải Khuyến khích cuộc thi viết luận toàn cầu John Locke Institute\nGiải thưởng “Công nghiệp, Đổi mới và Hạ tầng” tại SAGE Vietnam\nTrưởng ban Truyền thông dự án Voice of Us (mùa 1)\nPhó ban Đối ngoại & Tài chính dự án Voice of Us (mùa 2)\nTham gia cuộc thi Harvard Crimson Global Case Competition\nThuộc “Trois Parisiennes”, top 3 trường kinh doanh danh giá nhất nước Pháp.\nTop 7 trường kinh doanh hàng đầu châu Âu (theo Financial Times 2025).\nTop 1 Grande École tại Pháp và Top 2 CT Cử nhân QTKD tại Pháp bởi Le Point.\nTop 1 chương trình Global BBA tại Pháp 2026 bởi Le Figaro Étudiant.\nNHẬN TƯ VẤN NGAY\nESSEC BUSINESS SCHOOL",
+      "items": [
+        "Top Left: VFE logo and elegant red calligraphic initial next to the name 'Hành Hà'.",
+        "Top Right: Taped portrait photo of the student in graduation robe and a second taped campus building photo clipped with a red paperclip illustration.",
+        "Bottom Left: ESSEC Business School logo and ranking bullet points beneath the student achievement list.",
+        "Bottom Right: Large red rounded CTA button 'NHẬN TƯ VẤN NGAY'.",
+        "Center/Background: Clean white paper-like background with dotted texture, red framing nodes around the achievements panel, and structured black/red typography."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft editorial daylight print-style lighting",
+      "effect": "Paper-texture subtlety, clean portrait-photo visibility, controlled contrast for long text blocks, and polished admissions-brochure aesthetics."
+    },
+    "technical_specs": {
+      "render_style": "Editorial scrapbook admissions poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality admissions success poster for VFE and ESSEC Business School. Centerpiece is a detailed student profile titled 'Hành Hà', badge '2K8 TP. HCM', and headline 'TÂN SINH VIÊN GLOBAL BBA ESSEC BUSINESS SCHOOL', with extensive bullet-point achievements on the left and scrapbook-style student and campus photos on the right. Background is a clean textured white editorial layout with red frame accents. Surrounding elements: VFE logo, ESSEC logo, ranking statements about Financial Times 2025 and Le Figaro Étudiant 2026, and red CTA button 'NHẬN TƯ VẤN NGAY'. Technical style: editorial scrapbook admissions poster, soft editorial daylight print-style lighting, clean structured typography, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE and ESSEC Business School logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Place VFE top right area and ESSEC lower left exactly as institutional anchors."
+        },
+        {
+          "type": "person",
+          "name": "Student portrait reference",
+          "required": true,
+          "source": "source photo from current creative",
+          "usage": "Keep the same graduation-robe portrait and candid academic mood."
+        },
+        {
+          "type": "location",
+          "name": "ESSEC campus building photo",
+          "required": true,
+          "source": "campus reference image",
+          "usage": "Use in the lower-right scrapbook photo frame."
+        },
+        {
+          "type": "text_layout",
+          "name": "Student profile achievements layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve the long bullet list, ranking notes, and CTA placement."
+        }
+      ],
+      "prompt_instructions": "This is a dense profile poster. Preserve exact visible academic achievements and ranking lines, especially the explicit references to Financial Times 2025 and Le Figaro Étudiant 2026. Keep the scrapbook-paper taped-photo style intact."
+    }
+  }
+}

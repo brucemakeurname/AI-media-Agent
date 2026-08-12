@@ -1,0 +1,66 @@
+{
+  "name": "Holiday Staircase Evening Portrait",
+  "tag": "holiday-staircase-evening-portrait",
+  "image_type": "luxury_interior_portrait",
+  "image_vibe": "festive_elegant_direct_flash",
+  "image_purpose": "fashion_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Holiday Staircase Evening Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "9:16 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with long dark straight hair, composed expression, and natural luminous skin.",
+      "wardrobe": "A black long-sleeve velvet midi dress with a high neckline, opaque black tights, simple black low-heel pumps, and small plain hoop earrings.",
+      "pose_and_expression": "Sitting upright at the center of a broad carpeted staircase, ankles crossed, hands resting lightly on her lap."
+    },
+    "composition_elements": {
+      "setting": "Grand neutral foyer with pale marble steps, a patterned runner, ornate dark railings, and a large golden-lit holiday tree.",
+      "framing": "Eye-level full-body frontal portrait with the staircase creating a formal leading line.",
+      "text_and_brand_control": "No lingerie, fur trim, body emphasis, logo, readable décor text, or watermark."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Direct camera flash balanced with warm chandelier and tree light.",
+      "mood": "Elegant, celebratory, poised, and premium."
+    },
+    "technical_specs": {
+      "camera_style": "high-contrast direct-flash editorial still",
+      "lens": "45mm equivalent",
+      "rendering": "Natural skin, accurate hands, clean marble detail, controlled highlights, and restrained magazine polish."
+    },
+    "generated_prompt_string": "Create a 9:16 vertical direct-flash fashion editorial portrait of an adult woman with long dark straight hair, composed expression, and natural luminous skin. She wears a black long-sleeve velvet midi dress with high neckline, opaque black tights, simple black low-heel pumps, and small plain hoop earrings. Seat her upright at the center of a broad carpeted staircase, ankles crossed, hands resting lightly on her lap. Place her in a grand neutral foyer with pale marble steps, patterned runner, ornate dark railings, and a large golden-lit holiday tree. Balance direct camera flash with warm chandelier and tree light; use eye-level full-body framing, controlled highlights, clean marble texture, natural skin, and accurate hands. No lingerie, fur trim, body emphasis, logo, readable décor text, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, corset, bodysuit, sheer lace, cleavage, fetish styling, provocative pose, fur trim, logo, readable text, watermark, distorted anatomy, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Use only optional adult identity references. Wardrobe and foyer references are replaceable visual guides; remove branding, text, and sexualized styling.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult face and hair traits only."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "covered_evening_dress_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide covered velvet dress shape without labels."
+        },
+        {
+          "type": "environment_reference",
+          "name": "holiday_staircase_reference",
+          "required": false,
+          "source": "user-provided interior reference",
+          "usage": "Guide stairs, railings, and tree placement with no readable decorations."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Replaced highly sexualized lingerie/corset direction with covered eveningwear, a neutral seated pose, and non-body-focused composition."
+  }
+}

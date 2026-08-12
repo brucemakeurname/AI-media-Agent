@@ -1,0 +1,73 @@
+{
+  "name": "bustling-shinjuku-3d-screen-wonder",
+  "tag": [
+    "shinjuku-street",
+    "3d-led-screen",
+    "urban-spectacle",
+    "daylight-cityscape",
+    "anamorphic-advertising"
+  ],
+  "image_type": "campaign-key-visual",
+  "image_vibe": "futuristic-urban-wonder",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Glasses-free 3D LED screen spectacle at a bustling Shinjuku-style intersection",
+      "creative_direction": "urban digital out-of-home campaign visual integrating 3D animation with architecture",
+      "color_palette": "daylight blue sky, concrete gray, glass blue, vivid animated colors, black screen bezel, and city signage accents"
+    },
+    "main_subject": {
+      "type": "glasses-free 3D animated characters and objects",
+      "detail": "captivating fictional animation with complex colorful forms, astonishing depth, and convincing scale as elements appear to cross the screen boundary",
+      "style": "high-detail anamorphic digital billboard content, no real people or public-figure likeness"
+    },
+    "composition_elements": {
+      "framing": "wide horizontal urban establishing view",
+      "screen_position": "majestic L-shaped LED screen prominent at a busy intersection, integrated with futuristic buildings",
+      "environment": "Shinjuku East Exit and Kabukicho-inspired streetscape with pedestrians, traffic, crosswalks, high-rises, and bright sky",
+      "depth_effect": "animated characters and objects cast vivid shadows on the screen and surrounding surfaces while appearing to float into the real urban space"
+    },
+    "lighting_and_atmosphere": {
+      "type": "realistic daytime sunlight at approximately 5600K with soft atmospheric fill",
+      "effect": "vivid screen shadows, reflections on glass buildings, natural street contrast, and energetic city atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "full-frame wide-angle camera with 24mm lens, architectural campaign photography",
+      "resolution": "4k horizontal urban key visual",
+      "finish": "photorealistic city detail, accurate LED luminance, realistic reflections, restrained HDR, subtle atmospheric haze"
+    },
+    "generated_prompt_string": "A majestic L-shaped glasses-free 3D LED screen stands prominently in a bustling Shinjuku-style Tokyo intersection, integrated with futuristic urban architecture reminiscent of Shinjuku East Exit and Kabukicho. The screen displays captivating fictional glasses-free 3D animation: complex colorful characters and objects possess astonishing depth and appear to break through the screen boundary and float into the air. Under realistic daytime lighting, these elements cast vivid shadows on the screen surface and surrounding buildings, harmonizing with the urban space. Include pedestrians, traffic, crosswalks, high-rises, glass reflections, and bright sky. The animation has complex details and vibrant colors that blend with the energetic city atmosphere. Use a 24mm wide-angle architectural camera, realistic LED luminance, natural reflections, restrained HDR, and subtle atmospheric haze. Do not include real public figures, logos, or readable advertising claims.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, celebrity likeness, public figures, watermark, random logos, illegible text, flat billboard, broken perspective, distorted buildings, plastic surfaces, over-saturated HDR, deformed pedestrians",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "location",
+          "name": "shinjuku-style-urban-intersection",
+          "required": true,
+          "source": "Original Tokyo intersection preview image and source prompt",
+          "usage": "Attach to preserve the L-shaped screen, dense street grid, high-rises, crosswalk, traffic, and urban scale; exact buildings and signs are replaceable."
+        },
+        {
+          "type": "graphic",
+          "name": "fictional-glasses-free-3d-animation",
+          "required": true,
+          "source": "Original 3D screen concept and source prompt",
+          "usage": "Attach to preserve animation depth, screen-boundary break-through, shadows, vivid colors, and anamorphic perspective; replace characters and objects with fictional equivalents."
+        },
+        {
+          "type": "background",
+          "name": "daylight-tokyo-city-atmosphere",
+          "required": false,
+          "source": "Original preview image",
+          "usage": "Optional atmosphere reference; preserve bright sky, daylight reflections, pedestrians, and energetic street density while allowing the city to be replaced."
+        }
+      ],
+      "prompt_instructions": "Attach the location and 3D animation references; the atmosphere reference is optional. Keep screen geometry, urban scale, daylight, animation depth, shadow integration, and wide composition consistent. Buildings, signs, pedestrians, and animated characters are replaceable; use fictional graphics with no real logos or public-figure likeness."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "geometric-light-profile",
+  "tag": [
+    "adult-man",
+    "round-glasses",
+    "geometric-light",
+    "orange-teal",
+    "side-profile",
+    "editorial"
+  ],
+  "image_type": "geometric-light-editorial-portrait",
+  "image_vibe": "contemplative-bold-colorblock",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "source_url": "https://x.com/Taaruk_/status/2021933979398492325",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult while preserving the original modern editorial concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "contemplative profile in geometric orange-teal window light",
+      "color_palette": "scarlet red, saturated orange, deep teal, charcoal, warm skin",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult man",
+      "detail": "An adult man with textured curly dark hair, round wire-frame glasses, a charcoal jacket, and a ribbed neutral turtleneck.",
+      "style": "modern high-contrast editorial side-profile portrait"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "right-facing side profile",
+        "round glasses catching teal reflection",
+        "hard-edged rectangular orange-red light behind subject",
+        "deep teal wall and diagonal shadow",
+        "subject contained in lower two-thirds of frame"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "hard-edged projected window light with red-orange key and teal rim/fill",
+      "effect": "dramatic color blocking, crisp facial edges, and a contemplative moody atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "85mm lens at f/1.8, shallow depth of field, detailed natural skin texture, controlled rim light",
+      "resolution": "8K-quality portrait, 4:5"
+    },
+    "generated_prompt_string": "Cinematic modern editorial portrait of an adult man wearing round glasses, a ribbed turtleneck, and a dark jacket, standing beside a wall illuminated by bold geometric window light. Use a right-facing side profile with a soft contemplative expression. Strong red, orange, and teal color contrast casts dramatic shadows across the face. Create hard-edged rectangular light shapes in the background, sharp facial focus, high contrast, shallow depth of field, dramatic rim lighting, natural skin texture, and a moody color-blocked atmosphere. Shot on an 85mm lens at f/1.8.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, text, logo",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-geometric-profile-reference",
+          "required": false,
+          "source": "Attach an adult person reference when likeness is required.",
+          "usage": "Preserve adult facial profile, curly hair, glasses, and contemplative expression."
+        },
+        {
+          "type": "wardrobe",
+          "name": "dark-jacket-and-ribbed-turtleneck",
+          "required": false,
+          "source": "Attach wardrobe reference when exact garment texture is needed.",
+          "usage": "Keep layered dark jacket and neutral ribbed-neck silhouette."
+        },
+        {
+          "type": "graphic",
+          "name": "orange-teal-window-light-reference",
+          "required": false,
+          "source": "Attach a lighting reference for exact color-block geometry.",
+          "usage": "Maintain hard red-orange rectangle, teal area, and diagonal shadow."
+        }
+      ],
+      "prompt_instructions": "All references are optional. Preserve adult profile, round glasses, orange-teal geometric projection, and editorial color-blocking. Identity, wardrobe, and lighting geometry can be replaced independently."
+    }
+  }
+}

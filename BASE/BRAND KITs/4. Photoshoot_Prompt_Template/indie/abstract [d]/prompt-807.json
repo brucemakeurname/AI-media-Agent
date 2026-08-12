@@ -1,0 +1,80 @@
+{
+  "name": "prompt-807",
+  "tag": [
+    "adult-woman",
+    "streetwear",
+    "wide-angle",
+    "four-panel-collage",
+    "orange-bomber",
+    "urban-alley"
+  ],
+  "image_type": "streetwear-editorial-collage",
+  "image_vibe": "bold-gritty-dynamic",
+  "image_purpose": "lookbook",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the model is an adult and retained the layered black mesh streetwear top from the reference."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "high-fashion streetwear editorial demonstrating extreme wide-angle perspective",
+      "color_palette": "neon orange, charcoal gray, black, white, muted concrete blue",
+      "format": "vertical 2x2 collage, 3:4"
+    },
+    "main_subject": {
+      "type": "adult woman fashion model",
+      "detail": "An adult woman aged 22–26 with a platinum-blonde bob and blunt bangs, steel-gray eyes, natural visible pores, a neon-orange oversized bomber jacket layered over a fitted black mesh top, charcoal cargo pants, white platform sneakers, and silver chains and rings.",
+      "style": "consistent high-fashion streetwear identity across four ultra-wide-angle panels"
+    },
+    "composition_elements": {
+      "text": "No readable text, logo, or signature; background graffiti remains abstract and unreadable.",
+      "items": [
+        "2x2 equal-panel collage with narrow white gutters",
+        "top-left: extreme low-angle white sneaker foreground and model looking down",
+        "top-right: overhead view with hand reaching toward camera",
+        "bottom-left: close fisheye face with curved alley edges",
+        "bottom-right: seated knee-forward pose in the same alley",
+        "consistent weathered concrete, rolling doors, and abstract graffiti across all panels"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "hard natural afternoon sunlight at 5500K, high left side-light, minimal pavement bounce",
+      "effect": "sharp shadows, vivid orange nylon highlights, deep blacks, gritty authentic street context"
+    },
+    "technical_specs": {
+      "render_style": "full-frame 12–14mm rectilinear ultra-wide lens at f/8, deep focus, barrel distortion, edge stretching, exaggerated foreshortening, subtle RAW grain",
+      "resolution": "print-ready high resolution vertical 2x2 collage, 3:4"
+    },
+      "generated_prompt_string": "Create a consistent 2x2-grid high-fashion streetwear editorial of the same adult woman aged 22–26 in an urban industrial alleyway. She has a platinum-blonde straight bob with blunt bangs, steel-gray eyes, natural visible skin texture, a neon-orange oversized ripstop bomber jacket layered over a fitted black mesh top, charcoal tactical cargo pants, clean worn white platform sneakers, layered silver chains, and silver rings. Top-left: extreme 10cm-low sneaker perspective, with the right sneaker sole filling the foreground as she looks down. Top-right: bird's-eye view of her deep squat and oversized reaching hand. Bottom-left: fisheye-like extreme face close-up with curved alley edges. Bottom-right: seated knee-forward perspective. Keep identity, outfit, environment, and hard 5500K afternoon side-light consistent in every panel. Use 12–14mm ultra-wide perspective, f/8 deep focus, barrel distortion, exaggerated foreshortening, vivid orange subject color, slightly desaturated gritty background, and no readable text, logo, or signature.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, text, logo, signature, watermark, illustration, anime, cartoon, painting, 3d render, CGI, smooth skin filter, beauty filter, extra fingers, missing fingers, fused fingers, extra limbs, broken joints, inconsistent face, different person, clothing change, hair color change, inconsistent lighting, telephoto compression, flat perspective, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-streetwear-model-reference",
+          "required": false,
+          "source": "Attach an authorized adult model reference when face and proportions must remain locked across panels.",
+          "usage": "Preserve adult identity consistently in all four panels; otherwise use a generic adult model."
+        },
+        {
+          "type": "wardrobe",
+          "name": "orange-bomber-and-black-mesh-top-reference",
+          "required": false,
+          "source": "Attach wardrobe references when exact bomber, layered black mesh top, cargo pants, or sneakers must match.",
+          "usage": "Keep the orange-bomber and layered black-top color hierarchy; garment details may be replaced."
+        },
+        {
+          "type": "location",
+          "name": "industrial-alley-reference",
+          "required": false,
+          "source": "Attach an alley reference when exact pavement, doors, or wall textures are needed.",
+          "usage": "Keep the environment coherent across panels; do not reproduce readable graffiti."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Any attached person reference must depict an authorized adult and be held consistent in all four panels. Preserve the 2x2 layout, ultra-wide perspective study, layered streetwear, bright orange bomber, and single coherent industrial alley."
+    }
+  }
+}

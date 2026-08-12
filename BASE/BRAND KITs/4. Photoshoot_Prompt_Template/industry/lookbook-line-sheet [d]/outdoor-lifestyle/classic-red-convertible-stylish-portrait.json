@@ -1,0 +1,22 @@
+{
+  "name": "classic-red-convertible-stylish-portrait",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "menswear", "convertible"],
+  "image_type": "cinematic outdoor menswear portrait",
+  "image_vibe": "classic, warm, confident, retro",
+  "image_purpose": "menswear lookbook and automotive lifestyle editorial",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create an ultra-realistic cinematic portrait of one approved adult male subject seated in a classic bright-red convertible, preserving the face reference and retro automotive setting.",
+    "main_subject": "Stylish adult man with the approved identity reference, natural dark tousled hair and groomed beard, wearing a cream beanie, oversized white and electric-red graphic jersey, and baggy dark-wash denim jeans. One hand rests on the steering wheel and the other on the door frame while he looks directly toward camera with a confident expression.",
+    "composition_elements": ["Driver-seat portrait, medium close-up framing.", "Classic bright-red convertible with red leather interior and polished chrome details.", "Subject positioned naturally behind the steering wheel, with the car framing the foreground.", "Outdoor roadway setting with warm retro atmosphere."],
+    "lighting_and_atmosphere": "Warm natural daylight with cinematic contrast, soft highlights on the red leather and chrome, shallow depth of field, and a nostalgic editorial grade.",
+    "technical_specs": "Ultra-photorealistic 8K look, realistic skin and fabric texture, cinematic portrait lens perspective, crisp facial focus, natural depth of field, no text or watermark.",
+    "generated_prompt_string": "Ultra-realistic 8K cinematic portrait of a stylish adult man using the uploaded approved-adult image as the face and identity reference, seated in the driver's seat of a classic bright red convertible car. He wears a cream beanie, oversized white and electric-red graphic jersey, and baggy dark-wash denim jeans. One hand is on the steering wheel and the other rests on the door frame as he looks directly into camera with a confident expression. The car has a vibrant red leather interior and polished chrome details. Warm natural daylight, cinematic contrast, shallow depth of field, retro automotive fashion editorial, crisp realistic texture, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "distorted anatomy", "extra fingers", "inconsistent identity", "warped car", "plastic skin", "over-smooth", "over-saturated", "HDR look", "watermark", "unreadable text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "classic-red-convertible-stylish-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach as the required adult identity and facial-structure reference."}, {"type": "location", "name": "classic red convertible with red leather interior", "required": true, "source": "local reference image", "usage": "Preserve the vehicle, interior, chrome, and driver-seat composition."}],
+      "prompt_instructions": "Attach the required approved-adult face reference and local vehicle image. Preserve face, facial structure, identity, outfit, car, red interior, hand placement, and warm outdoor environment. Replace the person only with another approved-adult identity reference; keep the vehicle and wardrobe consistent. Do not add celebrity likeness, logos, or readable typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

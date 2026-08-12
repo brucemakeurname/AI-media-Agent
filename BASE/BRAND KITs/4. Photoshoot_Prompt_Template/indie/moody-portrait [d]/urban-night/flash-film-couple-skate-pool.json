@@ -1,0 +1,75 @@
+{
+  "name": "flash-film-couple-skate-pool",
+  "tag": [
+    "approved-adult-couple",
+    "skate-pool",
+    "streetwear",
+    "direct-flash",
+    "35mm-film",
+    "dutch-angle"
+  ],
+  "image_type": "couple-streetwear-film-portrait",
+  "image_vibe": "detached, raw, analog, nocturnal, streetwear",
+  "image_purpose": "fashion-editorial, couple-moodboard, social-content",
+  "group": "indie / moody-portrait / urban-night",
+  "prompt": {
+    "project_info": {
+      "theme": "Direct-flash couple fashion portrait in an empty skate pool",
+      "format": "vertical 3:4 medium shot with slight Dutch angle",
+      "color_palette": "white, black, red, worn blue, mint, deep night shadows"
+    },
+    "main_subject": {
+      "type": "two adults using required approved-adult face references",
+      "detail": "An adult couple whose faces, facial structures, proportions, skin tones, hair colors and lengths match their respective approved-adult reference images. They wear matching oversized white streetwear sweatshirts with bold non-branded black graphic text and a red graphic element, plus neutral light-colored shorts or bottoms.",
+      "style": "ultra-realistic 35mm analog streetwear fashion photography"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "empty curved concrete skate-pool bowl with worn blue and mint paint, light dirt, and signs of use",
+        "guy seated against the pool wall, looking at the camera",
+        "woman lies along the upper pool edge with her head lowered near his head and hair hanging loosely",
+        "their heads nearly touch while the overall mood remains calm and detached",
+        "vertical diagonal composition with a slight Dutch angle"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "hard direct on-camera flash at night",
+      "effect": "bright skin and fabric highlights, sharp shadows, dark surrounding pool, candid snapshot energy",
+      "atmosphere": "raw, quiet, analog, and nocturnal"
+    },
+    "technical_specs": {
+      "render_style": "35mm film photograph with analog sharpness",
+      "resolution": "high-detail vertical 3:4 image",
+      "color_treatment": "real film grain, slight green-blue cast, soft edge blur, subtle vignette, dust, and scratches"
+    },
+    "generated_prompt_string": "Use the uploaded approved-adult references as the only appearance standards for both adults; preserve each person's face, facial structure, proportions, age appearance, skin tone, hair color, and hair length accurately, without celebrity or public-figure substitution. Create an ultra-realistic 35mm-film streetwear fashion shoot of the couple at night in an empty curved concrete skate pool with worn blue and mint paint, signs of use, and light dirt. Frame a vertical 3:4 medium shot on a slight Dutch angle, with the couple positioned diagonally. The man sits by the pool wall with his back leaning against the edge and looks at camera; the woman lies along the pool edge with her head lowered near his head and her hair hanging loosely. Dress them in matching oversized white streetwear sweatshirts with bold non-branded black graphic text and a red graphic element, plus neutral light-colored shorts or bottoms. Use hard direct on-camera flash, sharp contrast, bright highlights, dark background, real film grain, slight green-blue cast, soft edge blur, subtle vignette, dust, scratches, textured fabric, natural hair, and natural skin detail.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, identity blending, celebrity likeness, public-figure likeness, logos, watermark, text overlay, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "Attach a required approved-adult face reference for each person. Preserve both adult identities, matching white streetwear, skate-pool layout, diagonal pose, direct flash, and 35mm film texture. Do not use celebrity/public-figure likeness or readable brand marks.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-man-face-reference",
+          "required": true,
+          "source": "user attachment",
+          "usage": "Maintain the adult man's face, facial structure, proportions, skin tone, hair, and expression."
+        },
+        {
+          "type": "person",
+          "name": "approved-adult-woman-face-reference",
+          "required": true,
+          "source": "user attachment",
+          "usage": "Maintain the adult woman's face, facial structure, proportions, skin tone, hair, and expression."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that both supplied identity references must depict approved adults while preserving the original couple pose, streetwear, skate-pool setting, and flash-film aesthetic.",
+      "Specified non-branded graphic clothing to avoid reproducing readable marks."
+    ]
+  }
+}

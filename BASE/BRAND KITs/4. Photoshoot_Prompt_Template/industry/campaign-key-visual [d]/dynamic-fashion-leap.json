@@ -1,0 +1,59 @@
+{
+  "name": "dynamic-fashion-leap",
+  "tag": ["adult-woman", "nike-sportswear", "dynamic-leap", "blue-studio", "cargo-fashion", "sneaker-campaign"],
+  "image_type": "dynamic-sports-fashion-photograph",
+  "image_vibe": "energetic-futuristic-cool",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the model as an adult and used feminine-silhouette, fitted-layering, and directional-light language while preserving the white-and-blue Nike outfit, mid-air leap, cargo styling, reflection, and graphic campaign layout."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "dynamic high-fashion Nike action photograph",
+      "color_palette": "gradient sky blue, white, light blue, grey-olive, and silver reflections",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult woman with a feminine athletic silhouette, flowing wavy gray-blue hair, natural skin texture, and a focused energetic expression.",
+      "wardrobe": "Light blue-framed sunglasses, small hoop earrings, white cropped puffer jacket with light blue striped panels and cuff details, white bandeau top layered beneath, light blue utility harness, oversized gray-olive cargo pants with multiple pockets and light blue straps, chunky white socks with a small blue Nike swoosh, and intricate light blue Nike Air Max-style sneakers.",
+      "pose": "Caught mid-air in a powerful dynamic leap, knees bent asymmetrically, torso twisting slightly, hair and utility straps flowing with motion.",
+      "styling": "Futuristic athletic streetwear with crisp commercial fashion polish."
+    },
+    "composition_elements": {
+      "framing": "Vertical full-body action frame with the airborne adult subject centered-left, clear floor reflection below, and graphic typography to the right.",
+      "environment": "Clean gradient blue studio background with polished blue floor and large stylized vertical white text graphic reading +tsun on the right; left side includes Nike and smaller campaign copy.",
+      "focus": "Sharp face and sunglasses, jacket sheen, cargo pockets and straps, shoe sole structures, motion in hair, reflection, and legible graphics."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Crisp even studio lighting with soft directional highlights on the jacket, sunglasses, straps, and sneaker materials, plus realistic shadows and floor reflection.",
+      "atmosphere": "Energetic, futuristic, athletic, playful, and cool."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with a 35mm lens at f/4, 1/1000 s, ISO 200, low-angle action perspective",
+      "quality": "Ultra-realistic high-resolution fashion action photography, frozen motion, crisp technical fabrics, detailed sneaker soles, clean typography, and natural reflection"
+    },
+    "generated_prompt_string": "Create a high-resolution 4:5 dynamic Nike fashion action photograph in a clean gradient blue studio. Show an adult woman with a feminine athletic silhouette, flowing wavy gray-blue hair, natural skin texture, and focused energetic expression, caught mid-air in a powerful leap. She wears light blue-framed sunglasses, small hoop earrings, a white cropped puffer jacket with light blue panels, a white bandeau top layered beneath, a light blue utility harness, oversized gray-olive cargo pants with multiple pockets and light blue straps, chunky white socks with a blue Nike swoosh, and intricate light blue Nike Air Max-style sneakers. Freeze the motion with asymmetrically bent knees, slight torso twist, flowing hair and straps, a polished blue floor reflection, giant vertical white +tsun typography on the right, and Nike campaign copy on the left. Use crisp even studio light, technical fabric detail, accurate legible text, and no watermark or extra text.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, wardrobe malfunction, illegible text, distorted Nike logo, deformed anatomy, extra limbs, blurry subject, broken reflection, watermark, cluttered background",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult model. Optional wardrobe, sneaker, typography, studio, or lighting references may replace only their named element; preserve the exact layered outfit, feminine silhouette, airborne pose, Nike styling, blue palette, and floor reflection.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "white-blue-nike-cargo-sportswear-look",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the jacket, top, harness, pants, socks, sunglasses, or sneakers while preserving layered athletic coverage and color palette."
+        },
+        {
+          "type": "graphic-style",
+          "name": "vertical-tsun-nike-campaign-typography",
+          "required": false,
+          "source": "user-uploaded graphic reference",
+          "usage": "Replace only the typography and small copy while preserving the right-side vertical graphic balance and legibility."
+        }
+      ]
+    }
+  }
+}

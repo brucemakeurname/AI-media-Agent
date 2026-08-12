@@ -1,0 +1,57 @@
+{
+  "name": "befood-kfc-world-cup-chill-discount-20",
+  "tag": ["befood", "kfc", "world cup", "20 percent off", "sports promo"],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "be_2180523369471739",
+  "prompt": {
+    "project_info": {
+      "theme": "World Cup chill food-night promotion",
+      "color_palette": "Deep blue, bright yellow, white, red, grass green, fried-golden brown"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A sports-night food promotion showing KFC fried chicken and a rice meal on a soccer field inside a lit stadium, with a large beFood header, a 20 percent discount badge, and a flying soccer ball to reinforce the watch-party atmosphere.",
+      "style": "Photoreal food promo poster with stadium-event energy"
+    },
+    "composition_elements": {
+      "type": "Food Props/Typography/Sports Background",
+      "text": "beFood, 17.7 Hè vị chill lên World Cup, Giảm 20%, Giảm tối đa 40k cho đơn từ 150k, KFC",
+      "items": [
+        "Top Center: yellow beFood wordmark.",
+        "Upper Middle: large white stacked text '17.7 Hè vị chill lên World Cup'.",
+        "Center: yellow rounded discount block with red text 'Giảm 20%'.",
+        "Below: white line 'Giảm tối đa 40k cho đơn từ 150k'.",
+        "Bottom Left: black bowl of rice with sauce, lettuce, and a crispy chicken piece.",
+        "Bottom Right: white KFC box full of fried chicken pieces and an additional sauced drumstick on a white plate behind.",
+        "Right Midair: black-and-white soccer ball with motion streaks.",
+        "Bottom Left Corner: small be mascot cheerleader with pom-poms.",
+        "Background: blue football stadium with floodlights, sparkles, and green field turf."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Stadium floodlight commercial lighting",
+      "effect": "Night-match excitement, glossy food highlights, energetic sports-event ambience"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal food advertising poster with sports-stadium composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "logo", "name": "beFood and KFC branding", "required": true, "source": "source image logo references", "usage": "Preserve the beFood header and the KFC box branding."},
+        {"type": "product", "name": "KFC fried chicken and rice meal", "required": true, "source": "source image food reference", "usage": "Keep the exact meal composition, fried texture, and packaging placement."},
+        {"type": "graphic", "name": "soccer ball and cheerleader mascot", "required": true, "source": "source image sports graphic reference", "usage": "Preserve the flying ball, motion lines, and small cheering mascot."},
+        {"type": "background", "name": "stadium field and floodlights", "required": true, "source": "source image stadium reference", "usage": "Maintain the blue stadium bowl, floodlight arrays, and green turf base."},
+        {"type": "text_layout", "name": "World Cup food-night headline", "required": true, "source": "source image text reference", "usage": "Keep the exact wording and the yellow discount badge arrangement."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve food proportions, the sports-stadium environment, and the soccer-ball placement.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the high-energy World Cup watch-party feeling with glossy food hero treatment."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square beFood x KFC sports-night promotion poster set inside a blue football stadium with floodlights and a green field. Place the yellow beFood wordmark at the top center. Add large white text '17.7 Hè vị chill lên World Cup', then a yellow rounded block with red text 'Giảm 20%', and below it the white line 'Giảm tối đa 40k cho đơn từ 150k'. In the foreground, show a black bowl of rice and crispy chicken on the left, and a white KFC box full of fried chicken on the right with an extra sauced drumstick on a plate behind. Add a flying soccer ball with motion streaks on the right and a small cheering be mascot with pom-poms on the lower left. Technical style: photoreal food advertising poster with sports-stadium composite, stadium floodlight commercial lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark muddy food, incorrect text, wrong KFC branding, low resolution, deformed chicken, blurry stadium lights, watermark, signature"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "toyota-hilux-vietbuild-2026-breakthrough-recap",
+  "tag": [
+    "hilux",
+    "vietbuild-2026",
+    "event-recap",
+    "pickup"
+  ],
+  "biz_niche": "Automotive",
+  "content_format": "Brand story",
+  "group": "toyota_1919174138702795",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Hilux breakthrough presence at Vietbuild 2026",
+      "color_palette": "White, black, industrial red, orange, metallic gray"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "An event-recap poster shot at an exhibition booth, featuring a white Toyota Hilux pickup in a front low-angle view indoors. Large text at the bottom reads 'HILUX BUT PHA CHINH PHUC VIETBUILD 2026' and below it 'Cam on cac Quy khach hang da den trai nghiem'. The booth behind the truck has large Toyota branding, a 'HILUX' sign, red industrial accents, city-skyline silhouette decor, stop sign, cones, and display boards. Bottom-right script says 'Move your world'.",
+      "style": "Photoreal expo-floor automotive poster with industrial booth design, event-documentary realism, and bold recap typography"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / HILUX / Move your world / HILUX BUT PHA / CHINH PHUC VIETBUILD 2026 / Cam on cac Quy khach hang da den trai nghiem",
+      "items": [
+        "Top Left: Toyota logo and skyline silhouette integrated into the exhibition booth",
+        "Top Right: 'HILUX' sign, stop sign, and lit industrial display structure",
+        "Bottom Left: Booth counter area and event flooring leading toward the truck",
+        "Bottom Right: Handwritten 'Move your world' and thank-you event message",
+        "Center/Background: White Toyota Hilux pickup displayed on an indoor event stage with red-and-black industrial booth styling"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Indoor expo-event lighting",
+      "effect": "Trade-show spotlights, reflective polished bodywork, documentary booth ambience"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal event photography with recap-poster typography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Hilux event recap at Vietbuild 2026. Centerpiece is a white Toyota Hilux pickup photographed from a low front angle inside a large industrial-themed exhibition booth. Background is a Toyota-branded expo setup with red accents, signage, cones, skyline decor, and display boards. Surrounding elements: Toyota logo, exact headline 'HILUX BUT PHA CHINH PHUC VIETBUILD 2026', the thank-you line 'Cam on cac Quy khach hang da den trai nghiem', and footer script 'Move your world'. Technical style: photoreal event photography with recap-poster typography, indoor expo-event lighting, spotlights and reflective bodywork, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Toyota Hilux exterior reference",
+          "required": true,
+          "source": "official Hilux product reference or event photo",
+          "usage": "Preserve the pickup stance, grille typography, and event display angle"
+        },
+        {
+          "type": "location",
+          "name": "Toyota Hilux Vietbuild booth environment",
+          "required": true,
+          "source": "event booth photos",
+          "usage": "Keep the industrial booth styling, signage, stop sign, cones, and display architecture"
+        },
+        {
+          "type": "text_layout",
+          "name": "Vietbuild recap poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the giant bottom headline, thank-you line, and truck-centered expo framing"
+        }
+      ],
+      "prompt_instructions": "Preserve 'VIETBUILD 2026' exactly. Relative to Friday, July 17, 2026, the event framing should remain as visible recap copy and not be normalized to another year."
+    }
+  }
+}

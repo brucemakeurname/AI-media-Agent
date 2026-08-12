@@ -1,0 +1,22 @@
+{
+  "name": "fashion-sports-grid-girl",
+  "tag": ["industry", "lookbook-line-sheet", "grid-collage", "sportswear", "four-panel"],
+  "image_type": "four-panel sportswear editorial",
+  "image_vibe": "athletic, graphic, focused, cinematic",
+  "image_purpose": "sportswear lookbook and campaign grid",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Create a four-panel sportswear editorial grid with one consistent adult model in a dark-blue studio with concrete blocks.",
+    "main_subject": "One adult fictional woman with original non-celebrity features, braided dark hair, wearing a yellow, orange, and black graphic tracksuit with chunky generic sneakers. Maintain the same face, outfit, body proportions, and color grade throughout.",
+    "composition_elements": "Four panels: seated back on a concrete cube looking down; close-up with arms crossed and direct gaze; squatting on a concrete cube looking up; seated on a concrete cube with legs apart and gaze to the side. Dark blue studio and concrete blocks remain consistent.",
+    "lighting_and_atmosphere": "Controlled dark-blue studio lighting with sculptural shadows on concrete, crisp tracksuit color, athletic editorial atmosphere.",
+    "technical_specs": "Four-panel grid, consistent dimensions and styling, photorealistic fashion-sports photography, natural anatomy, sharp fabric and sneaker texture, no logos or text.",
+    "generated_prompt_string": "Four-panel sportswear fashion grid of one adult fictional woman with original non-celebrity features, braided dark hair, wearing a yellow, orange, and black graphic tracksuit with chunky generic sneakers. Same face, outfit, proportions, studio, and color grade in all panels. Top left seated back on a concrete cube looking down; top right close-up with arms crossed looking directly forward; bottom left squatting on a concrete cube looking up; bottom right seated on a cube with legs apart looking to the side. Consistent dark-blue studio, concrete blocks, controlled sculptural lighting, sharp photorealistic sportswear editorial detail.",
+    "negative_prompt": "minor or underage appearance, celebrity likeness, public figure likeness, explicit, nsfw, overly revealing, nudity, blurry, low quality, distorted anatomy, extra limbs, deformed hands, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, text, signature",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "fashion-sports-grid-girl.jpg", "required": true, "source": "workspace reference image", "usage": "Reference the adult model, braided hair, tracksuit, chunky sneakers, concrete blocks, four poses, and dark-blue studio."}],
+      "prompt_instructions": "Attach the required reference image. Preserve identity consistency, outfit, four poses, concrete setting, lighting, and sportswear palette. Use an original adult identity; keep products and logos generic, and typography absent or replaceable."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the model as an adult fictional subject while preserving the four-panel sportswear composition and poses."]}
+}

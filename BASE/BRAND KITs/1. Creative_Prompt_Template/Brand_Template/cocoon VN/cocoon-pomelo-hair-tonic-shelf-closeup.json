@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-pomelo-hair-tonic-shelf-closeup",
+  "tag": [
+    "hair-tonic",
+    "close-up",
+    "bathroom-shelf",
+    "handheld",
+    "product-demo",
+    "pomelo"
+  ],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Product demos",
+  "group": "cocoon_978684865039402",
+  "prompt": {
+    "project_info": {
+      "theme": "Close-up bathroom shelf moment for pomelo hair tonic",
+      "color_palette": "Warm Cream, Forest Green, Natural Wood, Soft White"
+    },
+    "main_subject": {
+      "type": "Product/Person",
+      "detail": "A close-up hand-held product photo showing a small dark green Cocoon Pomelo Hair Tonic bottle lifted from a white bathroom shelf beside a wooden scalp brush and a folded white towel.",
+      "style": "Everyday premium bathroom lifestyle photography, intimate routine detail shot, warm natural sunlight"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible label text includes 'Nước dưỡng da đầu tinh dầu bưởi / Pomelo hair tonic'.",
+      "items": [
+        "Top Left: Wooden scalp brush with rounded pins resting on the shelf edge.",
+        "Top Right: A hand gripping the small hair tonic bottle from above with warm directional sunlight.",
+        "Bottom Left: Partial amber jar and white label of another product cropped out beneath the shelf rail.",
+        "Bottom Right: Folded textured white towel draped over the edge of the shelf with water droplets visible nearby.",
+        "Center/Background: White metal shelf rail and a soft cream wall lit by warm sun."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm natural bathroom sunlight",
+      "effect": "Soft golden highlights, calm routine intimacy, gentle shadows, realistic home-bathroom warmth"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity lifestyle product photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for an intimate bathroom-routine product moment. Centerpiece is a hand holding a small dark green Cocoon Pomelo Hair Tonic bottle from a white shelf rail. Background is a softly lit cream wall with warm sunlight. Surrounding elements: a wooden scalp brush, a folded white towel, a partial amber jar below, and visible label text 'Pomelo hair tonic'. Keep the tight crop, realistic hand placement, and calm warm bathroom mood. Technical style: high fidelity lifestyle product photography, warm natural bathroom sunlight, soft golden highlights and gentle shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Cocoon Pomelo Hair Tonic bottle",
+          "required": true,
+          "source": "Attach the exact packshot or crop from the original image",
+          "usage": "Preserve bottle size, dark green tint, dropper-style tip, and label design."
+        },
+        {
+          "type": "person",
+          "name": "Hand grip on tonic bottle",
+          "required": true,
+          "source": "Use the original image as pose reference",
+          "usage": "Maintain the hand angle and the bottle's diagonal lift from the shelf."
+        },
+        {
+          "type": "background",
+          "name": "Bathroom shelf with brush and towel",
+          "required": true,
+          "source": "Use the original image as environment reference",
+          "usage": "Keep the wooden brush, white towel texture, and shelf-rail composition."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, preserve the close-up shelf composition and the warm natural routine feel. Attach the bottle ref and composition ref so the scene stays like an intimate bathroom moment rather than a standard centered packshot."
+    }
+  }
+}

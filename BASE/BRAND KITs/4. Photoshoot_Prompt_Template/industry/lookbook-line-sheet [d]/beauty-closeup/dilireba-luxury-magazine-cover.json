@@ -1,0 +1,75 @@
+{
+  "name": "dilireba-luxury-magazine-cover",
+  "tag": [
+    "luxury-beauty",
+    "red-lipstick",
+    "navy-coat",
+    "white-studio",
+    "magazine-closeup"
+  ],
+  "image_type": "luxury-beauty-closeup",
+  "image_vibe": "timeless-elegance",
+  "image_purpose": "lookbook-line-sheet",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": {
+      "theme": "Luxury magazine beauty close-up with navy and white styling",
+      "creative_direction": "Refined photoreal beauty portrait focused on expressive eyes, red lips, hair texture, and natural skin",
+      "color_palette": "minimal white, deep navy, crisp white shirt, warm skin, dark brown hair, and matte red lips"
+    },
+    "main_subject": {
+      "type": "clearly adult fictional woman",
+      "detail": "adult woman with luminous natural skin, expressive brown eyes, natural full brows, defined nose bridge, matte red lips, and long silky dark hair parted in the middle",
+      "wardrobe": "navy coat collar layered over a crisp white shirt",
+      "expression": "quietly confident and elegant direct gaze"
+    },
+    "composition_elements": {
+      "framing": "3:4 vertical tight head-and-shoulder portrait with face as the sole anchor",
+      "background": "clean minimalist white studio with generous negative space",
+      "beauty_details": "natural pores, subtle cheekbone highlights, fine hair strands, matte lip texture, and soft cinematic shadows"
+    },
+    "lighting_and_atmosphere": {
+      "type": "balanced beauty dish at approximately 5000K with soft fill",
+      "effect": "gentle sculpting across cheekbones and forehead, soft shadow depth, and luxury cosmetic clarity"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 105mm beauty lens, Vogue-style editorial photography without copying a real cover",
+      "resolution": "4k 3:4 vertical beauty portrait",
+      "finish": "sharp focus, realistic skin, fine hair detail, restrained retouching, and natural dynamic range"
+    },
+    "generated_prompt_string": "Create a beautiful close-up luxury magazine beauty portrait of a clearly adult fictional woman. Give her luminous natural skin with delicate visible texture, expressive brown eyes looking directly at the camera with quiet confidence, natural full brows, a defined nose bridge, bold matte red lips, and long silky dark hair parted in the middle with soft loose waves. Show a navy coat collar over a crisp white shirt at the bottom of the frame. Use a clean minimalist white background, balanced approximately 5000K professional studio lighting with soft cinematic shadows, a 105mm beauty lens, natural pores, subtle cheekbone highlights, fine hair strands, and a timeless high-fashion editorial finish. Do not use a celebrity likeness, real magazine title, logo, watermark, or public-figure identity.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, celebrity likeness, public-figure name, real magazine title, logo, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed face, distorted hair",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "fictional-approved-adult-luxury-model",
+          "required": true,
+          "source": "Original luxury beauty preview image",
+          "usage": "Attach only as a pose, makeup, and styling reference; replace the public-figure likeness with an approved fictional adult identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "navy-coat-white-shirt-look",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve navy coat collar, crisp white shirt, and sophisticated contrast; outfit may be replaced only with an equivalent adult look."
+        },
+        {
+          "type": "background",
+          "name": "minimal-white-beauty-studio",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve clean white negative space and beauty-light behavior; background may be replaced with an equivalent minimal studio."
+        }
+      ],
+      "prompt_instructions": "Attach the fictional adult model, exact navy-and-white styling, and white studio references. Keep close-up framing, makeup, gaze, skin texture, hair, light, and palette consistent. Replace the real public-figure identity and any magazine branding with fictional cleared equivalents."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public-figure likeness with a fictional approved adult woman while preserving the luxury beauty close-up, makeup, styling, and white studio concept."
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "name": "floral-skin-cinematic-portrait",
+  "tag": [
+    "botanical-face-paint",
+    "red-eye-mark",
+    "teal-background",
+    "oil-paint-realism",
+    "fine-art-beauty"
+  ],
+  "image_type": "fine-art-beauty-portrait",
+  "image_vibe": "cinematic-botanical",
+  "image_purpose": "lookbook-line-sheet",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": {
+      "theme": "Cinematic close-up portrait covered with intricate botanical face patterns",
+      "creative_direction": "Painterly oil-paint realism combining ornamental floral skin art, one bold red eye shape, and vintage teal atmosphere",
+      "color_palette": "teal, botanical green, muted red, warm skin, charcoal hair, and soft vintage shadows"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult woman with calm direct gaze, natural facial texture, dark sculpted hair, and intricate botanical patterns painted across the face and skin",
+      "face_art": "ornamental floral and leaf patterns with one bold red artistic shape around one eye",
+      "expression": "quiet, composed, and cinematic"
+    },
+    "composition_elements": {
+      "framing": "tight close-up portrait with the face as the central anchor",
+      "background": "teal vintage studio background with soft atmospheric depth",
+      "surface": "detailed painterly botanical texture that follows facial planes without obscuring eyes or identity"
+    },
+    "lighting_and_atmosphere": {
+      "type": "dramatic soft studio key at approximately 4600K with controlled side fill",
+      "effect": "sculpted face, visible ornamental texture, gentle shadow depth, and cinematic color separation"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 85mm portrait lens, painterly oil-paint realism",
+      "resolution": "4k vertical fine-art portrait",
+      "finish": "ultra-detailed ornamental texture, natural pores, shallow depth of field, cinematic grading, and restrained grain"
+    },
+    "generated_prompt_string": "Create a close-up cinematic portrait of a clearly adult woman whose skin is covered with intricate botanical floral and leaf patterns, with one eye marked by a bold red artistic shape. Use painterly oil-paint realism while preserving natural facial texture, clear eyes, and realistic anatomy. Place the adult subject against a teal vintage studio background with dramatic soft approximately 4600K lighting, controlled side fill, shallow depth of field, ultra-detailed ornamental textures, cinematic color grading, and a fine-art editorial mood. Keep the face fully recognizable, the patterns non-violent and decorative, and the image free of logos, text, or celebrity likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, body horror, wounds, blood, celebrity likeness, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, HDR look, extra fingers, deformed face, muddy floral pattern",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-botanical-portrait-model",
+          "required": true,
+          "source": "Original floral portrait preview image",
+          "usage": "Attach an approved adult face reference and preserve facial structure, gaze, and likeness without celebrity identity."
+        },
+        {
+          "type": "graphic",
+          "name": "botanical-face-paint-pattern",
+          "required": true,
+          "source": "Original floral skin-art preview image and source prompt",
+          "usage": "Attach to preserve ornamental botanical coverage, red eye mark, pattern direction, and fine-art surface detail; replace patterns only with equivalent non-violent decorative art."
+        },
+        {
+          "type": "background",
+          "name": "teal-vintage-studio",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve teal background, vintage atmosphere, and soft depth; background may be replaced with an equivalent color field."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult model, botanical face-art, and teal studio references. Keep identity, pattern, red eye mark, close-up framing, lighting, and painterly realism consistent. Replace the person, art, or background only with approved equivalents and keep all marks decorative and non-violent."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

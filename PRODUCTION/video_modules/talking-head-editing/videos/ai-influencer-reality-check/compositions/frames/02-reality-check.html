@@ -1,0 +1,169 @@
+<template data-composition-id="02-reality-check">
+  <style>
+    #root {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      container-type: size;
+      overflow: hidden;
+      background: transparent;
+    }
+
+    @font-face {
+      font-family: "Barlow";
+      font-weight: 900;
+      font-style: normal;
+      font-display: block;
+      src: url("assets/fonts/Barlow-Black.woff2") format("woff2");
+    }
+
+    .f02-bg {
+      position: absolute;
+      inset: 0;
+      background: #111111;
+    }
+
+    .f02-hype-stack {
+      position: absolute;
+      top: 11cqh;
+      left: 5.5cqw;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6cqh;
+      transform-origin: 0% 0%;
+    }
+
+    .f02-word {
+      font-family: "Barlow", sans-serif;
+      font-weight: 900;
+      font-size: 7.5cqw;
+      line-height: 1.0;
+      letter-spacing: -0.03em;
+      text-transform: lowercase;
+      color: #F0ECE5;
+      margin: 0;
+      white-space: nowrap;
+    }
+
+    .f02-flash {
+      position: absolute;
+      inset: 0;
+      background: #E85D26;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .f02-title {
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      width: max-content;
+      max-width: 78cqw;
+      height: max-content;
+      text-align: center;
+      opacity: 0;
+      transform-origin: 50% 50%;
+    }
+
+    .f02-title-line {
+      display: block;
+      font-family: "Barlow", sans-serif;
+      font-weight: 900;
+      font-size: 10.5cqw;
+      line-height: 0.9;
+      letter-spacing: -0.04em;
+      text-transform: lowercase;
+      color: #E85D26;
+      margin: 0;
+    }
+  </style>
+
+  <div id="root" data-composition-id="02-reality-check" data-width="1080" data-height="1920">
+    <div class="clip f02-bg" data-start="0" data-duration="1.941" data-track-index="0"></div>
+
+    <div class="clip f02-hype-stack" data-start="0" data-duration="1.941" data-track-index="1">
+      <div class="f02-word" id="f02-word-1" style="opacity: 1;">rich.</div>
+      <div class="f02-word" id="f02-word-2" style="opacity: 0.5;">now.</div>
+      <div class="f02-word" id="f02-word-3" style="opacity: 0.22;">viral.</div>
+    </div>
+
+    <div class="clip f02-flash" id="f02-flash" data-start="0.68" data-duration="0.22" data-track-index="2"></div>
+
+    <div class="clip f02-title" id="f02-title" data-start="0" data-duration="1.941" data-track-index="3">
+      <div class="f02-title-line">the reality</div>
+      <div class="f02-title-line">check</div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var hypeStack = document.querySelector(
+        '[data-composition-id="02-reality-check"] .f02-hype-stack'
+      );
+      var word1 = document.getElementById("f02-word-1");
+      var word2 = document.getElementById("f02-word-2");
+      var word3 = document.getElementById("f02-word-3");
+      var flash = document.getElementById("f02-flash");
+      var title = document.getElementById("f02-title");
+
+      var tl = gsap.timeline({ paused: true });
+
+      // Scene 1 (0.0-0.5s): carried-over static hype stack, no motion yet.
+
+      // Scene 2 (0.5-0.85s): hype stack dims further and shrinks/shifts right
+      // to make room (scale-swap-transition "outgoing" half — power2.in rush).
+      var STACK_TRIGGER = 0.5;
+      var STACK_EXIT_DUR = 0.35;
+
+      tl.to(
+        hypeStack,
+        { scale: 0.72, x: 620, duration: STACK_EXIT_DUR, ease: "power2.in" },
+        STACK_TRIGGER
+      );
+      tl.to(word1, { opacity: 0.5, duration: STACK_EXIT_DUR, ease: "power2.in" }, STACK_TRIGGER);
+      tl.to(word2, { opacity: 0.3, duration: STACK_EXIT_DUR, ease: "power2.in" }, STACK_TRIGGER);
+      tl.to(word3, { opacity: 0.15, duration: STACK_EXIT_DUR, ease: "power2.in" }, STACK_TRIGGER);
+
+      // Scene 3 (~0.68s-end): fadelist-title hard-cuts in (discrete-text-sequence
+      // hard-cut/flash word-swap) then settles power3, holds with a subtle jitter.
+      var OVERLAP = 0.15;
+      var POP_TRIGGER = STACK_TRIGGER + STACK_EXIT_DUR - OVERLAP; // 0.70
+
+      // Flash pulse sells the hard-cut landing (soft-thud sfx lands here).
+      tl.to(flash, { opacity: 0.32, duration: 0.08, ease: "none" }, 0.68);
+      tl.to(flash, { opacity: 0, duration: 0.14, ease: "power2.out" }, 0.76);
+
+      // Discrete hard-cut: opacity snaps in near-instantly (no smear/typewriter).
+      tl.set(title, { opacity: 1 }, POP_TRIGGER);
+
+      // Spring pop-in (scale-swap "incoming" half): overshoot then power3 settle.
+      tl.fromTo(
+        title,
+        { scale: 0.62 },
+        { scale: 1.1, duration: 0.18, ease: "power2.out" },
+        POP_TRIGGER
+      );
+      tl.to(title, { scale: 1.0, duration: 0.32, ease: "power3.out" }, POP_TRIGGER + 0.18);
+
+      // Held state: subtle deterministic jitter (sine-driven, not a CSS animation).
+      var JITTER_START = 1.35;
+      var JITTER_END = 1.941;
+      var jitter = { p: 0 };
+      tl.to(
+        jitter,
+        {
+          p: Math.PI * 2 * 1.5,
+          duration: JITTER_END - JITTER_START,
+          ease: "none",
+          onUpdate: function () {
+            title.style.rotate = (Math.sin(jitter.p) * 0.25) + "deg";
+          },
+        },
+        JITTER_START
+      );
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines["02-reality-check"] = tl;
+    })();
+  </script>
+</template>

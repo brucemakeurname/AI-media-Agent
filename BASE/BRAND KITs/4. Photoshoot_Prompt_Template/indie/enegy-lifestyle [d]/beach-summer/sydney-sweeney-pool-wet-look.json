@@ -1,0 +1,71 @@
+{
+  "name": "sydney-sweeney-pool-wet-look",
+  "tag": [
+    "resort-pool",
+    "competitive-swimwear",
+    "royal-blue-pink",
+    "wet-hair",
+    "summer-lifestyle"
+  ],
+  "image_type": "swimwear-editorial-portrait",
+  "image_vibe": "bright-athletic-resort",
+  "image_purpose": "lookbook",
+  "group": "indie/enegy-lifestyle/beach-summer",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed public-figure likeness, body-emphasis wording, and unapproved logo; retained the adult sunlit resort-pool swimwear concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "sunlit resort-pool competitive-swimwear lifestyle portrait",
+      "color_palette": "royal blue, bubblegum pink, pool cyan, palm green, and warm white",
+      "format": "vertical 9:16 medium-full portrait"
+    },
+    "main_subject": {
+      "type": "original adult woman",
+      "detail": "Original adult woman with shoulder-length platinum-blonde hair and soft bangs, posing naturally at the blue mosaic-tiled edge of an upscale resort pool after swimming. She wears an opaque royal-blue and bubblegum-pink competitive one-piece swimsuit.",
+      "style": "athletic, relaxed, non-sexualized summer lifestyle editorial"
+    },
+    "composition_elements": {
+      "text": "no text, logo, or watermark",
+      "items": [
+        "supported pool-edge pose with both hands on the tile ledge",
+        "wet hair and subtle water droplets from swimming",
+        "sparkling blue pool water and visible mosaic tiles",
+        "white lounge chairs, green hedges, palms, and a villa pergola in the background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "bright high-key natural sunlight",
+      "effect": "clear pool reflections, defined but soft shadows, fresh tropical-resort energy"
+    },
+    "technical_specs": {
+      "camera": "Nikon Z8",
+      "lens": "NIKKOR Z 50mm f/1.2 at f/2.8",
+      "render_style": "sharp natural water and fabric texture, moderate background blur, realistic wet-hair detail, controlled highlights"
+    },
+    "generated_prompt_string": "Create a vertical 9:16 medium-full lifestyle editorial of an original adult woman with shoulder-length platinum-blonde hair and soft bangs at the blue mosaic-tiled edge of a sunny upscale resort pool. She wears an opaque royal-blue and bubblegum-pink competitive one-piece swimsuit and rests both hands naturally on the pool ledge after swimming. Include wet hair, subtle water droplets, sparkling blue water, white lounge chairs, clipped green hedges, palms, and a villa pergola. Use bright high-key natural sunlight, clear water reflections, soft defined shadows, and a relaxed athletic non-sexualized mood. No celebrity likeness, text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, public figure, celebrity likeness, minor, child, sexualized pose, body emphasis, nudity, transparent clothing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity replacement is required.",
+          "usage": "Replace only the original adult subject identity while retaining the wet-hair direction, supported pool-edge pose, swimsuit silhouette, and resort composition."
+        },
+        {
+          "type": "wardrobe",
+          "name": "two-tone-swimsuit-reference",
+          "required": false,
+          "source": "Attach a garment reference if exact swimsuit paneling is required.",
+          "usage": "Replace only paneling or material details while preserving a modest opaque competitive one-piece and royal-blue-pink palette."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. References are optional; preserve the blue mosaic pool, supported pose, resort background, sunny lighting, and non-sexualized editorial direction."
+    }
+  }
+}

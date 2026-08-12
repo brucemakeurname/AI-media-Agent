@@ -1,0 +1,59 @@
+{
+  "name": "street-corner-bw-geometry",
+  "tag": ["adult-pedestrian", "street-photography", "architectural-geometry", "decisive-moment", "monochrome", "urban-documentary"],
+  "image_type": "documentary-street-photograph",
+  "image_vibe": "quiet-precise-timeless",
+  "image_purpose": "social-editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "black-and-white decisive-moment street photography with strong urban geometry",
+      "color_palette": "natural grayscale, wet charcoal pavement, pale sky, and deep architectural shadows",
+      "aspect_ratio": "2:3"
+    },
+    "main_subject": {
+      "description": "An adult pedestrian in a dark long coat crossing a busy urban street, captured as a natural documentary moment without identifiable facial emphasis.",
+      "wardrobe": "Dark long coat, trousers, simple shoes, and understated cold-weather clothing.",
+      "pose": "Single decisive stride at the exact peak of motion, aligned with the crosswalk and surrounding architectural lines.",
+      "styling": "Unposed documentary realism; the human figure remains secondary to the composition."
+    },
+    "composition_elements": {
+      "framing": "Complete vertical frame with no crop, using a pre-framed street-corner composition and strong converging lines.",
+      "environment": "Busy daytime urban street corner with office buildings, crosswalk, traffic, pedestrians, streetlights, wet pavement, and no readable signage.",
+      "focus": "Architectural geometry, crosswalk stripes, the single crossing figure, street depth, and natural pavement reflections."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Natural daylight only with soft overcast diffusion and realistic building shadows; no artificial lighting.",
+      "atmosphere": "Quiet, precise, observational, timeless, and film-like."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with a 50mm prime lens at f/8, 1/250 s, auto ISO, manual zone focus at approximately 3 meters",
+      "quality": "Photorealistic documentary detail, natural medium contrast, film-like tonality, complete in-camera frame, minimal burst of one or two frames"
+    },
+    "generated_prompt_string": "Create a photorealistic 2:3 black-and-white documentary street photograph of an adult pedestrian in a dark long coat crossing a busy daytime urban street corner. Capture a single decisive stride at the exact peak of motion, aligned with the crosswalk and strong converging architectural lines, while keeping the human figure secondary to the composition. Show office buildings, traffic, streetlights, other pedestrians, wet pavement, realistic reflections, and no readable signage. Use natural daylight only, overcast diffusion, medium contrast, film-like tonality, a 50mm prime lens at f/8 and 1/250 s, manual zone focus at approximately 3 meters, and a complete uncropped frame.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, posed subjects, artificial lighting, shallow depth of field, dramatic blur, heavy post-processing, cinematic exaggeration, crop, zoom-lens look, readable text, logo, watermark, deformed anatomy, image artifacts",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required because the adult pedestrian is a distant documentary figure without identifiable facial emphasis. Optional architecture, crosswalk, weather, or camera references may replace only their named element; preserve the decisive-moment geometry and complete uncropped frame.",
+      "assets": [
+        {
+          "type": "location",
+          "name": "geometric-urban-street-corner",
+          "required": false,
+          "source": "user-uploaded location reference",
+          "usage": "Replace only the buildings, street layout, crosswalk, traffic, and pavement while preserving strong converging lines."
+        },
+        {
+          "type": "camera",
+          "name": "50mm-zone-focus-documentary-capture",
+          "required": false,
+          "source": "user-uploaded camera or composition reference",
+          "usage": "Replace only the lens and framing characteristics while preserving the complete in-camera frame and decisive timing."
+        }
+      ]
+    }
+  }
+}

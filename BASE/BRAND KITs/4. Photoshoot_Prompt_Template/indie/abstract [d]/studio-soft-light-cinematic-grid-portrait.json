@@ -1,0 +1,72 @@
+{
+  "name": "studio-soft-light-cinematic-grid-portrait",
+  "tag": [
+    "adult-woman",
+    "nine-grid",
+    "soft-beige-studio",
+    "navy-shirt",
+    "portrait-study",
+    "cinematic"
+  ],
+  "image_type": "studio-portrait-contact-sheet",
+  "image_vibe": "soft-intimate-editorial",
+  "image_purpose": "moodboard",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the nine-panel subject is an adult."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "soft-beige cinematic nine-panel portrait study",
+      "color_palette": "warm beige, dark navy, off-white, natural skin tone",
+      "format": "square 3x3 grid"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with long dark brown hair, a dark navy lightweight shirt, off-white trousers, and natural makeup.",
+      "style": "finely edited cinematic editorial contact sheet with real skin texture"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "nine equal panels in a soft beige studio",
+        "lip macro, mirror-eye close-up, black-and-white chin-support portrait",
+        "partially obscured portrait, hand-over-face close-up, hair-over-eye crop",
+        "chin-touch detail, half-body side seated pose, and side profile with a single tear",
+        "consistent navy shirt and off-white trousers throughout"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "large soft key front-right at approximately 4800K, silver reflector left, subtle top rim light",
+      "effect": "gentle facial modeling, soft shadows, cinematic quiet, tactile fabric and skin"
+    },
+    "technical_specs": {
+      "render_style": "85mm f/1.8 portraits and macro inserts, shallow depth of field, subtle fine grain, coherent contact-sheet grading",
+      "resolution": "high resolution square 3x3 grid"
+    },
+    "generated_prompt_string": "In a soft beige studio, construct a 3x3 finely edited photo grid of the same adult woman. She wears a dark navy lightweight shirt and off-white trousers, and is barefoot in the seated panel to preserve raw natural texture. Use a large-area soft light from the front right, a silver reflector on the left, and a subtle top rim light. Create nine lens compositions: 85mm f/1.8 extreme lip close-up; eye close-up looking toward a mirror; black-and-white chin-support portrait; partially obscured portrait; hand-over-face close-up; hair covering the eye; hand touching chin detail; half-body side sitting posture; and cinematic side profile with a single tear. Keep identity, wardrobe, studio, skin texture, and color grade consistent across all panels.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, duplicated hands, mismatched panel identity",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-nine-grid-model-reference",
+          "required": false,
+          "source": "Attach an authorized adult reference when one identity must stay consistent across all panels.",
+          "usage": "Preserve adult face, hair, and skin tone across nine panels; otherwise use a generic adult model."
+        },
+        {
+          "type": "wardrobe",
+          "name": "navy-shirt-and-off-white-trousers-reference",
+          "required": false,
+          "source": "Attach wardrobe references when exact garment fit matters.",
+          "usage": "Keep navy-and-off-white wardrobe continuity; garments may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve a single adult identity, 3x3 panel structure, beige studio, pose sequence, and navy/off-white wardrobe consistency."
+    }
+  }
+}

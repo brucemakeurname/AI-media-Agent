@@ -1,0 +1,22 @@
+{
+  "name": "futuristic-fashion-menswear-portrait",
+  "tag": ["industry", "lookbook-line-sheet", "menswear", "futuristic", "portrait"],
+  "image_type": "futuristic fashion portrait",
+  "image_vibe": "confident, warm, cinematic, clean",
+  "image_purpose": "menswear lookbook and premium fashion editorial",
+  "group": "industry/lookbook-line-sheet/menswear",
+  "prompt": {
+    "project_info": "Create an ultra-realistic futuristic studio fashion portrait of one consistent approved adult male subject, preserving the face and proportions from the reference.",
+    "main_subject": "Adult man with the same face and proportions as the approved reference, confident natural smile, relaxed posture, and refined futuristic casual styling with a sleek black leather jacket featuring subtle tech-inspired details, hidden seams, and premium texture.",
+    "composition_elements": ["Mid-shot portrait with the subject centered.", "Relaxed upright posture and natural confident expression.", "Clean modern background with deep dark-blue tone.", "Keep the jacket silhouette and understated technical details legible."],
+    "lighting_and_atmosphere": "Minimal cinematic lighting with a soft centered spotlight, smooth falloff, soft shadows, and a restrained premium studio atmosphere.",
+    "technical_specs": "85mm lens, f/1.8 look, single key light with soft rim light, crisp focus, shallow depth of field, professional color grading, 4K photorealistic fashion editorial finish.",
+    "generated_prompt_string": "Ultra-realistic futuristic studio photoshoot of an adult man with the same face and proportions as the approved reference. Minimal cinematic lighting, spotlight subtly centered on him with smooth falloff and soft shadows. Deep dark-blue clean modern background. The man is smiling confidently with a natural expression and relaxed posture. He wears futuristic casual clothing layered with a sleek black leather jacket, refined textures, hidden seams and subtle tech-inspired details. High-end photography style, crisp focus on subject, shallow depth of field, premium fashion editorial vibe, sharp details, 4K, professional color grading.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "overexposed", "harsh flash", "cartoon", "low resolution", "grainy", "distorted face", "incorrect anatomy", "messy background", "duplicate person", "unrealistic proportions", "bad smile", "extreme HDR", "plastic skin", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "futuristic-fashion-menswear-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach as the required adult face, facial-structure, and proportion reference."}],
+      "prompt_instructions": "Attach the required approved-adult identity reference. Preserve the face, facial structure, proportions, expression, jacket, dark-blue environment, and lighting hierarchy. The reference is replaceable only with another approved-adult identity image; do not introduce celebrity likeness, logos, or typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

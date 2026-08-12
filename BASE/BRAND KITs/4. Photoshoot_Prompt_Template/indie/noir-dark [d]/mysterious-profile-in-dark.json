@@ -1,0 +1,64 @@
+{
+  "name": "mysterious-profile-in-dark",
+  "tag": [
+    "adult-man",
+    "profile-portrait",
+    "single-rim-light",
+    "pitch-black-background",
+    "noir"
+  ],
+  "image_type": "low-key-profile-portrait",
+  "image_vibe": "mysterious-intense-noir",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "low-key monochrome profile portrait",
+      "color_palette": "pitch black, deep charcoal, and narrow silver rim highlights",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult man with short textured hair, light stubble, natural skin texture, and a focused profile expression.",
+      "wardrobe": "Dark textured crewneck sweater that recedes into the background.",
+      "pose": "Still clean side profile facing right with relaxed shoulders and a calm intense gaze into the darkness."
+    },
+    "composition_elements": {
+      "framing": "Tight vertical profile portrait from upper chest to crown with the nose, lips, brow, and ear clearly outlined.",
+      "environment": "Pitch-black background with no visible texture, text, or logos.",
+      "focus": "Crisp rim-defined facial profile, hair strands, stubble, sweater texture, and controlled shadow detail."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Single narrow rim light from camera-right outlining the forehead, nose bridge, lips, chin, ear, and hair edge while leaving most of the face in deep controlled shadow.",
+      "atmosphere": "Mysterious, intense, restrained, and cinematic."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with an 85mm portrait lens at f/2.0, 1/125 s, ISO 400",
+      "quality": "Photorealistic neutral monochrome, subtle grain, natural facial texture, precise rim separation, and deep but readable shadows"
+    },
+    "generated_prompt_string": "Create a photorealistic 4:5 low-key black-and-white profile portrait of an adult man with short textured hair, light stubble, natural skin texture, and a focused expression. He wears a dark textured crewneck sweater and holds a still clean side profile facing right with relaxed shoulders and a calm intense gaze into the darkness. Use a pitch-black background, a single narrow rim light from camera-right outlining the forehead, nose, lips, chin, ear, and hair edge while leaving most of the face in deep controlled shadow. Keep subtle grain, precise edge separation, natural facial texture, readable shadows, and no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, celebrity likeness, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, crushed facial detail, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original subject. Optional sweater, profile, or lighting references may replace only their named element; preserve the right-facing profile, pitch-black background, single rim light, and mysterious monochrome mood.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "dark-textured-crewneck-sweater",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the sweater texture and neckline while keeping it dark and unobtrusive."
+        },
+        {
+          "type": "location",
+          "name": "pitch-black-noir-studio",
+          "required": false,
+          "source": "user-uploaded studio reference",
+          "usage": "Replace only the black background and rim-light placement while preserving the deep-shadow profile."
+        }
+      ]
+    }
+  }
+}

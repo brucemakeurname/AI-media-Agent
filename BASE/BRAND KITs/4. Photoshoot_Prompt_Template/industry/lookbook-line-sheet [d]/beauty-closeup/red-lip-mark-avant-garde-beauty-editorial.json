@@ -1,0 +1,34 @@
+{
+  "name": "Red Lip Mark Avant-Garde Beauty",
+  "tag": "industry/lookbook-line-sheet/beauty-closeup",
+  "image_type": "editorial beauty fashion portrait",
+  "image_vibe": "bold red monochrome, playful avant-garde studio",
+  "image_purpose": "fashion campaign and beauty editorial line sheet",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": "Create a polished red-themed beauty fashion portrait with playful graphic props and realistic makeup texture.",
+    "main_subject": "A clearly adult fictional woman with natural skin texture, a red beret, oversized translucent red heart-shaped sunglasses, red satin gloves, bold red lipstick, and a high-neck red fashion top with modest coverage; she lifts the sunglasses slightly with one gloved hand and gazes past the camera.",
+    "composition_elements": "Clean white studio background, close-up portrait, face and sunglasses as focal point, red palette with accurate fabric folds, optional removable lipstick-print motifs limited to the glasses and outer garment rather than bare skin.",
+    "lighting_and_atmosphere": "Soft even studio lighting, gentle shadows, controlled exposure, accurate reds without oversaturation, realistic lipstick shine and fabric texture.",
+    "technical_specs": "Full-frame DSLR look, 85mm lens at f/4, beauty editorial RAW realism, visible pores, natural highlights, no artificial smoothing, no magazine branding or text.",
+    "generated_prompt_string": "Ultra-realistic red-themed beauty fashion editorial portrait of a clearly adult fictional woman in a red beret, oversized translucent red heart-shaped sunglasses, red satin gloves, bold red lipstick, and a modest high-neck red fashion top, lifting the sunglasses slightly with one glove and gazing past the camera, clean white studio background, optional lipstick-print motifs on the accessory or outer garment only, soft studio light, accurate reds, realistic pores and fabric folds, full-frame DSLR, 85mm f/4, RAW photo look, no text or logos.",
+    "negative_prompt": "explicit, nsfw, overly revealing, lipstick marks on bare chest or intimate areas, sexualized pose, child, teen, ageless person, celebrity likeness, public figure likeness, CGI, illustration, airbrushed skin, plastic texture, warped face, watermark, logo, text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "red beret beauty reference",
+          "required": true,
+          "source": "Attach the supplied source image as the visual reference.",
+          "usage": "Match the red beret, heart sunglasses, satin glove, close-up crop, white background, and accurate red styling; keep the adult fictional identity, garment, and optional print motifs replaceable."
+        }
+      ],
+      "instructions": "Attach the source image before generation. Preserve the bold fashion-editorial intent and prop styling. Use a clearly adult fictional subject, modest coverage, and keep any lipstick marks graphic and confined to accessories or outer garments."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": "Removed exact facial-feature copying and provocative bare-skin lipstick placement; specified a fictional adult, modest coverage, and removable motifs on accessories or outer garments.",
+    "notes": "The pose is a nonsexual fashion gesture."
+  }
+}

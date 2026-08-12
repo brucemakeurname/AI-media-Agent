@@ -1,0 +1,82 @@
+{
+    "name":  "iphone-17-pro-max-editorial-ad",
+    "tag":  [
+                "smartphone advertising",
+                "dark editorial",
+                "luxury beauty portrait",
+                "feature infographic",
+                "apple-style"
+            ],
+    "biz_niche":  "Beauty & Personal Care",
+    "content_format":  "Infographics",
+    "group":  "infographic_phone_editorial",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "iPhone 17 Pro Max dark editorial product launch",
+                                        "color_palette":  "Near-black, charcoal, titanium gray, warm skin tones, restrained white"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Person and product",
+                                        "detail":  "A glamorous brunette woman in a black velvet deep-V dress holds a dark titanium iPhone 17 Pro Max upright beside her face; the rear camera cluster and a luminous display reflection are clearly visible.",
+                                        "style":  "Hyperreal commercial beauty photography blended with a sparse premium feature sheet"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Typography, product features, and portrait",
+                                                "text":  "Apple; iPhone 17 Pro Max; Titanium. So strong. So Pro.; A19 Pro chip.; 48MP Pro Camera system.; All-day battery life.; 6.9\" Super Retina XDR display with ProMotion.; Built for Apple Intelligence.",
+                                                "items":  [
+                                                              "Upper Left: white Apple logo above iPhone 17 and oversized metallic-gray \u0027Pro Max\u0027 headline.",
+                                                              "Left Column: four outlined feature icons and concise white technical copy.",
+                                                              "Right Half: warm, sharply styled brunette portrait emerging from near-black background.",
+                                                              "Center: hand-held phone overlaps the portrait and points the camera cluster toward viewer.",
+                                                              "Background: deep black seamless studio field with minimal warm rim light and no clutter."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Low-key beauty studio lighting",
+                                                   "effect":  "Warm key light sculpts face, hand, jewelry, velvet, and titanium edges; deep falloff preserves a dramatic luxury mood"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Photorealistic premium smartphone campaign and editorial layout",
+                                           "resolution":  "4k resolution, highly detailed, 3:4 vertical format"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "iPhone 17 Pro Max reference",
+                                                                 "required":  true,
+                                                                 "source":  "approved product render or photography",
+                                                                 "usage":  "Preserve the exact body finish, camera arrangement, screen proportions, and Apple hardware details."
+                                                             },
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "Apple logo",
+                                                                 "required":  true,
+                                                                 "source":  "approved Apple brand asset",
+                                                                 "usage":  "Use only the approved mark at the upper left."
+                                                             },
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "brunette beauty model",
+                                                                 "required":  true,
+                                                                 "source":  "licensed model reference",
+                                                                 "usage":  "Maintain the identity only when a licensed portrait reference is supplied; otherwise generate a non-identifiable model with the same styling."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "vertical feature-sheet typography",
+                                                                 "required":  true,
+                                                                 "source":  "source preview",
+                                                                 "usage":  "Preserve left-column hierarchy and exact visible feature wording when production-approved."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach approved product, logo, and licensed model references before rendering.",
+                                                                          "Keep the left feature stack and phone-over-portrait composition; do not invent extra claims or Apple marks.",
+                                                                          "Visible marketing copy requires a post-render typesetting pass for exact glyph accuracy."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "A hyperrealistic Apple iPhone 17 Pro Max advertisement shot in a dark, moody editorial style. A young stylish woman with a warm complexion and soft upswept brunette hair, wearing a dusty mauve velvet off-shoulder mini dress, thigh-high taupe suede heeled boots, and a thin black choker necklace, is captured mid-pose extending her arm forward holding an iPhone 17 Pro Max toward the camera in a confident selfie gesture. The phone — featuring a titanium Desert Sand finish with a flush quad-lens camera system and a edge-to-edge ProMotion display glowing with vivid color — dominates the center of the frame. The composition uses shallow depth of field with tack-sharp focus on the phone screen and extended arm, soft cinematic blur on the background figure. The near-black charcoal background is layered with subtle urban texture — faint graffiti strokes in electric yellow and muted olive barely visible through a heavy dark vignette. Multiple rows of ultra-small all-caps typographic text orbit the phone at different angles reading phrases like \"EVERY ANGLE. EVERY MOMENT. EVERY YOU.\" and \"THE SHOT YOU NEVER MISS\" — some running vertically, some at 30-degree angles, creating a chaotic yet intentional graphic zine energy. At the upper right, the Apple logo appears in clean brushed silver against the dark background. At the top center, a thin horizontal navigation-style text bar reads \"PRO CAMERA · TITANIUM BUILD · BEYOND INTELLIGENCE\" in spaced all-caps serif font. A large commanding headline is placed center-right — \"CAPTURE\" in massive ultra-bold white letters followed by \"EVERYTHING\" in lighter weight creating dramatic type hierarchy. Small yellow plus (+) symbols and diagonal arrows (↗) scattered throughout as accent details. Bottom left features a bold slogan lockup: \"YOUR WORLD. YOUR FRAME.\" in large bold sans-serif white text with a thin subline reading \"The most powerful iPhone ever made. Every selfie is a cinematic moment.\" The overall lighting is dramatic and directional — a single cold key light from the upper left causing the titanium frame to shimmer, the ProMotion display to glow, and the velvet dress to catch a soft warm sheen against the darkness. Photorealistic. Commercial photography quality. High contrast. 4K resolution. 3:4 vertical format optimized for social media.",
+                   "negative_prompt":  "unapproved logo, incorrect camera cluster, distorted hands, unreadable feature icons, flat light, cluttered background, low resolution, watermark, signature"
+               }
+}

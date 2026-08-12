@@ -1,0 +1,58 @@
+{
+  "name": "morning-light-fresh-blonde",
+  "tag": [
+    "ugc",
+    "cozy-home",
+    "private-indoor",
+    "morning-bedroom",
+    "white-tied-shirt",
+    "fresh-blonde-portrait"
+  ],
+  "image_type": "ugc-bedroom-lifestyle-portrait",
+  "image_vibe": "fresh-soft-natural",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic fresh blonde bedroom portrait in soft natural light, preserving the white tied shirt, blue jeans, pink bedding and minimal home setting.",
+    "main_subject": "One original approved adult woman with long blonde hair in loose waves, blue eyes, fair natural skin with subtle blush and minimal makeup. She wears a white short-sleeve cotton shirt tied at the waist and light-wash high-waisted jeans, with a relaxed direct gaze and natural posture.",
+    "composition_elements": "Vertical 3:4 medium portrait seated or posed at the edge of a neatly made bed. Keep the adult subject centered with white and pink bedding, a light neutral wall, a small plant, light furniture and softly diffused window light in the background. Preserve the supplied black edge bars only as source framing metadata, not as a required generated element.",
+    "lighting_and_atmosphere": "Soft natural daylight creates delicate highlights on blonde hair, cotton and skin with gentle shadows and a peaceful fresh-home atmosphere. Keep the look clean, calm and true to life.",
+    "technical_specs": "3:4 vertical portrait, 50mm f/1.8 DSLR-style look, sharp eyes and face, realistic hair and fabric detail, shallow natural background blur, soft cinematic grading and no artificial flash.",
+    "generated_prompt_string": "Create a photorealistic fresh blonde bedroom portrait in soft natural light of one original approved adult woman with long blonde hair in loose waves, blue eyes, fair natural skin with subtle blush and minimal makeup. She wears a white short-sleeve cotton shirt tied at the waist and light-wash high-waisted jeans, with a relaxed direct gaze and natural posture. Use a vertical 3:4 medium portrait seated or posed at the edge of a neatly made bed. Include white and pink bedding, a light neutral wall, a small plant and light furniture in a softly diffused background. Use delicate highlights on hair, cotton and skin, gentle shadows, realistic hair and fabric detail, a 50mm f/1.8 portrait look, shallow natural blur, soft cinematic grading and no artificial flash.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, wardrobe malfunction, invented logos, unreadable added text, black framing bars",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "morning-light-fresh-blonde.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, blonde hair, eyes, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white tied cotton shirt and light-wash high-waisted jeans",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve shirt tie, cotton texture, denim wash and fit; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "neatly made bed, pink-white bedding, light wall, plant and furniture",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve bedding palette, plant, room geometry and daylight direction; environment may be replaced independently through explicit references."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, face, hair, expression, outfit, bed, pink-white palette and morning light consistent. The adult, wardrobe and setting may be replaced independently through explicit references. Treat black edge bars as source framing only, not as generated content. No logo or typography is required."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed youthful/innocent wording to original approved adult.",
+      "Preserved the fresh blonde portrait, outfit and bedroom concept while excluding source black framing bars from generated content.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

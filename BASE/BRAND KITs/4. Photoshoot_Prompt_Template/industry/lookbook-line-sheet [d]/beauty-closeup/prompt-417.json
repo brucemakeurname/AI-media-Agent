@@ -1,0 +1,34 @@
+{
+  "name": "Braided Glasses K-Fashion Portrait",
+  "tag": "industry/lookbook-line-sheet/beauty-closeup",
+  "image_type": "editorial fashion portrait",
+  "image_vibe": "warm Seoul-inspired modern editorial",
+  "image_purpose": "lookbook line sheet and fashion campaign reference",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": "Create a hyper-realistic close-up fashion portrait with braided hair, warm neutral styling, and refined Korean street-style editorial polish.",
+    "main_subject": "A clearly adult fictional woman with thick dark hair in twin high artistic braids, loose strands and matte brown statement clips, brown cat-eye glasses, soft hazel eyes, natural dewy skin, warm blush and eyeshadow, red satin-finish lips, and a modest cream halter-style top with secure coverage.",
+    "composition_elements": "2:3 close-up portrait, head slightly tilted, relaxed confident gaze, one hand resting gently on cheek, minimal warm beige-and-brown background, face and glasses as focal point.",
+    "lighting_and_atmosphere": "Bright controlled frontal beauty light emphasizing skin and hair texture, with soft studio background illumination, warm modern fashion mood.",
+    "technical_specs": "85mm portrait lens look, hyper-detailed face texture, cinematic tone, polished editorial color grading, clean realistic hands, no magazine branding or text.",
+    "generated_prompt_string": "Hyper-realistic 2:3 editorial close-up portrait of a clearly adult fictional woman with twin high dark braids, loose strands, matte brown statement hair clips, brown cat-eye glasses, hazel eyes, natural dewy skin, warm peach blush, subtle shimmer eye makeup, red satin-finish lips, modest cream halter-style top, head slightly tilted, relaxed confident gaze, hand gently resting on cheek, warm beige-brown studio background, bright controlled frontal beauty light, 85mm lens, Korean fashion editorial mood, no text or logos.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, child, teen, ageless person, celebrity likeness, public figure likeness, watermark, logo, magazine text, distorted hands, extra fingers, plastic skin",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "braided glasses fashion reference",
+          "required": true,
+          "source": "Attach the supplied source image as the visual reference.",
+          "usage": "Match braid structure, brown glasses, hair clips, warm palette, modest top, hand-on-cheek pose, and portrait crop; keep the adult fictional identity and wardrobe details replaceable."
+        }
+      ],
+      "instructions": "Attach the source image before generation. Preserve the hairstyle, accessories, pose, lighting, and editorial intent. Keep the fictional adult identity, outfit, and background replaceable; avoid real-person likeness, text, and branding."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": "Replaced exact facial-feature copying and named magazine-style direction with a fictional adult identity and generic editorial styling; specified modest coverage.",
+    "notes": "The pose and beauty styling are nonsexual."
+  }
+}

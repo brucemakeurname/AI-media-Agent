@@ -1,0 +1,70 @@
+{
+  "name": "techcombank-world-cup-table-setup-challenge",
+  "tag": [
+    "ugc-challenge",
+    "world-cup",
+    "social-proof",
+    "mobile-frame"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "User content",
+  "group": "techcombank_1122206657652335",
+  "prompt": {
+    "project_info": {
+      "theme": "World Cup party setup challenge with U-Point reward",
+      "color_palette": "Cream beige, red, black, white"
+    },
+    "main_subject": {
+      "type": "Person/Object/Text",
+      "detail": "A mobile-social challenge poster with the Techcombank logo at top right. Large headline says 'CHI CON 3 NGAY THAM GIA THU THACH SET UP BAN TIEC WORLD CUP NGAY'. A large vertical smartphone with a red screen frame holds a polaroid-style social post card. The post text reads 'TOI MUON NHAN 500 NGHIN U-POINT DE NANG CAP BAN TIEC WORLD CUP' above a photo of four young fans in red, blue, and white football shirts cheering around a living-room party table filled with pizza and snacks. Red U-point coin icons float around the phone. Bottom-left slogan reads 'VUOT TROI MOI NGAY'.",
+      "style": "Clean social-campaign poster with smartphone-frame centerpiece, UGC-photo proof, and soft lifestyle excitement"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TECHCOMBANK / CHI CON 3 NGAY / THAM GIA THU THACH / SET UP BAN TIEC WORLD CUP NGAY / TOI MUON NHAN 500 NGHIN U-POINT DE NANG CAP BAN TIEC WORLD CUP / VUOT TROI MOI NGAY",
+      "items": [
+        "Top Left: Soft blurred red shapes and open empty background space",
+        "Top Right: Techcombank logo",
+        "Bottom Left: Slogan 'VUOT TROI MOI NGAY'",
+        "Bottom Right: Floating red U-point coin icon",
+        "Center/Background: Large upright smartphone, pinned white post card, and a UGC-style party photo of four football fans cheering over a snack-heavy table"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright lifestyle studio lighting",
+      "effect": "Soft vignette blur around edges, clean phone reflections, cheerful party-photo contrast"
+    },
+    "technical_specs": {
+      "render_style": "Social campaign poster with smartphone compositing and lifestyle photo insert",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank World Cup setup challenge. Centerpiece is a large vertical smartphone with a white social-post card attached on top, containing the exact line 'TOI MUON NHAN 500 NGHIN U-POINT DE NANG CAP BAN TIEC WORLD CUP' and a photo of four young fans cheering around a party-food table. Background is a soft beige field with floating red U-point coins. Surrounding elements: Techcombank logo, giant headline 'CHI CON 3 NGAY THAM GIA THU THACH SET UP BAN TIEC WORLD CUP NGAY', and the slogan 'VUOT TROI MOI NGAY'. Technical style: social campaign poster with smartphone compositing and lifestyle photo insert, bright lifestyle lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Four-fan living room party photo",
+          "required": true,
+          "source": "original UGC-style or campaign lifestyle photo",
+          "usage": "Attach for exact people arrangement, football shirts, expressions, and food-table composition"
+        },
+        {
+          "type": "logo",
+          "name": "Techcombank logo and U-point coin mark",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for top-right branding and floating coin icons"
+        },
+        {
+          "type": "text_layout",
+          "name": "World Cup setup challenge mobile-post layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the exact headline, quoted post copy, phone framing, and slogan"
+        }
+      ],
+      "prompt_instructions": "Keep the social-post feel and exact quote wording. This is a UGC challenge poster, so the phone and post card should feel central and believable rather than overly stylized."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "dreamy-pink-cupid-girl",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "cupid", "pink"],
+  "image_type": "ethereal cupid studio portrait",
+  "image_vibe": "romantic, whimsical, dreamy, pastel",
+  "image_purpose": "fashion lookbook and Valentine editorial",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a full-body high-key studio portrait of one approved adult woman in a modern ethereal cupid-inspired fashion styling.",
+    "main_subject": "Approved adult woman with messy ash-blonde updo, soft face-framing curls, natural luminous skin, pink blush, doll-like lashes, and a calm gentle expression. She wears a white satin mini slip dress with delicate scalloped lace trim, pale pink feathered wings, a textured gold glitter bow, white crew socks, and soft pink patent Mary Jane heels, holding a red heart-tipped arrow.",
+    "composition_elements": ["Centered vertical full-body crouched pose with head tilted and arrow held diagonally.", "Seamless off-white/light-gray backdrop with clean negative space.", "White, petal pink, cream, glittering gold, and soft red heart palette.", "Keep satin, lace, feathers, glitter, arrow, socks, shoes, and natural skin texture clear."],
+    "lighting_and_atmosphere": "Large diffused softbox with even high-key light, extremely soft shadows, gentle highlight bloom, and bright pastel romantic atmosphere.",
+    "technical_specs": "Photorealistic 4:5 full-body portrait, 85mm lens at f/4, sharp face and costume detail, realistic satin, lace, feathers, glitter, and skin texture, subtle natural grain, no text or watermark.",
+    "generated_prompt_string": "Modern ethereal cupid-inspired fashion portrait of one approved adult woman with a messy ash-blonde updo, soft face-framing curls, natural luminous skin, pink blush and doll-like lashes. She wears a white satin mini slip dress with delicate scalloped lace trim, pale pink feathered wings, a textured gold glitter bow, white crew socks and soft pink patent Mary Jane heels, holding a red heart-tipped arrow. Crouch in a centered three-quarter full-body pose with head tilted against a seamless off-white light-gray studio backdrop. Use diffused high-key even light, extremely soft shadows, gentle highlight bloom, white petal-pink cream gold and soft-red palette, 85mm lens, 4:5 framing, realistic textures, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "distorted wings", "warped arrow", "distorted anatomy", "extra fingers", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "dreamy-pink-cupid-girl.jpg", "required": true, "source": "local reference image", "usage": "Attach for adult identity, face, hair, makeup, expression, pose, and styling reference."}, {"type": "wardrobe", "name": "white satin lace dress, pink wings, gold bow, socks and pink Mary Janes", "required": true, "source": "local reference image", "usage": "Preserve supplied outfit, wings, bow, socks, shoes, and arrow."}, {"type": "location", "name": "seamless off-white studio backdrop", "required": true, "source": "local reference image", "usage": "Preserve high-key environment, negative space, and palette."}],
+      "prompt_instructions": "Attach all required person, wardrobe, and environment references; no optional assets are needed. Keep identity, outfit, wings, bow, arrow, pose, environment, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent wardrobe, or equivalent studio reference. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

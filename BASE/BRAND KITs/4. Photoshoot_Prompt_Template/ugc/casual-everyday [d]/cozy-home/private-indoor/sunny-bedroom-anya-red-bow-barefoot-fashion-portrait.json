@@ -1,0 +1,27 @@
+{
+  "name": "sunny-bedroom-anya-red-bow-barefoot-fashion-portrait",
+  "tag": ["ugc", "casual-everyday", "cozy-home", "private-indoor", "fashion-portrait"],
+  "image_type": "bedroom fashion portrait",
+  "image_vibe": "bright gingham and red-bow charm",
+  "image_purpose": "UGC-style fashion and homewear portrait",
+  "group": "cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create a realistic bright bedroom fashion portrait of an original approved adult model using the attached image as visual reference.",
+    "main_subject": "An original approved adult woman with medium-length softly waved light-brown hair, a large bright red bow headband, blue geometric earrings, direct gaze, and soft red lip color sits on a white bed. Preserve the blue-and-white gingham two-piece coordinate set with red heart-and-cherry embroidery, scalloped white trim, and the small white clutch with gold hardware.",
+    "composition_elements": "Medium full-body high-angle portrait, seated with legs crossed and one leg extended forward, one hand supporting on the sheet, bare feet resting naturally on the white linen, red polished toenails, white rumpled bedding, plain white wall, and clutch in the foreground.",
+    "lighting_and_atmosphere": "Soft natural indoor daylight with subtle bedroom shadows, bright clean white environment, candid stylish relaxed mood, gentle fabric detail and realistic skin texture.",
+    "technical_specs": "Realistic iPhone-style photography, 3:4 vertical framing, high-angle medium full-body composition, natural depth of field, restrained color treatment, no artificial HDR look.",
+    "generated_prompt_string": "Realistic 3:4 bedroom fashion portrait of an original approved adult woman with softly waved light-brown hair, a large bright red bow headband, blue geometric earrings, direct gaze, and soft red lip color sitting on a white bed. Preserve the blue-and-white gingham two-piece coordinate set with red heart-and-cherry embroidery, scalloped white trim, and a small white clutch with gold hardware. She sits with legs crossed, one leg extended and the other tucked, one hand supporting on the sheet, bare feet resting naturally, and red polished toenails. White rumpled linen and plain wall, soft natural indoor daylight, candid stylish relaxed mood, realistic texture, 3:4.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, foot fetish emphasis, minor, childlike features, celebrity likeness, public figure likeness, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "red bow gingham bedroom reference", "required": true, "source": "attached source image", "usage": "Match the original adult model's general identity, hair, bow, outfit, seated pose, bed, clutch, and daylight."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the adult identity and facial structure without copying a celebrity or public figure, along with outfit, pose, environment, and lighting. Product, logo, typography, clutch details, and decorative elements remain replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Removed the named celebrity likeness request and specified an original approved adult model.", "Preserved the reference outfit, pose, barefoot styling, and fashion intent without fetish framing.", "Added anti-slop and safety exclusions."]
+  }
+}

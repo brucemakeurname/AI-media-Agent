@@ -1,0 +1,96 @@
+{
+  "name": "badass-vacation-mood-on",
+  "tag": [
+    "vacation mood",
+    "seasonal campaign",
+    "beach aesthetic",
+    "minimal typography",
+    "summer branding",
+    "social creative"
+  ],
+  "biz_niche": "Travel & Hospitality",
+  "content_format": "Seasonal",
+  "group": "badass_1299895242304642",
+  "prompt": {
+    "project_info": {
+      "theme": "Summer vacation mood social poster",
+      "color_palette": "Sky blue, sandy beige, off-white textured paper, soft seafoam green"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A centered scallop-edged rectangular paper card with a tactile cotton-paper texture placed over a softly blurred beach background. The card features a blue palm tree icon at the top, thin horizontal divider lines, the word 'VACATION' in slim uppercase blue type, and the bold headline 'MOOD-ON' in large bright blue uppercase typography.",
+      "style": "Minimal resort poster, clean branding graphic, tactile paper cutout aesthetic, soft luxury summer mood"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Typography/Icon",
+      "text": "VACATION, MOOD-ON",
+      "items": [
+        "Top Center: a simple blue palm tree icon.",
+        "Upper Middle: one thin horizontal blue divider line.",
+        "Center: the word 'VACATION' in thin uppercase blue typography.",
+        "Lower Center: the bold oversized uppercase headline 'MOOD-ON' in bright blue.",
+        "Lower Middle: one thin horizontal blue divider line.",
+        "Bottom Right on the card: a cluster of hand-drawn blue wave lines.",
+        "Center/Foreground: an off-white textured paper card with scalloped stamp-like edges and subtle shadow.",
+        "Background: a softly blurred beach scene with pale sand and muted aqua sky or sea horizon.",
+        "Bottom Left outside the card: a small cluster of green tropical leaves entering the frame."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft natural daylight",
+      "effect": "Airy beach haze, gentle blur in the background, subtle drop shadow under the paper card, calm high-key summer atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic beach background with minimalist graphic poster overlay",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "background",
+          "name": "beach scene reference",
+          "required": true,
+          "source": "Use the original source image as the composition and background reference for the blurred sand-and-sea setting.",
+          "usage": "Preserve the soft beach horizon, sandy foreground, and tranquil vacation atmosphere behind the card."
+        },
+        {
+          "type": "graphic",
+          "name": "scalloped paper card",
+          "required": true,
+          "source": "Use the original source image as the exact shape and texture reference for the centered paper panel.",
+          "usage": "Recreate the stamp-like scalloped edges, off-white fibrous paper texture, and centered placement accurately."
+        },
+        {
+          "type": "icon",
+          "name": "palm tree symbol",
+          "required": true,
+          "source": "Use the palm tree icon visible in the source image as the icon style reference.",
+          "usage": "Place the simple blue palm icon at the top center of the card with similar proportions and flat graphic styling."
+        },
+        {
+          "type": "text_layout",
+          "name": "VACATION MOOD-ON typography",
+          "required": true,
+          "source": "Use the original source image as the exact text, font weight relationship, spacing, and divider-line layout reference.",
+          "usage": "Preserve the text exactly as 'VACATION' and 'MOOD-ON', with 'VACATION' lighter and smaller and 'MOOD-ON' bold and dominant."
+        },
+        {
+          "type": "graphic",
+          "name": "wave doodle motif",
+          "required": true,
+          "source": "Use the original source image as the line-art reference for the wave pattern at the bottom right.",
+          "usage": "Recreate the blue hand-drawn wave strokes in the lower-right area of the card."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image as the primary reference to preserve the exact composition, paper-card proportions, and typography hierarchy.",
+        "Keep the visible text exactly as 'VACATION' and 'MOOD-ON' with the same line breaks and uppercase treatment.",
+        "Maintain the minimal layout with large negative space and a calm beach-luxury feeling rather than adding extra objects or text.",
+        "Preserve the scalloped stamp-like edges and tactile off-white paper texture because they define the visual identity of the design.",
+        "Use a softly blurred beach background so the centered graphic card remains the focal point."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square seasonal social poster for a summer vacation mood campaign. Create a softly blurred beach background with pale sandy foreground, muted aqua horizon, and gentle natural daylight. In the center, place a large off-white rectangular paper card with tactile cotton-like texture, subtle shadow, and scalloped stamp-style edges on all sides. At the top center of the card, add a simple flat blue palm tree icon. Below it, place a thin horizontal blue divider line, then the word 'VACATION' in slim uppercase blue typography. Under that, place the large bold uppercase headline 'MOOD-ON' in bright blue, followed by another thin blue divider line. At the bottom right of the card, add a small hand-drawn cluster of blue wave lines. In the bottom-left corner of the overall frame, allow a small tropical green leaf cluster to enter the scene. Style should feel minimal, premium, airy, resort-inspired, and clean. Technical style: photorealistic beach background with minimalist graphic poster overlay, soft natural daylight, airy beach haze, subtle shadow, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, stormy beach, cluttered layout, extra text, incorrect wording, distorted typography, low resolution, blurry card edges, flat textureless paper, harsh contrast, neon colors, busy tropical props, warped palm icon, messy wave doodles, watermark, signature, cropped card, black and white, grunge, deformed shapes"
+  }
+}

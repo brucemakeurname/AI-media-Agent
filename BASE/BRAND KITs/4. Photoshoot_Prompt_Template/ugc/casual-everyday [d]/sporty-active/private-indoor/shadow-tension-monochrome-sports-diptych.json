@@ -1,0 +1,27 @@
+{
+  "name": "shadow-tension-monochrome-sports-diptych",
+  "tag": ["ugc", "casual-everyday", "sporty-active", "private-indoor", "fitness-diptych", "black-edition"],
+  "image_type": "fitness-diptych",
+  "image_vibe": "dramatic-bold-athletic",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/sporty-active/private-indoor",
+  "prompt": {
+    "project_info": "Create a high-definition fitness portrait diptych featuring two approved adult women in coordinated black athletic outfits across distinct settings.",
+    "main_subject": "Left panel: an approved adult light-auburn-haired woman with loose waves in a black crop top and fitted black leggings, shown in side profile looking back with a serious confident expression. Right panel: an approved adult light-auburn-haired woman with a high ponytail in a black sports bra and fitted black leggings, smiling energetically while hanging from an orange pull-up bar.",
+    "composition_elements": "Side-by-side split layout. Left panel uses a night balcony with blurred city lights and emphasizes contour and posture; right panel uses a modern gym interior and emphasizes upper-body strength and natural glow.",
+    "lighting_and_atmosphere": "Soft highlights with deep shadows, monochrome black palette, dramatic bold athletic mood, realistic skin, hair, fabric, balcony, and gym textures.",
+    "technical_specs": "Photorealistic high-definition diptych, clean vertical split, balanced panel scale, sharp subjects, controlled contrast, realistic depth and fine detail.",
+    "generated_prompt_string": "Create a high-definition photorealistic fitness diptych with a clean side-by-side split. In the left panel, show an approved adult light-auburn-haired woman with loose waves in a black crop top and fitted black leggings, in side profile looking back with a serious confident expression on a night balcony with blurred city lights. In the right panel, show an approved adult light-auburn-haired woman with a high ponytail in a black sports bra and fitted black leggings, smiling energetically while hanging from an orange pull-up bar in a modern gym. Use soft highlights, deep shadows, monochrome black styling, realistic textures, and a dramatic bold athletic mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, broken pull-up bar, mismatched panels",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-fitness-diptych-subjects", "required": true, "source": "shadow-tension-monochrome-sports-diptych.jpg", "usage": "Preserve both adult subjects, hair, expressions, poses, and panel identity."},
+        {"type": "wardrobe", "name": "coordinated-black-athletic-outfits", "required": true, "source": "shadow-tension-monochrome-sports-diptych.jpg", "usage": "Keep black tops and fitted leggings consistent; replace only with explicit wardrobe references."},
+        {"type": "location", "name": "night-balcony-and-modern-gym", "required": true, "source": "shadow-tension-monochrome-sports-diptych.jpg", "usage": "Maintain the two distinct environments, city lights, gym, and pull-up bar; replace only with explicit location references."},
+        {"type": "layout", "name": "side-by-side-diptych", "required": true, "source": "shadow-tension-monochrome-sports-diptych.jpg", "usage": "Preserve panel order, split layout, and visual balance; replace only with explicit layout references."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, location, and layout references when exact consistency is required. Keep adult identity, outfit, panel order, product/equipment, environment, and typography consistent; supplied references are required for replacements. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified both subjects as approved adults while preserving the diptych concept and athletic poses.", "Added safe negative prompts and structured panel references."]}
+}

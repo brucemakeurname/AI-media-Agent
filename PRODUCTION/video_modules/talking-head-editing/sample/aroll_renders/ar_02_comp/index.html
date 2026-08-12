@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1080, height=1920" />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 1080px; height: 1920px; overflow: hidden; background: transparent !important; }
+    #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+    #band { position: absolute; bottom: 0; left: 0; width: 1080px; height: 640px; overflow: hidden; }
+
+    #grain {
+      position: absolute; top: -50%; left: -50%; width: 200%; height: 200%;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
+      opacity: 0; pointer-events: none; z-index: 10; animation: grain-shift 0.5s steps(1) infinite paused;
+    }
+    #grain.active { animation-play-state: running; }
+    @keyframes grain-shift {
+      0%{transform:translate(0,0)} 10%{transform:translate(-5%,-5%)} 20%{transform:translate(-10%,5%)}
+      30%{transform:translate(5%,-10%)} 40%{transform:translate(-5%,15%)} 50%{transform:translate(-10%,5%)}
+      60%{transform:translate(15%,0%)} 70%{transform:translate(0%,10%)} 80%{transform:translate(-15%,0%)}
+      90%{transform:translate(10%,5%)} 100%{transform:translate(5%,0%)}
+    }
+
+    #card {
+      position: absolute; top: 32px; left: 60px; width: 960px;
+      background: rgba(10,14,26,0.88); border: 1px solid rgba(34,211,238,0.18);
+      border-left: 3px solid #22d3ee; border-radius: 20px; padding: 26px 48px 26px 44px;
+      box-shadow: 0 0 48px rgba(34,211,238,0.07), 0 12px 48px rgba(0,0,0,0.75); z-index: 5; overflow: hidden;
+    }
+    #edge-glow { position:absolute; top:0; left:0; width:3px; height:100%; background:#22d3ee; box-shadow:0 0 18px 3px rgba(34,211,238,0.7); border-radius:0 0 0 20px; z-index:6; opacity:0; }
+    #shimmer { position:absolute; inset:0; background:linear-gradient(120deg,transparent 0%,transparent 30%,rgba(255,255,255,0.45) 50%,transparent 70%,transparent 100%); mix-blend-mode:overlay; pointer-events:none; z-index:15; opacity:0; }
+
+    /* Badge */
+    #badge { display:inline-flex; align-items:center; gap:8px; background:rgba(34,211,238,0.10); border:1px solid rgba(34,211,238,0.35); border-radius:50px; padding:5px 16px; margin-bottom:12px; }
+    .badge-dot { width:7px; height:7px; border-radius:50%; background:#22d3ee; box-shadow:0 0 8px rgba(34,211,238,0.8); }
+    .badge-text { font-family:'Inter',sans-serif; font-weight:700; font-size:15px; color:#22d3ee; letter-spacing:0.12em; text-transform:uppercase; }
+
+    /* Caption line */
+    #caption {
+      font-family:'Inter',sans-serif; font-weight:500; font-size:30px;
+      color:rgba(230,238,255,0.88); line-height:1.35; text-shadow:0 2px 14px rgba(0,0,0,0.85);
+      margin-bottom:0;
+    }
+    #caption .bold { font-weight:700; color:#ffffff; }
+    #caption .muted { color:rgba(230,238,255,0.52); }
+    #caption .neq { color:rgba(34,211,238,0.75); font-weight:800; margin:0 8px; font-size:26px; vertical-align:middle; }
+
+    /* Divider */
+    #divider { height:1px; width:0; background:linear-gradient(90deg,rgba(34,211,238,0.55) 0%,transparent 100%); margin:14px 0; }
+
+    /* Comparison chart */
+    #compare { display:flex; align-items:stretch; gap:0; }
+    .cmp-col { flex:1; }
+    .cmp-label { font-family:'Inter',sans-serif; font-weight:800; font-size:14px; letter-spacing:0.14em; text-transform:uppercase; margin-bottom:10px; }
+    #lbl-content { color:#22d3ee; }
+    #lbl-ai      { color:rgba(230,238,255,0.40); }
+    .bar-wrap { display:flex; align-items:center; gap:10px; margin-bottom:8px; }
+    .bar-track { flex:1; height:10px; background:rgba(255,255,255,0.07); border-radius:5px; overflow:hidden; }
+    #bar-content { height:100%; border-radius:5px; width:0%; background:linear-gradient(90deg,#22d3ee,#38bdf8); box-shadow:0 0 10px rgba(34,211,238,0.45); }
+    #bar-ai      { height:100%; border-radius:5px; width:0%; background:rgba(230,238,255,0.20); }
+    .bar-pct { font-family:'Inter',sans-serif; font-weight:700; font-size:13px; min-width:44px; text-align:right; letter-spacing:0.06em; }
+    #pct-content { color:rgba(34,211,238,0.80); }
+    #pct-ai      { color:rgba(230,238,255,0.30); }
+    .cmp-verdict { font-family:'Inter',sans-serif; font-weight:900; font-size:20px; text-transform:uppercase; letter-spacing:0.10em; }
+    #v-content { color:#22d3ee; text-shadow:0 0 18px rgba(34,211,238,0.4); }
+    #v-ai      { color:rgba(230,238,255,0.28); }
+    #vs-sep { display:flex; align-items:center; padding:18px 22px 0; font-family:'Inter',sans-serif; font-weight:900; font-size:14px; color:rgba(230,238,255,0.20); letter-spacing:0.12em; }
+
+    #brand-tag { position:absolute; bottom:20px; right:32px; font-family:'Inter',sans-serif; font-weight:700; font-size:13px; color:rgba(34,211,238,0.22); letter-spacing:0.16em; text-transform:uppercase; z-index:6; }
+  </style>
+</head>
+<body>
+  <div id="root" data-composition-id="aroll-02" data-start="0" data-duration="4.644" data-width="1080" data-height="1920">
+    <div id="band">
+      <div id="grain" class="clip" data-start="0" data-duration="4.644" data-track-index="0"></div>
+      <div id="card" class="clip" data-start="0" data-duration="4.644" data-track-index="1" data-layout-allow-overflow>
+        <div id="edge-glow"></div>
+        <div id="shimmer" data-layout-allow-overflow></div>
+
+        <!-- segs 16–18 rel=0.000 "Just because she moves doesn't mean she matters." -->
+        <div id="badge"><div class="badge-dot"></div><span class="badge-text">Point 02</span></div>
+        <div id="caption">
+          <span class="muted">just because she moves</span><span class="neq">≠</span><span class="bold">she matters.</span>
+        </div>
+
+        <div id="divider"></div>
+
+        <!-- segs 19–20 rel=1.400 "content comes fast. AI comes late." — comparison chart -->
+        <div id="compare">
+          <div class="cmp-col" id="col-content">
+            <div class="cmp-label" id="lbl-content">Content</div>
+            <div class="bar-wrap">
+              <div class="bar-track"><div id="bar-content"></div></div>
+              <span class="bar-pct" id="pct-content">FAST</span>
+            </div>
+            <div class="cmp-verdict" id="v-content">Comes first</div>
+          </div>
+          <div id="vs-sep">VS</div>
+          <div class="cmp-col" id="col-ai">
+            <div class="cmp-label" id="lbl-ai">AI</div>
+            <div class="bar-wrap">
+              <div class="bar-track"><div id="bar-ai"></div></div>
+              <span class="bar-pct" id="pct-ai">LATE</span>
+            </div>
+            <div class="cmp-verdict" id="v-ai">Always behind</div>
+          </div>
+        </div>
+      </div>
+      <div id="brand-tag" class="clip" data-start="0" data-duration="4.644" data-track-index="2">SOLOFLOWS</div>
+    </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      gsap.set('#grain',      { opacity: 0 });
+      gsap.set('#card',       { y: 32, opacity: 0 });
+      gsap.set('#edge-glow',  { opacity: 0 });
+      gsap.set('#badge',      { opacity: 0 });
+      gsap.set('#caption',    { y: 14, opacity: 0 });
+      gsap.set('#divider',    { width: 0 });
+      gsap.set('#col-content',{ opacity: 0 });
+      gsap.set('#vs-sep',     { opacity: 0 });
+      gsap.set('#col-ai',     { opacity: 0 });
+      gsap.set('#bar-content',{ width: '0%' });
+      gsap.set('#bar-ai',     { width: '0%' });
+      gsap.set('#v-content',  { opacity: 0 });
+      gsap.set('#v-ai',       { opacity: 0 });
+      gsap.set('#pct-content',{ opacity: 0 });
+      gsap.set('#pct-ai',     { opacity: 0 });
+      gsap.set('#shimmer',    { x: '-130%', opacity: 0 });
+      gsap.set('#brand-tag',  { opacity: 0 });
+
+      var tl = gsap.timeline({ paused: true });
+      window.__timelines = window.__timelines || {};
+      window.__timelines['aroll-02'] = tl;
+
+      tl.to('#grain',     { opacity:0.10, duration:0.30, ease:'power1.out', onStart:function(){ document.getElementById('grain').classList.add('active'); } }, 0);
+      tl.to('#card',      { y:0, opacity:1, duration:0.38, ease:'power3.out' }, 0.08);
+      tl.to('#edge-glow', { opacity:1, duration:0.30, ease:'power1.out' }, 0.18);
+      tl.to('#brand-tag', { opacity:1, duration:0.28 }, 0.28);
+
+      // segs 16–18 rel=0.000 — badge + caption
+      tl.to('#badge',   { opacity:1, duration:0.22, ease:'power2.out' }, 0.28);
+      tl.to('#caption', { y:0, opacity:1, duration:0.30, ease:'power2.out' }, 0.42);
+
+      // Divider at rel=1.400 (seg19 entry)
+      tl.to('#divider', { width:'100%', duration:0.34, ease:'power2.out' }, 1.40);
+
+      // Content column — "content comes fast" rel=1.400
+      tl.to('#col-content',  { opacity:1, duration:0.22, ease:'power2.out' }, 1.52);
+      tl.to('#bar-content',  { width:'86%', duration:0.60, ease:'power2.inOut' }, 1.60);
+      tl.to('#pct-content',  { opacity:1, duration:0.18 }, 1.62);
+      tl.to('#v-content',    { opacity:1, duration:0.20, ease:'power2.out' }, 1.72);
+
+      // VS separator
+      tl.to('#vs-sep', { opacity:1, duration:0.18 }, 1.84);
+
+      // AI column — "AI comes late" rel=2.070 (slow bar fill = visual metaphor)
+      tl.to('#col-ai',    { opacity:1, duration:0.22, ease:'power2.out' }, 2.07);
+      tl.to('#bar-ai',    { width:'28%', duration:1.15, ease:'power1.in' }, 2.14);
+      tl.to('#pct-ai',    { opacity:1, duration:0.18 }, 2.16);
+      tl.to('#v-ai',      { opacity:1, duration:0.20 }, 2.26);
+
+      // Shimmer at peak
+      tl.to('#shimmer', { x:'130%', opacity:1, duration:0.62, ease:'power1.inOut' }, 2.70);
+
+      // Fade at 4.144s (4.644 − 0.500)
+      tl.to('#card',      { opacity:0, y:-8, duration:0.44, ease:'power2.in' }, 4.144);
+      tl.to('#brand-tag', { opacity:0, duration:0.28 }, 4.144);
+      tl.to('#grain', { opacity:0, duration:0.30, onComplete:function(){ document.getElementById('grain').classList.remove('active'); } }, 4.244);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+{
+  "name": "badass-buy-2-get-4-promo",
+  "tag": [
+    "buy 2 get 4",
+    "special offer",
+    "promotion creative",
+    "yellow blue campaign",
+    "underwear promo",
+    "retail sale"
+  ],
+  "biz_niche": "E-commerce & Retail",
+  "content_format": "Special offers",
+  "group": "badass_1308671261427040",
+  "prompt": {
+    "project_info": {
+      "theme": "BADASS buy 2 get 4 promotional poster",
+      "color_palette": "Bright yellow, royal blue, white, black"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A bold square sale poster built around oversized Vietnamese typography announcing a buy-2-get-4 offer. The layout uses a vivid yellow background, thick blue-and-white outlined headline blocks, two glossy blue information badges, a gift-ribbon line graphic, and cropped underwear product visuals at the frame edge.",
+      "style": "High-impact ecommerce promotion, flat graphic retail poster, bold typography-led campaign, bright and energetic sale visual"
+    },
+    "composition_elements": {
+      "type": "Typography Panels/Graphic Shapes/Product Prop",
+      "text": "BADASS, MUA 2 ĐƯỢC 4, MUA 4 ĐƯỢC 8, NHÂN ĐÔI QUÀ TẶNG",
+      "items": [
+        "Top Center: black BADASS wordmark on solid bright yellow background.",
+        "Center: huge stacked blue headline with thick white outline reading 'MUA 2 ĐƯỢC 4', with the number 2 integrated in the top line and the number 4 oversized on the right.",
+        "Behind Headline Right: a thin blue gift-box outline with a ribbon bow graphic emerging behind the headline.",
+        "Lower Left: a glossy rounded blue badge with white uppercase text 'MUA 4 ĐƯỢC 8'.",
+        "Lower Center-Right: another glossy rounded blue badge with white uppercase text 'NHÂN ĐÔI QUÀ TẶNG'.",
+        "Lower Right Edge: cropped dark underwear product visual partially entering the frame from the right side.",
+        "Bottom Left Corner: a large cropped blue angular graphic shape for visual balance."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright flat commercial lighting",
+      "effect": "Clean high-contrast promo look, subtle glow around blue badges, cheerful energetic sale atmosphere, crisp graphic edges"
+    },
+    "technical_specs": {
+      "render_style": "Graphic retail promotion poster with photoreal product crop accents",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "BADASS wordmark",
+          "required": true,
+          "source": "source image or brand asset reference",
+          "usage": "Use the exact BADASS wordmark for the top-center brand text."
+        },
+        {
+          "type": "text_layout",
+          "name": "promo headline and badges",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Preserve the exact wording, line breaks, scale, and hierarchy of 'MUA 2 ĐƯỢC 4', 'MUA 4 ĐƯỢC 8', and 'NHÂN ĐÔI QUÀ TẶNG'."
+        },
+        {
+          "type": "graphic",
+          "name": "gift-box outline and blue corner shape",
+          "required": true,
+          "source": "source image graphic reference",
+          "usage": "Keep the thin gift-box ribbon line art behind the headline and the cropped blue geometric corner at bottom left."
+        },
+        {
+          "type": "product",
+          "name": "cropped underwear visual",
+          "required": false,
+          "source": "source image product crop reference",
+          "usage": "Use if the right-edge underwear crop needs to closely match the original silhouette and placement."
+        }
+      ],
+      "prompt_instructions": [
+        "If using gpt-image-2, attach the original image to preserve the exact sale typography hierarchy and spacing.",
+        "Keep all visible text exactly as shown in the source image.",
+        "Do not turn this into a lifestyle poster; it must remain a bold text-led promotional graphic."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square retail sale poster for a BADASS buy-2-get-4 promotion. Use a bright yellow background with a black BADASS wordmark centered at the top. In the middle, create a huge stacked blue headline with thick white outline reading 'MUA 2 ĐƯỢC 4', with the number 4 oversized on the right side. Behind the headline, add a thin blue gift-box outline with a ribbon bow graphic. At the lower left place a glossy rounded blue badge with white text 'MUA 4 ĐƯỢC 8'. At the lower center-right place a matching glossy rounded blue badge with white text 'NHÂN ĐÔI QUÀ TẶNG'. Add a cropped dark underwear product visual entering from the right edge and a large cropped blue angular graphic shape in the bottom-left corner. Technical style: graphic retail promotion poster with photoreal product crop accents, bright flat commercial lighting, crisp graphic edges, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, low resolution, distorted text, incorrect Vietnamese wording, weak contrast, messy layout, muted colors, flat lifeless badges, warped gift-box line art, extra products, watermark, signature, cluttered background"
+  }
+}

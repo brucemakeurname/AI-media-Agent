@@ -1,0 +1,27 @@
+{
+  "name": "vintage-car-red-dress-portrait",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "other", "vintage-car"],
+  "image_type": "vintage car fashion portrait",
+  "image_vibe": "retro warm red-dress elegance",
+  "image_purpose": "UGC-style fashion and lifestyle portrait",
+  "group": "soft-elegant/other",
+  "prompt": {
+    "project_info": "Create a realistic portrait of an original approved adult woman seated inside a vintage car.",
+    "main_subject": "An original approved adult blonde woman with softly waved hair, natural makeup, and a relaxed confident smile sits in the rear seat of a vintage cream-colored car. She wears a long-sleeved red ruched dress with an off-shoulder neckline, sheer black tights, and a delicate necklace.",
+    "composition_elements": "Vertical 9:16 portrait from outside the open car door, subject seated against cream vinyl upholstery, one arm resting along the seat and the other hand near her face, vintage door hardware, brick-and-metal exterior visible through the windows, and natural car-interior framing.",
+    "lighting_and_atmosphere": "Soft daylight entering through the car windows, warm muted interior tones, gentle highlights on red fabric and hair, nostalgic relaxed retro-fashion atmosphere.",
+    "technical_specs": "Realistic smartphone fashion photography, vertical 9:16, medium-full-body seated framing, 50mm perspective, moderate depth of field, natural fabric and upholstery texture, restrained color, no artificial HDR look.",
+    "generated_prompt_string": "Realistic vertical 9:16 fashion portrait of an original approved adult blonde woman with softly waved hair, natural makeup, and a relaxed confident smile seated in the rear seat of a vintage cream-colored car. She wears a long-sleeved red ruched dress with an off-shoulder neckline, sheer black tights, and a delicate necklace. Photographed from outside the open car door, with cream vinyl upholstery, vintage door hardware, and brick-and-metal exterior visible through the windows. Soft daylight, warm muted tones, nostalgic retro-fashion atmosphere, natural texture, realistic smartphone photography.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, unsafe vehicle behavior, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy, unreadable text",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "vintage car red dress reference", "required": true, "source": "attached source image", "usage": "Match the original adult model, red dress, car upholstery, seated pose, open door angle, and daylight."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve adult identity, outfit, pose, vintage car interior, environment, and lighting. Vehicle badges, logos, typography, and jewelry branding are replaceable editable elements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Renamed the generic template to a semantic creative slug matching the viewed vintage-car portrait.", "Clarified the subject as an original approved adult.", "Added safe lifestyle framing and anti-slop exclusions."]
+  }
+}

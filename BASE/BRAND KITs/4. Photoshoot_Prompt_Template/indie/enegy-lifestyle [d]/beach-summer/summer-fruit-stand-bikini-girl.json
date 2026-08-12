@@ -1,0 +1,71 @@
+{
+  "name": "summer-fruit-stand-bikini-girl",
+  "tag": [
+    "fruit-market",
+    "watermelon",
+    "orange-swimwear",
+    "coastal-chic",
+    "summer-editorial"
+  ],
+  "image_type": "fashion-lifestyle-editorial",
+  "image_vibe": "vibrant-sun-drenched-candid",
+  "image_purpose": "instagram-feed",
+  "group": "indie/enegy-lifestyle/beach-summer",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced celebrity resemblance and body-focus wording with an original adult model in a non-sexualized coastal lifestyle editorial."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "sun-drenched coastal fruit-market fashion lifestyle",
+      "color_palette": "watermelon red, cobalt blue, sun-ripened orange, banana yellow, and gravel gray",
+      "format": "vertical eye-level environmental portrait"
+    },
+    "main_subject": {
+      "type": "original adult woman",
+      "detail": "Original adult blonde woman with a feminine silhouette, softly layered hair, and a calm playful expression. She wears the orange floral-print swimwear set with a lightweight open beach shirt, layered gold necklaces, statement rings, and gold bracelets shown.",
+      "style": "coastal-chic summer editorial with natural skin texture"
+    },
+    "composition_elements": {
+      "text": "no text, logo, or watermark",
+      "items": [
+        "seated relaxed pose on gravel beside a weathered blue wooden fruit stall",
+        "one hand holds a large watermelon slice near the face",
+        "the other arm rests against the blue stall structure",
+        "stacked plastic crates filled with tomatoes, bananas, and assorted market produce"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "bright 5600K direct sunlight",
+      "effect": "graphic high-contrast shadows, sunlight gently highlighting shoulders and chest area through the swimwear, vivid highlights, and a candid sun-drenched market atmosphere"
+    },
+    "technical_specs": {
+      "camera": "Hasselblad X2D 100C",
+      "lens": "XCD 38V at f/4",
+      "render_style": "high-detail natural skin and produce texture, clear environmental context, restrained color depth, no digital gloss"
+    },
+    "generated_prompt_string": "Create a vertical environmental summer-fashion portrait of an original adult blonde woman with a feminine silhouette, seated casually on gravel beside a rustic outdoor fruit market stall with weathered cobalt-blue wood. Keep the orange tropical floral-print swimwear set layered with an open lightweight beach shirt, eclectic gold necklaces, rings, and bracelets shown. She holds a large watermelon slice near her face while her other arm rests against the stall structure. Surround her with stacked plastic crates of ripe tomatoes, yellow bananas, and shadowed market produce. Use bright 5600K direct natural sunlight that gently highlights her shoulders and chest area through the swimwear, graphic high-contrast shadows, saturated watermelon red, cobalt blue, and sun-ripened orange, a 38mm environmental perspective, and realistic skin, fabric, wood, and fruit texture. Keep the composition candid. No celebrity likeness, text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, public figure, celebrity likeness, minor, child, sexualized pose, nudity, body-part emphasis, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity direction is required.",
+          "usage": "Replace only the original adult subject identity while retaining the market pose, beach layers, jewelry direction, and watermelon action."
+        },
+        {
+          "type": "location",
+          "name": "fruit-stand-reference",
+          "required": false,
+          "source": "Attach a fruit-stand reference if exact market details are required.",
+          "usage": "Replace stall and produce details while preserving the weathered-blue structure, crate arrangement, direct sunlight, and red-blue-orange palette."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. References are optional; retain the fruit-market structure, watermelon action, colorful crates, direct sunlight, and coastal lifestyle direction."
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "campaign_slug": "rvc-brand-voice-video-smoke-test",
+  "status": "review_required",
+  "target_market": "Singapore (SGD)",
+  "language": "en-SG",
+  "created_at": "2026-08-10",
+  "voice_reference": {
+    "audio": "BASE/BRAND KITs/voice/voice_1_.WAV",
+    "sha256": "8fabaf83533222c56792fb13a1bdbe16eb9df0992d36762e4ffe06a9cb926834",
+    "duration_seconds": 24.961,
+    "note": "Reference file used for smoke test training. RVC recommends >=10 minutes of audio for production quality."
+  },
+  "voice_reference_v2": {
+    "audio": "BASE/BRAND KITs/voice/voice_1_male_10_mins.WAV",
+    "sha256": "8e71369a87044032cae653b7f332d9464265278d3a366e481423f5568d85880a",
+    "duration_seconds": 609.384,
+    "note": "Reference for the Applio v2 & v3 test; 225 training clips and 224 valid records."
+  },
+  "source_video": {
+    "path": "/Users/test/Downloads/Woman_speaking_about_protein_drink_202608101139.mp4",
+    "duration_seconds": 10.01,
+    "resolution": "720x1280"
+  },
+  "outputs": [
+    {
+      "version": "v1",
+      "file": "BASE/CAMPAIGNs/archived/rvc-brand-voice-video-smoke-test/images/woman-speaking-protein-drink-rvc-brand-voice-v1.mp4",
+      "duration_seconds": 10.00,
+      "container": "MP4",
+      "video_codec": "h264",
+      "audio_codec": "aac 44.1kHz mono",
+      "sha256": "70008ee532b6f061e9f0dc56071e875c05d9edadbb6bdda773595b887663d960",
+      "note": "Rendered via RVC CPU model trained for 10 epochs using PM pitch extraction."
+    },
+    {
+      "version": "applio-v1",
+      "file": "BASE/CAMPAIGNs/archived/rvc-brand-voice-video-smoke-test/images/woman-speaking-protein-drink-applio-brand-voice-v1.mp4",
+      "duration_seconds": 10.00,
+      "container": "MP4",
+      "video_codec": "h264",
+      "audio_codec": "aac 44.1kHz mono",
+      "sha256": "d18a13d04962aa3a6124b3f381056f20fbcf8d94a989eacb46359fe0227a4ff3",
+      "note": "Rendered with Applio after 10 MPS training epochs."
+    },
+    {
+      "version": "applio-v2-10min",
+      "file": "BASE/CAMPAIGNs/archived/rvc-brand-voice-video-smoke-test/images/woman-speaking-protein-drink-applio-brand-voice-v2-10min.mp4",
+      "duration_seconds": 10.00,
+      "container": "MP4",
+      "video_codec": "h264",
+      "audio_codec": "aac 44.1kHz mono",
+      "sha256": "3701d39f171881249653693f768e94276209858ff0f1d728ecb5795794c332fb",
+      "note": "Rendered with Applio after MPS training from 10-min reference (5 epochs)."
+    },
+    {
+      "version": "applio-v3-dataset-dominant-index90",
+      "file": "BASE/CAMPAIGNs/archived/rvc-brand-voice-video-smoke-test/images/woman-speaking-protein-drink-applio-brand-voice-v3-dataset-dominant-index90.mp4",
+      "duration_seconds": 10.00,
+      "container": "MP4",
+      "video_codec": "h264",
+      "audio_codec": "aac 44.1kHz mono",
+      "sha256": "3e7085090a0507b852811139e86a3852c48523607dbd0fee722fd53f8acc530e",
+      "note": "Dataset-dominant setup: pitch=-8 (target male median ~125.3 Hz), index_rate=0.90, volume_envelope=0.00, protect=0.00, crepe-tiny pitch extraction."
+    }
+  ],
+  "model_artifacts": {
+    "applio_v3_weight": "Applio/logs/applio-brand-voice-v2-10m/applio-brand-voice-v2-10m-7epoch-dataset-dominant.pth",
+    "applio_v3_weight_sha256": "ad4dba1a7b97db0420b8a48d93d4631f89ceb4e63962dae232881c54496a8a5c",
+    "applio_v3_index": "Applio/logs/applio-brand-voice-v2-10m/applio-brand-voice-v2-10m.index",
+    "applio_v3_index_sha256": "54708a24f0d3271b8aca07371ebabb72dd78de3bbcf952db453bf2bd84faaa70"
+  },
+  "verification": {
+    "checked": true,
+    "source_unmodified": true,
+    "format": "H.264 MP4 with converted AAC mono audio"
+  }
+}

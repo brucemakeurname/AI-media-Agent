@@ -1,0 +1,82 @@
+{
+    "name":  "forbidden-city-ming-fashion-cover",
+    "tag":  [
+                "fashion-cover",
+                "ming-inspired",
+                "forbidden-city",
+                "hanfu",
+                "portrait"
+            ],
+    "biz_niche":  "Fashion & Apparel / Editorial",
+    "content_format":  "Brand story",
+    "group":  "commercial-photo_872",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "High-fashion magazine cover in a snowy Forbidden City corridor",
+                                        "color_palette":  "Vermilion red, imperial gold, jade green, peacock blue, ivory, snow white, and jewel-tone embroidery"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Adult female fashion portrait",
+                                        "detail":  "A dignified adult woman in an elaborate Ming-inspired ceremonial hanfu with layered woven brocade, multicolor embroidery, phoenix crown, dense gold tassels, pearls, jade, and an embroidered round fan, standing centered in a snowy red-walled Forbidden City corridor.",
+                                        "style":  "Photorealistic luxury editorial, culturally researched historical-inspired styling, crisp textile craftsmanship, Vogue-style cover hierarchy"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Magazine masthead, location architecture, wardrobe, and cover lines",
+                                                "text":  "VOGUE; COVER LINES; MING DYNASTY INSPIRED; THE FORBIDDEN CITY in BEIJING",
+                                                "items":  [
+                                                              "Top: large elegant VOGUE-like serif masthead with generous cover spacing.",
+                                                              "Center: front-facing adult model, precise facial identity from FACE_REF when supplied, holding embroidered fan.",
+                                                              "Background: deep red pillars, painted beams, carved lattice details, snow-covered corridor perspective, no tourists or modern signage.",
+                                                              "Left: restrained white cover lines; bottom: full embroidered skirt visible in the full-body option.",
+                                                              "Throughout: fine falling snow or clear post-snow atmosphere, authentic gold, pearl, and jade highlights."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Winter natural light with soft fill",
+                                                   "effect":  "85mm portrait or 50-70mm full-length perspective, shallow depth of field, sharp eyes, clear embroidery texture, controlled metallic highlights, clean cinematic color separation"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Photorealistic high-end fashion editorial and magazine cover design",
+                                           "resolution":  "8k resolution, highly detailed, vertical 9:16"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "FACE_REF identity reference",
+                                                                 "required":  true,
+                                                                 "source":  "user-supplied adult face reference with permission",
+                                                                 "usage":  "Lock facial proportions, skin texture, and identity without beautification drift."
+                                                             },
+                                                             {
+                                                                 "type":  "location",
+                                                                 "name":  "Forbidden City red corridor reference",
+                                                                 "required":  true,
+                                                                 "source":  "licensed architectural reference or location permission",
+                                                                 "usage":  "Match vermilion walls, columns, painted beams, snow, and corridor perspective."
+                                                             },
+                                                             {
+                                                                 "type":  "accessory",
+                                                                 "name":  "Ming-inspired ceremonial wardrobe references",
+                                                                 "required":  true,
+                                                                 "source":  "museum, costume designer, or licensed textile references",
+                                                                 "usage":  "Guide layered garments, embroidery, crown, gold tassels, pearl, jade, and fan without falsely claiming historical authenticity."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "Luxury magazine cover reference",
+                                                                 "required":  true,
+                                                                 "source":  "supplied reference image",
+                                                                 "usage":  "Match masthead scale, cover-line placement, portrait crop, and negative space."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Use only an adult FACE_REF with consent.",
+                                                                          "Treat named magazine mastheads as style references; do not reproduce trademarked editorial branding unless licensed.",
+                                                                          "Avoid anachronisms, tourist clutter, visible watermarks, and historical claims that cannot be substantiated."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Generate a 9:16 vertical photorealistic high-end fashion magazine-cover photograph using the uploaded FACE_REF as identity reference, preserving adult facial features and bone structure, natural pores and skin texture. The subject wears an elaborate Ming-inspired ceremonial hanfu: multiple layers, woven gold brocade, jacquard texture, visible multicolor embroidery and couching, peonies, roundels, auspicious clouds and mythical beasts other than dragons, white or black inner standing collar, wide sleeves, layered outer ceremonial shawl, long patterned skirt, gold phoenix crown, dense symmetrical tassels, pearl and jade jewelry. Center her in a Beijing Forbidden City red-wall corridor with vermilion columns, painted beams, carved details, strong receding perspective, fine falling snow or clear post-snow conditions, no tourists, modern signs, phone UI, subtitles or watermarks. Choose a coherent waist-up or full-body cover composition with negative space for layout. Use winter natural light with gentle fill, 85mm portrait look or 50mm/70mm full-length lens, shallow depth of field and sharply focused eyes; preserve crisp embroidery and controlled jewelry highlights. Use a refined cinematic palette in jade green, warm apricot, or deep vermilion base fabrics with visible gold, red, blue, ivory and pale purple embroidery. Compose as a Vogue, Harper\u0027s Bazaar, ELLE, Cosmopolitan, Marie Claire, i-D, Allure, or FLAUNT-level bilingual magazine-cover design while retaining one internally coherent editorial style.",
+                   "negative_prompt":  "child, face drift, plastic skin, dragon motifs, cheap costume, single-color gold embroidery, tourists, modern signage, mobile UI, watermark, text corruption, oversaturated colors, blown jewelry highlights, blurry eyes, cluttered cover"
+               }
+}

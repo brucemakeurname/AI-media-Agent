@@ -1,0 +1,77 @@
+{
+  "name": "badass-lucky-number-prize-board",
+  "tag": [
+    "lucky draw",
+    "prize board",
+    "event activation",
+    "store game",
+    "promotion board",
+    "retail event"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Challenge",
+  "group": "badass_1737479520739518",
+  "prompt": {
+    "project_info": {
+      "theme": "In-store lucky number prize board event",
+      "color_palette": "Sky blue, bright yellow, white, beige, red, denim blue"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A tall in-store event board listing numbered prizes for a lucky draw game, flanked by apparel displays and event props like instant noodles and folded garments.",
+      "style": "Photorealistic retail event poster, in-store activation documentation, clean merchandising-event hybrid"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "BADASS, BỐC SỐ TÌM QUÀ, 1 MÌ CAY SASIN, 2 VOUCHER 5%, 3 ÁO PHÔNG, 4 ÁO POLO, 5 VOUCHER 10%, 6 TẤT, 7 SỊP, 8 SƠ MI, 9 QUẦN ÂU, 10 BÌNH NƯỚC, 11 QUẦN SHORT, 12 VOUCHER 100K, THỬ TÀI VẬN MAY NHẬN QUÀ BẤT NGỜ",
+      "items": [
+        "Center: a tall blue-yellow standing board titled 'BỐC SỐ TÌM QUÀ' with numbered prize lines from 1 to 12.",
+        "Left Foreground: folded garments and several instant noodle packs on a stone counter.",
+        "Left Background: hanging red and beige shirts.",
+        "Right Background: white top and blue jeans hanging vertically.",
+        "Top Right: white BADASS wordmark.",
+        "Bottom Right: yellow-highlighted blue banner 'THỬ TÀI VẬN MAY' above blue text 'NHẬN QUÀ BẤT NGỜ'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft indoor retail lighting",
+      "effect": "Event-board clarity, warm store ambience, realistic product visibility, tidy in-store activation mood"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic in-store event poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "ui_reference",
+          "name": "numbered prize board",
+          "required": true,
+          "source": "source image board reference",
+          "usage": "Preserve the exact title, numbering, and prize list structure from 1 to 12."
+        },
+        {
+          "type": "text_layout",
+          "name": "event copy and bottom banner",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Keep all visible Vietnamese wording exactly as shown."
+        },
+        {
+          "type": "location",
+          "name": "in-store display context",
+          "required": true,
+          "source": "source image retail setting reference",
+          "usage": "Preserve the counter, apparel racks, noodle props, and denim edge framing."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image because the numbered list and store context need high fidelity.",
+        "Keep all visible text exactly as shown, especially the full prize list.",
+        "Maintain this as an in-store event documentation visual, not a clean isolated graphic."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square in-store event poster for a BADASS lucky number game. Place a tall blue-yellow standing board in the center titled 'BỐC SỐ TÌM QUÀ', listing numbered prizes from 1 to 12 including 'MÌ CAY SASIN', 'VOUCHER 5%', 'ÁO PHÔNG', 'ÁO POLO', 'VOUCHER 10%', 'TẤT', 'SỊP', 'SƠ MI', 'QUẦN ÂU', 'BÌNH NƯỚC', 'QUẦN SHORT', and 'VOUCHER 100K'. Surround it with a realistic retail display: folded garments and instant noodle packs on a stone counter to the left, hanging shirts behind, and a white top with jeans on the right. Add the BADASS wordmark at the upper right and a lower banner reading 'THỬ TÀI VẬN MAY NHẬN QUÀ BẤT NGỜ'. Technical style: photorealistic in-store event poster, soft indoor retail lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry text, incorrect prize list, low resolution, messy store, distorted board, missing props, watermark, signature"
+  }
+}

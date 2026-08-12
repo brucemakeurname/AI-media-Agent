@@ -1,0 +1,53 @@
+{
+  "name": "be-rockstar-energy-station-hcmc-map",
+  "tag": ["rockstar", "map graphic", "hcmc", "energy station", "location list"],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Infographics",
+  "group": "be_2904548639879431",
+  "prompt": {
+    "project_info": {
+      "theme": "Rockstar energy-station location map for Ho Chi Minh City",
+      "color_palette": "Bright yellow, blue, white, gray, black"
+    },
+    "main_subject": {
+      "type": "Text/Map/Object",
+      "detail": "An infographic location map showing multiple Rockstar energy stations across Ho Chi Minh City, with a large central street-map panel, blue map pins, and café location callout cards each paired with a Rockstar vending-machine image.",
+      "style": "Promo infographic map poster with brand-collab city backdrop"
+    },
+    "composition_elements": {
+      "type": "Typography/Map Pins/Location Cards",
+      "text": "be, ROCKSTAR NƯỚC TĂNG LỰC, TRẠM SẠC NĂNG LƯỢNG ROCKSTAR TP.HCM, Thủy Trúc 197 Đinh Bộ Lĩnh, Bình Thạnh, Lê Cafe (KĐT Him Lam) 98 Nguyễn Thị Thập, Khu đô thị Him Lam, Tân Hưng, Nova Coffee 45 Đường số 5, Bình Phú, Lê Cafe 30 Trịnh Đình Thảo, Tân Phú",
+      "items": [
+        "Top: be and Rockstar logos.",
+        "Upper Middle: large black headline 'TRẠM SẠC NĂNG LƯỢNG ROCKSTAR' and blue block 'TP.HCM'.",
+        "Center: large gray-and-white street map with river and green parks.",
+        "Across map: multiple big blue location pins.",
+        "Around map edges: white rounded location cards naming Thủy Trúc, Lê Cafe (KĐT Him Lam), Nova Coffee, and Lê Cafe, each with address lines and a Rockstar machine image.",
+        "Background: yellow city-road composite with Saigon landmark buildings."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright graphic-commercial lighting",
+      "effect": "Clear infographic readability, energetic sponsor mood, clean location emphasis"
+    },
+    "technical_specs": {
+      "render_style": "Promotional city-map infographic poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "ui_reference", "name": "city street map panel", "required": true, "source": "source image map reference", "usage": "Preserve the map composition, river lines, green blocks, and pin placements."},
+        {"type": "product", "name": "Rockstar machine thumbnails", "required": true, "source": "source image product reference", "usage": "Keep the machine visuals attached to each location card."},
+        {"type": "text_layout", "name": "HCMC location list and headline system", "required": true, "source": "source image text reference", "usage": "Preserve the exact addresses and the 'TP.HCM' blue block."},
+        {"type": "location", "name": "Saigon road-and-landmark background", "required": true, "source": "source image backdrop reference", "usage": "Maintain the city-road framing behind the map."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve map pin locations, the location-card arrangement, and exact addresses.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the map as the hero element with the city-road frame behind it."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square be x Rockstar map infographic poster. Use a bright yellow city-road background with Saigon landmarks at the sides. Place the be and ROCKSTAR NƯỚC TĂNG LỰC logos at the top, followed by the large black text 'TRẠM SẠC NĂNG LƯỢNG ROCKSTAR' and a blue block reading 'TP.HCM'. In the center, place a large gray-and-white city street map with river lines and green park areas. Add multiple oversized blue location pins and white rounded location cards around the map for 'Thủy Trúc 197 Đinh Bộ Lĩnh, Bình Thạnh', 'Lê Cafe (KĐT Him Lam) 98 Nguyễn Thị Thập, Khu đô thị Him Lam, Tân Hưng', 'Nova Coffee 45 Đường số 5, Bình Phú', and 'Lê Cafe 30 Trịnh Đình Thảo, Tân Phú', each paired with a Rockstar machine image. Technical style: promotional city-map infographic poster, bright graphic-commercial lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark map, incorrect addresses, missing pins, blurry machine thumbnails, low resolution, cluttered layout, watermark, signature"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "twilight-city-balcony-neon-baddie",
+  "tag": ["balcony", "high-visibility", "twilight", "city"],
+  "image_type": "UGC urban fashion portrait",
+  "image_vibe": "bold, industrial, neon, confident",
+  "image_purpose": "Urban nightlife and workwear-inspired social content",
+  "group": "ugc/lifestyle-moment/night-out/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a realistic twilight balcony portrait with high-visibility workwear styling and a city construction backdrop.",
+    "main_subject": "One generic approved adult woman in her early 20s with long straight platinum-to-honey blonde hair, medium bronzed skin with natural texture, clear protective safety glasses, black fingerless gloves, a neon lime high-visibility vest with reflective silver strips worn over a secure black top, denim shorts with a comfortable fit, and a tan utility belt with loose suspenders. She faces the camera with a confident neutral expression.",
+    "composition_elements": "Vertical medium shot from the thighs upward at eye level with a slightly wide-angle perspective. The woman stands on a high-rise balcony with a black metal railing, both hands lightly holding the vest edges. Include a blurred urban cityscape, hotel architecture, large construction crane silhouette and blue-to-orange twilight sky.",
+    "lighting_and_atmosphere": "Direct camera flash creates crisp highlights on the safety vest, glasses and natural skin, balanced against cool dusk city light and faint sunset oranges, with realistic high-visibility reflective material.",
+    "technical_specs": "Photorealistic vertical urban portrait, full-frame camera with 28mm lens, medium depth of field, realistic reflective fabric, natural skin texture, mild flash grain, no watermark.",
+    "generated_prompt_string": "Photorealistic vertical medium urban portrait of one generic approved adult woman in her early 20s with long straight platinum-to-honey blonde hair and medium bronzed natural skin texture, wearing clear oversized protective safety glasses, black fingerless gloves, a neon lime high-visibility vest with reflective silver vertical strips over a secure black top, comfortable denim shorts and a tan canvas utility belt with loose suspenders. She stands on a high-rise balcony facing the camera with a confident neutral expression, both hands lightly holding the vest edges. A black metal railing spans the foreground, with blurred city buildings, hotel architecture, a large construction crane silhouette and a blue-to-orange twilight sky behind her. Direct camera flash creates crisp highlights on the vest and glasses while dusk ambient light adds cool city tones, realistic reflective material and natural skin texture, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, bare chest, cleavage emphasis, body-part close-up, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "twilight-city-balcony-neon-baddie reference",
+          "required": true,
+          "source": "Attach the provided reference image",
+          "usage": "Match the adult subject's blonde hair, safety glasses, high-visibility vest, gloves, utility belt, balcony pose, construction crane, cityscape and twilight palette while keeping identity and details replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the high-visibility workwear direction, secure black underlayer, balcony framing, direct flash, crane silhouette and twilight city background. Keep person, outfit details, accessories, buildings, railing and environment replaceable; avoid exposed chest, body-part emphasis, logos and readable text."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Added a secure black underlayer beneath the vest and removed bare-chest/cleavage emphasis.",
+      "Replaced hot-pants/body-emphasis direction with comfortable denim shorts and a neutral confident pose.",
+      "Preserved high-visibility styling, balcony, crane, cityscape and flash aesthetic."
+    ]
+  }
+}

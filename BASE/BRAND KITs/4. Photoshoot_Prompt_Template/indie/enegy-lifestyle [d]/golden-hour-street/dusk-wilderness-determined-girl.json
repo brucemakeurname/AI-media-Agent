@@ -1,0 +1,71 @@
+{
+  "name": "dusk-wilderness-determined-girl",
+  "tag": [
+    "wilderness-portrait",
+    "golden-hour",
+    "black-jacket",
+    "earthy-field",
+    "determined"
+  ],
+  "image_type": "lifestyle-editorial-portrait",
+  "image_vibe": "grounded-quietly-powerful-cinematic",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/golden-hour-street",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult and adjusted the ground-level composition to keep footwear proportionate rather than dominant."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "quietly powerful adult portrait in a dry field at golden hour",
+      "color_palette": "earthy green, muted brown, black denim, warm skin tones, and soft gold",
+      "format": "vertical low seated three-quarter portrait"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "Adult woman with loosely tied-back hair and natural flyaways, defined eyeliner, and muted lipstick. She sits calmly on cracked soil in a black jacket, dark denim jeans, and worn black leather boots.",
+      "style": "grounded outdoor editorial, calm confident, non-sexualized"
+    },
+    "composition_elements": {
+      "text": "no text, logo, or watermark",
+      "items": [
+        "seated pose with knees bent and one arm resting across them",
+        "direct eye contact and a quietly defiant, composed expression",
+        "dry grass, cracked soil, and a wide open field",
+        "boots visible as part of the seated pose but kept naturally proportioned"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft natural side light from a low late-afternoon sun",
+      "effect": "warm rim light on hair and face, moderate contrast, gentle shadow falloff, serene wilderness stillness"
+    },
+    "technical_specs": {
+      "camera": "Canon EOS R5",
+      "lens": "RF 35mm f/1.8 at f/2.8",
+      "render_style": "restrained filmic color, low-to-medium saturation, natural pores, sharp grass detail, fine grain, no beauty retouching"
+    },
+    "generated_prompt_string": "Create a vertical outdoor editorial portrait of an adult woman seated calmly on cracked soil in an open field of dry grass during late-afternoon golden hour. She has loosely tied-back hair with natural flyaways, defined eyeliner, muted lipstick, a black jacket, dark denim jeans, and worn black leather boots. Use a relaxed pose with knees bent and one arm resting across them, direct eye contact, and a quietly determined expression. Frame from a low seated perspective while keeping boots and legs naturally proportioned. Use soft side light from the low sun, warm rim light on hair and face, earthy greens and muted browns, visible natural skin texture, sharp foreground grass, restrained filmic color, and fine grain. No text, logo, watermark, or sexualized framing.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, foot close-up, foot fetish, sexualized pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra limbs, deformed, exaggerated bokeh, stylized AI glow, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity replacement is required.",
+          "usage": "Replace only the adult subject identity while retaining the seated field pose, black jacket, denim, boots, and golden-hour light."
+        },
+        {
+          "type": "location",
+          "name": "dry-field-reference",
+          "required": false,
+          "source": "Attach a landscape reference if a specific field or terrain is required.",
+          "usage": "Replace only field, grass, and horizon details while retaining cracked soil, late-afternoon side light, and restrained earthy grading."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. References are optional; preserve the seated pose, wilderness field, natural boots proportion, golden-hour side light, and grounded non-sexualized mood."
+    }
+  }
+}

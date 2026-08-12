@@ -1,0 +1,65 @@
+{
+  "name": "prompt-604",
+  "tag": [
+    "adult-woman",
+    "rainy-street",
+    "motion-trails",
+    "noir",
+    "night-editorial"
+  ],
+  "image_type": "experimental-night-street-portrait",
+  "image_vibe": "wild-raw-noir",
+  "image_purpose": "creative-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "source_url": "https://x.com/oggii_0/status/1994424983477715007",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Expanded the fragmentary source into a clear adult street-noir prompt and excluded the readable border labels, marquee lettering, and logos visible in the reference."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult fast-moving rainy city street noir",
+      "color_palette": "wet black, tungsten orange, electric blue, crimson, and grayscale skin tones",
+      "aspect_ratio": "2:3"
+    },
+    "main_subject": {
+      "description": "An original adult woman in a black long-sleeve knee-length coat dress with a composed, alert expression.",
+      "pose": "Walking quickly across a wet street, face partially frozen by flash while coat edges and passing traffic streak with motion."
+    },
+    "composition_elements": {
+      "framing": "Vertical waist-to-knee street portrait with the subject central and moving vehicles creating radial light trails.",
+      "environment": "Rainy downtown avenue at night with abstract neon façades, blurred vehicles, wet reflections, and no readable billboards, signage, or borders."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Mixed streetlamp, neon, and compact direct flash; faces retain sharp detail against sweeping movement.",
+      "atmosphere": "Raw, planned-yet-unpredictable, tense, and noir."
+    },
+    "technical_specs": {
+      "camera": "slow-shutter street photography with rear-curtain flash",
+      "quality": "photoreal grain, intentional motion smear, high contrast, realistic rain reflections"
+    },
+    "generated_prompt_string": "Create a photoreal vertical experimental street-noir portrait of an original adult woman crossing a rain-wet downtown avenue at night. She wears a black long-sleeve knee-length coat dress and has a composed alert expression. Freeze her face with compact direct flash while the edges of her coat, passing vehicles, and abstract neon façades create controlled radial motion trails. Include wet asphalt reflections, tungsten orange, electric blue, and crimson light, slow-shutter grain, rear-curtain flash character, high contrast, and a raw unpredictable atmosphere. Remove all readable billboards, marquees, border labels, logos, and watermarks.",
+    "negative_prompt": "minor, revealing clothing, nudity, explicit, nsfw, readable text, marquee lettering, border labels, logo, watermark, plastic skin, distorted anatomy, extra limbs",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use them only to replace motion direction, city-light palette, or covered wardrobe styling; remove all text and brands.",
+      "assets": [
+        {
+          "type": "motion_reference",
+          "name": "rainy-street-light-trails",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace light-trail direction and shutter-smear intensity."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "covered-black-noir-coat-dress",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace the adult subject's covered streetwear silhouette."
+        }
+      ]
+    }
+  }
+}

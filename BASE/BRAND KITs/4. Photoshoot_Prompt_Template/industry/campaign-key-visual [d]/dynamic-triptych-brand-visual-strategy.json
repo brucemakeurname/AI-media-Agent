@@ -1,0 +1,60 @@
+{
+  "name": "dynamic-triptych-brand-visual-strategy",
+  "tag": ["adult-athletes", "adidas-sport", "triptych-editorial", "blue-yellow-red-palette", "future-vision", "motion-campaign"],
+  "image_type": "triptych-sports-brand-visual",
+  "image_vibe": "kinetic-bold-futuristic",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "high-end Adidas Sport dynamic triptych editorial",
+      "color_palette": "electric blue background, neon yellow typography, vivid red apparel, and blue-yellow footwear accents",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "Three adult Adidas athletes with natural skin texture and focused energetic expressions: an adult woman in an extreme close-up portrait and two adult male athletes in dynamic full-body sports poses.",
+      "wardrobe": "Red Adidas performance tracksuits with yellow three-stripes, coordinated blue-yellow Adidas footwear, and clean sport styling.",
+      "pose": "Panel 1: close-up adult woman facing camera with a neon-yellow Adidas wordmark inside a circular frame. Panel 2: adult male athlete holds a blue-yellow shoe above his head in a triumphant gesture. Panel 3: adult male athlete performs a powerful running leap with a yellow graphic ribbon crossing the frame.",
+      "styling": "High-end sports editorial with realistic pores, fabric weaves, subtle sweat, and crisp athletic energy."
+    },
+    "composition_elements": {
+      "framing": "Single horizontal triptych split into three vertical editorial panels with crisp borders and balanced graphic hierarchy.",
+      "environment": "Electric blue studio background across all panels with neon-yellow Adidas typography, repeating Adidas ribbons, and clean negative space.",
+      "typography": "Panel 1: ADIDAS SPORT and ADIDAS circle. Panel 2: FUTURE VISION and pushing boundaries. Panel 3: urban performance. Bottom headline: UNSTOPPABLE. Footer copy: supporting the dream. Render all supplied copy accurately and legibly.",
+      "focus": "Sharp adult faces, track-fabric detail, shoes, Adidas marks, motion gestures, crisp ribbons, and clean graphic edges."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Global illumination with crisp sharp edges, directional highlights on red apparel and footwear, and controlled shadows against the blue background.",
+      "atmosphere": "Kinetic, confident, futuristic, energetic, and aspirational."
+    },
+    "technical_specs": {
+      "camera": "Full-frame editorial camera with 50mm portrait lens for panel 1 and 35mm lens for panels 2-3, high shutter speed for frozen action",
+      "quality": "8K photorealistic sports campaign, ray-traced reflections, subtle film grain, high-fidelity skin and fabric texture, clean print-ready typography"
+    },
+    "generated_prompt_string": "Create a high-end 4:5 Adidas Sport dynamic triptych editorial split into three vertical panels on an electric-blue studio background. Panel 1: extreme close-up of an adult woman with natural skin texture and focused gaze, red Adidas performance top, neon-yellow ADIDAS SPORT typography, circular Adidas wordmark frame, and supporting the dream footer. Panel 2: adult male athlete in red Adidas tracksuit with yellow stripes holds a blue-yellow Adidas shoe above his head in a triumphant pose, with FUTURE VISION and pushing boundaries text. Panel 3: another adult male athlete in matching red Adidas trackwear performs a powerful running leap with a yellow Adidas ribbon crossing the frame and urban performance text. Add a large neon-yellow UNSTOPPABLE. headline, repeating Adidas ribbons, crisp athletic fabric, realistic skin and shoe detail, global illumination, and accurate legible typography.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, illegible text, distorted Adidas marks, duplicate limbs, deformed anatomy, muddy edges, plastic skin, watermark, inconsistent panel identity, motion blur obscuring faces",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for these original adult athletes. Optional apparel, shoe, typography, panel layout, or lighting references may replace only their named element; preserve the three-adult triptych structure, Adidas branding, blue-yellow-red palette, and kinetic sports editorial energy.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "adidas-red-tracksuits-and-blue-yellow-shoes",
+          "required": false,
+          "source": "user-uploaded sportswear reference",
+          "usage": "Replace only the tracksuits, stripes, and footwear while preserving the three-panel styling and approved branding."
+        },
+        {
+          "type": "graphic-style",
+          "name": "electric-blue-yellow-triptych-typography",
+          "required": false,
+          "source": "user-uploaded graphic reference",
+          "usage": "Replace only the wordmarks, ribbons, circles, and copy layout while preserving panel separation and legibility."
+        }
+      ]
+    }
+  }
+}

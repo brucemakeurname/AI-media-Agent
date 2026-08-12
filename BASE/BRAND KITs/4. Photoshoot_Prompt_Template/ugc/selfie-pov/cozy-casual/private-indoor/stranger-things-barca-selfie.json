@@ -1,0 +1,44 @@
+{
+  "name": "stranger-things-barca-selfie",
+  "tag": ["ugc", "selfie-pov", "cozy-casual", "private-indoor", "three-person", "football-kits", "hotel-selfie"],
+  "image_type": "three-person full-body mirror selfie",
+  "image_vibe": "casual, deadpan, relaxed, sporty, candid",
+  "image_purpose": "social-media group selfie",
+  "group": "selfie-pov/cozy-casual/private-indoor",
+  "prompt": {
+    "project_info": "High-resolution digital full-body mirror selfie of three original adult women standing side by side in a neutral modern hotel room, with realistic skin tones, slight mirror texture and soft indoor shadows.",
+    "main_subject": "Three clearly adult women with original non-celebrity identities and neutral deadpan expressions. The left woman, center woman and right woman should remain visually distinct while sharing a casual group presence. The center woman holds the phone for the mirror selfie. Do not reproduce Sadie Sink, Natalia Dyer, Millie Bobby Brown or any other public figures.",
+    "composition_elements": "Arrange the three adult women side by side in a vertical full-body mirror selfie. Dress all three in coordinated blue-and-deep-red vertically striped football kits with matching blue athletic shorts, striped team socks and white sneakers. Keep the jerseys free of recognizable club crests, sponsor marks or logos while preserving the team-kit color relationship. Set the scene in a neutral modern hotel room with gray accent wall, white bed and patterned beige-and-black carpet.",
+    "lighting_and_atmosphere": "Use soft overhead hotel-room lighting with gentle shadows and realistic mirror reflection texture. Keep the mood casual, deadpan and candid, with all three subjects looking directly into the mirror.",
+    "technical_specs": "High-resolution photorealistic digital photo, vertical full-body mirror selfie, natural smartphone perspective, realistic skin, fabric, carpet, bed and reflection detail, consistent proportions across all three adults, no text, logos or watermark.",
+    "generated_prompt_string": "High-resolution photorealistic vertical full-body mirror selfie of three original adult women standing side by side in a neutral modern hotel room. Center woman holds the phone; all three have distinct original faces and neutral deadpan expressions while looking into the mirror. They wear coordinated blue and deep-red vertically striped football kits with matching blue athletic shorts, striped team socks and white sneakers, with no recognizable club crests, sponsor marks or logos. Gray accent wall, white bed, patterned beige-and-black carpet, soft overhead hotel lighting, gentle shadows, slight mirror reflection texture, casual sporty candid mood, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Sadie Sink likeness, Natalia Dyer likeness, Millie Bobby Brown likeness, club logo, sponsor logo, distorted anatomy, extra limbs, extra fingers, inconsistent faces, reflection mismatch, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, text, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "stranger-things-barca-selfie.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve three adult women, side-by-side full-body hotel mirror selfie, blue/deep-red football kits, blue shorts, striped socks, white sneakers, neutral expressions, hotel room and soft overhead lighting; replace celebrity identities and remove recognizable branding."
+        },
+        {
+          "type": "image_asset",
+          "name": "1774987141387-thch7vfr-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1774987141387-thch7vfr-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required and the image asset is optional; it is not inspected in the text-only workflow. Keep three clearly adult subjects, group arrangement, kit colors, hotel room, mirror perspective and casual deadpan mood consistent. Replace identities and omit club/sponsor logos."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced three named actresses with three original adult women.",
+      "Replaced recognizable club and sponsor branding with generic blue-and-deep-red striped football kits.",
+      "Preserved the group selfie, wardrobe color relationship, hotel setting and casual deadpan creative direction."
+    ]
+  }
+}

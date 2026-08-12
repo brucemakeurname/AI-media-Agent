@@ -1,0 +1,68 @@
+{
+  "name": "elevator-ferrari-selfie",
+  "tag": [
+    "adult-man",
+    "elevator-selfie",
+    "motorsport-jacket",
+    "streetwear",
+    "moody-metallic"
+  ],
+  "image_type": "lifestyle-self-portrait",
+  "image_vibe": "moody-urban-motorsport",
+  "image_purpose": "instagram-feed",
+  "group": "indie/enegy-lifestyle/luxury-editorial",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Retained the adult elevator mirror-selfie and motorsport streetwear concept while removing Ferrari, sponsor names, and visible branded patches; use unbranded color-block details unless an approved product reference is supplied."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "moody adult elevator mirror selfie with motorsport-inspired streetwear",
+      "color_palette": "black, crimson red, metallic gray, and muted silver",
+      "format": "vertical 2:3 mid-torso mirror self-portrait"
+    },
+    "main_subject": {
+      "description": "an adult man with textured dark hair, light stubble, a black and red unbranded motorsport-inspired jacket, silver rings, and a thin silver chain",
+      "pose_and_expression": "holding a modern smartphone partly in front of his face while lightly gripping the jacket near his chest, introspective calm expression"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level mirror selfie",
+      "foreground": "smartphone, rings, jacket color blocks, and face reflection",
+      "background": "modern stainless-steel elevator walls with soft metallic highlights",
+      "visual_hierarchy": "face reflection and phone, jacket texture, then elevator geometry"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "soft neutral-cool overhead ambient light with gentle highlights on stainless steel",
+      "atmosphere": "introspective, calm, modern, and slightly melancholic"
+    },
+    "technical_specs": {
+      "camera": "full-frame mirrorless camera",
+      "lens": "50mm f/1.8",
+      "settings": "1/125s, f/1.8, ISO 400",
+      "rendering": "cinematic realistic skin, shallow depth of field, high-detail fabric texture, natural metal reflections"
+    },
+    "generated_prompt_string": "A cinematic mirror selfie of an adult man standing inside a modern stainless-steel elevator. He wears a black motorsport-inspired racing jacket with bold unbranded red panels and geometric patches, light stubble, textured messy dark hair, multiple silver rings, and a thin silver chain necklace. He holds a modern smartphone partly in front of his face while his other hand lightly grips the jacket near the chest. Low moody overhead illumination creates soft highlights on metallic elevator walls and natural shadows on his face. Dark muted blacks, reds, and metallic grays, eye-level mid-torso framing, shallow depth of field, realistic skin texture, and calm introspective luxury-streetwear mood.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, brand name, sponsor logo, branded patch, readable text, logo distortion, blurred face, distorted hands, extra fingers, cartoon, anime, low resolution, harsh flash, unrealistic proportions, bad anatomy, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-selfie-subject-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity and facial hair only."
+        },
+        {
+          "type": "wardrobe",
+          "name": "approved-motorsport-jacket-reference",
+          "required": false,
+          "source": "approved wardrobe or licensed product reference",
+          "usage": "Match exact jacket logos or patches only when an approved reference authorizes them; otherwise remain unbranded."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult mirror-selfie, stainless elevator, black-red motorsport styling, smartphone, and moody light; use branded jacket details only from an approved attached reference."
+    }
+  }
+}

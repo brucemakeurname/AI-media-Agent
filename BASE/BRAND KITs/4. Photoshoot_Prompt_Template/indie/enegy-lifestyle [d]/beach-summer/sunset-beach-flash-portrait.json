@@ -1,0 +1,62 @@
+{
+  "name": "sunset-beach-flash-portrait",
+  "tag": [
+    "beach-portrait",
+    "direct-flash",
+    "purple-red-sunset",
+    "linen-shirt",
+    "surfer-style"
+  ],
+  "image_type": "lifestyle-portrait",
+  "image_vibe": "afterglow-flash-beachy",
+  "image_purpose": "profile-visual",
+  "group": "indie/enegy-lifestyle/beach-summer",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "personal beach portrait after sunset, illuminated by direct flash",
+      "color_palette": "light yellow linen, deep purple-red sky, dark ocean blue, warm skin highlights, and muted gold",
+      "format": "vertical 9:16 above-waist portrait"
+    },
+    "main_subject": {
+      "type": "person from supplied reference image",
+      "detail": "Preserve the exact identity, face, age presentation, skin tone, hair, and core features of the attached adult subject reference. The subject turns back toward the camera from a back-facing pose with windswept hair.",
+      "style": "natural surfer-inspired beach portrait, identity-preserving"
+    },
+    "composition_elements": {
+      "text": "no text, logo, or watermark",
+      "items": [
+        "above-waist crop from behind as the subject turns toward camera",
+        "light-yellow loose linen shirt, worn half-open with sleeves rolled up",
+        "subtle gold seashell necklace",
+        "near-dark beach and ocean below a deep purple-red sky after the sun has almost set"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "direct on-camera flash against fading sunset ambience",
+      "effect": "sun-kissed natural face, subtle soft glitter sheen, clear flash detail, dark atmospheric background"
+    },
+    "technical_specs": {
+      "camera": "Ricoh GR IIIx",
+      "lens": "40mm equivalent at f/2.8",
+      "render_style": "candid compact-camera flash portrait, natural skin texture, fine low-light grain, restrained highlight rolloff"
+    },
+    "generated_prompt_string": "Using the attached adult subject reference as mandatory identity source, create a vertical 9:16 above-waist beach portrait after sunset. Preserve the person's exact identity, face, age presentation, skin tone, hair, and recognizable features. Frame them from behind as they turn toward the camera, with windswept hair, a loose light-yellow half-open linen shirt with rolled sleeves, and a subtle gold seashell necklace. Use direct on-camera flash to give the face a sun-kissed, softly luminous look with restrained glitter sheen. In the background, show a nearly dark beach and ocean beneath a deep purple-red sky after the sun has almost set. Keep the result candid, natural, and identity-preserving. No text, logo, watermark, or sexualized styling.",
+    "negative_prompt": "explicit, nsfw, overly revealing, identity change, face swap, age alteration, public figure, celebrity likeness, minor, child, sexualized pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-identity-reference",
+          "required": true,
+          "source": "Attach a portrait of the authorized adult non-public-figure person to portray.",
+          "usage": "Mandatory identity reference. Preserve the subject's exact facial identity, age presentation, skin tone, hairstyle, and key facial features; do not replace or alter identity."
+        }
+      ],
+      "prompt_instructions": "An authorized adult non-public-figure subject reference is mandatory. Preserve identity exactly; only change wardrobe, beach setting, crop, pose direction, and lighting as described. Do not generate a different person or infer identity details that are absent from the reference."
+    }
+  }
+}

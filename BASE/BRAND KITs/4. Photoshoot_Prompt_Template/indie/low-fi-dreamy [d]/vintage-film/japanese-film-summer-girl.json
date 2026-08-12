@@ -1,0 +1,33 @@
+{
+  "name": "japanese-film-summer-girl",
+  "tag": ["indie", "low-fi-dreamy", "vintage-film", "japanese-film", "summer"],
+  "image_type": "lifestyle portrait",
+  "image_vibe": "Quiet Japanese negative film, candid summer afternoon, faded memory-like realism",
+  "image_purpose": "Create a relaxed summer window-side moment with an authentic analog-film atmosphere.",
+  "group": "vintage-film",
+  "prompt": {
+    "project_info": "A natural candid summer afternoon portrait in Japanese negative-film style.",
+    "main_subject": "An original adult Japanese woman sitting casually on the floor near a window, legs loosely folded, eating ice cream with a relaxed unfocused gaze. She wears comfortable, fully opaque casual summer clothing.",
+    "composition_elements": "Light curtain moving in a breeze, window-side floor setting, imperfect candid composition, and an organic 2:3 frame that lets the subject sit naturally within the environment.",
+    "lighting_and_atmosphere": "Soft sunlight through the window with slight highlight overexposure, low contrast but rich tonal layers, muted faded colors, warm skin tones, and a quiet distant mood.",
+    "technical_specs": "2:3 vertical composition, Japanese negative-film aesthetic, realistic unretouched texture, subtle grain, gentle highlight bloom, memory-like realism.",
+    "generated_prompt_string": "Create a 2:3 candid Japanese negative-film portrait of an original adult Japanese woman sitting casually on the floor near a window, legs loosely folded, eating ice cream with a relaxed unfocused gaze. Dress her in comfortable fully opaque casual summer clothing. Include a light curtain moving in the breeze, imperfect natural framing, soft window sunlight, slight highlight overexposure, low contrast with rich tonal layers, muted faded colors, warm natural skin tone, realistic texture, subtle grain, and quiet memory-like summer realism.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor or teen-coded subject, transparent clothing, exposed underwear, nudity, posed glamour, harsh contrast, excessive retouching, distorted anatomy, watermark, text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image_reference",
+          "name": "source Japanese summer-afternoon reference",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1777037029794-vx78l123-1777037037920-1.jpeg",
+          "usage": "Use only for pose, window-side setting, lighting, and film palette; do not copy identity."
+        }
+      ],
+      "prompt_instructions": "Preserve the candid ice-cream summer moment, Japanese negative-film treatment, and distant nostalgic mood. Keep the subject clearly adult and clothing opaque."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Replaced age-ambiguous wording with an original adult subject.", "Specified fully opaque clothing and safety exclusions."]
+  }
+}

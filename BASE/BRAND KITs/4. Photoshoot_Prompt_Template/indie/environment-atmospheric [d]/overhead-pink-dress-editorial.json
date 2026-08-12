@@ -1,0 +1,66 @@
+{
+  "name": "Pink Flower Bed Overhead Editorial",
+  "tag": "pink-flower-bed-overhead-editorial",
+  "image_type": "topdown_floral_fashion_portrait",
+  "image_vibe": "joyful_spring_analog",
+  "image_purpose": "fashion_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Pink Flower Bed Overhead Editorial",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with neatly styled dark-brown hair, a bright joyful smile, and fresh natural glam makeup.",
+      "wardrobe": "A light-pink short-sleeve midi dress with a high rounded neckline, soft bow detail at the waist, and flowing full skirt.",
+      "pose_and_expression": "Lying comfortably on her back in dense flowers, arms holding a wicker basket of blossoms near her shoulder."
+    },
+    "composition_elements": {
+      "setting": "A dense botanical bed of hot-pink blossoms, fresh green leaves, and small purple accents filling the complete frame.",
+      "props": "A wicker flower basket with an abstract translucent pink heart-shaped ornament without marks.",
+      "framing": "Full-body overhead diagonal composition, face and dress sharp with crisp flowers around her."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Warm late-afternoon sun with soft natural leaf shadows.",
+      "mood": "Joyful, romantic, bright, and springlike."
+    },
+    "technical_specs": {
+      "camera_style": "35mm floral fashion editorial",
+      "lens": "35mm top-down",
+      "rendering": "Subtle analog grain, vivid controlled florals, warm realistic skin, correct fingers, natural joints, and no text."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical 35mm floral fashion editorial of an adult woman with neatly styled dark-brown hair, a bright joyful smile, and fresh natural glam makeup. She wears a light-pink short-sleeve midi dress with a high rounded neckline, soft bow detail at the waist, and flowing full skirt. Pose her comfortably on her back in a dense flower bed, holding a wicker basket of blossoms near one shoulder. Fill the whole frame with hot-pink flowers, green leaves, and small purple accents; add an abstract translucent pink heart-shaped ornament on the basket with no marks. Use full-body overhead diagonal framing, warm late-afternoon sun, soft leaf shadows, subtle analog grain, vivid controlled florals, warm natural skin, correct fingers and joints, and no text. No logos, watermark, or sexualized styling.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, off-shoulder mini dress, cleavage, lingerie, logo, readable text, watermark, distorted hands, extra fingers, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity reference must depict a consenting adult. Flower, basket, wardrobe, and ornament references are replaceable, with all brands and text removed.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult face and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "pink_flower_bed_reference",
+          "required": false,
+          "source": "user-provided floral reference",
+          "usage": "Guide flower density, palette, and overhead framing."
+        },
+        {
+          "type": "prop_reference",
+          "name": "flower_basket_reference",
+          "required": false,
+          "source": "user-provided basket reference",
+          "usage": "Guide basket and ornament silhouette with no branding."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Retained the floral concept while using clearly adult, covered styling and a generic unbranded heart ornament."
+  }
+}

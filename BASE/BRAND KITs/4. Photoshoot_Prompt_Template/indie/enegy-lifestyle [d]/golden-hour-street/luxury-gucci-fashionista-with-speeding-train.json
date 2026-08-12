@@ -1,0 +1,68 @@
+{
+  "name": "luxury-gucci-fashionista-with-speeding-train",
+  "tag": [
+    "cafe-terrace",
+    "motion-blur-train",
+    "tweed-tailoring",
+    "luxury-editorial",
+    "seated-portrait"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "quiet-luxury-cinematic",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/golden-hour-street",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Retained the luxury cafe-and-train concept while removing the Gucci name and logo requirement; use a generic black chain-strap handbag unless an approved brand reference is supplied."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "quiet-luxury outdoor cafe editorial with a passing train",
+      "color_palette": "charcoal, black, silver, cream, teal-blue, and soft warm skin tones",
+      "format": "vertical 2:3 medium-full seated portrait"
+    },
+    "main_subject": {
+      "description": "an adult woman with sleek black hair in a precise center-parted low bun, small earrings, layered pearl-and-chain necklaces, a charcoal tweed jacket, black top, and long draped dark skirt",
+      "pose_and_expression": "upright in a chrome cafe chair with legs crossed, calm direct eye contact, and hands resting naturally"
+    },
+    "composition_elements": {
+      "camera_angle": "eye level, framed slightly above the knees",
+      "foreground": "subject, chrome chair, round cafe table, espresso cup, and an unbranded black chain-strap handbag",
+      "background": "passing off-white train with teal-blue banding rendered in horizontal motion blur",
+      "visual_hierarchy": "face and tailored silhouette, cafe table details, then train movement"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "soft diffused daylight with a gentle front-left key and subtle specular highlights on chrome and shoes",
+      "atmosphere": "clean, composed, luxury street style with gentle film grain and muted cinematic contrast"
+    },
+    "technical_specs": {
+      "camera": "Sony A7R V",
+      "lens": "85mm f/2",
+      "settings": "1/250s, f/2.2, ISO 200",
+      "rendering": "natural pores, visible tweed weave, accurate metal reflections, shallow depth of field, sharp subject with controlled train motion blur"
+    },
+    "generated_prompt_string": "Ultra-realistic editorial street-fashion portrait at an outdoor cafe. An adult woman sits centered on a chrome cafe chair with calm direct eye contact, sleek glossy black hair in a precise center-parted low bun, small earrings, and layered pearl-and-chain necklaces. She wears a structured charcoal tweed jacket with subtle texture and small gold buttons over a black top, plus a long dark draped skirt and metallic silver pointed-toe heels. On the round cafe table: a white espresso cup on a saucer and an unbranded black soft-pouch handbag with a gold chain strap. Behind her, a passing train becomes strong horizontal motion-blur streaks in off-white, teal-blue, and gray while she remains sharp. Light stone pavement, soft diffused daylight, 85mm perspective compression, visible fabric weave, natural pores, gentle grain, and muted luxury color grading.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, brand name, logo, readable text, extra people, additional bags, open hair, harsh flash, dramatic colored lighting, rain, snow, indoor setting, sneakers, boots, cartoon, anime, painterly look, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-model-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace only the authorized adult identity while retaining the seated pose and low-bun styling."
+        },
+        {
+          "type": "accessory",
+          "name": "approved-handbag-reference",
+          "required": false,
+          "source": "approved product reference",
+          "usage": "Use only when exact bag branding or design is licensed for reproduction; otherwise keep the bag generic and unbranded."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the cafe terrace, train motion blur, tweed tailoring, and muted luxury treatment; only reproduce an approved bag design from an attached reference."
+    }
+  }
+}

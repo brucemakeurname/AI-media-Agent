@@ -1,0 +1,66 @@
+{
+  "name": "retro-diner-fashion-dua-lipa",
+  "tag": [
+    "adult-woman",
+    "retro-diner",
+    "yellow-tailoring",
+    "red-vinyl-booth",
+    "1950s-editorial"
+  ],
+  "image_type": "retro-diner-fashion-portrait",
+  "image_vibe": "bright-playful-nostalgic",
+  "image_purpose": "fashion-editorial",
+  "group": "indie/enegy-lifestyle/retro-analog",
+  "source_url": "https://x.com/KeorUnreal/status/2028418653431996716",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed Dua Lipa and Anya Taylor-Joy likenesses, micro-mini/sheers, creator neon text, movie-poster text, and explicit body framing. Recast as an original adult diner editorial with covered yellow tailoring."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "original adult woman in a bright 1950s-style diner",
+      "color_palette": "sunny yellow, red vinyl, turquoise, cream, black-and-white, and warm daylight",
+      "aspect_ratio": "9:16"
+    },
+    "main_subject": {
+      "description": "An original adult woman with sleek black high ponytail, defined eyes, glossy lips, and realistic natural skin; she must not resemble a public figure.",
+      "wardrobe": "Yellow long-sleeve high-neck knit blouse, high-waisted black wide-leg trousers, black low-heeled loafers, and a small unbranded black handbag.",
+      "pose": "Sitting upright in a red vinyl diner booth, hands resting naturally on the handbag and booth edge, looking calmly toward camera."
+    },
+    "composition_elements": {
+      "framing": "Vertical full-body professional fashion portrait within the booth setting.",
+      "environment": "1950s-style diner with red vinyl booths, turquoise-and-red painted walls, black-and-white checker floor, pendant lights, and abstract framed art with no readable text; background patrons are indistinct original adults."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Bright warm retro indoor light mixed with soft daylight from windows.",
+      "atmosphere": "Playful, polished, nostalgic, and editorial."
+    },
+    "technical_specs": {
+      "camera": "professional full-frame DSLR look, 50mm perspective",
+      "quality": "high-detail photorealism, sharp fabric and booth textures, natural skin, cinematic color"
+    },
+    "generated_prompt_string": "Create a photoreal 9:16 fashion portrait of an original adult woman in a bright 1950s-style diner. She has a sleek black high ponytail, defined eyes, glossy lips, and realistic natural skin, and must not resemble a public figure. She wears a yellow long-sleeve high-neck knit blouse, high-waisted black wide-leg trousers, black low-heeled loafers, and carries a small unbranded black handbag. Seat her upright in a red vinyl booth with hands resting naturally, looking calmly to camera. Include turquoise-and-red walls, black-and-white checker floor, pendant lights, abstract framed art without text, and indistinct original adult patrons. Use bright warm retro indoor lighting mixed with soft window daylight, sharp detail, and no logos, posters, neon lettering, or watermark.",
+    "negative_prompt": "celebrity likeness, Dua Lipa, Anya Taylor-Joy, minor, off-shoulder top, micro-mini skirt, sheer hosiery, nude, explicit, nsfw, overly revealing clothing, readable poster, neon text, logo, watermark, distorted anatomy",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use them only to replace covered wardrobe, booth, or diner palette; do not copy identities, brands, or readable text.",
+      "assets": [
+        {
+          "type": "wardrobe_reference",
+          "name": "covered-yellow-diner-tailoring",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace blouse, trousers, shoes, and handbag."
+        },
+        {
+          "type": "environment_reference",
+          "name": "unbranded-1950s-diner",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace booth, floor, wall colors, pendant lights, and daylight direction without text."
+        }
+      ]
+    }
+  }
+}

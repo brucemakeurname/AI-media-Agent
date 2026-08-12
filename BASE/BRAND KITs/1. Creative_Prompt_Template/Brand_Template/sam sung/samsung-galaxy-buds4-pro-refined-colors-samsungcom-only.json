@@ -1,0 +1,63 @@
+{
+  "name": "samsung-galaxy-buds4-pro-refined-colors-samsungcom-only",
+  "tag": [
+    "earbuds-launch",
+    "color-options",
+    "samsungcom-only",
+    "buds4-pro"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "samsung_1388395966662211",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy Buds4 Pro color lineup poster",
+      "color_palette": "White, black, pink gold, warm off-white, soft gray shadows"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Clean color-option poster presenting three Galaxy Buds4 Pro variants with open charging cases and floating earbuds above, labeled White, Black, and Pink Gold with a samsung.com-only note.",
+      "style": "Photorealistic minimal product lineup render, airy premium ecommerce visual"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Refined colors to match with your tunes / Galaxy Buds4 Pro / White / Black / Pink Gold / *samsung.com only",
+      "items": [
+        "Top Left: Large centered headline 'Refined colors to match with your tunes'.",
+        "Top Right: Smaller centered subtitle 'Galaxy Buds4 Pro'.",
+        "Bottom Left: White Buds4 Pro case with matching floating earbuds and label 'White'.",
+        "Bottom Right: Pink Gold variant with floating earbuds, label 'Pink Gold', and blue note '*samsung.com only'.",
+        "Center/Background: Black Buds4 Pro variant centered between the white and pink gold versions on a clean warm-white background."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio lighting",
+      "effect": "Smooth premium shadows, crisp product edges, calm showroom clarity"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy Buds4 Pro color lineup poster. Centerpiece is a three-column arrangement of Galaxy Buds4 Pro charging cases with matching earbuds floating above them in White, Black, and Pink Gold finishes. Background is a clean warm-white ecommerce field. Surrounding elements: exact headline 'Refined colors to match with your tunes', subtitle 'Galaxy Buds4 Pro', labels 'White', 'Black', and 'Pink Gold', plus the note '*samsung.com only' under the pink-gold variant. Technical style: photorealistic product render, soft studio lighting, crisp edges and smooth premium shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy Buds4 Pro three-color lineup",
+          "required": true,
+          "source": "official Samsung product renders",
+          "usage": "Match exact case transparency, earbud positions, and finish colors."
+        },
+        {
+          "type": "text_layout",
+          "name": "color-lineup labels and samsung.com note",
+          "required": true,
+          "source": "original poster",
+          "usage": "Preserve the centered hierarchy and label placement beneath each product group."
+        }
+      ],
+      "prompt_instructions": "Use refs for all three case/earbud colorways. The poster depends on symmetry and spacing, so keep the three-column layout exact."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Luxury Paris Fashion Queen",
+  "tag": ["industry", "lookbook-line-sheet", "editorial-fashion"],
+  "image_type": "full-body luxury fashion editorial",
+  "image_vibe": "powerful, polished, opulent, Parisian",
+  "image_purpose": "luxury apparel and accessories lookbook image",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create an ultra-luxury full-body fashion editorial portrait in an elegant Parisian-style interior.",
+    "main_subject": "An adult fictional woman with long straight light-brown hair, oversized black sunglasses, bold nude makeup, glossy lips, and a confident expression. She sits on a white marble fireplace mantel with crossed legs, wearing a black opaque structured lace-trim fashion bodysuit, opaque patterned tights, black pointed heels, a rich brown faux-fur coat draped over her shoulders, and a small generic vintage-style handbag.",
+    "composition_elements": "Full-body seated pose, elegant crossed legs, classic white wall panels, gold-framed mirror, champagne bottles and glasses on the mantel, clean luxury composition.",
+    "lighting_and_atmosphere": "Cinematic soft lighting with high contrast, sharp subject focus, shallow depth of field, premium Parisian luxury atmosphere.",
+    "technical_specs": "Ultra-realistic 4K fashion magazine photography, full-body framing, realistic textile and marble detail, natural proportions, no visible brand marks or text.",
+    "generated_prompt_string": "Ultra-luxury full-body fashion editorial portrait of an adult fictional woman with long straight light-brown hair, oversized black sunglasses, bold nude makeup and glossy lips, sitting confidently on a white marble fireplace mantel with legs crossed. She wears a black opaque structured lace-trim fashion bodysuit, opaque patterned tights, black pointed high heels, a rich brown faux-fur coat draped over her shoulders, and carries a small generic vintage-style handbag. Elegant Parisian interior, classic white wall panels, gold-framed mirror, champagne bottles and glasses, cinematic soft high-contrast lighting, sharp focus, shallow depth of field, ultra-realistic 4K.",
+    "negative_prompt": "celebrity likeness, public figure likeness, explicit, nsfw, overly revealing, transparent fabric, nudity, recognizable designer monogram, trademark logo, blurry, low quality, distorted anatomy, extra limbs, watermark, text, signature",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "luxury-paris-fashion-queen.jpg", "required": true, "source": "workspace reference image", "usage": "Reference the seated mantel composition, faux-fur coat, sunglasses, Parisian interior, and luxury palette while replacing visible designer branding with generic details."}],
+      "prompt_instructions": "Attach the required reference image. Preserve pose, environment, palette, lighting, and editorial consistency. Keep the adult identity fictional and replaceable; convert deep or sheer exposure to opaque fashion coverage, replace monograms and logos with generic patterns, and keep typography absent."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Converted revealing and designer-branded styling to opaque, generic fashion details and retained an adult fictional subject."]}
+}

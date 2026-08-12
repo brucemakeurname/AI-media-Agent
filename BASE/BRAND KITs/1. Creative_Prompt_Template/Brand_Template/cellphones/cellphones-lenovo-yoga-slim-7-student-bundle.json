@@ -1,0 +1,57 @@
+{
+  "name": "cellphones-lenovo-yoga-slim-7-student-bundle",
+  "tag": ["cellphones", "lenovo yoga slim 7", "student discount", "bundle gift", "oled laptop"],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Special offers",
+  "group": "cellphones_2416316465773083",
+  "prompt": {
+    "project_info": {
+      "theme": "Student-laptop bundle promotion",
+      "color_palette": "CellphoneS red, white, pink, blue-gray, black"
+    },
+    "main_subject": {
+      "type": "Object/Person/Character",
+      "detail": "A student-promo laptop poster built around a large Lenovo Yoga Slim 7 render, paired with a female student carrying a backpack, the CellphoneS mascot, a side view of the laptop, and a rich pricing-and-gift footer.",
+      "style": "Retail student-offer laptop poster"
+    },
+    "composition_elements": {
+      "type": "Laptop/Typography/Person/Mascot/Gifts",
+      "text": "TÙNG TỪNG DEAL KHỦNG, Duy nhất 1.6 - 31.10, cellphoneS, Máy sẵn Office Home 2024, Lenovo Yoga Slim 7, Chip AI lên đến 50 TOPS, thiết kế kim loại, tấm nền OLED, Ưu đãi Học sinh - Sinh viên, Giảm thêm đến 1 TRIỆU, Giá Ưu Đãi 37.49 TRIỆU, Quà tặng đặc quyền, Trả góp 0% lãi suất, hỗ trợ HSSV khoản vay đến 30 triệu, thời hạn đến 12 tháng",
+      "items": [
+        "Top Left: 'TÙNG TỪNG DEAL KHỦNG' and date 'Duy nhất 1.6 - 31.10'.",
+        "Top Right: red cellphoneS corner banner.",
+        "Center: large open Lenovo Yoga Slim 7 laptop angled front-left with purple display wallpaper.",
+        "Upper Right Side: smaller rear/side laptop render with callout 'Máy sẵn Office Home 2024'.",
+        "Left: smiling female student with black backpack facing slightly backward.",
+        "Lower Left: CellphoneS mascot pointing forward.",
+        "Mid Lower: large maroon title 'Lenovo Yoga Slim 7' and smaller specs line beneath.",
+        "Bottom Left: blue badge 'Ưu đãi Học sinh - Sinh viên'.",
+        "Bottom Center: red pricing band with 'Giảm thêm đến 1 TRIỆU' and 'Giá Ưu Đãi 37.49 TRIỆU'.",
+        "Bottom Right: gift set with backpack and voucher package, plus financing footer text."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright retail-student campaign lighting",
+      "effect": "Youthful promotional clarity, glossy laptop highlights, clean layered cutouts"
+    },
+    "technical_specs": {
+      "render_style": "Commercial student-laptop promotion poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "Lenovo Yoga Slim 7 laptop renders", "required": true, "source": "source image product reference", "usage": "Preserve the main front laptop angle, the side/rear view, and the display wallpaper."},
+        {"type": "person", "name": "female student with backpack", "required": true, "source": "source image model reference", "usage": "Keep the exact pose, outfit, socks, shoes, and backpack placement."},
+        {"type": "graphic", "name": "CellphoneS mascot and gift pack", "required": true, "source": "source image mascot and gift reference", "usage": "Preserve the mascot pose and the backpack-plus-voucher gift grouping."},
+        {"type": "text_layout", "name": "student bundle pricing and financing copy", "required": true, "source": "source image text reference", "usage": "Keep the exact wording, line breaks, and bottom financing sentence."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve laptop angles, student figure scale, and the large pricing band.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the pink student-campaign backdrop and the strong product-name hierarchy."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square student-laptop promotion poster with a soft pink tiled background. Add the sale header 'TÙNG TỪNG DEAL KHỦNG' and the date 'Duy nhất 1.6 - 31.10' on the top left and a red cellphoneS banner on the top right. Place a large Lenovo Yoga Slim 7 laptop in the center with a purple display wallpaper, plus a smaller side/rear laptop render on the upper right with the callout 'Máy sẵn Office Home 2024'. On the left place a smiling female student with a black backpack, and below her the CellphoneS mascot. Add the title 'Lenovo Yoga Slim 7' with the subline 'Chip AI lên đến 50 TOPS, thiết kế kim loại, tấm nền OLED'. Use a blue student-offer badge, a red pricing bar with 'Giảm thêm đến 1 TRIỆU' and 'Giá Ưu Đãi 37.49 TRIỆU', gift props, and the bottom financing line. Technical style: commercial student-laptop promotion poster, bright retail-student campaign lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark layout, incorrect text, wrong laptop proportions, low resolution, distorted model, clutter, watermark, signature"
+  }
+}

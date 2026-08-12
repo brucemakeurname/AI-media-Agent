@@ -1,0 +1,59 @@
+{
+  "name": "Moody Black Turtleneck Portrait",
+  "tag": "moody-black-turtleneck-portrait",
+  "image_type": "minimal_editorial_headshot",
+  "image_vibe": "dark_quiet_cinematic",
+  "image_purpose": "beauty_editorial",
+  "group": "indie/low-fi-dreamy/cool-moody",
+  "prompt": {
+    "project_info": {
+      "title": "Moody Black Turtleneck Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with loose dark-brown hair, minimal makeup, warm natural lips, and a calm self-assured expression.",
+      "wardrobe": "A fitted black high-neck knit sweater with clean unbranded lines.",
+      "pose_and_expression": "Close portrait, shoulders relaxed, eyes just off camera."
+    },
+    "composition_elements": {
+      "setting": "Minimal charcoal-to-black studio backdrop with no props or text.",
+      "framing": "Vertical close head-and-shoulders portrait with soft edge falloff.",
+      "text_and_brand_control": "No logos, titles, text, watermark, or beauty-app overlay."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Gentle diffused front light with soft shadow and dark background separation.",
+      "mood": "Quiet, understated, editorial, and cinematic."
+    },
+    "technical_specs": {
+      "camera_style": "high-end editorial 35mm portrait",
+      "lens": "85mm equivalent",
+      "rendering": "Natural skin pores, subtle grain, organic muted color, shallow depth, realistic hair strands."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical high-end 35mm editorial portrait of an adult woman with loose dark-brown hair, minimal makeup, warm natural lips, and a calm self-assured expression. She wears a fitted black high-neck knit sweater. Frame a close head-and-shoulders portrait with eyes just off camera against a minimal charcoal-to-black studio backdrop. Use gentle diffused front light, soft shadow, dark background separation, natural skin pores, subtle grain, organic muted color, shallow depth, and realistic hair strands. No logos, title, text, watermark, beauty-app overlay, celebrity likeness, or sexualized styling.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, logo, readable text, watermark, plastic skin, distorted face, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Identity references are optional and must depict a consenting adult. Wardrobe and background references are replaceable, unbranded visual guides.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult facial and hair traits only."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "black_turtleneck_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide knit silhouette without labels."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "notes": "Original concept was already safe; schema and explicit adult/reference controls were standardized."
+  }
+}

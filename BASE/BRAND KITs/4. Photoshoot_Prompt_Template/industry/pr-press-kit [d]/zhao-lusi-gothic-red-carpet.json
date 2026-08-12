@@ -1,0 +1,75 @@
+{
+  "name": "zhao-lusi-gothic-red-carpet",
+  "tag": [
+    "gothic-red-carpet",
+    "black-lace-gown",
+    "diamond-jewelry",
+    "ruffled-skirt",
+    "formal-media-wall"
+  ],
+  "image_type": "gothic-red-carpet-portrait",
+  "image_vibe": "gothic-chic-elegance",
+  "image_purpose": "press-kit",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Gothic chic black lace red-carpet portrait",
+      "event_context": "fictional fashion gala",
+      "color_palette": "black lace, silver diamonds, charcoal media wall, warm skin tones, and muted gold graphic accents"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult woman with dark voluminous waves framing the face, defined eyes, soft lip color, luminous natural skin texture, gentle confident smile, and both hands raised in a graceful wave",
+      "wardrobe": "black corset-inspired gown with delicate straps, central bow detail, lined midsection panels, and multi-layered ruffled lace skirt with dramatic flowing silhouette",
+      "accessories": "chunky diamond necklace and matching bracelet"
+    },
+    "composition_elements": {
+      "framing": "vertical full-length fashion-event portrait",
+      "subject_position": "adult woman centered against a formal fictional media wall",
+      "background": "charcoal press wall with abstract gold signatures and cleared sponsor-style marks, no real company logos"
+    },
+    "lighting_and_atmosphere": {
+      "type": "bright diffused event light at approximately 5000K with gentle fill",
+      "effect": "natural highlights on lace, diamonds, hair, and skin, soft shadow separation, polished gothic-chic gala mood"
+    },
+    "technical_specs": {
+      "render_style": "full-frame event camera with 85mm lens, professional portrait photography",
+      "resolution": "4k vertical full-length portrait",
+      "finish": "realistic pores and lace texture, restrained reflective highlights, subtle event grain"
+    },
+    "generated_prompt_string": "A clearly adult woman in a fictional fashion gala portrait, with dark voluminous waves framing her face, defined eyes, soft lip color, luminous natural skin texture, gentle confident smile, and both hands raised in a graceful wave. She wears a black corset-inspired gown with delicate straps, central bow detail, lined midsection panels, and a multi-layered ruffled lace skirt with a dramatic flowing silhouette, plus a chunky diamond necklace and matching bracelet. Center her against a charcoal formal fictional media wall with abstract gold signatures and cleared sponsor-style marks, no real company logos. Use bright diffused event lighting at approximately 5000K with gentle fill, natural highlights on lace, diamonds, hair, and skin, an 85mm lens, vertical full-length composition, realistic pores, restrained highlights, and subtle event grain. Use an approved adult model rather than a public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, celebrity likeness, recognizable public figures, real sponsor logos, transparent fabric, visible intimate areas, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, illegible text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-gothic-event-model",
+          "required": true,
+          "source": "Original gothic red-carpet preview image",
+          "usage": "Attach an approved adult face reference for continuity; preserve facial structure without the source's named public-figure identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-bow-ruffled-lace-gown-and-diamonds",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the black gown, bow, lined panels, ruffled lace skirt, necklace, and bracelet; keep the outfit fashion-editorial and non-explicit."
+        },
+        {
+          "type": "text_layout",
+          "name": "fictional-charcoal-gala-media-wall",
+          "required": false,
+          "source": "Original event media wall",
+          "usage": "Optional background reference; preserve dark media-wall hierarchy and gold signature-like marks, while replacing real sponsors and brands with cleared abstract graphics."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person and wardrobe references; the media wall is optional. Keep the adult identity, black lace gown, jewelry, waving gesture, vertical framing, and bright event light consistent. Replace the public figure and real sponsor wall with cleared generic equivalents; preserve approved adult facial structure and keep all text/logo elements replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public figure and real sponsor wall with an approved clearly adult generic model and fictional gala; specified lined panels and non-explicit styling while preserving the gothic gown concept."
+    ]
+  }
+}

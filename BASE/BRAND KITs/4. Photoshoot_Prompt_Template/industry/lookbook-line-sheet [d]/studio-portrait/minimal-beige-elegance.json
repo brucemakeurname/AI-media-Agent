@@ -1,0 +1,19 @@
+{
+  "name": "minimal-beige-elegance",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "beige", "minimal-elegance"],
+  "image_type": "minimal studio fashion portrait",
+  "image_vibe": "calm, graceful, soft, sophisticated",
+  "image_purpose": "fashion lookbook and profile portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic vertical studio portrait of one original approved adult woman standing against a clean white background.",
+    "main_subject": "Original approved adult woman with long straight black hair neatly over her shoulders, natural soft-glam makeup, calm confident expression, and natural skin texture. She wears a fitted beige dress with a matching light cardigan and holds her arms gently crossed.",
+    "composition_elements": ["Centered vertical portrait with relaxed upright posture and arms crossed gently.", "Clean white studio background with soft negative space and no distractions.", "Preserve beige monochrome palette, fabric fit, hair, calm expression, and minimal modern aesthetic."],
+    "lighting_and_atmosphere": "Large diffused softbox light with even exposure, gentle highlights on skin and knit fabric, subtle contact shadow, and quiet studio atmosphere.",
+    "technical_specs": "Photorealistic 4:5 vertical portrait, 85mm lens at f/4, sharp face and fabric weave, realistic skin pores, slight grain, soft neutral color grade, no text or watermark.",
+    "generated_prompt_string": "High-resolution studio portrait of one original approved adult woman with long straight black hair styled neatly over her shoulders, natural soft-glam makeup, calm confident expression and natural skin texture. She stands against a clean white background wearing a fitted beige dress with a matching light cardigan, her arms gently crossed in a composed posture. Use soft even diffused lighting, gentle highlights, minimal shadows, modern elegant fashion photography, 85mm lens, 4:5 vertical framing, no text or watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "extra fingers", "deformed", "text", "logo"],
+    "reference_elements": {"assets": [{"type": "person", "name": "minimal-beige-elegance.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult face, hair, makeup, expression, and pose."}, {"type": "wardrobe", "name": "fitted beige dress and matching light cardigan", "required": true, "source": "local reference image", "usage": "Preserve supplied color, layers, fit, and soft fabric texture."}, {"type": "background", "name": "clean white studio background", "required": true, "source": "local reference image", "usage": "Preserve white background, negative space, and minimal environment."}], "prompt_instructions": "Attach all required person, wardrobe, and background references; no optional assets are needed. Keep identity, outfit, pose, environment, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent supplied wardrobe, or equivalent studio. Typography is not applicable; do not add text, logos, or watermark."}
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

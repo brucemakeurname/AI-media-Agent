@@ -1,0 +1,19 @@
+{
+  "name": "purple-pink-neon-evening-gown",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "public-indoor", "black-evening-gown", "neon-stairs", "editorial"],
+  "image_type": "editorial-staircase-portrait",
+  "image_vibe": "dramatic-neon-glam",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/soft-elegant/public-indoor",
+  "prompt": {
+    "project_info": "Create a high-end editorial portrait of an approved adult woman seated on modern stairs under purple and pink neon light.",
+    "main_subject": "An approved adult woman with dark brown hair in a chic messy high bun, soft strands framing her face, light eye makeup, pink/nude lips, and a subtle engaging smile. She wears a black floor-length backless evening gown with thin straps and high slit, plus gold leopard-print ankle-wrap sandals. She sits turned partly away and looks back toward camera.",
+    "composition_elements": "Vertical portrait on wide concrete or stone stairs, one leg extended down the steps and the other bent in a natural editorial pose, dark purple/pink neon gradient background, sharp face and shoes with shallow neon bokeh.",
+    "lighting_and_atmosphere": "Dramatic high-contrast cinematic lighting, purple and pink/red neon glow, controlled key light on skin and dress texture, glamorous fashion-editorial mood.",
+    "technical_specs": "Sony A7R IV-style 85mm f/1.4 portrait, photorealistic high detail, shallow depth of field, realistic satin/fabric and shoe texture, natural skin, subtle grain.",
+    "generated_prompt_string": "Create a high-end photorealistic editorial portrait of an approved adult woman with dark brown hair in a chic messy high bun and soft face-framing strands, light eye makeup, pink-nude lips, and a subtle engaging smile. She sits on wide modern concrete stairs in a black floor-length backless evening gown with thin straps and a high slit, wearing gold leopard-print ankle-wrap sandals. One leg extends naturally down the stairs and the other bends, while she turns partly away and looks back toward the camera. Use a dramatic purple and pink/red neon gradient background, high-contrast cinematic lighting, controlled highlights on skin and dress, Sony-style 85mm f/1.4 perspective, sharp face and shoes, shallow neon bokeh, realistic texture, and subtle grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted face, text, logo",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-neon-staircase-subject", "required": true, "source": "purple-pink-neon-evening-gown.jpg", "usage": "Preserve the adult face, dark hair, bun, expression, pose, and identity."}, {"type": "wardrobe", "name": "black-evening-gown-gold-wrap-sandals", "required": true, "source": "purple-pink-neon-evening-gown.jpg", "usage": "Keep gown silhouette, straps, slit, sandals, and styling consistent; replace only with explicit wardrobe references."}, {"type": "location", "name": "purple-pink-neon-stairs", "required": true, "source": "purple-pink-neon-evening-gown.jpg", "usage": "Maintain stairs, neon gradient, shadows, and cinematic environment; replace only with explicit location references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, pose, stairs, neon geometry, and lighting hierarchy consistent. Background may be replaced only with explicit alternatives; preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and softened body-emphasis wording while preserving the high-fashion neon concept.", "Added safe negative prompts and references."]}
+}

@@ -1,0 +1,82 @@
+{
+    "name":  "red-panda-conservation-guide",
+    "tag":  [
+                "wildlife conservation",
+                "red panda",
+                "educational infographic",
+                "photoreal animal",
+                "field guide"
+            ],
+    "biz_niche":  "Nonprofit & Social Impact",
+    "content_format":  "Infographics",
+    "group":  "infographic_wildlife_conservation",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Red panda conservation field guide",
+                                        "color_palette":  "Rust red, forest green, cream paper, charcoal, burnt orange"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Animal",
+                                        "detail":  "A photorealistic red panda faces the viewer while perched on a moss-covered tree branch, with its long striped tail descending into the lower-right portion of the poster.",
+                                        "style":  "Nature-documentary realism combined with tactile vintage field-guide graphics and conservation callouts"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Annotated wildlife infographic",
+                                                "text":  "RED PANDA; Ailurus fulgens; A TREE-TOP TREASURE; IUCN RED LIST STATUS; ENDANGERED; WHERE I LIVE; WHAT I EAT; BIGGEST THREATS; CONSERVATION IN ACTION; QUICK FACTS; SAVE FORESTS. SAVE WILDLIFE. SAVE OUR FUTURE.",
+                                                "items":  [
+                                                              "Top Left: oversized distressed red \u0027RED PANDA\u0027 title and scientific name.",
+                                                              "Center: large animal portrait on a mossy branch with thin white leader-line callouts for ears, tear markings, fur, and tail.",
+                                                              "Left: habitat description, circular Himalayan range map, diet note, and bamboo inset.",
+                                                              "Right: IUCN-style status scale, endangered label, anatomical annotations, fact box, and wildlife relationship graphic.",
+                                                              "Bottom: threats panel, orange brush-circle conservation checklist, quick-facts column, forest silhouette footer, QR-code area, and green save-forests banner."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Natural misty forest daylight",
+                                                   "effect":  "Tactile paper texture, warm animal fur detail, soft environmental depth, bold printed overlays"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Photoreal wildlife image composited into a vintage editorial infographic",
+                                           "resolution":  "4k resolution, highly detailed, vertical poster"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "animal",
+                                                                 "name":  "red panda wildlife photography",
+                                                                 "required":  true,
+                                                                 "source":  "licensed wildlife reference",
+                                                                 "usage":  "Preserve accurate anatomy, fur pattern, tail rings, and natural tree-perching behavior."
+                                                             },
+                                                             {
+                                                                 "type":  "background",
+                                                                 "name":  "mossy Himalayan forest branch",
+                                                                 "required":  true,
+                                                                 "source":  "licensed habitat photography",
+                                                                 "usage":  "Support the animal without replacing it with an unrelated habitat."
+                                                             },
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "conservation data and map layout",
+                                                                 "required":  true,
+                                                                 "source":  "current authoritative conservation sources and source preview",
+                                                                 "usage":  "Verify all status, range, population, and threat claims at publication time."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "field-guide typography",
+                                                                 "required":  true,
+                                                                 "source":  "source preview",
+                                                                 "usage":  "Maintain the layered left/center/right hierarchy and red-green-cream print treatment."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach licensed animal and habitat references; do not fabricate conservation statistics or IUCN status.",
+                                                                          "Research and cite current authoritative wildlife sources before publishing the facts.",
+                                                                          "Use a post-render layout pass for all small labels, maps, checklist items, and QR content."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Create a visually rich infographic about an endangered animal. Start by finding one online, research its habitat, diet, and unique traits. Present information through annotated visuals and structured callouts, not generic sections. Style it like a bold graphic illustration: a detailed, photorealistic central animal as the focal point, supported by diagrams, callouts, and concise text elements. Use clean backgrounds and a mix of photorealism with strong graphic elements (shapes, icons, color blocking) in a layered composition. Make it dense, tactile, and professionally authored.",
+                   "negative_prompt":  "inaccurate animal anatomy, invented conservation data, generic sections, illegible labels, flat stock-photo treatment, low resolution, watermark, signature"
+               }
+}

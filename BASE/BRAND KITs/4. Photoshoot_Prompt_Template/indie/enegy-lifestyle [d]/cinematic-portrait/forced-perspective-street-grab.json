@@ -1,0 +1,69 @@
+{
+  "name": "forced-perspective-street-grab",
+  "tag": [
+    "urban-plaza",
+    "forced-perspective",
+    "streetwear",
+    "wide-angle",
+    "cool-toned"
+  ],
+  "image_type": "streetwear-editorial-portrait",
+  "image_vibe": "gritty-cool-dynamic",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/cinematic-portrait",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "cool-toned forced-perspective streetwear portrait in a modern city plaza",
+      "color_palette": "black, slate gray, desaturated blue, glass cyan, and white sneaker accents",
+      "format": "vertical wide-angle environmental portrait"
+    },
+    "main_subject": {
+      "type": "adult man",
+      "detail": "Adult bearded man in a black hooded sweatshirt, oversized black shield sunglasses, black cargo pants, and white sneakers, crouching naturally in an open city plaza.",
+      "style": "technical streetwear editorial with dynamic but non-threatening energy"
+    },
+    "composition_elements": {
+      "text": "no readable text, logo, or watermark",
+      "items": [
+        "both open hands reaching toward the camera in a playful forced-perspective gesture",
+        "hands enlarged only moderately by a wide lens, with realistic anatomy",
+        "towering modern glass skyscrapers and gray stone paving",
+        "distant pedestrians kept small and naturally placed"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "cool overcast daylight",
+      "effect": "desaturated cinematic grade, crisp city surfaces, restrained high contrast, modern urban scale"
+    },
+    "technical_specs": {
+      "camera": "Sony A7R V",
+      "lens": "FE 20mm f/1.8 at f/5.6",
+      "render_style": "controlled wide-angle perspective, clear hands and face, realistic architecture, subtle grain"
+    },
+    "generated_prompt_string": "Create a vertical wide-angle streetwear editorial of an adult bearded man crouching naturally in a modern city plaza. He wears a black hooded sweatshirt, oversized black shield sunglasses, black cargo pants, and white sneakers. Frame him with both open hands reaching playfully toward the camera, using controlled 20mm forced perspective so the hands appear moderately larger while retaining realistic anatomy. Surround him with towering glass skyscrapers, gray stone paving, and a few small distant pedestrians. Use cool overcast daylight, a desaturated blue-gray cinematic grade, crisp urban surfaces, subtle grain, and dynamic but non-threatening energy. No readable text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, threatening gesture, distorted hands, exaggerated hands, extra fingers, deformed, sexualized pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, readable text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-streetwear-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if a specific subject identity is required.",
+          "usage": "Replace only the adult subject identity while retaining the crouched pose, streetwear, open-hand gesture, and city-plaza composition."
+        },
+        {
+          "type": "location",
+          "name": "urban-plaza-reference",
+          "required": false,
+          "source": "Attach a city-plaza reference if a specific architecture set is required.",
+          "usage": "Replace only architecture and paving details while preserving glass-tower scale, cool grade, and forced-perspective composition."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. References are optional; preserve the crouching pose, open-hand forced perspective, black streetwear, gray plaza, and cool cinematic mood."
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "ultra-wide-angle-portrait",
+  "tag": [
+    "adult-woman",
+    "ultra-wide-angle",
+    "rainy-city",
+    "phone-booth",
+    "night-editorial"
+  ],
+  "image_type": "ultra-wide-angle-editorial-portrait",
+  "image_vibe": "dynamic-rainy-urban-cinematic",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/cinematic-portrait",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced body-part-near-lens exaggeration with controlled wide-angle perspective focused on footwear and the phone-booth environment.",
+      "Added an authorized adult identity-reference constraint."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "dynamic rainy-night fashion portrait inside a red street phone booth",
+      "color_palette": "rust red, wet black, warm amber, neon orange, scarf cream, and rain-slick gray",
+      "format": "vertical 9:16"
+    },
+    "main_subject": {
+      "type": "adult woman from supplied reference image",
+      "detail": "Preserve the exact adult identity, face, age presentation, hair, and core features from the attached reference. She wears a red leather jacket, cream scarf, dark gloves, tailored trousers, and sturdy dark leather ankle boots.",
+      "style": "rainy-night urban fashion editorial with natural anatomy"
+    },
+    "composition_elements": {
+      "text": "Preserve source text only if present; otherwise no text, logo, or watermark.",
+      "items": [
+        "low wide-angle view upward inside a red glass phone booth",
+        "one gloved hand against a rain-speckled booth window",
+        "the nearest leather boot is moderately foregrounded by lens perspective without distorting the person",
+        "wet neon-lit city street, abstract unreadable signs, and reflections outside the booth"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "warm booth practical light mixed with cool rain-reflected city neon",
+      "effect": "rain droplets on glass, warm-cool contrast, controlled wide-angle depth, and cinematic night texture"
+    },
+    "technical_specs": {
+      "render_style": "Sony A7R V with FE 14mm f/1.8 at f/4, controlled low-angle perspective, fine rain grain, realistic proportions, no digital gloss",
+      "resolution": "high resolution, vertical 9:16"
+    },
+    "generated_prompt_string": "Using the attached authorized adult reference as mandatory identity source, create a vertical 9:16 rainy-night urban fashion portrait inside a red glass street phone booth. Preserve the person's exact adult identity, face, age presentation, hair, and core features. Dress her in a red leather jacket, cream scarf, dark gloves, tailored trousers, and sturdy dark leather ankle boots. Use a controlled low 14mm wide-angle view: one gloved hand rests against a rain-speckled booth window, while the nearest boot is moderately foregrounded by perspective without distorting the person. Outside, show a wet neon-lit city street with abstract unreadable signs and pavement reflections. Mix warm booth practical light with cool rain-reflected neon, preserving natural anatomy and cinematic night texture. Preserve source text only when visible; otherwise no text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, identity change, face swap, age alteration, public figure, celebrity likeness, minor, child, body-part exaggeration, foot fetish, distorted limbs, distorted boots, extra fingers, deformed, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, readable unapproved text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-and-environment-reference",
+          "required": true,
+          "source": "Attach the original authorized adult non-public-figure reference image.",
+          "usage": "Mandatory source for exact adult identity, age presentation, clothing logic, phone-booth context, lighting logic, and any visible source text."
+        }
+      ],
+      "prompt_instructions": "The original authorized adult non-public-figure reference is mandatory. Preserve identity and the rainy phone-booth context while using wide-angle perspective only for spatial dynamism; do not exaggerate body parts or add unverified branding or text."
+    }
+  }
+}

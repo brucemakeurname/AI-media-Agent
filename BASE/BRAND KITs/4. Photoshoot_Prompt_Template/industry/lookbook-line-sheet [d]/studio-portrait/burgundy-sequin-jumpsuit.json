@@ -1,0 +1,81 @@
+{
+  "name": "burgundy-sequin-jumpsuit",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "burgundy",
+    "sequins"
+  ],
+  "image_type": "luxury sequin fashion portrait",
+  "image_vibe": "glamorous, rich, cinematic, vintage-inspired",
+  "image_purpose": "fashion lookbook and eveningwear editorial",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create an 8K 3:4 studio fashion portrait of one approved adult woman in a deep-burgundy sequined jumpsuit against a matching maroon set.",
+    "main_subject": "Approved adult woman with shoulder-length dark-brown hair in soft vintage waves, side-parted, calm poised expression, dark defined brows, deep-red lipstick, classic eye makeup, small gold dangling earrings, and realistic natural skin texture. She wears a deep-burgundy long-sleeved full-body jumpsuit with small reflective sequins or bead-like embellishments throughout.",
+    "composition_elements": [
+      "Subject reclining diagonally across the deep-burgundy studio floor, head supported by one hand and the other arm resting naturally across the torso.",
+      "Full-body to three-quarter fashion framing with the sequin texture and vintage waves clearly visible.",
+      "Deep red or maroon seamless backdrop with subtle darker edges and a slightly lighter center.",
+      "Keep the monochromatic burgundy, dark-brown, and gold palette harmonious."
+    ],
+    "lighting_and_atmosphere": "Soft frontal studio key light with minimal harsh shadows, controlled highlights across face, hair, sequins, and fabric, low-to-medium contrast, and a luxurious editorial mood.",
+    "technical_specs": "Ultra-high-definition 8K photorealistic 3:4 portrait, 85mm lens at f/4, sharp subject focus, shallow depth of field, realistic sequin, fabric, hair, and skin texture, subtle film grain, no text or watermark.",
+    "generated_prompt_string": "Ultra-high-definition 8K photorealistic 3:4 luxury studio fashion portrait of one approved adult woman with shoulder-length dark-brown hair in soft vintage waves, side-parted, calm poised expression, dark defined brows, deep-red lipstick, classic eye makeup and small gold dangling earrings. She wears a deep-burgundy long-sleeved full-body jumpsuit covered with small reflective sequins or bead-like embellishments. Recline diagonally across a deep-burgundy studio floor with her head supported by one hand and the other arm resting naturally across the torso. Use a matching maroon seamless backdrop with subtly darker edges and a slightly lighter center, soft frontal studio key light, minimal harsh shadows, controlled highlights on face hair handbag-free sequins and fabric, low-to-medium contrast, monochromatic burgundy dark-brown and gold palette, 85mm f/4, realistic textures and subtle film grain, no text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "distorted anatomy",
+      "extra fingers",
+      "inconsistent identity",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "warped sequins",
+      "watermark",
+      "text",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "burgundy-sequin-jumpsuit.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for adult identity, face, hair, makeup, expression, pose, and styling reference."
+        },
+        {
+          "type": "wardrobe",
+          "name": "deep-burgundy sequined jumpsuit",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the long sleeves, color, full-body silhouette, reflective surface, and sequin distribution."
+        },
+        {
+          "type": "location",
+          "name": "deep-maroon seamless studio set",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the matching floor, backdrop gradient, and luxury red environment."
+        }
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, and environment references; no optional assets are needed. Keep identity, face, outfit, sequins, pose, floor, backdrop, lighting, and color palette consistent. Replace only with an equivalent adult, equivalent jumpsuit, or equivalent studio set. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Aligned the composition to the reclining pose and visible no-handbag reference image while preserving the burgundy sequin jumpsuit, palette, and luxury editorial intent."
+    ]
+  }
+}

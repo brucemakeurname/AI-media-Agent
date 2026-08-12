@@ -1,0 +1,75 @@
+{
+    "name":  "crispy-street-tacos-recipe-poster",
+    "tag":  [
+                "street tacos",
+                "Mexican food",
+                "recipe infographic",
+                "floating ingredients",
+                "viral food poster"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Infographics",
+    "group":  "infographic_taco_recipe",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Crispy Street Tacos recipe poster",
+                                        "color_palette":  "Teal, chili red, lime green, tortilla gold, warm market orange, cream"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Food",
+                                        "detail":  "Three crisp folded tacos float across the center of a warm blurred street-market scene, stuffed with seasoned meats, salsa, onions, herbs, jalapeno, corn, lime, and guacamole.",
+                                        "style":  "Ultra-real viral food photography with exuberant floating toppings and translucent recipe panels"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Ingredients and four-step recipe panels",
+                                                "text":  "INFOGRAPHIC; CRISPY STREET TACOS; INGREDIENTS; Corn Tortillas; Seasoned Meat; Fresh Salsa; Avocado \u0026 Guacamole; Herbs \u0026 Toppings; STEPS; 1. COOK MEAT; 2. PREP TOPPINGS; 3. ASSEMBLE TACOS; 4. ENJOY!; @StreetTacoVibes #CrispyTacos",
+                                                "items":  [
+                                                              "Top: compact INFOGRAPHIC kicker and huge teal/red/yellow outlined title.",
+                                                              "Center: three angled flying tacos with suspended lime, cilantro, onion, jalapeno, salsa, and cheese fragments.",
+                                                              "Left: dark translucent ingredients panel with white icons and labels.",
+                                                              "Right: matching translucent four-step panel with cooking icons and vertical arrows.",
+                                                              "Background: warm shallow-focus market street with colorful banners; bottom handle and hashtag."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Warm street-market light with studio food key",
+                                                   "effect":  "Highly saturated fresh food, glowing bokeh, crisp tortilla texture, energetic frozen-motion toppings"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Photorealistic food poster plus vector infographic overlay",
+                                           "resolution":  "1080x1350, ultra-crisp, social-feed optimized"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "crispy street taco food styling",
+                                                                 "required":  true,
+                                                                 "source":  "approved recipe and food reference",
+                                                                 "usage":  "Keep taco shell, fillings, and controlled floating garnish accurate."
+                                                             },
+                                                             {
+                                                                 "type":  "background",
+                                                                 "name":  "street-market backdrop",
+                                                                 "required":  false,
+                                                                 "source":  "licensed market photography",
+                                                                 "usage":  "Provide bokeh only; no identifiable storefront or signage unless licensed."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "ingredient and steps panels",
+                                                                 "required":  true,
+                                                                 "source":  "source preview",
+                                                                 "usage":  "Maintain balanced left/right frosted-panel system and title hierarchy."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach food reference for exact taco style.",
+                                                                          "Keep central tacos and ingredients orbiting; avoid cluttering panels.",
+                                                                          "Use a layout tool for all recipe copy and social handle."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Ultra-viral recipe infographic. Showcase CRISPY STREET TACOS filled with seasoned meat, fresh salsa, lettuce, and creamy guacamole, angled and floating for impact. Ingredients Section: Icons for tortillas, meat, salsa, avocado, herbs. Steps Section: Arrows with pan, chop, assemble icons. Visual Style: Vibrant Mexican palette, ultra-realistic textures. Composition: Tacos front and center, ingredients orbiting. Output: 1080×1080 or 1080×1350.",
+                   "negative_prompt":  "soggy tacos, incorrect filling, overcrowded toppings, unreadable panels, flat colors, low resolution, watermark, signature"
+               }
+}

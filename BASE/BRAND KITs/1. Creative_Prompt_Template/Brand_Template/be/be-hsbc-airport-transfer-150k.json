@@ -1,0 +1,92 @@
+{
+  "name": "be-hsbc-airport-transfer-150k",
+  "tag": [
+    "airport ride",
+    "hsbc partnership",
+    "150k discount",
+    "becar",
+    "travel promo"
+  ],
+  "biz_niche": "Automotive",
+  "content_format": "Special offers",
+  "group": "be_1630017344727092",
+  "prompt": {
+    "project_info": {
+      "theme": "Airport transfer discount with HSBC card",
+      "color_palette": "White, pale sky blue, bright yellow, red, black, be blue"
+    },
+    "main_subject": {
+      "type": "Text/Object/Character",
+      "detail": "A clean promotional square poster for be and HSBC featuring a large Vietnamese headline about airport booking and a 150K offer, supported by a floating black HSBC travel credit card, a cartoon female be rider character with luggage, and a bright yellow beCar taxi in front of a modern airport terminal.",
+      "style": "Commercial brand-collab poster, photoreal background with vector mascot illustration, polished transport campaign"
+    },
+    "composition_elements": {
+      "type": "Typography/Characters/Vehicles/Background Architecture",
+      "text": "be, HSBC, Đặt be đi sân bay thanh toán thẻ HSBC, ưu đãi ngay 150K, Áp dụng cho các chuyến có điểm đi - điểm đến tại sân bay Tân Sơn Nhất, Nội Bài, Đà Nẵng, Phú Quốc, Phú Bài, Cam Ranh, Cần Thơ, Cát Bi, Vinh., beCar",
+      "items": [
+        "Top Center: be logo and HSBC logo side by side.",
+        "Upper Middle: large red headline 'Đặt be đi sân bay thanh toán thẻ HSBC'.",
+        "Center: yellow rectangular banner with black text 'ưu đãi ngay 150K'.",
+        "Below headline: smaller black paragraph listing applicable airports.",
+        "Center Lower: floating black HSBC TravelOne credit card with contactless symbol and 'T1' lettering.",
+        "Bottom Left: cartoon female be rider character wearing a yellow helmet with blue bee antenna details, red top, and holding luggage.",
+        "Bottom Right: bright yellow beCar sedan with a waving driver mascot inside.",
+        "Background: modern airport terminal architecture with glossy floor and pale sky."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright commercial daylight",
+      "effect": "Soft glowing brand presentation, clean white space, crisp product-card composite"
+    },
+    "technical_specs": {
+      "render_style": "Hybrid photoreal environment and vector mascot campaign poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "be and HSBC logos",
+          "required": true,
+          "source": "source image brand references",
+          "usage": "Preserve both logos, scale relationship, and top-center placement."
+        },
+        {
+          "type": "product",
+          "name": "HSBC TravelOne credit card",
+          "required": true,
+          "source": "source image card reference",
+          "usage": "Keep the black card appearance, logo placement, and floating center-lower presentation."
+        },
+        {
+          "type": "graphic",
+          "name": "be rider mascot and beCar vehicle",
+          "required": true,
+          "source": "source image mascot and vehicle reference",
+          "usage": "Match the character illustration style, helmet design, and yellow taxi styling."
+        },
+        {
+          "type": "location",
+          "name": "airport terminal backdrop",
+          "required": true,
+          "source": "source image location reference",
+          "usage": "Preserve the airport architecture and travel context."
+        },
+        {
+          "type": "text_layout",
+          "name": "HSBC airport promo typography",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Keep the exact Vietnamese wording, red headline, yellow 150K banner, and paragraph layout."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve exact brand-collaboration composition and mascot styling.",
+        "Keep all visible text exactly as shown, including the airport list.",
+        "Maintain the contrast between the white airy upper layout and the illustrated transport scene below."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square be x HSBC airport transfer promotion poster. Use a bright white and pale sky-blue background with a modern airport terminal scene. At the top center, place the be logo and HSBC logo side by side. Add a large red Vietnamese headline reading 'Đặt be đi sân bay thanh toán thẻ HSBC'. Below it place a yellow banner with bold black text 'ưu đãi ngay 150K'. Add the smaller black paragraph 'Áp dụng cho các chuyến có điểm đi - điểm đến tại sân bay Tân Sơn Nhất, Nội Bài, Đà Nẵng, Phú Quốc, Phú Bài, Cam Ranh, Cần Thơ, Cát Bi, Vinh.'. In the center lower area float a black HSBC TravelOne credit card. At bottom left add a cartoon female be rider with yellow helmet and luggage. At bottom right add a bright yellow beCar with a mascot driver waving. Technical style: hybrid photoreal environment and vector mascot campaign poster, bright commercial daylight, crisp polished transport campaign, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, incorrect logos, wrong Vietnamese text, blurry card, distorted car, flat background, low resolution, extra characters, watermark, signature"
+  }
+}

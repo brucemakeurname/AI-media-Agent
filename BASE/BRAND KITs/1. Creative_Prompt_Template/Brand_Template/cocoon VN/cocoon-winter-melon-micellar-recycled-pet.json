@@ -1,0 +1,53 @@
+{
+  "name": "cocoon-winter-melon-micellar-recycled-pet",
+  "tag": ["cocoon", "winter melon", "micellar water", "recycled pet", "eco beauty"],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "cocoon_971512235236212",
+  "prompt": {
+    "project_info": {
+      "theme": "Eco-conscious winter melon micellar water hand-held product shot",
+      "color_palette": "Soft cream, mint green, sky blue, warm brown, black"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A close-up hand-held product poster featuring Cocoon Winter Melon Micellar Water in a translucent brown bottle with black cap, held diagonally against a playful painted eco-themed background, with visible sustainability messaging about recycled PET plastic.",
+      "style": "Lifestyle skincare product poster with hand-drawn eco graphics"
+    },
+    "composition_elements": {
+      "type": "Product/Hand/Typography/Eco Graphics",
+      "text": "MỜI NGAY, give away, ĐỂU LÀ NGÀY TRÁI..., the cocoon ORIGINAL VIETNAM, Nước tẩy trang bí đao, Winter melon micellar water, CHAI LÀM TỪ NHỰA PET TÁI CHẾ 100% GIẢM NHỰA NGUYÊN SINH",
+      "items": [
+        "Center: large translucent brown Cocoon micellar-water bottle held diagonally by a hand from the lower right.",
+        "Bottle Label: 'the cocoon ORIGINAL VIETNAM', 'Nước tẩy trang bí đao', 'Winter melon micellar water' and smaller ingredient copy.",
+        "Background Center: rough painted blue-and-green melon-like shape behind the bottle.",
+        "Surrounding Text: playful handwritten green phrases including 'MỜI NGAY' and 'ĐỂU LÀ NGÀY TRÁI...' with a small 'give away' note to the right.",
+        "Right Side: outlined bottle icon with green text 'CHAI LÀM TỪ NHỰA PET TÁI CHẾ 100% GIẢM NHỰA NGUYÊN SINH'.",
+        "Background: warm cream paper-like backdrop."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft natural daylight",
+      "effect": "Warm hand-held realism, gentle bottle reflections, playful eco-campaign freshness"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal skincare product poster with hand-drawn graphic accents",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "Cocoon Winter Melon Micellar Water bottle", "required": true, "source": "source image product reference", "usage": "Preserve the exact bottle color, cap shape, label layout, and diagonal hand-held angle."},
+        {"type": "accessory", "name": "hand holding product", "required": true, "source": "source image hand reference", "usage": "Keep the exact grip, wrist position, and crop from the lower-right corner."},
+        {"type": "graphic", "name": "painted eco background and bottle icon", "required": true, "source": "source image graphic reference", "usage": "Preserve the blue-green painted melon shape and the outlined PET-bottle sustainability icon."},
+        {"type": "text_layout", "name": "handwritten green eco messaging and product label text", "required": true, "source": "source image text reference", "usage": "Keep the exact visible wording and placement, especially the recycled-PET statement."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the exact bottle label, hand angle, and hand-drawn eco text treatment.",
+        "Keep all visible text exactly as shown, including imperfect handwritten fragments where visible.",
+        "Maintain the warm cream background and playful eco-campaign feel."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square skincare poster on a warm cream paper-like background. In the center, show a hand holding a translucent brown bottle of 'the cocoon ORIGINAL VIETNAM' 'Nước tẩy trang bí đao' 'Winter melon micellar water' diagonally across the frame. Behind it, paint a rough blue-and-green melon-like shape. Surround the bottle with playful handwritten green phrases including 'MỜI NGAY' and a small 'give away' note. On the right, add an outlined bottle icon with green text 'CHAI LÀM TỪ NHỰA PET TÁI CHẾ 100% GIẢM NHỰA NGUYÊN SINH'. Technical style: photoreal skincare product poster with hand-drawn graphic accents, soft natural daylight, 8k resolution, highly detailed.",
+    "negative_prompt": "dark beauty ad, incorrect label text, wrong bottle shape, low resolution, cluttered layout, distorted hand, watermark, signature"
+  }
+}

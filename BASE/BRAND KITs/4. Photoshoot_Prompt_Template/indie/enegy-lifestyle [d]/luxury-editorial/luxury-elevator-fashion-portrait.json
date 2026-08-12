@@ -1,0 +1,73 @@
+{
+  "name": "luxury-elevator-fashion-portrait",
+  "tag": [
+    "adult-woman",
+    "graphite-satin-gown",
+    "luxury-elevator",
+    "mirror-reflections",
+    "cinematic-fashion"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "sleek-cinematic-composed",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/luxury-editorial",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "contemporary cinematic fashion portrait in a luxury elevator",
+      "color_palette": "muted graphite, black, brushed steel, and soft white ceiling light",
+      "format": "vertical 2:3 full-length portrait"
+    },
+    "main_subject": {
+      "description": "an adult woman with softly waved dark hair wearing a sleek muted-graphite satin gown with a wrapped bodice and long flowing skirt",
+      "pose_and_expression": "standing comfortably inside the elevator with a subtle confident smile and relaxed hands"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level full-length fashion portrait",
+      "foreground": "graphite satin folds and reflective elevator floor",
+      "background": "brushed-metal elevator interior, mirror reflections, and soft ceiling light panels",
+      "visual_hierarchy": "adult subject face and gown silhouette, mirror repetitions, then geometric elevator lines"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "soft diffuse overhead ceiling light balanced by gentle reflected fill from mirror panels",
+      "atmosphere": "sleek, contemporary, quiet, and cinematic"
+    },
+    "technical_specs": {
+      "camera": "Leica Q3",
+      "lens": "43mm f/2",
+      "settings": "1/125s, f/2.8, ISO 500",
+      "rendering": "realistic satin sheen, natural skin texture, controlled mirror reflections, clean low-noise shadows, subtle fine grain"
+    },
+    "generated_prompt_string": "Contemporary cinematic fashion portrait of an adult woman standing inside a luxury brushed-metal elevator. She wears a sleek satin gown in a muted graphite tone with a wrapped bodice and long flowing skirt, and gives a subtle confident smile. Include soft ceiling light panels and restrained mirror reflections that repeat the elevator interior. Shoot an eye-level full-length portrait with realistic satin sheen, natural skin texture, clean geometric architecture, controlled reflections, and a quiet premium cinematic mood.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, sexualized pose, nudity, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted reflections, extra fingers, deformed, watermark, logo, readable text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-elevator-model-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity and hairstyle only."
+        },
+        {
+          "type": "wardrobe",
+          "name": "graphite-gown-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Match satin color, wrap, and drape only when supplied."
+        },
+        {
+          "type": "location",
+          "name": "elevator-reference",
+          "required": false,
+          "source": "approved location reference",
+          "usage": "Match metal panels, mirrors, and ceiling-light geometry when supplied."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult model, graphite satin gown, brushed-metal elevator, mirror reflections, and soft overhead light; replace only approved identity, wardrobe, or location elements."
+    }
+  }
+}

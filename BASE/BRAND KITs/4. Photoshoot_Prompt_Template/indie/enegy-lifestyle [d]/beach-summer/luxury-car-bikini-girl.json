@@ -1,0 +1,71 @@
+{
+  "name": "luxury-car-bikini-girl",
+  "tag": [
+    "car-interior",
+    "swimwear-editorial",
+    "coastal-drive",
+    "red-leather",
+    "summer-lifestyle"
+  ],
+  "image_type": "lifestyle-portrait",
+  "image_vibe": "confident-glamorous-summery",
+  "image_purpose": "instagram-feed",
+  "group": "indie/enegy-lifestyle/beach-summer",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult and reframed the bikini image as non-sexualized coastal lifestyle editorial."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "coastal-drive summer lifestyle portrait inside a luxury car",
+      "color_palette": "deep red, cadet blue, warm beige, and soft coastal blue",
+      "format": "vertical seated portrait"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "Adult blonde woman with blue eyes, freckles, and a feminine silhouette seated naturally in the rear of a car with deep red leather upholstery. She wears the blue lace-trimmed bikini and small seahorse necklace shown.",
+      "style": "modern, confident summer lifestyle photography with natural skin texture"
+    },
+    "composition_elements": {
+      "text": "no text, logo, or watermark",
+      "items": [
+        "deep red leather rear seat and door trim",
+        "soft coastal road and ocean glimpse through the side window",
+        "platinum-blonde hair, freckles, blue eyes, and seahorse pendant",
+        "seated portrait framed from mid-torso upward"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "bright 5600K soft daylight through car windows",
+      "effect": "natural directional shadows and sunlight gently highlighting shoulders and chest area through the bikini, clean summer air, and a polished but candid travel mood"
+    },
+    "technical_specs": {
+      "camera": "Leica Q3",
+      "lens": "28mm f/1.7 at f/2.8",
+      "render_style": "natural skin texture, restrained contrast, detailed leather grain, clear window scenery"
+    },
+    "generated_prompt_string": "Create a vertical modern summer lifestyle portrait of an adult blonde woman with blue eyes, freckles, and a feminine silhouette seated naturally in the rear seat of a luxury car with deep red leather upholstery. Keep the blue lace-trimmed bikini and small seahorse necklace shown. Show a subtle coastal road and ocean view through the side window, using bright 5600K soft daylight entering through the windows to create gentle directional shadows and subtly highlight her shoulders and chest area through the bikini. Frame the image as a polished but candid travel portrait with detailed red leather, clear natural skin texture, deep red and cadet-blue color contrast, and a confident summer mood. No text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, sexualized pose, nudity, body-part emphasis, transparent clothing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity replacement is required.",
+          "usage": "Replace only the adult subject identity while retaining the seated composition, swimwear styling, necklace, and red-leather car interior."
+        },
+        {
+          "type": "background",
+          "name": "car-interior-reference",
+          "required": false,
+          "source": "Attach a car-interior reference if an exact vehicle interior is required.",
+          "usage": "Replace upholstery and trim details while retaining a deep-red luxury-car setting and coastal-window context."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. Subject and car references are optional; preserve the seated travel portrait, red-blue palette, window lighting, and summer lifestyle direction."
+    }
+  }
+}

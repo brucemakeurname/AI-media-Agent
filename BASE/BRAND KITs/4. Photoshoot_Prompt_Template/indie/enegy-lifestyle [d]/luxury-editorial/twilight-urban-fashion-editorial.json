@@ -1,0 +1,75 @@
+{
+  "name": "twilight-urban-fashion-editorial",
+  "tag": [
+    "adult-woman",
+    "twilight-city",
+    "white-blouse",
+    "black-tailoring",
+    "glasses"
+  ],
+  "image_type": "urban-fashion-editorial",
+  "image_vibe": "twilight-polished-confident",
+  "image_purpose": "lookbook",
+  "group": "indie/enegy-lifestyle/luxury-editorial",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Retained the adult identity-reference option, dusk urban architecture, glasses, and black-and-white fashion concept while replacing the thong bodysuit, exposed back, low squat, provocative gaze, and visible building number with covered tailoring and a natural walking pose."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "twilight urban tailoring editorial outside a modern marble-and-glass building",
+      "color_palette": "white, black, cool gray marble, deep glass green, and warm sunset gold",
+      "format": "vertical full-length editorial portrait"
+    },
+    "main_subject": {
+      "description": "an adult woman with long layered softly waved hair, black-rimmed rectangular glasses, a white long-sleeve tailored blouse, high-waisted black trousers, and black leather heeled ankle boots",
+      "pose_and_expression": "walking naturally along the sidewalk with a composed over-the-shoulder glance, one hand near her trouser pocket"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level full-length 35mm street-fashion view",
+      "foreground": "white blouse, black trousers, glasses, and concrete paving slabs",
+      "background": "modern marble and glass facade, large potted shrub, distant palm trees, and softly blurred parked cars",
+      "visual_hierarchy": "adult identity and glasses, black-and-white tailoring, then twilight city depth"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "warm dusk backlight creating a subtle hair rim, with soft cool fill on the face and clothing",
+      "atmosphere": "sleek, calm, urban, and high-fashion"
+    },
+    "technical_specs": {
+      "camera": "Sony A7R V",
+      "lens": "35mm f/2.8",
+      "settings": "1/320s, f/2.8, ISO 400",
+      "rendering": "natural skin pores, moderate depth of field, recognizable soft city background, gentle film grain"
+    },
+    "generated_prompt_string": "Use the uploaded approved adult photo as the facial identity reference when supplied, preserving the same adult person's face structure, skin tone, and defining features. Create a high-fashion editorial shot at dusk on an upscale urban sidewalk beside a modern marble-and-glass building. The adult woman wears black-rimmed rectangular glasses, a white long-sleeve tailored blouse, high-waisted black trousers, and black leather heeled ankle boots. She walks naturally along the pavement with a composed over-the-shoulder glance and one hand near her trouser pocket. Include concrete paving, a large potted shrub, distant palm trees, and softly blurred parked cars. Warm sunset backlight outlines her hair while cool fill balances the face. Shoot a 35mm full-length fashion view with realistic skin, glass reflections, marble texture, muted urban tones, and refined twilight contrast; do not include readable numbers or text.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, thong, exposed back, ultra-low-back bodysuit, low squat, sexualized pose, provocative gaze, body-part emphasis, nudity, readable number, readable text, logo, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": false,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Preserve the exact authorized adult identity only when an approved adult non-public-figure reference is attached."
+        },
+        {
+          "type": "wardrobe",
+          "name": "twilight-tailoring-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Match blouse, trousers, glasses, or boots when supplied."
+        },
+        {
+          "type": "location",
+          "name": "urban-facade-reference",
+          "required": false,
+          "source": "approved location reference",
+          "usage": "Match marble, glass, shrub, palms, and street layout while omitting all readable signage and numbers."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. If an identity reference is attached it must depict an adult and identity preservation becomes required. Preserve dusk light, glasses, covered black-and-white tailoring, and urban architecture; replace only approved identity, wardrobe, or location elements."
+    }
+  }
+}

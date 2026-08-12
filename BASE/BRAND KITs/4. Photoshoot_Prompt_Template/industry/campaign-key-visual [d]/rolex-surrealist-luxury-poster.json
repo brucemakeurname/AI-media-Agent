@@ -1,0 +1,19 @@
+{
+  "name": "rolex-surrealist-luxury-poster",
+  "tag": ["luxury-watch", "surrealist-ad", "emerald-studio", "menswear", "product-monument"],
+  "image_type": "campaign-key-visual",
+  "image_vibe": "quiet-luxury",
+  "image_purpose": "campaign",
+  "group": "campaign-key-visual",
+  "prompt": {
+    "project_info": {"theme": "Surrealist luxury watch campaign", "color_palette": "deep emerald green, polished gold, dark green suit, black and champagne typography"},
+    "main_subject": {"type": "adult male model and luxury watch product", "detail": "Adult male model in a tailored dark green suit leans casually against a massive upright luxury watch monument and wears a matching watch.", "style": "high-fashion surrealist luxury advertising with cinematic reflections"},
+    "composition_elements": {"layout": "vertical 3:4 poster; giant watch centered, model leaning at lower-left, large serif brand typography behind", "text": "ROLEX in large elegant serif type, Designed with ChatGPT at top-right, Time, perfected. Presence, defined. at bottom center.", "items": ["deep emerald minimalist studio", "polished reflective floor", "large watch dial and bracelet as monument", "partial typography occlusion by watch", "matching wristwatch on model"]},
+    "lighting_and_atmosphere": {"type": "narrow warm key at 3600K, green ambient fill and controlled strip reflections on metal", "effect": "moody luxury lighting, rich tones, crisp gold highlights and cinematic floor reflections"},
+    "technical_specs": {"render_style": "Hasselblad X2D 100C, XCD 55mm f/2.5, luxury product campaign photography", "resolution": "4K", "aspect_ratio": "3:4", "optics": "deep product sharpness, polished reflections and restrained grain"},
+    "generated_prompt_string": "A high-fashion surrealist poster for Rolex. A deep emerald green minimalist studio with a polished reflective floor. A massive Rolex watch stands upright like a monument. An adult male model in a tailored dark green suit leans casually against the watch face, wearing a matching Rolex. In the background, bold \"ROLEX\" typography appears in large elegant serif type, partially occluded. Top right: \"Designed with ChatGPT\". Bottom center tagline: \"Time, perfected. Presence, defined.\" Moody luxury lighting, rich tones, cinematic reflections. Aspect ratio: 3:4.",
+    "negative_prompt": "explicit, nsfw, overly revealing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, warped watch dial, incorrect time markers, illegible brand text, floating model, broken reflections",
+    "reference_elements": {"assets": [{"type": "product", "name": "luxury-watch-monument", "required": true, "source": "source image supplied with this template", "usage": "Preserve watch case, bracelet, dial, crown and product proportions."}, {"type": "person", "name": "adult-male-luxury-model", "required": true, "source": "source image supplied with this template", "usage": "Preserve adult model pose, dark green suit and casual lean; replace only with an approved adult reference."}, {"type": "text_layout", "name": "emerald-luxury-watch-poster", "required": true, "source": "source image supplied with this template", "usage": "Preserve product-first hierarchy, serif typography and tagline placement; use brand text only with approval."}], "prompt_instructions": "Attach approved product, adult model and typography references. Preserve exact watch geometry and product identity. Logos, claims and taglines must come from approved brand assets; the model may be replaced only with an approved adult reference."}
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

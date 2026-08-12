@@ -1,0 +1,61 @@
+{
+  "campaign_slug": "applio-brand-voice-tts-test",
+  "status": "review_required",
+  "target_market": "Singapore",
+  "language": "en-SG",
+  "created_at": "2026-08-11",
+  "purpose": "Technical TTS and voice-conversion test only; not approved for publication.",
+  "source_tts": {
+    "engine": "Applio built-in Edge TTS",
+    "voice": "en-SG-WayneNeural",
+    "rate": 0,
+    "file": "BASE/CAMPAIGNs/archived/applio-brand-voice-tts-test/node/tts-source-en-SG-WayneNeural.wav",
+    "duration_seconds": 125.832,
+    "median_f0_hz": 121.3,
+    "sha256": "fe78dc4e7287a6d5dbc5dc2de400f359f0170b1fd72f0ba8b5f42be9ca00940b"
+  },
+  "voice_conversion": {
+    "engine": "Applio RVC",
+    "model": "Applio/logs/applio-brand-voice-v2-10m/applio-brand-voice-v2-10m-7epoch-dataset-dominant.pth",
+    "index": "Applio/logs/applio-brand-voice-v2-10m/applio-brand-voice-v2-10m.index",
+    "settings": {
+      "pitch": 0,
+      "index_rate": 0.9,
+      "volume_envelope": 0.0,
+      "protect": 0.0,
+      "f0_method": "crepe-tiny",
+      "embedder_model": "contentvec",
+      "openmp_threads": 1
+    },
+    "reference_median_f0_hz": 130.8
+  },
+  "output": {
+    "file": "BASE/CAMPAIGNs/archived/applio-brand-voice-tts-test/images/singlish-pvl-isogold-applio-brand-voice-v5-fast-natural.wav",
+    "format": "WAV PCM 40kHz mono",
+    "duration_seconds": 101.18,
+    "median_f0_hz": 128.6,
+    "sha256": "65c3ba106b52d37df8760a31fc5bf9b325d6fb3d477dabe07594457b9eeaf88f",
+    "note": "Preferred fast-natural render. Uses the paced v4 script at TTS rate +35."
+  },
+  "alternate_outputs": [
+    {
+      "version": "v4-fast-natural",
+      "file": "BASE/CAMPAIGNs/archived/applio-brand-voice-tts-test/images/singlish-pvl-isogold-applio-brand-voice-v4-fast-natural.wav",
+      "duration_seconds": 118.82,
+      "median_f0_hz": 127.1,
+      "tts_rate": 15,
+      "sha256": "2c5afe3a23de51980d02e76e5f8568537f01e2cd169a1c68d69dd3ae53390f68"
+    },
+    {
+      "version": "v3-baseline",
+      "file": "BASE/CAMPAIGNs/archived/applio-brand-voice-tts-test/images/singlish-pvl-isogold-applio-brand-voice-v3.wav",
+      "duration_seconds": 125.8,
+      "median_f0_hz": 124.9,
+      "tts_rate": 0,
+      "sha256": "dad76bba8055f41abf6f9ef4ad87c798d3689507d4040b7aa27c4233c6688311"
+    }
+  ],
+  "review_required": [
+    "All product, digestive-health, certification, comparative, safety and price claims in the supplied script."
+  ]
+}

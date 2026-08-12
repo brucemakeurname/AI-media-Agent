@@ -1,0 +1,51 @@
+{
+  "name": "red-queen-under-neon-light",
+  "tag": ["ugc", "lifestyle-moment", "night-out", "public-indoor", "red-fashion", "neon-lounge", "night-glamour"],
+  "image_type": "luxury lounge fashion portrait",
+  "image_vibe": "bold, dramatic, luxurious, confident, classy",
+  "image_purpose": "social-media night-out portrait",
+  "group": "lifestyle-moment/night-out/public-indoor",
+  "prompt": {
+    "project_info": "Photorealistic modern night-glamour portrait of a clearly adult woman confidently posed in an upscale lounge or club illuminated by vibrant red neon light.",
+    "main_subject": "One original adult woman with a sleek low bun, soft-glam makeup, highlighted cheeks, nude lips, and a poised confident playful expression. She wears a bright-red bodycon mini dress with secure opaque coverage, a tailored silhouette and opaque waist panel, plus a matching red neck scarf. Keep natural anatomy and an original non-celebrity identity.",
+    "composition_elements": "Seat the adult woman elegantly on a black velvet sofa with a patterned cushion. Rest one hand under her chin and keep the other relaxed. Use a clean portrait composition that emphasizes the red dress, scarf, poised expression and black sofa against the lounge environment. Preserve the source's bold red theme and attention-grabbing modern night-glamour direction.",
+    "lighting_and_atmosphere": "Use vibrant red neon ambient lighting with controlled highlights on the dress, hair and sofa texture. Create a luxurious, bold and dramatic upscale lounge atmosphere with rich blacks, saturated red and polished modern styling.",
+    "technical_specs": "Photorealistic fashion portrait, realistic velvet, fabric, skin and hair texture, balanced neon exposure, natural anatomy and hands, sharp subject detail, no readable text, logos or watermark.",
+    "generated_prompt_string": "Photorealistic modern night-glamour portrait of one original adult woman with a sleek low bun, soft-glam makeup, highlighted cheeks, nude lips and a poised confident playful expression. She wears a bright-red bodycon mini dress with secure opaque coverage, a tailored silhouette and opaque waist panel, plus a matching red neck scarf. Seated elegantly on a black velvet sofa with patterned cushion in an upscale modern lounge, one hand resting beneath her chin. Vibrant red neon ambient lights, rich black velvet texture, polished dramatic luxury atmosphere, bold red theme, classy attention-grabbing fashion portrait, natural anatomy, no text or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, sheer or transparent dress, exposed underwear, distorted anatomy, extra fingers, malformed hands, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "red-queen-under-neon-light.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult red-dress subject, sleek bun, scarf, sofa pose, upscale lounge, red neon, bold red theme and dramatic night-glamour mood. Use opaque waist coverage in place of sheer midsection wording."
+        },
+        {
+          "type": "source_url",
+          "name": "original prompt post",
+          "required": false,
+          "source": "https://x.com/Zainabfat2728/status/2027953828361081040",
+          "usage": "Context only; local written prompt is authoritative."
+        },
+        {
+          "type": "image_asset",
+          "name": "1775085888975-ofju1ws1-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1775085888975-ofju1ws1-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required; source URL and image asset are optional context. Keep the adult subject, red dress and scarf, sofa pose, red neon lounge, luxury mood and expression consistent. Replace only unavailable details; use opaque coverage and do not add logos or text."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as adult and converted sheer midsection wording to an opaque waist panel with secure coverage.",
+      "Preserved the red dress, scarf, sofa pose, red neon lounge and bold modern night-glamour intent.",
+      "Added required safety and artifact exclusions."
+    ]
+  }
+}

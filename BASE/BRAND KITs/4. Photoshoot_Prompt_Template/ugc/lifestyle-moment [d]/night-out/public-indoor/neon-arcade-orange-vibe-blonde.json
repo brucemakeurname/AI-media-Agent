@@ -1,0 +1,58 @@
+{
+  "name": "neon-arcade-orange-vibe-blonde",
+  "tag": ["ugc", "lifestyle-moment", "night-out", "public-indoor", "arcade", "orange-fashion", "neon-pink", "electric-blue"],
+  "image_type": "vibrant arcade lifestyle portrait",
+  "image_vibe": "energetic, playful, vibrant, high-contrast",
+  "image_purpose": "social-media night-out visual",
+  "group": "lifestyle-moment/night-out/public-indoor",
+  "prompt": {
+    "project_info": "Photorealistic medium-shot portrait of a clearly adult woman in an indoor amusement arcade, using bright environmental or high-flash lighting, sharp subject focus and shallow background depth of field.",
+    "main_subject": "One clearly adult woman with long wavy blonde hair and a radiant joyful expression with a wide smile. She is seated on a pink arcade motorcycle game, leaning slightly forward with both hands on the handlebars, body angled in profile while turning her head toward the camera. She wears a saturated orange knit bandeau-style top with distressed texture and a decorative buckle strap, matching orange fitted shorts with secure coverage, and a visible white waistband with black logo-style text as described in the source. Keep the identity original and non-celebrity.",
+    "composition_elements": "Use the pink arcade motorcycle seat and dashboard as the foreground anchor. Place a bright pink arcade racing cabinet labeled 'SUPER BIKES' around the subject, with a blurry array of other machines and a neon sign reading 'Fly O'Clock' in the background. Preserve the profile pose, turned head, handlebars, orange outfit, and saturated orange-pink-blue color relationship. Keep source typography limited to the described arcade signage; do not add new logos or text.",
+    "lighting_and_atmosphere": "Vibrant high-contrast arcade lighting with dominant neon-pink LED strips outlining the machines and cool electric-blue ambient light in the background. Use bright environmental or high-flash illumination on the subject, saturated orange wardrobe, neon pink, electric blue and deep shadows, and a playful energetic mood.",
+    "technical_specs": "Photorealistic medium shot, sharp focus on the adult subject, shallow depth-of-field background, realistic knit and arcade plastic texture, controlled neon exposure, no unintended text, logos or watermark.",
+    "generated_prompt_string": "Photorealistic medium-shot portrait of one clearly adult blonde woman with long wavy hair and a radiant joyful wide smile seated on a pink arcade motorcycle game. She leans slightly forward with both hands on the handlebars, body in profile while turning her head toward camera. Saturated orange distressed-knit bandeau top with decorative buckle strap, matching orange fitted shorts with secure coverage, visible white waistband with black logo-style text. Bright pink 'SUPER BIKES' arcade racing cabinet, realistic motorcycle seat and dashboard, blurred arcade machines and neon 'Fly O'Clock' sign in the background. Dominant neon-pink LED strips, cool electric-blue ambient light, high-flash or bright environmental illumination, saturated orange-pink-blue palette, deep shadows, sharp subject, shallow depth of field, energetic playful vibrant mood, original adult identity.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, transparent clothing, exposed underwear, distorted anatomy, extra fingers, malformed hands, warped arcade machine, misspelled text, random logos, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "neon-arcade-orange-vibe-blonde.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult blonde subject, orange distressed-knit outfit, pink arcade motorcycle, profile pose, SUPER BIKES cabinet, Fly O'Clock sign, neon-pink and electric-blue lighting, and energetic mood."
+        },
+        {
+          "type": "text_layout",
+          "name": "arcade-signage",
+          "required": true,
+          "source": "Existing prompt text",
+          "usage": "Keep only the source-described 'SUPER BIKES' and 'Fly O'Clock' arcade text; do not invent additional signage or logos."
+        },
+        {
+          "type": "source_url",
+          "name": "original prompt post",
+          "required": false,
+          "source": "https://x.com/xmliisu/status/2016823118518485087",
+          "usage": "Context only; local written prompt is authoritative."
+        },
+        {
+          "type": "image_asset",
+          "name": "1774301219425-pu3qux06-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1774301219425-pu3qux06-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset and arcade-signage text reference are required; source URL and image asset are optional context. Keep the adult subject, orange outfit, pose, arcade setting, described signage and neon palette consistent. Do not add new text or logos."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as clearly adult and retained secure non-explicit coverage.",
+      "Preserved the orange outfit, pose, arcade signage, color palette and energetic creative direction.",
+      "Restricted typography to the two text elements explicitly present in the source."
+    ]
+  }
+}

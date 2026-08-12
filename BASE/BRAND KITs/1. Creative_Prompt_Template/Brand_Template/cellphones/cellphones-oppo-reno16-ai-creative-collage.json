@@ -1,0 +1,52 @@
+{
+  "name": "cellphones-oppo-reno16-ai-creative-collage",
+  "tag": ["cellphones", "oppo reno16", "ai collage", "creative photo", "editing feature"],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Product demos",
+  "group": "cellphones_1019848470795856",
+  "prompt": {
+    "project_info": {
+      "theme": "AI creative photo-collage feature demo",
+      "color_palette": "Soft lavender, cream, warm brown, orange, black"
+    },
+    "main_subject": {
+      "type": "Object/Person",
+      "detail": "A premium feature-demo poster for OPPO Reno16 Series 5G showing a smartphone editing interface on the left and a finished creative collage on the right, combining cutout people, hand-drawn doodles, pastries, and drinks under a soft lavender AI-creation headline.",
+      "style": "Premium AI-feature smartphone campaign"
+    },
+    "composition_elements": {
+      "type": "Typography/UI Demo/Collage Elements",
+      "text": "OPPO Reno16 Series 5G, GHÉP ẢNH SÁNG TẠO AI, Sáng Tạo Tối Đa Thao Tác Tối Giản, Sửa hình dán, Kiểu viền, Dấu đánh, Cổ chấm, Bản phác thảo",
+      "items": [
+        "Top Right: 'OPPO Reno16 Series 5G' wordmark.",
+        "Upper Middle: lavender headline 'GHÉP ẢNH SÁNG TẠO AI' and subline 'Sáng Tạo Tối Đa Thao Tác Tối Giản'.",
+        "Left: large smartphone screen showing an editing interface with a nighttime street photo, doodle stickers, and bottom UI options.",
+        "Right: finished collage board with two female cutout figures, a pink hand-drawn heart, a croissant on a yellow plate, iced drinks, and interactive transform handles/icons around elements.",
+        "Decor: soft sparkle/star shapes and a pale lavender textured background."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft premium studio-lifestyle lighting",
+      "effect": "Creative-app clarity, gentle pastel glow, polished feature-demo elegance"
+    },
+    "technical_specs": {
+      "render_style": "Smartphone AI-feature demo poster with UI and collage composition",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "ui_reference", "name": "OPPO editing interface screen", "required": true, "source": "source image UI reference", "usage": "Preserve the exact editing UI layout, the nighttime photo, and the bottom controls including labels."},
+        {"type": "person", "name": "female collage subjects", "required": true, "source": "source image people reference", "usage": "Keep the posed cutout figures and their exact collage placement."},
+        {"type": "graphic", "name": "doodles, transform handles, pastry and drink collage", "required": true, "source": "source image graphic reference", "usage": "Preserve the heart doodle, orange star doodles, croissant, iced drinks, and editing-handle icons."},
+        {"type": "text_layout", "name": "AI-creation feature headline", "required": true, "source": "source image text reference", "usage": "Keep the exact headline and subheadline wording."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the split between the edit interface and final collage board.",
+        "Keep all visible text exactly as shown, including the UI option labels at the bottom.",
+        "Maintain the soft lavender creative-feature aesthetic and sticker-editing feel."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square OPPO Reno16 Series 5G AI-feature poster on a pale lavender textured background. Put the wordmark 'OPPO Reno16 Series 5G' at the top right and the lavender headline 'GHÉP ẢNH SÁNG TẠO AI' with the subline 'Sáng Tạo Tối Đa Thao Tác Tối Giản'. On the left, show a large smartphone editing interface with a nighttime street photo, doodle stickers, and bottom UI options including 'Sửa hình dán'. On the right, show a finished creative collage with two female cutout figures, a pink hand-drawn heart, a croissant on a yellow plate, iced drinks, and transform handles/icons around the collage pieces. Technical style: smartphone AI-feature demo poster with UI and collage composition, soft premium studio-lifestyle lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark muddy tones, incorrect text, broken UI, low resolution, warped collage elements, cluttered composition, watermark, signature"
+  }
+}

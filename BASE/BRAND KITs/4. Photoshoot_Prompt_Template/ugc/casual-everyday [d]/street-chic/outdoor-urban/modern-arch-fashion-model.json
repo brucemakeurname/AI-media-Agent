@@ -1,0 +1,19 @@
+{
+  "name": "modern-arch-fashion-model",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "modern-architecture", "menswear"],
+  "image_type": "modern-architecture-menswear-portrait",
+  "image_vibe": "contemporary-city-minimal",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create an ultra-realistic contemporary city portrait of an approved adult man against a modern tiled architectural wall.",
+    "main_subject": "An approved adult man with natural textured hair and dark rectangular sunglasses, wearing a gradient sweatshirt from soft light grey to deep black, loose black pants, and a smartwatch on his left wrist. He stands confidently with relaxed posture.",
+    "composition_elements": "Vertical medium-full framing with sleek tiled wall, reflective glass windows, distant buildings, street textures, and shallow urban depth.",
+    "lighting_and_atmosphere": "Ambient natural daylight, soft shadows and highlights, lifelike skin and fabric, contemporary minimal city mood.",
+    "technical_specs": "Photorealistic high-detail fashion portrait, vertical framing, sharp subject, shallow depth, realistic glass, tile, clothing, hair, and watch texture.",
+    "generated_prompt_string": "Create an ultra-realistic vertical contemporary city portrait of an approved adult man with natural textured hair and dark rectangular sunglasses standing confidently against a modern tiled architectural wall. Dress him in a gradient sweatshirt fading from soft light grey to deep black, loose black pants, and a smartwatch. Include reflective windows, distant buildings, street textures, ambient daylight, soft shadows, lifelike skin and fabric, and a contemporary minimal fashion mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, exact face match, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted architecture",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-modern-arch-subject", "required": true, "source": "modern-arch-fashion-model.jpg", "usage": "Preserve adult identity, hair, sunglasses, expression, and posture."}, {"type": "wardrobe", "name": "gradient-sweatshirt-black-pants", "required": true, "source": "modern-arch-fashion-model.jpg", "usage": "Keep sweatshirt, pants, sunglasses, and watch consistent; replace only with explicit references."}, {"type": "location", "name": "modern-tiled-city-wall", "required": true, "source": "modern-arch-fashion-model.jpg", "usage": "Maintain tiles, windows, buildings, and daylight; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced exact-reference identity wording with approved-adult identity handling.", "Added safe negative prompts and structured references."]}
+}

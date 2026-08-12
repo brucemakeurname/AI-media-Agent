@@ -1,0 +1,83 @@
+{
+    "name":  "muyang-minimal-product-kv-system",
+    "tag":  [
+                "ecommerce",
+                "product demos",
+                "KV system",
+                "product detail pages",
+                "minimal luxury",
+                "bilingual typography"
+            ],
+    "biz_niche":  "E-commerce & Retail",
+    "content_format":  "Product demos",
+    "group":  "commercial_muyang_kv_system",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "MUYANG minimalist 10-page flagship ecommerce KV system",
+                                        "color_palette":  "Warm cream, oatmeal, champagne, moss gray-green, muted gold"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A coherent 9:16 flagship-store visual system built from an approved MUYANG product reference, beginning with logo generation and then hero, lifestyle, collage, detail, color, size-guide and care pages. The preview image shows a beige stroller example, while the source prompt specifically describes a champagne silk slip dress system.",
+                                        "style":  "Clean high-end minimalist ecommerce campaign with bilingual Chinese-English typography"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Product/UI/Typography/Detail imagery",
+                                                "text":  "MUYANG; 3-SECOND FAST FOLD; One-hand Operation; One-touch Fold; Effortless; TRY NOW",
+                                                "items":  [
+                                                              "Top left: small approved MUYANG logo on each page.",
+                                                              "Hero: centered approved product on warm cream studio field with large bilingual title.",
+                                                              "Detail pages: macro material, construction, silhouette and feature close-ups.",
+                                                              "Information pages: restrained color/material board, size/parameter grid and care guidance.",
+                                                              "CTA: rounded glass-like pill button at lower right or lower edge."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft premium studio daylight",
+                                                   "effect":  "Clean warm gradients, gentle realistic product shadows, ample negative space and consistent refined bilingual type treatment"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "High-end 9:16 ecommerce key-visual system",
+                                           "resolution":  "Ten coordinated vertical high-resolution pages"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "MUYANG logo",
+                                                                 "required":  true,
+                                                                 "source":  "approved vector logo asset",
+                                                                 "usage":  "Generate once and reuse at upper left of every page."
+                                                             },
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "exact product reference",
+                                                                 "required":  true,
+                                                                 "source":  "approved packshots and technical product information",
+                                                                 "usage":  "Preserve actual product silhouette, materials, features and colorways; replace the preview stroller or source dress with the requested real product."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "bilingual typography and page system",
+                                                                 "required":  true,
+                                                                 "source":  "approved campaign copy/layout",
+                                                                 "usage":  "Keep Chinese-English hierarchy and selected glass/relief text treatment consistent."
+                                                             },
+                                                             {
+                                                                 "type":  "ui_reference",
+                                                                 "name":  "feature, size and care data",
+                                                                 "required":  true,
+                                                                 "source":  "verified product specification sheet",
+                                                                 "usage":  "Populate claims, dimensions, care instructions and CTA without fabrication."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Source mismatch: the preview is a stroller, while the source prompt describes a silk slip dress; attach the intended actual product before rendering.",
+                                                                          "Generate logo first, then apply the same approved logo and typography system across all ten pages.",
+                                                                          "Never invent product claims, dimensions, discount details or Chinese copy."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "基于我给的产品图，梳理产品卖点/参数要点，然后给我输出一套统一旗舰店极简KV系统（9:16），最后生成10张详情页的完整提示词（中英双语、干净大气、至少5张细节特写），先单独生成Logo，用于后续每张海报左上角，其中中文排版风格需要统一，比如玻璃效果、3d浮雕效果，或者其他效果。 00、LOGO生成：极简高端时尚品牌logo，矢量风格，干净几何形；品牌名 MUYANG，细线圆形徽章内含单支精致叶枝，深苔灰绿色 #2F3A33 搭配温暖米白 #F3EFE6，宽松高端衬线 MUYANG，下方小字 沐阳，无渐变、无阴影、无3D、无样机、无水印。 Then produce a unified ten-page 9:16 product-detail KV system including hero, lifestyle scene, multi-scene collage, at least five material/construction detail close-ups, product color/model board, size/parameter guide and final care/trust page. The source example specifies a champagne/cream satin spaghetti-strap silk slip dress with a consistent MUYANG logo, clean warm cream/oatmeal lighting, bilingual Chinese-English titles, rounded glass-like information cards and pill CTAs. Preserve the approved product reference exactly and keep Chinese typography consistent across every page.",
+                   "negative_prompt":  "unapproved product substitution, fabricated product claims, inconsistent logo, messy bilingual text, clutter, heavy texture, watermark, low resolution"
+               }
+}

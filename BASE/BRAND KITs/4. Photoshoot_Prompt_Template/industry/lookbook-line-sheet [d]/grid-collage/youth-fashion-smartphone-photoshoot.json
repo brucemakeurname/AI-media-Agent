@@ -1,0 +1,26 @@
+{
+  "name": "youth-fashion-smartphone-photoshoot",
+  "tag": ["smartphone", "casual-fashion", "candid", "four-panel", "grid-collage"],
+  "image_type": "smartphone-fashion-grid",
+  "image_vibe": "fresh-candid-modern",
+  "image_purpose": "lookbook",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Smartphone fashion portrait series presented as a 4-photo grid collage with a minimalist, airy and modern visual tone.",
+    "main_subject": "One original approved adult woman with a light complexion, soft feminine features, bright smile, expressive eyes, deep black long loose waves and natural glam makeup with dewy skin, soft blush and subtle lip tint.",
+    "composition_elements": "Square four-photo grid collage at eye-level with natural perspective. Frame 1: full-body standing fashion pose. Frame 2: relaxed crouching pose. Frame 3: casual seated pose. Frame 4: upper-body portrait. Outfit remains a white fitted sleeveless crop top, loose straight-leg blue jeans and casual white sneakers; use relaxed, candid and playful fashion body language in a clean light-grey seamless studio.",
+    "lighting_and_atmosphere": "Soft diffused neutral studio lighting with soft natural shadows, subtle skin glow and low-to-medium contrast.",
+    "technical_specs": "Ultra-realistic smartphone editorial fashion photography, 1:1 collage, natural perspective, high skin and fabric texture detail, natural depth of field, very light natural grain, minimal clean slightly soft finish.",
+    "generated_prompt_string": "Create a photorealistic smartphone fashion portrait series as a square four-photo grid collage featuring one original approved adult woman. She has a light complexion, soft feminine features, bright smile, expressive eyes, deep black long loose waves and natural glam makeup with dewy skin, soft blush and subtle lip tint. Keep her approved-adult identity and styling consistent. Use a white fitted sleeveless crop top, loose straight-leg blue jeans and casual white sneakers. Frame 1: full-body standing fashion pose. Frame 2: relaxed crouching pose. Frame 3: casual seated pose. Frame 4: upper-body portrait. Use eye-level natural perspective, relaxed candid playful fashion poses, a minimal studio backdrop, clean light-grey seamless wall and neutral studio floor. Apply soft diffused neutral lighting, soft natural shadows, subtle skin glow, minimalist airy modern tone, white denim-blue soft-grey palette, low-to-medium contrast, very light natural grain, ultra-realistic smartphone editorial fashion photography, high skin and fabric texture detail, natural depth of field and a minimal clean slightly soft finish.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, nudity, child, teen, youth-coded ambiguity, sensual wording, identity drift, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, low resolution, unreadable text or logos",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "youth-fashion-smartphone-photoshoot.jpg", "required": true, "source": "local reference image", "usage": "Attach for the original approved-adult face, facial structure, hair, expressions and consistent identity across all four frames."},
+        {"type": "wardrobe", "name": "white fitted sleeveless crop top, loose blue jeans and white sneakers", "required": true, "source": "local reference image", "usage": "Preserve supplied outfit, colors, fit, denim shape and footwear without substitution."},
+        {"type": "background", "name": "clean light-grey seamless studio wall and neutral floor", "required": true, "source": "local reference image", "usage": "Preserve minimal studio environment, perspective, floor and neutral lighting."}
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe and background references; no optional assets are needed. Keep approved-adult identity, outfit, four-panel count, poses, environment, lighting and typography consistent. Replace only with an equivalent approved adult, supplied wardrobe or studio. Typography is not applicable; do not invent text, logos or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced youth-coded and subtly sensual wording with an explicit approved-adult, candid fashion framing while preserving the supplied outfit, four poses and smartphone editorial concept."]}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "poetic-haute-couture-butterfly",
+  "tag": ["industry", "lookbook-line-sheet", "editorial-fashion", "butterfly", "grid-portrait"],
+  "image_type": "multi-panel couture portrait",
+  "image_vibe": "soft, poetic, minimal, couture",
+  "image_purpose": "luxury lookbook grid and editorial portrait series",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create a 2x2 luxury studio fashion editorial series with butterflies and consistent identity across all panels.",
+    "main_subject": "An adult woman using the required approved-adult face reference; preserve the reference face, facial proportions, eye shape, nose shape, lip shape, bone structure, skin tone, and natural expression consistently across all panels. She has long straight black hair with a center part and wears an olive-green off-shoulder draped dress with soft ruching.",
+    "composition_elements": "4:5 portrait grid with thin gutters and no outer border: tight beauty portrait with butterfly on fingertip; seated three-quarter portrait with butterfly near shoulder; standing mid-shot with butterfly on shoulder; three-quarter profile looking down with butterfly near collarbone. Soft white, lavender, and pale-blue butterflies rest gently on finger, shoulder, or hand.",
+    "lighting_and_atmosphere": "Muted olive-green seamless studio, soft diffused key light with gentle shadow falloff and subtle hair rim light, real skin texture, subtle analog grain, natural-not-HDR color grade.",
+    "technical_specs": "Ultra-high-resolution luxury fashion editorial, crisp detail, 2x2 grid, 4:5 portrait, realistic fabric and butterfly texture, consistent identity and styling across panels.",
+    "generated_prompt_string": "Luxury studio fashion editorial series with butterflies, using the required approved-adult reference image as the identity anchor. Preserve the same face, facial proportions, eye spacing, nose shape, lip shape, bone structure, and skin tone in every panel. The adult woman has long straight black hair with a center part and wears an olive-green off-shoulder draped dress with soft ruching. Muted olive-green seamless studio backdrop, soft diffused key light, gentle shadow falloff, subtle rim for hair separation, realistic skin texture, subtle analog grain, 2x2 portrait grid: tight beauty portrait with butterfly on fingertip; seated three-quarter portrait with butterfly near shoulder; standing mid-shot with butterfly on shoulder; three-quarter profile looking downward with butterfly near collarbone. Soft poetic minimal couture aesthetic, 4:5, ultra-high resolution.",
+    "negative_prompt": ["identity change", "different face", "different bone structure", "open mouth", "teeth showing", "explicit", "nsfw", "overly revealing", "blurry", "low quality", "distorted anatomy", "extra fingers", "deformed", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "logo", "text", "signature"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "poetic-haute-couture-butterfly.jpg", "required": true, "source": "workspace reference image", "usage": "Required approved-adult identity reference for face, facial structure, hair, and skin consistency across all four panels."}],
+      "prompt_instructions": "Attach the required approved-adult face reference. Preserve face, facial structure, identity, outfit, grid layout, butterflies, olive environment, and lighting consistently; poses and butterfly positions are replaceable within the four specified panels. Keep products, logos, and typography absent or replaceable."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

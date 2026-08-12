@@ -1,0 +1,60 @@
+{
+  "name": "disruptive-street-balenciaga-poster",
+  "tag": ["adult-man", "balenciaga", "oversized-streetwear", "hero-sneaker", "rooftop-poster", "not-made-to-fit"],
+  "image_type": "luxury-sneaker-fashion-poster",
+  "image_vibe": "disruptive-bold-urban",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "disruptive Balenciaga luxury sneaker campaign",
+      "color_palette": "deep black, vibrant sky blue, warm sunlight, distressed white, and painted orange",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult male fashion model in oversized Balenciaga streetwear with a confident detached expression and dark sunglasses.",
+      "wardrobe": "Black oversized Balenciaga hoodie with visible logo, extremely baggy distressed black pants, chunky Balenciaga sneakers in Track or Triple S style, and dark sunglasses.",
+      "pose": "Mid-step forward with one sneaker extremely close to camera in hero perspective, body leaning slightly forward and arms relaxed but dynamic.",
+      "styling": "Luxury streetwear campaign styling with raw urban attitude and premium product focus."
+    },
+    "composition_elements": {
+      "framing": "Vertical 4:5 ultra-wide ground-level frame with foreground sneaker tack sharp, background shoe softer, forced perspective, and no crop.",
+      "environment": "Urban rooftop parking structure with deep blue sky, minimal clouds, clean modern skyline, concrete ground texture, and warm sunlight hitting the surface.",
+      "typography": "Left-aligned stacked text NOT MADE TO FIT. with FIT. in bold painted orange brush style. Bottom-left: SHAPING THE NOW. NOT FOLLOWING IT. and icon row BUILT DIFFERENT, RULES DON'T APPLY, MADE TO DISRUPT, PARIS FRANCE. Top-left BALENCIAGA; bottom-left BLCG® WINTER 24 COLLECTION; bottom-right balenciaga.com. Render all supplied copy accurately.",
+      "focus": "Hero sneaker rubber, mesh, dirt, reflections, hoodie logo, distressed pants, skyline, and legible campaign typography."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Natural warm daylight with hard shadows for depth and specular highlights across the sneaker, while preserving deep blacks and vibrant sky blues.",
+      "atmosphere": "Bold, disruptive, premium, urban, and scroll-stopping."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with an 18-24mm ultra-wide lens at f/5.6, 1/500 s, ISO 200, ground-level perspective",
+      "quality": "Ultra-high-resolution 8K fashion campaign, foreground product tack sharp, background slightly blurred, subtle 2-3% grain, micro-contrast boost, print-ready clarity"
+    },
+    "generated_prompt_string": "Create a print-ready 4:5 Balenciaga luxury sneaker poster. Show an adult male fashion model in a black oversized Balenciaga hoodie with visible logo, extremely baggy distressed black pants, chunky Balenciaga Track or Triple S style sneakers, and dark sunglasses. Capture a mid-step forward motion with one sneaker extremely close to camera in dramatic hero perspective, body leaning slightly forward and arms relaxed but dynamic. Set the scene on an urban rooftop parking structure with deep blue sky, modern skyline, textured concrete, and warm sunlight. Add accurate left-aligned typography NOT MADE TO FIT. with FIT. in painted orange brush style, plus SHAPING THE NOW. NOT FOLLOWING IT., the supplied icon row, BALENCIAGA, BLCG® WINTER 24 COLLECTION, and balenciaga.com. Use hard natural shadows, deep blacks, vibrant sky blue, tack-sharp foreground sneaker detail, and no watermark or extra text.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, illegible text, misspelled brand, distorted sneaker, deformed anatomy, extra limbs, muddy texture, watermark, flat lighting, crop, weak perspective",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult model. Optional hoodie, pants, sneaker, rooftop, typography, or lighting references may replace only their named element; preserve the hero footwear perspective, exact Balenciaga branding, campaign copy, and urban poster composition.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "balenciaga-oversized-black-streetwear-and-sneaker-look",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the hoodie, pants, sunglasses, or sneakers while preserving oversized proportions and visible approved branding."
+        },
+        {
+          "type": "location",
+          "name": "blue-sky-rooftop-parking-structure",
+          "required": false,
+          "source": "user-uploaded location reference",
+          "usage": "Replace only the rooftop, skyline, concrete texture, and daylight while preserving the forced-perspective frame."
+        }
+      ]
+    }
+  }
+}

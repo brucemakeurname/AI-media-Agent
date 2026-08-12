@@ -1,0 +1,28 @@
+{
+  "name": "prompt-1122",
+  "tag": ["ugc", "casual-everyday", "cozy-home", "private-indoor", "worm-eye-view"],
+  "image_type": "dynamic bedroom portrait",
+  "image_vibe": "playful kawaii pink energy",
+  "image_purpose": "UGC-style social portrait and moodboard visual",
+  "group": "cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create a realistic dynamic bedroom portrait using the attached image as the primary face, body-type, hair, and room reference.",
+    "main_subject": "An original approved adult Japanese woman in her early twenties with the attached adult face reference, long brown hair, straight bangs, and a playful confident smile strides across a fluffy rug and turns her head back to look directly down at camera. Preserve the reference outfit: a fitted black sleeveless camisole dress with thin straps and hip-length hem.",
+    "composition_elements": "True worm's-eye view from floor level, 20–24mm wide-angle perspective, subject dominating the frame, extended legs creating strong diagonals, pastel pink-and-white kawaii bedroom, generic original plush animals, fairy lights, soft bedding, and original non-copyrighted cute illustrations or posters.",
+    "lighting_and_atmosphere": "Warm window light mixed with glowing fairy lights, soft rim light around hair and silhouette, gentle highlights on skin, high contrast between black dress and pastel room, playful energetic mood.",
+    "technical_specs": "Realistic phone photography, vertical composition, 20–24mm lens, slight perspective distortion, natural skin texture, subtle optical falloff, no copyrighted characters or existing anime/manga designs.",
+    "generated_prompt_string": "Realistic dynamic worm's-eye-view photograph of an original approved adult Japanese woman in her early twenties, using the attached adult face reference for consistency. She strides across a fluffy rug in a cute pastel pink bedroom and turns her head back to look directly down at the camera with a confident playful smile. Preserve the fitted black sleeveless camisole dress with thin straps and hip-length hem. Generic original plush bears and rabbits, fairy lights, soft pink bedding, and original cute illustrations fill the room. Warm window light mixed with fairy lights, soft rim light, 20–24mm wide-angle perspective, strong diagonal composition, energetic kawaii indoor portrait.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, copyrighted characters, existing anime or manga designs, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved adult face and identity reference", "required": true, "source": "attached source image", "usage": "Preserve the adult face, facial structure, hair, and likeness without using a celebrity or public figure."},
+        {"type": "environment", "name": "pastel kawaii bedroom reference", "required": true, "source": "attached source image", "usage": "Match the room atmosphere, floor-level composition, pink palette, bedding, lights, and decor."}
+      ],
+      "prompt_instructions": "Attach both required visual references, or use the same source image for both roles. Preserve face, facial structure, adult identity, outfit, pose, and environment consistency. Replaceable elements include plush characters, logos, poster graphics, typography, and decorative props; use only original approved alternatives."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an approved adult in her early twenties.", "Removed seductive wording while preserving the dynamic pose, outfit, and kawaii creative direction.", "Restricted room graphics to original non-copyrighted alternatives."]
+  }
+}

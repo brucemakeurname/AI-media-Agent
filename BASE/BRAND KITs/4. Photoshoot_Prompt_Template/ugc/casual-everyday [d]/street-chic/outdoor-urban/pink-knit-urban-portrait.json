@@ -1,0 +1,19 @@
+{
+  "name": "pink-knit-urban-portrait",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "pink-knit", "urban"],
+  "image_type": "urban-cardigan-portrait",
+  "image_vibe": "confident-classy-soft-feminine",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic urban fashion portrait of an approved adult woman beside a car in soft daylight.",
+    "main_subject": "An approved adult dark-brown-haired woman with long soft waves, a poised smile, and natural glam makeup. She wears a light-pink fitted tank, cropped pink cardigan with white patterning and red buttons, tailored dark-brown trousers, oversized brown gradient sunglasses, gold studs, pink bracelet, and carries a brown structured handbag with an orange smartphone.",
+    "composition_elements": "Medium portrait beside a car with softly blurred city surroundings, relaxed confident posture, and natural daylight.",
+    "lighting_and_atmosphere": "Soft shadows and realistic fabric, knit, skin, hair, metal, and vehicle texture, polished but casual street-style mood.",
+    "technical_specs": "Photorealistic vertical portrait, shallow depth of field, sharp subject, natural color and realistic proportions.",
+    "generated_prompt_string": "Create a photorealistic urban fashion portrait of an approved adult dark-brown-haired woman with long soft waves and a poised smile standing beside a car. Dress her in a light-pink fitted tank, cropped pink cardigan with white patterning and red buttons, tailored dark-brown trousers, oversized brown gradient sunglasses, gold studs, and pink bracelet; include a brown structured handbag and orange smartphone. Use soft daylight, blurred city surroundings, realistic knit and skin texture, and confident classy street-style mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, warped car",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-pink-knit-subject", "required": true, "source": "pink-knit-urban-portrait.jpg", "usage": "Preserve adult identity, hair, smile, sunglasses, and pose."}, {"type": "wardrobe", "name": "pink-tank-patterned-cardigan", "required": true, "source": "pink-knit-urban-portrait.jpg", "usage": "Keep cardigan, tank, trousers, accessories, and styling consistent; replace only with explicit references."}, {"type": "location", "name": "car-urban-daylight", "required": true, "source": "pink-knit-urban-portrait.jpg", "usage": "Maintain car, city blur, and soft daylight; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the observed pink urban fashion concept.", "Added safe negative prompts and structured references."]}
+}

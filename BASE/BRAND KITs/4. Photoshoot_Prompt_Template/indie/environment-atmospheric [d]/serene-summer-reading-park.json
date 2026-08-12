@@ -1,0 +1,66 @@
+{
+  "name": "Serene Summer Park Reading Portrait",
+  "tag": "serene-summer-park-reading",
+  "image_type": "park_reading_lifestyle_portrait",
+  "image_vibe": "sun_dappled_nostalgic",
+  "image_purpose": "lifestyle_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Serene Summer Park Reading Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with ash-blonde shoulder-length hair, a relaxed expression, and over-ear headphones.",
+      "wardrobe": "A white crew-neck T-shirt, light full-length trousers, white socks, and plain canvas sneakers; a gray cardigan rests over the bench back.",
+      "pose_and_expression": "Sitting comfortably on a rustic wooden park bench, looking down at an open blank-cover blue book."
+    },
+    "composition_elements": {
+      "setting": "Lush summer park beneath drooping willow branches, with a calm pond, stone paving, and an unbranded blank canvas tote beside the subject.",
+      "framing": "Wide full-body natural candid framing from eye level, placing the subject within the larger park.",
+      "text_and_brand_control": "No uploaded pose/face requirement, tote slogan, book text, logo, or watermark."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Warm dappled afternoon sun filtering through leaves, controlled contrast and natural highlights.",
+      "mood": "Peaceful, academic, solitary, summery, and narratively gentle."
+    },
+    "technical_specs": {
+      "camera_style": "Superia-inspired 35mm park photograph",
+      "lens": "35mm equivalent, f/5.6",
+      "rendering": "Rich greens, subtle grain, realistic pond reflections, natural skin, accurate hands, and soft distant background."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical Superia-inspired 35mm park lifestyle portrait of an adult woman with ash-blonde shoulder-length hair, a relaxed expression, and over-ear headphones. She wears a white crew-neck T-shirt, light full-length trousers, white socks, and plain canvas sneakers; a gray cardigan rests over the bench back. Seat her comfortably on a rustic wood bench beneath drooping willow branches, looking down at an open blank-cover blue book. Include a calm pond, stone paving, and an unbranded blank canvas tote beside her. Use wide eye-level full-body candid framing, warm dappled afternoon sun, controlled natural contrast, rich greens, subtle grain, realistic pond reflections, natural skin, accurate hands, and soft distant background. No uploaded pose/face requirement, tote slogan, book text, logo, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, exact identity lock, explicit, nsfw, overly revealing clothing, shorts, readable text, logo, tote slogan, watermark, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Identity and pose references are optional and must depict a consenting adult. All clothing, tote, book, and park references are replaceable and must be stripped of branding and text.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult facial and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "willow_pond_park_reference",
+          "required": false,
+          "source": "user-provided park reference",
+          "usage": "Guide willow, pond, and dappled sunlight layout."
+        },
+        {
+          "type": "prop_reference",
+          "name": "blank_book_tote_reference",
+          "required": false,
+          "source": "user-provided prop reference",
+          "usage": "Guide book and tote silhouette with all surfaces blank."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed uploaded face/pose requirements and readable tote/book content; specified an adult subject and unbranded full-length styling."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "midnight-jdm-streetwear-flash",
+  "tag": ["ugc", "casual-everyday", "night-out", "outdoor-urban", "jdm-streetwear"],
+  "image_type": "night streetwear car portrait",
+  "image_vibe": "gritty 1990s direct-flash streetwear",
+  "image_purpose": "UGC-style fashion and automotive social visual",
+  "group": "night-out/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a realistic candid full-body night streetwear portrait using one required approved-adult face reference.",
+    "main_subject": "The same original approved adult man from the attached face reference stands with a calm expression and hands in his pockets in front of a modified white Toyota Supra MK4. Preserve his face, facial structure, beard, messy wavy black wolf-cut hair, and identity. He wears a silver chain, oversized dark charcoal corduroy crewneck sweatshirt with the replaceable oval chest text NEOPALESCENT, loose black denim jeans, and tan suede boots.",
+    "composition_elements": "Full-body portrait centered against the car hood, gritty urban street corner, concrete wall heavily covered with graffiti tags, car headlights and grille visible, direct flash creating hard shadows behind the subject, slight cross-legged stance.",
+    "lighting_and_atmosphere": "Direct camera flash at night, high contrast, deep ambient shadows, raw vintage 1990s streetwear mood, realistic asphalt, denim, corduroy, metal, and graffiti texture.",
+    "technical_specs": "Realistic 4K raw-photo style, vertical full-body framing, direct-flash smartphone perspective, slight lens falloff, visible natural texture, restrained color treatment, no artificial HDR look.",
+    "generated_prompt_string": "Realistic candid full-body night streetwear photo of the same original approved adult man from the attached face reference standing with hands in his pockets in front of a modified white Toyota Supra MK4. Preserve his face, facial structure, beard, messy wavy black wolf-cut hair, and identity. He wears a silver chain, oversized dark charcoal corduroy crewneck sweatshirt with replaceable oval chest text NEOPALESCENT, loose black denim jeans, and tan suede boots. Gritty urban street corner with a concrete wall covered in graffiti tags, visible car hood and headlights, direct camera flash, hard rear shadows, high-contrast raw 1990s streetwear aesthetic, realistic 4K photo texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, reckless driving, moving vehicle, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy, unreadable text",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved adult male face reference", "required": true, "source": "attached source image", "usage": "Preserve the approved adult face, facial structure, beard, hair, and likeness without celebrity or public-figure substitution."},
+        {"type": "product", "name": "white JDM sports car reference", "required": true, "source": "attached source image", "usage": "Match the white modified Toyota Supra MK4 body, hood, front lights, grille, and placement behind the subject."}
+      ],
+      "prompt_instructions": "Attach the required adult face reference and car reference; they may be the same image. Preserve identity, beard, hair, outfit, car, pose, graffiti environment, and direct-flash lighting. Car badges, sweatshirt logo, typography, graffiti, and other product graphics are replaceable editable elements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Replaced exact-face wording with approved-adult identity-reference instructions.", "Preserved the specified car, outfit, logo placeholder, pose, and streetwear creative direction.", "Added replaceable-asset, anti-slop, and outdoor safety exclusions."]
+  }
+}

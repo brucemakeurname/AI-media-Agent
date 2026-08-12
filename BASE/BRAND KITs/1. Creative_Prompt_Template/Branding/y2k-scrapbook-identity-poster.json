@@ -1,0 +1,76 @@
+{
+    "name":  "y2k-scrapbook-identity-poster",
+    "tag":  [
+                "branding",
+                "lifestyle content",
+                "Y2K",
+                "scrapbook",
+                "identity poster",
+                "collage"
+            ],
+    "biz_niche":  "Fashion & Apparel / Editorial",
+    "content_format":  "Lifestyle content",
+    "group":  "branding_y2k_identity",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Y2K personal identity scrapbook",
+                                        "color_palette":  "Pastel lilac, pink, mint, pale yellow, holographic rainbow, white"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Person",
+                                        "detail":  "One young woman appears repeatedly in a colorful Y2K scrapbook collage, with a central full-body cutout and supporting close-up, camera, bubblegum, cat, daisy, and peace-sign poses; she wears a pastel striped cropped sweater, pink mini skirt, striped socks, white sneakers, and floral hair clips.",
+                                        "style":  "Hyperreal early-2000s magazine cutout collage with stickers, neon outlines, glitter, and soft flash"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Person/Sticker/Typography/Polaroid collage",
+                                                "text":  "SO CUTE!; 199X!; GIRL VIBES",
+                                                "items":  [
+                                                              "Center: full-body standing woman with hand on hip and lens-flare keychain.",
+                                                              "Top left: close-up portrait inside tilted Polaroid frame.",
+                                                              "Top right: crouching pose holding white camera.",
+                                                              "Middle and lower panels: bubblegum pose, cat portrait, seated peace sign, daisy bouquet.",
+                                                              "All around: holographic stars, hearts, butterflies, sparkles, doodle lines, pastel panels and cutout borders."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft flash lighting",
+                                                   "effect":  "Cinematic neon Y2K color grading, glossy skin finish, dreamy retro glow, balanced intentional chaos"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "High-detail hyperreal Y2K scrapbook poster",
+                                           "resolution":  "8K vertical composition"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "approved subject identity reference",
+                                                                 "required":  true,
+                                                                 "source":  "attach a licensed portrait set of the intended person",
+                                                                 "usage":  "Preserve the same face, hairstyle, age appearance, and outfit identity across all collage poses."
+                                                             },
+                                                             {
+                                                                 "type":  "accessory",
+                                                                 "name":  "Y2K outfit and prop references",
+                                                                 "required":  false,
+                                                                 "source":  "approved style board",
+                                                                 "usage":  "Match sweater, skirt, camera, flowers, cat and sticker language where required."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "scrapbook headline layout",
+                                                                 "required":  false,
+                                                                 "source":  "source poster reference",
+                                                                 "usage":  "Preserve the layered sticker typography hierarchy."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach identity reference only with consent or a licensed fictional character asset.",
+                                                                          "Maintain one consistent identity through every cutout; do not blend faces.",
+                                                                          "Keep the Y2K styling intentionally maximal but compositionally balanced."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "facelock_identity true; accuracy 100%; Colorful Y2K scrapbook poster aesthetic, vibrant stickers, multiple subjects wearing the same outfit and hairstyle with different poses and cutouts, colorful strokes and lines, frameless collage style. Includes close-up shot with heart-shape fingers, full-body squatting pose supporting chin while holding a white polaroid camera, mid-shot touching cheek while blowing pink bubblegum, mid-shot smiling elegantly while holding a cat, seated elegantly with one eye winking and peace sign, and mid-shot holding daisy flowers. Holographic textures, pastel gradients, glitter accents, playful doodles, magazine cut-out graphics, chaotic yet balanced layout, extremely artistic and visually engaging. A young Y2K-styled woman is the main focus in the center of the scrapbook collage. Playful and confident Y2K pose, slight side hip pop, one hand holding a lens-flare keychain, face toward the camera with a cute-cool expression, slight pout, candid early-2000s photo vibe. Cropped oversized sweater in pastel color with embroidered patches, pastel skirt with a white belt, white ankle socks with colorful pastel stripes, white sneakers, colorful plastic bracelets, chunky colorful rings, sparkling belly chain, Y2K half-up half-down hair, pastel flower clips, thin front tendrils, wavy dark brown hair with bubblegum-pink tint on lower strands. Heart, star, and butterfly stickers, retro sparkles, Polaroid frames, neon outlines, doodle borders, magazine cutout texts SO CUTE!, 199X!, GIRL VIBES, pastel lighting, glossy dreamy retro glow, ultra-aesthetic scrapbook layout. Cinematic neon Y2K, soft flash lighting, smooth glossy skin finish, high-detail hyperrealistic Y2K scrapbook tone, 8K, perfectly balanced and artistic.",
+                   "negative_prompt":  "no realism that breaks Y2K aesthetic, no modern 2020s clothing, no messy composition, no blurry face, no distorted hands, no extra limbs, no face warping, no low resolution, no grain, no muted colors, no watermark, no AI artifacts"
+               }
+}

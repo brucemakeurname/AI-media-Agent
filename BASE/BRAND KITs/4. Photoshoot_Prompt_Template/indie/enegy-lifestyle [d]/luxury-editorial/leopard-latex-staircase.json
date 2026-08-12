@@ -1,0 +1,75 @@
+{
+  "name": "leopard-latex-staircase",
+  "tag": [
+    "adult-woman",
+    "floral-tattoos",
+    "leopard-print",
+    "tiled-staircase",
+    "luxury-fashion"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "bold-warm-maximalist",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/luxury-editorial",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Retained the adult blonde subject, floral tattoos, leopard styling, and Spanish-tile staircase while replacing the tight strapless latex dress and body-focused pose with a covered tailored leopard-print dress and balanced standing pose."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "bold luxury fashion editorial on a Spanish-tile staircase",
+      "color_palette": "leopard tan, black, warm terracotta, cobalt tile, and soft gold",
+      "format": "vertical 2:3 three-quarter portrait"
+    },
+    "main_subject": {
+      "description": "an adult blonde woman with long wavy hair and detailed floral tattoos on her arms and neck, wearing a tailored leopard-print midi dress with short sleeves and black leather ankle boots",
+      "pose_and_expression": "standing calmly on the tiled staircase with one hand resting on the wrought-iron railing and a composed expression"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level three-quarter fashion portrait",
+      "foreground": "floral tattoos, leopard-print fabric, and ornate railing details",
+      "background": "decorative Spanish ceramic stair tiles and a sweeping wrought-iron banister",
+      "visual_hierarchy": "adult subject face, leopard dress and tattoos, then tiled architectural pattern"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "soft warm indoor light with gentle shadows and a restrained cinematic glow",
+      "atmosphere": "bold, polished, warm, and architectural"
+    },
+    "technical_specs": {
+      "camera": "Canon EOS R5",
+      "lens": "85mm f/1.8",
+      "settings": "1/160s, f/2.2, ISO 500",
+      "rendering": "realistic tattoo linework, natural skin texture, crisp ceramic detail, shallow depth of field, fine grain"
+    },
+    "generated_prompt_string": "A glamorous adult blonde woman with long wavy hair stands on a tiled staircase with ornate wrought-iron railings. Detailed floral tattoos cover her arms and neck. She wears a tailored leopard-print midi dress with short sleeves and black leather ankle boots, one hand resting lightly on the railing. The setting features decorative Spanish-style ceramic tiles across the stairs. Warm soft indoor light creates gentle shadows and a cinematic glow. High-fashion luxury editorial photography, realistic tattoo linework, natural skin texture, sharp focus on the subject, and shallow depth of field.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, latex, strapless bustier, sexualized pose, body-part emphasis, nudity, distorted anatomy, extra limbs, poorly drawn hands, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, bad lighting, watermark, logo, readable text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-tattooed-model-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace authorized adult identity and tattoo artwork only when an approved adult non-public-figure reference is attached."
+        },
+        {
+          "type": "wardrobe",
+          "name": "leopard-dress-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Match leopard pattern and tailoring while preserving covered midi-dress styling."
+        },
+        {
+          "type": "location",
+          "name": "tiled-staircase-reference",
+          "required": false,
+          "source": "approved location reference",
+          "usage": "Match tile motifs and wrought-iron railing details when supplied."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult subject, floral tattoos, leopard pattern, Spanish tiles, and warm staircase light; replace only approved identity, wardrobe, or location elements."
+    }
+  }
+}

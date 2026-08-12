@@ -1,0 +1,93 @@
+{
+  "name": "badass-striped-shirt-trouser-rack",
+  "tag": [
+    "merchandising display",
+    "striped shirt",
+    "tailored trousers",
+    "neutral palette",
+    "fashion retail",
+    "product styling"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Product demos",
+  "group": "badass_1303249805302519",
+  "prompt": {
+    "project_info": {
+      "theme": "Minimal menswear rack styling display",
+      "color_palette": "Soft beige, off-white, light gray, navy blue, charcoal black, warm wood"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A curated clothing rack display featuring a light blue-and-white vertically striped long-sleeve button-up shirt layered over high-waisted beige trousers in the left foreground, hanging from a black hanger on a wooden rail. To the right are multiple neatly spaced garments on black hangers: white striped shirts, navy striped shirts, beige trousers, olive trousers, and black trousers, arranged by tone in a premium retail closet setting.",
+      "style": "Photorealistic fashion merchandising photography, clean premium menswear retail styling, minimal showroom presentation, soft luxury catalog aesthetic"
+    },
+    "composition_elements": {
+      "type": "Wardrobe Display/Rack/Background Elements",
+      "text": "BADASS",
+      "items": [
+        "Top: a horizontal light wood clothing rail with silver hooks and closely spaced black hangers spanning the frame.",
+        "Left Foreground: a striped button-up shirt with rolled cuffs hanging prominently over beige tailored trousers, forming a styled outfit set.",
+        "Center: several light striped shirts and darker navy striped shirts grouped together on hangers.",
+        "Right: a sequence of beige, olive, and black tailored trousers hanging vertically in a tidy gradient arrangement.",
+        "Center Background: warm beige built-in wardrobe wall panels with soft shadows and a clean boutique interior finish.",
+        "Upper Left Shirt Collar Area: small visible brand neck label reading 'BADASS'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft indoor showroom lighting",
+      "effect": "Even diffused illumination, gentle fabric shadows, natural textile definition, warm upscale retail atmosphere, clean tonal separation without harsh contrast"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic retail merchandising photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "striped button-up shirt",
+          "required": true,
+          "source": "Use the source image as the exact reference for stripe scale, collar shape, pocket placement, rolled cuffs, drape, and overall garment silhouette.",
+          "usage": "Recreate the hero shirt in the left foreground with matching vertical stripe density, soft cotton texture, and relaxed premium styling."
+        },
+        {
+          "type": "product",
+          "name": "beige tailored trousers",
+          "required": true,
+          "source": "Use the source image as the exact reference for trouser color, waistband construction, pleat line, pocket shape, and hanging presentation.",
+          "usage": "Match the high-waisted beige trousers layered beneath the shirt, including the visible welt pocket detail and tailored crease structure."
+        },
+        {
+          "type": "product",
+          "name": "full rack assortment",
+          "required": true,
+          "source": "Use the source image as the reference for the garment lineup order, color grouping, hanger style, spacing, and retail rack density.",
+          "usage": "Preserve the arrangement of striped shirts transitioning into beige, olive, and black trousers on the right side."
+        },
+        {
+          "type": "logo",
+          "name": "BADASS neck label",
+          "required": true,
+          "source": "Use the visible collar label from the source image as the text reference.",
+          "usage": "Keep the small neck label text 'BADASS' visible inside the hero shirt collar area if legibility is retained."
+        },
+        {
+          "type": "location",
+          "name": "built-in boutique wardrobe",
+          "required": true,
+          "source": "Use the source image as the reference for the warm beige closet panels, wooden rail, silver hooks, and premium in-store fixture styling.",
+          "usage": "Recreate the minimal boutique showroom environment exactly, with clean built-in cabinetry and a light wood rail."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image as the primary reference to preserve exact garment arrangement, hanger spacing, and merchandising composition.",
+        "Use the source image as the product reference for all garments so stripe pattern, trouser cuts, and color sequencing stay accurate.",
+        "Preserve the small visible text 'BADASS' on the shirt neck label if the model can render it cleanly; keep it subtle and realistic.",
+        "Keep the image square and tightly framed on the rack display without adding people, extra props, or decorative graphic overlays.",
+        "Maintain the premium retail-showroom realism: soft warm interior light, clean wardrobe surfaces, natural textile folds, and organized color blocking."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square fashion retail merchandising image of a minimal menswear rack styling display. Show a built-in boutique wardrobe with warm beige wall panels and a horizontal light wood rail across the top fitted with silver hooks and black hangers. In the left foreground, feature a hero outfit consisting of a light blue-and-white vertically striped long-sleeve button-up shirt with rolled cuffs hanging over high-waisted beige tailored trousers. Keep a small visible neck label inside the shirt collar reading 'BADASS'. In the center and right sections, arrange multiple garments in a tidy premium color sequence: white striped shirts, navy striped shirts, beige trousers, olive trousers, and black trousers, all hanging neatly with realistic spacing and drape. Emphasize clean menswear styling, natural fabric folds, crisp tailoring, soft cotton texture, and a luxury showroom presentation. Technical style: photorealistic retail merchandising photography, soft indoor showroom lighting, even diffused illumination, warm upscale atmosphere, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, low resolution, cluttered store, extra garments, distorted hangers, warped clothing rail, messy arrangement, inaccurate stripe pattern, incorrect text, loud colors, harsh shadows, flat 2d, cartoon, deformed trousers, melted fabric, cropped hero outfit, watermark, signature, noisy background"
+  }
+}

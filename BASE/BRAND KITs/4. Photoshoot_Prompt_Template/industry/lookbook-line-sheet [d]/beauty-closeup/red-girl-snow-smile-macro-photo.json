@@ -1,0 +1,34 @@
+{
+  "name": "Red Snow Joy Editorial Portrait",
+  "tag": "industry/lookbook-line-sheet/beauty-closeup",
+  "image_type": "winter macro fashion portrait",
+  "image_vibe": "bright red winter joy, tactile natural realism",
+  "image_purpose": "winter fashion campaign and lookbook line sheet",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": "Create a realistic overhead winter fashion portrait with vivid red knitwear, crystalline snow, and an authentic joyful expression.",
+    "main_subject": "A clearly adult fictional woman with natural skin grain, visible pores and freckles, a genuine joyful smile, direct eye contact, long natural hair dusted with snow, a bright red ribbed knit outfit, open red faux-fur coat with collar and cuffs, light scarf, white warmers, and brown winter boots.",
+    "composition_elements": "3:4 direct overhead look-down close-up widening to show the snow-angel spread, full face and outfit silhouette visible, deep fresh powder snow, centered subject, red wardrobe against white snow.",
+    "lighting_and_atmosphere": "Natural overcast winter daylight, soft shadows, high dynamic range, authentic cool tone, visible crystalline snow and individual fabric, hair, and fur strands.",
+    "technical_specs": "85mm prime at f/1.8, shallow depth of field with sharp irises, unprocessed RAW photography look, realistic anatomy, no CGI or airbrushing.",
+    "generated_prompt_string": "Realistic 3:4 overhead winter fashion portrait of a clearly adult fictional woman smiling joyfully at the camera while making a relaxed snow-angel pose in deep fresh powder, long natural hair dusted with snow, bright red ribbed knit outfit, open red faux-fur coat, light scarf, white warmers, brown winter boots, natural pores and freckles, overcast winter daylight, soft cool shadows, crystalline snow, 85mm f/1.8, RAW editorial photography, no text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, ageless person, celebrity likeness, public figure likeness, CGI, airbrushed skin, digital painting, anime, plastic skin, anatomical distortion, blurred fabric, watermark, logo, text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "red snow fashion reference",
+          "required": true,
+          "source": "Attach the supplied source image as the visual reference.",
+          "usage": "Match the overhead snow-angel composition, red winter layers, snow texture, joyful expression, and cool-white palette; keep the adult fictional identity, garments, and snow setting replaceable."
+        }
+      ],
+      "instructions": "Attach the source image before generation. Preserve the winter campaign intent, overhead composition, tactile materials, and natural smile. Replace the referenced identity with a clearly adult fictional person and keep wardrobe details replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": "Removed the named real-person identity and exact identity-copying language; clarified the subject as an adult fictional person.",
+    "notes": "Winter clothing is fully covered and the pose is nonsexual."
+  }
+}

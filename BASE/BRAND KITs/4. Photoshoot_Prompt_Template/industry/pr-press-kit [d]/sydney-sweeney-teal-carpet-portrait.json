@@ -1,0 +1,75 @@
+{
+  "name": "sydney-sweeney-teal-carpet-portrait",
+  "tag": [
+    "teal-red-carpet",
+    "black-satin-mini-dress",
+    "asymmetric-shoulder",
+    "editorial-closeup",
+    "dramatic-ruffle"
+  ],
+  "image_type": "red-carpet-fashion-portrait",
+  "image_vibe": "glamorous-dramatic",
+  "image_purpose": "press-kit",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Black satin asymmetrical red-carpet portrait",
+      "event_context": "professional fictional media event",
+      "color_palette": "deep teal blue, black satin, neutral skin tones, warm flash highlights, and red carpet accents"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult blonde woman with chin-length softly waved bob and slight middle part, elegant understated neutral makeup, poised direct expression, and natural dewy skin texture",
+      "wardrobe": "black satin mini dress with asymmetrical one-shoulder silhouette, dramatic ruffled puff on the left shoulder, gathered ruffled neckline, textured satin finish, and classic black open-toe platform heels",
+      "pose": "confident full-body red-carpet stance with relaxed arms and natural weight shift"
+    },
+    "composition_elements": {
+      "framing": "vertical full-body portrait with close-up crop option",
+      "subject_position": "adult woman centered against a textured deep teal step-and-repeat backdrop",
+      "background": "professional media-event carpet with soft texture and no recognizable logos or people"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft professional event key light with controlled flash fill at approximately 4800K",
+      "effect": "soft highlights on satin and hair, gentle facial modeling, realistic skin texture, glamorous high-fashion editorial mood"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 85mm portrait lens, event fashion photography",
+      "resolution": "4k vertical portrait",
+      "finish": "restrained teal-and-black color grade, natural pores, accurate satin reflection, subtle grain and natural vignette"
+    },
+    "generated_prompt_string": "A clearly adult blonde woman with a chin-length bob in soft voluminous waves and a slight middle part, elegant understated neutral makeup complementing a fair complexion, poised direct expression, and natural dewy skin texture. She wears a black satin mini dress with an asymmetrical one-shoulder silhouette, dramatic ruffled puff on the left shoulder, gathered ruffled neckline, textured satin finish, and classic black open-toe platform heels. Show a confident full-body red-carpet stance with relaxed arms and natural weight shift against a textured deep teal blue step-and-repeat backdrop at a fictional professional media event. Use soft professional event lighting with controlled flash fill, approximately 4800K, soft highlights on satin and hair, gentle facial modeling, an 85mm portrait lens, realistic skin texture, restrained teal-and-black grade, accurate satin reflection, subtle grain, and an optional close-up crop. Use an approved generic adult model rather than a public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, malformed dress, random logos, text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-teal-carpet-model",
+          "required": true,
+          "source": "Original teal carpet preview image",
+          "usage": "Attach an approved adult face reference for identity continuity; preserve facial structure and likeness without the source's named public-figure identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-asymmetric-satin-dress",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the one-shoulder satin dress, ruffled puff, neckline, platform heels, and black color; keep the outfit consistent and non-explicit."
+        },
+        {
+          "type": "location",
+          "name": "deep-teal-media-carpet",
+          "required": false,
+          "source": "Original preview image and source prompt",
+          "usage": "Optional environment reference; preserve the textured deep teal backdrop, carpet, event lighting, and clean red-carpet separation while allowing the venue to be replaced."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person and wardrobe references; the teal media backdrop is optional. Keep the adult identity, black satin dress, ruffle structure, platform heels, full-body pose, and teal lighting consistent. Replace the source celebrity and event with approved generic equivalents; person, venue, and background are replaceable while the outfit remains fixed."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public figure and real event framing with an approved clearly adult generic model and fictional media event while preserving the black satin dress and red-carpet composition."
+    ]
+  }
+}

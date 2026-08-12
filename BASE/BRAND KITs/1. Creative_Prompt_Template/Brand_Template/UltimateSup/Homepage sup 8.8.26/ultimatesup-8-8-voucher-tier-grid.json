@@ -1,0 +1,36 @@
+{
+  "name": "ultimatesup-8-8-voucher-tier-grid",
+  "tag": ["voucher", "discount-tier", "grid-layout", "yellow-black", "dumbbell", "ecommerce"],
+  "biz_niche": "Sports Nutrition & Supplements",
+  "content_format": "Voucher promotion",
+  "group": "ultimatesup_homepage_20260808",
+  "prompt": {
+    "project_info": {"theme": "Voucher-tier poster for a sports-nutrition ecommerce campaign", "color_palette": "Pale Yellow, Bright Yellow, Black, White, Charcoal"},
+    "main_subject": {"type": "Voucher grid", "detail": "A centered black hero voucher above four yellow coupon tiles in a two-by-two grid, framed by a white rounded panel on a pale-yellow background.", "style": "Graphic ecommerce voucher design, bold sans-serif typography, clean high-legibility hierarchy"},
+    "composition_elements": {
+      "type": "Voucher cards / icon prop / typography",
+      "text": "Use {{HERO_DISCOUNT}}, {{HERO_THRESHOLD}}, {{TIER_1_VALUE}}, {{TIER_1_THRESHOLD}}, {{TIER_2_VALUE}}, {{TIER_2_THRESHOLD}}, {{TIER_3_VALUE}}, {{TIER_3_THRESHOLD}}, {{TIER_4_VALUE}}, {{TIER_4_THRESHOLD}}, and {{FOOTER_CTA}}.",
+      "items": ["Top Left: A small dumbbell prop overlapping the white panel.", "Top Center: Large black voucher with a coin icon and the hero discount offer.", "Middle/Lower: Four yellow coupon tickets in a two-by-two grid, each with a currency icon and one tier.", "Bottom: Large black urgency or CTA line.", "Background: Pale yellow field with a white rounded-rectangle content panel."]
+    },
+    "lighting_and_atmosphere": {"type": "Flat graphic studio lighting", "effect": "Sharp black-yellow contrast, clean white framing, minimal soft shadow below tickets"},
+    "technical_specs": {"render_style": "Vector-inspired ecommerce sale poster with crisp 3D accessory prop", "resolution": "1200 x 1200 square, highly detailed"},
+    "generated_prompt_string": "[COMBINED PROMPT]: Create a square Ultimate Sup voucher-tier poster. Preserve a pale-yellow background, large white rounded panel, one oversized black hero voucher at the top, four yellow coupon tickets in a two-by-two grid, and a bold footer {{FOOTER_CTA}}. Use {{HERO_DISCOUNT}} and {{HERO_THRESHOLD}} on the hero voucher; use the four approved tier value/threshold pairs on the smaller tickets. Include a small REF_DUMBBELL_PROP and optional REF_BRAND_LOGO. Keep text hierarchy simple, crisp, and readable.",
+    "negative_prompt": "incorrect currency, more or fewer than four tier tickets, unreadable amounts, wrong logo, cluttered products, low contrast, warped ticket edges, watermark",
+    "reference_elements": {
+      "assets": [
+        {"ref_key": "REF_LAYOUT", "type": "layout", "name": "Voucher grid composition", "required": true, "source": "ultimatesup-8-8-voucher-tier-grid.jpg", "usage": "Preserve hero-voucher plus four-tier grid structure."},
+        {"ref_key": "REF_BRAND_LOGO", "type": "brand", "name": "Approved Ultimate Sup logo", "required": false, "source": "Attach approved logo asset", "usage": "Place only where the current campaign requires branding."},
+        {"ref_key": "REF_DUMBBELL_PROP", "type": "prop", "name": "Dumbbell visual", "required": false, "source": "Attach approved prop or recreate a neutral dumbbell", "usage": "Keep as a small upper-left sports cue; do not compete with voucher values."}
+      ],
+      "prompt_instructions": "Use REF_LAYOUT for geometry. Render ticket shapes and props as graphics; compose exact voucher values, thresholds, and fine text in post-production."
+    },
+    "template_controls": {
+      "fixed_structure": ["pale-yellow page", "white rounded panel", "one black hero ticket", "four yellow tier tickets", "bottom urgency line"],
+      "substitutable_fields": [
+        {"field": "hero_offer", "placeholder": "{{HERO_DISCOUNT}} / {{HERO_THRESHOLD}}", "default": "12% / min. spend of $800", "replacement_rule": "Use approved voucher percentage/value and SGD threshold."},
+        {"field": "voucher_tiers", "placeholder": "{{TIER_1_VALUE}}…{{TIER_4_THRESHOLD}}", "default": "$12/$299, $10/$219, $7/$169, $5/$139", "replacement_rule": "Keep four tiers unless the ticket explicitly changes the grid."},
+        {"field": "footer", "placeholder": "{{FOOTER_CTA}}", "default": "USE BEFORE IT GONE", "replacement_rule": "Use current urgency message or CTA."}
+      ]
+    }
+  }
+}

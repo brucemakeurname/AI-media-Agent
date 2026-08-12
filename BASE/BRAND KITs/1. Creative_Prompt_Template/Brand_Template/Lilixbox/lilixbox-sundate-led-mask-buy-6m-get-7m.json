@@ -1,0 +1,91 @@
+{
+  "name": "lilixbox-sundate-led-mask-buy-6m-get-7m",
+  "tag": [
+    "gift-with-purchase",
+    "led-mask",
+    "summer-campaign",
+    "beauty-tech"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "lilixbox_1868076470835624",
+  "prompt": {
+    "project_info": {
+      "theme": "Lixibox Sundate Energy premium GWP promotion",
+      "color_palette": "Pool blue, warm sand beige, sunset orange, white, pink LED glow, deep brown"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "Premium summer campaign poster showing a woman in a brown swimsuit standing at a poolside location while wearing a glowing pink LED face mask, turned slightly to the left with her torso angled toward camera.",
+      "style": "Luxury beauty-tech lifestyle campaign, editorial resort photography, glossy summer commercial finish"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "LIXIBOX GWP Gift with Purchase Sundate Energy / Mua mặt nạ 6 triệu / Nhận quà 7 triệu",
+      "items": [
+        "Top Left: Small white campaign header 'LIXIBOX GWP Gift with Purchase Sundate Energy'.",
+        "Top Right: Blue pool water and bright summer negative space.",
+        "Bottom Left: Open edge of a blue Sundate campaign gift box peeking into frame.",
+        "Bottom Right: Large stacked promotional typography with white line 'Mua mặt nạ 6 triệu' and orange-highlighted line 'Nhận quà 7 triệu'.",
+        "Center/Background: Full-height model in brown swimsuit wearing pink LED mask against a bright resort pool setting with stone deck."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Natural sunlight",
+      "effect": "Hard summer daylight with clean shadows, vivid pool reflections, glossy LED mask glow, high-end resort atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic advertising photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Lixibox Sundate Energy premium GWP promotion. Centerpiece is a woman in a brown swimsuit wearing a glowing pink LED face mask, posed poolside in bright daylight. Background is a luxury resort pool scene with blue water and warm stone deck. Surrounding elements: small white top-left header 'LIXIBOX GWP Gift with Purchase Sundate Energy', a blue gift box edge entering from bottom left, and large stacked offer text at lower right reading exactly 'Mua mặt nạ 6 triệu' and 'Nhận quà 7 triệu' with the second line in orange emphasis. Technical style: photorealistic advertising photography, natural sunlight, hard summer shadows and vivid pool reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "female model in brown swimsuit",
+          "required": true,
+          "source": "original Lixibox creative or campaign model reference",
+          "usage": "Preserve the standing pose, body angle, hair, and fashion styling."
+        },
+        {
+          "type": "product",
+          "name": "pink LED face mask device",
+          "required": true,
+          "source": "brand device product reference",
+          "usage": "Match the exact face mask shape, glow color, and fit on the model's face."
+        },
+        {
+          "type": "graphic",
+          "name": "offer typography and headline layout",
+          "required": true,
+          "source": "original creative image",
+          "usage": "Keep exact wording, line hierarchy, font scale, and orange emphasis."
+        },
+        {
+          "type": "product",
+          "name": "Sundate campaign gift box",
+          "required": true,
+          "source": "campaign packaging reference",
+          "usage": "Recreate the blue box edge at lower left as a supporting visual anchor."
+        },
+        {
+          "type": "location",
+          "name": "sunlit poolside deck",
+          "required": true,
+          "source": "pool environment reference",
+          "usage": "Maintain the same resort context and open-air luxury feel."
+        },
+        {
+          "type": "text_layout",
+          "name": "Lixibox Sundate Energy text composition",
+          "required": true,
+          "source": "original creative",
+          "usage": "Preserve the top-left small header and lower-right oversized offer text blocks."
+        }
+      ],
+      "prompt_instructions": "Attach refs for the model, LED face mask, gift box, and the exact text layout. Maintain the full-body vertical composition with the model centered, large offer text occupying the lower-right quadrant, and the pool as a clean sunlit background. Keep the wording exactly as visible."
+    }
+  }
+}

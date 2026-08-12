@@ -1,0 +1,83 @@
+{
+  "name": "anya-taylor-joy-red-bow-gingham-barefoot-boudoir",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "gingham",
+    "red-bow",
+    "bedroom-collage"
+  ],
+  "image_type": "four-panel bedroom fashion portrait collage",
+  "image_vibe": "playful, candid, stylish, relaxed",
+  "image_purpose": "fashion lookbook collage and social editorial",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a 3:4 four-panel photorealistic bedroom fashion portrait collage of one original approved adult woman in a blue-and-white gingham coordinate set.",
+    "main_subject": "Original approved adult woman with platinum-blonde softly waved hair, a large bright red bow headband, direct or gently lowered gaze, soft red lip color, subtle winged eyeliner, and blue geometric stud earrings. She wears a blue-and-white gingham spaghetti-strap crop top with red heart-and-cherry embroidery and white scalloped lace trim, a matching pleated mini-skirt with scalloped lace hem, and no footwear. A small white clutch with gold hardware rests on the bed in selected panels.",
+    "composition_elements": [
+      "Four coordinated panels in one vertical 3:4 collage: reclining on the bed with chin supported by both hands, seated on the bed holding a small object, turned away while seated, and seated beside the bed with one hand near the bow.",
+      "Minimalist bright bedroom with white rumpled linen sheets, pillows, and a plain white wall.",
+      "Maintain the red bow, gingham weave, embroidery, lace trim, red manicure, clutch, and panel-to-panel identity consistency.",
+      "Medium full-body framing with a natural high-angle bedroom perspective and softly readable background."
+    ],
+    "lighting_and_atmosphere": "Soft natural indoor daylight with subtle bedroom shadows, gentle contrast, candid stylish relaxed atmosphere, and a clean bright neutral palette.",
+    "technical_specs": "Ultra-photorealistic 3:4 collage, iPhone 15 Pro Max natural perspective, sharp fabric and face detail, realistic skin and linen texture, restrained natural grain, no text or watermark.",
+    "generated_prompt_string": "Ultra-photorealistic 3:4 four-panel candid bedroom fashion portrait collage of one original approved adult woman with platinum-blonde softly waved hair and a large bright red bow headband. She wears a blue-and-white gingham two-piece coordinate set: spaghetti-strap crop top with red heart-and-cherry embroidery and white scalloped lace trim, matching pleated mini-skirt with matching scalloped lace hem, blue geometric stud earrings, glossy red nail polish, and no footwear. Create four coordinated panels in a minimalist bright bedroom with white rumpled linen sheets, pillows and a plain white wall: reclining with chin supported by both hands, seated holding a small object, turned away while seated, and seated beside the bed with one hand near the bow. Include a small white clutch with gold hardware on the bed in selected panels. Keep the adult identity, red bow, outfit, gingham weave, embroidery, lace, manicure, and bedroom environment consistent. Use soft natural indoor daylight, subtle bedroom shadows, a candid stylish relaxed atmosphere, medium full-body high-angle framing, iPhone 15 Pro Max perspective, sharp realistic textures, no text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "celebrity likeness",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "distorted anatomy",
+      "extra limbs",
+      "inconsistent identity",
+      "wrong panel count",
+      "watermark",
+      "text",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "anya-taylor-joy-red-bow-gingham-barefoot-boudoir.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for original approved-adult identity, face, hair, makeup, and pose references across all panels."
+        },
+        {
+          "type": "wardrobe",
+          "name": "blue-and-white gingham coordinate with red bow and white lace trim",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve exact garment colors, fit, embroidery, lace, bow, jewelry, and bare-foot styling."
+        },
+        {
+          "type": "location",
+          "name": "bright white-linen bedroom",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve bed, rumpled linen, pillows, plain wall, daylight, and clutch placement."
+        }
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, and bedroom references; no optional assets are needed. Keep identity, outfit, red bow, props, four-panel structure, environment, lighting, and panel continuity consistent. Replace only with an equivalent approved adult, equivalent wardrobe, or equivalent bedroom reference while preserving the composition. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public-figure identity with an original approved adult and retained the four-panel gingham bedroom fashion concept with non-sexualized styling."
+    ]
+  }
+}

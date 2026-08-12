@@ -1,0 +1,78 @@
+{
+  "name": "vinamilk-probi-daily-european-bacteria-kids-immunity",
+  "tag": [
+    "vinamilk",
+    "probi",
+    "kids-immunity",
+    "daily-habit",
+    "less-sugar"
+  ],
+  "biz_niche": "Health & Wellness",
+  "content_format": "Testimonials",
+  "group": "vinamilk_1636396247454847",
+  "prompt": {
+    "project_info": {
+      "theme": "Daily probiotic habit for stronger children and less worry for moms",
+      "color_palette": "Bright royal blue, cyan blue, cream white, natural skin tones"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A cheerful young girl in a chunky striped blue sweater raises both hands while balancing a Vinamilk Probi less-sugar multipack on her head. The poster text says '+1 PROBI MỖI NGÀY' and 'LỢI KHUẨN CHÂU ÂU CON ĐỀ KHÁNG KHỎE MẸ HẾT LO ÂU'.",
+      "style": "Playful child-health advertising poster with front-facing portrait and oversized product placement"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "+1 PROBI MỖI NGÀY; LỢI KHUẨN CHÂU ÂU CON ĐỀ KHÁNG KHỎE MẸ HẾT LO ÂU; Vinamilk PROBI; SỮA CHUA UỐNG MEN SỐNG ÍT ĐƯỜNG",
+      "items": [
+        "Top Left: Light-blue title strip carrying '+1 PROBI MỖI NGÀY'",
+        "Top Right: Large pale-blue main copy over a blue striped backdrop",
+        "Bottom Left: Child's raised hand and sweater texture framing the composition",
+        "Bottom Right: Matching raised hand and sweater sleeve",
+        "Center/Background: Smiling little girl with a Vinamilk Probi less-sugar multipack balanced on her head against vertical blue stripes"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright child-friendly studio lighting",
+      "effect": "Soft portrait illumination, crisp product legibility, vivid blue backdrop, lively wholesome mood"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal FMCG lifestyle composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square child-health advertising poster for Vinamilk Probi. Centerpiece is a cheerful young girl in a chunky striped blue sweater, front-facing with raised arms, balancing a Vinamilk Probi less-sugar multipack on her head. Include the exact visible text '+1 PROBI MỖI NGÀY' and 'LỢI KHUẨN CHÂU ÂU CON ĐỀ KHÁNG KHỎE MẸ HẾT LO ÂU'. Background is a vivid blue striped studio backdrop. Surrounding elements: strong centered product pack on the girl's head and large pale-blue typography across the upper half. Technical style: photoreal FMCG lifestyle composite, bright child-friendly studio lighting, crisp product visibility and a wholesome playful mood, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Young girl portrait reference",
+          "required": true,
+          "source": "original real-photo composition",
+          "usage": "Preserve the front-facing child expression, haircut, and raised-arm pose"
+        },
+        {
+          "type": "product",
+          "name": "Vinamilk Probi less-sugar multipack",
+          "required": true,
+          "source": "real packaging reference required",
+          "usage": "Match the pack color, bottle layout, and front-label text balanced above the girl's head"
+        },
+        {
+          "type": "background",
+          "name": "Blue striped backdrop",
+          "required": true,
+          "source": "original visual setup",
+          "usage": "Maintain the vertical stripe rhythm and bright blue atmosphere"
+        },
+        {
+          "type": "text_layout",
+          "name": "Daily habit and immunity claim copy",
+          "required": true,
+          "source": "original creative copy",
+          "usage": "Keep exact Vietnamese wording and large top-half hierarchy"
+        }
+      ],
+      "prompt_instructions": "This should feel energetic and child-centered. Keep the pack balanced on the head, the sweater texture visible, and the bright blue palette dominant. Avoid generic family scenes or additional props."
+    }
+  }
+}

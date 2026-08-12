@@ -1,0 +1,53 @@
+{
+  "name": "cellphones-alpha-works-aw-w39-speaker-149",
+  "tag": ["cellphones", "alpha works speaker", "bluetooth speaker", "149 trieu", "student discount"],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "cellphones_1421429793141077",
+  "prompt": {
+    "project_info": {
+      "theme": "Portable speaker sale card",
+      "color_palette": "CellphoneS red, white, cream, electric blue"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A bold speaker-sale poster with two floating renders of the Alpha Works AW-W39 portable speaker, one large cream unit and one smaller orange variant, against a geometric red product-stage background and a blue pricing bar.",
+      "style": "Bold product-card electronics poster"
+    },
+    "composition_elements": {
+      "type": "Product/Typography/Pricing Bar",
+      "text": "cellphoneS, Alpha Works AW-W39, GIÁ ƯU ĐÃI 1.49 Triệu, S-STUDENT | S-TEACHER GIẢM 74K, BẢO HÀNH 12 THÁNG 1 ĐỔI 1 TRONG 30 NGÀY, Sử dụng tới 12 giờ - Công suất RNS 35W - Kháng nước chuẩn IPX4",
+      "items": [
+        "Top Center: red cellphoneS logo block.",
+        "Upper Middle: huge white title 'Alpha Works AW-W39'.",
+        "Center: large floating cream speaker with front grille and top control buttons.",
+        "Upper Right: smaller orange color variant angled similarly.",
+        "Background: deep red geometric wall panels and display niche.",
+        "Bottom: wide blue pricing bar containing discounted price, student-teacher reduction, and warranty terms.",
+        "Footer Below Bar: white text line 'Sử dụng tới 12 giờ - Công suất RNS 35W - Kháng nước chuẩn IPX4'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright studio-product lighting",
+      "effect": "Glossy product contours, strong retail contrast, clean object separation"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal portable-speaker sale poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "Alpha Works AW-W39 speaker in cream and orange", "required": true, "source": "source image product reference", "usage": "Preserve both speaker variants, grille details, and the top-button arrangement."},
+        {"type": "background", "name": "red geometric stage wall", "required": true, "source": "source image background reference", "usage": "Keep the red architectural panels and niche-like framing."},
+        {"type": "text_layout", "name": "title, blue pricing bar, and spec footer", "required": true, "source": "source image text reference", "usage": "Preserve all visible text, price formatting, student reduction, and waterproof-duration specs."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the floating product scale and exact blue-bar layout.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the clean red product-stage look with the large cream speaker as the main hero."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square product-sale poster with a deep red geometric wall and product-stage background. Place the red cellphoneS logo at the top center and add the large white title 'Alpha Works AW-W39'. Show a large floating cream portable speaker in the center with a perforated front grille and top buttons, plus a smaller orange variant in the upper right. At the bottom, add a wide blue pricing bar with 'GIÁ ƯU ĐÃI 1.49 Triệu', 'S-STUDENT | S-TEACHER GIẢM 74K', and 'BẢO HÀNH 12 THÁNG 1 ĐỔI 1 TRONG 30 NGÀY'. Below it place the white spec line 'Sử dụng tới 12 giờ - Công suất RNS 35W - Kháng nước chuẩn IPX4'. Technical style: photoreal portable-speaker sale poster, bright studio-product lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark muddy render, incorrect text, wrong speaker shape, low resolution, warped grille, cluttered background, watermark, signature"
+  }
+}

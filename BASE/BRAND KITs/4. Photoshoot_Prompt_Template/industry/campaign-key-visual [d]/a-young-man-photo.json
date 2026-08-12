@@ -1,0 +1,59 @@
+{
+  "name": "a-young-man-photo",
+  "tag": ["adult-man", "blue-streetwear", "mixed-media-collage", "white-doodles", "graphic-campaign", "full-body"],
+  "image_type": "mixed-media-fashion-campaign",
+  "image_vibe": "energetic-artistic-urban",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an adult and replaced named brand marks with generic sportswear graphics while preserving the full-body blue outfit, dynamic pose, doodle overlays, liquid shapes, and mixed-media campaign concept."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "mixed-media full-body studio fashion portrait with digital illustration collage",
+      "color_palette": "bright cyan blue, deep cobalt, white, and dark indigo",
+      "aspect_ratio": "1:1"
+    },
+    "main_subject": {
+      "description": "An adult man with natural facial detail and a confident playful expression, posing dynamically against a vivid blue studio background.",
+      "wardrobe": "Blue denim or canvas bucket hat, vivid blue high-pile fleece jacket worn open, blue graphic T-shirt with a simple white geometric sportswear emblem, dark indigo relaxed jeans with white contrast stitching, and clean white sneakers with dark sole details.",
+      "pose": "Full-body low-angle stance with body angled slightly right, head tilted left, one hand raised near the face, one leg crossed over the other, and the other hand interacting with the graphic boombox overlay.",
+      "styling": "Energetic urban campaign styling with sharp contrast between realistic photography and flat vector illustration."
+    },
+    "composition_elements": {
+      "framing": "Complete head-to-toe square frame with centered subject, asymmetrical graphic balance, and no crop.",
+      "environment": "Solid bright blue studio background with darker blue liquid shapes behind the subject and white hand-drawn vector overlays: hanging microphone, boombox, radiating sound lines, motion lines, and cracked-floor effect under the feet.",
+      "focus": "Sharp adult subject, fleece texture, denim stitching, white sneakers, and crisp vector overlays with clear separation from the blue background."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft diffused front-right studio lighting with gentle shadow on the left side of the face and even illumination across the graphic backdrop.",
+      "atmosphere": "Cool, playful, energetic, artistic, and urban."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with a 35mm lens at f/5.6, 1/200 s, ISO 100, slight low-angle perspective",
+      "quality": "High-resolution photorealistic subject with sharp vector edges, low compression artifacts, no noise, deep focus, and clean mixed-media compositing"
+    },
+    "generated_prompt_string": "Create a high-resolution 1:1 mixed-media fashion campaign image combining a photorealistic adult man with crisp white hand-drawn vector graphics and abstract blue liquid shapes. The adult man wears a blue bucket hat, vivid blue high-pile fleece jacket, blue graphic T-shirt with a simple white geometric sportswear emblem, dark indigo relaxed jeans with white contrast stitching, and clean white sneakers with dark sole details. Pose him full-body from a slight low angle against a bright cyan-blue studio background: body angled slightly right, head tilted left, one hand raised near his face, legs crossed dynamically, and the other hand near a white line-art boombox. Add a hanging microphone, radiating sound lines, motion lines, darker blue liquid shapes, and a cracked-floor effect under his feet. Use soft front-right studio light, deep focus, sharp vector edges, and no readable brand marks or extra text.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, readable text, logo, watermark, recognizable trademark emblem, muddy vector edges, compression artifacts, blur, deformed anatomy, extra limbs, incorrect footwear",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult subject. Optional wardrobe, doodle, liquid-shape, or studio references may replace only their named element; preserve the dynamic adult pose, monochromatic blue palette, white overlays, full-body framing, and mixed-media campaign energy.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "blue-fleece-streetwear-look",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the hat, fleece jacket, T-shirt, jeans, or sneakers while preserving the blue-and-white campaign palette."
+        },
+        {
+          "type": "graphic-style",
+          "name": "white-hand-drawn-doodle-overlay-set",
+          "required": false,
+          "source": "user-uploaded graphic reference",
+          "usage": "Replace only the microphone, boombox, sound lines, liquid shapes, or cracked-floor overlays while preserving crisp vector separation."
+        }
+      ]
+    }
+  }
+}

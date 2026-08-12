@@ -1,0 +1,73 @@
+{
+    "name":  "minimal-food-brand-advertisement",
+    "tag":  [
+                "food-ad",
+                "product-shot",
+                "branding",
+                "minimal",
+                "studio-lighting"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Brand story",
+    "group":  "poster_60",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Iconic food product with irresistible texture",
+                                        "color_palette":  "Brand-derived pastel or gradient background with product-led accent colors"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Food product hero",
+                                        "detail":  "The most iconic product from [INSERT BRAND NAME], centered and rendered with tactile appetite appeal such as cheese pull, dripping chocolate, whipped cream, or condensation.",
+                                        "style":  "Minimal cinematic food advertising, glossy commercial product photography"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Product, slogan, and logo",
+                                                "text":  "[BOLD BRAND SLOGAN]; [APPROVED BRAND LOGO]",
+                                                "items":  [
+                                                              "Top: bold slogan in brand-matched color.",
+                                                              "Center: one isolated hero food or beverage product with mouthwatering texture.",
+                                                              "Bottom: approved brand logo lockup.",
+                                                              "Background: uncluttered brand-inspired pastel or gradient color field."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Cinematic studio lighting",
+                                                   "effect":  "Soft shadows, sharp edible textures, controlled gloss, no clutter"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "High-resolution commercial food photography",
+                                           "resolution":  "8k resolution, highly detailed, vertical 2:3"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "Approved product reference",
+                                                                 "required":  true,
+                                                                 "source":  "official product photography or licensed food styling reference",
+                                                                 "usage":  "Match actual food shape, ingredients, packaging, and portion."
+                                                             },
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "Approved brand logo",
+                                                                 "required":  true,
+                                                                 "source":  "official licensed brand kit",
+                                                                 "usage":  "Place at bottom only."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "Food-ad layout reference",
+                                                                 "required":  true,
+                                                                 "source":  "supplied reference image",
+                                                                 "usage":  "Match four-panel or single-product hierarchy as selected."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach official product and logo refs for a real brand.",
+                                                                          "Do not generate unsupported food, nutrition, or promotional claims."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "A vertical 2:3 high-resolution food advertisement featuring the most iconic and delicious product from a well-known brand called [INSERT BRAND NAME]. The product appears centered with mouthwatering details - such as melted cheese, dripping chocolate, whipped cream, or condensation - depending on the product. The background should be a gradient or pastel tone inspired by the brand\u0027s identity. At the top, display a bold slogan in a color that matches the brand\u0027s style. At the bottom, include the official logo of the brand. Use cinematic studio lighting, soft shadows, and ultra-sharp textures to create a visually irresistible and minimal poster.",
+                   "negative_prompt":  "unappetizing food, messy composition, distorted packaging, fake logo, unreadable slogan, low resolution, watermark, signature"
+               }
+}

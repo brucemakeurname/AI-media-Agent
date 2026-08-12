@@ -1,0 +1,19 @@
+{
+  "name": "prompt-312",
+  "tag": ["surreal-character-grid", "puffy-sofa", "graffiti-wall", "fashion-editorial", "four-panel"],
+  "image_type": "campaign-key-visual",
+  "image_vibe": "playful",
+  "image_purpose": "campaign",
+  "group": "campaign-key-visual",
+  "prompt": {
+    "project_info": {"theme": "Character-led puffy sofa editorial grid", "color_palette": "white, red, brown, blue, cream and optional character-specific colors"},
+    "main_subject": {"type": "approved adult character or non-human fictional character", "detail": "[CHARACTER] sits centered on an oversized puffy lounge sofa in [SOFA_COLOR], relaxed with one hand under the chin, shown full-body. Use generic or approved fictional characters only; do not reproduce any public-figure likeness visible in the source image.", "style": "hyper-real premium fashion editorial with playful surreal character casting"},
+    "composition_elements": {"layout": "four-panel grid of centered seated portraits", "text": "Large spray-paint graffiti on the wall reads [TEXT], with soft overspray and slight drips.", "items": ["oversized puffy lounge sofa", "clean white seamless studio", "panel-specific sofa colors", "full-body seated pose", "minimal set without clutter or watermark"]},
+    "lighting_and_atmosphere": {"type": "large softbox at 5000K with frontal bounce and subtle edge light", "effect": "clean premium shadows, tactile upholstery, soft graffiti overspray and consistent studio exposure across panels"},
+    "technical_specs": {"render_style": "Phase One XF IQ4, 85mm lens look, polished editorial studio photography", "resolution": "4K", "aspect_ratio": "3:4", "optics": "crisp central subject, moderate depth of field and restrained grain"},
+    "generated_prompt_string": "[CHARACTER] sitting centered on an oversized puffy lounge sofa in [SOFA_COLOR], relaxed pose with one hand under chin, full-body. Clean white seamless studio, premium fashion-editorial lighting, hyper-real, minimal. Big spray-paint graffiti on the back wall reading \"[TEXT]\" with soft overspray and slight drips. 85mm look, crisp details, no clutter, no watermark. --ar 3:4",
+    "negative_prompt": "explicit, nsfw, overly revealing, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, inconsistent panel anatomy, illegible graffiti",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-or-fictional-character", "required": true, "source": "approved character reference supplied at generation time", "usage": "Preserve approved identity only; do not use public-figure likeness."}, {"type": "accessory", "name": "oversized-puffy-lounge-sofa", "required": true, "source": "source image supplied with this template", "usage": "Preserve oversized silhouette, upholstery texture and centered seating pose."}, {"type": "graphic", "name": "spray-paint-graffiti-wall-text", "required": true, "source": "source image supplied with this template", "usage": "Replace [TEXT] with approved text while preserving overspray and drip treatment."}], "prompt_instructions": "Attach an approved adult or fictional character reference and specify [SOFA_COLOR] and [TEXT]. Keep the sofa, centered pose, clean studio and graffiti treatment consistent. Never attach or reproduce a celebrity, politician or public-figure identity from the source image."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Made the character generic or approved-fictional and prohibited public-figure likeness while preserving the sofa grid concept."]}
+}

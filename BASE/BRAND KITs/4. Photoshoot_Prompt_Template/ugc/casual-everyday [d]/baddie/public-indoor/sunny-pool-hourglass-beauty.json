@@ -1,0 +1,58 @@
+{
+  "name": "sunny-pool-hourglass-beauty",
+  "tag": [
+    "ugc",
+    "baddie",
+    "public-indoor",
+    "luxury-poolside",
+    "black-bikini",
+    "side-profile"
+  ],
+  "image_type": "ugc-poolside-lifestyle-portrait",
+  "image_vibe": "sun-drenched-tropical",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/public-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic sun-drenched tropical poolside portrait with a black triangle bikini, blonde hair and hard daylight, preserving the side-profile adjustment pose.",
+    "main_subject": "One original approved adult woman with long wavy blonde hair, realistic natural skin texture and a gentle downward gaze. She wears a minimalist black two-piece triangle bikini and a single gold bangle. Preserve a natural feminine silhouette and side profile without exaggerated measurements or explicit body emphasis.",
+    "composition_elements": "Vertical 9:16 portrait from mid-thigh upward. The adult subject stands beside the pool in left-facing side profile, looks down toward the water and lightly adjusts the side straps with both hands. Include detailed stone coping, clear turquoise water, dense tropical foliage, palm trees, modern dark fence and bright blue sky; no hat or headwear.",
+    "lighting_and_atmosphere": "Strong direct natural sunlight creates defined but realistic shadows, warm highlights and clear hair and skin texture. Keep the mood candid, luxurious and tropical.",
+    "technical_specs": "9:16 vertical professional-photo feel, sharp subject and environmental detail, realistic true-to-life color, natural reflections in water and restrained contrast.",
+    "generated_prompt_string": "Create a photorealistic sun-drenched tropical poolside portrait of one original approved adult woman with long wavy blonde hair, realistic natural skin texture and a gentle downward gaze. She wears a minimalist black two-piece triangle bikini and a single gold bangle, with no hat or headwear. Use a vertical 9:16 frame from mid-thigh upward; she stands beside the pool in left-facing side profile, looks toward the water and lightly adjusts the side straps with both hands. Include detailed stone coping, clear turquoise water, dense tropical foliage, palm trees, a modern dark fence and bright blue sky. Use strong direct sunlight, realistic defined shadows, warm highlights, clear hair and skin detail and true-to-life color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, body-part emphasis, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, wardrobe malfunction, hat, headwear, unreadable text or logos",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "sunny-pool-hourglass-beauty.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, blonde hair, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "minimalist black triangle bikini and gold bangle",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve black color, triangle construction, side straps, bangle and no-headwear requirement; replace only with an explicitly supplied wardrobe reference."
+        },
+        {
+          "type": "location",
+          "name": "turquoise pool, stone coping, tropical plants and modern fence",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve pool edge, water, foliage, fence, sky and sunlight direction; environment may be replaced independently through explicit references."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, face, hair, outfit, hand placement, no-headwear constraint, pool environment and sunlight consistent. The approved adult, wardrobe and setting may be replaced separately through explicit references while retaining the side-profile composition. No logo or typography is required."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adult.",
+      "Removed exaggerated glute/body emphasis while preserving the black bikini, side-profile pose and tropical poolside intent.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

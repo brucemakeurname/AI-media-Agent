@@ -1,0 +1,58 @@
+{
+  "name": "playful-bikini-girl-overhead",
+  "tag": [
+    "ugc",
+    "baddie",
+    "private-indoor",
+    "playful-expression",
+    "overhead-portrait",
+    "yellow-halter-bikini"
+  ],
+  "image_type": "ugc-playful-overhead-portrait",
+  "image_vibe": "bright-playful-candid",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic playful social-media portrait with an overhead viewpoint, expressive wink and tongue-out smile, preserving the supplied warm yellow halter styling and blue textile background.",
+    "main_subject": "One original approved adult woman with fair skin, visible freckles across cheeks and nose, flushed cheeks, wavy brown hair spread around her head, brown eyes and a playful expression. She wears a mustard-yellow halter bikini top with black embroidered zig-zag trim, small gold hoops and a delicate gold chain with a small dark charm.",
+    "composition_elements": "Use a 2:3 overhead bird's-eye portrait of the adult subject lying on her back with hair spread above her head. Center her face and shoulders, keep one eye open and the other winking, tongue out with a broad toothy smile, and place her against a light-blue textured pillow and blanket.",
+    "lighting_and_atmosphere": "Soft natural indoor light evenly illuminates the face, freckles, hair and yellow fabric with gentle realistic shadows. Keep the atmosphere cheerful, candid and friendly.",
+    "technical_specs": "2:3 vertical composition, overhead smartphone perspective, sharp focus on eyes and expression, realistic hair strands and textile texture, natural skin detail, moderate contrast and clean candid color.",
+    "generated_prompt_string": "Create a photorealistic playful social-media portrait of one original approved adult woman with fair skin, visible freckles across cheeks and nose, flushed cheeks, wavy brown hair spread around her head, brown eyes and a playful expression. She wears a mustard-yellow halter bikini top with black embroidered zig-zag trim, small gold hoops and a delicate gold chain with a small dark charm. Use a 2:3 overhead bird's-eye view as she lies on her back against a light-blue textured pillow and blanket. Center her face and shoulders; keep one eye open and the other winking, tongue out with a broad toothy smile. Use soft natural indoor light, realistic hair and textile texture, natural skin detail, moderate contrast and clean candid color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, body-part emphasis, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, unreadable text or logos",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "playful-bikini-girl-overhead.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, freckles, hair, expression and likeness; preserve facial structure while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "mustard-yellow halter bikini top with black zig-zag trim and gold jewelry",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the yellow fabric, trim, halter construction, earrings and necklace; replace only with an explicitly supplied wardrobe reference."
+        },
+        {
+          "type": "background",
+          "name": "light-blue textured pillow and blanket",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the blue textile color, texture and overhead background; individual bedding elements may be replaced while retaining the same framing and palette."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and background references. Keep identity, face, freckles, hair, expression, outfit trim, jewelry and textile palette consistent. The approved adult, wardrobe and bedding may be replaced separately with explicit references, but keep the overhead composition and playful expression. No logo or typography is required; preserve any garment pattern as non-textual trim."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed age wording to original approved adult and retained the playful expression.",
+      "Removed body-proportion and sexualized wording while preserving the overhead composition, yellow halter styling and candid mood.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

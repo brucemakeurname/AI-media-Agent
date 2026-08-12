@@ -1,0 +1,23 @@
+{
+  "skill_name": "tea-ugc-ai-realism",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Chuyển script này thành prompt video AI UGC như thật: 'Sau tập tôi hay đói và ăn snack lung tung. Giờ tôi pha 1 scoop whey trước khi về nhà, đỡ thèm ngọt hơn nhiều.'",
+      "expected_output": "Scene prompt includes lived-in location, specific action, hands/object interaction, micro facial expression, voice direction, phone camera, negative prompt, and 7T check.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Prompt này nhìn giả quá, sửa cho tự nhiên hơn: 'A beautiful woman holds supplement and talks in studio, cinematic lighting.'",
+      "expected_output": "Diagnoses fake-looking elements and rewrites into realistic UGC prompt without cinematic/studio language, adding real action, hands, face, voice, background, camera, and negative prompt.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Làm bảng prompt 3 scene cho video AI UGC về creatine gummies, vibe như người thật review sau gym.",
+      "expected_output": "Outputs a 3-scene UGC AI realism brief/table with message, action, hands/object, face, voice, camera, prompt, negative prompt, and 7T checklist.",
+      "files": []
+    }
+  ]
+}

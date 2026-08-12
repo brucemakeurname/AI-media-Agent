@@ -1,0 +1,71 @@
+{
+  "name": "ysl-y-le-parfum-blue-packshot",
+  "tag": [
+    "ysl",
+    "y-le-parfum",
+    "fragrance",
+    "blue-packshot",
+    "hero-product"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "ysl_2261335831272727",
+  "prompt": {
+    "project_info": {
+      "theme": "Blue spotlight hero for Y Le Parfum",
+      "color_palette": "Midnight blue, icy blue glow, black lacquer, silver"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A dark navy-black Y Le Parfum bottle stands centered against a dramatic blue spotlight backdrop. The lower copy reads 'Y LE PARFUM', 'ĐIỀM TĨNH, TIÊN PHONG', and 'PHONG LỮ, NHỰA THÔNG, GỖ TUYẾT TÙNG, HOẮC HƯƠNG'.",
+      "style": "Luxury masculine fragrance hero packshot, sleek blue-light advertising, minimalist product dominance"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "Y LE PARFUM, ĐIỀM TĨNH, TIÊN PHONG, PHONG LỮ, NHỰA THÔNG, GỖ TUYẾT TÙNG, HOẮC HƯƠNG",
+      "items": [
+        "Top Left: Dark blue negative space transitioning toward a pale spotlight center",
+        "Top Right: Textured black cap with cool rim light",
+        "Bottom Left: Large bold white product name block",
+        "Bottom Right: Smaller white fragrance-note copy under the tagline",
+        "Center/Background: Glossy dark Y Le Parfum bottle with metallic Y-shaped silver band, lit by a vertical icy blue spotlight"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Dramatic cool studio lighting",
+      "effect": "Strong back spotlight, glossy lacquer reflections, deep blue ambience, masculine precision"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal luxury fragrance photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury fragrance poster for YSL. Centerpiece is a glossy dark Y Le Parfum bottle with a metallic Y-shaped silver band, standing centered in front of a vertical icy blue spotlight on a midnight-blue background. Include the exact text 'Y LE PARFUM', 'ĐIỀM TĨNH, TIÊN PHONG', and 'PHONG LỮ, NHỰA THÔNG, GỖ TUYẾT TÙNG, HOẮC HƯƠNG' in white at the bottom. Technical style: photoreal luxury fragrance photography, dramatic cool studio lighting, glossy lacquer reflections and deep blue ambience, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Y Le Parfum bottle",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Preserve the bottle geometry, black lacquer body, cap texture, and silver Y-shaped band"
+        },
+        {
+          "type": "background",
+          "name": "Blue spotlight set",
+          "required": true,
+          "source": "original lighting setup",
+          "usage": "Match the vertical icy spotlight and dark blue side falloff"
+        },
+        {
+          "type": "text_layout",
+          "name": "Bottom product-copy layout",
+          "required": true,
+          "source": "original poster layout",
+          "usage": "Keep the large product name, bold tagline, and notes stacked at the bottom"
+        }
+      ],
+      "prompt_instructions": "Do not add extra props. The fidelity depends on the stark blue spotlight, centered bottle, and clean masculine minimalism."
+    }
+  }
+}

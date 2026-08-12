@@ -1,0 +1,22 @@
+{
+  "name": "prompt-944",
+  "tag": ["ugc", "selfie-pov", "cozy-casual", "private-indoor"],
+  "image_type": "laptop-screen documentary photograph",
+  "image_vibe": "hyperrealistic work-from-home waiting room",
+  "image_purpose": "realistic screen/UI reference for a laptop meeting setup",
+  "group": "cozy-casual/private-indoor",
+  "prompt": {
+    "project_info": "Create a hyperrealistic iPhone photograph of a MacBook screen showing a generic meeting waiting room, using the supplied local image for layout and realism reference.",
+    "main_subject": "Generic approved adult blonde woman with soft bangs, loose layers, natural pores and micro-imperfections, black prescription glasses, over-ear headphones, neutral modest top, calm focused expression, shown in the meeting preview.",
+    "composition_elements": "Slightly off-axis handheld iPhone photo of a MacBook in a modern open office with exposed ducts and daylight. Show a dark meeting waiting-room interface with readable generic UI labels, audio options, cancel button, subtle screen reflection, fingerprints, glare, dust, and macOS dock. Do not reproduce personal account names or profile images.",
+    "lighting_and_atmosphere": "Soft natural office daylight mixed with neutral indoor lighting around 5200K, realistic screen contrast.",
+    "technical_specs": "Photorealistic documentary still, 3:4 ratio, high detail, natural display contrast, accurate screen white balance, mild moire and glass artifacts, no post-processing look.",
+    "generated_prompt_string": "Hyperrealistic iPhone photo of a MacBook in a modern open office, showing a generic dark-mode meeting waiting room with readable generic controls, audio options, and cancel button. A generic approved adult blonde woman wearing black glasses and over-ear headphones appears in the video preview with natural skin texture and a calm focused expression. Include subtle screen reflection, fingerprints, glare, dust, moire, and macOS dock; remove personal account names, profile photos, and private data.",
+    "negative_prompt": "explicit, nsfw, overly revealing, underage, childlike, sexualized pose, nudity, personal account identity, real person's profile photo, private email, passwords, exposed personal data, fake buttons, wrong meeting app layout, blurred UI text, distorted face, plastic skin, double face, mirror reflection, watermark, public figure likeness.",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "prompt-944_0.jpg", "required": true, "source": "local preview", "usage": "Laptop framing, meeting UI layout, office environment, screen artifacts, and generic video-preview styling reference."}],
+      "prompt_instructions": "Attach the required local image. Preserve laptop framing, generic meeting layout, office, lighting, and screen artifacts; replaceability applies to the video-preview identity only when an approved reference is attached. Keep UI text generic and replaceable, and remove personal account names, profile photos, emails, and private identifiers. Brand/app marks may remain only as supplied interface context; do not invent new logos."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Generalized the meeting UI and removed personal account names, profile imagery, and private identifiers from the generation instructions."]}
+}

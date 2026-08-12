@@ -1,0 +1,70 @@
+{
+  "name": "shopee-summer-trend-mega-deals-blue-beach-collage",
+  "tag": [
+    "summer-sale",
+    "multi-product",
+    "trend-campaign",
+    "beach-collage"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "shopee_1984135995590375",
+  "prompt": {
+    "project_info": {
+      "theme": "Summer trend shopping campaign collage",
+      "color_palette": "Ocean blue, bright yellow, sand beige, white"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A beach-collage summer sale poster with a blue sea backdrop and torn-paper sand foreground. Main heading reads 'DEAL XIN CHAO HE' and giant yellow title 'UU DAI NGAP TRAN'. Three dark-blue badges show 'GIAM DEN 49%++', 'VOUCHER 250.000D', and 'DEAL DUOI 9.000D'. The top-right badge says 'CON 3 NGAY' and 'NGAY 15 SALE GIUA THANG'. Various products and accessories are collaged around the sand, including a large white suitcase, pink cushion compact, blue bottle, handheld fan, striped towel, sunglasses case or box, and envelope-like paper craft. A small badge reads 'MUA SAM XU HUONG'.",
+      "style": "Cutout-style summer retail collage with bold sale typography and scrapbook-like beach merchandising"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "DEAL XIN CHAO HE / UU DAI NGAP TRAN / GIAM DEN 49%++ / VOUCHER 250.000D / DEAL DUOI 9.000D / CON 3 NGAY / NGAY 15 SALE GIUA THANG / MUA SAM XU HUONG / (*) Chi tiet chuong trinh (bao gom cac truong hop loai tru) xem tai trang Mien Phi Van Chuyen tren Ung dung",
+      "items": [
+        "Top Left: White Shopee logo over blue sky",
+        "Top Right: Countdown badge 'CON 3 NGAY' and 'NGAY 15 SALE GIUA THANG' plus the 'MUA SAM XU HUONG' badge",
+        "Bottom Left: Large white suitcase cutout and leaf illustrations",
+        "Bottom Right: Compact cushion, blue skincare bottle, mini fan, striped towel, and folded paper props on sand",
+        "Center/Background: Blue ocean-sky field, torn-paper sand edge, giant yellow headline, and three dark-blue promo price badges"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright playful summer graphic lighting",
+      "effect": "Flat-cutout shadows, cheerful saturation, clean collage edges, airy beach mood"
+    },
+    "technical_specs": {
+      "render_style": "Graphic collage sale poster with cutout merchandising elements",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee summer trend sale. Centerpiece is a bright blue beach-collage layout with giant yellow title 'UU DAI NGAP TRAN' and a top label 'DEAL XIN CHAO HE'. Background is blue sea-sky with a torn-paper sand foreground. Surrounding elements: Shopee logo, badges 'GIAM DEN 49%++', 'VOUCHER 250.000D', and 'DEAL DUOI 9.000D', top-right countdown 'CON 3 NGAY' and 'NGAY 15 SALE GIUA THANG', 'MUA SAM XU HUONG' badge, and multiple cutout products including a suitcase, compact cushion, blue bottle, mini fan, striped towel, and paper props. Technical style: graphic collage sale poster with cutout merchandising elements, bright playful summer lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Mixed product cutout set for summer collage",
+          "required": true,
+          "source": "original product packshots or cutouts for suitcase, compact, blue bottle, fan, and other items",
+          "usage": "Attach if exact object identity and silhouette must match the source collage"
+        },
+        {
+          "type": "text_layout",
+          "name": "Summer collage sale layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the giant title, three dark-blue sale badges, and the beach scrapbook arrangement"
+        },
+        {
+          "type": "graphic",
+          "name": "Torn-paper beach and leaf motif system",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the sand tear edge, leaf graphics, and the scrapbook-like composition"
+        }
+      ],
+      "prompt_instructions": "This creative should stay collage-like rather than photorealistic. 'NGAY 15' is in the past relative to Friday, July 17, 2026 and must remain visible exactly as shown."
+    }
+  }
+}

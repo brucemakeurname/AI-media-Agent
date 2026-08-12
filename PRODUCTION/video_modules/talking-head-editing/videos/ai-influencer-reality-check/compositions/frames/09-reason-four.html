@@ -1,0 +1,212 @@
+<template data-composition-id="09-reason-four">
+  <style>
+    @font-face {
+      font-family: "Barlow";
+      font-weight: 900;
+      src: url("assets/fonts/Barlow-Black.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: "Barlow";
+      font-weight: 800;
+      src: url("assets/fonts/Barlow-ExtraBold.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: "Barlow";
+      font-weight: 700;
+      src: url("assets/fonts/Barlow-Bold.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: "Barlow";
+      font-weight: 600;
+      src: url("assets/fonts/Barlow-SemiBold.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: "IBM Plex Mono";
+      font-weight: 500;
+      src: url("assets/fonts/IBMPlexMono-Medium.woff2") format("woff2");
+    }
+
+    #root {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      container-type: size;
+      overflow: hidden;
+      font-family: "Barlow", sans-serif;
+    }
+
+    #root .rf4-bg {
+      position: absolute;
+      inset: 0;
+      background: #e85d26; /* fire-orange */
+    }
+
+    #root .rf4-content {
+      position: absolute;
+      inset: 0;
+      padding: 5.5cqw;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    /* chrome row: broadside-num + kicker */
+    #root .rf4-chrome {
+      display: flex;
+      align-items: baseline;
+      gap: 1cqw;
+    }
+    #root .rf4-num {
+      font-family: "IBM Plex Mono", monospace;
+      font-weight: 500;
+      font-size: 0.72cqw;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(17, 17, 17, 0.4); /* ink-on-orange-faint */
+    }
+    #root .rf4-kicker {
+      font-family: "IBM Plex Mono", monospace;
+      font-weight: 500;
+      font-size: 0.72cqw;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(17, 17, 17, 0.55); /* ink-on-orange-hint */
+    }
+
+    /* rule stub */
+    #root .rf4-rule {
+      width: 36px;
+      height: 2px;
+      background: #111111;
+      margin-top: 2cqh;
+    }
+
+    /* hero display clause */
+    #root .rf4-hero {
+      margin-top: 14cqh;
+      max-width: 78cqw;
+    }
+    #root .rf4-hero span {
+      display: inline-block;
+      font-family: "Barlow", sans-serif;
+      font-weight: 800;
+      font-size: 7.5cqw;
+      line-height: 0.9;
+      letter-spacing: -0.03em;
+      color: #111111;
+      text-transform: lowercase;
+      will-change: transform, filter, opacity;
+    }
+
+    /* lead line — phrase-by-phrase / per-word reveal */
+    #root .rf4-lead {
+      margin-top: 3.5cqw;
+      max-width: 78cqw;
+      font-family: "Barlow", sans-serif;
+      font-weight: 600;
+      font-size: 1.6cqw;
+      line-height: 1.5;
+      color: rgba(17, 17, 17, 0.75); /* ink-on-orange-muted */
+    }
+    #root .rf4-lead .rf4-word {
+      display: inline-block;
+      opacity: 0;
+      will-change: transform, opacity;
+    }
+    #root .rf4-lead .rf4-sep {
+      display: inline-block;
+      opacity: 0;
+      color: rgba(17, 17, 17, 0.4);
+      font-family: "IBM Plex Mono", monospace;
+      font-weight: 500;
+      margin: 0 0.4em;
+    }
+  </style>
+
+  <div id="root" data-composition-id="09-reason-four" data-width="1080" data-height="1920">
+    <div class="clip rf4-bg" data-start="0" data-duration="7.659" data-track-index="0"></div>
+
+    <div class="rf4-content">
+      <div class="clip rf4-chrome" data-start="0" data-duration="7.659" data-track-index="1">
+        <span class="rf4-num">No. 04</span>
+        <span class="rf4-kicker">Reason</span>
+      </div>
+
+      <div class="clip rf4-rule" data-start="0" data-duration="7.659" data-track-index="4"></div>
+
+      <div class="clip rf4-hero" data-start="0" data-duration="7.659" data-track-index="2">
+        <span id="rf4-hero-text">it ain&rsquo;t cheap.</span>
+      </div>
+
+      <div class="clip rf4-lead" data-start="0" data-duration="7.659" data-track-index="3">
+        <span class="rf4-word" id="rf4-w0">GPU</span>
+        <span class="rf4-word" id="rf4-w1">costs</span>
+        <span class="rf4-sep" id="rf4-s0">/</span>
+        <span class="rf4-word" id="rf4-w2">subscriptions</span>
+        <span class="rf4-sep" id="rf4-s1">/</span>
+        <span class="rf4-word" id="rf4-w3">hours</span>
+        <span class="rf4-word" id="rf4-w4">fixing</span>
+        <span class="rf4-word" id="rf4-w5">glitches.</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var tl = gsap.timeline({ paused: true });
+
+      // Scene 1 (0.0-1.5s): ground is present immediately; chrome (catalogue
+      // number + kicker) and the rule stub fade/rise in.
+      tl.fromTo(
+        ".rf4-bg",
+        { opacity: 0 },
+        { opacity: 1, duration: 0.35, ease: "power1.out" },
+        0,
+      );
+      tl.fromTo(
+        ".rf4-num",
+        { opacity: 0, y: 10 },
+        { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" },
+        0.15,
+      );
+      tl.fromTo(
+        ".rf4-kicker",
+        { opacity: 0, y: 10 },
+        { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" },
+        0.35,
+      );
+      tl.fromTo(
+        ".rf4-rule",
+        { scaleX: 0, opacity: 0 },
+        { scaleX: 1, opacity: 1, duration: 0.5, ease: "power2.out", transformOrigin: "left center" },
+        0.55,
+      );
+
+      // Scene 2 (1.5-4.5s): "it ain't cheap" slams in — kinetic-beat-slam,
+      // single-phrase scale+blur attack on the beat.
+      tl.fromTo(
+        "#rf4-hero-text",
+        { scale: 1.35, filter: "blur(14px)", opacity: 0 },
+        { scale: 1, filter: "blur(0px)", opacity: 1, duration: 0.55, ease: "power4.out" },
+        1.5,
+      );
+
+      // Scene 3 (4.5-7.0s): lead line enumerates phrase-by-phrase via a
+      // per-word staggered reveal, then settles and holds to the end.
+      var words = ["#rf4-w0", "#rf4-w1", "#rf4-s0", "#rf4-w2", "#rf4-s1", "#rf4-w3", "#rf4-w4", "#rf4-w5"];
+      var onsets = [4.5, 4.65, 4.8, 5.1, 5.4, 5.7, 5.85, 6.0];
+      words.forEach(function (sel, i) {
+        tl.fromTo(
+          sel,
+          { opacity: 0, y: 14 },
+          { opacity: 1, y: 0, duration: 0.4, ease: "power3.out" },
+          onsets[i],
+        );
+      });
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines["09-reason-four"] = tl;
+    })();
+  </script>
+</template>

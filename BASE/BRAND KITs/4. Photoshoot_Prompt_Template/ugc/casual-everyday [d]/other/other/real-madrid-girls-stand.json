@@ -1,0 +1,27 @@
+{
+  "name": "real-madrid-girls-stand",
+  "tag": ["ugc", "casual-everyday", "other", "other", "stadium-group"],
+  "image_type": "stadium group lifestyle portrait",
+  "image_vibe": "bright match-day fan celebration",
+  "image_purpose": "UGC-style sports fan group visual",
+  "group": "other/other",
+  "prompt": {
+    "project_info": "Create a realistic vertical group portrait of four original approved adult women enjoying match day in stadium seating.",
+    "main_subject": "Four original approved adult women with varied light-to-light-tan complexions and distinct hairstyles: long straight brown hair, sleek high ponytail, long wavy brown hair, and a sleek pulled-back bun. They wear matching white football jerseys with gold and black trim, paired with light-blue oversized cargo denim, white trousers, jewelry, watches, and a vintage brown leather shoulder bag.",
+    "composition_elements": "Vertical 9:16 group portrait in stadium stands, four subjects arranged with one woman foreground left leaning forward and making a peace sign while laughing, one foreground right seated with crossed legs and hands on knees, and two women behind smiling. Empty dark-blue seats, glass safety barrier, concrete steps, and stadium architecture fill the background.",
+    "lighting_and_atmosphere": "Natural late-afternoon daylight from camera-right with gentle highlights and realistic shadows, warm golden match-day atmosphere, candid fan energy.",
+    "technical_specs": "Realistic smartphone social photography, vertical 9:16, group portrait framing, f/2.8-style moderate background separation, natural skin and fabric texture, vibrant but restrained color, no artificial HDR look.",
+    "generated_prompt_string": "Realistic vertical 9:16 stadium group portrait of four original approved adult women enjoying match day. They have distinct hairstyles including long straight brown hair, a sleek high ponytail, long wavy brown hair, and a pulled-back bun. They wear matching white football jerseys with gold and black trim, light-blue oversized cargo denim or white trousers, gold jewelry, watches, and a vintage brown leather shoulder bag. One foreground woman leans forward laughing and makes a peace sign; another sits with legs crossed and smiles at camera; two women stand or sit behind them smiling. Empty dark-blue stadium seats, glass safety barrier, concrete steps, natural late-afternoon daylight, warm candid fan atmosphere, realistic smartphone texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, extra people, distorted faces, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy, unreadable sponsor text",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "stadium fan group reference", "required": true, "source": "attached source image", "usage": "Match the four original adult subjects, hairstyles, jersey palette, group arrangement, stadium seats, accessories, and daylight."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve four distinct approved-adult identities, group pose, outfits, stadium environment, lighting, and accessory placement. Club crests, sponsor logos, Adidas marks, typography, jersey details, and bag branding are replaceable editable elements; use approved equivalents where needed."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified all four subjects as original approved adults.", "Preserved the sports-fan group composition and outfit direction.", "Added replaceable-brand guidance and anti-slop exclusions."]
+  }
+}

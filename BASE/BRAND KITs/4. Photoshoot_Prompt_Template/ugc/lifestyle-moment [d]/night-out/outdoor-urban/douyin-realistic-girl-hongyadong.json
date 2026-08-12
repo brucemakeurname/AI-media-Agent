@@ -1,0 +1,44 @@
+{
+  "name": "douyin-realistic-girl-hongyadong",
+  "tag": ["hongyadong", "douyin", "night-city", "face-reference"],
+  "image_type": "UGC night-city portrait",
+  "image_vibe": "polished, urban, luminous, candid",
+  "image_purpose": "Travel destination and city-night social content",
+  "group": "ugc/lifestyle-moment/night-out/outdoor-urban",
+  "prompt": {
+    "project_info": "Create an ultra-realistic phone-flash portrait at Hongyadong in Chongqing, China, using the required approved-adult face reference.",
+    "main_subject": "The same approved adult Asian woman as the required face reference, shown waist-up in a calm three-quarter pose with a soft natural expression. She has very long wavy jet-black hair, natural realistic skin texture, soft Douyin-inspired makeup, and wears a fully lined earth-tone gradient dress with an opaque base, artistic marble-like motifs, long sleeves and a modest neckline, plus a thin minimalist gold necklace.",
+    "composition_elements": "Vertical 9:16 medium shot beside a guardrail at the road edge, shoulders toward camera and head turned toward the lens. Make Hongyadong clearly recognizable behind her: stacked wooden buildings, classical Chinese roofs, bright golden-yellow lighting, highways, cars and pedestrians, with sharp architectural detail rather than a generic city backdrop.",
+    "lighting_and_atmosphere": "Strong front phone flash makes the face and upper body bright and sharp with soft dimensional shadows, while Hongyadong's golden lights remain prominent in the background. Natural nighttime contrast, no beauty-plastic finish.",
+    "technical_specs": "Photorealistic vertical 9:16 rear-camera phone portrait, 26mm-equivalent lens, sharp face focus, realistic skin pores and fabric texture, natural color grading, slight low-light grain, no watermark or invented signage.",
+    "generated_prompt_string": "Ultra-realistic vertical 9:16 rear-camera phone-flash portrait using the same approved adult Asian woman's face and identity as the attached reference image. She stands beside a road guardrail at night in a three-quarter angle, shoulders toward camera and head turned toward the lens, with a soft calm natural expression. Her very long jet-black wavy hair moves slightly in the night breeze. She wears a fully lined opaque earth-tone gradient long dress with artistic marble-like motifs, modest neckline and long sleeves, plus a thin minimalist gold necklace. Behind her is unmistakable Hongyadong in Chongqing: vertically stacked wooden buildings, classical Chinese rooflines, bright golden-yellow nightlights, highways, guardrails, cars and distant pedestrians, all rendered sharply and realistically. Strong front phone flash brightens her face and upper body while the city lights stay dominant, with natural skin texture, realistic fabric, crisp focus, and no generic replacement architecture or readable invented text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, celebrity likeness, public-figure likeness, transparent fabric, exposed intimate areas, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, generic cityscape, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult face and identity reference",
+          "required": true,
+          "source": "Attach the provided local face reference image",
+          "usage": "Preserve the approved adult woman's facial structure, proportions, likeness, skin texture, eye shape, nose, lips and jawline without beautification or age shift."
+        },
+        {
+          "type": "location",
+          "name": "Hongyadong Chongqing location reference",
+          "required": true,
+          "source": "Use the provided local location image",
+          "usage": "Preserve the recognizable stacked wooden architecture, classical roofs, golden lights, road, guardrails and city depth; do not replace it with a generic city."
+        }
+      ],
+      "prompt_instructions": "Attach the required approved-adult face reference and location/composition reference. Preserve face identity exactly, the recognizable Hongyadong architecture, three-quarter pose, flash behavior and city-night palette. Keep person identity replaceable only by another approved adult reference; keep dress details, jewelry, traffic, and environment replaceable while retaining the location's recognizable structure. Use an opaque lining and no readable invented text."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced semi-transparent bodycon fabric with an opaque lined dress while preserving the gradient marble-art direction.",
+      "Removed voluptuous/body-emphasis wording and kept a neutral adult silhouette.",
+      "Added anti-slop and coverage safeguards while preserving Hongyadong, pose, face reference and flash aesthetic."
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1080, height=1920" />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 1080px; height: 1920px; overflow: hidden; background: #1C1C1E; }
+    #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+
+    #canvas-wrap { position: absolute; top: 0; left: 0; width: 1080px; height: 1920px; z-index: 0; }
+    #canvas-wrap canvas { display: block; }
+
+    /* TOP ZONE: 0–640px */
+    #top-eyebrow {
+      position: absolute; top: 80px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 700; font-size: 22px;
+      color: #1F7FFE; letter-spacing: 0.24em; text-transform: uppercase; z-index: 10;
+    }
+    #top-rule {
+      position: absolute; top: 122px; left: 190px; width: 0; height: 1.5px;
+      background: rgba(31,127,254,0.55); z-index: 10;
+    }
+    #top-headline {
+      position: absolute; top: 148px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 900; font-size: 128px;
+      color: rgba(255,255,255,0.92); letter-spacing: -4px; z-index: 10;
+    }
+    #top-sub {
+      position: absolute; top: 358px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 300; font-size: 26px;
+      color: rgba(255,255,255,0.32); letter-spacing: 0.10em; text-transform: uppercase; z-index: 10;
+    }
+    #top-counter {
+      position: absolute; top: 434px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 700; font-size: 52px;
+      color: #1F7FFE; letter-spacing: 2px; z-index: 10;
+    }
+
+    /* BOTTOM ZONE: 1280–1920px */
+    #btm-rule {
+      position: absolute; bottom: 430px; left: 60px; width: 0; height: 2px;
+      background: rgba(207,255,4,0.45); z-index: 10;
+    }
+    #btm-italic {
+      position: absolute; bottom: 260px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Playfair Display', serif; font-style: italic; font-size: 46px;
+      color: #CFFF04; z-index: 10;
+    }
+    #btm-brand {
+      position: absolute; bottom: 145px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 600; font-size: 20px;
+      color: rgba(255,255,255,0.20); letter-spacing: 0.18em; text-transform: uppercase; z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"
+       data-composition-id="broll-01"
+       data-start="0" data-duration="3.707"
+       data-width="1080" data-height="1920">
+
+    <div id="canvas-wrap" class="clip" data-start="0" data-duration="3.707" data-track-index="0"></div>
+
+    <div id="top-eyebrow" class="clip" data-start="0" data-duration="3.707" data-track-index="1">Market Flooded</div>
+    <div id="top-rule"    class="clip" data-start="0" data-duration="3.707" data-track-index="2"></div>
+    <div id="top-headline"class="clip" data-start="0" data-duration="3.707" data-track-index="3">FLOODED</div>
+    <div id="top-sub"     class="clip" data-start="0" data-duration="3.707" data-track-index="4">low effort · dead-eyed avatars</div>
+    <div id="top-counter" class="clip" data-start="0" data-duration="3.707" data-track-index="5">∞ / day</div>
+
+    <div id="btm-rule"   class="clip" data-start="0" data-duration="3.707" data-track-index="6"></div>
+    <div id="btm-italic" class="clip" data-start="0" data-duration="3.707" data-track-index="7">"a tool is not a brand"</div>
+    <div id="btm-brand"  class="clip" data-start="0" data-duration="3.707" data-track-index="8">SoloFlows · AI Creator · 2025</div>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+
+    /* ── Three.js renderer ── */
+    var W = 1080, H = 1920;
+    var renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(W, H);
+    renderer.setPixelRatio(1);
+    renderer.setClearColor(0x1C1C1E);
+    document.getElementById('canvas-wrap').appendChild(renderer.domElement);
+
+    var scene = new THREE.Scene();
+
+    // Isometric orthographic camera
+    var fH = 560, fW = fH * W / H; // fW ≈ 315
+    var camera = new THREE.OrthographicCamera(-fW, fW, fH, -fH, 0.1, 5000);
+
+    // Camera orbit state
+    var camState = { angle: Math.PI / 4 };
+    var camR = 792, camY = 560;
+    camera.position.set(
+      Math.cos(camState.angle) * camR,
+      camY,
+      Math.sin(camState.angle) * camR
+    );
+    camera.lookAt(0, 80, 0);
+
+    // Lights
+    scene.add(new THREE.AmbientLight(0xffffff, 0.35));
+    var sun = new THREE.DirectionalLight(0x1F7FFE, 1.6);
+    sun.position.set(1, 2, 0.5);
+    scene.add(sun);
+    var fill = new THREE.DirectionalLight(0xffffff, 0.28);
+    fill.position.set(-1, 0.5, -1);
+    scene.add(fill);
+
+    // Ground grid
+    var grid = new THREE.GridHelper(720, 12, 0x1F7FFE, 0x2C2C2E);
+    grid.material.opacity = 0.6;
+    grid.material.transparent = true;
+    scene.add(grid);
+
+    // Building definitions: [x, z, height, width, depth, isHero]
+    var bd = [
+      [-100, -100, 155, 56, 56, false],
+      [-100,    0, 230, 50, 50, false],
+      [-100,  100, 108, 62, 62, false],
+      [   0, -100, 272, 46, 46, false],
+      [   0,    0, 355, 58, 58, true ],  // hero — center
+      [   0,  100, 194, 66, 66, false],
+      [ 100, -100, 128, 70, 70, false],
+      [ 100,    0, 215, 52, 52, false],
+      [ 100,  100, 295, 48, 48, false],
+    ];
+
+    var matSolid = new THREE.MeshPhongMaterial({ color: 0x1C1C1E, emissive: 0x0A1E40, shininess: 40 });
+    var matHero  = new THREE.MeshPhongMaterial({ color: 0x0D2558, emissive: 0x0A2050, shininess: 80 });
+    var matEdge  = new THREE.LineBasicMaterial({ color: 0x1F7FFE });
+    var matEdgeDim = new THREE.LineBasicMaterial({ color: 0x1F7FFE, opacity: 0.38, transparent: true });
+
+    var buildings = [];
+    bd.forEach(function (b) {
+      var group = new THREE.Group();
+      group.position.set(b[0], 0, b[1]);
+
+      var geo = new THREE.BoxGeometry(b[3], b[2], b[4]);
+      geo.translate(0, b[2] / 2, 0);
+
+      var mesh = new THREE.Mesh(geo, b[5] ? matHero.clone() : matSolid.clone());
+      group.add(mesh);
+
+      var edges = new THREE.LineSegments(
+        new THREE.EdgesGeometry(geo),
+        b[5] ? matEdge.clone() : matEdgeDim.clone()
+      );
+      group.add(edges);
+
+      group.scale.y = 0;
+      scene.add(group);
+      buildings.push(group);
+    });
+
+    // Initial frame
+    renderer.render(scene, camera);
+
+    /* ── GSAP initial states ── */
+    gsap.set('#top-eyebrow',  { opacity: 0, y: -14 });
+    gsap.set('#top-rule',     { width: 0 });
+    gsap.set('#top-headline', { opacity: 0, y: -22 });
+    gsap.set('#top-sub',      { opacity: 0 });
+    gsap.set('#top-counter',  { opacity: 0, y: 12 });
+    gsap.set('#btm-rule',     { width: 0 });
+    gsap.set('#btm-italic',   { opacity: 0, y: 18 });
+    gsap.set('#btm-brand',    { opacity: 0 });
+
+    /* ── Timeline ── */
+    var tl = gsap.timeline({
+      paused: true,
+      onUpdate: function () {
+        camera.position.x = Math.cos(camState.angle) * camR;
+        camera.position.z = Math.sin(camState.angle) * camR;
+        camera.position.y = camY;
+        camera.lookAt(0, 80, 0);
+        renderer.render(scene, camera);
+      }
+    });
+    window.__timelines = window.__timelines || {};
+    window.__timelines['broll-01'] = tl;
+
+    // Slow camera drift over full duration
+    tl.to(camState, { angle: Math.PI / 4 + 0.09, duration: 3.707, ease: 'none' }, 0);
+
+    // Buildings rise: staggered 0.2–2.0s
+    buildings.forEach(function (g, i) {
+      tl.to(g.scale, { y: 1, duration: 0.46, ease: 'back.out(1.3)' }, 0.20 + i * 0.14);
+    });
+
+    // TOP zone: 0.4–1.2s
+    tl.to('#top-eyebrow',  { opacity: 1, y: 0, duration: 0.30, ease: 'power2.out' }, 0.40);
+    tl.to('#top-rule',     { width: 700, duration: 0.38, ease: 'power3.out' }, 0.62);
+    tl.to('#top-headline', { opacity: 1, y: 0, duration: 0.40, ease: 'power3.out' }, 0.72);
+    tl.to('#top-sub',      { opacity: 1, duration: 0.30, ease: 'power2.out' }, 0.98);
+    tl.to('#top-counter',  { opacity: 1, y: 0, duration: 0.30, ease: 'back.out(1.2)' }, 1.12);
+
+    // BOTTOM zone: 1.7–2.4s
+    tl.to('#btm-rule',   { width: 960, duration: 0.38, ease: 'power3.out' }, 1.70);
+    tl.to('#btm-italic', { opacity: 1, y: 0, duration: 0.40, ease: 'power2.out' }, 1.92);
+    tl.to('#btm-brand',  { opacity: 1, duration: 0.30, ease: 'power2.out' }, 2.22);
+
+    // Fade out: 3.207s
+    tl.to('#root', { opacity: 0, duration: 0.5, ease: 'power2.in' }, 3.207);
+  });
+  </script>
+</body>
+</html>

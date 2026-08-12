@@ -1,0 +1,27 @@
+{
+  "name": "viral-beauty-underwear-live",
+  "tag": ["ugc", "live-commerce", "hosiery", "adult-host", "mobile-interface"],
+  "image_type": "live-commerce-interface-screenshot",
+  "image_vibe": "polished-social-commerce",
+  "image_purpose": "story-reel-cover",
+  "group": "viral-trending",
+  "prompt": {
+    "project_info": "Create a vertical live-commerce interface screenshot featuring an adult host presenting hosiery and lingerie products in a retail setting.",
+    "main_subject": "An adult woman with long dark hair, natural makeup, and a friendly professional host expression. She wears a tasteful coordinated lingerie-inspired retail outfit with adequate coverage and holds a pair of sheer hosiery products for demonstration. Preserve adult identity and product-focused framing.",
+    "composition_elements": "Mobile live-stream layout with host centered, product rack and garments behind her, visible viewer count, adult-rating badge, comments, gift notification, ranking area, floating reaction icons, and bottom controls. Preserve the observed Chinese live-commerce interface and the airplane gift notification as interface elements, without adding unrelated claims.",
+    "lighting_and_atmosphere": "Warm indoor retail/bedroom lighting, polished social-commerce presentation, clear product visibility, realistic skin and fabric texture, non-sexual commercial framing.",
+    "technical_specs": "9:16 screenshot, photorealistic host and products, readable UI hierarchy, coherent translucent overlays, product demonstration focus, no nudity, no explicit content, no fabricated brand logos.",
+    "generated_prompt_string": "Generate a 9:16 live-commerce interface screenshot featuring an adult woman with long dark hair, natural makeup, and a friendly professional host expression. She presents hosiery and tasteful lingerie-inspired retail products with adequate coverage, holding a pair of sheer hosiery items for demonstration. Set her in a warm indoor retail or bedroom-like sales environment with a product rack and garments behind her. Include the observed Chinese live-stream UI: viewer count 99996, adult-rating badge, scrolling comments, ranking area, gift notification showing an airplane gift from a viewer, floating reactions, and bottom controls. Keep the framing product-focused, polished, realistic, and non-sexual commercial; preserve readable interface hierarchy without inventing unrelated logos or claims.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, erotic framing, body-part emphasis, transparent clothing exposing body, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, extra limbs, extra fingers, deformed, random text, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved adult live-commerce host", "required": true, "source": "matching local preview image", "usage": "Preserve approved adult face, hair, expression, coverage, and professional host posture; replaceable with another approved adult."},
+        {"type": "product", "name": "hosiery and lingerie retail products", "required": true, "source": "matching local preview image", "usage": "Preserve product-focused presentation, fabric transparency within safe retail coverage, rack placement, and category; replaceable with equivalent products."},
+        {"type": "ui_reference", "name": "Chinese live-commerce interface", "required": true, "source": "matching local preview image", "usage": "Preserve viewer count, rating badge, comments, gift, reactions, and controls as observed; replace text only with equivalent non-misleading interface content."},
+        {"type": "background", "name": "indoor product-display room", "required": true, "source": "matching local preview image", "usage": "Preserve rack, garments, warm room, and retail hierarchy; replaceable with an equivalent product-display setting."}
+      ],
+      "prompt_instructions": "Attach the matching preview to lock adult identity, product display, coverage, UI, and room. Keep the host professional and product-focused, preserve observed interface elements, and ensure every person is clearly an approved adult. Products and text may be replaced only with equivalent commercial content; do not add explicit imagery, logos, or unsupported claims."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed sexualized framing and explicit-risk wording, clarified an approved adult host and adequate retail coverage, and preserved the live-commerce product presentation and interface concept."]}
+}

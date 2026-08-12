@@ -1,0 +1,537 @@
+{
+  "source": "main_clean_2.mp4",
+  "source_duration": 87.512,
+  "total_segments": 65,
+  "generated_by": "claude-semantic-analysis-v2",
+  "rules_applied": [
+    "Max 5 words per segment",
+    "Enumeration items: each item = 1 segment",
+    "Adverbs: separate segment where meaningful",
+    "Nouns: can be separate for emphasis (not overused)",
+    "Section headers (Number X,): separate segment for rhythm parity",
+    "Short orphans absorbed by adjacent segment only if < 0.2s",
+    "User-specified overrides take precedence over word-count rule"
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.391,
+      "end": 1.352,
+      "duration": 0.961,
+      "text": "Everyone is shouting",
+      "reason": "Subject + verb — hook opener, cut before subordinate clause"
+    },
+    {
+      "id": 1,
+      "start": 1.372,
+      "end": 2.493,
+      "duration": 1.121,
+      "text": "that you need to launch",
+      "reason": "Subordinate clause, cut before object 'an AI influencer'"
+    },
+    {
+      "id": 2,
+      "start": 2.553,
+      "end": 3.895,
+      "duration": 1.342,
+      "text": "an AI influencer right now",
+      "reason": "Object + adverb 'right now' — complete noun phrase with time anchor"
+    },
+    {
+      "id": 3,
+      "start": 4.135,
+      "end": 4.635,
+      "duration": 0.500,
+      "text": "to get rich.",
+      "reason": "Infinitive purpose clause — punchy close of hook line 1. Gap 0.24s before"
+    },
+    {
+      "id": 4,
+      "start": 4.936,
+      "end": 5.977,
+      "duration": 1.041,
+      "text": "But no one is telling",
+      "reason": "Counter-hook subject + verb, 5 words. Cut before object 'you the ugly truth'"
+    },
+    {
+      "id": 5,
+      "start": 5.997,
+      "end": 7.478,
+      "duration": 1.481,
+      "text": "you the ugly truth",
+      "reason": "Object clause. Gap 0.5s before next word 'about'"
+    },
+    {
+      "id": 6,
+      "start": 7.598,
+      "end": 10.080,
+      "duration": 2.482,
+      "text": "about why 99%",
+      "reason": "Prepositional + stat anchor. '99%' spans 0.9s spoken — keep with its qualifier. Gap 0.74s after"
+    },
+    {
+      "id": 7,
+      "start": 10.821,
+      "end": 11.562,
+      "duration": 0.741,
+      "text": "in the first month",
+      "reason": "Time adverbial. Gap 0.64s after to 'is the reality check'"
+    },
+    {
+      "id": 8,
+      "start": 12.202,
+      "end": 13.123,
+      "duration": 0.921,
+      "text": "is the reality check.",
+      "reason": "Predicate + sentence close. Gap 0.24s before"
+    },
+    {
+      "id": 9,
+      "start": 13.363,
+      "end": 13.724,
+      "duration": 0.361,
+      "text": "Number one,",
+      "reason": "Section header — separate for rhythm parity with Number two/three/finally. Gap 0.42s after"
+    },
+    {
+      "id": 10,
+      "start": 14.144,
+      "end": 15.966,
+      "duration": 1.822,
+      "text": "most AI influencers fail.",
+      "reason": "Section 1 thesis — complete sentence after header"
+    },
+    {
+      "id": 11,
+      "start": 16.286,
+      "end": 17.507,
+      "duration": 1.221,
+      "text": "The market is getting flooded",
+      "reason": "Subject + verb clause, 5 words. Cut before 'with low effort'"
+    },
+    {
+      "id": 12,
+      "start": 17.567,
+      "end": 18.789,
+      "duration": 1.222,
+      "text": "with low effort,",
+      "reason": "Prepositional phrase. Gap 0.4s after to 'dead-eyed'"
+    },
+    {
+      "id": 13,
+      "start": 19.189,
+      "end": 20.290,
+      "duration": 1.101,
+      "text": "dead-eyed avatars",
+      "reason": "Enumeration noun phrase — standalone visual. User specified"
+    },
+    {
+      "id": 14,
+      "start": 20.390,
+      "end": 23.293,
+      "duration": 2.903,
+      "text": "because people confuse using a tool",
+      "reason": "Causal clause explaining confuse — user specified as single segment despite 6 words"
+    },
+    {
+      "id": 15,
+      "start": 23.333,
+      "end": 24.554,
+      "duration": 1.221,
+      "text": "with building a brand.",
+      "reason": "Parallel object completing 'confuse X with Y'. User specified as separate segment"
+    },
+    {
+      "id": 16,
+      "start": 24.914,
+      "end": 25.835,
+      "duration": 0.921,
+      "text": "Just because she moves",
+      "reason": "Conditional clause — cut before the punchline 'doesn't mean she matters'"
+    },
+    {
+      "id": 17,
+      "start": 25.935,
+      "end": 27.136,
+      "duration": 1.201,
+      "text": "doesn't mean she matters.",
+      "reason": "Punchline close of section 1. Emphasis preserved across two segments"
+    },
+    {
+      "id": 18,
+      "start": 27.296,
+      "end": 27.696,
+      "duration": 0.400,
+      "text": "Number two,",
+      "reason": "Section header — separate for rhythm parity. Gap 0.48s after"
+    },
+    {
+      "id": 19,
+      "start": 28.176,
+      "end": 29.117,
+      "duration": 0.941,
+      "text": "content comes fast,",
+      "reason": "First half of antithesis. Cut at comma before 'AI comes late'"
+    },
+    {
+      "id": 20,
+      "start": 29.457,
+      "end": 30.638,
+      "duration": 1.181,
+      "text": "AI comes late.",
+      "reason": "Antithesis resolution — punchy contrast close. Gap 0.34s before"
+    },
+    {
+      "id": 21,
+      "start": 30.658,
+      "end": 32.880,
+      "duration": 2.222,
+      "text": "Your character has photorealistic skin,",
+      "reason": "Subject + first attribute. 5 words. Gap 0.76s after to 'zero'"
+    },
+    {
+      "id": 22,
+      "start": 33.641,
+      "end": 35.222,
+      "duration": 1.581,
+      "text": "zero personality,",
+      "reason": "Enumeration item 1 — separate per list rule. Gap 0.3s after"
+    },
+    {
+      "id": 23,
+      "start": 35.522,
+      "end": 36.142,
+      "duration": 0.620,
+      "text": "no struggle,",
+      "reason": "Enumeration item 2 — parallel with 'zero personality'. User specified"
+    },
+    {
+      "id": 24,
+      "start": 36.222,
+      "end": 36.843,
+      "duration": 0.621,
+      "text": "no story.",
+      "reason": "Enumeration item 3 — parallel with 'no struggle'. User specified"
+    },
+    {
+      "id": 25,
+      "start": 37.223,
+      "end": 38.604,
+      "duration": 1.381,
+      "text": "She's just a digital screensaver,",
+      "reason": "Verdict subject, 5 words. Gap 0.38s after to 'not creator'"
+    },
+    {
+      "id": 26,
+      "start": 38.985,
+      "end": 39.685,
+      "duration": 0.700,
+      "text": "not creator.",
+      "reason": "Contrast close — emphasizes what she is NOT. User specified separate segment"
+    },
+    {
+      "id": 27,
+      "start": 40.426,
+      "end": 41.006,
+      "duration": 0.580,
+      "text": "You cannot",
+      "reason": "Subject + modal — deliberate tension before 'automate'. User specified"
+    },
+    {
+      "id": 28,
+      "start": 41.146,
+      "end": 41.466,
+      "duration": 0.320,
+      "text": "automate",
+      "reason": "Single verb — maximum emphasis on the action. User specified"
+    },
+    {
+      "id": 29,
+      "start": 41.527,
+      "end": 41.847,
+      "duration": 0.320,
+      "text": "a soul.",
+      "reason": "Object — lands as the hardest word in the video. User specified separate"
+    },
+    {
+      "id": 30,
+      "start": 42.227,
+      "end": 42.627,
+      "duration": 0.400,
+      "text": "Number three,",
+      "reason": "Section header — separate for rhythm parity with Number one/two. User specified. Gap 0.34s after"
+    },
+    {
+      "id": 31,
+      "start": 42.968,
+      "end": 43.908,
+      "duration": 0.940,
+      "text": "your personal taste",
+      "reason": "Subject noun phrase — thesis subject. Cut before predicate"
+    },
+    {
+      "id": 32,
+      "start": 44.169,
+      "end": 45.890,
+      "duration": 1.721,
+      "text": "is the only competitive advantages.",
+      "reason": "Predicate completing section 3 thesis. 5 words"
+    },
+    {
+      "id": 33,
+      "start": 46.330,
+      "end": 47.631,
+      "duration": 1.301,
+      "text": "Everyone has access",
+      "reason": "Subject + verb. Cut before prepositional phrase"
+    },
+    {
+      "id": 34,
+      "start": 47.691,
+      "end": 48.532,
+      "duration": 0.841,
+      "text": "to the same tools,",
+      "reason": "Prepositional phrase. Cut before tool list begins"
+    },
+    {
+      "id": 35,
+      "start": 48.652,
+      "end": 49.172,
+      "duration": 0.520,
+      "text": "Midjourney,",
+      "reason": "Enumeration item 1 — tool list, each tool = 1 segment. Gap 0.42s after"
+    },
+    {
+      "id": 36,
+      "start": 49.593,
+      "end": 49.973,
+      "duration": 0.380,
+      "text": "Kling,",
+      "reason": "Enumeration item 2 — tool list. Gap 0.22s after"
+    },
+    {
+      "id": 37,
+      "start": 50.193,
+      "end": 50.653,
+      "duration": 0.460,
+      "text": "Luma,",
+      "reason": "Enumeration item 3 — tool list. Gap 0.8s after"
+    },
+    {
+      "id": 38,
+      "start": 51.454,
+      "end": 52.294,
+      "duration": 0.840,
+      "text": "Nano Banana Bro.",
+      "reason": "Enumeration item 4 — final tool, WhisperX mishear of 'Nano Banana'. Keep 3 words together"
+    },
+    {
+      "id": 39,
+      "start": 52.594,
+      "end": 54.015,
+      "duration": 1.421,
+      "text": "So the only thing separating",
+      "reason": "Transition + verb phrase, 5 words. Cut before the two contrasted nouns"
+    },
+    {
+      "id": 40,
+      "start": 54.135,
+      "end": 55.195,
+      "duration": 1.060,
+      "text": "a viral sensation",
+      "reason": "First contrasted noun — user specified separate. Lands as aspirational image"
+    },
+    {
+      "id": 41,
+      "start": 55.315,
+      "end": 56.195,
+      "duration": 0.880,
+      "text": "from a cringe bot",
+      "reason": "Second contrasted noun — user specified separate. Lands as the warning"
+    },
+    {
+      "id": 42,
+      "start": 56.455,
+      "end": 57.696,
+      "duration": 1.241,
+      "text": "is your specific eyes",
+      "reason": "Predicate + possessive — the answer to the separation question"
+    },
+    {
+      "id": 43,
+      "start": 58.076,
+      "end": 58.856,
+      "duration": 0.780,
+      "text": "for aesthetics,",
+      "reason": "Enumeration item 1 of the sense list. User specified each item separate"
+    },
+    {
+      "id": 44,
+      "start": 59.236,
+      "end": 59.636,
+      "duration": 0.400,
+      "text": "lighting,",
+      "reason": "Enumeration item 2. Gap 0.38s before"
+    },
+    {
+      "id": 45,
+      "start": 59.756,
+      "end": 60.256,
+      "duration": 0.500,
+      "text": "and fashion.",
+      "reason": "Enumeration item 3 — list close"
+    },
+    {
+      "id": 46,
+      "start": 60.577,
+      "end": 61.557,
+      "duration": 0.980,
+      "text": "The AI is the brush,",
+      "reason": "First half of contrast metaphor, 5 words. Cut before 'but'"
+    },
+    {
+      "id": 47,
+      "start": 61.657,
+      "end": 62.657,
+      "duration": 1.000,
+      "text": "but you are still",
+      "reason": "Counter-clause — 'still' carries emphasis. Cut before 'the artist'"
+    },
+    {
+      "id": 48,
+      "start": 62.677,
+      "end": 63.157,
+      "duration": 0.480,
+      "text": "the artist.",
+      "reason": "Single noun landing — closes section 3 with maximum weight"
+    },
+    {
+      "id": 49,
+      "start": 63.577,
+      "end": 64.138,
+      "duration": 0.561,
+      "text": "And finally,",
+      "reason": "Transition adverb — separate, signals final section. Gap 0.44s after"
+    },
+    {
+      "id": 50,
+      "start": 64.578,
+      "end": 65.918,
+      "duration": 1.340,
+      "text": "number four is the identity.",
+      "reason": "Section 4 header + label. 5 words"
+    },
+    {
+      "id": 51,
+      "start": 66.238,
+      "end": 68.839,
+      "duration": 2.601,
+      "text": "Between high-end GPU costs,",
+      "reason": "Opens cost list. 4 words — 'GPU' spans 1.26s spoken. Gap 0.44s after"
+    },
+    {
+      "id": 52,
+      "start": 69.279,
+      "end": 70.439,
+      "duration": 1.160,
+      "text": "multiple subscriptions",
+      "reason": "Cost item 2 — enumeration. Cut before 'to get consistent basis'"
+    },
+    {
+      "id": 53,
+      "start": 70.499,
+      "end": 71.960,
+      "duration": 1.461,
+      "text": "to get consistent basis,",
+      "reason": "Purpose clause completing subscriptions item. Gap 0.28s after"
+    },
+    {
+      "id": 54,
+      "start": 72.240,
+      "end": 73.460,
+      "duration": 1.220,
+      "text": "and the time you spend",
+      "reason": "Cost item 3 opener, 5 words. Cut before 'fixing glitches'"
+    },
+    {
+      "id": 55,
+      "start": 73.760,
+      "end": 74.500,
+      "duration": 0.740,
+      "text": "fixing glitches,",
+      "reason": "Gerund phrase completing cost item 3. Gap 0.4s after"
+    },
+    {
+      "id": 56,
+      "start": 74.901,
+      "end": 76.341,
+      "duration": 1.440,
+      "text": "this is capital investment.",
+      "reason": "Verdict closing the cost list — 4 words, punchy"
+    },
+    {
+      "id": 57,
+      "start": 76.641,
+      "end": 77.981,
+      "duration": 1.340,
+      "text": "You are building a media startup,",
+      "reason": "Positive reframe, 5 words. Cut at comma before 'not playing'"
+    },
+    {
+      "id": 58,
+      "start": 78.261,
+      "end": 79.362,
+      "duration": 1.101,
+      "text": "not playing a video game.",
+      "reason": "Contrast close, 5 words. Hard contrast landing"
+    },
+    {
+      "id": 59,
+      "start": 79.682,
+      "end": 80.983,
+      "duration": 1.301,
+      "text": "So, if you're going to",
+      "reason": "CTA opener. 'So,' connector + conditional setup. Internal 0.6s pause is natural spoken breath"
+    },
+    {
+      "id": 60,
+      "start": 81.064,
+      "end": 81.364,
+      "duration": 0.300,
+      "text": "do it,",
+      "reason": "Conditional close — very short, intentional. Creates micro-pause before imperative 'stop'"
+    },
+    {
+      "id": 61,
+      "start": 81.765,
+      "end": 82.607,
+      "duration": 0.842,
+      "text": "stop treating it",
+      "reason": "First imperative. Cut before 'like a cheat code'"
+    },
+    {
+      "id": 62,
+      "start": 82.747,
+      "end": 83.589,
+      "duration": 0.842,
+      "text": "like a cheat code",
+      "reason": "Simile object — what to stop doing. Cut before 'and start'"
+    },
+    {
+      "id": 63,
+      "start": 83.689,
+      "end": 84.852,
+      "duration": 1.163,
+      "text": "and start treating it",
+      "reason": "Second imperative — parallel with 'stop treating it'"
+    },
+    {
+      "id": 64,
+      "start": 84.932,
+      "end": 86.015,
+      "duration": 1.083,
+      "text": "like a business.",
+      "reason": "Final landing — CTA close. Video ends here"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "name": "sunset-infinity-pool-beauty",
+  "tag": [
+    "infinity-pool",
+    "golden-hour",
+    "white-one-piece",
+    "resort-lifestyle",
+    "wet-hair"
+  ],
+  "image_type": "lifestyle-editorial-portrait",
+  "image_vibe": "warm-luxury-relaxed",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/beach-summer",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult and specified an elegant opaque one-piece silhouette while retaining the infinity-pool sunset concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "golden-hour luxury resort infinity-pool lifestyle portrait",
+      "color_palette": "warm natural skin tones, white, reflective pool blue, palm green, and sunset gold",
+      "format": "vertical 3:4 eye-level medium portrait"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "Adult woman with wet dark-brown hair slicked back, minimal natural makeup, and sunglasses resting on her head. She stands waist-deep in calm infinity-pool water wearing an elegant opaque white one-piece swimsuit.",
+      "style": "relaxed luxury-resort lifestyle editorial, non-sexualized"
+    },
+    "composition_elements": {
+      "text": "no text, logo, or watermark",
+      "items": [
+        "both hands lightly lifting wet hair back",
+        "soft natural smile and gaze slightly off-camera",
+        "calm reflective infinity-pool surface with visible droplets",
+        "palm trees, modern resort villas, and clear sunset sky in the background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "low warm golden-hour sunlight",
+      "effect": "soft rim light, gentle water reflections, calm upscale holiday atmosphere"
+    },
+    "technical_specs": {
+      "camera": "Canon EOS R5",
+      "lens": "RF 50mm f/1.2 at f/2.2",
+      "render_style": "natural skin and water texture, shallow background blur, controlled sunset highlights, subtle pool-surface reflections"
+    },
+    "generated_prompt_string": "Create a vertical 3:4 eye-level medium lifestyle editorial portrait of an adult woman standing waist-deep in a calm luxury resort infinity pool at golden hour. She has wet dark-brown hair slicked back, minimal natural makeup, sunglasses resting on her head, and wears an elegant opaque white one-piece swimsuit. She lifts her wet hair lightly with both hands, smiles naturally, and looks slightly off-camera. Include subtle water droplets, reflective pool water, palm trees, modern resort villas, and a clear sunset sky. Use low warm golden-hour light, soft rim illumination, gentle water reflections, natural skin texture, and shallow background blur. Keep the mood relaxed, refined, and non-sexualized. No text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, sexualized pose, deep cleavage, nudity, transparent clothing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, harsh shadows, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity replacement is required.",
+          "usage": "Replace only the adult subject identity while retaining the wet-hair gesture, white one-piece silhouette, pool depth, and sunset composition."
+        },
+        {
+          "type": "location",
+          "name": "infinity-pool-reference",
+          "required": false,
+          "source": "Attach an infinity-pool or resort reference if exact location details are required.",
+          "usage": "Replace only pool, villa, or palm details while preserving the golden-hour infinity-pool setting and reflection-driven mood."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. References are optional; preserve the waist-deep water position, wet-hair gesture, white one-piece wardrobe, golden-hour lighting, and non-sexualized luxury-lifestyle direction."
+    }
+  }
+}

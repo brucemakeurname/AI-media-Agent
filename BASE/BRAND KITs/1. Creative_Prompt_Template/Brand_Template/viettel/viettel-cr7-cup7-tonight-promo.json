@@ -1,0 +1,78 @@
+{
+  "name": "viettel-cr7-cup7-tonight-promo",
+  "tag": [
+    "viettel",
+    "world-cup",
+    "cr7",
+    "football",
+    "weekly-package"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Special offers",
+  "group": "viettel_1469256091533536",
+  "prompt": {
+    "project_info": {
+      "theme": "Tonight watch CR7 with Viettel weekly football package",
+      "color_palette": "Grass green, stadium gray, Viettel red, white, black, multicolor ribbon"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "The cropped lower torso and legs of a football player in a red number 7 kit mid-kick on a stadium field. Large text at center-right reads 'BỀN BỈ KHÔNG DỪNG' and 'TỐI NAY CHỜ CR7 NỔ SÚNG'. Beneath it is 'SOẠN DK CUP7 gửi 1331'. Along the ribbon at the bottom is 'XEM WORLD CUP MƯỢT TỪNG PHA TRÊN TV360'.",
+      "style": "Dynamic photoreal sports promo poster with motion, field texture, and bold call-to-action typography"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "viettel telecom; BỀN BỈ KHÔNG DỪNG; TỐI NAY CHỜ CR7 NỔ SÚNG; SOẠN DK CUP7 gửi 1331; XEM WORLD CUP MƯỢT TỪNG PHA TRÊN TV360",
+      "items": [
+        "Top Left: Cropped upper body edge of the player with visible number 7 jersey back",
+        "Top Right: Viettel telecom logo above the bold headline",
+        "Bottom Left: Massive multicolor ribbon arc with white sentence 'XEM WORLD CUP MƯỢT TỪNG PHA TRÊN TV360'",
+        "Bottom Right: Official-style football spinning above the ribbon near the grass",
+        "Center/Background: Stadium field with bright floodlights, blurred crowd, and the footballer mid-strike"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright stadium sports lighting",
+      "effect": "Sharp field contrast, motion energy, mild glow around the ribbon, crisp text and ball highlights"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal sports advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for a Viettel football weekly package promoting a CR7-style match night. Centerpiece is a photoreal red number 7 football player captured from behind and mid-kick on a stadium field. Include the exact visible text 'BỀN BỈ KHÔNG DỪNG', 'TỐI NAY CHỜ CR7 NỔ SÚNG', 'SOẠN DK CUP7 gửi 1331', and 'XEM WORLD CUP MƯỢT TỪNG PHA TRÊN TV360'. Background is a sunlit or floodlit football stadium with green grass and blurred stands. Surrounding elements: Viettel telecom logo in the top right, a sweeping multicolor ribbon across the lower-left to lower-right area, and an official-style football near the ribbon on the right. Technical style: photoreal sports advertising composite, bright stadium sports lighting, crisp field contrast and motion energy, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel telecom logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Top-right logo placement"
+        },
+        {
+          "type": "person",
+          "name": "CR7-inspired footballer in red number 7 kit",
+          "required": true,
+          "source": "real football-star reference recommended for fidelity",
+          "usage": "Use the athlete's body language and red-kit silhouette without changing the dynamic kick pose"
+        },
+        {
+          "type": "icon",
+          "name": "Official-style match ball",
+          "required": true,
+          "source": "original ball design or close reference",
+          "usage": "Place near the bottom-right ribbon end"
+        },
+        {
+          "type": "graphic",
+          "name": "Multicolor campaign ribbon",
+          "required": true,
+          "source": "recreated from original sports package series",
+          "usage": "Carry the bottom slogan and visually wrap the field"
+        }
+      ],
+      "prompt_instructions": "Attach a football-star reference if needed to preserve the CR7 association. The composition is intentionally cropped to show motion rather than a full portrait. Keep the headline and registration code exactly as shown, with the ribbon slogan integrated into the lower arc."
+    }
+  }
+}

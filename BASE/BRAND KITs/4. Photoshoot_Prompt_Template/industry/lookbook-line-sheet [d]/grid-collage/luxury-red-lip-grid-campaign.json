@@ -1,0 +1,22 @@
+{
+  "name": "luxury-red-lip-grid-campaign",
+  "tag": ["industry", "lookbook-line-sheet", "grid-collage", "lipstick", "beauty-campaign"],
+  "image_type": "nine-panel luxury beauty campaign",
+  "image_vibe": "bold, polished, graphic, high-end",
+  "image_purpose": "cosmetics campaign and editorial beauty grid",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Create a perfectly aligned 3x3 luxury red-lip cosmetics campaign using one consistent adult face reference and one consistent lipstick product.",
+    "main_subject": "An adult woman using the required approved-adult face reference; preserve identical facial proportions, eyes, nose, lips, jawline, cheekbones, and natural skin texture in every panel. She wears a blue tailored blazer, white shirt, red necktie, red acetate eyeglasses, sleek ponytail, red manicure, and bold high-pigment red lipstick.",
+    "composition_elements": "3x3 square grid with even margins and deep red solid background: smiling lipstick near mouth; side angle applying lipstick; side glance with lipstick near cheek; laughing while lifting glasses; extreme lip close-up; side profile; hands-only crossed lipsticks; three-quarter portrait; extreme eye close-up behind glasses. Same generic black lipstick tube with replaceable minimal white label across all panels.",
+    "lighting_and_atmosphere": "Soft but contrasty studio lighting even across panels, subtle highlights on skin and lipstick, luxury cosmetics advertising finish, realistic pores and makeup texture.",
+    "technical_specs": "Nine square aligned panels, hyper-realistic high resolution, crisp product and skin detail, no face drift, no unintended text, no watermark.",
+    "generated_prompt_string": "Luxury red-lip cosmetics 3x3 grid campaign using the required approved-adult face reference, preserving identical facial proportions, eyes, nose, lips, jawline, cheekbones, and natural skin texture in every panel. Adult woman wears a blue tailored blazer, white shirt, red necktie, red acetate glasses, sleek ponytail, red manicure, and bold high-pigment red lipstick. Deep solid red background, nine aligned square panels: smiling lipstick near mouth; side angle applying lipstick; side glance with lipstick near cheek; laughing while lifting glasses; extreme lip close-up; side profile; hands-only crossed lipsticks; three-quarter portrait; extreme eye close-up behind glasses. Same generic black lipstick tube with replaceable minimal white label in every panel, soft contrasty studio lighting, luxury editorial beauty campaign, crisp realistic texture.",
+    "negative_prompt": ["celebrity likeness", "public figure likeness", "explicit", "nsfw", "overly revealing", "nudity", "identity drift", "different face", "blurred product", "illegible accidental text", "blurry", "low quality", "distorted anatomy", "extra fingers", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "signature"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "luxury-red-lip-grid-campaign.jpg", "required": true, "source": "workspace reference image", "usage": "Required approved-adult face reference plus visual reference for blazer, tie, glasses, lipstick, deep-red background, nine-panel layout, and product placement."}],
+      "prompt_instructions": "Attach the required approved-adult face reference. Preserve identity, outfit, makeup, product, panel order, background, and lighting consistently. Use generic replaceable lipstick branding; do not invent readable label text, logos, or typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

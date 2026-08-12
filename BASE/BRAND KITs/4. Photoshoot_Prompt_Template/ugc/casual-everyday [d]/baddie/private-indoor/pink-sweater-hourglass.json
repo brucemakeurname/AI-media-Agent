@@ -1,0 +1,58 @@
+{
+  "name": "pink-sweater-hourglass",
+  "tag": [
+    "ugc",
+    "baddie",
+    "private-indoor",
+    "pink-snowflake-sweater",
+    "bed-selfie",
+    "sunset-window-light"
+  ],
+  "image_type": "ugc-bedroom-selfie",
+  "image_vibe": "warm-cozy-sunset",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic vertical bedroom mirror-selfie-style lifestyle image with warm sunset light, cozy bedding and a distinctive pink snowflake sweater.",
+    "main_subject": "One original approved adult woman with silver-grey hair in a messy textured bun, loose wispy strands, green eyes and natural skin. She wears a pink knit off-the-shoulder sweater with white snowflake patterns, black bottoms, a silver ring and a black hair tie. Preserve her curvy feminine silhouette without explicit body measurements or body-part emphasis.",
+    "composition_elements": "Vertical 9:16 smartphone composition from a slightly high angle. The adult subject lies prone on a beige bed, supported on her forearms, turns her head back toward camera with a closed-mouth soft expression, holds a pink smartphone in her left hand and keeps her legs bent behind her. Include white pillows, beige duvet, horizontal blinds, sheer curtains and a partially visible white bedside table.",
+    "lighting_and_atmosphere": "Warm soft natural sunset light enters from back-left through the blinds and reflects from the beige bedding, creating long gentle shadows and cozy golden highlights. Keep the room calm, candid and realistic.",
+    "technical_specs": "9:16 vertical smartphone framing, wide-angle phone lens, slightly high self-capture viewpoint, sharp subject and phone detail with softly blurred background, natural skin and knit texture, warm restrained color grade and realistic window-light falloff.",
+    "generated_prompt_string": "Create a photorealistic vertical smartphone bedroom selfie-style portrait of one original approved adult woman with silver-grey hair in a messy textured bun, loose wispy strands, green eyes and natural skin. She wears a pink knit off-the-shoulder sweater with white snowflake patterns, black bottoms, a silver ring and a black hair tie. From a slightly high angle, show her lying prone on a beige bed supported on her forearms, turning her head back toward camera with a closed-mouth soft expression, holding a pink smartphone in her left hand and keeping her legs bent behind her. Include white pillows, a beige duvet, horizontal blinds, sheer curtains and a partially visible white bedside table. Use warm soft sunset light from back-left through the blinds, long gentle shadows, cozy golden highlights, a wide-angle phone lens, 9:16 framing, realistic knit and skin texture and a candid natural color grade.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, body-part emphasis, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, wardrobe malfunction, unreadable text or logos",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "pink-sweater-hourglass.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, silver hair, expression and likeness; preserve facial structure while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "pink snowflake knit sweater and black bottoms",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve sweater color, snowflake motif, neckline, black bottoms, ring and hair tie; replace only with an explicitly supplied wardrobe reference."
+        },
+        {
+          "type": "location",
+          "name": "beige bed, blinds, sheer curtains and bedside table",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve bed, window treatment, sunset direction and room layout; individual environment elements can be replaced while retaining the same cozy lighting and composition."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, face, hair, outfit motif, phone, bed environment and sunset direction consistent. The approved adult, wardrobe and room may each be replaced with explicit references, but preserve the same prone selfie composition, 9:16 framing and lighting hierarchy. No logo or typography is required; keep phone details generic and any visible sweater motif non-textual."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous subject wording to original approved adult.",
+      "Removed exaggerated body-proportion and exposing language while preserving the sweater, smartphone pose, bent-leg silhouette and sunset mood.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

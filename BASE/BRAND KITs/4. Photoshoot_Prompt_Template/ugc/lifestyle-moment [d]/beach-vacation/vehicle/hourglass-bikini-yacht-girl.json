@@ -1,0 +1,26 @@
+{
+  "name": "hourglass-bikini-yacht-girl",
+  "tag": ["ugc", "yacht", "lilac-bikini", "mesh-cardigan", "nautical-summer"],
+  "image_type": "yacht-fashion-portrait",
+  "image_vibe": "sunny-luxury-nautical",
+  "image_purpose": "instagram-feed",
+  "group": "lifestyle-moment/beach-vacation/vehicle",
+  "prompt": {
+    "project_info": "Create a sunny luxury yacht portrait with natural adult fashion styling and deep-blue open sea.",
+    "main_subject": "An adult woman with long wavy brown hair caught by the wind and a natural relaxed expression. She wears a light lilac bikini with gold inserts, a translucent mesh cardigan, and a gold chain at the waist, standing at the yacht railing with one hand raised above her head.",
+    "composition_elements": "Standing at the railing against open sea and bright sky with clouds, one hand raised and the other extended naturally, full upper-body to mid-thigh fashion frame, clear nautical deck and railing.",
+    "lighting_and_atmosphere": "Sunny natural daylight, deep blue water, soft bright clouds, relaxed luxurious summer-vacation atmosphere, realistic fabric and water texture.",
+    "technical_specs": "Photorealistic natural appearance, high-resolution fashion lifestyle photography, balanced vertical framing, natural perspective, crisp sea horizon and realistic mesh texture.",
+    "generated_prompt_string": "A photorealistic photograph of an adult woman standing at the railing of a yacht, posing with one hand raised above her head against open sea and a bright sky with clouds. She has long wavy brown hair loose and caught in the wind and a natural relaxed expression. She wears a light lilac bikini with gold inserts, a translucent mesh cardigan, and a gold chain at the waist. Sunny nautical atmosphere, deep blue water all around, luxurious summer vacation mood, realistic skin and fabric texture, high-resolution fashion lifestyle photography, natural balanced perspective.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, body-part emphasis, anatomical exaggeration, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, extra limbs, extra fingers, deformed, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "adult lilac-bikini yacht subject", "required": true, "source": "matching local preview image", "usage": "Preserve approved adult face, hair, expression, pose, and natural proportions; replaceable with another approved adult."},
+        {"type": "wardrobe", "name": "lilac bikini, mesh cardigan and gold chain", "required": true, "source": "matching local preview image", "usage": "Keep lilac palette, gold inserts, mesh texture, and waist chain consistent; replaceable with equivalent yacht styling."},
+        {"type": "location", "name": "yacht deck and open sea", "required": true, "source": "matching local preview image", "usage": "Preserve railing, deck, horizon, blue water, and cloudy sky; replaceable with equivalent yacht environment."}
+      ],
+      "prompt_instructions": "Attach the matching preview for adult identity, outfit, pose, yacht deck, and sea continuity. Preserve face, hair, wardrobe, jewelry, lighting, and vertical hierarchy. Replacement assets must be equivalent and non-branded; no typography is needed."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced explicit body measurements and anatomical emphasis with natural adult fashion language while preserving the lilac yacht portrait and nautical luxury intent."]}
+}

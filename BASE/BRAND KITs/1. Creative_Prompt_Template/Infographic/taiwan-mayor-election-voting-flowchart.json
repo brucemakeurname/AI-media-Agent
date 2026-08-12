@@ -1,0 +1,75 @@
+{
+    "name":  "taiwan-mayor-election-voting-flowchart",
+    "tag":  [
+                "Taiwan election",
+                "voting guide",
+                "Traditional Chinese",
+                "illustrated flowchart",
+                "civic education"
+            ],
+    "biz_niche":  "Tech & Electronics",
+    "content_format":  "Infographics",
+    "group":  "infographic_civic_information",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Taiwan county and city mayor election voting process",
+                                        "color_palette":  "Pale blue-gray, navy, teal, white, muted green, coral-red prohibition icons"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Illustrated process diagram",
+                                        "detail":  "A Traditional-Chinese voting guide shows four illustrated actions: check in, receive ballot, mark ballot in booth, and cast ballot, with a carry-items panel and rules panel.",
+                                        "style":  "Friendly flat civic illustration, rounded cards, consistent navy outlines, plain-language educational hierarchy"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Numbered process and reminder cards",
+                                                "text":  "台灣縣市長選舉投票流程圖表; 攜帶物品與注意事項; 1.報到 (Check-in); 2.領票 (Receive Ballot); 3.圈票 (Mark Ballot); 4.投票 (Cast Ballot); 攜帶物品; 身分證; 投票通知單; 印章; 注意事項; 禁止拍照; 手機關機; 保持安靜",
+                                                "items":  [
+                                                              "Top: bold Traditional-Chinese headline and rounded subtitle pill.",
+                                                              "Left: four numbered election actions in a zigzag path connected by teal arrows.",
+                                                              "Right Top: white rounded carry-items card with ID, voting notice, and seal illustrations.",
+                                                              "Right Bottom: white rounded rules card with crossed-out camera, phone, and sound icons.",
+                                                              "Background: pale blue-gray field with restrained, official visual tone."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Flat vector illustration",
+                                                   "effect":  "Even paper-like color fills, crisp outlines, quiet public-service clarity, no photo lighting"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Illustrated civic infographic",
+                                           "resolution":  "4k resolution, highly detailed, square format"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "Traditional-Chinese election instructions",
+                                                                 "required":  true,
+                                                                 "source":  "current official Taiwan election authority copy",
+                                                                 "usage":  "Use only currently valid official wording, process, and rules; proofread every Chinese character."
+                                                             },
+                                                             {
+                                                                 "type":  "icon",
+                                                                 "name":  "ID, ballot, seal, camera, phone, and quiet icons",
+                                                                 "required":  true,
+                                                                 "source":  "approved civic icon library",
+                                                                 "usage":  "Preserve the simple friendly illustrated style."
+                                                             },
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "four-step voting flow",
+                                                                 "required":  true,
+                                                                 "source":  "source preview",
+                                                                 "usage":  "Keep the left-side zigzag sequence and right-side reminder cards."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Verify all election guidance against the current official Taiwan election authority before publication.",
+                                                                          "Do not use image-generation output as final Traditional-Chinese typesetting.",
+                                                                          "Avoid logos or political endorsements unless formally authorized."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "A flowchart of the voting process and important notes for Taiwan county and city mayor elections, in Traditional Chinese, in an illustrated infographic style.",
+                   "negative_prompt":  "incorrect voting instructions, political endorsement, garbled Traditional Chinese, changed step order, cluttered layout, low contrast, watermark, signature"
+               }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "neon-parking-red-girl",
+  "tag": [
+    "approved-adult-face",
+    "underground-parking",
+    "red-sweatshirt",
+    "red-sandals",
+    "neon",
+    "crouched-fashion-pose"
+  ],
+  "image_type": "neon-parking-fashion-portrait",
+  "image_vibe": "vibrant, lively, confident, urban, editorial",
+  "image_purpose": "fashion-editorial, street-style-content, moodboard",
+  "group": "indie / moody-portrait / urban-night",
+  "prompt": {
+    "project_info": {
+      "theme": "Confident red streetwear look in a neon underground parking area",
+      "format": "vertical 4:5 full-body fashion portrait",
+      "color_palette": "red, gray, warm parking light, neon reflections, dark concrete"
+    },
+    "main_subject": {
+      "type": "adult woman using a required approved-adult face reference",
+      "detail": "An adult woman whose face, facial structure, proportions, features, and expression match the attached approved-adult reference. She has fair natural skin, long wavy auburn hair, and a calm confident expression. She wears an oversized red linen sweatshirt, short gray tailored shorts, red thin-strap high-heeled sandals, and a small red crossbody shoulder bag.",
+      "style": "photorealistic urban fashion editorial"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "adult woman crouches in a balanced low fashion pose with knees bent and heels grounded",
+        "elbows rest naturally on her knees, with one hand softly supporting the side of her face",
+        "soft relaxed gaze toward camera",
+        "full-body vertical framing with an editorial eye-level perspective",
+        "underground parking area with colorful neon reflections and softly blurred vehicles behind her"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "warm parking lights with colorful neon accents",
+      "effect": "soft shadows, clear clothing texture, and luminous reflections across concrete",
+      "atmosphere": "vibrant, lively, and polished urban editorial"
+    },
+    "technical_specs": {
+      "render_style": "photorealistic 35mm urban fashion photography with shallow depth of field",
+      "resolution": "high-detail vertical 1024 by 1280 image",
+      "color_treatment": "warm-neon balance, realistic skin texture, soft background blur, controlled saturation"
+    },
+    "generated_prompt_string": "Create a photorealistic urban fashion editorial of an adult woman using the attached approved-adult face reference; preserve her face, facial structure, proportions, features, and expression exactly without celebrity or public-figure substitution. She has fair natural skin, long wavy auburn hair, and a calm confident expression. Dress her in an oversized red linen sweatshirt, short gray tailored shorts, red thin-strap high-heeled sandals, and a small red crossbody shoulder bag. Place her in an underground parking area and pose her crouching in a balanced low fashion stance with knees bent and heels grounded, elbows resting naturally on her knees, and one hand gently supporting the side of her face. Frame her full body vertically at an editorial eye-level perspective, looking softly toward camera. Use warm parking lights, colorful neon accents, soft shadows, neon reflections, slightly blurred vehicles and parking structure in the background, 35mm shallow depth, realistic skin texture, and controlled saturation.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, body-targeted framing, celebrity likeness, public-figure likeness, distorted body, extra limbs, unrealistic anatomy, deformed face, blurry, low quality, cartoon, anime, exaggerated proportions, watermark, text",
+    "reference_elements": {
+      "prompt_instructions": "Attach a required approved-adult face reference. Preserve the adult face, auburn wavy hair, oversized red sweatshirt, gray shorts, red sandals, red bag, balanced crouched fashion pose, neon parking setting, and eye-level framing. Do not use celebrity/public-figure likeness.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-reference",
+          "required": true,
+          "source": "user attachment",
+          "usage": "Keep adult face, facial structure, proportions, features, and expression exactly consistent."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the reference subject as an approved adult.",
+      "Preserved the low crouched fashion pose, red outfit, heels, and neon parking concept while replacing body-targeted low-angle wording with balanced editorial eye-level framing."
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "shopee-paulas-choice-month-end-sale-gifts",
+  "tag": [
+    "skincare-promo",
+    "beauty-sale",
+    "debut-badge",
+    "product-model"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "shopee_996331339685282",
+  "prompt": {
+    "project_info": {
+      "theme": "Paula's Choice month-end Shopee sale",
+      "color_palette": "Charcoal gray, white, purple, Shopee orange, silver"
+    },
+    "main_subject": {
+      "type": "Object/Person/Text",
+      "detail": "Premium beauty poster with header 'PAULA'S CHOICE SKINCARE' and giant Vietnamese headline 'SIEU SALE CUOI THANG QUA TANG NGAP TRAN'. A silver rounded info bar lists 'Voucher 1 TRIEU DONG', 'Uu dai 50%', and 'Qua tang 5 TRIEU DONG'. Center-left stands a large black exfoliate bottle beside a purple serum bottle; right side features a female model portrait. Lower left has a large 'SHOPEE DEBUT' badge and lower right has an explosive 'FREESHIP 0D' sticker.",
+      "style": "Polished beauty retail composite with luxury gray backdrop, realistic packshots, and clean editorial model placement"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "PAULA'S CHOICE SKINCARE / SIEU SALE CUOI THANG QUA TANG NGAP TRAN / Voucher 1 TRIEU DONG / Uu dai 50% / Qua tang 5 TRIEU DONG / San Ngay tai Shopee / SHOPEE DEBUT / FREESHIP 0D",
+      "items": [
+        "Top Left: White Shopee logo on dark gray background",
+        "Top Right: Blue 25.6 sale badge cropped into the corner",
+        "Bottom Left: Large Shopee Debut star logo and small legal disclaimer strip",
+        "Bottom Right: Model portrait, purple product boxes, and comic-style Freeship 0D burst",
+        "Center/Background: Charcoal backdrop with a pale circular spotlight shape behind the products and model, plus premium silver offer bar"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft premium beauty lighting",
+      "effect": "Smooth studio highlights, clean packshot reflections, gentle portrait glow, subtle editorial contrast"
+    },
+    "technical_specs": {
+      "render_style": "Photo-composite beauty ecommerce poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for Paula's Choice on Shopee. Centerpiece is a premium skincare product duo featuring a large black exfoliate bottle and a purple serum bottle, paired with a female beauty model on the right. Background is charcoal gray with a soft pale circular spotlight. Surrounding elements: Shopee logo top left, Paula's Choice header, giant headline 'SIEU SALE CUOI THANG QUA TANG NGAP TRAN', a silver rounded offer bar with 'Voucher 1 TRIEU DONG', 'Uu dai 50%', and 'Qua tang 5 TRIEU DONG', orange CTA 'San Ngay tai Shopee', Shopee Debut badge, purple product cartons, and a 'FREESHIP 0D' sticker. Technical style: photo-composite beauty ecommerce poster, soft premium beauty lighting, smooth highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Paula's Choice product packshots",
+          "required": true,
+          "source": "official packshots for the exfoliate bottle, serum bottle, and purple cartons",
+          "usage": "Attach for exact label, bottle shape, and packaging fidelity"
+        },
+        {
+          "type": "person",
+          "name": "Beauty model portrait reference",
+          "required": true,
+          "source": "original campaign portrait or approved model photo",
+          "usage": "Use if exact facial likeness and pose are important"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee, Shopee Debut, and Paula's Choice branding",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Preserve the top branding and lower-left debut badge"
+        }
+      ],
+      "prompt_instructions": "Keep the gray luxury backdrop and clean product-model split composition. The blue '25.6' badge is historical campaign copy relative to Friday, July 17, 2026 and should stay visible if reproducing the original exactly."
+    }
+  }
+}

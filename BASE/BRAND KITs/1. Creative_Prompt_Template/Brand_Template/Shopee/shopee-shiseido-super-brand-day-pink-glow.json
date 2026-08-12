@@ -1,0 +1,70 @@
+{
+  "name": "shopee-shiseido-super-brand-day-pink-glow",
+  "tag": [
+    "beauty-promo",
+    "mall-brand-day",
+    "product-hero",
+    "pink-luxury"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "shopee_2544432552662070",
+  "prompt": {
+    "project_info": {
+      "theme": "Shiseido Shopee Mall Super Brand Day pink beauty event",
+      "color_palette": "Soft pink, coral orange, white, black, metallic gold"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "Luxury cosmetic still life with Shiseido products arranged on a glossy pink reflective base: Revitalessence Skin Glow foundation bottle, cream jar, pink lipstick, and an open blush compact with brush. Top copy includes Shopee, SHISEIDO GINZA TOKYO, and Shopee Mall SuperBrandDay. Headline reads 'PLAY GLOW & PINK YOUR WAY' and 'BIEU TUONG PHONG CACH THOI THUONG MOI TU GINZA TOKYO'. An orange date strip says 'DUY NHAT 22 - 24.06', with oval promo badges 'VOUCHER DEN 350.000 DONG' and 'QUA TANG DEN 5 TRIEU DONG'. Bottom CTA reads 'MUA NGAY TAI SHOPEE'.",
+      "style": "Premium beauty campaign still life with glossy reflective surfaces, soft luxury glow, and polished product-pack fidelity"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "SHISEIDO GINZA TOKYO / Shopee Mall SuperBrandDay / PLAY GLOW & PINK YOUR WAY / BIEU TUONG PHONG CACH THOI THUONG MOI TU GINZA TOKYO / DUY NHAT 22 - 24.06 / VOUCHER DEN 350.000 DONG / QUA TANG DEN 5 TRIEU DONG / MUA NGAY TAI SHOPEE / CON 2 NGAY / 25.6 SALE LUONG VE",
+      "items": [
+        "Top Left: Shopee logo, Shiseido Ginza Tokyo logo, and Shopee Mall SuperBrandDay lockup",
+        "Top Right: Orange-and-blue countdown badge saying CON 2 NGAY and 25.6 SALE LUONG VE",
+        "Bottom Left: Foundation bottle with glossy reflection and lipstick case resting open nearby",
+        "Bottom Right: Open blush compact with makeup brush and a soft pink powder bed",
+        "Center/Background: Prismatic pink luminous backdrop with sparkles, crystal-like refractions, and two orange oval offer badges above the products"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft luxury beauty lighting",
+      "effect": "Pearlescent glow, sparkling bokeh highlights, reflective base, gentle bloom, premium cosmetic sheen"
+    },
+    "technical_specs": {
+      "render_style": "High-end beauty product poster with photo-real still-life compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for Shiseido on Shopee Mall Super Brand Day. Centerpiece is a luxury still life of Shiseido beauty products on a reflective pink surface, including foundation bottle, cream jar, lipstick, and an open blush compact with brush. Background is a luminous pink prismatic beauty backdrop with soft sparkles and crystal refractions. Surrounding elements: Shopee, SHISEIDO GINZA TOKYO, and Shopee Mall SuperBrandDay logos at top left, headline 'PLAY GLOW & PINK YOUR WAY', support line 'BIEU TUONG PHONG CACH THOI THUONG MOI TU GINZA TOKYO', orange date strip 'DUY NHAT 22 - 24.06', promo badges 'VOUCHER DEN 350.000 DONG' and 'QUA TANG DEN 5 TRIEU DONG', bottom CTA 'MUA NGAY TAI SHOPEE', and top-right countdown badge 'CON 2 NGAY 25.6 SALE LUONG VE'. Technical style: high-end beauty product poster with photo-real still-life compositing, soft luxury beauty lighting, pearlescent glow, reflective base, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Shiseido product packshot set",
+          "required": true,
+          "source": "official Shiseido product renders or clean packshots for the foundation, cream jar, lipstick, and blush compact",
+          "usage": "Attach for exact packaging, logo placement, and product-shape fidelity"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee, Shiseido, and Shopee Mall Super Brand Day logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Preserve exact branding in the top header"
+        },
+        {
+          "type": "text_layout",
+          "name": "Pink glow beauty promo layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the exact headline stack, orange date strip, offer ovals, and bottom CTA bar"
+        }
+      ],
+      "prompt_instructions": "Preserve all visible wording exactly, including 'DUY NHAT 22 - 24.06' and the top-right countdown badge 'CON 2 NGAY 25.6 SALE LUONG VE', which are historical campaign text relative to Friday, July 17, 2026. Maintain the premium reflective pink beauty mood and do not simplify into flat ecommerce cutouts."
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "name": "yoga-pants-streamer-curves",
+  "tag": [
+    "livestream-fashion",
+    "yoga-pants-demo",
+    "home-studio",
+    "mobile-ui-overlay",
+    "activewear-commerce"
+  ],
+  "image_type": "activewear-livestream-visual",
+  "image_vibe": "friendly-commercial",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Fictional mobile livestream interface for an adult activewear product demonstration",
+      "creative_direction": "Natural home livestream frame showing garment fit and stretch through practical movement, not body emphasis",
+      "color_palette": "soft gray activewear, warm beige top, cream room, lamp amber, muted pink UI accents, and charcoal text"
+    },
+    "main_subject": {
+      "type": "clearly adult Asian woman and livestream host",
+      "detail": "friendly adult host with long dark hair and natural smiling expression in a softly lit home setting",
+      "wardrobe": "simple fitted activewear top and gray yoga pants with visible seam and stretch texture",
+      "action": "standing at a comfortable three-quarter angle and making natural movements to demonstrate waistband, seams, stretch, and everyday fit"
+    },
+    "composition_elements": {
+      "framing": "vertical mobile livestream screen with the host centered in a tidy home interior",
+      "ui_overlay": "fictional streaming interface with invented host name, generic viewer count, abstract avatars, chat bubbles, hearts, product badge, and placeholder call-to-action; no real platform, personal data, or readable private messages",
+      "environment": "warm bedroom or home studio with curtains, a floor lamp, clean floor, and uncluttered product-demo space",
+      "product_focus": "show fabric, seams, waistband, and movement through natural side turns without emphasizing intimate body parts or sexualized curves"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft warm practical lamp at approximately 3200K combined with neutral window fill at 5000K",
+      "effect": "friendly home commerce atmosphere, realistic activewear texture, natural skin detail, and readable but fictional UI"
+    },
+    "technical_specs": {
+      "render_style": "smartphone livestream capture with 35mm-equivalent perspective and realistic indoor photography",
+      "resolution": "4k 9:16 vertical social visual",
+      "finish": "natural motion, visible fabric weave, restrained saturation, clean UI layering, and no beauty-filter smoothing"
+    },
+    "generated_prompt_string": "Create a vertical mobile livestream visual featuring a clearly adult Asian woman hosting a fictional activewear product demonstration at home. Show a friendly adult host with long dark hair and a natural smile in a tidy warm bedroom or home studio with curtains and a floor lamp. She wears a simple fitted activewear top and gray yoga pants with visible seam and stretch texture. Have her stand at a comfortable three-quarter angle and make natural movements to demonstrate waistband, seams, fabric stretch, and everyday fit without emphasizing intimate body parts or using a sexualized pose. Add a fictional livestream interface with invented host name, generic viewer count, abstract avatar circles, generic chat bubbles, hearts, a product badge, and placeholder call-to-action. Use no real streaming platform, personal data, private messages, or real logo. Light with a warm approximately 3200K lamp and 5000K window fill, keeping natural skin, realistic fabric, and friendly commerce mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, body-part emphasis, exaggerated curves, real livestream platform, real username, personal data, private messages, logo, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed anatomy, distorted UI, illegible chat",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-activewear-host",
+          "required": true,
+          "source": "Original activewear livestream preview image",
+          "usage": "Attach an approved adult host reference and preserve facial structure, hair, and likeness without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "gray-yoga-pants-activewear-set",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the activewear top, gray yoga pants, seam construction, and stretch texture; do not change the reference-specified outfit."
+        },
+        {
+          "type": "ui_reference",
+          "name": "fictional-activewear-livestream-ui",
+          "required": true,
+          "source": "Original mobile livestream overlay and source prompt",
+          "usage": "Attach to preserve vertical UI hierarchy, chat placement, hearts, product badge, and viewer area; replace all real platform names, usernames, metrics, and messages with fictional placeholders."
+        },
+        {
+          "type": "location",
+          "name": "warm-home-product-demo-room",
+          "required": true,
+          "source": "Original home livestream preview image",
+          "usage": "Attach to preserve curtains, lamp, soft home setting, and clear demonstration space; exact room details may be replaced."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult host, exact activewear, fictional livestream UI, and home-room references. Keep identity, outfit, natural product-demo movements, fabric detail, warm lighting, and UI hierarchy consistent. Replace real platform, names, metrics, logos, and chat with fictional cleared content; keep the presentation non-sexual and commerce-focused."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the streamer as clearly adult, changed the body-display framing to a practical activewear demonstration, and replaced the real-looking livestream identity and Chinese UI data with fictional placeholders."
+    ]
+  }
+}

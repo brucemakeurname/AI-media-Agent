@@ -1,0 +1,22 @@
+{
+  "name": "japanese-ryokan-red-light-emotion-triple-shot",
+  "tag": ["ugc", "selfie-pov", "dark-edgy", "private-indoor"],
+  "image_type": "three-frame ryokan webcam collage",
+  "image_vibe": "dark red cinematic emotional portrait",
+  "image_purpose": "consistent identity, triple-frame emotion, and ryokan atmosphere reference",
+  "group": "dark-edgy/private-indoor",
+  "prompt": {
+    "project_info": "Create a vertical three-frame low-resolution webcam-style collage using the supplied face image as the required identity reference.",
+    "main_subject": "Approved adult subject with identity, gender presentation, facial proportions, and hairstyle preserved exactly from the supplied image; for an adult woman use a black yukata with subtle red floral pattern and secure coverage, for an adult man use a black silk shirt with a red tie.",
+    "composition_elements": "Three consistent frames in a dark wooden ryokan: sad reflective expression with finger near chin, side profile, and warm gentle smile with hands supporting chin. Use only one person, same face, same hairstyle, dark soft background, and restrained red side light.",
+    "lighting_and_atmosphere": "Cine-steel 800T-inspired grain, red light on one side, tasteful horizontal motion blur, dark calm dreamy atmosphere.",
+    "technical_specs": "Photorealistic webcam collage, portrait 9:16, low-resolution texture, consistent facial identity, controlled motion blur, no extra people.",
+    "generated_prompt_string": "Vertical three-frame webcam collage of one approved adult subject in a dark wooden Japanese ryokan, preserving the supplied identity and hairstyle exactly. Show sad reflection, side profile, and warm smile across frames, with dark clothing appropriate to the supplied adult gender presentation, soft red side light, cine-film grain, and tasteful motion blur. No extra person or altered face.",
+    "negative_prompt": "explicit, nsfw, overly revealing, underage, childlike, identity drift, face alteration, gender change, extra person, nudity, lingerie, distorted anatomy, heavy blur, watermark, signature, public figure likeness.",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "japanese-ryokan-red-light-emotion-triple-shot_0.jpg", "required": true, "source": "local preview", "usage": "Identity, hairstyle, three-frame expressions, ryokan, red light, and collage reference."}],
+      "prompt_instructions": "Attach the required local image. Preserve the supplied adult identity, gender presentation, facial proportions, hairstyle, and atmosphere across all frames; replaceability applies only when another approved identity reference is intentionally attached. Use one person only and keep clothing covered and non-sexualized."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified approved adult, one-person identity continuity, secure clothing, and non-sexualized gestures."]}
+}

@@ -1,0 +1,61 @@
+{
+  "name": "old-photo-hd-portrait",
+  "tag": [
+    "photo-restoration",
+    "elder-portrait",
+    "face-preservation",
+    "damage-repair",
+    "color-recovery",
+    "archive"
+  ],
+  "image_type": "archival-photo-restoration",
+  "image_vibe": "faithful-natural-restored",
+  "image_purpose": "photo-restoration",
+  "group": "indie/analog-vintage",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "faithful restoration of an attached archival portrait",
+      "color_palette": "source-faithful warm neutrals and original garment colors",
+      "format": "match the attached source photograph"
+    },
+    "main_subject": {
+      "type": "person shown in the attached archival photograph",
+      "detail": "Preserve only the visible identity, age presentation, face, hairstyle, clothing, seated pose, and backdrop in the attached source image.",
+      "style": "natural high-detail restoration, never a new portrait generation"
+    },
+    "composition_elements": {
+      "text": "Preserve source text only if present; do not add or alter text.",
+      "items": [
+        "match original crop, framing, seated pose, wardrobe, and environment",
+        "repair fading, stains, scratches, blur, and damaged paper areas conservatively",
+        "retain archival texture and historical character"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "source-consistent lighting reconstruction",
+      "effect": "recover balanced exposure and detail without changing direction, era, or mood"
+    },
+    "technical_specs": {
+      "render_style": "non-generative high-resolution restoration comparable to Canon EOS R6 Mark II clarity, exact face preservation, restrained denoise, no beauty retouching",
+      "resolution": "highest recoverable detail at the original aspect ratio"
+    },
+    "generated_prompt_string": "Restore the attached old portrait into a natural professional DSLR-quality image. Preserve the exact face, identity, age presentation, expression, hairstyle, clothing, seated pose, crop, background, and historical character shown in the source. Repair scratches, fading, stains, noise, blur, and damaged paper areas conservatively. Improve recoverable clarity, tonal balance, and natural color to a level comparable to a Canon EOS R6 Mark II portrait while retaining realistic skin texture and archival character. Do not add or remove people, alter the face or age, change clothing, invent missing detail, replace the background, or modernize the scene beyond faithful restoration.",
+    "negative_prompt": "identity change, face swap, age alteration, added person, removed person, invented clothing, invented background, changed pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, text alteration, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "source-archival-portrait",
+          "required": true,
+          "source": "Attach the original old portrait photograph.",
+          "usage": "Mandatory preservation source for identity, age presentation, face, clothes, pose, and environment."
+        }
+      ],
+      "prompt_instructions": "The original archival portrait is mandatory. Apply only conservative restoration and preserve uncertainty in unrecoverable damaged areas rather than inventing details."
+    }
+  }
+}

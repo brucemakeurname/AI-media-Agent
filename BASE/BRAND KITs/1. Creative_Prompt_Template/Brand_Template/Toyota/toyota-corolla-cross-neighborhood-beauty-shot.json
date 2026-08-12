@@ -1,0 +1,70 @@
+{
+  "name": "toyota-corolla-cross-neighborhood-beauty-shot",
+  "tag": [
+    "corolla-cross",
+    "beauty-shot",
+    "suburban",
+    "hybrid"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "toyota_1030814016560065",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Corolla Cross refined neighborhood beauty shot",
+      "color_palette": "White, leafy green, sky blue, black, warm beige"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A clean beauty-shot automotive image of a white Toyota Corolla Cross parked curbside on a quiet upscale residential street. The car is shown in a front three-quarter angle under bright daylight. Palm trees, manicured greenery, and a modern house facade form the background. Bottom-right script says 'Move your world'.",
+      "style": "Premium natural-light automotive beauty shot with suburban calm and polished product focus"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "COROLLA CROSS / Move your world",
+      "items": [
+        "Top Left: Open blue sky and palm canopy",
+        "Top Right: Modern house facade and tree foliage",
+        "Bottom Left: Curbstone and grass verge leading toward the car",
+        "Bottom Right: Handwritten 'Move your world' over the asphalt",
+        "Center/Background: White Toyota Corolla Cross parked on a calm residential street with lush landscaping"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Natural bright daytime lighting",
+      "effect": "Clean paint reflections, crisp shadow edges, relaxed premium suburb mood"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal automotive beauty shot",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Corolla Cross beauty shot. Centerpiece is a white Toyota Corolla Cross photographed in a front three-quarter angle on a quiet residential street. Background is a manicured neighborhood with palm trees, modern houses, and bright clear daylight. Surrounding elements: the visible model plate 'COROLLA CROSS' and the footer script 'Move your world'. Technical style: photoreal automotive beauty shot, natural bright daytime lighting, clean reflections and relaxed premium suburban mood, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Toyota Corolla Cross exterior reference",
+          "required": true,
+          "source": "official Corolla Cross render or source photo",
+          "usage": "Preserve the body angle, wheel design, grille texture, and white paint finish"
+        },
+        {
+          "type": "location",
+          "name": "Upscale residential street reference",
+          "required": true,
+          "source": "source location photo",
+          "usage": "Keep the palms, manicured greenery, and modern-house context"
+        },
+        {
+          "type": "text_layout",
+          "name": "Minimal beauty-shot composition",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the clean frame with only the model plate and bottom-right signature"
+        }
+      ],
+      "prompt_instructions": "Keep the frame uncluttered. This creative works because it is a simple premium product shot in a desirable residential setting."
+    }
+  }
+}

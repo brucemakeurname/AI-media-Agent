@@ -1,0 +1,70 @@
+{
+  "name": "samsung-galaxy-z-flip-fashion-era",
+  "tag": [
+    "foldable-launch",
+    "fashion",
+    "z-flip",
+    "product-hero"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Brand story",
+  "group": "samsung_1388403926661415",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy Z Flip fashion-era poster",
+      "color_palette": "White, cobalt blue, charcoal black, soft skin tones, gray cover-screen gradient"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Compact foldable phone poster showing a hand holding a blue Galaxy Z Flip upright, with the cover display showing time 12:45 and the phrase about flipping your fashion era above.",
+      "style": "Photorealistic foldable phone advertising, clean fashion-tech product hero"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "This is who you asked to / Flip your fashion era / 12 45 / Wed, July 9",
+      "items": [
+        "Top Left: Black headline 'This is who you asked to Flip your fashion era' on a white background.",
+        "Top Right: Empty pale background space around the product.",
+        "Bottom Left: Human hand gripping the foldable device from behind and left edge.",
+        "Bottom Right: Blue Galaxy Z Flip with front cover display showing '12 45' and 'Wed, July 9', plus two camera lenses and flash on the outer panel.",
+        "Center/Background: Minimal white fashion-tech composition focused on the closed foldable phone in hand."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio lighting",
+      "effect": "Clean glossy hardware reflections, natural skin rendering, minimalist premium contrast"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy Z Flip fashion-era poster. Centerpiece is a hand holding a closed blue Galaxy Z Flip on a white background, with the cover display showing '12 45' and 'Wed, July 9'. Background is minimal and bright. Surrounding elements: exact top copy 'This is who you asked to Flip your fashion era', the two outer camera lenses and flash, and the hand framing the device from behind. Technical style: photorealistic product render, soft studio lighting, glossy hardware reflections and natural skin rendering, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "blue Galaxy Z Flip closed-fold render",
+          "required": true,
+          "source": "official Samsung foldable render or original creative",
+          "usage": "Preserve exact closed shape, cover display, camera placement, and blue finish."
+        },
+        {
+          "type": "person",
+          "name": "hand holding foldable phone",
+          "required": true,
+          "source": "original creative image",
+          "usage": "Match grip, finger placement, and natural hand scale relative to the phone."
+        },
+        {
+          "type": "text_layout",
+          "name": "headline and cover-screen text",
+          "required": true,
+          "source": "original poster",
+          "usage": "Retain exact wording at top and exact cover-screen time/date text as visible, without inferring a different year."
+        }
+      ],
+      "prompt_instructions": "Use refs for the hand pose, the foldable hardware, and the exact cover-screen content. The visible 'Wed, July 9' should be treated as on-screen copy only, not converted into a current-date statement."
+    }
+  }
+}

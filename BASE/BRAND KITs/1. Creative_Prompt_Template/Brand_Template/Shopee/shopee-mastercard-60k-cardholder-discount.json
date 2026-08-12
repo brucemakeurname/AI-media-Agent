@@ -1,0 +1,70 @@
+{
+  "name": "shopee-mastercard-60k-cardholder-discount",
+  "tag": [
+    "payment-promo",
+    "bank-card",
+    "mastercard",
+    "midmonth-sale"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Special offers",
+  "group": "shopee_1579398456888307",
+  "prompt": {
+    "project_info": {
+      "theme": "Mastercard cardholder instant discount on Shopee",
+      "color_palette": "Shopee orange, deep blue, white, black, yellow"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A simple card-promo poster with Shopee and Mastercard logos at the top and the badge 'NGAY 15 SALE GIUA THANG'. A large blue rounded pill says 'GIAM NGAY 60.000 DONG'. Below, two minimalist cards labeled 'Lee M. Cardholder' are tilted against an orange glowing stage, one white and one black, both carrying Mastercard circles and contactless symbols.",
+      "style": "Minimal fintech promo with clean product focus, glowing geometric backdrop, and oversized savings number"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "Mastercard / NGAY 15 / SALE GIUA THANG / GIAM NGAY 60.000 DONG / Lee M. Cardholder",
+      "items": [
+        "Top Left: Shopee logo and Mastercard logo",
+        "Top Right: White sale badge 'NGAY 15 SALE GIUA THANG'",
+        "Bottom Left: White card angled forward against orange glow",
+        "Bottom Right: Black card angled behind with Mastercard logo",
+        "Center/Background: Blue discount pill above an orange luminous stage box with subtle floating geometric shapes"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Clean commercial lighting",
+      "effect": "Glossy card sheen, warm stage glow, simple vector depth, crisp contrast"
+    },
+    "technical_specs": {
+      "render_style": "Minimal card-promo poster with product compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee x Mastercard promotion. Centerpiece is a pair of minimalist credit cards, one white and one black, both labeled 'Lee M. Cardholder', displayed against an orange glowing stage. Background is a Shopee-orange retail field with a large blue discount pill that reads 'GIAM NGAY 60.000 DONG'. Surrounding elements: Shopee and Mastercard logos, and a white badge 'NGAY 15 SALE GIUA THANG'. Technical style: minimal card-promo poster with product compositing, clean commercial lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Mastercard card render pair",
+          "required": true,
+          "source": "official or campaign card renders",
+          "usage": "Attach for exact card texture, layout, and logo placement"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee and Mastercard assets",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Preserve the top branding"
+        },
+        {
+          "type": "text_layout",
+          "name": "60k instant-discount poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the giant blue pill, sale badge, and two-card arrangement"
+        }
+      ],
+      "prompt_instructions": "Maintain the minimal clean composition and exact text 'GIAM NGAY 60.000 DONG'. 'NGAY 15' is in the past relative to Friday, July 17, 2026 and must remain exactly as shown."
+    }
+  }
+}

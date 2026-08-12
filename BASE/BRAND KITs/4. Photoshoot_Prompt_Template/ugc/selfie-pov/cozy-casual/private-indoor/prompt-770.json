@@ -1,0 +1,22 @@
+{
+  "name": "prompt-770",
+  "tag": ["ugc", "selfie-pov", "cozy-casual", "private-indoor"],
+  "image_type": "cozy illustrated-overlay portrait",
+  "image_vibe": "warm romantic creator aesthetic",
+  "image_purpose": "social-media lifestyle composition with controlled sticker overlays",
+  "group": "cozy-casual/private-indoor",
+  "prompt": {
+    "project_info": "Create a cozy indoor UGC portrait of an approved adult woman seated in a modern chair, mixing photorealism with illustrated sticker overlays.",
+    "main_subject": "Approved adult woman with medium-brown hair, wearing a dark oversized hoodie and blue jeans, holding a compact professional camera with one hand and resting her cheek on the other while smiling softly.",
+    "composition_elements": "Seated three-quarter portrait in a warm beige minimal interior with potted plants and shelves. Add a smiling sunflower, a small hand-drawn yellow sun, and white sketch lines around the camera. Include a handwritten romantic quote only as optional user-supplied typography; do not add a creator signature or watermark.",
+    "lighting_and_atmosphere": "Soft warm diffused studio light, cozy romantic mood, gentle shadows, cinematic depth of field.",
+    "technical_specs": "Photorealistic natural skin texture with clean illustrated overlays, portrait orientation, 3:4 ratio, 50mm lens, moderate depth of field, high detail.",
+    "generated_prompt_string": "Approved adult woman with medium-brown hair sits casually in a chair in a warm beige minimal interior, wearing a dark oversized hoodie and blue jeans, holding a compact camera and resting her cheek on one hand with a soft dreamy smile. Add controlled sunflower and sun doodles plus white camera sketch lines. Preserve supplied typography only when attached; no creator signature, watermark, or invented logo.",
+    "negative_prompt": "explicit, nsfw, overly revealing, underage, childlike, sexualized pose, nudity, lingerie, transparent clothing, distorted anatomy, extra fingers, malformed camera, cluttered background, unreadable text, creator signature, watermark, logo invention, public figure likeness.",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "prompt-770_0.jpg", "required": true, "source": "local preview", "usage": "Subject, outfit, chair, camera, interior, lighting, doodle placement, and typography layout reference."}],
+      "prompt_instructions": "Attach the required local image. Preserve identity, outfit, camera, chair, environment, lighting, and sticker placement; replaceability applies only to an intentionally supplied approved identity reference. Treat the quote as optional attachable typography and keep it replaceable; never reproduce the visible creator signature unless explicitly supplied and approved."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed creator-name/signature reproduction and made the quote optional replaceable typography."]}
+}

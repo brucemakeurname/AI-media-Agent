@@ -1,0 +1,55 @@
+{
+  "name": "cellphones-oppo-reno16-pop-cam-film-samples",
+  "tag": ["cellphones", "oppo reno16", "camera samples", "pop cam", "photo lifestyle"],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Product demos",
+  "group": "cellphones_1595896052054811",
+  "prompt": {
+    "project_info": {
+      "theme": "OPPO Reno16 pop-cam lifestyle showcase",
+      "color_palette": "Soft cream, lavender, warm beige, photo-film tones"
+    },
+    "main_subject": {
+      "type": "Object/Person",
+      "detail": "A lifestyle camera-demo poster for the OPPO Reno16 Series 5G featuring pastel headline typography, a row of blurred feature capsules, multiple instant-film style sample photos of young people, and a small purple cat mascot at the bottom right.",
+      "style": "Soft premium smartphone camera campaign"
+    },
+    "composition_elements": {
+      "type": "Typography/Photo Samples/UI Pills/Mascot",
+      "text": "OPPO Reno16 Series 5G, MỘT CHẠM POP CAM, Bật Mọi Chất Phim, Film tươi mới, Chụp Lấy Liền Khoảnh Khắc, Kỹ Thuật Số Y2K, Hở Sáng Fl1x, NC..., OPPO Reno16 Series 5G 48mm f/1.8 1/60s ISO1000, OPPO Reno16 Series 5G 24mm f/1.8 1/60s ISO800, OPPO Reno16 Series 5G 48mm f/1.8 1/60s ISO3200",
+      "items": [
+        "Top Right: product wordmark 'OPPO Reno16 Series 5G'.",
+        "Upper Middle: large lavender headline 'MỘT CHẠM POP CAM' and subline 'Bật Mọi Chất Phim'.",
+        "Below headline: a row of glossy feature pills with some text partially blurred or faded, including film-style modes.",
+        "Lower Middle: overlapping instant-photo style prints, with the center photo enlarged showing a smiling girl in a red sleeveless knit top holding a cup.",
+        "Side Photos: smaller film-frame prints of group and solo portraits at night and in indoor scenes, each labeled with OPPO camera metadata.",
+        "Far Left Edge: cropped partial image of a woman holding a phone.",
+        "Bottom Right: small purple cat-like mascot with camera bag.",
+        "Background: soft warm cream-to-lavender gradient interior with subtle vignette and sparkles."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft editorial lifestyle lighting",
+      "effect": "Gentle pastel glow, photo-diary mood, clean premium campaign finish"
+    },
+    "technical_specs": {
+      "render_style": "Lifestyle smartphone-camera campaign poster with layered photo frames",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "female and group sample-photo subjects", "required": true, "source": "source image people reference", "usage": "Preserve the exact photo poses, styling, and sample-photo composition."},
+        {"type": "text_layout", "name": "OPPO headline, feature pills, and photo-caption metadata", "required": true, "source": "source image text reference", "usage": "Keep the exact headline wording and the camera-metadata text under each printed photo."},
+        {"type": "graphic", "name": "instant-film photo frames and purple cat mascot", "required": true, "source": "source image graphic reference", "usage": "Preserve the overlapping print-frame arrangement and the mascot placement."},
+        {"type": "product", "name": "OPPO Reno16 campaign branding", "required": true, "source": "source image brand reference", "usage": "Maintain the top-right OPPO Reno16 Series 5G wordmark and campaign identity."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the exact layered sample-photo arrangement and all metadata captions.",
+        "Keep all visible text exactly as shown, including the partially blurred feature-pill wording where legible.",
+        "Maintain the soft pastel editorial campaign mood and the small mascot in the bottom-right corner."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square OPPO Reno16 Series 5G camera-campaign poster with a soft cream-to-lavender gradient background. Place the wordmark 'OPPO Reno16 Series 5G' at the top right. Add the large lavender headline 'MỘT CHẠM POP CAM' and the subline 'Bật Mọi Chất Phim'. Below it, add a row of glossy feature pills for film-style modes. Build the main composition from overlapping instant-photo style sample prints, with the center print enlarged showing a smiling girl in a red sleeveless knit top holding a cup, and side prints showing group and portrait moments with visible metadata captions like 'OPPO Reno16 Series 5G 48mm f/1.8 1/60s ISO1000'. Add a small purple cat mascot with a camera bag in the bottom right. Technical style: lifestyle smartphone-camera campaign poster with layered photo frames, soft editorial lifestyle lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark gritty scene, incorrect text, missing sample metadata, low resolution, warped faces, cluttered layout, watermark, signature"
+  }
+}

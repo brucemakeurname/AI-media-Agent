@@ -1,0 +1,77 @@
+{
+  "name": "shopee-vip-uprize-fan-meeting-july-17-2026",
+  "tag": [
+    "fan-meeting",
+    "vip-membership",
+    "event-schedule",
+    "entertainment"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Live chat",
+  "group": "shopee_1471479228393779",
+  "prompt": {
+    "project_info": {
+      "theme": "ShopeeVIP UPRIZE fan meeting event poster",
+      "color_palette": "Stage red, bright blue, gold, white, orange"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A vivid red-curtain event poster for ShopeeVIP and UPRIZE. A large blue marquee sign says 'GAP GO NHOM UPRIZE & NHAN QUA TU SHOPEEVIP'. In the middle is a tilted polaroid-style group photo of UPRIZE members with the Shopee crown mascot; the lower part of the polaroid reads 'FM | 12.7.01 MHZ' with small labels like 'PN', 'LAVM', 'O.D', 'WONBI', 'DYLAN', 'LEON', 'BEX'. Another strip across the photo says 'TAI BOOTH TRAI NGHIEM FAN MEETING'. A blue date card reads 'tu 8H30-18H NGAY 17.7.2026'. The bottom reward block lists 'ALBUM THANG', 'GOI SHOPEEVIP 12 THANG MIEN PHI', 'CARD BO GOC', and 'VOUCHER GIAM 30%'. The right-side schedule says '8H30 - 18H00 CHECK-IN VA BOC THAM TRUNG THUONG' and '15H30 - 15H50 MEET & GREET UPRIZE'.",
+      "style": "Concert-style event poster with red stage curtains, group-photo centerpiece, marquee signage, and detailed schedule blocks"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "ShopeeVIP / GAP GO NHOM UPRIZE & NHAN QUA TU SHOPEEVIP / TAI BOOTH TRAI NGHIEM FAN MEETING / FM | 12.7.01 MHZ / tu 8H30-18H NGAY 17.7.2026 / VA BOC THAM TRUNG THUONG / ALBUM THANG / GOI SHOPEEVIP 12 THANG MIEN PHI / CARD BO GOC / VOUCHER GIAM 30% / 8H30 - 18H00 CHECK-IN VA BOC THAM TRUNG THUONG / 15H30 - 15H50 MEET & GREET UPRIZE",
+      "items": [
+        "Top Left: Shopee logo and ShopeeVIP logo",
+        "Top Right: Large blue marquee sign and a pinned blue date card 'NGAY 17.7.2026'",
+        "Bottom Left: Red reward box with four reward tiles and icons",
+        "Bottom Right: Large yellow schedule text blocks for check-in and meet-and-greet times",
+        "Center/Background: Tilted polaroid group photo of UPRIZE and the Shopee crown mascot against sparkling red curtains with ribbon confetti"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Concert and marquee event lighting",
+      "effect": "Glitter curtain reflections, marquee bulb glow, warm stage highlights, high-energy event contrast"
+    },
+    "technical_specs": {
+      "render_style": "Entertainment event poster with photo compositing and marquee signage",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a ShopeeVIP UPRIZE fan meeting. Centerpiece is a tilted polaroid-style group photo of UPRIZE members with the Shopee crown mascot over sparkling red curtains. Background is a stage-red event scene with confetti and marquee lights. Surrounding elements: Shopee and ShopeeVIP logos, giant blue sign 'GAP GO NHOM UPRIZE & NHAN QUA TU SHOPEEVIP', strip 'TAI BOOTH TRAI NGHIEM FAN MEETING', date card 'tu 8H30-18H NGAY 17.7.2026', reward tiles 'ALBUM THANG', 'GOI SHOPEEVIP 12 THANG MIEN PHI', 'CARD BO GOC', 'VOUCHER GIAM 30%', and the schedule text '8H30 - 18H00 CHECK-IN VA BOC THAM TRUNG THUONG' plus '15H30 - 15H50 MEET & GREET UPRIZE'. Technical style: entertainment event poster with photo compositing and marquee signage, concert-style lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "UPRIZE group photo",
+          "required": true,
+          "source": "original group-photo asset for the UPRIZE members",
+          "usage": "Attach for exact likeness, outfit coordination, and arrangement inside the polaroid frame"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee and ShopeeVIP assets",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for top branding and VIP reward elements"
+        },
+        {
+          "type": "graphic",
+          "name": "Shopee crown mascot and marquee-stage elements",
+          "required": true,
+          "source": "this creative or original campaign assets",
+          "usage": "Preserve the mascot, marquee sign, red curtain backdrop, and polaroid frame"
+        },
+        {
+          "type": "text_layout",
+          "name": "UPRIZE fan-meeting schedule layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep all time blocks, reward tiles, and date-card placement exactly"
+        }
+      ],
+      "prompt_instructions": "Preserve 'NGAY 17.7.2026' exactly. Relative to the session date Friday, July 17, 2026, this event date is today, so treat it as current-day event copy and do not shift it."
+    }
+  }
+}

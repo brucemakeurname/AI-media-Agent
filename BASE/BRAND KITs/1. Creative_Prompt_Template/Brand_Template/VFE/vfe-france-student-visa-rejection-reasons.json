@@ -1,0 +1,71 @@
+{
+  "name": "vfe-france-student-visa-rejection-reasons",
+  "tag": [
+    "vfe",
+    "visa",
+    "rejection-reasons",
+    "study-france",
+    "infographic"
+  ],
+  "biz_niche": "Education",
+  "content_format": "Infographics",
+  "group": "vfe_978536305080289",
+  "prompt": {
+    "project_info": {
+      "theme": "Common reasons for France student visa rejection",
+      "color_palette": "White, Navy Blue, Red, Black"
+    },
+    "main_subject": {
+      "type": "Text/Icon",
+      "detail": "A stacked warning-style infographic listing seven major reasons for French student visa rejection, each row using a navy number block, a circular red icon, and a long explanatory sentence in Vietnamese.",
+      "style": "Highly structured compliance infographic with embassy-warning symbolism, flat white background, and clear numbered hierarchy."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nTOP NHỮNG LÝ DO TRƯỢT VISA DU HỌC PHÁP BẠN CẦN BIẾT\n1 Hộ chiếu hoặc một số giấy tờ trong hồ sơ không đáp ứng yêu cầu hoặc bị đánh giá là không đáng tin cậy.\n2 Không chứng minh được khả năng tài chính đủ để chi trả học phí và sinh hoạt trong thời gian học tập tại Pháp.\n3 Không cung cấp được giấy báo nhập học, giấy xác nhận đăng ký hoặc các bằng chứng học tập cần thiết.\n4 Thông tin về nơi ở, tài chính hoặc mục đích lưu trú chưa đầy đủ, thiếu tính nhất quán, khó kiểm chứng.\n5 Cơ quan lãnh sự nghi ngờ mục đích thực sự của chuyến đi, hồ sơ không đủ thuyết phục để chứng minh việc sang Pháp nhằm mục đích học tập.\n6 Từng vi phạm quy định cư trú tại Pháp hoặc khu vực Schengen, chẳng hạn như ở quá hạn visa.\n7 Các vấn đề liên quan đến an ninh hoặc trật tự công cộng.",
+      "items": [
+        "Top Left: Eiffel Tower postal-stamp doodle.",
+        "Top Right: Large red warning triangle with exclamation mark.",
+        "Bottom Left: The numbered rows continue vertically with navy rectangles and circular red icons.",
+        "Bottom Right: Final row 7 about security or public order issues.",
+        "Center/Background: VFE logo at top, two-line headline in navy and red, and seven wide white bordered text bars."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat infographic lighting",
+      "effect": "Minimal shadows, high contrast text readability, and clean white-document aesthetic."
+    },
+    "technical_specs": {
+      "render_style": "Vector-style advisory infographic poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advisory infographic poster for France student visa rejection reasons. Centerpiece is a seven-row numbered list with navy number blocks, red circular icons, and detailed Vietnamese explanations on white horizontal cards. Background is a clean white compliance-style layout with VFE logo, Eiffel Tower postal doodle, and a red warning triangle. Surrounding elements: headline 'TOP NHỮNG LÝ DO TRƯỢT VISA DU HỌC PHÁP BẠN CẦN BIẾT' and seven detailed visa-risk reasons. Technical style: vector-style advisory infographic poster, flat infographic lighting, high text readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place top center."
+        },
+        {
+          "type": "icon",
+          "name": "Visa rejection reason icons",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep the passport, money, document, housing, people, violation, and security icon set."
+        },
+        {
+          "type": "text_layout",
+          "name": "Seven-row visa rejection infographic layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve row numbering, icon circles, and full Vietnamese explanations."
+        }
+      ],
+      "prompt_instructions": "Keep every explanatory sentence intact because this post is educational and practical. Do not shorten the reasons or convert the layout into generic bullet points."
+    }
+  }
+}

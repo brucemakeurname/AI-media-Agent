@@ -1,0 +1,27 @@
+{
+  "name": "subway-phone-beauty",
+  "tag": ["ugc", "casual-everyday", "other", "vehicle", "transit-candid"],
+  "image_type": "subway candid lifestyle photo",
+  "image_vibe": "quiet everyday transit moment",
+  "image_purpose": "UGC-style commuter lifestyle visual",
+  "group": "other/vehicle",
+  "prompt": {
+    "project_info": "Create a realistic candid commuter photograph of an original approved adult woman using her phone inside a subway carriage.",
+    "main_subject": "An original approved adult woman with long dark hair sits by the subway door looking down at a light-colored smartphone held in both hands. She wears a fitted gray long-sleeved top, dark casual bottoms, white sneakers, and has a black backpack resting across her lap.",
+    "composition_elements": "Vertical candid framing photographed from across the aisle, subject seated with legs crossed naturally, subway window and door frame, metallic seat and floor, black-and-yellow door safety strip, foreground passenger silhouette creating depth, and subtle carriage signage.",
+    "lighting_and_atmosphere": "Soft diffuse fluorescent subway lighting, neutral gray and silver tones, realistic reflections and mild motion ambience, quiet unposed commuter mood.",
+    "technical_specs": "Realistic smartphone photography, vertical 4:5, candid medium-full-body framing, natural perspective, moderate depth of field, slight handheld softness, visible fabric and metal texture, restrained color, no artificial HDR look.",
+    "generated_prompt_string": "Realistic vertical 4:5 candid subway lifestyle photo of an original approved adult woman with long dark hair sitting by the train door and looking down at a light-colored smartphone held in both hands. She wears a fitted gray long-sleeved top, dark casual bottoms, white sneakers, and has a black backpack across her lap. She sits with legs crossed naturally inside a modern subway carriage. Metallic seat and floor, window, door frame, black-and-yellow safety strip, subtle signage, and a foreground passenger silhouette create depth. Soft fluorescent light, neutral gray and silver palette, realistic handheld commuter photography.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, unsafe transit behavior, moving-door obstruction, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy, unreadable signage",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "subway commuter reference", "required": true, "source": "attached source image", "usage": "Match the original adult model, hair, gray top, dark bottoms, white sneakers, backpack, phone, subway seat, door, and candid angle."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve adult identity, outfit, phone interaction, backpack, seated pose, subway environment, and lighting. Phone branding, logos, typography, signage, and carriage details are replaceable editable elements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an original approved adult model.", "Preserved the candid transit composition without adding body-part emphasis.", "Added transit-safety, replaceable-signage, and anti-slop exclusions."]
+  }
+}

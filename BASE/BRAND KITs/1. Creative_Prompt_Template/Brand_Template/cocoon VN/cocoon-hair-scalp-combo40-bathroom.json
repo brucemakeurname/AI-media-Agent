@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-hair-scalp-combo40-bathroom",
+  "tag": [
+    "hair-care",
+    "scalp-scrub",
+    "combo-offer",
+    "bathroom",
+    "wet-look",
+    "special-offer"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "cocoon_1333082624866611",
+  "prompt": {
+    "project_info": {
+      "theme": "Wet-look bathroom combo poster for stronger hair and cleaner scalp",
+      "color_palette": "Steam Gray, Deep Green, Berry Purple, Bright Pink, White"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A dramatic bathroom-styled combo poster featuring Cocoon pomelo shampoo, Gleditsia scalp scrub, and Gleditsia scalp tonic arranged on a wet reflective tiled surface, with a magenta circle reading 'COMBO 2 GIẢM 40%'.",
+      "style": "Moody premium hair-care advertising, glossy bathroom product staging, wet commercial still life"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'TÓC PHỒNG CHẮC KHỎE DA ĐẦU SẠCH GÀU' and 'COMBO 2 GIẢM 40%'. Product labels for Pomelo shampoo, Gleditsia scalp scrub, and Gleditsia scalp tonic are readable.",
+      "items": [
+        "Top Left: Giant cream headline stacked across the gray tiled shower wall.",
+        "Top Right: Pink circular discount badge with white text 'COMBO 2 GIẢM 40%'.",
+        "Bottom Left: Green pomelo shampoo bottle standing upright with another bottle lying sideways in the foreground and wet droplets on both.",
+        "Bottom Right: Pink scalp tonic bottle balanced against an aqua glass tumbler with reflected highlights and scattered water drops.",
+        "Center/Background: Tall magenta scalp scrub tube centered as the hero product, glossy wet floor reflections, tiled wall, and misty side lighting."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Directional bathroom studio lighting",
+      "effect": "Wet reflective gleam, misty highlights, controlled hard shadows, premium shower-scene drama"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity commercial hair-care still life photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a wet-look hair-care combo in a bathroom setting. Centerpiece is a Cocoon Gleditsia scalp scrub tube standing upright between a pomelo shampoo bottle and a Gleditsia scalp tonic bottle on a reflective wet tiled surface. Background is a gray shower-tile wall with large cream text reading 'TÓC PHỒNG CHẮC KHỎE DA ĐẦU SẠCH GÀU'. Surrounding elements: a pink circular badge 'COMBO 2 GIẢM 40%', a second shampoo bottle lying sideways, an aqua tumbler, water droplets, and glossy reflections. Keep the bathroom atmosphere, wet surfaces, and exact product trio. Technical style: high fidelity commercial hair-care still life photography, directional bathroom studio lighting, wet reflective gleam and shower-scene drama, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Pomelo shampoo, Gleditsia scalp scrub, and Gleditsia scalp tonic",
+          "required": true,
+          "source": "Attach official packshots or crops from the original image",
+          "usage": "Preserve exact pack colors, product forms, and relative size hierarchy."
+        },
+        {
+          "type": "background",
+          "name": "Wet bathroom tiles and glass tumbler setup",
+          "required": true,
+          "source": "Use the original image as scene reference",
+          "usage": "Keep the tiled wall, reflective puddles, sideways bottle, and aqua tumbler."
+        },
+        {
+          "type": "text_layout",
+          "name": "Hair-strength headline and 40 percent badge",
+          "required": true,
+          "source": "Use the original creative as layout reference",
+          "usage": "Maintain the large stacked cream type and round pink offer badge."
+        }
+      ],
+      "prompt_instructions": "When recreating with gpt-image-2, attach the three product refs and the original bathroom composition. The scene should remain glossy, wet, and tiled rather than converting into a dry studio packshot."
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "name": "riviera-yacht-vintage-beauty",
+  "tag": [
+    "vintage-riviera",
+    "wooden-speedboat",
+    "lake-lifestyle",
+    "retro-swimwear",
+    "summer-editorial"
+  ],
+  "image_type": "fashion-lifestyle-editorial",
+  "image_vibe": "nostalgic-sun-drenched-carefree",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/beach-summer",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced named artist-aesthetic wording with concrete vintage high-society editorial direction and reframed open shirt styling as a modest layer."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "sun-drenched vintage Riviera lifestyle on a classic wooden speedboat",
+      "color_palette": "deep lake blue, warm mahogany, ivory, black, chrome, and Mediterranean green",
+      "format": "vertical 9:16"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "Adult woman seated on a polished mahogany speedboat deck, looking back over her shoulder with a relaxed smile. She wears tortoiseshell sunglasses, a loosely tied silk scarf, a classic black one-piece swimsuit, an open white linen overshirt, and a delicate gold watch.",
+      "style": "nostalgic high-society travel editorial, composed and non-sexualized"
+    },
+    "composition_elements": {
+      "text": "no text, logo, or watermark",
+      "items": [
+        "wide-brimmed straw hat held near the boat deck",
+        "high-gloss mahogany planks and chrome boat fittings",
+        "white wake and water spray behind the moving boat",
+        "blurred green mountains and classic lakeside villas in the distance"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "bright contrasty midday sun",
+      "effect": "crisp shadows, bright water glints, a few lens droplets, windblown hair, carefree warm-weather energy"
+    },
+    "technical_specs": {
+      "camera": "Leica M11",
+      "lens": "Summilux-M 35mm f/1.4 at f/4",
+      "render_style": "vintage slide-film-inspired color, fine natural grain, sharp focus, vibrant blue water and warm wood"
+    },
+    "generated_prompt_string": "Create a vertical 9:16 vintage high-society travel editorial of an adult woman seated on the polished mahogany deck of a classic wooden speedboat moving across a deep blue lake. She looks back over her shoulder with a relaxed smile, wearing tortoiseshell sunglasses, a loosely tied silk scarf, a classic black one-piece swimsuit, an open white linen overshirt, and a delicate gold watch. Include a straw hat on the deck, chrome fittings, white wake and water spray behind the boat, and softly blurred green mountains with lakeside villas in the distance. Use bright contrasty midday sun, crisp shadows, saturated blue water, warm wood, fine analog grain, a few water droplets on the lens, and a carefree nostalgic mood. No text, logo, watermark, or sexualized styling.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, sexualized pose, nudity, transparent clothing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity replacement is required.",
+          "usage": "Replace only the adult subject identity while retaining the boat pose, sunglasses, scarf, layered wardrobe, and travel composition."
+        },
+        {
+          "type": "location",
+          "name": "lake-and-boat-reference",
+          "required": false,
+          "source": "Attach a boat or lake reference if an exact location is required.",
+          "usage": "Replace only boat or shoreline details while retaining the classic wooden speedboat, wake, and sunlit Riviera-like mood."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. References are optional; retain the wooden-boat setting, seated pose, layered swimwear outfit, midday sunlight, and vintage editorial color direction."
+    }
+  }
+}

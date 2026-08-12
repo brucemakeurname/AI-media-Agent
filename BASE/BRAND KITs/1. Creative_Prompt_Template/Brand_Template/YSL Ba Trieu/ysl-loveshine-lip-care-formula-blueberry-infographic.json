@@ -1,0 +1,71 @@
+{
+  "name": "ysl-loveshine-lip-care-formula-blueberry-infographic",
+  "tag": [
+    "ysl",
+    "loveshine",
+    "lip-care",
+    "blueberry",
+    "infographic"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Infographics",
+  "group": "ysl_1429856372512403",
+  "prompt": {
+    "project_info": {
+      "theme": "Ingredient and formula explainer for YSL Loveshine lipstick",
+      "color_palette": "White, blush pink, chrome silver, deep blueberry purple, black typography"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A pale pink YSL lipstick stands vertically in the center on a white background beside transparent dishes of blueberries and black seeds. Large black copy reads 'CÔNG THỨC NUÔI DƯỠNG YÊU CHIỀU LÀN MÔI', '84% NỀN DƯỠNG CHUYÊN SÂU', '3% PRO-XYLANE HOẠT CHẤT VÀNG GIÚP DƯỠNG ẨM SÂU & LÀM ĐẦY RÃNH MÔI', and 'DƯỠNG ẨM 24H CÙNG CHIẾT XUẤT VIỆT QUẤT, HẠT THÌ LÀ ĐEN & DẦU CÀ PHÊ'.",
+      "style": "Luxury beauty ingredient infographic, clean scientific retail poster, premium editorial product explainer"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "CÔNG THỨC NUÔI DƯỠNG YÊU CHIỀU LÀN MÔI, 84% NỀN DƯỠNG CHUYÊN SÂU, 3% PRO-XYLANE HOẠT CHẤT VÀNG GIÚP DƯỠNG ẨM SÂU & LÀM ĐẦY RÃNH MÔI, DƯỠNG ẨM 24H CÙNG CHIẾT XUẤT VIỆT QUẤT, HẠT THÌ LÀ ĐEN & DẦU CÀ PHÊ",
+      "items": [
+        "Top Left: Large black Vietnamese headline on a clean white background",
+        "Top Right: Vertical YSL logo in black",
+        "Bottom Left: Transparent circular dish filled with black seeds plus scattered seeds nearby",
+        "Bottom Right: Transparent circular dish and loose blueberries with glossy deep purple skins and sliced berry interiors",
+        "Center/Background: Upright pale pink YSL lipstick with chrome monogram band casting a hard shadow on the white backdrop"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright clean studio lighting",
+      "effect": "Sharp product shadow, crisp ingredient detail, clinical white clarity, polished chrome reflections"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal beauty infographic composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square beauty ingredient infographic for YSL. Centerpiece is an upright pale pink YSL lipstick with a chrome monogram band on a pure white background, surrounded by transparent dishes of blueberries and black seeds. Include the exact text 'CÔNG THỨC NUÔI DƯỠNG YÊU CHIỀU LÀN MÔI', '84% NỀN DƯỠNG CHUYÊN SÂU', '3% PRO-XYLANE HOẠT CHẤT VÀNG GIÚP DƯỠNG ẨM SÂU & LÀM ĐẦY RÃNH MÔI', and 'DƯỠNG ẨM 24H CÙNG CHIẾT XUẤT VIỆT QUẤT, HẠT THÌ LÀ ĐEN & DẦU CÀ PHÊ'. Technical style: photoreal beauty infographic composite, bright clean studio lighting, sharp shadows and clinical white clarity, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "YSL Loveshine lipstick",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Preserve the lipstick casing, bullet shape, pink body, and chrome monogram band"
+        },
+        {
+          "type": "graphic",
+          "name": "Blueberry, black seed, and glass-dish ingredient layout",
+          "required": true,
+          "source": "original infographic prop arrangement",
+          "usage": "Match the ingredient placement, dish sizes, and clean ingredient-story composition"
+        },
+        {
+          "type": "text_layout",
+          "name": "Formula infographic typography layout",
+          "required": true,
+          "source": "original poster layout",
+          "usage": "Keep the left-heavy stat blocks and the lower-right 24H hydration claim hierarchy"
+        }
+      ],
+      "prompt_instructions": "Preserve the exact Vietnamese wording and infographic hierarchy. This should stay crisp, white, and information-led, not moody or editorial."
+    }
+  }
+}

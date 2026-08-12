@@ -1,0 +1,19 @@
+{
+  "name": "barbie-pink-car-overhead",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "pink-car", "high-angle"],
+  "image_type": "high-angle-car-fashion-portrait",
+  "image_vibe": "vibrant-pink-sunny",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a vibrant high-angle fashion portrait of an approved adult blonde woman beside a pink vintage convertible on a sunlit palm-lined street.",
+    "main_subject": "An approved adult blonde woman with long wavy hair, smiling upward toward camera. She wears a pink bustier crop top and pleated mini skirt, white retro cat-eye sunglasses, and carries a small pink woven handbag.",
+    "composition_elements": "High-angle 9:16 medium-close framing showing head, torso, and top of pink car with chrome steering wheel. Include palms, blue sky, green hedges, and sunlit asphalt.",
+    "lighting_and_atmosphere": "Hard direct sunlight with sharp shadows, vibrant pink-white-green palette, cheerful polished fashion mood.",
+    "technical_specs": "Photorealistic 50mm perspective, vertical 9:16, realistic car chrome, fabric, skin, palm, and road detail with controlled perspective.",
+    "generated_prompt_string": "Create a vibrant photorealistic 9:16 high-angle fashion portrait of an approved adult blonde woman with long wavy hair smiling upward beside a pink vintage convertible. Dress her in a pink bustier crop top and pleated mini skirt, white retro cat-eye sunglasses, and a small pink woven handbag. Show the pink dashboard and chrome steering wheel, palm-lined residential street, clear blue sky, green hedges, and hard direct sunlight with sharp shadows. Use realistic texture, cheerful pink fashion mood, and a 50mm perspective.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, warped car",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-pink-car-subject", "required": true, "source": "barbie-pink-car-overhead.jpg", "usage": "Preserve adult identity, hair, smile, sunglasses, and pose."}, {"type": "wardrobe", "name": "pink-bustier-pleated-skirt", "required": true, "source": "barbie-pink-car-overhead.jpg", "usage": "Keep pink outfit, sunglasses, and handbag consistent; replace only with explicit references."}, {"type": "vehicle", "name": "pink-vintage-convertible", "required": true, "source": "barbie-pink-car-overhead.jpg", "usage": "Maintain vehicle color, chrome, dashboard, and placement; replace only with explicit references."}, {"type": "location", "name": "sunny-palm-lined-street", "required": true, "source": "barbie-pink-car-overhead.jpg", "usage": "Preserve palms, sky, hedges, road, and sunlight; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, vehicle, and location references when exact consistency is required. Keep adult identity, outfit, vehicle/product, environment, logo, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the pink convertible fashion concept.", "Added safe negative prompts and structured references."]}
+}

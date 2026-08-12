@@ -1,0 +1,26 @@
+{
+  "name": "prompt-376",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-nature", "mediterranean", "menswear"],
+  "image_type": "rock-formation-menswear-portrait",
+  "image_vibe": "calm-stylish-mediterranean",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a hyper-realistic Mediterranean lifestyle portrait of an approved adult man seated on large smooth white rock formations under natural sunlight.",
+    "main_subject": "An approved adult man with short slightly messy textured hair and dark sunglasses, wearing a loose lightly crumpled beige linen shirt with open top buttons and white trousers. He leans back with one arm on the rock and the other hand on his knee, looking slightly aside.",
+    "composition_elements": "Vertical seated portrait with white sculptural rocks filling the background and a calm open-sky coastal atmosphere. Preserve relaxed posture and natural fabric folds.",
+    "lighting_and_atmosphere": "Bright natural sunlight with soft shadows across the shirt and textured rocks, calm stylish Mediterranean mood, realistic skin and linen detail.",
+    "technical_specs": "Photorealistic high-detail digital photography, vertical framing, natural depth, sharp subject, realistic sunglasses, hands, hair, linen, and rock texture.",
+    "generated_prompt_string": "Create a hyper-realistic vertical Mediterranean lifestyle portrait of an approved adult man with short slightly messy textured hair and dark sunglasses seated on large smooth white rock formations under natural sunlight. He wears a loose lightly crumpled beige linen shirt with open top buttons and white trousers, leans back with one arm on the rock, and rests the other hand on his knee while looking slightly aside. Use bright natural light, soft shadows, realistic fabric folds and rock texture, calm stylish mood, and natural depth.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, warped rocks",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-mediterranean-male-subject", "required": true, "source": "prompt-376.jpg", "usage": "Preserve adult identity, hair, sunglasses, expression, and seated pose."},
+        {"type": "wardrobe", "name": "beige-linen-shirt-white-trousers", "required": true, "source": "prompt-376.jpg", "usage": "Keep shirt, trousers, sunglasses, and relaxed styling consistent; replace only with explicit wardrobe references."},
+        {"type": "location", "name": "smooth-white-rock-formations", "required": true, "source": "prompt-376.jpg", "usage": "Maintain white rocks, open sky, sunlight, and Mediterranean setting; replace only with explicit location references."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and replaced exact-face-match language with controlled identity reference handling.", "Added safe negative prompts and structured references."]}
+}

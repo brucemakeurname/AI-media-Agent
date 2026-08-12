@@ -1,0 +1,70 @@
+{
+  "name": "samsung-s25-ultra-ai-provisual-engine-camera-specs",
+  "tag": [
+    "smartphone-launch",
+    "camera-specs",
+    "infographic",
+    "galaxy-ai"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Infographics",
+  "group": "samsung_1104780618357082",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy S25 Ultra AI ProVisual engine camera specification poster",
+      "color_palette": "Pure black, white, silver titanium, subtle blue lens reflections"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Premium black-background product infographic showing a silver Galaxy S25 Ultra in three-quarter view with camera-module callout lines and lens specifications around the device.",
+      "style": "Photorealistic flagship tech advertising, ultra-clean premium product render, minimalist launch infographic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Our most advanced AI provisual engine / Galaxy S25 Ultra / Galaxy AI / 12MP Selfie Camera / 50 MP Ultra Wide / 200 MP Wide-angle 2x Optical Quality Zoom / 10 MP Telephoto 3x Optical Zoom / 50 MP Telephoto 5x Optical Zoom & 10x Optical Quality Zoom",
+      "items": [
+        "Top Left: Large centered white headline 'Our most advanced AI provisual engine'.",
+        "Top Right: Smaller centered lockup 'Galaxy S25 Ultra' and 'Galaxy AI' with blue sparkle icons.",
+        "Bottom Left: Left-side callouts '50 MP Ultra Wide' and '200 MP Wide-angle 2x Optical Quality Zoom' connected to rear lenses.",
+        "Bottom Right: Right-side callouts '10 MP Telephoto 3x Optical Zoom' and '50 MP Telephoto 5x Optical Zoom & 10x Optical Quality Zoom'.",
+        "Center/Background: Floating silver Galaxy S25 Ultra render on black, angled to show both rear camera cluster and front selfie camera punch-hole, with thin white annotation lines and small legal footnotes across the very bottom."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Studio lighting",
+      "effect": "High-contrast glossy reflections, metallic edge highlights, subtle lens gleam, premium dark-tech atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy S25 Ultra AI ProVisual engine camera specification poster. Centerpiece is a floating silver Galaxy S25 Ultra shown at a three-quarter angle on a pure black background, revealing the rear lens array and front camera punch-hole. Background is minimal black with strong premium reflections. Surrounding elements: exact centered title 'Our most advanced AI provisual engine', subheading 'Galaxy S25 Ultra' and 'Galaxy AI', left and right white callout labels for '12MP Selfie Camera', '50 MP Ultra Wide', '200 MP Wide-angle 2x Optical Quality Zoom', '10 MP Telephoto 3x Optical Zoom', and '50 MP Telephoto 5x Optical Zoom & 10x Optical Quality Zoom', plus small white legal footnotes along the bottom edge. Technical style: photorealistic product render, studio lighting, high-contrast metallic reflections and lens gleam, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Samsung Galaxy S25 Ultra silver titanium device",
+          "required": true,
+          "source": "official Samsung product renders or original creative",
+          "usage": "Match exact chassis finish, camera-ring sizes, edge profile, and front display shape."
+        },
+        {
+          "type": "text_layout",
+          "name": "camera callout infographic layout",
+          "required": true,
+          "source": "original creative",
+          "usage": "Preserve all spec text, thin annotation lines, hierarchy, and footnote placement."
+        },
+        {
+          "type": "ui_reference",
+          "name": "Galaxy AI sparkle mark",
+          "required": true,
+          "source": "official Galaxy AI branding",
+          "usage": "Keep the exact blue sparkle icons next to the Galaxy AI label."
+        }
+      ],
+      "prompt_instructions": "Use direct refs for the phone render and all text layout. The success of this reverse prompt depends on product geometry accuracy and the precise callout-line structure around the device."
+    }
+  }
+}

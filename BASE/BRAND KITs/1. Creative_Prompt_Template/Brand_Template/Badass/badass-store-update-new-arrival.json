@@ -1,0 +1,77 @@
+{
+  "name": "badass-store-update-new-arrival",
+  "tag": [
+    "store update",
+    "new arrival",
+    "retail display",
+    "sportswear merchandising",
+    "store visual",
+    "launch update"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Sneak peeks",
+  "group": "badass_2422919438192379",
+  "prompt": {
+    "project_info": {
+      "theme": "Store update sportswear new arrival display",
+      "color_palette": "White, black, light gray, beige, muted blue"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A front-facing in-store merchandising display table and rack setup featuring white and black sportswear, a soccer-themed arrangement, and a vertical BADASS poster in the center, presented like a retail floor update announcement.",
+      "style": "Photorealistic retail merchandising documentation, clean store display photography, brand update social post"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "STORE UPDATE, NEW ARRIVAL",
+      "items": [
+        "Center: a black display table with folded garments, cups, a football, and a gold trophy.",
+        "Left and Right: freestanding racks with polos, shorts, and sleeveless tops in white, black, and taupe.",
+        "Center Back: a vertical BADASS sports poster featuring a male athlete.",
+        "Bottom: huge blue text 'STORE UPDATE'.",
+        "Below Main Title: rounded white badge with black outline containing 'NEW ARRIVAL'.",
+        "Background: clean bright retail interior with pale floor and minimal store walls."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright showroom lighting",
+      "effect": "Even store illumination, clean product visibility, polished retail atmosphere, neutral documentary clarity"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic retail merchandising poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "location",
+          "name": "full in-store sportswear display",
+          "required": true,
+          "source": "source image store display reference",
+          "usage": "Use to preserve rack positions, center table arrangement, and overall store layout."
+        },
+        {
+          "type": "product",
+          "name": "sportswear assortment",
+          "required": true,
+          "source": "source image product reference",
+          "usage": "Maintain the mix of white, black, and taupe polos, shorts, and sleeveless items."
+        },
+        {
+          "type": "text_layout",
+          "name": "STORE UPDATE / NEW ARRIVAL typography",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Preserve exact wording and bottom-centered title layout."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image so the store arrangement and title placement remain close to the original.",
+        "Keep the visible text exactly as 'STORE UPDATE' and 'NEW ARRIVAL'.",
+        "Maintain a retail-documentation feel rather than stylized fashion editorial lighting."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square retail update poster for a sportswear new arrival display. Show a bright in-store merchandising setup with left and right garment racks and a central black display table. Arrange white, black, and taupe sportswear pieces, include a vertical athlete poster in the back center, a football, a gold trophy, cups, and folded garments on the table. Add huge blue text 'STORE UPDATE' across the bottom and a rounded white badge below it reading 'NEW ARRIVAL'. Technical style: photorealistic retail merchandising poster, bright showroom lighting, clean store documentation look, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, empty store, blurry products, messy layout, distorted garments, low resolution, incorrect text, harsh color cast, cluttered background, watermark, signature"
+  }
+}

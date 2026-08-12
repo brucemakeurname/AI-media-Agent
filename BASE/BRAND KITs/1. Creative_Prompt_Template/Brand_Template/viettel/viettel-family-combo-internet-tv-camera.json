@@ -1,0 +1,78 @@
+{
+  "name": "viettel-family-combo-internet-tv-camera",
+  "tag": [
+    "viettel",
+    "family",
+    "internet-tv-combo",
+    "camera-bundle",
+    "home"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "viettel_1512204483203098",
+  "prompt": {
+    "project_info": {
+      "theme": "Family-safe home entertainment combo with internet, television, and security camera",
+      "color_palette": "White, Viettel red, black, warm beige home interior, multicolor ribbon accents"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A father in a dark apron stands in a bright living room holding a small boy in a red shirt while also holding a TV remote. On the left, large text reads 'CHĂM CON KHÔNG LỠ TRẬN', 'COMBO INTERNET + TRUYỀN HÌNH', and 'TỪ 215K/THÁNG'. At the bottom are two offer boxes: 'TẶNG 1 CAMERA AN NINH' and 'CLOUD 0Đ TRỌN ĐỜI'.",
+      "style": "Photoreal family lifestyle ad with bundle-offer layout and soft home atmosphere"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "CHĂM CON KHÔNG LỠ TRẬN; COMBO INTERNET + TRUYỀN HÌNH; TỪ 215K/THÁNG; viettel telecom; TẶNG 1 CAMERA AN NINH; CLOUD 0Đ TRỌN ĐỜI",
+      "items": [
+        "Top Left: Stacked black and red headline about childcare and home entertainment combo",
+        "Top Right: Viettel telecom logo in red and black",
+        "Bottom Left: White security camera product on the coffee table plus two rounded white offer cards",
+        "Bottom Right: Large multicolor ribbon sweeping across the lower-right corner",
+        "Center/Background: Bright cozy living room with sofa, TV showing a football match, father holding child, remote in hand, and a football on the floor"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft bright home interior lighting",
+      "effect": "Warm family ambience, gentle daylight, soft product shadows, clean advertising polish"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal home-service advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for a family-safe home entertainment combo with internet, television, and security camera. Centerpiece is a photoreal father in an apron holding a small boy in a red shirt while standing in a bright living room and holding a TV remote. Include the exact text 'CHĂM CON KHÔNG LỠ TRẬN', 'COMBO INTERNET + TRUYỀN HÌNH', 'TỪ 215K/THÁNG', 'TẶNG 1 CAMERA AN NINH', and 'CLOUD 0Đ TRỌN ĐỜI'. Background is a tidy living room with sofa, football on the floor, and a television showing a football match. Surrounding elements: Viettel telecom logo in the top right, a white security camera on the table in the foreground, and a large multicolor ribbon sweeping across the lower-right area. Technical style: photoreal home-service advertising composite, soft bright home interior lighting, warm ambience and clean product shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel telecom logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Top-right lockup"
+        },
+        {
+          "type": "person",
+          "name": "Father and child living-room scene",
+          "required": true,
+          "source": "recreated from original composition",
+          "usage": "Maintain father holding child and remote as the family-use proof point"
+        },
+        {
+          "type": "product",
+          "name": "White home security camera",
+          "required": true,
+          "source": "real product reference if exact device design matters",
+          "usage": "Place on the left foreground table as a gift product hero"
+        },
+        {
+          "type": "ui_reference",
+          "name": "Football broadcast on TV",
+          "required": true,
+          "source": "original creative context",
+          "usage": "Show an active football scene on the left-side television"
+        }
+      ],
+      "prompt_instructions": "The gift camera and the father-child moment are equally important. Do not simplify this into a generic family ad. Keep the headline stacked on the left, the subject group on the right, and the camera as a foreground product shot."
+    }
+  }
+}

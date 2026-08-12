@@ -1,0 +1,66 @@
+{
+  "name": "Y2K Quiet Living Room Flash Portrait",
+  "tag": "y2k-quiet-living-room-flash",
+  "image_type": "candid_digital_flash_portrait",
+  "image_vibe": "raw_quiet_early_digital",
+  "image_purpose": "documentary_editorial",
+  "group": "indie/enegy-lifestyle/retro-analog",
+  "prompt": {
+    "project_info": {
+      "title": "Y2K Quiet Living Room Flash Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "2:3 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with loosely tied-back hair, minimal makeup, natural skin texture, and a calm introspective expression.",
+      "wardrobe": "An oversized plain charcoal T-shirt and loose black trousers, fully covered and unbranded.",
+      "pose_and_expression": "Seated comfortably on a worn fabric sofa, hands resting loosely together, facing camera at eye level."
+    },
+    "composition_elements": {
+      "setting": "A modest lived-in living room with dated furniture, an old beige desktop computer, and neatly arranged visible cables.",
+      "framing": "Medium full-body seated portrait with deep focus and candid space around the subject.",
+      "text_and_brand_control": "No band graphics, screen content, timestamp overlay, labels, logos, or readable text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Cool-neutral direct on-camera flash producing flat illumination and defined small shadows.",
+      "mood": "Quiet, unpolished, emotionally grounded, and non-exploitative."
+    },
+    "technical_specs": {
+      "camera_style": "early-2000s compact digital camera",
+      "lens": "35mm equivalent, f/3.5, ISO 800, 1/60 second",
+      "rendering": "Muted cool color with a faint green cast, natural skin detail, slight digital noise, realistic hands, no beauty retouching."
+    },
+    "generated_prompt_string": "Create a 2:3 vertical candid documentary still photograph of an adult woman with loosely tied-back hair, minimal makeup, natural skin texture, and a calm introspective expression. She wears an oversized plain charcoal T-shirt and loose black trousers, seated comfortably on a worn fabric sofa with hands loosely together, facing camera at eye level. Set this in a modest lived-in living room with dated furniture, a beige old desktop computer, and neatly arranged visible cables. Shoot with an early-2000s compact digital camera, 35mm equivalent, f/3.5, ISO 800, 1/60 second, cool-neutral direct on-camera flash, deep focus, muted slightly green color, natural skin, mild digital noise, and no retouching. Do not include band graphics, readable computer content, date stamps, logos, labels, text, or watermarks.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, lingerie, fetish styling, glamor pose, heavy makeup, smooth plastic skin, band logo, readable screen, timestamp overlay, readable text, watermark, distorted hands, extra fingers, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Identity references are optional and must show a consenting adult. Replaceable room and prop references guide only the candid early-digital mood, never branding, screen copy, or personal information.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general adult face and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "lived_in_living_room_reference",
+          "required": false,
+          "source": "user-provided interior reference",
+          "usage": "Guide furniture and candid room texture while removing personal data and text."
+        },
+        {
+          "type": "prop_reference",
+          "name": "vintage_desktop_computer_reference",
+          "required": false,
+          "source": "user-provided object reference",
+          "usage": "Guide generic beige computer silhouette with a blank screen and no marks."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adulthood, removed band branding and timestamp text, and preserved the quiet candid mood without sexualized or exploitative framing."
+  }
+}

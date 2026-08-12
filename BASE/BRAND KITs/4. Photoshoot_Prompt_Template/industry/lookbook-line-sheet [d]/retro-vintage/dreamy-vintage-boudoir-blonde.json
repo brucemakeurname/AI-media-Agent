@@ -1,0 +1,22 @@
+{
+  "name": "dreamy-vintage-boudoir-blonde",
+  "tag": ["industry", "lookbook-line-sheet", "retro-vintage", "vintage-bedroom", "glamour"],
+  "image_type": "vintage bedroom glamour portrait",
+  "image_vibe": "dreamy, cinematic, intimate, pastel",
+  "image_purpose": "vintage fashion lookbook and editorial portrait",
+  "group": "industry/lookbook-line-sheet/retro-vintage",
+  "prompt": {
+    "project_info": "Create an ultra-photorealistic vintage-inspired bedroom portrait of one original approved adult woman seated in a pink velvet chair, preserving the pastel styling and cinematic texture.",
+    "main_subject": "Original approved adult woman with two thick loose blonde braids, curtain bangs, dewy realistic skin, soft peach makeup, and an ethereal expression. She wears a sage-green bandeau top with matching high-waisted briefs, styled as a tasteful coordinated fashion set, with gold rings and a purple hardcover book titled 'Written in the Stars' by Brianna Priest.",
+    "composition_elements": ["Low-angle seated portrait in a pink velvet armchair, torso angled slightly toward camera.", "Left arm draped over the chair back; right hand holds the book near shoulder.", "Soft pink walls, floral curtains, pastel dressing-room details, and no water.", "Keep the book cover wording as supplied and avoid adding unrelated text."],
+    "lighting_and_atmosphere": "Soft diffused indoor light with warm rosy glow, subtle rim light, pastel dusty-rose and sage palette, dreamy cinematic mood.",
+    "technical_specs": "50mm prime lens, f/2.8, ultra-photorealistic RAW look, 8K detail, realistic skin and textile texture, Hasselblad-inspired photography, no watermark.",
+    "generated_prompt_string": "Ultra-photorealistic vintage-inspired bedroom portrait of an original approved adult woman with two thick loose blonde braids over the shoulders, soft curtain bangs, dewy realistic skin with visible pores, soft peach makeup and an ethereal expression. She wears a sage-green bandeau top with matching high-waisted briefs as a tasteful coordinated fashion set, gold rings, and holds a purple hardcover book titled 'Written in the Stars' by Brianna Priest. She sits gracefully in a pink velvet chair, leaning slightly forward with her torso angled toward camera, left arm over the chair back and right hand holding the book near her shoulder. Low-angle 50mm f/2.8 portrait, soft pink walls, floral curtains, pastel vintage dressing-room atmosphere, warm rosy diffused light, subtle rim lighting, 8K RAW photorealism, no text beyond the supplied book title, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "distorted anatomy", "extra fingers", "inconsistent identity", "plastic skin", "over-smooth", "watermark", "unwanted text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "dreamy-vintage-boudoir-blonde.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult identity, hair, makeup, outfit, pose, and styling reference."}, {"type": "accessory", "name": "purple book Written in the Stars by Brianna Priest", "required": true, "source": "local reference image", "usage": "Preserve book color, title, author line, and hand placement."}, {"type": "location", "name": "pink velvet chair and vintage bedroom", "required": true, "source": "local reference image", "usage": "Preserve walls, curtains, chair, and pastel environment."}],
+      "prompt_instructions": "Attach the required references. Preserve an original adult identity, not Sabrina Carpenter or any public figure; preserve braids, outfit, book typography, chair, room, pose, and lighting. The supplied book title may remain; do not add other typography. Replace only with equivalent adult identity, book, or environment references."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced the named public-figure resemblance with an original approved adult and reframed the outfit as a tasteful coordinated fashion set while preserving the vintage bedroom concept."]}
+}

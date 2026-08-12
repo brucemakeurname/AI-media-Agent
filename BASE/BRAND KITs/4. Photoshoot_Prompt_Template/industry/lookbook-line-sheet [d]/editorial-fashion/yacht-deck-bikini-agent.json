@@ -1,0 +1,22 @@
+{
+  "name": "yacht-deck-bikini-agent",
+  "tag": ["industry", "lookbook-line-sheet", "editorial-fashion", "yacht", "summer-action"],
+  "image_type": "luxury summer action fashion portrait",
+  "image_vibe": "high-contrast, bold, tactical, sunlit",
+  "image_purpose": "summer fashion campaign and action-editorial visual",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create a high-contrast luxury summer action fashion portrait on a yacht deck in the open ocean.",
+    "main_subject": "An adult fictional blonde woman with original non-celebrity features poses in side profile looking down while adjusting her black string bikini. She wears a gold bracelet and a clearly secured tactical thigh holster containing a safely secured handgun as a non-operational costume prop, with no aiming, handling, or action.",
+    "composition_elements": "Side-profile pose on teak yacht decking, deep blue ocean and clear sky with white clouds, white outboard engine in background, black bikini and tactical holster as graphic focal points, bright direct sunlight.",
+    "lighting_and_atmosphere": "Hard natural sunlight with crisp shadows, bronze skin and deep-blue water palette, high-contrast luxury summer action atmosphere.",
+    "technical_specs": "Photorealistic editorial fashion photography, natural anatomy, realistic ocean, teak, bikini fabric, metal, and engine detail, no logos or text.",
+    "generated_prompt_string": "High-contrast luxury summer action fashion portrait of an adult fictional blonde woman with original non-celebrity features on a yacht deck in the open ocean. She wears a black string bikini, gold bracelet, and a securely fastened tactical thigh holster containing a safely secured handgun as a non-operational costume prop, with no aiming or handling. Side profile looking down while adjusting the bikini, deep blue ocean, clear blue sky with white clouds, teak wood decking, white outboard engine, bright direct sunlight, crisp shadows, deep blue, bronze, black, and white palette, photorealistic editorial photography.",
+    "negative_prompt": "celebrity likeness, public figure likeness, explicit, nsfw, overly revealing, nudity, weapon firing, aiming, violence, blood, gore, unsafe firearm handling, blurry, low quality, distorted anatomy, extra fingers, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, text, signature",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "yacht-deck-bikini-agent.jpg", "required": true, "source": "workspace reference image", "usage": "Reference the adult model, black bikini, holster, yacht deck, ocean, engine, sunlight, and side-profile composition while keeping identity and products generic."}],
+      "prompt_instructions": "Attach the required reference image. Preserve outfit, holster placement, yacht environment, pose, ocean palette, and sunlight consistency. Use an original adult identity; keep weapon non-operational and safely secured, products and logos generic, and typography absent or replaceable."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified adult fictional subject and transformed the handgun into a safely secured non-operational costume prop with no aiming or action while preserving the summer action concept."]}
+}

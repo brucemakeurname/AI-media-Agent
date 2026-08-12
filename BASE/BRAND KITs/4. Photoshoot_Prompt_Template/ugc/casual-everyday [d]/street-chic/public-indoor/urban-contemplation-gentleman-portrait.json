@@ -1,0 +1,22 @@
+{
+  "name": "urban-contemplation-gentleman-portrait",
+  "tag": "ugc",
+  "image_type": "photograph",
+  "image_vibe": "polished urban luxury",
+  "image_purpose": "editorial business and lifestyle portrait",
+  "group": "casual-everyday/street-chic/public-indoor",
+  "prompt": {
+    "project_info": "Ultra-realistic male editorial portrait at an urban rooftop lounge at night.",
+    "main_subject": "One generic approved adult Asian man in his forties with short slightly tousled black hair greying at the temples, natural skin texture and calm contemplative expression, wearing a deep navy tailored suit over a black open-collar shirt with a vintage stainless-steel watch, cufflinks, and discreet ring.",
+    "composition_elements": "Vertical close-up 3:4 composition, slightly off-center at a marble bar counter, chin resting lightly on one hand and gazing into the distance; city lights, skyscraper silhouettes, bokeh, candle, and reflections in the background.",
+    "lighting_and_atmosphere": "Crisp camera flash on face with warm votive-candle highlights, polished cinematic warmth, modern urban luxury night atmosphere.",
+    "technical_specs": "Photorealistic editorial digital photography, ultra-realistic high detail, vertical 3:4, controlled bokeh, natural skin grain, polished warm color grading.",
+    "generated_prompt_string": "Create a vertical 3:4 photorealistic editorial portrait of one generic approved Asian adult man in his forties wearing a deep navy suit and black open-collar shirt, seated at a marble rooftop-lounge bar with chin resting on one hand, contemplative gaze, crisp flash on face, warm candle accent, city lights and bokeh behind him, polished urban luxury.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized styling, nudity, minors, celebrity likeness, public figure likeness, distorted anatomy, extra fingers, malformed watch or glass, watermark, logo overlay, harsh artifacts",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "urban-contemplation-gentleman-portrait.jpg", "required": true, "source": "local", "usage": "Match adult subject, navy suit, contemplative pose, marble bar, watch and glass, rooftop city lights, flash, and candle glow."}],
+      "prompt_instructions": "Attach the required reference image. Preserve identity, age range, expression, pose, outfit, accessories, bar setting, city background, composition, and lighting. Watch, glass, and accessory details are replaceable; avoid logos and celebrity likeness."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Normalized schema and slug.", "Added safety exclusions and local reference instructions."]}
+}

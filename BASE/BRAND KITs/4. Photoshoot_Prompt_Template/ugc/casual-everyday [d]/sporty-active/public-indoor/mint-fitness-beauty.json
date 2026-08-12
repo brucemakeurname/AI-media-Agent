@@ -1,0 +1,27 @@
+{
+  "name": "mint-fitness-beauty",
+  "tag": ["ugc", "casual-everyday", "sporty-active", "public-indoor", "kitchen", "grid-collage"],
+  "image_type": "lifestyle-grid-collage",
+  "image_vibe": "clean-warm-fitness-lifestyle",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/sporty-active/public-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic four-panel lifestyle grid collage of an approved adult blonde woman posing casually in a modern minimalist kitchen.",
+    "main_subject": "An approved adult blonde woman with long soft waves and a confident friendly relaxed expression. She wears a white cropped short-sleeve top and mint-green high-waisted fitted shorts consistently across all panels.",
+    "composition_elements": "Four-panel grid with leaning-forward smile at a kitchen counter, side profile, back-facing look over shoulder, and front-facing hands-on-hips pose. Use light stone countertop, neutral cabinetry, and clean contemporary layout.",
+    "lighting_and_atmosphere": "Soft warm overhead indoor light, flattering but natural, clean contemporary fitness-lifestyle mood.",
+    "technical_specs": "Photorealistic high-resolution 4:5 grid collage, eye-level 35mm perspective, mid-body to upper-leg framing, sharp subject with lightly softened background, crisp realistic texture.",
+    "generated_prompt_string": "Create a photorealistic high-resolution four-panel grid collage on a 4:5 canvas featuring an approved adult blonde woman with long soft waves in a modern minimalist kitchen. Keep her white cropped short-sleeve top and mint-green high-waisted fitted shorts consistent across all panels. Show a leaning-forward smile at the counter, side profile, back-facing look over shoulder, and front-facing hands-on-hips pose. Include a light stone countertop, neutral cabinetry, clean contemporary layout, soft warm overhead light, realistic textures, and a friendly relaxed UGC-style mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted body, inconsistent outfit across panels",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-blonde-kitchen-subject", "required": true, "source": "mint-fitness-beauty.jpg", "usage": "Preserve adult identity, blonde hair, expression, and appearance across panels."},
+        {"type": "wardrobe", "name": "white-top-mint-shorts-set", "required": true, "source": "mint-fitness-beauty.jpg", "usage": "Keep top and shorts consistent across all frames; replace only with explicit wardrobe references."},
+        {"type": "layout", "name": "four-panel-kitchen-grid", "required": true, "source": "mint-fitness-beauty.jpg", "usage": "Preserve four poses, panel order, and grid layout; replace only with explicit layout references."},
+        {"type": "location", "name": "modern-minimalist-kitchen", "required": true, "source": "mint-fitness-beauty.jpg", "usage": "Maintain countertop, cabinetry, and warm indoor environment; replace only with explicit location references."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, layout, and location references when exact consistency is required. Keep adult identity, outfit, panel order, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and removed sexualized wording while preserving the four-panel lifestyle concept.", "Added safe negative prompts and panel consistency references."]}
+}

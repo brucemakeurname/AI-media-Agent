@@ -1,0 +1,26 @@
+{
+  "name": "tropical-tie-dye-bikini-belle",
+  "tag": ["ugc", "tropical-foliage", "tie-dye-bikini", "front-facing", "fashion-portrait"],
+  "image_type": "lifestyle-fashion-portrait",
+  "image_vibe": "sun-drenched-confident",
+  "image_purpose": "instagram-feed",
+  "group": "lifestyle-moment/beach-vacation/outdoor-nature",
+  "prompt": {
+    "project_info": "Create photorealistic high-fidelity tropical fashion photography with realistic skin texture and shallow depth of field.",
+    "main_subject": "An adult woman with long wavy dark hair and a tanned complexion, natural feminine silhouette, and confident direct gaze. She wears a red, orange, and dark-green tie-dye bikini with small triangle cups, thin red strings, a central gold ring, and low-rise side-tie bottoms. Preserve the small cross tattoo on the lower right abdomen near the bikini line as a non-graphic identity detail.",
+    "composition_elements": "Standing front-facing with a slight hip shift, right arm down and left hand resting near the chin. Frame vertically from upper thighs to slightly cropped top of head, eye-level straight-on, with dense Monstera-like foliage and tropical plants behind her, softly out of focus.",
+    "lighting_and_atmosphere": "Natural front-right overhead sunlight, soft shadows under the chin and arms, warm lifelike skin glow, high-contrast highlights on shoulders and chest area, tropical sun-drenched atmosphere.",
+    "technical_specs": "Medium vertical shot, eye-level, three-dimensional depth without lens compression, photorealistic high-fidelity photography, shallow depth of field, realistic pores and slight natural skin sheen.",
+    "generated_prompt_string": "Photorealistic high-fidelity fashion portrait of an adult woman with long wavy dark hair and a tanned complexion, a natural feminine silhouette, and a confident direct gaze. She wears a red, orange, and dark-green tie-dye bikini with small triangle cups connected by thin red strings and a central gold ring, plus low-rise side-tie bottoms; preserve the small cross tattoo on the lower right abdomen near the bikini line as a non-graphic detail. She stands front-facing with a slight hip shift, right arm down by her side, left hand resting near her chin, head slightly tilted, and a natural relaxed expression. Frame vertically from upper thighs to the slightly cropped top of head, eye-level straight-on, against dense Monstera-like leaves and tropical plants with a softly blurred background. Natural front-right overhead sunlight, realistic skin texture, warm highlights, soft shadows, tropical sun-drenched mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, exaggerated anatomy, body-part emphasis, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, cartoon, illustration, grainy, pixelated, extra limbs, extra fingers, deformed, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "dark-haired adult tropical subject", "required": true, "source": "matching local preview image", "usage": "Preserve approved adult face, hair, expression, pose, and natural proportions; replaceable with another approved adult."},
+        {"type": "wardrobe", "name": "red-orange-green tie-dye bikini and gold ring", "required": true, "source": "matching local preview image", "usage": "Keep tie-dye palette, string construction, gold ring, and small tattoo placement consistent; replaceable only with equivalent patterned swimwear when exact outfit is not required."},
+        {"type": "location", "name": "dense tropical foliage", "required": true, "source": "matching local preview image", "usage": "Preserve Monstera leaves, green depth, and soft background separation; replaceable with equivalent tropical foliage."}
+      ],
+      "prompt_instructions": "Attach the matching preview for exact adult identity, outfit, tattoo detail, pose, and foliage continuity. Keep face, hair, wardrobe, tattoo as a non-graphic mark, and vertical crop consistent. Person, wardrobe, and environment are independently replaceable only with equivalent approved references; no typography or logos are present."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed explicit anatomical measurements, sexualized expression, and body-part emphasis; retained the adult fashion portrait, tie-dye bikini, pose, tattoo, lighting, and tropical creative intent."]}
+}

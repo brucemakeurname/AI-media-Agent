@@ -1,0 +1,65 @@
+{
+  "name": "cocoon-lotus-refill-pour-74-percent-less-plastic",
+  "tag": [
+    "refill-demo",
+    "lotus-cleanser",
+    "eco-refill",
+    "close-up",
+    "pour-shot",
+    "sustainability"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "cocoon_1347706730656152",
+  "prompt": {
+    "project_info": {
+      "theme": "Close-up eco-refill pouring shot for Hau Giang lotus cleanser",
+      "color_palette": "Pastel Pink, Soft White, Light Gold, Pale Green"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A close-up macro-style product shot capturing creamy cleanser pouring from a white Cocoon refill pouch into the neck of a pink bottle, with the bottom-right sustainability message '74% GIẢM NHỰA SO VỚI DẠNG CHAI'.",
+      "style": "Minimal beauty macro photography, clean eco-refill demonstration, soft pastel commercial visual"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'ECO-REFILL' and '74% GIẢM NHỰA SO VỚI DẠNG CHAI'. The pouch shows partial product branding 'the Cocoon ORIGINAL VIETNAM Sữa rửa mặt sen Hậu Giang soothing cl...'.",
+      "items": [
+        "Top Left: Upper edge of the refill pouch cropped dramatically across the frame.",
+        "Top Right: Gold Cocoon logo and partial vertical product name on the pouch body.",
+        "Bottom Left: Open pink bottle neck receiving a smooth stream of pale cleanser.",
+        "Bottom Right: White outlined refill icon and large '74%' sustainability statement on a pink gradient field.",
+        "Center/Background: Soft pink-to-green pastel gradient with the pour stream as the main action line."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio macro lighting",
+      "effect": "Smooth glossy highlights, creamy liquid definition, pastel gradient glow, clean minimalist clarity"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity macro beauty product photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for an eco-refill close-up demonstration. Centerpiece is a stream of creamy cleanser pouring from a Cocoon Hau Giang lotus refill pouch into the neck of a pink bottle. Background is a soft pastel pink-and-green beauty gradient. Surrounding elements: partial pouch branding, a white outlined refill icon, 'ECO-REFILL', and the large claim '74% GIẢM NHỰA SO VỚI DẠNG CHAI'. Keep the tight macro crop, liquid stream fidelity, and clean minimalist pastel composition. Technical style: high fidelity macro beauty product photography, soft studio macro lighting, smooth glossy highlights and creamy liquid definition, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Hau Giang lotus refill pouch and pink bottle",
+          "required": true,
+          "source": "Attach product packshots or crops from the original image",
+          "usage": "Preserve the pouch spout geometry, bottle neck shape, and product-family colors."
+        },
+        {
+          "type": "text_layout",
+          "name": "74 percent less plastic callout",
+          "required": true,
+          "source": "Use the original creative as layout reference",
+          "usage": "Keep the outlined refill icon, wording, and placement in the lower right."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, the exact liquid-pour action and macro crop are essential. Attach the refill pouch and bottle refs and instruct the model not to widen the scene or add unrelated props."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Urban Cruiser Rider Portrait",
+  "tag": "urban-cruiser-rider",
+  "image_type": "motorcycle_street_portrait",
+  "image_vibe": "teal_gray_gritty_film",
+  "image_purpose": "mens_streetwear_editorial",
+  "group": "indie/enegy-lifestyle/urban-indie",
+  "prompt": {
+    "project_info": {
+      "title": "Urban Cruiser Rider Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "2:3 vertical"
+    },
+    "main_subject": {
+      "description": "An adult man with a calm self-assured expression and short dark hair, seated on a parked unbranded cruiser motorcycle.",
+      "wardrobe": "A dark oversized T-shirt, loose wide-leg dark denim, plain high-top sneakers, and minimal unbranded metal jewelry.",
+      "pose_and_expression": "Both feet firmly on the ground beside the parked motorcycle, hands resting on the handlebars, looking toward camera."
+    },
+    "composition_elements": {
+      "setting": "Quiet urban curb outside a generic glass-front café with abstract window reflections and no customers identifiable.",
+      "framing": "Full-body upright portrait; motorcycle stationary and positioned safely off the traffic lane.",
+      "text_and_brand_control": "No motorcycle badge, café typography, license plate text, shoe logo, or readable signs."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft natural overcast light with restrained high-contrast teal-gray grade.",
+      "mood": "Gritty, composed, and cinematic rather than reckless."
+    },
+    "technical_specs": {
+      "camera_style": "35mm urban film portrait",
+      "lens": "50mm equivalent",
+      "rendering": "Fine grain, matte texture, accurate motorcycle geometry, realistic hands, and natural facial detail."
+    },
+    "generated_prompt_string": "Create a 2:3 vertical 35mm urban film portrait of an adult man with short dark hair and a calm self-assured expression, seated on a stationary unbranded black cruiser motorcycle at a quiet curb. He wears a dark oversized T-shirt, loose wide-leg dark denim, plain high-top sneakers, and minimal unbranded metal jewelry. Keep both feet firmly on the ground and his hands resting on the handlebars. Place him outside a generic glass-front café with abstract reflections and no identifiable customers. Use soft overcast light, restrained teal-gray grade, gritty matte texture, fine grain, accurate motorcycle geometry, realistic hands, and natural facial detail. No brand badges, café typography, license-plate text, logos, or readable signs.",
+    "negative_prompt": "minor, celebrity likeness, speeding, stunt, unsafe riding, helmetless traffic riding, explicit, nsfw, logo, license plate, readable text, watermark, distorted motorcycle, malformed hands, extra limbs, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity references must show a consenting adult. Vehicle and environment references are replaceable and must have all badges, plates, names, and copy removed.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_rider_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general adult face and hair traits only."
+        },
+        {
+          "type": "vehicle_reference",
+          "name": "cruiser_motorcycle_reference",
+          "required": false,
+          "source": "user-provided vehicle reference",
+          "usage": "Guide generic cruiser geometry after removing badge and plate details."
+        },
+        {
+          "type": "environment_reference",
+          "name": "urban_cafe_front_reference",
+          "required": false,
+          "source": "user-provided streetscape reference",
+          "usage": "Guide glass and curb composition while blanking all typography."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified an adult rider and stationary safe pose; removed brand, café text, plate, and reckless-riding dependencies."
+  }
+}

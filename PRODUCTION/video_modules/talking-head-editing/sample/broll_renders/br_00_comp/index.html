@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1080, height=1920" />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 1080px; height: 1920px; overflow: hidden; background: #1C1C1E; }
+    #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+
+    #bg { position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+      background: radial-gradient(ellipse 900px 1200px at 540px 960px, rgba(31,127,254,0.10) 0%, #1C1C1E 60%);
+      z-index: 0; }
+    #grid { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;
+      background-image: radial-gradient(circle, rgba(31,127,254,0.20) 1px, transparent 1px);
+      background-size: 60px 60px; pointer-events: none; }
+
+    .particle { position: absolute; border-radius: 50%; background: #1F7FFE; z-index: 2; }
+    #p1 { top: 130px; left: 190px; width: 8px; height: 8px; }
+    #p2 { top: 290px; left: 850px; width: 5px; height: 5px; opacity: 0.7; }
+    #p3 { top: 510px; left: 430px; width: 4px; height: 4px; opacity: 0.5; }
+    #p4 { top: 760px; left: 88px; width: 7px; height: 7px; opacity: 0.8; }
+    #p5 { top: 1120px; left: 970px; width: 5px; height: 5px; opacity: 0.7; }
+    #p6 { top: 1420px; left: 210px; width: 6px; height: 6px; }
+    #p7 { top: 1690px; left: 760px; width: 4px; height: 4px; opacity: 0.6; }
+
+    /* TOP ZONE: 0–640px */
+    #top-eyebrow { position: absolute; top: 185px; left: 80px;
+      font-family: 'Inter', sans-serif; font-weight: 700; font-size: 22px;
+      color: #1F7FFE; letter-spacing: 0.18em; text-transform: uppercase; z-index: 4; }
+    #top-divider { position: absolute; top: 230px; left: 80px; width: 0; height: 2px;
+      background: #1F7FFE; z-index: 4; }
+    #top-meta { position: absolute; top: 252px; left: 80px;
+      font-family: 'Inter', sans-serif; font-weight: 400; font-size: 19px;
+      color: #555; letter-spacing: 0.08em; text-transform: uppercase; z-index: 4; }
+    #top-context { position: absolute; top: 348px; left: 80px; width: 920px;
+      font-family: 'Inter', sans-serif; font-weight: 600; font-size: 36px;
+      color: #eee; line-height: 1.3; z-index: 4; }
+
+    /* MID ZONE: 640–1280px */
+    #mid-ring-o { position: absolute; top: 700px; left: 200px; width: 680px; height: 680px;
+      border: 1px solid rgba(31,127,254,0.25); border-radius: 50%; z-index: 3; }
+    #mid-ring-i { position: absolute; top: 780px; left: 280px; width: 520px; height: 520px;
+      border: 1.5px solid rgba(31,127,254,0.45); border-radius: 50%; z-index: 3; }
+    #mid-glow { position: absolute; top: 720px; left: 240px; width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(31,127,254,0.22) 0%, transparent 65%);
+      border-radius: 50%; z-index: 3; pointer-events: none; }
+    #stat-num { position: absolute; top: 785px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 900; font-size: 280px;
+      color: #FFFFFF; line-height: 1; letter-spacing: -0.04em; z-index: 5; }
+    #stat-sub { position: absolute; top: 1135px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 700; font-size: 40px;
+      color: #888; text-transform: uppercase; letter-spacing: 0.10em; z-index: 5; }
+    #accent-line { position: absolute; top: 1258px; left: 80px; width: 0; height: 3px;
+      background: linear-gradient(to right, #1F7FFE, transparent); z-index: 4; }
+
+    /* BOTTOM ZONE: 1280–1920px */
+    #btm-body { position: absolute; top: 1345px; left: 80px; width: 920px;
+      font-family: 'Inter', sans-serif; font-weight: 400; font-size: 28px;
+      color: #888; line-height: 1.55; z-index: 4; }
+    #btm-italic { position: absolute; top: 1540px; left: 80px; width: 920px;
+      font-family: 'Playfair Display', serif; font-style: italic; font-size: 44px;
+      color: #CFFF04; line-height: 1.3; z-index: 4; }
+    #btm-brand { position: absolute; top: 1768px; left: 80px;
+      font-family: 'Inter', sans-serif; font-weight: 800; font-size: 22px;
+      color: rgba(255,255,255,0.25); letter-spacing: 0.14em; text-transform: uppercase; z-index: 4; }
+    #btm-dot { position: absolute; top: 1762px; right: 80px; width: 36px; height: 36px;
+      border: 2px solid #1F7FFE; border-radius: 50%; z-index: 4; }
+  </style>
+</head>
+<body>
+  <div id="root"
+       data-composition-id="broll-00"
+       data-start="0" data-duration="5.234"
+       data-width="1080" data-height="1920">
+
+    <!-- Layer 0: Environment -->
+    <div id="bg" class="clip" data-start="0" data-duration="5.234" data-track-index="0"></div>
+    <div id="grid" class="clip" data-start="0" data-duration="5.234" data-track-index="1"></div>
+
+    <!-- Layer 1: Particles — spread across all 3 zones -->
+    <div id="p1" class="clip particle" data-start="0" data-duration="5.234" data-track-index="2"></div>
+    <div id="p2" class="clip particle" data-start="0" data-duration="5.234" data-track-index="3"></div>
+    <div id="p3" class="clip particle" data-start="0" data-duration="5.234" data-track-index="4"></div>
+    <div id="p4" class="clip particle" data-start="0" data-duration="5.234" data-track-index="5"></div>
+    <div id="p5" class="clip particle" data-start="0" data-duration="5.234" data-track-index="6"></div>
+    <div id="p6" class="clip particle" data-start="0" data-duration="5.234" data-track-index="7"></div>
+    <div id="p7" class="clip particle" data-start="0" data-duration="5.234" data-track-index="8"></div>
+
+    <!-- TOP ZONE: 0–640px -->
+    <div id="top-eyebrow" class="clip" data-start="0" data-duration="5.234" data-track-index="9">Reality Check</div>
+    <div id="top-divider" class="clip" data-start="0" data-duration="5.234" data-track-index="10"></div>
+    <div id="top-meta" class="clip" data-start="0" data-duration="5.234" data-track-index="11">AI Creator Industry · 2025</div>
+    <div id="top-context" class="clip" data-start="0" data-duration="5.234" data-track-index="12">No one is telling you why</div>
+
+    <!-- MID ZONE: 640–1280px — stat hero -->
+    <div id="mid-ring-o" class="clip" data-start="0" data-duration="5.234" data-track-index="13"></div>
+    <div id="mid-ring-i" class="clip" data-start="0" data-duration="5.234" data-track-index="14"></div>
+    <div id="mid-glow" class="clip" data-start="0" data-duration="5.234" data-track-index="15"></div>
+    <div id="stat-num" class="clip" data-start="0" data-duration="5.234" data-track-index="16">99%</div>
+    <div id="stat-sub" class="clip" data-start="0" data-duration="5.234" data-track-index="17">of AI creators fail</div>
+    <div id="accent-line" class="clip" data-start="0" data-duration="5.234" data-track-index="18"></div>
+
+    <!-- BOTTOM ZONE: 1280–1920px -->
+    <div id="btm-body" class="clip" data-start="0" data-duration="5.234" data-track-index="19">They post every day. They use every tool.<br>But they skip the one thing that matters.</div>
+    <div id="btm-italic" class="clip" data-start="0" data-duration="5.234" data-track-index="20">"the ugly truth"</div>
+    <div id="btm-brand" class="clip" data-start="0" data-duration="5.234" data-track-index="21">SOLOFLOWS</div>
+    <div id="btm-dot" class="clip" data-start="0" data-duration="5.234" data-track-index="22"></div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      gsap.set('#grid', { opacity: 0 });
+      gsap.set('.particle', { opacity: 0, scale: 0 });
+      gsap.set('#top-eyebrow', { opacity: 0, y: -16 });
+      gsap.set('#top-divider', { width: 0 });
+      gsap.set('#top-meta', { opacity: 0 });
+      gsap.set('#top-context', { opacity: 0, y: 12 });
+      gsap.set('#mid-ring-o', { opacity: 0, scale: 0.7, transformOrigin: 'center center' });
+      gsap.set('#mid-ring-i', { opacity: 0, scale: 0.7, transformOrigin: 'center center' });
+      gsap.set('#mid-glow', { opacity: 0 });
+      gsap.set('#stat-num', { opacity: 0, scale: 0.55, transformOrigin: 'center center' });
+      gsap.set('#stat-sub', { opacity: 0, y: 18 });
+      gsap.set('#accent-line', { width: 0 });
+      gsap.set('#btm-body', { opacity: 0, y: 18 });
+      gsap.set('#btm-italic', { opacity: 0, y: 12 });
+      gsap.set('#btm-brand', { opacity: 0 });
+      gsap.set('#btm-dot', { opacity: 0, scale: 0, transformOrigin: 'center center' });
+
+      var tl = gsap.timeline({ paused: true });
+      window.__timelines = window.__timelines || {};
+      window.__timelines['broll-00'] = tl;
+
+      // env: 0–0.3s
+      tl.to('#grid', { opacity: 1, duration: 0.3, ease: 'power2.out' }, 0);
+      tl.to('.particle', { opacity: 1, scale: 1, duration: 0.4, ease: 'back.out(1.5)', stagger: 0.03 }, 0.05);
+
+      // primary visual: 0.3–1.2s
+      tl.to('#mid-ring-o', { opacity: 1, scale: 1, duration: 0.5, ease: 'power2.out' }, 0.3);
+      tl.to('#mid-ring-i', { opacity: 1, scale: 1, duration: 0.4, ease: 'power2.out' }, 0.45);
+      tl.to('#mid-glow', { opacity: 1, duration: 0.5, ease: 'sine.inOut' }, 0.5);
+      tl.to('#stat-num', { opacity: 1, scale: 1, duration: 0.6, ease: 'back.out(1.6)' }, 0.6);
+      tl.to('#stat-sub', { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out' }, 1.05);
+
+      // primary text: 0.8–1.8s
+      tl.to('#top-eyebrow', { opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' }, 0.8);
+      tl.to('#top-divider', { width: 180, duration: 0.35, ease: 'power3.out' }, 0.98);
+      tl.to('#top-meta', { opacity: 1, duration: 0.28, ease: 'power2.out' }, 1.15);
+      tl.to('#top-context', { opacity: 1, y: 0, duration: 0.38, ease: 'power2.out' }, 1.35);
+
+      // accent/bottom: 1.5–2.5s
+      tl.to('#accent-line', { width: 920, duration: 0.5, ease: 'power2.out' }, 1.5);
+      tl.to('#btm-body', { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out' }, 1.78);
+      tl.to('#btm-italic', { opacity: 1, y: 0, duration: 0.38, ease: 'power2.out' }, 2.08);
+      tl.to('#btm-brand', { opacity: 1, duration: 0.3, ease: 'power2.out' }, 2.28);
+      tl.to('#btm-dot', { opacity: 1, scale: 1, duration: 0.28, ease: 'back.out(1.5)' }, 2.38);
+
+      // fade: 4.734s
+      tl.to('#root', { opacity: 0, duration: 0.5, ease: 'power2.inOut' }, 4.734);
+    });
+  </script>
+</body>
+</html>

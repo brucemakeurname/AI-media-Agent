@@ -1,0 +1,59 @@
+{
+  "name": "Burgundy Satin Retro Sofa Portrait",
+  "tag": "burgundy-satin-retro-sofa",
+  "image_type": "retro_interior_portrait",
+  "image_vibe": "warm_1970s_analog",
+  "image_purpose": "fashion_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Burgundy Satin Retro Sofa Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "1:1 square"
+    },
+    "main_subject": {
+      "description": "An adult woman with long wavy dark-brown hair, light freckles, and minimal natural makeup.",
+      "wardrobe": "A deep burgundy satin long-sleeve midi dress with a modest high neckline and a fabric waist tie.",
+      "pose_and_expression": "Relaxed seated portrait on a vintage sofa, hands together on the armrest and calm eyes toward camera."
+    },
+    "composition_elements": {
+      "setting": "Seventies living room with wood-paneled walls, patterned vintage sofa, white textured throw, red velvet cushion, leafy potted plant, and beige fringed floor lamp.",
+      "framing": "Square medium-full portrait with the lamp and plant balancing the sofa.",
+      "text_and_brand_control": "No labels, text, magazine copy, brand marks, or watermark."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Warm tungsten lamp light with soft shadows.",
+      "mood": "Cozy, quiet, nostalgic, and intimate without sexualization."
+    },
+    "technical_specs": {
+      "camera_style": "Portra-inspired 35mm interior film",
+      "lens": "50mm equivalent",
+      "rendering": "Fine grain, warm color, natural skin, accurate hands, and tactile fabric and wood detail."
+    },
+    "generated_prompt_string": "Create a square Portra-inspired 35mm interior portrait of an adult woman with long wavy dark-brown hair, light freckles, and minimal natural makeup. She wears a deep burgundy satin long-sleeve midi dress with a modest high neckline and fabric waist tie. Seat her relaxed on a vintage sofa with hands together on the armrest and calm eyes toward camera. Surround her with wood-paneled walls, patterned sofa upholstery, a white textured throw, red velvet cushion, leafy potted plant, and beige fringed floor lamp. Use warm tungsten lamp light, soft shadows, fine grain, natural skin, accurate hands, and tactile fabric and wood detail. No labels, readable text, brand marks, watermark, or sexualized styling.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, slip dress, spaghetti straps, lingerie, fetish styling, logo, readable text, watermark, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional adult identity references guide only broad approved traits. Replaceable room and wardrobe references must omit labels, text, and branding.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general adult facial and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "seventies_living_room_reference",
+          "required": false,
+          "source": "user-provided interior reference",
+          "usage": "Guide wood, sofa, plant, and lamp composition."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adult subject and replaced revealing slip styling with a covered satin dress while retaining the retro interior mood."
+  }
+}

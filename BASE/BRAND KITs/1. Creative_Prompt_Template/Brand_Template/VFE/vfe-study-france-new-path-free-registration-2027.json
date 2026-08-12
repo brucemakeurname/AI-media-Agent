@@ -1,0 +1,71 @@
+{
+  "name": "vfe-study-france-new-path-free-registration-2027",
+  "tag": [
+    "vfe",
+    "study-france",
+    "free-registration",
+    "2027-intake",
+    "special-offer"
+  ],
+  "biz_niche": "Travel & Hospitality",
+  "content_format": "Special offers",
+  "group": "vfe_4296002287212951",
+  "prompt": {
+    "project_info": {
+      "theme": "Free registration call for a France study pathway after graduation",
+      "color_palette": "Cream, Navy Blue, Red, Soft Paris Beige"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A travel-themed promotional poster built from layered cream paper shapes over a blurred Paris street background, featuring a tilted photo of the Eiffel Tower and a central callout inviting free registration for a France study pathway leading to intake in January 2027.",
+      "style": "Soft travel-admissions poster with paper collage layers, rounded CTA buttons, and romantic Paris postcard treatment."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nDU HỌC PHÁP\nHƯỚNG ĐI MỚI SAU TỐT NGHIỆP\nTừ con số 0 đến giảng đường Pháp\nĐăng ký tham gia MIỄN PHÍ\nNhận lộ trình Du học Pháp ngay T1/2027 dù chưa biết tiếng Pháp\nHà Nội: 14h00, ngày 20/06/2026\nTP. HCM: 9h00, ngày 21/06/2026\nĐĂNG KÝ NGAY",
+      "items": [
+        "Top Left: VFE logo on a white rounded label.",
+        "Top Right: Soft Paris street blur with upper paper layers and cream panel edges.",
+        "Bottom Left: Red rounded CTA 'ĐĂNG KÝ NGAY' and a tilted photo of the Eiffel Tower.",
+        "Bottom Right: Paris postal stamp doodle in sepia line style.",
+        "Center/Background: Large layered cream paper stack with headline 'DU HỌC PHÁP HƯỚNG ĐI MỚI SAU TỐT NGHIỆP', navy sub-pill 'Từ con số 0 đến giảng đường Pháp', and red-white free registration badge."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft travel-poster daylight",
+      "effect": "Warm romantic blur in the Paris street background, crisp paper edges, and polished social-ad CTA contrast."
+    },
+    "technical_specs": {
+      "render_style": "Photo-collage admissions campaign poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality admissions campaign poster for a France study pathway after graduation. Centerpiece is a layered cream paper collage over a blurred Paris street background, with headline 'DU HỌC PHÁP HƯỚNG ĐI MỚI SAU TỐT NGHIỆP', a navy strip 'Từ con số 0 đến giảng đường Pháp', and a large callout 'Đăng ký tham gia MIỄN PHÍ'. Surrounding elements: VFE logo, Eiffel Tower photo card, event times for Hà Nội and TP. HCM, Paris postal stamp doodle, and red CTA 'ĐĂNG KÝ NGAY'. Technical style: photo-collage admissions campaign poster, soft travel-poster daylight, polished CTA clarity, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place top center-left on a white label."
+        },
+        {
+          "type": "location",
+          "name": "Paris street and Eiffel Tower references",
+          "required": true,
+          "source": "landmark and street photography",
+          "usage": "Use for the blurred background and the tilted Eiffel Tower photo card."
+        },
+        {
+          "type": "text_layout",
+          "name": "Free registration paper-collage layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve the layered cream papers, the MIỄN PHÍ badge, dates, and CTA positioning."
+        }
+      ],
+      "prompt_instructions": "The dates '20/06/2026' and '21/06/2026' are in the past relative to Friday, July 17, 2026, and should remain exactly as event-history details. The phrase 'T1/2027' is future-oriented and should remain explicit as a planned intake message."
+    }
+  }
+}

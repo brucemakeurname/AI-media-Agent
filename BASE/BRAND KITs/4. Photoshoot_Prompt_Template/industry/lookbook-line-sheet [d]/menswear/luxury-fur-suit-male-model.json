@@ -1,0 +1,22 @@
+{
+  "name": "luxury-fur-suit-male-model",
+  "tag": ["industry", "lookbook-line-sheet", "menswear", "luxury", "fur"],
+  "image_type": "luxury menswear full-body portrait",
+  "image_vibe": "bold, polished, eccentric, high-fashion",
+  "image_purpose": "menswear lookbook and luxury editorial styling reference",
+  "group": "industry/lookbook-line-sheet/menswear",
+  "prompt": {
+    "project_info": "Create an ultra-realistic studio fashion portrait of one approved adult male model in a luxury layered menswear look, preserving his facial features and facial structure.",
+    "main_subject": "Adult man with intense confident gaze, thick brows, light stubble, slicked-back dark hair, and approved-reference facial features. He wears a dark navy pinstripe suit, white shirt, beige striped tie, oversized brown fur coat draped over the shoulders, chunky sneakers, and dark monster-style sunglasses as a playful accessory.",
+    "composition_elements": ["Centered full-body straight-on composition.", "Subject in a low seated squat with hands resting naturally on the knees.", "Clean white seamless background.", "Preserve the contrast between tailored pinstripe suiting, oversized fur, sneakers, and sunglasses."],
+    "lighting_and_atmosphere": "Soft diffused studio lighting, clean white environment, sharp subject focus, natural shadows, cinematic realism, and premium editorial finish.",
+    "technical_specs": "85mm lens look, 4:5 aspect ratio, ultra-realistic detailed textures in fabric, fur, leather, and footwear, realistic anatomy and hands, high-resolution photorealistic fashion photography.",
+    "generated_prompt_string": "Ultra-realistic studio fashion portrait of an adult man squatting, intense confident gaze, thick brows, light stubble, slicked-back dark hair. Wearing a dark navy pinstripe suit, white shirt, beige striped tie, oversized brown fur coat draped over shoulders, chunky sneakers and dark monster-style sunglasses. Centered composition, full-body, straight-on angle. Clean white seamless background, soft diffused studio lighting, sharp focus, high texture detail, editorial luxury fashion vibe, 85mm lens look, natural skin texture, cinematic realism. Preserve his approved-reference facial features, facial structure and details. Aspect ratio 4:5.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "distorted anatomy", "extra fingers", "inconsistent identity", "plastic skin", "over-smooth", "over-saturated", "HDR look", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "luxury-fur-suit-male-model.jpg", "required": true, "source": "local reference image", "usage": "Attach as the required adult face and facial-structure reference."}],
+      "prompt_instructions": "Attach the required approved-adult identity reference. Preserve face, facial structure, hairstyle, suit, tie, fur coat, sunglasses, seated pose, white environment, and lighting. The wardrobe must not be changed when replacing the face reference. Use only an original adult model identity, never a celebrity or public figure; the reference is replaceable only with an equivalent approved-adult identity image."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

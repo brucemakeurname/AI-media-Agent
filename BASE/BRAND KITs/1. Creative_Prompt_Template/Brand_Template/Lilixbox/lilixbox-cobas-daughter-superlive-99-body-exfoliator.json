@@ -1,0 +1,79 @@
+{
+  "name": "lilixbox-cobas-daughter-superlive-99-body-exfoliator",
+  "tag": [
+    "livestream-sale",
+    "body-exfoliator",
+    "flash-deal",
+    "shopee-style",
+    "beauty-promo",
+    "celebrity"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "lilixbox_1086090730397995",
+  "prompt": {
+    "project_info": {
+      "theme": "Explosive 9.9 superlive sale poster for body exfoliator",
+      "color_palette": "Fire Red, Orange Gold, White, Black, Cream, Bright Yellow"
+    },
+    "main_subject": {
+      "type": "Product/Person",
+      "detail": "A fiery livestream promo poster featuring a female presenter on the left and a jar of CoBa's Daughter body exfoliator on the right, with bold deal typography and stacked voucher-price blocks for a 9.9 livestream sale.",
+      "style": "High-energy marketplace sale graphic, bold coupon layout, livestream promo aesthetic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'SUPERLIVE 9.9', 'SALE BOM TẤN - DEAL CỰC CHẤT', '300g', 'Tẩy Tế Bào Chết Toàn Thân Hương Matcha CoBa's Daughter Body Exfoliator 300gr', 'GIÁ LIVESTREAM 190K', 'Voucher 20% 152K', and 'Voucher 25% 143K'. Logos across the top include 'Hà Linh Official', 'COBA'S DAUGHTER', and 'Shopping Season'.",
+      "items": [
+        "Top Left: Top banner with brand and campaign logos over a hot red background.",
+        "Top Right: Product packshot framed inside a white rounded rectangle with orange border and a small orange '300g' tab.",
+        "Bottom Left: Female presenter in a light beige gown gesturing upward with both hands, lit against glowing red-orange effects.",
+        "Bottom Right: Large coupon-style pricing blocks with livestream price, voucher discount, and final price 143K.",
+        "Center/Background: Big headline 'SUPERLIVE 9.9' with yellow subline and flame-like streaks across the red sale background."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bold commercial poster lighting",
+      "effect": "High-contrast glow, sale urgency, warm flame effects, bright coupon emphasis"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity e-commerce sale poster design",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a 9.9 livestream beauty sale. Centerpiece is a CoBa's Daughter body exfoliator jar packshot on the right and a female presenter in a light gown on the left. Background is a fiery red sale backdrop with glowing streaks. Surrounding elements: headline 'SUPERLIVE 9.9', subline 'SALE BOM TẤN - DEAL CỰC CHẤT', product description 'Tẩy Tế Bào Chết Toàn Thân Hương Matcha CoBa's Daughter Body Exfoliator 300gr', coupon blocks 'GIÁ LIVESTREAM 190K', 'Voucher 20% 152K', 'Voucher 25% 143K', and the top logos 'Hà Linh Official', 'COBA'S DAUGHTER', 'Shopping Season'. Keep the loud coupon hierarchy and exact sale numbers. Technical style: high fidelity e-commerce sale poster design, bold commercial poster lighting, high-contrast glow and sale urgency, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed face, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "CoBa's Daughter body exfoliator jar",
+          "required": true,
+          "source": "Attach the product packshot or crop from the original poster",
+          "usage": "Preserve jar shape, scrub texture on top, label layout, and 300g cue."
+        },
+        {
+          "type": "person",
+          "name": "Female presenter portrait",
+          "required": true,
+          "source": "Attach a crop of the presenter from the original image",
+          "usage": "Keep facial identity, hairstyle, gown, and gesture."
+        },
+        {
+          "type": "logo",
+          "name": "Top logo strip",
+          "required": true,
+          "source": "Use the original poster as logo reference",
+          "usage": "Maintain the three top logos and their order."
+        },
+        {
+          "type": "text_layout",
+          "name": "Coupon sale typography",
+          "required": true,
+          "source": "Use the original poster as layout reference",
+          "usage": "Keep all prices, voucher blocks, and the SUPERLIVE 9.9 headline in place."
+        }
+      ],
+      "prompt_instructions": "When recreating with gpt-image-2, the exact sale-price hierarchy and presenter-plus-product layout are critical. Attach the original poster, presenter crop, and product packshot so the result stays faithful to the livestream promo style."
+    }
+  }
+}

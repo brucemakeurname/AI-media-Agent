@@ -1,0 +1,76 @@
+{
+  "name": "annoyed-valentine-beauty",
+  "tag": [
+    "red-lipstick",
+    "valentine-card",
+    "beauty-closeup",
+    "red-satin-corset",
+    "high-key-studio"
+  ],
+  "image_type": "beauty-editorial-closeup",
+  "image_vibe": "dramatic-valentine",
+  "image_purpose": "lookbook-line-sheet",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": {
+      "theme": "Annoyed Valentine beauty portrait with red satin styling",
+      "creative_direction": "High-key cosmetic editorial using a frustrated expression, crimson beauty details, and a handwritten card prop",
+      "color_palette": "white, saturated red, deep burgundy, warm skin, ruby crystal, and glossy red nails"
+    },
+    "main_subject": {
+      "type": "clearly adult fictional woman",
+      "detail": "adult woman with dark brown hair slicked into a low bun, furrowed brows, annoyed but composed gaze, natural skin glow, and refined eye makeup",
+      "wardrobe": "red satin off-shoulder corset-style top, bare neck and shoulders, ruby crystal drop earrings, red crystal ring, and red manicure",
+      "action": "holding a white card beside the mouth with one hand; do not bite the card"
+    },
+    "composition_elements": {
+      "framing": "strict frontal eye-level symmetrical beauty close-up with centered face and card in the lower-right foreground",
+      "card": "white card with fictional handwritten text VALENTINE NOTES and a single abstract red heart mark; no profanity, brand, or personal name",
+      "beauty_details": "bold red lipstick, refined eye makeup, natural pores, soft facial glow, and a small number of editorial red graphic marks limited to the card and background",
+      "background": "clean white high-key studio"
+    },
+    "lighting_and_atmosphere": {
+      "type": "Hasselblad X2D-style beauty dish at approximately 5200K with soft frontal fill",
+      "effect": "even high-key cosmetic light, controlled satin sheen, crisp ruby highlights, and realistic skin texture"
+    },
+    "technical_specs": {
+      "render_style": "Hasselblad X2D-style camera with 105mm lens, frontal beauty portrait",
+      "resolution": "4k vertical beauty close-up",
+      "finish": "cosmetic advertising detail, visible pores, restrained retouching, clean whites, and no artificial smoothing"
+    },
+    "generated_prompt_string": "Create an ultra-realistic high-key studio beauty portrait of a clearly adult fictional woman with model-like facial proportions, dark brown hair slicked smoothly into a low bun, furrowed brows, and an annoyed but composed editorial gaze. Use a strict frontal eye-level symmetrical composition on a Hasselblad X2D-style camera with a 105mm lens and approximately 5200K beauty-dish lighting with soft fill. Give her bold red lipstick, refined eye makeup, natural skin pores and glow, ruby red crystal drop earrings, a red crystal ring, and red nail polish. Dress her in a red satin off-shoulder corset-style top. She holds a white card beside her mouth with one hand but does not bite it; the card reads VALENTINE NOTES in fictional red handwriting with one abstract heart mark. Do not include a celebrity likeness, profanity, kiss marks on skin, real names, logos, or personal data. Keep the expression frustrated, fashion-editorial, and non-sexual.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, celebrity likeness, real person name, profanity, kiss marks on face or neck, biting card, real logo, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed hands, illegible card text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "fictional-approved-adult-beauty-model",
+          "required": true,
+          "source": "Original beauty preview image and source face reference",
+          "usage": "Attach only as pose and makeup reference; use an approved fictional adult subject and do not preserve any celebrity likeness."
+        },
+        {
+          "type": "wardrobe",
+          "name": "red-satin-ruby-beauty-look",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve red satin neckline, earrings, ring, and red manicure; keep the adult fashion styling unchanged."
+        },
+        {
+          "type": "graphic",
+          "name": "fictional-valentine-notes-card",
+          "required": true,
+          "source": "Original card preview image and source prompt",
+          "usage": "Attach to preserve card scale and hand placement; replace profanity, names, kiss marks, and any real text with VALENTINE NOTES and an abstract heart."
+        }
+      ],
+      "prompt_instructions": "Attach the fictional adult beauty, exact red styling, and card references. Keep frontal framing, annoyed gaze, makeup, satin, ruby details, hand placement, and high-key lighting consistent. Replace the public-figure identity and card text/marks with fictional cleared content; keep the interaction non-sexual and non-violent."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the public-figure likeness with a fictional adult, removed profanity and kiss-mark/body contact cues, and changed teeth-biting to hand-held card interaction while preserving the red Valentine beauty concept."
+    ]
+  }
+}

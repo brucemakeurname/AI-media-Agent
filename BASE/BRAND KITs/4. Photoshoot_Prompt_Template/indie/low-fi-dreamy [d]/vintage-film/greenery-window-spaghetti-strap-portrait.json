@@ -1,0 +1,33 @@
+{
+  "name": "greenery-window-spaghetti-strap-portrait",
+  "tag": ["indie", "low-fi-dreamy", "vintage-film", "window-light", "botanical"],
+  "image_type": "portrait",
+  "image_vibe": "Calm Fujifilm Pro 400H film portrait, hazy natural sunlight, fresh botanical nostalgia",
+  "image_purpose": "Create a softly lit botanical window portrait with natural film texture and a relaxed editorial mood.",
+  "group": "vintage-film",
+  "prompt": {
+    "project_info": "A D-portrait photographed from outside an old wooden window covered in lush green leaves and climbing vines.",
+    "main_subject": "An original adult woman with long black butterfly-cut hair and fine strands framing her face. She wears a clean white, fully opaque spaghetti-strap dress with a gently gathered bodice and soft ruffle or pleated details. She looks directly at the viewer with a gentle expression while holding her hair, elbow resting on the window frame.",
+    "composition_elements": "Front-facing view from outside the window, slightly tilted left. The old wooden frame, leaves, climbing vines, and the subject's relaxed hand-to-hair gesture create a layered frame around the portrait.",
+    "lighting_and_atmosphere": "Soft sunlight filtering through leaves, bright hazy glow, natural diffusion, calm fresh atmosphere, subtle highlight bloom, and visible analog grain.",
+    "technical_specs": "Fujifilm Pro 400H film aesthetic, old lens filter, high detail, natural skin texture without retouching, gentle film grain, realistic color and soft contrast.",
+    "generated_prompt_string": "Create a front-facing portrait of an original adult woman photographed from outside an old wooden window covered in lush leaves and climbing vines. She has long black butterfly-cut hair with softly messy strands framing her face and wears a clean white fully opaque spaghetti-strap dress with a gently gathered bodice and subtle ruffle details. She looks directly at the camera with a gentle expression, holding her hair while resting her elbow on the window frame. Tilt the camera slightly left and use soft sunlight through foliage, bright hazy glow, Fujifilm Pro 400H colors, old-lens diffusion, natural skin texture, high detail, and visible film grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor or teen-coded subject, transparent fabric, exposed underwear, nudity, harsh artificial light, plastic skin, excessive retouching, distorted anatomy, extra fingers, watermark, text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image_reference",
+          "name": "source botanical window reference",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1774306332790-i77shnlc-1.jpg",
+          "usage": "Use only for window framing, foliage, pose, lighting, and film treatment; do not copy identity."
+        }
+      ],
+      "prompt_instructions": "Preserve the calm botanical window portrait, hazy sunlight, butterfly-cut hair, and Fujifilm film character. Keep the subject original adult and the dress fully opaque."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified an original adult subject.", "Removed body-emphasis language and specified fully opaque clothing."]
+  }
+}

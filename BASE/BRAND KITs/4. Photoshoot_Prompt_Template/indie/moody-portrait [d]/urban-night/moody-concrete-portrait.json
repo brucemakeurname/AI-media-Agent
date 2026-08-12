@@ -1,0 +1,65 @@
+{
+  "name": "moody-concrete-portrait",
+  "tag": [
+    "concrete-overpass",
+    "white-t-shirt",
+    "urban",
+    "35mm-film",
+    "classic-chrome",
+    "desolate"
+  ],
+  "image_type": "urban-overpass-portrait",
+  "image_vibe": "moody, stark, nostalgic, desolate, cinematic",
+  "image_purpose": "fashion-editorial, character-visual, moodboard",
+  "group": "indie / moody-portrait / urban-night",
+  "prompt": {
+    "project_info": {
+      "theme": "Lone figure beneath a desolate concrete overpass",
+      "format": "vertical full-body portrait",
+      "color_palette": "concrete gray, dark charcoal, white, warm highlights, muted pop blue"
+    },
+    "main_subject": {
+      "type": "person using an optional face reference",
+      "detail": "A lone person stands in an oversized white T-shirt and loose dark pants, hands in pockets, with a relaxed posture and natural skin texture.",
+      "style": "moody cinematic urban portrait"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "full-body figure standing under a desolate concrete overpass",
+        "harsh architectural lines frame the lone subject",
+        "hands in pockets with relaxed posture",
+        "rough textured concrete ground with subtle dampness",
+        "deep underpass space receding behind the figure"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "cinematic top lighting",
+      "effect": "deep shadows and rich texture emphasizing the stark concrete environment",
+      "atmosphere": "desolate, quiet, and nostalgic"
+    },
+    "technical_specs": {
+      "render_style": "35mm photography, f/2.8, ISO 400, 1/125 s",
+      "resolution": "high-detail vertical image",
+      "color_treatment": "Fuji Classic Chrome-inspired grade with warm highlights, strong contrast, slight desaturation, light film grain, soft vignette, and muted pop-blue tones"
+    },
+    "generated_prompt_string": "Create a moody urban portrait of a lone person standing under a desolate concrete overpass, with harsh architectural lines framing the figure. Dress the subject in an oversized white T-shirt and loose dark pants, hands in pockets and posture relaxed. Show rough textured concrete ground with subtle dampness. Use cinematic top lighting with deep shadows and rich texture to emphasize the starkness of the environment. Shoot as 35mm photography at f/2.8, ISO 400, 1/125 s. Apply a Fuji Classic Chrome-inspired treatment with warm highlights, strong contrast, slight desaturation, light film grain, a soft vignette, and muted pop-blue tones for a nostalgic finish.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, text, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "If supplied, preserve the face reference's facial structure, proportions, features, and expression. Preserve the oversized white T-shirt, loose dark pants, hands-in-pockets pose, desolate overpass, top lighting, and Fuji Classic Chrome mood. Do not use celebrity/public-figure likeness.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "face-reference",
+          "required": false,
+          "source": "user attachment when provided",
+          "usage": "Maintain facial structure, proportions, features, and expression."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

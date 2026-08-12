@@ -1,0 +1,78 @@
+{
+  "name": "ysl-cushion-holiday-2022-os-mini-gift-offer",
+  "tag": [
+    "ysl",
+    "cushion",
+    "holiday-2022",
+    "gift-with-purchase",
+    "luxury-beauty"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "ysl_1886877758515974",
+  "prompt": {
+    "project_info": {
+      "theme": "YSL Holiday 2022 cushion offer with mini gift",
+      "color_palette": "Black, champagne gold, cream beige, blush pink"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A luxury makeup offer poster with a giant gold YSL cushion compact open on the left and a smaller pink compact gift on the right. The top headline reads 'CUSHION EDP HOL 2022 OS'. Price badges say 'MUA 1.980K' and 'TẶNG 950K'. Lower copy reads 'CUSHION DẠNG LƯỚI TOUCHE ÉCLAT GLOW PACT MINI MÀU B10'.",
+      "style": "Glossy high-end makeup product offer, gold festive packaging, retail-display geometry"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "YvesSaintLaurent BEAUTÉ; CUSHION EDP HOL 2022 OS; MUA 1.980K; TẶNG 950K; CUSHION DẠNG LƯỚI TOUCHE ÉCLAT GLOW PACT MINI MÀU B10",
+      "items": [
+        "Top Left: YSL Beauté logo and centered gold headline",
+        "Top Right: Cream badge 'TẶNG 950K'",
+        "Bottom Left: Large open gold cushion compact with visible cushion texture and 'MUA 1.980K' badge nearby",
+        "Bottom Right: Smaller pink compact on a cream display cube with the descriptive gift line beneath it",
+        "Center/Background: Black premium display background with layered cream and bronze cubes"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Luxury cosmetics studio lighting",
+      "effect": "Metallic gleam, crisp compact reflections, soft falloff on the black backdrop, premium holiday shine"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal luxury makeup advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury makeup offer poster for YSL Beauté. Centerpiece is a giant open gold cushion compact on the left and a smaller pink compact gift on the right on stacked display blocks. Include the exact text 'CUSHION EDP HOL 2022 OS', 'MUA 1.980K', 'TẶNG 950K', and 'CUSHION DẠNG LƯỚI TOUCHE ÉCLAT GLOW PACT MINI MÀU B10'. Background is a black luxury retail setup with cream and bronze cubes. Technical style: photoreal luxury makeup advertising composite, luxury cosmetics studio lighting, metallic gleam and premium holiday shine, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Yves Saint Laurent Beauté logo",
+          "required": true,
+          "source": "original branding",
+          "usage": "Top centered luxury logo"
+        },
+        {
+          "type": "product",
+          "name": "YSL Holiday 2022 gold cushion compact",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Match the oversized compact lid pattern, gold rim, and open sponge texture"
+        },
+        {
+          "type": "product",
+          "name": "YSL pink mini compact",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Use as the smaller gift item on the right"
+        },
+        {
+          "type": "graphic",
+          "name": "Cream and bronze product podium blocks",
+          "required": true,
+          "source": "original layout",
+          "usage": "Preserve the stepped luxury-retail staging"
+        }
+      ],
+      "prompt_instructions": "Keep the text exactly as shown even though 'HOL 2022' refers to an older holiday release. This is product-offer artwork, so visual fidelity of compacts, pricing badges, and podium layout is the main priority."
+    }
+  }
+}

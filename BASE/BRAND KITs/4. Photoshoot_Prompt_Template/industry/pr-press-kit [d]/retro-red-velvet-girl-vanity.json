@@ -1,0 +1,83 @@
+{
+  "name": "retro-red-velvet-girl-vanity",
+  "tag": [
+    "retro-vanity",
+    "red-satin",
+    "direct-flash",
+    "behind-the-scenes",
+    "glamour-editorial"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "retro-glamorous",
+  "image_purpose": "editorial",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Retro dressing-room vanity fashion portrait",
+      "color_palette": "dominant red satin and red heels, warm amber practical light, brick brown, chrome silver, black mirror, and cosmetic neutrals",
+      "creative_direction": "glamorous retro fashion behind-the-scenes photograph with a playful pin-up-inspired composition"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "glamorous adult woman with long blonde wavy hair and a small hair clip, dramatic eye makeup, glossy red lips, realistic skin texture, natural pores, subtle imperfections, and a confident direct gaze",
+      "wardrobe": "very short shiny red satin strapless mini dress with a subtle ruffle or peplum edge, red high heels with ankle-strap detail, and a large gold bracelet",
+      "action": "seated on a high red leather bar stool, one leg extended forward onto the vanity counter, the other leg bent and dangling, holding a red satin ribbon between both hands"
+    },
+    "composition_elements": {
+      "framing": "medium-full body shot from an iPhone-style perspective, with the vanity counter and mirror reflection visible",
+      "environment": "retro dressing-room vanity cluttered with cosmetics, lipsticks, nail polish, bottles, brushes, a red rose in a vase, chrome hubcaps mounted on a brick wall, and red ribbons on the floor",
+      "typography": "pink handwritten XOXO text may appear on the mirror as a replaceable graphic element; omit personal names and unverified brand text",
+      "pose": "leaning back slightly with a confident fashion-editorial gaze, playful and non-sexual"
+    },
+    "lighting_and_atmosphere": {
+      "type": "warm practical vanity bulbs around 3000K to 3500K, mixed with a small direct phone-camera fill",
+      "effect": "natural-looking skin highlights, realistic glossy sheen on red satin and heels, soft defined shadows, believable light falloff, subtle lens flare, and authentic dressing-room atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "iPhone 17 Pro Max main camera look, 24mm equivalent, approximately f/1.78, natural shallow depth of field, computational photography with realistic micro-contrast",
+      "resolution": "4k vertical editorial photograph",
+      "finish": "48MP ProRAW-style detail downsampled to a natural 12MP look, visible skin texture and pores, zero AI smoothness, slight lens flare"
+    },
+    "generated_prompt_string": "Retro dressing-room vanity with cluttered cosmetics, a red rose, a yellow ashtray, chrome hubcap wall decor, and pink XOXO writing on the mirror, high-fashion editorial photoshoot. A clearly adult glamorous woman sits on a high red leather bar stool, one leg extended forward resting on the vanity counter with a red high-heel shoe, the other leg bent and dangling, holding a red satin ribbon between both hands and leaning back slightly with a confident direct gaze at camera. She has long blonde wavy hair with a small hair clip, bold dramatic eye makeup, glossy red lips, realistic skin texture with natural pores, and wears a very short shiny red satin strapless mini dress with a subtle ruffle or peplum edge, red high heels with ankle-strap detail, and a large gold bracelet. Use warm practical vanity bulbs mixed with ambient room light, natural-looking skin highlights, realistic glossy sheen on satin and heels, soft but defined shadows, believable light falloff, subtle lens flare and micro-contrast. Capture it like a real behind-the-scenes iPhone 17 Pro Max main-camera photograph, 24mm equivalent at approximately f/1.78, medium-full body, natural shallow depth of field, ultra-photorealistic but not airbrushed, authentic skin texture, dominant red color scheme, and glamorous retro fashion direction. Keep the pose playful and non-sexual; use replaceable generic mirror lettering rather than a person's name or unverified brand text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, eroticized styling, ambiguous age, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, unwanted personal names, unverified logos, text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-retro-model",
+          "required": true,
+          "source": "Original vanity preview image",
+          "usage": "Attach an approved adult face reference for identity continuity; preserve facial structure and likeness, but never use the source's celebrity identity or any public-figure likeness."
+        },
+        {
+          "type": "wardrobe",
+          "name": "red-satin-dress-and-heels",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the exact red satin dress, ribbon, red heels, and gold bracelet; do not replace the specified outfit, while keeping the fit fashion-editorial and non-explicit."
+        },
+        {
+          "type": "location",
+          "name": "retro-dressing-room-vanity",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the brick wall, chrome hubcaps, vanity bulbs, cosmetics, mirror, stool, and red rose; individual props may be replaced if the overall environment remains consistent."
+        },
+        {
+          "type": "text_layout",
+          "name": "generic-pink-mirror-lettering",
+          "required": false,
+          "source": "Visible mirror lettering in the original preview image",
+          "usage": "Optional typography reference; preserve only generic XOXO-style decorative lettering, replace personal names and unverified brand text, and keep text legible if retained."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person, wardrobe, and vanity environment references; mirror typography is optional. Keep identity, red satin outfit, ribbon gesture, vanity layout, and warm practical lighting consistent. The person may be replaced only by another approved adult, while props, mirror lettering, and room details are replaceable. Preserve fashion-editorial intent without sexual posing, celebrity likeness, personal-name text, or unverified logos."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the source's attached-celebrity identity and seductive/burlesque wording with an approved clearly adult generic model and glamorous non-sexual fashion direction; preserved the specified outfit, ribbon gesture, vanity, and composition."
+    ]
+  }
+}

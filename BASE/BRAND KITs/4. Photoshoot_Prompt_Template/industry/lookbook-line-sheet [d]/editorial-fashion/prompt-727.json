@@ -1,0 +1,22 @@
+{
+  "name": "prompt-727",
+  "tag": ["industry", "lookbook-line-sheet", "editorial-fashion", "glitch", "portrait"],
+  "image_type": "glitch fashion portrait",
+  "image_vibe": "experimental, analog, dramatic, editorial",
+  "image_purpose": "fashion campaign portrait and digital-art visual",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create a high-fashion portrait with vertical slice distortion, glitch splitting, and analog-style grain.",
+    "main_subject": "An adult fictional woman with original non-celebrity features, tight centered face framing, neutral or intense expression, realistic skin with natural blush, and minimal solid-color styling with a deep-red accent.",
+    "composition_elements": "Straight-on 85mm portrait with eyes as focal point, vertical slit-scan distortion centered on the face, 40-80 thin slices with medium displacement and irregular offsets, smooth-blend edges disabled, 3:4 portrait crop.",
+    "lighting_and_atmosphere": "Soft diffused studio light, muted neutral tones, pale-gray background, medium-high contrast, matte fashion-editorial treatment with medium-heavy grain, fine digital noise, and subtle compression artifacts.",
+    "technical_specs": "High-resolution 3:4 high-fashion glitch portrait, shallow depth of field, realistic skin and fabric texture, intentional analog distortion, no accidental anatomy errors.",
+    "generated_prompt_string": "High-fashion portrait of an adult fictional woman with original non-celebrity features, tight face-centered framing, neutral or intense expression, soft diffused studio lighting, realistic skin texture with natural blush, minimal solid-color wardrobe with a deep-red accent, vertical slice distortion with 40-80 thin vertical slices, medium displacement, center-weighted alignment, irregular offsets, vertical slit-scan glitch splitting, muted neutral palette, pale-gray background, medium-high contrast, matte fashion-editorial grain, fine digital noise, subtle compression artifacts, straight-on 85mm portrait lens, shallow depth of field, eyes in focus, 3:4 high-resolution composition.",
+    "negative_prompt": ["celebrity likeness", "public figure likeness", "explicit", "nsfw", "overly revealing", "nudity", "blurry", "low resolution", "distorted anatomy", "extra limbs", "deformed hands", "unintentional face duplication", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "logo", "text", "signature"],
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "prompt-727.jpg", "required": true, "source": "workspace reference image", "usage": "Reference the adult portrait, red wardrobe accent, vertical slice geometry, gray palette, and analog texture while keeping identity fictional and replaceable."}],
+      "prompt_instructions": "Attach the required reference image. Preserve the face-centered composition, slice count range, distortion direction, palette, lighting, and analog editorial consistency. Use an original adult identity, keep wardrobe and logos generic, and make typography absent or replaceable."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

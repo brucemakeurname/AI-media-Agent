@@ -1,0 +1,75 @@
+{
+    "name":  "q-version-healing-movie-poster",
+    "tag":  [
+                "poster",
+                "brand story",
+                "movie poster",
+                "designer toy",
+                "Q-version",
+                "healing diorama"
+            ],
+    "biz_niche":  "Fashion & Apparel / Editorial",
+    "content_format":  "Brand story",
+    "group":  "branding_healing_movie_poster",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Q-version healing toy interpretation of a movie",
+                                        "color_palette":  "Warm moss green, cream, peach, muted brown, golden-hour yellow"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Character",
+                                        "detail":  "Cute Q-version miniature figurines of the selected film’s main characters stand in a soft miniature diorama; the reference example depicts Castle in the Sky-inspired characters on a mossy floating stone island.",
+                                        "style":  "Premium designer-toy macro photography, matte resin/vinyl contrasted with flocked felt/plush surfaces"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Characters/Diorama/Bilingual typography",
+                                                "text":  "天空之城; Castle in the Sky; 云海彼端的梦想，是永不坠落的希望。",
+                                                "items":  [
+                                                              "Top center: large Chinese movie title above smaller English subtitle in rounded decorative type.",
+                                                              "Center: Q-version hero figurines with soft matte faces, flocked clothing/hair, and a story-specific prop.",
+                                                              "Base: self-contained miniature natural diorama, such as a mossy floating island with ruins, trees, and gentle clouds.",
+                                                              "Bottom center: a small refined healing interpretation quote with minimal decoration."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft warm diffused natural light",
+                                                   "effect":  "Golden-hour calm, gentle komorebi dappled shadows, macro shallow depth of field, soft bokeh"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "High-end 3D designer collectible product render with macro lens aesthetic",
+                                           "resolution":  "High resolution vertical poster, highly detailed"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "character",
+                                                                 "name":  "licensed movie character and costume references",
+                                                                 "required":  true,
+                                                                 "source":  "approved/licensed IP reference pack",
+                                                                 "usage":  "Preserve identifiable character design, outfit, props, and emotional relationship without copying unrelated characters."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "bilingual film title and quote",
+                                                                 "required":  true,
+                                                                 "source":  "approved title artwork or editorial brief",
+                                                                 "usage":  "Keep title hierarchy, language, spelling, and bottom quote placement exact."
+                                                             },
+                                                             {
+                                                                 "type":  "background",
+                                                                 "name":  "film-world environment reference",
+                                                                 "required":  false,
+                                                                 "source":  "licensed film still or approved art direction",
+                                                                 "usage":  "Translate the environment into a gentle miniature diorama."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach only licensed or approved IP character references.",
+                                                                          "Prioritize matte resin/vinyl versus soft flocked material contrast.",
+                                                                          "Use clean minimal type; do not add ornate banners, scrolls, or decorative borders."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "请用这种风格设计一幅电影《》的海报。基于生成的提示词再生成图片。 Style template: 3D Q-Version Healing Toy Movie Poster (Optimized). A highly tactile 3D digital rendering style mimicking macro product photography of premium designer toy collectibles. It transforms movie characters and scenes into cute, Q-version miniature dioramas. The core aesthetic relies on the contrast between matte resin/vinyl surfaces and soft, flocked plush textures, bathed in warm, diffused light to create a calm, healing atmosphere with clean poster typography. Positive: A tactile 3D digital render mimicking high-end product photography of collectible designer toys presented as a movie poster. Cute Q-version proportions. The defining feature is mixed materials: smooth matte resin or vinyl for bodies/hard objects contrasting with soft, fuzzy flocked plush textures like felt or velvet on clothing, hair, moss, or animals. The setting is a miniature natural diorama. Lighting is soft, warm, and diffused with gentle dappled shadows (komorebi effect), creating a calm, healing atmosphere. Shallow depth of field, macro lens effect, bokeh background. Clean bilingual typography. Top center: stylized bilingual movie title, with large Chinese title above smaller English subtitle. Center: cute proportional Q-version toy figurines with matte skin/armor versus flocked clothing/hair, in a self-contained soft-focus miniature environment diorama. Bottom center: healing interpretation quote in refined clean serif or elegant handwritten type, small and subtle; clean text only without excessive scrolls, banners, ornate lines, or complex decorative borders. Soft warm diffused natural light, golden-hour feel, gentle non-harsh and dappled shadows; macro photography with very shallow depth of field; warm, calm, cozy, safe, nostalgic, healing mood. Best suited for transforming emotionally resonant or slightly dark movies into comforting collectible merchandise forms. Key success factor: convincing flocked/fuzzy texture against smooth matte texture and gentle healing light.",
+                   "negative_prompt":  "2D illustration, painting, pixel art, low poly, rough sketch, realistic human proportions, harsh direct lighting, hard dark shadows, glossy plastic shine, metallic reflections, noisy grain, blurry textures, distressed or grungy look, aggressive mood, dark themes, excessive ornamental decoration on text elements"
+               }
+}

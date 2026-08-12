@@ -1,0 +1,68 @@
+{
+  "name": "golden-hour-tennis-hottie",
+  "tag": [
+    "adult-tennis-player",
+    "golden-hour",
+    "court-side",
+    "racket",
+    "sport-fashion"
+  ],
+  "image_type": "sport-fashion-portrait",
+  "image_vibe": "confident-sunlit",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/golden-hour-street",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the player is an adult and replaced sexualized language and emphasis with confident athletic fashion direction."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "golden-hour tennis sport-fashion portrait",
+      "color_palette": "white, black, court green, clay orange, and sunset gold",
+      "format": "vertical 2:3"
+    },
+    "main_subject": {
+      "description": "an adult woman with long wavy dark hair in a white zip-up track jacket, fitted sport top, black tennis skirt, striped crew socks, and white tennis shoes",
+      "pose_and_expression": "confidently leaning beside the net, holding a racket and green ball"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level three-quarter full body",
+      "foreground": "racket, ball, and net",
+      "background": "softly blurred outdoor tennis court and trees",
+      "visual_hierarchy": "adult athlete face, racket and ball, then sunset court"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "warm sunset backlight with soft rim light",
+      "atmosphere": "focused, stylish, and cinematic"
+    },
+    "technical_specs": {
+      "camera": "Canon EOS R5",
+      "lens": "50mm f/1.8",
+      "settings": "1/1000s, f/2.5, ISO 200",
+      "rendering": "photoreal sport-fashion detail, natural skin texture, controlled bokeh"
+    },
+    "generated_prompt_string": "An adult woman with long voluminous wavy dark hair and polished natural makeup stands confidently on an outdoor tennis court at golden-hour sunset. She wears a white zip-up track jacket with subtle black accents, a fitted sport top, black tennis skirt, white tennis shoes, and black crew socks with white stripes. Holding a tennis racket in one hand and a green tennis ball in the other, she leans naturally beside the net in a poised athletic stance. Warm sunset light, cinematic glow, soft rim light, detailed skin texture, photorealistic sport-fashion photography, shot on Canon EOS R5.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, sexualized pose, nudity, body-part emphasis, distorted anatomy, extra limbs, blurry face, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, text, logo",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-athlete-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace only the authorized adult identity and hairstyle."
+        },
+        {
+          "type": "wardrobe",
+          "name": "tennis-outfit-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Match garment details without logos or readable emblems."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Keep the subject adult and the result athletic, non-sexualized, court-side, and golden-hour lit; replace only approved identity or wardrobe elements."
+    }
+  }
+}

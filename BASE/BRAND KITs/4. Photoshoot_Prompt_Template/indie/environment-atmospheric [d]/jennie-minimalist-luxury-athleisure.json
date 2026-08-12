@@ -1,0 +1,66 @@
+{
+  "name": "Minimalist Athleisure Block Portrait",
+  "tag": "minimalist-athleisure-block-portrait",
+  "image_type": "athleisure_editorial_portrait",
+  "image_vibe": "cool_clean_premium",
+  "image_purpose": "fashion_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Minimalist Athleisure Block Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "9:16 vertical"
+    },
+    "main_subject": {
+      "description": "An original adult East Asian woman with long dark straight hair, natural satin skin, and a calm confident gaze.",
+      "wardrobe": "A sand-beige relaxed crew-neck athletic T-shirt, high-waisted black wide-leg track trousers with plain pale side piping, white crew socks, and plain mint-and-silver trainers.",
+      "pose_and_expression": "Standing beside a glowing white geometric block, one hand lightly touching hair and the other resting on the block."
+    },
+    "composition_elements": {
+      "setting": "Minimal industrial urban gym interior with cool blue-gray walls and dark tiled floor.",
+      "framing": "Centered full-body vertical portrait with clean negative space.",
+      "text_and_brand_control": "No celebrity likeness, athletic-brand name, three-stripe motif, trefoil-style icon, shoe logo, or readable text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Bright clean studio-style lighting with soft futuristic glow from the geometric block.",
+      "mood": "Cool, modern, premium, and understated."
+    },
+    "technical_specs": {
+      "camera_style": "minimal high-fashion editorial photography",
+      "lens": "50mm equivalent",
+      "rendering": "Natural skin texture, precise fabric detail, crisp edges, gentle cool tonal contrast, and realistic hands."
+    },
+    "generated_prompt_string": "Create a 9:16 vertical minimal high-fashion editorial photograph of an original adult East Asian woman with long dark straight hair, natural satin skin, and a calm confident gaze. She wears a sand-beige relaxed crew-neck athletic T-shirt, high-waisted black wide-leg track trousers with plain pale side piping, white crew socks, and plain mint-and-silver trainers. Stand her beside a glowing white geometric block, one hand lightly touching hair and the other resting on the block. Set her in a minimalist industrial urban gym with cool blue-gray walls and dark tiled floor. Use bright clean studio lighting, a soft futuristic block glow, centered full-body framing, natural skin, detailed fabric, crisp edges, gentle cool contrast, and realistic hands. No celebrity likeness, athletic-brand name, three-stripe motif, trefoil-style icon, shoe logo, readable text, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, named singer, explicit, nsfw, overly revealing clothing, crop top, athletic shorts, lingerie, logo, three stripes, trefoil, readable text, watermark, plastic skin, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Only optional adult identity references may guide general approved traits. Replaceable athleisure, shoe, and studio references must remove all public-figure likeness, logos, and text.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general adult facial and hair traits, never a public figure."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "unbranded_athleisure_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide covered athletic silhouette and palette after removing all marks."
+        },
+        {
+          "type": "environment_reference",
+          "name": "minimal_gym_block_reference",
+          "required": false,
+          "source": "user-provided studio reference",
+          "usage": "Guide walls, floor, and glowing block composition."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed named public figure and branded athleisure, clarified adult subject, and replaced revealing shorts/crop top with covered unbranded wardrobe."
+  }
+}

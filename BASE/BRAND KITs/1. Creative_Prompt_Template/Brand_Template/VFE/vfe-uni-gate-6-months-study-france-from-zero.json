@@ -1,0 +1,78 @@
+{
+  "name": "vfe-uni-gate-6-months-study-france-from-zero",
+  "tag": [
+    "vfe",
+    "uni-gate",
+    "study-france",
+    "from-zero",
+    "brand-story"
+  ],
+  "biz_niche": "Education",
+  "content_format": "Brand story",
+  "group": "vfe_1440392014786820",
+  "prompt": {
+    "project_info": {
+      "theme": "Six-month breakthrough path to studying in France from zero",
+      "color_palette": "French Blue, Red, White, Pale Sky, Soft Green"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A promotional educational poster for VFE Uni-Gate with a huge red numeral 6 and bold Vietnamese headline above a rounded white text panel, set over a Paris riverside scene with the Eiffel Tower on the right.",
+      "style": "Modern education campaign poster with soft travel imagery, clean rounded UI card, bold bilingual-inspired typography, and French flag ribbon accents."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\n6 THÁNG BỨT PHÁ\nChinh phục du học Pháp từ số 0\nUNI-GATE là chương trình du học Pháp toàn diện từ con số 0, dành cho học sinh, sinh viên chưa có nền tảng tiếng Pháp, hướng tới bậc Cử nhân hoặc Thạc sĩ bằng tiếng Pháp hoặc tiếng Anh. UNI-GATE được phát triển và triển khai bởi VFE, đơn vị trực tiếp xây dựng và đồng hành cùng học viên trong các lộ trình du học Pháp. Chương trình xây dựng lộ trình bài bản từ ngôn ngữ đến hồ sơ, giúp học viên sẵn sàng học tập và phát triển tại Pháp.\nĐĂNG KÝ NGAY",
+      "items": [
+        "Top Left: VFE Vietnam France Exchange logo in a rounded white corner box.",
+        "Top Right: Thin Eiffel Tower silhouette rising at the right edge with small airplane doodle and dashed flight path near the title.",
+        "Bottom Left: Paris riverfront with boats, bridge, and tree-lined embankment.",
+        "Bottom Right: Curving red-blue-white flag ribbon in the lower corner and a red rounded CTA button 'ĐĂNG KÝ NGAY'.",
+        "Center/Background: Large red '6', red headline 'THÁNG BỨT PHÁ', navy pill label 'Chinh phục du học Pháp', and large rounded translucent white text box."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright travel-poster daylight",
+      "effect": "Soft scenic daylight, airy white UI surfaces, gentle background haze, and clear educational-promo typography."
+    },
+    "technical_specs": {
+      "render_style": "Photographic education campaign poster compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality educational campaign poster for VFE Uni-Gate. Centerpiece is a giant red number 6 with the headline '6 THÁNG BỨT PHÁ' and a rounded white text box explaining Uni-Gate, over a scenic Paris river background with the Eiffel Tower on the right. Surrounding elements: VFE logo at top left, airplane doodle flight path, navy pill label 'Chinh phục du học Pháp từ số 0', red CTA button 'ĐĂNG KÝ NGAY', and French tricolor ribbon accents. Technical style: photographic education campaign poster compositing, bright travel-poster daylight, airy UI card styling, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place at top left in white rounded box."
+        },
+        {
+          "type": "location",
+          "name": "Paris river and Eiffel Tower reference",
+          "required": true,
+          "source": "city landmark photos",
+          "usage": "Match Seine riverside composition and right-edge Eiffel Tower silhouette."
+        },
+        {
+          "type": "text_layout",
+          "name": "Uni-Gate promo layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve giant red 6, navy pill heading, rounded text card, and CTA button placement."
+        },
+        {
+          "type": "graphic",
+          "name": "French flag ribbon and airplane doodle",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep lower-right tricolor sweep and flight path as light travel cues."
+        }
+      ],
+      "prompt_instructions": "Preserve the exact visible paragraph wording and CTA because this is a conversion-focused education ad. Keep the overall feeling aspirational and structured, not playful or touristy."
+    }
+  }
+}

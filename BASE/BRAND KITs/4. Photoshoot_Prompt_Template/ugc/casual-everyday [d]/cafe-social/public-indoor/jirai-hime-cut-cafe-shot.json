@@ -1,0 +1,58 @@
+{
+  "name": "jirai-hime-cut-cafe-shot",
+  "tag": [
+    "ugc",
+    "cafe-social",
+    "public-indoor",
+    "jirai-kei",
+    "hime-cut",
+    "japanese-set-meal"
+  ],
+  "image_type": "ugc-themed-cafe-cosplay-portrait",
+  "image_vibe": "high-key-playful-editorial",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cafe-social/public-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic vertical themed-cafe portrait in a Jirai Kei-inspired editorial style, preserving the red ribbon, hime cut, spoon gesture and Japanese set meal.",
+    "main_subject": "One original approved adult woman with pale natural skin, jet-black precise hime-cut hair, a long crimson ribbon bow, red-tinted eye makeup, soft pout and realistic facial texture. She wears a grey-and-black plaid structured camisole, a loose white fuzzy cardigan worn off the shoulders and a silver chain with a dark red heart pendant.",
+    "composition_elements": "Vertical 9:16 eye-level close-to-medium portrait with food stacked in the lower third and the adult subject centered above it. She holds a black ceramic spoon near her cheek and looks directly at camera. Include tonkatsu, shredded cabbage, rice, soup, a character-themed food pick and themed-cafe posters/booth in the background.",
+    "lighting_and_atmosphere": "Bright high-key diffuse indoor lighting from overhead and front, with soft shadows and clear texture on face, knit, plaid and food. Keep the mood playful, stylized and editorial without sexualized framing.",
+    "technical_specs": "9:16 vertical, Sony A7R V with 35mm f/1.4 lens feel at f/2.8, sharp face and spoon, realistic food detail, moderate background falloff, natural skin texture and high-resolution cosplay photography.",
+    "generated_prompt_string": "Create a photorealistic vertical themed-cafe portrait in a Jirai Kei-inspired editorial style of one original approved adult woman with pale natural skin, jet-black precise hime-cut hair, a long crimson ribbon bow, red-tinted eye makeup, a soft pout and realistic facial texture. She wears a grey-and-black plaid structured camisole, a loose white fuzzy cardigan worn off the shoulders and a silver chain with a dark red heart pendant. Use a 9:16 eye-level close-to-medium portrait with food stacked in the lower third and the subject centered above it; she holds a black ceramic spoon near her cheek and looks directly at camera. Include tonkatsu, shredded cabbage, rice, soup, a character-themed food pick and themed-cafe posters and booth. Use bright high-key diffuse indoor light, realistic face, knit, plaid and food detail, moderate background falloff and a 35mm f/2.8 editorial look.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, missing spoon, wrong food, duplicated food, invented logos, unreadable added text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "jirai-hime-cut-cafe-shot.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hime cut, ribbon, makeup and expression; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "grey plaid camisole, loose white fuzzy cardigan and heart pendant",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve plaid, cardigan texture, off-shoulder drape, ribbon and pendant; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "themed collaboration cafe booth, posters and Japanese set meal",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve booth, poster style, meal arrangement, spoon and character pick; environment and food may be replaced through explicit references while retaining the stacked composition."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location/food references. Keep identity, face, hime cut, ribbon, outfit, spoon pose, food hierarchy and themed-cafe environment consistent. The approved adult, wardrobe, food and setting may be replaced separately with explicit references. Preserve supplied poster typography only when retained; do not add readable logos or overlays."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adult.",
+      "Preserved the Jirai Kei styling, food composition and spoon gesture while removing unnecessary body/age ambiguity.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "techcombank-hai-phong-food-map-upoint-guide",
+  "tag": [
+    "hai-phong",
+    "food-map",
+    "merchant-offers",
+    "oneu"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Infographics",
+  "group": "techcombank_1325644759291234",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank OneU Hai Phong food map with U-Point deals",
+      "color_palette": "Soft pastel sky, white, black, bright red, green landscape, warm food colors"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A city food-guide poster with the top-right lockup 'TECHCOMBANK OneU'. The large headline reads 'Kham pha ban do am thuc Hai Phong' with the subline 'An ngon co U-Point chieu dai' and a red button saying 'Kham pha ngay!'. The middle of the poster contains six rounded white restaurant cards arranged in a grid. The venue names are 'Banh Cuon Suon Ha Chi', 'Kicchou Sushi', 'Bun Ca Cay Mo Sim', 'Bun Ca Cay Chu Kho', 'Sua Chua Phuong Ot', and 'Bun Bo Phuong Thao'. The discount amounts are 'Giam 30,000d', 'Giam 30,000d', 'Giam 30,000d', 'Giam 30,000d', 'Giam 15,000d', and 'Giam 15,000d'. The background includes civic architecture, flowering trees, curved green landscape shapes, U-point coins, and a badge reading 'Da tang uu dai LOI ICH TOI UU'.",
+      "style": "Bright discovery-map infographic with restaurant cards, local landmark collage, and approachable social-commerce look"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TECHCOMBANK OneU / Kham pha ban do am thuc Hai Phong / An ngon co U-Point chieu dai / Kham pha ngay! / Banh Cuon Suon Ha Chi / Kicchou Sushi / Bun Ca Cay Mo Sim / Bun Ca Cay Chu Kho / Sua Chua Phuong Ot / Bun Bo Phuong Thao / Giam 30,000d / Giam 15,000d / Da tang uu dai / LOI ICH TOI UU",
+      "items": [
+        "Top Left: Pastel sky with local building facade and red flowering tree",
+        "Top Right: Techcombank logo with OneU wordmark above a classical Hai Phong building",
+        "Bottom Left: U-point coin over the tiled ground near the left restaurant cards",
+        "Bottom Right: Red badge 'Da tang uu dai LOI ICH TOI UU' and floating U-point coin",
+        "Center/Background: Six rounded white food-offer cards arranged in two rows over a scenic civic square with curved green landscape shapes"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright daytime infographic lighting",
+      "effect": "Soft pastel glow, clear card shadows, vibrant food-photo contrast, cheerful city-discovery mood"
+    },
+    "technical_specs": {
+      "render_style": "Photo-collage city-guide infographic poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank OneU Hai Phong food map with U-Point deals. Centerpiece is a grid of six rounded white restaurant offer cards showing food photos and discounts. Background is a bright pastel city scene with local architecture, a red flowering tree, tiled square, green landscape curves, and floating U-point coins. Surrounding elements: Techcombank OneU lockup, exact headline 'Kham pha ban do am thuc Hai Phong', subline 'An ngon co U-Point chieu dai', red button 'Kham pha ngay!', restaurant names 'Banh Cuon Suon Ha Chi', 'Kicchou Sushi', 'Bun Ca Cay Mo Sim', 'Bun Ca Cay Chu Kho', 'Sua Chua Phuong Ot', 'Bun Bo Phuong Thao', discount labels 'Giam 30,000d' and 'Giam 15,000d', and the badge 'Da tang uu dai LOI ICH TOI UU'. Technical style: photo-collage city-guide infographic poster, bright daytime infographic lighting, soft pastel glow and vibrant food contrast, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "location",
+          "name": "Hai Phong civic architecture and city-square references",
+          "required": true,
+          "source": "reference photos of recognizable Hai Phong buildings and public square features",
+          "usage": "Anchor the poster in Hai Phong rather than a generic city"
+        },
+        {
+          "type": "product",
+          "name": "Food photos for the six listed restaurants",
+          "required": true,
+          "source": "merchant photos or close visual references",
+          "usage": "Maintain the dish identity and appetizing image content inside each card"
+        },
+        {
+          "type": "text_layout",
+          "name": "Hai Phong food map offer-grid layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the six-card arrangement, top headline stack, CTA button, and bottom-right reward badge"
+        }
+      ],
+      "prompt_instructions": "Preserve all restaurant names and discount values exactly. The visual should feel like a curated local food map with OneU perks, not a generic coupon board."
+    }
+  }
+}

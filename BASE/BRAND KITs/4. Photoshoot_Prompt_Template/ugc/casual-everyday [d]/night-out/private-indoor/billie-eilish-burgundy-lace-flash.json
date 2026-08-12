@@ -1,0 +1,51 @@
+{
+  "name": "billie-eilish-burgundy-lace-flash",
+  "tag": ["ugc", "casual-everyday", "night-out", "private-indoor", "1990s", "direct-flash", "burgundy-lace"],
+  "image_type": "flash editorial close-up",
+  "image_vibe": "dreamy, grainy, nostalgic, high-contrast, late-1990s editorial",
+  "image_purpose": "social-media night-out portrait",
+  "group": "casual-everyday/night-out/private-indoor",
+  "prompt": {
+    "project_info": "Photorealistic 3:4 close-up portrait inspired by late-1990s and Year-2000 editorial flash photography. Use visible film grain, direct on-camera flash, and a soft yet high-contrast finish.",
+    "main_subject": "One original adult woman with fair skin and naturally radiant flash-illuminated complexion, very long medium-brown hair pulled into a loose bun with a few loose strands framing the face, full eyebrows, winged eyeliner, light pink lipstick, and small silver dangling earrings. Her expression is serious and poised with direct eye contact. Do not reproduce Billie Eilish or any other public-figure likeness.",
+    "composition_elements": "Frame the adult woman at eye level in a close-up while seated on a light-gray sofa in a high-rise apartment at night. Her right hand rests on her stomach and her left arm rests along the back of the sofa. She wears a short opaque strapless dark-burgundy dress with a corset-style textured-lace bodice and textured-lace skirt. Include a large window with a city skyline and numerous illuminated lights, plus a white pillow propped on the right side of the sofa. Prioritize the face, composed expression, and dress texture.",
+    "lighting_and_atmosphere": "Use direct on-camera flash to illuminate skin, opaque lace clothing, jewelry and hair, creating crisp highlights and enhancing texture. Keep the high-rise city-night setting dreamy, grainy and nostalgic with a soft yet high-contrast late-1990s editorial atmosphere.",
+    "technical_specs": "3:4 aspect ratio, eye-level close-up, direct flash photography, visible film grain, soft high-contrast finish, realistic skin and lace texture, editorial clarity, no text or watermark.",
+    "generated_prompt_string": "Photorealistic 3:4 late-1990s / Y2K flash-editorial close-up of one original adult woman with fair skin, very long medium-brown hair in a loose bun with loose face-framing strands, full eyebrows, winged eyeliner, light pink lipstick and small silver dangling earrings. Serious poised expression and direct eye contact. She wears a short opaque strapless dark-burgundy dress with a corset-style textured-lace bodice and textured-lace skirt, seated on a light-gray sofa in a high-rise apartment at night. Right hand on stomach, left arm along sofa back. Large window reveals a city skyline filled with illuminated lights; white pillow on the sofa's right side. Direct on-camera flash, crisp highlights, visible film grain, soft yet high-contrast dreamy 90s editorial finish, face and dress texture prioritized. No public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Billie Eilish likeness, transparent lace, distorted anatomy, extra fingers, malformed hands, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "billie-eilish-burgundy-lace-flash.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the late-1990s/Y2K direct-flash aesthetic, brown loose-bun hair, burgundy opaque lace dress, sofa pose, high-rise night setting, city lights, and 3:4 close-up framing; replace the named identity with an original adult."
+        },
+        {
+          "type": "source_url",
+          "name": "original prompt post",
+          "required": false,
+          "source": "https://x.com/Strength04_X/status/2017200385514262531",
+          "usage": "Context only; local written prompt is authoritative."
+        },
+        {
+          "type": "image_asset",
+          "name": "1774310706072-6ufywvjk-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1774310706072-6ufywvjk-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required; source URL and image asset are optional context. Keep the original adult subject, outfit opacity and texture, pose, sofa, city-night environment, direct flash, film grain, and 3:4 close-up consistent. Identity is replaceable; do not use celebrity likeness."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the requested exact Billie Eilish likeness with an original adult woman.",
+      "Reframed sensual wording as serious and poised while preserving the vintage editorial direction.",
+      "Specified opaque lace and added required safety exclusions."
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "luxury-cosmetic-grid-campaign",
+  "tag": ["industry", "lookbook-line-sheet", "grid-collage", "cosmetics", "product-campaign"],
+  "image_type": "four-panel luxury cosmetic campaign",
+  "image_vibe": "premium, luminous, modern, polished",
+  "image_purpose": "skincare or cosmetic product campaign grid",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Create a luxury cosmetic campaign in a clean 2x2 grid with coherent product interaction, model portrait, skin close-up, and hero product frame.",
+    "main_subject": "An adult fictional brunette woman with original non-celebrity features, light skin tone, glowy hydrated realistic skin, natural glam makeup, defined lashes, glossy lips when suitable, and sleek brunette hair with soft shine. Use the required cosmetic product reference and keep its label and form accurate.",
+    "composition_elements": "2x2 equal-spacing grid with clean dividers: top-left well-manicured hand dispensing a cream from the tube; top-right mid portrait holding the product near face; bottom-left tight skin-and-product close-up; bottom-right product alone on a minimal pedestal or floating with soft shadow. Harmonize dusty rose, muted mauve, champagne beige, or creamy almond background to packaging.",
+    "lighting_and_atmosphere": "Diffused but directional high-end commercial beauty lighting, controlled glossy highlights, soft natural shadows, premium skincare campaign mood.",
+    "technical_specs": "3:4 grid, ultra-detailed realistic skin texture, accurate squeezable cream interaction, sharp product and hand detail, clean commercial photography, no unintended label distortion.",
+    "generated_prompt_string": "Luxury cosmetic campaign 2x2 grid: adult fictional brunette woman with original non-celebrity features, light realistic skin, glowy hydrated finish, natural glam makeup, sleek brunette hair. Top left a well-manicured hand dispenses cream from the accurately referenced squeezable cosmetic tube; top right a mid portrait presents the product near the face; bottom left a tight close-up shows realistic skin texture, glow, and cream; bottom right the same product stands alone on a minimal pedestal with a soft shadow. Equal spacing and clean dividers, background harmonized to packaging in dusty rose, muted mauve, champagne beige, creamy almond, or elegant pastel gradient, diffused directional beauty lighting, controlled highlights, premium modern skincare campaign, 3:4.",
+    "negative_prompt": ["celebrity likeness", "public figure likeness", "explicit", "nsfw", "overly revealing", "nudity", "wrong product type", "warped packaging", "illegible label", "blurry", "low quality", "distorted anatomy", "extra fingers", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "unwanted logo", "signature"],
+    "reference_elements": {
+      "assets": [{"type": "product", "name": "luxury-cosmetic-grid-campaign.jpg", "required": true, "source": "workspace reference image", "usage": "Required product and visual reference for the tube, label placement, cream texture, model, four-panel layout, and mauve-gray palette."}],
+      "prompt_instructions": "Attach the required product reference. Preserve product shape, cap, label placement, cream interaction, model styling, panel order, lighting, and background consistency. Keep label text accurate only when legible in the reference; otherwise make typography replaceable and do not invent branding."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

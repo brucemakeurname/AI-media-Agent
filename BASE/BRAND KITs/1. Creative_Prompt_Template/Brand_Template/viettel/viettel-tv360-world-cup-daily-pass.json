@@ -1,0 +1,85 @@
+{
+  "name": "viettel-tv360-world-cup-daily-pass",
+  "tag": [
+    "viettel",
+    "tv360",
+    "world-cup-2026",
+    "daily-pass",
+    "special-offer"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "viettel_991039320443218",
+  "prompt": {
+    "project_info": {
+      "theme": "Low-cost daily sports entertainment pass for World Cup 2026 streaming",
+      "color_palette": "White, Viettel Red, Black, Multicolor Sports Stripes"
+    },
+    "main_subject": {
+      "type": "Person/Object",
+      "detail": "A young man in a red shirt lounges on a white sofa in a bright living room, cheering while watching a football match on a tablet, beside huge text promoting a 2,000 VND per day TV360 package.",
+      "style": "Photoreal lifestyle offer poster with airy modern home interior and energetic sports-viewing mood."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "2.000Đ/NGÀY\nDK CUP gửi 1331\nviettel telecom\nXem trọn vẹn World Cup 2026\nMiễn phí data 4G/5G Viettel\n+120 kênh truyền hình trong nước & quốc tế\nXem các giải Bundesliga, V.League\nXem đồng thời trên 02 thiết bị",
+      "items": [
+        "Top Left: Large red price '2.000Đ/NGÀY' and black line 'DK CUP gửi 1331'.",
+        "Top Right: Viettel telecom logo and sweeping multicolor sports stripes descending from the upper-right corner.",
+        "Bottom Left: Excited young man on sofa raising a fist while holding a tablet showing a football match.",
+        "Bottom Right: Modern living room with coffee table, TV, and clean interior decor.",
+        "Center/Background: Bright white apartment environment with sports-offer copy running along the bottom."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright lifestyle commercial daylight",
+      "effect": "Airy home lighting, clean interior whites, dynamic fan excitement, and crisp promo readability."
+    },
+    "technical_specs": {
+      "render_style": "Photoreal sports lifestyle advertising poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality sports-viewing offer poster for Viettel TV360. Centerpiece is a young man in a red shirt celebrating on a white sofa while watching football on a tablet in a bright modern living room. Background is a minimal white apartment setting with sweeping multicolor sports stripes from the upper-right. Surrounding elements: giant red price '2.000Đ/NGÀY', line 'DK CUP gửi 1331', Viettel telecom logo, and bottom copy about World Cup 2026, free 4G/5G data, 120+ TV channels, Bundesliga, V.League, and viewing on two devices. Technical style: photoreal sports lifestyle advertising poster, bright commercial daylight, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel Telecom logo",
+          "required": true,
+          "source": "official Viettel brand asset",
+          "usage": "Place at upper right."
+        },
+        {
+          "type": "person",
+          "name": "Young male football viewer reference",
+          "required": true,
+          "source": "source photo from current creative",
+          "usage": "Preserve the red shirt, cheering pose, and sofa position."
+        },
+        {
+          "type": "ui_reference",
+          "name": "Tablet football-screen reference",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Use a small football match image on the tablet display."
+        },
+        {
+          "type": "graphic",
+          "name": "Multicolor sports stripes",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep as a strong curved graphic element from the upper-right."
+        },
+        {
+          "type": "text_layout",
+          "name": "TV360 daily-pass offer layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve the price, SMS command, and bottom sports-copy wording."
+        }
+      ],
+      "prompt_instructions": "Preserve 'World Cup 2026' exactly as the promotional anchor. Keep the living-room scene bright and aspirational, with the person clearly engaged in live football viewing."
+    }
+  }
+}

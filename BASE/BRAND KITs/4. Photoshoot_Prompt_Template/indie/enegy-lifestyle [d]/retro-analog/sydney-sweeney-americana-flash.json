@@ -1,0 +1,66 @@
+{
+  "name": "Americana Direct-Flash Portrait",
+  "tag": "americana-direct-flash",
+  "image_type": "editorial_flash_portrait",
+  "image_vibe": "bold_nostalgic_2000s",
+  "image_purpose": "fashion_editorial",
+  "group": "indie/enegy-lifestyle/retro-analog",
+  "prompt": {
+    "project_info": {
+      "title": "Americana Direct-Flash Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An original adult woman with long honey-blonde loose waves, soft-glam makeup, and a confident relaxed expression.",
+      "wardrobe": "A fitted white ribbed sleeveless top with red shoulder straps and muted teal piping, paired with high-waisted light-wash denim jeans.",
+      "pose_and_expression": "Waist-up three-quarter profile, turning her head back toward camera with one hand resting in her hair."
+    },
+    "composition_elements": {
+      "setting": "A clean studio portrait set with an abstract red, white, and blue striped textile backdrop; stars and stripes are decorative shapes only, not a reproduction of a flag.",
+      "framing": "Vertical medium portrait with the subject separated from the backdrop by a crisp cast shadow.",
+      "text_and_brand_control": "No celebrity likeness, logos, badges, text, flag insignia, or identifiable branding."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "High-key direct on-camera flash creating a bold, defined shadow against the textile.",
+      "mood": "Graphic, self-assured, and early-2000s editorial."
+    },
+    "technical_specs": {
+      "camera_style": "direct-flash editorial photography",
+      "lens": "50mm equivalent",
+      "rendering": "Sharp focus, natural skin texture, realistic anatomy, restrained film-like grain."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical direct-flash editorial photograph of an original adult woman with long honey-blonde loose waves, soft-glam makeup, and a confident relaxed expression. She wears a fitted white ribbed sleeveless top with red shoulder straps and muted teal piping, with high-waisted light-wash denim jeans. Frame a waist-up three-quarter profile as she turns her head toward camera with one hand in her hair. Place her before a clean abstract red, white, and blue striped textile backdrop with decorative star shapes that do not reproduce a flag. Use high-key on-camera flash, a bold crisp cast shadow, sharp focus, natural skin texture, realistic anatomy, and restrained film grain. No celebrity likeness, logos, text, badges, flag insignia, or brand marks.",
+    "negative_prompt": "minor, celebrity likeness, named person, explicit, nsfw, overly revealing clothing, lingerie, fetish styling, flag reproduction, logos, badges, readable text, watermark, distorted hands, extra fingers, plastic skin, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity references must depict a consenting adult; use them only for general approved traits. Backdrop and wardrobe references are replaceable and must be abstracted to remove any marks or logos.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general face and hair traits without recreating a public figure."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "americana_colorblock_outfit",
+          "required": false,
+          "source": "user-provided wardrobe reference",
+          "usage": "Guide color blocking and silhouette; omit labels."
+        },
+        {
+          "type": "backdrop_reference",
+          "name": "abstract_striped_textile",
+          "required": false,
+          "source": "user-provided textile reference",
+          "usage": "Guide color and fabric texture only; do not reproduce flags or insignia."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed a named celebrity and its likeness, clarified adulthood, replaced the flag reproduction with abstract décor, and prohibited sexualized styling and marks."
+  }
+}

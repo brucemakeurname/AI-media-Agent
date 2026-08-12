@@ -1,0 +1,53 @@
+{
+  "name": "prompt-797",
+  "tag": [
+    "ugc",
+    "dopamine-decor",
+    "attic-bedroom",
+    "colorful",
+    "portrait"
+  ],
+  "image_type": "UGC colorful lifestyle portrait",
+  "image_vibe": "playful, cute, maximalist, candy-colored",
+  "image_purpose": "Instagram feed portrait and lifestyle moodboard",
+  "group": "ugc/lifestyle-moment [d]/street-fashion/private-indoor",
+  "prompt": {
+    "project_info": "Create an ultra-realistic cinematic lifestyle portrait in a cute minimalist attic bedroom styled with colorful dopamine decor.",
+    "main_subject": "One approved adult woman matching the uploaded face reference, with long blonde hair and natural skin texture. She wears a yellow ribbed ruffle-trim top with a small blue flower detail and silver shorts, seated casually in a red lounge chair while lightly holding her hair. Keep the styling playful and fashion-forward without changing the reference outfit.",
+    "composition_elements": "Vertical portrait composition with the woman centered in the foreground. Include the red chair, bright pink roof window, vertical striped wallpaper in purple, pink, and blue, white floating shelves with colorful books and framed art, a bed with pastel bedding and a cartoon character plush, a blue glass cabinet with headphones, a small yellow table, and a pink smartphone on a white round table. Preserve the colorful room hierarchy and realistic object placement.",
+    "lighting_and_atmosphere": "Soft daylight entering through the bright pink roof window, balanced by gentle ambient room light. Use colorful reflected light across the striped walls, natural contact shadows, realistic highlights on hair and fabrics, and a cheerful playful bedroom atmosphere.",
+    "technical_specs": "Ultra-realistic cinematic portrait, 4:5 vertical framing, 35mm lens look, shallow but believable depth of field, detailed natural skin texture, subtle 35mm grain, slightly lifted blacks, mild natural vignetting, realistic fabric and room wear, no artificial plastic finish.",
+    "generated_prompt_string": "Ultra-realistic cinematic photo using the uploaded face as the only identity reference, keeping the true facial identity with no transformation or changes. Show one approved adult woman with long blonde hair in a cute minimalist attic bedroom styled as colorful dopamine decor. She wears the exact yellow ribbed ruffle-trim top with blue flower detail and silver shorts from the reference, seated casually in a red lounge chair and lightly holding her hair. The room has bright pink roof-window trim, vertical purple-pink-blue striped wallpaper, white shelves with colorful books and framed art, pastel bedding, a cartoon character plush on the bed, a blue glass cabinet with headphones, a small yellow table, and a pink smartphone on a white round table. Soft daylight from the roof window, colorful reflected light, natural shadows, realistic textures, 4:5 vertical portrait, 35mm lens look, subtle 35mm grain, slightly lifted blacks, and a cheerful playful atmosphere.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, child or teen appearance, identity drift, face transformation, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, harsh flash, distorted hands, extra fingers, deformed objects, cluttered composition, random text, watermark, logo invention, low resolution, blur",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "prompt-797.jpg",
+          "required": true,
+          "source": "local approved face and subject reference",
+          "usage": "Preserve the approved adult woman's face, facial structure, blonde hair, expression, outfit, and seated pose."
+        },
+        {
+          "type": "background",
+          "name": "prompt-797.jpg",
+          "required": true,
+          "source": "local approved room reference",
+          "usage": "Preserve the attic-bedroom architecture, pink roof window, striped wallpaper, shelves, bed, plush, cabinet, and colorful decor."
+        },
+        {
+          "type": "accessory",
+          "name": "prompt-797.jpg",
+          "required": false,
+          "source": "local approved prop reference",
+          "usage": "Keep the headphones, books, framed art, smartphone, and small room objects when they support the composition; these props may be replaced without changing identity or environment style."
+        }
+      ],
+      "prompt_instructions": "Attach the required person and room reference; the accessory details are optional but should be attached when exact prop continuity matters. Preserve identity, facial structure, outfit, seated arrangement, room environment, color palette, and typography only if any visible text is supplied by a replacement reference. Replaceable elements include props, books, framed art, and phone styling; do not invent logos, products, text, or branded typography. If replacing the person, use another approved adult while retaining the same outfit continuity and colorful attic-bedroom environment."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "name": "prompt-914",
+  "tag": [
+    "adult-couple",
+    "photobooth-collage",
+    "polaroid",
+    "romantic",
+    "analog-film"
+  ],
+  "image_type": "six-frame-couple-photobooth",
+  "image_vibe": "playful-romantic-nostalgic",
+  "image_purpose": "lifestyle-editorial",
+  "group": "indie/enegy-lifestyle/retro-analog",
+  "source_url": "https://x.com/miilesus/status/2001734583830626635",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Restricted exact face matching to separate approved adult references and replaced the strapless dress with a covered cream long-sleeve dress, retaining the affectionate analog photobooth collage."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "two approved adults in a playful vintage photo-booth collage",
+      "color_palette": "cream, black leather, warm beige, soft rose, and flash amber",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult woman and adult man who may match separate approved adult identity references, retaining natural facial proportions, skin tones, and adult appearance.",
+      "wardrobe": "The woman wears a covered cream long-sleeve midi dress with a modest neckline. The man wears a black leather jacket over a white shirt.",
+      "poses": [
+        "The man playfully covers the woman's eyes while both smile.",
+        "They stand close facing each other, her hand resting gently on his chest.",
+        "A soft face-to-face moment with relaxed eye contact.",
+        "The woman stands behind him making a small peace sign.",
+        "A playful hand-spin dance pose.",
+        "Both laugh naturally toward camera."
+      ]
+    },
+    "composition_elements": {
+      "framing": "Evenly spaced six-frame vertical photo-booth collage, consistent adult identities and outfit across all frames.",
+      "environment": "Neutral photo-booth curtain backdrop with no writing, labels, or branding."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft frontal flash mixed with warm indoor ambience, casual snapshot shadows, and slight analog bloom.",
+      "atmosphere": "Romantic, playful, spontaneous, intimate, and nostalgic."
+    },
+    "technical_specs": {
+      "render_style": "vintage Polaroid/analog photobooth",
+      "quality": "slight soft focus, gentle grain, mild blur, natural skin, realistic proportions"
+    },
+    "generated_prompt_string": "Create a photoreal 4:5 six-frame vintage analog photobooth collage of two adults, optionally matching separate approved adult identity references. Preserve each adult's natural face, skin tone, and proportions. The woman wears a covered cream long-sleeve midi dress with a modest neckline; the man wears a black leather jacket over a white shirt. Show six affectionate, playful moments: covering her eyes; standing close face-to-face with her hand on his chest; soft eye contact; a small peace sign behind him; a hand-spin dance; and shared laughter at camera. Use a neutral curtain backdrop, soft frontal flash mixed with warm indoor ambient light, slight Polaroid softness and grain, natural imperfections, and no text, logos, or watermark.",
+    "negative_prompt": "minor, unapproved identity reference, strapless dress, nudity, explicit, nsfw, overly revealing clothing, text, logo, watermark, distorted faces, extra limbs, plastic skin",
+    "reference_elements": {
+      "prompt_instructions": "Both identity references are optional and must depict adults. Other references are optional and may replace curtain, outfit, or analog-light character only.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved-adult-couple-identity-references",
+          "required": false,
+          "source": "user upload",
+          "usage": "Match each adult face separately; do not blend identities or change age."
+        },
+        {
+          "type": "style_reference",
+          "name": "warm-analog-photobooth-collage",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace frame spacing, flash warmth, grain, and curtain texture."
+        }
+      ]
+    }
+  }
+}

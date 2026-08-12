@@ -1,0 +1,83 @@
+{
+  "name": "brutalist-stairwell-suit-seductress",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "tailoring",
+    "brutalist-stairwell"
+  ],
+  "image_type": "editorial stairwell fashion portrait",
+  "image_vibe": "bold, direct-flash, architectural, self-assured",
+  "image_purpose": "fashion lookbook and editorial portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic vertical editorial portrait of one original approved adult woman seated in a minimalist concrete stairwell with direct flash.",
+    "main_subject": "Original approved adult woman with dark espresso-brown slightly wavy hair, natural pores and skin texture, defined brows, deep brown eyes, and a self-assured direct gaze. She wears a white structured cotton poplin shirt, a tailored gray Prince of Wales check blazer, a matching plaid lower garment, a deep-crimson silk satin necktie, and glossy black nail lacquer. Preserve the barefoot styling visible in the reference.",
+    "composition_elements": [
+      "Subject crouched and seated on concrete stair steps with knees raised and feet visible, leaning against a white plastered stairwell wall.",
+      "One hand rests on the step while the other arm is relaxed near the blazer; maintain the editorial compact pose and direct gaze.",
+      "White plaster, concrete tread, and terracotta stair tiles create a restrained architectural background.",
+      "Keep plaid geometry, tie, shirt collar, black manicure and pedicure, and natural hand anatomy clear."
+    ],
+    "lighting_and_atmosphere": "Hard direct on-camera flash with crisp subject shadow on the white plaster, high contrast, cool-neutral highlights, and an editorial raw snapshot atmosphere.",
+    "technical_specs": "Photorealistic 4:5 vertical portrait, 35mm full-frame lens at f/8, ISO 100, 1/200s, deep focus across subject and wall, realistic wool-blend, cotton, concrete, skin, and tile texture, no text or watermark.",
+    "generated_prompt_string": "Photorealistic vertical editorial portrait of one original approved adult woman with dark espresso-brown slightly wavy hair, natural visible pores, defined brows, deep brown eyes and a self-assured direct gaze. She wears a white structured cotton poplin shirt, tailored gray Prince of Wales check blazer, matching plaid lower garment, deep-crimson silk satin necktie, and glossy black nail lacquer, preserving the barefoot styling from the reference. She is crouched and seated on concrete stair steps with knees raised and feet visible, leaning against a white plastered stairwell wall, with one hand resting on the step and the other relaxed near the blazer. Show white plaster, concrete tread and terracotta stair tiles, direct hard on-camera flash, crisp shadow on the wall, high contrast, 35mm f/8 full-frame look, ISO 100, 1/200s, realistic material textures, raw editorial clarity, no text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "celebrity likeness",
+      "explicit measurements",
+      "body-part emphasis",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "distorted anatomy",
+      "extra fingers",
+      "warped plaid",
+      "watermark",
+      "text",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "brutalist-stairwell-suit-seductress.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for original approved-adult identity, face, hair, pose, manicure, and styling reference."
+        },
+        {
+          "type": "wardrobe",
+          "name": "gray plaid blazer and lower garment, white shirt, crimson tie",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the supplied tailoring, plaid scale, tie color, shirt, and barefoot styling."
+        },
+        {
+          "type": "location",
+          "name": "white plaster and concrete stairwell with terracotta steps",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the stair geometry, wall texture, tiles, and direct-flash shadow environment."
+        }
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, and location references; no optional assets are needed. Keep identity, face, outfit, plaid, tie, nails, pose, stairwell, lighting, and environment consistent. Replace only with an equivalent approved adult, equivalent tailoring, or equivalent stairwell reference. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public-figure identity, removed body-measurement emphasis, and aligned the pose to the crouched stairwell composition visible in the reference image."
+    ]
+  }
+}

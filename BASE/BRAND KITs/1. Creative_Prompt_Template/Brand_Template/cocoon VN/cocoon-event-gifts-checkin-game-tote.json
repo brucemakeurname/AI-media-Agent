@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-event-gifts-checkin-game-tote",
+  "tag": [
+    "event-gifts",
+    "check-in",
+    "tote-bag",
+    "special-offer",
+    "launch-event",
+    "gift"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "cocoon_1382978540360765",
+  "prompt": {
+    "project_info": {
+      "theme": "Attractive event gift poster for launch activation attendees",
+      "color_palette": "Soft Pink Gradient, White, Black, Rose Pink, Warm Gold"
+    },
+    "main_subject": {
+      "type": "Product/Object",
+      "detail": "A pink event-gift poster combining Cocoon skincare mini products with a large pink fabric tote bag printed 'COCOON VIỆT NAM', highlighting check-in gifts worth 143K and game prizes worth 269K.",
+      "style": "Clean campaign giveaway poster, retail-event merchandising graphic, soft pink promotional layout"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'QUÀ TẶNG HẤP DẪN KHI THAM GIA SỰ KIỆN', 'Check-in nhận Quà tặng 143K', and 'Chơi game nhận Quà tặng 269K (Túi vải Cocoon & sản phẩm)'.",
+      "items": [
+        "Top Left: Large white headline spanning the pink gradient top area.",
+        "Top Right: Pink gift icon circle floating near the tote bag strap.",
+        "Bottom Left: Black copy block 'Chơi game nhận Quà tặng 269K (Túi vải Cocoon & sản phẩm)' and a small cleanser tube in front.",
+        "Bottom Right: Large pink tote bag printed 'COCOON VIỆT NAM' dominating the composition.",
+        "Center/Background: Hau Giang lotus toner bottle, sunscreen tube, and a second gift icon near the text 'Check-in nhận Quà tặng 143K'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio catalog lighting",
+      "effect": "Even product illumination, gentle gradient glow, clean event-promo readability"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity retail event poster with realistic product packshots",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for event gifts at a skincare launch. Centerpiece is a large pink tote bag printed 'COCOON VIỆT NAM' alongside Cocoon Hau Giang lotus products and a sunscreen tube. Background is a soft pink gradient. Surrounding elements: headline 'QUÀ TẶNG HẤP DẪN KHI THAM GIA SỰ KIỆN', copy 'Check-in nhận Quà tặng 143K', copy 'Chơi game nhận Quà tặng 269K (Túi vải Cocoon & sản phẩm)', and two pink circular gift icons. Keep the clean promo hierarchy and exact tote-bag print. Technical style: high fidelity retail event poster with realistic product packshots, soft studio catalog lighting, even illumination and gentle gradient glow, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Pink Cocoon VIỆT NAM tote bag",
+          "required": true,
+          "source": "Attach a crop of the tote bag from the original poster",
+          "usage": "Preserve the fabric shape, pale pink color, and exact oversized white print."
+        },
+        {
+          "type": "product",
+          "name": "Hau Giang lotus toner, cleanser tube, and sunscreen tube",
+          "required": true,
+          "source": "Attach official packshots or crops from the original poster",
+          "usage": "Keep the exact gift-product assortment and label fidelity."
+        },
+        {
+          "type": "text_layout",
+          "name": "Event gift typography and gift-icon placement",
+          "required": true,
+          "source": "Use the original creative as layout reference",
+          "usage": "Maintain headline size, the two offer statements, and icon-circle positions."
+        }
+      ],
+      "prompt_instructions": "When using gpt-image-2, attach the tote bag and product refs plus the original poster layout. Do not redesign the gift hierarchy or alter the gift values 143K and 269K."
+    }
+  }
+}

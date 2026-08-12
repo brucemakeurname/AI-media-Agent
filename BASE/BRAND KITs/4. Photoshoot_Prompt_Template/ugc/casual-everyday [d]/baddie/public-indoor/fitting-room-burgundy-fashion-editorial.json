@@ -1,0 +1,58 @@
+{
+  "name": "fitting-room-burgundy-fashion-editorial",
+  "tag": [
+    "ugc",
+    "baddie",
+    "public-indoor",
+    "burgundy-fashion",
+    "fitting-room",
+    "seated-editorial"
+  ],
+  "image_type": "ugc-fashion-editorial-portrait",
+  "image_vibe": "polished-burgundy-boutique",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/public-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic boutique fitting-room fashion portrait with a burgundy ribbed top, charcoal jeans and cinematic shallow depth of field.",
+    "main_subject": "One original approved adult woman with a delicate symmetrical face, light blue-green eyes, natural makeup, long straight chestnut-brown hair with soft highlights and realistic skin texture with subtle freckles. She wears a fitted burgundy ribbed long-sleeve crop top with shoulder cut-outs and an integrated choker detail, plus high-waisted dark-grey distressed jeans.",
+    "composition_elements": "Vertical 3:4 seated portrait. The adult subject sits casually on the fitting-room floor with legs arranged naturally, holds the long burgundy fabric ribbon behind her neck and shoulders with both hands, and looks toward camera with a calm confident fashion expression. Include boutique mirrors, clothing racks and a softly blurred modern fitting-room interior.",
+    "lighting_and_atmosphere": "Soft natural boutique lighting with gentle rim light and subtle fill, realistic skin highlights and controlled shadows. Keep the mood polished, editorial and approachable rather than sexualized.",
+    "technical_specs": "3:4 vertical frame, Canon EOS R5 with 85mm lens feel at f/1.8, shallow cinematic bokeh, sharp face and knit texture, filmic professional color grading, realistic pores and fabric detail.",
+    "generated_prompt_string": "Create a photorealistic boutique fitting-room fashion portrait of one original approved adult woman with a delicate symmetrical face, light blue-green eyes, natural makeup, long straight chestnut-brown hair with soft highlights and realistic skin texture with subtle freckles. She wears a fitted burgundy ribbed long-sleeve crop top with shoulder cut-outs and an integrated choker detail, plus high-waisted dark-grey distressed jeans. Use a vertical 3:4 seated composition; she sits casually on the fitting-room floor with legs arranged naturally, holds a long burgundy fabric ribbon behind her neck and shoulders with both hands and looks toward camera with a calm confident fashion expression. Include boutique mirrors, clothing racks and a softly blurred modern fitting-room interior. Use soft natural boutique light with gentle rim light and subtle fill, an 85mm f/1.8 portrait look, sharp face and knit texture, cinematic bokeh and filmic color grading.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, body-part emphasis, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, wardrobe malfunction, invented logos, unreadable text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "fitting-room-burgundy-fashion-editorial.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair, eyes, expression and likeness; preserve facial structure while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "burgundy ribbed cut-out top, choker ribbon and dark distressed jeans",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve burgundy color, knit ribbing, cut-outs, ribbon and jean distressing; replace only with an explicitly supplied wardrobe reference."
+        },
+        {
+          "type": "location",
+          "name": "modern boutique fitting room with mirrors and clothing racks",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve boutique layout, mirrors, racks, floor and lighting; environment elements may be replaced independently while retaining the editorial framing."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, face, hair, outfit construction, ribbon placement, boutique environment and typography consistency. The approved adult, wardrobe and location can be replaced separately through explicit references; keep any clothing labels indistinct and do not invent logos or readable text."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed age wording to original approved adult.",
+      "Removed flirty/sexualized phrasing while preserving the burgundy fashion styling, ribbon pose and boutique editorial direction.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "sydney-sweeney-day-night-comparison",
+  "tag": ["ugc", "selfie-pov", "korean-pure", "private-indoor", "day-night", "split-comparison", "makeup-transition"],
+  "image_type": "split day-night comparison portrait",
+  "image_vibe": "honest, polished, warm, editorial, realistic",
+  "image_purpose": "social-media comparison post",
+  "group": "selfie-pov/korean-pure/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic 3:4 upper-body portrait split vertically into two equal halves for a direct day-versus-night comparison, using smartphone camera realism, handheld feel, slight digital noise and honest skin detail.",
+    "main_subject": "One original adult woman shown consistently in both halves, smiling in the same pose, framing, camera distance, background and angle. Left Day half: natural no-makeup appearance, visible pores, slight under-eye shadows, natural lips, minimal grooming, casually styled hair and a comfortable modest nightgown. Right Night half: professional makeup with even skin tone, subtle contour, enhanced eyes with mascara and eyeliner, defined brows, soft lipstick, elegantly styled hair and a beautiful pink dress with a flattering neckline. Do not reproduce Sydney Sweeney or any other public figure.",
+    "composition_elements": "Split the image vertically down the center into two equal halves. Place a clear 'Day' label at the top of the left half and a clear 'Night' label at the top of the right half. Keep pose, framing, camera distance, background and angle identical so the contrast comes only from makeup, styling and wardrobe. Use upper-body portrait framing with the same adult subject and matching facial expression structure across both sides.",
+    "lighting_and_atmosphere": "Use natural daytime lighting on the Day side and brighter polished but believable indoor lighting on the Night side, while maintaining consistent background and visual balance. Keep realistic color balance, mild compression character and minimal retouching rather than studio perfection.",
+    "technical_specs": "3:4 portrait aspect ratio, smartphone portrait-mode realism, handheld feel, slight digital noise, mild compression artifacts, realistic color balance, natural skin and fabric detail, readable Day/Night labels only, no watermark.",
+    "generated_prompt_string": "Photorealistic 3:4 upper-body split portrait of one original adult woman shown consistently in two equal vertical halves. Left half labeled 'Day': natural no-makeup face with visible pores, slight under-eye shadows, natural lips, casual hair and a comfortable modest nightgown, soft relaxed smile. Right half labeled 'Night': professional makeup with subtle contour, mascara, eyeliner, defined brows, soft lipstick, elegantly styled hair and a beautiful pink dress with a flattering neckline, bright confident smile. Same pose, background, camera distance and angle on both sides; contrast comes only from makeup, styling and wardrobe. Smartphone portrait-mode realism, handheld feel, slight digital noise and compression, honest skin detail, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Sydney Sweeney likeness, deep plunging neckline, beauty filter, over-smoothed skin, exaggerated makeup, inconsistent lighting, mismatched expressions, face distortion, studio glamour lighting, watermark, random text, text artifacts except Day and Night labels",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "sydney-sweeney-day-night-comparison.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult two-half comparison, Day/Night labels, same pose and framing, no-makeup versus professional makeup, modest nightwear versus pink dress, smartphone realism and honest skin detail; replace the named identity."
+        },
+        {
+          "type": "text_layout",
+          "name": "Day-Night-labels",
+          "required": true,
+          "source": "Existing prompt text",
+          "usage": "Render only the 'Day' label on the left and 'Night' label on the right; do not add other text."
+        },
+        {
+          "type": "image_asset",
+          "name": "1774145560969-8vdrj2em-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1774145560969-8vdrj2em-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source and Day/Night text-layout assets are required; image asset is optional and not inspected. Keep the same adult identity, pose, framing, background and labels across both halves. Replace identity only and preserve the modest Day wardrobe and flattering Night neckline."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Sydney Sweeney with an original adult woman.",
+      "Changed deep-neckline wording to a flattering neckline while preserving the day/night styling contrast.",
+      "Preserved the source's split composition, labels, comparison concept and smartphone realism."
+    ]
+  }
+}

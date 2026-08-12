@@ -1,0 +1,75 @@
+{
+  "name": "bold-red-fashion-portrait",
+  "tag": [
+    "red-led-fashion",
+    "bow-sweater",
+    "pleated-skirt",
+    "knee-high-socks",
+    "dramatic-portrait"
+  ],
+  "image_type": "fashion-social-portrait",
+  "image_vibe": "bold-dramatic",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Bold red fashion portrait under saturated LED light",
+      "creative_direction": "confident preppy fashion look with graphic red atmosphere",
+      "color_palette": "monochromatic vivid red, deep shadow red, warm skin tones, and subtle neutral room edges"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "stylish adult woman with confident direct gaze, natural makeup, and poised self-assured expression",
+      "wardrobe": "coordinated red sweater with large bow detail, red pleated skirt, and matching red knee-high socks",
+      "pose": "standing with one hand on the hip and legs in a stable fashion stance"
+    },
+    "composition_elements": {
+      "framing": "vertical medium-full fashion portrait",
+      "subject_position": "adult woman centered indoors with direct eye contact",
+      "background": "simple room with red LED glow filling the walls and subtle door or architectural edges"
+    },
+    "lighting_and_atmosphere": {
+      "type": "red ambient LED panels at approximately 630nm with low neutral fill",
+      "effect": "saturated red environment, soft facial modeling, readable sweater and pleat texture, bold eye-catching social aesthetic"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 50mm lens, fashion portrait photography",
+      "resolution": "4k vertical social portrait",
+      "finish": "natural skin texture under colored light, restrained highlight clipping, subtle grain, no artificial smoothing"
+    },
+    "generated_prompt_string": "A stylish clearly adult woman poses confidently indoors with dramatic red lighting filling the room. She wears a coordinated red sweater with a large bow detail, a red pleated skirt, and matching red knee-high socks. Her stance is strong and self-assured, with one hand placed on her hip while she looks directly at the camera. Red ambient LED glow fills the background and enhances the bold, eye-catching aesthetic. Use approximately 630nm red LED panels with low neutral fill, a 50mm fashion lens, vertical social portrait framing, readable sweater and pleat texture, natural skin detail under colored light, restrained highlight clipping, and subtle grain. Keep the styling preppy and fashion-editorial, clearly adult, and non-sexual.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, school uniform, underage styling, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, muddy red clipping",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-red-fashion-model",
+          "required": true,
+          "source": "Original red fashion portrait preview image",
+          "usage": "Attach an approved adult face reference for identity continuity; preserve facial structure without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "red-bow-sweater-pleated-skirt-socks",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the red sweater, bow, pleated skirt, and knee-high socks; keep the outfit as adult preppy fashion rather than school uniform."
+        },
+        {
+          "type": "location",
+          "name": "red-led-indoor-room",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the saturated red LED atmosphere, indoor wall, and simple architectural edges; room details may be replaced."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person, exact red outfit, and LED-room references. Keep the adult identity, bow, pleats, socks, direct gaze, hand-on-hip pose, and red light consistent. Replace the room or model only with approved equivalents; avoid underage or school-uniform framing and preserve non-sexual fashion direction."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the source's young woman as a clearly adult woman and replaced school-inspired ambiguity with adult preppy fashion while preserving the red outfit and lighting concept."
+    ]
+  }
+}

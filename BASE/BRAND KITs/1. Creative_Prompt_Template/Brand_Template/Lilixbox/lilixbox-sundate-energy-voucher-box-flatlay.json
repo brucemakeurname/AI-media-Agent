@@ -1,0 +1,84 @@
+{
+  "name": "lilixbox-sundate-energy-voucher-box-flatlay",
+  "tag": [
+    "gift-box",
+    "flatlay",
+    "voucher",
+    "summer-campaign"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "lilixbox_1044023791524175",
+  "prompt": {
+    "project_info": {
+      "theme": "Lixibox Sundate Energy gift box unboxing flatlay",
+      "color_palette": "Pool blue, bright orange, white, sandy beige, navy, striped multicolor accents"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Top-down resort-style flatlay of an opened Lixibox Sundate Energy gift box next to a blue mesh tote bag with orange trim, surrounded by beauty products, a one-million-dong voucher, towel, cap, speaker, and summer accessories.",
+      "style": "Curated ecommerce campaign flatlay, clean commercial styling, premium summer editorial arrangement"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Props",
+      "text": "LIXIBOX Sundate Energy / Take it slow, let your skin glow / 1.000.000đ",
+      "items": [
+        "Top Left: Blue mesh tote bag with orange handle and trim, partially open.",
+        "Top Right: Open blue Lixibox Sundate Energy box with interior lid text 'Take it slow, let your skin glow'.",
+        "Bottom Left: Large voucher card showing '1.000.000đ' with product samples and small beauty items nearby.",
+        "Bottom Right: Striped beach towel, cap, blue speaker, and assorted summer accessories framing the scene.",
+        "Center/Background: Poolside floor styling with neatly arranged skincare, bodycare, and gift items laid out as a premium GWP reveal."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Natural sunlight",
+      "effect": "Bright overhead daylight, crisp shadows, textured woven fabric details, fresh vacation mood"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic advertising photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Lixibox Sundate Energy gift box unboxing flatlay. Centerpiece is a top-down flatlay showing an open blue Sundate Energy gift box and a blue mesh tote with orange trim, surrounded by skincare products, a voucher card marked '1.000.000đ', a striped towel, a cap, a speaker, and summer props. Background is a bright poolside floor composition with vacation styling. Surrounding elements: tote at upper left, open branded box at upper right with interior text 'Take it slow, let your skin glow', voucher and products in the lower left, towel and lifestyle props in the lower right. Technical style: photorealistic advertising photography, natural sunlight, bright overhead daylight with crisp shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Lixibox Sundate Energy gift box and included beauty products",
+          "required": true,
+          "source": "campaign packshot assets or original creative",
+          "usage": "Preserve the exact packaging colors, assortment mix, and object scale."
+        },
+        {
+          "type": "graphic",
+          "name": "voucher card and branded box text",
+          "required": true,
+          "source": "original creative layout",
+          "usage": "Keep the visible voucher denomination and branded lid copy legible and accurate."
+        },
+        {
+          "type": "accessory",
+          "name": "blue mesh tote bag, striped towel, cap, and blue speaker",
+          "required": true,
+          "source": "campaign prop styling reference",
+          "usage": "Rebuild the same vacation flatlay narrative and edge framing."
+        },
+        {
+          "type": "background",
+          "name": "poolside floor flatlay surface",
+          "required": true,
+          "source": "original environment reference",
+          "usage": "Keep the same top-down angle and outdoor summer lighting context."
+        },
+        {
+          "type": "text_layout",
+          "name": "Sundate Energy box typography",
+          "required": true,
+          "source": "original creative",
+          "usage": "Retain the exact interior tagline placement and hierarchy."
+        }
+      ],
+      "prompt_instructions": "Use direct refs for the box design, tote, voucher, and all visible product packshots. This image depends on precise object arrangement, so keep the top-down angle, the open box at upper right, tote at upper left, and dense but tidy flatlay layout. The voucher amount and box tagline should remain exact."
+    }
+  }
+}

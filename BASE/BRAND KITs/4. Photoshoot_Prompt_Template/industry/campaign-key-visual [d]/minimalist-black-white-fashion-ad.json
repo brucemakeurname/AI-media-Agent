@@ -1,0 +1,19 @@
+{
+  "name": "minimalist-black-white-fashion-ad",
+  "tag": ["minimalist", "black-white", "menswear", "chair-portrait", "typographic-ad"],
+  "image_type": "campaign-key-visual",
+  "image_vibe": "quiet-luxury",
+  "image_purpose": "campaign",
+  "group": "campaign-key-visual",
+  "prompt": {
+    "project_info": {"theme": "Minimalist black menswear advertisement", "color_palette": "stark white, matte black, charcoal, soft gray shadows"},
+    "main_subject": {"type": "adult man", "detail": "A man in a black suit, black T-shirt and polished black dress shoes, seated in profile facing left while holding glasses near his mouth.", "style": "restrained menswear editorial with natural skin texture and clean tailoring"},
+    "composition_elements": {"layout": "centered seated profile beneath a three-level top-centered text hierarchy", "text": "Top center uses bold sans-serif [TEXT], smaller sans-serif [TEXT], then italic script [TEXT].", "items": ["modern black leather chair with tubular black metal frame", "right leg extended", "seamless white floor and background", "grounded contact shadows under chair and shoes"]},
+    "lighting_and_atmosphere": {"type": "large overhead softbox with front diffusion at 5200K and white bounce fill", "effect": "soft diffused shadows beneath the subject and chair, clean high-key studio atmosphere"},
+    "technical_specs": {"render_style": "Hasselblad X2D 100C, XCD 90mm f/2.5, high-key fashion studio photography", "resolution": "4K", "optics": "moderate depth of field, crisp garment edges, subtle natural grain"},
+    "generated_prompt_string": "A minimalist studio photograph fashion ad. At the top center, the bold sans-serif text \"[TEXT]\" is positioned above the smaller sans-serif text \"[TEXT]\", which is above the italic script text \"[TEXT]\". Below the text, a man in a black suit, black t-shirt, and polished black dress shoes sits in profile, facing left. He is seated in a modern chair with a black leather seat and backrest suspended on a tubular black metal frame. His right leg is extended, and he holds a pair of glasses in his right hand near his mouth. The background and floor are a seamless, stark white studio space with soft, diffused lighting that casts grounded shadows beneath the man and chair.",
+    "negative_prompt": "explicit, nsfw, overly revealing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, warped chair, floating feet, unreadable typography",
+    "reference_elements": {"assets": [{"type": "person", "name": "adult-menswear-model", "required": true, "source": "source image supplied with this template", "usage": "Preserve adult subject identity, profile pose, suit and glasses."}, {"type": "accessory", "name": "black-tubular-frame-chair", "required": true, "source": "source image supplied with this template", "usage": "Preserve chair materials, suspended seat geometry and position."}, {"type": "text_layout", "name": "three-level-minimalist-headline", "required": true, "source": "source image supplied with this template", "usage": "Keep top-center hierarchy and substitute only approved text."}], "prompt_instructions": "Attach the source image when exact model, chair and layout continuity is required. Keep the monochrome outfit, profile pose, chair construction and typography hierarchy consistent; the model and text may be replaced with approved alternatives."}
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

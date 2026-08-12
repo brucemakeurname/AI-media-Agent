@@ -1,0 +1,27 @@
+{
+  "name": "hidden-efforts-corner",
+  "tag": ["ugc", "casual-everyday", "other", "other", "late-night-work"],
+  "image_type": "late-night study lifestyle photo",
+  "image_vibe": "honest tired productive home office",
+  "image_purpose": "UGC-style behind-the-scenes productivity visual",
+  "group": "other/other",
+  "prompt": {
+    "project_info": "Create a realistic late-night behind-the-scenes lifestyle photo showing an original approved adult woman working quietly at home.",
+    "main_subject": "An original approved adult blonde woman with hair in a messy bun and thin glasses sits in an office chair writing in a notebook beside an open laptop. She wears an oversized gray T-shirt and gray lounge pants, focused on her work with a natural tired-but-determined posture.",
+    "composition_elements": "Vertical candid side view, small white desk, laptop with editable screen content, digital clock showing a late-night time, instant noodle cup, several energy-drink cans, pen and notebook, rumpled bed and clothing in the background, shelves filled with collectible figures, and a dark doorway.",
+    "lighting_and_atmosphere": "Mixed warm room light and cool laptop glow, low-key late-night ambience, realistic clutter and imperfect surfaces, honest hidden-effort mood.",
+    "technical_specs": "Realistic smartphone lifestyle photography, vertical 3:4, candid side-angle composition, moderate depth of field, visible fabric and paper texture, subtle low-light grain, no artificial HDR look.",
+    "generated_prompt_string": "Realistic vertical 3:4 late-night behind-the-scenes lifestyle photo of an original approved adult blonde woman with a messy bun and thin glasses sitting in an office chair and writing in a notebook beside an open laptop. She wears an oversized gray T-shirt and gray lounge pants, focused and quietly determined. A small white desk holds the laptop, editable screen content, a digital clock with a late-night time, instant noodle cup, energy-drink cans, pen, and notebook. A rumpled bed, clothing, collectible-figure shelves, and dark doorway fill the background. Warm room light mixes with cool laptop glow, natural clutter, honest productive atmosphere.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, unsafe caffeine excess, unreadable text, random logos, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "late-night work corner reference", "required": true, "source": "attached source image", "usage": "Match the original adult model, hair, glasses, gray outfit, laptop, desk clutter, clock, room, and mixed lighting."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve adult identity, outfit, work posture, desk arrangement, environment, and light balance. Screen content, clock digits, product labels, logos, typography, and collectible designs are replaceable editable elements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an original approved adult model.", "Converted the vague source into an evidence-based late-night work scene using the viewed image.", "Added replaceable text/logo guidance and anti-slop exclusions."]
+  }
+}

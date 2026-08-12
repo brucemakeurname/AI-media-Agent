@@ -1,0 +1,60 @@
+{
+  "name": "coral-minimalist-fashion-campaign",
+  "tag": ["adult-woman", "identity-reference", "beauty-product", "lipstick", "luxe-cream", "coral-studio"],
+  "image_type": "split-panel-beauty-campaign",
+  "image_vibe": "bold-premium-commercial",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Replaced unrestricted identity matching with an authorized adult identity reference and clarified the adult subject while preserving the split-panel product composition, coral studio, black wardrobe, dramatic wide-angle reach, and readable packaging."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "ultra-realistic coral monochrome beauty product campaign",
+      "color_palette": "coral red, glossy black, metallic gold, clear glass, and warm neutral skin tones",
+      "aspect_ratio": "9:13"
+    },
+    "main_subject": {
+      "description": "An adult woman matching the authorized identity reference, with a curvy feminine silhouette, natural skin texture, long dark hair, and a confident commercial expression.",
+      "wardrobe": "Black sleeveless fitted top in the lipstick panel and a tailored coral-red blazer in the cream panel, preserving the reference outfits.",
+      "pose": "Two-panel product campaign: left panel reaches a lipstick toward camera for foreground dominance; right panel leans forward with one hand reaching toward camera behind an oversized cream jar.",
+      "styling": "Polished beauty campaign makeup, dark sunglasses optional in the lipstick panel, and refined commercial grooming."
+    },
+    "composition_elements": {
+      "framing": "Vertical split-panel composition with a low-angle 24-35mm perspective and dramatic product foreground in each panel.",
+      "environment": "Coral monochrome studio box with glossy reflective checker or polished floor, geometric walls, soft gradients, and symmetrical smaller product units.",
+      "product_details": "Left: glossy black-and-gold lipstick with vivid red bullet. Right: oversized clear-and-gold jar labeled REVITALIZE LUXE CREAM with smaller matching units. Keep packaging sharp, readable, and materially realistic.",
+      "focus": "Sharp foreground products and hands, authorized adult identity where in focus, realistic reflections, and clean premium campaign separation."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Bright commercial studio lighting with soft shadows, glossy highlights on packaging, warm directional light, and realistic shadows enhancing the fitted silhouettes.",
+      "atmosphere": "Bold, premium, modern, polished, and high-fashion commercial."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with a 24-35mm wide-angle lens at f/5.6, 1/200 s, ISO 100",
+      "quality": "4K-8K photorealistic product detail, deep focus on products and models, dramatic perspective, clean reflections, no watermark or unintended text"
+    },
+    "generated_prompt_string": "Create an ultra-realistic 9:13 split-panel coral beauty campaign using the authorized adult identity reference. In the left panel, show the adult woman with a curvy feminine silhouette, long dark hair, black sleeveless fitted top, and optional dark sunglasses reaching a glossy black-and-gold lipstick with vivid red bullet toward camera; make the lipstick dominate the foreground. In the right panel, show the same authorized adult in a tailored coral-red blazer leaning forward and reaching toward camera behind an oversized clear-and-gold jar labeled REVITALIZE LUXE CREAM, with smaller matching units symmetrically behind. Use a coral monochrome studio box, geometric walls, glossy reflective floor, bright commercial lighting, soft shadows, realistic packaging texture, a 24-35mm wide-angle perspective, accurate legible labels, and no watermark or extra text.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, wardrobe malfunction, illegible product labels, distorted packaging, extra fingers, deformed anatomy, plastic skin, watermark, cluttered layout, harsh overexposure",
+    "reference_elements": {
+      "prompt_instructions": "The authorized adult identity reference is required for the adult woman's face and overall identity in both panels. Preserve the exact reference outfits unless a wardrobe asset replaces them. Optional lipstick, cream jar, studio, or lighting references may replace only their named element; preserve the product-dominant wide-angle composition and commercial text legibility.",
+      "assets": [
+        {
+          "type": "identity",
+          "name": "authorized-adult-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public figure portrait",
+          "usage": "Preserve the authorized adult's facial identity consistently across both product panels."
+        },
+        {
+          "type": "product",
+          "name": "red-lipstick-and-revitalize-luxe-cream",
+          "required": false,
+          "source": "user-uploaded product reference",
+          "usage": "Replace only the product packaging, finish, or labels while preserving the foreground dominance and readable materials."
+        }
+      ]
+    }
+  }
+}

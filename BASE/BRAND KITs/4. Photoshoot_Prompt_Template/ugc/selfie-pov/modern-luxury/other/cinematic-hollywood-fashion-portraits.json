@@ -1,0 +1,44 @@
+{
+  "name": "cinematic-hollywood-fashion-portraits",
+  "tag": ["ugc", "selfie-pov", "modern-luxury", "other", "fashion-collection", "cinematic", "celebrity-style"],
+  "image_type": "cinematic multi-scene fashion collection",
+  "image_vibe": "glamorous, cinematic, luxurious, playful, editorial",
+  "image_purpose": "social-media carousel and fashion moodboard",
+  "group": "selfie-pov/modern-luxury/other",
+  "prompt": {
+    "project_info": "Create a photorealistic multi-scene fashion collection with cinematic lighting and modern Hollywood editorial polish, using original adult subjects in four distinct lifestyle-fashion scenarios.",
+    "main_subject": "Use two original adult women consistently across the collection. Subject 1 appears in a luxury boat scene with blonde messy beach waves and chunky black sunglasses. Subject 2 appears in three scenes with an original adult identity and styling appropriate to each scenario. Do not reproduce Sydney Sweeney, Ana de Armas or any other public figure.",
+    "composition_elements": "Scene 1: Subject 1 leans back on a luxury boat on a lake with pine forest background, one arm raised, blowing a kiss or laughing behind her hand, wearing black-and-white zip-up wetsuit or athletic swimwear. Scene 2: Subject 2 sits elegantly on a black leather tufted sofa in a high-fashion lounge with neon pink and blue lights, wearing a red sequined blazer and skirt over black silk with layered gold necklaces and bangles. Scene 3: Subject 2 sits cross-legged on a wicker sofa in a lush tropical garden holding a drink, wearing a yellow-and-blue patterned strapless summer dress with bright pink heels, green champagne bucket and leaf-patterned pillow nearby. Scene 4: Subject 2 takes a selfie with a fan under an umbrella on a rainy red-carpet street, wearing a white long-sleeve button-up blouse with a stylish updo. Keep each scenario visually distinct but editorially coherent.",
+    "lighting_and_atmosphere": "Use cinematic lighting appropriate to each scene: natural lake daylight, neon pink-blue lounge light, warm tropical garden daylight and soft rainy street reflections. Maintain realistic water, sequins, leather, silk, foliage, umbrella and wet pavement textures with polished luxury editorial atmosphere.",
+    "technical_specs": "Photorealistic high-resolution collection, 8K-style detail, 1080x1080 or 1080x2400 social-media layouts, coherent color grading, realistic fabric, skin, jewelry, foliage, water and rain textures, no text, logos or watermark.",
+    "generated_prompt_string": "Photorealistic cinematic fashion collection featuring two original adult women across four scenes. Scene 1: original blonde adult with messy beach waves and chunky black sunglasses leaning back on a luxury lake boat, arm raised, blowing a kiss or laughing behind her hand, black-and-white zip-up wetsuit or athletic swimwear, pine forest background. Scene 2: second original adult woman seated on black tufted leather sofa in neon pink-blue lounge, red sequined blazer and skirt, black silk inner, layered gold necklaces and bangles. Scene 3: same second woman cross-legged on wicker sofa in lush tropical garden holding a drink, yellow-blue patterned strapless summer dress, bright pink heels, green champagne bucket and leaf pillow. Scene 4: same woman taking a selfie with a fan under umbrella on rainy red-carpet street, white long-sleeve blouse, elegant updo. High-resolution 8K-style photorealism, cinematic luxury editorial lighting, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Sydney Sweeney likeness, Ana de Armas likeness, inconsistent identity, distorted anatomy, extra fingers, malformed hands, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, random text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "cinematic-hollywood-fashion-portraits.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the two-subject four-scenario fashion collection, all settings, poses, wardrobes, accessories, props, layouts and cinematic luxury direction; replace named identities with original adults."
+        },
+        {
+          "type": "image_asset",
+          "name": "1774311263732-bekajcg9-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1774311263732-bekajcg9-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written collection prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required and image asset is optional; it is not inspected in the text-only workflow. Keep two original adult identities consistent across the four scenes, preserve each wardrobe and setting, and replace only celebrity identities."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Sydney Sweeney and Ana de Armas with two original adult identities.",
+      "Preserved the source's four scenarios, wardrobes, poses, accessories, props and cinematic fashion intent.",
+      "Added required safety and artifact exclusions."
+    ]
+  }
+}

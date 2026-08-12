@@ -1,0 +1,59 @@
+{
+  "name": "black-and-white-pop-art-portrait",
+  "tag": ["adult-man", "identity-reference", "mixed-media-portrait", "pop-art-doodles", "90s-inspired", "color-overlay"],
+  "image_type": "mixed-media-pop-art-portrait",
+  "image_vibe": "cheerful-creative-charming",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Removed the public-figure likeness instruction and replaced it with an authorized adult identity reference while preserving the friendly smile, short spiky hairstyle, black-and-white portrait, colorful doodle overlays, and playful 90s-inspired mood."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "mixed-media black-and-white studio portrait with vibrant hand-drawn pop-art overlay",
+      "color_palette": "black and white photography with vivid yellow, blue, pink, and orange doodles",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "A handsome adult man matching the authorized identity reference, with a warm charming smile, friendly direct gaze, smooth natural skin texture, and short spiky messy 90s-inspired hair.",
+      "wardrobe": "Black button-down shirt used as a canvas for colorful hand-drawn abstract patterns, stripes, swirls, and geometric shapes across the fabric.",
+      "pose": "Bust portrait standing slightly angled with a subtle head tilt, looking directly at viewer with a gentle smile; hands not visible.",
+      "styling": "Classic black-and-white studio portrait blended with playful illustrative abstraction and a hand-drawn yellow crown floating above the head."
+    },
+    "composition_elements": {
+      "framing": "Centered upper-body portrait with clean white background and doodle elements balanced around the subject.",
+      "environment": "White studio background filled with abstract black dashes, colorful blue, pink, orange, and yellow swirls, scribbles, and patterned shapes; no readable text or logos.",
+      "focus": "Sharp authorized adult identity, friendly expression, spiky hair texture, patterned shirt, and crisp doodle edges."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Balanced front studio strobe with flat flattering illumination, soft facial modeling, and even exposure across the monochrome portrait and color overlays.",
+      "atmosphere": "Fun, artistic, energetic, charming, and optimistic."
+    },
+    "technical_specs": {
+      "camera": "Full-frame portrait camera with an 85mm lens at f/4, 1/160 s, ISO 100",
+      "quality": "8K-quality mixed-media portrait, sharp grayscale photography, clean vector doodle edges, vibrant color overlay, high-resolution 1080x1350-style output"
+    },
+    "generated_prompt_string": "Create a high-resolution 4:5 mixed-media pop-art portrait combining a sharp black-and-white studio photograph of an adult man matching the authorized identity reference with vibrant playful hand-drawn digital doodles. He has a warm charming smile, friendly direct gaze, natural skin texture, and short spiky messy 90s-inspired hair. Show a centered bust portrait, slightly angled with a subtle head tilt, wearing a black button-down shirt covered in colorful yellow, blue, pink, and orange abstract patterns, stripes, swirls, and geometric shapes. Use a clean white studio background filled with balanced colorful scribbles and abstract dashes, plus a hand-drawn yellow crown floating above his head. Use flat flattering front strobe, crisp grayscale detail, clean vector edges, and no readable text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, public-figure likeness, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, readable text, logo, watermark, muddy doodle edges, color bleeding, plastic skin, deformed anatomy, extra limbs, distorted face",
+    "reference_elements": {
+      "prompt_instructions": "The authorized adult identity reference is required for the face and overall identity; preserve the approved adult's friendly expression and facial structure without imitating Matthew Perry or any other public figure. Optional hair, wardrobe, doodle, studio, or lighting references may replace only their named element.",
+      "assets": [
+        {
+          "type": "identity",
+          "name": "authorized-adult-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public figure portrait",
+          "usage": "Preserve the authorized adult's facial identity while maintaining the charming expression and pop-art portrait styling."
+        },
+        {
+          "type": "graphic-style",
+          "name": "colorful-hand-drawn-pop-art-doodles",
+          "required": false,
+          "source": "user-uploaded graphic reference",
+          "usage": "Replace only the doodle colors, patterns, crown, and abstract shapes while preserving the black-and-white portrait base."
+        }
+      ]
+    }
+  }
+}

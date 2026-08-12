@@ -1,0 +1,63 @@
+{
+  "name": "samsung-galaxy-s8-banish-the-bezel",
+  "tag": [
+    "smartphone-launch",
+    "legacy-campaign",
+    "bezel-less",
+    "product-hero"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Brand story",
+  "group": "samsung_1388403923328082",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy S8 bezel-less launch poster",
+      "color_palette": "White, silver, black, icy blue-gray wallpaper"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Minimal legacy smartphone poster showing the Galaxy S8 front and back together, with the front screen displaying an icy mountain wallpaper and centered copy about banishing the bezel.",
+      "style": "Photorealistic clean product advertising, classic Samsung launch minimalism"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "This is who you asked to / Banish the bezel / Galaxy S8",
+      "items": [
+        "Top Left: Clean white background with no headline beyond the text placed on the phone screen.",
+        "Top Right: Front-facing Galaxy S8 with slim black bezels and icy wallpaper; centered on-screen text 'This is who you asked to Banish the bezel'.",
+        "Bottom Left: Rear silver Galaxy S8 showing Samsung wordmark, single camera, flash, and fingerprint reader.",
+        "Bottom Right: Empty white negative space.",
+        "Center/Background: Overlapped front-and-back phone composition emphasizing the edge-to-edge display design."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio lighting",
+      "effect": "Gentle reflections on curved glass, clean product edges, minimalist premium contrast"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy S8 bezel-less launch poster. Centerpiece is an overlapped front-and-back Galaxy S8 composition on a white background, with the front display showing an icy mountain wallpaper and the centered phrase 'This is who you asked to Banish the bezel'. Background is minimal and bright. Surrounding elements: rear silver Galaxy S8 hardware details including camera, flash, fingerprint reader, Samsung logo, and 'Galaxy S8' mark. Technical style: photorealistic product render, soft studio lighting, gentle curved-glass reflections and clean edges, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy S8 front and back silver renders",
+          "required": true,
+          "source": "official Samsung legacy renders or original creative",
+          "usage": "Preserve exact hardware placement, curved corners, rear fingerprint sensor, and proportions."
+        },
+        {
+          "type": "ui_reference",
+          "name": "icy mountain wallpaper with centered campaign copy",
+          "required": true,
+          "source": "original poster",
+          "usage": "Keep the exact wallpaper and text placement on the front screen."
+        }
+      ],
+      "prompt_instructions": "Use refs for the Galaxy S8 hardware and the exact on-screen copy. The core of this image is the historical bezel-less positioning, so the front-display proportions must stay accurate."
+    }
+  }
+}

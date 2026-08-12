@@ -1,0 +1,40 @@
+{
+  "name": "night-racetrack-iphone-flash-portrait",
+  "tag": ["racetrack", "iphone-flash", "night-event", "ugc"],
+  "image_type": "UGC event portrait",
+  "image_vibe": "raw, chaotic, energetic, authentic",
+  "image_purpose": "Live-event social post and motorsport lifestyle content",
+  "group": "ugc/lifestyle-moment/night-out/other",
+  "prompt": {
+    "project_info": "Create a hyper-realistic candid night-time event photo at a crowded racing circuit in an unedited iPhone rear-camera flash look.",
+    "main_subject": "One generic approved adult man matching the required face reference, wearing a white-and-dark racing-style jacket with the visible motorsport sponsor patches from the reference over a fitted black inner top, jeans, belt, and a thin necklace. His expression is alert and slightly distracted, looking off-frame as if reacting to live action.",
+    "composition_elements": "Vertical 3:4 medium-close framing from waist to slightly above the head, handheld at chest-to-face height with a 24–26mm-equivalent wide-angle feel and slight edge distortion. Keep the subject slightly off-center beside a railing, with a nearby crowd, sponsor signage, LED screens, lighting rigs, structural beams, and racetrack background readable but partially cropped and overlapping.",
+    "lighting_and_atmosphere": "Direct on-camera flash head-on with harsh highlights and abrupt shadow falloff, stadium lights and LED screens as blown highlights and soft bokeh, low-level phone noise and grain in darker crowd areas, chaotic live-event energy.",
+    "technical_specs": "Photorealistic unedited iPhone rear-camera look, vertical 3:4, handheld 24–26mm equivalent, deep depth of field, mild computational sharpening, natural skin texture, imperfect framing, no beauty retouching or cinematic lighting.",
+    "generated_prompt_string": "Create a 3:4 hyper-realistic candid night-time event photo in an unedited iPhone rear-camera flash look. Use one generic approved adult man matching the required face reference, standing near a railing at a crowded racing circuit, body angled slightly sideways, one arm bent casually near the railing and the other relaxed. Frame him from the waist to slightly above the head, slightly off-center, with nearby spectators, sponsor signage, LED screens, lighting rigs, structural beams and the racetrack overlapping and partially cropped. Direct on-camera flash illuminates him head-on with harsh highlights and abrupt shadow falloff. Stadium lights and screens appear as blown highlights and soft bokeh; low-level noise and grain remain in darker crowd areas. He wears a white-and-dark racing-style jacket with the visible motorsport patches from the reference over a fitted black inner top, jeans, belt and a thin necklace. His expression is alert and slightly distracted, gaze off-frame, as if reacting to live action. The moment feels rushed, instinctive, mid-event and unposed, with no cinematic lighting, editorial posing or beauty retouching.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, unreadable text beyond approved reference patches, unintended logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult subject face reference",
+          "required": true,
+          "source": "Attach the provided local reference image",
+          "usage": "Preserve the approved adult subject's facial structure, proportions, skin texture and likeness without beautification or facial alteration."
+        },
+        {
+          "type": "logo",
+          "name": "motorsport sponsor patches from reference",
+          "required": true,
+          "source": "Use only the visible patches in the provided reference image",
+          "usage": "Preserve the jacket patch placement and visual identity when needed; keep all other text and logos out of frame or unreadable."
+        }
+      ],
+      "prompt_instructions": "Attach the required subject/reference image and use the visible jacket patches only as the required branding reference. Preserve face identity, jacket construction, patch placement, racetrack environment, flash behavior and candid framing. The person, outfit details, patches, crowd, signage and environment are replaceable except where an approved brand reference is intentionally attached; avoid inventing additional logos or readable text."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

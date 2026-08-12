@@ -1,0 +1,58 @@
+{
+  "name": "sunny-kitchen-hourglass-beauties",
+  "tag": [
+    "ugc",
+    "baddie",
+    "public-indoor",
+    "two-person-portrait",
+    "sunny-kitchen",
+    "yellow-crop-tops"
+  ],
+  "image_type": "ugc-two-person-lifestyle-portrait",
+  "image_vibe": "bright-friendly-tropical",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/public-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic candid portrait of two original approved adult women in a bright modern kitchen, preserving the yellow crop tops, black bottoms and tropical window view.",
+    "main_subject": "Two original approved adult women with long dark-brown hair, natural skin texture and relaxed confident expressions. The left woman wears a plain yellow short-sleeve crop top and black string-style bottoms with a small tattoo on her left forearm. The right woman wears a yellow crop top with green ringer trim and black bottoms, leaning affectionately against her friend. Preserve natural feminine silhouettes without explicit measurements or body-part emphasis.",
+    "composition_elements": "Vertical 4:5 medium shot from mid-thigh upward. Place the left adult woman facing camera and lightly leaning on a black marble countertop; the right adult woman rests her head and arm against the left woman's shoulder while turning slightly toward camera. Frame both with a large black-framed window, tropical foliage, white shaker cabinets, a tissue box and bright kitchen surfaces.",
+    "lighting_and_atmosphere": "Strong bright natural daylight streams through the window, creating clear soft-edged highlights and realistic interior shadows. Keep the mood warm, candid, friendly and sunlit.",
+    "technical_specs": "4:5 vertical digital photograph, sharp focus on both faces and clothing texture, natural colors, realistic skin and hair detail, moderate background depth and no artificial smoothing.",
+    "generated_prompt_string": "Create a photorealistic candid portrait of two original approved adult women with long dark-brown hair, natural skin texture and relaxed confident expressions in a bright modern kitchen. The left woman wears a plain yellow short-sleeve crop top and black string-style bottoms with a small tattoo on her left forearm. The right woman wears a yellow crop top with green ringer trim and black bottoms, leaning affectionately against her friend. Use a vertical 4:5 medium shot from mid-thigh upward; the left woman faces camera and lightly leans on a black marble countertop while the right woman rests her head and arm against her shoulder and turns slightly toward camera. Frame them with a large black-framed window, tropical foliage, white shaker cabinets and a tissue box. Use strong bright natural daylight, realistic interior shadows, natural colors and detailed skin, hair and fabric texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, body-part emphasis, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, duplicated person, invented logos, unreadable text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "sunny-kitchen-hourglass-beauties.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for both original approved-adult faces, hair, expressions, tattoos and likeness; preserve each identity while allowing approved-adult replacements."
+        },
+        {
+          "type": "wardrobe",
+          "name": "yellow crop tops with plain and green-ringer details plus black bottoms",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve each top's color and trim, bottoms and visible tattoo; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "black marble kitchen, window, tropical foliage, cabinets and tissue box",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve kitchen layout, window framing, foliage, countertop, cabinets and prop placement; individual environmental elements may be replaced while retaining daylight composition."
+        }
+      ],
+      "prompt_instructions": "Attach the required two-person, wardrobe and location references. Keep each adult's identity, face, hair, outfit, tattoo and relationship/pose consistent; preserve the kitchen, window, environment and daylight. People, outfits and environment may be replaced independently only with explicit references. No logo or typography is required; keep any tissue-box marking indistinct."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to two original approved adults.",
+      "Removed exaggerated body measurements and sexualized wording while preserving the two-person pose, outfits and kitchen concept.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

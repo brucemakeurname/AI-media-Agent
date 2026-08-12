@@ -1,0 +1,22 @@
+{
+  "name": "floating-floral-haute-couture",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "floral-couture", "petals"],
+  "image_type": "floral haute couture studio portrait",
+  "image_vibe": "dreamy, ethereal, romantic, luminous",
+  "image_purpose": "couture lookbook and editorial campaign",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic full-body dream couture portrait of one approved adult woman in a gown formed from floating flower petals in a softly lit studio.",
+    "main_subject": "Approved adult woman with dark wavy shoulder-length hair, peaceful smile, natural skin texture, and a floral haute couture gown constructed from layered pastel petals, blossoms, leaves, and airy floating floral elements. Nude-toned pointed heels are visible beneath the gown.",
+    "composition_elements": ["Full-body subject centered in a gentle mid-step pose with arms slightly open.", "Petal-gown train flows diagonally toward the floor and loose petals orbit through the air.", "Soft light-gray studio background with warm circular light bokeh and scattered petals on the floor.", "Keep floral material, face, gown silhouette, shoes, and motion readable."],
+    "lighting_and_atmosphere": "Soft diffused studio light with luminous pastel highlights, gentle shadows, airy atmosphere, and controlled warm bokeh without haze obscuring the subject.",
+    "technical_specs": "Photorealistic 4:5 full-body portrait, 85mm lens at f/4, realistic flowers, petals, leaves, skin, fabric, and floor texture, subtle natural grain, sharp face, no text or watermark.",
+    "generated_prompt_string": "Dream couture portrait of one approved adult woman with dark wavy shoulder-length hair and a peaceful smile, wearing a full-length haute couture gown constructed from layered pastel flower petals, blossoms and leaves. She stands mid-step with gentle movement and arms slightly open, nude-toned pointed heels visible beneath the flowing floral train. Loose petals orbit through the air and scatter across the floor. Use a softly lit light-gray studio, luminous pastel highlights, warm circular bokeh, airy controlled atmosphere, 85mm lens, 4:5 full-body composition, realistic floral materials and natural skin texture, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "melted flowers", "distorted anatomy", "extra fingers", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "floating-floral-haute-couture.jpg", "required": true, "source": "local reference image", "usage": "Attach for adult identity, face, hair, expression, pose, and styling reference."}, {"type": "wardrobe", "name": "pastel floral petal haute couture gown", "required": true, "source": "local reference image", "usage": "Preserve floral construction, pastel palette, flowing train, and shoes."}, {"type": "location", "name": "soft light-gray studio with warm bokeh", "required": true, "source": "local reference image", "usage": "Preserve background, floor petals, light, and atmosphere."}],
+      "prompt_instructions": "Attach all required person, wardrobe, and location references; no optional assets are needed. Keep identity, face, gown, petals, pose, shoes, environment, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent floral wardrobe, or equivalent studio. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

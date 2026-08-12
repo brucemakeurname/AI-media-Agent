@@ -1,0 +1,75 @@
+{
+  "name": "vintage-flash-billie-city-night",
+  "tag": [
+    "late-90s-flash",
+    "burgundy-dress",
+    "city-night",
+    "sofa-portrait",
+    "film-editorial"
+  ],
+  "image_type": "vintage-flash-fashion-portrait",
+  "image_vibe": "dreamy-grainy-nightlife",
+  "image_purpose": "editorial",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Late-1990s flash portrait in a high-rise apartment at night",
+      "color_palette": "dark burgundy, light gray sofa, white pillow, charcoal interior, silver jewelry, and blue-black city lights",
+      "creative_direction": "dreamy grainy direct-flash editorial with serious modern mood"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult woman with very long medium-brown hair pulled into a loose bun with strands framing the face, full brows, winged eyeliner, light pink lipstick, fair natural complexion, and serious direct gaze",
+      "wardrobe": "short opaque burgundy strapless dress with corset-inspired textured-lace bodice and textured-lace skirt",
+      "accessories": "small silver dangling earrings"
+    },
+    "composition_elements": {
+      "framing": "3:4 vertical close-up at eye level",
+      "subject_position": "adult woman seated on a light-gray sofa, right hand resting naturally on the midsection and left arm along the sofa back",
+      "background": "high-rise apartment at night with large windows, illuminated city skyline, light-gray sofa, and white pillow on the right"
+    },
+    "lighting_and_atmosphere": {
+      "type": "direct on-camera flash at approximately 5000K with city ambient fill",
+      "effect": "crisp highlights on skin, dress texture, jewelry, and hair, soft city bokeh, high-contrast yet gentle vintage mood"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 50mm lens, late-1990s flash photography aesthetic",
+      "resolution": "4k vertical 3:4 portrait",
+      "finish": "visible film grain, soft yet high contrast, muted highlights, natural skin texture, subtle lens bloom"
+    },
+    "generated_prompt_string": "A late-1990s or year-2000-inspired dreamy grainy flash photograph of a clearly adult woman in a high-rise apartment at night. She has very long medium-brown hair pulled into a loose bun with a few strands framing her face, full brows, winged eyeliner, light pink lipstick, fair natural complexion, and a serious direct gaze. She wears a short opaque burgundy strapless dress with a corset-inspired textured-lace bodice and textured-lace skirt, plus small silver dangling earrings. Frame her in a 3:4 close-up at eye level while seated on a light-gray sofa, with her right hand resting naturally on the midsection and left arm along the sofa back. Show large windows with numerous city lights at night and a white pillow on the right. Use direct on-camera flash with city ambient fill, crisp highlights on skin, dress texture, jewelry, and hair, visible film grain, soft yet high contrast, muted highlights, natural skin texture, and subtle lens bloom. Use an approved generic adult model rather than a public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, celebrity likeness, public-figure identity, transparent dress, visible intimate areas, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-vintage-flash-model",
+          "required": true,
+          "source": "Original city-night flash preview image",
+          "usage": "Attach an approved adult face reference for continuity; preserve facial structure without the source's named public-figure identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "opaque-burgundy-lace-dress-and-silver-earrings",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the opaque burgundy strapless dress, lace texture, bun styling, and silver earrings; retain the outfit as non-explicit fashion."
+        },
+        {
+          "type": "location",
+          "name": "high-rise-city-night-sofa",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the light-gray sofa, white pillow, large windows, city skyline, and direct-flash atmosphere; apartment details may be replaced."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person, wardrobe, and apartment references. Keep the adult identity, opaque burgundy dress, seated pose, city-night windows, direct flash, and late-90s grain consistent. Replace the public figure with an approved adult; the apartment and city view are replaceable while the outfit remains fixed and non-explicit."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public figure and sensual wording with an approved clearly adult generic model and serious fashion-editorial direction while preserving the opaque burgundy dress and flash composition."
+    ]
+  }
+}

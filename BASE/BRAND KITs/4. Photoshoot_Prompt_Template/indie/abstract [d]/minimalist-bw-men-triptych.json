@@ -1,0 +1,65 @@
+{
+  "name": "minimalist-bw-men-triptych",
+  "tag": [
+    "adult-man",
+    "triptych",
+    "black-and-white",
+    "athletic-top",
+    "studio-portrait",
+    "minimal"
+  ],
+  "image_type": "minimalist-portrait-triptych",
+  "image_vibe": "clean-confident-monochrome",
+  "image_purpose": "editorial",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Specified a generic adult man rather than a recognizable real-person likeness shown in the preview."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "ultra-clean black-and-white three-panel male portrait series",
+      "color_palette": "black, white, soft gray",
+      "format": "vertical triptych 2:3"
+    },
+    "main_subject": {
+      "type": "adult man",
+      "detail": "A generic adult man with short neatly styled dark hair, wearing an unbranded black athletic crew-neck top with narrow light shoulder stripes.",
+      "style": "premium minimalist studio editorial, not a real-person likeness"
+    },
+    "composition_elements": {
+      "text": "No rendered text, logos, or branding.",
+      "items": [
+        "three vertically stacked panels with thin white separators",
+        "top: centered downward gaze",
+        "middle: symmetrical frontal portrait",
+        "bottom: three-quarter semi-profile with restrained expression",
+        "seamless neutral-white studio background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "diffused softbox key at approximately 5000K, subtle fill, delicate rim light",
+      "effect": "even monochrome tonality, controlled highlights, quiet confidence"
+    },
+    "technical_specs": {
+      "render_style": "full-frame mirrorless camera, 85mm prime at f/1.4, natural skin texture, fine monochrome grain",
+      "resolution": "high resolution vertical triptych, 2:3"
+    },
+    "generated_prompt_string": "Create an ultra-clean, minimalist, high-fashion editorial portrait series of a generic adult man, not a recognizable real-person likeness. Arrange three cinematic frames vertically with generous negative space, precise alignment, thin white separators, and a seamless neutral-white studio backdrop. Top frame: centered downward gaze with relaxed shoulders. Middle frame: crisp symmetrical frontal portrait with balanced facial alignment. Bottom frame: three-quarter semi-profile with a restrained confident expression. He wears an unbranded black athletic crew-neck top with narrow light shoulder stripes. Use soft diffused key light, subtle fill, and a delicate rim light. Shoot on a high-end full-frame mirrorless camera with an 85mm f/1.4 lens, natural skin texture, a refined black-and-white tonal curve, and premium editorial polish. No logo or text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, celebrity, public figure, recognizable real-person likeness, logo, brand mark, text, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "unbranded-black-athletic-top-reference",
+          "required": false,
+          "source": "Attach a wardrobe reference if the exact top silhouette and stripe placement matter.",
+          "usage": "Keep it unbranded; the garment may be replaced."
+        }
+      ],
+      "prompt_instructions": "No person reference is required. Keep a generic adult subject, the three-panel layout, unbranded athletic top, and monochrome studio treatment. Do not use a recognizable public figure or logo."
+    }
+  }
+}

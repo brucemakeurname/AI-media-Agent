@@ -1,0 +1,27 @@
+{
+  "name": "dynamic-phone-interaction-grid",
+  "tag": ["ugc", "phone-interaction", "2x2-grid", "dynamic-candid", "social-template"],
+  "image_type": "social-media-contact-sheet",
+  "image_vibe": "playful-dynamic-authentic",
+  "image_purpose": "story-reel-cover",
+  "group": "viral-trending",
+  "prompt": {
+    "project_info": "Create a 2x2 dynamic social-media photo grid showing one consistent adult subject interacting naturally with a phone in a coastal setting.",
+    "main_subject": "The same adult woman across all panels, preserving her face, hairstyle, outfit, and natural bright smile. She holds one phone naturally in each panel; the screen may show a supplied second reference image without distortion or added UI.",
+    "composition_elements": "Four-panel 2x2 grid: walking side by side, looking at the phone in a close natural pose, gently extending the phone toward camera with wide-angle perspective, and a lively jump-frame. Preserve the same person, environment style, and outfit across panels; use expressive hands and natural motion.",
+    "lighting_and_atmosphere": "Consistent natural coastal daylight and environment styling from the reference, with authentic candid motion and cheerful social-media energy.",
+    "technical_specs": "2x2 contact sheet, photorealistic candid photography, wide-angle effect only where specified, natural perspective, sharp face and hands, no new characters, no costume or location-type changes, no UI overlay.",
+    "generated_prompt_string": "Create a photorealistic 2x2 social-media photo grid using the same adult woman, same face, hairstyle, outfit, and coastal environment style across all panels. She holds one phone naturally in each panel and the screen uses the supplied second reference image as content, fitted without distortion and with no interface overlay. Panel 1: walking with soft motion and expressive hands. Panel 2: looking at the phone in a natural close pose. Panel 3: gently extending the phone toward the lens with a soft wide-angle perspective. Panel 4: lively jump-frame with expressive hands and natural motion. Keep lighting consistent, add no new characters, do not change costume or location type, and preserve identity continuity.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, identity drift, extra phones, unreadable screen artifacts, distorted screen content, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, extra limbs, extra fingers, deformed, unwanted UI, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "consistent adult phone subject", "required": true, "source": "matching local preview image", "usage": "Preserve face, hairstyle, outfit, adult identity, and natural smile across all four panels."},
+        {"type": "product", "name": "phone device", "required": true, "source": "matching local preview image", "usage": "Keep one naturally held phone per subject and preserve believable scale and screen angle."},
+        {"type": "graphic", "name": "screen-content reference", "required": false, "source": "optional supplied second reference image", "usage": "Replace the phone screen content without distortion or UI; preserve screen legibility and perspective when attached."},
+        {"type": "location", "name": "coastal reference environment", "required": true, "source": "matching local preview image", "usage": "Preserve environment style, lighting, and location type across all panels; replaceable only with an equivalent setting."}
+      ],
+      "prompt_instructions": "Attach the matching first preview to lock identity, outfit, environment, and grid continuity. Attach the optional screen reference only when replacement content is required. Keep one phone per subject, preserve identity and lighting, and vary only poses/perspectives as specified; do not invent UI, logos, text, or extra people."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

@@ -1,0 +1,78 @@
+{
+  "name": "ysl-beauty-tien-bo-opening-week-libre-hanoi-offer",
+  "tag": [
+    "ysl",
+    "store-opening",
+    "libre",
+    "hanoi",
+    "special-offer"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "ysl_1380867337411307",
+  "prompt": {
+    "project_info": {
+      "theme": "Opening-week retail promotion for YSL Beauty Tien Bo",
+      "color_palette": "White marble, black, gold, champagne beige"
+    },
+    "main_subject": {
+      "type": "Location",
+      "detail": "A front-facing render-style image of the YSL Beauty Tiến Bộ boutique kiosk with white marble walls, a black curved fascia, bright display counters, and large product visuals inside the store. Top text reads 'TUẦN LỄ KHAI TRƯƠNG' and 'YSL BEAUTY TIẾN BỘ'. Bottom sections include the location '175 NGUYỄN THÁI HỌC, BA ĐÌNH, HÀ NỘI', a Libre perfume bottle with 'TRẢI NGHIỆM NGAY LIBRE BÙNG NỔ TỰ DO TRONG TỪNG NỐT HƯƠNG', and a gold footer saying 'QUÀ TẶNG GIÁ TRỊ CHO 10 ĐƠN HÀNG ĐẦU TIÊN 13/02 - 15/02'.",
+      "style": "Luxury retail architectural promo, polished storefront visualization, high-end marble-and-black beauty branding"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "TUẦN LỄ KHAI TRƯƠNG, YSL BEAUTY TIẾN BỘ, 175 NGUYỄN THÁI HỌC, BA ĐÌNH, HÀ NỘI, TRẢI NGHIỆM NGAY, LIBRE, BÙNG NỔ TỰ DO TRONG TỪNG NỐT HƯƠNG, QUÀ TẶNG GIÁ TRỊ CHO 10 ĐƠN HÀNG ĐẦU TIÊN 13/02 - 15/02",
+      "items": [
+        "Top Left: Opening-week label 'TUẦN LỄ KHAI TRƯƠNG' above large black headline text",
+        "Top Right: Vertical YSL BEAUTE logo in black",
+        "Bottom Left: Location pin icon, Hanoi address text, and a small Libre perfume bottle product insert",
+        "Bottom Right: Gift icons and a gold footer strip promoting the first 10 orders between 13/02 - 15/02",
+        "Center/Background: Front view of the YSL Beauty Tiến Bộ store kiosk with marble walls, black fascia, central display stand, and illuminated product posters"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright luxury retail lighting",
+      "effect": "Clean showroom illumination, glossy marble reflections, crisp signage visibility, premium architectural clarity"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal retail-architecture advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury retail-opening poster for YSL. Centerpiece is a photoreal front-facing YSL Beauty Tiến Bộ boutique kiosk with white marble walls, a black curved fascia, bright counters, and internal beauty posters. Include the exact text 'TUẦN LỄ KHAI TRƯƠNG', 'YSL BEAUTY TIẾN BỘ', '175 NGUYỄN THÁI HỌC, BA ĐÌNH, HÀ NỘI', 'TRẢI NGHIỆM NGAY', 'LIBRE', 'BÙNG NỔ TỰ DO TRONG TỪNG NỐT HƯƠNG', and 'QUÀ TẶNG GIÁ TRỊ CHO 10 ĐƠN HÀNG ĐẦU TIÊN 13/02 - 15/02'. Add a small Libre bottle insert near the lower-left and gift icons near the lower-right. Background is a white marble field integrated with the storefront. Technical style: photoreal retail-architecture advertising composite, bright luxury retail lighting, glossy marble reflections and crisp signage visibility, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "location",
+          "name": "YSL Beauty Tiến Bộ storefront reference",
+          "required": true,
+          "source": "original store visual reference",
+          "usage": "Preserve the kiosk architecture, black fascia curve, marble cladding, and poster placements"
+        },
+        {
+          "type": "product",
+          "name": "YSL Libre perfume bottle",
+          "required": true,
+          "source": "real product reference required",
+          "usage": "Match the small bottle insert near the lower-left offer block"
+        },
+        {
+          "type": "logo",
+          "name": "YSL BEAUTE logo",
+          "required": true,
+          "source": "official brand logo reference",
+          "usage": "Keep the vertical right-side logo and storefront branding accurate"
+        },
+        {
+          "type": "text_layout",
+          "name": "Retail promotion poster layout",
+          "required": true,
+          "source": "original poster layout",
+          "usage": "Preserve the stacked headline, address block, Libre callout, and gold bottom footer hierarchy"
+        }
+      ],
+      "prompt_instructions": "Treat '13/02 - 15/02' as visible artwork text with no explicit year shown; do not add a year into the image. The store kiosk must remain the dominant subject, with the Libre bottle as a supporting promotional insert."
+    }
+  }
+}

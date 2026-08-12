@@ -1,0 +1,58 @@
+{
+  "name": "playful-summer-girl-overhead-view",
+  "tag": [
+    "ugc",
+    "baddie",
+    "private-indoor",
+    "summer-playful",
+    "overhead-portrait",
+    "orange-halter-swimsuit"
+  ],
+  "image_type": "ugc-overhead-expression-portrait",
+  "image_vibe": "warm-playful-candid",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic playful overhead social-media portrait with dark braided hair, an orange halter swimsuit top and light-green bedding.",
+    "main_subject": "One original approved adult woman with fair natural skin, visible freckles and flushed cheeks, dark wavy hair arranged in loose braids around her head, one eye open and the other winking. She wears an orange halter swimsuit top with black embroidered zig-zag trim, small diamond hoops and a delicate gold chain with a small dark charm.",
+    "composition_elements": "Use a 2:3 overhead bird's-eye frame centered on the adult subject's face and upper torso as she lies on her back. Keep a broad toothy smile with tongue extended and a playful wrinkled-nose expression. Fill the background with a light-green textured pillow and blanket.",
+    "lighting_and_atmosphere": "Soft natural indoor light creates even highlights on freckles, dark hair, orange fabric and green bedding with gentle realistic shadows. Keep the mood cheerful, friendly and candid.",
+    "technical_specs": "2:3 vertical overhead smartphone framing, sharp facial focus, realistic braid and textile detail, natural skin texture, warm restrained color and moderate contrast.",
+    "generated_prompt_string": "Create a photorealistic playful overhead social-media portrait of one original approved adult woman with fair natural skin, visible freckles and flushed cheeks, dark wavy hair arranged in loose braids around her head, one eye open and the other winking. She wears an orange halter swimsuit top with black embroidered zig-zag trim, small diamond hoops and a delicate gold chain with a small dark charm. Use a 2:3 overhead bird's-eye frame centered on her face and upper torso as she lies on her back, with a broad toothy smile, tongue extended and a playful wrinkled-nose expression. Fill the background with a light-green textured pillow and blanket. Use soft natural indoor light, realistic braid and textile detail, natural skin texture, warm restrained color and moderate contrast.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, body-part emphasis, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, wardrobe malfunction, unreadable text or logos",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "playful-summer-girl-overhead-view.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, dark hair, braids, expression and likeness; preserve facial structure while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "orange halter swimsuit top with black zig-zag trim and jewelry",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve orange color, halter straps, black trim, diamond hoops and chain; replace only with an explicitly supplied wardrobe reference."
+        },
+        {
+          "type": "background",
+          "name": "light-green textured pillow and blanket",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve green textile color, texture and overhead environment; replace individual bedding elements only with explicit references."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and background references. Keep identity, face, freckles, hair arrangement, expression, outfit trim, jewelry and green textile palette consistent. The approved adult, wardrobe and environment may be replaced separately with explicit references, but retain the same overhead framing and playful mood. No logo or typography is required; keep garment trim non-textual."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous age wording to original approved adult.",
+      "Removed body-emphasis wording while preserving dark braided hair, orange halter styling and overhead expression.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "vfe-stylisme-et-creation-ifa-paris-visa-proof",
+  "tag": [
+    "vfe",
+    "visa-proof",
+    "ifa-paris",
+    "student-success",
+    "testimonials"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Testimonials",
+  "group": "vfe_1531009354530148",
+  "prompt": {
+    "project_info": {
+      "theme": "Proof-of-visa success for an MBA fashion and creation student in Paris",
+      "color_palette": "Soft Gray, Cream, Red, Navy Blue, Green Security Ink"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A proof-style social poster centered on a close-up France student visa image, partially anonymized, with a cartoon duck sticker covering the portrait area and a bold red caption announcing a successful MBA freshman in Stylisme et Création at IFA Paris.",
+      "style": "Document-proof testimonial post with privacy-masked identity, authentic visa texture, and simple celebratory text layout."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nEU VISA\nFRANCE/FRANCE/FRANCE\nFRA\nMULT\n13-07-26\nETUDIANT\n1995 TÂN SINH VIÊN MBA\nSTYLISME ET CREATION - IFA PARIS",
+      "items": [
+        "Top Left: VFE logo in a rounded white corner label.",
+        "Top Right: Close-up visa card area with visible words FRA, MULT, and date 13-07-26, plus a blue stamp on the right.",
+        "Bottom Left: Large red headline beginning with '1995 TÂN SINH VIÊN MBA'.",
+        "Bottom Right: Continuation of the red headline 'STYLISME ET CREATION - IFA PARIS'.",
+        "Center/Background: Real French visa document with blurred personal data and a yellow duck sticker masking the portrait."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat documentary proof-post lighting",
+      "effect": "Authentic document texture, soft privacy blur, and clean text emphasis below the visa image."
+    },
+    "technical_specs": {
+      "render_style": "Document-proof testimonial poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality testimonial-style proof poster for a France student visa success. Centerpiece is a close-up French student visa image with personal details blurred and the face area covered by a cartoon duck sticker. Background is the authentic visa paper texture itself. Surrounding elements: VFE logo, visible visa labels 'FRA', 'MULT', date '13-07-26', and bold red success caption '1995 TÂN SINH VIÊN MBA STYLISME ET CREATION - IFA PARIS'. Technical style: document-proof testimonial poster, documentary realism with privacy masking, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place at the top left."
+        },
+        {
+          "type": "ui_reference",
+          "name": "French visa document close-up",
+          "required": true,
+          "source": "current creative source image",
+          "usage": "Use to preserve the real visa layout, security textures, and anonymization style."
+        },
+        {
+          "type": "graphic",
+          "name": "Yellow duck sticker privacy cover",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep over the portrait area as a playful privacy mask."
+        },
+        {
+          "type": "text_layout",
+          "name": "Visa-proof success caption layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve the two-line red success statement below the document."
+        }
+      ],
+      "prompt_instructions": "The visa date '13-07-26' is in the past relative to Friday, July 17, 2026, so preserve it as a recent successful issuance date. Keep the anonymity masking and document realism intact."
+    }
+  }
+}

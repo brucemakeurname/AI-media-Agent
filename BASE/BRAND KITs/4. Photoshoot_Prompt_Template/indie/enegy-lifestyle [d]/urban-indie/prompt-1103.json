@@ -1,0 +1,66 @@
+{
+  "name": "Concrete Stairwell Grunge Portrait",
+  "tag": "concrete-stairwell-grunge",
+  "image_type": "urban_streetwear_portrait",
+  "image_vibe": "overcast_90s_grunge",
+  "image_purpose": "streetwear_editorial",
+  "group": "indie/enegy-lifestyle/urban-indie",
+  "prompt": {
+    "project_info": {
+      "title": "Concrete Stairwell Grunge Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with long straight light-brown hair, a neutral poised expression, and understated red lipstick.",
+      "wardrobe": "An oversized gray-and-beige plaid flannel overshirt, plain black crew-neck T-shirt, loose dark trousers, chunky plain white sneakers, and a simple silver chain.",
+      "pose_and_expression": "Seated casually but securely on broad outdoor concrete steps, one knee bent and both hands resting naturally near the shin."
+    },
+    "composition_elements": {
+      "setting": "Weathered urban concrete stairs with a tall neutral apartment block, a grid of blank windows, and no visible address signs.",
+      "framing": "Low-angle vertical portrait that uses the building height as a soft background structure.",
+      "text_and_brand_control": "Sunglasses, clothes, shoes, building surfaces, and windows carry no logos, unit numbers, signs, or readable text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft diffuse overcast daylight with even illumination and no harsh shadows.",
+      "mood": "Moody, grounded, 1990s grunge-inspired, and understated."
+    },
+    "technical_specs": {
+      "camera_style": "cinematic streetwear photograph",
+      "lens": "35mm equivalent",
+      "rendering": "Sharp subject, subtly softened background, realistic fabric, natural skin, accurate hands, and restrained cool color grade."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical cinematic streetwear portrait of an adult woman with long straight light-brown hair, neutral poised expression, and understated red lipstick. She wears an oversized gray-and-beige plaid flannel overshirt over a plain black crew-neck T-shirt, loose dark trousers, chunky plain white sneakers, round plain dark sunglasses, and a simple silver chain. Seat her casually but securely on broad weathered outdoor concrete steps, with one knee bent and both hands naturally near the shin. Use a tall neutral apartment block with a grid of blank windows as background structure. Shoot from a low angle under soft diffuse overcast daylight, with a sharp subject, softened backdrop, realistic fabric, natural skin, accurate hands, and restrained cool color. Do not show logos, unit numbers, addresses, signs, or readable text.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, lingerie, fetish styling, unsafe stair pose, logo, readable text, address, watermark, distorted hands, extra fingers, plastic skin, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity references must depict a consenting adult. Wardrobe and architecture references are replaceable guides only; remove logos, private building details, and readable markings.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general adult face and hair traits only."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "nineties_grunge_layering_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide flannel, trousers, sneaker, and sunglass silhouettes without marks."
+        },
+        {
+          "type": "environment_reference",
+          "name": "concrete_stairwell_reference",
+          "required": false,
+          "source": "user-provided architecture reference",
+          "usage": "Guide concrete texture and building scale after removing all address and window signage."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adult subject, retained covered streetwear, and prohibited logos, text, location identifiers, and sexualized styling."
+  }
+}

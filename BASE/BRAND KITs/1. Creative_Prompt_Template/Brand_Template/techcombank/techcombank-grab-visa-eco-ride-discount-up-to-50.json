@@ -1,0 +1,77 @@
+{
+  "name": "techcombank-grab-visa-eco-ride-discount-up-to-50",
+  "tag": [
+    "grab",
+    "visa-eco",
+    "ride-discount",
+    "co-brand"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Special offers",
+  "group": "techcombank_1761039451611165",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank Visa Eco x Grab transportation discount offer",
+      "color_palette": "Light blue, white, black, bright red, Grab green, eco green"
+    },
+    "main_subject": {
+      "type": "Person/Object/Text",
+      "detail": "A co-branded discount poster with a smiling GrabBike driver in green uniform and helmet seated on a black motorbike, while a young woman passenger in white top and beige skirt sits behind him and stretches a Techcombank Visa Eco card toward the viewer. The headline reads 'Tang ban toi 50% khi su dung the thanh toan Techcombank Visa Eco'. Two large coupon boxes say 'GrabBike Giam 8K cho chuyen di tu 15K' and 'GrabCarEV Giam 15K cho chuyen di tu 30K'. A green GrabCar is shown on the road in the background. Bottom-left footnote reads '(*) Ap dung cac diem di va diem den tai Metro va ban kinh xung quanh trong pham vi 100m'.",
+      "style": "Clean lifestyle-promotion composite with real people, transport branding, and soft futuristic road backdrop"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "Grab / TECHCOMBANK / Tang ban toi 50% / khi su dung the thanh toan Techcombank Visa Eco / GrabBike / Giam 8K / cho chuyen di tu 15K / GrabCarEV / Giam 15K / cho chuyen di tu 30K / (*) Ap dung cac diem di va diem den tai Metro va ban kinh xung quanh trong pham vi 100m",
+      "items": [
+        "Top Left: Grab logo on pale blue background",
+        "Top Right: Techcombank wordmark and red diamond logo",
+        "Bottom Left: Legal footnote over the road edge and light trails",
+        "Bottom Right: GrabCar vehicle driving along the road",
+        "Center/Background: GrabBike rider and female passenger on black scooter with the passenger extending a green Techcombank Visa Eco card toward camera beneath two white discount coupon panels"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright lifestyle commercial lighting",
+      "effect": "Soft daylight, subtle speed-light trails around the scooter, clean skin retouching, airy mobility-campaign atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal promotional compositing for co-branded transport advertising",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank Visa Eco and Grab transportation discount campaign. Centerpiece is a smiling GrabBike driver in green uniform riding a black scooter with a young woman passenger behind him, while she holds a green Techcombank Visa Eco card toward the viewer. Background is a soft futuristic road scene with a city skyline and a green GrabCar on the right. Surrounding elements: Grab logo, Techcombank logo, exact headline 'Tang ban toi 50% khi su dung the thanh toan Techcombank Visa Eco', two coupon boxes reading 'GrabBike Giam 8K cho chuyen di tu 15K' and 'GrabCarEV Giam 15K cho chuyen di tu 30K', and the exact footnote '(*) Ap dung cac diem di va diem den tai Metro va ban kinh xung quanh trong pham vi 100m'. Technical style: photoreal promotional compositing for co-branded transport advertising, bright lifestyle commercial lighting, subtle speed-light trails and airy mobility-campaign atmosphere, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Grab driver and passenger talent references",
+          "required": true,
+          "source": "source photo or this creative",
+          "usage": "Keep facial identity, clothing, pose, and card-presenting gesture"
+        },
+        {
+          "type": "product",
+          "name": "Techcombank Visa Eco card, GrabBike scooter, GrabCarEV vehicle",
+          "required": true,
+          "source": "official brand and vehicle references",
+          "usage": "Preserve the green card art, transport styling, and co-brand details"
+        },
+        {
+          "type": "logo",
+          "name": "Grab and Techcombank logos",
+          "required": true,
+          "source": "official assets",
+          "usage": "Maintain the co-brand header structure and partner recognition"
+        },
+        {
+          "type": "text_layout",
+          "name": "Transport discount poster composition",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the two coupon cards above the riders, the card-in-hand perspective, and the background car placement"
+        }
+      ],
+      "prompt_instructions": "The passenger must present the Techcombank Visa Eco card toward the camera in the foreground. Keep all discount text and the Metro footnote exactly as visible; this is a precise promotional layout rather than a generic Grab scene."
+    }
+  }
+}

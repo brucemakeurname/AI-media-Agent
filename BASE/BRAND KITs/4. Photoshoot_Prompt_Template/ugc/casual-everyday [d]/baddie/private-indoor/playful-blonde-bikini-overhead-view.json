@@ -1,0 +1,58 @@
+{
+  "name": "playful-blonde-bikini-overhead-view",
+  "tag": [
+    "ugc",
+    "baddie",
+    "private-indoor",
+    "playful-expression",
+    "overhead-selfie",
+    "white-halter-bikini"
+  ],
+  "image_type": "ugc-playful-overhead-portrait",
+  "image_vibe": "bright-playful-candid",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic playful overhead social-media portrait with a white halter bikini top, blue bedding and an expressive wink-and-smile.",
+    "main_subject": "One original approved adult woman with fair natural skin, subtle freckles and flushed cheeks, wavy light-brown to blonde hair spread around her head, one brown eye open and the other winking. She wears a white halter bikini top with black embroidered zig-zag trim, small gold hoops and a delicate gold chain with a small dark charm.",
+    "composition_elements": "Use a 2:3 overhead bird's-eye view of the adult subject lying on her back, centered from head through upper torso. Keep her tongue out with a broad toothy smile, hair spread over the pillow and blue textured pillow and blanket filling the background.",
+    "lighting_and_atmosphere": "Soft natural indoor light evenly illuminates the face, freckles, hair and white fabric with gentle realistic shadows. Keep the feeling cheerful, candid and friendly.",
+    "technical_specs": "2:3 vertical overhead smartphone framing, sharp focus on facial expression and trim, realistic hair strands and textile weave, natural skin detail, moderate contrast and clean candid color.",
+    "generated_prompt_string": "Create a photorealistic playful overhead social-media portrait of one original approved adult woman with fair natural skin, subtle freckles and flushed cheeks, wavy light-brown to blonde hair spread around her head, one brown eye open and the other winking. She wears a white halter bikini top with black embroidered zig-zag trim, small gold hoops and a delicate gold chain with a small dark charm. Use a 2:3 overhead bird's-eye view as she lies on her back, centered from head through upper torso, with her tongue out and a broad toothy smile. Let her hair spread over a light-blue textured pillow and blanket. Use soft natural indoor light, realistic hair and textile weave, natural skin detail, moderate contrast and clean candid color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, body-part emphasis, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, unreadable text or logos",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "playful-blonde-bikini-overhead-view.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair, freckles, expression and likeness; preserve facial structure while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white halter bikini top with black zig-zag trim and gold jewelry",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the white fabric, trim, halter construction, earrings and necklace; replace only with an explicitly supplied wardrobe reference."
+        },
+        {
+          "type": "background",
+          "name": "light-blue textured pillow and blanket",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the blue textile color and weave; bedding may be replaced individually while retaining the same overhead palette and framing."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and background references. Keep identity, face, freckles, hair, expression, trim, jewelry and blue textile palette consistent. The approved adult, wardrobe and bedding can be replaced separately with explicit references, but retain the same overhead composition. No logo or typography is required; keep the trim non-textual."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous age wording to original approved adult.",
+      "Removed body-emphasis wording while preserving the overhead pose, white halter styling and playful expression.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

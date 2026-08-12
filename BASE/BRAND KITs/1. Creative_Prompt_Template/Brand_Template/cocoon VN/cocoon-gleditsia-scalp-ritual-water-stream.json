@@ -1,0 +1,65 @@
+{
+  "name": "cocoon-gleditsia-scalp-ritual-water-stream",
+  "tag": [
+    "scalp-care",
+    "gleditsia",
+    "water-stream",
+    "product-demo",
+    "ritual",
+    "close-up"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Product demos",
+  "group": "cocoon_1303016741988758",
+  "prompt": {
+    "project_info": {
+      "theme": "Wet ritual close-up for Gleditsia scalp scrub and tonic",
+      "color_palette": "Deep Plum, Warm Amber, Cream White, Black"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A close-up wet-beauty composition showing Cocoon Gleditsia scalp scrub tube and Gleditsia scalp tonic bottle beside a tall glass filled with pale foamy liquid, while a water stream falls from above onto the scrub tube.",
+      "style": "Premium ritual product photography, intimate bathroom-adjacent still life, wet glossy finish"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible product text includes 'Tẩy da chết da đầu bồ kết / Gleditsia scalp scrub' and 'Nước dưỡng da đầu bồ kết / Gleditsia scalp tonic'.",
+      "items": [
+        "Top Left: Gleditsia scalp scrub tube standing behind the glass, dotted with water droplets.",
+        "Top Right: Falling water stream and the pump head of the tonic bottle with a hanging droplet.",
+        "Bottom Left: Tall transparent glass filled with foamy creamy liquid catching reflections and bubbles.",
+        "Bottom Right: Amber tonic bottle with plum label in the foreground, slightly tilted inward.",
+        "Center/Background: Soft cream wall and golden side light creating a warm glossy ritual feel."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm directional studio light",
+      "effect": "Glossy wet reflections, golden edge highlights, intimate routine mood, rich translucent glass detail"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity commercial beauty still life photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a wet ritual close-up of Gleditsia scalp care. Centerpiece is a Cocoon Gleditsia scalp scrub tube and Gleditsia scalp tonic bottle arranged around a tall glass of pale foamy liquid while a stream of water falls onto the scrub tube. Background is a warm cream beauty backdrop. Surrounding elements: glossy water droplets, a tonic pump with a hanging droplet, translucent glass reflections, and readable plum product labels. Keep the close-up crop, wet ritual mood, and warm premium finish. Technical style: high fidelity commercial beauty still life photography, warm directional studio light, glossy wet reflections and golden edge highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Gleditsia scalp scrub tube and tonic bottle",
+          "required": true,
+          "source": "Attach the exact packshots or crops from the original image",
+          "usage": "Preserve plum label color, pump form, tube size, and bilingual product names."
+        },
+        {
+          "type": "background",
+          "name": "Foamy glass and warm wet ritual setup",
+          "required": true,
+          "source": "Use the original image as scene reference",
+          "usage": "Maintain the foamy beverage-like glass, water stream, and amber-lit minimal backdrop."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, attach the product refs and keep the exact close-up relationship between glass, scrub tube, tonic bottle, and falling water. Avoid adding extra props or widening the scene."
+    }
+  }
+}

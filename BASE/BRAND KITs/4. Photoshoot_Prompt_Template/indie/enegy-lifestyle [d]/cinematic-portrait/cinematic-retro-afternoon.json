@@ -1,0 +1,71 @@
+{
+  "name": "cinematic-retro-afternoon",
+  "tag": [
+    "overhead-portrait",
+    "retro-living-room",
+    "red-couch",
+    "vinyl-records",
+    "analog-nostalgia"
+  ],
+  "image_type": "lifestyle-editorial-portrait",
+  "image_vibe": "warm-retro-relaxed-cinematic",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/cinematic-portrait",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Made identity preservation mandatory and made brand, book-cover, record-label, and cigarette-pack graphics conditional on approved reference assets."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "warm cinematic overhead portrait in a messy retro living-room setup",
+      "color_palette": "rust red, tobacco brown, charcoal, amber, black vinyl, and warm wood",
+      "format": "vertical top-down full-body lifestyle portrait"
+    },
+    "main_subject": {
+      "type": "adult man from supplied reference image",
+      "detail": "Preserve the exact adult identity, facial features, age presentation, thick wavy hair, and overall appearance from the attached reference. He lies relaxed on a red couch in a dark checked shirt, brown trousers, sunglasses, and earphones connected to a smartphone on his chest.",
+      "style": "identity-preserving retro music-lifestyle editorial"
+    },
+    "composition_elements": {
+      "text": "No text, brand, label, or watermark unless supplied through an approved reference asset.",
+      "items": [
+        "top-down red couch composition with relaxed arm placement",
+        "unbranded dark glass bottle, generic paperback books, and plain cigarette-pack-shaped props nearby",
+        "vinyl records, compact cameras, audio cables, a vintage amplifier, and a smartphone",
+        "messy but intentional retro living-room floor styling"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "warm practical lamp light with soft overhead fill",
+      "effect": "nostalgic amber shadows, gentle film grain, intimate afternoon-listening mood"
+    },
+    "technical_specs": {
+      "camera": "Fujifilm GFX100 II",
+      "lens": "GF 32-64mm at 40mm, f/4",
+      "render_style": "top-down editorial photograph, tactile fabric and record detail, fine analog grain, controlled warm contrast"
+    },
+    "generated_prompt_string": "Using the attached adult identity reference as mandatory source, create a vertical top-down cinematic portrait of the same adult man lying relaxed on a red couch in a messy, stylish retro living-room setup. Preserve his exact identity, face, age presentation, thick wavy hair, and core features. Dress him in a dark checked shirt, brown trousers, sunglasses, and earphones connected to a smartphone resting on his chest. Surround the couch with vinyl records, compact cameras, audio cables, a vintage amplifier, generic paperback books, and an unbranded dark glass bottle. Use warm practical lamp light, soft overhead fill, tactile retro materials, fine analog grain, and nostalgic amber shadows. Render branding, labels, book titles, record sleeves, or packaging text only when their exact approved reference artwork is attached; otherwise keep all props unbranded. No watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, identity change, face swap, age alteration, public figure, celebrity likeness, minor, child, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra limbs, deformed, unapproved brand, unapproved text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-identity-reference",
+          "required": true,
+          "source": "Attach the original authorized adult non-public-figure portrait image.",
+          "usage": "Mandatory source for exact adult identity, face, hair, age presentation, and core features."
+        },
+        {
+          "type": "graphic",
+          "name": "approved-prop-artwork-reference",
+          "required": false,
+          "source": "Attach approved brand, book-cover, record-label, or packaging artwork if it must appear.",
+          "usage": "Use exact supplied artwork only on the matching prop; otherwise keep all prop graphics generic and unbranded."
+        }
+      ],
+      "prompt_instructions": "An authorized adult non-public-figure identity reference is mandatory. Preserve identity exactly. Graphic references are optional and must be attached for any readable labels, titles, brands, or packaging; do not invent them. Preserve the couch, overhead angle, retro props, and warm analog atmosphere."
+    }
+  }
+}

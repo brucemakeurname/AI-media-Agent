@@ -1,0 +1,70 @@
+{
+  "name": "toyota-vios-sturdy-every-journey-family-park",
+  "tag": [
+    "vios",
+    "family",
+    "durability",
+    "peace-of-mind"
+  ],
+  "biz_niche": "Automotive",
+  "content_format": "Brand story",
+  "group": "toyota_952540287798218",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Vios gives peace of mind on every family journey",
+      "color_palette": "Forest green, white, warm beige, black"
+    },
+    "main_subject": {
+      "type": "Person/Object/Text",
+      "detail": "A family-outdoor lifestyle poster with Toyota logo top left and a headline reading 'BEN TRONG VUNG AN TAM Moi hanh trinh DEU VUNG CHAI'. A white Toyota Vios sedan is parked on the roadside in a tree-filled park. On the left, a smiling father, mother, and young child play together on the grass beside the road. Bottom-right script says 'Move your world'.",
+      "style": "Warm family-oriented automotive poster with natural park scenery and a reassuring durability message"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / BEN TRONG VUNG AN TAM / Moi hanh trinh / DEU VUNG CHAI / Move your world",
+      "items": [
+        "Top Left: Toyota logo over a green park canopy",
+        "Top Right: Large mixed-style headline with handwritten 'Moi hanh trinh'",
+        "Bottom Left: Smiling family of three playing on the grass beside the curb",
+        "Bottom Right: White Toyota Vios on the road and handwritten 'Move your world'",
+        "Center/Background: Sunlit parkland and roadside scene with the Vios positioned as the calm family companion"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft natural daylight",
+      "effect": "Leaf-filtered sunlight, gentle road reflections, warm family-outing mood"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal family-lifestyle automotive composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Vios family-durability story. Centerpiece is a white Toyota Vios parked roadside beside a tree-filled park, while a mother, father, and child play together on the grass. Background is a bright green park under soft daylight. Surrounding elements: Toyota logo, exact headline 'BEN TRONG VUNG AN TAM Moi hanh trinh DEU VUNG CHAI', and footer script 'Move your world'. Technical style: photoreal family-lifestyle automotive composite, soft natural daylight, leaf-filtered sun and a warm family-outing mood, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "White Toyota Vios exterior reference",
+          "required": true,
+          "source": "official Vios render or source photo",
+          "usage": "Preserve the front-three-quarter angle, grille design, and wheel treatment"
+        },
+        {
+          "type": "person",
+          "name": "Family-of-three park moment reference",
+          "required": true,
+          "source": "source photo or this creative",
+          "usage": "Keep the exact father-mother-child grouping and playful body language"
+        },
+        {
+          "type": "text_layout",
+          "name": "Vios family-durability poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the family-left car-right balance and the large mixed-style top headline"
+        }
+      ],
+      "prompt_instructions": "The emotional cue comes from the family playing just off the road while the Vios anchors the scene. Keep the handwritten 'Moi hanh trinh' styling distinct from the bold headline."
+    }
+  }
+}

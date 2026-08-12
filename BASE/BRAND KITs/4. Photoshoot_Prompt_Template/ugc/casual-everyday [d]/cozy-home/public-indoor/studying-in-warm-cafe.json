@@ -1,0 +1,28 @@
+{
+  "name": "studying-in-warm-cafe",
+  "tag": ["ugc", "casual-everyday", "cozy-home", "public-indoor", "study-cafe"],
+  "image_type": "cafe study candid",
+  "image_vibe": "warm focused cozy productivity",
+  "image_purpose": "UGC-style study and productivity visual",
+  "group": "cozy-home/public-indoor",
+  "prompt": {
+    "project_info": "Create a realistic candid café study photograph using the attached approved-adult face reference.",
+    "main_subject": "The original approved adult woman from the attached reference sits at a wooden café table, leaning forward slightly while writing in an open workbook. She has a low messy ponytail with loose strands, thin metal-frame glasses, and wears an oversized light beige or off-white hoodie. Her head is tilted toward the notebook rather than the camera.",
+    "composition_elements": "Medium shot slightly above table level, one hand holding a pen and the other resting on papers, open notebooks with handwritten notes, printed study sheets, scattered pens, two minimalist takeaway coffee cups, wireless earbuds case, smartphone face-up, warm café counter, wooden furniture, hanging plants, and coffee equipment.",
+    "lighting_and_atmosphere": "Warm ambient pendant lighting with soft indoor shadows, calm focused study atmosphere, gentle background blur, natural café realism and quiet productivity.",
+    "technical_specs": "Realistic smartphone-photo feel, medium candid framing, slightly above table-level angle, shallow depth of field, natural texture, subtle grain, warm restrained color grade, no artificial HDR look.",
+    "generated_prompt_string": "Realistic candid café study photograph of the original approved adult woman from the attached face reference seated at a wooden table and leaning forward while writing in an open workbook. Preserve her face, facial structure, and identity. She wears an oversized light beige hoodie, thin metal-frame glasses, and a low messy ponytail with loose strands; her head is tilted toward the notebook. Open notebooks, study sheets, pens, two minimalist takeaway coffee cups, wireless earbuds case, and a face-up smartphone sit on the table. Warm pendant lights, wooden furniture, café counter, hanging plants, and soft background blur create a calm focused productivity scene.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, unreadable text, random logos, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved adult study subject face reference", "required": true, "source": "attached source image", "usage": "Preserve the approved adult face, facial structure, identity, glasses, and hair without celebrity or public-figure substitution."},
+        {"type": "environment", "name": "warm café study environment reference", "required": true, "source": "attached source image", "usage": "Match the café table, workbook, coffee cups, plants, pendant lights, and warm candid composition."}
+      ],
+      "prompt_instructions": "Attach the required adult face reference and café environment reference; they may be the same image. Preserve identity, outfit, study props, environment, lighting, and composition. Notebook text, logos, product packaging, typography, and decorative elements are replaceable editable placeholders."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Replaced exact-face wording with approved-adult identity-reference instructions.", "Clarified the subject as an adult while preserving the focused study concept.", "Added replaceable typography guidance and anti-slop exclusions."]
+  }
+}

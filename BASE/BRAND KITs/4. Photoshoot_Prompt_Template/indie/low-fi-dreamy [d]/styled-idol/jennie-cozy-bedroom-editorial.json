@@ -1,0 +1,75 @@
+{
+  "name": "jennie-cozy-bedroom-editorial",
+  "tag": [
+    "adult-woman",
+    "cozy-bedroom",
+    "crochet-halter",
+    "intimate-editorial",
+    "vertical-portrait"
+  ],
+  "image_type": "lifestyle-editorial-portrait",
+  "image_vibe": "cozy-chic, intimate, relaxed, softly elegant",
+  "image_purpose": "instagram-feed, editorial, moodboard",
+  "group": "indie / low-fi-dreamy / styled-idol",
+  "prompt": {
+    "project_info": {
+      "theme": "Cozy afternoon bedroom editorial",
+      "format": "vertical 1:2 portrait",
+      "color_palette": "warm beige, cream white, chocolate brown, soft peach"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult East Asian woman with soft yet defined facial features, warm natural skin, long voluminous chocolate-brown waves parted at the center, natural peach makeup, and a calm direct gaze. She sits on a bed and leans slightly back on one arm.",
+      "style": "luxury lifestyle editorial photography with visible natural skin texture"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "medium-close vertical framing focused on the face and upper body",
+        "white softly rumpled bed linens in the foreground",
+        "beige wall with two softly blurred minimalist framed artworks",
+        "white crochet halter top with a modestly lined interior, delicate open-knit texture, and center drawstring tie",
+        "small circular silver or white-gold pendant resting at the collarbone"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "large diffused window through a sheer curtain, approximately 4300K",
+      "effect": "soft even facial illumination, gentle shadow falloff, warm afternoon calm",
+      "atmosphere": "intimate, quiet, cozy at-home mood"
+    },
+    "technical_specs": {
+      "render_style": "Canon EOS R5, 85mm f/1.8 lens, shallow depth of field, subtle natural vignetting",
+      "resolution": "high-detail vertical editorial photograph",
+      "color_treatment": "slightly desaturated warm neutrals with natural skin-tone variation"
+    },
+    "generated_prompt_string": "A medium-close vertical luxury lifestyle editorial photograph of an adult East Asian woman with soft yet defined features, warm natural skin, long voluminous chocolate-brown waves parted at the center, natural peach makeup, and a calm direct gaze. She is seated on a bed, leaning slightly back on one arm, wearing a white crochet halter top with a modestly lined interior, delicate open-knit texture, and a center drawstring tie, plus a small circular silver or white-gold pendant resting at her collarbone. White linens are softly rumpled around her; behind her is a beige wall with two minimalist framed artworks softly blurred for depth. Use large diffused window light through a sheer curtain at approximately 4300K for even facial illumination and gentle shadows. Preserve visible natural skin texture, slight under-eye variation, and a quiet, cozy afternoon-at-home mood. Canon EOS R5, 85mm f/1.8, shallow depth of field, subtly desaturated warm-neutral color treatment.",
+    "negative_prompt": "explicit, nsfw, overly revealing, celebrity likeness, public-figure likeness, sexual pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "Attach the approved-adult face/identity reference only when a specific person has authorization; preserve her face, facial structure, and likeness without imitating any celebrity or public figure. The reference outfit is optional; when attached, preserve its white crochet halter construction, lining, drawstring, and pendant. The bedroom setting may be substituted while retaining warm beige walls, white rumpled linens, and a quiet intimate editorial mood.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult face and identity reference",
+          "required": false,
+          "source": "user-supplied approved reference",
+          "usage": "Preserve face, facial structure, and likeness only when an authorized specific identity is required."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white crochet halter top and circular pendant",
+          "required": false,
+          "source": "user-supplied wardrobe reference",
+          "usage": "Preserve the lined crochet construction, center drawstring, and understated pendant when continuity matters."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced celebrity and public-figure likeness instructions with an approved-adult reference workflow.",
+      "Preserved the crochet halter editorial styling while specifying a modest lined interior and removing plunging-neckline emphasis.",
+      "Clarified that the subject is an adult and removed suggestive expression wording."
+    ]
+  }
+}

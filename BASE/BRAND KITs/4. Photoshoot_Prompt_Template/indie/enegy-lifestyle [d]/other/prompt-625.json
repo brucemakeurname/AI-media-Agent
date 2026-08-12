@@ -1,0 +1,67 @@
+{
+  "name": "prompt-625",
+  "tag": [
+    "adult-identity-reference",
+    "pop-art",
+    "sweets-monsters",
+    "maximalist",
+    "mixed-media"
+  ],
+  "image_type": "photoreal-pop-art-composite",
+  "image_vibe": "playful-chaotic-neon",
+  "image_purpose": "creative-social-editorial",
+  "group": "indie/enegy-lifestyle/other",
+  "source_url": "https://x.com/AI_GIRL_DESIGN/status/1993243344932413597",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Restricted the identity-reference workflow to an approved adult and specified a covered outfit. The original dense illustration concept is retained, with no real text or skin overlays."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "approved adult portrait surrounded by maximalist pop-art sweets monsters",
+      "color_palette": "hot pink, yellow, cyan, lime, orange, purple, turquoise, and black outlines",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult person whose face, body proportions, clothing colors, and texture match the approved adult reference without changes.",
+      "wardrobe": "Covered casual outfit from the approved reference, with illustrations allowed on clothing and accessories only, never on skin or face.",
+      "pose": "Preserve the approved reference pose and background perspective."
+    },
+    "composition_elements": {
+      "framing": "Photoreal subject centered and clearly readable, surrounded by overlapping illustrated layers in front of and behind clothing and props.",
+      "illustrations": "Dense flat pop-art monsters inspired by bananas, cookies, strawberries, chocolate, lollipops, ice cream, oranges, cupcakes, donuts, candy, and soda bottles; add stars, hearts, arrows, drips, splashes, zigzags, sparkles, bubbles, and abstract comic shapes with no real words or letters.",
+      "protection": "Never place illustration, paint, text, or distortion over the face, skin, or adult identity features."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Keep the reference lighting and add subtle interaction shadows only where illustrations overlap clothing or accessories.",
+      "atmosphere": "Maximalist, playful, energetic, neon, and tactile."
+    },
+    "technical_specs": {
+      "render_style": "photoreal subject with clean-edged flat graphic illustration overlay",
+      "quality": "physical depth through layered overlap, bold black outlines, accurate face preservation, no illustration conversion of the person"
+    },
+    "generated_prompt_string": "Use the approved adult reference photo. Preserve the adult person's face, body proportions, covered clothing colors, texture, pose, and background perspective photorealistically; do not turn the person into an illustration. Surround them with a dense maximalist layer of flat pop-art sweets monsters and graphic decorations, placed behind the person and over clothing or accessories only, never over the face or skin. Use bananas, cookies, strawberries, melting chocolate, lollipops, ice cream, oranges, cupcakes, donuts, candy, and soda-bottle characters with bold black outlines, cute awkward expressions, hot-pink/yellow/cyan/lime/orange/purple/turquoise colors, plus stars, hearts, arrows, drips, splashes, zigzags, sparkles, and bubbles. Use abstract comic shapes only: no readable words, letters, logos, or brands. Add subtle interaction shadows on clothing and create depth with multiple illustration layers while keeping the adult subject sharply photorealistic.",
+    "negative_prompt": "minor, unapproved identity reference, face alteration, skin overlay, illustration on face, nudity, explicit, nsfw, overly revealing clothing, real text, letters, logo, watermark, unreadable face, distorted hands",
+    "reference_elements": {
+      "prompt_instructions": "The approved adult identity reference is mandatory. Illustration-style references are optional and may replace only graphic palette, character style, or layering; do not introduce text or logos.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved-adult-full-body-reference",
+          "required": true,
+          "source": "user upload",
+          "usage": "Preserve adult identity, pose, covered clothing, and background perspective."
+        },
+        {
+          "type": "style_reference",
+          "name": "sweets-monsters-graphic-style",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace monster shapes, palette, and flat-outline treatment without text."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,233 @@
+<template data-composition-id="05-reason-two">
+  <style>
+    @font-face {
+      font-family: "Barlow";
+      src: url("assets/fonts/Barlow-Black.woff2") format("woff2");
+      font-weight: 900;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Barlow";
+      src: url("assets/fonts/Barlow-Bold.woff2") format("woff2");
+      font-weight: 700;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Barlow";
+      src: url("assets/fonts/Barlow-ExtraBold.woff2") format("woff2");
+      font-weight: 800;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "IBM Plex Mono";
+      src: url("assets/fonts/IBMPlexMono-Medium.woff2") format("woff2");
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    #root[data-composition-id="05-reason-two"] {
+      container-type: size;
+      container-name: frame05;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #111111;
+      font-family: "Barlow", sans-serif;
+    }
+
+    .f05-bg {
+      position: absolute;
+      inset: 0;
+      background: #E85D26;
+    }
+
+    .f05-content {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      padding: 5.5cqw;
+    }
+
+    .f05-chrome {
+      display: flex;
+      align-items: baseline;
+      gap: 2cqw;
+      opacity: 0;
+    }
+
+    .f05-num {
+      font-family: "IBM Plex Mono", monospace;
+      font-weight: 500;
+      font-size: 0.72cqw;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(17, 17, 17, 0.4);
+    }
+
+    .f05-kicker {
+      font-family: "IBM Plex Mono", monospace;
+      font-weight: 500;
+      font-size: 0.72cqw;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(17, 17, 17, 0.55);
+    }
+
+    .f05-hero {
+      margin-top: 30cqh;
+      max-width: 78cqw;
+    }
+
+    .f05-hero-word {
+      display: inline-block;
+      opacity: 0;
+      will-change: transform, filter, opacity;
+    }
+
+    .f05-display {
+      font-family: "Barlow", sans-serif;
+      font-weight: 800;
+      font-size: 7.5cqw;
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      text-transform: lowercase;
+      color: #111111;
+      margin: 0;
+    }
+
+    .f05-lead {
+      margin-top: 3.5cqw;
+      max-width: 70cqw;
+    }
+
+    .f05-lead-word {
+      display: inline-block;
+      opacity: 0;
+      will-change: transform, opacity;
+    }
+
+    .f05-lead-line {
+      font-family: "Barlow", sans-serif;
+      font-weight: 400;
+      font-size: 1.6cqw;
+      line-height: 1.5;
+      color: rgba(17, 17, 17, 0.75);
+      margin: 0;
+    }
+  </style>
+
+  <div
+    id="root"
+    data-composition-id="05-reason-two"
+    style="width: 100%; height: 100%"
+   data-width="1080" data-height="1920">
+    <div
+      class="clip f05-bg"
+      data-start="0"
+      data-duration="9.195"
+      data-track-index="0"
+    ></div>
+
+    <div
+      class="clip f05-content"
+      data-start="0"
+      data-duration="9.195"
+      data-track-index="1"
+    >
+      <div class="f05-chrome">
+        <span class="f05-num">02</span>
+        <span class="f05-kicker">REASON</span>
+      </div>
+
+      <div class="f05-hero">
+        <h1 class="f05-display">
+          <span class="f05-hero-word" id="f05-w1">ai&nbsp;</span
+          ><span class="f05-hero-word" id="f05-w2">comes&nbsp;</span
+          ><span class="f05-hero-word" id="f05-w3">later</span>
+        </h1>
+      </div>
+
+      <div class="f05-lead">
+        <p class="f05-lead-line">
+          <span class="f05-lead-word" id="f05-l1">screensaver,&nbsp;</span
+          ><span class="f05-lead-word" id="f05-l2">not&nbsp;</span
+          ><span class="f05-lead-word" id="f05-l3">creator</span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+      var F = 1 / 60;
+
+      // Scene 1 (0.0-1.5s): chrome row (broadside-num "02" + kicker "REASON")
+      // fades in via waterfall-entry cascade, power3.
+      tl.set(".f05-chrome", { opacity: 1 }, 0.1);
+
+      tl.set("#f05-num", { opacity: 1, y: 30 }, 0.15);
+      tl.to(
+        "#f05-num",
+        { y: 0, opacity: 1, duration: 0.24, ease: "power3.out" },
+        0.15,
+      );
+
+      var kickerStart = 0.15 + 0.24 - F;
+      tl.set("#f05-kicker", { opacity: 1, y: 24 }, kickerStart);
+      tl.to(
+        "#f05-kicker",
+        { y: 0, opacity: 1, duration: 0.2, ease: "power3.out" },
+        kickerStart,
+      );
+
+      // Scene 2 (1.5-4.5s): as VO reaches "AI comes later", the display
+      // clause slams in via kinetic-beat-slam (scale+blur, power4.out).
+      var slamAt = 2.1;
+      tl.fromTo(
+        ".f05-hero",
+        { scale: 1.35, filter: "blur(14px)", opacity: 0 },
+        {
+          scale: 1,
+          filter: "blur(0px)",
+          opacity: 1,
+          duration: 0.55,
+          ease: "power4.out",
+        },
+        slamAt,
+      );
+      tl.set(".f05-hero-word", { opacity: 1 }, slamAt);
+
+      // Scene 3 (4.5-7.0s): as VO reaches "screensaver, not creator",
+      // the lead line reveals phrase-by-phrase via waterfall-entry, then holds.
+      var leadStart = 6.0;
+      tl.set("#f05-l1", { opacity: 1, y: 28 }, leadStart);
+      tl.to(
+        "#f05-l1",
+        { y: 0, opacity: 1, duration: 0.2, ease: "power4.out" },
+        leadStart,
+      );
+
+      var l2Start = leadStart + 0.2 - F;
+      tl.set("#f05-l2", { opacity: 1, y: 22 }, l2Start);
+      tl.to(
+        "#f05-l2",
+        { y: 0, opacity: 1, duration: 0.17, ease: "power4.out" },
+        l2Start,
+      );
+
+      var l3Start = l2Start + 0.17 - F;
+      tl.set("#f05-l3", { opacity: 1, y: 26 }, l3Start);
+      tl.to(
+        "#f05-l3",
+        { y: 0, opacity: 1, duration: 0.2, ease: "power4.out" },
+        l3Start,
+      );
+
+      window.__timelines["05-reason-two"] = tl;
+    })();
+  </script>
+</template>

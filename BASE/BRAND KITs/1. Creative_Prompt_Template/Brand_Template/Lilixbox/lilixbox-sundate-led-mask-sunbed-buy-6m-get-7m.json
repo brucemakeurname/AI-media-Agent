@@ -1,0 +1,77 @@
+{
+  "name": "lilixbox-sundate-led-mask-sunbed-buy-6m-get-7m",
+  "tag": [
+    "gift-with-purchase",
+    "led-mask",
+    "sunbed-lifestyle",
+    "summer-campaign"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "lilixbox_2566743460410074",
+  "prompt": {
+    "project_info": {
+      "theme": "Lixibox Sundate Energy resort lounge GWP poster",
+      "color_palette": "Pool blue, warm sand, orange, white, soft pink glow, tropical neutrals"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "Summer resort campaign poster featuring a woman reclining on a white sunbed beside a pool, wearing a white swimsuit and a glowing pink LED face mask, posed diagonally across the frame.",
+      "style": "Luxury beauty-tech lifestyle advertising, polished poolside editorial photography"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "LIXIBOX GWP Gift with Purchase Sundate Energy / Mua mặt nạ ánh sáng 6 triệu / Nhận quà 7 triệu",
+      "items": [
+        "Top Left: Small white campaign header 'LIXIBOX GWP Gift with Purchase Sundate Energy'.",
+        "Top Right: Blue swimming pool water with bright summer reflections.",
+        "Bottom Left: Large white text 'Mua mặt nạ ánh sáng 6 triệu' stacked over the lounge area.",
+        "Bottom Right: Large orange-highlighted text 'Nhận quà 7 triệu'.",
+        "Center/Background: Model reclining diagonally on a white sunbed in a white swimsuit, wearing a pink LED mask, with warm resort deck tones around the pool."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Natural sunlight",
+      "effect": "Bright midday poolside lighting, crisp shadows from lounge furniture, vivid water highlights, glamorous summer mood"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic advertising photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Lixibox Sundate Energy resort lounge GWP poster. Centerpiece is a woman in a white swimsuit reclining diagonally on a white poolside sunbed while wearing a glowing pink LED face mask. Background is a bright resort pool scene with blue water and warm deck materials. Surrounding elements: top-left small white header 'LIXIBOX GWP Gift with Purchase Sundate Energy', large lower-left text 'Mua mặt nạ ánh sáng 6 triệu', and large lower-right orange text 'Nhận quà 7 triệu'. Technical style: photorealistic advertising photography, natural sunlight, bright midday poolside shadows and vivid water highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "female model reclining on white sunbed in white swimsuit",
+          "required": true,
+          "source": "original campaign image or model reference",
+          "usage": "Match the diagonal lounging pose, wardrobe, and relaxed luxury attitude."
+        },
+        {
+          "type": "product",
+          "name": "pink LED face mask device",
+          "required": true,
+          "source": "official device reference",
+          "usage": "Preserve the exact mask silhouette and luminous pink face coverage."
+        },
+        {
+          "type": "location",
+          "name": "poolside lounge chair setup",
+          "required": true,
+          "source": "resort pool environment reference",
+          "usage": "Maintain the same white sunbed, deck angle, and pool adjacency."
+        },
+        {
+          "type": "text_layout",
+          "name": "Lixibox Sundate Energy offer typography",
+          "required": true,
+          "source": "original creative",
+          "usage": "Keep exact wording, left-right split of the large offer text, and top-left header."
+        }
+      ],
+      "prompt_instructions": "Use refs for the reclining model, the LED mask, and the exact text layout. Keep the diagonal sunbed composition with the pool occupying the upper-right area and the promotional text anchored across the lower third. The image should feel aspirational and sunlit rather than clinical."
+    }
+  }
+}

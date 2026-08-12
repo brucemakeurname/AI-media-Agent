@@ -1,0 +1,52 @@
+{
+  "name": "cellphones-baseus-fast-charge-shock-price",
+  "tag": ["cellphones", "baseus", "power bank", "fast charge", "accessory promo"],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Product demos",
+  "group": "cellphones_934081816370958",
+  "prompt": {
+    "project_info": {
+      "theme": "Fast-charge accessory showcase",
+      "color_palette": "Blue, white, black, orange, pastel pink"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A glossy accessory poster showing several Baseus power banks and charging devices connected by oversized cables inside a futuristic blue showroom, under a giant orange-outlined fast-charge headline.",
+      "style": "Futuristic accessory showcase poster"
+    },
+    "composition_elements": {
+      "type": "Product/Typography/Cables/Showroom",
+      "text": "cellphoneS, PIN SẠC SIÊU TỐC, GIÁ CẢ CỰC SỐC, baseus",
+      "items": [
+        "Top Center: red cellphoneS logo block.",
+        "Upper Middle: huge orange-outlined white headline 'PIN SẠC SIÊU TỐC,' with an orange bar 'GIÁ CẢ CỰC SỐC'.",
+        "Center: multiple Baseus charging products in black, white, and pink, including power banks with LED displays and visible ports.",
+        "Across products: thick white and black USB-C cables looping dynamically between devices.",
+        "Background: curved futuristic blue showroom with softly lit display niches."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Cool futuristic studio lighting",
+      "effect": "Glossy device reflections, strong cable motion, sleek accessory showroom energy"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal accessory-promo composite poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "Baseus power banks and charging devices", "required": true, "source": "source image product reference", "usage": "Keep the exact device shapes, LED-display styling, and brand marks."},
+        {"type": "graphic", "name": "looping charging cables", "required": true, "source": "source image cable reference", "usage": "Preserve the large cable arcs connecting across the devices."},
+        {"type": "text_layout", "name": "fast-charge headline", "required": true, "source": "source image text reference", "usage": "Keep the exact orange-outlined headline treatment and line breaks."},
+        {"type": "background", "name": "blue curved showroom", "required": true, "source": "source image background reference", "usage": "Maintain the futuristic blue niches and curved architecture."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the device arrangement, cable loops, and big orange headline.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the sleek blue accessory showroom with high-gloss reflections."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square accessory showcase poster in a futuristic blue curved showroom with softly lit display niches. Place the red cellphoneS logo at the top center. Add the oversized orange-outlined white headline 'PIN SẠC SIÊU TỐC,' and an orange rounded bar reading 'GIÁ CẢ CỰC SỐC'. In the center, show multiple photoreal Baseus power banks and fast-charging devices in black, white, and pastel pink, with visible LED displays and ports. Loop thick white and black USB-C cables dynamically across the composition. Technical style: photoreal accessory-promo composite poster, cool futuristic studio lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark muddy scene, incorrect text, wrong device shapes, low resolution, tangled unreadable cables, watermark, signature"
+  }
+}

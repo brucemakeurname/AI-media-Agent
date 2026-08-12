@@ -1,0 +1,51 @@
+{
+  "name": "holi-mirror-selfie",
+  "tag": ["ugc", "selfie-pov", "baddie", "private-indoor", "holi", "mirror-selfie", "indian-courtyard"],
+  "image_type": "festival mirror selfie",
+  "image_vibe": "festive, energetic, colorful, warm, candid",
+  "image_purpose": "social-media festival post",
+  "group": "selfie-pov/baddie/private-indoor",
+  "prompt": {
+    "project_info": "Hyper-realistic eye-level mirror selfie of one original adult woman during Holi in a grand ancient Indian courtyard, captured in bright golden-hour sunlight through colored dust.",
+    "main_subject": "One original adult woman smiling warmly while holding a smartphone with a patterned case. She wears a traditional white cotton Salwar Kameez heavily splattered with vibrant Holi pigments in magenta, cyan, turmeric yellow and electric green. Her blonde hair is messy in a festival style, wet with colored water and dry powder, and her fair skin has realistic gulal smears across the cheeks and forehead. Do not reproduce Sydney Sweeney or any other public-figure likeness.",
+    "composition_elements": "Use a single-subject mirror selfie perspective at eye level, with the smartphone naturally visible and the patterned case readable only as a pattern, not a logo. Set the scene in a grand ancient Indian Haveli courtyard with intricate Rajasthani sandstone carvings, arched balconies and temple-style pillars. Fill the background with adult festival participants playing Holi, flying colored dust, dancing and traditional marigold decorations. Keep the subject clear against the lively courtyard.",
+    "lighting_and_atmosphere": "Bright natural golden-hour sunlight filters through colored dust clouds, creating warm highlights and realistic color bounce on the white cotton fabric and skin. Preserve a festive, energetic, crowded Holi atmosphere with vibrant warm saturation and realistic powder texture.",
+    "technical_specs": "Hyper-realistic photography, eye-level mirror selfie perspective, 8K-style detail, natural smartphone optics, realistic phone reflection, hands, cotton fabric, colored powder, sandstone, dust and marigold texture, no text, logos or watermark.",
+    "generated_prompt_string": "Hyper-realistic eye-level mirror selfie of one original adult woman smiling warmly while holding a smartphone with a patterned case during Holi. Traditional white cotton Salwar Kameez heavily splattered with magenta, cyan, turmeric yellow and electric-green pigments; messy festival blonde hair wet with colored water and dry powder; fair skin with realistic gulal smears on cheeks and forehead. Grand ancient Indian Haveli courtyard with Rajasthani sandstone carvings, arched balconies and temple pillars, adult people playing Holi and dancing in the background, flying colored dust and marigold decorations. Bright golden-hour sunlight through colored dust clouds, festive energetic crowded mood, vibrant realistic texture, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Sydney Sweeney likeness, modern bathroom, towel, plain background, blurry, low resolution, distorted hands, extra fingers, plastic skin, waxy, over-smooth, airbrushed, HDR look, random text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "holi-mirror-selfie.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult Holi mirror selfie, white cotton Salwar Kameez, pigment colors, festival hair and face powder, Haveli courtyard, background celebration, golden-hour light and selfie perspective; replace the named identity with an original adult."
+        },
+        {
+          "type": "source_url",
+          "name": "original prompt post",
+          "required": false,
+          "source": "https://x.com/ShouryaAI/status/2028323830385775006",
+          "usage": "Context only; local written prompt is authoritative."
+        },
+        {
+          "type": "image_asset",
+          "name": "1775086513213-naqe8j33-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1775086513213-naqe8j33-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required; source URL and image asset are optional context. Keep the adult subject, clothing, Holi colors, powder, phone selfie, courtyard architecture, festival crowd and golden-hour lighting consistent. Replace identity only and do not add logos or readable text."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Sydney Sweeney with an original adult woman.",
+      "Preserved the traditional festival clothing, Holi powder, mirror-selfie pose and colorful courtyard environment.",
+      "Added required safety and artifact exclusions."
+    ]
+  }
+}

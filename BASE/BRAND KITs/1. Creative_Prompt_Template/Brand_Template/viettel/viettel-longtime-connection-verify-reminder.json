@@ -1,0 +1,78 @@
+{
+  "name": "viettel-longtime-connection-verify-reminder",
+  "tag": [
+    "viettel",
+    "subscriber-verification",
+    "sim-character",
+    "sentimental",
+    "relationship"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Brand story",
+  "group": "viettel_2062018467856515",
+  "prompt": {
+    "project_info": {
+      "theme": "Emotional reminder not to interrupt a long phone relationship by forgetting verification",
+      "color_palette": "Warm amber, cozy brown wood, soft cream, white, Viettel red, blush pink"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A large smartphone laid horizontally like a miniature memory room, filled with hanging string lights, pinned polaroid photos, calendars, envelopes, and a cute anthropomorphic SIM-card mascot holding a pink heart. Large hand-drawn style text on the right says 'Cảm ơn bạn đã cùng tôi: ❤️', followed by check marks with 'Hơn 20 năm', 'Hàng nghìn cuộc gọi', 'Hàng triệu tin nhắn'. A cloud speech bubble at the bottom right says 'Nhiều năm bên nhau Đừng để gián đoạn vì quên xác thực bạn nhé! ❤️'.",
+      "style": "Whimsical 3D diorama advertising art, cozy handcrafted memory-box aesthetic, sentimental telecom storytelling"
+    },
+    "composition_elements": {
+      "type": "Background Elements",
+      "text": "viettel telecom; Cảm ơn bạn đã cùng tôi: ❤️; Hơn 20 năm; Hàng nghìn cuộc gọi; Hàng triệu tin nhắn; Nhiều năm bên nhau Đừng để gián đoạn vì quên xác thực bạn nhé! ❤️",
+      "items": [
+        "Top Left: Viettel telecom logo in white",
+        "Top Right: White and red handwritten banner text with small doodle heart and call/message icons floating nearby",
+        "Bottom Left: Wooden tabletop with notebook, pen, coffee mug, and the corner of the horizontal smartphone",
+        "Bottom Right: Large white cloud speech bubble outlined in black",
+        "Center/Background: Cozy warm wood interior backdrop, giant horizontal smartphone turned into a glowing scrapbook room with photos and a smiling SIM mascot holding a heart"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm cozy fairy-light illumination",
+      "effect": "Soft amber glow, shallow depth of field, bokeh string lights, handcrafted diorama warmth"
+    },
+    "technical_specs": {
+      "render_style": "High-end 3D diorama advertising illustration",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for an emotional telecom reminder not to interrupt a long phone relationship by forgetting verification. Centerpiece is a giant horizontal smartphone transformed into a warm miniature memory room with string lights, polaroid photos, calendars, envelopes, and a cute anthropomorphic SIM-card mascot holding a pink heart. Include the exact visible text 'Cảm ơn bạn đã cùng tôi: ❤️', 'Hơn 20 năm', 'Hàng nghìn cuộc gọi', 'Hàng triệu tin nhắn', and 'Nhiều năm bên nhau Đừng để gián đoạn vì quên xác thực bạn nhé! ❤️'. Background is a warm wood-and-window setting with dreamy blur. Surrounding elements: Viettel telecom logo at top left, doodled heart and call/message icons on the right, tabletop stationery and coffee in the foreground, and a white cloud speech bubble at the bottom right. Technical style: high-end 3D diorama advertising illustration, warm cozy fairy-light illumination, amber glow and shallow-depth bokeh, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel telecom logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "White logo in the top-left corner"
+        },
+        {
+          "type": "graphic",
+          "name": "Anthropomorphic SIM mascot",
+          "required": true,
+          "source": "recreated character from original artwork",
+          "usage": "Cute central mascot with expressive eyes, small shoes, and a pink heart"
+        },
+        {
+          "type": "text_layout",
+          "name": "Handwritten thank-you and reminder copy layout",
+          "required": true,
+          "source": "original creative text",
+          "usage": "Preserve handwritten banner style and cloud-bubble closing line"
+        },
+        {
+          "type": "background",
+          "name": "Mini memory-room diorama inside smartphone",
+          "required": true,
+          "source": "original composition",
+          "usage": "Rebuild the scrapbook room with polaroids, lamps, notes, and cozy romance visuals"
+        }
+      ],
+      "prompt_instructions": "This image depends on the warm handmade diorama mood. The phone must behave like a miniature room, not a normal device screen. Keep the emotional copy exact and the SIM mascot charming rather than corporate."
+    }
+  }
+}

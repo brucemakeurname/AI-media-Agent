@@ -1,0 +1,75 @@
+{
+  "name": "dark-chocolate-lips-macro",
+  "tag": [
+    "chocolate-beauty",
+    "glossy-brown-lips",
+    "macro-makeup",
+    "luxury-editorial",
+    "four-frame-series"
+  ],
+  "image_type": "luxury-beauty-macro-series",
+  "image_vibe": "warm-chocolate-luxury",
+  "image_purpose": "lookbook-line-sheet",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": {
+      "theme": "Luxury beauty macro series with deep chocolate gloss and a dark chocolate prop",
+      "creative_direction": "Editorial multi-frame close-up focused on makeup texture, eyes, lips, and tactile confectionery detail",
+      "color_palette": "chocolate brown, warm beige, soft rose, natural skin, espresso, and filmic black"
+    },
+    "main_subject": {
+      "type": "clearly adult woman matching the approved face reference",
+      "detail": "adult high-fashion model with soft brown hair, smoky brown-black eye makeup, elongated winged liner, natural full brows, rosy blush, and visible skin texture",
+      "makeup": "deep chocolate-brown glossy lips with controlled specular highlights",
+      "interaction": "holding a small piece of dark chocolate just beside the closed lips or resting it near the lower face; no biting"
+    },
+    "composition_elements": {
+      "framing": "1:1 editorial multi-frame consistency with beauty close-up and extreme macro variations of lips and eyes",
+      "series_layout": "four coordinated frames with consistent face, makeup, lighting, and chocolate prop",
+      "environment": "minimal studio background in soft warm neutral tones"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft diffused beauty light from the front with minimal fill and subtle gloss rim at approximately 4300K",
+      "effect": "even skin, controlled lip reflections, realistic chocolate texture, shallow creamy bokeh, and restrained luxury mood"
+    },
+    "technical_specs": {
+      "render_style": "full-frame cinema camera with 100mm macro prime at f/2.8, luxury beauty film still",
+      "resolution": "4k square multi-frame social visual",
+      "finish": "soft filmic highlight rolloff, subtle analog grain, natural skin, razor-sharp eyes, and clean macro detail"
+    },
+    "generated_prompt_string": "Create a luxury beauty editorial macro series of a clearly adult woman using the approved face reference, preserving facial features, face shape, eye makeup, and identity. Show soft brown hair framing the face, smoky brown-black eye makeup with elongated winged liner, natural full brows, rosy blush, visible skin texture, and deep chocolate-brown glossy lips with controlled wet-looking highlights. Include four coordinated beauty close-up and extreme macro variations focused on lips and eyes, with a small piece of dark chocolate held just beside the closed lips or near the lower face, never bitten. Use a minimal warm-neutral studio, full-frame cinema camera with a 100mm macro prime at f/2.8, soft approximately 4300K diffused beauty light, minimal fill, creamy bokeh, soft filmic highlight rolloff, and subtle analog grain. Keep the editorial intimate in a refined beauty sense, not sexual, and preserve consistent face and makeup across the series.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, sensual lip-biting, open-mouth chocolate bite, ambiguous age, celebrity likeness, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted lips, extra fingers, melted chocolate, broken series continuity",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-chocolate-beauty-model",
+          "required": true,
+          "source": "Approved face reference and original macro preview image",
+          "usage": "Attach the approved adult face reference and preserve identity, lips, eyes, hair, and facial structure across all four frames."
+        },
+        {
+          "type": "makeup",
+          "name": "chocolate-gloss-beauty-makeup",
+          "required": true,
+          "source": "Original macro preview image and source prompt",
+          "usage": "Attach to preserve chocolate-brown gloss, smoky eye makeup, blush, brows, and natural skin texture; makeup may be adapted within the same palette."
+        },
+        {
+          "type": "product",
+          "name": "dark-chocolate-editorial-prop",
+          "required": true,
+          "source": "Original chocolate interaction preview image",
+          "usage": "Attach to preserve chocolate scale, texture, and warm color; keep it near the face without biting and replace only with an equivalent cleared confection."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult face, makeup, and chocolate references. Keep identity, makeup, macro series continuity, lip texture, prop scale, and warm lighting consistent. Replace the person or chocolate only with approved equivalents and keep the interaction closed-lip, non-sexual, and editorial."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Reframed the sensual/chocolate-biting direction as refined adult beauty editorial, replacing lip biting with a closed-lip prop placement while preserving the chocolate palette and macro series."
+    ]
+  }
+}

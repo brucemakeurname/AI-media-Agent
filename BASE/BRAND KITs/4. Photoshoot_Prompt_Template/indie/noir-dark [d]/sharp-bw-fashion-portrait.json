@@ -1,0 +1,59 @@
+{
+  "name": "sharp-bw-fashion-portrait",
+  "tag": ["adult-woman", "identity-reference", "black-blazer", "white-blouse", "tailored-trousers", "high-fashion"],
+  "image_type": "studio-fashion-portrait",
+  "image_vibe": "powerful-polished-editorial",
+  "image_purpose": "social-editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Replaced the unrestricted face-match instruction with an authorized adult identity reference and clarified the adult subject while preserving the tailored outfit, direct gaze, studio lighting, and high-fashion monochrome intent."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "high-contrast black-and-white professional fashion editorial",
+      "color_palette": "black, white, charcoal gray, and soft neutral skin tones",
+      "aspect_ratio": "2:3"
+    },
+    "main_subject": {
+      "description": "A stylish adult woman matching the authorized identity reference, with a curvy feminine silhouette, natural skin texture, and soft waves framing her face.",
+      "wardrobe": "Tailored black blazer over a fitted white blouse, paired with high-waist tailored trousers; minimal silver watch and small stud earrings.",
+      "pose": "Straight-on confident gaze with relaxed shoulders and elegant upright posture.",
+      "styling": "Refined high-fashion editorial styling with controlled soft-wave hair and natural polished makeup."
+    },
+    "composition_elements": {
+      "framing": "Centered medium portrait from waist to crown with the clothing and accessories clearly visible.",
+      "environment": "Clean seamless white studio backdrop with a subtle gray gradient and no text or logos.",
+      "focus": "Sharp authorized adult identity, eyes, hair waves, blazer structure, blouse drape, watch, and realistic fabric texture."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Dramatic high-contrast studio lighting with crisp highlights and deep shadows sculpting the face, shoulders, and tailored clothing.",
+      "atmosphere": "Powerful, professional, polished, cinematic, and editorial."
+    },
+    "technical_specs": {
+      "camera": "Full-frame DSLR or mirrorless camera with an 85mm lens at f/2.0, 1/200 s, ISO 100",
+      "quality": "Ultra-photorealistic cinematic black-and-white, high-resolution fabric and skin texture, shallow depth of field, professional fashion-editorial clarity"
+    },
+    "generated_prompt_string": "Create an ultra-photorealistic 2:3 high-contrast black-and-white fashion portrait of a stylish adult woman matching the authorized identity reference. She has a curvy feminine silhouette, natural skin texture, and soft waves framing her face. She wears a tailored black blazer over a fitted white blouse with a flattering neckline, high-waist tailored trousers, a sleek silver watch, and small stud earrings. Pose her centered with a confident straight-on gaze, relaxed shoulders, and elegant upright posture. Use a clean seamless white studio backdrop with a subtle gray gradient and dramatic high-contrast studio lighting, crisp highlights and deep shadows sculpting the face and tailored clothing, an 85mm lens at f/2.0, shallow depth of field, and no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, exposed anatomy, readable text, logo, watermark, glamour makeup, cartoon, CGI, overexposed lighting, soft-focus, distorted anatomy, extra limbs",
+    "reference_elements": {
+      "prompt_instructions": "The authorized adult identity reference is required for the face and overall identity; preserve it exactly without imitating a public figure. Optional wardrobe, hair, studio, or lighting references may replace only their named element while preserving the tailored professional styling and monochrome editorial mood.",
+      "assets": [
+        {
+          "type": "identity",
+          "name": "authorized-adult-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public figure portrait",
+          "usage": "Preserve the authorized adult's facial identity and facial structure in the centered portrait."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-blazer-white-blouse-tailored-trousers",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the blazer, blouse, trousers, watch, or earrings while preserving polished coverage and silhouette."
+        }
+      ]
+    }
+  }
+}

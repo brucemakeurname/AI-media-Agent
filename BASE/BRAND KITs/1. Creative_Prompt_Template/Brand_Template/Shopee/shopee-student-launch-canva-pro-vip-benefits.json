@@ -1,0 +1,70 @@
+{
+  "name": "shopee-student-launch-canva-pro-vip-benefits",
+  "tag": [
+    "student-program",
+    "membership-benefits",
+    "3d-characters",
+    "launch-campaign"
+  ],
+  "biz_niche": "Education",
+  "content_format": "Introduce team",
+  "group": "shopee_1051467917445981",
+  "prompt": {
+    "project_info": {
+      "theme": "Shopee Student program launch",
+      "color_palette": "Electric blue, yellow, white, orange-red"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A bright 3D student-program poster with a giant title 'Shopee Sinh Vien' and a speech bubble 'MOI RA MAT'. Curved subline says 'HOC VUI HON • MUA HOI HON • TRAI NGHIEM NHIEU HON'. Two stylized 3D student avatars stand in the center, the female pointing upward and the male giving a thumbs up while holding a gold Shopee trophy cup. Large benefit blocks state 'MIEN PHI 3 THANG CANVA PRO', 'MIEN PHI 12 THANG Goi ShopeeVIP', and 'MUA SAM THA GA x4 UU DAI'. Bottom CTA says 'THAM GIA NGAY!'. Background includes a graduation cap, paper airplane, coins, discount tickets, glasses, and school-note graphics.",
+      "style": "Friendly 3D mascot-style youth poster with glossy characters, gamified rewards layout, and playful campus motifs"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "MOI RA MAT / Shopee Sinh Vien / HOC VUI HON • MUA HOI HON • TRAI NGHIEM NHIEU HON / MIEN PHI 3 THANG CANVA PRO / MIEN PHI 12 THANG Goi ShopeeVIP / MUA SAM THA GA x4 UU DAI / THAM GIA NGAY!",
+      "items": [
+        "Top Left: Shopee logo and graduation cap graphic",
+        "Top Right: Paper airplane, coins, and discount-ticket icons",
+        "Bottom Left: Blue benefit box 'MIEN PHI 3 THANG CANVA PRO'",
+        "Bottom Right: Blue benefit box 'MUA SAM THA GA x4 UU DAI'",
+        "Center/Background: Giant 'Shopee Sinh Vien' logo, two 3D student characters, gold trophy cup, and the orange-white center box 'MIEN PHI 12 THANG Goi ShopeeVIP'"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright youthful promotional lighting",
+      "effect": "Glossy 3D character highlights, soft glows, cheerful contrast, gamified app-promo energy"
+    },
+    "technical_specs": {
+      "render_style": "3D youth marketing poster with polished brand compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee student program launch. Centerpiece is a pair of glossy 3D student characters beneath a giant title 'Shopee Sinh Vien', with one character holding a gold Shopee trophy. Background is an electric-blue youth-campaign field with a graduation cap, paper airplane, coins, discount icons, glasses, and school-note graphics. Surrounding elements: speech bubble 'MOI RA MAT', curved subline 'HOC VUI HON • MUA HOI HON • TRAI NGHIEM NHIEU HON', benefit boxes 'MIEN PHI 3 THANG CANVA PRO', 'MIEN PHI 12 THANG Goi ShopeeVIP', and 'MUA SAM THA GA x4 UU DAI', plus CTA 'THAM GIA NGAY!'. Technical style: 3D youth marketing poster with polished brand compositing, bright youthful lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Shopee, ShopeeVIP, and Canva assets",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for the title system and benefit references if exact logo treatment is required"
+        },
+        {
+          "type": "graphic",
+          "name": "3D student avatar pair and campus icon set",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the avatar styling, gold trophy, graduation cap, paper airplane, and school-note props"
+        },
+        {
+          "type": "text_layout",
+          "name": "Student-program benefit layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the giant title, three benefit blocks, and CTA arrangement"
+        }
+      ],
+      "prompt_instructions": "This is a youth-focused 3D promo, not a realistic ad. Preserve the toy-like character styling and the exact wording, especially the benefit counts '3 THANG', '12 THANG', and 'x4'."
+    }
+  }
+}

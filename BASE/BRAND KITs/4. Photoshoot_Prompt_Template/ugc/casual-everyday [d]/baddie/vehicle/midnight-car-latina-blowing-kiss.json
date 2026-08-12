@@ -1,0 +1,58 @@
+{
+  "name": "midnight-car-latina-blowing-kiss",
+  "tag": [
+    "ugc",
+    "baddie",
+    "vehicle",
+    "nighttime",
+    "iphone-flash",
+    "blowing-kiss"
+  ],
+  "image_type": "ugc-car-lifestyle-portrait",
+  "image_vibe": "raw-nighttime-candid",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/vehicle",
+  "prompt": {
+    "project_info": "Create a raw photorealistic iPhone-flash snapshot inside a modern sedan at night, preserving the candid driver-seat interaction and dashboard detail.",
+    "main_subject": "One original approved adult woman with warm olive-toned natural skin, dark straight hair parted near the center, closed eyes, small nose stud and small gold hoop earrings. She wears a fitted white ribbed sleeveless crop top and light-grey sweatpants. She leans forward from the driver's seat and blows a kiss toward the camera with one hand near her mouth.",
+    "composition_elements": "Vertical close-to-medium interior portrait from a rear three-quarter angle. Frame the adult subject seated in the driver area with her torso turned toward camera, one hand raised near her lips and the other resting near the center console. Include black leather seats, steering wheel, instrument cluster, center display, gear selector, climate controls, rear-view mirror and dark street lights through the windows.",
+    "lighting_and_atmosphere": "Direct iPhone flash provides crisp frontal highlights on face, hair, skin and white top, while the car cabin and exterior remain dark with small warm street-light points. Preserve natural skin texture, mild flash falloff and raw nighttime noise.",
+    "technical_specs": "Vertical 4:5 or 2:3 smartphone frame, 24–28mm interior perspective, sharp face and dashboard detail, realistic reflections on controls and glass, candid unpolished color and natural anatomy.",
+    "generated_prompt_string": "Create a raw photorealistic iPhone-flash snapshot inside a modern sedan at night of one original approved adult woman with warm olive-toned natural skin, dark straight hair parted near the center, closed eyes, a small nose stud and small gold hoop earrings. She wears a fitted white ribbed sleeveless crop top and light-grey sweatpants. Use a vertical close-to-medium interior portrait from a rear three-quarter angle; she sits in the driver area with her torso turned toward camera, one hand raised near her lips as she blows a kiss and the other resting near the center console. Include black leather seats, steering wheel, instrument cluster, center display, gear selector, climate controls and rear-view mirror, with dark street lights through the windows. Use direct iPhone flash, crisp frontal highlights, dark cabin contrast, realistic reflections, natural skin texture and mild raw nighttime noise.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, body-part emphasis, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, unsafe driving, moving vehicle, unreadable text or logos, recognizable public figure",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "midnight-car-latina-blowing-kiss.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair, expression, nose stud, earrings and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white ribbed sleeveless crop top and light-grey sweatpants",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve white ribbing, top fit, grey fabric and outfit colors; replace only with an explicitly supplied wardrobe reference."
+        },
+        {
+          "type": "location",
+          "name": "modern sedan driver area, dashboard and nighttime street background",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve seat, steering wheel, dashboard, displays, center console, flash reflections and safe parked-night environment; vehicle may be replaced only with an explicit reference."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and vehicle references. Keep identity, face, hair, accessories, outfit, kiss gesture, car controls and flash direction consistent. The approved adult, wardrobe and vehicle can be replaced independently through explicit references, but the vehicle must be stationary and the pose must remain safe. No logo or typography is required; keep dashboard labels indistinct."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the source's ambiguous age and identity-lock wording with an original approved adult.",
+      "Rewrote conflicting body/pose details to match the directly viewed image while preserving the playful blowing-kiss concept and nighttime car setting.",
+      "Added safety, anti-artifact and stationary-vehicle negative prompts."
+    ]
+  }
+}

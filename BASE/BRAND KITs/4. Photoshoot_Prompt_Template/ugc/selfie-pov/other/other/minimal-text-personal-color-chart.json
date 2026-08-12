@@ -1,0 +1,43 @@
+﻿{
+    "name":  "minimal-text-personal-color-chart",
+    "tag":  [
+                "ugc",
+                "selfie-pov",
+                "other",
+                "other",
+                "color-analysis",
+                "chart",
+                "portrait"
+            ],
+    "image_type":  "personal-color-analysis-chart",
+    "image_vibe":  "minimal-diagram-first",
+    "image_purpose":  "visual personal color analysis based on supplied portrait",
+    "group":  "other",
+    "prompt":  {
+                   "project_info":  "Adapted from the source instruction as a diagram-first personal color analysis.",
+                   "main_subject":  "Clearly adult person from the supplied portrait, represented faithfully without changing identity or facial structure.",
+                   "composition_elements":  "Portrait panel plus organized swatches showing flattering clothing colors, comparison chips and concise labels; keep text minimal and avoid paragraphs.",
+                   "lighting_and_atmosphere":  "Clean neutral presentation with accurate color rendering and balanced portrait lighting.",
+                   "technical_specs":  "Vertical social-friendly chart, crisp swatches, readable minimal labels, faithful skin and hair color, no decorative clutter.",
+                   "generated_prompt_string":  "Create a minimal diagram-first personal color analysis using the supplied portrait of a clearly adult person, preserve identity, show a clean portrait panel beside curated flattering clothing-color swatches and concise labels, accurate color rendering, balanced neutral layout, minimal text, no paragraphs, no watermark.",
+                   "negative_prompt":  "explicit, nsfw, overly revealing, exposed body, exposed breasts, exposed genitals, child, minor, altered identity, inaccurate skin color, cluttered text, watermark, logo",
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "portrait",
+                                                                 "name":  "minimal-text-personal-color-chart_0.jpg",
+                                                                 "required":  true,
+                                                                 "source":  "local asset",
+                                                                 "usage":  "Use as the supplied portrait for identity and color comparison."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  "Attach the local asset as required. Preserve the clearly adult identity and use the portrait only for color analysis; do not reproduce celebrity likeness."
+                                          }
+               },
+    "policy_review":  {
+                          "status":  "pass",
+                          "changes":  [
+
+                                      ]
+                      }
+}

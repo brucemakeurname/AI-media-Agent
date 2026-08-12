@@ -1,0 +1,78 @@
+{
+  "name": "vfe-medical-admissions-reform-objectives-france",
+  "tag": [
+    "vfe",
+    "medical-admissions",
+    "france",
+    "objectives",
+    "infographic"
+  ],
+  "biz_niche": "Education",
+  "content_format": "Infographics",
+  "group": "vfe_2243766286396654",
+  "prompt": {
+    "project_info": {
+      "theme": "Objectives and key changes of French medical admissions reform",
+      "color_palette": "Medical Blue, Teal, White, Peach"
+    },
+    "main_subject": {
+      "type": "Text/Icon",
+      "detail": "A health-education infographic built around a simplified doctor torso and stethoscope illustration, with the section title 'MỤC TIÊU', two explanatory pill boxes, five circular medical-field icons, and a lower panel listing key changes.",
+      "style": "Flat medical education explainer graphic with clean iconography, gentle healthcare colors, and structured policy-summary layout."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nMỤC TIÊU\nĐơn giản hóa và làm cho hệ thống công bằng hơn\nTiếp tục là con đường dẫn tới 5 ngành MMOPK\nMédecine (Y khoa)\nMaïeutique (Hộ sinh)\nOdontologie (Nha khoa)\nPharmacie (Dược)\nKinésithérapie (Vật lý trị liệu)\nNHỮNG THAY ĐỔI CHÍNH\nChương trình Cử nhân định hướng sức khỏe dành cho tất cả sinh viên.\nMột hệ thống thống nhất trên toàn nước Pháp.\nChương trình được chia thành 3 khối kiến thức.\nVẫn đăng ký qua Parcoursup.",
+      "items": [
+        "Top Left: Large simplified doctor torso with stethoscope draped across the upper composition.",
+        "Top Right: VFE logo near the collar zone.",
+        "Bottom Left: Five circular icons with French and Vietnamese field labels beneath.",
+        "Bottom Right: Rounded dark teal panel listing four key reform changes.",
+        "Center/Background: Blue medical backdrop with the central title 'MỤC TIÊU' and two white rounded text pills connected by an arrow."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat healthcare infographic lighting",
+      "effect": "No real-world shading, smooth vector shapes, clear icon contrast, and calm educational tone."
+    },
+    "technical_specs": {
+      "render_style": "Flat vector healthcare education infographic",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality healthcare education infographic poster for French medical admissions reform. Centerpiece is a simplified doctor torso and stethoscope above the title 'MỤC TIÊU', with two white explanation pills, five medical field icons, and a lower panel labeled 'NHỮNG THAY ĐỔI CHÍNH'. Background is a flat medical-blue graphic field. Surrounding elements: field labels for Médecine, Maïeutique, Odontologie, Pharmacie, and Kinésithérapie, plus reform bullet lines about the health-oriented bachelor's program and Parcoursup. Technical style: flat vector healthcare education infographic, calm educational tone, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place at upper center near the collar."
+        },
+        {
+          "type": "icon",
+          "name": "Five MMOPK field icons",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Use medical, midwifery, dentistry, pharmacy, and kinesitherapy symbols."
+        },
+        {
+          "type": "graphic",
+          "name": "Doctor torso with stethoscope illustration",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep as the dominant visual anchor."
+        },
+        {
+          "type": "text_layout",
+          "name": "Medical admissions reform objectives layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve the title, two white pills, five icons row, and lower changes panel."
+        }
+      ],
+      "prompt_instructions": "Keep the French acronyms and field names intact. This is an explanatory policy post, so the tone should remain clear, institutional, and non-promotional."
+    }
+  }
+}

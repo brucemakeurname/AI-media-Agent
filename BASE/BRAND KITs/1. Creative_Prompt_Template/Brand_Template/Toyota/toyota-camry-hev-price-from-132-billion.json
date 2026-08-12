@@ -1,0 +1,63 @@
+{
+  "name": "toyota-camry-hev-price-from-132-billion",
+  "tag": [
+    "camry-hev",
+    "pricing",
+    "premium-sedan",
+    "hybrid"
+  ],
+  "biz_niche": "Automotive",
+  "content_format": "Special offers",
+  "group": "toyota_4202815770030303",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Camry HEV premium pricing announcement",
+      "color_palette": "Silver, charcoal, white, asphalt gray"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A clean premium pricing poster featuring a silver Toyota Camry HEV photographed from a rear-side three-quarter angle on a sunlit urban road. Large road-projected typography reads 'GIA MOI TU 1,32 TY'. Two model price plates below say 'CAMRY HEV PREMIUM CHI TU 1.320.000.000 VND' and 'CAMRY HEV LUXURY CHI TU 1.460.000.000 VND'. Toyota logo is top left and 'Move your world' appears bottom left.",
+      "style": "Minimal premium sedan pricing poster with road-projection typography, polished product photography, and upscale urban calm"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / GIA MOI TU 1,32 TY / CAMRY HEV PREMIUM / CHI TU 1.320.000.000 VND / CAMRY HEV LUXURY / CHI TU 1.460.000.000 VND / Move your world",
+      "items": [
+        "Top Left: Toyota logo over a clean urban plaza edge",
+        "Top Right: Open paved plaza and landscaped shrubs behind the car",
+        "Bottom Left: 'Move your world' script and the left model price plate",
+        "Bottom Right: Right model price plate for Camry HEV Luxury",
+        "Center/Background: Silver Toyota Camry HEV parked on a road with giant white pricing typography projected onto the asphalt"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Natural premium automotive daylight",
+      "effect": "Clean body reflections, sharp shadow definition, upscale product calm"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal automotive pricing poster with minimal premium art direction",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Camry HEV premium pricing announcement. Centerpiece is a silver Toyota Camry HEV shown from a rear-side angle on a clean urban road. Background is a minimal modern plaza with landscaping and bright daylight. Surrounding elements: Toyota logo, giant road-projected text 'GIA MOI TU 1,32 TY', the model price labels 'CAMRY HEV PREMIUM CHI TU 1.320.000.000 VND' and 'CAMRY HEV LUXURY CHI TU 1.460.000.000 VND', and the footer script 'Move your world'. Technical style: photoreal automotive pricing poster with minimal premium art direction, natural premium automotive daylight, clean reflections and sharp shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Toyota Camry HEV exterior reference",
+          "required": true,
+          "source": "official Camry HEV renders",
+          "usage": "Preserve the rear-side body angle, premium wheel design, and silver finish"
+        },
+        {
+          "type": "text_layout",
+          "name": "Camry HEV road-projected pricing layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the giant asphalt pricing typography and the two model-price plates exactly positioned"
+        }
+      ],
+      "prompt_instructions": "Preserve the exact pricing figures and comma formatting in '1,32 TY'. The layout should stay minimal and premium, with typography projected onto the road as a key visual device."
+    }
+  }
+}

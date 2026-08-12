@@ -1,0 +1,70 @@
+{
+  "name": "techcombank-oneu-live-world-cup-bar-u-point",
+  "tag": [
+    "livestream-event",
+    "world-cup",
+    "oneu",
+    "rewards-promo"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Live chat",
+  "group": "techcombank_907978574974747",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank OneU World Cup live event bar scene",
+      "color_palette": "Sky blue, Techcombank red, white, grass green"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A staged live-event poster set inside a football stadium with Techcombank OneU branding. Large headline says 'BUNG NO CAM XUC TRAI NGHIEM MUA WORLD CUP cung Techcombank OneU'. A glowing red-and-white bar set with Techcombank diamond logo forms the centerpiece. A woman in a red shirt stands behind the bar holding up a phone showing the OneU app; a man in a white-and-red sporty outfit sits on a bar stool smiling. A prize board says '5 Trieu U-Point 01 Airpods 4'. Participation bubbles read 'Ms. Ha Kim da tham gia' and 'Mr. Tung Pham da tham gia'. A time block reads '20:00 15/07/2026'. Social icons for Facebook, YouTube, and TikTok sit below the time. Bottom-right badge says 'Da tang uu dai LOI ICH TOI UU'.",
+      "style": "Event-driven stadium lounge poster with lifestyle hosts, prize signage, and clean broadcast/live-show energy"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TECHCOMBANK / OneU / BUNG NO CAM XUC / TRAI NGHIEM MUA WORLD CUP / cung Techcombank OneU / LIVE / 5 Trieu U-Point / 01 Airpods 4 / Ms. Ha Kim da tham gia / Mr. Tung Pham da tham gia / 20:00 / 15/07/2026 / Da tang uu dai / LOI ICH TOI UU",
+      "items": [
+        "Top Left: Open sky and a blurred football flying in from the left",
+        "Top Right: Techcombank OneU logo and small LIVE badge",
+        "Bottom Left: Time box with social icons beneath it",
+        "Bottom Right: Reward badge 'Da tang uu dai LOI ICH TOI UU'",
+        "Center/Background: Glowing Techcombank-themed bar counter in a stadium, female host with phone, male participant on stool, prize board, and participation comment bubbles"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright live-show event lighting",
+      "effect": "Soft stadium haze, counter glow, polished skin and clothing highlights, broadcast-lounge mood"
+    },
+    "technical_specs": {
+      "render_style": "Lifestyle event poster with photo-composite bar set and broadcast graphics",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank OneU World Cup live event. Centerpiece is a glowing bar counter with the Techcombank diamond logo inside a football stadium, featuring a woman in red holding the OneU phone app and a man seated on a stool in sporty white-red clothes. Background is a stadium bowl under soft blue light. Surrounding elements: headline 'BUNG NO CAM XUC TRAI NGHIEM MUA WORLD CUP cung Techcombank OneU', LIVE badge, prize sign '5 Trieu U-Point 01 Airpods 4', participation bubbles for 'Ms. Ha Kim' and 'Mr. Tung Pham', time box '20:00 15/07/2026', social icons, and the bottom-right badge 'Da tang uu dai LOI ICH TOI UU'. Technical style: lifestyle event poster with photo-composite bar set and broadcast graphics, bright live-show lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Female host and male participant references",
+          "required": true,
+          "source": "original lifestyle shoot or approved model photos",
+          "usage": "Attach for exact pose, expression, wardrobe, and host/guest arrangement"
+        },
+        {
+          "type": "ui_reference",
+          "name": "OneU phone app screen",
+          "required": true,
+          "source": "original app screenshot or campaign phone graphic",
+          "usage": "Use for the exact phone content and branding"
+        },
+        {
+          "type": "text_layout",
+          "name": "World Cup live-bar reward layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the headline, prize board, participation bubbles, time box, and badge positions"
+        }
+      ],
+      "prompt_instructions": "Preserve '15/07/2026' exactly. Relative to Friday, July 17, 2026, this event time is in the past and should remain unchanged. Keep the live-event/bar-set mood rather than simplifying into a generic banking poster."
+    }
+  }
+}

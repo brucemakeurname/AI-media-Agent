@@ -1,0 +1,83 @@
+{
+    "name":  "financial-isometric-stock-diorama",
+    "tag":  [
+                "infographic",
+                "industry news",
+                "financial data",
+                "stock market",
+                "isometric diorama",
+                "AR UI"
+            ],
+    "biz_niche":  "Tech & Electronics",
+    "content_format":  "Industry news",
+    "group":  "branding_financial_diorama",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Live stock data as a 3D isometric company diorama",
+                                        "color_palette":  "Green and gold for gains; red and gray for declines; soft cream background"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Object",
+                                        "detail":  "A miniature isometric diorama of a public company’s flagship product or architectural identity sits on a landscaped base, paired with a physical date calendar and floating AR stock-price labels.",
+                                        "style":  "Polished 3D isometric data-visualization poster, calm tactile miniature world"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Diorama/AR UI/Calendar/Data graphics",
+                                                "text":  "[STOCK TICKER] [LIVE PRICE]; [DAILY CHANGE]; AI Note: [REASON]; [DATE]",
+                                                "items":  [
+                                                              "Center: miniature version of the company’s flagship product or signature architecture with 3D company logo.",
+                                                              "Foreground corner: realistic 3D calendar block with clear formatted date.",
+                                                              "Above: floating AR-style label for ticker and current price, secondary arrow change label, and small reason note.",
+                                                              "Around base: industry-specific people, vegetation, particles and icons responding to stock direction.",
+                                                              "Background: clean single-color field with soft studio shadow."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Conditional market-status lighting",
+                                                   "effect":  "For gains use warm sunny green/gold accents, lively upward particles and fresh vegetation; for declines use cool overcast red/gray accents, subdued vegetation, fallen leaves and small puddles"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "High-detail 3D isometric diorama and financial infographic",
+                                           "resolution":  "High-resolution square poster, crisp readable UI text"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "live financial data",
+                                                                 "required":  true,
+                                                                 "source":  "verified market-data feed on render date",
+                                                                 "usage":  "Replace ticker, price, daily change, date and reason with current verified values before generating."
+                                                             },
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "company logo",
+                                                                 "required":  true,
+                                                                 "source":  "official brand asset",
+                                                                 "usage":  "Place a correct 3D logo on the miniature product or building."
+                                                             },
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "company flagship product or architectural identity",
+                                                                 "required":  true,
+                                                                 "source":  "approved product/building reference",
+                                                                 "usage":  "Form the central miniature visual anchor."
+                                                             },
+                                                             {
+                                                                 "type":  "ui_reference",
+                                                                 "name":  "AR financial label layout",
+                                                                 "required":  true,
+                                                                 "source":  "source image layout reference",
+                                                                 "usage":  "Keep labels sparse, readable and floating above the diorama."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Retrieve current market data immediately before render; never leave placeholders or stale values in image text.",
+                                                                          "Use verified date, price, percentage movement, concise English reason of five words or fewer, and correct gain/loss color logic.",
+                                                                          "Attach official logo and product references to avoid hallucinated branding."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Role: Autonomous Financial Artist. According to a user-supplied stock code, retrieve real-time data, then generate a 3D isometric miniature-model data visualization poster. Core instruction: search first, replace second, generate third. The final prompt must not contain any {{...}} placeholders; replace every variable with concrete text or values. Retrieve today’s date formatted MMM DD, current stock price, today’s percentage change, an English explanation of the movement of maximum five words, the company’s core flagship product or signature building appearance, market-status color logic, and calendar-block color. If the stock rises, use Warm Sunny Lighting with green/gold accents and orange or white calendar block; if it falls, use Cool Overcast Lighting with red/grey accents and dark grey or blue calendar block. Final visual: an exquisite 3D isometric diorama on a pure background. Visual anchor is a miniature [company flagship product or building] with 3D company logo on top. At the front corner of its base, place a realistic three-dimensional calendar block engraved with the verified date, sharp and legible. Overall lighting uses the market-status color logic. Gains show vitality, rising particles and green vegetation; declines show colder mood, yellowing vegetation or fallen leaves and small ground puddles. Above the model synthesize minimal AR-style labels: main label is stock ticker and live price; secondary label is percentage change with arrow; bottom annotation is Note followed by the concise movement reason. Generate only after all variables have been replaced with current concrete data.",
+                   "negative_prompt":  "unreplaced placeholders, stale financial data, unreadable date, incorrect ticker, false logo, cluttered UI, distorted miniature, low resolution, watermark"
+               }
+}

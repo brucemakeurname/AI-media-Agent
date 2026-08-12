@@ -1,0 +1,66 @@
+{
+  "name": "ginger-girl-rainbow-knit",
+  "tag": [
+    "adult-woman",
+    "ginger-hair",
+    "rainbow-knit",
+    "flat-lay",
+    "cozy-editorial"
+  ],
+  "image_type": "top-down-knit-fashion-portrait",
+  "image_vibe": "cozy-vibrant-dreamy",
+  "image_purpose": "fashion-editorial",
+  "group": "indie/enegy-lifestyle/retro-analog",
+  "source_url": "https://x.com/xbella_bee/status/2021158270203986298",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject is an adult; the covered knitwear, top-down composition, and rainbow textile aesthetic are otherwise preserved."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult ginger-haired rainbow-knit flat-lay portrait",
+      "color_palette": "vibrant ginger red, mustard yellow, charcoal gray, plum purple, bright blue, lavender, and bubblegum pink",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult woman with long voluminous ginger-red hair, messy bangs, loose waves forming a halo, pale skin with natural freckles, blue-gray eyes, winged eyeliner, and matte rose lips.",
+      "wardrobe": "Chunky color-block patchwork sweater in red, mustard, charcoal, and deep plum with a dark-gray crew neckline, delicate unbranded gold chain, and small silver ear hoops.",
+      "pose": "Lying comfortably on a knitted surface with hair fanned outward, looking calmly toward the top-down camera."
+    },
+    "composition_elements": {
+      "framing": "Top-down close-up flat-lay portrait, hair and sweater visible against the textile background.",
+      "environment": "Colorful knitted blanket with horizontal bright-blue, lavender, and bubblegum-pink stripes; no labels or text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft even natural daylight with no harsh shadows, preserving hair shine and knit texture.",
+      "atmosphere": "Cozy, vibrant, dreamy, and tactile."
+    },
+    "technical_specs": {
+      "render_style": "high-detail photoreal fashion flat-lay",
+      "quality": "sharp natural skin, high-fidelity hair strands, visible ribbed/cable-knit texture, light filmic color curve"
+    },
+    "generated_prompt_string": "Create a photoreal 4:5 top-down flat-lay fashion portrait of an adult woman lying comfortably on a colorful knitted blanket. She has long voluminous ginger-red hair with messy bangs and loose waves fanned in a halo, pale skin with natural freckles, blue-gray eyes with winged eyeliner, and matte rose lips. She wears a chunky color-block patchwork sweater in red, mustard, charcoal, and deep plum with a dark-gray crew neckline, a delicate unbranded gold chain, and small silver ear hoops. Use a bright-blue, lavender, and bubblegum-pink striped knit background. Light with soft even natural daylight, preserving detailed hair strands, natural skin, and ribbed/cable-knit texture. No labels, text, logos, or watermark.",
+    "negative_prompt": "minor, nudity, explicit, nsfw, overly revealing clothing, readable text, logo, watermark, plastic skin, distorted face, extra fingers, harsh shadows",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use them only to replace adult hairstyle, sweater palette, or knitted background pattern; remove labels and text.",
+      "assets": [
+        {
+          "type": "wardrobe_reference",
+          "name": "color-block-patchwork-knit-sweater",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace sweater knit pattern, palette, and neckline."
+        },
+        {
+          "type": "environment_reference",
+          "name": "rainbow-striped-knitted-blanket",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace stripe order, yarn texture, and blanket scale."
+        }
+      ]
+    }
+  }
+}

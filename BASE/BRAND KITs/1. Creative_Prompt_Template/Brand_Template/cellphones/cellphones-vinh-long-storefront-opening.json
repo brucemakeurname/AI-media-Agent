@@ -1,0 +1,51 @@
+{
+  "name": "cellphones-vinh-long-storefront-opening",
+  "tag": ["cellphones", "storefront", "vinh long", "branch opening", "store location"],
+  "biz_niche": "Home & Living",
+  "content_format": "Brand story",
+  "group": "cellphones_1426326615989060",
+  "prompt": {
+    "project_info": {
+      "theme": "New branch storefront reveal",
+      "color_palette": "CellphoneS red, white, sky blue, green"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A bright stylized storefront hero image of a CellphoneS branch, shown front-on under a blue sky with fluffy clouds, emphasizing the red facade, category signage, and Vĩnh Long address banner.",
+      "style": "Semi-3D branded storefront illustration"
+    },
+    "composition_elements": {
+      "type": "Storefront/Typography/Location Banner",
+      "text": "cellphoneS, ĐIỆN THOẠI, MÁY TÍNH, PHỤ KIỆN, GIA DỤNG, Số 4 và 6 Lê Thái Tổ, Khóm 2, Long Châu, Vĩnh Long",
+      "items": [
+        "Top: small standalone CellphoneS sign mounted above the roof and a giant white cellphoneS wordmark across the red facade.",
+        "Facade Band: black category icons and text 'ĐIỆN THOẠI', 'MÁY TÍNH', 'PHỤ KIỆN', 'GIA DỤNG'.",
+        "Center: front glass storefront entrance with product displays visible inside.",
+        "Background: simple blue-sky outdoor scene with soft clouds, stylized greenery, and a small floating pink heart.",
+        "Bottom: rounded green address banner with map-pin icon and full Vĩnh Long address."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright sunny daylight",
+      "effect": "Clean optimistic opening-day mood, toy-like polished rendering, crisp signage contrast"
+    },
+    "technical_specs": {
+      "render_style": "Stylized 3D storefront brand visual",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "location", "name": "CellphoneS storefront architecture", "required": true, "source": "source image storefront reference", "usage": "Preserve the front-facing facade, entrance, category bar, and interior window displays."},
+        {"type": "logo", "name": "CellphoneS facade signage", "required": true, "source": "source image brand reference", "usage": "Keep the exact logo wordmark and the smaller roof sign."},
+        {"type": "text_layout", "name": "category labels and address banner", "required": true, "source": "source image text reference", "usage": "Preserve the category wording and the full address in the green strip."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the stylized storefront proportions and address-banner treatment.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the toy-like polished 3D storefront aesthetic with bright sky and greenery."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square stylized storefront visual under a bright blue sky with fluffy clouds. Show a front-facing CellphoneS branch with a giant white cellphoneS wordmark on a bold red facade and a smaller roof sign above it. Add a black category bar reading 'ĐIỆN THOẠI', 'MÁY TÍNH', 'PHỤ KIỆN', and 'GIA DỤNG' with icons. Keep the glass entrance and interior product displays visible. Add a rounded green address banner at the bottom with a map pin and the text 'Số 4 và 6 Lê Thái Tổ, Khóm 2, Long Châu, Vĩnh Long'. Technical style: stylized 3D storefront brand visual, bright sunny daylight, 8k resolution, highly detailed.",
+    "negative_prompt": "dark exterior, incorrect signage, low resolution, warped building, missing address, messy background, watermark, signature"
+  }
+}

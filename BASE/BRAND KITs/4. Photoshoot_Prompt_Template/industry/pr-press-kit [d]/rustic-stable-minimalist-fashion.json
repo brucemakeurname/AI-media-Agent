@@ -1,0 +1,83 @@
+{
+  "name": "rustic-stable-minimalist-fashion",
+  "tag": [
+    "stable-editorial",
+    "equestrian-fashion",
+    "minimalist-rustic",
+    "horse-portrait",
+    "j-crew-style"
+  ],
+  "image_type": "fashion-campaign-key-visual",
+  "image_vibe": "warm-rustic-minimal",
+  "image_purpose": "lookbook",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Minimalist fashion editorial in a rustic stable",
+      "color_palette": "muted brown, white, beige, warm wood, natural horse brown, and soft daylight neutrals",
+      "typography": "elegant white serif J.Crew logo at top center with small white Portugal 2025 caption at bottom center, retained from the source visual"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult woman with dark hair tied back, seated on a wooden bench beside a lean brown horse facing right, neutral expression facing the camera",
+      "wardrobe": "white oversized jacket, white shorts, dark belt, and light-colored riding boots",
+      "style": "modern rustic fashion editorial with calm minimal composition"
+    },
+    "composition_elements": {
+      "framing": "vertical medium-full fashion campaign composition",
+      "subject_position": "adult woman seated in the lower-left foreground, horse spanning the middle and right of frame",
+      "environment": "rustic indoor stable with beige plaster walls, exposed wooden ceiling beams, simple wooden bench and stools, large woven straw basket, and coiled horse reins on the wall",
+      "typography": "white elegant serif J.Crew logo at top center and small white Portugal 2025 text at bottom center, aligned cleanly and legibly"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft natural side daylight from stable windows, approximately 5200K, with gentle bounce fill",
+      "effect": "gentle directional shadows, warm earthy calm atmosphere, realistic texture on plaster, wood, woven straw, fabric, and horse coat"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with a 50mm lens, fashion campaign photography, controlled perspective and natural detail",
+      "resolution": "4k vertical key visual",
+      "finish": "muted natural tones, restrained contrast, minimal fine grain, realistic material texture, no artificial HDR"
+    },
+    "generated_prompt_string": "Medium full shot of a clearly adult woman with dark hair tied back, seated on a wooden bench, facing the camera with a neutral expression, next to a lean brown horse facing right. She wears a white oversized jacket, white shorts, a dark belt, and light-colored riding boots. Set the scene in a rustic indoor stable with beige plaster walls and wooden ceiling beams, simple wooden stools and bench, soft natural daylight from the side casting gentle shadows, and a warm earthy calm minimalist atmosphere. Include a large woven straw basket on a stool and coiled horse reins on the wall. Use muted natural tones of brown, white, and beige. Retain the elegant serif white J.Crew logo at top center and small white Portugal 2025 text at bottom center as shown in the source visual. Modern rustic fashion editorial, ultra-detailed 4k, controlled 50mm fashion-camera perspective, realistic textures, minimal grain, and no modern HDR look.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, malformed horse, illegible typography, random logos, text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-equestrian-fashion-model",
+          "required": true,
+          "source": "Original stable campaign preview image",
+          "usage": "Attach an approved adult face reference when identity continuity is needed; preserve facial structure and likeness without using a celebrity or public-figure likeness."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white-jacket-shorts-riding-boots",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the white oversized jacket, white shorts, dark belt, and light riding boots; do not change the specified outfit unless adapting the template deliberately."
+        },
+        {
+          "type": "location",
+          "name": "rustic-stable-interior",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the beige plaster, wood beams, bench, woven basket, reins, window light, and horse placement; individual stable props may be replaced while keeping the rustic environment."
+        },
+        {
+          "type": "text_layout",
+          "name": "j-crew-portugal-2025-campaign-type",
+          "required": true,
+          "source": "Visible typography in the original preview image and source prompt",
+          "usage": "Attach a cleared typography reference if the campaign requires the exact J.Crew logo and Portugal 2025 caption; preserve placement, scale, serif styling, and legibility, or replace with cleared brand text when adapting."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person, exact wardrobe, stable environment, and typography references when continuity is required. Keep the adult model, white outfit, brown horse, rustic stable, warm side daylight, logo placement, and Portugal 2025 caption consistent. The person may be replaced only with another approved adult; horse, props, stable details, and typography can be replaced only with cleared equivalents, preserving hierarchy and legibility."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the source's young woman as a clearly adult woman and retained the original equestrian fashion concept and visible typography."
+    ]
+  }
+}

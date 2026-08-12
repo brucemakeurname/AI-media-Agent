@@ -1,0 +1,77 @@
+{
+  "name": "shopee-vpbank-summer-cards-200k-discount",
+  "tag": [
+    "bank-partner",
+    "payment-promo",
+    "summer-theme",
+    "credit-card"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Special offers",
+  "group": "shopee_2172727630173041",
+  "prompt": {
+    "project_info": {
+      "theme": "VPBank summer travel card campaign",
+      "color_palette": "Shopee orange, vivid green, blue, sand beige, black"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A summer-themed banking promo with Shopee and VPBank logos at top left and a sale badge 'NGAY 15 SALE GIUA THANG' at top right. A large blue discount pill reads 'GIAM DEN 200.000 DONG'. The lower green panel shows several VPBank cards arranged on a beach with tropical palm trees and cartoon fruit characters. Visible cards include black VPBank travel cards, a scenic teal VISA debit card, and a black diamond card. Sand, beach props, and playful fruit mascots decorate the scene.",
+      "style": "Playful summer fintech poster with card-collage centerpiece, tropical illustration panel, and oversized savings typography"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "VPBank / NGAY 15 / SALE GIUA THANG / GIAM DEN 200.000 DONG / VISA Debit / DIAMOND",
+      "items": [
+        "Top Left: Shopee logo and VPBank logo",
+        "Top Right: White sale badge 'NGAY 15 SALE GIUA THANG'",
+        "Bottom Left: Sand, small bucket, and black VPBank travel cards",
+        "Bottom Right: Diamond card, palm tree, and cartoon pineapple mascot",
+        "Center/Background: Large blue discount pill over a green tropical illustration panel with scenic debit card, cartoon lemon and strawberry characters, and beach setting"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright playful commercial lighting",
+      "effect": "Clean card highlights, vivid tropical color, crisp vector shadows, cheerful summer energy"
+    },
+    "technical_specs": {
+      "render_style": "Fintech summer campaign poster with product-card compositing and illustrated beach panel",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee x VPBank summer payment campaign. Centerpiece is a collection of VPBank cards arranged in a tropical beach illustration panel under a giant blue discount pill that says 'GIAM DEN 200.000 DONG'. Background is Shopee orange with a bright green illustrated beach panel, palm trees, sand, and cartoon fruit mascots. Surrounding elements: Shopee and VPBank logos, white badge 'NGAY 15 SALE GIUA THANG', black travel cards, scenic VISA debit card, black diamond card, and playful summer props. Technical style: fintech summer campaign poster with product-card compositing and illustrated beach panel, bright playful lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "VPBank card render set",
+          "required": true,
+          "source": "official bank card renders",
+          "usage": "Attach for exact card designs, logos, and text treatment"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee and VPBank logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for the top branding"
+        },
+        {
+          "type": "graphic",
+          "name": "Tropical fruit mascot and summer panel system",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the illustrated fruit characters, palm trees, and beach panel styling"
+        },
+        {
+          "type": "text_layout",
+          "name": "VPBank 200k summer discount layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the giant blue discount pill, sale badge, and card arrangement"
+        }
+      ],
+      "prompt_instructions": "This is a more playful summer variant of a bank-card promo. Preserve the fruit mascots and tropical illustration panel rather than simplifying to a plain finance ad. 'NGAY 15' is in the past relative to Friday, July 17, 2026."
+    }
+  }
+}

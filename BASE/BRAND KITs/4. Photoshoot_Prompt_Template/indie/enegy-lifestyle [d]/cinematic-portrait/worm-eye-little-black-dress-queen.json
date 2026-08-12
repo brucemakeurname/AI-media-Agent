@@ -1,0 +1,64 @@
+{
+  "name": "worm-eye-little-black-dress-queen",
+  "tag": [
+    "adult-woman",
+    "black-dress",
+    "low-angle",
+    "architectural-interior",
+    "fashion-editorial"
+  ],
+  "image_type": "low-angle-fashion-portrait",
+  "image_vibe": "confident-minimal-cinematic",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/cinematic-portrait",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed body-focused worm's-eye instructions to a controlled low-angle architectural portrait with natural proportions.",
+      "Replaced neckline and hand-on-chest emphasis with a reference-matched black dress and relaxed pose."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "confident adult black-dress fashion portrait in a minimal architectural interior",
+      "color_palette": "matte black, warm ivory, soft gray, silver, and muted warm skin tones",
+      "format": "vertical 9:16"
+    },
+    "main_subject": {
+      "type": "adult woman from supplied reference image",
+      "detail": "Preserve the exact adult identity, face, age presentation, hair, and core features from the attached reference. She wears the black halter mini dress shown with small silver hoop earrings and a ruby-red stone ring.",
+      "style": "confident contemporary fashion editorial with natural anatomy"
+    },
+    "composition_elements": {
+      "text": "Preserve source text only if present; otherwise no text, logo, or watermark.",
+      "items": [
+        "controlled low-angle full-body portrait with natural limb proportions",
+        "adult subject leans lightly near a doorway or wall frame with one hand resting naturally at the side",
+        "architectural vertical lines converge gently upward to create scale",
+        "floor edge at the bottom and clear headroom above, without body-part foreground emphasis"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft diffused front-left indoor key at 4800K with subtle bounce fill",
+      "effect": "gentle fabric contours, soft natural face light, clean architectural shadows, and refined editorial calm"
+    },
+    "technical_specs": {
+      "render_style": "Sony A7R V with FE 24mm f/1.4 at f/5.6, controlled low-angle perspective, moderately deep focus, realistic fabric texture, no digital gloss",
+      "resolution": "high resolution, vertical 9:16"
+    },
+    "generated_prompt_string": "Using the attached authorized adult reference as mandatory identity source, create a vertical 9:16 low-angle fashion portrait in a minimal architectural interior. Preserve the person's exact adult identity, face, age presentation, hair, and core features. Keep the black halter mini dress, small silver hoop earrings, and ruby-red stone ring shown in the reference. Use a controlled 24mm low angle with natural limb proportions: she leans lightly by a doorway or wall frame with one hand resting naturally at her side. Let vertical architectural lines converge gently upward, with the floor edge at the bottom and clear headroom above, without foreground body-part emphasis. Light with a soft 4800K diffused front-left key and subtle bounce fill, preserving natural fabric texture and a confident refined fashion mood. Preserve source text only if visible; otherwise no text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, identity change, face swap, age alteration, public figure, celebrity likeness, minor, child, body-part exaggeration, sexualized pose, hand on chest, deep neckline emphasis, distorted limbs, extra fingers, deformed, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-and-wardrobe-reference",
+          "required": true,
+          "source": "Attach the original authorized adult non-public-figure reference image.",
+          "usage": "Mandatory source for exact adult identity, age presentation, black-dress design, jewelry, architectural context, lighting logic, and any visible source text."
+        }
+      ],
+      "prompt_instructions": "The original authorized adult non-public-figure reference is mandatory. Preserve identity and black-dress styling while using low-angle perspective only for architectural scale; do not exaggerate body parts, alter identity, or add unverified branding or text."
+    }
+  }
+}

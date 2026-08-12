@@ -1,0 +1,57 @@
+{
+  "name": "ultimatesup-8-8-sale-free-gift-cyclist",
+  "tag": ["flash-sale", "gift-with-purchase", "athlete", "product-lineup", "black-gold", "ecommerce"],
+  "biz_niche": "Sports Nutrition & Supplements",
+  "content_format": "Special offers",
+  "group": "ultimatesup_homepage_20260808",
+  "prompt": {
+    "project_info": {
+      "theme": "High-energy Ultimate Sup flash-sale poster with a free-gift threshold",
+      "color_palette": "Ultimate Sup Yellow, Near Black, Deep Olive Gold, White, Warm Gold Confetti"
+    },
+    "main_subject": {
+      "type": "Event mark / athlete / product lineup",
+      "detail": "A square ecommerce sale poster with an oversized {{EVENT_MARK}} on the left, an active athlete cutout in the lower left, a ticket-shaped free-gift card in the upper right, and a dense lineup of supplement packshots across the lower right.",
+      "style": "Bold sports-retail compositing, high contrast black-and-yellow campaign design, crisp cutout packshots"
+    },
+    "composition_elements": {
+      "type": "Text / product packshots / campaign props",
+      "text": "Use {{EVENT_MARK}}, {{GIFT_HEADLINE}}, {{GIFT_SUBLINE}}, {{SPEND_THRESHOLD}}, {{DATE_WINDOW}}, and {{CTA}}. Add only approved brand, product, and offer copy.",
+      "items": [
+        "Top Left: REF_BRAND_LOGO above the oversized event mark.",
+        "Upper Right: REF_GIFT_ITEMS beside a pale-yellow ticket card tied with a gold ribbon.",
+        "Lower Left: REF_ATHLETE_MODEL in an energetic sport pose, pointing toward the offer.",
+        "Lower Right: REF_PRODUCT_LINEUP arranged in two staggered rows on a yellow plinth.",
+        "Bottom: A yellow date-and-CTA strip with a white rounded CTA button."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "High-contrast commercial key light",
+      "effect": "Gold confetti, clean packshot cutouts, subtle dark geometric panels, strong yellow visual hierarchy"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity sports-supplement ecommerce poster with composited product packshots",
+      "resolution": "1200 x 1200 square, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: Create a square Ultimate Sup flash-sale poster. Preserve the fixed black-and-yellow diagonal composition: oversized {{EVENT_MARK}} left, active REF_ATHLETE_MODEL lower left, pale-yellow ribbon ticket upper right for {{GIFT_HEADLINE}} and {{SPEND_THRESHOLD}}, approved REF_PRODUCT_LINEUP on a yellow plinth lower right, and a bottom yellow strip with {{DATE_WINDOW}} plus {{CTA}}. Use REF_BRAND_LOGO and keep all pack labels accurate. High contrast sports-retail compositing, crisp cutouts, warm gold confetti, 1200 x 1200.",
+    "negative_prompt": "unapproved logo, wrong product packaging, unreadable offer text, distorted athlete anatomy, missing ticket, low contrast, cluttered layout, watermark, cropped products",
+    "reference_elements": {
+      "assets": [
+        {"ref_key": "REF_LAYOUT", "type": "layout", "name": "Original sale composition", "required": true, "source": "ultimatesup-8-8-sale-free-gift-cyclist.jpg", "usage": "Preserve the four-zone diagonal layout and bottom CTA strip."},
+        {"ref_key": "REF_BRAND_LOGO", "type": "brand", "name": "Approved Ultimate Sup logo", "required": true, "source": "Attach approved logo asset", "usage": "Replace logo only; retain upper-left placement."},
+        {"ref_key": "REF_ATHLETE_MODEL", "type": "person", "name": "Approved athlete/model cutout", "required": false, "source": "Attach approved model image", "usage": "Replace athlete while preserving lower-left pointing pose and safe crop."},
+        {"ref_key": "REF_PRODUCT_LINEUP", "type": "product", "name": "Campaign SKU packshots", "required": true, "source": "Attach transparent or clean-background packshots", "usage": "Replace all SKU packshots; preserve two-row lower-right lineup."},
+        {"ref_key": "REF_GIFT_ITEMS", "type": "product", "name": "Gift packshots", "required": false, "source": "Attach approved gift items", "usage": "Place inside or beside the ticket card without obscuring offer text."}
+      ],
+      "prompt_instructions": "Attach REF_LAYOUT, REF_BRAND_LOGO, REF_PRODUCT_LINEUP, and any selected model/gift assets. Build typography in post-production when exact campaign text is required."
+    },
+    "template_controls": {
+      "fixed_structure": ["black-and-yellow diagonal background", "oversized event mark left", "ticket offer upper right", "athlete lower left", "two-row SKU lineup lower right", "bottom date-and-CTA strip"],
+      "substitutable_fields": [
+        {"field": "event_mark", "placeholder": "{{EVENT_MARK}}", "default": "8.8", "replacement_rule": "Use the approved campaign event name or date."},
+        {"field": "offer_copy", "placeholder": "{{GIFT_HEADLINE}} / {{GIFT_SUBLINE}} / {{SPEND_THRESHOLD}}", "default": "FREE 1 GIFT / Min. spend $88", "replacement_rule": "Use only current approved SGD terms."},
+        {"field": "date_and_cta", "placeholder": "{{DATE_WINDOW}} / {{CTA}}", "default": "ONLY 8:00 7/8 - 2:00 8/8 / SHOP NOW", "replacement_rule": "Replace with active campaign timing and CTA."}
+      ]
+    }
+  }
+}

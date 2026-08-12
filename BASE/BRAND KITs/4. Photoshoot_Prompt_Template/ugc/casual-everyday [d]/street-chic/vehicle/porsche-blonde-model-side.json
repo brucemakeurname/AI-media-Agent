@@ -1,0 +1,19 @@
+{
+  "name": "porsche-blonde-model-side",
+  "tag": "ugc",
+  "image_type": "photograph",
+  "image_vibe": "old-money luxury street style",
+  "image_purpose": "vehicle fashion lifestyle content",
+  "group": "casual-everyday/street-chic/vehicle",
+  "prompt": {
+    "project_info": "Candid luxury-car fashion portrait captured from the passenger side.",
+    "main_subject": "One generic approved young adult woman with long blonde wavy hair, calm focused expression, seated in a premium sports car driver's seat in side profile with knees drawn up and both hands on the steering wheel; black cap, rectangular sunglasses, gold hoops, oversized black coat, dark denim, and chestnut shearling boots.",
+    "composition_elements": "Vertical 4:5 eye-level side-profile frame, subject seated against black leather with light stitching, blurred daytime city street through the window, hands and boots visible.",
+    "lighting_and_atmosphere": "Soft natural daylight through the window, candid old-money luxury street-style mood.",
+    "technical_specs": "High-resolution photorealistic photography, sharp focus, natural skin and textile detail, balanced 4:5 framing.",
+    "generated_prompt_string": "Create a vertical 4:5 photorealistic candid portrait of one generic approved young adult blonde woman seated in the driver's seat of a premium sports car, knees drawn up, both hands on the wheel, side profile, black cap and sunglasses, oversized black coat, dark denim and chestnut shearling boots, soft daylight and blurred city street outside.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, nudity, minors, celebrity likeness, public figure likeness, distorted anatomy, extra fingers, malformed steering wheel or boots, visible brand logos, watermark, logo overlay",
+    "reference_elements": {"assets": [{"type": "image", "name": "porsche-blonde-model-side.jpg", "required": true, "source": "local", "usage": "Match adult subject, side profile, knees-up driving pose, outfit, premium car interior, city background, and daylight."}], "prompt_instructions": "Attach the required reference image. Preserve identity, hair, pose, outfit, vehicle interior, composition, and light. Replace the vehicle brand and logo details with a generic premium sports car; no overlaid typography or celebrity likeness."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Normalized schema and made vehicle branding replaceable."]}
+}

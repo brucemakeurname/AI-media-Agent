@@ -1,0 +1,20 @@
+{
+  "name": "shy-moment-in-white-lace",
+  "tag": ["adult-woman", "white-lace-skirt", "fashion-display", "shy-expression", "indoor", "smooth-movement"],
+  "image_type": "fashion-display-video",
+  "image_vibe": "soft-romantic",
+  "image_purpose": "lookbook",
+  "group": "dancing",
+  "prompt": {
+    "project_info": {"title": "Shy moment in white lace", "model": "Seedance 2.0", "source": "https://x.com/qtwaiter/status/2028843234982756775"},
+    "main_subject": "An adult woman wearing a white lace short skirt with a flattering fit, standing indoors to display the garment through a sequence of smooth fashion poses.",
+    "composition_elements": "Minimalist indoor background keeps attention on the adult model and white lace skirt. The sequence moves from entering frame to a final side-facing freeze.",
+    "lighting_and_atmosphere": "Natural lighting with soft tones and a clean minimalist atmosphere.",
+    "technical_specs": {"camera": "No specific camera or lens is provided; keep the model and garment clearly visible.", "motion": "Coherent, smooth, natural movements through five actions.", "format": "Video format is not specified in source."},
+    "generated_prompt_string": "An adult woman wearing a white lace short skirt with a flattering fit stands indoors for a fashion display. Action sequence: 1. Walk into frame and stand naturally. 2. Turn the body to show the dress. 3. Lift one leg briefly to show the garment's movement and styling. 4. Shyly cover the face. 5. Stand sideways and hold a freeze frame. Visual style: natural lighting, soft tones, minimalist background highlighting the character, coherent movements, smooth and natural. Preserve the white lace skirt and its silhouette without explicit or suggestive framing.",
+    "negative_prompt": "blurry, low resolution, noise, watermark, text, logo, distortion, deformation, disfigured face, stiff movements, camera shake, disproportionate, explicit, nsfw, overly revealing, sexualized framing, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {"assets": [{"type": "wardrobe", "name": "white lace skirt reference", "required": true, "source": "dancing/shy-moment-in-white-lace_0.jpg", "usage": "Preserve the white lace short skirt, its fit, and garment-display purpose."}], "prompt_instructions": "Attach the supplied wardrobe reference. Preserve the adult subject, white lace skirt, minimalist indoor setting, natural light, and five-step action sequence. Replace identity or non-essential styling only when explicitly requested; do not add suggestive framing."},
+    "omni_video_prompt": {"scene_description": "An adult woman enters a minimalist indoor setting and presents a white lace skirt through natural turns, a brief leg-lift styling pose, a shy face-covering gesture, and a side-facing final freeze.", "style": "Soft romantic fashion lookbook video with natural lighting and gentle tones.", "camera_direction": "Keep the full model and garment visible through the sequence; no specific camera movement is provided.", "lighting": "Natural soft lighting.", "voice": "None; no dialogue or voice-over.", "SFX": "None specified.", "environment": "Minimalist indoor background.", "element": [{"model": "Adult woman wearing a white lace short skirt with a flattering fit.", "wardrobe": "White lace skirt shown as the primary garment."}], "motion": "Walk into frame, stand naturally, turn to display the garment, briefly lift one leg to show styling, cover the face shyly, then turn sideways and freeze.", "ending": "Hold the final sideways freeze frame.", "text": "None", "keyword": ["adult fashion model", "white lace skirt", "lookbook", "natural light", "soft tones", "minimalist background", "shy gesture", "side freeze"]}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an adult.", "Reframed body-display wording as garment movement and removed suggestive framing while preserving the fashion-display sequence.", "Added required safety and AI-slop negative-prompt terms."]}
+}

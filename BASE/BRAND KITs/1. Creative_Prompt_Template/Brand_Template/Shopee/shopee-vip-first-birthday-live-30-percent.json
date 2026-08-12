@@ -1,0 +1,77 @@
+{
+  "name": "shopee-vip-first-birthday-live-30-percent",
+  "tag": [
+    "livestream-promo",
+    "birthday-campaign",
+    "vip-program",
+    "special-offer"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "shopee_1473058507482113",
+  "prompt": {
+    "project_info": {
+      "theme": "Shopee VIP first birthday livestream event poster",
+      "color_palette": "Stage red, bright orange, gold, royal blue, white, warm skin tones"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "Big celebratory livestream poster featuring host Ngọc Phước, six UPRIZE members, birthday props, and large voucher benefits for Shopee VIP's first anniversary.",
+      "style": "Glossy entertainment event poster, celebrity composite, high-energy ecommerce campaign design"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Shopee VIP / ĐẠI TIỆC SINH NHẬT Shopee VIP 1 TUỔI / HOST NGỌC PHƯỚC / UPRIZE LEON / UPRIZE PN / UPRIZE LAVM / UPRIZE WONBI / UPRIZE DYLAN / UPRIZE BEX / UPRIZE O.D / DEAL ĐỘC QUYỀN / VOUCHER 30% / 10 CƠ HỘI DÙNG SHOPEEVIP MIỄN PHÍ 1 NĂM / XEM LÚC 11H / NGÀY 20.6 / TRÊN Shopee LIVE",
+      "items": [
+        "Top Left: White Shopee bag logo and Shopee VIP brand lockup with crown icon.",
+        "Top Right: Large golden number '1' with blue ribbon 'TUỔI' over red stage curtains and confetti.",
+        "Bottom Left: Host Ngọc Phước in front holding birthday-cake visuals and a large white-orange 'B' shape.",
+        "Bottom Right: Six male performers from UPRIZE arranged in two rows with blue name tags, plus orange-yellow voucher and membership offer boxes.",
+        "Center/Background: Full red stage curtain backdrop with bright spotlights, confetti, and a mascot-like crowned cake character behind the cast."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Stage event lighting",
+      "effect": "Warm spotlight beams, glossy celebrity retouching, saturated celebration colors, confetti sparkle"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic entertainment poster compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Shopee VIP first birthday livestream event poster. Centerpiece is a celebrity-style cast poster featuring host Ngọc Phước and six UPRIZE performers in front of a red stage-curtain backdrop, with a giant golden '1 TUỔI' anniversary mark. Background is a festive stage scene with confetti, spotlights, and cartoon birthday props. Surrounding elements: Shopee and Shopee VIP logos, exact headline 'ĐẠI TIỆC SINH NHẬT Shopee VIP 1 TUỔI', cast name tags, offer boxes 'DEAL ĐỘC QUYỀN', 'VOUCHER 30%', '10 CƠ HỘI DÙNG SHOPEEVIP MIỄN PHÍ 1 NĂM', and footer 'XEM LÚC 11H / NGÀY 20.6 / TRÊN Shopee LIVE'. Technical style: photorealistic entertainment poster compositing, stage event lighting, warm spotlights and confetti sparkle, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Shopee and Shopee VIP logos",
+          "required": true,
+          "source": "official brand assets or original creative",
+          "usage": "Keep the exact top branding and crown motif."
+        },
+        {
+          "type": "person",
+          "name": "Ngọc Phước and six UPRIZE member portraits",
+          "required": true,
+          "source": "original campaign portraits",
+          "usage": "Preserve identities, wardrobe colors, layout, and individual name tags."
+        },
+        {
+          "type": "graphic",
+          "name": "anniversary stage props and voucher boxes",
+          "required": true,
+          "source": "original poster graphics",
+          "usage": "Retain the giant '1 TUỔI', cake mascot, and large offer panels."
+        },
+        {
+          "type": "text_layout",
+          "name": "full headline, cast labels, and livestream footer",
+          "required": true,
+          "source": "original creative",
+          "usage": "Keep exact wording, name labels, and footer timing/date text even though 20.6 is in the past relative to Friday, July 17, 2026."
+        }
+      ],
+      "prompt_instructions": "Use direct refs for all portraits, logos, name tags, and offer boxes. This image is a dense celebrity-event composite, so the cast arrangement and birthday-stage atmosphere must be reconstructed very closely."
+    }
+  }
+}

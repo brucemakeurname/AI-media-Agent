@@ -1,0 +1,70 @@
+{
+  "name": "shopee-cooking-show-huynh-nhut-cho-ben-thanh",
+  "tag": [
+    "cooking-show",
+    "creator-promo",
+    "food-event",
+    "livestream-poster"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Brand story",
+  "group": "shopee_1601069004776796",
+  "prompt": {
+    "project_info": {
+      "theme": "Cooking show chef reveal poster",
+      "color_palette": "Warm brown, gold, red, orange ribbon accents"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A female host or guest in a silky white outfit poses center-left while tasting food from a spoon. The top banner says 'DU DOAN SIEU DAU BEP' and giant gold text reads 'CHIA KHO 20 TRIEU XU'. On the right is a red framed card with the exact text 'DAU BEP CHO BEN THANH HUYNH NHUT ( HCM )'. The foreground is filled with multiple pans of banh xeo cooking over glowing charcoal stoves. Footer strip reads 'FAN MEETING COOKING SHOW DAO HOA HAU', 'DON XEM TAI Shopee LIVE', 'NGAY 6.7', and 'LUC 19H30'.",
+      "style": "Warm food-event composite with celebrity cutout, restaurant ambience, and rich gold-red event typography"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "DU DOAN SIEU DAU BEP / CHIA KHO 20 TRIEU XU / DAU BEP / CHO BEN THANH / HUYNH NHUT ( HCM ) / FAN MEETING / COOKING SHOW / DAO HOA HAU / DON XEM TAI Shopee LIVE / NGAY 6.7 / LUC 19H30",
+      "items": [
+        "Top Left: White Shopee logo against a rustic interior backdrop",
+        "Top Right: Orange ribbon swoosh and warm hanging lights",
+        "Bottom Left: Multiple banh xeo pans over charcoal stoves with steam and fire glow",
+        "Bottom Right: Large red information card with chef/location text and footer timing strip",
+        "Center/Background: Cozy wooden restaurant interior, the tasting pose of the woman, floating sparkles, and warm event glow"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm restaurant-stage lighting",
+      "effect": "Steam haze, golden highlights, ember glow, soft portrait rim light"
+    },
+    "technical_specs": {
+      "render_style": "Food-event poster with photo compositing and promotional typography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee Live cooking-show prediction event. Centerpiece is a woman in a silky white outfit tasting food from a spoon, standing in front of a warm restaurant interior and multiple banh xeo pans cooking over charcoal stoves. Background is a rustic wood venue with warm lights and orange ribbon accents. Surrounding elements: Shopee logo top left, top headline 'DU DOAN SIEU DAU BEP', gold line 'CHIA KHO 20 TRIEU XU', red framed info card reading 'DAU BEP CHO BEN THANH HUYNH NHUT ( HCM )', and footer strip 'FAN MEETING COOKING SHOW DAO HOA HAU', 'DON XEM TAI Shopee LIVE', 'NGAY 6.7', 'LUC 19H30'. Technical style: food-event poster with photo compositing and promotional typography, warm restaurant-stage lighting, steam haze, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Female host/guest portrait",
+          "required": true,
+          "source": "original campaign cutout if exact likeness is required",
+          "usage": "Attach to reproduce exact face, hairstyle, pose, and wardrobe"
+        },
+        {
+          "type": "product",
+          "name": "Banh xeo pan food references",
+          "required": true,
+          "source": "food reference photos from the original campaign",
+          "usage": "Use for the multiple pans, charcoal stoves, steam, and food texture fidelity"
+        },
+        {
+          "type": "text_layout",
+          "name": "Chef reveal poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the right-side red text panel, top prize banner, and footer timing strip"
+        }
+      ],
+      "prompt_instructions": "Preserve all visible wording exactly, including 'HUYNH NHUT ( HCM )', 'NGAY 6.7', and 'LUC 19H30'. These dates are in the past relative to Friday, July 17, 2026 and should remain as historical campaign copy."
+    }
+  }
+}

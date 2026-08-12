@@ -1,0 +1,22 @@
+{
+  "name": "sweet-couple-lifestyle-photography",
+  "tag": ["ugc", "selfie-pov", "cozy-casual", "private-indoor"],
+  "image_type": "couple lifestyle portrait",
+  "image_vibe": "warm affectionate golden-hour candid",
+  "image_purpose": "approved couple identity and lifestyle reference",
+  "group": "cozy-casual/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic lifestyle portrait of two approved adults using the supplied local image as the required identity reference for both people.",
+    "main_subject": "Approved adult woman with dark brown hair and approved adult man with short dark hair and light beard; preserve each supplied identity separately without mixing faces.",
+    "composition_elements": "Medium eye-level portrait, couple standing close with a light embrace and natural smiles, softly blurred balcony or cozy city setting, warm decorative lights, realistic clothing and proportions.",
+    "lighting_and_atmosphere": "Soft warm natural golden-hour or evening light, romantic candid mood without sexualized posing.",
+    "technical_specs": "Photorealistic lifestyle photography, portrait 4:5, faces sharp, background gently blurred, realistic skin texture and warm tones.",
+    "generated_prompt_string": "Photorealistic portrait of two approved adults, preserving each supplied face separately and accurately. The dark-haired woman and short-haired bearded man stand close with a light embrace and genuine smiles in a softly blurred warm city or balcony setting with golden-hour decorative lights. Keep the mood affectionate, candid, and non-sexualized.",
+    "negative_prompt": "explicit, nsfw, overly revealing, underage, childlike, sexualized pose, nudity, lingerie, transparent clothing, face mixing, identity drift, distorted hands, extra limbs, plastic skin, watermark, logo invention, public figure likeness.",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "sweet-couple-lifestyle-photography_0.jpg", "required": true, "source": "local preview", "usage": "Both adult identities, pose, clothing, balcony, lighting, and composition reference."}],
+      "prompt_instructions": "Attach the required local image. Preserve the two identities separately, their hair, clothing, pose, lighting, and environment; replaceability applies to either identity only with a separately approved reference. Do not mix faces or invent typography/logos."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

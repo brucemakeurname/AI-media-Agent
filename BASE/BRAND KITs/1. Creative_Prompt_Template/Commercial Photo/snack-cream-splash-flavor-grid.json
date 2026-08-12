@@ -1,0 +1,76 @@
+{
+    "name":  "snack-cream-splash-flavor-grid",
+    "tag":  [
+                "food",
+                "product demos",
+                "snack",
+                "cream splash",
+                "macro photography",
+                "flavor grid"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Product demos",
+    "group":  "commercial_snack_flavors",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Four high-key snack and cream flavor posters",
+                                        "color_palette":  "Clean white, herb green, banana yellow, taro lavender, cheese gold"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "A 2 by 2 grid of airborne snack pieces interacting with frozen glossy cream: herb chips, banana chips, taro chips and cheese crackers.",
+                                        "style":  "High-key macro still-life food photography with playful 3D typography"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Food/Fluid splash/Typography",
+                                                "text":  "HERB CRUNCH; BANANA BLISS; TARO POP; CHEESE HIT",
+                                                "items":  [
+                                                              "Upper left: golden herb chips arc through thick white Mediterranean herb cream with oregano and thyme.",
+                                                              "Upper right: banana chips burst through vanilla cream and sugar dust.",
+                                                              "Lower left: lavender taro chips erupt through pastel-purple taro cream.",
+                                                              "Lower right: cheese crackers hover over thick pale-yellow cheese dip and cheddar powder.",
+                                                              "Every panel: floating 3D flavor title and small descriptor line on clean white background."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "High-key cinematic bloom lighting",
+                                                   "effect":  "Ethereal white field, frozen droplets and crumbs, shallow bokeh, glossy cream highlights"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Canon EOS R5 macro food commercial photography, 85mm f/1.2 look",
+                                           "resolution":  "9:16 vertical grid, highly detailed"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "snack product and flavor references",
+                                                                 "required":  true,
+                                                                 "source":  "approved packshot and ingredient board",
+                                                                 "usage":  "Preserve actual snack shape, seasoning, color and flavor identity."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "flavor title and descriptor typography",
+                                                                 "required":  true,
+                                                                 "source":  "source grid layout",
+                                                                 "usage":  "Keep title wording, 3D material and panel placement accurate."
+                                                             },
+                                                             {
+                                                                 "type":  "ingredient",
+                                                                 "name":  "cream, spices and crumbs",
+                                                                 "required":  true,
+                                                                 "source":  "recipe/food styling reference",
+                                                                 "usage":  "Use physically plausible flavor-specific cream, powder and floating debris."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Generate one flavor panel or the full 2 by 2 grid as requested.",
+                                                                          "Keep white background and high-key macro look consistent.",
+                                                                          "Attach product reference; do not substitute different chips or cream colors."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "{ project_configuration: macro_still_image; global settings: aspect ratio 9:16, chaos weight 15, high-key clean-white backdrop, cinematic bloom, ethereal atmosphere; Canon EOS R5, 85mm f/1.2, shallow bokeh, focus on snack and cream interaction. Scene item 001: herb-seasoned crisp golden chips suspended mid-air with glossy thick-white Mediterranean herb cream frozen splash arc, liquid droplets, oregano flakes, thyme flakes and hyper-detailed crumbs; text HERB CRUNCH in bold extruded creamy-white 3D lettering with soft green edge glow, secondary text herb burst • ultra crisp • chef inspired. Item 002: suspended banana chips with soft creamy thick-white vanilla cream frozen burst, soft arc droplets, fine sugar dust and detailed banana crumbs; text BANANA BLISS in rounded pastel-yellow 3D bubble text, secondary text sweet crunch • real banana • smooth finish. Item 003: suspended lavender-tinted taro chips with glossy viscous pastel-purple taro cream frozen eruption, droplets, sugar dust and soft taro crumbs; text TARO POP in clean geometric pastel-purple 3D text with soft neon rim light, secondary text earthy sweet • creamy texture • premium bite. Item 004: suspended textured cheese crackers with thick pale-yellow cheese dip frozen splash, static droplets, cheddar powder and cracker crumbs; text CHEESE HIT with rich dip • bold bite • crunch impact. All typography floats in space and harmonizes with the splash composition.",
+                   "negative_prompt":  "wrong snack flavor, flat cream, muddy white background, unreadable 3D text, generic crumbs, low resolution, watermark"
+               }
+}

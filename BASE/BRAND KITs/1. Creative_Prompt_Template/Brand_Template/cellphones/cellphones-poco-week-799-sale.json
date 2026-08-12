@@ -1,0 +1,55 @@
+{
+  "name": "cellphones-poco-week-799-sale",
+  "tag": ["cellphones", "poco", "promo week", "799 trieu", "student discount"],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "cellphones_1564729955022845",
+  "prompt": {
+    "project_info": {
+      "theme": "Poco promotional week sale poster",
+      "color_palette": "Red, white, coral pink, yellow, black"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A bright celebratory smartphone-sale poster for Poco featuring three phone color variants and one front-facing screen hero, surrounded by red balloons and large pricing banners for promotional week offers.",
+      "style": "Festive retail smartphone campaign poster"
+    },
+    "composition_elements": {
+      "type": "Typography/Phones/Balloons/CTA",
+      "text": "cellphoneS, 6 - 12.7, Tuần Lễ Poco, Giá từ 7.99 Triệu, S-Teacher & S-Student Giảm đến 300K, TRẢ GÓP 0% | Trả trước 0đ | Phụ phí 0đ, MUA NGAY, POCO",
+      "items": [
+        "Top Center: red cellphoneS logo block.",
+        "Upper Left: rounded red date pill '6 - 12.7'.",
+        "Upper Middle: red handwritten-style text 'Tuần Lễ' followed by huge red 'Poco'.",
+        "Center: coral-red rounded pricing banner split into 'Giá từ 7.99 Triệu' and 'S-Teacher & S-Student Giảm đến 300K'.",
+        "Bottom Center: four Poco phone renders, including one black phone front view and three angled rear-view color variants in black, yellow, and blue.",
+        "Sides: floating red balloons.",
+        "Bottom: white installment line and a rounded white CTA button 'MUA NGAY'.",
+        "Background: white-to-pink cityscape glow with a red geometric portal shape behind the phones."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright retail campaign lighting",
+      "effect": "Cheerful festival-sale energy, glossy balloon highlights, clean product cutouts"
+    },
+    "technical_specs": {
+      "render_style": "Commercial smartphone promotion poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "logo", "name": "cellphoneS and POCO branding", "required": true, "source": "source image brand reference", "usage": "Preserve the top retail logo and the POCO marks on the phones."},
+        {"type": "product", "name": "Poco phone lineup", "required": true, "source": "source image product reference", "usage": "Keep the exact four-phone composition, screen wallpaper, and color variants."},
+        {"type": "graphic", "name": "balloons and red portal backdrop", "required": true, "source": "source image graphic reference", "usage": "Preserve the celebratory red balloons and the geometric red glow shape behind the phones."},
+        {"type": "text_layout", "name": "Poco week pricing banners", "required": true, "source": "source image text reference", "usage": "Keep the exact wording, date pill, pricing split, and CTA footer."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve phone angles, balloon placement, and price-banner proportions.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the bright celebratory sale mood and the clean white-to-pink retail backdrop."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square smartphone sale poster with a white-to-pink glowing city background and a red geometric portal behind the products. Place the red cellphoneS logo at the top center, a red date pill '6 - 12.7', and the headline 'Tuần Lễ Poco' in red with handwritten-style 'Tuần Lễ'. Add a coral-red split pricing banner reading 'Giá từ 7.99 Triệu' and 'S-Teacher & S-Student Giảm đến 300K'. In the center show four POCO phone renders: one front-facing black-screen hero and three angled rear-view phones in black, yellow, and blue. Add floating red balloons around the scene, a bottom line 'TRẢ GÓP 0% | Trả trước 0đ | Phụ phí 0đ', and a rounded white CTA button 'MUA NGAY'. Technical style: commercial smartphone promotion poster, bright retail campaign lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark layout, wrong text, missing phones, low resolution, distorted devices, cluttered background, watermark, signature"
+  }
+}

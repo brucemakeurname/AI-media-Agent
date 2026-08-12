@@ -1,0 +1,72 @@
+{
+  "name": "lilixbox-nuxe-for-your-glow-oil-duo",
+  "tag": [
+    "nuxe",
+    "product-duo",
+    "summer-glow",
+    "hero-shot",
+    "oil",
+    "clean-poster"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "lilixbox_1902952357045524",
+  "prompt": {
+    "project_info": {
+      "theme": "Summer-glow duo hero for NUXE oils",
+      "color_palette": "Sky Blue, Orange Gold, Soft Cream, Gold Metal"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A clean blue-background hero poster featuring two NUXE Huile Prodigieuse oils, one larger golden shimmer version and one smaller classic oil, each floating over glossy product swatches.",
+      "style": "Minimal luxury product poster, clean packshot beauty design, bright summery glow aesthetic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'FOR YOUR GLOW' and 'Toả sáng tự tin dưới nắng hè'. Product labels read 'NUXE Huile Prodigieuse Or' and 'NUXE Huile Prodigieuse'.",
+      "items": [
+        "Top Left: Large orange headline 'FOR YOUR GLOW' over a sky-blue background.",
+        "Top Right: Smaller orange Vietnamese subline 'Toả sáng tự tin dưới nắng hè'.",
+        "Bottom Left: Large square golden-shimmer NUXE bottle with a metallic cap, resting in front of a matching glittery oil smear.",
+        "Bottom Right: Smaller classic clear-gold NUXE bottle positioned over a pale golden oil smear.",
+        "Center/Background: Simple blue field with subtle shadows under the products to keep a floating packshot feel."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio product lighting",
+      "effect": "Clean glass reflections, golden liquid sparkle, crisp luxury readability, summery brightness"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity luxury product poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a summer-glow oil duo. Centerpiece is two NUXE Huile Prodigieuse oils floating on a sky-blue background: a larger glittering Huile Prodigieuse Or bottle on the left and a smaller classic oil bottle on the right. Surrounding elements: glossy oil smears behind each bottle, headline 'FOR YOUR GLOW', and subline 'Toả sáng tự tin dưới nắng hè'. Keep the clean blue field, exact bottle forms, and elegant summery glow mood. Technical style: high fidelity luxury product poster, soft studio product lighting, clean glass reflections and golden liquid sparkle, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "NUXE Huile Prodigieuse Or and classic Huile Prodigieuse bottles",
+          "required": true,
+          "source": "Attach official packshots or crops from the original poster",
+          "usage": "Preserve square bottle shapes, cap styles, label typography, and relative sizes."
+        },
+        {
+          "type": "graphic",
+          "name": "Oil smear backplates",
+          "required": true,
+          "source": "Use the original poster as texture reference",
+          "usage": "Keep the glossy oil smears behind each bottle and their distinct warm-gold tones."
+        },
+        {
+          "type": "text_layout",
+          "name": "FOR YOUR GLOW typography",
+          "required": true,
+          "source": "Use the original poster as text reference",
+          "usage": "Maintain the headline and Vietnamese subline placement at the top."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, attach the two bottle refs and the original composition. The result should remain a minimal premium blue-background packshot poster with the exact two-oil arrangement."
+    }
+  }
+}

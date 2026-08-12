@@ -1,0 +1,84 @@
+{
+  "name": "black-white-sport-bra-girl",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "athleisure",
+    "black-and-white"
+  ],
+  "image_type": "athleisure studio fashion portrait",
+  "image_vibe": "modern, confident, clean, editorial",
+  "image_purpose": "activewear lookbook and athletic fashion campaign",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic medium studio portrait of one original approved adult woman in a modern two-tone athletic set against a minimalist cream backdrop.",
+    "main_subject": "Original approved adult woman with long voluminous wavy honey-brown hair with natural highlights, center-parted messy-chic texture, light expressive eyes, a calm direct gaze, natural skin texture, and an athletic feminine silhouette. She wears a black-and-white asymmetric sports bra and matching high-waisted two-tone athletic briefs with the supplied minimalist wordmark on the band.",
+    "composition_elements": [
+      "Subject seated cross-legged on the floor, leaning slightly forward with arms resting near the lap.",
+      "Medium eye-level framing with the face, asymmetric garment, supplied wordmark, and seated pose clearly visible.",
+      "Minimal solid cream-colored studio backdrop and a cream, obsidian-black, crisp-white, and warm-tan palette.",
+      "Keep the activewear construction, logo placement, and garment color split consistent."
+    ],
+    "lighting_and_atmosphere": "Soft high-key studio lighting with minimal shadows, warm natural skin rendering, gentle directional shaping, and a clean modern athleisure atmosphere.",
+    "technical_specs": "Photorealistic 8K medium portrait, 85mm lens at f/2.8, shallow depth of field, sharp facial and garment detail, cinematic natural grain, realistic fabric and skin texture, no added text or watermark.",
+    "generated_prompt_string": "Photorealistic 8K studio portrait of one original approved adult woman with long voluminous wavy honey-brown hair with natural highlights, center-parted messy-chic texture, light expressive eyes, calm direct gaze, and natural skin texture. She has an athletic feminine silhouette and wears a black-and-white asymmetric sports bra with a matching high-waisted two-tone athletic brief, preserving the supplied minimalist wordmark on the band. She sits cross-legged on the floor, leans slightly forward, and rests her arms near her lap. Use a minimalist solid cream-colored studio backdrop, soft high-key lighting with minimal shadows, warm natural skin tones, an eye-level medium framing, cream obsidian-black crisp-white and warm-tan palette, 85mm f/2.8, shallow depth of field, cinematic natural grain, sharp realistic fabric and facial detail, no added text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "celebrity likeness",
+      "explicit measurements",
+      "body-part emphasis",
+      "distorted anatomy",
+      "extra fingers",
+      "inconsistent identity",
+      "warped garment",
+      "distorted wordmark",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "watermark",
+      "unwanted text",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "black-white-sport-bra-girl.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for original approved-adult identity, face, hair, expression, pose, and skin reference."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-and-white asymmetric athletic set",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the exact two-tone sports bra, high-waisted brief, fit, seams, and supplied wordmark placement."
+        },
+        {
+          "type": "graphic",
+          "name": "supplied minimalist wordmark on athletic band",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the supplied wordmark only; do not invent or add unrelated logos."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe, and supplied wordmark references; no optional assets are needed. Keep identity, face, hair, outfit, wordmark/logo placement, seated pose, cream environment, lighting, and typography consistency. Replace only with an equivalent approved adult, equivalent athletic outfit, or supplied logo reference. Preserve the existing wordmark without adding text or watermark, and do not introduce unrelated branding."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public-figure identities and removed suggestive identity/body wording while preserving the adult athletic subject, exact two-tone activewear, wordmark, pose, and studio concept."
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "vfe-france-2026-most-popular-programs",
+  "tag": [
+    "vfe",
+    "france-2026",
+    "programs",
+    "admissions",
+    "infographic"
+  ],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Infographics",
+  "group": "vfe_1448173757341979",
+  "prompt": {
+    "project_info": {
+      "theme": "Most sought-after study programs in France for 2026 admissions",
+      "color_palette": "White, Navy Blue, Red, Soft Gold"
+    },
+    "main_subject": {
+      "type": "Text",
+      "detail": "A vertical ranked infographic listing the top 10 academic programs in France in 2026, with red numbered badges on the left, program names in white bars through the center, and navy request-count boxes on the right.",
+      "style": "Structured editorial infographic with high text density, bilingual academic naming, and data-first hierarchy."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "XU HƯỚNG TUYỂN SINH TẠI PHÁP 2026:\nTOP CHƯƠNG TRÌNH ĐÀO TẠO ĐƯỢC SĂN ĐÓN NHẤT\n01 PASS (Năm 1 ngành Y - Dược) 836.177\n02 DE Infirmier (Điều dưỡng) 827.776\n03 Chương trình Kỹ sư (5 năm) 726.999\n04 Licence Luật 379.432\n05 BUT TC (Kỹ thuật thương mại hóa) 208.804\n06 BUT GEA (Quản trị doanh nghiệp & hành chính) 207.919\n07 CPGE MPSI (Dự bị Grande École khối Toán - Vật lý - KHKT) 197.775\n08 BTS MCO (Quản lý thương mại vận hành) 186.856\n09 CPGE PCSI (Dự bị Grande École khối Vật lý - Hóa học - KHKT) 182.882\n10 Licence Tâm lý học 158.613\nNGÀNH HỌC\nSỐ NGUYỆN VỌNG\nVFE VIETNAM FRANCE EXCHANGE",
+      "items": [
+        "Top Left: Two-line title in navy and red uppercase.",
+        "Top Right: Clean empty margin with continuation of the ranked list design.",
+        "Bottom Left: VFE Vietnam France Exchange logo and red arrow label 'NGÀNH HỌC'.",
+        "Bottom Right: Blue arrow label 'SỐ NGUYỆN VỌNG'.",
+        "Center/Background: Ten horizontal white rows with red numeric blocks and dark blue value boxes."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat infographic lighting",
+      "effect": "No realistic lighting, just crisp white panel separation, clear text blocks, and high readability."
+    },
+    "technical_specs": {
+      "render_style": "Vector-style data infographic",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality educational infographic poster for France 2026 admissions trends. Centerpiece is a ranked top-10 list of the most sought-after study programs in France, using red numbered badges, white middle rows for program names, and navy value boxes for request counts. Background is a clean minimal editorial infographic field. Surrounding elements: title 'XU HƯỚNG TUYỂN SINH TẠI PHÁP 2026: TOP CHƯƠNG TRÌNH ĐÀO TẠO ĐƯỢC SĂN ĐÓN NHẤT', VFE logo at lower left, bottom labels 'NGÀNH HỌC' and 'SỐ NGUYỆN VỌNG'. Technical style: vector-style data infographic, flat infographic lighting, crisp high readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place at bottom left."
+        },
+        {
+          "type": "text_layout",
+          "name": "Top-10 ranked admissions infographic layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve all 10 rows, the number badges, counts, and the bottom arrow labels."
+        }
+      ],
+      "prompt_instructions": "This post is entirely data-driven. Preserve the exact program names and counts. Do not swap the row order or simplify the multilingual labels."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "prompt-1010",
+  "tag": "ugc, casual-everyday, cozy-home, private-indoor",
+  "image_type": "home lifestyle portrait",
+  "image_vibe": "playful sunny lounge-room comfort",
+  "image_purpose": "UGC-style relaxed influencer lifestyle visual",
+  "group": "cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create a realistic vertical home lifestyle portrait of an original approved adult model relaxing on a modern sofa.",
+    "main_subject": "An original approved adult woman with long wavy blonde hair, natural skin texture, light freckles, gold jewelry, and a friendly relaxed smile reclines comfortably on a dark gray textured sofa with one arm supporting her.",
+    "composition_elements": "Eye-level side angle, yellow matching lounge set with a secure-coverage bandeau-style top and shorts, modern gray living room, paneled walls, warm wall sconce, framed abstract art, and a replaceable product-style graphic on the top.",
+    "lighting_and_atmosphere": "Soft diffused mixed indoor light with warm sconce glow and gentle window fill, cozy playful confident mood.",
+    "technical_specs": "Ultra-realistic phone photography, vertical 2:3, 35mm or 50mm portrait perspective, sharp face and torso focus, subtle background blur, natural digital-camera grain.",
+    "generated_prompt_string": "Ultra-realistic vertical UGC home lifestyle portrait of an original approved adult woman with long wavy blonde hair, natural skin texture, light freckles, and gold jewelry reclining comfortably on a dark gray textured sofa. She wears a yellow matching lounge set with a secure-coverage bandeau-style top and shorts. Modern gray living room with paneled walls, warm wall sconce, framed abstract art, and a replaceable product-style graphic on the top. Soft window fill mixed with warm ambient light, relaxed friendly expression, realistic phone photography, 2:3.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, distorted anatomy, extra limbs, warped hands, unreadable text, watermark, brand-copying",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "yellow lounge sofa reference", "required": true, "source": "attached source image", "usage": "Match the adult subject's reclined pose, yellow outfit, gray sofa, wall paneling, and warm home lighting."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Keep identity, pose, outfit color story, sofa, room architecture, art placement, and lighting consistent. Identity, outfit, product, logo, environment, and typography elements must be replaceable; visible brand wording or artwork should be treated as editable placeholders."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an original approved adult model.", "Added secure-coverage wording and replaceable brand guidance.", "Added safety exclusions."]
+  }
+}

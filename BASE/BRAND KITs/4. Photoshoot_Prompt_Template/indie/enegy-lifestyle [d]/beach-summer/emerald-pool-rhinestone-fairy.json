@@ -1,0 +1,71 @@
+{
+  "name": "emerald-pool-rhinestone-fairy",
+  "tag": [
+    "pool-editorial",
+    "tropical-waterfall",
+    "rhinestone-makeup",
+    "emerald-water",
+    "high-fashion"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "ethereal-dark-romantic-tropical",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/beach-summer",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced public-figure likeness with an original adult model and retained the reference outfit as a dark wet long-sleeve swim top described without explicit or suggestive wording."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "ethereal tropical-pool fashion editorial",
+      "color_palette": "emerald green, fern green, deep charcoal, deep red, and sunlit highlights",
+      "format": "vertical 9:16"
+    },
+    "main_subject": {
+      "type": "original adult woman model",
+      "detail": "Original adult woman with wet dark wavy hair, fair rosy skin, deep red lipstick, and small rhinestones placed around the eyes and nose bridge. She wears a dark wet long-sleeve swim top matching the reference while floating calmly in water.",
+      "style": "high-fashion beauty editorial with natural skin texture"
+    },
+    "composition_elements": {
+      "text": "no text, logo, watermark, or recognizable person likeness",
+      "items": [
+        "eye-level close portrait from within an emerald natural pool",
+        "dense tropical ferns around the frame",
+        "small waterfall and gentle splashes in the background",
+        "sunlight caustics on water, sleeves, and foliage"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "warm 5200K daylight filtering through forest foliage",
+      "effect": "soft facial light, sunlight and caustic reflections gently shaping shoulders and chest area through the long-sleeve swim top, organic shadow falloff, and a serene dark-romantic water-garden atmosphere"
+    },
+    "technical_specs": {
+      "camera": "Canon EOS R5",
+      "lens": "RF 85mm f/1.2 at f/2",
+      "render_style": "sharp eyes, cinematic shallow depth of field, natural color grade, realistic pores and water texture, restrained highlight recovery"
+    },
+    "generated_prompt_string": "Create a vertical 9:16 high-fashion beauty editorial of an original adult woman floating calmly in a crystal-clear emerald natural pool surrounded by dense tropical ferns. She has wet dark wavy hair, fair rosy skin, deep red lipstick, and small rhinestones delicately placed around her eyes and across the nose bridge. Keep the dark wet long-sleeve swim top shown in the reference. Frame her face at eye level, with a small waterfall and gentle ripples behind her. Use warm 5200K sunlight filtering through foliage, soft facial illumination, and caustic reflections gently shaping her shoulders and chest area through the swim top, with sharp eye focus and cinematic shallow depth of field. Keep the mood serene, ethereal, and darkly romantic; avoid recognizable celebrity likenesses, explicit styling, text, logos, and watermarks.",
+    "negative_prompt": "explicit, nsfw, overly revealing, public figure, celebrity likeness, minor, child, nudity, sexualized pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-model-reference",
+          "required": false,
+          "source": "Attach a reference of an authorized adult non-public-figure model if identity direction is required.",
+          "usage": "Replace only the original adult model identity while retaining the dark long-sleeve swim top, wet hair, rhinestone makeup, water pose, and tropical setting."
+        },
+        {
+          "type": "location",
+          "name": "emerald-pool-reference",
+          "required": false,
+          "source": "Attach a pool or waterfall reference if a specific location is required.",
+          "usage": "Replace only foliage and rock details while retaining the emerald-water palette and eye-level portrait framing."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. Preserve the dark long-sleeve swim top, wet-hair styling, water pose, and tropical setting; location reference is optional."
+    }
+  }
+}

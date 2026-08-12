@@ -1,0 +1,83 @@
+{
+  "name": "dark-angel-with-doberman",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "fashion-fantasy",
+    "doberman"
+  ],
+  "image_type": "fantasy fashion studio portrait",
+  "image_vibe": "dark glamour, high-key, dramatic, powerful",
+  "image_purpose": "fashion campaign and character lookbook",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic 4:5 high-key fashion fantasy portrait of one original approved adult woman and one Doberman in a seamless white studio.",
+    "main_subject": "Original approved adult woman with long straight platinum-blonde hair, serious direct gaze, natural skin texture, white layered feather wings, a white fashion corset-style bodysuit with lace detail, translucent white gloves, glossy white thigh-high boots, and a delicate pearl-like choker. A muscular black-and-rust Doberman stands alert beside her wearing a black leather collar with supplied silver studs and a heavy silver chain leash.",
+    "composition_elements": [
+      "Woman crouches beside the dog, holding the chain leash while the dog stands upright at the right side of the frame.",
+      "Large white wings fill the upper-left and counterbalance the dense dark dog mass on the right.",
+      "Seamless cool light-gray studio wall transitions to a white floor; keep both subjects isolated and fully readable.",
+      "Preserve wing feather detail, dog coat texture, collar studs, chain, boots, gloves, and fashion pose."
+    ],
+    "lighting_and_atmosphere": "Controlled high-key studio lighting with cool neutral fill, soft floor shadows, crisp feather and coat highlights, and restrained dark-glamour contrast without haze.",
+    "technical_specs": "Photorealistic 4:5 full or three-quarter shot, 50mm lens at f/5.6, high-resolution detail, realistic feather, leather, metal, dog fur, fabric, and skin texture, subtle natural grain, no text or watermark.",
+    "generated_prompt_string": "Photorealistic 4:5 high-key fashion fantasy studio portrait of one original approved adult woman with long straight platinum-blonde hair, serious direct gaze, natural skin texture, large layered white feather wings, a white fashion corset-style bodysuit with lace detail, translucent white gloves, glossy white thigh-high boots and a delicate pearl-like choker. Beside her, a muscular black-and-rust Doberman stands alert wearing a black leather collar with supplied silver studs and a heavy silver chain leash held by the woman. She crouches beside the dog in a controlled editorial pose. Use a seamless cool light-gray studio wall transitioning to a white floor, wings filling the upper-left and dog balancing the right side, high-key studio lighting, soft floor shadows, crisp feather and coat highlights, realistic materials, 50mm f/5.6, no text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "celebrity likeness",
+      "animal injury",
+      "aggressive attack",
+      "distorted anatomy",
+      "extra fingers",
+      "deformed dog",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "watermark",
+      "text",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "dark-angel-with-doberman.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for original approved-adult identity, face, hair, wardrobe, wings, and pose."
+        },
+        {
+          "type": "accessory",
+          "name": "Doberman with supplied studded collar and chain leash",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve dog identity, coat, collar studs, chain, and placement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white wings, corset-style fashion bodysuit, gloves, boots, pearl choker",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the supplied fashion fantasy wardrobe and wing detail."
+        }
+      ],
+      "prompt_instructions": "Attach all required person, dog/prop, and wardrobe references; no optional assets are needed. Keep identity, outfit, wings, dog, collar, chain, pose, environment, lighting, and composition consistent. Replace only with an equivalent approved adult, equivalent dog reference, or equivalent supplied wardrobe. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Reframed the lingerie wording as fashion corset styling and preserved the safe adult fashion-fantasy concept, dog, wings, props, and studio composition."
+    ]
+  }
+}

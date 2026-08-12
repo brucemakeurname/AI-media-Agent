@@ -1,0 +1,76 @@
+{
+    "name":  "felt-lunar-new-year-card",
+    "tag":  [
+                "seasonal",
+                "Lunar New Year",
+                "felt diorama",
+                "greeting card",
+                "Year of the Horse",
+                "3D typography"
+            ],
+    "biz_niche":  "Fashion & Apparel / Editorial",
+    "content_format":  "Seasonal",
+    "group":  "branding_lunar_new_year",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Year of the Horse felt Lunar New Year greeting card",
+                                        "color_palette":  "Festive red, champagne gold, cream, peach, soft snow white, pale mist"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Character",
+                                        "detail":  "A cute felt Q-version pony in a red vest and tiger-head hat stands as a festival messenger in a deep window-like card diorama, surrounded by Q-version IP characters in traditional festive dress.",
+                                        "style":  "High-end felt and coarse-knit miniature with frosted-glass volumetric type"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Diorama/Typography/Festive props",
+                                                "text":  "Happy New Year; 新年快乐; 新年吉祥源",
+                                                "items":  [
+                                                              "Upper center: independent thick red frosted-glass letters Happy New Year with suspended Chinese calligraphy text.",
+                                                              "Center window: felt pony, Q-version supporting characters, miniature festive houses, pagoda and knitted snow.",
+                                                              "Inside card: peach or kumquat trees, red lanterns, Chinese knots, blessing cards, firecrackers and gold ingots.",
+                                                              "Outside: red velvet ribbons, plum branches, persimmons, gold coin strings, snowflakes and flowing gold lines.",
+                                                              "Bottom: elegant Western handwritten blessing quote and small Chinese source line."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft uniform breathing light",
+                                                   "effect":  "Warm atmospheric depth, macro miniature bokeh, colorful caustics from frosted glass, gentle cloud suspension shadow"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "C4D and Octane Render premium toy-card macro render",
+                                           "resolution":  "8K vertical poster"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "character",
+                                                                 "name":  "licensed IP character references",
+                                                                 "required":  false,
+                                                                 "source":  "approved IP character pack",
+                                                                 "usage":  "Use when adapting a named game, novel, movie, or TV IP; retain only licensed character traits."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "Chinese and English greeting typography",
+                                                                 "required":  true,
+                                                                 "source":  "approved bilingual copy and calligraphy reference",
+                                                                 "usage":  "Keep Happy New Year and 新年快乐 accurate; use approved wording for all lower copy."
+                                                             },
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "Lunar New Year motif board",
+                                                                 "required":  true,
+                                                                 "source":  "seasonal art direction",
+                                                                 "usage":  "Anchor lanterns, Chinese knots, plum blossoms, coins, ribbons, and Year of the Horse motifs."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach approved Chinese typography/calligraphy assets to avoid distorted text.",
+                                                                          "Keep all text volumetric and floating, never on a rectangular signboard or background plate.",
+                                                                          "Exclude Christmas-specific imagery and photoreal human characters."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Applicable models: Seedream, Nano Banana Pro. A visually striking, masterpiece-level 3D New Year\u0027s greeting card poster based on [IP Name]. Vertical composition with a deep, window-like groove in the center. Felt and coarse knitting wool texture, realistic and delicate, blind box toy texture. A cute Q-version felt Pony representing the Year of the Horse, naive and charming and festive, wears a red festive vest and traditional tiger-head hat, standing in the center as a festival messenger. Classic characters from the IP appear in Q-version felt style in traditional festive Tang suit or Hanfu, interacting within the scene. Iconic IP buildings are arranged in Q-version felt with depth and layers; thick creamy knitted snow; peach tree or kumquat tree with red lanterns, Chinese knots and blessing cards; felt firecrackers, gold ingots and snow-covered shrubs. Independent 3D volumetric letters suspended in mid-air with no background plate or card: main text Happy New Year in thick glass-like 3D fluid art font; subtext 新年快乐 in bold Chinese calligraphy with 3D extruded strokes. Text material is matte frosted glass with deep-red to light-red gradient, soft semi-transparent surface and dreamy colorful caustics cast onto the felt scene. Bottom layout is a random classic quote related to New Year, blessings, or hope in large elegant Western handwritten serif and a small Chinese source note. Render C4D and Octane Render, 8K, macro perspective, vertical close-up miniature poster, shallow depth of field, soft uniform breathing light, rich felt and frosted-glass detail. Background is an Oriental ink wash void with flowing light mist in pale champagne gold or soft mist red, decorated with red velvet ribbons, fluid gold lines, blooming red plum branches, festive red lantern strings, persimmons or hawthorn berries, clear geometric snowflakes and glowing coin strings. Mood: festive, Oriental, warm, exquisite, joyful, high-end commercial design mixing cuteness with elegance. Must keep felt texture, Chinese New Year elements, Year of the Horse pony, volumetric glass text without signboard, calligraphy text and ink-wash background.",
+                   "negative_prompt":  "Santa Claus, Christmas tree, Western Christmas decorations, real photography style, flat 2D illustration, rectangular glass plate behind text, signboard, text on a card, photorealistic human, low resolution, blurry, flat colors, dark, horror, distorted text"
+               }
+}

@@ -1,0 +1,77 @@
+{
+  "name": "be-bike-rush-hour-discount-25",
+  "tag": [
+    "rush hour promo",
+    "bebike",
+    "25 percent off",
+    "be mascot",
+    "blue yellow poster"
+  ],
+  "biz_niche": "E-commerce & Retail",
+  "content_format": "Special offers",
+  "group": "be_1010444075125929",
+  "prompt": {
+    "project_info": {
+      "theme": "Rush hour beBike discount poster",
+      "color_palette": "Deep blue, bright yellow, white, black, soft peach"
+    },
+    "main_subject": {
+      "type": "Text/Character",
+      "detail": "A bold square graphic poster with yellow promotional typography over a deep blue background, featuring two oversized illustrated be rider mascots whispering about a 25 percent discount for beBike and beBike Plus.",
+      "style": "Vector mascot promo poster, playful high-contrast brand graphic"
+    },
+    "composition_elements": {
+      "type": "Typography/Characters/Flat Background",
+      "text": "be, Giờ cao điểm Đặt be rẻ lắm, Giảm 25%, * Áp dụng cho beBike, beBike Plus",
+      "items": [
+        "Top Center: white be logo.",
+        "Upper Middle: stacked yellow headline 'Giờ cao điểm' and 'Đặt be rẻ lắm'.",
+        "Center: yellow rounded rectangle containing large blue text 'Giảm 25%'.",
+        "Below center: white footnote '* Áp dụng cho beBike, beBike Plus'.",
+        "Bottom Left: close-up illustrated be rider mascot listening with hand near ear.",
+        "Bottom Right: another close-up be rider mascot whispering with one hand raised to mouth and white speech lines.",
+        "Background: solid deep blue field with subtle vertical texture."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat graphic lighting",
+      "effect": "Crisp vector edges, playful mascot energy, bold retail contrast"
+    },
+    "technical_specs": {
+      "render_style": "Vector illustration promotional poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "be logo",
+          "required": true,
+          "source": "source image logo reference",
+          "usage": "Preserve the top-center logo treatment."
+        },
+        {
+          "type": "graphic",
+          "name": "two be rider mascots",
+          "required": true,
+          "source": "source image mascot reference",
+          "usage": "Keep the exact illustration style, helmet shapes, and whisper-listen poses."
+        },
+        {
+          "type": "text_layout",
+          "name": "rush hour discount typography",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Preserve the yellow headline stack, rounded discount box, and footnote."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve exact mascot illustration and typography proportions.",
+        "Keep all visible text exactly as shown.",
+        "Do not introduce photorealism; retain the flat illustrated campaign style."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square be promotional poster with a solid deep blue background. Put the white be logo at the top center. Below it add stacked yellow text reading 'Giờ cao điểm' and 'Đặt be rẻ lắm'. In the center place a rounded yellow rectangle containing large blue text 'Giảm 25%'. Add white footnote text '* Áp dụng cho beBike, beBike Plus'. At bottom left and bottom right, place two oversized illustrated be rider mascots in yellow helmets, one listening and one whispering, cropped large into frame. Technical style: vector illustration promotional poster, flat graphic lighting, bold playful brand contrast, 8k resolution, highly detailed.",
+    "negative_prompt": "photoreal people, dark palette, incorrect text, wrong mascot style, low resolution, cluttered background, blurry edges, watermark, signature"
+  }
+}

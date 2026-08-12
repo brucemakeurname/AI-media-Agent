@@ -1,0 +1,75 @@
+{
+  "name": "zhao-lusi-ethereal-white-gown",
+  "tag": [
+    "ethereal-white-gown",
+    "red-carpet-portrait",
+    "bridal-inspired-couture",
+    "diamond-jewelry",
+    "soft-bokeh"
+  ],
+  "image_type": "high-fashion-event-portrait",
+  "image_vibe": "ethereal-elegant-luxury",
+  "image_purpose": "press-kit",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Ethereal bridal-inspired white couture event portrait",
+      "event_context": "fictional high-fashion event appearance",
+      "color_palette": "white lace, soft ivory, silver diamonds, warm brunette hair, neutral city tones, and gentle bokeh"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult brunette woman with long straight hair, middle part, minimal face-framing strands, luminous natural makeup, subtle shimmering eyeshadow, natural pink lips, and calm main-character presence",
+      "wardrobe": "strapless white gown with intricate lace bodice, fully lined structure, voluminous textured skirt, and ruffled or floral-patterned fabric",
+      "accessories": "luxury diamond statement necklace and matching diamond drop earrings"
+    },
+    "composition_elements": {
+      "framing": "vertical full-length portrait, subject sharply in focus with a softly blurred background",
+      "subject_position": "adult woman centered in a candid-style professional event pose",
+      "background": "busy urban setting with softly blurred people and vehicles, no recognizable public figures, logos, or event branding"
+    },
+    "lighting_and_atmosphere": {
+      "type": "bright soft diffused key light at approximately 5200K with gentle fill",
+      "effect": "enhanced lace and fabric texture, soft facial glow, clean jewelry sparkle, calm subject against busy bokeh"
+    },
+    "technical_specs": {
+      "render_style": "full-frame fashion camera with 85mm lens, professional event portrait",
+      "resolution": "4k vertical full-length portrait",
+      "finish": "natural skin texture, restrained dewy highlights, realistic lace and tulle detail, subtle film grain"
+    },
+    "generated_prompt_string": "A candid-style professional photograph of a clearly adult brunette woman at a fictional high-fashion event appearance, vertical full-length portrait with the subject sharply in focus and a softly blurred urban background. She has long straight brunette hair with a middle part and minimal face-framing strands, luminous natural makeup, subtle shimmering eyeshadow, natural pink lips, and calm main-character presence. She wears a bridal-inspired strapless white gown with an intricate lace bodice, fully lined structure, voluminous textured skirt, and ruffled or floral-patterned fabric, plus a luxury diamond statement necklace and matching diamond drop earrings. Use a busy urban setting with softly blurred people and vehicles but no recognizable public figures, logos, or event branding. Bright soft diffused light at approximately 5200K enhances fabric texture, facial glow, and jewelry sparkle. Shoot with an 85mm fashion lens, realistic skin and lace detail, restrained dewy highlights, subtle grain, and elegant ethereal luxury mood. Use an approved adult model rather than a public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, celebrity likeness, recognizable public figures, real event logos, transparent fabric, visible intimate areas, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, illegible text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-white-gown-model",
+          "required": true,
+          "source": "Original white couture preview image",
+          "usage": "Attach an approved adult face reference for continuity; preserve facial structure without the source's named public-figure likeness."
+        },
+        {
+          "type": "wardrobe",
+          "name": "lined-white-lace-couture-gown-and-diamonds",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the strapless white lace gown, lined bodice, voluminous skirt, necklace, and earrings; keep the bridal-inspired outfit consistent and non-explicit."
+        },
+        {
+          "type": "location",
+          "name": "blurred-urban-event-background",
+          "required": false,
+          "source": "Original preview image and source prompt",
+          "usage": "Optional environment reference; preserve urban people/vehicle bokeh and calm subject contrast while replacing venue and all recognizable guests."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person and exact couture wardrobe references; the urban environment is optional. Keep the adult identity, white gown, lace and skirt structure, diamond jewelry, full-length framing, and soft bokeh consistent. Replace the source celebrity and real event with approved generic identity and fictional setting; background people, vehicles, and venue are replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public figure and real-event context with an approved clearly adult generic model and fictional high-fashion event; specified a lined gown and non-explicit editorial coverage."
+    ]
+  }
+}

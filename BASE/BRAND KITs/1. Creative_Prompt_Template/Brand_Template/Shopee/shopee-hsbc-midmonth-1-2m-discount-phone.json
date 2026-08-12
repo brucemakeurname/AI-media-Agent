@@ -1,0 +1,77 @@
+{
+  "name": "shopee-hsbc-midmonth-1-2m-discount-phone",
+  "tag": [
+    "bank-partner",
+    "payment-promo",
+    "shopping-benefit",
+    "midmonth-sale"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "shopee_1379647540807381",
+  "prompt": {
+    "project_info": {
+      "theme": "HSBC payment discount campaign on Shopee",
+      "color_palette": "Shopee orange, HSBC red, deep blue, white, yellow"
+    },
+    "main_subject": {
+      "type": "Person/Object/Text",
+      "detail": "A bright bank-payment promo with Shopee and HSBC logos on top and the badge 'NGAY 15 SALE GIUA THANG'. A giant blue rounded header reads 'GIAM DEN 1.2 TRIEU DONG'. Below, a large smartphone held in a hand shows HSBC branding, with a smiling woman behind it on a red geometric shape. A floating running shoe and headphones appear above the phone, and a Shopee bag icon tile plus a blush compact sit near the bottom.",
+      "style": "Bold commercial banking-promo poster with lifestyle reward collage, oversized numerals, and bright retail energy"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "HSBC / NGAY 15 / SALE GIUA THANG / GIAM DEN 1.2 TRIEU DONG",
+      "items": [
+        "Top Left: Shopee logo and HSBC logo",
+        "Top Right: White sale badge 'NGAY 15 SALE GIUA THANG'",
+        "Bottom Left: Blush compact and part of the smartphone/hand composition",
+        "Bottom Right: Shopee bag icon tile and white-orange headphones floating above",
+        "Center/Background: Large blue discount pill, big smartphone with HSBC branding, smiling woman behind it, and floating shopping reward items including a colorful sneaker"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright retail-commercial lighting",
+      "effect": "Saturated colors, glossy device highlights, crisp floating object shadows, energetic clean finish"
+    },
+    "technical_specs": {
+      "render_style": "Payment-benefit poster with photo-composite lifestyle elements",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee x HSBC payment promotion. Centerpiece is a giant smartphone with HSBC branding held in a hand, with a smiling woman behind it and floating shopping-reward items like a sneaker and headphones. Background is a Shopee-orange field with a large blue discount pill that reads 'GIAM DEN 1.2 TRIEU DONG'. Surrounding elements: Shopee and HSBC logos, white badge 'NGAY 15 SALE GIUA THANG', a Shopee bag icon tile, and a cosmetic compact. Technical style: payment-benefit poster with photo-composite lifestyle elements, bright retail-commercial lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Female lifestyle model reference",
+          "required": true,
+          "source": "original campaign photo if exact likeness is required",
+          "usage": "Attach for the smiling woman pose behind the phone"
+        },
+        {
+          "type": "product",
+          "name": "HSBC phone screen and shopping item refs",
+          "required": true,
+          "source": "official HSBC artwork plus product renders for shoe, headphones, and compact",
+          "usage": "Use for the phone branding and floating reward-item identity"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee and HSBC logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Preserve top branding"
+        },
+        {
+          "type": "text_layout",
+          "name": "HSBC 1.2m discount layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the giant discount pill, sale badge, and phone-centered composition"
+        }
+      ],
+      "prompt_instructions": "Maintain the bold shopping-benefits collage around the phone and keep 'NGAY 15' exactly as shown. Relative to Friday, July 17, 2026, that date is in the past."
+    }
+  }
+}

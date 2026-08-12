@@ -1,0 +1,70 @@
+{
+  "name": "shopee-vip-first-birthday-cake-mascot",
+  "tag": [
+    "vip-birthday",
+    "mascot-3d",
+    "celebration",
+    "brand-event"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Brand story",
+  "group": "shopee_1517013313304346",
+  "prompt": {
+    "project_info": {
+      "theme": "ShopeeVIP first birthday celebration visual",
+      "color_palette": "Theater red, orange, gold, cream, blue accent"
+    },
+    "main_subject": {
+      "type": "Object/Person/Text",
+      "detail": "A crowned Shopee box mascot wearing black sunglasses and an orange suit holds a two-tier birthday cake with a lit number 1 candle. The poster reads 'CHUC MUNG SINH NHAT ShopeeVIP' and a large blue flag badge says '1 TUOI'. Confetti, crown cards, and bright star flares surround the mascot against a red stage-curtain backdrop.",
+      "style": "Cute 3D celebration poster with theatrical stage styling, toy-like mascot rendering, and glowing party highlights"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "ShopeeVIP / CHUC MUNG SINH NHAT / 1 TUOI",
+      "items": [
+        "Top Left: White Shopee bag logo and ShopeeVIP wordmark",
+        "Top Right: Red curtain fold, blue crown card, and confetti pieces",
+        "Bottom Left: Orange crown card and edge of the cake platter",
+        "Bottom Right: Large Shopee box mascot face with sunglasses, crown, and red crown card",
+        "Center/Background: Two-tier birthday cake with lit number 1 candle, red theater curtain, golden glow, and floating ribbon confetti"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm theatrical spotlight",
+      "effect": "Golden lens flares, glossy 3D highlights, festive sparkle glints, rich curtain shadows"
+    },
+    "technical_specs": {
+      "render_style": "3D mascot celebration poster with cinematic commercial compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a ShopeeVIP first birthday celebration. Centerpiece is a large crowned Shopee box mascot in sunglasses holding a two-tier cake with a lit number 1 candle. Background is a rich red theater curtain with warm golden glow. Surrounding elements: Shopee and ShopeeVIP logos at top left, headline 'CHUC MUNG SINH NHAT ShopeeVIP', blue badge '1 TUOI', floating confetti ribbons, and crown playing-card props. Technical style: 3D mascot celebration poster with cinematic commercial compositing, warm theatrical spotlight, glossy highlights, festive sparkle flares, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Shopee and ShopeeVIP logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Recreate the top-left brand lockup exactly"
+        },
+        {
+          "type": "graphic",
+          "name": "Shopee box mascot birthday setup",
+          "required": true,
+          "source": "this creative or brand mascot asset set",
+          "usage": "Maintain the mascot styling, crown, sunglasses, cake pose, and celebratory card props"
+        },
+        {
+          "type": "text_layout",
+          "name": "Birthday greeting layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the exact text positioning for 'CHUC MUNG SINH NHAT ShopeeVIP' and the '1 TUOI' badge"
+        }
+      ],
+      "prompt_instructions": "This creative relies more on mascot celebration than offer mechanics. Preserve the square crop, the right-side mascot scale, the lit candle, and the red-curtain stage mood."
+    }
+  }
+}

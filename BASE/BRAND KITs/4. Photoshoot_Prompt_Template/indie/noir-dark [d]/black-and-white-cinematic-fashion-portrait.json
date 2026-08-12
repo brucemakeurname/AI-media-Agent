@@ -1,0 +1,66 @@
+{
+  "name": "black-and-white-cinematic-fashion-portrait",
+  "tag": [
+    "adult-woman",
+    "black-and-white",
+    "windblown-hair",
+    "black-turtleneck",
+    "cinematic-editorial"
+  ],
+  "image_type": "cinematic-fashion-portrait",
+  "image_vibe": "moody-timeless-monochrome",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult while preserving the original windblown hair, black turtleneck, natural daylight, and cinematic monochrome fashion direction."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "cinematic monochrome fashion portrait",
+      "color_palette": "black, white, graphite, and soft gray",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult woman with long flowing dark hair gently blown across her face, a subtle nose ring, a calm neutral expression, and fine natural skin texture.",
+      "wardrobe": "Minimal black ribbed turtleneck with a clean, understated silhouette.",
+      "pose": "Still upright portrait with the head turned slightly toward camera while wind moves strands of hair across the face."
+    },
+    "composition_elements": {
+      "framing": "Tight vertical head-and-shoulders portrait with the face centered behind windblown hair.",
+      "environment": "Softly blurred urban background with no readable text or logos.",
+      "focus": "Sharp eyes and facial features with visible individual hair strands and subtle fabric ribbing."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft natural daylight with gentle directional contrast and delicate shadow transitions across the face.",
+      "atmosphere": "Quiet, introspective, moody, and timeless."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with an 85mm portrait lens at f/1.8, shallow depth of field",
+      "quality": "Ultra-realistic monochrome finish, fine film grain, detailed skin texture, natural hair movement, and sharp facial focus"
+    },
+    "generated_prompt_string": "Create an ultra-realistic 4:5 black-and-white cinematic fashion portrait of an adult woman with long flowing dark hair gently blown across her face, a subtle nose ring, a calm neutral expression, and fine natural skin texture. She wears a minimal black ribbed turtleneck and holds a still upright pose with her head turned slightly toward camera as individual strands move across her face. Use soft natural daylight, gentle directional contrast, a shallow-depth-of-field blurred urban background, an 85mm lens look, fine film grain, sharp eyes, detailed hair, and a timeless moody editorial atmosphere with no readable text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, excessive HDR, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original subject. Optional wardrobe, environment, or mood references may replace only their named element while preserving the windblown hair, monochrome palette, natural daylight, and cinematic portrait mood.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "minimal-black-ribbed-turtleneck",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the black turtleneck styling and preserve its minimal silhouette."
+        },
+        {
+          "type": "location",
+          "name": "blurred-urban-daylight-background",
+          "required": false,
+          "source": "user-uploaded location reference",
+          "usage": "Replace only the softly blurred urban background; remove readable text and logos."
+        }
+      ]
+    }
+  }
+}

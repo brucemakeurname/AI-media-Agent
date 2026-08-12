@@ -1,0 +1,37 @@
+{
+  "name": "neon-arcade-blonde-motorcycle",
+  "tag": ["arcade", "motorcycle-game", "pink-neon", "lifestyle"],
+  "image_type": "UGC arcade portrait",
+  "image_vibe": "joyful, colorful, candid, electric",
+  "image_purpose": "Arcade nightlife and entertainment social content",
+  "group": "ugc/lifestyle-moment/night-out/public-indoor",
+  "prompt": {
+    "project_info": "Create a vibrant indoor amusement-arcade portrait of an adult woman seated on a pink motorcycle game.",
+    "main_subject": "One generic approved adult woman with long wavy brown hair and a joyful wide smile, seated on an electric-pink arcade motorcycle game. She wears a pink knit crop top with secure coverage and a decorative buckle, comfortable high-waisted pink shorts with a generic waistband, small hoop jewelry and visible non-identifying tattoos from the reference.",
+    "composition_elements": "Vertical medium portrait with the woman facing the camera while holding the game controls. Include purple and pink overhead neon, blurred arcade machines, generic play signage and the motorcycle dashboard; no body-part close-up and no readable brand text.",
+    "lighting_and_atmosphere": "Vibrant high-contrast arcade LEDs, pink and purple ambient glow, sharp face focus, colorful playful nightlife mood.",
+    "technical_specs": "Photorealistic vertical arcade lifestyle portrait, full-frame camera with 35mm lens, bright environmental lighting, shallow background depth, realistic knit and machine surfaces, natural skin texture, subtle digital grain, no watermark.",
+    "generated_prompt_string": "Photorealistic vertical arcade lifestyle portrait of one generic approved adult woman with long wavy brown hair and a joyful wide smile, seated safely on an electric-pink arcade motorcycle game while holding the controls. She wears a pink knit crop top with secure coverage and a decorative buckle, comfortable high-waisted pink shorts with a generic waistband, small hoop jewelry and visible non-identifying tattoos from the reference. Purple and pink overhead neon, blurred arcade machines, generic play signage and the motorcycle dashboard fill the background. Vibrant high-contrast arcade LEDs, sharp face focus, colorful playful nightlife mood, realistic materials and natural anatomy, no readable brand text, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, body-part close-up, rear emphasis, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, unsafe riding pose, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "neon-arcade-blonde-motorcycle reference",
+          "required": true,
+          "source": "Attach the provided reference image",
+          "usage": "Match the adult subject's hair, pink outfit, joyful expression, tattoos, arcade motorcycle, neon lighting and close composition while keeping identity and details replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the arcade machine, pink-purple palette, joyful expression, hands-on-controls pose, outfit categories, jewelry and non-identifying tattoos. Keep person, clothing details, machine branding, screens and environment replaceable; remove readable brand text and avoid body-part emphasis."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed low-back/body-emphasis direction and added safe grounded arcade posture.",
+      "Changed the visible branded waistband to a generic waistband without readable text.",
+      "Preserved the pink arcade motorcycle, outfit color, tattoos, neon lighting and joyful concept."
+    ]
+  }
+}

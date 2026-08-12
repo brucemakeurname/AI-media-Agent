@@ -1,0 +1,76 @@
+{
+  "name": "mirror-red-lip-fashion-editorial",
+  "tag": [
+    "adult-woman",
+    "face-reference",
+    "mirror-portrait",
+    "red-lipstick",
+    "red-corset-top",
+    "cherries"
+  ],
+  "image_type": "mirror-fashion-editorial",
+  "image_vibe": "warm, polished, joyful, luxury, natural",
+  "image_purpose": "fashion-editorial, beauty-campaign, instagram-feed",
+  "group": "indie / moody-portrait / intimate-closeup",
+  "prompt": {
+    "project_info": {
+      "theme": "Warm mirror beauty fashion editorial with deep-red accents",
+      "format": "vertical 4:5 portrait",
+      "color_palette": "warm neutral cream, deep red, dark hair, natural skin tones"
+    },
+    "main_subject": {
+      "type": "adult woman using a required approved-adult face reference",
+      "detail": "One adult woman whose face, facial structure, natural asymmetries, proportions, eye shape and distance, nose, lips, jawline, cheekbones, and visible skin details match the attached approved-adult face reference. She has dark hair in an elegant updo with loose tendrils and one subtle wet-look strand across the forehead, soft smoky eyes, defined brows, subtle blush, luminous natural skin, and bold deep-red lipstick. She smiles genuinely with slightly visible teeth and joyful eyes while holding a small cluster of red cherries. She wears a structured deep-red corset-style top.",
+      "style": "cinematic photorealistic indoor beauty and fashion editorial with natural skin texture"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "vertical 4:5 medium portrait in a minimal neutral-toned room",
+        "a mirror behind the subject shows the back of her updo and deep-red outfit",
+        "the subject holds a small cluster of red cherries near her shoulder",
+        "clean background, one person only, no readable text, logo, or watermark",
+        "preserve the supplied style reference's pose, composition, warm palette, lighting, and overall vibe"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft warm indoor key with gentle mirror bounce, approximately 3400K",
+      "effect": "crisp but natural facial detail, soft shadow definition, and natural luminous skin without retouching",
+      "atmosphere": "happy, warm, polished, luxury editorial"
+    },
+    "technical_specs": {
+      "render_style": "cinematic photoreal editorial, subtle 35mm film grain, crisp but natural",
+      "resolution": "high-detail vertical 4:5 image",
+      "color_treatment": "warm indoor neutrals with deep-red accents, natural dynamic range, no HDR, real skin texture"
+    },
+    "generated_prompt_string": "Create a vertical 4:5 photoreal indoor mirror beauty-fashion editorial. Use the attached approved-adult face reference for one adult woman and preserve her face, facial structure, proportions, eye shape and distance, nose shape, lip shape, jawline, cheekbones, visible moles, freckles, scars, natural asymmetries, and skin texture; do not blend identities, beautify, or age-shift. In a minimal neutral-toned room, place a mirror behind her showing the back of her dark elegant updo and deep-red corset-style top. Keep a few loose tendrils framing her face and one subtle editorial wet-look strand across her forehead. Give her soft smoky eyes, defined brows, subtle blush, luminous natural skin, bold deep-red lipstick, and a genuine warm smile with slightly visible teeth and joyful eyes. She holds a small cluster of red cherries near her shoulder. Preserve the attached style reference's pose, composition, warm palette, lighting, and vibe. Use soft warm indoor light around 3400K with gentle mirror bounce, cinematic photoreal detail, subtle 35mm grain, natural dynamic range, and real unretouched skin. No nudity, explicit sexual content, logos, watermark, or readable text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, nudity, identity blending, celebrity likeness, age shift, facial beautification, symmetry correction, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, logo, watermark, readable text, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "Attach two required assets: (1) an approved-adult face/identity reference and (2) a style/composition reference. Preserve the person's face, facial structure, and likeness exactly from the approved-adult reference, without celebrity/public-figure substitution. Preserve pose, mirror composition, warm neutral palette, lighting, red corset-style outfit, updo, cherries, and editorial vibe from the style reference. Background may change only if the mirror relationship and neutral luxury setting remain intact.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-identity-reference",
+          "required": true,
+          "source": "user attachment",
+          "usage": "Keep the adult face, facial structure, likeness, natural asymmetries, skin details, and proportions consistent; do not blend identities or use a celebrity/public-figure likeness."
+        },
+        {
+          "type": "moodboard",
+          "name": "mirror-red-lip-style-composition-reference",
+          "required": true,
+          "source": "user attachment",
+          "usage": "Preserve the mirror composition, pose, warm palette, lighting, deep-red styling, cherries, and luxury beauty-editorial mood while not altering the face identity."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Retained the original required face and style references, while requiring the face reference to depict an approved adult and prohibiting celebrity or public-figure substitution.",
+      "Preserved the mirror composition, deep-red outfit, cherries, updo, warm smile, and luxury beauty-editorial treatment.",
+      "Kept the original PG-13, no-nudity, and no-explicit-content constraints in the generation and negative prompts."
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "cold-half-face-bw-portrait",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "black-and-white",
+    "half-face"
+  ],
+  "image_type": "black-and-white half-face studio portrait",
+  "image_vibe": "cold, mysterious, minimalist, high-contrast",
+  "image_purpose": "editorial portrait and lookbook moodboard",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic black-and-white portrait of one original approved adult woman partially hidden behind a vertical black panel in a dark minimalist studio.",
+    "main_subject": "Original approved adult woman with blonde hair styled smoothly with soft volume, long brown lashes, smudged brown winged eyeliner, cool nude matte lips, calm cold confident gaze, and natural skin texture without retouching. She wears a thick black velvet-textured long-sleeved turtleneck dress, dark glossy nail polish, and minimalist stud earrings.",
+    "composition_elements": [
+      "Only half of the face is visible behind a vertical black panel; one hand gently touches the panel edge with fingers extended.",
+      "Gaze is directed straight toward camera with a reserved mysterious expression.",
+      "Deep dark background with no distracting details; the entire composition is built on light and shadow.",
+      "Keep the visible eye, lip line, panel edge, hand, and velvet texture sharply readable."
+    ],
+    "lighting_and_atmosphere": "Hard directional Rembrandt studio light from the side, illuminating half the face while the other half fades into deep soft shadow, with controlled cheekbone and lip-line highlights and no overexposure.",
+    "technical_specs": "Photorealistic black-and-white 4:5 portrait, full-frame 85mm lens, shallow depth of field, focus on visible eye and lip line, deep contrast, realistic pores and fabric texture, subtle monochrome grain, no text or watermark.",
+    "generated_prompt_string": "Photorealistic black-and-white portrait of one original approved adult woman with smoothly styled blonde hair and soft volume, long brown lashes, smudged brown winged eyeliner, cool nude matte lips, calm cold confident gaze, and natural unretouched skin texture. She wears a thick black velvet-textured long-sleeved turtleneck dress, dark glossy nail polish and minimalist stud earrings. Partially hide her behind a vertical black panel so only half her face is visible; one hand gently touches the panel edge with fingers extended, and her gaze meets the camera. Use a deep dark minimalist background, hard directional Rembrandt light from the side, half-face illumination fading into soft deep shadow, controlled cheekbone and lip-line highlights, full-frame 85mm lens, shallow depth of field, focus on the visible eye and lip line, deep-contrast monochrome, maximum photorealism, no text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "celebrity likeness",
+      "changed facial features",
+      "skin retouching",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "CGI",
+      "anime style",
+      "wide-angle distortion",
+      "extra limbs",
+      "deformed fingers",
+      "overexposure",
+      "watermark",
+      "text",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "cold-half-face-bw-portrait.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for original approved-adult identity, face, hair, makeup, expression, and hand reference."
+        },
+        {
+          "type": "location",
+          "name": "vertical black panel and dark studio",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve panel edge, occlusion, dark background, and light-shadow geometry."
+        }
+      ],
+      "prompt_instructions": "Attach the required person and environment references; no optional assets are needed. Keep identity, face, hair, outfit, panel, hand, lighting, environment, and monochrome treatment consistent. Replace only with an equivalent approved adult or equivalent panel/studio reference. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an original approved adult and removed age ambiguity while preserving the half-face black-and-white concept, outfit, lighting, and pose."
+    ]
+  }
+}

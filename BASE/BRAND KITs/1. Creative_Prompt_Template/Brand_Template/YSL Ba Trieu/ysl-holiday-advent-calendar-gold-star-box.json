@@ -1,0 +1,78 @@
+{
+  "name": "ysl-holiday-advent-calendar-gold-star-box",
+  "tag": [
+    "ysl",
+    "holiday",
+    "advent-calendar",
+    "gift-box",
+    "luxury-beauty"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "ysl_1299799008851474",
+  "prompt": {
+    "project_info": {
+      "theme": "YSL holiday advent calendar luxury gift box",
+      "color_palette": "White, champagne gold, black, soft candlelight amber"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "An open YSL holiday advent calendar or gift chest with multiple numbered gold-and-white doors and assorted YSL beauty products arranged across two levels. The box interior features a large gold star with the YSL monogram. Visible items include perfume miniatures, a lipstick, a black tube, skincare bottles, an open eyeshadow palette, and a black candle at the bottom right.",
+      "style": "Luxury holiday gift-box still life with elegant advent-calendar structure and warm festive opulence"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "YSL; numbered advent-calendar panels including 1, 10, 12, 13, 14, 15, 21, 22, 24",
+      "items": [
+        "Top Left: Open upper lid of the calendar with the gold star and YSL monogram inside",
+        "Top Right: Geometric gold wall panels creating a luxury festive environment",
+        "Bottom Left: Lower advent-drawer section with perfume bottle and skincare bottle on numbered gold panels",
+        "Bottom Right: Open eyeshadow palette, black cylindrical product, and lit black candle",
+        "Center/Background: Two-tier white-and-gold advent calendar chest with multiple beauty products displayed across numbered compartments"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm festive luxury still-life lighting",
+      "effect": "Soft metallic shimmer, candle glow, refined reflections, premium holiday warmth"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal luxury holiday gift still-life composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury holiday gift still life for YSL. Centerpiece is an open white-and-gold advent calendar chest with multiple numbered panels and assorted YSL beauty products spread across two levels. Show a large gold star with the YSL monogram inside the lid, plus visible products such as perfume miniatures, a lipstick, a black tube, skincare bottles, an open eyeshadow palette, and a black candle. Background is a geometric champagne-gold luxury set. Technical style: photoreal luxury holiday gift still-life composite, warm festive luxury lighting, metallic shimmer and candlelit premium warmth, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "YSL monogram star interior",
+          "required": true,
+          "source": "original holiday box design",
+          "usage": "Preserve the large star-and-monogram structure inside the lid"
+        },
+        {
+          "type": "product",
+          "name": "YSL holiday advent calendar box",
+          "required": true,
+          "source": "real gift-box reference required",
+          "usage": "Match the two-tier white-and-gold box, numbered doors, and placement of compartments"
+        },
+        {
+          "type": "product",
+          "name": "YSL assorted holiday products",
+          "required": true,
+          "source": "real product references required",
+          "usage": "Recreate the perfume minis, lipstick, eyeshadow palette, black tube, and other beauty items placed around the calendar"
+        },
+        {
+          "type": "accessory",
+          "name": "Black candle",
+          "required": true,
+          "source": "original still-life prop",
+          "usage": "Keep the lit candle at the lower right for the holiday atmosphere"
+        }
+      ],
+      "prompt_instructions": "This is a high-end holiday gift-box still life. Do not simplify it into a single product packshot. Preserve the advent-calendar structure, star interior, and warm premium candlelit mood."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Foggy Rooftop Luxury Sedan Editorial",
+  "tag": "foggy-rooftop-luxury-sedan",
+  "image_type": "night_vehicle_editorial",
+  "image_vibe": "moody_foggy_city_luxury",
+  "image_purpose": "mens_fashion_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Foggy Rooftop Luxury Sedan Editorial",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult man with short dark hair and a thoughtful sideward gaze.",
+      "wardrobe": "A plain black technical jacket, black crew-neck top, baggy black trousers, and unbranded black trainers.",
+      "pose_and_expression": "Standing beside the front corner of a parked generic black luxury sedan, hands relaxed at his sides."
+    },
+    "composition_elements": {
+      "setting": "Rain-damp rooftop parking deck at night with an abstract foggy city skyline and distant bridge-like lights.",
+      "framing": "Elevated three-quarter full-body composition, emphasizing wet pavement reflections and the vehicle silhouette.",
+      "text_and_brand_control": "No named car make, vehicle emblem, license plate, city landmark identification, jacket logo, or readable text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Cool diffuse city glow through fog, with soft reflected highlights on wet asphalt.",
+      "mood": "Atmospheric, quiet, high-end, and cinematic."
+    },
+    "technical_specs": {
+      "camera_style": "full-frame fashion editorial photograph",
+      "lens": "35mm equivalent",
+      "rendering": "Natural rain detail, fine grain, realistic vehicle geometry, subdued blacks, and no logo artifacts."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical full-frame fashion editorial photograph of an adult man with short dark hair and a thoughtful sideward gaze. He wears a plain black technical jacket, black crew-neck top, baggy black trousers, and unbranded black trainers, standing beside the front corner of a parked generic black luxury sedan. Set him on a rain-damp rooftop parking deck at night with an abstract foggy city skyline and distant bridge-like lights. Use an elevated three-quarter full-body composition, cool city glow through fog, wet asphalt reflections, natural rain detail, fine grain, realistic vehicle geometry, subdued blacks, and no logo artifacts. Do not name a car make or city, and do not include emblems, license plates, text, or brands.",
+    "negative_prompt": "minor, celebrity likeness, speeding, unsafe driving, logo, car emblem, license plate, landmark identifier, readable text, watermark, distorted vehicle, malformed hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Identity references must be optional and depict a consenting adult. Vehicle, wardrobe, and rooftop references are replaceable; omit all badges, plates, logos, and location identifiers.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult face and hair traits only."
+        },
+        {
+          "type": "vehicle_reference",
+          "name": "black_luxury_sedan_reference",
+          "required": false,
+          "source": "user-provided vehicle reference",
+          "usage": "Guide generic sedan silhouette after removing all badges and plate details."
+        },
+        {
+          "type": "environment_reference",
+          "name": "foggy_rooftop_reference",
+          "required": false,
+          "source": "user-provided rooftop reference",
+          "usage": "Guide rain, fog, and skyline abstraction without location identifiers."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed named luxury car and location dependencies; made vehicle reference replaceable and unbranded."
+  }
+}

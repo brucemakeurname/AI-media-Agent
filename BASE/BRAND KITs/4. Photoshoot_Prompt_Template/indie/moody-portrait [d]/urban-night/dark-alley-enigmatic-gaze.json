@@ -1,0 +1,68 @@
+{
+  "name": "dark-alley-enigmatic-gaze",
+  "tag": [
+    "approved-adult-face",
+    "film-noir",
+    "dark-alley",
+    "black-wool-coat",
+    "blue-fog",
+    "35mm-film"
+  ],
+  "image_type": "film-noir-night-fashion-portrait",
+  "image_vibe": "enigmatic, gritty, moody, atmospheric, high-contrast",
+  "image_purpose": "fashion-editorial, cinematic-moodboard, character-visual",
+  "group": "indie / moody-portrait / urban-night",
+  "prompt": {
+    "project_info": {
+      "theme": "Film Noir portrait in a narrow cobblestone alley",
+      "format": "vertical night portrait",
+      "color_palette": "black, blue-tinted fog, dim warm streetlamp, wet-stone gray"
+    },
+    "main_subject": {
+      "type": "adult woman using a required approved-adult face reference",
+      "detail": "An adult woman whose face, facial structure, proportions, features, and expression match the attached approved-adult reference. She has a short shaggy jet-black bob haircut and wears a double-breasted black wool coat with a wide peak lapel.",
+      "style": "cinematic high-contrast Film Noir"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "standing in a dark narrow cobblestone alleyway at night",
+        "looking back over her shoulder with an intense enigmatic expression",
+        "thick blue-tinted theatrical fog swirling around her",
+        "single dim overhead streetlamp visible in the alley",
+        "wet textured stone and deep alley perspective receding behind her"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "low-key clamshell lighting with a focused spotlight key and dim streetlamp",
+      "effect": "deep sculpted shadows, controlled highlights, and illuminated blue fog",
+      "atmosphere": "gritty, mysterious, and cinematic"
+    },
+    "technical_specs": {
+      "render_style": "photorealistic 35mm film portrait with shallow depth of field",
+      "resolution": "high-detail vertical image",
+      "color_treatment": "moody color grading, rich blacks, cool blue haze, organic film grain"
+    },
+    "generated_prompt_string": "Create a cinematic high-contrast Film Noir portrait of an adult woman using the attached approved-adult face reference; preserve her face, facial structure, proportions, features, and expression exactly without celebrity or public-figure substitution. Give her a short shaggy jet-black bob haircut and dress her in a double-breasted black wool coat with a wide peak lapel. Place her in a dark narrow cobblestone alleyway at night, looking over her shoulder with an intense enigmatic expression. Let thick blue-tinted theatrical fog swirl around her, illuminated by a single dim overhead streetlamp. Use moody low-key clamshell lighting with a focused spotlight key, deep shadows, gritty alley texture, photorealistic 35mm film character, shallow depth of field, organic film grain, and moody color grading.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, celebrity likeness, public-figure likeness, smoking, cigarette, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, text, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "Attach a required approved-adult face reference. Preserve the adult facial identity, short shaggy black bob, black wool coat, shoulder-look pose, cobblestone alley, blue theatrical fog, streetlamp, and Film Noir lighting. Do not use celebrity/public-figure likeness.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-reference",
+          "required": true,
+          "source": "user attachment",
+          "usage": "Keep adult face, facial structure, proportions, features, and expression exactly consistent."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named celebrity with a required approved-adult face reference while preserving the Film Noir identity, bob haircut, coat, alley, and shoulder-look composition.",
+      "Specified theatrical fog rather than smoking-related imagery."
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "viettel-mbappe-vs-yamal-tv360-july-15",
+  "tag": [
+    "viettel",
+    "tv360",
+    "mbappe",
+    "yamal",
+    "match-promo"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Special offers",
+  "group": "viettel_1343826634001155",
+  "prompt": {
+    "project_info": {
+      "theme": "TV360 match-night promo for a star face-off",
+      "color_palette": "Deep navy, crimson red, stadium black, white, multicolor ribbon"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A dramatic close-up face-off portrait of two football stars staring forehead to forehead in a packed stadium. The left player wears a blue France-style shirt and resembles Mbappe; the right player wears a red Spain-style shirt and resembles Lamine Yamal. The headline text says 'LẦN 4 TƯỚNG PHÙNG' and '02:00 AM | 15.07 TRÊN TV360'. The bottom promo box says '12.000Đ/NGÀY', '6GB/NGÀY', 'SOẠN SGVS12 gửi 1331', and 'MƯỢT TỪNG GIÂY TRÊN TV360'.",
+      "style": "Cinematic photoreal football face-off poster with premium sports-broadcast aesthetics"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "LẦN 4 TƯỚNG PHÙNG; 02:00 AM | 15.07 TRÊN TV360; viettel telecom; 12.000Đ/NGÀY; 6GB/NGÀY; SOẠN SGVS12 gửi 1331; MƯỢT TỪNG GIÂY TRÊN TV360",
+      "items": [
+        "Top Left: Large white headline and schedule text over dark stadium stands",
+        "Top Right: Viettel telecom logo in white",
+        "Bottom Left: Rounded red pricing box with white and red data-plan text",
+        "Bottom Right: White TV360 brand panel with multicolor ribbon framing the right edge",
+        "Center/Background: Tight face-off portrait of two star players with France and Spain flags visible behind them in a night stadium"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Cinematic night stadium lighting",
+      "effect": "Strong red-blue color contrast, rim lights on faces, crowd glow, premium broadcast drama"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal cinematic sports advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for a TV360 football face-off promo. Centerpiece is a dramatic photoreal close-up of two football stars staring forehead to forehead in a night stadium, with a France-style blue player resembling Mbappe on the left and a Spain-style red player resembling Lamine Yamal on the right. Include the exact visible text 'LẦN 4 TƯỚNG PHÙNG', '02:00 AM | 15.07 TRÊN TV360', '12.000Đ/NGÀY', '6GB/NGÀY', 'SOẠN SGVS12 gửi 1331', and 'MƯỢT TỪNG GIÂY TRÊN TV360'. Background is a crowded night stadium with France and Spain flags and multicolor ribbon framing. Technical style: photoreal cinematic sports advertising composite, cinematic night stadium lighting, strong red-blue contrast and rim lights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel telecom logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Top-right white logo"
+        },
+        {
+          "type": "person",
+          "name": "Kylian Mbappe likeness reference",
+          "required": true,
+          "source": "real-player reference recommended",
+          "usage": "Preserve left-side facial structure and blue-kit identity"
+        },
+        {
+          "type": "person",
+          "name": "Lamine Yamal likeness reference",
+          "required": true,
+          "source": "real-player reference recommended",
+          "usage": "Preserve right-side youthful facial structure, curls, and red-kit identity"
+        },
+        {
+          "type": "graphic",
+          "name": "Bottom pricing panels and multicolor ribbon",
+          "required": true,
+          "source": "recreated from original layout",
+          "usage": "Anchor the package offer and frame the face-off"
+        }
+      ],
+      "prompt_instructions": "The visible date '15.07' is in the past relative to Friday, July 17, 2026. Recreate it exactly as archival match-promo artwork, not as a future event card. Preserve the intense face-off crop, the schedule line, and the TV360 pricing panel."
+    }
+  }
+}

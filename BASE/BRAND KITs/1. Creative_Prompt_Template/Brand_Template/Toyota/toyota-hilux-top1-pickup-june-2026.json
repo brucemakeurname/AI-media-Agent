@@ -1,0 +1,78 @@
+{
+  "name": "toyota-hilux-top1-pickup-june-2026",
+  "tag": [
+    "toyota",
+    "hilux",
+    "sales-ranking",
+    "june-2026",
+    "infographic"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Infographics",
+  "group": "toyota_28081481088122583",
+  "prompt": {
+    "project_info": {
+      "theme": "Hilux top-selling pickup segment milestone",
+      "color_palette": "Gold, Bronze, Black, White, Sunset Amber"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A golden-brown Toyota Hilux bursts forward through dirt and rock in the foreground while a giant gold number 1 towers behind it against a sunset city-and-mountain backdrop.",
+      "style": "Heroic sales-celebration automotive poster with premium metallic number treatment, aggressive pickup stance, and high-impact infographic overlays."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "TOYOTA\nHILUX\nTHANG 6/2026\nTOP 1\nPHAN KHUC BAN TAI\n1000 XE BAN RA\nLAI SUAT\nChi tu 7.75%\nTRA TRUOC\n0 DONG\nGOI VAY\nBALLOON\nLinh hoat tai chinh\nHILUX\nMove your world",
+      "items": [
+        "Top Left: White Toyota logo and stacked HILUX headline with date line 'THANG 6/2026'.",
+        "Top Center: Massive distressed white 'TOP' and giant metallic gold number '1'.",
+        "Bottom Left: Finance box 'LAI SUAT Chi tu 7.75%'.",
+        "Bottom Right: Finance boxes 'TRA TRUOC 0 DONG' and 'GOI VAY BALLOON Linh hoat tai chinh', plus handwritten white 'Move your world'.",
+        "Center/Background: Golden-brown Hilux pickup kicking up dirt, sunset sky, city skyline, mountain silhouette, and gold platform ring."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Dramatic sunset commercial lighting",
+      "effect": "Warm gold rim light, dusty motion effects, metallic shine on the giant number, strong contrast, and premium celebratory impact."
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic heroic automotive infographic poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Toyota Hilux sales leadership. Centerpiece is a golden-brown Toyota Hilux driving through flying dirt in front of a giant metallic gold number 1. Background is a dramatic sunset with city skyline and mountain silhouette. Surrounding elements: Toyota logo, 'HILUX', date line 'THANG 6/2026', giant 'TOP 1', text 'PHAN KHUC BAN TAI', black badge '1000 XE BAN RA', and three bottom finance offer boxes including '7.75%', '0 DONG', and 'BALLOON'. Technical style: photorealistic heroic automotive infographic poster, dramatic sunset commercial lighting, dusty motion effects, metallic shine, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Toyota corporate logo white version",
+          "required": true,
+          "source": "brand asset / Toyota official logo",
+          "usage": "Place top left on dark sky."
+        },
+        {
+          "type": "product",
+          "name": "Toyota Hilux bronze exterior reference",
+          "required": true,
+          "source": "product reference image",
+          "usage": "Match pickup shape, TOYOTA grille lettering, and aggressive front-three-quarter angle."
+        },
+        {
+          "type": "graphic",
+          "name": "Giant metallic gold number 1",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Use as dominant ranking symbol behind the vehicle."
+        },
+        {
+          "type": "text_layout",
+          "name": "Sales ranking and finance box layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve exact June 2026 ranking wording and bottom finance boxes."
+        }
+      ],
+      "prompt_instructions": "The date 'THANG 6/2026' is in the past relative to Friday, July 17, 2026; preserve it exactly as a recent achievement recap. Keep the poster muscular and celebratory, with the giant gold 1 clearly dominating the skyline."
+    }
+  }
+}

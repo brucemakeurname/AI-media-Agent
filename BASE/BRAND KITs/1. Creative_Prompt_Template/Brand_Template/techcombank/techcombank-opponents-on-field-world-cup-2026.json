@@ -1,0 +1,70 @@
+{
+  "name": "techcombank-opponents-on-field-world-cup-2026",
+  "tag": [
+    "sports-campaign",
+    "world-cup",
+    "brand-story",
+    "stadium-poster"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Brand story",
+  "group": "techcombank_1368346695365851",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank FIFA World Cup 2026 emotional football story",
+      "color_palette": "Sky blue, stadium green, red, white, black"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A cinematic football poster with the Techcombank logo at top right. Large headline reads 'DOI THU TREN SAN TRI KI NGOAI DOI'. Two male footballers embrace gently at center field after a match, one in a red jersey with a dark blue cross-like pattern and number 9, the other in a white jersey with red accents and number 10. A translucent Techcombank diamond shape overlays the stadium background. Bottom copy reads 'TECHCOMBANK & HE SINH THAI DONG HANH CUNG VTV thuc hien su menh phung su Quoc gia mang FIFA WORLD CUP 2026 TM Den trieu trieu trai tim Viet Nam' and the slogan 'VUOT TROI MOI NGAY'.",
+      "style": "Emotion-driven sports brand poster with realistic football photography, national-broadcast mood, and subtle translucent brand geometry"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TECHCOMBANK / DOI THU TREN SAN / TRI KI NGOAI DOI / TECHCOMBANK & HE SINH THAI DONG HANH CUNG VTV / FIFA WORLD CUP 2026 / VUOT TROI MOI NGAY / Den trieu trieu trai tim Viet Nam",
+      "items": [
+        "Top Left: Open sky with scattered confetti and no extra objects",
+        "Top Right: Techcombank logo",
+        "Bottom Left: Slogan 'VUOT TROI MOI NGAY' over the grass edge",
+        "Bottom Right: VTV logo and World Cup campaign copy",
+        "Center/Background: Two embracing footballers on a bright stadium pitch with a packed crowd and a translucent Techcombank diamond shape behind them"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright stadium daylight",
+      "effect": "Natural match-day sunlight, subtle confetti drift, crowd haze, cinematic realism"
+    },
+    "technical_specs": {
+      "render_style": "Photo-real sports brand poster with cinematic compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank football brand campaign. Centerpiece is two male footballers embracing on a stadium field, one in a red kit and one in a white kit, symbolizing respect beyond rivalry. Background is a packed football stadium under bright blue sky with a translucent Techcombank diamond overlay. Surrounding elements: headline 'DOI THU TREN SAN TRI KI NGOAI DOI', Techcombank logo, bottom copy mentioning 'TECHCOMBANK & HE SINH THAI DONG HANH CUNG VTV' and 'FIFA WORLD CUP 2026', plus the slogan 'VUOT TROI MOI NGAY'. Technical style: photo-real sports brand poster with cinematic compositing, bright stadium daylight, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Two footballer photo references",
+          "required": true,
+          "source": "original campaign athletes or equivalent footballer refs",
+          "usage": "Attach for exact pose, kit styling, hairstyle, and body language"
+        },
+        {
+          "type": "logo",
+          "name": "Techcombank and VTV logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Preserve the top-right and bottom-right lockups"
+        },
+        {
+          "type": "text_layout",
+          "name": "World Cup emotional poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the headline, bottom campaign copy, slogan, and translucent diamond placement"
+        }
+      ],
+      "prompt_instructions": "This is an emotional brand-story football poster, not a sales graphic. Preserve the exact visible wording and the intimate embrace pose on the pitch."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "prompt-684",
+  "tag": [
+    "approved-adult-face",
+    "black-roses",
+    "lakeside",
+    "thin-strap-top",
+    "gothic",
+    "overcast"
+  ],
+  "image_type": "gothic-lakeside-fashion-portrait",
+  "image_vibe": "dark-romantic, melancholic, misty, cinematic, gothic",
+  "image_purpose": "fashion-editorial, moodboard, gothic-campaign",
+  "group": "indie / moody-portrait / outdoor-editorial",
+  "prompt": {
+    "project_info": {
+      "theme": "Black roses gothic lakeside shoulder-turn portrait",
+      "format": "vertical close portrait",
+      "color_palette": "washed cool gray, black, pale skin, misty water"
+    },
+    "main_subject": {
+      "type": "adult woman using a required approved-adult face reference",
+      "detail": "An adult woman whose face, facial structure, proportions, features, and expression match the attached approved-adult reference. She has long straight hair lightly tousled by wind and wears a black thin-strap evening top. She holds a bouquet of black roses close to her face.",
+      "style": "cinematic realism with dark-romantic gothic influence"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "standing with back angled to camera and head turned over shoulder",
+        "soft melancholic gaze toward viewer",
+        "bouquet of black roses is a main foreground element",
+        "misty lakeside or riverside with cool gray overcast sky",
+        "face and roses sharp, water background softly blurred"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft diffuse natural overcast daylight",
+      "effect": "muted highlights, low-contrast shadows, gentle rim on wind-tousled hair",
+      "atmosphere": "misty, melancholic, subtly gothic"
+    },
+    "technical_specs": {
+      "render_style": "85mm f/2 cinematic portrait with shallow depth",
+      "resolution": "high-detail vertical image",
+      "color_treatment": "desaturated neutral grays and washed cool tones, fine film grain, natural skin texture"
+    },
+    "generated_prompt_string": "Create a cinematic gothic lakeside portrait of an adult woman using the attached approved-adult face reference; preserve her face, facial structure, proportions, features, and expression exactly without celebrity or public-figure substitution. She stands with her back angled toward camera, turns her head over her shoulder, and looks toward viewer with a soft melancholic gaze. She has long straight hair lightly tousled by wind, wears a black thin-strap evening top, and holds a bouquet of black roses close to her face. Set her beside misty water under a gray overcast sky. Keep face and roses sharp against a softly blurred lakeside, using soft diffuse daylight, muted highlights, low-contrast shadows, desaturated cool gray tones, 85mm f/2 shallow depth, cinematic realism, and natural skin texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, backless clothing, identity blending, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, text, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "Attach a required approved-adult face reference. Preserve adult face, facial structure, likeness, shoulder-turn pose, black thin-strap evening top, black roses, misty lakeside, and cool overcast mood. Do not use a celebrity/public-figure likeness.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-reference",
+          "required": true,
+          "source": "user attachment",
+          "usage": "Keep adult face, facial structure, proportions, features, and expression exactly consistent."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Required the identity reference to depict an approved adult and prohibited celebrity/public-figure substitution.",
+      "Reframed the backless top as a black thin-strap evening top while preserving shoulder-turn pose, black roses, misty lakeside, and gothic mood."
+    ]
+  }
+}

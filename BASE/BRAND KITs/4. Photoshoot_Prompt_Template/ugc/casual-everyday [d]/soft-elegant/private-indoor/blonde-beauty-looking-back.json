@@ -1,0 +1,19 @@
+{
+  "name": "blonde-beauty-looking-back",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "private-indoor", "blonde", "white-ribbed-dress", "doorway"],
+  "image_type": "lifestyle-fashion-portrait",
+  "image_vibe": "clean-natural-elegant",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/soft-elegant/private-indoor",
+  "prompt": {
+    "project_info": "Create a clean natural portrait of an approved adult blonde woman looking over her shoulder in a white doorway.",
+    "main_subject": "An approved adult woman with shoulder-length blonde hair, fair skin, and freckles. She wears a white ribbed long-sleeve dress with a back opening and flared sleeves, kneeling or crouching naturally while looking over her shoulder toward the camera.",
+    "composition_elements": "Vertical portrait at eye level, subject framed by a white paneled doorway, turned three-quarter back to camera with the face visible, patterned wood floor beneath, stone wall edges, and a warm interior with simple furniture behind her.",
+    "lighting_and_atmosphere": "Soft natural daylight from the doorway, gentle interior shade, realistic white fabric texture, and a calm elegant home atmosphere.",
+    "technical_specs": "Photorealistic smartphone-style portrait, 4:5 or 9:16 crop, natural perspective, sharp face and ribbed fabric, realistic hands and anatomy, gentle background separation, restrained color and subtle grain.",
+    "generated_prompt_string": "Create a clean natural photorealistic portrait of an approved adult blonde woman with fair skin and freckles looking over her shoulder toward the camera. She wears a white ribbed long-sleeve dress with a back opening and softly flared sleeves, and kneels or crouches naturally in a white paneled doorway. Frame her from a three-quarter back angle with her face clearly visible, a patterned wood floor beneath, stone doorway edges, and a warm simple interior behind her. Use soft natural daylight, gentle interior shade, realistic fabric and skin texture, natural proportions, quiet elegant home atmosphere, and a vertical 4:5 or 9:16 crop.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted face, warped limbs, text, logo",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-blonde-subject", "required": true, "source": "blonde-beauty-looking-back.jpg", "usage": "Preserve the adult subject's face, blonde hair, freckles, gaze, and identity without reproducing a public-figure likeness."}, {"type": "wardrobe", "name": "white-ribbed-back-opening-dress", "required": true, "source": "blonde-beauty-looking-back.jpg", "usage": "Keep the white ribbed dress, sleeves, and back opening consistent; replace only with an explicit wardrobe reference."}, {"type": "location", "name": "white-doorway-patterned-wood-floor", "required": true, "source": "blonde-beauty-looking-back.jpg", "usage": "Maintain the doorway, floor, stone edges, and home interior; replace only with an explicit location reference."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, pose, face visibility, and doorway environment consistent. Furniture and background may be replaced only with explicit alternatives; preserve identity, outfit, product, logo, environment, and typography in replacements. No logo or typography is present."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and kept the back-opening outfit and over-shoulder concept without sexualized framing.", "Added safe negative prompts and structured references."]}
+}

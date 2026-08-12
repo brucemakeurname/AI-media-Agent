@@ -1,0 +1,78 @@
+{
+  "name": "vinamilk-greek-high-protein-yogurt-blue-pack",
+  "tag": [
+    "vinamilk",
+    "high-protein-yogurt",
+    "greek-style",
+    "blue-pack",
+    "product"
+  ],
+  "biz_niche": "Generic/Universal Product Ad",
+  "content_format": "Product demos",
+  "group": "vinamilk_4334997956739310",
+  "prompt": {
+    "project_info": {
+      "theme": "High-protein Greek-style yogurt product introduction",
+      "color_palette": "Sky blue, white, vivid royal blue, gold accent"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A clean product poster dominated by pale blue and vivid blue typography. The headline reads 'SỮA CHUA CAO ĐẠM' and 'ĂN ĐÃ MIỆNG, MÚC ĐÃ TAY'. Supporting circular callouts say 'CUNG CẤP ĐẠM +35% 5 g MỖI HỘP' and 'MEN SỐNG TỪ HY LẠP'. The main product area shows a creamy yogurt bowl, a spoon holding yogurt, and the retail carton reading 'Vinamilk ĐẶC MỊN KIỂU HY LẠP', 'Sữa chua CAO ĐẠM', and '400 g (4 hộp x 100 g)'.",
+      "style": "Bright FMCG product poster with bold arched typography and freshness-focused minimalism"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "Vinamilk; EST; 1976; SỮA CHUA CAO ĐẠM; ĂN ĐÃ MIỆNG, MÚC ĐÃ TAY; CUNG CẤP ĐẠM +35% 5 g MỖI HỘP; MEN SỐNG TỪ HY LẠP; Vinamilk ĐẶC MỊN KIỂU HY LẠP; Sữa chua CAO ĐẠM; 400 g (4 hộp x 100 g); High Protein Yoghurt",
+      "items": [
+        "Top Left: Thin blue decorative stripe border and curved headline text spanning the width",
+        "Top Right: Blue triangular callout 'MEN SỐNG TỪ HY LẠP'",
+        "Bottom Left: Blue spoon lifting thick white yogurt above a patterned bowl",
+        "Bottom Right: Product carton front with blue Greek motif bowl illustration and weight callout",
+        "Center/Background: Light sky-blue field with bold arched blue lettering and clean product staging"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright FMCG studio lighting",
+      "effect": "Crisp white dairy texture, flat clean shadows, package-front legibility, fresh minimal mood"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal FMCG product advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square FMCG product poster for Vinamilk Greek-style high-protein yogurt. Centerpiece is a pale-blue and vivid-blue design with the exact text 'SỮA CHUA CAO ĐẠM', 'ĂN ĐÃ MIỆNG, MÚC ĐÃ TAY', 'CUNG CẤP ĐẠM +35% 5 g MỖI HỘP', 'MEN SỐNG TỪ HY LẠP', 'Vinamilk ĐẶC MỊN KIỂU HY LẠP', 'Sữa chua CAO ĐẠM', and '400 g (4 hộp x 100 g)'. Show a creamy yogurt bowl, a spoon lifting yogurt, and the retail carton prominently. Background is a minimal light-blue field with bold arched typography. Technical style: photoreal FMCG product advertising composite, bright FMCG studio lighting, crisp dairy texture and package legibility, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Vinamilk logo",
+          "required": true,
+          "source": "original product branding",
+          "usage": "Top center brand lockup and on the retail carton"
+        },
+        {
+          "type": "product",
+          "name": "Vinamilk Greek-style high-protein yogurt pack",
+          "required": true,
+          "source": "real packaging reference required",
+          "usage": "Match the carton structure, bowl motif, and blue-white identity"
+        },
+        {
+          "type": "product",
+          "name": "Yogurt bowl and spoon hero visual",
+          "required": true,
+          "source": "original product-shot composition",
+          "usage": "Preserve the thick creamy texture and left-side bowl/spoon arrangement"
+        },
+        {
+          "type": "text_layout",
+          "name": "Arched headline and callout badges",
+          "required": true,
+          "source": "original creative copy",
+          "usage": "Keep the curved headline and the two blue/gold callout elements"
+        }
+      ],
+      "prompt_instructions": "This is a clean retail product-introduction poster. Preserve the pale-blue palette, the arched blue typography, and the very thick creamy yogurt texture. Do not turn it into a lifestyle scene."
+    }
+  }
+}

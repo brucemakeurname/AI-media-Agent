@@ -1,0 +1,71 @@
+{
+  "name": "purple-glitch-seductive-girl",
+  "tag": [
+    "adult-woman",
+    "purple-studio",
+    "fisheye",
+    "vhs-glitch",
+    "lace-trim-fashion"
+  ],
+  "image_type": "glitch-fashion-portrait",
+  "image_vibe": "moody-purple-analog",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/cinematic-portrait",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous girl wording to an adult woman.",
+      "Replaced seductive, body-proportion, and sleepwear wording with an adult fashion portrait using a dark lace-trim outfit and directional light."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult purple-studio fashion portrait with analog VHS degradation",
+      "color_palette": "deep violet, black-brown, muted warm skin tones, and red-blue chromatic fringes",
+      "format": "landscape 4:3"
+    },
+    "main_subject": {
+      "type": "adult East Asian woman",
+      "detail": "Adult East Asian woman with dark brown hair in a loose updo and wispy bangs, a feminine silhouette, and a calm direct gaze. She wears a dark brown lace-trim fashion camisole with coordinated high-waisted shorts.",
+      "style": "moody analog fashion editorial with natural skin texture"
+    },
+    "composition_elements": {
+      "text": "No text, logo, or watermark.",
+      "items": [
+        "high top-down viewpoint with controlled fisheye perspective",
+        "adult subject centered against an infinite solid-purple studio background",
+        "natural arms-behind posture and a gentle head tilt",
+        "rounded CRT-style frame edges and physical tape scanlines"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft directional violet key at 4300K with a warm low-intensity fill",
+      "effect": "subtle shadows shaping the shoulders and chest area through the outfit, soft facial highlights, chromatic fringing, and degraded analog atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "8mm fisheye lens, 4:3 consumer VHS camcorder frame, heavy tape grain, chromatic aberration, scanlines, tracking noise, and no modern digital sharpness",
+      "resolution": "intentionally degraded landscape 4:3 VHS texture"
+    },
+    "generated_prompt_string": "Create a 4:3 analog VHS fashion portrait of an adult East Asian woman with dark brown hair in a loose updo and wispy bangs, centered against an infinite solid-purple studio background. Use a high top-down 8mm fisheye viewpoint. She has a feminine silhouette and wears a dark brown lace-trim fashion camisole with coordinated high-waisted shorts. Keep a calm direct gaze and a natural arms-behind posture with a gentle head tilt. Use a soft 4300K violet key and warm low-intensity fill to create subtle shadows shaping her shoulders and chest area through the outfit. Render strong physical VHS degradation: rounded CRT frame edges, heavy tape grain, chromatic aberration, scanlines, tracking noise, and softened detail. No text, logo, watermark, or sexualized framing.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, seductive expression, sexualized pose, lingerie, sleepwear, body-part emphasis, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra limbs, deformed, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity continuity is required.",
+          "usage": "Replace only the adult identity while retaining the purple studio, top-down fisheye composition, VHS effects, hair direction, and dark lace-trim fashion outfit."
+        },
+        {
+          "type": "wardrobe",
+          "name": "dark-lace-trim-fashion-reference",
+          "required": false,
+          "source": "Attach a garment reference if exact lace-trim construction or color is required.",
+          "usage": "Replace only garment details while retaining the dark coordinated fashion silhouette and analog purple-studio direction."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. Preserve the purple background, high top-down fisheye view, VHS scanlines and chromatic fringing, dark coordinated outfit, and moody analog fashion atmosphere."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "samsung-galaxy-buds4-pro-metallic-pink-gold-hero",
+  "tag": [
+    "earbuds-launch",
+    "product-hero",
+    "audio",
+    "buds4-pro"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Brand story",
+  "group": "samsung_1388391143329360",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy Buds4 Pro metallic pink gold hero poster",
+      "color_palette": "Warm white, soft metallic pink gold, brushed silver, black typography"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Close-up premium product poster showing two Galaxy Buds4 Pro earbuds in a warm pink-gold metallic finish against a bright clean background, paired with a large black product-name lockup.",
+      "style": "Photorealistic macro product render, luxury audio hardware advertising, minimal premium composition"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Galaxy Buds4 Pro",
+      "items": [
+        "Top Left: Large macro earbud angled diagonally from upper right toward center.",
+        "Top Right: Clean bright negative space around the earbud stems and brushed-metal textures.",
+        "Bottom Left: Second earbud angled upward with visible circular mesh opening and soft silicone tip.",
+        "Bottom Right: Large stacked black title 'Galaxy Buds4 Pro'.",
+        "Center/Background: Soft white background with a faint product-box edge and luxurious close-up framing emphasizing brushed-metal stem surfaces."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio lighting",
+      "effect": "Macro metallic sheen, gentle shadowing, clean premium hardware clarity"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy Buds4 Pro metallic pink gold hero poster. Centerpiece is a macro close-up of two Galaxy Buds4 Pro earbuds in a warm metallic pink-gold finish with visible mesh openings and silicone tips. Background is a bright soft white field with subtle luxury shadows. Surrounding elements: large black title 'Galaxy Buds4 Pro' at the lower right and minimal negative space emphasizing brushed-metal stem textures. Technical style: photorealistic product render, soft studio lighting, metallic sheen and macro hardware clarity, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy Buds4 Pro metallic pink-gold earbuds",
+          "required": true,
+          "source": "official Samsung buds render",
+          "usage": "Preserve exact earbud shape, brushed-metal stem finish, and silicone tip geometry."
+        },
+        {
+          "type": "text_layout",
+          "name": "minimal product-name typography",
+          "required": true,
+          "source": "original poster",
+          "usage": "Keep the title size, lower-right placement, and sparse composition."
+        }
+      ],
+      "prompt_instructions": "Use refs for the exact Galaxy Buds4 Pro finish and macro angle. The poster should feel luxurious and close-cropped, not like a generic ecommerce grid."
+    }
+  }
+}

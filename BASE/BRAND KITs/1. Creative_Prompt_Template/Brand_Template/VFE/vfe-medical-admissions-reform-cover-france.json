@@ -1,0 +1,71 @@
+{
+  "name": "vfe-medical-admissions-reform-cover-france",
+  "tag": [
+    "vfe",
+    "medical-admissions",
+    "france",
+    "cover",
+    "brand-story"
+  ],
+  "biz_niche": "Health & Wellness",
+  "content_format": "Brand story",
+  "group": "vfe_1534210935074568",
+  "prompt": {
+    "project_info": {
+      "theme": "Introductory cover for French medical admissions reform",
+      "color_palette": "Medical Blue, Teal, White, Peach"
+    },
+    "main_subject": {
+      "type": "Text/Graphic",
+      "detail": "A cover-style poster introducing major changes in French medical admissions, with a large doctor torso and stethoscope illustration dominating the background and bold white headline text stacked in the center.",
+      "style": "Minimal educational cover slide with strong typographic hierarchy, flat medical illustration, and high visual continuity with a policy infographic series."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nTHAY ĐỔI LỚN\nTRONG TUYỂN SINH\nY KHOA TẠI PHÁP\nPASS VÀ L.A.S CHÍNH THỨC ĐƯỢC THAY THẾ",
+      "items": [
+        "Top Left: VFE logo near the illustrated collar.",
+        "Top Right: Stethoscope head hanging into the top-right area.",
+        "Bottom Left: The lower rounded text block announcing 'PASS VÀ L.A.S CHÍNH THỨC ĐƯỢC THAY THẾ'.",
+        "Bottom Right: Clean continuation of the flat blue medical backdrop.",
+        "Center/Background: Simplified doctor torso, large white headline, and an angled white label strip behind 'Y KHOA TẠI PHÁP'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat medical cover lighting",
+      "effect": "No realistic shadows, smooth vector surfaces, strong white-on-blue contrast, and clear headline dominance."
+    },
+    "technical_specs": {
+      "render_style": "Flat vector educational cover poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality educational cover poster for changes in French medical admissions. Centerpiece is a simplified doctor torso and stethoscope illustration over a blue medical background, with a large stacked headline 'THAY ĐỔI LỚN TRONG TUYỂN SINH Y KHOA TẠI PHÁP'. Surrounding elements: VFE logo near the top, an angled white strip behind 'Y KHOA TẠI PHÁP', and a rounded lower text box reading 'PASS VÀ L.A.S CHÍNH THỨC ĐƯỢC THAY THẾ'. Technical style: flat vector educational cover poster, strong headline contrast, minimal medical illustration, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place near the top center."
+        },
+        {
+          "type": "graphic",
+          "name": "Doctor torso with stethoscope illustration",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Use as the main framing illustration for the cover."
+        },
+        {
+          "type": "text_layout",
+          "name": "Medical reform cover layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep the exact headline stacking and lower callout box."
+        }
+      ],
+      "prompt_instructions": "This is the series cover for the medical admissions reform topic. Keep it visually simpler and more headline-led than the detailed objectives infographic, while preserving the same doctor/stethoscope visual language."
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "toyota-yaris-cross-halfyear-sales-7962",
+  "tag": [
+    "yaris-cross",
+    "sales-milestone",
+    "hybrid",
+    "celebration"
+  ],
+  "biz_niche": "Automotive",
+  "content_format": "Infographics",
+  "group": "toyota_1547792447054137",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Yaris Cross first-half 2026 sales milestone",
+      "color_palette": "Bright yellow, coral red, royal blue, green, white"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A celebratory automotive sales poster with Toyota logo at top left and the line 'DOANH SO 6 THANG DAU NAM 2026'. The centerpiece is an oversized red number '7,962' behind a red Toyota Yaris Cross viewed from a high front three-quarter angle. Large text below reads 'YARIS CROSS DOANH SO THANG HOA TIEP DA LINH HOAT'. At the bottom are four offer boxes: 'UU DAI TUONG DUONG 50 TRIEU DONG', 'UU DAI LAI SUAT CHI TU 7.75%', 'TRA TRUOC 0 DONG', and 'BAO HANH XE VA AC QUY DIEN HYBRID LEN DEN 10 NAM HOAC 185.000 KM (*)'. Bottom-right script says 'Move your world'.",
+      "style": "Bold celebratory sales poster with oversized numerical typography, glossy product hero shot, and bright campaign gradients"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / DOANH SO 6 THANG DAU NAM 2026 / 7,962 / YARIS CROSS / DOANH SO THANG HOA / TIEP DA LINH HOAT / UU DAI TUONG DUONG 50 TRIEU DONG / UU DAI LAI SUAT CHI TU 7.75% / TRA TRUOC 0 DONG / BAO HANH XE VA AC QUY DIEN HYBRID LEN DEN 10 NAM HOAC 185.000 KM (*) / Move your world",
+      "items": [
+        "Top Left: Toyota logo over a bright yellow gradient sky",
+        "Top Right: White sparkle accents near the giant red sales number",
+        "Bottom Left: First two offer boxes in yellow and green",
+        "Bottom Right: Warranty box and handwritten 'Move your world'",
+        "Center/Background: Red Toyota Yaris Cross floating in front of the oversized '7,962' number and above a warm coral-to-pink gradient floor"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright celebratory commercial lighting",
+      "effect": "Glossy paint highlights, vibrant gradient glow, poster-like sales excitement"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal automotive campaign composite with bold infographic typography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Yaris Cross first-half 2026 sales milestone. Centerpiece is a red Toyota Yaris Cross shown from a high front angle in front of an oversized red number '7,962'. Background is a bright yellow-to-coral celebratory gradient with sparkle accents. Surrounding elements: Toyota logo, exact line 'DOANH SO 6 THANG DAU NAM 2026', title 'YARIS CROSS DOANH SO THANG HOA TIEP DA LINH HOAT', and bottom offer boxes including '50 TRIEU DONG', '7.75%', '0 DONG', and '10 NAM HOAC 185.000 KM'. Technical style: photoreal automotive campaign composite with bold infographic typography, bright celebratory commercial lighting, glossy highlights and vibrant glow, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Red Toyota Yaris Cross exterior reference",
+          "required": true,
+          "source": "official Yaris Cross render",
+          "usage": "Preserve the red body color, elevated angle, and wheel styling"
+        },
+        {
+          "type": "text_layout",
+          "name": "Sales milestone poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the giant '7,962' numeric hero, model title, and four-offer strip at the bottom"
+        }
+      ],
+      "prompt_instructions": "Preserve the exact milestone '7,962' and the year '2026'. This should read as a triumphant sales celebration rather than a standard offer poster."
+    }
+  }
+}

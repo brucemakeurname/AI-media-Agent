@@ -1,0 +1,27 @@
+{
+  "name": "casual-blonde-pilates-grid",
+  "tag": ["ugc", "casual-everyday", "sporty-active", "public-indoor", "pilates", "grid-collage"],
+  "image_type": "pilates-grid-collage",
+  "image_vibe": "casual-natural-workout",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/sporty-active/public-indoor",
+  "prompt": {
+    "project_info": "Create a casual 2x2 smartphone-style Pilates workout collage of an approved adult blonde woman in a simple studio or gym corner.",
+    "main_subject": "An approved adult blonde woman with elegant natural features and a calm focused expression, wearing the same white sports bra and grey fitted shorts in every frame. Keep realistic skin texture and an unposed workout-break presence.",
+    "composition_elements": "2x2 grid on a 4:5 canvas showing standing roll-down, Pilates hundred, side leg lift, and seated spine or mermaid stretch. Use imperfect handheld framing, mild blur, uneven exposure, and ordinary mats with neutral walls.",
+    "lighting_and_atmosphere": "Ambient indoor light only, casual real-workout atmosphere, natural color and slight digital noise rather than polished studio lighting.",
+    "technical_specs": "4:5 collage canvas, four smartphone-photo panels, low-resolution handheld feel, mild wide-angle distortion, slight motion blur, visible grain, imperfect focus and framing.",
+    "generated_prompt_string": "Create a casual 2x2 grid collage on a 4:5 canvas using smartphone-style photos of an approved adult blonde woman doing Pilates in a simple studio or gym corner. Keep the same white sports bra and grey fitted shorts across all four panels, with realistic skin and a calm focused expression. Show standing roll-down, Pilates hundred, side leg lift, and seated spine or mermaid stretch. Use ambient indoor light, neutral walls, basic mats, low-resolution handheld character, mild blur, uneven exposure, slight wide-angle distortion, digital noise, and imperfect framing.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, professional studio lighting, DSLR fashion shoot, CGI, cartoon style, watermark, random text, extra fingers, deformed hands, distorted body",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-blonde-pilates-subject", "required": true, "source": "casual-blonde-pilates-grid.jpg", "usage": "Preserve adult identity, blonde hair, expression, and consistent appearance across all panels."},
+        {"type": "wardrobe", "name": "white-bra-grey-shorts-set", "required": true, "source": "casual-blonde-pilates-grid.jpg", "usage": "Keep the same white sports bra and grey shorts in every frame; replace only with explicit wardrobe references."},
+        {"type": "layout", "name": "two-by-two-pilates-grid", "required": true, "source": "casual-blonde-pilates-grid.jpg", "usage": "Preserve four-panel order, 4:5 canvas, and varied smartphone framing; replace only with explicit layout references."},
+        {"type": "location", "name": "simple-pilates-studio-corner", "required": true, "source": "casual-blonde-pilates-grid.jpg", "usage": "Maintain neutral walls, mats, ambient light, and ordinary workout setting; replace only with explicit location references."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, layout, and location references when exact consistency is required. Keep adult identity, outfit, panel order, product/equipment, environment, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed sensual wording and clarified the subject as an approved adult while preserving the casual Pilates collage.", "Added safe negative prompts and grid consistency references."]}
+}

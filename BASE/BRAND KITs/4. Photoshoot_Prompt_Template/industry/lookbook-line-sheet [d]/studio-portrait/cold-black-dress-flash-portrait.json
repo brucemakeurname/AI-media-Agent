@@ -1,0 +1,86 @@
+{
+  "name": "cold-black-dress-flash-portrait",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "direct-flash",
+    "brick-wall"
+  ],
+  "image_type": "direct-flash nightlife fashion portrait",
+  "image_vibe": "edgy, cool-neutral, candid, confident",
+  "image_purpose": "fashion lookbook and nightlife editorial portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create an 8K direct-flash fashion portrait of one original approved adult woman looking back over her left shoulder against a sharply detailed exposed brick wall.",
+    "main_subject": "Original approved adult woman with long dark-brown straight-to-slightly-wavy hair parted in the middle, light complexion with natural freckles across cheeks and nose, light hazel-green eyes, defined lashes, natural pores and skin texture, dewy flash highlights, glossy brown-red lipstick, and a calm confident gaze. She wears a black matte form-fitting dress with an open-back design and one off-shoulder strap visible on the left arm, plus gold bangles, layered gold chain bracelets, and gold rings.",
+    "composition_elements": [
+      "Subject stands with her back angled toward camera and looks back over the left shoulder; hands are held naturally near the waist.",
+      "Razor-sharp red-and-brown brickwork and mortar remain visible with no background blur.",
+      "A hard defined shadow of the subject is cast directly onto the brick wall behind her.",
+      "Keep the black dress, gold jewelry, freckles, and cool-neutral nightlife palette consistent."
+    ],
+    "lighting_and_atmosphere": "Hard direct on-camera flash with high contrast, bright specular highlights on cheekbones, forehead, and shoulder, cool-neutral color temperature, and a sharp defined wall shadow.",
+    "technical_specs": "Photorealistic 8K RAW-style portrait, 35mm or 50mm full-frame prime lens, f/8 to f/11, ISO 100, 1/200s, deep focus edge-to-edge, sharp brick and subject textures, no bokeh, no text or watermark.",
+    "generated_prompt_string": "Photorealistic 8K direct-flash fashion portrait of one original approved adult woman with long dark-brown straight-to-slightly-wavy hair parted in the middle, light complexion with natural freckles across cheeks and nose, light hazel-green eyes, defined lashes, visible pores and natural skin texture, dewy flash highlights and glossy brown-red lipstick. She wears a black matte form-fitting dress with an open-back design and one off-shoulder strap visible on the left arm, gold bangles, layered gold chain bracelets and gold rings. She stands against a sharply detailed exposed red-and-brown brick wall, looks back over her left shoulder toward the camera, and holds her hands naturally near her waist. Use hard direct on-camera flash, high contrast, cool-neutral color temperature, bright specular highlights, a sharp defined shadow cast directly onto the brick wall, 35mm or 50mm full-frame lens, f/8 to f/11, ISO 100, 1/200s, deep focus, no bokeh, no text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "celebrity likeness",
+      "explicit measurements",
+      "body-part emphasis",
+      "blur",
+      "bokeh",
+      "out of focus background",
+      "haze",
+      "soft focus",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "distorted fingers",
+      "watermark",
+      "text",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "cold-black-dress-flash-portrait.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for original approved-adult identity, face, freckles, hair, dress, pose, and jewelry reference."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black open-back dress and gold bracelets",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the supplied dress construction, strap placement, matte fabric, and jewelry."
+        },
+        {
+          "type": "location",
+          "name": "exposed red-and-brown brick wall",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve brick detail, mortar, sharp background focus, and direct-flash shadow environment."
+        }
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, and brick-wall references; no optional assets are needed. Keep identity, face, freckles, hair, outfit, jewelry, pose, environment, lighting, shadow, and typography consistency. Replace only with an equivalent approved adult, equivalent wardrobe, or equivalent brick-wall environment. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public-figure identity and removed celebrity-snapshot wording while preserving the black dress, direct-flash look, brick wall, pose, and nightlife editorial intent."
+    ]
+  }
+}

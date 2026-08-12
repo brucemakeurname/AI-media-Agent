@@ -1,0 +1,77 @@
+{
+  "name": "shopee-mid-month-sale-july-15-voucher-mega",
+  "tag": [
+    "mid-month-sale",
+    "voucher",
+    "free-ship",
+    "summer-retail"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "shopee_1391808859507650",
+  "prompt": {
+    "project_info": {
+      "theme": "Shopee mid-month July 15 sale campaign",
+      "color_palette": "Bright yellow, orange, royal blue, white, cyan"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A vibrant ecommerce sale poster with a giant blue calendar card reading 'NGAY 15' beside a large orange sign that says 'SALE GIUA THANG' and a teal ribbon 'SIEU NHANH SIEU RE'. Underneath are three neon-blue voucher boxes: 'VOUCHER GIAM DEN 2 TRIEU DONG cung SEasy (***)', 'ShopeeVIP TRIEU PHU VOUCHER GIAM DEN 20% MOI NGAY', and 'FREE SHIP 0D'. The bottom center date reads '12.7 - 15.7' with legal disclaimer text below. Around the layout float lifestyle products including a makeup compact, blue game controller, blue sunglasses, orange sneaker, red hoodie, and orange scooter. The top sign includes the Shopee logo.",
+      "style": "High-energy 3D retail-sale key visual with glossy product props, neon voucher panels, and summer campaign motion"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "Shopee / NGAY 15 / SALE GIUA THANG / SIEU NHANH SIEU RE / VOUCHER / GIAM DEN 2 TRIEU DONG / cung SEasy (***) / ShopeeVIP / TRIEU PHU VOUCHER / GIAM DEN 20% / MOI NGAY / FREE SHIP / 0D / 12.7 - 15.7",
+      "items": [
+        "Top Left: Pink makeup compact and blue game controller floating over yellow motion swirls",
+        "Top Right: Blue sunglasses and orange sneaker floating near the sale header",
+        "Bottom Left: Red hoodie near the curved yellow ground glow",
+        "Bottom Right: Orange scooter and small white legal disclaimer lines",
+        "Center/Background: Giant blue 'NGAY 15' calendar, orange 'SALE GIUA THANG' sign, and three blue voucher blocks ringed by swirling yellow energy ribbons"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright retail-commercial lighting",
+      "effect": "Strong glow gradients, glossy 3D highlights, comic halftone textures, energetic marketplace-sale atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "3D ecommerce campaign key visual with glossy retail compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee mid-month July 15 sale campaign. Centerpiece is a giant blue calendar card reading 'NGAY 15' beside a large orange sale board reading 'SALE GIUA THANG' with a teal strip 'SIEU NHANH SIEU RE'. Background is a glowing yellow-orange marketplace scene with swirling ribbons and halftone texture. Surrounding elements: Shopee logo, three blue voucher boxes reading 'VOUCHER GIAM DEN 2 TRIEU DONG cung SEasy (***)', 'ShopeeVIP TRIEU PHU VOUCHER GIAM DEN 20% MOI NGAY', and 'FREE SHIP 0D', the date '12.7 - 15.7', plus floating props including a makeup compact, game controller, sunglasses, sneaker, hoodie, and scooter. Technical style: 3D ecommerce campaign key visual with glossy retail compositing, bright retail-commercial lighting, strong glow gradients and glossy highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Shopee logo and ShopeeVIP badge",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Preserve top-brand presence and the VIP tab styling"
+        },
+        {
+          "type": "graphic",
+          "name": "Calendar card, sale sign, voucher box, and glow-ribbon assets",
+          "required": true,
+          "source": "this creative or campaign source files",
+          "usage": "Maintain the exact campaign hierarchy and neon-blue/orange 3D styling"
+        },
+        {
+          "type": "product",
+          "name": "Floating lifestyle props including makeup compact, controller, sunglasses, sneaker, hoodie, and scooter",
+          "required": true,
+          "source": "retail prop references",
+          "usage": "Keep the playful category cues around the sale header"
+        },
+        {
+          "type": "text_layout",
+          "name": "Mid-month sale hero layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the central stack, three voucher boxes, date placement, and disclaimer structure"
+        }
+      ],
+      "prompt_instructions": "Preserve '12.7 - 15.7' exactly; relative to Friday, July 17, 2026 this promotion is already in the past, but the visible campaign dates must remain unchanged. Keep the visual loud, glossy, and highly promotional."
+    }
+  }
+}

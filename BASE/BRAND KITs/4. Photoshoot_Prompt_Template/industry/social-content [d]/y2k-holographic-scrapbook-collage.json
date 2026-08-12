@@ -1,0 +1,82 @@
+{
+  "name": "y2k-holographic-scrapbook-collage",
+  "tag": [
+    "y2k-holographic",
+    "pastel-fashion",
+    "scrapbook-poster",
+    "camera-cat-daisy",
+    "repeated-portrait"
+  ],
+  "image_type": "mixed-media-fashion-collage",
+  "image_vibe": "soft-holographic-y2k",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Holographic Y2K scrapbook poster with repeated adult portrait cutouts",
+      "creative_direction": "Pastel magazine collage with holographic paper, sticker graphics, and varied fashion interactions",
+      "color_palette": "lavender, pink, pale blue, cream, mint, holographic silver, white, and neon pink outlines"
+    },
+    "main_subject": {
+      "type": "clearly adult Y2K-styled woman",
+      "detail": "same approved adult woman in every cutout, dark brown half-up hair with pink-tinted lower strands, pastel flower clips, warm natural smile, and consistent face",
+      "wardrobe": "pastel cropped oversized sweater with embroidered patches, pastel skirt and white belt, pastel-striped ankle socks, white sneakers, colorful bracelets, chunky rings, and decorative waist chain",
+      "poses": "heart fingers, central confident standing pose with lens-flare keychain, crouched camera pose, bubblegum portrait, cat portrait, winking peace sign, and daisy bouquet"
+    },
+    "composition_elements": {
+      "framing": "vertical frameless collage with a large central portrait and surrounding Polaroid-like cutouts",
+      "graphics": "holographic paper, pastel gradients, glitter accents, hearts, stars, butterflies, neon outlines, doodle borders, and fictional magazine text SO CUTE!, 199X!, and GIRL VIBES",
+      "balance": "chaotic but balanced arrangement with clear subject hierarchy and readable negative space"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft direct flash at approximately 5200K with colorful pastel bounce",
+      "effect": "dreamy glossy glow, clean skin detail, controlled sparkle, and consistent cutout edges"
+    },
+    "technical_specs": {
+      "render_style": "full-frame 35mm fashion snapshots combined with holographic scrapbook compositing",
+      "resolution": "4k vertical social poster",
+      "finish": "photoreal adult portraits, stable hands and anatomy, vivid pastel color, subtle texture, and crisp sticker graphics"
+    },
+    "generated_prompt_string": "Create a colorful holographic Y2K scrapbook poster featuring the same clearly adult woman in multiple cutout portraits, all wearing the same pastel outfit and hairstyle. Give her dark brown half-up hair with pink-tinted lower strands, pastel flower clips, consistent face, and a warm natural smile. Dress her in a pastel cropped oversized sweater with embroidered patches, pastel skirt with white belt, pastel-striped ankle socks, white sneakers, colorful bracelets, chunky rings, and a decorative waist chain. Include heart-finger close-up, central confident standing pose holding a lens-flare keychain, crouched pose with a white instant camera, cheek-touching bubblegum portrait, elegant cat portrait, winking peace sign, and daisy bouquet pose. Use holographic textures, pastel gradients, glitter accents, hearts, stars, butterflies, neon outlines, doodle borders, Polaroid frames, and fictional magazine text such as SO CUTE!, 199X!, and GIRL VIBES. Use soft approximately 5200K flash, a glossy dreamy retro glow, photoreal adult portraits, and stable anatomy. Keep all poses playful, non-sexual, and clearly adult.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, childlike styling, suggestive pout, real logo, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed limbs, face mismatch, broken collage, illegible text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-holographic-y2k-model",
+          "required": true,
+          "source": "Original holographic collage preview image",
+          "usage": "Attach the approved adult face reference and preserve one consistent face, hair, and likeness across every cutout without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "pastel-patch-sweater-skirt-look",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve sweater patches, pastel skirt, belt, socks, sneakers, jewelry, and flower clips across every pose."
+        },
+        {
+          "type": "graphic",
+          "name": "holographic-scrapbook-poster-system",
+          "required": true,
+          "source": "Original collage preview image and source prompt",
+          "usage": "Attach to preserve holographic paper, cutout borders, stickers, doodles, text hierarchy, and pastel composition; replace logos with fictional graphics."
+        },
+        {
+          "type": "accessory",
+          "name": "instant-camera-cat-bubblegum-daisies",
+          "required": false,
+          "source": "Original preview image and source prompt",
+          "usage": "Optional prop reference; preserve the camera, cat, bubblegum, and daisies in their respective portraits while allowing equivalent props."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult model, exact wardrobe, scrapbook system, and optional props. Keep identity, outfit, hairstyle, repeated-portrait consistency, collage hierarchy, and holographic palette stable. Replace copy or props only with fictional/cleared equivalents and maintain non-sexual adult fashion posing."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the repeated subject as clearly adult and removed suggestive styling language while preserving the holographic Y2K collage and pose set."
+    ]
+  }
+}

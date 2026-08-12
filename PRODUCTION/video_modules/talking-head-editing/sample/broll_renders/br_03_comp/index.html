@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1080, height=1920" />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 1080px; height: 1920px; overflow: hidden; background: #1C1C1E; }
+    #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+
+    #bg { position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+      background: #1C1C1E; z-index: 0; }
+
+    /* Color masses — brand blue variants */
+    #mass-a {
+      position: absolute; top: -25%; left: -25%; width: 100%; height: 85%; z-index: 2;
+      background: radial-gradient(ellipse, rgba(31,127,254,0.85) 0%, rgba(14,60,140,0.4) 48%, transparent 68%);
+      filter: blur(55px); }
+    #mass-b {
+      position: absolute; bottom: -25%; right: -25%; width: 90%; height: 80%; z-index: 2;
+      background: radial-gradient(ellipse, rgba(15,80,200,0.75) 0%, rgba(0,180,220,0.3) 48%, transparent 68%);
+      filter: blur(55px); }
+    #mass-c {
+      position: absolute; top: 22%; left: 12%; width: 75%; height: 55%; z-index: 3;
+      background: radial-gradient(ellipse, rgba(31,127,254,0.45) 0%, transparent 60%);
+      filter: blur(38px); }
+    /* Dim particle dots for top zone */
+    #dots-top {
+      position: absolute; top: 0; left: 0; width: 100%; height: 640px; z-index: 1;
+      background-image: radial-gradient(circle, rgba(31,127,254,0.30) 1px, transparent 1px);
+      background-size: 55px 55px; pointer-events: none; }
+
+    /* TOP ZONE: 0–640px */
+    #top-label { position: absolute; top: 120px; left: 80px;
+      font-family: 'Inter', sans-serif; font-weight: 700; font-size: 22px;
+      color: rgba(31,127,254,0.85); letter-spacing: 0.18em; text-transform: uppercase; z-index: 8; }
+    #top-rule { position: absolute; top: 165px; left: 80px; width: 0; height: 1px;
+      background: rgba(31,127,254,0.50); z-index: 8; }
+    #top-sub { position: absolute; top: 186px; left: 80px;
+      font-family: 'Inter', sans-serif; font-weight: 300; font-size: 22px;
+      color: rgba(255,255,255,0.40); letter-spacing: 0.06em; text-transform: uppercase; z-index: 8; }
+
+    /* MID ZONE: 640–1280px — main quote */
+    #mid-quote { position: absolute; top: 680px; left: 80px; width: 920px;
+      font-family: 'Playfair Display', serif; font-style: italic; font-size: 88px;
+      color: #FFFFFF; line-height: 1.15; text-shadow: 0 2px 40px rgba(0,0,0,0.5);
+      z-index: 9; }
+    #mid-accent-dot { position: absolute; top: 1120px; left: 80px; width: 44px; height: 44px;
+      border-radius: 50%; border: 2px solid #1F7FFE; z-index: 9; }
+    #mid-divider { position: absolute; top: 1148px; left: 144px; width: 0; height: 2px;
+      background: rgba(31,127,254,0.50); z-index: 9; }
+
+    /* BOTTOM ZONE: 1280–1920px */
+    #btm-context { position: absolute; top: 1310px; left: 80px; width: 920px;
+      font-family: 'Inter', sans-serif; font-weight: 300; font-size: 30px;
+      color: rgba(255,255,255,0.50); letter-spacing: 0.04em; line-height: 1.5; z-index: 8; }
+    #btm-italic { position: absolute; top: 1530px; left: 80px; width: 920px;
+      font-family: 'Playfair Display', serif; font-style: italic; font-size: 48px;
+      color: #CFFF04; z-index: 8; }
+    #btm-brand { position: absolute; top: 1768px; left: 80px;
+      font-family: 'Inter', sans-serif; font-weight: 800; font-size: 22px;
+      color: rgba(255,255,255,0.22); letter-spacing: 0.14em; text-transform: uppercase; z-index: 8; }
+    #btm-dot { position: absolute; top: 1762px; right: 80px; width: 36px; height: 36px;
+      border: 2px solid #1F7FFE; border-radius: 50%; z-index: 8; }
+  </style>
+</head>
+<body>
+  <div id="root"
+       data-composition-id="broll-03"
+       data-start="0" data-duration="3.464"
+       data-width="1080" data-height="1920">
+
+    <!-- Layer 0: Environment -->
+    <div id="bg" class="clip" data-start="0" data-duration="3.464" data-track-index="0"></div>
+    <div id="dots-top" class="clip" data-start="0" data-duration="3.464" data-track-index="1"></div>
+
+    <!-- Layer 1: Color masses (primary visual) -->
+    <div id="mass-a" class="clip" data-start="0" data-duration="3.464" data-track-index="2"></div>
+    <div id="mass-b" class="clip" data-start="0" data-duration="3.464" data-track-index="3"></div>
+    <div id="mass-c" class="clip" data-start="0" data-duration="3.464" data-track-index="4"></div>
+
+    <!-- Layer 2: Primary text — TOP zone -->
+    <div id="top-label" class="clip" data-start="0" data-duration="3.464" data-track-index="5">No Soul Algorithm</div>
+    <div id="top-rule" class="clip" data-start="0" data-duration="3.464" data-track-index="6"></div>
+    <div id="top-sub" class="clip" data-start="0" data-duration="3.464" data-track-index="7">Identity · Authenticity · Creator</div>
+
+    <!-- Layer 2: MID zone quote -->
+    <div id="mid-quote" class="clip" data-start="0" data-duration="3.464" data-track-index="8">You cannot<br/>automate<br/>a soul.</div>
+    <div id="mid-accent-dot" class="clip" data-start="0" data-duration="3.464" data-track-index="9"></div>
+    <div id="mid-divider" class="clip" data-start="0" data-duration="3.464" data-track-index="10"></div>
+
+    <!-- Layer 3: Accent — BOTTOM zone -->
+    <div id="btm-context" class="clip" data-start="0" data-duration="3.464" data-track-index="11">She's just a digital screensaver,<br/>not a creator.</div>
+    <div id="btm-italic" class="clip" data-start="0" data-duration="3.464" data-track-index="12">"a screensaver, not a creator"</div>
+    <div id="btm-brand" class="clip" data-start="0" data-duration="3.464" data-track-index="13">SOLOFLOWS</div>
+    <div id="btm-dot" class="clip" data-start="0" data-duration="3.464" data-track-index="14"></div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      gsap.set('#mass-a', { opacity: 0, x: -60, y: -40 });
+      gsap.set('#mass-b', { opacity: 0, x: 60, y: 40 });
+      gsap.set('#mass-c', { opacity: 0 });
+      gsap.set('#dots-top', { opacity: 0 });
+      gsap.set('#top-label', { opacity: 0, y: -12 });
+      gsap.set('#top-rule', { width: 0 });
+      gsap.set('#top-sub', { opacity: 0 });
+      gsap.set('#mid-quote', { opacity: 0, y: 20 });
+      gsap.set('#mid-accent-dot', { opacity: 0, scale: 0, transformOrigin: 'center center' });
+      gsap.set('#mid-divider', { width: 0 });
+      gsap.set('#btm-context', { opacity: 0, y: 16 });
+      gsap.set('#btm-italic', { opacity: 0, y: 10 });
+      gsap.set('#btm-brand', { opacity: 0 });
+      gsap.set('#btm-dot', { opacity: 0, scale: 0, transformOrigin: 'center center' });
+
+      var tl = gsap.timeline({ paused: true });
+      window.__timelines = window.__timelines || {};
+      window.__timelines['broll-03'] = tl;
+
+      // env: 0–0.2s
+      tl.to('#dots-top', { opacity: 1, duration: 0.2, ease: 'power2.out' }, 0);
+
+      // primary visual — masses: 0–1.2s
+      tl.to('#mass-a', { opacity: 1, x: 0, y: 0, duration: 1.2, ease: 'sine.inOut' }, 0);
+      tl.to('#mass-b', { opacity: 1, x: 0, y: 0, duration: 1.2, ease: 'sine.inOut' }, 0.2);
+      tl.to('#mass-c', { opacity: 1, duration: 0.8, ease: 'sine.inOut' }, 0.5);
+      // slow drift during hold
+      tl.to('#mass-a', { x: 18, y: -12, duration: 2.5, ease: 'sine.inOut', overwrite: 'auto' }, 1.0);
+      tl.to('#mass-b', { x: -22, y: 16, duration: 3.0, ease: 'sine.inOut', overwrite: 'auto' }, 1.0);
+
+      // primary text: 0.7–1.5s
+      tl.to('#top-label', { opacity: 1, y: 0, duration: 0.3, ease: 'power2.out' }, 0.7);
+      tl.to('#top-rule', { width: 220, duration: 0.3, ease: 'power3.out' }, 0.88);
+      tl.to('#top-sub', { opacity: 1, duration: 0.25, ease: 'power2.out' }, 1.0);
+      tl.to('#mid-quote', { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' }, 0.75);
+
+      // accent: 1.3–2.2s
+      tl.to('#mid-accent-dot', { opacity: 1, scale: 1, duration: 0.28, ease: 'back.out(1.5)' }, 1.3);
+      tl.to('#mid-divider', { width: 580, duration: 0.4, ease: 'power3.out' }, 1.3);
+      tl.to('#btm-context', { opacity: 1, y: 0, duration: 0.38, ease: 'power2.out' }, 1.5);
+      tl.to('#btm-italic', { opacity: 1, y: 0, duration: 0.35, ease: 'power2.out' }, 1.78);
+      tl.to('#btm-brand', { opacity: 1, duration: 0.28, ease: 'power2.out' }, 2.0);
+      tl.to('#btm-dot', { opacity: 1, scale: 1, duration: 0.25, ease: 'back.out(1.5)' }, 2.1);
+
+      // fade: 2.964s
+      tl.to('#root', { opacity: 0, duration: 0.5, ease: 'power2.inOut' }, 2.964);
+    });
+  </script>
+</body>
+</html>

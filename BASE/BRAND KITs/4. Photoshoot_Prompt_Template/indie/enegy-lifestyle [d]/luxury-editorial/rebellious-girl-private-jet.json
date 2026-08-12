@@ -1,0 +1,75 @@
+{
+  "name": "rebellious-girl-private-jet",
+  "tag": [
+    "adult-woman",
+    "private-jet",
+    "silver-hair",
+    "streetwear",
+    "candid-portrait"
+  ],
+  "image_type": "lifestyle-fashion-portrait",
+  "image_vibe": "playful-rebellious-luxury",
+  "image_purpose": "instagram-feed",
+  "group": "indie/enegy-lifestyle/luxury-editorial",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named-celebrity likeness, visible shirt text, and obscene hand gesture with an original adult subject, unbranded graphic-free tee, and playful peace-sign gesture."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "playful rebellious streetwear portrait inside a private jet",
+      "color_palette": "soft silver gray, white, black, beige leather, and warm cabin light",
+      "format": "vertical 2:3 candid portrait"
+    },
+    "main_subject": {
+      "description": "an original adult woman with shoulder-length wavy silver-gray hair and darker roots, natural freckles, a plain oversized white T-shirt, thick silver chain, small silver hoops, black leather crossbody bag, and subtle geometric forearm tattoos",
+      "pose_and_expression": "leaning slightly toward camera with a playful grin and one relaxed peace-sign gesture"
+    },
+    "composition_elements": {
+      "camera_angle": "casual eye-level to gently low candid portrait",
+      "foreground": "adult subject face, silver chain, crossbody bag, and peace-sign hand",
+      "background": "beige diamond-quilted private-jet seating, airplane windows, curved fuselage ceiling, and soft cabin depth",
+      "visual_hierarchy": "playful expression, streetwear details, then premium cabin setting"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "bright natural window light from the left with soft cabin fill and gentle cinematic shadows",
+      "atmosphere": "playful, spontaneous, edgy, and relaxed"
+    },
+    "technical_specs": {
+      "camera": "Sony A7C II",
+      "lens": "35mm f/2.8",
+      "settings": "1/250s, f/2.8, ISO 400",
+      "rendering": "natural skin and freckle detail, sharp face and hands, realistic leather, subtle fine grain"
+    },
+    "generated_prompt_string": "A playful rebellious lifestyle portrait of an original adult woman inside a luxury private jet. She has shoulder-length wavy silver-gray hair with darker roots, natural freckles, and wears an oversized plain white T-shirt with no text, a thick silver chain necklace, small silver hoop earrings, and a black leather crossbody bag with silver zippers. Subtle geometric line tattoos appear on her left forearm. She leans slightly toward the camera with a playful grin and a relaxed peace-sign gesture. Include beige diamond-quilted leather seats, bright airplane windows, curved fuselage ceiling, and soft cabin depth. Use natural left-side window light, soft contrast, candid streetwear styling, sharp focus on face and hands, and realistic cabin materials.",
+    "negative_prompt": "minor, celebrity likeness, named-person likeness, explicit, nsfw, overly revealing, obscene gesture, offensive hand sign, readable shirt text, logo, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted hands, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-streetwear-subject-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity and hair only; do not imitate a named public figure."
+        },
+        {
+          "type": "wardrobe",
+          "name": "streetwear-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Match a plain shirt, jewelry, crossbody bag, and tattoos when supplied; omit all logos and text unless an approved reference requires them."
+        },
+        {
+          "type": "location",
+          "name": "private-jet-cabin-reference",
+          "required": false,
+          "source": "approved location reference",
+          "usage": "Match seating, window, and cabin geometry when supplied."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult subject, silver hair, unbranded streetwear, crossbody bag, playful peace sign, and private-jet cabin; replace only approved identity, wardrobe, or cabin elements."
+    }
+  }
+}

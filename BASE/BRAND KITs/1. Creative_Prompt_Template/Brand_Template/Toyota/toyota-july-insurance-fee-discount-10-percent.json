@@ -1,0 +1,99 @@
+{
+  "name": "toyota-july-insurance-fee-discount-10-percent",
+  "tag": [
+    "toyota",
+    "insurance",
+    "july-campaign",
+    "discount",
+    "special-offer"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Special offers",
+  "group": "toyota_1944975239542687",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota insurance mid-year July promotion",
+      "color_palette": "Ocean Blue, Sandy Beige, Warm Yellow, White, Orange"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A beach-themed multi-model Toyota insurance promotion featuring four vehicles lined up on sandy shore: a white Vios, a red Veloz, a yellow Hilux pickup, and a silver Camry, with an oversized yellow-orange '10%' discount headline dominating the upper right.",
+      "style": "Bright seasonal promo poster with photoreal vehicle cutouts, playful summer typography, and clean retail-ad compositing."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "Ruc Ro\nTHANG 7\nUU DAI RON RANG\nGIAM PHI LEN DEN\n10%\nTOYOTA BAO HIEM TOYOTA\nVIOS (**)\nVELOZ (*)\nHILUX MOI (*)\nCAMRY HEV\nALPHARD HEV\nCOROLLA CROSS HEV\nINNOVA CROSS HEV\nYARIS CROSS HEV\n(*) Ap dung tai cac Dai ly Toyota toan quoc\n(**) Ap dung tai cac Dai ly Toyota o khu vuc Dong Bac Bo, TP.HCM va mien Nam\nQuy khach vui long lien he Dai ly Toyota gan nhat de duoc tu van",
+      "items": [
+        "Top Left: White handwritten 'Ruc Ro' and giant creamy-yellow 3D 'THANG 7' with orange shadow, plus subtitle 'UU DAI RON RANG'.",
+        "Top Right: Toyota Bao Hiem Toyota red logo block and giant yellow '10%' with orange shadow under the line 'GIAM PHI LEN DEN'.",
+        "Bottom Left: White Toyota Vios standing on sand with model label and footnote mark.",
+        "Bottom Right: Silver Camry on sand with stacked eligible model list to its left; red Veloz and yellow Hilux occupy the center row.",
+        "Center/Background: Sunny beach, turquoise sea horizon, big cumulus clouds, and palm leaves intruding from the top-left corner."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright sunny beach daylight",
+      "effect": "Warm summery highlights, clear sky contrast, soft cutout shadows on sand, cheerful seasonal atmosphere, and glossy vehicle reflections."
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic seasonal promotional automotive poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Toyota insurance July promotion. Centerpiece is a beach scene with four Toyota vehicles lined up on sand: white Vios, red Veloz, yellow Hilux, and silver Camry. Background is a vivid summer seascape with blue sky, fluffy clouds, ocean horizon, and palm leaves. Surrounding elements: top-left handwritten 'Ruc Ro' and giant 3D 'THANG 7', top-right Toyota Bao Hiem Toyota logo, line 'GIAM PHI LEN DEN', giant yellow-orange '10%', model labels and footnotes along the bottom, and eligible HEV model list near the right side. Technical style: photorealistic seasonal promotional automotive poster, bright sunny beach daylight, warm summery highlights, cheerful seasonal atmosphere, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Toyota Bao Hiem Toyota logo block",
+          "required": true,
+          "source": "insurance brand asset",
+          "usage": "Place at the top right inside white rectangular badge with red logo and text."
+        },
+        {
+          "type": "product",
+          "name": "Toyota Vios white exterior reference",
+          "required": true,
+          "source": "product reference image",
+          "usage": "Use for leftmost sedan cutout on sand."
+        },
+        {
+          "type": "product",
+          "name": "Toyota Veloz red exterior reference",
+          "required": true,
+          "source": "product reference image",
+          "usage": "Use for center-left SUV cutout."
+        },
+        {
+          "type": "product",
+          "name": "Toyota Hilux yellow exterior reference",
+          "required": true,
+          "source": "product reference image",
+          "usage": "Use for center-right pickup cutout."
+        },
+        {
+          "type": "product",
+          "name": "Toyota Camry silver exterior reference",
+          "required": true,
+          "source": "product reference image",
+          "usage": "Use for rightmost sedan cutout."
+        },
+        {
+          "type": "background",
+          "name": "Summer beach background",
+          "required": true,
+          "source": "seasonal landscape reference",
+          "usage": "Recreate blue sea, sandy beach, cumulus cloud mass, and palm leaf framing."
+        },
+        {
+          "type": "text_layout",
+          "name": "Summer promo headline layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve the exact summer hierarchy, 3D type treatment, and bottom labels/footnotes."
+        }
+      ],
+      "prompt_instructions": "This is a July seasonal insurance campaign; keep the summer beach setting and the exact visible wording hierarchy. 'THANG 7' is current month context relative to Friday, July 17, 2026, so it should remain explicit. Ensure the 10% number is oversized and visually dominant without obscuring the Toyota insurance logo."
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "sultry-purple-batgirl-bathroom",
+  "tag": ["ugc", "selfie-pov", "dark-edgy", "private-indoor", "purple-superhero", "bathroom-portrait", "comic-inspired"],
+  "image_type": "comic-inspired bathroom fashion portrait",
+  "image_vibe": "confident, calm, dark, glossy, comic-noir",
+  "image_purpose": "social-media character fashion visual",
+  "group": "selfie-pov/dark-edgy/private-indoor",
+  "prompt": {
+    "project_info": "Photorealistic vertical 3:4 medium portrait of an original adult woman in a dark bathroom, styled as a polished comic-inspired superhero fashion editorial with smartphone-photography realism.",
+    "main_subject": "One original adult woman with fair natural skin, long straight dark brown-black hair over the shoulders and back, symmetrical facial structure, defined brows, green-hazel eyes and a tiny generic eye mask. She has a natural curvy figure and wears a black halter-neck sleeveless superhero-inspired bodysuit with high-cut leg design, glossy purple accents, yellow trim and a bold generic bat emblem, plus black-and-purple opaque stockings. Keep fabric fitted and editorial without exaggerated body proportions or a public-figure likeness. Do not reproduce Megan Fox or any other public figure.",
+    "composition_elements": "Stand the adult woman upright with weight shifted naturally to the right hip and torso slightly angled toward camera. Her right arm extends down with the hand resting on a speckled green-and-black granite countertop; her left arm hangs naturally by her side. Tilt the head slightly forward with direct eye contact and a calm confident expression. Use a centered eye-level slightly frontal 3:4 frame from thighs up. Include a wooden door with tall frosted glass panel, towel bar, dark walls, a generic comic-book hero poster and a small cyan neon sign reading 'KeorUnreal'.",
+    "lighting_and_atmosphere": "Soft diffuse indoor artificial lighting from overhead and slightly frontal directions creates even illumination, gentle shadows and controlled highlights on the suit's glossy purple accents and bathroom materials. Keep the mood dark, confident, calm and comic-noir with natural contrast and saturation.",
+    "technical_specs": "Photorealistic smartphone-style 3:4 medium portrait, 50-85mm portrait focal length, moderate depth of field, sharp eyes, soft distinct background, realistic skin, fabric, granite, wood, glass and poster texture, low noise with minimal grain, no text or watermark except the specified neon sign.",
+    "generated_prompt_string": "Photorealistic vertical 3:4 medium portrait of one original adult woman standing in a dark bathroom with fair natural skin, long straight dark brown-black hair, defined brows, green-hazel eyes and a tiny generic eye mask. Natural curvy figure in a black halter-neck sleeveless superhero-inspired bodysuit with high-cut leg design, glossy purple accents, yellow trim, generic bat emblem and opaque black-purple stockings. Weight shifted naturally to right hip, right hand on speckled green-black granite countertop, left arm relaxed, head slightly tilted, direct calm confident gaze. Wooden door with frosted glass panel, towel bar, generic comic-book hero poster, small cyan 'KeorUnreal' neon sign and dark walls. Soft diffuse overhead/front light, gentle shadows, controlled glossy highlights, 50-85mm portrait lens, comic-noir bathroom fashion mood, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Megan Fox likeness, exaggerated body proportions, explicit body measurements, transparent clothing, exposed underwear, trademark superhero logo, distorted anatomy, extra fingers, malformed hands, plastic skin, waxy, over-smooth, airbrushed, HDR look, random text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "sultry-purple-batgirl-bathroom.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult dark-haired masked superhero-fashion subject, black-purple-yellow suit, bathroom pose, granite counter, door, comic poster, KeorUnreal neon, lighting and 3:4 portrait; replace celebrity identity and trademark branding."
+        },
+        {
+          "type": "text_layout",
+          "name": "KeorUnreal-neon-sign",
+          "required": true,
+          "source": "Existing prompt text",
+          "usage": "Render only the specified small cyan 'KeorUnreal' neon sign; do not add other readable text or logos."
+        },
+        {
+          "type": "image_asset",
+          "name": "1775063303127-jd4skicv-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1775063303127-jd4skicv-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source and KeorUnreal text-layout assets are required; image asset is optional and not inspected. Keep the adult original subject, suit colors, generic emblem, pose, bathroom, sign, lighting and 3:4 frame consistent. Replace identity and trademark superhero branding only."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Megan Fox likeness with an original adult woman.",
+      "Removed explicit body emphasis and reframed the subject as a natural curvy adult with fitted editorial styling.",
+      "Changed the named superhero branding to generic comic-inspired styling while preserving the black-purple-yellow costume concept."
+    ]
+  }
+}

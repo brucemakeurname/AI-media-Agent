@@ -1,0 +1,78 @@
+{
+  "name": "vfe-study-france-2027-event-series-august-tour",
+  "tag": [
+    "vfe",
+    "2027",
+    "event-series",
+    "august-tour",
+    "special-offer"
+  ],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Special offers",
+  "group": "vfe_1381234973926723",
+  "prompt": {
+    "project_info": {
+      "theme": "Regional event series for France study 2027 planning",
+      "color_palette": "White, Navy Blue, Red, Sky Blue, Fresh Green"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A campaign poster for the 'Du học Pháp 2027' event series, built around six rounded city photo cards arranged in a grid, each labeled with a future August 2026 event date and Vietnamese city name, topped by a strong outline title and red CTA button.",
+      "style": "Clean roadmap campaign poster with light architectural line art, polished city-photo cards, and strong event-series branding."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nChuỗi SỰ KIỆN\nDU HỌC PHÁP 2027\nĐúng lộ trình\nTrúng mục tiêu\nĐĂNG KÝ NGAY\n01/08/2026 ĐÀ NẴNG\n02/08/2026 TP.HCM\n08/08/2026 HÀ TĨNH\n09/08/2026 NGHỆ AN\n15/08/2026 HÀ NỘI\n22/08/2026 HẢI PHÒNG",
+      "items": [
+        "Top Left: Red script and framed text 'Chuỗi SỰ KIỆN' over large outlined title 'DU HỌC PHÁP 2027'.",
+        "Top Right: Red rounded CTA 'ĐĂNG KÝ NGAY' and VFE logo in the upper-right corner.",
+        "Bottom Left: City photo cards for Đà Nẵng and Nghệ An.",
+        "Bottom Right: Blue dot grid decoration and city photo cards for Hà Nội and Hải Phòng.",
+        "Center/Background: Light Eiffel Tower and cathedral line art behind the title, plus six glossy rounded city-photo cards with dates."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright campaign-poster lighting",
+      "effect": "Soft neutral white background, crisp card borders, and high visibility for date badges and city names."
+    },
+    "technical_specs": {
+      "render_style": "Photo-card event series campaign poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality event series campaign poster for France study planning in 2027. Centerpiece is a six-card grid of city images labeled with August 2026 event dates and city names, under the title 'DU HỌC PHÁP 2027'. Background is a clean white field with faint line art of French landmarks. Surrounding elements: VFE logo, red CTA 'ĐĂNG KÝ NGAY', slogan 'Đúng lộ trình Trúng mục tiêu', and city cards for Đà Nẵng, TP.HCM, Hà Tĩnh, Nghệ An, Hà Nội, and Hải Phòng. Technical style: photo-card event series campaign poster, bright campaign-poster lighting, crisp card readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place at upper right."
+        },
+        {
+          "type": "location",
+          "name": "Six Vietnamese city photo cards",
+          "required": true,
+          "source": "current creative city images",
+          "usage": "Use for Đà Nẵng, TP.HCM, Hà Tĩnh, Nghệ An, Hà Nội, and Hải Phòng."
+        },
+        {
+          "type": "graphic",
+          "name": "French landmark line art and blue dot grid",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve as subtle decorative background elements."
+        },
+        {
+          "type": "text_layout",
+          "name": "Six-city August tour layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep the exact date-city card order and CTA placement."
+        }
+      ],
+      "prompt_instructions": "All dates shown here, from 01/08/2026 through 22/08/2026, are in the future relative to Friday, July 17, 2026. Preserve them explicitly as upcoming event dates."
+    }
+  }
+}

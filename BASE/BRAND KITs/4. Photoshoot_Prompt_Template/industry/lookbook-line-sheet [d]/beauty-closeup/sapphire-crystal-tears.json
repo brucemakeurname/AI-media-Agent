@@ -1,0 +1,34 @@
+{
+  "name": "Sapphire Crystal Tears",
+  "tag": "industry/lookbook-line-sheet/beauty-closeup",
+  "image_type": "cinematic extreme close-up beauty portrait",
+  "image_vibe": "cool sapphire couture, luminous cinematic minimalism",
+  "image_purpose": "beauty editorial and couture makeup campaign",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": "Create a photorealistic sapphire-themed beauty close-up with crystal makeup and a feathered couture collar.",
+    "main_subject": "A clearly adult fictional woman with pale natural skin, face angled toward camera, tiny sapphire-blue cosmetic crystals scattered around the eyes and temples like crystallized tears, deep navy closed lips, and a high-neck peacock-blue feathered collar framing the jaw.",
+    "composition_elements": "9:16 vertical extreme close-up, face dominant and isolated against a blurred bright white background, eyes and crystal placement as focal point, clean couture framing.",
+    "lighting_and_atmosphere": "Soft focused studio beauty light, luminous controlled highlights on crystals and lips, gentle separation from the white background, cool refined atmosphere.",
+    "technical_specs": "ARRI Alexa 65 look with anamorphic lens character, 8K detail, realistic skin texture, crisp cosmetic crystals, cinematic shallow depth of field, no text or logos.",
+    "generated_prompt_string": "Photorealistic cinematic 9:16 extreme close-up beauty portrait of a clearly adult fictional woman with pale natural skin, face angled toward camera, tiny sapphire-blue cosmetic crystals scattered around the eyes and temples like crystallized tears, deep navy closed lips, high-neck peacock-blue feathered collar framing the jaw, soft focused studio beauty light, blurred bright white background, ARRI Alexa 65 anamorphic look, 8K detail, realistic texture, no text or logos.",
+    "negative_prompt": "explicit, nsfw, overly revealing, open-mouth sexualized pose, injury, sharp shards, child, teen, ageless person, celebrity likeness, public figure likeness, plastic skin, distorted eyes, watermark, logo, text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "sapphire crystal beauty reference",
+          "required": true,
+          "source": "Attach the supplied source image as the visual reference.",
+          "usage": "Match the sapphire crystal placement, navy lip color, peacock-blue collar, vertical crop, and white studio isolation; keep the adult fictional identity and cosmetic details replaceable."
+        }
+      ],
+      "instructions": "Attach the source image before generation. Preserve the couture beauty concept, crystal-tear motif, lighting, and close-up composition. Use cosmetic crystals applied safely to the skin, a fictional adult identity, and replaceable styling details."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": "Replaced face-reference copying with a clearly adult fictional subject and clarified the crystals as cosmetic, safe, non-sharp makeup elements.",
+    "notes": "Couture beauty styling is non-graphic and nonsexual."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "late-night-cookie-girl",
+  "tag": [
+    "ugc",
+    "cozy-home",
+    "private-indoor",
+    "late-night-snack",
+    "home-kitchen",
+    "cookie-moment"
+  ],
+  "image_type": "ugc-kitchen-lifestyle-portrait",
+  "image_vibe": "cozy-playful-night",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic late-night home-kitchen snack portrait with cool refrigerator light and warm under-cabinet light, preserving the playful cookie moment.",
+    "main_subject": "One original approved adult woman with long layered blonde hair, natural skin texture and a playful over-shoulder smile. She wears a white ribbed sleeveless top, grey heathered drawstring lounge shorts, a small ring and thin necklace, and holds a chocolate-chip cookie near her mouth.",
+    "composition_elements": "Vertical 4:5 or 2:3 medium profile portrait. The adult woman stands beside an open stainless refrigerator, torso turned toward camera, right hand holding the cookie near her lips. Include a marble or granite island, open cookie box and white plate, refrigerator contents, stainless stove/oven and microwave, light-grey cabinets, warm under-cabinet light and a candle jar.",
+    "lighting_and_atmosphere": "Cool blue light spills from the open refrigerator while warm tungsten under-cabinet light shapes the kitchen, creating realistic mixed-color contrast and gentle shadows. Keep the mood casual, cozy, candid and late-night.",
+    "technical_specs": "Vertical 4:5 smartphone portrait, medium framing, shallow background depth, sharp face, cookie and ribbed fabric, realistic reflective appliances, natural color and low-light detail.",
+    "generated_prompt_string": "Create a photorealistic late-night home-kitchen snack portrait of one original approved adult woman with long layered blonde hair, natural skin texture and a playful over-shoulder smile. She wears a white ribbed sleeveless top, grey heathered drawstring lounge shorts, a small ring and thin necklace, and holds a chocolate-chip cookie near her mouth. Use a vertical 4:5 or 2:3 medium profile portrait beside an open stainless refrigerator; her torso turns toward camera while her right hand holds the cookie near her lips. Include a marble or granite island, open cookie box and white plate, refrigerator contents, stainless stove/oven and microwave, light-grey cabinets, warm under-cabinet light and a candle jar. Use cool refrigerator blue mixed with warm tungsten light, realistic appliance reflections, shallow background depth and candid late-night color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, food lodged in mouth, unsafe appliance, invented logos, unreadable added text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "late-night-cookie-girl.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white ribbed sleeveless top, grey lounge shorts and minimal jewelry",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve ribbed texture, grey fabric, jewelry and fit; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "home kitchen with open refrigerator, island, stove and warm cabinets",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve refrigerator glow, kitchen layout, appliances, island, cookie box, plate and safe environment; setting may be replaced through explicit references."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location/prop references. Keep identity, face, hair, outfit, cookie gesture, refrigerator light, kitchen layout and late-night mood consistent. The adult, wardrobe, food and setting may be replaced independently through explicit references. Keep packaging text indistinct and do not invent logos."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous subject wording to original approved adult.",
+      "Preserved the playful cookie action, outfit, kitchen and mixed-light concept.",
+      "Added food-safety, appliance-safety and anti-artifact negative prompts."
+    ]
+  }
+}

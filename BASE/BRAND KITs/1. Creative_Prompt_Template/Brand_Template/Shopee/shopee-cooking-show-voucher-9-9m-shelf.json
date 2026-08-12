@@ -1,0 +1,70 @@
+{
+  "name": "shopee-cooking-show-voucher-9-9m-shelf",
+  "tag": [
+    "cooking-show",
+    "voucher-promo",
+    "livestream-event",
+    "wooden-shelf"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Special offers",
+  "group": "shopee_1014446831174806",
+  "prompt": {
+    "project_info": {
+      "theme": "Cooking show voucher teaser on Shopee Live",
+      "color_palette": "Warm wood brown, gold, dark amber, Shopee red"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A wooden cabinet shelf scene with decorative ceramic bowls and cutlery framing giant gold text. Top center reads 'FAN MEETING', 'COOKING SHOW', and a hanging ribbon badge 'DAO HOA HAU'. Main headline says 'X10 CO HOI TRUNG VOUCHER' and the dominant prize number '9.900.000D'. Bottom footer strip reads 'NGAY 6.7', 'VAO LUC 19H30', and 'DON XEM TAI Shopee LIVE'.",
+      "style": "Warm theatrical retail-promo graphic with oversized metallic typography and rustic kitchen display styling"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "FAN MEETING / COOKING SHOW / DAO HOA HAU / X10 CO HOI TRUNG VOUCHER / 9.900.000D / NGAY 6.7 / VAO LUC 19H30 / DON XEM TAI Shopee LIVE",
+      "items": [
+        "Top Left: White Shopee bag logo on dark wooden wall",
+        "Top Right: Decorative utensil holder with gold spoon and fork on the upper shelf",
+        "Bottom Left: Stacked ceramic plates and bowls on the lower shelf edge",
+        "Bottom Right: More ceramic bowls and the red Shopee Live footer strip",
+        "Center/Background: Warm wood cabinet interior, hanging cooking-show banner, giant gold prize typography, and soft orange ribbon blur near the bottom corners"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm cinematic kitchen showcase lighting",
+      "effect": "Golden glow, shelf-edge highlights, metallic text reflections, cozy ambient shadows"
+    },
+    "technical_specs": {
+      "render_style": "Commercial event poster with photo-textured background and polished typography compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee Live cooking-show voucher teaser. Centerpiece is a warm wooden shelf scene with giant metallic-gold text reading 'X10 CO HOI TRUNG VOUCHER' and '9.900.000D'. Background is a rustic cabinet interior with stacked ceramic bowls and cutlery. Surrounding elements: Shopee logo at top left, top banner 'FAN MEETING', 'COOKING SHOW', ribbon badge 'DAO HOA HAU', and bottom red footer strip with the exact text 'NGAY 6.7', 'VAO LUC 19H30', and 'DON XEM TAI Shopee LIVE'. Technical style: commercial event poster with photo-textured background and polished typography compositing, warm cinematic kitchen lighting, golden glow, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "text_layout",
+          "name": "Cooking show voucher shelf layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the stacked cooking-show header, giant gold number, and bottom Shopee Live timing strip"
+        },
+        {
+          "type": "background",
+          "name": "Wooden cabinet kitchen shelf scene",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the shelf framing, ceramic bowls, and utensil styling"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee and Shopee Live logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for top-left logo and the footer lockup"
+        }
+      ],
+      "prompt_instructions": "Preserve all visible wording exactly, especially '9.900.000D', 'NGAY 6.7', and '19H30'. Those dates are historical campaign text relative to Friday, July 17, 2026 and must remain unchanged for fidelity."
+    }
+  }
+}

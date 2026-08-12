@@ -1,0 +1,78 @@
+{
+  "name": "viettel-hat-trick-sim-verification-puzzle",
+  "tag": [
+    "viettel",
+    "telecom",
+    "world-cup",
+    "giveaway",
+    "word-puzzle"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Competitions",
+  "group": "viettel_4381430908778891",
+  "prompt": {
+    "project_info": {
+      "theme": "World Cup themed Viettel giveaway about subscriber verification consequences",
+      "color_palette": "White, Viettel red, black, grass green, light gray stadium lines"
+    },
+    "main_subject": {
+      "type": "Text",
+      "detail": "A bold centered typographic poster with the headline '“HAT-TRICK” của SIM chưa xác thực thông tin thuê bao' and the subheadline 'Khóa 1 chiều - Khóa 2 chiều - Thu hồi số'. In the middle is a large red rounded puzzle board that says 'Chỉ có 1 cách để phá chuỗi' and displays white letter tiles arranged as a word puzzle with visible letters X, H, T, H, N, THUÊ, BAO.",
+      "style": "Flat but polished sports-promo layout, oversized bold typography, game-board feel, giveaway mechanic visual"
+    },
+    "composition_elements": {
+      "type": "Background Elements",
+      "text": "viettel telecom; “HAT-TRICK”; của SIM chưa xác thực thông tin thuê bao; Khóa 1 chiều - Khóa 2 chiều - Thu hồi số; Chỉ có 1 cách để phá chuỗi; 4 thẻ cào 500K",
+      "items": [
+        "Top Left: Giant red curved word 'HAT-TRICK' with quotation marks",
+        "Top Right: Viettel telecom logo in red and black",
+        "Bottom Left: Stadium architecture line art fading inward and a small red triangular pointer",
+        "Bottom Right: White football, gift icon, and a red badge reading '4 thẻ cào 500K'",
+        "Center/Background: Bright white poster field above a green soccer pitch with a large red puzzle board and white letter blocks"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright clean poster lighting",
+      "effect": "Even illumination, minimal shadowing, crisp contrast, light depth through stadium line art"
+    },
+    "technical_specs": {
+      "render_style": "High-end vector-style advertising poster with subtle 3D props",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for a World Cup themed Viettel giveaway about subscriber verification consequences. Centerpiece is a bold typographic composition with the exact text '“HAT-TRICK” của SIM chưa xác thực thông tin thuê bao', 'Khóa 1 chiều - Khóa 2 chiều - Thu hồi số', and a large red puzzle board reading 'Chỉ có 1 cách để phá chuỗi' with white letter tiles arranged like a word puzzle. Background is a clean white stadium poster over a green football pitch with faint architectural line art. Surrounding elements: Viettel telecom logo in the top right, red triangular markers, a football and gift badge saying '4 thẻ cào 500K'. Technical style: high-end vector-style advertising poster with subtle 3D props, bright clean poster lighting, crisp contrast and even illumination, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel telecom logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Top-right logo lockup"
+        },
+        {
+          "type": "text_layout",
+          "name": "Headline and puzzle board copy",
+          "required": true,
+          "source": "original creative text",
+          "usage": "Preserve exact Vietnamese wording, curved red title, and letter-tile arrangement"
+        },
+        {
+          "type": "graphic",
+          "name": "Soccer pitch and stadium line-art frame",
+          "required": true,
+          "source": "recreated from the original layout",
+          "usage": "Anchor the World Cup theme with a minimal stadium environment"
+        },
+        {
+          "type": "icon",
+          "name": "Gift icon and football prop",
+          "required": true,
+          "source": "recreated sports giveaway embellishments",
+          "usage": "Place next to the prize badge at the bottom right"
+        }
+      ],
+      "prompt_instructions": "The poster must feel like a sports minigame/giveaway post, not a generic ad. Keep the large red puzzle board, the white letter tiles, and the exact phrasing. Maintain a square 1:1 crop with strong white negative space on top and green field on the bottom."
+    }
+  }
+}

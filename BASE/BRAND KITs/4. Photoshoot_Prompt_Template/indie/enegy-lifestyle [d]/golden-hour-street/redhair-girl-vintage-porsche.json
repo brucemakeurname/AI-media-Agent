@@ -1,0 +1,68 @@
+{
+  "name": "redhair-girl-vintage-porsche",
+  "tag": [
+    "red-hair",
+    "yellow-vintage-car",
+    "overhead-view",
+    "midday-sun",
+    "urban-parking"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "bold-sunlit-retro",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/golden-hour-street",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Kept the adult red-haired subject, overhead yellow vintage-car composition, and harsh sunlight while replacing high-cut swimwear, brand names, crest visibility, and chest text with a covered unbranded fashion look."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "sunlit overhead retro-car fashion editorial",
+      "color_palette": "canary yellow, soft pink, black, asphalt gray, green curb, and orange",
+      "format": "vertical 2:3 overhead portrait"
+    },
+    "main_subject": {
+      "description": "an adult woman with vibrant ginger-red hair spread across the hood of a canary-yellow vintage sports car, wearing a soft pink sleeveless fitted dress",
+      "pose_and_expression": "reclined diagonally on the hood with one forearm shading her eyes and a serene relaxed expression"
+    },
+    "composition_elements": {
+      "camera_angle": "high-angle vertical view looking down across the car hood",
+      "foreground": "ginger hair, pink dress, yellow hood, round headlights, and black bumper trim",
+      "background": "asphalt parking area, green-painted curb, and a single orange traffic cone",
+      "visual_hierarchy": "face and red hair, yellow car geometry, then minimal street details"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "harsh direct midday sunlight creating defined high-contrast shadows",
+      "atmosphere": "graphic, carefree, retro, and summer-bright"
+    },
+    "technical_specs": {
+      "camera": "Canon EOS R5",
+      "lens": "35mm f/4",
+      "settings": "1/1600s, f/4, ISO 100",
+      "rendering": "crisp natural skin texture, clear car paint reflections, controlled contrast, restrained fine grain"
+    },
+    "generated_prompt_string": "A high-angle vertical fashion editorial looks down at an adult woman with vibrant ginger-red hair spread across the hood of a canary-yellow vintage sports car. She wears a soft pink sleeveless fitted dress and reclines diagonally across the hood, one forearm shading her eyes from harsh midday sun, with a serene relaxed expression. Include round headlights, black bumper trim, asphalt parking space, a green-painted curb, and a single orange traffic cone. Create bold contrast, realistic paint reflections, natural skin texture, graphic retro color, and a clean unbranded urban-parking setting.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, swimsuit, high-cut bodysuit, lingerie, sexualized pose, nudity, brand name, crest, logo, readable text, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, deformed, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-red-haired-subject-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity and hair appearance only."
+        },
+        {
+          "type": "product",
+          "name": "vintage-car-reference",
+          "required": false,
+          "source": "approved vehicle reference",
+          "usage": "Match body shape and paint color without generating trademarks, badges, or emblems."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult subject, high-angle hood composition, canary-yellow vehicle, direct sun, curb, and cone; replace only approved identity or vehicle details and omit all branding."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": "old-photo-restore-dslr",
+  "tag": [
+    "photo-restoration",
+    "family-photo",
+    "baby",
+    "face-preservation",
+    "sepia",
+    "archive"
+  ],
+  "image_type": "archival-photo-restoration",
+  "image_vibe": "faithful-warm-family-archive",
+  "image_purpose": "photo-restoration",
+  "group": "indie/analog-vintage",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "faithful restoration of an attached vintage family portrait",
+      "color_palette": "source-faithful sepia or verified original color",
+      "format": "match attached source photograph"
+    },
+    "main_subject": {
+      "type": "family shown in the attached archival photograph",
+      "detail": "Preserve exactly every visible family member, including the adults and baby, with their identity, age presentation, expression, pose, clothing, relationship, and background as shown in the source.",
+      "style": "conservative family-photo restoration, not generative replacement"
+    },
+    "composition_elements": {
+      "text": "Preserve source text only if present; do not add or alter text.",
+      "items": [
+        "retain original family grouping and crop",
+        "repair faded tones, stains, noise, scratches, blur, and damage conservatively",
+        "preserve adults holding the baby exactly as source shows",
+        "retain source clothing, interior, and historical family context"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "source-consistent exposure and tonal recovery",
+      "effect": "natural family-portrait detail, restrained sepia recovery, no artificial glamour"
+    },
+    "technical_specs": {
+      "render_style": "high-resolution archival restoration with exact face and age preservation, natural detail recovery, subtle source grain, no beauty retouching",
+      "resolution": "highest recoverable detail at original aspect ratio"
+    },
+    "generated_prompt_string": "Restore the attached vintage family photograph into a natural professional high-detail image. Preserve the exact identities, age presentation, expressions, poses, clothing, family relationship, crop, background, and historical character of all people shown, including the adults and baby. Repair fading, scratches, stains, noise, blur, and low-resolution damage conservatively while retaining the source's sepia tone or only verifiable original color. Do not add or remove people, change any face, age, relationship, pose, clothes, background, or hand placement, and do not invent detail where the source cannot verify it.",
+    "negative_prompt": "identity change, face swap, age alteration, child age alteration, added person, removed person, changed family relationship, changed pose, invented clothing, invented background, plastic skin, waxy, over-smooth, airbrushed, HDR look, watermark, logo, text alteration, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "source-family-archival-photo-with-baby",
+          "required": true,
+          "source": "Attach the original family photo.",
+          "usage": "Mandatory source for every adult and child identity, age presentation, family relationship, pose, clothing, and background."
+        }
+      ],
+      "prompt_instructions": "Original family photo is mandatory. Preserve all family members exactly as visible, including the baby. Apply only conservative technical restoration, and never infer or generate uncertain details."
+    }
+  }
+}

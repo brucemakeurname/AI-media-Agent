@@ -1,0 +1,63 @@
+{
+  "name": "samsung-free-galaxy-buds3-promo-can-you-hear-that",
+  "tag": [
+    "free-gift",
+    "earbuds-promo",
+    "galaxy-buds3",
+    "special-offer"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "samsung_1381892370645904",
+  "prompt": {
+    "project_info": {
+      "theme": "Free Galaxy Buds3 promotional poster",
+      "color_palette": "Midnight blue, cobalt blue, black, metallic silver, white"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Minimal offer poster with an open metallic Galaxy Buds3 charging case centered at the top over a dark-to-blue gradient background, paired with oversized white copy announcing a free Buds3 giveaway.",
+      "style": "Clean premium product advertising, minimal promotional poster, bold typography-led retail visual"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Can you hear that? / It's a pair of FREE Galaxy Buds3 calling.",
+      "items": [
+        "Top Left: Dark gradient background transitioning from near-black to cobalt blue.",
+        "Top Right: Open metallic Galaxy Buds3 charging case centered near the top, reflected faintly below.",
+        "Bottom Left: Large white stacked text 'Can you hear that?'.",
+        "Bottom Right: White offer line 'It's a pair of FREE Galaxy Buds3 calling.'.",
+        "Center/Background: Bold typographic composition with the earbuds case acting as the hero icon above the message."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Studio lighting",
+      "effect": "Glossy metallic earbud reflections, smooth gradient depth, strong premium contrast"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Free Galaxy Buds3 promotional poster. Centerpiece is an open metallic Galaxy Buds3 charging case with earbuds visible, floating above a subtle reflection on a dark black-to-blue gradient background. Background is minimal and premium. Surrounding elements: giant white line 'Can you hear that?' and the offer text 'It's a pair of FREE Galaxy Buds3 calling.'. Technical style: photorealistic product render, studio lighting, glossy metallic reflections and smooth gradient depth, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy Buds3 open charging case render",
+          "required": true,
+          "source": "official Samsung earbuds render",
+          "usage": "Preserve exact metallic finish, earbud shape, lid angle, and tiny LED indicator."
+        },
+        {
+          "type": "text_layout",
+          "name": "offer headline typography",
+          "required": true,
+          "source": "original poster",
+          "usage": "Retain exact line breaks and the bold, centered white typography hierarchy."
+        }
+      ],
+      "prompt_instructions": "Use refs for the exact Galaxy Buds3 case render and text layout. The visual should remain minimal and gradient-driven, with no extra accessories or product clutter."
+    }
+  }
+}

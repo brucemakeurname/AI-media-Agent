@@ -1,0 +1,33 @@
+{
+  "name": "neon-city-cinematic-realistic-girl",
+  "tag": ["neon-city", "street-portrait", "film-grain", "night"],
+  "image_type": "UGC cinematic street portrait",
+  "image_vibe": "moody, candid, urban, cinematic",
+  "image_purpose": "Night-street social profile and lifestyle content",
+  "group": "ugc/lifestyle-moment/night-out/outdoor-urban",
+  "prompt": {
+    "project_info": "Create an ultra-realistic cinematic street portrait of one generic approved adult woman in an urban city at night.",
+    "main_subject": "One generic approved adult woman with a natural face, relaxed candid expression and practical urban styling, framed in a close portrait. Preserve the ordinary, authentic character of the reference rather than beautifying or over-styling her.",
+    "composition_elements": "Vertical close portrait with the woman slightly off-center and looking naturally toward the side. Include wet city pavement, pedestrians and neon storefronts as a soft urban night background with readable shapes but no invented readable text.",
+    "lighting_and_atmosphere": "Soft moody mixed neon and streetlight illumination, natural falloff, gentle reflections on wet pavement, restrained contrast and a candid late-night city atmosphere.",
+    "technical_specs": "Photorealistic cinematic street portrait, full-frame camera with 50mm lens, shallow depth of field, visible but subtle film grain, realistic skin texture, slightly imperfect optics and natural color treatment, no watermark.",
+    "generated_prompt_string": "Ultra-realistic cinematic street portrait of one generic approved adult woman with a natural face and candid expression, soft moody lighting, shallow depth of field, wet urban night background with neon storefronts, pedestrians and street reflections, authentic practical styling, subtle film grain, photorealistic natural skin texture, restrained color grading, realistic late-night city atmosphere, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "neon-city-cinematic-realistic-girl reference",
+          "required": true,
+          "source": "Attach the provided reference image",
+          "usage": "Match the adult subject's natural facial character, close portrait crop, urban night background, moody lighting, wet pavement, film grain and candid expression while keeping identity and details replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the natural adult face, candid mood, crop, neon-city environment, wet reflections and film treatment. Keep person, clothing, signs, pedestrians and environment replaceable; avoid invented readable text and branding."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

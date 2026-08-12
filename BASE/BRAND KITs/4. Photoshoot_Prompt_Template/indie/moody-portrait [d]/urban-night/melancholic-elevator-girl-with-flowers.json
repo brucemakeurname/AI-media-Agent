@@ -1,0 +1,67 @@
+{
+  "name": "melancholic-elevator-girl-with-flowers",
+  "tag": [
+    "approved-adult-face",
+    "elevator",
+    "yellow-flowers",
+    "beige-coat",
+    "fluorescent-light",
+    "melancholic"
+  ],
+  "image_type": "cinematic-elevator-fashion-portrait",
+  "image_vibe": "quiet, melancholic, intimate, calm, unresolved",
+  "image_purpose": "fashion-editorial, character-visual, cinematic-moodboard",
+  "group": "indie / moody-portrait / urban-night",
+  "prompt": {
+    "project_info": {
+      "theme": "Quiet elevator portrait with yellow flowers",
+      "format": "vertical centered mid-torso portrait",
+      "color_palette": "muted green, steel, beige, pale yellow, warm floral yellow"
+    },
+    "main_subject": {
+      "type": "adult woman using a required approved-adult face reference",
+      "detail": "An adult woman whose face, facial structure, proportions, features, and expression match the attached approved-adult reference. She holds a small bouquet of yellow flowers at chest level, wears a soft beige wool coat over a pale-yellow button-up shirt, and small gold hoop earrings. Her hair is slightly damp and loosely parted; makeup is minimal with visible skin texture, soft blush, and natural lips.",
+      "style": "photorealistic cinematic editorial fashion photography"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "adult woman standing alone inside a brushed-metal elevator",
+        "centered mid-torso crop with eye-level straight-on framing",
+        "neutral introspective gaze directly into the camera",
+        "bouquet remains visible at chest level",
+        "reflective enclosed walls and subtle symmetry, with background softly blurred"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft cool overhead fluorescent elevator lighting",
+      "effect": "gentle falloff on the face and low-to-medium cinematic contrast",
+      "atmosphere": "a paused moment between destinations, emotionally unresolved but visually calm"
+    },
+    "technical_specs": {
+      "render_style": "50mm f/1.8 cinematic portrait",
+      "resolution": "high-detail vertical image",
+      "color_treatment": "subtle grain, muted greens and steel tones contrasted with warm yellows, no HDR, natural skin texture"
+    },
+    "generated_prompt_string": "Create a photorealistic cinematic editorial portrait of an adult woman using the attached approved-adult face reference; preserve her face, facial structure, proportions, features, and expression exactly without celebrity or public-figure substitution. She stands alone inside a modern brushed-metal elevator and holds a small bouquet of yellow flowers at chest level. Dress her in a soft beige wool coat with natural texture over a pale-yellow button-up shirt and small gold hoop earrings. Her hair is slightly damp, naturally textured, and loosely parted; use minimal editorial makeup with visible skin texture, soft blush, and natural lips. Frame a centered mid-torso, eye-level, straight-on portrait with a neutral introspective gaze toward camera, reflective walls, subtle symmetry, and softly blurred background. Use soft cool overhead fluorescent light, gentle facial falloff, low-to-medium contrast, muted greens and steel contrasted with warm yellow flowers, 50mm f/1.8 shallow depth, subtle grain, cinematic color grading, and no HDR.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, exaggerated bokeh, HDR look, watermark, text, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "Attach a required approved-adult face reference. Preserve the adult facial identity, slightly damp hair, beige wool coat, pale-yellow shirt, gold hoops, yellow bouquet, elevator symmetry, and quiet fluorescent mood. Do not use a celebrity/public-figure likeness.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-reference",
+          "required": true,
+          "source": "user attachment",
+          "usage": "Keep adult face, facial structure, proportions, features, and expression exactly consistent."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named celebrity with a required approved-adult face reference while preserving the elevator, bouquet, wardrobe, lighting, and restrained mood."
+    ]
+  }
+}

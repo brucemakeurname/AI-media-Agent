@@ -1,0 +1,77 @@
+{
+  "name": "quan-nhau-tu-do-butl-ride-home-discount",
+  "tag": [
+    "safety-promo",
+    "ride-home",
+    "app-promo",
+    "restaurant-collab"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "quan-nhau-tu-do_1630867482374280",
+  "prompt": {
+    "project_info": {
+      "theme": "BUTL x Quán Nhậu Tự Do safe ride-home promotion",
+      "color_palette": "Dark green, orange, white, skin tones, warm nightlife lights"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "Nightlife safety promotion showing three happy diners at a restaurant table beside a hand holding a smartphone with the BUTL app interface, plus discount cards for driver services after drinking.",
+      "style": "Photorealistic lifestyle advertising composite, app-promo poster, nightlife safety campaign"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "BUTL x QUÁN NHẬU TỰ DO / Đặt BẠN UỐNG TÔI LÁI tại Quán Nhậu Tự Do / Giảm ngay / 70K Tài xế lái hộ ô tô / 50K Tài xế lái hộ xe máy / ĐẶT TÀI XẾ NGAY / Đã uống rượu bia thì không lái xe",
+      "items": [
+        "Top Left: BUTL logo and Quán Nhậu Tự Do logo over a blurred nightlife facade.",
+        "Top Right: Large smartphone showing the BUTL app home screen with ride and linked-service icons.",
+        "Bottom Left: Orange QR code block with BUTL center mark and button 'ĐẶT TÀI XẾ NGAY'.",
+        "Bottom Right: White-and-orange discount cards reading '70K Tài xế lái hộ ô tô' and '50K Tài xế lái hộ xe máy', plus safety icons and warning text.",
+        "Center/Background: Three smiling young adults drinking and eating at a restaurant table, layered in front of a glowing night venue background."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm nightlife commercial lighting",
+      "effect": "Soft venue bokeh, bright app-screen glow, friendly lifestyle highlights, campaign clarity"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic lifestyle advertising compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for BUTL x Quán Nhậu Tự Do safe ride-home promotion. Centerpiece is a hand holding a smartphone showing the BUTL app next to three happy diners enjoying drinks and food at a restaurant table. Background is a blurred Quán Nhậu Tự Do nightlife facade with warm lights. Surrounding elements: exact headline 'Đặt BẠN UỐNG TÔI LÁI tại Quán Nhậu Tự Do', QR code block and button 'ĐẶT TÀI XẾ NGAY', discount cards '70K Tài xế lái hộ ô tô' and '50K Tài xế lái hộ xe máy', and bottom safety warning 'Đã uống rượu bia thì không lái xe'. Technical style: photorealistic lifestyle advertising compositing, warm nightlife commercial lighting, app-screen glow and friendly lifestyle highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "BUTL and Quán Nhậu Tự Do logos",
+          "required": true,
+          "source": "official logo assets",
+          "usage": "Preserve the exact top-row co-branding."
+        },
+        {
+          "type": "ui_reference",
+          "name": "BUTL mobile app screen",
+          "required": true,
+          "source": "original app screenshot or campaign phone mockup",
+          "usage": "Keep the interface layout, icons, and orange-white color treatment."
+        },
+        {
+          "type": "person",
+          "name": "three diner cutouts and hand holding phone",
+          "required": true,
+          "source": "original lifestyle photography",
+          "usage": "Preserve faces, gestures, and the exact phone-holding composition."
+        },
+        {
+          "type": "graphic",
+          "name": "QR code block and discount cards",
+          "required": true,
+          "source": "original campaign layout",
+          "usage": "Keep the QR placement, orange CTA, and exact discount values."
+        }
+      ],
+      "prompt_instructions": "Use refs for the app UI, diner group, hand pose, and all offer cards. This poster depends on the phone UI fidelity and safety-offer messaging, so do not replace the screen with a generic rideshare interface."
+    }
+  }
+}

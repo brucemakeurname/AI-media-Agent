@@ -1,0 +1,70 @@
+{
+  "name": "toyota-corolla-cross-hybrid-peaceful-family-connection",
+  "tag": [
+    "corolla-cross-hybrid",
+    "family",
+    "home",
+    "connection"
+  ],
+  "biz_niche": "Automotive",
+  "content_format": "Brand story",
+  "group": "toyota_1539063141349520",
+  "prompt": {
+    "project_info": {
+      "theme": "Corolla Cross Hybrid as a connected family space",
+      "color_palette": "Sky blue, white, leafy green, black, soft beige"
+    },
+    "main_subject": {
+      "type": "Person/Object/Text",
+      "detail": "A bright family-home lifestyle poster with the title 'COROLLA CROSS HYBRID GOI TRON BINH YEN TINH CHON KHONG GIAN KET NOI'. A white Corolla Cross Hybrid is shown in side profile parked in front of modern houses. A child sits inside the rear seat smiling and holding up a toy plane. At the rear, a mother holding grocery bags walks by while a father closes the open tailgate. Trees and modern home facades fill the background.",
+      "style": "Warm suburban family-lifestyle automotive poster with natural daylight, gentle storytelling, and clean premium framing"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "COROLLA CROSS HYBRID / GOI TRON BINH YEN / TINH CHON KHONG GIAN KET NOI",
+      "items": [
+        "Top Left: Large white title block over a blue sky and house facades",
+        "Top Right: Tree canopy and upper-level balcony architecture",
+        "Bottom Left: Front half of the white Corolla Cross Hybrid along the suburban road",
+        "Bottom Right: Father closing the tailgate while mother walks with groceries",
+        "Center/Background: Family-home driveway scene with child smiling through the window of the side-profile SUV"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Natural suburban daylight",
+      "effect": "Soft tree-filtered sun, realistic home-environment warmth, calm family serenity"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal family-lifestyle automotive composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Corolla Cross Hybrid family-home lifestyle story. Centerpiece is a white Corolla Cross Hybrid in side profile parked outside modern houses, with a smiling child visible inside, a mother carrying groceries, and a father closing the open tailgate. Background is a calm suburban street with clean modern architecture and leafy trees. Surrounding elements: exact title 'COROLLA CROSS HYBRID GOI TRON BINH YEN TINH CHON KHONG GIAN KET NOI'. Technical style: photoreal family-lifestyle automotive composite, natural suburban daylight, soft warmth and serene connected-family atmosphere, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "White Corolla Cross Hybrid exterior reference",
+          "required": true,
+          "source": "official Corolla Cross Hybrid renders",
+          "usage": "Preserve the side profile, wheel design, and hybrid badging"
+        },
+        {
+          "type": "person",
+          "name": "Family lifestyle references for father, mother, and child",
+          "required": true,
+          "source": "source photo or this creative",
+          "usage": "Keep the specific roles and actions: child with toy plane inside, mother with groceries, father closing the tailgate"
+        },
+        {
+          "type": "text_layout",
+          "name": "Corolla Cross Hybrid family-home headline layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the large top-left title block and the side-profile family composition"
+        }
+      ],
+      "prompt_instructions": "Do not turn this into a generic parked-car shot. The family actions and the calm residential context are the core of the message."
+    }
+  }
+}

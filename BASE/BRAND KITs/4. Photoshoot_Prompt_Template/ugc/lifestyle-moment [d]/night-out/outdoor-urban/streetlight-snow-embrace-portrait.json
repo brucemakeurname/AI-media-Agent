@@ -1,0 +1,40 @@
+{
+  "name": "streetlight-snow-embrace-portrait",
+  "tag": ["snow", "streetlight", "winter", "portrait"],
+  "image_type": "UGC winter night portrait",
+  "image_vibe": "joyful, warm, atmospheric, cinematic",
+  "image_purpose": "Winter lifestyle and social profile content",
+  "group": "ugc/lifestyle-moment/night-out/outdoor-urban",
+  "prompt": {
+    "project_info": "Create an ultra-photorealistic joyful winter-night portrait under a glowing streetlamp.",
+    "main_subject": "The same approved adult person as the required face reference, standing outdoors with arms outstretched and enjoying softly falling snow. Preserve natural micro-expressions and face structure. The subject wears a long textured teddy-style coat, thick scarf and casual jeans.",
+    "composition_elements": "Vertical full-body portrait with the subject centered under the streetlamp halo, arms open, snow-covered ground and distant trees behind. Include warm lamplight in the foreground, atmospheric haze and a darker cool background for depth.",
+    "lighting_and_atmosphere": "Warm golden streetlamp illumination scattering through snowflakes with realistic shimmer and soft lens bloom, warm-to-cool contrast, natural shadow placement, lively immersive winter mood.",
+    "technical_specs": "Photorealistic vertical winter portrait, full-frame camera with 50mm lens, realistic snow particles, textile texture and hair movement, optical depth, subtle grain, no watermark.",
+    "generated_prompt_string": "Use the same approved adult face from the attached image without altering facial features. Create an ultra-photorealistic nighttime winter scene featuring the character standing outdoors with arms outstretched and enjoying softly falling snow under a glowing streetlamp. Capture the warm cinematic illumination created by the lamp's halo, golden light scattering through snowflakes with realistic particle shimmer and soft lens bloom. The character wears a long textured teddy-style coat, thick scarf and casual jeans, all rendered with realistic fabric behavior. Snow-covered ground and distant trees receive ambient light, creating natural depth and atmospheric haze. Hair interacts naturally with wind and light, with warm-to-cool contrast between the lamplit foreground and darker background. The scene feels lively, immersive and joyful with high-resolution realism, natural skin texture and no logos or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, malformed snow, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult face and identity reference",
+          "required": true,
+          "source": "Attach the provided local face reference image",
+          "usage": "Preserve the approved adult face, facial structure, proportions, identity, natural micro-expressions and skin texture without beautification or age shift."
+        },
+        {
+          "type": "image",
+          "name": "streetlight-snow-embrace-portrait composition reference",
+          "required": true,
+          "source": "Attach the provided local scene reference image",
+          "usage": "Match the open-arm pose, teddy coat, scarf, snow, streetlamp halo, trees and warm-cool lighting composition while keeping wardrobe and environment replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required face and composition references. Preserve face identity exactly, the open-arm pose, layered winter clothing, streetlamp, snowfall, trees, halo and warm-to-cool palette. Keep person replaceable only with another approved adult face reference; keep clothing details, lamp, snow, trees and environment replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "name": "urban-terrace-red-shirt-cinematic-portrait",
+  "tag": [
+    "adult-man",
+    "red-shirt",
+    "city-terrace",
+    "cinematic-portrait",
+    "glass-architecture"
+  ],
+  "image_type": "cinematic-portrait",
+  "image_vibe": "premium-urban-composed",
+  "image_purpose": "profile-visual",
+  "group": "indie/enegy-lifestyle/golden-hour-street",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "premium cinematic city-terrace portrait",
+      "color_palette": "deep red, black, silver, blue-gray, and cool glass tones",
+      "format": "vertical 9:16 medium portrait"
+    },
+    "main_subject": {
+      "description": "an adult man with a neat beard and short dark hair, in a fitted deep-red long-sleeve button-down shirt with sleeves rolled below the elbows, black tailored trousers, black leather belt, and silver wristwatch",
+      "pose_and_expression": "upright relaxed posture, one hand in trouser pocket, other arm at side, calm confident gaze toward camera"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level medium portrait",
+      "foreground": "adult subject with the red shirt and silver watch",
+      "background": "modern terrace rail and dark reflective glass wall, with softly blurred blue-gray skyscrapers",
+      "visual_hierarchy": "face and identity, red shirt silhouette, then cool-toned city depth"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "natural front-left daylight with balanced face highlights and soft shadows",
+      "atmosphere": "composed, premium, clean, and cinematic"
+    },
+    "technical_specs": {
+      "camera": "Sony FX3",
+      "lens": "50mm f/2",
+      "settings": "1/320s, f/2.2, ISO 200, 5400K white balance",
+      "rendering": "full-frame cinematic realism, moderate depth of field, natural skin texture, restrained cool-warm contrast"
+    },
+    "generated_prompt_string": "Use the uploaded approved adult photo strictly as the facial identity reference. Preserve the same adult person exactly: no change to face structure, apparent age, skin tone, beard, or defining features. Create a cinematic vertical 9:16 ultra-realistic portrait of this adult man standing on a modern city terrace beside a dark reflective glass wall. Softly blur distant blue-gray skyscrapers for clean urban depth. Natural daylight from front-left creates soft shadows and balanced highlights. He faces camera with calm confidence, wearing a fitted deep-red long-sleeve button-down with sleeves rolled below the elbows, black tailored trousers, a black leather belt with rectangular metal buckle, and a silver watch on the left wrist. Upright posture, left hand in trouser pocket, right arm relaxed, eye-level medium shot, full-frame 50mm look, moderate depth of field, and premium cinematic city color.",
+    "negative_prompt": "face change, identity alteration, minor, cartoon, CGI, illustration, plastic skin, beauty retouching, over-smoothing, exaggerated muscles, distortion, blur, low resolution, watermark, logo, text, artificial lighting, over-stylized fashion, explicit, nsfw, overly revealing, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Preserve the exact adult identity, face structure, skin tone, beard, and defining features."
+        },
+        {
+          "type": "wardrobe",
+          "name": "red-shirt-wardrobe-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Match shirt, trousers, belt, or watch only when supplied."
+        },
+        {
+          "type": "location",
+          "name": "city-terrace-reference",
+          "required": false,
+          "source": "approved location reference",
+          "usage": "Match the terrace, glass wall, and skyline only when supplied."
+        }
+      ],
+      "prompt_instructions": "The approved adult identity reference is mandatory. Wardrobe and location references are optional; preserve the exact supplied adult identity while allowing only approved replacements of clothing or environment."
+    }
+  }
+}

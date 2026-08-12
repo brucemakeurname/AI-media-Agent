@@ -1,0 +1,66 @@
+{
+  "name": "Gentle Homecoming at Night",
+  "tag": "gentle-homecoming-night",
+  "image_type": "candid_couple_home_entry",
+  "image_vibe": "warm_intimate_documentary",
+  "image_purpose": "lifestyle_storytelling",
+  "group": "indie/enegy-lifestyle/urban-indie",
+  "prompt": {
+    "project_info": {
+      "title": "Gentle Homecoming at Night",
+      "format": "single still photograph",
+      "aspect_ratio": "9:16 vertical"
+    },
+    "main_subject": {
+      "description": "Two adult partners arriving home, with tired but relaxed smiles and natural unretouched faces.",
+      "wardrobe": "Everyday covered evening clothes: a long-sleeve knit top and tailored trousers for one partner, a plain T-shirt and dark jeans for the other.",
+      "pose_and_expression": "One adult holds the door while the other steps inside first; both share a small laugh."
+    },
+    "composition_elements": {
+      "setting": "A generic city-apartment entryway at night, with a warm bulb, simple hallway, neatly placed shoes, and a coat hanging on a plain hook.",
+      "framing": "Close documentary medium shot with gently imperfect friend-captured framing and both faces sharp.",
+      "text_and_brand_control": "No identifiable home address, personal information, readable text, logos, or branded footwear."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Warm indoor practical light only, no flash, no HDR enhancement.",
+      "mood": "Quiet relief, real affection, and a believable end-of-night pause."
+    },
+    "technical_specs": {
+      "camera_style": "35mm candid film still",
+      "lens": "35mm equivalent",
+      "rendering": "Crisp natural faces, fabric wrinkles, subtle true film grain, natural dynamic range, no artificial glow."
+    },
+    "generated_prompt_string": "Create a 9:16 vertical hyper-real candid 35mm film still of two adult partners arriving home at night. One, in a plain T-shirt and dark jeans, holds a door while the other, in a long-sleeve knit top and tailored trousers, steps in first; they share a small tired relaxed laugh. Set them in a generic city-apartment entryway lit only by a warm practical bulb, with a simple hallway, neatly placed plain shoes, and a coat on a plain hook. Use close documentary medium framing as if a friend captured the moment, keep both faces sharp, retain natural skin, fabric wrinkles, subtle grain, and natural dynamic range. Do not show an address, personal data, readable text, logos, brands, flash, HDR, or artificial glow.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, lingerie, fetish styling, posed advertisement, home address, readable text, logo, watermark, plastic skin, HDR, AI glow, distorted hands, extra limbs, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Use optional references only for consenting adults and replaceable styling. Keep identity general; remove personal addresses, labels, text, and brand identifiers from environment assets.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_couple_reference",
+          "required": false,
+          "source": "user-provided approved adult portraits",
+          "usage": "Guide general adult facial and hair traits while retaining natural candid expressions."
+        },
+        {
+          "type": "environment_reference",
+          "name": "apartment_entry_reference",
+          "required": false,
+          "source": "user-provided interior reference",
+          "usage": "Guide doorway and warm-light layout after removing private information and labels."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "evening_casual_clothes_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide covered everyday silhouettes without visible brands."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Specified consenting adults and covered clothing, generalized the home location, and removed identifiable-address, text, and brand dependencies."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Neon Vinyl Store Browsing Portrait",
+  "tag": "neon-vinyl-store-browsing",
+  "image_type": "urban_record_store_portrait",
+  "image_vibe": "cool_y2k_retro_grunge",
+  "image_purpose": "streetwear_editorial",
+  "group": "indie/enegy-lifestyle/urban-indie",
+  "prompt": {
+    "project_info": {
+      "title": "Neon Vinyl Store Browsing Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult East Asian woman with long loose black waves, natural pink-toned makeup, and a focused contemplative expression.",
+      "wardrobe": "A white crew-neck graphic-free T-shirt layered beneath a pale pink ribbon-detail overshirt, light-wash baggy cargo jeans, and plain retro sneakers.",
+      "pose_and_expression": "Eye-level side-profile medium-full shot as she examines a blank vinyl sleeve with both hands beside a wooden record bin."
+    },
+    "composition_elements": {
+      "setting": "A crowded retro record store with wooden bins, blank album sleeves, abstract poster shapes, softly blurred adult shoppers, and pink-blue decorative neon glow.",
+      "framing": "Sharp subject against a moderately blurred busy background, emphasizing browsing rather than the labels.",
+      "text_and_brand_control": "No readable album covers, poster copy, neon words, logos, commercial branding, or identifiable shoppers."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Neutral overhead fluorescent base light mixed with pink and blue ambient neon.",
+      "mood": "Cool, immersed in music culture, urban, and observant."
+    },
+    "technical_specs": {
+      "camera_style": "candid Y2K streetwear film photograph",
+      "lens": "45mm equivalent",
+      "rendering": "Moderate depth of field, soft film grain, natural skin texture, crisp hands, believable vinyl reflections."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical candid Y2K streetwear film photograph of an adult East Asian woman with long loose black waves, natural pink-toned makeup, and a focused contemplative expression. She wears a white crew-neck graphic-free T-shirt beneath a pale pink ribbon-detail overshirt, light-wash baggy cargo jeans, and plain retro sneakers. At eye level, frame a medium-full side profile as she studies a blank vinyl sleeve with both hands beside a wooden record bin. Surround her with a busy retro record store of blank album sleeves, abstract poster shapes, softly blurred adult shoppers, and decorative pink-blue neon glow. Use neutral fluorescent light mixed with colored ambient glow, moderate background blur, soft grain, natural skin, crisp hands, and realistic reflections. No readable album covers, poster copy, neon words, logos, branding, or identifiable shoppers.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, lingerie, fetish styling, readable album title, poster text, neon text, logo, watermark, distorted hands, extra fingers, plastic skin, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity references must show a consenting adult. Replaceable wardrobe, bag, and environment references may guide color and silhouette only; blank all branding and text.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general adult facial and hair traits only."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "y2k_record_store_outfit_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide layered covered streetwear and accessories without marks."
+        },
+        {
+          "type": "environment_reference",
+          "name": "record_store_neon_reference",
+          "required": false,
+          "source": "user-provided store reference",
+          "usage": "Guide bins and colored glow while replacing all copy with blank or abstract surfaces."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adulthood, used covered clothing, and removed all reliance on album, poster, neon, and brand text."
+  }
+}

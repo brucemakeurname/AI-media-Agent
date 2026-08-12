@@ -1,0 +1,1385 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @font-face { font-family: "Inter"; src: url("fonts/Inter-400-latin.woff2") format("woff2"); font-weight: 400; font-display: block; }
+      @font-face { font-family: "Inter"; src: url("fonts/Inter-700-latin.woff2") format("woff2"); font-weight: 700; font-display: block; }
+
+      :root {
+        --bg: #1a1a1a;
+        --text: #f1f1f1;
+        --accent-0: #4cc9f0;
+        --accent-1: #f72585;
+        --accent-2: #4ade80;
+        --accent-3: #fb923c;
+        --accent-4: #a78bfa;
+      }
+      * { box-sizing: border-box; }
+      html, body {
+        margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden;
+        background: #000;
+        font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+      }
+      #stage { position: relative; width: 100%; height: 100%; overflow: hidden; }
+
+      .video-wrapper {
+        position: absolute; left: 0; top: 0; width: 1080px; height: 1920px;
+        overflow: hidden; border-radius: 0; box-shadow: none;
+      }
+      .video-wrapper video { width: 100%; height: 100%; object-fit: cover; }
+
+      .card-host { position: absolute; pointer-events: none; overflow: hidden; }
+      .card-host .card { position: relative; width: 100%; height: 100%; overflow: hidden; }
+      .card-host .char { display: inline-block; visibility: visible; }
+    </style>
+  </head>
+  <body>
+    <div id="stage" data-composition-id="talking-head-recut" data-start="0" data-duration="125.668345" data-fps="30" data-width="1080" data-height="1920">
+      <div class="video-wrapper" id="video-wrap">
+        <video id="bg-video" src="input-video.mp4" muted playsinline data-start="0" data-duration="125.668345" data-track-index="1"></video>
+      </div>
+      <audio id="source-audio" src="input-video.mp4" data-start="0" data-duration="125.668345" data-track-index="10" data-volume="1"></audio>
+
+      <div class="card-host clip" data-card-id="card-01" data-start="0.4000" data-duration="8.5000" data-track-index="2" style="left:0;top:0;width:1080px;height:1920px;visibility:hidden;opacity:0;">
+        <div class="card" data-card-id="card-01">
+  <style>
+    .card[data-card-id="card-01"] .root {
+      width: 100%; height: 100%;
+      display: flex; align-items: flex-end; justify-content: flex-start;
+      padding: 64px 56px 180px 56px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    .card[data-card-id="card-01"] .panel {
+      position: relative;
+      width: 100%;
+      background: linear-gradient(135deg, rgba(20,20,22,0.72), rgba(20,20,22,0.42));
+      backdrop-filter: blur(14px);
+      border-left: 6px solid var(--accent-1);
+      border-radius: 18px;
+      padding: 36px 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    .card[data-card-id="card-01"] .quote-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--accent-1);
+      line-height: 0.6;
+      margin-bottom: 8px;
+    }
+    .card[data-card-id="card-01"] .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-1);
+      margin-bottom: 14px;
+    }
+    .card[data-card-id="card-01"] .title {
+      font-family: 'Inter', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.12;
+      color: var(--text);
+      margin: 0;
+    }
+    .card[data-card-id="card-01"] .rule {
+      height: 6px; background: var(--accent-1); border-radius: 3px; margin-top: 24px;
+    }
+    .card[data-card-id="card-01"] .detail {
+      font-family: 'Inter', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text);
+      opacity: 0.92;
+      margin-top: 24px;
+    }
+    .card[data-card-id="card-01"] .char { display: inline-block; }
+  </style>
+  <div class="root">
+    <div class="panel">
+      
+    <div class="kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">THE HYPE</div>
+    <h1 class="title" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.45" data-anim-stagger="0.015" data-anim-pattern="pop"><span class="char">L</span><span class="char">A</span><span class="char">U</span><span class="char">N</span><span class="char">C</span><span class="char">H</span> <span class="char">&nbsp;</span><span class="char">T</span><span class="char">H</span><span class="char">E</span> <span class="char">&nbsp;</span><span class="char">A</span><span class="char">I</span> <span class="char">&nbsp;</span><span class="char">I</span><span class="char">N</span><span class="char">F</span><span class="char">L</span><span class="char">U</span><span class="char">E</span><span class="char">N</span><span class="char">C</span><span class="char">E</span><span class="char">R</span><span class="char">.</span> <span class="char">&nbsp;</span><span class="char">G</span><span class="char">E</span><span class="char">T</span> <span class="char">&nbsp;</span><span class="char">R</span><span class="char">I</span><span class="char">C</span><span class="char">H</span><span class="char">.</span> <span class="char">&nbsp;</span><span class="char">R</span><span class="char">I</span><span class="char">G</span><span class="char">H</span><span class="char">T</span> <span class="char">&nbsp;</span><span class="char">N</span><span class="char">O</span><span class="char">W</span><span class="char">.</span></h1>
+    <div class="rule" data-anim="grow-x" data-anim-at="0.55" data-anim-duration="0.4" data-anim-target-w="120" style="width:0;"></div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="card-host clip" data-card-id="card-02" data-start="8.9000" data-duration="7.5000" data-track-index="2" style="left:0;top:0;width:1080px;height:1920px;visibility:hidden;opacity:0;">
+        <div class="card" data-card-id="card-02">
+  <style>
+    .card[data-card-id="card-02"] .root {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: flex-start;
+      padding: 64px 56px 0 56px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    .card[data-card-id="card-02"] .panel {
+      position: relative;
+      width: 100%;
+      background: linear-gradient(135deg, rgba(20,20,22,0.72), rgba(20,20,22,0.42));
+      backdrop-filter: blur(14px);
+      border-left: 6px solid var(--accent-1);
+      border-radius: 18px;
+      padding: 36px 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    .card[data-card-id="card-02"] .quote-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--accent-1);
+      line-height: 0.6;
+      margin-bottom: 8px;
+    }
+    .card[data-card-id="card-02"] .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-1);
+      margin-bottom: 14px;
+    }
+    .card[data-card-id="card-02"] .title {
+      font-family: 'Inter', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.12;
+      color: var(--text);
+      margin: 0;
+    }
+    .card[data-card-id="card-02"] .rule {
+      height: 6px; background: var(--accent-1); border-radius: 3px; margin-top: 24px;
+    }
+    .card[data-card-id="card-02"] .detail {
+      font-family: 'Inter', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text);
+      opacity: 0.92;
+      margin-top: 24px;
+    }
+    .card[data-card-id="card-02"] .char { display: inline-block; }
+  </style>
+  <div class="root">
+    <div class="panel">
+      <div class="quote-mark" data-anim="scale-pop" data-anim-at="0" data-anim-duration="0.3">“</div>
+    <div class="kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">NOBODY TELLS YOU</div>
+    <h1 class="title" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.45" data-anim-stagger="0.015" data-anim-pattern="pop"><span class="char">9</span><span class="char">9</span><span class="char">%</span> <span class="char">&nbsp;</span><span class="char">Q</span><span class="char">U</span><span class="char">I</span><span class="char">T</span> <span class="char">&nbsp;</span><span class="char">I</span><span class="char">N</span> <span class="char">&nbsp;</span><span class="char">M</span><span class="char">O</span><span class="char">N</span><span class="char">T</span><span class="char">H</span> <span class="char">&nbsp;</span><span class="char">O</span><span class="char">N</span><span class="char">E</span><span class="char">.</span></h1>
+    <div class="rule" data-anim="grow-x" data-anim-at="0.55" data-anim-duration="0.4" data-anim-target-w="120" style="width:0;"></div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="card-host clip" data-card-id="card-03" data-start="20.4000" data-duration="2.3500" data-track-index="2" style="left:0;top:0;width:1080px;height:1920px;visibility:hidden;opacity:0;">
+        <div class="card" data-card-id="card-03">
+  <style>
+    .card[data-card-id="card-03"] .root {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: flex-start;
+      padding: 64px 56px 0 56px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    .card[data-card-id="card-03"] .panel {
+      position: relative;
+      width: 100%;
+      background: linear-gradient(135deg, rgba(20,20,22,0.72), rgba(20,20,22,0.42));
+      backdrop-filter: blur(14px);
+      border-left: 6px solid var(--accent-0);
+      border-radius: 18px;
+      padding: 36px 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    .card[data-card-id="card-03"] .quote-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--accent-0);
+      line-height: 0.6;
+      margin-bottom: 8px;
+    }
+    .card[data-card-id="card-03"] .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-0);
+      margin-bottom: 14px;
+    }
+    .card[data-card-id="card-03"] .title {
+      font-family: 'Inter', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.12;
+      color: var(--text);
+      margin: 0;
+    }
+    .card[data-card-id="card-03"] .rule {
+      height: 6px; background: var(--accent-0); border-radius: 3px; margin-top: 24px;
+    }
+    .card[data-card-id="card-03"] .detail {
+      font-family: 'Inter', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text);
+      opacity: 0.92;
+      margin-top: 24px;
+    }
+    .card[data-card-id="card-03"] .char { display: inline-block; }
+  </style>
+  <div class="root">
+    <div class="panel">
+      
+    <h1 class="title" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.45" data-anim-stagger="0.015" data-anim-pattern="pop"><span class="char">T</span><span class="char">H</span><span class="char">E</span> <span class="char">&nbsp;</span><span class="char">R</span><span class="char">E</span><span class="char">A</span><span class="char">L</span><span class="char">I</span><span class="char">T</span><span class="char">Y</span> <span class="char">&nbsp;</span><span class="char">C</span><span class="char">H</span><span class="char">E</span><span class="char">C</span><span class="char">K</span></h1>
+    <div class="rule" data-anim="grow-x" data-anim-at="0.55" data-anim-duration="0.4" data-anim-target-w="120" style="width:0;"></div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="card-host clip" data-card-id="card-04" data-start="22.7500" data-duration="4.1500" data-track-index="2" style="left:0;top:0;width:1080px;height:1920px;visibility:hidden;opacity:0;">
+        <div class="card" data-card-id="card-04">
+  <style>
+    .card[data-card-id="card-04"] .root {
+      width: 100%; height: 100%;
+      display: flex; align-items: flex-end; justify-content: flex-start;
+      padding: 64px 56px 180px 56px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    .card[data-card-id="card-04"] .panel {
+      position: relative;
+      width: 100%;
+      background: linear-gradient(135deg, rgba(20,20,22,0.72), rgba(20,20,22,0.42));
+      backdrop-filter: blur(14px);
+      border-left: 6px solid var(--accent-2);
+      border-radius: 18px;
+      padding: 36px 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    .card[data-card-id="card-04"] .quote-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--accent-2);
+      line-height: 0.6;
+      margin-bottom: 8px;
+    }
+    .card[data-card-id="card-04"] .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-2);
+      margin-bottom: 14px;
+    }
+    .card[data-card-id="card-04"] .title {
+      font-family: 'Inter', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.12;
+      color: var(--text);
+      margin: 0;
+    }
+    .card[data-card-id="card-04"] .rule {
+      height: 6px; background: var(--accent-2); border-radius: 3px; margin-top: 24px;
+    }
+    .card[data-card-id="card-04"] .detail {
+      font-family: 'Inter', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text);
+      opacity: 0.92;
+      margin-top: 24px;
+    }
+    .card[data-card-id="card-04"] .char { display: inline-block; }
+  </style>
+  <div class="root">
+    <div class="panel">
+      
+    <div class="kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">REASON 01</div>
+    <h1 class="title" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.45" data-anim-stagger="0.015" data-anim-pattern="pop"><span class="char">M</span><span class="char">O</span><span class="char">S</span><span class="char">T</span> <span class="char">&nbsp;</span><span class="char">A</span><span class="char">I</span> <span class="char">&nbsp;</span><span class="char">I</span><span class="char">N</span><span class="char">F</span><span class="char">L</span><span class="char">U</span><span class="char">E</span><span class="char">N</span><span class="char">C</span><span class="char">E</span><span class="char">R</span><span class="char">S</span> <span class="char">&nbsp;</span><span class="char">F</span><span class="char">A</span><span class="char">I</span><span class="char">L</span></h1>
+    <div class="rule" data-anim="grow-x" data-anim-at="0.55" data-anim-duration="0.4" data-anim-target-w="120" style="width:0;"></div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="card-host clip" data-card-id="card-05" data-start="26.9000" data-duration="10.9000" data-track-index="2" style="left:0;top:0;width:1080px;height:1920px;visibility:hidden;opacity:0;">
+        <div class="card" data-card-id="card-05">
+  <style>
+    .card[data-card-id="card-05"] .root {
+      width: 100%; height: 100%;
+      display: flex; align-items: flex-end; justify-content: flex-start;
+      padding: 64px 56px 180px 56px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    .card[data-card-id="card-05"] .panel {
+      position: relative;
+      width: 100%;
+      background: linear-gradient(135deg, rgba(20,20,22,0.72), rgba(20,20,22,0.42));
+      backdrop-filter: blur(14px);
+      border-left: 6px solid var(--accent-2);
+      border-radius: 18px;
+      padding: 36px 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    .card[data-card-id="card-05"] .quote-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--accent-2);
+      line-height: 0.6;
+      margin-bottom: 8px;
+    }
+    .card[data-card-id="card-05"] .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-2);
+      margin-bottom: 14px;
+    }
+    .card[data-card-id="card-05"] .title {
+      font-family: 'Inter', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.12;
+      color: var(--text);
+      margin: 0;
+    }
+    .card[data-card-id="card-05"] .rule {
+      height: 6px; background: var(--accent-2); border-radius: 3px; margin-top: 24px;
+    }
+    .card[data-card-id="card-05"] .detail {
+      font-family: 'Inter', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text);
+      opacity: 0.92;
+      margin-top: 24px;
+    }
+    .card[data-card-id="card-05"] .char { display: inline-block; }
+  </style>
+  <div class="root">
+    <div class="panel">
+      
+    <div class="kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">REASON 01 · WHY</div>
+    <h1 class="title" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.45" data-anim-stagger="0.015" data-anim-pattern="pop"><span class="char">T</span><span class="char">O</span><span class="char">O</span><span class="char">L</span> <span class="char">&nbsp;</span><span class="char">≠</span> <span class="char">&nbsp;</span><span class="char">B</span><span class="char">R</span><span class="char">A</span><span class="char">N</span><span class="char">D</span></h1>
+    <div class="rule" data-anim="grow-x" data-anim-at="0.55" data-anim-duration="0.4" data-anim-target-w="120" style="width:0;"></div>
+    <div class="detail" data-anim="fade-in" data-anim-at="0.65" data-anim-duration="0.4">Market flooded with low-effort, dead-eyed avatars. People confuse using a tool with building a brand.</div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="card-host clip" data-card-id="card-06" data-start="37.8000" data-duration="3.1000" data-track-index="2" style="left:0;top:0;width:1080px;height:1920px;visibility:hidden;opacity:0;">
+        <div class="card" data-card-id="card-06">
+  <style>
+    .card[data-card-id="card-06"] .root {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: flex-start;
+      padding: 64px 56px 0 56px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    .card[data-card-id="card-06"] .panel {
+      position: relative;
+      width: 100%;
+      background: linear-gradient(135deg, rgba(20,20,22,0.72), rgba(20,20,22,0.42));
+      backdrop-filter: blur(14px);
+      border-left: 6px solid var(--accent-3);
+      border-radius: 18px;
+      padding: 36px 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    .card[data-card-id="card-06"] .quote-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--accent-3);
+      line-height: 0.6;
+      margin-bottom: 8px;
+    }
+    .card[data-card-id="card-06"] .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-3);
+      margin-bottom: 14px;
+    }
+    .card[data-card-id="card-06"] .title {
+      font-family: 'Inter', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.12;
+      color: var(--text);
+      margin: 0;
+    }
+    .card[data-card-id="card-06"] .rule {
+      height: 6px; background: var(--accent-3); border-radius: 3px; margin-top: 24px;
+    }
+    .card[data-card-id="card-06"] .detail {
+      font-family: 'Inter', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text);
+      opacity: 0.92;
+      margin-top: 24px;
+    }
+    .card[data-card-id="card-06"] .char { display: inline-block; }
+  </style>
+  <div class="root">
+    <div class="panel">
+      <div class="quote-mark" data-anim="scale-pop" data-anim-at="0" data-anim-duration="0.3">“</div>
+    <h1 class="title" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.45" data-anim-stagger="0.015" data-anim-pattern="pop"><span class="char">J</span><span class="char">U</span><span class="char">S</span><span class="char">T</span> <span class="char">&nbsp;</span><span class="char">B</span><span class="char">E</span><span class="char">C</span><span class="char">A</span><span class="char">U</span><span class="char">S</span><span class="char">E</span> <span class="char">&nbsp;</span><span class="char">S</span><span class="char">H</span><span class="char">E</span> <span class="char">&nbsp;</span><span class="char">M</span><span class="char">O</span><span class="char">V</span><span class="char">E</span><span class="char">S</span> <span class="char">&nbsp;</span><span class="char">D</span><span class="char">O</span><span class="char">E</span><span class="char">S</span><span class="char">N</span><span class="char">&#x27;</span><span class="char">T</span> <span class="char">&nbsp;</span><span class="char">M</span><span class="char">E</span><span class="char">A</span><span class="char">N</span> <span class="char">&nbsp;</span><span class="char">S</span><span class="char">H</span><span class="char">E</span> <span class="char">&nbsp;</span><span class="char">M</span><span class="char">A</span><span class="char">T</span><span class="char">T</span><span class="char">E</span><span class="char">R</span><span class="char">S</span><span class="char">.</span></h1>
+    <div class="rule" data-anim="grow-x" data-anim-at="0.55" data-anim-duration="0.4" data-anim-target-w="120" style="width:0;"></div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="card-host clip" data-card-id="card-07" data-start="40.9000" data-duration="5.8000" data-track-index="2" style="left:0;top:0;width:1080px;height:1920px;visibility:hidden;opacity:0;">
+        <div class="card" data-card-id="card-07">
+  <style>
+    .card[data-card-id="card-07"] .root {
+      width: 100%; height: 100%;
+      display: flex; align-items: flex-end; justify-content: flex-start;
+      padding: 64px 56px 180px 56px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    .card[data-card-id="card-07"] .panel {
+      position: relative;
+      width: 100%;
+      background: linear-gradient(135deg, rgba(20,20,22,0.72), rgba(20,20,22,0.42));
+      backdrop-filter: blur(14px);
+      border-left: 6px solid var(--accent-4);
+      border-radius: 18px;
+      padding: 36px 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    .card[data-card-id="card-07"] .quote-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--accent-4);
+      line-height: 0.6;
+      margin-bottom: 8px;
+    }
+    .card[data-card-id="card-07"] .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-4);
+      margin-bottom: 14px;
+    }
+    .card[data-card-id="card-07"] .title {
+      font-family: 'Inter', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.12;
+      color: var(--text);
+      margin: 0;
+    }
+    .card[data-card-id="card-07"] .rule {
+      height: 6px; background: var(--accent-4); border-radius: 3px; margin-top: 24px;
+    }
+    .card[data-card-id="card-07"] .detail {
+      font-family: 'Inter', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text);
+      opacity: 0.92;
+      margin-top: 24px;
+    }
+    .card[data-card-id="card-07"] .char { display: inline-block; }
+  </style>
+  <div class="root">
+    <div class="panel">
+      
+    <div class="kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">REASON 02</div>
+    <h1 class="title" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.45" data-anim-stagger="0.015" data-anim-pattern="pop"><span class="char">C</span><span class="char">O</span><span class="char">N</span><span class="char">T</span><span class="char">E</span><span class="char">N</span><span class="char">T</span> <span class="char">&nbsp;</span><span class="char">C</span><span class="char">O</span><span class="char">M</span><span class="char">E</span><span class="char">S</span> <span class="char">&nbsp;</span><span class="char">F</span><span class="char">A</span><span class="char">S</span><span class="char">T</span><span class="char">.</span> <span class="char">&nbsp;</span><span class="char">A</span><span class="char">I</span> <span class="char">&nbsp;</span><span class="char">C</span><span class="char">O</span><span class="char">M</span><span class="char">E</span><span class="char">S</span> <span class="char">&nbsp;</span><span class="char">L</span><span class="char">A</span><span class="char">T</span><span class="char">E</span><span class="char">R</span><span class="char">.</span></h1>
+    <div class="rule" data-anim="grow-x" data-anim-at="0.55" data-anim-duration="0.4" data-anim-target-w="120" style="width:0;"></div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="card-host clip" data-card-id="card-08" data-start="46.7000" data-duration="13.8000" data-track-index="2" style="left:0;top:0;width:1080px;height:1920px;visibility:hidden;opacity:0;">
+        <div class="card" data-card-id="card-08">
+  <style>
+    .card[data-card-id="card-08"] .root {
+      width: 100%; height: 100%;
+      display: flex; align-items: flex-end; justify-content: flex-start;
+      padding: 64px 56px 180px 56px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    .card[data-card-id="card-08"] .panel {
+      position: relative;
+      width: 100%;
+      background: linear-gradient(135deg, rgba(20,20,22,0.72), rgba(20,20,22,0.42));
+      backdrop-filter: blur(14px);
+      border-left: 6px solid var(--accent-4);
+      border-radius: 18px;
+      padding: 36px 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    .card[data-card-id="card-08"] .quote-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--accent-4);
+      line-height: 0.6;
+      margin-bottom: 8px;
+    }
+    .card[data-card-id="card-08"] .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-4);
+      margin-bottom: 14px;
+    }
+    .card[data-card-id="card-08"] .title {
+      font-family: 'Inter', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.12;
+      color: var(--text);
+      margin: 0;
+    }
+    .card[data-card-id="card-08"] .rule {
+      height: 6px; background: var(--accent-4); border-radius: 3px; margin-top: 24px;
+    }
+    .card[data-card-id="card-08"] .detail {
+      font-family: 'Inter', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text);
+      opacity: 0.92;
+      margin-top: 24px;
+    }
+    .card[data-card-id="card-08"] .char { display: inline-block; }
+  </style>
+  <div class="root">
+    <div class="panel">
+      
+    <div class="kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">REASON 02 · WHY</div>
+    <h1 class="title" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.45" data-anim-stagger="0.015" data-anim-pattern="pop"><span class="char">A</span> <span class="char">&nbsp;</span><span class="char">S</span><span class="char">C</span><span class="char">R</span><span class="char">E</span><span class="char">E</span><span class="char">N</span><span class="char">S</span><span class="char">A</span><span class="char">V</span><span class="char">E</span><span class="char">R</span><span class="char">,</span> <span class="char">&nbsp;</span><span class="char">N</span><span class="char">O</span><span class="char">T</span> <span class="char">&nbsp;</span><span class="char">A</span> <span class="char">&nbsp;</span><span class="char">C</span><span class="char">R</span><span class="char">E</span><span class="char">A</span><span class="char">T</span><span class="char">O</span><span class="char">R</span></h1>
+    <div class="rule" data-anim="grow-x" data-anim-at="0.55" data-anim-duration="0.4" data-anim-target-w="120" style="width:0;"></div>
+    <div class="detail" data-anim="fade-in" data-anim-at="0.65" data-anim-duration="0.4">Photorealistic skin, zero personality, no struggle, no story — just a digital screensaver.</div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="card-host clip" data-card-id="card-09" data-start="60.5000" data-duration="3.0000" data-track-index="2" style="left:0;top:0;width:1080px;height:1920px;visibility:hidden;opacity:0;">
+        <div class="card" data-card-id="card-09">
+  <style>
+    .card[data-card-id="card-09"] .root {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: flex-start;
+      padding: 64px 56px 0 56px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    .card[data-card-id="card-09"] .panel {
+      position: relative;
+      width: 100%;
+      background: linear-gradient(135deg, rgba(20,20,22,0.72), rgba(20,20,22,0.42));
+      backdrop-filter: blur(14px);
+      border-left: 6px solid var(--accent-3);
+      border-radius: 18px;
+      padding: 36px 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    .card[data-card-id="card-09"] .quote-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--accent-3);
+      line-height: 0.6;
+      margin-bottom: 8px;
+    }
+    .card[data-card-id="card-09"] .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-3);
+      margin-bottom: 14px;
+    }
+    .card[data-card-id="card-09"] .title {
+      font-family: 'Inter', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.12;
+      color: var(--text);
+      margin: 0;
+    }
+    .card[data-card-id="card-09"] .rule {
+      height: 6px; background: var(--accent-3); border-radius: 3px; margin-top: 24px;
+    }
+    .card[data-card-id="card-09"] .detail {
+      font-family: 'Inter', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text);
+      opacity: 0.92;
+      margin-top: 24px;
+    }
+    .card[data-card-id="card-09"] .char { display: inline-block; }
+  </style>
+  <div class="root">
+    <div class="panel">
+      <div class="quote-mark" data-anim="scale-pop" data-anim-at="0" data-anim-duration="0.3">“</div>
+    <h1 class="title" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.45" data-anim-stagger="0.015" data-anim-pattern="pop"><span class="char">Y</span><span class="char">O</span><span class="char">U</span> <span class="char">&nbsp;</span><span class="char">C</span><span class="char">A</span><span class="char">N</span><span class="char">N</span><span class="char">O</span><span class="char">T</span> <span class="char">&nbsp;</span><span class="char">A</span><span class="char">U</span><span class="char">T</span><span class="char">O</span><span class="char">M</span><span class="char">A</span><span class="char">T</span><span class="char">E</span> <span class="char">&nbsp;</span><span class="char">A</span> <span class="char">&nbsp;</span><span class="char">S</span><span class="char">O</span><span class="char">U</span><span class="char">L</span><span class="char">.</span></h1>
+    <div class="rule" data-anim="grow-x" data-anim-at="0.55" data-anim-duration="0.4" data-anim-target-w="120" style="width:0;"></div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="card-host clip" data-card-id="card-10" data-start="63.5000" data-duration="5.7000" data-track-index="2" style="left:0;top:0;width:1080px;height:1920px;visibility:hidden;opacity:0;">
+        <div class="card" data-card-id="card-10">
+  <style>
+    .card[data-card-id="card-10"] .root {
+      width: 100%; height: 100%;
+      display: flex; align-items: flex-end; justify-content: flex-start;
+      padding: 64px 56px 180px 56px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    .card[data-card-id="card-10"] .panel {
+      position: relative;
+      width: 100%;
+      background: linear-gradient(135deg, rgba(20,20,22,0.72), rgba(20,20,22,0.42));
+      backdrop-filter: blur(14px);
+      border-left: 6px solid var(--accent-0);
+      border-radius: 18px;
+      padding: 36px 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    .card[data-card-id="card-10"] .quote-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--accent-0);
+      line-height: 0.6;
+      margin-bottom: 8px;
+    }
+    .card[data-card-id="card-10"] .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-0);
+      margin-bottom: 14px;
+    }
+    .card[data-card-id="card-10"] .title {
+      font-family: 'Inter', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.12;
+      color: var(--text);
+      margin: 0;
+    }
+    .card[data-card-id="card-10"] .rule {
+      height: 6px; background: var(--accent-0); border-radius: 3px; margin-top: 24px;
+    }
+    .card[data-card-id="card-10"] .detail {
+      font-family: 'Inter', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text);
+      opacity: 0.92;
+      margin-top: 24px;
+    }
+    .card[data-card-id="card-10"] .char { display: inline-block; }
+  </style>
+  <div class="root">
+    <div class="panel">
+      
+    <div class="kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">REASON 03</div>
+    <h1 class="title" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.45" data-anim-stagger="0.015" data-anim-pattern="pop"><span class="char">Y</span><span class="char">O</span><span class="char">U</span><span class="char">R</span> <span class="char">&nbsp;</span><span class="char">T</span><span class="char">A</span><span class="char">S</span><span class="char">T</span><span class="char">E</span> <span class="char">&nbsp;</span><span class="char">I</span><span class="char">S</span> <span class="char">&nbsp;</span><span class="char">T</span><span class="char">H</span><span class="char">E</span> <span class="char">&nbsp;</span><span class="char">O</span><span class="char">N</span><span class="char">L</span><span class="char">Y</span> <span class="char">&nbsp;</span><span class="char">E</span><span class="char">D</span><span class="char">G</span><span class="char">E</span></h1>
+    <div class="rule" data-anim="grow-x" data-anim-at="0.55" data-anim-duration="0.4" data-anim-target-w="120" style="width:0;"></div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="card-host clip" data-card-id="card-11" data-start="69.2000" data-duration="7.7000" data-track-index="2" style="left:0;top:0;width:1080px;height:1920px;visibility:hidden;opacity:0;">
+        <div class="card" data-card-id="card-11">
+  <style>
+    .card[data-card-id="card-11"] .root {
+      width: 100%; height: 100%;
+      display: flex; align-items: flex-end; justify-content: flex-start;
+      padding: 64px 56px 180px 56px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    .card[data-card-id="card-11"] .panel {
+      position: relative;
+      width: 100%;
+      background: linear-gradient(135deg, rgba(20,20,22,0.72), rgba(20,20,22,0.42));
+      backdrop-filter: blur(14px);
+      border-left: 6px solid var(--accent-0);
+      border-radius: 18px;
+      padding: 36px 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    .card[data-card-id="card-11"] .quote-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--accent-0);
+      line-height: 0.6;
+      margin-bottom: 8px;
+    }
+    .card[data-card-id="card-11"] .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-0);
+      margin-bottom: 14px;
+    }
+    .card[data-card-id="card-11"] .title {
+      font-family: 'Inter', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.12;
+      color: var(--text);
+      margin: 0;
+    }
+    .card[data-card-id="card-11"] .rule {
+      height: 6px; background: var(--accent-0); border-radius: 3px; margin-top: 24px;
+    }
+    .card[data-card-id="card-11"] .detail {
+      font-family: 'Inter', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text);
+      opacity: 0.92;
+      margin-top: 24px;
+    }
+    .card[data-card-id="card-11"] .char { display: inline-block; }
+  </style>
+  <div class="root">
+    <div class="panel">
+      
+    <div class="kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">SAME TOOLS, EVERYONE</div>
+    <h1 class="title" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.45" data-anim-stagger="0.015" data-anim-pattern="pop"><span class="char">M</span><span class="char">I</span><span class="char">D</span><span class="char">J</span><span class="char">O</span><span class="char">U</span><span class="char">R</span><span class="char">N</span><span class="char">E</span><span class="char">Y</span> <span class="char">&nbsp;</span><span class="char">·</span> <span class="char">&nbsp;</span><span class="char">K</span><span class="char">L</span><span class="char">I</span><span class="char">N</span><span class="char">G</span> <span class="char">&nbsp;</span><span class="char">·</span> <span class="char">&nbsp;</span><span class="char">L</span><span class="char">U</span><span class="char">M</span><span class="char">A</span> <span class="char">&nbsp;</span><span class="char">·</span> <span class="char">&nbsp;</span><span class="char">N</span><span class="char">A</span><span class="char">N</span><span class="char">O</span> <span class="char">&nbsp;</span><span class="char">B</span><span class="char">A</span><span class="char">N</span><span class="char">A</span><span class="char">N</span><span class="char">A</span></h1>
+    <div class="rule" data-anim="grow-x" data-anim-at="0.55" data-anim-duration="0.4" data-anim-target-w="120" style="width:0;"></div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="card-host clip" data-card-id="card-12" data-start="76.9000" data-duration="9.8000" data-track-index="2" style="left:0;top:0;width:1080px;height:1920px;visibility:hidden;opacity:0;">
+        <div class="card" data-card-id="card-12">
+  <style>
+    .card[data-card-id="card-12"] .root {
+      width: 100%; height: 100%;
+      display: flex; align-items: flex-end; justify-content: flex-start;
+      padding: 64px 56px 180px 56px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    .card[data-card-id="card-12"] .panel {
+      position: relative;
+      width: 100%;
+      background: linear-gradient(135deg, rgba(20,20,22,0.72), rgba(20,20,22,0.42));
+      backdrop-filter: blur(14px);
+      border-left: 6px solid var(--accent-0);
+      border-radius: 18px;
+      padding: 36px 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    .card[data-card-id="card-12"] .quote-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--accent-0);
+      line-height: 0.6;
+      margin-bottom: 8px;
+    }
+    .card[data-card-id="card-12"] .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-0);
+      margin-bottom: 14px;
+    }
+    .card[data-card-id="card-12"] .title {
+      font-family: 'Inter', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.12;
+      color: var(--text);
+      margin: 0;
+    }
+    .card[data-card-id="card-12"] .rule {
+      height: 6px; background: var(--accent-0); border-radius: 3px; margin-top: 24px;
+    }
+    .card[data-card-id="card-12"] .detail {
+      font-family: 'Inter', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text);
+      opacity: 0.92;
+      margin-top: 24px;
+    }
+    .card[data-card-id="card-12"] .char { display: inline-block; }
+  </style>
+  <div class="root">
+    <div class="panel">
+      
+    <div class="kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">THE ACTUAL EDGE</div>
+    <h1 class="title" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.45" data-anim-stagger="0.015" data-anim-pattern="pop"><span class="char">V</span><span class="char">I</span><span class="char">R</span><span class="char">A</span><span class="char">L</span> <span class="char">&nbsp;</span><span class="char">V</span><span class="char">S</span><span class="char">.</span> <span class="char">&nbsp;</span><span class="char">C</span><span class="char">R</span><span class="char">I</span><span class="char">N</span><span class="char">G</span><span class="char">E</span> <span class="char">&nbsp;</span><span class="char">B</span><span class="char">O</span><span class="char">T</span></h1>
+    <div class="rule" data-anim="grow-x" data-anim-at="0.55" data-anim-duration="0.4" data-anim-target-w="120" style="width:0;"></div>
+    <div class="detail" data-anim="fade-in" data-anim-at="0.65" data-anim-duration="0.4">The only thing separating a viral sensation from a cringe bot is your eye for aesthetics, lighting, and fashion.</div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="card-host clip" data-card-id="card-13" data-start="86.7000" data-duration="4.2000" data-track-index="2" style="left:0;top:0;width:1080px;height:1920px;visibility:hidden;opacity:0;">
+        <div class="card" data-card-id="card-13">
+  <style>
+    .card[data-card-id="card-13"] .root {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: flex-start;
+      padding: 64px 56px 0 56px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    .card[data-card-id="card-13"] .panel {
+      position: relative;
+      width: 100%;
+      background: linear-gradient(135deg, rgba(20,20,22,0.72), rgba(20,20,22,0.42));
+      backdrop-filter: blur(14px);
+      border-left: 6px solid var(--accent-3);
+      border-radius: 18px;
+      padding: 36px 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    .card[data-card-id="card-13"] .quote-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--accent-3);
+      line-height: 0.6;
+      margin-bottom: 8px;
+    }
+    .card[data-card-id="card-13"] .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-3);
+      margin-bottom: 14px;
+    }
+    .card[data-card-id="card-13"] .title {
+      font-family: 'Inter', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.12;
+      color: var(--text);
+      margin: 0;
+    }
+    .card[data-card-id="card-13"] .rule {
+      height: 6px; background: var(--accent-3); border-radius: 3px; margin-top: 24px;
+    }
+    .card[data-card-id="card-13"] .detail {
+      font-family: 'Inter', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text);
+      opacity: 0.92;
+      margin-top: 24px;
+    }
+    .card[data-card-id="card-13"] .char { display: inline-block; }
+  </style>
+  <div class="root">
+    <div class="panel">
+      <div class="quote-mark" data-anim="scale-pop" data-anim-at="0" data-anim-duration="0.3">“</div>
+    <h1 class="title" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.45" data-anim-stagger="0.015" data-anim-pattern="pop"><span class="char">T</span><span class="char">H</span><span class="char">E</span> <span class="char">&nbsp;</span><span class="char">A</span><span class="char">I</span> <span class="char">&nbsp;</span><span class="char">I</span><span class="char">S</span> <span class="char">&nbsp;</span><span class="char">T</span><span class="char">H</span><span class="char">E</span> <span class="char">&nbsp;</span><span class="char">B</span><span class="char">R</span><span class="char">U</span><span class="char">S</span><span class="char">H</span><span class="char">.</span> <span class="char">&nbsp;</span><span class="char">Y</span><span class="char">O</span><span class="char">U</span> <span class="char">&nbsp;</span><span class="char">A</span><span class="char">R</span><span class="char">E</span> <span class="char">&nbsp;</span><span class="char">S</span><span class="char">T</span><span class="char">I</span><span class="char">L</span><span class="char">L</span> <span class="char">&nbsp;</span><span class="char">T</span><span class="char">H</span><span class="char">E</span> <span class="char">&nbsp;</span><span class="char">A</span><span class="char">R</span><span class="char">T</span><span class="char">I</span><span class="char">S</span><span class="char">T</span><span class="char">.</span></h1>
+    <div class="rule" data-anim="grow-x" data-anim-at="0.55" data-anim-duration="0.4" data-anim-target-w="120" style="width:0;"></div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="card-host clip" data-card-id="card-14" data-start="90.9000" data-duration="8.3000" data-track-index="2" style="left:0;top:0;width:1080px;height:1920px;visibility:hidden;opacity:0;">
+        <div class="card" data-card-id="card-14">
+  <style>
+    .card[data-card-id="card-14"] .root {
+      width: 100%; height: 100%;
+      display: flex; align-items: flex-end; justify-content: flex-start;
+      padding: 64px 56px 180px 56px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    .card[data-card-id="card-14"] .panel {
+      position: relative;
+      width: 100%;
+      background: linear-gradient(135deg, rgba(20,20,22,0.72), rgba(20,20,22,0.42));
+      backdrop-filter: blur(14px);
+      border-left: 6px solid var(--accent-1);
+      border-radius: 18px;
+      padding: 36px 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    .card[data-card-id="card-14"] .quote-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--accent-1);
+      line-height: 0.6;
+      margin-bottom: 8px;
+    }
+    .card[data-card-id="card-14"] .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-1);
+      margin-bottom: 14px;
+    }
+    .card[data-card-id="card-14"] .title {
+      font-family: 'Inter', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.12;
+      color: var(--text);
+      margin: 0;
+    }
+    .card[data-card-id="card-14"] .rule {
+      height: 6px; background: var(--accent-1); border-radius: 3px; margin-top: 24px;
+    }
+    .card[data-card-id="card-14"] .detail {
+      font-family: 'Inter', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text);
+      opacity: 0.92;
+      margin-top: 24px;
+    }
+    .card[data-card-id="card-14"] .char { display: inline-block; }
+  </style>
+  <div class="root">
+    <div class="panel">
+      
+    <div class="kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">REASON 04</div>
+    <h1 class="title" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.45" data-anim-stagger="0.015" data-anim-pattern="pop"><span class="char">E</span><span class="char">N</span><span class="char">D</span> <span class="char">&nbsp;</span><span class="char">C</span><span class="char">H</span><span class="char">I</span><span class="char">P</span><span class="char">.</span> <span class="char">&nbsp;</span><span class="char">I</span><span class="char">T</span> <span class="char">&nbsp;</span><span class="char">A</span><span class="char">I</span><span class="char">N</span><span class="char">&#x27;</span><span class="char">T</span> <span class="char">&nbsp;</span><span class="char">C</span><span class="char">H</span><span class="char">E</span><span class="char">A</span><span class="char">P</span><span class="char">.</span></h1>
+    <div class="rule" data-anim="grow-x" data-anim-at="0.55" data-anim-duration="0.4" data-anim-target-w="120" style="width:0;"></div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="card-host clip" data-card-id="card-15" data-start="99.2000" data-duration="12.7000" data-track-index="2" style="left:0;top:0;width:1080px;height:1920px;visibility:hidden;opacity:0;">
+        <div class="card" data-card-id="card-15">
+  <style>
+    .card[data-card-id="card-15"] .root {
+      width: 100%; height: 100%;
+      display: flex; align-items: flex-end; justify-content: flex-start;
+      padding: 64px 56px 180px 56px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    .card[data-card-id="card-15"] .panel {
+      position: relative;
+      width: 100%;
+      background: linear-gradient(135deg, rgba(20,20,22,0.72), rgba(20,20,22,0.42));
+      backdrop-filter: blur(14px);
+      border-left: 6px solid var(--accent-1);
+      border-radius: 18px;
+      padding: 36px 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    .card[data-card-id="card-15"] .quote-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--accent-1);
+      line-height: 0.6;
+      margin-bottom: 8px;
+    }
+    .card[data-card-id="card-15"] .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-1);
+      margin-bottom: 14px;
+    }
+    .card[data-card-id="card-15"] .title {
+      font-family: 'Inter', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.12;
+      color: var(--text);
+      margin: 0;
+    }
+    .card[data-card-id="card-15"] .rule {
+      height: 6px; background: var(--accent-1); border-radius: 3px; margin-top: 24px;
+    }
+    .card[data-card-id="card-15"] .detail {
+      font-family: 'Inter', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text);
+      opacity: 0.92;
+      margin-top: 24px;
+    }
+    .card[data-card-id="card-15"] .char { display: inline-block; }
+  </style>
+  <div class="root">
+    <div class="panel">
+      
+    <div class="kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">REASON 04 · WHY</div>
+    <h1 class="title" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.45" data-anim-stagger="0.015" data-anim-pattern="pop"><span class="char">T</span><span class="char">H</span><span class="char">I</span><span class="char">S</span> <span class="char">&nbsp;</span><span class="char">I</span><span class="char">S</span> <span class="char">&nbsp;</span><span class="char">C</span><span class="char">A</span><span class="char">P</span><span class="char">I</span><span class="char">T</span><span class="char">A</span><span class="char">L</span> <span class="char">&nbsp;</span><span class="char">I</span><span class="char">N</span><span class="char">V</span><span class="char">E</span><span class="char">S</span><span class="char">T</span><span class="char">M</span><span class="char">E</span><span class="char">N</span><span class="char">T</span></h1>
+    <div class="rule" data-anim="grow-x" data-anim-at="0.55" data-anim-duration="0.4" data-anim-target-w="120" style="width:0;"></div>
+    <div class="detail" data-anim="fade-in" data-anim-at="0.65" data-anim-duration="0.4">High-end GPU costs. Multiple subscriptions. Hours spent fixing glitches.</div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="card-host clip" data-card-id="card-16" data-start="111.9000" data-duration="4.0000" data-track-index="2" style="left:0;top:0;width:1080px;height:1920px;visibility:hidden;opacity:0;">
+        <div class="card" data-card-id="card-16">
+  <style>
+    .card[data-card-id="card-16"] .root {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: flex-start;
+      padding: 64px 56px 0 56px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    .card[data-card-id="card-16"] .panel {
+      position: relative;
+      width: 100%;
+      background: linear-gradient(135deg, rgba(20,20,22,0.72), rgba(20,20,22,0.42));
+      backdrop-filter: blur(14px);
+      border-left: 6px solid var(--accent-3);
+      border-radius: 18px;
+      padding: 36px 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    .card[data-card-id="card-16"] .quote-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--accent-3);
+      line-height: 0.6;
+      margin-bottom: 8px;
+    }
+    .card[data-card-id="card-16"] .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-3);
+      margin-bottom: 14px;
+    }
+    .card[data-card-id="card-16"] .title {
+      font-family: 'Inter', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.12;
+      color: var(--text);
+      margin: 0;
+    }
+    .card[data-card-id="card-16"] .rule {
+      height: 6px; background: var(--accent-3); border-radius: 3px; margin-top: 24px;
+    }
+    .card[data-card-id="card-16"] .detail {
+      font-family: 'Inter', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text);
+      opacity: 0.92;
+      margin-top: 24px;
+    }
+    .card[data-card-id="card-16"] .char { display: inline-block; }
+  </style>
+  <div class="root">
+    <div class="panel">
+      <div class="quote-mark" data-anim="scale-pop" data-anim-at="0" data-anim-duration="0.3">“</div>
+    <h1 class="title" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.45" data-anim-stagger="0.015" data-anim-pattern="pop"><span class="char">A</span> <span class="char">&nbsp;</span><span class="char">M</span><span class="char">E</span><span class="char">D</span><span class="char">I</span><span class="char">A</span> <span class="char">&nbsp;</span><span class="char">S</span><span class="char">T</span><span class="char">A</span><span class="char">R</span><span class="char">T</span><span class="char">U</span><span class="char">P</span><span class="char">,</span> <span class="char">&nbsp;</span><span class="char">N</span><span class="char">O</span><span class="char">T</span> <span class="char">&nbsp;</span><span class="char">A</span> <span class="char">&nbsp;</span><span class="char">V</span><span class="char">I</span><span class="char">D</span><span class="char">E</span><span class="char">O</span> <span class="char">&nbsp;</span><span class="char">G</span><span class="char">A</span><span class="char">M</span><span class="char">E</span><span class="char">.</span></h1>
+    <div class="rule" data-anim="grow-x" data-anim-at="0.55" data-anim-duration="0.4" data-anim-target-w="120" style="width:0;"></div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="card-host clip" data-card-id="card-17" data-start="115.9000" data-duration="9.7000" data-track-index="2" style="left:0;top:0;width:1080px;height:1920px;visibility:hidden;opacity:0;">
+        <div class="card" data-card-id="card-17">
+  <style>
+    .card[data-card-id="card-17"] .root {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: flex-start;
+      padding: 64px 56px 0 56px;
+      box-sizing: border-box;
+      background: transparent;
+    }
+    .card[data-card-id="card-17"] .panel {
+      position: relative;
+      width: 100%;
+      background: linear-gradient(135deg, rgba(20,20,22,0.72), rgba(20,20,22,0.42));
+      backdrop-filter: blur(14px);
+      border-left: 6px solid var(--accent-2);
+      border-radius: 18px;
+      padding: 36px 40px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.45);
+    }
+    .card[data-card-id="card-17"] .quote-mark {
+      font-family: 'Inter', sans-serif;
+      font-size: 96px;
+      font-weight: 700;
+      color: var(--accent-2);
+      line-height: 0.6;
+      margin-bottom: 8px;
+    }
+    .card[data-card-id="card-17"] .kicker {
+      font-family: 'Inter', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent-2);
+      margin-bottom: 14px;
+    }
+    .card[data-card-id="card-17"] .title {
+      font-family: 'Inter', sans-serif;
+      font-size: 68px;
+      font-weight: 700;
+      line-height: 1.12;
+      color: var(--text);
+      margin: 0;
+    }
+    .card[data-card-id="card-17"] .rule {
+      height: 6px; background: var(--accent-2); border-radius: 3px; margin-top: 24px;
+    }
+    .card[data-card-id="card-17"] .detail {
+      font-family: 'Inter', sans-serif;
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--text);
+      opacity: 0.92;
+      margin-top: 24px;
+    }
+    .card[data-card-id="card-17"] .char { display: inline-block; }
+  </style>
+  <div class="root">
+    <div class="panel">
+      
+    <div class="kicker" data-anim="fade-in" data-anim-at="0.05" data-anim-duration="0.35">THE TAKEAWAY</div>
+    <h1 class="title" data-anim="kinetic-chars" data-anim-at="0.15" data-anim-duration="0.45" data-anim-stagger="0.015" data-anim-pattern="pop"><span class="char">S</span><span class="char">T</span><span class="char">O</span><span class="char">P</span> <span class="char">&nbsp;</span><span class="char">T</span><span class="char">H</span><span class="char">E</span> <span class="char">&nbsp;</span><span class="char">C</span><span class="char">H</span><span class="char">E</span><span class="char">A</span><span class="char">T</span> <span class="char">&nbsp;</span><span class="char">C</span><span class="char">O</span><span class="char">D</span><span class="char">E</span><span class="char">.</span> <span class="char">&nbsp;</span><span class="char">S</span><span class="char">T</span><span class="char">A</span><span class="char">R</span><span class="char">T</span> <span class="char">&nbsp;</span><span class="char">T</span><span class="char">H</span><span class="char">E</span> <span class="char">&nbsp;</span><span class="char">B</span><span class="char">U</span><span class="char">S</span><span class="char">I</span><span class="char">N</span><span class="char">E</span><span class="char">S</span><span class="char">S</span><span class="char">.</span></h1>
+    <div class="rule" data-anim="grow-x" data-anim-at="0.55" data-anim-duration="0.4" data-anim-target-w="120" style="width:0;"></div>
+    </div>
+  </div>
+</div>
+      </div>
+
+      <script src="vendor/gsap.min.js"></script>
+      <script>
+        (function () {
+          const tl = window.gsap.timeline({ paused: true });
+
+          // ── card-01 [0.4, 8.9] ──
+          tl.set('.card-host[data-card-id="card-01"]', { visibility: "visible" }, 0.4);
+          tl.fromTo('.card-host[data-card-id="card-01"]', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 0.4);
+          tl.fromTo('.card[data-card-id="card-01"] .kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" }, 0.4666666666666667);
+          tl.from('.card[data-card-id="card-01"] .title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.45, ease: "power2.out", stagger: 0.015 }, 0.5333333333333333);
+          tl.fromTo('.card[data-card-id="card-01"] .rule', { width: 0 }, { width: 120, duration: 0.4, ease: "power2.out" }, 0.9666666666666667);
+          tl.to('.card-host[data-card-id="card-01"]', { opacity: 0, duration: 0.35, ease: "power2.in" }, 8.533333333333333);
+          tl.set('.card-host[data-card-id="card-01"]', { visibility: "hidden" }, 8.9);
+
+          // ── card-02 [8.9, 16.4] ──
+          tl.set('.card-host[data-card-id="card-02"]', { visibility: "visible" }, 8.9);
+          tl.fromTo('.card-host[data-card-id="card-02"]', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 8.9);
+          tl.fromTo('.card[data-card-id="card-02"] .kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" }, 8.966666666666667);
+          tl.fromTo('.card[data-card-id="card-02"] .quote-mark', { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(1.6)" }, 8.9);
+          tl.from('.card[data-card-id="card-02"] .title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.45, ease: "power2.out", stagger: 0.015 }, 9.066666666666666);
+          tl.fromTo('.card[data-card-id="card-02"] .rule', { width: 0 }, { width: 120, duration: 0.4, ease: "power2.out" }, 9.466666666666667);
+          tl.to('.card-host[data-card-id="card-02"]', { opacity: 0, duration: 0.35, ease: "power2.in" }, 16.066666666666666);
+          tl.set('.card-host[data-card-id="card-02"]', { visibility: "hidden" }, 16.4);
+
+          // ── card-03 [20.4, 22.75] ──
+          tl.set('.card-host[data-card-id="card-03"]', { visibility: "visible" }, 20.4);
+          tl.fromTo('.card-host[data-card-id="card-03"]', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 20.4);
+          tl.from('.card[data-card-id="card-03"] .title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.45, ease: "power2.out", stagger: 0.015 }, 20.533333333333335);
+          tl.fromTo('.card[data-card-id="card-03"] .rule', { width: 0 }, { width: 120, duration: 0.4, ease: "power2.out" }, 20.933333333333334);
+          tl.to('.card-host[data-card-id="card-03"]', { opacity: 0, duration: 0.35, ease: "power2.in" }, 22.4);
+          tl.set('.card-host[data-card-id="card-03"]', { visibility: "hidden" }, 22.733333333333334);
+
+          // ── card-04 [22.75, 26.9] ──
+          tl.set('.card-host[data-card-id="card-04"]', { visibility: "visible" }, 22.733333333333334);
+          tl.fromTo('.card-host[data-card-id="card-04"]', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 22.733333333333334);
+          tl.fromTo('.card[data-card-id="card-04"] .kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" }, 22.8);
+          tl.from('.card[data-card-id="card-04"] .title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.45, ease: "power2.out", stagger: 0.015 }, 22.9);
+          tl.fromTo('.card[data-card-id="card-04"] .rule', { width: 0 }, { width: 120, duration: 0.4, ease: "power2.out" }, 23.3);
+          tl.to('.card-host[data-card-id="card-04"]', { opacity: 0, duration: 0.35, ease: "power2.in" }, 26.533333333333335);
+          tl.set('.card-host[data-card-id="card-04"]', { visibility: "hidden" }, 26.9);
+
+          // ── card-05 [26.9, 37.8] ──
+          tl.set('.card-host[data-card-id="card-05"]', { visibility: "visible" }, 26.9);
+          tl.fromTo('.card-host[data-card-id="card-05"]', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 26.9);
+          tl.fromTo('.card[data-card-id="card-05"] .kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" }, 26.933333333333334);
+          tl.from('.card[data-card-id="card-05"] .title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.45, ease: "power2.out", stagger: 0.015 }, 27.033333333333335);
+          tl.fromTo('.card[data-card-id="card-05"] .rule', { width: 0 }, { width: 120, duration: 0.4, ease: "power2.out" }, 27.466666666666665);
+          tl.fromTo('.card[data-card-id="card-05"] .detail', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 27.533333333333335);
+          tl.to('.card-host[data-card-id="card-05"]', { opacity: 0, duration: 0.35, ease: "power2.in" }, 37.46666666666667);
+          tl.set('.card-host[data-card-id="card-05"]', { visibility: "hidden" }, 37.8);
+
+          // ── card-06 [37.8, 40.9] ──
+          tl.set('.card-host[data-card-id="card-06"]', { visibility: "visible" }, 37.8);
+          tl.fromTo('.card-host[data-card-id="card-06"]', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 37.8);
+          tl.fromTo('.card[data-card-id="card-06"] .quote-mark', { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(1.6)" }, 37.8);
+          tl.from('.card[data-card-id="card-06"] .title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.45, ease: "power2.out", stagger: 0.015 }, 37.93333333333333);
+          tl.fromTo('.card[data-card-id="card-06"] .rule', { width: 0 }, { width: 120, duration: 0.4, ease: "power2.out" }, 38.333333333333336);
+          tl.to('.card-host[data-card-id="card-06"]', { opacity: 0, duration: 0.35, ease: "power2.in" }, 40.53333333333333);
+          tl.set('.card-host[data-card-id="card-06"]', { visibility: "hidden" }, 40.9);
+
+          // ── card-07 [40.9, 46.7] ──
+          tl.set('.card-host[data-card-id="card-07"]', { visibility: "visible" }, 40.9);
+          tl.fromTo('.card-host[data-card-id="card-07"]', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 40.9);
+          tl.fromTo('.card[data-card-id="card-07"] .kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" }, 40.93333333333333);
+          tl.from('.card[data-card-id="card-07"] .title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.45, ease: "power2.out", stagger: 0.015 }, 41.06666666666667);
+          tl.fromTo('.card[data-card-id="card-07"] .rule', { width: 0 }, { width: 120, duration: 0.4, ease: "power2.out" }, 41.43333333333333);
+          tl.to('.card-host[data-card-id="card-07"]', { opacity: 0, duration: 0.35, ease: "power2.in" }, 46.333333333333336);
+          tl.set('.card-host[data-card-id="card-07"]', { visibility: "hidden" }, 46.7);
+
+          // ── card-08 [46.7, 60.5] ──
+          tl.set('.card-host[data-card-id="card-08"]', { visibility: "visible" }, 46.7);
+          tl.fromTo('.card-host[data-card-id="card-08"]', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 46.7);
+          tl.fromTo('.card[data-card-id="card-08"] .kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" }, 46.733333333333334);
+          tl.from('.card[data-card-id="card-08"] .title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.45, ease: "power2.out", stagger: 0.015 }, 46.86666666666667);
+          tl.fromTo('.card[data-card-id="card-08"] .rule', { width: 0 }, { width: 120, duration: 0.4, ease: "power2.out" }, 47.266666666666666);
+          tl.fromTo('.card[data-card-id="card-08"] .detail', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 47.333333333333336);
+          tl.to('.card-host[data-card-id="card-08"]', { opacity: 0, duration: 0.35, ease: "power2.in" }, 60.13333333333333);
+          tl.set('.card-host[data-card-id="card-08"]', { visibility: "hidden" }, 60.5);
+
+          // ── card-09 [60.5, 63.5] ──
+          tl.set('.card-host[data-card-id="card-09"]', { visibility: "visible" }, 60.5);
+          tl.fromTo('.card-host[data-card-id="card-09"]', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 60.5);
+          tl.fromTo('.card[data-card-id="card-09"] .quote-mark', { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(1.6)" }, 60.5);
+          tl.from('.card[data-card-id="card-09"] .title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.45, ease: "power2.out", stagger: 0.015 }, 60.666666666666664);
+          tl.fromTo('.card[data-card-id="card-09"] .rule', { width: 0 }, { width: 120, duration: 0.4, ease: "power2.out" }, 61.06666666666667);
+          tl.to('.card-host[data-card-id="card-09"]', { opacity: 0, duration: 0.35, ease: "power2.in" }, 63.13333333333333);
+          tl.set('.card-host[data-card-id="card-09"]', { visibility: "hidden" }, 63.5);
+
+          // ── card-10 [63.5, 69.2] ──
+          tl.set('.card-host[data-card-id="card-10"]', { visibility: "visible" }, 63.5);
+          tl.fromTo('.card-host[data-card-id="card-10"]', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 63.5);
+          tl.fromTo('.card[data-card-id="card-10"] .kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" }, 63.53333333333333);
+          tl.from('.card[data-card-id="card-10"] .title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.45, ease: "power2.out", stagger: 0.015 }, 63.666666666666664);
+          tl.fromTo('.card[data-card-id="card-10"] .rule', { width: 0 }, { width: 120, duration: 0.4, ease: "power2.out" }, 64.06666666666666);
+          tl.to('.card-host[data-card-id="card-10"]', { opacity: 0, duration: 0.35, ease: "power2.in" }, 68.86666666666666);
+          tl.set('.card-host[data-card-id="card-10"]', { visibility: "hidden" }, 69.2);
+
+          // ── card-11 [69.2, 76.9] ──
+          tl.set('.card-host[data-card-id="card-11"]', { visibility: "visible" }, 69.2);
+          tl.fromTo('.card-host[data-card-id="card-11"]', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 69.2);
+          tl.fromTo('.card[data-card-id="card-11"] .kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" }, 69.26666666666667);
+          tl.from('.card[data-card-id="card-11"] .title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.45, ease: "power2.out", stagger: 0.015 }, 69.36666666666666);
+          tl.fromTo('.card[data-card-id="card-11"] .rule', { width: 0 }, { width: 120, duration: 0.4, ease: "power2.out" }, 69.73333333333333);
+          tl.to('.card-host[data-card-id="card-11"]', { opacity: 0, duration: 0.35, ease: "power2.in" }, 76.53333333333333);
+          tl.set('.card-host[data-card-id="card-11"]', { visibility: "hidden" }, 76.9);
+
+          // ── card-12 [76.9, 86.7] ──
+          tl.set('.card-host[data-card-id="card-12"]', { visibility: "visible" }, 76.9);
+          tl.fromTo('.card-host[data-card-id="card-12"]', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 76.9);
+          tl.fromTo('.card[data-card-id="card-12"] .kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" }, 76.93333333333334);
+          tl.from('.card[data-card-id="card-12"] .title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.45, ease: "power2.out", stagger: 0.015 }, 77.06666666666666);
+          tl.fromTo('.card[data-card-id="card-12"] .rule', { width: 0 }, { width: 120, duration: 0.4, ease: "power2.out" }, 77.46666666666667);
+          tl.fromTo('.card[data-card-id="card-12"] .detail', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 77.56666666666666);
+          tl.to('.card-host[data-card-id="card-12"]', { opacity: 0, duration: 0.35, ease: "power2.in" }, 86.33333333333333);
+          tl.set('.card-host[data-card-id="card-12"]', { visibility: "hidden" }, 86.7);
+
+          // ── card-13 [86.7, 90.9] ──
+          tl.set('.card-host[data-card-id="card-13"]', { visibility: "visible" }, 86.7);
+          tl.fromTo('.card-host[data-card-id="card-13"]', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 86.7);
+          tl.fromTo('.card[data-card-id="card-13"] .quote-mark', { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(1.6)" }, 86.7);
+          tl.from('.card[data-card-id="card-13"] .title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.45, ease: "power2.out", stagger: 0.015 }, 86.86666666666666);
+          tl.fromTo('.card[data-card-id="card-13"] .rule', { width: 0 }, { width: 120, duration: 0.4, ease: "power2.out" }, 87.26666666666667);
+          tl.to('.card-host[data-card-id="card-13"]', { opacity: 0, duration: 0.35, ease: "power2.in" }, 90.53333333333333);
+          tl.set('.card-host[data-card-id="card-13"]', { visibility: "hidden" }, 90.9);
+
+          // ── card-14 [90.9, 99.2] ──
+          tl.set('.card-host[data-card-id="card-14"]', { visibility: "visible" }, 90.9);
+          tl.fromTo('.card-host[data-card-id="card-14"]', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 90.9);
+          tl.fromTo('.card[data-card-id="card-14"] .kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" }, 90.93333333333334);
+          tl.from('.card[data-card-id="card-14"] .title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.45, ease: "power2.out", stagger: 0.015 }, 91.06666666666666);
+          tl.fromTo('.card[data-card-id="card-14"] .rule', { width: 0 }, { width: 120, duration: 0.4, ease: "power2.out" }, 91.46666666666667);
+          tl.to('.card-host[data-card-id="card-14"]', { opacity: 0, duration: 0.35, ease: "power2.in" }, 98.86666666666666);
+          tl.set('.card-host[data-card-id="card-14"]', { visibility: "hidden" }, 99.2);
+
+          // ── card-15 [99.2, 111.9] ──
+          tl.set('.card-host[data-card-id="card-15"]', { visibility: "visible" }, 99.2);
+          tl.fromTo('.card-host[data-card-id="card-15"]', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 99.2);
+          tl.fromTo('.card[data-card-id="card-15"] .kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" }, 99.26666666666667);
+          tl.from('.card[data-card-id="card-15"] .title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.45, ease: "power2.out", stagger: 0.015 }, 99.36666666666666);
+          tl.fromTo('.card[data-card-id="card-15"] .rule', { width: 0 }, { width: 120, duration: 0.4, ease: "power2.out" }, 99.73333333333333);
+          tl.fromTo('.card[data-card-id="card-15"] .detail', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 99.86666666666666);
+          tl.to('.card-host[data-card-id="card-15"]', { opacity: 0, duration: 0.35, ease: "power2.in" }, 111.53333333333333);
+          tl.set('.card-host[data-card-id="card-15"]', { visibility: "hidden" }, 111.9);
+
+          // ── card-16 [111.9, 115.9] ──
+          tl.set('.card-host[data-card-id="card-16"]', { visibility: "visible" }, 111.9);
+          tl.fromTo('.card-host[data-card-id="card-16"]', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 111.9);
+          tl.fromTo('.card[data-card-id="card-16"] .quote-mark', { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(1.6)" }, 111.9);
+          tl.from('.card[data-card-id="card-16"] .title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.45, ease: "power2.out", stagger: 0.015 }, 112.06666666666666);
+          tl.fromTo('.card[data-card-id="card-16"] .rule', { width: 0 }, { width: 120, duration: 0.4, ease: "power2.out" }, 112.46666666666667);
+          tl.to('.card-host[data-card-id="card-16"]', { opacity: 0, duration: 0.35, ease: "power2.in" }, 115.53333333333333);
+          tl.set('.card-host[data-card-id="card-16"]', { visibility: "hidden" }, 115.9);
+
+          // ── card-17 [115.9, 125.6] ──
+          tl.set('.card-host[data-card-id="card-17"]', { visibility: "visible" }, 115.9);
+          tl.fromTo('.card-host[data-card-id="card-17"]', { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 115.9);
+          tl.fromTo('.card[data-card-id="card-17"] .kicker', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" }, 115.93333333333334);
+          tl.from('.card[data-card-id="card-17"] .title .char', { opacity: 0, y: 8, scale: 0.8, duration: 0.45, ease: "power2.out", stagger: 0.015 }, 116.06666666666666);
+          tl.fromTo('.card[data-card-id="card-17"] .rule', { width: 0 }, { width: 120, duration: 0.4, ease: "power2.out" }, 116.46666666666667);
+          tl.to('.card-host[data-card-id="card-17"]', { opacity: 0, duration: 0.35, ease: "power2.in" }, 125.26666666666667);
+          tl.set('.card-host[data-card-id="card-17"]', { visibility: "hidden" }, 125.6);
+
+          window.__timelines = window.__timelines || {};
+          window.__timelines["talking-head-recut"] = tl;
+        })();
+      </script>
+    </div>
+  </body>
+</html>

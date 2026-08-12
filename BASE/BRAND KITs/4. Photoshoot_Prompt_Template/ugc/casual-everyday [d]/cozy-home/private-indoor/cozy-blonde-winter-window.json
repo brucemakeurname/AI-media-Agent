@@ -1,0 +1,58 @@
+{
+  "name": "cozy-blonde-winter-window",
+  "tag": [
+    "ugc",
+    "cozy-home",
+    "private-indoor",
+    "winter-window",
+    "apres-ski",
+    "snowy-landscape"
+  ],
+  "image_type": "ugc-winter-window-lifestyle-portrait",
+  "image_vibe": "bright-cozy-snowy",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create an ultra-photorealistic cozy winter window portrait with a snowy mountain landscape, preserving the cream knit outfit, earmuffs, boots and warm wood interior.",
+    "main_subject": "One original approved adult woman with long straight-to-wavy blonde hair, natural fair skin and a soft direct smile. She wears a creamy ribbed knit long-sleeve top, black thigh-high socks with two white stripes, tan shearling-lined winter hiking boots with bright red laces, fluffy black earmuffs, a black lace choker and a thin gold key pendant.",
+    "composition_elements": "Eye-level portrait seated on a light-wood window ledge, angled slightly forward with one knee bent and hands resting on the sill. Include a large glass pane, light wood frame, snow-covered ground, white-barked trees, distant snowy mountains and bright overcast sky outside.",
+    "lighting_and_atmosphere": "Soft diffused natural daylight through the window creates gentle highlights on hair, ribbed knit and boots with minimal interior shadows. Keep the atmosphere cozy, bright, playful and winter-resort inspired without sexualized framing.",
+    "technical_specs": "50–85mm portrait lens feel at f/2.8, sharp subject and knit/boot texture, shallow background depth, realistic snow detail, balanced cool outdoor and warm wood tones, high-resolution natural color.",
+    "generated_prompt_string": "Create an ultra-photorealistic cozy winter window portrait of one original approved adult woman with long blonde hair, natural fair skin and a soft direct smile. She wears a creamy ribbed knit long-sleeve top, black thigh-high socks with two white stripes, tan shearling-lined winter hiking boots with bright red laces, fluffy black earmuffs, a black lace choker and a thin gold key pendant. Seat her on a light-wood window ledge angled slightly forward with one knee bent and hands resting on the sill. Include a large glass pane, light wood frame, snow-covered ground, white-barked trees, distant snowy mountains and bright overcast sky outside. Use soft diffused daylight, gentle highlights, minimal shadows, realistic knit, hair, boots and snow texture, a 50–85mm f/2.8 portrait look and balanced cool-warm color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish framing, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, wardrobe malfunction, missing boots, missing earmuffs, invented logos, unreadable text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "cozy-blonde-winter-window.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, blonde hair, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "cream ribbed knit top, striped socks, tan shearling boots, earmuffs and jewelry",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve knit, stripe count, boot material, red laces, earmuffs, choker and pendant; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "light-wood window ledge, snowy trees and mountain landscape",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve window frame, ledge, snow, trees, mountains, sky and daylight direction; environment may be replaced through explicit references."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, face, hair, outfit details, boot laces, earmuffs, pose, window and snowy environment consistent. The adult, wardrobe and setting may be replaced independently through explicit references while retaining the cozy winter composition. No logo or typography is required."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an original approved adult.",
+      "Removed alluring/body-emphasis language while preserving the winter outfit, window pose and apres-ski mood.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

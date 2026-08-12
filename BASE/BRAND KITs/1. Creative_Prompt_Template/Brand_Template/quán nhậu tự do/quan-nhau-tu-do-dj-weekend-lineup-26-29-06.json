@@ -1,0 +1,77 @@
+{
+  "name": "quan-nhau-tu-do-dj-weekend-lineup-26-29-06",
+  "tag": [
+    "event-poster",
+    "dj-lineup",
+    "nightlife",
+    "weekend-promo"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Brand story",
+  "group": "quan-nhau-tu-do_1611333877660974",
+  "prompt": {
+    "project_info": {
+      "theme": "Quán Nhậu Tự Do DJ weekend lineup poster",
+      "color_palette": "Neon green, black, bright yellow, white, skin tones, warm club highlights"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "High-energy nightlife event poster featuring a collage of seven DJ and performer portraits arranged in two tiers against a green concert-light background, with oversized stacked headline text announcing the weekend DJ schedule.",
+      "style": "Photorealistic entertainment poster, glossy club-event compositing, dramatic portrait retouching, neon festival atmosphere"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "QUÁN NHẬU TỰ DO / LỊCH DJ CUỐI TUẦN / 26 - 27/06 / MINH KHAI • NGUYỄN VĂN TUYẾT • LINH ĐÀM PHỐ ĐỨC CHÍNH • HỒNG TIẾN • PARKING ZONE 4 / 29/06 / PARKING ZONE 4 / Hotline đặt bàn: *1986",
+      "items": [
+        "Top Left: Quán Nhậu Tự Do logo with yellow star and white wordmark.",
+        "Top Right: Green concert spotlights, speaker stacks, and scattered glowing particles.",
+        "Bottom Left: Rounded neon-framed date box '26 - 27/06' with venue list 'MINH KHAI • NGUYỄN VĂN TUYẾT • LINH ĐÀM PHỐ ĐỨC CHÍNH • HỒNG TIẾN • PARKING ZONE 4'.",
+        "Bottom Right: Matching neon-framed date box '29/06' with text 'PARKING ZONE 4'.",
+        "Center/Background: Giant white-and-yellow headline 'LỊCH DJ CUỐI TUẦN' behind seven performer portraits, plus orange hotline strip at the bottom reading 'Hotline đặt bàn: *1986'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Concert lighting",
+      "effect": "Neon green beams, crowd silhouettes, glowing edges around portraits, spark particles, intense nightlife contrast"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic event poster compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Quán Nhậu Tự Do DJ weekend lineup poster. Centerpiece is a seven-person collage of DJs and performers layered over a neon green club background with giant stacked text 'LỊCH DJ CUỐI TUẦN'. Background is a dark concert venue scene with stage spotlights, speaker arrays, glowing haze, and crowd silhouettes. Surrounding elements: top-left Quán Nhậu Tự Do logo, left neon date panel '26 - 27/06' with venue list 'MINH KHAI • NGUYỄN VĂN TUYẾT • LINH ĐÀM PHỐ ĐỨC CHÍNH • HỒNG TIẾN • PARKING ZONE 4', right neon date panel '29/06' and 'PARKING ZONE 4', and bottom orange strip 'Hotline đặt bàn: *1986'. Technical style: photorealistic event poster compositing, concert lighting, neon green beams and spark particles, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Quán Nhậu Tự Do logo",
+          "required": true,
+          "source": "brand identity asset or original poster",
+          "usage": "Keep the yellow star and white stacked wordmark in the top-left corner."
+        },
+        {
+          "type": "person",
+          "name": "seven DJ and performer portraits",
+          "required": true,
+          "source": "artist promo photos from the original poster",
+          "usage": "Preserve identity, pose, styling, and exact portrait arrangement."
+        },
+        {
+          "type": "text_layout",
+          "name": "event poster typography and date boxes",
+          "required": true,
+          "source": "original creative layout",
+          "usage": "Retain exact wording, giant headline scale, and the two glowing schedule panels."
+        },
+        {
+          "type": "background",
+          "name": "green nightclub stage background",
+          "required": true,
+          "source": "club-lighting scene reference",
+          "usage": "Recreate the beam lights, speaker stacks, crowd silhouettes, and haze."
+        }
+      ],
+      "prompt_instructions": "Attach refs for all seven portraits, the logo, and the exact poster text layout. Prioritize poster fidelity: huge stacked title at the top, performers occupying the middle, and two green date boxes plus hotline strip across the bottom."
+    }
+  }
+}

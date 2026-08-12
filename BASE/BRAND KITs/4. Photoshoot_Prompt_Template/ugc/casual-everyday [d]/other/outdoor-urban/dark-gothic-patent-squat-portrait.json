@@ -1,0 +1,27 @@
+{
+  "name": "dark-gothic-patent-squat-portrait",
+  "tag": ["ugc", "casual-everyday", "other", "outdoor-urban", "goth-fashion"],
+  "image_type": "goth fashion portrait",
+  "image_vibe": "dark glossy punk editorial",
+  "image_purpose": "UGC-style alternative fashion portrait",
+  "group": "other/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a realistic alternative fashion portrait of an original approved adult woman in a minimalist dark interior.",
+    "main_subject": "An original approved adult woman with pale skin, long wavy black hair, dark smoky eye makeup, dark lipstick, and visible approved tattoos holds a steady confident gaze toward camera. Preserve the reference styling: glossy black patent-leather corset-style bodysuit with lace-up front and shoulder straps, black fishnet stockings, purple garter straps, a black studded thigh band, purple spiked wrist cuff, and pointed purple patent heels with silver spike details.",
+    "composition_elements": "Medium-low-angle full-body fashion portrait, subject centered in a low crouched squat on a dark wood floor, one hand flat on the floor and the other touching the back of her hair, minimalist black-and-gray room, dark wall, doorway, and strong silhouette against negative space.",
+    "lighting_and_atmosphere": "Controlled indoor editorial lighting with crisp highlights on patent material and metal hardware, deep neutral shadows, dark goth and punk atmosphere, realistic skin and textile texture.",
+    "technical_specs": "Realistic vertical 2:3 fashion photography, medium-low angle, full-body framing, 35mm lens perspective, moderate depth of field, restrained contrast, no artificial HDR look or promotional watermark.",
+    "generated_prompt_string": "Realistic vertical 2:3 alternative fashion portrait of an original approved adult woman with pale skin, long wavy black hair, dark smoky eye makeup, dark lipstick, and visible approved tattoos holding a steady confident gaze toward camera. Preserve the glossy black patent-leather corset-style bodysuit with lace-up front and shoulder straps, black fishnet stockings, purple garter straps, black studded thigh band, purple spiked wrist cuff, and pointed purple patent heels with silver spike details. She holds a low crouched squat on a dark wood floor, one hand flat on the floor and the other touching her hair. Minimalist black-and-gray interior, crisp material highlights, deep shadows, dark goth punk editorial mood, realistic texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, graphic violence, unsafe footwear pose, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, promotional text, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "dark patent goth fashion reference", "required": true, "source": "attached source image", "usage": "Match the original adult model, hair, makeup, tattoos, patent outfit, fishnets, accessories, crouched pose, dark room, and lighting."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve adult identity, face, hair, outfit, tattoos, pose, environment, and lighting without celebrity or public-figure likeness. Logos, typography, tattoo details, and accessory branding remain replaceable editable elements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Removed the named celebrity likeness and renamed the template to a neutral creative slug.", "Preserved the specified goth outfit, crouched pose, tattoos, and editorial direction with non-sexualized wording.", "Corrected the environment metadata to match the viewed indoor image."]
+  }
+}

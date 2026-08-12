@@ -1,0 +1,19 @@
+{
+  "name": "empty-new-orleans-low-angle-orange-man",
+  "tag": ["ugc", "selfie-pov", "new-orleans", "orange-sweater", "low-angle"],
+  "image_type": "UGC low-angle urban portrait",
+  "image_vibe": "candid, graphic, quiet, street-documentary",
+  "image_purpose": "Urban lifestyle portrait and edit reference",
+  "group": "ugc/selfie-pov/cozy-casual/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic low-angle urban portrait using the supplied final orange-sweater reference, preserving the seated-viewpoint perspective and empty New Orleans street setting.",
+    "main_subject": "Approved adult man in the supplied orange graphic sweater, natural short hair and facial features, relaxed stance with hands near the hips. Preserve the garment artwork only as visible in the supplied reference.",
+    "composition_elements": "Low-angle viewpoint from someone seated, subject centered from below, quiet New Orleans street sidewalk with historic brick façades, balconies, lanterns, awnings, and pale sky. Remove any caption text or black corner artifacts from the source edit. Vertical 9:16 framing.",
+    "lighting_and_atmosphere": "Natural daylight matched to the street scene, soft realistic shadows on the man, quiet empty-city atmosphere, documentary phone-camera realism.",
+    "technical_specs": "Photorealistic smartphone portrait, low-angle perspective, vertical 9:16, realistic lens distortion, sharp subject with natural background detail.",
+    "generated_prompt_string": "Photorealistic vertical 9:16 low-angle smartphone portrait of an approved adult man wearing the supplied orange graphic sweater, standing on a quiet New Orleans street sidewalk. Camera viewpoint is from someone seated looking upward; preserve the supplied pose and garment artwork, historic brick façades, balconies, lanterns, awnings, pale sky, and realistic street perspective. Remove caption text and black corner artifacts, match natural daylight and shadows to the new street scene, candid documentary phone-photo mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, minors, celebrity likeness, public figure likeness, caption text, black corner artifact, invented logos, altered supplied garment artwork, blurry, distorted face, extra limbs, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark",
+    "reference_elements": {"assets": [{"type": "image", "name": "empty-new-orleans-low-angle-orange-man.jpg", "required": true, "source": "supplied final reference", "usage": "Preserve the approved adult subject, orange sweater artwork, low-angle pose, historic New Orleans street, lighting, and final composition while removing caption/black-corner artifacts."}], "prompt_instructions": "Attach the required reference image. Preserve identity consistency, pose, outfit artwork, street architecture, perspective, and lighting. Treat the sweater and background as replaceable only when the same edit concept remains. Preserve supplied graphics exactly; do not invent text or logos."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified approved adult subject.", "Restricted garment artwork to the supplied reference and explicitly removed caption/black-corner artifacts."]}
+}

@@ -1,0 +1,76 @@
+{
+  "name": "manga-inspired-theatrical-photo-pose",
+  "tag": [
+    "manga-sfx",
+    "theatrical-pose",
+    "extreme-camera-angle",
+    "photoreal-portrait",
+    "dynamic-perspective"
+  ],
+  "image_type": "manga-inspired-photo-composite",
+  "image_vibe": "flamboyant-theatrical",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Realistic portrait transformed into an exaggerated manga-inspired splash page",
+      "creative_direction": "Preserve the uploaded person's identity, outfit, and real background while using theatrical pose, extreme optics, and graphic SFX",
+      "color_palette": "source-photo palette with bold black-and-white ink SFX and occasional saturated graphic accents"
+    },
+    "main_subject": {
+      "type": "clearly adult person from the uploaded reference",
+      "detail": "same adult face, eyes, hairstyle, makeup, outfit, and overall identity remain clearly recognizable and photorealistic",
+      "pose": "randomized exaggerated but anatomically plausible theatrical fashion pose with strong contrapposto, head tilt, one hand framing the face, and one arm extended or arched",
+      "expression": "dramatic confident expression without sexualized posing"
+    },
+    "composition_elements": {
+      "framing": "choose one extreme camera angle per generation: ultra-low, ultra-high, 20-24mm dynamic wide-angle, 14mm super-wide, fisheye, Dutch angle, forced-perspective close-up, or 85-135mm compression",
+      "background": "keep the original location and background recognizable, warping it only as required by the selected perspective",
+      "graphics": "bold black-and-white ink manga-inspired SFX such as ゴゴゴゴ..., ドドドドド..., ズキューン!, バァーン!!, メメタァ!, and ガオンッ!, placed around the subject without covering the face",
+      "effects": "optional speed lines, radiating impact lines, and perspective shock lines while keeping the real background visible"
+    },
+    "lighting_and_atmosphere": {
+      "type": "preserve the source lighting with a directional key matched to the original scene",
+      "effect": "realistic shadows, natural cloth deformation, sharp face, and graphic theatrical tension"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with selected 14mm-135mm lens, photoreal image with flat ink graphics",
+      "resolution": "4k vertical social splash page",
+      "finish": "natural skin and fabric texture, clean SFX edges, controlled grain, and no cartoon treatment on the person"
+    },
+    "generated_prompt_string": "Use the uploaded photo as the base. Keep the clearly adult person's face, eyes, hairstyle, makeup, outfit, and overall identity clearly recognizable and photorealistic. Do not turn the whole image into a drawing or replace the background. Repose the adult body into a randomized, exaggerated but anatomically plausible manga-inspired theatrical pose with an extreme torso twist, strong contrapposto, dramatic head tilt, one hand framing the face, one arm extended or arched, and bold leg positions. Choose one extreme camera viewpoint per generation: ultra-low, ultra-high, dynamic 20-24mm, super-wide 14mm, fisheye, Dutch angle, forced-perspective close-up, or 85-135mm compression. Keep the same scene and realistic lighting, adding bold black-and-white ink SFX such as ゴゴゴゴゴ..., ドドドドド..., ズキューン!, バァーン!!, メメタァ!, and ガオンッ! behind and beside the adult subject without covering the face. Add optional speed lines and impact lines. The result should feel like a theatrical manga splash page happening inside a real photograph, with no cartoon effects on the person and no sexualized pose.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, impossible anatomy, unsafe contortion, celebrity likeness, real logo, watermark, cartoon person, anime face replacement, plastic skin, over-smooth, over-saturated, HDR look, extra fingers, deformed limbs, SFX covering face, broken perspective",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-uploaded-subject",
+          "required": true,
+          "source": "Uploaded base photo specified by the source prompt",
+          "usage": "Attach the approved adult person reference and preserve face, facial structure, hair, makeup, outfit, and likeness exactly."
+        },
+        {
+          "type": "location",
+          "name": "original-photo-background",
+          "required": true,
+          "source": "Original base photo",
+          "usage": "Attach to preserve the same real environment, perspective cues, and lighting; only warp the background as necessary for the selected camera angle."
+        },
+        {
+          "type": "graphic",
+          "name": "fictional-manga-ink-sfx",
+          "required": true,
+          "source": "Original manga-inspired treatment and source prompt",
+          "usage": "Attach to preserve SFX hierarchy, impact lines, and ink style; use generic manga-inspired marks and keep them clear of the face."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person, original environment, and ink-SFX references. Keep identity, outfit, background, realistic lighting, and pose readability consistent. Replace the named franchise style with generic manga-inspired graphics and use only approved adult subjects."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult, constrained the extreme pose to anatomically plausible and safe movement, and reframed the franchise-specific wording as generic manga-inspired graphics."
+    ]
+  }
+}

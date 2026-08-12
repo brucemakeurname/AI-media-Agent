@@ -1,0 +1,71 @@
+{
+  "name": "vfe-study-france-2027-program-overview",
+  "tag": [
+    "vfe",
+    "study-france-2027",
+    "program-overview",
+    "infographic",
+    "ask-a-question"
+  ],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Ask a question",
+  "group": "vfe_1559736175864275",
+  "prompt": {
+    "project_info": {
+      "theme": "Core guidance topics for France study 2027 planning",
+      "color_palette": "White, Navy Blue, Red, Light Gray"
+    },
+    "main_subject": {
+      "type": "Text",
+      "detail": "A clean guidance poster headed by the message 'ĐÚNG LỘ TRÌNH TRÚNG MỤC TIÊU', followed by three large informational sections about program options, study cost, and scholarship opportunities in France.",
+      "style": "Minimal educational explainer poster with structured text blocks, editorial spacing, and subtle line-art landmark accents."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nĐÚNG LỘ TRÌNH\nTRÚNG MỤC TIÊU\nThông tin chương trình & điều kiện, cách thức ứng tuyển\nPhân loại chi tiết các bậc học & chương trình học, các loại bằng cấp chính quy từ hệ thống đại học công lập, hệ thống trường lớn. Tìm hiểu các ngành học được giảng dạy bằng tiếng Anh/tiếng Pháp tại Pháp.\nChi phí du học Pháp\nCập nhật mức học phí các trường từ hệ thống công lập đến khối các trường tư thục danh giá. Các ưu đãi hỗ trợ giảm chi phí sinh hoạt sinh viên mỗi tháng.\nCơ hội học bổng du học Pháp\nNắm rõ các học bổng của Pháp được cấp bởi chính phủ, các tổ chức, các trường... Đánh giá hồ sơ bởi chuyên gia và nhận lời khuyên cá nhân hoá để nâng cao cơ hội cạnh tranh trúng tuyển.",
+      "items": [
+        "Top Left: Large two-line navy headline with a vertical red accent bar.",
+        "Top Right: VFE logo and a blue dot-grid decoration.",
+        "Bottom Left: Long body text for study cost and scholarship sections separated by thick black divider lines.",
+        "Bottom Right: Small red downward arrow in a circle.",
+        "Center/Background: White paper-texture backdrop with faint line art of French landmarks behind the title."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat editorial explainer lighting",
+      "effect": "Clean text spacing, paper texture subtlety, and high informational clarity."
+    },
+    "technical_specs": {
+      "render_style": "Minimal editorial guidance poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality educational guidance poster for France study 2027 planning. Centerpiece is a large editorial text layout under the heading 'ĐÚNG LỘ TRÌNH TRÚNG MỤC TIÊU', with sections about program information, study costs, and scholarship opportunities. Background is a clean white paper-texture field with faint French landmark line art. Surrounding elements: VFE logo, red accent bar, dot-grid motif, black divider lines, and a small red downward arrow icon. Technical style: minimal editorial guidance poster, flat explainer lighting, high readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place at the top right."
+        },
+        {
+          "type": "graphic",
+          "name": "French landmark line art and dot-grid motif",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Use as light decorative support behind the headline."
+        },
+        {
+          "type": "text_layout",
+          "name": "Three-section guidance poster layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve the section order, divider lines, body copy, and arrow icon."
+        }
+      ],
+      "prompt_instructions": "This poster is information-dense and should stay restrained. Keep the body wording intact and do not replace it with shorter bullets."
+    }
+  }
+}

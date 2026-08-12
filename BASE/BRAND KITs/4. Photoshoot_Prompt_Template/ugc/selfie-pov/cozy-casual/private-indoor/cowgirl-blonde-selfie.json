@@ -1,0 +1,44 @@
+{
+  "name": "cowgirl-blonde-selfie",
+  "tag": ["ugc", "selfie-pov", "cozy-casual", "private-indoor", "cowgirl", "western-inspired", "blonde-selfie"],
+  "image_type": "casual western-inspired selfie",
+  "image_vibe": "joyful, playful, carefree, warm, candid",
+  "image_purpose": "social-media profile selfie",
+  "group": "selfie-pov/cozy-casual/private-indoor",
+  "prompt": {
+    "project_info": "Ultra-photorealistic vertical medium close-up selfie of an original adult woman in a warm minimal home environment, with authentic candid western-inspired styling.",
+    "main_subject": "One original adult woman with fair skin and soft pink undertones, oval face, soft jawline, light expressive eyes, natural pink lips and softly flushed cheeks. She has a big joyful tooth-showing smile with eyes tightly squinted, conveying playful carefree happiness. Her light golden-blonde hair is just below the shoulders, slightly wavy, center-parted and softly framing the face. She wears a cream felt cowboy hat, a light beige or cream soft cotton/linen sleeveless blouse with a feminine slightly fitted shape, a softly pink lace bralette subtly visible beneath the blouse, and a white bandana with small black paisley print loosely tied at the front. Do not reproduce Sydney Sweeney or any other public-figure likeness.",
+    "composition_elements": "Use a close selfie angle slightly above chest level, medium close-up vertical crop, head slightly tilted, relaxed and leaning into frame. Keep sharp focus on face and upper body with a softly blurred neutral minimal home background. Preserve the spontaneous selfie moment and natural expression.",
+    "lighting_and_atmosphere": "Soft warm natural indoor side light with low contrast, cozy authentic atmosphere and realistic skin texture. Avoid dramatic studio lighting and preserve true-to-life color.",
+    "technical_specs": "Ultra-photorealistic vertical selfie, smartphone perspective, medium close-up, shallow depth of field, realistic hat felt, cotton, linen, lace and skin texture, natural color accuracy, no text, logo or watermark.",
+    "generated_prompt_string": "Ultra-photorealistic vertical medium close-up selfie of one original adult woman in a warm minimal home environment. Fair skin with soft pink undertones, oval soft-jawed face, light expressive eyes, natural pink lips, softly flushed cheeks, big joyful tooth-showing smile and tightly squinted eyes. Light golden-blonde slightly wavy shoulder-length hair, center part, cream felt cowboy hat. Light beige sleeveless cotton or linen blouse with slightly fitted feminine shape, soft pastel-pink lace layer subtly visible beneath, white bandana with small black paisley print loosely tied at front. Close selfie angle slightly above chest level, head tilted, leaning into frame, sharp face and upper body, softly blurred background, warm diffused side light, low contrast, authentic carefree western-inspired mood, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Sydney Sweeney likeness, anime, cartoon, illustration, overly smooth skin, plastic skin, heavy makeup, dramatic studio lighting, altered hat color, altered scarf color, different expression, altered pose, distorted anatomy, extra fingers, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "cowgirl-blonde-selfie.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult blonde western-inspired selfie, cream cowboy hat, beige blouse, pink lace layer, white paisley bandana, joyful expression, warm home setting and close framing; replace the named identity with an original adult."
+        },
+        {
+          "type": "image_asset",
+          "name": "1774979057351-ohyxuivc-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1774979057351-ohyxuivc-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required and the image asset is optional; it is not inspected in the text-only workflow. Keep the adult subject, wardrobe colors, cowboy hat, bandana, joyful expression, selfie framing, warm light and authentic candid mood consistent. Replace identity only."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Sydney Sweeney's high-likeness identity with an original adult woman.",
+      "Preserved the non-explicit western-inspired clothing, pose, expression and warm selfie direction.",
+      "Added required safety and artifact exclusions."
+    ]
+  }
+}

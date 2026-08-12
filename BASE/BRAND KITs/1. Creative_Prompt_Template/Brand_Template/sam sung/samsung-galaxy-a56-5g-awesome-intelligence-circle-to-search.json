@@ -1,0 +1,70 @@
+{
+  "name": "samsung-galaxy-a56-5g-awesome-intelligence-circle-to-search",
+  "tag": [
+    "smartphone-launch",
+    "ai-feature",
+    "circle-to-search",
+    "product-hero"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Brand story",
+  "group": "samsung_1119415686893575",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy A56 5G Awesome Intelligence feature poster",
+      "color_palette": "Off-white, black, silver, pastel blue-lilac-green gradient, soft UI colors"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Minimal premium poster presenting two angled Galaxy A56 5G devices, one front and one back, with the front display showing Circle to Search with Google around a kitten wearing an orange knit hat.",
+      "style": "Photorealistic clean product render, airy Samsung ecommerce aesthetic, feature-led launch poster"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "The new Galaxy A56 5G / Awesome Intelligence / Circle to Search with Google",
+      "items": [
+        "Top Left: Centered black title 'The new Galaxy A56 5G'.",
+        "Top Right: Minimal empty off-white space supporting the clean layout.",
+        "Bottom Left: Large gradient phrase 'Awesome Intelligence' shifting from blue to mint.",
+        "Bottom Right: Black text 'Circle to Search with Google' above small legal disclaimers.",
+        "Center/Background: One front-facing Galaxy A56 5G floating diagonally over one rear-view device; the display shows a kitten wearing an orange horned knit hat, a Google Circle to Search halo, and shopping-style result cards below."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio lighting",
+      "effect": "Gentle matte reflections, clean ecommerce shadows, bright minimal premium atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy A56 5G Awesome Intelligence feature poster. Centerpiece is a floating front-and-back Galaxy A56 5G composition on an off-white background, with the front display showing a kitten in an orange knit hat highlighted by Circle to Search with Google and shopping cards below. Background is bright and minimal with lots of negative space. Surrounding elements: exact title 'The new Galaxy A56 5G', large gradient phrase 'Awesome Intelligence', black line 'Circle to Search with Google', and small gray legal disclaimers at the bottom. Technical style: photorealistic product render, soft studio lighting, gentle reflections and clean ecommerce shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Galaxy A56 5G front and back renders",
+          "required": true,
+          "source": "official Samsung product renders",
+          "usage": "Match exact frame color, rear camera stack, and device overlap angle."
+        },
+        {
+          "type": "ui_reference",
+          "name": "Circle to Search with Google demo screen",
+          "required": true,
+          "source": "original creative or official UI render",
+          "usage": "Preserve the kitten image, orange hat, search ring, and recommendation cards."
+        },
+        {
+          "type": "text_layout",
+          "name": "A56 launch typography and disclaimers",
+          "required": true,
+          "source": "original poster",
+          "usage": "Keep exact centered headline, gradient title, and bottom legal text."
+        }
+      ],
+      "prompt_instructions": "Use refs for the exact device color and demo UI. The airy white layout and the oversized gradient 'Awesome Intelligence' lockup are core to the visual fidelity."
+    }
+  }
+}

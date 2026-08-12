@@ -1,0 +1,67 @@
+{
+  "name": "y2k-style-bedroom-selfie",
+  "tag": ["adult-woman", "y2k", "bedroom", "selfie", "vertical", "beauty-vlog"],
+  "image_type": "ugc-selfie-portrait",
+  "image_vibe": "playful-y2k-soft-focus",
+  "image_purpose": "story-reel-cover",
+  "group": "posing",
+  "source_url": "https://x.com/Adam38363368936/status/2034261375703482420",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced age-coded and sexualized wording with an explicitly adult, playful fashion-selfie description.",
+      "Reframed the off-shoulder garment as a non-revealing winter knit top and added safe-content exclusions."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "Y2K bedroom beauty vlog selfie",
+      "color_palette": "soft ivory, charcoal black, pale wood, muted pastel accents",
+      "format": "vertical 9:16"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with a vintage high ponytail, side-swept bangs, fair natural skin tone, and a playful puffed-cheek expression.",
+      "style": "close handheld smartphone-style selfie with visible grain and slight motion blur"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "centered head-and-shoulders portrait",
+        "both hands framing the cheeks",
+        "bedroom shelving and a small plush toy in the background",
+        "off-shoulder black knit top with white lace-trim sleeves"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft window-like ambient light at approximately 5000K",
+      "effect": "slightly overexposed candid smartphone exposure with a gentle Y2K filter"
+    },
+    "technical_specs": {
+      "render_style": "latest iPhone front-camera snapshot aesthetic, close-up, natural digital grain",
+      "resolution": "high definition, original vertical aspect ratio"
+    },
+    "generated_prompt_string": "Bedroom scene, full of girlishness. The main subject is an adult woman with a vintage high ponytail and oblique bangs, wearing a modest winter off-shoulder knit outfit. She has a petite build, fair natural skin tone, and a playful idol-inspired temperament, making a cute puffed-cheek expression. This is a photo taken with the latest model iPhone (do not show the phone itself); the image has slight motion blur, snapshot style of a casual shot, candid capture, slight overexposure, close-up framing, obvious image graininess, and a Y2K atmosphere filter. Original aspect ratio. Makeup vlog.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, minor, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-character-likeness-reference",
+          "required": false,
+          "source": "Attach a user-provided adult character reference when likeness continuity is required.",
+          "usage": "Preserve adult facial structure and hairstyle while allowing expression changes."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-knit-and-white-lace-top",
+          "required": false,
+          "source": "Attach a wardrobe reference only when the exact garment must be retained.",
+          "usage": "Keep the black knit body and white lace sleeve detail; this element may otherwise be replaced."
+        }
+      ],
+      "prompt_instructions": "No image reference is mandatory. Attach an adult person reference for identity consistency and a wardrobe reference only when the exact outfit is required. The bedroom, plush toy, pose, and color treatment may be replaced without changing the selfie concept."
+    },
+    "omni_video_prompt": {"scene_description": "An adult woman makes a playful puffed-cheek selfie in a Y2K bedroom, framing her cheeks with both hands.", "style": "Playful Y2K soft-focus beauty vlog.", "camera_direction": "Close handheld smartphone selfie with slight motion blur and grain.", "lighting": "Soft window-like ambient light with mild overexposure.", "voice": "None; no dialogue supplied.", "SFX": "No specific audio supplied.", "environment": "Bedroom with shelving, bed, and a small plush toy.", "element": [{"subject": "Adult woman with vintage high ponytail and side-swept bangs.", "wardrobe": "Modest winter knit top with lace-trim sleeves."}], "motion": "Frame cheeks with both hands and hold puffed-cheek expression.", "ending": "Hold the playful selfie pose.", "text": "None.", "keyword": ["adult woman", "Y2K", "bedroom selfie", "puffed cheeks", "soft focus", "beauty vlog"]}
+  }
+}

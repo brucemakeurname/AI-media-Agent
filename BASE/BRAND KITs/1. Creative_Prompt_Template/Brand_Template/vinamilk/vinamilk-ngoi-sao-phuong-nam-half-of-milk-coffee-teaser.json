@@ -1,0 +1,78 @@
+{
+  "name": "vinamilk-ngoi-sao-phuong-nam-half-of-milk-coffee-teaser",
+  "tag": [
+    "vinamilk",
+    "ngoi-sao-phuong-nam",
+    "coffee-milk",
+    "teaser",
+    "minigame"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Ask a question",
+  "group": "vinamilk_2093702541580363",
+  "prompt": {
+    "project_info": {
+      "theme": "Teaser puzzle about the missing half of milk coffee",
+      "color_palette": "Leaf green, warm orange, cream yellow, white"
+    },
+    "main_subject": {
+      "type": "Text",
+      "detail": "A split-layout teaser poster with large cream-colored text 'Cùng đi tìm Một nửa của cà phê sữa' and a yellow pill that says 'Đón chờ nhé!'. Below are three labeled drink columns: 'CÀ PHÊ CỐC', 'CÀ PHÊ SỮA', and 'CÀ PHÊ ĐEN'. The bottom section asks what object completes the center drink, showing a dotted placeholder box with a question mark. The left answer says 'Phải có GHẾ NHỰA' and the right answer says 'Phải có PHIN'.",
+      "style": "Bold retro-Vietnamese teaser graphic, sharp social puzzle layout, playful brand storytelling"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "Ngôi Sao Phương Nam; 50; Cùng đi tìm Một nửa của cà phê sữa; Đón chờ nhé!; CÀ PHÊ CỐC; CÀ PHÊ SỮA; CÀ PHÊ ĐEN; Phải có GHẾ NHỰA; Phải có ?; Phải có PHIN",
+      "items": [
+        "Top Left: Green header field with cream title text",
+        "Top Right: Ngôi Sao Phương Nam logo and Vinamilk 50th anniversary emblem",
+        "Bottom Left: Polka-dot cup of iced black coffee above a red plastic stool with the caption 'Phải có GHẾ NHỰA'",
+        "Bottom Right: Traditional metal coffee filter above a glass of black coffee with the caption 'Phải có PHIN'",
+        "Center/Background: Middle iced milk coffee glass with spoons above a dotted placeholder box containing a question mark on an orange lower panel"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright flat poster lighting",
+      "effect": "Clean object cutouts, retro color blocking, sharp label readability"
+    },
+    "technical_specs": {
+      "render_style": "High-end cutout-based commercial poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square teaser puzzle poster for Ngôi Sao Phương Nam about the missing half of milk coffee. Centerpiece is a split green-and-orange layout with the exact visible text 'Cùng đi tìm Một nửa của cà phê sữa', 'Đón chờ nhé!', 'CÀ PHÊ CỐC', 'CÀ PHÊ SỮA', 'CÀ PHÊ ĐEN', 'Phải có GHẾ NHỰA', 'Phải có ?', and 'Phải có PHIN'. Show three drink columns with a red plastic stool under iced black coffee on the left, an iced milk coffee glass in the center above a dotted question-mark box, and a metal phin over black coffee on the right. Technical style: high-end cutout-based commercial poster, bright flat poster lighting, retro color blocking and sharp label readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Ngôi Sao Phương Nam logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Top-right brand mark"
+        },
+        {
+          "type": "logo",
+          "name": "Vinamilk 50th anniversary logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Top-right anniversary emblem beside the brand logo"
+        },
+        {
+          "type": "product",
+          "name": "Vietnamese coffee objects set",
+          "required": true,
+          "source": "original cutout object references",
+          "usage": "Preserve the iced coffee glass, milk coffee glass, metal phin, and red plastic stool"
+        },
+        {
+          "type": "text_layout",
+          "name": "Missing-half teaser puzzle layout",
+          "required": true,
+          "source": "original creative copy",
+          "usage": "Keep the exact three-column layout and question-box structure"
+        }
+      ],
+      "prompt_instructions": "This is a teaser/puzzle card, not a finished answer reveal. Keep the central dotted question box and preserve the iconic Vietnamese coffee props with strong retro color blocking."
+    }
+  }
+}

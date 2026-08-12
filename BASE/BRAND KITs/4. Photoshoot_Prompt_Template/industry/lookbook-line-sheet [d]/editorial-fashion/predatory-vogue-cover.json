@@ -1,0 +1,66 @@
+{
+  "name": "predatory-vogue-cover",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "editorial-fashion",
+    "dark-glamour",
+    "claw-pose"
+  ],
+  "image_type": "dark avant-garde fashion portrait",
+  "image_vibe": "intimidating, glamorous, powerful, cinematic",
+  "image_purpose": "fashion cover and campaign key visual",
+  "group": "industry/lookbook-line-sheet/editorial-fashion",
+  "prompt": {
+    "project_info": "Create an ultra-realistic dark high-fashion editorial portrait with controlled dramatic tension and sculptural styling.",
+    "main_subject": "An adult fictional woman with original non-celebrity features, long straight hair with blunt bangs, realistic natural skin texture, and a deliberate confident gaze. She wears tailored fitted pants and feather-textured arm pieces with individually visible fibers, clearly separated from skin.",
+    "composition_elements": "Low forward-leaning crawling fashion pose set diagonally across the frame, one hand grounded under weight and the other lifted near the face in a claw-like editorial gesture, minimalist dark gradient studio background, sharp focus on eyes and hands.",
+    "lighting_and_atmosphere": "Soft upper-front key light shapes facial planes, strong rear rim light carves the silhouette, deep controlled shadows and high contrast, dark glamorous studio atmosphere.",
+    "technical_specs": "50-85mm fashion-editorial lens look, shallow depth of field, 9:16 vertical composition, natural anatomy, photorealistic 8K-style detail, realistic hair, fabric, feather, and skin texture.",
+    "generated_prompt_string": "Ultra-realistic high-fashion editorial portrait of an adult fictional woman with original non-celebrity features, long straight hair with blunt bangs, natural skin texture, and a deliberate confident gaze. She wears tailored fitted pants and feather-textured arm pieces with visible individual fibers separated from the skin. Low forward-leaning crawling pose set diagonally across the frame, one hand grounded under weight, the other lifted near the face in a claw-like editorial gesture, dark minimalist studio gradient, soft upper-front key light, strong rear rim light, deep controlled shadows, high contrast, 50-85mm fashion perspective, shallow depth of field, 9:16, cinematic dark glamour, photorealistic detail.",
+    "negative_prompt": [
+      "celebrity likeness",
+      "public figure likeness",
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexual pose",
+      "blurry",
+      "low detail",
+      "extra fingers",
+      "fused or deformed hands",
+      "incorrect anatomy",
+      "distorted joints",
+      "exaggerated proportions",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "watermark",
+      "logo",
+      "text",
+      "signature"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "predatory-vogue-cover.jpg",
+          "required": true,
+          "source": "workspace reference image",
+          "usage": "Reference the adult model, blunt bangs, low pose, feathered arms, dark studio, and light geometry while replacing any identity with an original fictional adult."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve pose, silhouette, tailored outfit, feather texture, lighting, and dark editorial consistency. Use an original adult identity, keep products and logos generic, and make typography absent or replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced ambiguous young or celebrity framing and seductive wording with an original adult subject and deliberate fashion-editorial gaze while preserving the pose and mood."
+    ]
+  }
+}

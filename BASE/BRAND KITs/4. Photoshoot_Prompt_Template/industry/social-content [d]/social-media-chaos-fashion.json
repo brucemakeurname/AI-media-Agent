@@ -1,0 +1,83 @@
+{
+  "name": "social-media-chaos-fashion",
+  "tag": [
+    "brand-collage",
+    "streetwear-cutout",
+    "paint-stroke-graphics",
+    "social-poster",
+    "mixed-brand-grid"
+  ],
+  "image_type": "fashion-campaign-collage",
+  "image_vibe": "bold-graphic-commercial",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Graphic social fashion collage built from four fictional brand campaign panels",
+      "creative_direction": "Paper-texture poster grid with cutout streetwear models, bold typography, painted shapes, and controlled visual chaos",
+      "color_palette": "white, cobalt blue, red, yellow, tan, black, denim gray, and muted neutral paper"
+    },
+    "main_subject": {
+      "type": "clearly adult fashion models",
+      "detail": "approved adult models in varied streetwear poses with natural skin and realistic cutout edges",
+      "wardrobe": "technical jacket and black trousers, green-and-yellow track jacket with shorts, brown plaid outerwear, and black-and-white graphic streetwear",
+      "action": "jumping, walking, or leaning poses integrated into four campaign cards"
+    },
+    "composition_elements": {
+      "framing": "four-panel social poster grid with rounded paper cards, taped collage edges, blue/tan/yellow paint strokes, and cutout figures",
+      "campaign_copy": "fictional headlines such as ENGINEERED FOR THE NOW, CONTROLLED REBELLION, YOUR MOVE, FREEDOM TO EXPRESS, and LIVE IT LOUD",
+      "branding": "four invented brand systems with abstract marks only; no Mercedes-Benz, adidas, Burberry, DKNY, social handles, or real logos",
+      "footer": "generic fictional social icons and a small creator credit placeholder, not real handles"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft commercial daylight at approximately 5200K with directional edge fill",
+      "effect": "clean cutout shadows, vivid paint contrast, realistic garment texture, and energetic social-campaign polish"
+    },
+    "technical_specs": {
+      "render_style": "full-frame fashion photography with 35mm lens, composited into printed graphic design",
+      "resolution": "4k vertical social poster",
+      "finish": "paper creases, restrained grain, crisp fictional typography, natural skin detail, and balanced chaotic layout"
+    },
+    "generated_prompt_string": "Create a bold fashion photography collage for social media using four fictional campaign panels on a white paper-texture background. Each rounded card contains an approved clearly adult streetwear model in a dynamic cutout pose: a technical jacket and black trousers, a green-and-yellow track jacket with shorts, brown plaid outerwear, and black-and-white graphic streetwear. Add cobalt blue, red, yellow, and tan painted brush strokes, tape edges, paper creases, and graphic arrows. Use fictional campaign headlines such as ENGINEERED FOR THE NOW, CONTROLLED REBELLION, YOUR MOVE, FREEDOM TO EXPRESS, and LIVE IT LOUD. Build four distinct invented brand systems with abstract marks only; do not include Mercedes-Benz, adidas, Burberry, DKNY, real social handles, platform icons, or real logos. Use soft approximately 5200K commercial daylight, realistic cutout shadows, natural skin and fabric texture, crisp typography, subtle grain, and a chaotic yet balanced editorial layout.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, real brand logo, real social handle, trademark, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed limbs, broken panel grid, illegible text, messy cutout edges",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-streetwear-campaign-models",
+          "required": true,
+          "source": "Original four-panel fashion collage preview image",
+          "usage": "Attach approved adult model references and preserve face, body proportions, wardrobe silhouette, and realistic cutout detail; no public-figure likeness."
+        },
+        {
+          "type": "wardrobe",
+          "name": "four-look-streetwear-campaign-set",
+          "required": true,
+          "source": "Original preview image and source concept",
+          "usage": "Attach to preserve the technical jacket, track look, plaid outerwear, and graphic streetwear across the four panels; each outfit may be replaced only by an equivalent adult look."
+        },
+        {
+          "type": "graphic",
+          "name": "fictional-four-panel-brand-collage",
+          "required": true,
+          "source": "Original campaign collage preview image and source prompt",
+          "usage": "Attach to preserve panel grid, paint strokes, tape, copy hierarchy, and cutout treatment; replace all real brands, slogans, logos, and handles with fictional cleared graphics."
+        },
+        {
+          "type": "background",
+          "name": "white-creased-paper-poster",
+          "required": true,
+          "source": "Original poster background",
+          "usage": "Attach to preserve paper texture, creases, neutral margin, and taped collage surface; background may be replaced with an equivalent editorial paper."
+        }
+      ],
+      "prompt_instructions": "Attach approved adult models, exact wardrobe references, fictional brand collage, and paper background. Keep four-panel hierarchy, cutout poses, clothing continuity, paint strokes, copy placement, and paper texture consistent. Replace every real brand, logo, social handle, and trademark with invented abstract marks and fictional text."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced all recognizable brand logos, real social handles, and trademarked campaign identities with four fictional brand systems while preserving the multi-panel streetwear collage."
+    ]
+  }
+}

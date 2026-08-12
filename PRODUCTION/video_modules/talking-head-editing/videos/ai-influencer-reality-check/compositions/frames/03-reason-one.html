@@ -1,0 +1,225 @@
+<template data-composition-id="03-reason-one">
+  <style>
+    @font-face {
+      font-family: "Barlow";
+      src: url("assets/fonts/Barlow-Black.woff2") format("woff2");
+      font-weight: 900;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Barlow";
+      src: url("assets/fonts/Barlow-SemiBold.woff2") format("woff2");
+      font-weight: 600;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Barlow";
+      src: url("assets/fonts/Barlow-Bold.woff2") format("woff2");
+      font-weight: 700;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "IBM Plex Mono";
+      src: url("assets/fonts/IBMPlexMono-Medium.woff2") format("woff2");
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    #root {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      container-type: size;
+      background: transparent;
+    }
+
+    .reason-one-bg {
+      position: absolute;
+      inset: 0;
+      background: #e85d26;
+    }
+
+    .reason-one-stage {
+      position: absolute;
+      inset: 0;
+      padding: 5.5cqh 5.5cqw;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* --- chrome: catalogue number + kicker --- */
+    .reason-one-chrome {
+      display: flex;
+      align-items: center;
+      gap: 1cqw;
+    }
+    .reason-one-num,
+    .reason-one-kicker {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 0.9cqw;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(17, 17, 17, 0.55);
+      opacity: 0;
+      display: inline-block;
+    }
+
+    /* --- display: hero focal, "most fail" --- */
+    .reason-one-display {
+      margin-top: 6cqh;
+      display: flex;
+      flex-direction: column;
+    }
+    .reason-one-display-word {
+      font-family: "Barlow", sans-serif;
+      font-weight: 900;
+      font-size: 15cqw;
+      line-height: 0.88;
+      letter-spacing: -0.04em;
+      text-transform: lowercase;
+      color: #111111;
+      opacity: 0;
+      display: inline-block;
+      transform-origin: left center;
+    }
+
+    /* --- lead: supporting claim lines --- */
+    .reason-one-lead {
+      margin-top: 8cqh;
+      display: flex;
+      flex-direction: column;
+      gap: 1cqh;
+      max-width: 78cqw;
+    }
+    .reason-one-lead-line {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6cqw;
+    }
+    .reason-one-lead-word {
+      font-family: "Barlow", sans-serif;
+      font-weight: 400;
+      font-size: 3cqw;
+      line-height: 1.5;
+      color: rgba(17, 17, 17, 0.75);
+      opacity: 0;
+      display: inline-block;
+    }
+  </style>
+
+  <div id="root" data-composition-id="03-reason-one" data-width="1080" data-height="1920">
+    <div class="reason-one-bg clip" data-start="0" data-duration="8.448" data-track-index="0"></div>
+
+    <div class="reason-one-stage">
+      <div class="reason-one-chrome clip" data-start="0" data-duration="8.448" data-track-index="1">
+        <span class="reason-one-num" id="reason-one-num">01</span>
+        <span class="reason-one-kicker" id="reason-one-kicker">Reason</span>
+      </div>
+
+      <div class="reason-one-display clip" data-start="0" data-duration="8.448" data-track-index="2">
+        <div class="reason-one-display-word" id="reason-one-word-most">most</div>
+        <div class="reason-one-display-word" id="reason-one-word-fail">fail</div>
+      </div>
+
+      <div class="reason-one-lead clip" data-start="0" data-duration="8.448" data-track-index="3">
+        <div class="reason-one-lead-line" id="reason-one-line-a">
+          <span class="reason-one-lead-word" id="reason-one-a1">low-effort,</span>
+          <span class="reason-one-lead-word" id="reason-one-a2">dead-eyed</span>
+          <span class="reason-one-lead-word" id="reason-one-a3">avatars.</span>
+        </div>
+        <div class="reason-one-lead-line" id="reason-one-line-b">
+          <span class="reason-one-lead-word" id="reason-one-b1">a</span>
+          <span class="reason-one-lead-word" id="reason-one-b2">tool</span>
+          <span class="reason-one-lead-word" id="reason-one-b3">isn't</span>
+          <span class="reason-one-lead-word" id="reason-one-b4">a</span>
+          <span class="reason-one-lead-word" id="reason-one-b5">brand.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+      var F = 1 / 60;
+
+      // ---------- Scene 1 (0.0–1.5s): chrome fade-in, per-word stagger (waterfall-entry) ----------
+      tl.set("#reason-one-num", { opacity: 1, y: 24 }, 0.1);
+      tl.to("#reason-one-num", { y: 0, duration: 0.13, ease: "power4.out" }, 0.1);
+
+      var kickerT = 0.1 + 0.13 - 2 * F;
+      tl.set("#reason-one-kicker", { opacity: 1, y: 24 }, kickerT);
+      tl.to("#reason-one-kicker", { y: 0, duration: 0.13, ease: "power4.out" }, kickerT);
+      // remainder of the 0–1.5s window holds silent (~45% silence per spec)
+
+      // ---------- Scene 2 (1.5–4.5s): "most fail" kinetic beat-slam ----------
+      // distinct entrance per word: scale+blur slam, then side-snap
+      tl.fromTo(
+        "#reason-one-word-most",
+        { scale: 1.5, filter: "blur(16px)", opacity: 0 },
+        { scale: 1, filter: "blur(0px)", opacity: 1, duration: 0.5, ease: "power4.out" },
+        1.6,
+      );
+      tl.fromTo(
+        "#reason-one-word-fail",
+        { x: -320, opacity: 0 },
+        { x: 0, opacity: 1, duration: 0.45, ease: "expo.out" },
+        2.2,
+      );
+      // finale hold: subtle breathing scale on the stack, floor-based repeat (never overshoots the window)
+      tl.to(
+        "#reason-one-display",
+        { scale: 1.012, duration: 0.8, ease: "sine.inOut", yoyo: true, repeat: 1 },
+        2.65,
+      );
+
+      // ---------- Scene 3 (4.5–7.0s): lead lines, per-word staggered reveal (waterfall-entry) ----------
+      // line A — "low-effort, dead-eyed avatars."
+      var a0 = 4.5;
+      tl.set("#reason-one-a1", { opacity: 1, y: 45 }, a0);
+      tl.to("#reason-one-a1", { y: 0, duration: 0.16, ease: "power4.out" }, a0);
+
+      var a1 = a0 + 0.16 + 2 * F;
+      tl.set("#reason-one-a2", { opacity: 1, y: 40 }, a1);
+      tl.to("#reason-one-a2", { y: 0, duration: 0.14, ease: "power4.out" }, a1);
+
+      var a2 = a1 + 0.14 - F;
+      tl.set("#reason-one-a3", { opacity: 1, y: 40 }, a2);
+      tl.to("#reason-one-a3", { y: 0, duration: 0.14, ease: "power4.out" }, a2);
+
+      // line B — "a tool isn't a brand." (VO cue lands a beat later)
+      var b0 = 5.8;
+      tl.set("#reason-one-b1", { opacity: 1, y: 32 }, b0);
+      tl.to("#reason-one-b1", { y: 0, duration: 0.12, ease: "power4.out" }, b0);
+
+      var b1 = b0 + 0.12 - F;
+      tl.set("#reason-one-b2", { opacity: 1, y: 42 }, b1);
+      tl.to("#reason-one-b2", { y: 0, duration: 0.14, ease: "power4.out" }, b1);
+
+      var b2 = b1 + 0.14 - F;
+      tl.set("#reason-one-b3", { opacity: 1, y: 42 }, b2);
+      tl.to("#reason-one-b3", { y: 0, duration: 0.14, ease: "power4.out" }, b2);
+
+      var b3 = b2 + 0.14 - F;
+      tl.set("#reason-one-b4", { opacity: 1, y: 32 }, b3);
+      tl.to("#reason-one-b4", { y: 0, duration: 0.12, ease: "power4.out" }, b3);
+
+      var b4 = b3 + 0.12 - F;
+      tl.set("#reason-one-b5", { opacity: 1, y: 46 }, b4); // final word — slightly more travel
+      tl.to("#reason-one-b5", { y: 0, duration: 0.16, ease: "power4.out" }, b4);
+
+      // settle: subtle jitter hold only (no exit — not the final frame)
+      var jitterStart = b4 + 0.16 + 0.35;
+      tl.to(
+        "#reason-one-lead",
+        { rotation: 0.35, duration: 0.5, ease: "sine.inOut", yoyo: true, repeat: 1 },
+        jitterStart,
+      );
+
+      window.__timelines["03-reason-one"] = tl;
+    })();
+  </script>
+</template>

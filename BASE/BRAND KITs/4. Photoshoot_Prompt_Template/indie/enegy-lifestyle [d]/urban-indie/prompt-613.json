@@ -1,0 +1,66 @@
+{
+  "name": "Retro Refrigerator Soft-Drink Portrait",
+  "tag": "retro-refrigerator-soft-drink",
+  "image_type": "retro_kitchen_lifestyle_portrait",
+  "image_vibe": "warm_casual_retro",
+  "image_purpose": "lifestyle_editorial",
+  "group": "indie/enegy-lifestyle/urban-indie",
+  "prompt": {
+    "project_info": {
+      "title": "Retro Refrigerator Soft-Drink Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with long dark middle-parted hair, soft pink makeup, and a pensive direct gaze.",
+      "wardrobe": "A cream crew-neck short-sleeve T-shirt with a tiny abstract embroidery, high-waisted full-length medium-wash jeans, white crew socks, and closed-toe dark slip-on shoes.",
+      "pose_and_expression": "Seated comfortably on the kitchen floor beside an open retro refrigerator, holding an unbranded red sparkling-water can at chest level."
+    },
+    "composition_elements": {
+      "setting": "Warm vintage kitchen or studio with an open cream refrigerator containing plain-label colorful soft drinks, a blank pastel food magazine, and two unlabeled bottles on the floor.",
+      "framing": "Eye-level full-body portrait with the refrigerator interior framing the subject.",
+      "text_and_brand_control": "No beverage brands, logos, product labels, magazine title, or readable copy."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Warm muted refrigerator and room light.",
+      "mood": "Casual, quiet, and nostalgic."
+    },
+    "technical_specs": {
+      "camera_style": "soft 35mm lifestyle film",
+      "lens": "45mm equivalent",
+      "rendering": "Fine grain, natural skin, realistic hands, subdued retro palette, no glossy product-ad appearance."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical soft 35mm lifestyle film portrait of an adult woman with long dark middle-parted hair, soft pink makeup, and a pensive direct gaze. She wears a cream crew-neck short-sleeve T-shirt with tiny abstract embroidery, high-waisted full-length medium-wash jeans, white crew socks, and closed-toe dark slip-on shoes. She sits comfortably on a warm vintage kitchen floor beside an open cream retro refrigerator, holding an unbranded red sparkling-water can at chest level. Fill the fridge with plain-label colorful soft drinks and a blank pastel food magazine; place two unlabeled bottles on the floor. Use eye-level full-body framing, fine grain, natural skin and hands, muted warmth, and no glossy advertising appearance. No beverage brand, logo, readable label, magazine title, text, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, lingerie, fetish styling, distressed shorts, open-toe footwear, brand name, logo, readable label, text, watermark, distorted anatomy, extra fingers, plastic skin, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Identity references are optional and must depict a consenting adult. All beverage, refrigerator, and magazine references are replaceable visual guides with every label and logo removed.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide general adult face and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "retro_refrigerator_reference",
+          "required": false,
+          "source": "user-provided kitchen reference",
+          "usage": "Guide appliance and lighting while blanking all copy."
+        },
+        {
+          "type": "prop_reference",
+          "name": "unbranded_soft_drink_reference",
+          "required": false,
+          "source": "user-provided beverage prop reference",
+          "usage": "Guide can and bottle silhouettes only; remove labels."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adulthood and covered styling; removed product brands, face-preservation dependency, and all label/text requirements."
+  }
+}

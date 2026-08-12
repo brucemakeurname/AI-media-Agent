@@ -1,0 +1,26 @@
+{
+  "name": "prompt-752",
+  "tag": ["ugc", "technology-summit", "stage-speaker", "presentation-screen", "documentary"],
+  "image_type": "documentary-event-photograph",
+  "image_vibe": "polished-dynamic-professional",
+  "image_purpose": "social-post",
+  "group": "viral-trending",
+  "prompt": {
+    "project_info": "Create a wide-angle candid documentary photograph of an adult speaker addressing a major technology summit with a fully visible presentation screen.",
+    "main_subject": "An adult speaker from the attached reference image, captured mid-speech holding a microphone and gesturing naturally toward the audience. Preserve approved adult identity and professional presence.",
+    "composition_elements": "Large professionally lit stage, speaker visible with a wall-sized LED screen fully unobstructed behind them. The screen displays only the designed presentation slide based on the supplied speech topic or outline, with no PowerPoint interface, toolbars, or window borders. Audience heads and shoulders remain low and blurred at the bottom foreground.",
+    "lighting_and_atmosphere": "Professional blue stage lighting with sharp spotlights on the speaker, realistic film grain, energetic major-event documentary atmosphere.",
+    "technical_specs": "Wide-angle high-resolution event photography, sharp focus on both speaker and screen content, natural perspective, realistic film grain, low foreground audience placement, no interface artifacts.",
+    "generated_prompt_string": "A wide-angle candid documentary photograph of an approved adult speaker from the reference image, captured mid-speech on a large professionally lit stage at a major technology summit. The speaker holds a microphone and gestures naturally toward the audience. Behind them, an immense wall-sized LED screen is fully visible, displaying a crisp full-screen professionally designed presentation slide based on the supplied speech topic or outline, with only slide content and absolutely no PowerPoint software interface, toolbars, or window borders. The heads and shoulders of a large audience appear low and blurred at the very bottom foreground without obstructing the screen. Blue stage lighting and sharp spotlights illuminate the speaker, high-resolution camera detail, sharp focus on speaker and slide, realistic film grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, identity drift, obstructed screen, software UI, toolbars, window borders, unreadable slide, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, extra limbs, extra fingers, deformed, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved adult summit speaker", "required": true, "source": "matching local preview image and optional identity reference", "usage": "Preserve adult face, hair, clothing, microphone action, and natural gesture; replaceable with another approved adult speaker."},
+        {"type": "text_layout", "name": "full-screen presentation slide", "required": true, "source": "supplied speech topic or outline and matching local preview image", "usage": "Keep the slide fully visible and professionally structured; replaceable content must remain a clean full-screen slide without software chrome."},
+        {"type": "location", "name": "technology summit stage", "required": true, "source": "matching local preview image", "usage": "Preserve stage, LED screen, blue lighting, and low blurred audience hierarchy; replaceable with an equivalent professional event."}
+      ],
+      "prompt_instructions": "Attach the matching preview and approved adult identity reference when speaker continuity is required. Keep face, microphone, stage lighting, screen visibility, and audience placement consistent. Slide text/topic may be replaced from the supplied outline; do not add UI, logos, or unrelated typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

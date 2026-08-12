@@ -1,0 +1,59 @@
+{
+  "name": "Late-Night Pillow Lofi Selfie",
+  "tag": "late-night-pillow-lofi-selfie",
+  "image_type": "low_light_phone_selfie",
+  "image_vibe": "cool_sleepy_lofi",
+  "image_purpose": "social_editorial",
+  "group": "indie/low-fi-dreamy/cool-moody",
+  "prompt": {
+    "project_info": {
+      "title": "Late-Night Pillow Lofi Selfie",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult East Asian man with tousled black hair, a calm sleepy gaze, and natural skin.",
+      "wardrobe": "A plain black crew-neck sleep T-shirt and thin unbranded silver chain.",
+      "pose_and_expression": "Resting comfortably on a patterned gray pillow, with one hand relaxed below the jawline."
+    },
+    "composition_elements": {
+      "setting": "Dark quiet bedroom with beige curtains, neutral wall, and no personal items visible.",
+      "framing": "Close low-angle phone selfie with soft edges and face in focus.",
+      "text_and_brand_control": "No exact identity reference, exposed-shoulder focus, logos, text, screen UI, or watermark."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Cool blue-purple screen light with deep low-light shadow.",
+      "mood": "Sleepy, private, cozy, and non-sexualized."
+    },
+    "technical_specs": {
+      "camera_style": "realistic phone selfie",
+      "lens": "26mm equivalent",
+      "rendering": "Visible digital grain, soft focus, natural skin, accurate fingers, no beauty filter."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical realistic phone selfie of an adult East Asian man with tousled black hair, a calm sleepy gaze, and natural skin. He wears a plain black crew-neck sleep T-shirt and thin unbranded silver chain, resting comfortably on a patterned gray pillow with one hand relaxed below the jawline. Use a dark quiet bedroom with beige curtains and neutral wall, cool blue-purple screen light, deep low-light shadow, close low-angle framing, soft edges, visible digital grain, face in focus, natural skin, and accurate fingers. No exact identity reference, exposed-shoulder focus, finger touching lips, logos, text, screen UI, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, identity lock, explicit, nsfw, overly revealing clothing, shirtless, finger in mouth, fetish styling, logo, readable text, watermark, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity reference must depict a consenting adult. Bedroom, pillow, and wardrobe references are replaceable; no exact identity, branding, or personal information.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult face and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "dark_bedroom_reference",
+          "required": false,
+          "source": "user-provided interior reference",
+          "usage": "Guide pillow, curtain, and low-light mood without personal detail."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed exact identity lock and suggestive hand/body cues while retaining adult low-fi bedroom mood."
+  }
+}

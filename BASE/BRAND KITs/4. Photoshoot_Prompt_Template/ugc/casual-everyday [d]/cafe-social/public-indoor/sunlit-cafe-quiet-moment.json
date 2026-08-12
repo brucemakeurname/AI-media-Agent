@@ -1,0 +1,58 @@
+{
+  "name": "sunlit-cafe-quiet-moment",
+  "tag": [
+    "ugc",
+    "cafe-social",
+    "public-indoor",
+    "quiet-moment",
+    "tea-cup",
+    "window-light"
+  ],
+  "image_type": "ugc-cafe-contemplative-portrait",
+  "image_vibe": "warm-introspective-cinematic",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cafe-social/public-indoor",
+  "prompt": {
+    "project_info": "Create a natural ultra-realistic cinematic cafe portrait capturing a quiet, introspective moment with warm comforting atmosphere and red-awning window light.",
+    "main_subject": "One original approved adult woman with naturally styled medium-brown hair, minimal natural makeup and realistic skin texture. She wears a black quilted jacket over a white top with layered necklaces and holds a small white ceramic cup with both hands close to her lips, gazing softly downward or to the side.",
+    "composition_elements": "Vertical 3:4 or 4:5 medium-close portrait centered in a cafe booth or window-side seat. Keep both hands and cup visible, with red upholstered seating, black window frames, red awning, warm interior reflections and autumn foliage visible through the glass.",
+    "lighting_and_atmosphere": "Soft diffused natural daylight enters from the large glass window on the right, with warm reflected interior light, delicate highlights on face and hands and soft natural shadows. Preserve peaceful, reflective, lived-in cafe atmosphere.",
+    "technical_specs": "50–85mm equivalent portrait lens, f/1.8–f/2 look, shallow depth of field isolating the subject, sharp ceramic and skin micro-texture, subtle warm cinematic grading, soft contrast and realistic exposure.",
+    "generated_prompt_string": "Create a natural ultra-realistic cinematic cafe portrait of one original approved adult woman with naturally styled medium-brown hair, minimal natural makeup and realistic skin texture. She wears a black quilted jacket over a white top with layered necklaces and holds a small white ceramic cup with both hands close to her lips, gazing softly downward or to the side. Use a vertical 3:4 or 4:5 medium-close portrait in a cafe booth or window-side seat, with red upholstered seating, black window frames, a red awning, warm interior reflections and autumn foliage visible through the glass. Use soft diffused daylight from the right, warm reflections, delicate highlights, soft shadows, shallow portrait depth of field, ceramic and skin micro-texture and subtle cinematic warmth.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, spilled drink, invented logos, unreadable added text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "sunlit-cafe-quiet-moment.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair, expression, makeup and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black quilted jacket, white top and layered necklaces",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve jacket texture, white top, necklaces, cup and hand placement; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "cafe booth, red awning, black windows and autumn foliage",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve booth, window, awning, reflections, foliage and daylight direction; environment may be replaced through explicit references while retaining the quiet composition."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, face, hair, outfit, layered jewelry, cup gesture, window light and cafe environment consistent. The adult, wardrobe and setting may be replaced independently through explicit references. No logo or typography is required."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Retained the source's adult wording and clarified the subject as an original approved adult.",
+      "Preserved the quiet cup gesture, wardrobe, red awning and contemplative cafe mood.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

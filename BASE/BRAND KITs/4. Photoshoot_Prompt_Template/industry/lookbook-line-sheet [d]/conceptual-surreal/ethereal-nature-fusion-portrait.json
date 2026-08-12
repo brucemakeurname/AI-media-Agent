@@ -1,0 +1,34 @@
+{
+  "name": "Ethereal Nature Fusion Portrait",
+  "tag": "industry/lookbook-line-sheet/conceptual-surreal",
+  "image_type": "nature-fusion editorial portrait",
+  "image_vibe": "calm earthy surrealism, cinematic harmony",
+  "image_purpose": "editorial fashion and environmental concept campaign",
+  "group": "conceptual-surreal",
+  "prompt": {
+    "project_info": "Create an ultra-realistic editorial portrait where a fictional adult model merges visually with safe natural elements to symbolize harmony with the environment.",
+    "main_subject": "A clearly adult fictional woman with thoughtful serene gaze, natural pores and matte makeup, sage hooded jacket, relaxed olive cargo pants, and hands resting gently while seated on a rustic wooden stool; delicate branches and foliage appear as controlled costume-like extensions around the sleeves and shoulders.",
+    "composition_elements": "4:5 medium portrait, subject centered with face slightly off-center, beige studio gradient, wooden stool, soft leaves framing the silhouette, small birds frozen mid-flight in the background.",
+    "lighting_and_atmosphere": "Soft diffused front-side studio light, wraparound shadows, subtle glow on skin and foliage edges, muted earthy sage, warm beige, and soft brown palette.",
+    "technical_specs": "Full-frame DSLR, 85mm prime lens, shallow depth of field, sharp eyes and realistic fabric, branch, leaf, and bird detail, cinematic editorial color grade, no text.",
+    "generated_prompt_string": "Ultra-realistic 4:5 nature-human fusion editorial portrait of a clearly adult fictional woman seated naturally on a rustic wooden stool, thoughtful serene gaze, natural pores, sage hooded jacket and relaxed olive cargo pants, safe delicate branches and foliage integrated as costume-like extensions around sleeves and shoulders, small birds in soft background flight, beige studio gradient, soft diffused wraparound light, earthy sage and warm beige palette, full-frame DSLR 85mm, shallow depth of field, no text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, invasive growth, injury, entrapment, child, teen, ageless person, celebrity likeness, public figure likeness, distorted anatomy, dead animals, gore, plastic skin, watermark, logo, text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "nature fusion portrait reference",
+          "required": true,
+          "source": "Attach the supplied source image as the visual reference.",
+          "usage": "Match the sage wardrobe, stool, beige backdrop, branch-and-bird framing, calm expression, and earthy palette; keep the adult fictional identity, foliage, and bird species replaceable."
+        }
+      ],
+      "instructions": "Attach the source image before generation. Preserve the nature-human symbolism and editorial composition while keeping branches as safe costume-like elements, not invasive growth. Identity, wardrobe, and natural details remain replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": "Changed early-20s wording to clearly adult fictional subject and reframed organic merging as safe costume-like foliage rather than bodily growth.",
+    "notes": "Nature-fusion concept is non-graphic and nonsexual."
+  }
+}

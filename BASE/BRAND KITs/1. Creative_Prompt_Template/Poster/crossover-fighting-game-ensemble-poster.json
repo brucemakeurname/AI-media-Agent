@@ -1,0 +1,66 @@
+{
+    "name":  "crossover-fighting-game-ensemble-poster",
+    "tag":  [
+                "gaming",
+                "ensemble",
+                "action-poster",
+                "crossover",
+                "fan-art"
+            ],
+    "biz_niche":  "Entertainment & Pop Culture",
+    "content_format":  "Brand story",
+    "group":  "poster_474",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Crossover fighting-game ensemble",
+                                        "color_palette":  "Bright blue, red, yellow, green, magenta, and white energy bursts"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Game character ensemble",
+                                        "detail":  "A dense vertical action composition of multiple colorful platform-fighter characters converging toward a central energy burst.",
+                                        "style":  "Polished all-ages game key art, dynamic heroic poses, high-saturation illustration"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Character ensemble, energy effects, and title lockup",
+                                                "text":  "[ORIGINAL GAME TITLE]",
+                                                "items":  [
+                                                              "Center: original hero in a forward-leaping pose.",
+                                                              "Around center: diverse original fighter archetypes arranged in layered action diagonals.",
+                                                              "Background: radiant blue cosmic beams and floating game-like symbols.",
+                                                              "Bottom: large original title lockup."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Bright magical action lighting",
+                                                   "effect":  "Central lens burst, saturated rim light, motion depth, clean character separation"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "High-resolution original game key art",
+                                           "resolution":  "2k resolution, vertical 9:16"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "Original game character and UI reference set",
+                                                                 "required":  true,
+                                                                 "source":  "rights-holder approved assets or original character sheets",
+                                                                 "usage":  "Preserve characters only when licensed; otherwise create an original roster."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "Crossover ensemble layout",
+                                                                 "required":  true,
+                                                                 "source":  "supplied reference image",
+                                                                 "usage":  "Match central burst and vertical ensemble hierarchy without copying protected characters or title."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "The supplied image depicts Nintendo IP; do not recreate named characters or Super Smash Bros branding without rights.",
+                                                                          "Use original character designs and title by default."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Draw a Nintendo Super Smash Bros. game poster family portrait, keeping the style consistent with the game. aspect 9:16 2k.",
+                   "negative_prompt":  "copyrighted character recreation without permission, muddy action, duplicate limbs, distorted faces, unreadable title, watermark, signature"
+               }
+}

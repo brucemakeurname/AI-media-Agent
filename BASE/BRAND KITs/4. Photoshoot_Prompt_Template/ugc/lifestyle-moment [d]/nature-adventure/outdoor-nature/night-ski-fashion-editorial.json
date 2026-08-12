@@ -1,0 +1,37 @@
+{
+  "name": "night-ski-fashion-editorial",
+  "tag": ["night-ski", "snow", "fashion-editorial", "alpine"],
+  "image_type": "UGC winter fashion editorial",
+  "image_vibe": "cinematic, crisp, nocturnal, luxurious",
+  "image_purpose": "Winter resort and fashion editorial social content",
+  "group": "ugc/lifestyle-moment/nature-adventure/outdoor-nature",
+  "prompt": {
+    "project_info": "Create an ultra-realistic night-ski fashion portrait at a high-altitude alpine resort.",
+    "main_subject": "One generic approved adult woman with long dark wavy hair, wearing a full-coverage white thermal ski jumpsuit with black vertical piping, a high collar, white protective ski helmet, and matte black goggles resting on top. She stands calmly in a three-quarter side profile with hands gently clasped at waist level.",
+    "composition_elements": "Vertical 9:16 editorial framing with the adult subject in sharp focus against pristine powder snow. Include panoramic snow-capped mountain ranges, a valley with warm illuminated ski runs and string lights, distant bokeh, and a dark blue starry sky. Avoid a body-part close-up or rear emphasis.",
+    "lighting_and_atmosphere": "Soft cool moonlight on the subject balanced by warm tungsten resort lights, soft directional shadows, cinematic high dynamic range without an HDR look, refined nocturnal alpine atmosphere.",
+    "technical_specs": "Photorealistic vertical 9:16 fashion editorial, full-frame camera with 85mm f/1.8 lens, realistic fabric and skin texture, controlled depth of field, crisp powder snow, subtle natural grain, no logos or watermark.",
+    "generated_prompt_string": "Ultra-realistic vertical 9:16 night-ski fashion editorial portrait of one generic approved adult woman with long dark wavy hair, wearing a full-coverage white thermal ski jumpsuit with black vertical piping and high collar, white protective ski helmet with matte black goggles resting on top, standing calmly in three-quarter side profile with hands clasped gently at waist level, pristine powder snow, panoramic snow-capped mountain ranges, valley with warm illuminated ski runs and string-light bokeh, dark blue starry sky, soft cool moonlight balanced with warm resort lights, crisp realistic fabric and skin texture, refined cinematic alpine mood, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, celebrity likeness, public-figure likeness, body-part close-up, rear emphasis, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, blurry, daytime, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "night-ski-fashion-editorial reference",
+          "required": true,
+          "source": "Attach the provided reference image",
+          "usage": "Match the white ski suit, helmet and goggles, three-quarter profile, night resort lighting, mountain panorama, and vertical editorial composition while keeping the adult identity and equipment replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the exact full-coverage ski outfit category, helmet, goggles, pose, snow, mountain landscape, warm resort lights, and cool night palette. Keep person, clothing details, equipment, resort, and environment replaceable; remove incidental branding."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed rear/body-part emphasis and specified a neutral three-quarter editorial framing.",
+      "Preserved the full-coverage ski jumpsuit, equipment, lighting, and alpine fashion concept.",
+      "Added anti-slop and non-sexualized safety exclusions."
+    ]
+  }
+}

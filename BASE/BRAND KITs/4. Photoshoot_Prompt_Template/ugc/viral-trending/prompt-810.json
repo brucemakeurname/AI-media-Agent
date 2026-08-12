@@ -1,0 +1,27 @@
+{
+  "name": "prompt-810",
+  "tag": ["ugc", "ipad-reflection", "airplane-cabin", "soft-glow", "selfie"],
+  "image_type": "embedded-tablet-selfie",
+  "image_vibe": "soft-warm-pastel-calm",
+  "image_purpose": "instagram-feed",
+  "group": "viral-trending",
+  "prompt": {
+    "project_info": "Create a highly realistic tightly framed airplane-cabin scene showing an adult woman's reflection on an iPad on a foldable tray table.",
+    "main_subject": "An adult fair-skinned woman with long straight dark-brown hair with subtle highlights, layered volume, middle part and soft bangs, wearing an oversized beige hoodie with the hood over her head, minimalist silver rings, and French nail art. She half-reclines in a premium airplane seat, left hand supporting her head, right hand holding an iPhone, with a soft dreamy downward gaze and natural Korean-glam makeup.",
+    "composition_elements": "Place the iPad on the airplane foldable tray table, with sunglasses in the foreground. Beige-grey business-class seats surround it. The iPad screen shows the subject in the airplane seat and its camera UI with shutter button, icons, and dock clearly visible. A large airplane window shows soft blue sky light.",
+    "lighting_and_atmosphere": "Soft-warm pastel K-aesthetic glow, calm dreamy mood, gentle cabin daylight, natural skin texture, subtle highlights and no face change.",
+    "technical_specs": "9:16 portrait, tightly framed reflective tablet composition, HD high-quality realistic render, controlled screen perspective, natural cabin depth, preserve face exactly from the approved reference.",
+    "generated_prompt_string": "Highly realistic tightly framed scene showing the reflection of an adult fair-skinned woman on an iPad placed on an airplane foldable tray table, with sunglasses in the foreground and beige-grey premium cabin seats around the iPad. On the iPad screen, the subject half-reclines on the airplane seat, left hand supporting her head with fingers touching her temple, right hand holding an iPhone to take the picture, and part of her face visible. She wears an oversized beige hoodie with the hood over her head, minimalist silver rings, French nail art, and long straight layered dark-brown hair with subtle highlights, middle part, and soft bangs. Soft Korean-glam makeup, pink blush, glossy rosy lips, thin eyeliner and curled lashes, soft downward gaze, dreamy calm feeling. A large airplane window shows soft blue sky light and the iPad camera UI is visible. Soft-warm pastel aesthetic, 9:16 portrait, HD, high quality. Do not change the face.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, identity drift, face change, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, extra limbs, extra fingers, deformed, invented UI, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved adult airplane selfie subject", "required": true, "source": "matching local preview image and face reference", "usage": "Preserve adult face, facial structure, hair, hoodie, makeup, hands, and expression exactly; replaceable only with another approved adult identity reference."},
+        {"type": "product", "name": "iPad and iPhone", "required": true, "source": "matching local preview image", "usage": "Preserve tablet reflection, phone scale, tray placement, and believable device perspective."},
+        {"type": "ui_reference", "name": "iPad camera interface", "required": true, "source": "matching local preview image", "usage": "Preserve visible shutter button, icons, and dock structure; do not add unrelated UI or typography."},
+        {"type": "location", "name": "premium airplane cabin", "required": true, "source": "matching local preview image", "usage": "Preserve tray table, business-class seats, airplane window, and blue sky light; replaceable with an equivalent cabin."}
+      ],
+      "prompt_instructions": "Attach the matching preview and approved adult face reference to lock identity, tablet reflection, UI, devices, and cabin composition. Preserve face, outfit, lighting, screen perspective, and UI hierarchy. Replaceable assets must remain equivalent; do not invent logos, text, or interface elements."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

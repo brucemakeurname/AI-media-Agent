@@ -1,0 +1,80 @@
+{
+  "name": "urban-elan-fashion-cover",
+  "tag": [
+    "black-and-white-cover",
+    "urban-editorial",
+    "cat-eye-sunglasses",
+    "high-neck-top",
+    "serif-typography"
+  ],
+  "image_type": "black-and-white-magazine-cover",
+  "image_vibe": "modern-urban-poised",
+  "image_purpose": "editorial",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Urban Élan high-fashion magazine cover",
+      "color_palette": "black, white, grayscale skin tones, charcoal shadows, and architectural mid-gray",
+      "creative_direction": "cinematic black-and-white editorial with strong vertical typography"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "modern adult woman with confident poised expression, short windswept dark hair, sharp black cat-eye sunglasses, and natural facial texture",
+      "wardrobe": "sleek black high-neck sleeveless top",
+      "style": "minimal urban fashion portrait with controlled attitude"
+    },
+    "composition_elements": {
+      "framing": "vertical three-quarter portrait with the subject turned slightly in profile",
+      "subject_position": "adult woman positioned right of center against a modern architectural facade with diagonal window geometry",
+      "typography": "bold vertical serif URBAN ÉLAN title along the left edge, with small VOLUME IX and WINTER line across the top"
+    },
+    "lighting_and_atmosphere": {
+      "type": "large diffused daylight source from camera-left with subtle negative fill, monochrome tonal control",
+      "effect": "sculpted cheek and neck shadows, crisp sunglasses silhouette, gentle hair movement, cinematic urban atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 85mm lens, black-and-white fashion editorial photography",
+      "resolution": "4k vertical magazine cover",
+      "finish": "high micro-contrast, visible natural skin texture, fine monochrome film grain, controlled highlights, no artificial HDR"
+    },
+    "generated_prompt_string": "High-fashion editorial magazine cover titled URBAN ÉLAN in bold vertical serif typography on the left, with small VOLUME IX and WINTER text across the top. A cinematic black-and-white portrait of a clearly adult modern woman with a confident poised expression, short windswept dark hair, sharp black cat-eye sunglasses, and a sleek black high-neck sleeveless top. Position her in a three-quarter portrait turned slightly in profile against a modern architectural facade with diagonal window geometry. Use diffused daylight from camera-left with subtle negative fill, sculpted monochrome shadows, crisp sunglasses silhouette, gentle hair movement, an 85mm lens, high micro-contrast, natural skin texture, fine monochrome film grain, controlled highlights, and clean legible typography.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, illegible typography, random logos, text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-urban-fashion-model",
+          "required": true,
+          "source": "Original black-and-white cover preview image",
+          "usage": "Attach an approved adult face reference if identity continuity is required; preserve facial structure without celebrity likeness."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-high-neck-sleeveless-top-and-cat-eye-glasses",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the black high-neck top, sunglasses shape, and minimalist styling; the adult model may be replaced."
+        },
+        {
+          "type": "text_layout",
+          "name": "urban-elan-cover-typography",
+          "required": true,
+          "source": "Visible magazine cover typography in the original preview image and source prompt",
+          "usage": "Attach to preserve vertical title placement, serif hierarchy, VOLUME IX, WINTER, scale, and legibility; replace the title only with cleared editorial text when adapting."
+        },
+        {
+          "type": "location",
+          "name": "modern-architectural-facade",
+          "required": false,
+          "source": "Original preview image",
+          "usage": "Optional environment reference; preserve grayscale window geometry, diagonal lines, and urban depth while allowing the building to be replaced."
+        }
+      ],
+      "prompt_instructions": "Attach the adult person, wardrobe, and typography references; the architecture reference is optional. Keep the adult identity, black-and-white palette, sunglasses, high-neck top, vertical title, and architectural geometry consistent. The person, building, and magazine title may be replaced with approved/cleared equivalents; preserve facial structure for approved adult references and keep typography legible."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Lily-Pad Boat Overhead Editorial",
+  "tag": "lily-pad-boat-overhead-editorial",
+  "image_type": "topdown_travel_fashion_portrait",
+  "image_vibe": "calm_tropical_luxury",
+  "image_purpose": "travel_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Lily-Pad Boat Overhead Editorial",
+      "format": "single still photograph",
+      "aspect_ratio": "1:1 square"
+    },
+    "main_subject": {
+      "description": "An adult woman with long dark hair, a pink tropical flower tucked near one ear, and a relaxed confident expression.",
+      "wardrobe": "A lime-green short-sleeve wrap blouse and matching ankle-length wrap skirt with a closed overlap and modest side tie.",
+      "pose_and_expression": "Lying comfortably along the center of a narrow boat, one arm bent near her head and the other relaxed along her side."
+    },
+    "composition_elements": {
+      "setting": "A narrow wooden boat floating on still deep green-blue water amid large organically imperfect lily pads.",
+      "framing": "Perfect bird's-eye full-body composition, calm balanced spacing and natural water reflections.",
+      "text_and_brand_control": "No identity lock, logo, text, watermark, or body-focused crop."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft even daylight from above with minimal shadow.",
+      "mood": "Peaceful, premium, tropical, and editorial."
+    },
+    "technical_specs": {
+      "camera_style": "cinematic aerial travel editorial",
+      "lens": "35mm equivalent top-down view",
+      "rendering": "Natural green palette, subtle 35mm grain, realistic anatomy and fabric folds, non-HDR tonal range."
+    },
+    "generated_prompt_string": "Create a square cinematic aerial travel-editorial still of an adult woman with long dark hair and a pink tropical flower tucked near one ear, lying comfortably along the center of a narrow wooden boat. She wears a lime-green short-sleeve wrap blouse and matching ankle-length wrap skirt with closed overlap and modest side tie. One arm bends near her head while the other rests along her side. Surround the boat with still deep green-blue water and large organically imperfect lily pads. Use a perfect bird's-eye full-body composition, calm balanced spacing, natural water reflections, soft even daylight, subtle 35mm grain, natural green palette, realistic anatomy and fabric folds, and non-HDR tonal range. No identity lock, logos, text, watermark, or body-focused crop.",
+    "negative_prompt": "minor, celebrity likeness, identity lock, explicit, nsfw, overly revealing clothing, bandeau, high slit, lingerie, fetish styling, logo, readable text, watermark, distorted hands, extra limbs, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional and replaceable. Identity reference must show a consenting adult; boat, water, lily, and wardrobe references guide general composition only.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult facial and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "lily_pad_boat_reference",
+          "required": false,
+          "source": "user-provided location reference",
+          "usage": "Guide boat geometry, lily pads, water tone, and overhead composition."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed identity/style locks and replaced revealing two-piece/high-slit direction with a covered wrap outfit."
+  }
+}

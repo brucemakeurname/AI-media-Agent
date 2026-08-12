@@ -1,0 +1,70 @@
+{
+  "name": "shopee-emmie-summer-skin-deal-beach-mask",
+  "tag": [
+    "summer-promo",
+    "skincare",
+    "beach-theme",
+    "product-hero"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "shopee_2009431573039631",
+  "prompt": {
+    "project_info": {
+      "theme": "Summer skincare deal on the beach",
+      "color_palette": "Sky blue, beach sand beige, royal blue, yellow, white, orange"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "Two large Emmie by happySkin sheet-mask packages stand upright inside a yellow-and-white inflatable swim ring on a sandy beach. The headline reads 'CHOT DEAL MUA HE NANG CAP LAN DA'. Blue ticket banners state 'MUA 1 TANG 1', 'MA GIAM GIA DEN 45%', and 'MUA 1 TANG 2'. Palm leaves frame the top corners and beach toys sit near the sand.",
+      "style": "Bright tropical ecommerce poster with clean packshots, cheerful vacation props, and oversized promo banners"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "Emmie by happySkin / CHOT DEAL MUA HE NANG CAP LAN DA / MUA 1 TANG 1 / MA GIAM GIA DEN 45% / MUA 1 TANG 2",
+      "items": [
+        "Top Left: White Shopee logo and Emmie by happySkin brand logo",
+        "Top Right: Palm leaves and blue summer sky",
+        "Bottom Left: Small duck float toy on the sand beside the big inflatable ring",
+        "Bottom Right: Beach ball on the sand near the shoreline",
+        "Center/Background: Sandy beach and turquoise sea with two mask sachets standing inside a yellow-white float ring and a long blue coupon strip above them"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright tropical daylight",
+      "effect": "Sunlit sand, soft product shadows, clean sky glow, cheerful beach clarity"
+    },
+    "technical_specs": {
+      "render_style": "Commercial product poster with photo-composite beach environment",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for Emmie by happySkin on Shopee. Centerpiece is a tropical beach product setup with two Emmie sheet-mask sachets standing inside a yellow-and-white inflatable swim ring on sandy shore. Background is a blue sky and turquoise beach with palm leaves. Surrounding elements: Shopee logo, Emmie by happySkin logo, giant headline 'CHOT DEAL MUA HE NANG CAP LAN DA', and a blue promo ticket strip reading 'MUA 1 TANG 1', 'MA GIAM GIA DEN 45%', and 'MUA 1 TANG 2', plus a duck float toy and a beach ball. Technical style: commercial product poster with photo-composite beach environment, bright tropical daylight, clean shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Emmie by happySkin mask packshots",
+          "required": true,
+          "source": "official product packshots for both mask variants",
+          "usage": "Attach for exact packaging typography, color blocks, and brand marks"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee and Emmie by happySkin logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Preserve the exact top branding"
+        },
+        {
+          "type": "text_layout",
+          "name": "Summer beach skincare promo layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the large yellow headline, the three-part blue ticket banner, and the product-inside-float composition"
+        }
+      ],
+      "prompt_instructions": "Maintain the bright noon-beach feel and the playful prop placement. This should rebuild as a clean summer ecommerce creative, not a moody beauty shot."
+    }
+  }
+}

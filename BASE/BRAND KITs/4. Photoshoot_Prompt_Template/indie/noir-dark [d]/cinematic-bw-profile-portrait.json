@@ -1,0 +1,80 @@
+{
+  "name": "cinematic-bw-profile-portrait",
+  "tag": [
+    "adult-woman",
+    "monochrome-profile",
+    "quiet-introspection",
+    "clear-glass",
+    "minimal-interior"
+  ],
+  "image_type": "cinematic-profile-portrait",
+  "image_vibe": "quiet-monochrome-introspective",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Converted the first-person exact-face instruction into a required approved adult non-public-figure identity reference while preserving the relaxed profile pose, white shirt, clear tumbler, and monochrome introspective mood."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "cinematic monochrome profile portrait in a quiet interior",
+      "color_palette": "white, light gray, charcoal, and soft silver",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult woman matching the required approved adult non-public-figure identity reference, with light shoulder-length hair, natural skin texture, and a calm neutral expression.",
+      "wardrobe": "Relaxed white linen button-down shirt with rolled sleeves and natural fabric texture.",
+      "pose": "Leaning with ease against a smooth wall in profile, head tilted slightly back, chin lifted, eyes closed, left arm relaxed, and right hand holding a clear glass tumbler at the waist."
+    },
+    "composition_elements": {
+      "framing": "Vertical three-quarter side-profile portrait with the wall, torso, glass, and face clearly visible.",
+      "environment": "Minimal textured interior wall with pale architectural planes and no text or logos.",
+      "focus": "Sharp facial profile, shirt weave, fingers, and glass rim with gentle background falloff."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft natural window light with gentle side gradients and delicate monochrome shadow transitions.",
+      "atmosphere": "Quiet, graceful, reflective, and cinematic."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with an 85mm portrait lens at f/2.8, 1/125 s, ISO 200",
+      "quality": "Photorealistic neutral monochrome, natural skin texture, subtle film grain, realistic linen fibers, clear glass refraction, and soft depth of field"
+    },
+    "generated_prompt_string": "Create a cinematic 4:5 monochrome profile portrait of an adult woman matching the required approved adult non-public-figure identity reference. She has light shoulder-length hair, natural skin texture, and a calm neutral expression. She wears a relaxed white linen button-down shirt with rolled sleeves and leans with ease against a smooth wall in profile, head tilted slightly back, chin lifted, eyes closed, left arm relaxed, and right hand holding a clear glass tumbler at the waist. Use soft natural window light, gentle side gradients, pale architectural planes, an 85mm lens at f/2.8, realistic linen fibers, clear glass refraction, subtle film grain, and a quiet introspective mood with no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, celebrity likeness, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, distorted glass, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "The required approved adult identity reference must be attached and used only to preserve adult facial identity and facial structure. Optional shirt, wall, glass, or lighting references may replace only their named element; preserve the profile pose, eyes-closed introspection, monochrome palette, and restrained natural light.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Match adult facial identity and structure only; do not imitate a celebrity or blend faces."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white-linen-button-down-shirt",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the shirt fabric, collar, and sleeve styling while preserving its relaxed silhouette."
+        },
+        {
+          "type": "location",
+          "name": "smooth-pale-interior-wall",
+          "required": false,
+          "source": "user-uploaded location reference",
+          "usage": "Replace only the wall and pale interior planes while preserving the quiet profile composition."
+        },
+        {
+          "type": "prop",
+          "name": "clear-glass-tumbler",
+          "required": false,
+          "source": "user-uploaded prop reference",
+          "usage": "Replace only the tumbler shape and transparency without adding branding or readable text."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "retro-diner-blonde-fashion",
+  "tag": ["ugc", "lifestyle-moment", "retro-vintage", "public-indoor"],
+  "image_type": "fashion editorial portrait",
+  "image_vibe": "bright nostalgic retro diner glamour",
+  "image_purpose": "Create a vertical fashion portrait in a 1950s-inspired diner setting.",
+  "group": "lifestyle-moment",
+  "prompt": {
+    "project_info": "UGC retro-vintage public-indoor fashion concept.",
+    "main_subject": "An original adult woman with a slim, naturally curvy figure, platinum-blonde hair in a sleek high ponytail, defined eyes, glossy lips, and realistic skin texture. Do not imitate or depict any real person.",
+    "composition_elements": "Full-body vertical portrait, 9:16 framing. The subject sits elegantly in a red vinyl diner booth, body angled slightly, hands resting gracefully, looking toward the camera with a confident editorial expression. White off-shoulder long-sleeve top, high-waisted short black pleated skirt, opaque black tights, black heels, and a small black handbag.",
+    "lighting_and_atmosphere": "Bright warm indoor lighting mixed with daylight from windows; playful, cinematic, nostalgic atmosphere with clear texture detail.",
+    "technical_specs": "Professional DSLR-style photograph, ultra-photorealistic, sharp focus, natural skin texture, raw-style detail, 8K look, vertical 9:16 aspect ratio.",
+    "generated_prompt_string": "A professional full-body vertical fashion photograph of an original adult woman with platinum-blonde hair in a sleek high ponytail, seated elegantly in a red vinyl booth inside a bright 1950s-inspired retro diner. She wears a white off-shoulder long-sleeve top, high-waisted short black pleated skirt, opaque black tights, black heels, and holds a small black handbag. Turquoise and red walls, black-and-white checkered floor, pendant lights, and classic diner decor create a playful nostalgic setting. Warm indoor light mixes with daylight from windows. Confident editorial expression, realistic skin texture, sharp focus, ultra-photorealistic DSLR style, 8K look, vertical 9:16.",
+    "negative_prompt": "explicit, nsfw, overly revealing, real-person likeness, celebrity resemblance, distorted anatomy, extra fingers, duplicate limbs, blurry face, low resolution, watermark, text, logo",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "retro diner setting reference",
+          "required": false,
+          "source": "existing prompt context",
+          "usage": "Use only for the stated retro diner color and decor direction; do not reproduce a person's identity."
+        }
+      ],
+      "prompt_instructions": "Adapt from the existing prompt and folder/file naming only. Preserve the retro diner fashion concept while using an original adult subject."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named real-person likeness with an original adult subject.",
+      "Changed micro-mini wording to short and opaque wardrobe wording while preserving the fashion intent.",
+      "Added standard safety exclusions."
+    ]
+  }
+}

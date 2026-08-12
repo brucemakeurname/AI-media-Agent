@@ -1,0 +1,71 @@
+{
+  "name": "dreamy-blue-multiple-exposure-fashion",
+  "tag": [
+    "adult-woman",
+    "blue-gradient",
+    "double-exposure",
+    "white-tshirt",
+    "digital-youth",
+    "editorial"
+  ],
+  "image_type": "cinematic-fashion-portrait",
+  "image_vibe": "dreamy-cool-futuristic",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "source_url": "https://x.com/harboriis/status/2008054622334955743",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "blue multiple-exposure digital-youth portrait",
+      "color_palette": "#0033A0, #66CCFF, coral orange, white",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with shoulder-length dark wavy hair and an oversized white T-shirt.",
+      "style": "half-length cinematic fashion editorial"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "front-facing half-length portrait",
+        "central face remains sharp",
+        "one translucent ghosted face offset to the right",
+        "thin vertical blue and coral light streaks",
+        "blue gradient background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "cool blue key wash with coral-orange rim light",
+      "effect": "high-contrast futuristic glow, chromatic separation, and controlled motion blur"
+    },
+    "technical_specs": {
+      "render_style": "50-85mm lens at f/1.8, shallow depth of field, multi-exposure blur, subtle film grain",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Create a cinematic high-fashion half-length portrait of an adult woman with a dreamy editorial vibe. Use multi-exposure blur for one ghosted duplicate and vertical light streaks. Set against a blue gradient background from #0033A0 to #66CCFF; the subject wears an oversized white T-shirt. Apply high-contrast lighting with a cool blue wash and coral-orange edge highlights for a futuristic glow. Her expression is neutral and introspective, with softly lit eyes. Simulate a 50-85mm lens at f/1.8 with shallow depth of field. Enhance with motion blur and chromatic separation while keeping central facial details sharp. Aim for a surreal digital-youth mood blending minimalism and light play.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, text, logo",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-blue-fashion-subject-reference",
+          "required": false,
+          "source": "Attach an adult character reference when likeness is required.",
+          "usage": "Preserve face geometry, hair length, and neutral expression."
+        },
+        {
+          "type": "background",
+          "name": "blue-gradient-light-reference",
+          "required": false,
+          "source": "Attach color and lighting reference when exact gradient and rim-light values matter.",
+          "usage": "Maintain blue field, coral rim light, vertical streaks, and duplicate direction."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult subject, white T-shirt, blue-coral lighting, sharp central portrait, and one controlled ghost exposure. Identity and color treatment may be replaced separately."
+    }
+  }
+}

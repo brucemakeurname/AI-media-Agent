@@ -1,0 +1,81 @@
+{
+  "name": "sacred-underwater-editorial",
+  "tag": [
+    "adult-woman",
+    "underwater-fashion",
+    "champagne-dress",
+    "god-rays",
+    "full-body",
+    "editorial"
+  ],
+  "image_type": "underwater-fashion-editorial",
+  "image_vibe": "transcendent-luminous-serene",
+  "image_purpose": "campaign",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the suspended underwater subject is an adult.",
+      "Reframed potentially suggestive pose language as an elegant fully clothed underwater fashion movement."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "luminous full-body underwater fashion editorial beneath surface rays",
+      "color_palette": "deep teal, aquamarine, champagne gold, white sunlight",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman suspended underwater in an elegant arcing fashion pose, eyes closed, long hair streaming upward, wearing a fully opaque champagne satin gown and matching nude studded stilettos securely on both feet.",
+      "style": "photoreal underwater couture editorial with natural face and fabric detail"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "full-body vertical composition viewed from below",
+        "adult woman floating in a graceful curved line toward the surface",
+        "long hair fanning upward through blue water",
+        "champagne satin skirt fully unfurled like a large flowing flower",
+        "both nude studded stilettos visible and securely worn",
+        "clear pool or ocean gradient with tiny bubbles and caustics"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "strong directional surface sunlight at approximately 5600K creating visible underwater rays and caustics",
+      "effect": "luminous champagne fabric, deep teal shadow, white surface beams, serene transcendent motion"
+    },
+    "technical_specs": {
+      "render_style": "underwater housing, 24mm lens at f/4, camera below subject looking upward, Fujifilm ETERNA-inspired color treatment, subtle grain",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Create a photorealistic high-fashion underwater editorial of an adult woman suspended in clear deep teal water in an elegant fully clothed arcing movement. Her long hair streams upward toward dramatic surface rays, her eyes are closed in a peaceful expression, and she wears a champagne satin gown whose full skirt billows wide like a luminous flower. Keep both nude studded stilettos securely worn on her feet. Compose a full-body vertical shot from below with a 24mm lens at f/4, bright surface beams, ripple caustics on the gown, tiny bubbles, deep teal shadows, aquamarine light, and a luminous champagne-gold fabric finish. Preserve an ethereal, transcendent underwater-couture mood without text or logos.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, nude, drowning, panic, scared expression, floating shoes, loose shoes, extra shoes, barefoot, murky water, text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-underwater-fashion-reference",
+          "required": false,
+          "source": "Attach an authorized adult person reference when facial identity must remain consistent.",
+          "usage": "Preserve the supplied adult identity if attached; otherwise use a generic adult model."
+        },
+        {
+          "type": "wardrobe",
+          "name": "champagne-satin-gown-and-studded-heels-reference",
+          "required": false,
+          "source": "Attach wardrobe and shoe references when exact gown drape or heel construction is required.",
+          "usage": "Keep an opaque champagne gown and both heels securely worn; outfit elements may be replaced independently."
+        },
+        {
+          "type": "moodboard",
+          "name": "underwater-surface-rays-reference",
+          "required": false,
+          "source": "Attach a water-light reference for exact ray direction and teal tone.",
+          "usage": "Keep upward surface rays and clear-water caustics; lighting may be replaced."
+        }
+      ],
+      "prompt_instructions": "All references are optional. Preserve a clearly adult, fully clothed underwater subject, champagne gown, securely worn matching heels, full-body below-angle framing, and surface-ray lighting. Person, outfit, and water-light references can be replaced independently."
+    }
+  }
+}

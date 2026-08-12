@@ -1,0 +1,75 @@
+{
+    "name":  "y2k-city-paper-collage-poster",
+    "tag":  [
+                "y2k",
+                "city-collage",
+                "editorial",
+                "paper-cut",
+                "fashion"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Brand story",
+    "group":  "poster_935",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "[CITY_NAME] Y2K street-culture editorial cover",
+                                        "color_palette":  "City-derived bright sticker colors over a desaturated black-and-white street scene"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Half-body fashion portrait",
+                                        "detail":  "A stylish young adult woman, waist-up only, in a confident dynamic Y2K streetwear pose, cut out as a physical paper layer over a city collage.",
+                                        "style":  "Tactile magazine paper cut-out, halftone, ink bleed, print noise, imperfect edges, no glossy or 3D material"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Headline, portrait, city stickers, and magazine footer",
+                                                "text":  "[CITY_NAME]; [CITY-SPECIFIC STICKER CAPTIONS]",
+                                                "items":  [
+                                                              "Top: [CITY_NAME] in uppercase geometric sans letters, each on a separate colored rectangle in a slight arc.",
+                                                              "Center: waist-up young adult fashion portrait overlaps the headline and stickers.",
+                                                              "Around subject: local food, landmarks, street signs, transport and cultural symbols as paper stickers.",
+                                                              "Background: desaturated city crowd/architecture street photo with paper grain.",
+                                                              "Bottom: full-width layered magazine strip, button typography, editorial blocks and thumbnails."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft editorial portrait lighting",
+                                                   "effect":  "Even light, subtle paper-layer shadows, halftone print texture, grain, ink bleed, visibly cut edges"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "High-energy Y2K print collage",
+                                           "resolution":  "2048x2560, high detail, vertical 4:5"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "Approved young adult model reference",
+                                                                 "required":  false,
+                                                                 "source":  "licensed model imagery or generated adult character reference",
+                                                                 "usage":  "Maintain a dynamic waist-up pose; no fixed identity required."
+                                                             },
+                                                             {
+                                                                 "type":  "location",
+                                                                 "name":  "[CITY_NAME] landmark and street references",
+                                                                 "required":  true,
+                                                                 "source":  "licensed photography or approved local references",
+                                                                 "usage":  "Select accurate local architecture, food, signs, symbols and urban texture."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "Y2K collage layout",
+                                                                 "required":  true,
+                                                                 "source":  "supplied reference image",
+                                                                 "usage":  "Match colored headline tiles, central cut-out portrait, stickers and full-width footer."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Use only adult models.",
+                                                                          "Attach city-specific refs to avoid generic or inaccurate cultural symbols.",
+                                                                          "Preserve waist-up cropping; do not show legs, knees, thighs or feet."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "A high-energy Y2K-inspired editorial collage poster with a strong paper-cut and magazine print aesthetic. The entire image has tactile paper texture with visible cut edges and layered depth. Theme: {{CITY_NAME}}. All visual elements, including background imagery, stickers, symbols, typography and decorations, are culturally and visually inspired by {{CITY_NAME}}. Use a dominant fashionable young woman aged approximately 18-25 in a strict waist-up dynamic Y2K pose, with a playful confident expression; crop the lower body completely. Use soft even magazine lighting and integrate the subject as a paper cut-out. At top, write \u0027{{CITY_NAME}}\u0027 in bold uppercase geometric sans-serif, each letter on an individual colored paper rectangle in a slight arc. Surround her with local-food, landmark, street-sign and iconic-object stickers. Use a softened desaturated urban street background from {{CITY_NAME}}. Add a full-width magazine collage footer of layered strips, bold button typography, small editorial text blocks and thumbnail graphics. Maintain paper grain, halftone dots, print noise, ink bleed, imperfect edges and subtle layered shadows. Avoid full-body view, stiff poses, childish or sexualized expression, glossy digital/3D materials, minimalist layouts, and unreadable text.",
+                   "negative_prompt":  "full body, visible legs, stiff pose, child, sexualized pose, distorted face, extra fingers, glossy materials, plastic skin, minimal layout, unreadable text, watermark, logo"
+               }
+}

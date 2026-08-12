@@ -1,0 +1,43 @@
+﻿{
+    "name":  "hyper-realistic-black-lace-mirror-selfie",
+    "tag":  [
+                "ugc",
+                "selfie-pov",
+                "retro-film",
+                "private-indoor",
+                "black-lace",
+                "mirror",
+                "fashion"
+            ],
+    "image_type":  "black-lace-mirror-selfie",
+    "image_vibe":  "neutral-editorial-film",
+    "image_purpose":  "fashion mirror selfie and lace styling reference",
+    "group":  "retro-film",
+    "prompt":  {
+                   "project_info":  "Photorealistic 9:16 mirror selfie adapted from the source prompt and two supplied references.",
+                   "main_subject":  "Clearly adult woman matching the supplied approved-adult face and expression references, wearing a long-sleeve black floral-lace maxi dress with architectural sweetheart neckline, eyelash-lace trim, high-tensile nude underlay and red nails.",
+                   "composition_elements":  "Frontal mirror selfie, face partly obscured by beige smartphone, arched gold-framed mirror, white wall, grey drapes and dark wood nightstand.",
+                   "lighting_and_atmosphere":  "Neutral indoor ambient light with soft bedside lamp glow and realistic lace shadows, refined editorial mood.",
+                   "technical_specs":  "Vertical 9:16, iPhone 17 Pro-like 35mm, f/5.6 sharpness, digital grain, realistic lace, phone and reflection.",
+                   "generated_prompt_string":  "Photorealistic 9:16 raw iPhone-style mirror selfie of a clearly adult woman matching the supplied approved-adult face and expression references, wearing a long-sleeve black floral-lace maxi dress with architectural sweetheart neckline, eyelash-lace trim, high-tensile nude underlay and red nails, holding a beige smartphone before an arched gold mirror, white wall, grey drapes and dark wood nightstand, neutral ambient light, soft bedside glow, 35mm detail and digital grain, no text or logos.",
+                   "negative_prompt":  "explicit, nsfw, overly revealing, exposed body, exposed breasts, exposed genitals, child, minor, wardrobe malfunction, distorted anatomy, bad hands, plastic skin, watermark, text, logo",
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "hyper-realistic-black-lace-mirror-selfie_0.jpg",
+                                                                 "required":  true,
+                                                                 "source":  "local asset",
+                                                                 "usage":  "Use for approved-adult face, expression, lace dress, mirror geometry and room."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  "Attach the local asset as required. Preserve face, expression, outfit, mirror, phone and lighting; remove numerical body emphasis and use only approved adult identity references, never celebrity likeness."
+                                          }
+               },
+    "policy_review":  {
+                          "status":  "remediated",
+                          "changes":  [
+                                          "Removed numerical bust/waist-to-hip emphasis while preserving the lace fashion silhouette and pose."
+                                      ]
+                      }
+}

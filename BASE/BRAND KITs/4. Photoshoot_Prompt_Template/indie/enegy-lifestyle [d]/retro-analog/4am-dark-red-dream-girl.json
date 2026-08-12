@@ -1,0 +1,66 @@
+{
+  "name": "4am-dark-red-dream-girl",
+  "tag": [
+    "adult-woman",
+    "red-led-bedroom",
+    "y2k-nostalgia",
+    "lofi-grain",
+    "4am-mood"
+  ],
+  "image_type": "low-fi-bedroom-portrait",
+  "image_vibe": "melancholic-dreamy-nostalgic",
+  "image_purpose": "creative-editorial",
+  "group": "indie/enegy-lifestyle/retro-analog",
+  "source_url": "https://x.com/HumanAIGallery/status/2022166063597691083",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject is an adult and replaced the unbranded thin tank and micro-shorts with a covered ribbed long-sleeve top and relaxed shorts; all magazines and screens are abstracted to avoid readable text."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult 4 AM red-LED bedroom nostalgia portrait",
+      "color_palette": "deep red, cold phone blue, black, worn gray, and muted silver",
+      "aspect_ratio": "9:16"
+    },
+    "main_subject": {
+      "description": "A 21-year-old adult woman with disheveled long hair, soft messy mascara, a distant thoughtful gaze, and natural dewy skin.",
+      "wardrobe": "White ribbed long-sleeve crew-neck top, relaxed charcoal lounge shorts, and layered unbranded silver necklaces.",
+      "pose": "Lying comfortably on a floor of abstract paper textures and cables, head turned upward toward a high-angle camera, with wired earphones loosely around the neck."
+    },
+    "composition_elements": {
+      "framing": "Vertical high-angle medium portrait with the adult subject centered amid a 4 AM bedroom still life.",
+      "environment": "Red-LED-lit bedroom, blurred vinyl stacks, tangled white cables, and an old TV showing non-text abstract static; no readable magazine pages or screens."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Deep red LED plus cold blue phone-screen light, heavy shadows, soft bloom, and saturated dual-tone contrast.",
+      "atmosphere": "Intimate, melancholic, raw, nostalgic, and unpolished."
+    },
+    "technical_specs": {
+      "camera": "vintage compact-digital look",
+      "quality": "slightly soft focus, heavy digital grain, hand motion blur, lens bloom, natural skin texture"
+    },
+    "generated_prompt_string": "Create a photoreal 9:16 low-fi Y2K bedroom portrait of a 21-year-old adult woman at 4 AM. She has disheveled long hair, soft messy mascara, a distant thoughtful gaze, natural dewy skin, a white ribbed long-sleeve crew-neck top, relaxed charcoal lounge shorts, layered unbranded silver necklaces, and wired earphones loosely around her neck. Pose her lying comfortably on a floor of abstract paper textures and cables, looking upward to a high-angle camera. Surround her with red LED strips, blurred vinyl stacks, tangled white cables, and an old TV showing abstract static with no text. Use deep red LED and cold blue phone light, saturated dual-tone contrast, heavy shadows, soft bloom, slightly soft focus, vintage digital grain, and no readable text or logos.",
+    "negative_prompt": "minor, tank top, micro shorts, underwear, nudity, explicit, nsfw, overly revealing clothing, readable magazine text, readable screen, logo, watermark, plastic skin, distorted anatomy, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use them only to replace adult lounge styling, LED palette, vinyl arrangement, or compact-camera grain; remove text and branding.",
+      "assets": [
+        {
+          "type": "wardrobe_reference",
+          "name": "covered-white-and-charcoal-4am-look",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace adult subject's top, shorts, necklaces, and earphones."
+        },
+        {
+          "type": "environment_reference",
+          "name": "red-led-bedroom-still-life",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace LED intensity, cables, vinyl stacks, and television shape without text."
+        }
+      ]
+    }
+  }
+}

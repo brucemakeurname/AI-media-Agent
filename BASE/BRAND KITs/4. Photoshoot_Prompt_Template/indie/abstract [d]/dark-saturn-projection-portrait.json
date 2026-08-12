@@ -1,0 +1,64 @@
+{
+  "name": "dark-saturn-projection-portrait",
+  "tag": ["adult-woman", "saturn", "projection-mapping", "rainbow-refraction", "low-key", "portrait"],
+  "image_type": "projection-mapped-portrait",
+  "image_vibe": "cosmic-dark-dreamy",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "source_url": "https://x.com/astronomerozge1/status/2021243250363797961",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "low-key Saturn projection portrait",
+      "color_palette": "deep black, cyan, magenta, mint green, cool planetary blue",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with long dark hair, natural skin texture, minimal makeup, a dark sleeveless top, and one hand lightly near her ear.",
+      "style": "photoreal cinematic low-key projection portrait"
+    },
+    "composition_elements": {
+      "text": "No rendered text, logo, or watermark.",
+      "items": [
+        "three-quarter portrait in the lower half of frame",
+        "glowing Saturn centered behind the head as a halo",
+        "Saturn ring extends laterally behind the subject",
+        "rainbow refraction bands cross face, hair, and raised hand",
+        "pure black seamless background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "projector as key light with very subtle fill",
+      "effect": "deep blacks, high contrast, believable projection falloff, natural catchlights, and slight halation on bright bands"
+    },
+    "technical_specs": {
+      "render_style": "50mm lens at f/2.0, eyes and lips sharp, gentle hair falloff, subtle film grain",
+      "resolution": "high resolution, 4:5"
+    },
+    "generated_prompt_string": "Create a moody low-key projection-mapping portrait of an adult woman against a pure black seamless background. Frame a three-quarter portrait slightly low in the composition with negative space above. Place a glowing Saturn with rings behind her head like a luminous halo; project saturated cyan, magenta, green, and cool-blue refraction bands across her face and arm with believable soft falloff. She has long natural dark hair, minimal realistic makeup, a dark non-reflective top, relaxed shoulders, one hand near her ear, and a calm dreamy expression. Use a projector as the key light plus subtle fill, deep blacks, controlled highlights, natural pores, sharp eyes and lips, 50mm f/2.0 optics, cinematic photorealism, and subtle film grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, text, logo, watermark, bright background, HDR, plastic skin, over-smoothed face, cartoon, anime, CGI look, banding artifacts, crushed noisy shadows, extra fingers, deformed hands, distorted face",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-projection-subject-reference",
+          "required": false,
+          "source": "Attach an adult person reference when exact likeness is needed.",
+          "usage": "Preserve facial identity, long dark hair, and relaxed three-quarter pose."
+        },
+        {
+          "type": "graphic",
+          "name": "saturn-projection-reference",
+          "required": false,
+          "source": "Attach a projection or Saturn graphic reference when exact ring geometry and color bands are needed.",
+          "usage": "Maintain Saturn-behind-head placement and multicolor refraction direction."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult subject, pure black studio, Saturn halo placement, and realistic projector-light behavior. Identity and Saturn graphic may be replaced independently."
+    }
+  }
+}

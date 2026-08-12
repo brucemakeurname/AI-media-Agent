@@ -1,0 +1,70 @@
+{
+  "name": "techcombank-oneu-preorder-brothers-merch-trackset",
+  "tag": [
+    "merch-preorder",
+    "fan-culture",
+    "oneu",
+    "event-merch"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Special offers",
+  "group": "techcombank_1504708187568189",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank OneU merchandise pre-order launch",
+      "color_palette": "Volcanic red, ember orange, white, black"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A dramatic merchandise pre-order poster with logos 'YEAH1', 'PRODUCTION', and 'TECHCOMBANK'. A red pill says 'PRE-ORDER'. Main copy reads 'Merchandise tren Techcombank OneU' and 'Loi hon khi thanh toan bang U-Point'. The product hero is a white track jacket and matching white pants with dark red striping and a crest logo, displayed inside a glowing rectangular frame. Red U-point coins float around, along with a red circular 'FREESHIP' badge. A large date bar reads '18:00 | THU 4, 15/07/2026'. Bottom branding is 'ANH TRAI VUOT NGAN CHONG GAI 2026' over a volcanic landscape.",
+      "style": "High-drama event-merch poster with fantasy-volcanic backdrop, glossy apparel product display, and esports/concert pre-order energy"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "YEAH1 / PRODUCTION / TECHCOMBANK / PRE-ORDER / Merchandise tren Techcombank OneU / Loi hon khi thanh toan bang U-Point / FREESHIP / 18:00 | THU 4, 15/07/2026 / ANH TRAI VUOT NGAN CHONG GAI 2026",
+      "items": [
+        "Top Left: YEAH1 and PRODUCTION logos",
+        "Top Right: Techcombank logo",
+        "Bottom Left: Volcanic rocky terrain and brand-title lockup",
+        "Bottom Right: Floating red U-point coin and circular FREESHIP badge",
+        "Center/Background: White track jacket and pants inside a glowing frame against a fiery mountain-and-lava sky"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Dramatic fantasy-commercial lighting",
+      "effect": "Fiery horizon glow, spark particles, glossy apparel highlights, cinematic red-orange contrast"
+    },
+    "technical_specs": {
+      "render_style": "Event-merch launch poster with commercial product compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank OneU merchandise pre-order. Centerpiece is a white track jacket and matching pants with dark red accents displayed inside a glowing rectangular frame. Background is a dramatic volcanic landscape with fiery sky and spark particles. Surrounding elements: YEAH1, PRODUCTION, and Techcombank logos, red pill 'PRE-ORDER', text 'Merchandise tren Techcombank OneU', line 'Loi hon khi thanh toan bang U-Point', floating red U-point coins, a circular 'FREESHIP' badge, date bar '18:00 | THU 4, 15/07/2026', and bottom brand title 'ANH TRAI VUOT NGAN CHONG GAI 2026'. Technical style: event-merch launch poster with commercial product compositing, dramatic fantasy-commercial lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Official track jacket and pants merchandise renders",
+          "required": true,
+          "source": "original merch packshots or apparel photos",
+          "usage": "Attach for exact crest logo, stripe placement, garment silhouette, and fabric structure"
+        },
+        {
+          "type": "logo",
+          "name": "YEAH1, PRODUCTION, Techcombank, and OneU/merch branding",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Preserve the top header logos and event identity"
+        },
+        {
+          "type": "text_layout",
+          "name": "Merch pre-order volcanic poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the exact pre-order badge, date bar, product framing, and bottom title lockup"
+        }
+      ],
+      "prompt_instructions": "Preserve '15/07/2026' exactly. Relative to Friday, July 17, 2026, that pre-order time is in the past and should remain unchanged because it is visible event copy."
+    }
+  }
+}

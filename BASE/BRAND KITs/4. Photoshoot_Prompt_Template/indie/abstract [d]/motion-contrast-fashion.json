@@ -1,0 +1,72 @@
+{
+  "name": "motion-contrast-fashion",
+  "tag": [
+    "adult-man",
+    "brown-hooded-jacket",
+    "crowd-blur",
+    "winter-street",
+    "motion-contrast",
+    "editorial"
+  ],
+  "image_type": "cinematic-street-fashion-portrait",
+  "image_vibe": "still-focused-urban-cool",
+  "image_purpose": "editorial",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Resolved conflicting gender pronouns and clarified an adult male subject.",
+      "Replaced the aggressive wardrobe wording with a neutral brown hooded technical jacket."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "still adult man contrasted with a rushing blurred crowd",
+      "color_palette": "brown, black, winter white, cool gray",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult man",
+      "detail": "An adult man with dark curly hair, thin metal-frame glasses, a calm stoic expression, and a brown hooded technical jacket with matching trousers.",
+      "style": "centered cold-weather fashion portrait"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "full or three-quarter adult man standing motionless in the center",
+        "anonymous passersby crossing close to camera in strong horizontal motion blur",
+        "bright lightly abstract winter street or transit setting",
+        "sharp face and brown outerwear contrasting with moving dark crowd"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft overcast daylight at approximately 6500K with cool ambient fill",
+      "effect": "clean pale background, gentle film texture, and a deliberate contrast between stillness and movement"
+    },
+    "technical_specs": {
+      "render_style": "50mm lens at f/2.8, tripod-held subject focus with controlled slow-shutter crowd blur, subtle analog grain",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "A high-fashion editorial portrait of an adult man standing still in the center of a bright, clean, slightly abstract winter city setting, looking directly toward the camera with a calm stoic expression. He has dark curly hair, thin metal-frame glasses, and wears a brown hooded technical jacket with matching trousers. Surround him with anonymous people passing by in strong motion blur, while his face and clothing remain sharply focused. Emphasize the visual contrast between static presence and moving silhouettes. Use film composition, pure art-photography sensibility, soft magazine texture, overcast daylight, a 50mm lens at f/2.8, controlled slow-shutter blur, and portrait 4:5 framing.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, recognizable bystanders, text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "brown-hooded-technical-jacket-reference",
+          "required": false,
+          "source": "Attach a wardrobe reference when exact jacket cut, fabric, or pocket layout is required.",
+          "usage": "Keep the brown hooded technical outerwear silhouette; it may be replaced."
+        },
+        {
+          "type": "background",
+          "name": "winter-crowd-motion-reference",
+          "required": false,
+          "source": "Attach a location plate when a specific pedestrian density or building layout is needed.",
+          "usage": "Maintain anonymous blurred passersby and a bright winter urban field; location may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve a clearly adult central man, brown hooded outerwear, sharp still subject, and anonymous crowd motion blur. Wardrobe and city environment may be replaced independently."
+    }
+  }
+}

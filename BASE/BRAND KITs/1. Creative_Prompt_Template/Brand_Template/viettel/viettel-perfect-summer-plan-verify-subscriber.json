@@ -1,0 +1,78 @@
+{
+  "name": "viettel-perfect-summer-plan-verify-subscriber",
+  "tag": [
+    "viettel",
+    "summer",
+    "subscriber-verification",
+    "illustration",
+    "brand-story"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Brand story",
+  "group": "viettel_877097045435098",
+  "prompt": {
+    "project_info": {
+      "theme": "Summer travel preparation story with subscriber verification as the overlooked final step",
+      "color_palette": "Pastel Pink, Soft Peach, White, Viettel Red, Black"
+    },
+    "main_subject": {
+      "type": "Person/Object",
+      "detail": "A stylized anime-like young woman in a pink summer dress, straw hat, and round sunglasses smiles while holding travel tickets beside a pink suitcase and camera, while a checklist of travel tasks appears to the right.",
+      "style": "Soft watercolor-inspired anime commercial illustration with travel props, light floral background, and polished ad typography."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "viettel telecom\nKế Hoạch Hè\nHoàn Hảo\nĐặt vé máy bay\nĐặt phòng khách sạn\nChuẩn bị hành lý\nXác thực thuê bao\nMọi thứ đã sẵn sàng,\ntrừ 1 việc nhỏ có thể làm gián đoạn liên lạc.\nXác thực ngay bạn nhé!",
+      "items": [
+        "Top Left: Viettel telecom logo on a pale watercolor background.",
+        "Top Right: Travel-prep checklist card with icons for plane, hotel, luggage, and subscriber verification, each marked complete in red.",
+        "Bottom Left: Large pink suitcase, compact camera, floral watercolor wash, and the illustrated traveler holding boarding passes.",
+        "Bottom Right: Bold concluding copy emphasizing subscriber verification.",
+        "Center/Background: Large decorative headline 'Kế Hoạch Hè Hoàn Hảo' with a small sun doodle."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft watercolor illustration lighting",
+      "effect": "Pastel glow, hand-painted softness, delicate floral texture, and crisp ad text overlays."
+    },
+    "technical_specs": {
+      "render_style": "Commercial anime watercolor illustration poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality illustrated telecom poster for Viettel summer travel preparation. Centerpiece is a soft anime-style girl in a pink dress and straw hat holding travel tickets beside a pink suitcase and camera. Background is a pale watercolor floral wash. Surrounding elements: Viettel telecom logo, headline 'Kế Hoạch Hè Hoàn Hảo', a checklist card with plane, hotel, luggage, and subscriber verification items, and concluding copy about verifying subscriber information before travel. Technical style: commercial anime watercolor illustration poster, pastel soft lighting, crisp text overlays, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel Telecom logo",
+          "required": true,
+          "source": "official Viettel brand asset",
+          "usage": "Place at top left."
+        },
+        {
+          "type": "person",
+          "name": "Anime-style female traveler reference",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve the pink dress, straw hat, sunglasses, and ticket-holding pose."
+        },
+        {
+          "type": "accessory",
+          "name": "Pink suitcase, camera, boarding tickets, hotel and plane icons",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Use as the travel-prop system supporting the checklist story."
+        },
+        {
+          "type": "text_layout",
+          "name": "Summer plan checklist layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Keep exact wording and checkbox arrangement."
+        }
+      ],
+      "prompt_instructions": "Maintain the soft illustrated mood rather than turning this into a realistic photo ad. The key punchline is that subscriber verification is the final unchecked risk in an otherwise perfect summer plan."
+    }
+  }
+}

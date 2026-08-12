@@ -1,0 +1,65 @@
+{
+  "name": "lilixbox-for-your-everyday-mini-kit",
+  "tag": [
+    "summer-kit",
+    "product-grid",
+    "everyday",
+    "lixibox",
+    "cobas-daughter",
+    "lifestyle-essentials"
+  ],
+  "biz_niche": "E-commerce & Retail",
+  "content_format": "Product demos",
+  "group": "lilixbox_889268370200815",
+  "prompt": {
+    "project_info": {
+      "theme": "Everyday essentials mini-kit poster",
+      "color_palette": "Sky Blue, Coral Orange, Soft White, Black, Warm Peach"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A clean product-grid poster showcasing a curated mini summer kit including LIXIBOX Twilight Cedar, Hydrating Hand Sanitizer, Peptide Lip Syrup, and two CoBa's Daughter jars, under the headline 'FOR YOUR EVERYDAY'.",
+      "style": "Minimal e-commerce kit poster, curated essentials flat layout, fresh summer retail graphic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'FOR YOUR EVERYDAY' and 'Tươi tắn suốt cả ngày'. Visible product names include 'Twilight Cedar', 'Hydrating Hand Sanitizer', 'Peptide Lip Syrup', 'CoBa's Daughter Almond Orange Exfoliator', and 'CoBa's Daughter Aloe Soothing Gel'.",
+      "items": [
+        "Top Left: Orange headline 'FOR YOUR EVERYDAY' over a sky-blue backdrop.",
+        "Top Right: Orange Vietnamese subline 'Tươi tắn suốt cả ngày'.",
+        "Bottom Left: Large CoBa's Daughter Almond Orange Exfoliator jar with a 'Made in Vietnam' side sticker.",
+        "Bottom Right: CoBa's Daughter Aloe Soothing Gel jar mirrored by the exfoliator jar, also with 'Made in Vietnam' side detail.",
+        "Center/Background: Top row of smaller items arranged neatly above the jars: Twilight Cedar bottle, hand sanitizer, boxed lip syrup, and lip-syrup tube."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio catalog lighting",
+      "effect": "Clean packshot shadows, fresh retail brightness, crisp product-label clarity"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity retail product-grid poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for an everyday essentials mini-kit. Centerpiece is a neatly curated product arrangement on a soft sky-blue background, featuring LIXIBOX Twilight Cedar, Hydrating Hand Sanitizer, Peptide Lip Syrup, and two CoBa's Daughter jars labeled Almond Orange Exfoliator and Aloe Soothing Gel. Surrounding elements: headline 'FOR YOUR EVERYDAY' and subline 'Tươi tắn suốt cả ngày'. Keep the top-row mini products above the two larger jars and preserve the clean summer-kit catalog layout. Technical style: high fidelity retail product-grid poster, soft studio catalog lighting, clean packshot shadows and crisp label clarity, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "LIXIBOX and CoBa's Daughter everyday kit assortment",
+          "required": true,
+          "source": "Attach product packshots or crops from the original poster",
+          "usage": "Preserve the exact assortment, packaging colors, and item order."
+        },
+        {
+          "type": "text_layout",
+          "name": "FOR YOUR EVERYDAY headline layout",
+          "required": true,
+          "source": "Use the original poster as text reference",
+          "usage": "Keep the headline and subline placement at the top."
+        }
+      ],
+      "prompt_instructions": "When recreating with gpt-image-2, use the original poster as a composition reference so the item arrangement remains identical. Do not add extra products or change the clean grid structure."
+    }
+  }
+}

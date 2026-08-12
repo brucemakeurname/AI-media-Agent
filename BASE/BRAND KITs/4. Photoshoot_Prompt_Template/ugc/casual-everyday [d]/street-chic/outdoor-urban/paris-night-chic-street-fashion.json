@@ -1,0 +1,19 @@
+{
+  "name": "paris-night-chic-street-fashion",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "paris-night", "leather-jacket"],
+  "image_type": "night-street-fashion-portrait",
+  "image_vibe": "chic-confident-late-night",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a highly detailed editorial night street portrait of an approved adult woman in a sophisticated urban setting.",
+    "main_subject": "An approved adult woman with long loose dark-brown waves, natural refined makeup, wearing a light grey quarter-zip sweatshirt with optional small logo, a dark leather jacket draped over her shoulders, black shorts or mini skirt with sheer tights, and a black leather handbag. Her hands rest casually near her pockets.",
+    "composition_elements": "Vertical fashion portrait against a pale textured facade and dark doorway, low-key warm light from the left, subtle black heart overlay only when supplied as a layout reference.",
+    "lighting_and_atmosphere": "Warm directional streetlight with dark ambient background, realistic hair and fabric highlights, confident late-night street style.",
+    "technical_specs": "Photorealistic high-resolution 85mm-style portrait, vertical framing, sharp subject, shallow depth, realistic skin, leather, knit, hosiery, and handbag texture.",
+    "generated_prompt_string": "Create a photorealistic vertical editorial night portrait of an approved adult woman with long loose dark-brown waves and refined natural makeup. She wears a light grey quarter-zip sweatshirt, dark leather jacket draped over her shoulders, black shorts or mini skirt with sheer tights, and carries a black leather handbag. Place her before a pale textured facade and dark doorway, with warm light from the left and low-key city-night ambience. Preserve optional small logo or heart overlay only with supplied references, and use realistic textures and confident chic styling.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, altered logo, extra fingers, deformed hands, distorted face",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-paris-night-subject", "required": true, "source": "paris-night-chic-street-fashion.jpg", "usage": "Preserve adult identity, hair, expression, and pose."}, {"type": "wardrobe", "name": "grey-quarterzip-leather-layer", "required": true, "source": "paris-night-chic-street-fashion.jpg", "usage": "Keep sweatshirt, jacket, bottoms, tights, and bag consistent; replace only with explicit references."}, {"type": "location", "name": "textured-paris-night-facade", "required": true, "source": "paris-night-chic-street-fashion.jpg", "usage": "Maintain facade, doorway, warm light, and night environment; replace only with explicit references."}, {"type": "text_layout", "name": "optional-logo-heart-overlay", "required": false, "source": "paris-night-chic-street-fashion.jpg", "usage": "Attach only when supplied logo/overlay typography must be retained; do not invent or alter text."}], "prompt_instructions": "Attach person, wardrobe, location, and optional text-layout references when exact consistency is required. Keep adult identity, outfit, product, environment, logo, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and added controlled logo/overlay handling.", "Added safe negative prompts and structured references."]}
+}

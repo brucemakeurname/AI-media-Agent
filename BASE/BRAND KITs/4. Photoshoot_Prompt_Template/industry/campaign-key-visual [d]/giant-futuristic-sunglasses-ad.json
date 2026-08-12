@@ -1,0 +1,60 @@
+{
+  "name": "giant-futuristic-sunglasses-ad",
+  "tag": ["adult-woman", "vantage-eyewear", "oversized-sunglasses", "blue-studio", "vision-typography", "luxury-eyewear"],
+  "image_type": "futuristic-eyewear-advertisement",
+  "image_vibe": "futuristic-luxurious-precise",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the model as an adult and used feminine-silhouette, tailored-fit, and directional-light language while preserving the giant Vantage eyewear sculpture, blue studio, seated pose, and VISION typography."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "avant-garde futuristic eyewear advertisement",
+      "color_palette": "powder blue, white, graphite, navy lenses, and glossy silver reflections",
+      "aspect_ratio": "1:1"
+    },
+    "main_subject": {
+      "description": "An adult woman with a feminine silhouette, sleek straight hair, natural skin texture, and a composed sideward gaze.",
+      "wardrobe": "Tailored slate-blue suit with structured blazer, high-neck fitted top, wide-leg trousers, and polished black ankle boots.",
+      "pose": "Seated confidently on the bridge of oversized futuristic sunglasses positioned like sculptural furniture, one knee raised and one leg extended to the reflective floor.",
+      "styling": "Minimal luxury eyewear editorial with precise modern grooming."
+    },
+    "composition_elements": {
+      "framing": "Square ultra-clean composition with giant sunglasses dominating the lower foreground and adult subject integrated at center.",
+      "environment": "Powder-blue studio background with glossy reflective floor and giant white VISION typography behind the subject.",
+      "product_details": "Oversized graphite eyewear with navy lenses and sculptural technical frame labeled VANTAGE; add small text VANTAGE EYEWEAR and FUTURE IN FOCUS. Render labels accurately.",
+      "focus": "Sharp frame geometry, lens reflections, tailored suit texture, adult subject, floor reflection, and legible typography."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft cinematic studio lighting with clean highlights on the eyewear and suit, controlled shadows, and realistic reflections beneath the product.",
+      "atmosphere": "Futuristic, precise, luxurious, minimal, and confident."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with a 50mm lens at f/5.6, 1/200 s, ISO 100",
+      "quality": "Ultra-realistic high-resolution eyewear campaign, crisp frame and lens detail, clean typography, polished floor reflections, and commercial clarity"
+    },
+    "generated_prompt_string": "Create a premium 1:1 futuristic eyewear advertisement in a powder-blue studio. Show an adult woman with a feminine silhouette, sleek straight hair, natural skin texture, and composed sideward gaze, wearing a tailored slate-blue suit with structured blazer, high-neck fitted top, wide-leg trousers, and polished black ankle boots. Seat her confidently on the bridge of oversized graphite sunglasses with navy lenses and technical frame labeled VANTAGE, one knee raised and one leg extended to the glossy reflective floor. Add giant white VISION typography behind her plus accurate small text VANTAGE EYEWEAR and FUTURE IN FOCUS. Use soft cinematic studio light, crisp frame geometry and lens reflections, clean commercial composition, and no watermark or extra text.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, illegible labels, distorted eyewear geometry, extra fingers, deformed anatomy, watermark, cluttered composition, flat lighting",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult subject. Optional suit, eyewear, typography, studio, or lighting references may replace only their named element; preserve tailored coverage, feminine silhouette, seated product pose, Vantage branding, and VISION campaign message.",
+      "assets": [
+        {
+          "type": "product",
+          "name": "oversized-vantage-futuristic-sunglasses",
+          "required": false,
+          "source": "user-uploaded eyewear reference",
+          "usage": "Replace only the frame geometry, lens tint, bridge, or VANTAGE label while preserving the oversized sculpture composition."
+        },
+        {
+          "type": "wardrobe",
+          "name": "slate-blue-tailored-eyewear-editorial-suit",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the blazer, top, trousers, or boots while preserving precise tailored coverage and blue palette."
+        }
+      ]
+    }
+  }
+}

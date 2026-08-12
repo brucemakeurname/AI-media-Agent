@@ -1,0 +1,75 @@
+{
+    "name":  "streetwear-design-orange-jacket-poster",
+    "tag":  [
+                "streetwear",
+                "orange bomber jacket",
+                "urban grunge",
+                "creative poster",
+                "DESIGN typography"
+            ],
+    "biz_niche":  "Fashion & Apparel / Editorial",
+    "content_format":  "Brand story",
+    "group":  "poster_streetwear_editorial",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "DESIGN urban streetwear digital poster",
+                                        "color_palette":  "Orange, beige, charcoal, warm yellow, concrete gray, white"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Person",
+                                        "detail":  "A young woman in an orange bomber jacket, mustard tee, beige ribbed beanie, and blue jeans holds a dark tablet at waist height while looking off-frame.",
+                                        "style":  "Photoreal streetwear portrait composited into weathered grunge typography and orange smoke"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Portrait, oversized type, slogan, and smoke",
+                                                "text":  "DESIGN; Made with Nano Banana Pro; X: @rovymut_",
+                                                "items":  [
+                                                              "Top: enormous distressed white DESIGN letters fill the black-and-concrete background behind the model.",
+                                                              "Center: waist-up woman and tablet, body mostly frontal with gaze to viewer right.",
+                                                              "Left middle: stacked white/orange \u0027Made with Nano Banana Pro\u0027 text.",
+                                                              "Right edge: small vertical X handle.",
+                                                              "Bottom: dense orange smoke billows across frame, merging with a dark scratched-film texture and small sparkle at lower right."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft front-left studio key with warm lower glow",
+                                                   "effect":  "Natural portrait detail, subtle hair rim, industrial grunge, scratched print texture, orange smoke haze"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "High-resolution composite fashion poster, 85mm portrait aesthetic",
+                                           "resolution":  "4k resolution, highly detailed, vertical format"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "streetwear model pose and wardrobe",
+                                                                 "required":  true,
+                                                                 "source":  "licensed model and wardrobe reference",
+                                                                 "usage":  "Preserve orange bomber, beige beanie, tablet pose, and off-camera gaze."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "DESIGN typographic layout",
+                                                                 "required":  true,
+                                                                 "source":  "source preview",
+                                                                 "usage":  "Keep huge distressed background lettering and left slogan hierarchy."
+                                                             },
+                                                             {
+                                                                 "type":  "background",
+                                                                 "name":  "concrete wall and orange smoke",
+                                                                 "required":  true,
+                                                                 "source":  "source preview",
+                                                                 "usage":  "Maintain the dark industrial wall, grain, scratches, and low orange smoke."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach licensed model reference only when exact likeness is required.",
+                                                                          "Keep the model readable against the oversized DESIGN letters.",
+                                                                          "Typeset headline, handle, and slogan after render."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "A vertical promotional graphic featuring a waist-up portrait of a young woman holding a digital tablet. She is styled in streetwear (orange bomber jacket, beige beanie). Behind her, massive typography spells \u0027DESIGN\u0027. To her left, text in English is visible. The aesthetic is urban, grunge, and modern, with a textured overlay resembling scratched film or worn paper. The bottom of the image features orange, smoke-like clouds blending into the dark background. High resolution digital advertisement / composite photo manipulation, portrait or telephoto 85mm equivalent, low natural grain, soft artificial studio key from front-left, subtle rim light on hair, neutral subject light with warm orange glow at bottom, high contrast orange, beige, charcoal, and yellow palette, medium waist-up framing and eye-level viewpoint.",
+                   "negative_prompt":  "clean corporate style, missing tablet, wrong wardrobe, flat background, no grunge texture, illegible DESIGN type, low resolution, watermark, signature"
+               }
+}

@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-natural-tone-up-sunfluid-model-demo",
+  "tag": [
+    "model-demo",
+    "sunscreen",
+    "tone-up",
+    "portrait",
+    "beauty",
+    "application-shot"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "cocoon_1575047337600494",
+  "prompt": {
+    "project_info": {
+      "theme": "Beauty application demo for natural tone-up effect",
+      "color_palette": "Sky Blue, Soft Peach Pink, Warm Beige, White, Gold"
+    },
+    "main_subject": {
+      "type": "Person/Product",
+      "detail": "A smiling young man in close portrait view while a hand applies Cocoon Hau Giang lotus mineral sun fluid by tipping the bottle near his temple, letting a beige stream run down his cheek against a blue-to-pink gradient background.",
+      "style": "Polished beauty campaign portrait, skincare application shot, clean premium editorial retouching"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'NÂNG TÔNG TỰ NHIÊN', 'Giúp da đều màu, rạng rỡ với độ che phủ nhẹ', and 'Chất sữa mỏng, ráo mịn, không bóng dầu'.",
+      "items": [
+        "Top Left: Open sky-blue gradient area around the model's hairline.",
+        "Top Right: A hand holding the white sunscreen bottle upside down at the model's temple.",
+        "Bottom Left: Close smile profile of the model with smooth, glowy skin and visible teeth.",
+        "Bottom Right: Large white headline 'NÂNG TÔNG TỰ NHIÊN' and two smaller descriptive text blocks.",
+        "Center/Background: Beige sunscreen stream running vertically down the cheek over the soft blue-to-peach gradient backdrop."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Studio beauty lighting",
+      "effect": "Smooth skin sheen, bright facial highlights, clean creamy product texture, cheerful fresh mood"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity beauty portrait photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a beauty application demo showing natural tone-up effect. Centerpiece is a smiling young man in close portrait while a hand tilts a Cocoon Hau Giang lotus mineral sun fluid bottle at his temple, allowing a beige sunscreen stream to run down his cheek. Background is a soft sky-blue to peach gradient. Surrounding elements: headline 'NÂNG TÔNG TỰ NHIÊN', the exact copy 'Giúp da đều màu, rạng rỡ với độ che phủ nhẹ' and 'Chất sữa mỏng, ráo mịn, không bóng dầu'. Keep the close facial crop, realistic product stream, and polished skincare campaign finish. Technical style: high fidelity beauty portrait photography, studio beauty lighting, smooth skin sheen and clean creamy texture, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed face, extra fingers, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Male model portrait and expression",
+          "required": true,
+          "source": "Attach the original image or crop of the model's face",
+          "usage": "Preserve the smile, head angle, skin finish, and facial identity in the source creative."
+        },
+        {
+          "type": "product",
+          "name": "Cocoon Hau Giang lotus mineral sun fluid bottle",
+          "required": true,
+          "source": "Attach the product packshot or crop from the original image",
+          "usage": "Preserve bottle orientation, logo treatment, and the beige sunscreen stream."
+        },
+        {
+          "type": "text_layout",
+          "name": "Natural tone-up benefit text stack",
+          "required": true,
+          "source": "Use the original poster as layout reference",
+          "usage": "Keep the large headline and the two smaller copy blocks in the lower-right quadrant."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, attach both the model portrait and the product bottle reference. The flow of the sunscreen and the exact facial crop are essential; do not alter the model expression or move the typography."
+    }
+  }
+}

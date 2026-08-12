@@ -1,0 +1,26 @@
+{
+  "name": "tropical-lawn-backlit-bikini-girl",
+  "tag": ["ugc", "tropical-lawn", "black-bikini", "over-shoulder", "backlit"],
+  "image_type": "lifestyle-fashion-portrait",
+  "image_vibe": "sunlit-tropical-glow",
+  "image_purpose": "instagram-feed",
+  "group": "lifestyle-moment/beach-vacation/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a natural tropical lawn portrait centered on a black bikini, an over-shoulder pose, and warm backlit glow.",
+    "main_subject": "An adult woman with dark wavy hair, warm natural skin, and a confident relaxed expression. She wears a black bikini and a white tropical flower near her ear.",
+    "composition_elements": "Use a vertical over-shoulder three-quarter portrait with the subject turning toward camera in a tropical lawn framed by palm trees. Keep the ocean and resort greenery visible behind her, with the subject sharp and the background naturally layered.",
+    "lighting_and_atmosphere": "Strong warm backlight from the low sun creates a soft glow, lens flare, rim light on hair and shoulders, and natural lawn shadows while retaining facial detail.",
+    "technical_specs": "Vertical candid lifestyle photography, natural perspective, realistic skin and fabric texture, controlled sun flare, moderate depth of field, photorealistic social-media-ready finish.",
+    "generated_prompt_string": "Photorealistic tropical lawn lifestyle portrait of an adult woman with dark wavy hair wearing a black bikini and a white tropical flower near her ear, turning toward the camera in an over-shoulder three-quarter pose. Palm trees, manicured lawn, ocean, and tropical resort greenery form the background. Warm low-sun backlight creates a gentle glow, rim light, controlled lens flare, and natural shadows while retaining facial detail. Vertical candid composition, realistic skin and fabric texture, natural perspective, moderate depth of field, sunlit tropical vacation mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, uncontrolled flare, blurry, low quality, distorted features, bad anatomy, cartoon, illustration, grainy, pixelated, extra limbs, extra fingers, deformed, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "dark-haired adult subject", "required": true, "source": "matching local preview image", "usage": "Preserve approved adult face, hair, flower, and over-shoulder pose; replaceable with another approved adult."},
+        {"type": "wardrobe", "name": "black bikini", "required": true, "source": "matching local preview image", "usage": "Keep black swimwear consistent; replaceable only with an equivalent simple swimwear reference."},
+        {"type": "location", "name": "backlit tropical lawn and ocean", "required": true, "source": "matching local preview image", "usage": "Preserve palms, lawn, ocean, and warm sun direction; replaceable with an equivalent tropical outdoor setting."}
+      ],
+      "prompt_instructions": "Attach the matching preview when exact identity, flower, swimwear, pose, and backlight must be preserved. Keep face, hair, outfit, environment hierarchy, and vertical crop consistent. Person, wardrobe, and location are replaceable only with equivalent approved references; do not add typography or logos."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

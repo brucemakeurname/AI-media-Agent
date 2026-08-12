@@ -1,0 +1,71 @@
+{
+  "name": "vfe-france-tuition-fees-2026-2027",
+  "tag": [
+    "vfe",
+    "tuition",
+    "france",
+    "2026-2027",
+    "infographic"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Infographics",
+  "group": "vfe_1538145124413319",
+  "prompt": {
+    "project_info": {
+      "theme": "Tuition comparison for France 2026-2027 study pathways",
+      "color_palette": "White, Navy Blue, Red, Gold, Light Gray"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A tuition comparison table for studying in France in 2026-2027, showing rows for public, private, and other institutions across preparatory language, bachelor's, and master's columns, with euro icons and a red CTA button.",
+      "style": "Clear academic cost infographic with grid background, rounded table cards, and strong red-blue financial hierarchy."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "VFE VIETNAM FRANCE EXCHANGE\nHỌC PHÍ DU HỌC PHÁP\n2026 - 2027\nHỆ DỰ BỊ TIẾNG\nHỆ CỬ NHÂN\nHỆ THẠC SĨ\nCÔNG LẬP\nTƯ THỤC\nKHÁC\n370€ - 3500€\nMIỄN HỌC PHÍ\nPhí ghi danh: 178€ - 2895€\nMIỄN HỌC PHÍ\nPhí ghi danh: 254€ - 3941€\nTừ 4000€ trở lên\nTừ 6000€\nTừ 9000€\nENSA: 390€/năm\nENSA: 535€/năm\nChương trình kỹ sư: 628€/năm\n(có điều kiện)\n*Số liệu cập nhật năm 2026\n*Tỷ giá: 1 EUR ≈ 30,360 VNĐ\nĐĂNG KÝ NGAY",
+      "items": [
+        "Top Left: Money bag and coin-stack illustration.",
+        "Top Right: Floating euro coin icons.",
+        "Bottom Left: Footnotes for data update year 2026 and exchange rate.",
+        "Bottom Right: Large red CTA button 'ĐĂNG KÝ NGAY'.",
+        "Center/Background: White grid-paper background, VFE logo at top, bold title, and multi-column tuition table with navy tabs and gray content cards."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Flat academic infographic lighting",
+      "effect": "Clean card separation, no realistic shadows, crisp table text, and bright financial-planning clarity."
+    },
+    "technical_specs": {
+      "render_style": "Vector-style tuition comparison poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality tuition comparison infographic poster for studying in France in 2026-2027. Centerpiece is a three-column table comparing preparatory language, bachelor's, and master's tuition across public, private, and other categories. Background is a white grid-paper academic layout with euro icons and VFE branding. Surrounding elements: title 'HỌC PHÍ DU HỌC PHÁP 2026 - 2027', money bag illustration, specific euro price ranges, footnotes for 2026 data and exchange rate, and red CTA 'ĐĂNG KÝ NGAY'. Technical style: vector-style tuition comparison poster, flat academic infographic lighting, crisp text readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place centered at top."
+        },
+        {
+          "type": "graphic",
+          "name": "Money bag and euro coin illustrations",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Recreate the left money bag and right floating coins."
+        },
+        {
+          "type": "text_layout",
+          "name": "France tuition comparison table layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve row/column structure, euro amounts, and footnotes exactly."
+        }
+      ],
+      "prompt_instructions": "The year range '2026 - 2027' should remain explicit and future-current planning oriented relative to Friday, July 17, 2026. Keep all euro values exact and maintain the clean academic comparison structure."
+    }
+  }
+}

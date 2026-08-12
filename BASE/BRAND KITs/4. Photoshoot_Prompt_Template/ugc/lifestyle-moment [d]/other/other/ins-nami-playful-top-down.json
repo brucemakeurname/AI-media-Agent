@@ -1,0 +1,51 @@
+{
+  "name": "ins-nami-playful-top-down",
+  "tag": ["ugc", "lifestyle-moment", "other", "other", "instagram-style", "cosplay", "top-down", "playful"],
+  "image_type": "Instagram-style cosplay portrait",
+  "image_vibe": "playful, cheeky, bright, social-first",
+  "image_purpose": "Instagram post and cosplay profile visual",
+  "group": "lifestyle-moment/other/other",
+  "prompt": {
+    "project_info": "Create a photorealistic Instagram-style 9:16 cosplay portrait from a top-down camera angle, with a playful social-media presentation.",
+    "main_subject": "One clearly adult cosplayer portraying Nami in a non-explicit cosplay portrait. Keep the subject's identity as an adult performer rather than a public-figure likeness, with a playful cheeky expression and natural anatomy.",
+    "composition_elements": "Use a top-down angle and 9:16 vertical framing. The adult cosplayer's right hand makes an OK gesture touching the mouth while the tongue is playfully extended. Keep the hand gesture, face and cosplay styling as the clear focal hierarchy. Use a clean social-media-ready composition without adding unrequested props, logos or text.",
+    "lighting_and_atmosphere": "Use bright, even, flattering social-media lighting with natural skin texture, clear hand detail and a cheerful playful atmosphere. Avoid harsh shadows that obscure the OK gesture or facial expression.",
+    "technical_specs": "Photorealistic Instagram-style portrait, top-down camera angle, 9:16 aspect ratio, sharp focus on face and hand gesture, natural anatomy and skin texture, clean background, no text, logo or watermark.",
+    "generated_prompt_string": "Photorealistic Instagram-style 9:16 top-down cosplay portrait of one clearly adult cosplayer portraying Nami in a non-explicit playful social-media image. Her right hand makes an OK gesture touching her mouth while she playfully sticks out her tongue. Keep the face and hand gesture sharply readable, use bright even flattering light, natural skin and hand anatomy, clean composition, cheerful cheeky mood, no unrequested props, logos or text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, distorted anatomy, extra fingers, malformed hands, duplicated gesture, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "ins-nami-playful-top-down.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult Nami cosplay concept, top-down angle, OK gesture at the mouth, playful tongue-out expression, 9:16 format and Instagram-style presentation."
+        },
+        {
+          "type": "image_asset",
+          "name": "1777105894968-pnz0v513-1777105907484-1.jpeg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1777105894968-pnz0v513-1777105907484-1.jpeg",
+          "usage": "Optional reference supplied by the source; not inspected and never used to override the written prompt."
+        },
+        {
+          "type": "image_asset",
+          "name": "1777105894968-pnz0v513-1777105908318-2.jpeg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1777105894968-pnz0v513-1777105908318-2.jpeg",
+          "usage": "Optional reference supplied by the source; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required; both supplied image references are optional and are not inspected in the text-only workflow. Keep the adult cosplayer, Nami cosplay identity, top-down framing, OK hand gesture, playful tongue-out expression and 9:16 format consistent. Do not add logos or unrequested costume details."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the performer as a clearly adult cosplayer and kept the cosplay non-explicit.",
+      "Preserved the source's playful gesture, tongue-out expression, top-down framing and Instagram-style intent.",
+      "Retained both source image references as optional text metadata without inspecting them."
+    ]
+  }
+}

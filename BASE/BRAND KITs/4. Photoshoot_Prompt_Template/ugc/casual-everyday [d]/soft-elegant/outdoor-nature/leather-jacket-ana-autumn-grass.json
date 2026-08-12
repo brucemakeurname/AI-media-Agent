@@ -1,0 +1,26 @@
+{
+  "name": "leather-jacket-ana-autumn-grass",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "outdoor-nature", "leather-jacket", "autumn-park"],
+  "image_type": "lifestyle-candid-portrait",
+  "image_vibe": "natural-autumn-casual",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/soft-elegant/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a clean, natural, detailed UGC-style autumn park portrait of an approved adult woman reclining casually on grass.",
+    "main_subject": "An approved adult woman with long straight dark-brown hair, a gentle smile, light natural makeup, and rosy lips. She reclines on green grass with her hands behind her supporting her body, looking directly at the camera. She wears an open black cropped leather jacket over a black form-fitting top and light-blue high-waisted jeans.",
+    "composition_elements": "Vertical 9:16 portrait, relaxed seated/reclined three-quarter framing, subject prominent in the foreground with legs extending toward the lower right and hands grounded on the grass. Include scattered dry autumn leaves, a lush park, tall hedge, black metal fence, gravel path, and softly layered trees in the background.",
+    "lighting_and_atmosphere": "Bright clear natural daylight with soft autumn shadows and warm green-gold park tones. Preserve the relaxed, candid, clean, natural, detailed mood.",
+    "technical_specs": "Photorealistic 4K Ultra HD, eye-level camera, sharp focus on face, hair, leather, denim, grass, and hands, natural depth of field, realistic skin texture, vertical 9:16 crop, subtle photographic grain.",
+    "generated_prompt_string": "Create a clean, natural, detailed photorealistic 4K vertical 9:16 photograph of an approved adult woman with long straight dark-brown hair, light natural makeup, rosy lips, and a gentle smile. She reclines casually on green grass with her hands behind her supporting her body and looks directly at the camera. She wears an open black cropped leather jacket over a black form-fitting top and light-blue high-waisted jeans. The scene is a bright autumn park with scattered dry leaves, lush green trees, a tall hedge on the left, a black metal fence, and a gravel path in the distance. Use an eye-level lifestyle composition with sharp focus on the face, hair, leather, denim, grass, and hands, realistic texture, natural daylight, soft shadows, and an authentic candid UGC mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted face, blurry subject, text, logo",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-park-subject", "required": true, "source": "leather-jacket-ana-autumn-grass.jpg", "usage": "Preserve the adult subject's face, hair, smile, direct gaze, and relaxed pose without reproducing a celebrity likeness."},
+        {"type": "wardrobe", "name": "black-leather-jacket-black-top-light-blue-jeans", "required": true, "source": "leather-jacket-ana-autumn-grass.jpg", "usage": "Keep the open black leather jacket, black top, and light-blue high-waisted jeans consistent; replace only with an explicit wardrobe reference."},
+        {"type": "location", "name": "autumn-park-grass-and-fence", "required": true, "source": "leather-jacket-ana-autumn-grass.jpg", "usage": "Maintain the grass, leaves, hedge, fence, gravel path, and trees; replace only with an explicit location reference."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, and location references for exact consistency. Keep identity, adult status, outfit, reclining pose, and park hierarchy consistent. Leaves and distant background elements are replaceable only with explicit alternatives; preserve any replacement's identity, outfit, product, logo, environment, and typography. No logo or typography is present."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced the named public-figure identity with a generic approved adult while preserving the source outfit, pose, and park concept.", "Added safe negative prompts and reference instructions."]}
+}

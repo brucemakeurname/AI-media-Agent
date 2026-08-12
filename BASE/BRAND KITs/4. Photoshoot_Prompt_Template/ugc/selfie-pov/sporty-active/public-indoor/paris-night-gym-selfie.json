@@ -1,0 +1,22 @@
+{
+  "name": "paris-night-gym-selfie",
+  "tag": ["ugc", "selfie-pov", "sporty-active", "public-indoor", "gym", "night"],
+  "image_type": "rear-view-gym-mirror-selfie",
+  "image_vibe": "bold-night-athletic",
+  "image_purpose": "rear-view gym mirror selfie",
+  "group": "sporty-active",
+  "prompt": {
+    "project_info": "Bold night gym rear-view selfie adapted from the supplied source prompt and approved-adult identity reference.",
+    "main_subject": "Clearly adult fit woman with a curvy athletic build, dark hair tied in a casual bun, wearing a loose bright-red cropped training shirt and navy athletic shorts with a small abstract color accent instead of readable team text.",
+    "composition_elements": "Kneeling on a yoga mat with feet tucked under, back angled toward the mirror, torso turned slightly while looking at the phone screen in the reflection; gym equipment and mirror depth behind her.",
+    "lighting_and_atmosphere": "Moody indoor gym lighting with rich night tones, controlled highlights and confident athletic energy.",
+    "technical_specs": "Vertical photorealistic rear-view mirror selfie, accurate reflection, natural posture, realistic fabric and hair, no readable text, flags or logos.",
+    "generated_prompt_string": "Photorealistic vertical rear-view gym mirror selfie of a clearly adult fit woman with a curvy athletic build and dark hair in a casual bun, wearing a loose bright-red cropped training shirt and navy athletic shorts with a small abstract color accent, kneeling on a yoga mat with feet tucked under and torso turned slightly toward the phone reflection, moody indoor gym lighting with rich night tones, confident athletic energy, realistic fabric and hair, no readable text, flags or logos.",
+    "negative_prompt": "explicit, nsfw, overly revealing, exposed body, exposed breasts, exposed genitals, child, minor, celebrity likeness, private data, distorted anatomy, bad hands, watermark, text, logo, flag, team identity",
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "paris-night-gym-selfie_0.jpg", "required": true, "source": "local asset", "usage": "Use for approved-adult identity, red-and-navy outfit, kneeling rear-view pose and gym mirror setting."}],
+      "prompt_instructions": "Attach the local asset as required. Preserve the source's rear-view pose, color palette and night-gym mood; replace any team text or national identity with generic abstract details."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced the readable team/national text with a generic abstract color accent."]}
+}

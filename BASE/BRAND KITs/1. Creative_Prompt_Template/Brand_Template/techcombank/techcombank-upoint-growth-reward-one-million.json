@@ -1,0 +1,70 @@
+{
+  "name": "techcombank-upoint-growth-reward-one-million",
+  "tag": [
+    "upoint",
+    "growth-reward",
+    "transaction-volume",
+    "loyalty"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Special offers",
+  "group": "techcombank_886891297338838",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank U-Point reward for transaction growth",
+      "color_palette": "Warm white, soft beige, bright red, orange glow"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A minimal reward poster with large black headline text 'Thuong tang truong'. Supporting copy reads 'Khi tang them 50, 100 hoac 200 giao dich hop le so voi thang truoc(*)'. In the center stands a large glossy red U-point coin on top of a glowing red-orange podium block. The podium text reads 'den 1 Trieu U-Point'. Smaller floating U-coins orbit around it. The Techcombank logo appears at the top right, and the legal note at bottom right says '(*) Ap dung cho khach hang co duoi 300 giao dich hop le trong thang'.",
+      "style": "Minimal 3D reward-offer poster with clean banking layout and glossy loyalty-token rendering"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TECHCOMBANK / Thuong tang truong / Khi tang them 50, 100 hoac 200 giao dich hop le so voi thang truoc(*) / den 1 Trieu U-Point / (*) Ap dung cho khach hang co duoi 300 giao dich hop le trong thang",
+      "items": [
+        "Top Left: Clean empty space and headline block over faint diamond shapes",
+        "Top Right: Techcombank wordmark and red logo",
+        "Bottom Left: Base of the glowing podium with soft orange light spill",
+        "Bottom Right: Legal footnote in small black text",
+        "Center/Background: Large glossy red U-point coin placed on a red-orange podium cube with three smaller floating U-coins around it"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio commercial lighting",
+      "effect": "Warm podium glow, glossy plastic reflections, subtle shadowing, minimal premium atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "3D product-style advertising render for banking loyalty promotion",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank U-Point reward for transaction growth. Centerpiece is a large glossy red U-point coin standing on a glowing red-orange podium labeled 'den 1 Trieu U-Point', with several smaller U-coins floating around it. Background is a warm off-white gradient with faint translucent diamond shapes. Surrounding elements: Techcombank logo, exact headline 'Thuong tang truong', supporting copy 'Khi tang them 50, 100 hoac 200 giao dich hop le so voi thang truoc(*)', and the legal note '(*) Ap dung cho khach hang co duoi 300 giao dich hop le trong thang'. Technical style: 3D product-style advertising render for banking loyalty promotion, soft studio commercial lighting, warm podium glow and glossy reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "graphic",
+          "name": "Techcombank U-point coin 3D asset",
+          "required": true,
+          "source": "official campaign asset",
+          "usage": "Preserve the exact round red token shape, white U mark, and glossy material"
+        },
+        {
+          "type": "logo",
+          "name": "Techcombank logo",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Maintain top-right branding and proportion"
+        },
+        {
+          "type": "text_layout",
+          "name": "Minimal reward podium layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the centered podium, headline block, and legal copy placement"
+        }
+      ],
+      "prompt_instructions": "Preserve all numbers exactly: '50, 100 hoac 200' and '1 Trieu U-Point'. The image should remain minimal and clean, with one dominant red token and a single podium rather than a crowded prize scene."
+    }
+  }
+}

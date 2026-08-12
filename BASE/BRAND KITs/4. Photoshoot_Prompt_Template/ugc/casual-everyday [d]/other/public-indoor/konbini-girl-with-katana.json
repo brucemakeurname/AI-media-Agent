@@ -1,0 +1,27 @@
+{
+  "name": "konbini-girl-with-katana",
+  "tag": ["ugc", "casual-everyday", "other", "public-indoor", "konbini-lifestyle"],
+  "image_type": "convenience-store lifestyle portrait",
+  "image_vibe": "surreal candid Japanese convenience store",
+  "image_purpose": "UGC-style character and street-culture visual",
+  "group": "other/public-indoor",
+  "prompt": {
+    "project_info": "Create a realistic candid convenience-store portrait of an original approved adult woman with a safely sheathed prop sword.",
+    "main_subject": "An original approved adult woman with shoulder-length slightly messy blonde hair, freckles across the nose and cheeks, and a pensive downward gaze sits on a round wooden stool. She wears a white long-sleeved button-down shirt with sleeves rolled to the elbows, a navy-and-white striped bow tie, and a dark navy plaid pleated skirt. Both hands hold a safely sheathed black katana prop across her lap.",
+    "composition_elements": "Vertical 9:16 indoor portrait, subject seated in profile at a light wood counter, smartphone and black strap on the counter, stocked snack shelves, white refrigerator, umbrella stand, convenience-store signage, fluorescent ceiling strips, and warm pendant lamps.",
+    "lighting_and_atmosphere": "Cool bright fluorescent overhead light mixed with warm pendant accents, crisp store detail, candid slice-of-life mood with surreal contrast from the safely sheathed prop.",
+    "technical_specs": "Realistic smartphone photography, vertical 9:16, 35mm perspective, medium full-body seated framing, natural fabric and product-packaging texture, moderate depth of field, restrained color, no artificial HDR look.",
+    "generated_prompt_string": "Realistic vertical 9:16 convenience-store lifestyle portrait of an original approved adult woman with shoulder-length slightly messy blonde hair, freckles across her nose and cheeks, and a pensive downward gaze sitting on a round wooden stool. She wears a white long-sleeved button-down shirt with rolled sleeves, a navy-and-white striped bow tie, and a dark navy plaid pleated skirt. Both hands hold a safely sheathed black katana prop across her lap. Light wood counter, smartphone, black strap, stocked snack shelves, white refrigerator, umbrella stand, Japanese-style signage, cool fluorescent ceiling light, and warm pendant lamps create a candid surreal slice-of-life scene.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, unsheathed weapon, violence, threatening gesture, unsafe public weapon handling, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy, unreadable text",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "konbini seated katana reference", "required": true, "source": "attached source image", "usage": "Match the original adult model, uniform, seated pose, safely sheathed prop, counter, shelves, signs, and store lighting."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve adult identity, outfit, seated pose, safe prop handling, convenience-store environment, and lighting. Store logos, signage, typography, product packaging, and prop details are replaceable editable elements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an approved adult rather than an age-ambiguous student.", "Added safely sheathed-prop and public-safety wording.", "Added replaceable signage guidance and anti-slop exclusions."]
+  }
+}

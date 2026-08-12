@@ -1,0 +1,52 @@
+{
+  "name": "cellphones-havit-sk874bt-speaker-490k",
+  "tag": ["cellphones", "havit speaker", "sk874bt", "490k", "portable audio"],
+  "biz_niche": "Education",
+  "content_format": "Special offers",
+  "group": "cellphones_1525012495743300",
+  "prompt": {
+    "project_info": {
+      "theme": "Portable speaker sale poster",
+      "color_palette": "CellphoneS red, white, electric blue, pastel pink, army green, orange"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A speaker-sale poster highlighting two floating Havit SK874BT speakers in pastel pink and camouflage green, set against a red locker-style product stage with a blue pricing footer.",
+      "style": "Bold portable-audio retail product card"
+    },
+    "composition_elements": {
+      "type": "Product/Typography/Pricing Bar",
+      "text": "cellphoneS, Havit SK874BT, GIÁ ƯU ĐÃI 490K, S-STUDENT | S-TEACHER GIẢM 49K, BẢO HÀNH 12 THÁNG 1 ĐỔI 1 TRONG 30 NGÀY, Sử dụng đến 8 giờ - Nhỏ gọn, tiện lợi - Kháng nước chuẩn IPX5, HAVIT",
+      "items": [
+        "Top Center: red cellphoneS logo block.",
+        "Upper Middle: large white title 'Havit SK874BT'.",
+        "Center: two floating square Havit speakers with strap loops, one pastel pink on the left and one camouflage green on the right.",
+        "Background: deep red locker-style stage with panels and perforation details.",
+        "Bottom: wide blue pricing bar containing discounted price, student-teacher reduction, and 12-month exchange warranty.",
+        "Footer Below Bar: white feature line 'Sử dụng đến 8 giờ - Nhỏ gọn, tiện lợi - Kháng nước chuẩn IPX5'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright studio product lighting",
+      "effect": "High retail contrast, clean object separation, playful speaker-color emphasis"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal portable-speaker sale poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "Havit SK874BT speaker variants", "required": true, "source": "source image product reference", "usage": "Preserve the pink and camouflage green models, strap loops, and button/port details."},
+        {"type": "background", "name": "red locker-style product stage", "required": true, "source": "source image background reference", "usage": "Maintain the geometric locker-panel aesthetic and the bright red environment."},
+        {"type": "text_layout", "name": "title, blue pricing bar, and feature footer", "required": true, "source": "source image text reference", "usage": "Keep all visible product name, price, discount, warranty, and IPX5 feature text exactly."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the two-speaker arrangement and exact footer segmentation.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the strong red-background, blue-price-bar retail style."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square product-sale poster on a deep red locker-style stage. Place the red cellphoneS logo at the top center and add the large white title 'Havit SK874BT'. Float two Havit speakers in the center: one pastel pink with a mint strap loop and one camouflage green with an orange strap loop. Add a wide blue pricing bar with 'GIÁ ƯU ĐÃI 490K', 'S-STUDENT | S-TEACHER GIẢM 49K', and 'BẢO HÀNH 12 THÁNG 1 ĐỔI 1 TRONG 30 NGÀY'. Below it place the white feature line 'Sử dụng đến 8 giờ - Nhỏ gọn, tiện lợi - Kháng nước chuẩn IPX5'. Technical style: photoreal portable-speaker sale poster, bright studio product lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark muddy render, incorrect text, wrong speaker colors, low resolution, warped straps, cluttered stage, watermark, signature"
+  }
+}

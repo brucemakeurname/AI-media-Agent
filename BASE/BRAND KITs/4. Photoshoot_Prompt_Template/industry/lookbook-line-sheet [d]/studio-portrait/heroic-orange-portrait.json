@@ -1,0 +1,22 @@
+{
+  "name": "heroic-orange-portrait",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "heroic", "orange-light"],
+  "image_type": "dramatic editorial portrait",
+  "image_vibe": "heroic, tense, saturated, cinematic",
+  "image_purpose": "editorial campaign and profile visual",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic dramatic studio portrait of one original approved adult subject against a saturated orange-red background.",
+    "main_subject": "One original approved adult subject with the supplied face, natural skin tone, hairstyle, serious focused expression, and exact supplied clothing preserved. The subject looks up and away from camera with a controlled, composed presence.",
+    "composition_elements": ["Medium close-up from a low camera angle, emphasizing face and shoulders without distortion.", "Smooth saturated orange-red backdrop with intense tonal gradients and no patterns.", "Preserve exact supplied clothing color, material, fit, facial structure, hairstyle, and natural skin texture."],
+    "lighting_and_atmosphere": "Strong directional orange key light with deep chiaroscuro shadows, red edge light or halo separating the subject from the backdrop, and tense heroic atmosphere.",
+    "technical_specs": "Photorealistic 4:5 portrait, 85mm lens at f/4 from a controlled low angle, sharp face and textile detail, visible pores, restrained analog grain, saturated but controlled color grade, no text or watermark.",
+    "generated_prompt_string": "World-class editorial portrait with a dramatic heroic feel. Use the attached reference to preserve one original approved adult subject's facial structure, natural skin tone, hairstyle, exact supplied clothing, and natural likeness. The subject has a serious, tense, focused expression and looks up and away from camera. Use a controlled low angle, medium close-up framing of face and shoulders, a saturated solid orange-red backdrop with smooth intense gradients, strong directional orange chiaroscuro key light, deep dramatic shadows, and a powerful red rim light separating the subject from the background. Photorealistic high detail, natural skin pores, 85mm lens, 4:5 composition, no text or watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "identity drift", "changed outfit", "plastic skin", "waxy", "over-smooth", "over-saturated clipping", "airbrushed", "HDR look", "watermark", "extra fingers", "deformed", "text", "logo"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "heroic-orange-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach for the original approved-adult face, facial structure, skin tone, hairstyle, expression, and likeness."}, {"type": "wardrobe", "name": "exact supplied clothing from reference", "required": true, "source": "local reference image", "usage": "Preserve the supplied outfit, color, material, fit, and styling without alteration."}, {"type": "background", "name": "saturated orange-red gradient backdrop", "required": true, "source": "local reference image", "usage": "Preserve the orange-red background, gradient, and heroic contrast."}],
+      "prompt_instructions": "Attach all required person, wardrobe, and background references; no optional assets are needed. Keep approved-adult identity, face, hair, exact outfit, pose, environment, lighting, and typography consistent. Replace only with an equivalent approved adult or equivalent supplied wardrobe/background. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Reframed exact identity preservation as an original approved-adult reference while preserving the supplied clothing, composition, orange-red lighting, and heroic editorial intent."]}
+}

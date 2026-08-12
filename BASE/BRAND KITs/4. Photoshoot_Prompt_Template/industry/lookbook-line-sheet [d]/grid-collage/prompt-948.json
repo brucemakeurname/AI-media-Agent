@@ -1,0 +1,27 @@
+{
+  "name": "prompt-948",
+  "tag": ["christmas", "four-panel", "photobooth", "fashion-portrait", "grid-collage"],
+  "image_type": "editorial-grid-collage",
+  "image_vibe": "playful-festive-commercial",
+  "image_purpose": "lookbook",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Photorealistic Korean photobooth-style four-panel Christmas fashion collage with vibrant colors, sharp focus and a cute energetic commercial atmosphere.",
+    "main_subject": "One original approved adult woman with fair complexion, natural skin texture, bright eyes and consistent approved-adult face and facial structure across all panels.",
+    "composition_elements": "A 4-panel split-screen grid. Top left: playful wink, plush reindeer antlers and candy cane near the cheek. Top right: red Santa hat with white fur trim, surprised expression and hands covering the mouth. Bottom left: blowing a kiss while holding a small gold-ribbon gift box, oversized white knitted sweater. Bottom right: soft smile, reindeer neck accessory, red velvet Christmas dress with white fur trim, red fluffy gloves forming a heart beside the cheeks. Use solid pastel red or green studio backgrounds.",
+    "lighting_and_atmosphere": "Bright high-key studio lighting with ring-light catchlights, soft shadows and uniform illumination.",
+    "technical_specs": "Photorealistic commercial photography, sharp focus, ultra-detailed natural skin texture, four-panel grid, balanced spacing, vertical editorial collage.",
+    "generated_prompt_string": "Photorealistic four-panel split-screen Christmas fashion collage featuring one original approved adult woman with fair complexion, natural skin texture, bright eyes and consistent approved-adult face and facial structure across all panels. Top left: playful wink, plush reindeer antlers and candy cane near the cheek. Top right: red Santa hat with white fur trim, surprised expression and hands covering the mouth. Bottom left: blowing a kiss while holding a small wrapped gift box with a gold ribbon, wearing a cozy oversized white knitted sweater. Bottom right: soft smile, reindeer accessory around the neck, red velvet Christmas dress with white fur trim and red fluffy Christmas gloves forming a heart beside the cheeks. Use solid studio backgrounds in soft pastel red or green, bright high-key lighting, ring-light catchlights, soft shadows, uniform illumination, vibrant colors, sharp focus and Korean photobooth commercial photography aesthetic.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, nudity, child, teen, identity drift, inconsistent face, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, duplicated props, unreadable text",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "prompt-948.jpg", "required": true, "source": "local reference image", "usage": "Attach for the original approved-adult face, facial structure, hair, expression range and consistent identity across all four panels."},
+        {"type": "wardrobe", "name": "Santa hat, white knitted sweater and red velvet Christmas dress", "required": true, "source": "local reference image", "usage": "Preserve supplied festive garments, colors, trim, gloves and fit; replace only with equivalent supplied wardrobe."},
+        {"type": "accessory", "name": "reindeer antlers, candy cane, gift box and reindeer neck accessory", "required": true, "source": "local reference image", "usage": "Preserve supplied seasonal props, placement and panel assignments."},
+        {"type": "background", "name": "pastel red and green solid studio backgrounds", "required": true, "source": "local reference image", "usage": "Preserve alternating pastel backdrop colors, clean separation and uniform studio environment."}
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, accessory and background references; no optional assets are needed. Keep approved-adult identity, facial structure, outfits, panel count, expressions, props, environment, lighting and typography consistent. Replace only with an equivalent approved adult or supplied festive asset. Typography is not applicable; do not invent text, logos or watermark."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced exact identity locking with an original approved adult while preserving the four-panel Christmas concept, expressions, styling and composition."]}
+}

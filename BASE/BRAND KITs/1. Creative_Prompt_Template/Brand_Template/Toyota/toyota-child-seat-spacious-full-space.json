@@ -1,0 +1,70 @@
+{
+  "name": "toyota-child-seat-spacious-full-space",
+  "tag": [
+    "child-seat",
+    "interior-space",
+    "family",
+    "comfort"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Brand story",
+  "group": "toyota_1580597040228921",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota cabin spaciousness for children and family comfort",
+      "color_palette": "Warm beige, charcoal, soft green, white"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "A close lifestyle poster of a smiling young child seated comfortably in a child safety seat inside the rear cabin of a Toyota. The child reaches a hand toward the camera, creating a depth-of-field foreground effect. Large bottom-left text reads 'RONG RAI TRON KHONG GIAN'. The car interior is softly lit with green park scenery outside the windows.",
+      "style": "Intimate family-comfort poster with close-up portrait framing, shallow depth cue, and cozy cabin atmosphere"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "RONG RAI / TRON KHONG GIAN",
+      "items": [
+        "Top Left: Soft upper cabin shadows and headrest framing",
+        "Top Right: Out-of-focus green park scenery through the rear window",
+        "Bottom Left: Large beige-and-white caption 'RONG RAI TRON KHONG GIAN'",
+        "Bottom Right: Child seat harness buckle and rear seat contours",
+        "Center/Background: Close-up child in a secure child seat reaching an open hand toward the camera"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft natural cabin lighting",
+      "effect": "Gentle face illumination, cozy upholstery texture, warm family-comfort mood"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal close-up family-lifestyle automotive image",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for Toyota family cabin comfort. Centerpiece is a smiling child secured in a child safety seat inside a Toyota rear cabin, reaching one hand toward the camera. Background is the softly lit interior with green outdoor scenery blurred through the windows. Surrounding elements: exact text 'RONG RAI TRON KHONG GIAN'. Technical style: photoreal close-up family-lifestyle automotive image, soft natural cabin lighting, cozy upholstery texture and warm comfort mood, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Child portrait in safety seat",
+          "required": true,
+          "source": "source photo or this creative",
+          "usage": "Preserve the exact facial expression, hand-to-camera gesture, and child-seat posture"
+        },
+        {
+          "type": "accessory",
+          "name": "Child safety seat and rear-cabin upholstery reference",
+          "required": true,
+          "source": "source interior photo",
+          "usage": "Maintain the exact child-seat shape, harness, and cabin comfort context"
+        },
+        {
+          "type": "text_layout",
+          "name": "Close-up spaciousness comfort layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the large bottom-left caption and the intimate portrait crop"
+        }
+      ],
+      "prompt_instructions": "Do not widen this into a generic full-car interior shot. The close-up of the child reaching toward the camera is the emotional hook and must remain central."
+    }
+  }
+}

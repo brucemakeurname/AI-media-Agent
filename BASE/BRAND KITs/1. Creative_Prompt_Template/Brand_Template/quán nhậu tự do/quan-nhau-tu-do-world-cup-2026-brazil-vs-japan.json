@@ -1,0 +1,70 @@
+{
+  "name": "quan-nhau-tu-do-world-cup-2026-brazil-vs-japan",
+  "tag": [
+    "sports-promo",
+    "watch-party",
+    "football",
+    "world-cup"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Industry news",
+  "group": "quan-nhau-tu-do_1616026760525019",
+  "prompt": {
+    "project_info": {
+      "theme": "Quán Nhậu Tự Do World Cup 2026 screening poster for Brazil vs Japan",
+      "color_palette": "Deep green, gold, yellow, white, Brazil and Japan flag colors"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "Football screening poster with a giant gold World Cup trophy centered between two football players, one in Brazil yellow and one in Japan blue, above a match card and venue details.",
+      "style": "Photorealistic sports poster compositing, glossy event promo, bright fan-zone atmosphere"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "QUÁN NHẬU TỰ DO / TỰ DO TIẾP LỬA / WORLD CUP 2026 / TẠI PARKING ZONE 4 / Brazil / 00:00 / THỨ 3 | 30.06 / Nhật Bản / Hotline: *1986 | Website: quannhautudo.com",
+      "items": [
+        "Top Left: Quán Nhậu Tự Do logo centered near the top.",
+        "Top Right: Vertical mint-green light beams over a faint cheering crowd background.",
+        "Bottom Left: Brazil flag icon and yellow label 'Brazil'.",
+        "Bottom Right: Japan flag icon and yellow label 'Nhật Bản', with footer hotline and website.",
+        "Center/Background: Giant gold trophy between two players, headline 'TỰ DO TIẾP LỬA', oversized 'WORLD CUP 2026', match-time box '00:00' and 'THỨ 3 | 30.06'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Cinematic stadium lighting",
+      "effect": "Golden trophy flare, soft crowd haze, vertical light beams, energetic fan-zone glow"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic sports-event poster compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Quán Nhậu Tự Do World Cup 2026 screening poster for Brazil vs Japan. Centerpiece is a giant glowing gold World Cup trophy between a Brazil player in yellow and a Japan player in blue. Background is a green fan-zone scene with cheering crowd blur and vertical light beams. Surrounding elements: Quán Nhậu Tự Do logo at top, exact headline 'TỰ DO TIẾP LỬA', large title 'WORLD CUP 2026', venue line 'TẠI PARKING ZONE 4', bottom match strip with Brazil flag, Japan flag, time '00:00', date 'THỨ 3 | 30.06', and footer 'Hotline: *1986 | Website: quannhautudo.com'. Technical style: photorealistic sports-event poster compositing, cinematic stadium lighting, golden flare and crowd haze, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Brazil and Japan football player cutouts",
+          "required": true,
+          "source": "original poster athlete refs",
+          "usage": "Match identities, uniforms, poses, and left-right placement."
+        },
+        {
+          "type": "graphic",
+          "name": "World Cup trophy and match strip",
+          "required": true,
+          "source": "original sports layout",
+          "usage": "Preserve the trophy scale, time box, and flag strip arrangement."
+        },
+        {
+          "type": "text_layout",
+          "name": "full World Cup promo typography",
+          "required": true,
+          "source": "original creative",
+          "usage": "Retain exact wording, hierarchy, and footer contact line."
+        }
+      ],
+      "prompt_instructions": "Use direct refs for both players, the trophy treatment, and the text layout. Keep the composition symmetrical around the trophy and preserve the exact match details and country names as shown."
+    }
+  }
+}

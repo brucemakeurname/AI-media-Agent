@@ -1,0 +1,74 @@
+{
+  "name": "navy-gold-editorial-cover",
+  "tag": [
+    "astronomy-editorial",
+    "navy-gold-styling",
+    "science-book-layout",
+    "star-pattern-tights",
+    "cutout-magazine-portrait"
+  ],
+  "image_type": "editorial-magazine-cover",
+  "image_vibe": "cosmic-refined",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Original astronomy-book-inspired fashion magazine page with a navy-and-gold portrait",
+      "creative_direction": "High-fashion cutout portrait integrated into a refined scientific reading spread with fictional pseudo-text",
+      "color_palette": "off-white paper, navy knitwear and tights, muted red drop-cap, gold stars, ink black, and soft neutral skin tones"
+    },
+    "main_subject": {
+      "type": "clearly adult woman matching the approved face reference",
+      "detail": "same adult woman as the reference image, natural skin texture, preserved facial proportions, eye shape, nose, lips, jawline, moles, freckles, and hairline",
+      "wardrobe": "navy knit sweater with slightly oversized sleeves, tailored navy mini skirt, navy tights with evenly spaced glossy gold star pattern, and elegant navy high-heeled ankle boots",
+      "pose": "calm direct gaze toward camera, hands gently stacked under chin, legs crossed naturally while seated on a simple black stool"
+    },
+    "composition_elements": {
+      "framing": "9:16 vertical magazine layout with the subject slightly lower-middle and overlapping two justified text columns",
+      "background": "off-white astronomy book-page texture with non-readable serif pseudo-text and a large muted red drop-cap at top left",
+      "illustrations": "thin ink-style telescope, Saturn, spiral galaxies, star clusters, constellation dot-and-line diagrams, and tiny starbursts embedded in margins",
+      "typography": "academically authentic spacing, justification, and hyphenation patterns with no real words, book excerpts, title, author, citations, logos, or watermark"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft editorial key at approximately 5000K with subtle neutral rim light",
+      "effect": "clean cutout edge, realistic contact shadow, natural skin rendering, delicate gold-star sheen, and quiet cosmic atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 50mm lens, high-end editorial cutout composite",
+      "resolution": "4k 9:16 vertical social cover",
+      "finish": "crisp but natural, subtle 35mm grain, natural dynamic range, restrained color, and realistic fabric texture"
+    },
+    "generated_prompt_string": "Create an original high-fashion editorial magazine page inspired by classic astronomy and science-book design, without copying any real book title or text. Use an off-white paper texture resembling a refined astronomy page, filled with two tall justified columns of non-readable serif pseudo-text and a large muted red drop-cap at the top left. Embed small precise hand-drawn scientific illustrations: a telescope sketch, Saturn with rings, spiral galaxies, star clusters, constellation dot-and-line diagrams, and tiny starbursts within margins and between columns. In front, place a clean cutout-style photoreal portrait of the same clearly adult woman whose approved face reference must be matched exactly, seated on a simple black stool with realistic contact shadow. Dress her in a navy knit sweater, navy tailored mini skirt, navy tights with evenly spaced glossy gold star patterns, and elegant navy high-heeled ankle boots. Add subtle gold and silver micro-star makeup near the outer eye corners, a calm direct gaze, hands stacked under the chin, and naturally crossed legs. Use a 9:16 vertical composition, clean paste-up edge, high-end editorial photography, subtle 35mm grain, and no readable real text, logos, or watermarks.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, different face, altered facial features, age shift, celebrity likeness, readable text, real book excerpt, real title, author name, citations, logos, watermarks, plastic skin, over-smoothing, over-saturated, HDR, extra fingers, deformed hands, broken gold-star pattern, distorted clothing",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-reference",
+          "required": true,
+          "source": "Uploaded face reference specified by the source prompt",
+          "usage": "Attach the approved adult face reference and preserve facial structure, proportions, skin texture, and likeness exactly; never use a celebrity or public-figure identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "navy-gold-star-editorial-outfit",
+          "required": true,
+          "source": "Original editorial preview image and source prompt",
+          "usage": "Attach to preserve the navy sweater, navy skirt, gold-star tights, and navy ankle boots; do not change the reference-specified outfit."
+        },
+        {
+          "type": "graphic",
+          "name": "fictional-astronomy-book-page",
+          "required": true,
+          "source": "Original page layout and source prompt",
+          "usage": "Attach to preserve the paper texture, two-column hierarchy, drop-cap, and embedded astronomy drawings; replace all real book text and titles with non-readable fictional pseudo-text."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult face, exact wardrobe, and astronomy-page layout references. Keep identity, outfit, pose, stool, cutout edge, typography geometry, scientific illustrations, and navy-gold palette consistent. Replace text, titles, author names, logos, and claims with fictional non-readable graphics."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

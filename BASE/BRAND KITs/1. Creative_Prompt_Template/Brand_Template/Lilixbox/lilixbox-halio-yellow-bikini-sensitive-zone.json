@@ -1,0 +1,72 @@
+{
+  "name": "lilixbox-halio-yellow-bikini-sensitive-zone",
+  "tag": [
+    "ipl-device",
+    "bikini-zone",
+    "close-up",
+    "summer",
+    "halio",
+    "sensitive-skin"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "lilixbox_1302027898804276",
+  "prompt": {
+    "project_info": {
+      "theme": "Sensitive bikini-area suitability close-up for beauty device",
+      "color_palette": "Warm Sand, Sunlit Gold, Lemon Yellow, Skin Tones, Cream"
+    },
+    "main_subject": {
+      "type": "Product/Person",
+      "detail": "A beachy close-up of a woman in a pale yellow bikini holding a yellow Halio device against her upper thigh/hip area, with circular line graphics and claims about cooling comfort and suitability for sensitive bikini skin.",
+      "style": "Sun-kissed beauty-tech close-up, sensual yet clean summer promo, body-crop lifestyle device ad"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'Phù hợp cho vùng da bikini nhạy cảm' and 'Mát lạnh, Dịu da'.",
+      "items": [
+        "Top Left: Cream text block over warm beach-toned background.",
+        "Top Right: Cream bracelet on the wrist and cropped wooden lounge or deck structure in the background.",
+        "Bottom Left: Close crop of the woman's torso and pale yellow bikini strap with pink lettering.",
+        "Bottom Right: The phrase 'Mát lạnh, Dịu da' beside the device, framed by a thin circular line graphic.",
+        "Center/Background: Yellow Halio device held vertically in the hand against sunlit skin with a soft sandy backdrop."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm natural sunlight",
+      "effect": "Golden skin sheen, beach heat, soft summery shadows, tactile close-up realism"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity summer lifestyle product photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a close-up summer beauty-device demo. Centerpiece is a yellow Halio device held against the upper thigh and hip area of a woman in a pale yellow bikini. Background is a warm beach or sun deck setting with soft sandy tones. Surrounding elements: thin circular line graphics, text 'Phù hợp cho vùng da bikini nhạy cảm', and 'Mát lạnh, Dịu da'. Keep the tight body crop, sunlit skin texture, and cooling-sensitive-zone message. Technical style: high fidelity summer lifestyle product photography, warm natural sunlight, golden skin sheen and tactile close-up realism, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed hands, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Yellow Halio device",
+          "required": true,
+          "source": "Attach the device crop from the original image",
+          "usage": "Preserve exact device color, shape, logo placement, and button detail."
+        },
+        {
+          "type": "person",
+          "name": "Beach close-up body pose",
+          "required": true,
+          "source": "Use the original image as pose reference",
+          "usage": "Maintain the body crop, hand position, bracelet, and bikini strap styling."
+        },
+        {
+          "type": "text_layout",
+          "name": "Sensitive-zone message layout",
+          "required": true,
+          "source": "Use the original poster as layout reference",
+          "usage": "Keep the two text blocks and the thin circular outline around the product area."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, attach the original image or strong crops so the sunlit body crop and yellow device placement stay accurate. The result should keep the elegant close-up framing and not become overtly clinical."
+    }
+  }
+}

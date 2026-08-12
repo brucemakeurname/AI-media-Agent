@@ -1,0 +1,22 @@
+{
+  "name": "icy-blue-fur-fashion-editorial",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "icy-blue", "luxury-fashion"],
+  "image_type": "luxury fashion seated portrait",
+  "image_vibe": "moody, elegant, powerful, cinematic",
+  "image_purpose": "fashion lookbook and luxury editorial",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create an ultra-high-fashion editorial portrait of one original approved adult woman seated in an oversized textured faux-fur armchair against a dark studio background.",
+    "main_subject": "Original approved adult woman with slicked-back hair, minimal makeup, sharp natural facial structure, calm intense gaze toward camera, and composed powerful body language. She wears a luxurious icy-blue faux-fur coat over tailored black trousers and black pointed heels, with legs crossed, one hand on the armrest and the other near her chin.",
+    "composition_elements": ["Centered seated three-quarter to full-body portrait in an oversized charcoal textured fur armchair.", "Crossed-leg pose with clear coat texture, black tailoring, pointed heels, and relaxed arm placement.", "Dark moody studio gradient with restrained negative space and no text."],
+    "lighting_and_atmosphere": "Soft cinematic key light with controlled side fill and subtle rim light, emphasizing fur fibers, facial structure, and black fabric against deep shadows.",
+    "technical_specs": "Photorealistic 4:5 portrait, 85mm lens at f/2.8, shallow depth of field, realistic skin pores and fur fibers, subtle 35mm grain, restrained cool color grade, no text or watermark.",
+    "generated_prompt_string": "Ultra-high-fashion editorial portrait of one original approved adult woman seated in an oversized textured charcoal faux-fur armchair. She has slicked-back hair, minimal makeup, a calm intense gaze toward camera, and composed powerful body language. She wears a luxurious icy-blue faux-fur coat over tailored black trousers and black pointed heels, with legs crossed, one hand resting on the armrest and the other near the chin. Use a dark moody studio gradient, soft cinematic lighting that emphasizes fabric texture and facial structure, dramatic contrast, shallow depth of field, 85mm lens, 4:5 framing, photorealistic luxury magazine detail, no text or watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "extra fingers", "deformed", "text", "logo"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "icy-blue-fur-fashion-editorial.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult face, hair, expression, pose, and styling."}, {"type": "wardrobe", "name": "icy-blue faux-fur coat, black trousers and pointed heels", "required": true, "source": "local reference image", "usage": "Preserve coat color, fur texture, tailoring, crossed-leg styling, and footwear."}, {"type": "location", "name": "charcoal faux-fur armchair and dark studio gradient", "required": true, "source": "local reference image", "usage": "Preserve chair texture, dark background, shadows, and luxury atmosphere."}],
+      "prompt_instructions": "Attach all required person, wardrobe, and location references; no optional assets are needed. Keep identity, outfit, pose, chair, environment, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent wardrobe, or equivalent studio. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

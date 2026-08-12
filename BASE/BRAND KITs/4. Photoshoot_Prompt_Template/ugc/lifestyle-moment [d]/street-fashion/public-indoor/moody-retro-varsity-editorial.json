@@ -1,0 +1,22 @@
+{
+  "name": "moody-retro-varsity-editorial",
+  "tag": ["ugc", "varsity", "school-corridor", "trio", "retro"],
+  "image_type": "UGC multi-subject fashion editorial",
+  "image_vibe": "moody, nostalgic, collegiate, high-contrast",
+  "image_purpose": "Fashion editorial, carousel cover, and moodboard",
+  "group": "ugc/lifestyle-moment [d]/street-fashion/public-indoor",
+  "prompt": {
+    "project_info": "Create a cinematic full-body editorial photograph of three approved adult women in a vintage-inspired school corridor.",
+    "main_subject": "Three approved adult women with blonde, auburn, and brunette hair, each wearing a navy varsity letterman jacket with cream leather sleeves and a prominent golden H patch, paired with solid-colored opaque athletic bottoms in dark teal and deep burgundy and pointed-toe pumps. They stand with poised serious expressions and look back toward the camera.",
+    "composition_elements": "Full-body three-person composition at the top of a tiled staircase, with forest-green metal lockers, industrial concrete walls, stair rails, and a dim vintage high-school corridor. Keep the three hair colors and jacket hierarchy distinct; treat the H as a generic garment patch, not a new brand logo.",
+    "lighting_and_atmosphere": "Sharp directional corridor light with controlled shadow, highlighting jacket wool, cream sleeves, shoe leather, tiled steps, and concrete texture. Moody nostalgic 1980s atmosphere with restrained color.",
+    "technical_specs": "35mm editorial lens look, full-body vertical frame, deep enough focus for all three subjects, natural skin texture, subtle film grain, lifted blacks, high-contrast but realistic color treatment.",
+    "generated_prompt_string": "A cinematic full-body editorial photograph of three approved adult women with distinct blonde, auburn, and brunette hair standing at the top of a tiled school staircase and looking back over their shoulders with poised serious expressions. They wear matching navy blue varsity letterman jackets with cream-colored leather sleeves and generic golden H patches, paired with solid-colored opaque athletic bottoms in dark teal and deep burgundy and elegant pointed-toe pumps in beige and chocolate brown. The setting is a dim vintage-inspired school corridor with forest-green metal lockers, industrial concrete walls, tiled steps, and directional overhead light. Emphasize realistic wool, leather, tile, and concrete texture, a moody nostalgic 1980s aesthetic, 35mm editorial framing, and subtle film grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, exposed intimate areas, child or teen appearance, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, harsh flash, extra limbs, deformed hands, invented logos, random text, watermark, low resolution, blur",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "moody-retro-varsity-editorial.jpg", "required": true, "source": "local approved three-subject fashion reference", "usage": "Preserve the three approved adult subjects, hair-color distinction, varsity jackets, generic H patches, staircase, lockers, corridor, pose, and lighting."}],
+      "prompt_instructions": "Attach the required multi-subject reference. Preserve identity continuity for each approved adult, jacket design, modest opaque styling, subject order, environment, and lighting. Background lockers and shoes can be replaced while retaining the varsity editorial concept; do not invent logos or typography. Any replacement subjects must be approved adults."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified all subjects as approved adults, replaced exposed-bottom wording with opaque athletic bottoms, and retained the varsity trio's retro fashion direction."]}
+}

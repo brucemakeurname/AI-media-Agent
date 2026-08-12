@@ -1,0 +1,71 @@
+{
+  "name": "summer-beach-schoolbus-redhead",
+  "tag": [
+    "schoolbus-beach",
+    "redhead",
+    "retro-sportswear",
+    "popsicle",
+    "typography"
+  ],
+  "image_type": "lifestyle-editorial-portrait",
+  "image_vibe": "retro-sunlit-casual",
+  "image_purpose": "instagram-feed",
+  "group": "indie/enegy-lifestyle/beach-summer",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed public-figure biometric likeness and replaced it with an original adult red-haired subject; retained source typography as an optional replaceable design element."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "retro beach-day portrait beside a weathered yellow school bus",
+      "color_palette": "school-bus yellow, athletic red, white, sandy beige, and sunset gold",
+      "format": "vertical full-body lifestyle portrait"
+    },
+    "main_subject": {
+      "type": "original adult woman",
+      "detail": "Original adult red-haired woman with freckles and loose wavy copper hair, standing casually beside a weathered yellow school bus. She wears a white cropped tank, high-waisted red athletic shorts with white piping, and red nail polish.",
+      "style": "sunlit retro sportswear editorial, non-sexualized"
+    },
+    "composition_elements": {
+      "text": "Optional red retro script reading 'Enjoy my Curves' centered on the tank; retain exactly if a typography reference is attached, otherwise omit it.",
+      "items": [
+        "adult subject holding a red popsicle near one shoulder",
+        "small red handbag with white trim held at her side",
+        "yellow school bus with weathered paint, visible rivets, and reflective windows",
+        "sandy beach ground with footprints and a blue ocean horizon"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "warm late-afternoon sunlight",
+      "effect": "long soft shadows, sunlit freckles, nostalgic summer-road-trip mood"
+    },
+    "technical_specs": {
+      "camera": "Fujifilm X-T5",
+      "lens": "XF 33mm f/1.4 at f/2.8",
+      "render_style": "natural skin detail, subtle film grain, warm red-yellow contrast, crisp bus texture"
+    },
+    "generated_prompt_string": "Create a vertical retro summer lifestyle portrait of an original adult red-haired woman standing casually beside a weathered yellow school bus on a sandy beach. She has loose wavy copper hair and freckles, wears a white cropped tank with high-waisted red athletic shorts trimmed in white, and holds a red popsicle near one shoulder plus a small red handbag with white trim. Include bus rivets, reflective windows, sand footprints, and a distant ocean horizon. Use warm late-afternoon sunlight, long soft shadows, natural skin texture, subtle film grain, and nostalgic red-yellow color contrast. If a supplied typography reference is attached, place its approved text in red retro script centered on the tank; otherwise leave the tank unbranded. No celebrity likeness, text not supplied by reference, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, public figure, celebrity likeness, minor, child, sexualized pose, body emphasis, nudity, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, unapproved text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity direction is required.",
+          "usage": "Replace only the original adult subject identity while retaining the red-hair direction, wardrobe, bus setting, props, and pose."
+        },
+        {
+          "type": "text_layout",
+          "name": "tank-typography-reference",
+          "required": false,
+          "source": "Attach approved artwork containing the exact desired tank text and layout.",
+          "usage": "Use only as the source for approved tank typography; preserve the supplied wording, spelling, placement, and red retro-script treatment."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. Typography is optional and must not be invented: if no approved text-layout reference is attached, leave the tank unbranded. Preserve the school-bus, popsicle, bag, beach, and late-afternoon retro-lifestyle composition."
+    }
+  }
+}

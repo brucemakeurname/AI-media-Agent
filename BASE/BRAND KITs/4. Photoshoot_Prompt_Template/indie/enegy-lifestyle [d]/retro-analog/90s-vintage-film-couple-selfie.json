@@ -1,0 +1,66 @@
+{
+  "name": "90s-vintage-film-couple-selfie",
+  "tag": [
+    "adult-couple",
+    "90s-film",
+    "direct-flash",
+    "close-selfie",
+    "tweed-and-knit"
+  ],
+  "image_type": "couple-film-selfie",
+  "image_vibe": "warm-romantic-intimate",
+  "image_purpose": "lifestyle-editorial",
+  "group": "indie/enegy-lifestyle/retro-analog",
+  "source_url": "https://x.com/ZaraIrahh/status/2000015286192517246",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified both subjects are adults, limited face matching to approved adult references, and replaced the Cartier-style wording with plain unbranded bangles."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult couple 1990s direct-flash close selfie",
+      "color_palette": "warm beige, brown tweed, pearl white, soft rose, and flash amber",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "Two adults who may match separate approved adult identity references: one man with messy wavy hair and one woman with long dark hair, rosy cheeks, and soft evening makeup.",
+      "wardrobe": "The adult man wears a beige knit sweater, plain pearl necklace, and a small dangling earring. The adult woman wears a brown tweed jacket, a covered cream top, and several plain unbranded gold bangles.",
+      "pose": "High-angle close selfie; the man looks softly toward the camera while the woman rests her chin lightly on his shoulder, both with relaxed affectionate expressions."
+    },
+    "composition_elements": {
+      "framing": "Extreme close-up vertical selfie from above, shoulders and faces filling the frame.",
+      "environment": "Warm neutral indoor wall with no visible labels, text, or branding."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Harsh direct flash with warm high contrast and a disposable-camera falloff.",
+      "atmosphere": "Romantic, casual, intimate, and nostalgic."
+    },
+    "technical_specs": {
+      "camera": "1990s disposable-camera / Polaroid-style selfie",
+      "quality": "visible film grain, slight flash bloom, natural skin, realistic knit and tweed texture"
+    },
+    "generated_prompt_string": "Create a photoreal 4:5 high-angle extreme close-up selfie of two adults, optionally matching separate approved adult identity references. The man has messy wavy hair and wears a beige knit sweater, plain pearl necklace, and a small dangling earring. The woman has long dark hair, soft rosy makeup, a brown tweed jacket over a covered cream top, and several plain unbranded gold bangles. The man looks softly toward camera while the woman rests her chin lightly on his shoulder; both appear relaxed and affectionate. Use harsh warm direct flash, 1990s disposable-camera grain, slight flash bloom, a warm neutral indoor wall, natural skin, and no text, logo, or watermark.",
+    "negative_prompt": "minor, unapproved identity reference, brand name, Cartier, logo, watermark, readable text, nudity, explicit, nsfw, overly revealing clothing, distorted faces, extra fingers, plastic skin",
+    "reference_elements": {
+      "prompt_instructions": "Both identity references are optional and must depict adults. Other references are optional; use them only to replace wardrobe, jewelry, or flash character.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved-adult-couple-identity-references",
+          "required": false,
+          "source": "user upload",
+          "usage": "Match each approved adult face separately; do not blend identities or alter age."
+        },
+        {
+          "type": "style_reference",
+          "name": "warm-90s-disposable-flash",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace flash warmth, grain, and slight bloom."
+        }
+      ]
+    }
+  }
+}

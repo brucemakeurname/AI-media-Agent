@@ -1,0 +1,19 @@
+{
+  "name": "playful-winking-ana-de-armas",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "private-indoor", "playful-wink", "black-dress", "white-sofa"],
+  "image_type": "lifestyle-candid-portrait",
+  "image_vibe": "bright-playful-casual",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/soft-elegant/private-indoor",
+  "prompt": {
+    "project_info": "Create a candid playful indoor portrait of an approved adult woman seated on a plush white sofa in direct sunlight.",
+    "main_subject": "An approved adult woman with long wavy brown hair styled in high pigtails, loose strands around the face, playful wink and slight smile. She wears a black corset-style dress with structured seams and short skirt, sits with legs crossed at the knees, one hand resting on the sofa and the other holding a strand of hair.",
+    "composition_elements": "3:4 seated portrait, subject centered on white plush sofa, large windows and open modern living room behind, strong geometric sunlight and deep natural shadows across wall and sofa.",
+    "lighting_and_atmosphere": "Bright direct natural sunlight, high contrast, strong highlights and deep shadows, candid playful mood with realistic skin and fabric.",
+    "technical_specs": "Photorealistic 3:4 portrait, natural perspective, high detail, accurate hands and hair, realistic window light, controlled highlights, subtle grain.",
+    "generated_prompt_string": "Create a photorealistic 3:4 candid indoor portrait of an approved adult woman with long wavy brown hair in high pigtails, loose strands around her face, and a playful wink with a slight smile. She wears a black corset-style dress with structured seams and a short skirt, sits with legs crossed at the knees on a plush white sofa, rests one hand on the sofa, and holds a strand of hair with the other. Use a bright modern living room with large windows, direct sunlight, high-contrast geometric shadows on the wall and sofa, realistic skin and black fabric, natural perspective, and subtle grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted face, text, logo",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-brown-haired-winking-subject", "required": true, "source": "playful-winking-ana-de-armas.jpg", "usage": "Preserve the adult face, brown pigtails, wink, smile, pose, and identity without public-figure likeness."}, {"type": "wardrobe", "name": "black-corset-style-dress", "required": true, "source": "playful-winking-ana-de-armas.jpg", "usage": "Keep the black structured dress and skirt consistent; replace only with explicit wardrobe references."}, {"type": "location", "name": "white-sofa-sunlit-modern-room", "required": true, "source": "playful-winking-ana-de-armas.jpg", "usage": "Maintain white sofa, windows, sunlight, and shadows; replace only with explicit location references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, wink, pose, sofa, and lighting geometry consistent. Furniture and background may be replaced only with explicit alternatives; preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced the named public-figure identity with a generic approved adult while preserving the playful wink concept.", "Removed body-emphasis wording and added safe negative prompts and references."]}
+}

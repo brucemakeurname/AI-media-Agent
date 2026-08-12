@@ -1,0 +1,59 @@
+{
+  "name": "Quiet Emotion Crowd Street Portrait",
+  "tag": "quiet-emotion-crowd-street",
+  "image_type": "documentary_street_portrait",
+  "image_vibe": "warm_reflective_film",
+  "image_purpose": "documentary_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Quiet Emotion Crowd Street Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with short blonde hair, soft freckles, minimal makeup, and a thoughtful sideward gaze.",
+      "wardrobe": "A simple gray knitted sweater, straight blue jeans, and a plain brown shoulder bag.",
+      "pose_and_expression": "Standing naturally in a pedestrian zone, looking slightly to the side rather than into camera."
+    },
+    "composition_elements": {
+      "setting": "Busy generic city pedestrian street with anonymous background walkers rendered as non-identifiable soft motion and bokeh.",
+      "framing": "Eye-level candid medium portrait; subject sharply focused against softly blurred crowd depth.",
+      "text_and_brand_control": "No readable store signs, logos, text, personal data, or identifiable background faces."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft natural daylight with warm film-inspired tone and even shadow.",
+      "mood": "Stillness within city movement, reflective and authentic."
+    },
+    "technical_specs": {
+      "camera_style": "professional documentary street photograph",
+      "lens": "85mm equivalent",
+      "rendering": "Natural skin and knit texture, subtle grain, gentle background motion blur, realistic proportions."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical professional documentary street portrait of an adult woman with short blonde hair, soft freckles, minimal makeup, and a thoughtful sideward gaze. She wears a simple gray knitted sweater, straight blue jeans, and a plain brown shoulder bag, standing naturally in a generic city pedestrian zone. Surround her with a dense anonymous crowd rendered as soft non-identifiable motion and bokeh. Use eye-level candid medium framing, sharp focus on subject, soft daylight, warm film-inspired tone, natural skin and knit texture, subtle grain, gentle background motion blur, and realistic proportions. No readable signs, logos, text, personal data, identifiable background faces, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, logo, readable text, identifiable bystander, watermark, plastic skin, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity reference must depict a consenting adult. Wardrobe and crowd-street references guide general styling only; all copy and bystander identities must be removed.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult facial and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "pedestrian_street_reference",
+          "required": false,
+          "source": "user-provided location reference",
+          "usage": "Guide crowd depth and light while anonymizing people and blanking copy."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adult subject and explicitly anonymized crowd, signage, and personal data while retaining candid documentary mood."
+  }
+}

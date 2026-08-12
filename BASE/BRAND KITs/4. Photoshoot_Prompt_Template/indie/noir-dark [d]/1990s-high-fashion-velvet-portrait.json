@@ -1,0 +1,73 @@
+{
+  "name": "1990s-high-fashion-velvet-portrait",
+  "tag": [
+    "adult-woman",
+    "1990s-fashion",
+    "black-velvet",
+    "studio-portrait",
+    "monochrome-editorial"
+  ],
+  "image_type": "high-fashion-studio-portrait",
+  "image_vibe": "dramatic-retro-noir",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the celebrity likeness instruction with a required approved adult non-public-figure identity reference while preserving the 1990s velvet fashion concept, seated pose, and editorial styling."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "1990s high-fashion black-velvet studio editorial",
+      "color_palette": "black, white, charcoal gray, and natural skin tones",
+      "aspect_ratio": "1:1"
+    },
+    "main_subject": {
+      "description": "An adult woman matching the required approved adult non-public-figure identity reference, with a feminine silhouette, long dark softly waved hair with bangs, defined eyes, glossy lips, and natural skin texture.",
+      "wardrobe": "Fitted black velvet short dress with white piping details, decorative arrow graphics pointing inward on the front, short sleeves with white trim, an open-front button detail, and black high-heeled sandals.",
+      "pose": "Seated on a tall stool with legs crossed at the knees, hands resting naturally on the thighs, and an intense direct gaze toward the camera."
+    },
+    "composition_elements": {
+      "framing": "Centered full-body studio portrait with generous negative space and the stool fully visible.",
+      "environment": "Minimal neutral studio backdrop with a soft floor-to-wall gradient and no text or logos.",
+      "focus": "Sharp facial expression, velvet texture, white piping, and natural hand anatomy."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Dramatic high-contrast key light from camera-left with soft shadow fill and controlled edge separation.",
+      "atmosphere": "Confident, polished, graphic, and distinctly 1990s fashion-magazine noir."
+    },
+    "technical_specs": {
+      "camera": "Medium-format film camera with an 80mm portrait lens, f/5.6, 1/125 s, ISO 200",
+      "quality": "Photorealistic monochrome finish, subtle film grain, crisp velvet fibers, realistic skin texture, and natural proportions"
+    },
+    "generated_prompt_string": "Create an ultra-realistic 1:1 1990s high-fashion studio portrait of an adult woman matching the required approved adult non-public-figure identity reference. She has a feminine silhouette, long dark softly waved hair with bangs, defined eyes, glossy lips, and natural skin texture. She wears a fitted black velvet short dress with white piping details, decorative arrow graphics pointing inward on the front, short sleeves with white trim, an open-front button detail, and black high-heeled sandals. Seat her on a tall stool with legs crossed at the knees, hands resting naturally on her thighs, and an intense direct gaze toward the camera. Use dramatic high-contrast studio lighting, a neutral gradient backdrop, medium-format film character, subtle grain, crisp velvet texture, realistic proportions, and no text or logos.",
+    "negative_prompt": "minor, celebrity likeness, public-figure likeness, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "The required approved adult identity reference must be attached and used only to preserve adult facial identity and facial structure. Do not blend identities or imitate a celebrity. Optional wardrobe references may replace only the stated dress and footwear while preserving the monochrome 1990s styling; environment references may replace only the neutral studio backdrop.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Preserve the adult subject's facial identity and structure only; do not copy a public figure or blend faces."
+        },
+        {
+          "type": "wardrobe",
+          "name": "1990s-black-velvet-dress-and-heels",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the dress, piping, button detail, and footwear while keeping the adult subject and seated pose."
+        },
+        {
+          "type": "location",
+          "name": "neutral-high-contrast-studio",
+          "required": false,
+          "source": "user-uploaded studio reference",
+          "usage": "Replace only the backdrop and studio spatial character; remove text and logos."
+        }
+      ]
+    }
+  }
+}

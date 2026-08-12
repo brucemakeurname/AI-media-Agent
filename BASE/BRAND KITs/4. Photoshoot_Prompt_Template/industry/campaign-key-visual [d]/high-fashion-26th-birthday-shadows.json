@@ -1,0 +1,60 @@
+{
+  "name": "high-fashion-26th-birthday-shadows",
+  "tag": ["adult-woman", "identity-reference", "birthday-portrait", "cream-silk-dress", "number-shadow", "cinematic-lighting"],
+  "image_type": "high-fashion-birthday-portrait",
+  "image_vibe": "cinematic-elegant-playful",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Replaced the unrestricted uploaded-photo identity instruction with an authorized adult identity reference and clarified the subject as an adult while preserving the cream silk dress, floral cake, blowing gesture, birthday candles, and dramatic number shadow."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "cinematic high-fashion birthday portrait",
+      "color_palette": "warm cream, champagne gold, soft pink and yellow flowers, cocoa shadows, and neutral skin tones",
+      "aspect_ratio": "2:3"
+    },
+    "main_subject": {
+      "description": "An elegant adult woman matching the authorized identity reference, with natural skin texture, soft waves, and a playful yet chic expression.",
+      "wardrobe": "Silky cream long dress with refined drape, subtle embroidery, and elegant full coverage.",
+      "pose": "Standing centered and leaning slightly forward while holding a white layered birthday cake toward camera and gently blowing out the number candles.",
+      "styling": "Sophisticated anniversary campaign styling with soft natural makeup and polished waves."
+    },
+    "composition_elements": {
+      "framing": "Centered vertical portrait from full length to head with cake in the foreground and a large circular spotlight behind the adult subject.",
+      "environment": "Minimal warm studio wall with cinematic spotlight, soft haze, and a dramatic enlarged birthday-number shadow behind her; use 21 to match the supplied image or replace with the campaign's specified age when requested.",
+      "props": "White layered cake decorated with colorful lilies and number candles reading 21 in the supplied reference image; maintain clear floral detail and realistic frosting.",
+      "focus": "Sharp adult identity, cake texture, flowers, candle flames, blowing expression, silky dress, and projected number shadow."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Dramatic warm spotlight from front-right casting a large soft-edged number shadow on the wall, with gentle fill on the face and realistic dress highlights.",
+      "atmosphere": "Elegant, playful, celebratory, cinematic, and intimate."
+    },
+    "technical_specs": {
+      "camera": "Full-frame portrait camera with an 85mm lens at f/2.8, 1/160 s, ISO 400",
+      "quality": "High-fashion photorealistic detail, shallow depth of field, authentic candle glow, soft film grain, natural skin and silk texture, and clean shadow projection"
+    },
+    "generated_prompt_string": "Create a cinematic 2:3 high-fashion birthday portrait using the authorized adult identity reference. Show an elegant adult woman with natural skin texture, soft waves, and a playful yet chic expression, wearing a silky cream long dress with refined drape and elegant full coverage. Center her as she leans slightly forward holding a white layered cake decorated with colorful lilies and number candles reading 21 as in the supplied image, gently blowing out the candles. Use a warm minimal studio wall with a circular spotlight behind her that projects a large soft-edged birthday-number shadow, dramatic front-right light, subtle haze, realistic frosting and flowers, candle glow, silk highlights, and no watermark or extra text.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, misspelled number, extra candles, deformed cake, extra fingers, deformed anatomy, harsh shadow edges, watermark, cluttered background",
+    "reference_elements": {
+      "prompt_instructions": "The authorized adult identity reference is required for the face and overall identity. Optional dress, cake, flowers, candle number, studio, or lighting references may replace only their named element; preserve the elegant full-coverage styling, blowing gesture, cinematic number shadow, and birthday portrait mood.",
+      "assets": [
+        {
+          "type": "identity",
+          "name": "authorized-adult-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public figure portrait",
+          "usage": "Preserve the authorized adult's facial identity and natural features in the birthday portrait."
+        },
+        {
+          "type": "prop",
+          "name": "white-floral-birthday-cake-and-number-candles",
+          "required": false,
+          "source": "user-uploaded cake reference",
+          "usage": "Replace only the cake decoration, flowers, or candle number while preserving the foreground holding pose and projected shadow."
+        }
+      ]
+    }
+  }
+}

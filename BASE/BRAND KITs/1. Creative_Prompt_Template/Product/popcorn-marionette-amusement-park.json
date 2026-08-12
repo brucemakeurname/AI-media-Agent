@@ -1,0 +1,76 @@
+{
+    "name":  "popcorn-marionette-amusement-park",
+    "tag":  [
+                "poster",
+                "brand story",
+                "surreal",
+                "amusement park",
+                "marionette",
+                "popcorn"
+            ],
+    "biz_niche":  "Fashion & Apparel / Editorial",
+    "content_format":  "Brand story",
+    "group":  "product_surreal_poster",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Surreal popcorn puppet at an amusement park",
+                                        "color_palette":  "Sky blue, denim blue, caramel yellow, popcorn gold, red and white"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Person",
+                                        "detail":  "A surprised young Asian woman in a black camisole, ripped jeans, and gray sneakers is controlled as a marionette by a giant hand above, while an inverted striped popcorn bucket spills over her.",
+                                        "style":  "Photoreal surreal advertising poster, low-angle cinematic action"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Person/Props/Location/Typography",
+                                                "text":  "THE PROMPTER INDONESIA; A Big Family That Cares for Other; XMIIIRU_",
+                                                "items":  [
+                                                              "Top: giant fair-skinned hand holding wooden cross-shaped marionette controller.",
+                                                              "Center: frightened female puppet with strings on wrists, ankles, and waist.",
+                                                              "Mid-left: striped popcorn bucket tipping and scattering caramel popcorn.",
+                                                              "Background: sunny amusement park with roller coaster, Ferris wheel, visitors, and blue sky.",
+                                                              "Bottom: white footer branding and black credit badge."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Bright natural amusement-park sunlight",
+                                                   "effect":  "Low-angle perspective, dynamic motion, cinematic blue-sky clarity, grounded shadows"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Hyper-realistic vertical commercial poster",
+                                           "resolution":  "High resolution, strong foreground focus"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "approved model reference",
+                                                                 "required":  false,
+                                                                 "source":  "approved talent photo",
+                                                                 "usage":  "Only attach if a specific model likeness is licensed; otherwise render a generic Asian woman."
+                                                             },
+                                                             {
+                                                                 "type":  "location",
+                                                                 "name":  "amusement park reference",
+                                                                 "required":  false,
+                                                                 "source":  "licensed park reference",
+                                                                 "usage":  "Use to match rides only when necessary; avoid trademarks."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "poster footer text",
+                                                                 "required":  true,
+                                                                 "source":  "source image reference",
+                                                                 "usage":  "Preserve wording and placement only if those marks are authorized."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Do not use a real person likeness without an approved reference.",
+                                                                          "Keep strings visibly connected to the wooden controller.",
+                                                                          "Treat footer branding as optional/replaceable unless the user owns it."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "{ \"type\": \"advertisement_poster\", \"style\": { \"photorealistic\": true, \"hyper_realistic\": true, \"highly_detailed\": true, \"commercial_photography\": true, \"vibrant_colors\": true, \"high_contrast\": true, \"cinematic_lighting\": true }, \"camera\": { \"angle\": \"low\", \"orientation\": \"vertical_portrait\", \"focus\": \"strong_foreground\" }, \"subject\": { \"person\": { \"age\": \"30s\", \"ethnicity\": \"Asian\", \"hair\": \"short black\", \"clothing\": { \"tshirt\": \"mustard yellow\", \"shorts\": \"navy blue\", \"shoes\": \"gray sneakers\" }, \"pose\": { \"style\": \"marionette_puppet_losing_control\", \"expression\": \"surprised\", \"eyes\": \"wide\", \"mouth\": \"open\", \"arm\": \"one_raised_in_panic\", \"body_tilt\": \"forward\", \"leg_lifted\": true }, \"props\": [{ \"object\": \"popcorn_bucket\", \"orientation\": \"upside_down\", \"color\": \"yellow\", \"label\": \"Popcorn\", \"text_color\": \"red\", \"effect\": \"caramel_popcorn_spilling_dynamically\" }], \"marionette_strings\": { \"attached_to\": [\"wrists\", \"ankles\", \"waist\"], \"connected_to\": { \"controller\": \"wooden_cross_shaped_marionette\", \"held_by\": { \"hand\": \"giant\", \"skin_tone\": \"fair\", \"position\": \"top_of_frame\" } } } } }, \"effects\": { \"dynamic_motion\": true, \"selective_focus\": true, \"cinematic_drama\": true } }",
+                   "negative_prompt":  "missing strings, distorted hands, unsafe pose, recognizable unlicensed person, amusement-park logo, weak popcorn motion, low resolution, watermark"
+               }
+}

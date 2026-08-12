@@ -1,0 +1,59 @@
+{
+  "name": "Quiet Meadow Reading Portrait",
+  "tag": "quiet-meadow-reading",
+  "image_type": "nature_lifestyle_portrait",
+  "image_vibe": "peaceful_green_bokeh",
+  "image_purpose": "lifestyle_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Quiet Meadow Reading Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "3:4 vertical"
+    },
+    "main_subject": {
+      "description": "An adult man with wind-softened hair and a focused peaceful expression.",
+      "wardrobe": "A dark textured overshirt, plain black T-shirt, dark trousers, plain white trainers, and no visible brands.",
+      "pose_and_expression": "Seated upright but relaxed in a black folding camp chair, reading an open blank-page book."
+    },
+    "composition_elements": {
+      "setting": "Wide grassy field and gentle green hill, photographed from behind foreground grass and shrubs with a leafy branch framing one corner.",
+      "framing": "Long-shot composition, subject small against the landscape, large soft green bokeh foreground.",
+      "text_and_brand_control": "No exact face/hair preservation, shoe brand, earphone logo, readable book text, or watermark."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft even afternoon daylight under light cloud.",
+      "mood": "Positive solitude, concentration, fresh air, and calm."
+    },
+    "technical_specs": {
+      "camera_style": "long-lens nature lifestyle photograph",
+      "lens": "135mm equivalent",
+      "rendering": "Layered green bokeh, crisp subject, natural grass texture, realistic posture, and gentle color contrast."
+    },
+    "generated_prompt_string": "Create a 3:4 vertical long-lens nature lifestyle photograph of an adult man with wind-softened hair and a focused peaceful expression. He wears a dark textured overshirt, plain black T-shirt, dark trousers, and plain white trainers, seated upright but relaxed in a black folding camp chair while reading an open blank-page book. Place him small within a wide grassy field and gentle green hill, photographed from behind foreground grass and shrubs with a leafy branch in one corner. Use a 135mm view, large soft green bokeh foreground, crisp subject, soft even lightly-cloudy afternoon light, natural grass texture, realistic posture, and gentle color contrast. No exact face/hair preservation, shoe brand, earphone logo, readable book text, watermark, or logo.",
+    "negative_prompt": "minor, celebrity likeness, exact identity preservation, explicit, nsfw, logo, branded shoe, readable book text, watermark, distorted hands, unnatural pose, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity reference must depict a consenting adult. Clothing, chair, book, and meadow references are replaceable; omit every brand and readable page.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult face and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "green_meadow_reference",
+          "required": false,
+          "source": "user-provided landscape reference",
+          "usage": "Guide hill, grass, and bokeh framing."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed exact identity preservation and named footwear; kept all references replaceable and unbranded."
+  }
+}

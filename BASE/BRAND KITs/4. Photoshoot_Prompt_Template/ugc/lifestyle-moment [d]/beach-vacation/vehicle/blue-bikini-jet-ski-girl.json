@@ -1,0 +1,27 @@
+{
+  "name": "blue-bikini-jet-ski-girl",
+  "tag": ["ugc", "jet-ski", "blue-bikini", "over-shoulder", "golden-hour"],
+  "image_type": "lifestyle-watercraft-portrait",
+  "image_vibe": "sunlit-confident-adventure",
+  "image_purpose": "instagram-feed",
+  "group": "lifestyle-moment/beach-vacation/vehicle",
+  "prompt": {
+    "project_info": "Create a high-fidelity natural-light portrait of an adult woman seated on a personal watercraft in a calm coastal bay.",
+    "main_subject": "An adult woman with tan sun-kissed skin, wet slicked-back dark-blonde hair, realistic water droplets, and a calm confident expression. She wears a ribbed royal-blue two-piece bikini with thin straps and small gold hoop earrings.",
+    "composition_elements": "Seated astride a grey-and-silver jet ski, facing away while twisting her torso left to look over her shoulder toward camera. Her hands hold the handlebars, knees bent, and the watercraft seat and grip mats remain visible. Calm deep-blue water, palm-lined coastline, stone breakwater, and gradient blue sky fill the background.",
+    "lighting_and_atmosphere": "Warm direct golden-hour sunlight from left/front, distinct natural shadows, water sheen and realistic skin texture, confident relaxed water-adventure mood.",
+    "technical_specs": "35–50mm equivalent, medium hips-up shot, slightly low to eye level, centered subject, sharp subject with distinct soft background, natural perspective and high-fidelity photography.",
+    "generated_prompt_string": "High-fidelity photorealistic portrait of an adult woman with tan sun-kissed skin, wet slicked-back dark-blonde hair, realistic water droplets, and a calm confident expression, wearing a ribbed royal-blue two-piece bikini with thin straps and small gold hoop earrings. She sits astride a grey-and-silver jet ski, facing away while twisting her torso left to look over her shoulder toward the camera, hands extended to the handlebars, knees bent. Include the jet ski seat, black grip mats and handle details, calm deep-blue water, distant palm-lined coast, stone breakwater, and gradient blue sky. Warm golden-hour sunlight from the left/front, distinct natural shadows, sharp subject, 35–50mm perspective, medium hips-up framing, realistic water and skin texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, body-part emphasis, anatomical exaggeration, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, extra limbs, extra fingers, deformed, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "wet-haired adult jet-ski subject", "required": true, "source": "matching local preview image", "usage": "Preserve approved adult face, hair, earrings, expression, pose, and natural proportions; replaceable with another approved adult."},
+        {"type": "wardrobe", "name": "ribbed royal-blue bikini", "required": true, "source": "matching local preview image", "usage": "Keep royal-blue color, ribbed texture, straps, and earrings consistent; replaceable with equivalent water-sport styling."},
+        {"type": "product", "name": "grey-and-silver jet ski", "required": true, "source": "matching local preview image", "usage": "Preserve watercraft silhouette, seat, grip mats, handlebars, and scale; replaceable with an equivalent personal watercraft."},
+        {"type": "location", "name": "calm palm-lined coastal bay", "required": true, "source": "matching local preview image", "usage": "Preserve water, coast, breakwater, and sky; replaceable with equivalent coastal water."}
+      ],
+      "prompt_instructions": "Attach the matching preview for adult identity, outfit, watercraft, pose, and coastal continuity. Preserve face, hair, wardrobe, hand placement, jet-ski structure, and warm light. Replacement assets must be equivalent and non-branded; no typography is needed."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed explicit volumetric and body-part emphasis while preserving the adult water-sport portrait, royal-blue bikini, over-shoulder pose, and golden-hour intent."]}
+}

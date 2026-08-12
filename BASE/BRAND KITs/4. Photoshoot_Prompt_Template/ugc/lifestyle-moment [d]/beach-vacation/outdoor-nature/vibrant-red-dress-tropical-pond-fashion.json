@@ -1,0 +1,26 @@
+{
+  "name": "vibrant-red-dress-tropical-pond-fashion",
+  "tag": ["ugc", "red-dress", "lily-pond", "fashion-editorial", "dock-portrait"],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "cinematic-tropical-reflective",
+  "image_purpose": "editorial",
+  "group": "lifestyle-moment/beach-vacation/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a photorealistic tropical fashion editorial with natural skin texture, cinematic composition, and no added text or logos.",
+    "main_subject": "An adult woman with dark hair in a sleek low bun, seated elegantly on a short wooden dock. She wears a vibrant red sleeveless mini dress with thin straps and a softly flared hem, lightweight fabric with natural folds and realistic drape, plus minimal accessories.",
+    "composition_elements": "Her body faces toward the pond with her back and right shoulder visible in a three-quarter view; head turned slightly left, calm reflective posture. The dock extends over dark still water covered with large circular green lily pads, framed by two rope-wrapped posts. Tropical greenery, palms, and small wooden structures sit behind her. Use a 3:4 portrait crop.",
+    "lighting_and_atmosphere": "Bright natural daylight under clear blue sky, tropical natural green and warm red balance, crisp but natural detail, subtle 35mm grain, reflective and tasteful editorial mood.",
+    "technical_specs": "3:4 portrait orientation, cinematic photoreal editorial rendering, natural-not-HDR dynamic range, realistic skin texture, subtle film grain, sharp but natural focus, no readable text, no watermark.",
+    "generated_prompt_string": "Create a photorealistic tropical fashion editorial scene at a calm pond covered with large circular green lily pads floating on dark still water. In the background are lush tropical greenery, palm trees, and small wooden structures. Bright natural daylight under a clear blue sky. A short wooden dock extends slightly over the water, framed by two rope-wrapped posts. An adult woman with dark hair in a sleek low bun sits elegantly on the edge of the dock, body facing toward the pond, back and right shoulder visible in a three-quarter view, head turned slightly left, calm and reflective. She wears a vibrant red sleeveless mini dress with thin straps and a softly flared hem, lightweight cotton or linen with natural folds and realistic drape, plus minimal accessories. 3:4 portrait, cinematic photoreal editorial, tropical natural green and warm red balance, crisp but natural sharpness, subtle 35mm film grain, realistic skin texture, no text, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, cartoon, illustration, extra limbs, extra fingers, deformed, readable text, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "dark-haired adult editorial subject", "required": true, "source": "matching local preview image", "usage": "Preserve approved adult identity, low bun, seated posture, and three-quarter orientation; replaceable with another approved adult."},
+        {"type": "wardrobe", "name": "vibrant red sleeveless dress", "required": true, "source": "matching local preview image", "usage": "Keep red color, thin straps, softly flared hem, and natural drape consistent; replaceable with equivalent editorial wardrobe."},
+        {"type": "location", "name": "lily-pond dock and tropical garden", "required": true, "source": "matching local preview image", "usage": "Preserve lily pads, dark water, dock, rope posts, tropical plants, and structures; replaceable with an equivalent pond editorial setting."}
+      ],
+      "prompt_instructions": "Attach the matching preview for exact adult identity, red dress, dock pose, and pond composition. Preserve face, bun, outfit, palette, lighting, and 3:4 hierarchy. Person, wardrobe, and environment are replaceable only with equivalent approved references; typography and logos are absent and must not be invented."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "four-frame-curly-beauty",
+  "tag": ["industry", "lookbook-line-sheet", "grid-collage", "beauty", "curly-hair"],
+  "image_type": "four-frame beauty editorial grid",
+  "image_vibe": "glamorous, bold, polished, premium",
+  "image_purpose": "beauty campaign and editorial grid portrait",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Create a four-frame high-fashion beauty grid with consistent identity, styling, and makeup across every panel.",
+    "main_subject": "An adult woman using the required approved-adult face reference; preserve identical facial features, facial structure, and natural proportions across all four frames. She has voluminous black curly hair with visible baby hairs and loose strands, wears a black strapless or off-shoulder leather-look dress, a gold statement necklace, and large gold earrings. Makeup is consistent: realistic dewy skin, rosy blush on cheeks and nose, soft shimmer eye makeup, and shimmer along the lower lash line.",
+    "composition_elements": "Four-frame grid in one image: varied beauty crops from portrait to close-up and three-quarter view, consistent face, hair, makeup, dress, jewelry, background, and color grade, premium clean composition.",
+    "lighting_and_atmosphere": "Professional studio lighting with controlled highlights on curls, skin, leather-look fabric, and gold jewelry; high-fashion glam beauty atmosphere.",
+    "technical_specs": "High-resolution portrait photography, sharp focus, realistic skin and hair texture, four-panel grid layout, natural anatomy, no text or logos.",
+    "generated_prompt_string": "Four-frame high-fashion beauty editorial grid of an adult woman using the required approved-adult face reference, preserving identical facial features, facial structure, natural proportions, hair, makeup, and styling in every frame. Voluminous black curly hair with visible baby hairs and loose strands, black strapless or off-shoulder leather-look dress, gold statement necklace and large gold earrings, realistic dewy skin, rosy blush across cheeks and nose, soft shimmer eyeshadow, lower-lash shimmer. Varied portrait, close-up, and three-quarter beauty crops, professional studio lighting, sharp focus, premium glamorous editorial atmosphere, high-resolution realistic texture.",
+    "negative_prompt": ["celebrity likeness", "public figure likeness", "explicit", "nsfw", "overly revealing", "nudity", "identity drift", "different face", "blurry", "low quality", "distorted anatomy", "extra fingers", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "logo", "text", "signature"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "four-frame-curly-beauty.jpg", "required": true, "source": "workspace reference image", "usage": "Required approved-adult identity reference for face, facial structure, curly hair, makeup, dress, jewelry, and four-panel consistency."}],
+      "prompt_instructions": "Attach the required approved-adult face reference. Preserve face, identity, hairstyle, outfit, makeup, jewelry, lighting, and grid consistency; vary only crop and editorial angle. Keep products, logos, and typography absent or replaceable."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

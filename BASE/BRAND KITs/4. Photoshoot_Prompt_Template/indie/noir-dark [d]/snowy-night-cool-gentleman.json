@@ -1,0 +1,59 @@
+{
+  "name": "snowy-night-cool-gentleman",
+  "tag": ["adult-man", "black-suit", "silver-sports-car", "snowy-night", "noir-luxury", "monochrome"],
+  "image_type": "cinematic-luxury-portrait",
+  "image_vibe": "cool-mysterious-luxurious",
+  "image_purpose": "social-editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an adult and replaced the visible reference watermark with a no-logo instruction while preserving the black suit, silver sports car, snowy city night, cinematic smoke, and high-contrast noir aesthetic."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "high-contrast black-and-white snowy-night luxury noir portrait",
+      "color_palette": "deep black, silver metallic, white snow, charcoal city shadows, and restrained cool highlights",
+      "aspect_ratio": "2:3"
+    },
+    "main_subject": {
+      "description": "A stylish adult man with a composed confident expression and natural facial detail.",
+      "wardrobe": "Well-tailored black suit, dark shirt, polished black shoes, and minimal understated accessories.",
+      "pose": "Standing or leaning confidently against the front quarter of a futuristic silver sports car, one hand in a trouser pocket and legs relaxed, facing camera.",
+      "styling": "Elegant contemporary gentleman styling with a cool, mysterious luxury attitude."
+    },
+    "composition_elements": {
+      "framing": "Vertical three-quarter portrait showing the adult subject, the sports car front, and the snowy street environment.",
+      "environment": "Night city street with tall buildings, distant bokeh lights, fresh snow on pavement, falling snowflakes, and no readable signage or logos.",
+      "focus": "Sharp subject, tailored suit texture, metallic car surfaces, snowflakes, tire tracks, and atmospheric smoke plume."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Dramatic cinematic street lighting with cool rim light on the suit and car, bright snow reflections, deep shadows, and a soft backlight through falling snow.",
+      "atmosphere": "Luxury, mystery, quiet confidence, cold air, and cinematic noir."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with a 50mm lens at f/1.8, 1/250 s, ISO 800",
+      "quality": "Photorealistic high-detail black-and-white photography, crisp suit and car texture, shallow depth of field, authentic film grain, controlled atmospheric smoke"
+    },
+    "generated_prompt_string": "Create a photorealistic 2:3 high-contrast black-and-white cinematic noir portrait of a stylish adult man in a well-tailored black suit, dark shirt, and polished black shoes, leaning confidently against the front quarter of a futuristic silver sports car. Pose him with one hand in a trouser pocket, relaxed legs, and a composed gaze toward camera. Set the scene on a snowy city street at night with tall buildings, distant bokeh lights, fresh snow, tire tracks, falling snowflakes, and a subtle atmospheric smoke plume. Use dramatic cool street lighting, metallic reflections, deep shadows, soft backlight through the snow, a 50mm lens at f/1.8, authentic film grain, and no readable signage, logos, or watermark.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, readable text, logo, watermark, brand mark, cartoonish rendering, plastic skin, deformed anatomy, extra limbs, distorted car geometry, excessive smoke",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult subject. Optional suit, car, city, snow, smoke, or lighting references may replace only their named element; preserve the adult gentleman, confident pose, luxury noir mood, and monochrome treatment while removing all logos and text.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "tailored-black-gentleman-suit",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the suit, shirt, shoes, or accessories while preserving polished coverage and luxury styling."
+        },
+        {
+          "type": "vehicle",
+          "name": "futuristic-silver-sports-car",
+          "required": false,
+          "source": "user-uploaded vehicle reference",
+          "usage": "Replace only the car design and metallic finish while removing all brand marks and preserving the snowy-night composition."
+        }
+      ]
+    }
+  }
+}

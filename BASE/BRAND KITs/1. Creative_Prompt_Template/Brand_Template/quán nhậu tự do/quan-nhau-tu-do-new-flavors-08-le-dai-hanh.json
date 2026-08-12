@@ -1,0 +1,77 @@
+{
+  "name": "quan-nhau-tu-do-new-flavors-08-le-dai-hanh",
+  "tag": [
+    "branch-promo",
+    "food-collage",
+    "location-promo",
+    "restaurant-poster"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Brand story",
+  "group": "quan-nhau-tu-do_1611998774261151",
+  "prompt": {
+    "project_info": {
+      "theme": "Quán Nhậu Tự Do branch promo at 08 Lê Đại Hành",
+      "color_palette": "White, red, black, deep green, warm night lights, food natural tones"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Vertical restaurant promo poster combining a nighttime photo of the Quán Nhậu Tự Do venue with a foreground collage of beer glasses and featured dishes around a central tabletop hotpot burner.",
+      "style": "Photorealistic venue-and-food composite, editorial restaurant promotion, cutout collage food styling"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "CHẠM CỐC TỰ DO – MỞ VỊ MỚI TẠI 08 LÊ ĐẠI HÀNH!!!",
+      "items": [
+        "Top Left: Red and black headline 'CHẠM CỐC TỰ DO – MỞ VỊ MỚI TẠI 08 LÊ ĐẠI HÀNH!!!' on a white background.",
+        "Top Right: Large rounded-corner nighttime venue photo with glowing signage and the Quán Nhậu Tự Do logo inside the image.",
+        "Bottom Left: Two cutout beer glasses and multiple plated dishes with white sticker-style outlines.",
+        "Bottom Right: Additional cutout dishes including sliced meat and vegetable platter arranged around a green tabletop.",
+        "Center/Background: Central tabletop hotpot on a portable burner, layered in front of the venue photo and surrounded by dish cutouts."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Mixed night venue and food lighting",
+      "effect": "Warm festive venue glow, crisp cutout shadows, bright food contrast, lively nightlife ambiance"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic composite advertising poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Quán Nhậu Tự Do branch promo at 08 Lê Đại Hành. Centerpiece is a central tabletop hotpot on a portable burner surrounded by sticker-cutout dishes and beer glasses, layered in front of a rounded-corner nighttime photo of the restaurant venue. Background is a clean white header area above a deep green tabletop base. Surrounding elements: exact red/black headline 'CHẠM CỐC TỰ DO – MỞ VỊ MỚI TẠI 08 LÊ ĐẠI HÀNH!!!', venue photo with glowing signage, two beer glasses at lower left, and multiple cutout dishes arranged around the hotpot. Technical style: photorealistic composite advertising poster, mixed night venue and food lighting, warm festive glow with crisp cutout shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Quán Nhậu Tự Do logo",
+          "required": true,
+          "source": "brand identity asset and venue signage",
+          "usage": "Retain the logo in the venue photo and preserve its styling."
+        },
+        {
+          "type": "location",
+          "name": "08 Lê Đại Hành venue facade at night",
+          "required": true,
+          "source": "original branch photo",
+          "usage": "Preserve the actual building, signage, string lights, and street context."
+        },
+        {
+          "type": "product",
+          "name": "hotpot and featured dishes collage",
+          "required": true,
+          "source": "campaign food photos",
+          "usage": "Keep the same dish mix, white cutout outline treatment, and layout around the center hotpot."
+        },
+        {
+          "type": "text_layout",
+          "name": "headline and collage arrangement",
+          "required": true,
+          "source": "original poster",
+          "usage": "Preserve exact wording, punctuation, line breaks, and the white-header-over-green-base structure."
+        }
+      ],
+      "prompt_instructions": "Use attached refs for the venue photo, all food cutouts, and the headline layout. This poster depends on real location fidelity, so do not replace the venue architecture with a generic restaurant facade."
+    }
+  }
+}

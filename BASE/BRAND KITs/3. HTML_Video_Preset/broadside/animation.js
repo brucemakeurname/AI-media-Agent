@@ -1,0 +1,21 @@
+// Bold Poster owns all creative motion; the engine owns only scene visibility.
+const bp = (scene, selector) => scene.querySelector(selector);
+const bpAll = (scene, selector) => Array.from(scene.querySelectorAll(selector));
+const slideImage = (scene, tl, start) => { const image = bp(scene, '.br-scene-img'); if (image) tl.fromTo(image,{opacity:0,y:55},{opacity:1,y:0,duration:.45},start+.12); };
+window.SFV_ANIMATORS = {
+  hook(scene, tl, start) { slideImage(scene,tl,start); tl.fromTo(bp(scene,'.br-label'),{y:-30,opacity:0},{y:0,opacity:1,duration:.35},start+.1); tl.fromTo(bpAll(scene,'.br-hero-line'),{x:-80,opacity:0},{x:0,opacity:1,duration:.55,stagger:.14},start+.25); tl.fromTo(bp(scene,'.br-tagline'),{y:30,opacity:0},{y:0,opacity:1,duration:.4},start+.75); },
+  'vignelli-stat'(scene,tl,start){slideImage(scene,tl,start);tl.fromTo(bp(scene,'.br-label'),{opacity:0,y:-20},{opacity:1,y:0,duration:.3},start+.15);tl.fromTo(bp(scene,'.br-stat-big'),{opacity:0,scale:.45,rotation:-12},{opacity:1,scale:1,rotation:-6,duration:.7,ease:'back.out(1.4)'},start+.3);},
+  'data-flow'(scene,tl,start){slideImage(scene,tl,start);tl.fromTo(bpAll(scene,'.br-fin-cell'),{opacity:0,scale:.8},{opacity:1,scale:1,duration:.35,stagger:.12},start+.35);},
+  callout(scene,tl,start){slideImage(scene,tl,start);tl.fromTo(bp(scene,'.br-quote-text'),{opacity:0,y:65,rotation:-3},{opacity:1,y:0,rotation:0,duration:.65,ease:'back.out(1.2)'},start+.2);tl.fromTo(bp(scene,'.br-quote-cite'),{opacity:0},{opacity:1,duration:.35},start+.85);},
+  timeline(scene,tl,start){slideImage(scene,tl,start);tl.fromTo(bpAll(scene,'.br-leftbar-card'),{opacity:0,x:-70},{opacity:1,x:0,duration:.45,stagger:.18},start+.25);},
+  outro(scene,tl,start){tl.fromTo(bp(scene,'.br-close-big'),{opacity:0,scale:.6,rotation:-12},{opacity:1,scale:1,rotation:-5,duration:.7,ease:'back.out(1.3)'},start+.25);},
+  'nyt-chart'(scene,tl,start){tl.fromTo(bp(scene,'.nc-headline'),{opacity:0,y:30},{opacity:1,y:0,duration:.4},start+.15);tl.fromTo(bpAll(scene,'.nc-bar'),{scaleY:0},{scaleY:1,duration:.65,stagger:.12},start+.5);tl.fromTo(bp(scene,'.nc-polyline'),{strokeDashoffset:1200},{strokeDashoffset:0,duration:.7},start+1);tl.to(bpAll(scene,'.nc-dot'),{opacity:1,duration:.1,stagger:.1},start+1.35);},
+  'before-after'(scene,tl,start){tl.fromTo(bp(scene,'.ba-left'),{x:-540},{x:0,duration:.55},start+.1);tl.fromTo(bp(scene,'.ba-right'),{x:540},{x:0,duration:.55},start+.1);tl.fromTo(bp(scene,'.ba-divider-line'),{strokeDashoffset:800},{strokeDashoffset:0,duration:.5},start+.55);},
+  'elastic-reveal'(scene,tl,start){tl.fromTo(bp(scene,'.er-headline'),{opacity:0,y:45},{opacity:1,y:0,duration:.4},start+.15);tl.fromTo(bpAll(scene,'.er-stat'),{opacity:0,scale:.25},{opacity:1,scale:1,duration:.55,stagger:.13,ease:'elastic.out(1,.55)'},start+.5);},
+  'swiss-reveal'(scene,tl,start){tl.fromTo(bp(scene,'.sr-rule'),{scaleX:0},{scaleX:1,duration:.45},start+.15);tl.fromTo(bp(scene,'.sr-text-wrap'),{opacity:0,y:45},{opacity:1,y:0,duration:.5},start+.5);},
+  'decision-tree'(scene,tl,start){tl.fromTo(bpAll(scene,'.dt-connector'),{strokeDashoffset:500},{strokeDashoffset:0,duration:.45,stagger:.1},start+.2);tl.fromTo(bpAll(scene,'.dt-node'),{opacity:0,scale:.5},{opacity:1,scale:1,duration:.3,stagger:.1},start+.5);},
+  conversation(scene,tl,start){tl.fromTo(bpAll(scene,'.cv-bubble'),{opacity:0,y:40},{opacity:1,y:0,duration:.35,stagger:.2},start+.2);tl.fromTo(bp(scene,'.cv-typing'),{opacity:0},{opacity:1,duration:.2},start+1);},
+  highlighter(scene,tl,start){tl.fromTo(bp(scene,'.hl-card'),{opacity:0,y:70,rotation:-2},{opacity:1,y:0,rotation:0,duration:.45},start+.2);tl.to(bpAll(scene,'.hl-sweep'),{width:'100%',duration:.5,stagger:.22},start+.7);},
+  'stagger-demo'(scene,tl,start){tl.fromTo(bp(scene,'.sd-title'),{opacity:0,y:-25},{opacity:1,y:0,duration:.35},start+.15);tl.to(bpAll(scene,'.sd-bar'),{width:'100%',duration:.35,stagger:.12},start+.5);},
+  magnifier(scene,tl,start,dur){slideImage(scene,tl,start);tl.fromTo(bp(scene,'.mg-content'),{opacity:0},{opacity:1,duration:.4},start+.1);tl.fromTo(bp(scene,'.mg-lens'),{opacity:0,scale:.4},{opacity:1,scale:1,duration:.35},start+.35);tl.to(bp(scene,'.mg-lens'),{x:480,y:-240,duration:Math.max(.4,dur-1)},start+.7);}
+};

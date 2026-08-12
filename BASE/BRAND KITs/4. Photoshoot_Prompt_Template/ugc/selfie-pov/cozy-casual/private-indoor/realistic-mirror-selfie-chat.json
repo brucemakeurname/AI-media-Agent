@@ -1,0 +1,22 @@
+{
+  "name": "realistic-mirror-selfie-chat",
+  "tag": ["ugc", "selfie-pov", "cozy-casual", "private-indoor"],
+  "image_type": "bathroom mirror selfie",
+  "image_vibe": "natural everyday phone realism",
+  "image_purpose": "mirror reflection, phone UI, and bathroom lifestyle reference",
+  "group": "cozy-casual/private-indoor",
+  "prompt": {
+    "project_info": "Create a realistic bathroom mirror selfie of an approved adult person using the supplied local image as the required visual reference.",
+    "main_subject": "Approved adult person with hair tied back, wearing a textured olive-green knit sweater and holding a smartphone; maintain natural expression and proportions.",
+    "composition_elements": "Foreground shoulder and phone with a correct mirror reversal; subject reflected in a dark wood-framed bathroom mirror. Include white tile, sink, faucet, shower glass, towel, and ordinary toiletries. Phone message should use generic replaceable text such as 'Meet at 6:30?' and 'On my way', with no personal names.",
+    "lighting_and_atmosphere": "Natural indoor bathroom light, realistic reflections, calm everyday mood, no distortion.",
+    "technical_specs": "Photorealistic smartphone photography, portrait 9:16, natural depth of field, accurate mirror geometry, readable but generic phone UI text.",
+    "generated_prompt_string": "Realistic bathroom mirror selfie of an approved adult person in an olive knit sweater holding a smartphone, with correct reflected phone and hand orientation. Use a dark wood mirror frame, white tile, sink, shower glass, towel, toiletries, natural indoor light, and generic replaceable message text. Remove personal names and private identifiers.",
+    "negative_prompt": "explicit, nsfw, overly revealing, underage, childlike, sexualized pose, nudity, lingerie, distorted reflection, reversed anatomy errors, extra fingers, warped phone, gibberish text, personal names, private messages, watermark, logo invention, public figure likeness.",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "realistic-mirror-selfie-chat_0.jpg", "required": true, "source": "local preview", "usage": "Identity, sweater, phone, mirror geometry, bathroom, reflection, and lighting reference."}],
+      "prompt_instructions": "Attach the required local image. Preserve identity, hair, sweater, bathroom, mirror frame, phone position, reflection geometry, and lighting; replaceability applies only to the identity with an approved replacement reference. Keep message text generic and replaceable, never reproduce personal names or private data."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Generalized the phone conversation and removed personal-name/private-message reproduction."]}
+}

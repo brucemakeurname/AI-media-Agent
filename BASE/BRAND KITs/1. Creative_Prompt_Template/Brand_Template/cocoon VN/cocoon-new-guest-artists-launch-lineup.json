@@ -1,0 +1,79 @@
+{
+  "name": "cocoon-new-guest-artists-launch-lineup",
+  "tag": [
+    "guest-artists",
+    "celebrity",
+    "launch-event",
+    "portrait-composite",
+    "announcement",
+    "sunscreen"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Newsletter",
+  "group": "cocoon_1465993761998325",
+  "prompt": {
+    "project_info": {
+      "theme": "Celebrity announcement poster for a product launch event",
+      "color_palette": "Sky Blue, Soft Peach Pink, White, Neutral Skin Tones, Black Hair"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A three-person portrait announcement poster introducing guest artists, with large cutout head-and-shoulder portraits of actor Trần Ngọc Vàng, rapper Pháp Kiều, and actor Quốc Anh arranged left, center, and right against a blue-to-pink gradient background.",
+      "style": "Polished celebrity composite poster, editorial retouching, launch-event cast reveal"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'NGHỆ SĨ KHÁCH MỜI', 'DIỄN VIÊN TRẦN NGỌC VÀNG', 'RAPPER PHÁP KIỀU', and 'DIỄN VIÊN QUỐC ANH'.",
+      "items": [
+        "Top Left: Large white headline 'NGHỆ SĨ KHÁCH MỜI' spanning the upper third.",
+        "Top Right: Soft blue gradient sky area fading into peach pink lower background.",
+        "Bottom Left: Portrait of actor Trần Ngọc Vàng wearing glasses and a white blazer, with name caption below.",
+        "Bottom Right: Portrait of actor Quốc Anh in a white shirt with his name caption below.",
+        "Center/Background: Dominant central portrait of rapper Pháp Kiều in white styling with dramatic earrings, slightly overlapping the other two portraits."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Studio portrait lighting",
+      "effect": "Smooth skin retouching, balanced celebrity key light, glossy editorial finish, clean gradient backdrop"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity celebrity composite poster design",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a celebrity guest lineup announcement. Centerpiece is a three-person editorial composite with actor Trần Ngọc Vàng on the left, rapper Pháp Kiều in the center, and actor Quốc Anh on the right. Background is a soft blue-to-peach launch gradient. Surrounding elements: large headline 'NGHỆ SĨ KHÁCH MỜI' and the exact role-name captions 'DIỄN VIÊN TRẦN NGỌC VÀNG', 'RAPPER PHÁP KIỀU', and 'DIỄN VIÊN QUỐC ANH'. Keep the portrait cutout arrangement, polished skin retouching, and cast-announcement hierarchy. Technical style: high fidelity celebrity composite poster design, studio portrait lighting, smooth editorial finish and clean gradient backdrop, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed faces, extra limbs, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Trần Ngọc Vàng portrait",
+          "required": true,
+          "source": "Attach the original portrait crop or official press image used in the creative",
+          "usage": "Preserve facial identity, glasses, white blazer, and exact pose."
+        },
+        {
+          "type": "person",
+          "name": "Pháp Kiều portrait",
+          "required": true,
+          "source": "Attach the original portrait crop or official press image used in the creative",
+          "usage": "Preserve facial identity, makeup, earrings, and central styling."
+        },
+        {
+          "type": "person",
+          "name": "Quốc Anh portrait",
+          "required": true,
+          "source": "Attach the original portrait crop or official press image used in the creative",
+          "usage": "Preserve facial identity, hairstyle, white shirt, and head tilt."
+        },
+        {
+          "type": "text_layout",
+          "name": "Guest-artist announcement typography",
+          "required": true,
+          "source": "Use the original creative as layout reference",
+          "usage": "Keep the top headline and the three lower caption blocks in the same positions."
+        }
+      ],
+      "prompt_instructions": "When using gpt-image-2, the three celebrity faces must be supplied as reference images to preserve likeness accurately. Keep the composite as a clean announcement poster; do not change identities, role labels, or portrait ordering."
+    }
+  }
+}

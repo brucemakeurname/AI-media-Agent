@@ -1,0 +1,71 @@
+{
+  "name": "minimalist-bw-fashion-contact-sheet",
+  "tag": [
+    "adult-woman",
+    "black-dress",
+    "black-choker",
+    "2x2-contact-sheet",
+    "monochrome-glamour"
+  ],
+  "image_type": "four-frame-fashion-contact-sheet",
+  "image_vibe": "cool-controlled-monochrome-glamour",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "high-end black-and-white four-frame fashion editorial contact sheet",
+      "color_palette": "rich black, luminous skin highlights, and smooth neutral midtones",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult woman with sleek dark hair pulled back and one curled strand falling across the face, bold winged eyeliner, defined brows, sculpted lips, and a cool controlled expression.",
+      "wardrobe": "Clean strapless black dress with a flattering neckline and a thin black choker ribbon tied at the back.",
+      "pose": "Four restrained high-fashion variations: direct close-up, three-quarter turn with one hand near the choker, squared upper-body gaze, and a slightly angled close-up."
+    },
+    "composition_elements": {
+      "framing": "One 2x2 contact-sheet collage with four equal vertical frames separated by thin borders.",
+      "environment": "Minimal studio corner with a plain textured wall, shallow depth of field, and no props, clutter, text, or logos.",
+      "focus": "Eyes first, then lips and choker, then the clean dress silhouette; maintain consistent subject identity across all four panels."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Hard-ish directional key from camera-right, very low fill, subtle hair and shoulder rim separation, and high controlled contrast.",
+      "atmosphere": "Clean, cinematic, cool, enigmatic, and slightly melancholic."
+    },
+    "technical_specs": {
+      "camera": "Hasselblad X2D with an 80mm prime lens at f/2.8, medium-format perspective",
+      "quality": "Razor-sharp eyes, gentle falloff to ears and background, fine analog grain, subtle halation, rich blacks, luminous highlights, and smooth midtones"
+    },
+    "generated_prompt_string": "Create a photorealistic 4:5 black-and-white high-fashion contact sheet featuring one consistent adult woman in four equal 2x2 frames separated by thin borders. She has sleek dark hair pulled back with one curled strand across the face, bold winged eyeliner, defined brows, sculpted lips, and a cool controlled expression. She wears a clean strapless black dress with a flattering neckline and a thin black choker ribbon tied at the back. Frame four restrained variations: a tight direct-gaze close-up, a three-quarter turn with one hand near the choker, a squared upper-body portrait, and a slightly angled close-up. Use a minimal textured studio wall, a directional key from camera-right, very low fill, subtle rim separation, Hasselblad X2D medium-format crispness, fine analog grain, subtle halation, rich blacks, luminous highlights, smooth midtones, and no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, inconsistent face, readable text, logo, watermark, plastic skin, over-smooth skin, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult subject. Optional wardrobe, studio, or film references may replace only their named element; preserve the four-frame layout, black dress, choker, monochrome glamour, and consistent face across panels.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "black-strapless-dress-and-thin-choker",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the dress and choker styling while preserving the clean editorial silhouette."
+        },
+        {
+          "type": "location",
+          "name": "minimal-textured-studio-wall",
+          "required": false,
+          "source": "user-uploaded studio reference",
+          "usage": "Replace only the studio wall and light falloff while preserving the uncluttered backdrop."
+        },
+        {
+          "type": "moodboard",
+          "name": "medium-format-monochrome-glamour",
+          "required": false,
+          "source": "user-uploaded film reference",
+          "usage": "Replace only the grain, halation, and monochrome tonal treatment."
+        }
+      ]
+    }
+  }
+}

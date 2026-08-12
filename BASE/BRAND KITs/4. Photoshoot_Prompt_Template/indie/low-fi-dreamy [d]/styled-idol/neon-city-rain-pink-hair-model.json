@@ -1,0 +1,78 @@
+{
+  "name": "neon-city-rain-pink-hair-model",
+  "tag": [
+    "adult-woman",
+    "pink-hair",
+    "neon-rain",
+    "umbrella",
+    "white-fashion",
+    "nightlife-editorial"
+  ],
+  "image_type": "cinematic-fashion-editorial",
+  "image_vibe": "ethereal, neon-lit, rain-soaked, polished, cinematic",
+  "image_purpose": "instagram-feed, fashion-editorial, campaign, moodboard",
+  "group": "indie / low-fi-dreamy / styled-idol",
+  "prompt": {
+    "project_info": {
+      "theme": "Pink-haired fashion editorial at a neon city entrance after rain",
+      "format": "vertical 9:21 full-body portrait",
+      "color_palette": "cherry pink, icy white, cyan neon, magenta reflection, wet charcoal pavement"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult Chinese woman with a feminine silhouette, long wavy light cherry-pink hair, a slight relaxed smile, delicate gradient eyeliner, glossy lip color, dewy natural makeup, and pale narrow anti-reflective glasses with faint light reflections.",
+      "style": "cinematic, realistic, full-body nightlife fashion editorial"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "full figure clearly visible beneath a transparent shared umbrella, one hand holding the visible handle",
+        "light-colored fitted strapless fashion dress with a feminine silhouette and a pale plush coat draped at the arms",
+        "fine luxury pendant necklace and pale strappy high heels",
+        "relaxed standing pose with one knee gently bent, torso angled naturally, and the other hand adjusting the coat edge",
+        "rain-wet tiled pavement with cyan and magenta neon reflections",
+        "nightclub entrance screen glow, sparse crowd in soft background blur, and a rain-darkened Chongqing Jiefang Road atmosphere"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "flickering nightclub screen light and storefront neon mixed with wet-street reflections, approximately 4800K cyan-magenta contrast",
+      "effect": "overexposed halo around the hair, realistic rain sheen, raised shadows, and subtle directional highlights across the shoulders and chest area",
+      "atmosphere": "light, tranquil, rain-soaked urban glamour with deep atmospheric perspective"
+    },
+    "technical_specs": {
+      "render_style": "Sony A1, 50mm f/1.4 lens, full-body vertical framing, shallow background separation",
+      "resolution": "high-detail cinematic vertical photograph",
+      "color_treatment": "delicate film grain, rich but controlled neon reflection, realistic skin texture, natural vignetting"
+    },
+    "generated_prompt_string": "A cinematic, realistic full-body vertical fashion editorial at a neon-lit nightclub entrance after rain. An adult Chinese woman with a feminine silhouette, long wavy light cherry-pink hair, a slight relaxed smile, delicate gradient eyeliner, glossy lip color, dewy natural makeup, and pale narrow anti-reflective glasses stands beneath a transparent shared umbrella. She wears a light-colored fitted strapless fashion dress, a pale plush coat draped at her arms, a fine luxury pendant necklace, and pale strappy high heels. Her pose is relaxed and natural: one hand holds the visible umbrella handle, the other adjusts the coat edge, with one knee gently bent. Flickering screen light from the entrance and cyan-magenta storefront neon spill over rain-wet tiles; puddles mirror the city lights while a sparse crowd recedes into soft background blur on Chongqing Jiefang Road. Use a soft halo around the hair, realistic rain sheen, delicate film grain, rich atmospheric depth, raised shadows, and subtle directional highlights across the shoulders and chest area. Sony A1, 50mm f/1.4, natural skin texture, controlled neon color, and a 9:21 vertical frame.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, provocative pose, sexual pose, body measurements, exaggerated anatomy, visible nipple, transparent clothing, plastic skin, poreless skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, signature, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "The source image is a required moodboard for the pink hair, transparent umbrella, light fitted strapless dress, pale plush coat, glasses, neon-rain composition, and full-body pose. Preserve those visual elements when attached; replace the person only with an approved-adult face reference. The exact street, crowd, and luxury pendant can be substituted while retaining a wet neon nightlife setting and polished fashion direction.",
+      "assets": [
+        {
+          "type": "moodboard",
+          "name": "pink-haired neon rain fashion source",
+          "required": true,
+          "source": "https://img.opennana.com/prompts/assets/202603/1773176363992-iwsbls52-1.jpg",
+          "usage": "Preserve the pink hair, umbrella, outfit silhouette, coat drape, wet-neon environment, and full-body composition."
+        },
+        {
+          "type": "person",
+          "name": "approved adult face and identity reference",
+          "required": false,
+          "source": "user-supplied approved reference",
+          "usage": "When supplied, preserve the adult person's face, facial structure, and likeness while retaining the source fashion styling."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed the 18–22-year-old wording to an explicitly adult subject.",
+      "Removed provocative, sexualized, body-measurement, and exaggerated-leg instructions while preserving the full-body fashion pose and fitted white dress.",
+      "Replaced specific luxury-brand naming with a generic fine luxury pendant and retained the neon-rain editorial direction.",
+      "Used lighting and feminine-silhouette wording to preserve the image's attractive fashion intent safely."
+    ]
+  }
+}

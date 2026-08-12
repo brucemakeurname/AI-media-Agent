@@ -1,0 +1,44 @@
+{
+  "name": "sultry-red-bodysuit-bathroom",
+  "tag": ["ugc", "selfie-pov", "dark-edgy", "private-indoor", "red-bodysuit", "bathroom-portrait", "warm-light"],
+  "image_type": "photorealistic bathroom fashion portrait",
+  "image_vibe": "confident, candid, warm, dark-edgy, polished",
+  "image_purpose": "social-media fashion portrait",
+  "group": "selfie-pov/dark-edgy/private-indoor",
+  "prompt": {
+    "project_info": "Ultra-photorealistic medium portrait of an original adult woman in an indoor restroom, with warm artificial side lighting, rich texture and natural color.",
+    "main_subject": "One original adult woman with tan natural skin texture, long voluminous straight dark hair gathered back with both hands, bold eye makeup, defined brows and nude lipstick. She stands with both arms raised and hands in her hair, looking slightly away from the camera. She wears a fitted red bodysuit with a flattering neckline and fabric rose detail on the left side, delicate silver necklace, multiple bracelets on both wrists and small hoop earrings. Do not reproduce Sadie Sink or any other public-figure likeness.",
+    "composition_elements": "Use a centered medium shot with sharp focus on the adult subject. Place her in an indoor restroom with gray paneled doors, a large mirror, countertop and metal faucet in the foreground, with reflected light visible on the mirror. Preserve the hands-in-hair pose, red garment, rose detail and candid confident fashion direction.",
+    "lighting_and_atmosphere": "Warm artificial side lighting from a visible source on the right creates soft shadows and realistic highlights on the hair and red fabric. Keep the mood confident, candid, warm and dark-edgy without sexualized framing.",
+    "technical_specs": "Ultra-photorealistic medium portrait, high-resolution natural colors, sharp subject focus, realistic skin, hair, fabric, mirror, countertop and metal texture, no text, logo or watermark.",
+    "generated_prompt_string": "Ultra-photorealistic medium portrait of one original adult woman with tan natural skin, long voluminous straight dark hair gathered back with both hands, bold eye makeup, defined brows and nude lipstick. She stands in an indoor restroom with arms raised and hands in her hair, looking slightly away from camera. Fitted red bodysuit with flattering neckline and fabric rose detail on the left side, delicate silver necklace, bracelets on both wrists and small hoop earrings. Gray paneled doors, large mirror with reflected light, countertop and metal faucet foreground. Warm artificial side light from the right, soft shadows, rich realistic texture, confident candid dark-edgy fashion mood, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Sadie Sink likeness, transparent clothing, exposed underwear, exaggerated anatomy, distorted anatomy, extra fingers, malformed hands, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "sultry-red-bodysuit-bathroom.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult dark-haired subject, hands-in-hair pose, red bodysuit and rose detail, jewelry, restroom, mirror, faucet, warm side lighting and medium portrait; replace the named identity and unsafe wording."
+        },
+        {
+          "type": "image_asset",
+          "name": "1774312942478-zb422euz-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1774312942478-zb422euz-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required and the image asset is optional; it is not inspected in the text-only workflow. Keep the adult subject, hair, pose, outfit, restroom, mirror, light source and warm candid mood consistent. Replace identity only and maintain secure non-explicit clothing."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Sadie Sink likeness with an original adult woman.",
+      "Reframed sultry wording as confident candid fashion direction and used a flattering neckline.",
+      "Preserved the source's pose, red outfit, bathroom setting, accessories and warm lighting."
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "cellphones-ugreen-magnetic-pb561-690k",
+  "tag": ["cellphones", "ugreen", "magnetic power bank", "690k", "20w"],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Special offers",
+  "group": "cellphones_3195825264140896",
+  "prompt": {
+    "project_info": {
+      "theme": "Magnetic power-bank hero poster",
+      "color_palette": "Black, white, cool blue, metallic gray"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A dramatic hero poster for the Ugreen Magnetic PB561 10,000mAh 20W power bank, showing the device held in a hand against an airplane-window-like glowing frame with a glossy black price footer.",
+      "style": "Premium accessory hero-sale poster"
+    },
+    "composition_elements": {
+      "type": "Product/Hand/Typography/Pricing Footer",
+      "text": "cellphoneS, Pin dự phòng 10.000MAH 20W, Ugreen Magnetic PB561, SALE KHỦNG CHỈ 690k, S-STUDENT & S-TEACHER GIẢM 35K, BẢO HÀNH CHÍNH HÃNG 18 Tháng, Giao nhanh nội thành từ 2 giờ, UGREEN",
+      "items": [
+        "Top Center: red cellphoneS logo block.",
+        "Upper Middle: white product header 'Pin dự phòng 10.000MAH 20W Ugreen Magnetic PB561'.",
+        "Center: a hand holding the dark gray Ugreen magnetic power bank vertically, with visible magnetic ring and small lightning symbol.",
+        "Background: glowing rounded window-like frame with blue sky visible inside, surrounded by dark vignette edges.",
+        "Bottom: black glossy segmented footer with 'SALE KHỦNG CHỈ 690k', 'S-STUDENT & S-TEACHER GIẢM 35K', and 'BẢO HÀNH CHÍNH HÃNG 18 Tháng'.",
+        "Footer Base: white text 'Giao nhanh nội thành từ 2 giờ'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Dramatic premium product lighting",
+      "effect": "Heroic object emphasis, soft metallic reflections, clean black-blue accessory drama"
+    },
+    "technical_specs": {
+      "render_style": "Premium magnetic power-bank hero poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "Ugreen Magnetic PB561 power bank", "required": true, "source": "source image product reference", "usage": "Preserve the device shape, front iconography, finish, and exact magnetic-ring placement."},
+        {"type": "accessory", "name": "hand holding product", "required": true, "source": "source image hand reference", "usage": "Keep the grip, orientation, and scale relationship between hand and device."},
+        {"type": "background", "name": "glowing window frame backdrop", "required": true, "source": "source image background reference", "usage": "Maintain the bright inner frame, blue-sky center, and dark vignette edges."},
+        {"type": "text_layout", "name": "product header and black sale footer", "required": true, "source": "source image text reference", "usage": "Preserve all price, student reduction, warranty, and fast-delivery text exactly."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the hand pose, the centered product scale, and the black segmented footer.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the dramatic premium-accessory look with a glowing portal-like backdrop."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square premium accessory poster with a dark vignette background and a glowing rounded window-like frame revealing blue sky inside. Place the red cellphoneS logo at the top center and add the white header 'Pin dự phòng 10.000MAH 20W Ugreen Magnetic PB561'. In the center, show a hand holding a dark gray Ugreen magnetic power bank vertically, with a visible magnetic ring and small lightning symbol. At the bottom, add a glossy black segmented footer containing 'SALE KHỦNG CHỈ 690k', 'S-STUDENT & S-TEACHER GIẢM 35K', and 'BẢO HÀNH CHÍNH HÃNG 18 Tháng', plus the line 'Giao nhanh nội thành từ 2 giờ'. Technical style: premium magnetic power-bank hero poster, dramatic premium product lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark unreadable text, wrong product shape, low resolution, distorted hand, muddy reflections, cluttered layout, watermark, signature"
+  }
+}

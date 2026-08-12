@@ -1,0 +1,52 @@
+{
+  "name": "beone-priority-customer-billboard",
+  "tag": ["beOne", "priority package", "billboard", "brand message", "urban mockup"],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Brand story",
+  "group": "be_1037263968694939",
+  "prompt": {
+    "project_info": {
+      "theme": "beOne priority-customer outdoor billboard mockup",
+      "color_palette": "Sky blue, black, white, cream, red, green"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A street-level urban mockup where a giant black billboard on a glass office building advertises beOne with a witty Vietnamese line about love and buffet, above a buffet restaurant storefront carrying bold red signage.",
+      "style": "Photoreal billboard mockup, outdoor brand-story visual"
+    },
+    "composition_elements": {
+      "type": "Billboard/Storefront/Typography",
+      "text": "be, beOne, Gói khách hàng ưu tiên, Tình yêu không phải tiệc buffet. Chỉ 1 là đủ!, BUFFET, Chuyên nhận đặt tiệc buffet trên 80 người, Kính chào quý khách! Chúc quý khách ngon miệng!, ĂN THOẢ THÍCH KHÔNG GIỚI HẠN, TRƯA 60k",
+      "items": [
+        "Top Center: small yellow be logo floating in the sky.",
+        "Upper Left/Middle: huge black outdoor billboard mounted on a glass tower.",
+        "On billboard: yellow beOne logotype, a cream pill 'Gói khách hàng ưu tiên', and large white text 'Tình yêu không phải tiệc buffet. Chỉ 1 là đủ!'.",
+        "Lower Foreground: buffet restaurant facade with giant red 'BUFFET' sign and green line 'Chuyên nhận đặt tiệc buffet trên 80 người'.",
+        "Storefront details: food photo strip, yellow side signs, and smaller welcome text banners.",
+        "Background: bright blue sky and urban office towers."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Natural daylight urban lighting",
+      "effect": "Clean billboard realism, crisp architectural perspective, subtle advertising mockup polish"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal outdoor advertising mockup",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "logo", "name": "be and beOne logos", "required": true, "source": "source image brand reference", "usage": "Preserve the yellow top logo and the billboard beOne lockup."},
+        {"type": "location", "name": "glass tower and buffet storefront", "required": true, "source": "source image street mockup reference", "usage": "Keep the exact building angles, storefront signage, and urban composition."},
+        {"type": "text_layout", "name": "billboard headline and storefront signage", "required": true, "source": "source image text reference", "usage": "Keep the exact Vietnamese copy and its billboard/storefront hierarchy."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve billboard proportion, storefront angle, and text density.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the visual joke contrast between the beOne billboard and the buffet storefront below."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square outdoor billboard mockup in an urban street scene. Use a bright blue sky with glass office towers. Place a giant black billboard on the main tower with a yellow 'beOne' logo, a cream pill reading 'Gói khách hàng ưu tiên', and large white text 'Tình yêu không phải tiệc buffet. Chỉ 1 là đủ!'. Below, show a buffet restaurant facade with a large red 'BUFFET' sign, green text 'Chuyên nhận đặt tiệc buffet trên 80 người', food-photo strips, and smaller storefront signs. Add a small yellow be logo near the top center of the sky. Technical style: photoreal outdoor advertising mockup, natural daylight urban lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark city, blurred signage, incorrect text, warped billboard, low resolution, missing storefront details, watermark, signature"
+  }
+}

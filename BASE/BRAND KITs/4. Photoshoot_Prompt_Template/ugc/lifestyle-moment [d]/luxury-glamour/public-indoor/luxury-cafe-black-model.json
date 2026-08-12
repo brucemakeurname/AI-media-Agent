@@ -1,0 +1,22 @@
+{
+  "name": "luxury-cafe-black-model",
+  "tag": ["ugc", "lifestyle-moment", "luxury-glamour", "public-indoor"],
+  "image_type": "luxury cafe lifestyle portrait",
+  "image_vibe": "quiet luxury, warm, modern, confident",
+  "image_purpose": "show a polished cafe fashion-and-dessert moment",
+  "group": "ugc",
+  "prompt": {
+    "project_info": "luxury cafe lifestyle portrait.",
+    "main_subject": "One generic approved adult woman with voluminous natural hair and realistic facial texture, seated at a wooden cafe table. She wears a form-fitting black long-sleeve outfit with a flattering horizontal chest cutout and textured rib-knit fabric, with a relaxed hand near the jawline.",
+    "composition_elements": "Vertical 9:16 iPhone-style portrait, raspberry pastry on white plate, ceramic tea cup, white flowers, herringbone floor, cane chairs, pleated shade lamp and glass-fronted wine cabinets.",
+    "lighting_and_atmosphere": "Soft warm 3000K ambient light, natural occlusion, gentle highlights on rib-knit fabric and pastry, realistic indoor shadows.",
+    "technical_specs": "Photorealistic iPhone 17 Pro 35mm look, f/2.2, natural bokeh, subtle digital grain, realistic skin and product texture.",
+    "generated_prompt_string": "Photorealistic 9:16 luxury cafe portrait of one generic approved adult woman with voluminous natural hair and realistic skin texture, seated at a wooden table in a form-fitting black rib-knit long-sleeve outfit with a flattering horizontal chest cutout, relaxed hand near jawline, raspberry pastry on white plate, tea cup, white flowers, cane chairs, pleated lamp and wine cabinets, warm 3000K light, iPhone 35mm natural bokeh, no text or logos.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, transparent clothing, sexualized posing, fetish styling, explicit body measurements, celebrity likeness, public figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "luxury-cafe-black-model-reference", "required": true, "source": "attached reference image", "usage": "Match the subject, wardrobe, props, environment, composition, and lighting. Replaceable with another approved reference for the same concept."}],
+      "prompt_instructions": "Attach the required reference image. Preserve generic approved adult identity cues, wardrobe, pose, props, environment, composition, lighting, and architecture. Optional replacements may change hair, colors, room, flowers, or accessories while retaining the concept. Preserve face and facial structure when a face reference is used; keep logos and typography absent or neutral."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed explicit body-measurement wording and retained the form-fitting fashion direction with neutral silhouette and lighting language."]}
+}

@@ -1,0 +1,51 @@
+{
+  "name": "dreamy-goddess-water-columns",
+  "tag": ["ugc", "lifestyle-moment", "luxury-glamour", "outdoor-nature", "triptych", "ancient-ruins", "water-fashion"],
+  "image_type": "three-panel editorial fashion triptych",
+  "image_vibe": "dreamy, classical, sun-kissed, mysterious, cinematic",
+  "image_purpose": "social-media carousel and editorial moodboard",
+  "group": "lifestyle-moment/luxury-glamour/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a photorealistic three-image editorial fashion triptych inspired by a classical goddess and ancient-ruins aesthetic. Set all panels among Graeco-Roman stone columns and natural still water, using editorial fashion photography and a naturally slicked-back wet-look hairstyle.",
+    "main_subject": "One original adult woman with a consistent non-celebrity identity across all three panels. Keep her styling editorial and goddess-inspired, with naturally slicked-back wet-look hair and gold jewelry. Do not reproduce Sadie Sink or any other public-figure likeness.",
+    "composition_elements": "Panel 1: the adult woman sits on stone among sunlit ancient columns reflected in clear water, wearing an emerald-green sleeveless wrap-style dress with a flattering neckline, triple-layered gold chains, a gold coiled-snake armlet on the right arm, and a thin gold bracelet; her chin is lifted and her expression is mysterious and dreamy. Panel 2: she stands partly immersed in still water in a bright mustard-yellow sleeveless waist-cinched maxi dress, with a snake armlet, small gold studs and matching necklaces; wet hair falls naturally across her face as she looks seriously into the camera. Panel 3: she wades through the water in a navy-blue high-waisted sleeveless dress, wearing a gold coin pendant and the same snake armlet; she looks down toward the water while one hand touches its surface, with a thoughtful, slightly tired expression. Keep the subject, ancient columns, water reflections, gold jewelry language, and triptych visual continuity consistent.",
+    "lighting_and_atmosphere": "Use natural daylight with a warm sun-kissed effect. Preserve marble-white stone, clear water, and reflections of columns and fabric. The mood should remain dreamy, mysterious, classical, and cinematic, with realistic wet hair, water movement, and dress drape.",
+    "technical_specs": "Photorealistic editorial fashion photography, three-panel triptych or carousel sequence, realistic water and stone texture, natural daylight, consistent adult identity and scale across panels, clean high-detail rendering, no text or watermark.",
+    "generated_prompt_string": "Photorealistic three-panel editorial fashion triptych of one original adult woman in a classical goddess / ancient-ruins aesthetic among Graeco-Roman columns and natural water. Panel 1: emerald-green sleeveless wrap dress with flattering neckline, triple-layered gold chains, gold coiled-snake armlet and thin bracelet; seated on stone with chin lifted, mysterious dreamy expression, sunlit columns reflected in clear water. Panel 2: bright mustard-yellow sleeveless waist-cinched maxi dress, partly immersed in still water, snake armlet, gold studs and necklaces, wet hair naturally across the face, serious direct gaze. Panel 3: navy-blue high-waisted sleeveless dress, gold coin pendant and matching snake armlet, wading through water, looking down while one hand touches the surface, thoughtful slightly tired expression. Naturally slicked-back wet-look hair, warm sun-kissed daylight, marble-white stone, realistic reflections, cinematic editorial fashion photography, consistent original adult identity, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Sadie Sink likeness, transparent clothing, distorted anatomy, extra fingers, malformed hands, duplicate subject, inconsistent wardrobe, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "dreamy-goddess-water-columns.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the three-panel structure, three specified colorways, ancient columns, natural water, wet-look hair, gold jewelry, poses, expressions, daylight, and classical goddess fashion direction; replace the named identity with an original adult."
+        },
+        {
+          "type": "source_url",
+          "name": "original prompt post",
+          "required": false,
+          "source": "https://x.com/TzqQaiser/status/2022635805530112065",
+          "usage": "Context only; local written prompt is authoritative."
+        },
+        {
+          "type": "image_asset",
+          "name": "1775061794234-39vix912-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1775061794234-39vix912-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written three-panel prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required; source URL and image asset are optional context. Treat the output as a three-panel sequence even though the source asset count is not used for mapping. Keep identity, ancient-water environment, panel order, wardrobe colors, jewelry continuity, poses and lighting consistent. Replace only the named identity and any unavailable decorative details."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Sadie Sink's named identity with one original adult woman across all three panels.",
+      "Kept the source's fashion, water, classical-ruins, pose and triptych intent while using non-explicit wardrobe wording.",
+      "Adapted from the written three-panel source only; the image asset was not inspected."
+    ]
+  }
+}

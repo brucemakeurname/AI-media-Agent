@@ -1,0 +1,80 @@
+{
+  "name": "cool-tone-luxury-crouch",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "luxury",
+    "playing-card"
+  ],
+  "image_type": "luxury crouched fashion portrait",
+  "image_vibe": "cool, refined, minimal, graphic",
+  "image_purpose": "luxury fashion campaign and lookbook",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create an ultra-realistic luxury fashion portrait of one approved adult woman crouching low against a clean white seamless studio background with supplied playing-card graphics in the corners.",
+    "main_subject": "Approved adult woman with short blonde pixie haircut, soft natural makeup, calm neutral expression, direct eye contact, and realistic natural skin texture. She wears an oversized ribbed knit sweater with a gray-to-charcoal gradient, long sleeves covering part of the hands, high-waisted brown leather pants, and black pointed high-heel pumps.",
+    "composition_elements": [
+      "Subject crouches low with knees bent and one hand resting on her cheek; the other hand hangs naturally between the knees.",
+      "Clean white seamless background with minimal shadows and luxury editorial negative space.",
+      "Preserve the supplied black playing-card 2-of-clubs graphics at the upper-left and lower-right corners, including their orientation and scale.",
+      "Keep sweater ribbing, gradient, leather grain, shoes, face, and pose sharply readable."
+    ],
+    "lighting_and_atmosphere": "Soft diffused studio lighting with minimal shadows, cool-neutral color grading, controlled highlights on leather, natural skin rendering, and a modern high-fashion campaign atmosphere.",
+    "technical_specs": "Ultra-realistic 4:5 portrait, 85mm lens look, shallow depth of field, sharp focus, realistic knit, leather, skin, and graphic edges, high resolution, subtle natural grain, no added text or watermark.",
+    "generated_prompt_string": "Ultra-realistic luxury fashion editorial portrait of one approved adult woman with a short blonde pixie haircut, soft natural makeup, calm neutral expression, direct eye contact and realistic natural skin texture. She crouches low with knees bent, one hand resting on her cheek and the other hanging naturally between her knees. She wears an oversized ribbed knit sweater with a gray-to-charcoal gradient, long sleeves covering part of the hands, high-waisted brown leather pants and black pointed high-heel pumps. Use a clean white seamless studio background, soft diffused lighting, minimal shadows, cool-neutral color grading, sharp realistic knit leather and skin texture, 85mm lens look, shallow depth of field, and supplied black playing-card 2-of-clubs graphics at the upper-left and lower-right corners with matching orientation and scale. Modern luxury campaign aesthetic, no added text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "celebrity likeness",
+      "distorted anatomy",
+      "extra fingers",
+      "warped playing-card symbols",
+      "wrong graphic orientation",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "unwanted text",
+      "watermark",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "cool-tone-luxury-crouch.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for adult identity, face, hair, makeup, expression, pose, and styling reference."
+        },
+        {
+          "type": "wardrobe",
+          "name": "gray-gradient ribbed sweater, brown leather pants, black pumps",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve sweater gradient and ribbing, leather color and grain, sleeve length, and shoes."
+        },
+        {
+          "type": "graphic",
+          "name": "black playing-card 2-of-clubs corner graphics",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the supplied symbols, orientation, scale, and corner placement."
+        }
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, and graphic references; no optional assets are needed. Keep identity, face, outfit, pose, white environment, lighting, graphic symbols, graphic placement, and typography consistent. Replace only with an equivalent approved adult, equivalent wardrobe, or equivalent supplied playing-card graphic. Preserve the supplied typography/symbol shapes exactly; do not add unrelated text, logos, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

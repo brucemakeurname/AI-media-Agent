@@ -1,0 +1,70 @@
+{
+  "name": "shopee-xmen-96h-anti-perspirant-beach",
+  "tag": [
+    "summer-promo",
+    "men-bodycare",
+    "beach-theme",
+    "product-hero"
+  ],
+  "biz_niche": "Travel & Hospitality",
+  "content_format": "Special offers",
+  "group": "shopee_2119627222299031",
+  "prompt": {
+    "project_info": {
+      "theme": "Xmen anti-perspirant tropical product hero",
+      "color_palette": "Sky blue, sand beige, royal blue, yellow, black, white"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A single large black Xmen For Boss Pro roll-on deodorant bottle stands inside a yellow-and-white inflatable ring on a sunny beach. Brand header reads 'Xmen FOR BOSS'. Main headline says '96H GIAM MUI MO HOI'. A blue three-part strip states 'AN TOAN CHO DA', 'LUU HUONG MANH ME DEN 72H', and 'KET CAU DANG SUA MIN THAM NHANH KHONG BET DINH'. The bottle label includes 'INVISIBLE FRESH', 'Anti Yellow Stain', and '96h+ ANTI PERSPIRANT'.",
+      "style": "Bright tropical personal-care product poster with clean realistic bottle render and straightforward retail claim hierarchy"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "Xmen FOR BOSS / 96H GIAM MUI MO HOI / AN TOAN CHO DA / LUU HUONG MANH ME DEN 72H / KET CAU DANG SUA MIN THAM NHANH KHONG BET DINH / INVISIBLE FRESH / Anti Yellow Stain / 96h+ ANTI PERSPIRANT",
+      "items": [
+        "Top Left: White Shopee logo and Xmen FOR BOSS logo",
+        "Top Right: Palm leaves and clear tropical sky",
+        "Bottom Left: Small duck float toy on the sand",
+        "Bottom Right: Two beach balls by the waterline",
+        "Center/Background: Yellow-white inflatable ring on sand with a single black deodorant bottle leaning slightly, plus blue offer strip above"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright tropical daylight",
+      "effect": "High-key sunlight, soft bottle shadow, clean packaging reflections, cheerful commercial beach scene"
+    },
+    "technical_specs": {
+      "render_style": "Commercial product poster with photo-composite beach staging",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for Xmen For Boss on Shopee. Centerpiece is a realistic black roll-on deodorant bottle standing inside a yellow-and-white inflatable ring on a bright beach. Background is blue sky, turquoise water, palm leaves, and beach toys. Surrounding elements: Shopee and Xmen FOR BOSS logos, giant headline '96H GIAM MUI MO HOI', and a blue three-part strip that reads 'AN TOAN CHO DA', 'LUU HUONG MANH ME DEN 72H', and 'KET CAU DANG SUA MIN THAM NHANH KHONG BET DINH'. Preserve the bottle label details such as 'INVISIBLE FRESH', 'Anti Yellow Stain', and '96h+ ANTI PERSPIRANT'. Technical style: commercial product poster with photo-composite beach staging, bright tropical daylight, realistic packaging reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Xmen For Boss Pro roll-on packshot",
+          "required": true,
+          "source": "official product packshot or render",
+          "usage": "Attach for exact bottle form, label typography, and cap shape"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee and Xmen brand assets",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for the top branding"
+        },
+        {
+          "type": "text_layout",
+          "name": "96H beach product-hero layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the giant headline, three-part blue strip, and bottle-in-float composition"
+        }
+      ],
+      "prompt_instructions": "Keep the product centered and large with the label readable. The scene should remain a bright beach-retail composition rather than a moody masculine ad."
+    }
+  }
+}

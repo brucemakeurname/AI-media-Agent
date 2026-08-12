@@ -1,0 +1,71 @@
+{
+  "name": "ysl-3d-blurring-7h-comfort-lipstick-info",
+  "tag": [
+    "ysl",
+    "lipstick",
+    "3d-blurring",
+    "7h-wear",
+    "infographic"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Infographics",
+  "group": "ysl_1434961995335174",
+  "prompt": {
+    "project_info": {
+      "theme": "Performance claim visual for YSL lipstick",
+      "color_palette": "Soft blush pink, pale nude pink, chrome silver, white"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Two pale pink YSL lip products stand centered against a swirling blush-pink cloud background: one closed tube and one open lipstick showing the bullet. White copy reads 'HIỆU ỨNG BLURRING 3D XÓA NHÒA RÃNH MÔI, LÀM MỊN BỀ MẶT TẠO HIỆU ỨNG MÔI ĐẦY ĐẶN TỰ NHIÊN' and 'BỀN MÀU ĐẾN 7H CẢM GIÁC THOẢI MÁI TRÊN MÔI NHƯ LÀN DA THỨ 2'.",
+      "style": "Luxury beauty performance poster, soft-cloud cosmetic claim visual, premium lipstick infographic"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "HIỆU ỨNG BLURRING 3D, XÓA NHÒA RÃNH MÔI, LÀM MỊN BỀ MẶT TẠO HIỆU ỨNG MÔI ĐẦY ĐẶN TỰ NHIÊN, BỀN MÀU ĐẾN 7H, CẢM GIÁC THOẢI MÁI TRÊN MÔI NHƯ LÀN DA THỨ 2",
+      "items": [
+        "Top Left: Large stacked white claim headline on soft pink cloud forms",
+        "Top Right: Vertical YSL logo in white",
+        "Bottom Left: Closed lipstick tube centered in front of the cloud backdrop",
+        "Bottom Right: Open lipstick with visible nude-pink bullet beside bold 'BỀN MÀU ĐẾN 7H' copy",
+        "Center/Background: Voluminous blush-pink smoke or cream-cloud texture surrounding the two products"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft atmospheric studio lighting",
+      "effect": "Creamy haze depth, gentle chrome reflections, airy blush ambience, clean premium softness"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal beauty infographic composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square beauty performance poster for YSL. Centerpiece is two pale pink YSL lip products standing in the center, one closed and one open showing a nude-pink bullet, surrounded by voluminous blush-pink cloud texture. Include the exact text 'HIỆU ỨNG BLURRING 3D', 'XÓA NHÒA RÃNH MÔI, LÀM MỊN BỀ MẶT TẠO HIỆU ỨNG MÔI ĐẦY ĐẶN TỰ NHIÊN', 'BỀN MÀU ĐẾN 7H', and 'CẢM GIÁC THOẢI MÁI TRÊN MÔI NHƯ LÀN DA THỨ 2', plus the vertical YSL logo on the upper right. Technical style: photoreal beauty infographic composite, soft atmospheric studio lighting, airy blush haze and chrome reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Two pale pink YSL lip products",
+          "required": true,
+          "source": "real product references required",
+          "usage": "Preserve the tube proportions, chrome monogram bands, and the open bullet angle"
+        },
+        {
+          "type": "background",
+          "name": "Blush-pink cloud texture background",
+          "required": true,
+          "source": "original poster texture",
+          "usage": "Match the soft swirling cloud forms and overall monochrome blush tone"
+        },
+        {
+          "type": "text_layout",
+          "name": "Performance-claim layout",
+          "required": true,
+          "source": "original poster layout",
+          "usage": "Keep the top-left claim block, bottom-right 7H emphasis, and central product placement"
+        }
+      ],
+      "prompt_instructions": "Keep the image soft and plush, but still product-led and legible. The cloudy pink background is essential to the 'blurring' concept and should not be replaced with flat color."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "playful-blonde-vintage-leather",
+  "tag": ["ugc", "casual-everyday", "street-chic", "other", "leather-jacket", "studio-portrait"],
+  "image_type": "playful-studio-closeup",
+  "image_vibe": "edgy-playful-confident",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/other",
+  "prompt": {
+    "project_info": "Create a hyper-realistic close-up studio portrait of an approved adult blonde woman with a playful street-chic attitude against a matte black background.",
+    "main_subject": "An approved adult woman with shoulder-length voluminous blonde curls, fair skin with natural texture, minimal makeup, and a cheeky smile. She winks at camera, tilts her head slightly, and playfully brings her thumb near her mouth. She wears a distressed brown leather jacket over a black ribbed crew-neck top and a silver statement necklace.",
+    "composition_elements": "Eye-level shoulders-and-head portrait against a seamless matte-black studio background, with face and eye catchlight as focal point and leather texture visible.",
+    "lighting_and_atmosphere": "Soft frontal beauty-dish or ring-light illumination, gentle hair shadows, even face light, high contrast against black, playful confident energetic mood.",
+    "technical_specs": "Hyper-realistic 85mm portrait photography, f/1.8 shallow depth of field, sharp face, 4:5 vertical framing, detailed pores, curls, leather, and jewelry.",
+    "generated_prompt_string": "Create a hyper-realistic 4:5 close-up studio portrait of an approved adult blonde woman with shoulder-length voluminous natural curls, fair realistic skin, minimal makeup, and a cheeky smile. She winks at the camera, tilts her head slightly, and playfully brings her thumb near her mouth. Dress her in a distressed brown vintage leather jacket over a black ribbed crew-neck top with a silver statement necklace. Use a seamless matte-black background, soft frontal beauty-dish light, a bright eye catchlight, gentle hair shadows, 85mm f/1.8 perspective, sharp facial detail, and edgy playful street-chic mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, malformed teeth",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-curly-blonde-subject", "required": true, "source": "playful-blonde-vintage-leather.jpg", "usage": "Preserve adult identity, curls, wink, expression, hand pose, and face detail."},
+        {"type": "wardrobe", "name": "distressed-leather-jacket-black-top", "required": true, "source": "playful-blonde-vintage-leather.jpg", "usage": "Keep jacket, top, necklace, and styling consistent; replace only with explicit wardrobe references."},
+        {"type": "location", "name": "matte-black-studio-background", "required": true, "source": "playful-blonde-vintage-leather.jpg", "usage": "Maintain seamless dark studio background and soft frontal lighting; replace only with explicit location references."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and removed flirtatious sexualized wording while preserving the playful portrait.", "Added safe negative prompts and structured references."]}
+}

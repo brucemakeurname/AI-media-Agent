@@ -1,0 +1,65 @@
+{
+  "name": "night-cafe-blonde-petting-cat",
+  "tag": [
+    "ugc",
+    "cafe-social",
+    "public-indoor",
+    "night-cafe",
+    "orange-tabby",
+    "bomber-jacket"
+  ],
+  "image_type": "ugc-night-cafe-lifestyle-portrait",
+  "image_vibe": "cozy-night-playful",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cafe-social/public-indoor",
+  "prompt": {
+    "project_info": "Create a realistic candid nighttime cafe portrait with warm globe-light reflections, preserving the blue bomber jacket, playful expression and sleeping orange tabby interaction.",
+    "main_subject": "One original approved adult woman with long voluminous wavy blonde hair, winged eyeliner, matte brown-red lipstick and a playful closed-mouth kiss expression while looking down. She wears an oversized blue bomber jacket with silver zippers, a white ribbed tank top and blue denim shorts.",
+    "composition_elements": "Vertical 4:5 medium portrait at eye level or slightly high angle. Seat the adult woman relaxed on a textured grey or woven sofa with legs crossed, gently petting a sleeping orange tabby cat resting on her lap. Include large glass windows, warm globe-light reflections, a supplied no-smoking sign, a supplied cartoon cat sticker, dark tables and city lights outside.",
+    "lighting_and_atmosphere": "Warm ambient cafe lighting with soft direct illumination on the subject and gentle bokeh in the windows. Keep the mood cozy, playful, candid and clearly nighttime.",
+    "technical_specs": "4:5 vertical smartphone photography, sharp face, jacket, hand and cat fur, moderate depth of field, realistic reflections in glass, natural color, slight nighttime grain and no artificial smoothing.",
+    "generated_prompt_string": "Create a realistic candid nighttime cafe portrait of one original approved adult woman with long voluminous wavy blonde hair, winged eyeliner, matte brown-red lipstick and a playful closed-mouth kiss expression while looking down. She wears an oversized blue bomber jacket with silver zippers, a white ribbed tank top and blue denim shorts. Use a vertical 4:5 medium portrait at eye level or slightly high angle; she sits relaxed on a textured grey or woven sofa with legs crossed and gently pets a sleeping orange tabby cat on her lap. Include large glass windows, warm globe-light reflections, the supplied no-smoking sign, supplied cartoon cat sticker, dark tables and city lights outside. Use warm ambient cafe light, soft direct illumination, gentle window bokeh, realistic cat fur and glass reflections, slight nighttime grain and candid smartphone color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, aggressive animal, duplicated cat, invented logos, altered supplied signage, added text overlays",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "night-cafe-blonde-petting-cat.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, blonde hair, makeup, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "blue bomber jacket, white ribbed tank and denim shorts",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve jacket color, silver zippers, ribbed tank and denim; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "night cafe sofa, glass windows, globe lights and city background",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve sofa, windows, warm reflections, city lights and supplied signage/sticker; environment may be replaced independently through explicit references."
+        },
+        {
+          "type": "accessory",
+          "name": "sleeping orange tabby cat",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the cat's orange coat, sleeping posture, scale and gentle interaction; replace only with an explicit animal reference and keep it calm and natural."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe, location and animal references. Keep identity, face, hair, outfit, cat interaction, sofa, glass reflections, supplied no-smoking sign and cat sticker consistent. The adult, wardrobe, cat and setting may be replaced independently with explicit references. Preserve existing signage only when retained; do not invent new logos or readable text."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adult.",
+      "Preserved the cozy cafe, outfit, expression and cat interaction while removing no creative intent.",
+      "Added safety, anti-artifact and natural-animal negative prompts."
+    ]
+  }
+}

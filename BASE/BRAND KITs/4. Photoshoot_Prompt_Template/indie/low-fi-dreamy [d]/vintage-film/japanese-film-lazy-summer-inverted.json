@@ -1,0 +1,33 @@
+{
+  "name": "japanese-film-lazy-summer-inverted",
+  "tag": ["indie", "low-fi-dreamy", "vintage-film", "japanese-film", "summer"],
+  "image_type": "lifestyle portrait",
+  "image_vibe": "Quiet Japanese negative-film realism, slow summer nostalgia, muted faded colors",
+  "image_purpose": "Create an intimate but non-posed lazy-summer bedroom moment with authentic film texture.",
+  "group": "vintage-film",
+  "prompt": {
+    "project_info": "A quiet indoor summer scene captured like an accidental memory on Japanese negative film.",
+    "main_subject": "An original adult woman lying casually on an unmade bed, body slightly stretched or softly curled, with naturally spread hair on the pillow. Her face is fully visible and she makes direct eye contact from an inverted camera angle, wearing loose, lightweight, fully opaque clothing and a calm, slightly distant expression.",
+    "composition_elements": "Soft fabric wrinkles, a gently moving light curtain, imperfect composition with a slight crop and off-center framing, and the subject integrated naturally into the room.",
+    "lighting_and_atmosphere": "Soft morning daylight through a window, slight overexposure in highlights, low contrast with rich tonal layers, still warm air, gentle highlight bloom, and quiet detached nostalgia.",
+    "technical_specs": "9:16 vertical composition, Japanese negative-film aesthetic, muted slightly faded colors, warm natural skin tone, realistic unretouched skin texture, subtle film grain.",
+    "generated_prompt_string": "Create a 9:16 vertical Japanese negative-film portrait of an original adult woman lying casually on an unmade bed in a lazy summer room. Her body is slightly stretched or softly curled, hair spread naturally on the pillow, face fully visible, and gaze directed at the camera from an inverted angle. Dress her in loose lightweight fully opaque clothing. Include fabric wrinkles and a gently moving curtain; use an imperfect off-center crop, soft morning window daylight, slight highlight overexposure, muted faded colors, natural skin texture, subtle grain, and quiet memory-like realism.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor or teen-coded subject, transparent clothing, exposed underwear, nudity, glamour posing, heavy retouching, plastic skin, harsh contrast, distorted anatomy, watermark, text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image_reference",
+          "name": "source Japanese summer-film reference",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1777040520692-ntdgx7z6-1777040530056-1.jpeg",
+          "usage": "Use only for inverted composition, room atmosphere, color treatment, and film texture; do not copy identity."
+        }
+      ],
+      "prompt_instructions": "Preserve the quiet accidental summer-memory feeling and inverted framing. Keep the subject clearly adult, clothing opaque, and the scene non-explicit and non-posed."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified an original adult subject.", "Specified fully opaque clothing and added safety exclusions."]
+  }
+}

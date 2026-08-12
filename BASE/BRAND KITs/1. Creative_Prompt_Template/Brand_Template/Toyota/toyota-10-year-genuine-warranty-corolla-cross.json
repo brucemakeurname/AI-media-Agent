@@ -1,0 +1,85 @@
+{
+  "name": "toyota-10-year-genuine-warranty-corolla-cross",
+  "tag": [
+    "toyota",
+    "warranty",
+    "corolla-cross",
+    "infographic",
+    "ownership"
+  ],
+  "biz_niche": "Automotive",
+  "content_format": "Infographics",
+  "group": "toyota_1274435787935347",
+  "prompt": {
+    "project_info": {
+      "theme": "Long-term genuine Toyota warranty and peace-of-mind ownership",
+      "color_palette": "Light Sky Blue, Toyota Red, White, Black, Electric Blue"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A red Toyota Corolla Cross drives from right to left across the lower-right half of the layout, framed by futuristic light streaks and a protective hexagonal dome graphic, while a large blue warranty badge on the left states coverage up to 10 years.",
+      "style": "Modern automotive infographic poster with clean tech motifs, sharp typography, motion graphics, and glossy commercial car retouching."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "NIEM TIN TRON THAP KY | CHUONG TRINH BAO HANH CHINH HANG TOYOTA\nAp dung cho xe ban moi tu nam 2026 khi thuc hien bao duong day du\nTOYOTA BAO HANH LEN TOI 10 NAM*\n*Kem dieu kien\nAn tam su dung\nTiet kiem chi phi\nSua chua, thay the phu tung chinh hang\nChuyen nhuong bao hanh\nTang gia tri ban xe\n(*) De biet them thong tin chi tiet khach hang vui long truy cap website: https://www.toyota.com.vn/ hoac lien he voi cac Dai ly Uy quyen chinh hang gan nhat\nMove your world\nTOYOTA",
+      "items": [
+        "Top Left: Large headline in dark blue and black with a vertical divider, followed by a red slanted ribbon subheadline.",
+        "Top Right: Toyota logo in black.",
+        "Bottom Left: Tall blue shield-like badge with 'TOYOTA BAO HANH LEN TOI 10 NAM*' plus three red icon-and-text benefit blocks along the footer.",
+        "Bottom Right: QR code, handwritten 'Move your world', and disclaimer paragraph below.",
+        "Center/Background: Red Corolla Cross, motion streaks, faint city skyline, and translucent protective dome with hexagon pattern."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright clean commercial daylight-tech composite",
+      "effect": "Soft luminous background, crisp motion trails, subtle futuristic glow, glossy automotive highlights, clean readability for infographic elements."
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic automotive infographic poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Toyota genuine 10-year warranty. Centerpiece is a red Toyota Corolla Cross moving across a bright light-blue tech background, protected by a translucent hexagonal dome, with a large blue shield badge on the left reading 'TOYOTA BAO HANH LEN TOI 10 NAM*'. Background is a faint city skyline with high-speed light streaks. Surrounding elements: top-left Vietnamese headline 'NIEM TIN TRON THAP KY | CHUONG TRINH BAO HANH CHINH HANG TOYOTA', red subheadline ribbon about model year 2026 eligibility, three benefit icon blocks at the bottom, QR code at bottom right, and Toyota logo at top right. Technical style: photorealistic automotive infographic poster, bright clean commercial daylight-tech composite, subtle futuristic glow, crisp motion trails, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Toyota corporate logo black version",
+          "required": true,
+          "source": "brand asset / Toyota official logo",
+          "usage": "Place at top right on light background."
+        },
+        {
+          "type": "product",
+          "name": "Toyota Corolla Cross red exterior reference",
+          "required": true,
+          "source": "product reference image",
+          "usage": "Match front three-quarter angle, wheel blur, and body design."
+        },
+        {
+          "type": "graphic",
+          "name": "Warranty shield badge artwork",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Rebuild the blue left-side badge with exact 10-year hierarchy."
+        },
+        {
+          "type": "ui_reference",
+          "name": "QR code block",
+          "required": true,
+          "source": "current creative reference or regenerated placeholder QR",
+          "usage": "Keep bottom-right square code placement for layout fidelity."
+        },
+        {
+          "type": "text_layout",
+          "name": "Warranty infographic layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve exact headline wording, footer benefit rows, disclaimer structure, and badge placement."
+        }
+      ],
+      "prompt_instructions": "This creative explicitly references 'nam 2026'; since Friday, July 17, 2026 is within that year, preserve the wording exactly as an active-era ownership message rather than converting it into past tense. Keep the layout airy, tech-clean, and benefit-driven, not salesy or cluttered."
+    }
+  }
+}

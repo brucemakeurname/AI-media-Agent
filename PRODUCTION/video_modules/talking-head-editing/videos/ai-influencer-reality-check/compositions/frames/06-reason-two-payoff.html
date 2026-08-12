@@ -1,0 +1,137 @@
+<template data-composition-id="06-reason-two-payoff">
+  <style>
+    @font-face {
+      font-family: "Barlow";
+      src: url("assets/fonts/Barlow-Black.woff2") format("woff2");
+      font-weight: 900;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "Barlow";
+      src: url("assets/fonts/Barlow-ExtraBold.woff2") format("woff2");
+      font-weight: 800;
+      font-style: normal;
+    }
+
+    #root {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      container-type: size;
+      overflow: hidden;
+      font-family: "Barlow", sans-serif;
+    }
+
+    #06-reason-two-payoff-bg {
+      position: absolute;
+      inset: 0;
+      background: #111111;
+    }
+
+    #06-reason-two-payoff-group {
+      position: absolute;
+      left: 5.5cqw;
+      right: 5.5cqw;
+      top: 20cqh;
+      display: flex;
+      flex-direction: column;
+      gap: 2cqh;
+      transform-origin: 0% 0%;
+    }
+
+    #06-reason-two-payoff-mark {
+      font-weight: 900;
+      font-size: 24cqw;
+      line-height: 0.6;
+      color: #E85D26;
+      opacity: 0;
+      transform-origin: 0% 50%;
+    }
+
+    #06-reason-two-payoff-text {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      column-gap: 2.4cqw;
+      row-gap: 0.5cqh;
+      max-width: 89cqw;
+    }
+
+    .06-reason-two-payoff-word {
+      display: inline-block;
+      font-weight: 800;
+      font-size: 9cqw;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      text-transform: lowercase;
+      color: #F0ECE5;
+      opacity: 0;
+    }
+  </style>
+
+  <div id="root" data-composition-id="06-reason-two-payoff" data-width="1080" data-height="1920">
+    <div class="clip" id="06-reason-two-payoff-bg" data-start="0" data-duration="2.027" data-track-index="0"></div>
+
+    <div class="clip" id="06-reason-two-payoff-group" data-start="0" data-duration="2.027" data-track-index="1">
+      <div id="06-reason-two-payoff-mark">&ldquo;</div>
+      <div id="06-reason-two-payoff-text">
+        <span class="06-reason-two-payoff-word" id="06-reason-two-payoff-w1">you</span>
+        <span class="06-reason-two-payoff-word" id="06-reason-two-payoff-w2">cannot</span>
+        <span class="06-reason-two-payoff-word" id="06-reason-two-payoff-w3">automate</span>
+        <span class="06-reason-two-payoff-word" id="06-reason-two-payoff-w4">a</span>
+        <span class="06-reason-two-payoff-word" id="06-reason-two-payoff-w5">soul</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var tl = gsap.timeline({ paused: true });
+
+      // Scene 1 (0.0-0.405s): quote-mark drops in — spring-pop entrance, power3.out, no overshoot.
+      tl.fromTo(
+        "#06-reason-two-payoff-mark",
+        { scale: 0, opacity: 0 },
+        { scale: 1, opacity: 1, duration: 0.35, ease: "power3.out" },
+        0.05
+      );
+
+      // Scene 2 (0.405-1.622s): quote-text assembles via per-word waterfall reveal, timed to the VO —
+      // the slowest, most deliberately paced reveal in the video. Binary opacity via tl.set, whip up via tl.to.
+      function revealWord(id, onset, dur, yOff) {
+        tl.set(id, { opacity: 1, y: yOff });
+        tl.to(id, { y: 0, duration: dur, ease: "power4.out" }, onset);
+      }
+
+      revealWord("#06-reason-two-payoff-w1", 0.42, 0.14, 40);
+      revealWord("#06-reason-two-payoff-w2", 0.68, 0.16, 46);
+      revealWord("#06-reason-two-payoff-w3", 0.95, 0.17, 48);
+      revealWord("#06-reason-two-payoff-w4", 1.25, 0.13, 36);
+      revealWord("#06-reason-two-payoff-w5", 1.4, 0.2, 56);
+
+      // Scene 3 (1.622-2.027s): held read, subtle jitter only — the video's second deliberate held beat.
+      var phase = { p: 0 };
+      var idleStart = 1.65;
+      var idleDur = 2.027 - idleStart;
+      tl.to(
+        phase,
+        {
+          p: Math.PI * 2 * 0.15,
+          duration: idleDur,
+          ease: "none",
+          onUpdate: function () {
+            var s = Math.sin(phase.p);
+            var g = document.getElementById("06-reason-two-payoff-group");
+            if (g) {
+              g.style.transform = "translateY(" + (s * 2) + "px) scale(" + (1 + s * 0.01) + ")";
+            }
+          },
+        },
+        idleStart
+      );
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines["06-reason-two-payoff"] = tl;
+    })();
+  </script>
+</template>

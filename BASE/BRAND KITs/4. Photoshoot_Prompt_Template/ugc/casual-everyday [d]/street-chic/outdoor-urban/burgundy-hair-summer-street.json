@@ -1,0 +1,19 @@
+{
+  "name": "burgundy-hair-summer-street",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "burgundy-hair", "summer"],
+  "image_type": "urban-summer-fashion-portrait",
+  "image_vibe": "contemplative-sunny-streetwear",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic summer streetwear portrait of an approved adult woman beside modern urban architecture.",
+    "main_subject": "An approved adult woman with long straight dark-burgundy hair and two small braids framing her face. She looks down with a soft contemplative pout while both hands touch her hair. She wears a white mesh long-sleeve layer over a white fitted tank, loose light-beige cargo trousers, small hoop earrings, and a white shoulder bag.",
+    "composition_elements": "Vertical 5:6 standing portrait against grey tiled walls and a beige architectural pillar, with clear blue sky and strong midday shadows.",
+    "lighting_and_atmosphere": "Hard natural sunlight, distinct architectural shadows, sharp photorealistic detail, casual chic summer street mood.",
+    "technical_specs": "Photorealistic high-resolution digital photography, 5:6 framing, eye-level perspective, sharp subject, realistic mesh, fabric, hair, and building texture.",
+    "generated_prompt_string": "Create a photorealistic 5:6 summer streetwear portrait of an approved adult woman with long straight dark-burgundy hair and two small braids framing her face. She looks down with a soft contemplative pout while both hands touch her hair. Dress her in a white mesh long-sleeve layer over a white fitted tank, loose light-beige cargo trousers, small hoop earrings, and a white shoulder bag. Place her beside grey tiled modern architecture and a beige pillar under clear blue sky and hard midday sunlight with distinct shadows.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, malformed mesh",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-burgundy-hair-subject", "required": true, "source": "burgundy-hair-summer-street.jpg", "usage": "Preserve adult identity, burgundy hair, braids, expression, and hand pose."}, {"type": "wardrobe", "name": "white-mesh-tank-beige-cargo", "required": true, "source": "burgundy-hair-summer-street.jpg", "usage": "Keep layers, trousers, bag, and earrings consistent; replace only with explicit references."}, {"type": "location", "name": "modern-tiled-urban-architecture", "required": true, "source": "burgundy-hair-summer-street.jpg", "usage": "Maintain tiles, pillar, sky, sunlight, and shadows; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logo, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and preserved the summer streetwear scene.", "Added safe negative prompts and structured references."]}
+}

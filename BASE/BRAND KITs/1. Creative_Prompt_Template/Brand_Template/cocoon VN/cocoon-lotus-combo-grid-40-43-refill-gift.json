@@ -1,0 +1,65 @@
+{
+  "name": "cocoon-lotus-combo-grid-40-43-refill-gift",
+  "tag": [
+    "combo-grid",
+    "lotus",
+    "discount",
+    "refill",
+    "gift-with-purchase",
+    "catalog"
+  ],
+  "biz_niche": "E-commerce & Retail",
+  "content_format": "Special offers",
+  "group": "cocoon_2419445708551637",
+  "prompt": {
+    "project_info": {
+      "theme": "Retail combo catalog for Hau Giang lotus cleansing line",
+      "color_palette": "Warm Cream, Soft Pink, Black, Rose Pink, Light Gold"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A cream-background catalog poster presenting multiple Hau Giang lotus combo deals, including micellar water plus cleanser sets, refill cleanser plus gift cleanser, and discount badges showing 40 percent and 43 percent off.",
+      "style": "Clean retail catalog poster, e-commerce sales graphic, realistic packshot grid"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'COMBO Nước Tẩy Trang Sen Hậu Giang 500ml Sữa Rửa Mặt Sen Hậu Giang 310ml', 'COMBO Nước Tẩy Trang Sen Hậu Giang 1000ml Sữa Rửa Mặt Sen Hậu Giang 310ml', 'MUA Túi Refill Sữa Rửa Mặt Sen Hậu Giang 500ml TẶNG Sữa Rửa Mặt Sen Hậu Giang 310ml', prices '648K 389K', '904K 519K', 'MUA 465K', 'TẶNG 339K', and badges 'GIẢM 40%' and 'GIẢM 43%'.",
+      "items": [
+        "Top Left: Product pair of lotus micellar water 500ml and lotus cleanser 310ml with price and discount circles.",
+        "Top Right: Large combo copy block describing the 500ml micellar water plus 310ml cleanser bundle.",
+        "Bottom Left: Refill cleanser pouch beside a gifted cleanser bottle, paired with circles 'MUA 465K' and 'TẶNG 339K'.",
+        "Bottom Right: Lower-right multiline copy for the refill purchase plus free cleanser offer.",
+        "Center/Background: Additional product pair with a larger micellar water bottle and another discount-price circle on the cream retail layout."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio catalog lighting",
+      "effect": "Even packshot illumination, faint grounding shadows, crisp sales-copy readability"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity retail catalog poster with realistic packshots",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a Hau Giang lotus retail combo catalog. Centerpiece is a cream-background layout with multiple bundle offers: micellar water and cleanser pairs in different sizes, plus a refill cleanser purchase with a free cleanser gift. Surrounding elements: pink circles showing prices such as '648K 389K', '904K 519K', 'MUA 465K', 'TẶNG 339K', discount badges 'GIẢM 40%' and 'GIẢM 43%', and exact Vietnamese combo descriptions. Keep the clean multi-offer grid, realistic pink product packshots, and readable catalog typography. Technical style: high fidelity retail catalog poster with realistic packshots, soft studio catalog lighting, even packshot illumination and crisp sales-copy readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Hau Giang lotus cleanser, micellar water, and refill pouch assortment",
+          "required": true,
+          "source": "Attach official packshots or crops from the original poster",
+          "usage": "Preserve bottle sizes, pump/cap styles, label layouts, and refill pouch form."
+        },
+        {
+          "type": "text_layout",
+          "name": "Combo-grid copy and pricing circles",
+          "required": true,
+          "source": "Use the original poster as layout reference",
+          "usage": "Keep the three offer zones, discount percentages, and pink price-circle positions."
+        }
+      ],
+      "prompt_instructions": "Use the original poster as the composition reference for gpt-image-2. Do not reduce the number of offer blocks or alter the listed prices, discounts, or gift wording."
+    }
+  }
+}

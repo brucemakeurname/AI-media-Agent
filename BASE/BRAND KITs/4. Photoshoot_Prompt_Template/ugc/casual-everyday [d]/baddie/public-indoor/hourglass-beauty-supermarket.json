@@ -1,0 +1,58 @@
+{
+  "name": "hourglass-beauty-supermarket",
+  "tag": [
+    "ugc",
+    "baddie",
+    "public-indoor",
+    "supermarket-candid",
+    "over-shoulder-glance",
+    "athleisure"
+  ],
+  "image_type": "ugc-supermarket-lifestyle-portrait",
+  "image_vibe": "everyday-athleisure-candid",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/public-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic vertical supermarket lifestyle portrait that feels candid and everyday, preserving the grey-and-navy athletic outfit, star hair clip and grocery aisle.",
+    "main_subject": "One original approved adult woman with dark hair in a casual messy bun, a gold star-shaped hair clip, realistic natural skin and no visible tattoos on the arms. She wears a grey cropped T-shirt with dark navy short sleeves and fitted black athletic leggings. Preserve a natural feminine silhouette without exaggerated measurements or body-part emphasis.",
+    "composition_elements": "Vertical 9:16 medium-full shot from the knees upward. The adult subject stands with her back angled toward camera and turns her head over the right shoulder, both hands resting near the waistband. Include metal shelves stocked with generic canned goods and mustard bottles, fluorescent ceiling panels and a second adult shopper in a dark shirt leaning at the left background.",
+    "lighting_and_atmosphere": "Functional bright overhead fluorescent store lighting with realistic even highlights and candid shadows. Keep the mood ordinary, observational and lightly playful.",
+    "technical_specs": "9:16 vertical smartphone perspective, sharp focus on the main subject, realistic aisle depth and shelf detail, natural skin and fabric texture, restrained candid color; keep package labels small or indistinct.",
+    "generated_prompt_string": "Create a photorealistic vertical supermarket lifestyle portrait of one original approved adult woman with dark hair in a casual messy bun, a gold star-shaped hair clip, realistic natural skin and no visible tattoos on the arms. She wears a grey cropped T-shirt with dark navy short sleeves and fitted black athletic leggings. Use a 9:16 medium-full shot from the knees upward; she stands with her back angled toward camera, turns her head over the right shoulder and rests both hands near the waistband. Include metal shelves stocked with generic canned goods and mustard bottles, fluorescent ceiling panels and a second original approved adult shopper in a dark shirt leaning at the left background. Use bright functional overhead fluorescent lighting, realistic aisle depth, natural skin and fabric texture and restrained candid color, with package labels small and indistinct.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, body-part emphasis, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, invented logos, readable brand text, recognizable public figure",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "hourglass-beauty-supermarket.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair, clip, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "grey cropped tee with navy sleeves and black athletic leggings",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve outfit colors, sleeve contrast, fit and star clip; replace only with an explicitly supplied wardrobe reference."
+        },
+        {
+          "type": "location",
+          "name": "supermarket aisle, shelves, generic packages and second shopper",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve aisle layout, fluorescent light, shelves and background shopper; environment may be replaced with an explicit reference while keeping labels indistinct."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, face, hair clip, outfit, aisle depth, lighting and second adult shopper consistent. The approved adults, wardrobe and supermarket environment are independently replaceable through explicit references. Preserve typography only as indistinct package detail; do not invent or reproduce logos or readable brand names."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adults.",
+      "Removed exaggerated hourglass and body-emphasis language while preserving the over-shoulder supermarket composition and athletic styling.",
+      "Added safety, anti-artifact and anti-invented-brand negative prompts."
+    ]
+  }
+}

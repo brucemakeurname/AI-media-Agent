@@ -1,0 +1,75 @@
+{
+  "name": "cinematic-nine-grid-portrait",
+  "tag": [
+    "adult-woman",
+    "nine-grid",
+    "beige-studio",
+    "beauty-closeup",
+    "tears",
+    "editorial"
+  ],
+  "image_type": "editorial-contact-sheet",
+  "image_vibe": "intimate-cinematic-contemplative",
+  "image_purpose": "editorial-moodboard",
+  "group": "indie/abstract",
+  "source_url": "https://x.com/ChrisSlacker/status/2020336544171913683",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "nine emotional close-up studies in a beige studio",
+      "color_palette": "soft beige, navy, off-white, natural rose, monochrome black",
+      "format": "3x3 portrait grid"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with medium-length dark brown hair, small gold hoops, a fine dark-blue shirt, and off-white trousers.",
+      "style": "fine-art editorial contact sheet with natural skin and restrained emotion"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "3x3 equally weighted grid",
+        "lips and hand close-up",
+        "eye-contact close-up",
+        "black-and-white chin-rest portrait",
+        "curtain-obscured portrait",
+        "hands framing face",
+        "hair over one eye",
+        "seated side portrait",
+        "side profile with a single tear"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "large soft key from front-right, silver reflector left, weak top contour light",
+      "effect": "soft sculpting with a narrow horizontal highlight across selected frames"
+    },
+    "technical_specs": {
+      "render_style": "mixed 85mm f/1.8 closeups and 50mm half-body shot, clean grid dividers, subtle film grain",
+      "resolution": "high resolution 3x3 composite"
+    },
+    "generated_prompt_string": "In a soft beige studio, construct a 3x3 fine-edited photo grid of one adult woman. She wears a light dark-blue shirt and off-white trousers; use bare feet only in the seated full-body panel to retain raw texture. Light with a large soft source from front-right, a silver reflector on the left, and weak top contour light. Create nine compositions: lip close-up with fingers near the mouth; direct eye-contact close-up; black-and-white chin-rest portrait; curtain-obscured portrait; hands framing face; hair-over-one-eye study; hand-on-chin detail; half-body side-sitting pose; and cinematic side profile with a single tear. Keep all panels elegant, non-sexual, and emotionally restrained.",
+    "negative_prompt": "explicit, nsfw, sexualized pose, minor, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, mismatched grid identity",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "adult-grid-subject-reference",
+          "required": false,
+          "source": "Attach an adult character reference when identity must remain consistent across all nine panels.",
+          "usage": "Keep face, hair, earrings, and wardrobe continuity."
+        },
+        {
+          "type": "text_layout",
+          "name": "three-by-three-grid-layout",
+          "required": false,
+          "source": "Use preview image as a layout reference when exact panel order is required.",
+          "usage": "Preserve the 3x3 contact-sheet structure while allowing pose substitutions."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Attach a person reference for identity continuity and layout reference for exact panel order. Preserve the single adult subject, nine-grid format, beige studio, and non-sexual emotional portrait studies."
+    }
+  }
+}

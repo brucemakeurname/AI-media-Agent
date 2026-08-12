@@ -1,0 +1,19 @@
+{
+  "name": "tokyo-night-candid-capture",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "tokyo", "motion-blur"],
+  "image_type": "candid-night-motion-portrait",
+  "image_vibe": "shy-playful-imperfect",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create an ultra-realistic candid smartphone photograph of an approved adult woman walking past a tiled Tokyo sidewalk at night.",
+    "main_subject": "An approved adult woman with dark hair and glasses, wearing a casual pink top. She turns back mid-step with a shy smile and raises one hand near the lens to partially block the camera while continuing forward.",
+    "composition_elements": "Imperfect 9:16 framing with subject nearly leaving frame, white ceramic tile wall, dark sidewalk, strong hand/face motion blur, ghosting, and small night lights.",
+    "lighting_and_atmosphere": "Harsh flash-only light, deep surrounding darkness, uneven exposure, noisy raw smartphone look, spontaneous playful mood.",
+    "technical_specs": "Photorealistic vertical smartphone image, intentional heavy directional motion blur and ghosting, realistic flash, grain, and imperfect anatomy without distortion beyond motion.",
+    "generated_prompt_string": "Create an ultra-realistic 9:16 candid smartphone photograph of an approved adult woman with dark hair and glasses walking past a white tiled Tokyo sidewalk at night. She wears a casual pink top, turns back mid-step with a shy playful smile, and raises one hand near the lens to partially block the camera. Use harsh flash, deep darkness, heavy directional motion blur on hand, hair, and face, slight ghosting, noisy grain, imperfect framing, and raw unpolished authenticity.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, polished beauty portrait, plastic skin, waxy, over-smooth, over-saturated, watermark, extra fingers, deformed hands, permanent facial distortion",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-tokyo-night-subject", "required": true, "source": "tokyo-night-candid-capture.jpg", "usage": "Preserve adult identity, glasses, expression, hand gesture, and walking pose."}, {"type": "wardrobe", "name": "casual-pink-top", "required": true, "source": "tokyo-night-candid-capture.jpg", "usage": "Keep clothing and styling consistent; replace only with explicit references."}, {"type": "location", "name": "tokyo-tiled-sidewalk-night", "required": true, "source": "tokyo-night-candid-capture.jpg", "usage": "Maintain tiles, darkness, flash, motion, and night environment; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult while preserving intentional candid motion blur.", "Added safe negative prompts and structured references."]}
+}

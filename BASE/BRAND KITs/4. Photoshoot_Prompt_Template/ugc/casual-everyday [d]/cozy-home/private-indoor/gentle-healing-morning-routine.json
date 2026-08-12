@@ -1,0 +1,58 @@
+{
+  "name": "gentle-healing-morning-routine",
+  "tag": [
+    "ugc",
+    "cozy-home",
+    "private-indoor",
+    "morning-routine",
+    "pink-knit-sweater",
+    "soft-lifestyle"
+  ],
+  "image_type": "ugc-morning-routine-lifestyle-portrait",
+  "image_vibe": "gentle-warm-healing",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic still lifestyle portrait inspired by a gentle morning routine, preserving the pink cable-knit sweater, blue jeans, small black shoulder bag and soft apartment interior.",
+    "main_subject": "One original approved adult woman with long light-brown hair and straight bangs, natural skin texture and a calm relaxed expression. She wears a dusty-pink cable-knit sweater, high-waisted blue jeans, black sneakers and carries a small black shoulder bag with a chain strap.",
+    "composition_elements": "Vertical 4:5 or 2:3 full-body portrait in a softly lit home entry or bedroom. The adult woman stands naturally with one hand near her hair and the other near the bag or waistband, with relaxed shoulders and an everyday ready-to-go posture. Include warm taupe curtains, a neutral sofa or bed, soft carpet and minimal home details.",
+    "lighting_and_atmosphere": "Soft warm morning window light creates delicate highlights on the sweater, hair and bag with gentle shadows. Keep the atmosphere healing, cozy, quiet and lived-in, with no studio gloss.",
+    "technical_specs": "4:5 or 2:3 vertical lifestyle photograph, 50mm-equivalent perspective, natural depth of field, detailed cable-knit, denim and hair texture, soft warm color and realistic skin.",
+    "generated_prompt_string": "Create a photorealistic gentle morning-routine lifestyle portrait of one original approved adult woman with long light-brown hair and straight bangs, natural skin texture and a calm relaxed expression. She wears a dusty-pink cable-knit sweater, high-waisted blue jeans, black sneakers and carries a small black shoulder bag with a chain strap. Use a vertical 4:5 or 2:3 full-body portrait in a softly lit home entry or bedroom; she stands naturally with one hand near her hair and the other near the bag or waistband, relaxed shoulders and an everyday ready-to-go posture. Include warm taupe curtains, a neutral sofa or bed, soft carpet and minimal home details. Use soft warm morning window light, delicate shadows, detailed knit, denim, hair and bag texture, realistic skin and gentle natural color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, wardrobe malfunction, invented logos, unreadable added text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "gentle-healing-morning-routine.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, bangs, hair, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "dusty-pink cable-knit sweater, blue jeans, black sneakers and chain-strap bag",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve sweater cable pattern, denim, sneakers, bag shape and chain; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "warm taupe curtains, neutral sofa or bed and soft home interior",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve interior palette, curtains, furniture, carpet and morning light; environment may be replaced independently through explicit references."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, face, hair, bangs, outfit, bag, ready-to-go gesture and cozy home environment consistent. The adult, wardrobe and setting may be replaced separately through explicit references. No logo or typography is required."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Converted the multi-scene source wording into a still-image template within the image-template scope.",
+      "Changed ambiguous youthful wording to original approved adult while preserving the gentle morning-routine intent.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

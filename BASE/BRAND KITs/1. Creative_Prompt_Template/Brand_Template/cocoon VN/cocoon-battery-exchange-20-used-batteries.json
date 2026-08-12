@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-battery-exchange-20-used-batteries",
+  "tag": [
+    "battery-recycling",
+    "reward",
+    "eco-campaign",
+    "text-heavy",
+    "pomelo-shampoo",
+    "green"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Infographics",
+  "group": "cocoon_978075941246508",
+  "prompt": {
+    "project_info": {
+      "theme": "Used battery collection reward poster for an eco-conscious beauty campaign",
+      "color_palette": "Bright Green, Cream White, Black, Soft Gold"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A large typographic poster announcing 'TỐI THIỂU 20 VIÊN PIN CŨ (ĐÃ SỬ DỤNG)' with the zero replaced by a battery icon, paired with a Cocoon pomelo shampoo bottle on the right and a curved green arrow reading 'ĐỔI LẤY'.",
+      "style": "Minimal campaign graphic, clean retail poster, bold condensed typography, flat cream background with packshot product placement"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'TỐI THIỂU 20 VIÊN PIN CŨ (ĐÃ SỬ DỤNG)', 'ĐỔI LẤY', '1 Dầu Gội Bưởi 50ml (SỐ LƯỢNG CÓ HẠN)', and 'LƯU Ý: QUÀ TẶNG ĐƯỢC ÁP DỤNG 1 LẦN/LƯỢT ĐỔI/NGƯỜI.'",
+      "items": [
+        "Top Left: Bold green headline 'TỐI THIỂU' aligned left on a pale cream background.",
+        "Top Right: Large Cocoon pomelo shampoo bottle packshot with sustainability artwork and environmental campaign sticker details on the label.",
+        "Bottom Left: Giant stacked green text 'VIÊN PIN CŨ (ĐÃ SỬ DỤNG)' and a very large green number 20 with a stylized battery icon inside the zero.",
+        "Bottom Right: Black reward text '1 Dầu Gội Bưởi 50ml (SỐ LƯỢNG CÓ HẠN)' beneath the product, plus a green curved arrow labeled 'ĐỔI LẤY'.",
+        "Center/Background: Empty cream negative space keeping the poster airy and text-forward."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio product lighting",
+      "effect": "Even flat commercial illumination, crisp edges, subtle packshot shadow, clean poster-like presentation"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity commercial poster design with realistic product packshot integration",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a used battery collection reward program. Centerpiece is huge Vietnamese typography reading 'TỐI THIỂU 20 VIÊN PIN CŨ (ĐÃ SỬ DỤNG)' with the zero formed as a green battery icon, plus a green curved arrow labeled 'ĐỔI LẤY'. Background is a plain pale cream poster field. Surrounding elements: a Cocoon pomelo shampoo bottle packshot on the right, reward text '1 Dầu Gội Bưởi 50ml (SỐ LƯỢNG CÓ HẠN)', and the note 'LƯU Ý: QUÀ TẶNG ĐƯỢC ÁP DỤNG 1 LẦN/LƯỢT ĐỔI/NGƯỜI.'. Keep the exact bold condensed green typography hierarchy and minimalist eco-campaign layout. Technical style: high fidelity commercial poster design with realistic product packshot integration, soft studio product lighting, even flat commercial illumination, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Cocoon pomelo shampoo bottle 50ml reward visual",
+          "required": true,
+          "source": "Attach the exact packshot from the original image or brand packshot library",
+          "usage": "Preserve bottle color, label composition, and environmental reward art on the product."
+        },
+        {
+          "type": "text_layout",
+          "name": "Battery exchange poster typography",
+          "required": true,
+          "source": "Use the original creative as text layout reference",
+          "usage": "Maintain exact Vietnamese wording, line breaks, giant green type scale, battery icon inside zero, and arrow placement."
+        },
+        {
+          "type": "icon",
+          "name": "Green battery icon",
+          "required": true,
+          "source": "Use the original creative",
+          "usage": "Match the battery illustration embedded within the number 20."
+        }
+      ],
+      "prompt_instructions": "When recreating with gpt-image-2, prioritize exact text fidelity and overall poster geometry over decorative invention. Attach the product packshot and original text layout ref so the giant typography, curved exchange arrow, and reward callout remain in the same proportions."
+    }
+  }
+}

@@ -1,0 +1,43 @@
+﻿{
+    "name":  "raw-closet-perfect-selfie",
+    "tag":  [
+                "ugc",
+                "selfie-pov",
+                "retro-film",
+                "private-indoor",
+                "closet",
+                "white-dress",
+                "raw"
+            ],
+    "image_type":  "raw-closet-mirror-selfie",
+    "image_vibe":  "clean-unfiltered-film",
+    "image_purpose":  "closet fashion mirror selfie",
+    "group":  "retro-film",
+    "prompt":  {
+                   "project_info":  "Photorealistic raw closet mirror selfie adapted from the source prompt and supplied references.",
+                   "main_subject":  "Clearly adult woman matching the supplied approved-adult identity and mirror-expression references, wearing a technical white ruched high-tensile mini-dress with thin straps and carrying a white handbag with red-brown striped strap.",
+                   "composition_elements":  "Frontal standing mirror selfie, right hand behind head, left hand holding phone, walk-in closet with white shelves, folded and hanging clothes, wicker baskets and wooden floor.",
+                   "lighting_and_atmosphere":  "Neutral indoor ambient light, clean unfiltered fashion mood with subtle digital grain.",
+                   "technical_specs":  "Vertical 9:16, raw iPhone 17 Pro-like 35mm, f/8 sharp focus, realistic ruched fabric, bag and reflection.",
+                   "generated_prompt_string":  "Photorealistic 9:16 raw iPhone-style mirror selfie of a clearly adult woman matching the supplied approved-adult identity and expression references, standing frontally with right hand behind head and left hand holding a phone, wearing a technical white ruched high-tensile mini-dress with secure coverage and thin straps, carrying a white handbag with red-brown striped strap, bright walk-in closet with white shelves, clothes, wicker baskets and wooden floor, neutral ambient light, f/8 sharp detail, subtle grain, no text or logos.",
+                   "negative_prompt":  "explicit, nsfw, overly revealing, exposed body, exposed breasts, exposed genitals, child, minor, wardrobe malfunction, distorted anatomy, bad hands, plastic skin, watermark, text, logo",
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "raw-closet-perfect-selfie_0.jpg",
+                                                                 "required":  true,
+                                                                 "source":  "local asset",
+                                                                 "usage":  "Use for approved-adult identity, expression, white dress, handbag, closet and pose."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  "Attach the local asset as required. Preserve face, expression, outfit, handbag, closet and phone pose; remove numerical body emphasis and use only approved adult identity references, never celebrity likeness."
+                                          }
+               },
+    "policy_review":  {
+                          "status":  "remediated",
+                          "changes":  [
+                                          "Removed numerical waist-to-hip and leg emphasis while preserving the white ruched fashion silhouette and pose."
+                                      ]
+                      }
+}

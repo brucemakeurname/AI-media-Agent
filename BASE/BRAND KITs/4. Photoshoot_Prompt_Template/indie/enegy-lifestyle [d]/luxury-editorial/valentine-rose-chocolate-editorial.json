@@ -1,0 +1,75 @@
+{
+  "name": "valentine-rose-chocolate-editorial",
+  "tag": [
+    "adult-man",
+    "valentine-roses",
+    "artisan-chocolates",
+    "heart-glasses",
+    "overhead-editorial"
+  ],
+  "image_type": "campaign-key-visual",
+  "image_vibe": "romantic-warm-playful",
+  "image_purpose": "campaign",
+  "group": "indie/enegy-lifestyle/luxury-editorial",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Retained the approved adult identity, overhead Valentine arrangement, roses, chocolates, balloons, and heart glasses while replacing readable newspapers, headlines, and shirt branding with abstract text-free paper and a plain white shirt."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "warm overhead Valentine campaign portrait with roses and artisan chocolates",
+      "color_palette": "deep red, cream, dark chocolate brown, white, and warm skin tones",
+      "format": "vertical 4:5 top-down close-up"
+    },
+    "main_subject": {
+      "description": "the approved adult subject with dark wavy hair and beard, wearing a tailored red blazer over a plain white shirt and heart-shaped chocolate-frame glasses with translucent pink lenses",
+      "pose_and_expression": "lying centered on a dense collage of abstract text-free paper sheets, hands holding a small folded blank paper card and an open chocolate box, calm direct expression"
+    },
+    "composition_elements": {
+      "camera_angle": "top-down close-up with face, hands, roses, and chocolate box sharply prioritized",
+      "foreground": "deep-red roses, loose petals, artisan chocolates, cocoa crumbs, heart foil balloons, and a small cocoa speck on fingertips",
+      "background": "densely layered folded blank or abstract paper sheets with no readable text",
+      "visual_hierarchy": "approved adult face, heart glasses, chocolate box and roses, then warm Valentine texture"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "warm top-left softbox with a subtle warm rim from the right and a heart-shaped light pattern across part of the face and blazer",
+      "atmosphere": "romantic, playful, tactile, and magazine-editorial"
+    },
+    "technical_specs": {
+      "camera": "Sony A7R V",
+      "lens": "90mm macro f/2.8",
+      "settings": "1/125s, f/2.8, ISO 160",
+      "rendering": "warm Portra-inspired grade, rich red tones, natural pores, hair strands, petal veins, chocolate gloss, cocoa texture, creamy bokeh, subtle film grain"
+    },
+    "generated_prompt_string": "Use the uploaded approved adult face-and-shoulders photo as the identity reference and preserve that adult likeness exactly. Create a top-down 4:5 close-up of the adult subject lying on densely layered abstract text-free paper sheets. His dark wavy hair is fanned out; he wears a tailored red blazer over a plain white shirt and heart-shaped chocolate-frame glasses with translucent pink lenses. Arrange deep-red roses, loose petals, an open artisan chocolate box, assorted loose chocolates, cocoa crumbs, and two red heart foil balloons around him. He holds a small folded blank paper card in one hand and the chocolate box in the other. Use warm top-left softbox light, a subtle warm rim, and a heart-shaped light pattern across part of his face and blazer. Capture natural skin pores, fabric weave, petal veins, chocolate gloss, cocoa texture, warm film grain, rich reds, and no readable text, logo, or watermark.",
+    "negative_prompt": "minor, identity alteration, explicit, nsfw, overly revealing, readable newspaper, headline, text, letters, logo, watermark, branded shirt, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted hands, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public-figure face-and-shoulders portrait",
+          "usage": "Preserve the exact authorized adult facial identity and hair characteristics."
+        },
+        {
+          "type": "product",
+          "name": "chocolate-box-reference",
+          "required": false,
+          "source": "approved product reference",
+          "usage": "Match chocolate shapes and packaging only when supplied; omit all branding unless explicitly approved."
+        },
+        {
+          "type": "moodboard",
+          "name": "valentine-arrangement-reference",
+          "required": false,
+          "source": "approved moodboard reference",
+          "usage": "Match rose, balloon, and paper arrangement while ensuring all paper remains text-free."
+        }
+      ],
+      "prompt_instructions": "The adult identity reference is mandatory. Product and moodboard references are optional; preserve the exact adult identity and all Valentine props, while omitting all text, headlines, and logos unless an approved reference explicitly authorizes a product mark."
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "name": "Retro Desert Road Trip Contact Sheet",
+  "tag": "retro-roadtrip-9grid",
+  "image_type": "nine_frame_film_contact_sheet",
+  "image_vibe": "sun_faded_free_spirited_1970s",
+  "image_purpose": "lifestyle_storytelling",
+  "group": "indie/enegy-lifestyle/retro-analog",
+  "prompt": {
+    "project_info": {
+      "title": "Retro Desert Road Trip Contact Sheet",
+      "format": "single still image arranged as a 3 by 3 contact sheet",
+      "aspect_ratio": "1:1 square"
+    },
+    "main_subject": {
+      "description": "One adult woman with wind-tossed hair and an easy, self-assured expression on a sunlit desert road trip.",
+      "wardrobe": "A worn denim jacket, blank off-white T-shirt, high-waisted flared jeans, and simple aviator sunglasses without visible logos.",
+      "continuity": "Keep the same adult subject, wardrobe, vintage coupe, and desert location consistent across all nine frames."
+    },
+    "composition_elements": {
+      "grid_sequence": [
+        "Leaning casually against the side of a weathered vintage coupe.",
+        "Holding a folded paper map beside the open car door.",
+        "Close portrait in aviator sunglasses, with desert light reflected in the lenses.",
+        "Giving a friendly hitchhiking gesture from a safe roadside shoulder.",
+        "Sitting securely on the car bumper with boots on the ground.",
+        "Standing in the wind as hair lifts across the frame.",
+        "Seen through the open passenger window in a candid moment.",
+        "Walking along the empty roadside with the coupe in the distance.",
+        "A softly out-of-focus instant-film-style detail of hands holding the map."
+      ],
+      "setting": "Open desert highway, dry grass, distant hills, cloudless sky, and a weathered unbranded vintage coupe.",
+      "text_and_brand_control": "No cigarettes, smoke, band graphics, logos, license-plate text, signage, labels, or readable words; any distant signage is abstract and unreadable."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Late-afternoon desert sunlight with warm backlight, occasional lens flare, and gentle shadow detail.",
+      "mood": "Spontaneous, optimistic, analog, and free-spirited without glamorizing risky behavior."
+    },
+    "technical_specs": {
+      "camera_style": "1970s 35mm color film contact sheet",
+      "lens": "50mm equivalent with occasional close-focus detail",
+      "rendering": "Nine clearly separated equal frames, mild grain, sun-faded palette, slight print wear, realistic anatomy, and consistent facial identity across frames."
+    },
+    "generated_prompt_string": "Create a square 3 by 3 contact sheet made of nine hyper-realistic 1970s 35mm color-film stills. Follow one adult woman with wind-tossed hair, a worn denim jacket, blank off-white T-shirt, high-waisted flared jeans, and unbranded aviator sunglasses during a sunlit desert road trip with one weathered unbranded vintage coupe. The nine frames show: leaning against the coupe; holding a folded paper map at the open door; a sunglass close portrait with desert reflection; a friendly hitchhiking gesture from a safe roadside shoulder; sitting securely on the bumper with boots on the ground; hair blowing in the wind; a candid through the passenger window; walking down the empty roadside with the coupe behind; and a soft instant-film detail of hands holding the map. Use late-afternoon golden desert light, occasional lens flare, mild grain, sun-faded color, slight print wear, natural skin and hands, and strict visual continuity. No cigarettes, smoke, brands, band graphics, readable signs, labels, or text.",
+    "negative_prompt": "minor, celebrity likeness, named person, explicit, nsfw, overly revealing clothing, lingerie, fetish styling, cigarette, smoking, smoke, alcohol branding, drug use, unsafe car pose, logos, band graphics, readable text, watermark, extra limbs, inconsistent identity, distorted hands, warped sunglasses, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Any identity reference must show a consenting adult and is optional. Replaceable vehicle, wardrobe, and location references guide general form and palette only; omit all branding, readable copy, and unsafe actions.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Maintain general adult face and hair continuity across all nine frames."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "seventies_denim_look_reference",
+          "required": false,
+          "source": "user-provided wardrobe reference",
+          "usage": "Guide denim, blank tee, flared jeans, and plain aviator silhouette without labels or graphics."
+        },
+        {
+          "type": "vehicle_reference",
+          "name": "vintage_coupe_reference",
+          "required": false,
+          "source": "user-provided vehicle reference",
+          "usage": "Guide the coupe shape and aged finish while removing brand emblems and license-plate text."
+        },
+        {
+          "type": "location_reference",
+          "name": "desert_highway_reference",
+          "required": false,
+          "source": "user-provided landscape reference",
+          "usage": "Guide the road, dry grass, and distant hills; render all signage unreadable."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified an adult subject, removed cigarette use and band branding, substituted safe poses and a map prop, and prohibited celebrity likeness, text, logos, and sexualized styling."
+  }
+}

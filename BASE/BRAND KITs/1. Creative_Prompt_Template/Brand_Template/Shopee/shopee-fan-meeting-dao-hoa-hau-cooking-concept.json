@@ -1,0 +1,70 @@
+{
+  "name": "shopee-fan-meeting-dao-hoa-hau-cooking-concept",
+  "tag": [
+    "fan-meeting",
+    "livestream-event",
+    "food-theme",
+    "stage-poster"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Live chat",
+  "group": "shopee_1010528601960293",
+  "prompt": {
+    "project_info": {
+      "theme": "Fan meeting cooking-concept livestream poster",
+      "color_palette": "Deep red, gold, warm orange, dark brown, food greens"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A dramatic red curtain stage poster with a hanging banner reading 'FAN MEETING' and 'DAO HOA HAU'. The central copy says 'QUAY TRO LAI VOI CONCEPT' and giant 'NAU AN'. Bottom footer strip reads 'NGAY 6.7', 'VAO LUC 19H30', and 'DON XEM TAI Shopee LIVE'. In the foreground are plated Vietnamese dishes including a yellow banh xeo-like crepe, a clay pot stew, and a steaming soup pot with herbs and vegetables around them.",
+      "style": "Theatrical food-event poster with warm restaurant ambience and livestream show branding"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "FAN MEETING / DAO HOA HAU / QUAY TRO LAI VOI CONCEPT / NAU AN / NGAY 6.7 / VAO LUC 19H30 / DON XEM TAI Shopee LIVE",
+      "items": [
+        "Top Left: White Shopee bag logo",
+        "Top Right: Soft golden curtain edge and warm bokeh background",
+        "Bottom Left: Bamboo fish traps, food props, and plated yellow crepe dish",
+        "Bottom Right: Clay pot stew, fresh herbs, chilies, vegetables, and orange ribbon swirls",
+        "Center/Background: Tall red curtain backdrop with gold sparkles and a hanging decorative fan-meeting banner"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm stage-and-restaurant lighting",
+      "effect": "Steam wisps from dishes, golden sparkles, cozy glow, soft theatrical shadows"
+    },
+    "technical_specs": {
+      "render_style": "Food-event poster with photo compositing and theatrical graphic treatment",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee Live fan meeting with a cooking concept. Centerpiece is a red curtain stage with a banner reading 'FAN MEETING' and 'DAO HOA HAU', plus bold text 'QUAY TRO LAI VOI CONCEPT' and 'NAU AN'. Background is a dramatic theater-style red curtain with warm sparkles and restaurant ambience. Surrounding elements: Shopee logo at top left, plated Vietnamese dishes including a yellow crepe, clay pot stew, steaming soup, herbs, bamboo fish traps, and a footer strip with the exact text 'NGAY 6.7', 'VAO LUC 19H30', and 'DON XEM TAI Shopee LIVE'. Technical style: food-event poster with photo compositing and theatrical graphic treatment, warm stage-and-restaurant lighting, cozy glow, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "text_layout",
+          "name": "Fan meeting cooking-event layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the hanging ribbon banner, central text stack, and footer timing strip"
+        },
+        {
+          "type": "background",
+          "name": "Red curtain stage environment",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the theatrical curtain feel and warm venue ambience"
+        },
+        {
+          "type": "product",
+          "name": "Food dish references",
+          "required": true,
+          "source": "original food photos if exact dishes are required",
+          "usage": "Use for the plated dishes, soup pot, herbs, and steam-heavy food foreground"
+        }
+      ],
+      "prompt_instructions": "Keep all visible date and time wording exact. 'NGAY 6.7' and '19H30' are past relative to Friday, July 17, 2026 but must remain unchanged to match the original creative."
+    }
+  }
+}

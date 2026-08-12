@@ -1,0 +1,22 @@
+{
+  "name": "gen-z-labubu-orange-fashion",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "orange", "character-and-cat"],
+  "image_type": "Gen-Z fashion character portrait",
+  "image_vibe": "playful, vibrant, modern, premium",
+  "image_purpose": "fashion campaign and social editorial portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a hyper-realistic full-body studio fashion portrait of one original approved adult woman with a supplied Labubu character and a British Shorthair cat against a vibrant orange backdrop.",
+    "main_subject": "Original approved adult woman with shoulder-length wavy brown hair, glasses, relaxed smile, black crop top, light zip hoodie, black cargo pants, white sneakers, and natural skin texture. She leans casually on the supplied fluffy life-sized Labubu character with soft fur and playful expression. A realistic British Shorthair cat sits nearby with detailed fur and natural posture.",
+    "composition_elements": ["Full-body or mid-shot with woman, Labubu, and cat all clearly visible.", "Smooth seamless vibrant orange studio backdrop and floor.", "Preserve the character's fur, face, clothing, glasses, cat anatomy, scale, and friendly interaction.", "Keep the Gen-Z streetwear palette clean and modern."],
+    "lighting_and_atmosphere": "Professional soft studio lighting with crisp gentle shadows, clean highlights, realistic fur and skin rendering, and premium playful editorial clarity.",
+    "technical_specs": "Photorealistic 4:5 portrait, 50mm lens at f/5.6, realistic fur, fabric, skin, glasses, and floor texture, subtle natural grain, sharp focus, no text or watermark.",
+    "generated_prompt_string": "Hyper-realistic high-detail studio fashion portrait of one original approved adult woman with shoulder-length wavy brown hair, glasses, relaxed smile, black crop top, light zip hoodie, black cargo pants and white sneakers. She leans casually on a realistic fluffy life-sized supplied Labubu character with soft fur and playful expression, while a British Shorthair cat sits nearby with detailed fur and natural posture. Set the full-body scene against a smooth seamless vibrant orange studio backdrop with professional soft lighting, crisp gentle shadows, clean highlights, premium Gen-Z streetwear editorial vibe, 50mm f/5.6, 4:5 composition, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "distorted character", "deformed cat", "bad anatomy", "extra fingers", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "gen-z-labubu-orange-fashion.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult identity, face, hair, glasses, outfit, and pose."}, {"type": "accessory", "name": "supplied fluffy Labubu character", "required": true, "source": "local reference image", "usage": "Preserve character scale, fur texture, expression, and placement."}, {"type": "animal", "name": "British Shorthair cat", "required": true, "source": "local reference image", "usage": "Preserve cat breed appearance, fur, posture, and placement."}, {"type": "location", "name": "vibrant orange seamless studio", "required": true, "source": "local reference image", "usage": "Preserve orange backdrop, floor, lighting, and shadows."}],
+      "prompt_instructions": "Attach all required person, character, animal, and location references; no optional assets are needed. Keep identity, outfit, glasses, character, cat, scale, environment, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent supplied character/animal, or equivalent studio reference. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

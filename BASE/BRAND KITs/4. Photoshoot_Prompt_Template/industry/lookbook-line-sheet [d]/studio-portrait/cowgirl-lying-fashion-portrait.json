@@ -1,0 +1,85 @@
+{
+  "name": "cowgirl-lying-fashion-portrait",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "western-fashion",
+    "earth-tones"
+  ],
+  "image_type": "western fashion floor portrait",
+  "image_vibe": "earthy, confident, raw, cinematic",
+  "image_purpose": "fashion lookbook and western editorial portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a hyper-realistic raw studio portrait of one original approved adult woman lying prone on a neutral taupe floor in western fashion styling.",
+    "main_subject": "Original approved adult woman with long straight light-brown to brunette hair draped over the shoulders, calm confident gaze, subtle winged eyeliner, natural skin finish without smoothing, and visible natural texture. She wears a large structured beige felt cowboy hat with a distinct crown and wide brim, a sleeveless brown-bronze fitted bodysuit, dark brown leather cowboy boots with western stitching and worn soles, and a delicate chain necklace with a thin gold bracelet.",
+    "composition_elements": [
+      "Subject lies prone on her stomach with legs bent upward and boots raised behind her.",
+      "Left arm is propped up with a loose fist under the chin or cheek to support the head; front-facing eye-level composition.",
+      "Seamless solid neutral beige or taupe studio backdrop and floor with warm earth-tone palette.",
+      "Hat brim casts a dramatic shadow across the upper face while boot leather grain and scuffed soles remain visible."
+    ],
+    "lighting_and_atmosphere": "Dramatic chiaroscuro with directional soft light from the left at approximately 5500K, deep hat shadow across the upper face, soft floor shadows, natural color grading, and subtle film grain.",
+    "technical_specs": "Photorealistic 4:5 portrait, Sony A7R V look, 85mm f/1.4 GM at f/2.8, ISO 100, 1/125s, sharp eye and face focus with creamy background falloff, 8K RAW-style detail, tactile felt, skin, fabric, and leather texture, no text or watermark.",
+    "generated_prompt_string": "A hyper-realistic raw studio portrait of one original approved adult woman lying on her stomach, shot with a Sony A7R V look and 85mm f/1.4 lens at f/2.8. She has long straight light-brown to brunette hair draped over her shoulders, a calm confident gaze, subtle winged eyeliner, natural unsmoothed skin texture, and wears a large beige felt cowboy hat casting a dramatic shadow over her upper face, a sleeveless brown-bronze fitted bodysuit, and worn dark-brown leather cowboy boots with western stitching and visible scuffed soles. Her legs are bent with boots raised behind her, and she rests her chin on a loose fist while gazing toward camera. Use dramatic chiaroscuro with directional soft light from the left at 5500K, seamless neutral beige-taupe floor and backdrop, deep hat shadow, soft floor shadows, 8K RAW-style detail, ISO 100, f/2.8, 1/125s, natural color grading, subtle film grain, no text, no watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "celebrity likeness",
+      "explicit measurements",
+      "body-part emphasis",
+      "skin smoothing",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "distorted anatomy",
+      "extra fingers",
+      "warped hat",
+      "melted boots",
+      "watermark",
+      "text",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "cowgirl-lying-fashion-portrait.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for original approved-adult identity, face, hair, expression, pose, and skin reference."
+        },
+        {
+          "type": "wardrobe",
+          "name": "beige cowboy hat, brown-bronze bodysuit, and worn western boots",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve hat shape and felt, garment color and weave, boot stitching, scuffs, and accessories."
+        },
+        {
+          "type": "location",
+          "name": "neutral taupe studio floor and backdrop",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve seamless floor, backdrop, warm earth-tone setting, and chiaroscuro shadows."
+        }
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, and location references; no optional assets are needed. Keep identity, face, hair, outfit, hat, boots, pose, environment, lighting, and color consistent. Replace only with an equivalent approved adult, equivalent western wardrobe, or equivalent studio environment. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an original approved adult and removed age ambiguity and suggestive wording while preserving the western outfit, prone pose, lighting, and raw editorial concept."
+    ]
+  }
+}

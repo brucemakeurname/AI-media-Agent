@@ -1,0 +1,65 @@
+{
+  "name": "storm-desert-tractor-man",
+  "tag": [
+    "approved-adult-face",
+    "carpeted-tractor",
+    "storm-desert",
+    "black-blazer",
+    "white-wildflower",
+    "epic-editorial"
+  ],
+  "image_type": "storm-desert-editorial-portrait",
+  "image_vibe": "epic, stormy, surreal, moody, high-fashion",
+  "image_purpose": "fashion-editorial, cinematic-moodboard, campaign-visual",
+  "group": "indie / moody-portrait / urban-night",
+  "prompt": {
+    "project_info": {
+      "theme": "Epic editorial portrait with a carpet-covered tractor in a stormy desert",
+      "format": "vertical close environmental portrait",
+      "color_palette": "black, wet charcoal, sand beige, muted teal, storm gray, white wildflower"
+    },
+    "main_subject": {
+      "type": "adult person using a required approved-adult face reference",
+      "detail": "An adult person whose face, facial structure, proportions, features, and expression match the attached approved-adult reference. They have chin-length wet black curly hair, black rectangular sunglasses, and an oversized voluminous black blazer.",
+      "style": "ultra-photorealistic epic editorial fashion photography"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "adult subject near the open side window of a tractor completely covered in patterned carpet",
+        "hand extends a delicate white wildflower into the foreground, slightly out of focus",
+        "close environmental portrait with a gently low editorial perspective that retains natural proportions",
+        "tractor parked in a vast lifeless desert stretching to the horizon",
+        "carpet fibers, blazer fabric, wet hair strands, and facial texture visible in sharp detail"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "heavy cloudy storm sky with soft diffused light breaking through clouds",
+      "effect": "volumetric rays, atmospheric haze, detailed moisture in hair, and subtle dimensional shadows",
+      "atmosphere": "storm-like, epic, surreal, and dramatic"
+    },
+    "technical_specs": {
+      "render_style": "ultra-detailed medium-format cinematic portrait with shallow depth of field",
+      "resolution": "ultra-sharp high-detail vertical 8K image",
+      "color_treatment": "desaturated cinematic tones with restrained teal-and-orange grading, subtle grain, natural skin texture"
+    },
+    "generated_prompt_string": "Use the attached approved-adult face reference as the sole identity standard; preserve the adult person's face, facial structure, proportions, features, and expression accurately without celebrity or public-figure substitution. Create an ultra-detailed cinematic environmental close portrait of the subject near the open side window of a tractor completely covered in patterned carpet, parked in a vast lifeless desert. Give the subject chin-length wet black curly hair, black rectangular sunglasses, and an oversized voluminous black blazer. Their hand holds a delicate white wildflower in the foreground, slightly out of focus. Use a gently low editorial perspective that retains natural proportions, strong facial micro-detail, pores, natural skin texture, moisture on hair strands, wrinkles in the blazer, and visible carpet fibers. Set it under a heavy cloudy storm sky with soft diffused light breaking through, volumetric rays, atmospheric haze, muted desaturated colors, and restrained teal-and-orange grading. Render as ultra-sharp medium-format editorial fashion photography with shallow cinematic depth, subtle grain, and an epic dramatic mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, celebrity likeness, public-figure likeness, identity blending, distorted perspective, exaggerated proportions, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, readable logo, text, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "Attach a required approved-adult face reference. Preserve adult facial identity, wet black curly hair, black sunglasses, oversized black blazer, white wildflower, patterned carpet-covered tractor, desert, storm cloudscape, and natural-proportion editorial angle. Do not use celebrity/public-figure likeness or readable tractor branding.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-reference",
+          "required": true,
+          "source": "user attachment",
+          "usage": "Keep adult face, facial structure, proportions, features, and expression exactly consistent."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

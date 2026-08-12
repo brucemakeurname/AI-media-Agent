@@ -1,0 +1,72 @@
+{
+  "name": "lilixbox-halio-sapphire-ipl-10-minute-bed-lifestyle",
+  "tag": [
+    "ipl-device",
+    "lifestyle",
+    "bedroom",
+    "hair-removal",
+    "halio",
+    "comfort"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Product demos",
+  "group": "lilixbox_1294959216177811",
+  "prompt": {
+    "project_info": {
+      "theme": "Relaxed at-home IPL hair-removal lifestyle scene",
+      "color_palette": "Warm White, Beige, Soft Gray, Skin Tones, Black"
+    },
+    "main_subject": {
+      "type": "Person/Product",
+      "detail": "A relaxed lifestyle photo of a woman sitting on an unmade white bed wearing a white ribbed dress, towel-turban, and black sunglasses with a white face mask on, holding a Halio Sapphire IPL device while looking at her phone.",
+      "style": "Casual luxury self-care lifestyle ad, cozy bedroom beauty-tech photography"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'TRIỆT NHANH TOÀN THÂN CHỈ TRONG 10 PHÚT', 'Máy triệt lông lạnh đá Sapphire Halio IPL', 'Thương Hiệu Máy Triệt Lông SỐ 1 VIỆT NAM'.",
+      "items": [
+        "Top Left: Neutral gray wall and soft bed-head backdrop.",
+        "Top Right: LIXIBOX logo in the upper corner and white pillows behind the seated model.",
+        "Bottom Left: Large white copy block about full-body hair removal in 10 minutes.",
+        "Bottom Right: Round silver brand-credibility badge reading 'SỐ 1 VIỆT NAM'.",
+        "Center/Background: Woman seated cross-legged on white bedding, holding a smartphone in one hand and the plugged-in Halio IPL device in the other with a blue light glowing at the base."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft natural indoor lighting",
+      "effect": "Cozy morning-room feel, gentle shadows, realistic self-care intimacy, muted premium calm"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity lifestyle photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for an at-home IPL hair-removal lifestyle scene. Centerpiece is a woman sitting on a white bed with a towel turban, black sunglasses, and white face mask, holding a Halio Sapphire IPL device while checking her phone. Background is a soft neutral bedroom with pillows and white bedding. Surrounding elements: headline 'TRIỆT NHANH TOÀN THÂN CHỈ TRONG 10 PHÚT', subline 'Máy triệt lông lạnh đá Sapphire Halio IPL', LIXIBOX logo, and a round badge 'Thương Hiệu Máy Triệt Lông SỐ 1 VIỆT NAM'. Keep the candid self-care pose and the plugged-in device with blue light. Technical style: high fidelity lifestyle photography, soft natural indoor lighting, cozy premium calm and gentle shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed face, extra limbs, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Woman self-care bedroom pose",
+          "required": true,
+          "source": "Attach a crop of the model from the original image",
+          "usage": "Preserve face-mask styling, towel wrap, sunglasses, seated pose, and phone-in-hand posture."
+        },
+        {
+          "type": "product",
+          "name": "Halio Sapphire IPL device",
+          "required": true,
+          "source": "Attach the device crop from the original image",
+          "usage": "Keep the exact device design, white cable, and blue glow at the base."
+        },
+        {
+          "type": "text_layout",
+          "name": "Bedroom lifestyle copy and badge",
+          "required": true,
+          "source": "Use the original poster as layout reference",
+          "usage": "Maintain the left text block and lower-right round badge placement."
+        }
+      ],
+      "prompt_instructions": "When recreating with gpt-image-2, attach both the model and device refs. The result should feel like an aspirational but candid bedroom self-care moment, not a studio catalog shot."
+    }
+  }
+}

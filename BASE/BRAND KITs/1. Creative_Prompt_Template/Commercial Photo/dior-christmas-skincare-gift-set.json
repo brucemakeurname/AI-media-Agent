@@ -1,0 +1,76 @@
+{
+    "name":  "dior-christmas-skincare-gift-set",
+    "tag":  [
+                "skincare",
+                "seasonal",
+                "special offer",
+                "Dior",
+                "gift set",
+                "Christmas promotion"
+            ],
+    "biz_niche":  "Beauty & Personal Care",
+    "content_format":  "Special offers",
+    "group":  "commercial_seasonal_gift_set",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Dior Christmas skincare gift-set promotion",
+                                        "color_palette":  "Snow white, blush pink, gold, pine green, berry red"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "An opened matte-white Dior snowflake gift box reveals three minimalist skincare bottles with gold caps, arranged in a premium top-down holiday product still life.",
+                                        "style":  "High-end luxury beauty product photography"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Product/Gift props/Promotion typography",
+                                                "text":  "圣诞礼遇 · 焕颜新生; 限量礼盒装 8折优惠 买赠面膜5片; 立即抢购 数量有限; 12月15日-26日",
+                                                "items":  [
+                                                              "Upper center: elegant Chinese seasonal headline.",
+                                                              "Center: open snowflake-embossed Dior box with three bottles.",
+                                                              "Around box: pine branches, red berries, small gold bells and wrapped gifts.",
+                                                              "Lower: bold black-and-red promotion, outlined CTA and date line.",
+                                                              "Background: ice-white top gradient fading to blush pink bottom."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft premium product studio lighting",
+                                                   "effect":  "Controlled gold highlights, refined white packaging texture, gentle prop shadows, clean festive polish"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Luxury vertical ecommerce promotion photography",
+                                           "resolution":  "9:16 high resolution"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "Dior gift box and skincare bottles",
+                                                                 "required":  true,
+                                                                 "source":  "exact approved packaging packshots",
+                                                                 "usage":  "Preserve box construction, snowflake embossing, bottle forms, gold caps and branding."
+                                                             },
+                                                             {
+                                                                 "type":  "logo",
+                                                                 "name":  "Dior logo",
+                                                                 "required":  true,
+                                                                 "source":  "official approved asset",
+                                                                 "usage":  "Render exact brand mark on box and bottles."
+                                                             },
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "Chinese promotion typography",
+                                                                 "required":  true,
+                                                                 "source":  "approved campaign copy",
+                                                                 "usage":  "Keep headline, discount, CTA and dates exact."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach exact packaging, logo and approved Chinese copy assets.",
+                                                                          "Do not alter the discount, gift-with-purchase quantity or campaign dates.",
+                                                                          "Keep seasonal props secondary to the product set."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "制作一张专业的圣诞护肤品套装促销卡片，采用竖版构图设计，整体风格简约高端。背景使用柔和的渐变色，从顶部的冰雪白色过渡到底部的淡粉色，营造出清新优雅的氛围。画面中央偏上位置，精心摆放着一套高端护肤品礼盒，礼盒采用磨砂白色包装，表面压印精致的雪花纹理和品牌Logo(Dior)。礼盒呈打开状态，内部露出三瓶不同大小的护肤品瓶子，瓶身设计简约现代，搭配金色瓶盖。产品周围巧妙地摆放着圣诞装饰元素:几支新鲜的松枝、小巧的金色铃铛、几颗红色浆果，以及散落的小礼物盒，所有道具都经过精心布光，呈现出高级的产品摄影质感。卡片顶部使用纤细优雅的字体书写“圣诞礼遇 · 焕颜新生”的中文标题。中部产品下方用醒目的红色字体标注促销信息“限量礼盒装 8折优惠 买赠面膜5片”，底部配有行动号召按钮样式的文字“立即抢购 数量有限”，以及活动有效期“12月15日-26日”。整体设计强调产品质感和节日氛围的完美结合。宽高比9:16",
+                   "negative_prompt":  "incorrect Dior logo, altered packaging, text error, wrong discount, wrong dates, clutter, low resolution, watermark"
+               }
+}

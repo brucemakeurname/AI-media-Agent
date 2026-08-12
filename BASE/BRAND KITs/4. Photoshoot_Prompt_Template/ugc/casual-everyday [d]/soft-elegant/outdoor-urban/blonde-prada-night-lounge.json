@@ -1,0 +1,27 @@
+{
+  "name": "blonde-prada-night-lounge",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "outdoor-urban", "night-lounge", "olive-slip-dress", "designer-bag"],
+  "image_type": "lifestyle-fashion-portrait",
+  "image_vibe": "polished-night-lounge",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/soft-elegant/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a polished UGC-style night lounge portrait of an approved adult blonde woman relaxing on an outdoor patio sofa.",
+    "main_subject": "An approved adult woman with shoulder-length blonde hair, fair skin, freckles, and a relaxed confident expression. She lounges leaning back with her right arm on the sofa back, wearing an olive-green slip dress with black straps, layered pearl and gold sun necklaces, and beaded bracelets. A black Prada nylon mini bag sits beside her.",
+    "composition_elements": "Square or 4:5 lifestyle portrait, subject reclining diagonally across beige outdoor sofa cushions, handbag visible in the lower foreground, potted tropical plants framing the patio, and warm string lights receding overhead. Keep the woman, dress, jewelry, bag, and sofa as the visual hierarchy.",
+    "lighting_and_atmosphere": "Dim warm ambient patio lighting with practical string-light highlights, soft shadows, natural skin texture, and a relaxed upscale night atmosphere.",
+    "technical_specs": "Photorealistic smartphone-style UGC capture, 4:5 or 1:1 crop, natural perspective, realistic fabric and leather texture, controlled warm highlights, moderate depth of field, subtle grain, no artificial HDR.",
+    "generated_prompt_string": "Create a polished photorealistic UGC-style night portrait of an approved adult blonde woman with fair skin, freckles, and shoulder-length softly waved hair lounging on a beige outdoor sofa. She leans back with her right arm resting on the sofa back and wears an olive-green slip dress with black straps, layered pearl and gold sun necklaces, and beaded bracelets. A black Prada nylon mini bag sits beside her in the foreground. The setting is an outdoor patio lounge at night with large potted tropical plants, beige sofa cushions, a wood ceiling, and warm string lights. Use dim warm ambient illumination, practical bulb highlights, soft natural shadows, realistic skin, fabric, jewelry, and leather texture, a relaxed upscale mood, natural perspective, and subtle photographic grain without HDR.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted face, blurry subject, counterfeit logo, altered brand mark, random text",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-blonde-lounge-subject", "required": true, "source": "blonde-prada-night-lounge.jpg", "usage": "Preserve the adult subject's face, hair, freckles, expression, and lounging pose."},
+        {"type": "wardrobe", "name": "olive-green-slip-dress-and-layered-jewelry", "required": true, "source": "blonde-prada-night-lounge.jpg", "usage": "Keep the olive dress, black straps, pearl/gold necklaces, and bracelets consistent; replace only with an explicit wardrobe reference."},
+        {"type": "product", "name": "black-prada-nylon-mini-bag", "required": true, "source": "blonde-prada-night-lounge.jpg", "usage": "Preserve the black Prada bag's shape, material, placement, and visible existing brand mark; do not invent or alter logos."},
+        {"type": "location", "name": "warm-patio-sofa-at-night", "required": true, "source": "blonde-prada-night-lounge.jpg", "usage": "Maintain the beige sofa, patio ceiling, potted plants, and string lights; replace only with an explicit location reference."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, product, and location references when exact consistency is required. Keep identity, adult status, outfit, bag/product details and existing logo treatment, pose, and environment consistent. Background plants and lighting may be replaced only with explicit alternatives; preserve identity, outfit, product, logo, environment, and typography in replacements."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and retained the source's fashion styling without sexualized framing.", "Added product-logo preservation and anti-distortion constraints."]}
+}

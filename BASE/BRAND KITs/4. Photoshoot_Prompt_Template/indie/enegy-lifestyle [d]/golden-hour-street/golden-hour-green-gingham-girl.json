@@ -1,0 +1,71 @@
+{
+  "name": "golden-hour-green-gingham-girl",
+  "tag": [
+    "green-gingham",
+    "golden-hour",
+    "urban-fashion",
+    "silver-handbag",
+    "tropical-plants"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "warm-playful-urban",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/golden-hour-street",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult and retained the reference green-gingham two-piece through neutral wardrobe language and directional golden-hour light."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "warm golden-hour urban fashion portrait with green gingham styling",
+      "color_palette": "green gingham, beige shutter, silver, red-and-white, warm gold, and tropical green",
+      "format": "vertical 2:3 three-quarter fashion portrait"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "Adult auburn-haired woman with a feminine silhouette posing outdoors against a beige metal shutter. She wears the green gingham coordinated two-piece matching the reference and carries the small metallic silver handbag shown.",
+      "style": "playful modern urban fashion editorial with natural skin texture"
+    },
+    "composition_elements": {
+      "text": "no text, logo, or watermark",
+      "items": [
+        "one hand resting naturally on a red-and-white striped pole",
+        "beige horizontal metal shutter as the graphic background",
+        "large tropical plant leaves at one edge of the frame",
+        "silver handbag providing a reflective accent against the green outfit"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft 4800K natural golden-hour sunlight",
+      "effect": "warm directional shadows, sunlight gently highlighting shoulders and chest area through the green gingham outfit, gentle highlights on hair and metallic bag, and relaxed city-evening energy"
+    },
+    "technical_specs": {
+      "camera": "Sony A7R V",
+      "lens": "FE 50mm f/1.4 at f/2",
+      "render_style": "natural skin texture, crisp gingham weave, shallow depth of field, warm editorial color"
+    },
+    "generated_prompt_string": "Create a vertical 2:3 urban fashion editorial of an adult auburn-haired woman with a feminine silhouette against a beige metal shutter at golden hour. Keep the green gingham coordinated two-piece and small metallic silver handbag matching the reference. Pose her with one hand resting naturally on a red-and-white striped pole, with large tropical plant leaves at the edge of the frame. Use soft 4800K golden-hour sunlight with warm directional shadows and light gently highlighting her shoulders and chest area through the green gingham outfit. Preserve natural skin texture, crisp gingham weave, shallow depth of field, and a playful modern city mood. No text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, sexualized pose, nudity, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity replacement is required.",
+          "usage": "Replace only the adult subject identity while retaining the auburn-hair direction, gingham wardrobe, shutter backdrop, pole, bag, and golden-hour composition."
+        },
+        {
+          "type": "wardrobe",
+          "name": "green-gingham-outfit-reference",
+          "required": false,
+          "source": "Attach a garment reference if exact gingham pattern or tailoring is required.",
+          "usage": "Replace only garment details while preserving the green gingham coordinated two-piece and silver-bag styling shown in the reference."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. References are optional; preserve the shutter, striped pole, silver bag, tropical leaves, green gingham two-piece, and golden-hour urban fashion direction."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "urban-concrete-thoughts",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "concrete", "menswear"],
+  "image_type": "concrete-ledge-menswear-portrait",
+  "image_vibe": "quiet-thoughtful-urban",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic wide urban portrait of an approved adult man seated thoughtfully on a concrete ledge.",
+    "main_subject": "An approved adult man wearing a dark sweater with a distinctive light graphic pattern, olive-green pants, and black sneakers. He sits centered on the ledge with hands clasped and looks to his right.",
+    "composition_elements": "Wide vertical shot with modern grey tiled apartment building, concrete ledge, walkway, and clear immediate background.",
+    "lighting_and_atmosphere": "Natural daylight with soft shadows, realistic knit, pants, skin, concrete, and building texture, calm introspective street mood.",
+    "technical_specs": "Photorealistic vertical environmental portrait, clear focus on subject and nearby background, natural color and proportions.",
+    "generated_prompt_string": "Create a photorealistic vertical wide environmental portrait of an approved adult man seated thoughtfully on a concrete ledge. He wears a dark graphic-pattern sweater, olive-green pants, and black sneakers, sits centered with hands clasped, and looks to his right. Place him against a modern grey tiled residential building and concrete walkway under natural daylight with soft shadows, realistic textures, and quiet urban mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted architecture",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-concrete-ledge-subject", "required": true, "source": "urban-concrete-thoughts.jpg", "usage": "Preserve adult identity, expression, seated pose, and clasped hands."}, {"type": "wardrobe", "name": "dark-patterned-sweater-olive-pants", "required": true, "source": "urban-concrete-thoughts.jpg", "usage": "Keep sweater pattern, pants, and shoes consistent; replace only with explicit references."}, {"type": "location", "name": "grey-tiled-concrete-building", "required": true, "source": "urban-concrete-thoughts.jpg", "usage": "Maintain ledge, building, walkway, daylight, and soft shadows; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced reference-image identity wording with approved-adult identity handling.", "Added safe negative prompts and structured references."]}
+}

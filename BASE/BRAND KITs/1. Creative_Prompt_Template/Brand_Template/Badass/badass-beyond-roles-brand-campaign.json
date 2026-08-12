@@ -1,0 +1,69 @@
+{
+  "name": "badass-beyond-roles-brand-campaign",
+  "tag": [
+    "brand campaign",
+    "beyond roles",
+    "actor ambassador",
+    "minimal poster",
+    "bridge backdrop",
+    "hero text"
+  ],
+  "biz_niche": "Generic/Universal Branding Template",
+  "content_format": "Brand story",
+  "group": "badass_1435570628435359",
+  "prompt": {
+    "project_info": {
+      "theme": "BADASS ambassador brand story poster",
+      "color_palette": "Sky blue, white, muted gray, deep blue"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A minimal brand campaign poster built around a pale blue sky background with a cable-stayed bridge, overlaid with oversized bilingual brand typography that reads as a campaign slogan. No person appears in frame; the focus is on message, skyline, and clean atmosphere.",
+      "style": "Minimal campaign poster, airy editorial branding, large-scale typography over lifestyle cityscape"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Typography",
+      "text": "BADASS | DIỄN VIÊN QUỐC TRƯỜNG, BEYOND ROLES",
+      "items": [
+        "Top Left: large white BADASS wordmark.",
+        "Top Right of the wordmark: vertical divider line followed by white text 'DIỄN VIÊN QUỐC TRƯỜNG'.",
+        "Center: oversized blue word 'BEYOND' layered above oversized white word 'ROLES'.",
+        "Background: pale blue sky with a cable-stayed bridge tower and diagonal bridge cables crossing the frame.",
+        "Lower Background: faint urban skyline and bridge base visible near the bottom edge."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft natural daylight",
+      "effect": "Airy haze, low-contrast skyline, clean campaign softness, spacious open-sky mood"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic cityscape branding poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "location",
+          "name": "cable-stayed bridge skyline",
+          "required": true,
+          "source": "source image background reference",
+          "usage": "Use to preserve the bridge tower shape, diagonal cable geometry, skyline placement, and open-sky composition."
+        },
+        {
+          "type": "text_layout",
+          "name": "BADASS | DIỄN VIÊN QUỐC TRƯỜNG / BEYOND ROLES typography",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Preserve exact wording, language mix, divider line, and the dominant scale relationship between 'BEYOND' and 'ROLES'."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the bridge geometry and exact typography placement.",
+        "Keep all visible text exactly as shown, especially the Vietnamese name line and the slogan 'BEYOND ROLES'.",
+        "Maintain a clean airy branding mood with no extra objects or people."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square brand campaign poster for BADASS. Use a pale blue sky and a photorealistic cable-stayed bridge cityscape as the background, with diagonal bridge cables crossing the frame and a faint skyline along the bottom. At the upper left place the white BADASS wordmark, followed by a vertical divider and the white text 'DIỄN VIÊN QUỐC TRƯỜNG'. In the center place huge blue text 'BEYOND' layered above huge white text 'ROLES'. Keep the layout minimal, airy, and message-led. Technical style: photorealistic cityscape branding poster, soft natural daylight, open-sky atmosphere, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, cluttered skyline, extra people, incorrect text, low resolution, distorted bridge cables, heavy fog, oversaturated colors, messy typography, watermark, signature"
+  }
+}

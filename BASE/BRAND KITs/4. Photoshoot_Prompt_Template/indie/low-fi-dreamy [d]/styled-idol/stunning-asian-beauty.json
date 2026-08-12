@@ -1,0 +1,76 @@
+{
+  "name": "stunning-asian-beauty",
+  "tag": [
+    "adult-woman",
+    "black-dress",
+    "over-shoulder-portrait",
+    "gradient-backdrop",
+    "vintage-optics",
+    "editorial-fashion"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "elegant, cinematic, vintage-sharp, quietly alluring",
+  "image_purpose": "editorial, campaign, moodboard, instagram-feed",
+  "group": "indie / low-fi-dreamy / styled-idol",
+  "prompt": {
+    "project_info": {
+      "theme": "Vintage-optics fashion portrait against a luminous gradient",
+      "format": "vertical three-quarter portrait",
+      "color_palette": "inky black, charcoal gray, muted amber, soft sage, warm skin tones"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult East Asian woman with long softly waved black hair, natural luminous skin, subtle warm makeup, and an elegant feminine silhouette. She wears a fitted black sleeveless dress and turns her head over one shoulder toward the camera with a quiet, self-possessed expression.",
+      "style": "crisp vintage fashion-editorial portrait"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "vertical three-quarter over-shoulder portrait",
+        "long dark hair falls over the back and shoulder with a few loose face-framing strands",
+        "fitted black sleeveless dress creates a clean uninterrupted silhouette",
+        "infinite gradient-lit background transitions from charcoal gray to muted warm amber and sage",
+        "the figure is set slightly right of center with generous negative space"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "large diffused key at approximately 4300K with a restrained warm rim light",
+      "effect": "crisp facial planes, subtle warm highlights on hair and shoulders, soft background glow, realistic shadows enhancing the dress silhouette",
+      "atmosphere": "elegant, poised, cinematic, and quietly alluring"
+    },
+    "technical_specs": {
+      "render_style": "28mm lens, Contax Zeiss-inspired vintage optics, crisp film sharpness, natural vignetting",
+      "resolution": "high-detail vertical fashion portrait",
+      "color_treatment": "rich controlled contrast, subtle warm highlights, gentle grain, natural skin texture"
+    },
+    "generated_prompt_string": "A vertical three-quarter fashion-editorial portrait of an adult East Asian woman with long softly waved black hair, natural luminous skin, subtle warm makeup, and an elegant feminine silhouette. She wears a fitted black sleeveless dress and turns her head over one shoulder toward the camera with a quiet, self-possessed expression. Keep a few loose face-framing strands and let her dark hair fall along her back and shoulder. Place her against an infinite gradient-lit background transitioning from charcoal gray to muted warm amber and soft sage, with generous negative space. Use a large diffused key at approximately 4300K plus a restrained warm rim light to create crisp facial planes, subtle warm highlights on hair and shoulders, a soft background glow, and realistic shadows enhancing the dress silhouette. Shoot on a 28mm lens with Contax Zeiss-inspired vintage optics: crisp film sharpness, rich controlled contrast, gentle grain, natural vignetting, and natural skin texture.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, explicit body measurements, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "The source moodboard is optional and should preserve the over-shoulder pose, long black hair, fitted black sleeveless dress, gradient backdrop, and vintage-optics lighting. An approved-adult face reference may be attached when identity consistency is needed; preserve that person's face, facial structure, and likeness. The background colors and wardrobe can be replaced while maintaining an elegant fitted-dress silhouette and cinematic vintage direction.",
+      "assets": [
+        {
+          "type": "moodboard",
+          "name": "black dress gradient portrait source",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1777180500587-q8hqe3mq-1777180504703-1.jpeg",
+          "usage": "Use for the pose, black dress silhouette, hair, gradient backdrop, and vintage editorial lighting."
+        },
+        {
+          "type": "person",
+          "name": "approved adult face and identity reference",
+          "required": false,
+          "source": "user-supplied approved reference",
+          "usage": "When supplied, preserve the adult person's face, facial structure, and likeness."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed the 20-year-old seductive/body-measurement wording to an explicitly adult fashion-editorial subject with an elegant feminine silhouette.",
+      "Preserved the fitted black dress, over-shoulder pose, long black hair, gradient background, and vintage optical treatment.",
+      "Used directional light and silhouette wording rather than explicit body emphasis."
+    ]
+  }
+}

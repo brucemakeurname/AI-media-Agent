@@ -1,0 +1,75 @@
+{
+    "name":  "ai-adoption-japanese-logic-diagram",
+    "tag":  [
+                "ai education",
+                "Japanese infographic",
+                "logic diagram",
+                "text-heavy",
+                "social advocacy"
+            ],
+    "biz_niche":  "Tech & Electronics",
+    "content_format":  "Infographics",
+    "group":  "infographic_ai_education",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Japanese-language argument for thoughtful AI adoption",
+                                        "color_palette":  "Navy, white, cyan, mint, coral orange, black, red accent"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Text and diagram",
+                                        "detail":  "A dense Japanese vertical infographic uses stacked claim cards, angry-comment speech bubbles, a computer-to-laptop and feature-phone-to-smartphone comparison flow, practical AI-use icons, and a concluding question.",
+                                        "style":  "Clear high-contrast editorial logic diagram with rounded white cards, bold Japanese typography, simple outline icons, and soft multicolor gradient bands"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Structured text blocks, icons, arrows, and speech bubbles",
+                                                "text":  "「AI＝悪者」だと思ってる人、まだ置いて行かれますよ。〜日本の将来を憂う声と、AIの本質的な価値〜; 問題の本質：AIが悪いのではなく、『AIの使い方』が良くない状況を是正しただけ; 冷静になって考えてみてください。歴史は繰り返す。; AIの活用はどんどん進化。ついていかなければ差がつく。; 私自身、AIなしの生活には戻れません。",
+                                                "items":  [
+                                                              "Top: large black Japanese headline on pale cyan, then navy criticism banner with red angry-face icons and quote bubbles.",
+                                                              "Upper Middle: white rounded card with crossed-out robot icon explaining the core issue.",
+                                                              "Middle: two left-to-right comparison rows, vintage computer to laptop and feature phone to smartphone, connected by white arrows on cyan-to-mint gradient.",
+                                                              "Lower Middle: orange gradient practical-AI section with notebook, magnifier, checklist, microphone, and brain icons.",
+                                                              "Bottom: bold concluding question and three rounded action chips on pale blue."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Flat digital editorial lighting",
+                                                   "effect":  "Clean print-like contrast, crisp white cards, strong legibility, no realistic shadows beyond subtle UI depth"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Vector infographic and editorial social graphic",
+                                           "resolution":  "4k resolution, highly detailed, 4:5 vertical format"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "text_layout",
+                                                                 "name":  "Japanese copy and information hierarchy",
+                                                                 "required":  true,
+                                                                 "source":  "source preview and approved Japanese copy deck",
+                                                                 "usage":  "Preserve exact Japanese wording, line breaks, hierarchy, and arrow logic; generated text must be proofread by a native editor."
+                                                             },
+                                                             {
+                                                                 "type":  "icon",
+                                                                 "name":  "technology and productivity icons",
+                                                                 "required":  true,
+                                                                 "source":  "approved icon set",
+                                                                 "usage":  "Keep a consistent outlined, friendly icon language."
+                                                             },
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "cyan-mint-coral band system",
+                                                                 "required":  true,
+                                                                 "source":  "source preview",
+                                                                 "usage":  "Retain the stacked color zones, rounded cards, and white connector arrows."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach a copy-approved Japanese layout reference; do not rely on image generation for final Japanese typesetting.",
+                                                                          "Preserve the argument sequence and contrast between hostile comments, historical comparisons, applications, and conclusion.",
+                                                                          "Use vector composition first, then place text with a professional layout tool."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Please create a clear diagram of the following text.",
+                   "negative_prompt":  "garbled Japanese text, changed argument order, unclear arrows, illegible cards, clutter, photorealistic scene, low contrast, watermark, signature"
+               }
+}

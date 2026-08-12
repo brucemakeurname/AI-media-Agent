@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-green-choice-large-size-combo45",
+  "tag": [
+    "combo-offer",
+    "large-size",
+    "green-choice",
+    "produce-props",
+    "refill",
+    "special-offer"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Special offers",
+  "group": "cocoon_2043813119548034",
+  "prompt": {
+    "project_info": {
+      "theme": "Large-size green choice combo sale with produce-styled set design",
+      "color_palette": "Leaf Green, Butter Yellow, Soft Pink, Dark Green, Natural Basket Brown, Tomato Red"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A vertical sale poster arranging multiple Cocoon products inside and around woven baskets of fresh vegetables, topped by bold text 'DUNG TÍCH LỚN LỰA CHỌN XANH' and a yellow offer bar reading 'COMBO 2 GIẢM 45%'.",
+      "style": "Styled commercial product photography, fresh-market eco aesthetic, lush produce-led merchandising"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'DUNG TÍCH LỚN LỰA CHỌN XANH' and 'COMBO 2 GIẢM 45%'. Product labels on Hau Giang lotus micellar water, Hau Giang lotus cleanser, pomelo shampoo refill, Dak Lak coffee body polish, and Hung Yen turmeric face mask remain visible.",
+      "items": [
+        "Top Left: Giant cream headline occupying the leafy green background.",
+        "Top Right: Yellow rectangular offer banner with dark green text 'COMBO 2 GIẢM 45%'.",
+        "Bottom Left: Large pink micellar water bottle leaning diagonally across greens, with tomatoes and cabbage leaves nearby.",
+        "Bottom Right: Dark green pomelo shampoo refill pouch, black coffee body polish pouch, and woven basket filled with beetroot and vegetables.",
+        "Center/Background: Pink lotus cleanser bottle, small turmeric mask jar, dense leafy vegetables, and produce styled like a fresh market display."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright styled daylight",
+      "effect": "Crisp fresh-produce highlights, natural-looking shadows, vibrant market freshness, clean retail energy"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity styled product photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a large-size green-choice combo sale. Centerpiece is a vertical arrangement of Cocoon products displayed among woven baskets and fresh vegetables, including lotus micellar water, lotus cleanser, pomelo shampoo refill, Dak Lak coffee body polish pouch, and Hung Yen turmeric face mask jar. Background is dense leafy greens. Surrounding elements: giant cream text 'DUNG TÍCH LỚN LỰA CHỌN XANH', a yellow banner 'COMBO 2 GIẢM 45%', tomatoes, beetroot, cabbage, and woven baskets framing the products. Keep the eco-market styling, visible label fidelity, and produce-heavy composition. Technical style: high fidelity styled product photography, bright styled daylight, crisp fresh-produce highlights and natural retail shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Large-size Cocoon assortment with refill pouch and mask jar",
+          "required": true,
+          "source": "Attach official packshots or the original image as assortment reference",
+          "usage": "Preserve the exact product lineup, package sizes, and label fronts."
+        },
+        {
+          "type": "background",
+          "name": "Vegetable basket set design",
+          "required": true,
+          "source": "Use the original image as prop-layout reference",
+          "usage": "Maintain the leafy green backdrop, basket positions, and specific produce styling."
+        },
+        {
+          "type": "text_layout",
+          "name": "Green choice sale headline and yellow bar",
+          "required": true,
+          "source": "Use the original creative as layout reference",
+          "usage": "Keep the exact headline, banner width, and top-heavy hierarchy."
+        }
+      ],
+      "prompt_instructions": "For gpt-image-2, provide the full original composition or strong crops so the dense vegetable merchandising and product arrangement stay faithful. The offer banner and headline should remain exactly positioned and legible."
+    }
+  }
+}

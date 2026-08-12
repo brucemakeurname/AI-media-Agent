@@ -1,0 +1,78 @@
+{
+  "name": "toyota-tnga-chassis-stability-corolla-cross",
+  "tag": [
+    "toyota",
+    "corolla-cross",
+    "tnga",
+    "chassis",
+    "product-demo"
+  ],
+  "biz_niche": "Automotive",
+  "content_format": "Product demos",
+  "group": "toyota_1018046320925731",
+  "prompt": {
+    "project_info": {
+      "theme": "TNGA chassis rigidity and journey stability",
+      "color_palette": "Sky Blue, Cyan Neon, Red, White, Urban Gray, Green"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A red Toyota Corolla Cross drives along a multilane roadway while the lower body becomes semi-transparent to reveal the chassis, suspension, and undercarriage structure highlighted with glowing cyan lines around all four wheels.",
+      "style": "Photoreal engineering-feature automotive poster combining realistic car photography with translucent technical cutaway visualization."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "TOYOTA\nKHUNG GAM TNGA\nVUNG TU CAU TRUC, ON DINH TREN HANH TRINH\nMove your world",
+      "items": [
+        "Top Left: White Toyota logo on blue sky.",
+        "Top Center: Cyan gradient headline bar 'KHUNG GAM TNGA' and large white subheadline 'VUNG TU CAU TRUC, ON DINH TREN HANH TRINH'.",
+        "Bottom Left: Road lanes and tree line moving past the vehicle.",
+        "Bottom Right: Handwritten white 'Move your world'.",
+        "Center/Background: Red Corolla Cross with transparent lower body exposing chassis and suspension hardware, blurred city skyline, and glowing cyan engineering outlines."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright daylight with technical visualization glow",
+      "effect": "Clean automotive daylight, subtle motion blur, translucent body effect, precise cyan edge lighting on undercarriage components, crisp engineering readability."
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic engineering-feature automotive poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Toyota TNGA chassis stability. Centerpiece is a red Toyota Corolla Cross driving on a city roadway with the lower body rendered semi-transparent to reveal chassis and suspension components, outlined with cyan glow around the wheels. Background is a bright urban skyline with roadside greenery. Surrounding elements: top headline 'KHUNG GAM TNGA', subheadline 'VUNG TU CAU TRUC, ON DINH TREN HANH TRINH', Toyota logo at top left, and handwritten 'Move your world' at bottom right. Technical style: photorealistic engineering-feature automotive poster, bright daylight with technical visualization glow, translucent body effect, precise cyan edge lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Toyota corporate logo white version",
+          "required": true,
+          "source": "brand asset / Toyota official logo",
+          "usage": "Place top left."
+        },
+        {
+          "type": "product",
+          "name": "Toyota Corolla Cross red exterior reference",
+          "required": true,
+          "source": "product reference image",
+          "usage": "Match front three-quarter stance and body proportions."
+        },
+        {
+          "type": "graphic",
+          "name": "TNGA chassis cutaway visualization",
+          "required": true,
+          "source": "current creative reference / engineering diagram",
+          "usage": "Reveal suspension and chassis below the doors while keeping upper body opaque."
+        },
+        {
+          "type": "text_layout",
+          "name": "TNGA engineering feature layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve exact top title/subtitle treatment."
+        }
+      ],
+      "prompt_instructions": "The undercarriage reveal must feel like a premium technical explainer, not a crude X-ray effect. Keep the upper body realistic and the chassis detail readable, with cyan glow used only to trace the engineering system and wheel connection points."
+    }
+  }
+}

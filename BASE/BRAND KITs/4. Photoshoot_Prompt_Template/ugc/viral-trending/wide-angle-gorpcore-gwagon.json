@@ -1,0 +1,27 @@
+{
+  "name": "wide-angle-gorpcore-gwagon",
+  "tag": ["ugc", "gorpcore", "wide-angle", "night-car", "streetwear-campaign"],
+  "image_type": "fashion-campaign-portrait",
+  "image_vibe": "raw-cinematic-analog",
+  "image_purpose": "campaign",
+  "group": "viral-trending",
+  "prompt": {
+    "project_info": "Create a candid cinematic fashion-campaign image for high-end streetwear with strong ultra-wide perspective and analog texture.",
+    "main_subject": "An adult man in his 20s seated beside a Mercedes G-Wagon, wearing Gorpcore-styled clothing and Nike Air Max trainers. Preserve the approved adult subject's face, outfit, and relaxed seated pose.",
+    "composition_elements": "Low-angle shot with pronounced ultra-wide barrel distortion and curved perspective, exaggerating frame edges and bending lines. Seat the subject on pavement beside the large dark vehicle, with the vehicle dominating the right side, field lighting behind, and deep blue twilight sky.",
+    "lighting_and_atmosphere": "Harsh handheld flash casts raw shadows and emphasizes fabric, vehicle, and pavement texture. Scattered field lights, candid cinematic grain, slight motion blur, imperfect lighting, warm analog tone shifts.",
+    "technical_specs": "Ultra-wide lens, strong barrel distortion, low angle, Kodak Portra 800 look, handheld, f/2.0, grainy film texture, slight motion blur, imperfect exposure, natural warm analog color shifts.",
+    "generated_prompt_string": "Low-angle candid fashion campaign image for a high-end streetwear brand: an adult man in his 20s sits next to a Mercedes G-Wagon, wearing Gorpcore-styled clothing and Nike Air Max trainers. Use an ultra-wide lens creating strong barrel distortion and curved perspective, exaggerating the frame edges with dramatic bending and warped lines. Harsh handheld flash casts raw shadows and emphasizes texture. The background fades into deep blue twilight with scattered field lighting. Candid cinematic grainy film texture, slight motion blur, imperfect lighting, warm analog tone shifts, experimental Gorpcore fashion, Kodak Portra 800 look, handheld, f/2.0.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, identity drift, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, flat perspective, blurry, low quality, distorted anatomy, extra limbs, extra fingers, deformed, invented logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved adult Gorpcore subject", "required": true, "source": "matching local preview image and optional face reference", "usage": "Preserve approved adult face, hair, clothing, seated pose, and relaxed expression; replaceable with another approved adult."},
+        {"type": "product", "name": "Mercedes G-Wagon", "required": true, "source": "matching local preview image", "usage": "Preserve the vehicle silhouette, dark finish, wheel, scale, and relationship to subject; replaceable with an equivalent rugged premium vehicle only when needed."},
+        {"type": "wardrobe", "name": "Gorpcore clothing and Nike Air Max trainers", "required": true, "source": "matching local preview image", "usage": "Preserve technical streetwear layering, neutral palette, footwear silhouette, and texture; existing brand marks may remain only as shown, never invented."},
+        {"type": "location", "name": "twilight field with scattered lights", "required": true, "source": "matching local preview image", "usage": "Preserve pavement, field lights, blue twilight, and analog night atmosphere; replaceable with an equivalent outdoor setting."}
+      ],
+      "prompt_instructions": "Attach the matching preview to lock adult identity, vehicle, outfit, perspective, and twilight environment. Preserve face, clothing, vehicle, ultra-wide distortion, flash, and film treatment. Any replacement must be equivalent; do not add or redesign logos or typography beyond marks already present in the reference."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

@@ -1,0 +1,71 @@
+{
+  "name": "vfe-da-nang-first-stop-event-august-1-2026",
+  "tag": [
+    "vfe",
+    "da-nang",
+    "event-stop",
+    "august-2026",
+    "special-offer"
+  ],
+  "biz_niche": "Travel & Hospitality",
+  "content_format": "Special offers",
+  "group": "vfe_1825423255101486",
+  "prompt": {
+    "project_info": {
+      "theme": "First stop event announcement for VFE France study 2027 roadshow",
+      "color_palette": "White, Navy Blue, Red, Sunset Gold, River Blue"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A city-event poster announcing Đà Nẵng as the first stop of the VFE Du học Pháp 2027 event series, with a red map pin icon, event time and venue cards, and a wide sunset photograph of the Dragon Bridge across the lower half.",
+      "style": "City stop campaign poster with strong route branding, clear logistical information, and polished travel-photo integration."
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "Chuỗi sự kiện\nDU HỌC PHÁP 2027\nĐúng lộ trình\nTrúng mục tiêu\nTRẠM DỪNG ĐẦU TIÊN\nĐÀ NẴNG\nĐịnh hướng đúng\nChọn lộ trình chuẩn\nGặp gỡ trực tiếp chuyên gia\n8h30 - 12h00\nThứ Bảy, ngày 01/08/2026\nKhách sạn Parosand\n216 Võ Nguyên Giáp,\nP. An Hải, TP. Đà Nẵng\nĐĂNG KÝ NGAY\nVFE VIETNAM FRANCE EXCHANGE",
+      "items": [
+        "Top Left: Small event-series logo block 'Chuỗi sự kiện DU HỌC PHÁP 2027' with tagline.",
+        "Top Right: VFE logo and two stacked rounded info cards for time/date and venue/address.",
+        "Bottom Left: Large red CTA button 'ĐĂNG KÝ NGAY >>>'.",
+        "Bottom Right: Wide panoramic sunset photo of the Dragon Bridge over the river.",
+        "Center/Background: White textured top half with big headline 'TRẠM DỪNG ĐẦU TIÊN ĐÀ NẴNG', red location pin, and bullet benefits."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright campaign-poster lighting with sunset city photo",
+      "effect": "Clean white poster contrast, vivid red location pin, and warm golden-hour scenic depth in the lower photo."
+    },
+    "technical_specs": {
+      "render_style": "Photo-integrated event stop campaign poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality city-stop campaign poster for the VFE Du học Pháp 2027 roadshow. Centerpiece is a bold white poster layout announcing 'TRẠM DỪNG ĐẦU TIÊN ĐÀ NẴNG' with a red map pin and two rounded info cards showing time and venue. Background includes a warm sunset panoramic photo of the Dragon Bridge across the lower half. Surrounding elements: event-series mark 'Chuỗi sự kiện DU HỌC PHÁP 2027', bullet benefits, VFE logo, and red CTA 'ĐĂNG KÝ NGAY'. Technical style: photo-integrated event stop campaign poster, bright clean readability with scenic sunset integration, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "VFE Vietnam France Exchange logo",
+          "required": true,
+          "source": "official VFE logo asset",
+          "usage": "Place at top right."
+        },
+        {
+          "type": "location",
+          "name": "Da Nang Dragon Bridge sunset photo",
+          "required": true,
+          "source": "city landmark photo reference",
+          "usage": "Use as the wide lower-half city image."
+        },
+        {
+          "type": "text_layout",
+          "name": "Da Nang stop event poster layout",
+          "required": true,
+          "source": "current creative reference",
+          "usage": "Preserve the headline, time/venue cards, bullet list, and CTA placement."
+        }
+      ],
+      "prompt_instructions": "The date '01/08/2026' is in the future relative to Friday, July 17, 2026, so preserve it as an upcoming event date. Keep the Dragon Bridge identifiable and the logistics information exact."
+    }
+  }
+}

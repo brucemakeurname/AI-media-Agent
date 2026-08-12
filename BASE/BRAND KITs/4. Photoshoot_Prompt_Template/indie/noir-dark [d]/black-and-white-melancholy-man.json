@@ -1,0 +1,73 @@
+{
+  "name": "black-and-white-melancholy-man",
+  "tag": [
+    "adult-man",
+    "black-and-white",
+    "melancholy",
+    "black-wool-sweater",
+    "watch-detail"
+  ],
+  "image_type": "monochrome-emotive-portrait",
+  "image_vibe": "somber-dramatic-noir",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult and converted the facial-preservation instruction into a required approved adult identity reference while retaining the melancholic pose, watch detail, and monochrome lighting."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "melancholic black-and-white portrait with understated watch styling",
+      "color_palette": "deep black, white, charcoal, and silver-gray highlights",
+      "aspect_ratio": "3:4"
+    },
+    "main_subject": {
+      "description": "A handsome adult man matching the required approved adult non-public-figure identity reference, with naturally textured dark hair, light facial stubble, and a contemplative expression.",
+      "wardrobe": "Dark black wool sweater with a matte knit texture and a simple sporty rubberized watch with a dark bezel and hands.",
+      "pose": "Upper-body portrait at a narrow 30-degree angle; he looks down while resting one hand gently over his chest near the heart."
+    },
+    "composition_elements": {
+      "framing": "Vertical upper-body portrait with the face, hand, sweater texture, and watch clearly visible.",
+      "environment": "Seamless deep-black studio background with no text or logos.",
+      "focus": "Sharp facial structure, hand anatomy, wool fibers, and watch details with a soft falloff into the background."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Very soft, subdued side light with restrained highlights on the face and hand and deep controlled shadows.",
+      "atmosphere": "Quiet, introspective, dramatic, and emotionally restrained."
+    },
+    "technical_specs": {
+      "camera": "Full-frame high-definition camera, 85mm portrait lens at f/3.2, 1/125 s, ISO 400",
+      "quality": "Photorealistic monochrome finish, subtle grain, realistic skin and hair texture, clean watch detail, and natural proportions"
+    },
+    "generated_prompt_string": "Create a professional 3:4 black-and-white portrait of a handsome adult man matching the required approved adult non-public-figure identity reference. He has naturally textured dark hair, light facial stubble, and a contemplative expression. He wears a dark black wool sweater and a simple sporty rubberized watch with a dark bezel and hands. Frame his upper body at a narrow 30-degree angle as he looks down and rests one hand gently over his chest near the heart. Use very soft subdued side light, a deep-black studio background, restrained highlights, controlled shadows, realistic wool and skin texture, subtle monochrome grain, and no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, celebrity likeness, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "The required approved adult identity reference must be attached and used only to preserve adult facial identity and facial structure. Optional wardrobe or watch references may replace only their named element; preserve the contemplative hand-to-chest pose, monochrome treatment, and subdued light.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Preserve the adult subject's facial identity and structure only; do not imitate a celebrity or blend faces."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-wool-sweater-and-sport-watch",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the sweater knit and watch styling without adding branding."
+        },
+        {
+          "type": "location",
+          "name": "deep-black-studio-background",
+          "required": false,
+          "source": "user-uploaded studio reference",
+          "usage": "Replace only the seamless dark background and preserve the subdued monochrome lighting."
+        }
+      ]
+    }
+  }
+}

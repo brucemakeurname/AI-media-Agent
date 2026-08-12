@@ -1,0 +1,19 @@
+{
+  "name": "navy-suit-businesswoman",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "businesswear", "navy"],
+  "image_type": "businesswear full-body portrait",
+  "image_vibe": "confident, cinematic, authoritative, polished",
+  "image_purpose": "professional profile and fashion campaign",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic full-body portrait of one original approved adult businesswoman in a deep navy suit against a monochromatic navy studio background.",
+    "main_subject": "Original approved adult woman with a calm professional smile, natural skin texture and polished shoulder-length dark hair. She wears a deep navy slim-fit suit, crisp white shirt, patterned tie and black dress shoes, standing with hands in pockets.",
+    "composition_elements": ["Full-body centered portrait with upright professional stance and feet clearly visible.", "Smooth monochromatic navy background with clean negative space.", "Preserve suit tailoring, white shirt, tie pattern, shoes, relaxed hands and executive presence."],
+    "lighting_and_atmosphere": "Soft cinematic side light with controlled dramatic shadows, subtle rim separation and refined navy tonal contrast.",
+    "technical_specs": "Photorealistic 4:5 full-body portrait, 35mm lens at f/5.6, wide-angle editorial framing without distortion, realistic suit weave, skin and shoe texture, subtle grain, no text or watermark.",
+    "generated_prompt_string": "Photorealistic full-body portrait of one original approved adult businesswoman with natural skin texture and polished shoulder-length dark hair. She stands confidently with hands in pockets wearing a deep navy slim-fit suit, crisp white shirt, patterned tie and black dress shoes against a smooth monochromatic navy background. Use soft cinematic side lighting, dramatic but controlled shadows, subtle rim separation, 35mm lens at f/5.6, 4:5 framing, no text or watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "distorted body", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "extra fingers", "deformed", "text", "logo"],
+    "reference_elements": {"assets": [{"type": "person", "name": "navy-suit-businesswoman.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult face, hair, expression, pose and professional styling."}, {"type": "wardrobe", "name": "deep navy suit, white shirt, patterned tie and black shoes", "required": true, "source": "local reference image", "usage": "Preserve supplied tailoring, colors, tie pattern and footwear."}, {"type": "background", "name": "monochromatic navy studio background", "required": true, "source": "local reference image", "usage": "Preserve background tone, shadows, separation and negative space."}], "prompt_instructions": "Attach all required person, wardrobe and background references; no optional assets are needed. Keep approved-adult identity, outfit, pose, environment, lighting and typography consistent. Replace only with an equivalent approved adult, supplied wardrobe or studio. Typography is not applicable; do not add text, logos or watermark."}
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

@@ -1,0 +1,46 @@
+# Asset Descriptions
+
+One line per file. Read this instead of opening every image individually.
+
+- favicon.png — 187KB, The image displays a blue logo shaped like the letter "S" set against a plain, light background.
+- image.jpg — 396KB, This dark-themed website interface displays a dashboard of AI-related online courses featuring neon green accents and buttons.
+- og-image.jpg — 431KB, This image features the neon-green title "SOLO FLOWS" and marketing text against a dark background, surrounded by 3D digital figures and smartphones displaying social media content.
+- facebook.svg — 0KB, "Facebook", above fold
+- image-25.svg — 0KB, "Bruce", section: "Tăng Doanh Thu với AI Influencer — Nhanh Hơn, Rẻ Hơn", above fold
+- instagram.svg — 2KB, "Instagram", above fold
+- linkedin.svg — 0KB, "LinkedIn", above fold
+- logo-dark.svg — 67KB, "Solo Flows", section: "Product", above fold
+- logo-light.svg — 67KB, "Solo Flows", section: "Product", above fold
+- youtube.svg — 0KB, "YouTube", above fold
+- svgs/lucide-arrow-right.svg — icon: lucide-arrow-right
+- svgs/lucide-bot.svg — icon: lucide-bot
+- svgs/lucide-clock.svg — icon: lucide-clock
+- svgs/lucide-coins.svg — icon: lucide-coins
+- svgs/lucide-dollar-sign.svg — icon: lucide-dollar-sign
+- svgs/lucide-dumbbell.svg — icon: lucide-dumbbell
+- svgs/lucide-ghost.svg — icon: lucide-ghost
+- svgs/lucide-globe.svg — icon: lucide-globe
+- svgs/lucide-instagram.svg — icon: lucide-instagram
+- svgs/lucide-mail.svg — icon: lucide-mail
+- svgs/lucide-moon.svg — icon: lucide-moon
+- svgs/lucide-music.svg — icon: lucide-music
+- svgs/lucide-search.svg — icon: lucide-search
+- svgs/lucide-shield.svg — icon: lucide-shield
+- svgs/lucide-shopping-bag.svg — icon: lucide-shopping-bag
+- svgs/lucide-sparkles.svg — icon: lucide-sparkles
+- svgs/lucide-trending-up.svg — icon: lucide-trending-up
+- svgs/lucide-triangle-alert.svg — icon: lucide-triangle-alert
+- svgs/lucide-users.svg — icon: lucide-users
+- svgs/lucide-zap.svg — icon: lucide-zap
+- fonts/0aa834ed78bf6d07-s.woff2 — font file
+- fonts/19cfc7226ec3afaa-s.woff2 — font file
+- fonts/21350d82a1f187e9-s.woff2 — font file
+- fonts/67957d42bae0796d-s.woff2 — font file
+- fonts/886030b0b59bc5a7-s.woff2 — font file
+- fonts/8e9860b6e62d6359-s.woff2 — font file
+- fonts/939c4f875ee75fbb-s.woff2 — font file
+- fonts/ba9851c3c22cd980-s.woff2 — font file
+- fonts/bb3ef058b751a6ad-s.p.woff2 — font file
+- fonts/c5fe6dc8356a8c31-s.woff2 — font file
+- fonts/df0a9ae256c0569c-s.p.woff2 — font file
+- fonts/f911b923c6adde36-s.woff2 — font file

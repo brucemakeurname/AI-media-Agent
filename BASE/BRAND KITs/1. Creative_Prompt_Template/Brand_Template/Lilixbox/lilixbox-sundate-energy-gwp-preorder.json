@@ -1,0 +1,72 @@
+{
+  "name": "lilixbox-sundate-energy-gwp-preorder",
+  "tag": [
+    "gwp",
+    "gift-with-purchase",
+    "preorder",
+    "summer-kit",
+    "luxury-beauty",
+    "lixibox"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "lilixbox_1301017232238676",
+  "prompt": {
+    "project_info": {
+      "theme": "Summer luxury gift-with-purchase campaign",
+      "color_palette": "Sunlit Gold, Aqua Blue, White, Orange, Coral, Black"
+    },
+    "main_subject": {
+      "type": "Product/Object",
+      "detail": "A sun-drenched summer gifting poster showing an open LIXIBOX 'Sundate Energy' gift box overflowing with luxury beauty items, an orange-and-white cap, mesh tote, and seaside accessories, promoting a free GWP worth 6.9 million for high-value orders.",
+      "style": "Premium summer-campaign still life, resort gifting aesthetic, luxury e-commerce editorial poster"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'LIXIBOX | GWP', 'Sundate Energy', 'Take it slow, let your skin glow', 'Tặng hộp quà trị giá 6.900.000đ cho đơn hàng từ 5.000.000đ', 'Nhập mã SUNDATE', 'ĐẶT TRƯỚC NGAY', 'FREE GWP TRỊ GIÁ 6,9TRIỆU', and 'ĐẶT TRƯỚC NHẬN THÊM'.",
+      "items": [
+        "Top Left: Campaign headline cluster over a shimmering pool-water background, with promo-copy box and orange coupon strip 'SUNDATE'.",
+        "Top Right: Open branded LIXIBOX gift box lid and printed 'Sundate Energy' insert card.",
+        "Bottom Left: Black circular badge 'FREE GWP TRỊ GIÁ 6,9TRIỆU' and a small pink bonus product callout near 'ĐẶT TRƯỚC NHẬN THÊM'.",
+        "Bottom Right: Dense assortment of beauty products and summer accessories including NUXE oils, mesh tote, cap, perfume or body mist, ribboned packaging, and a CoBa's Daughter jar.",
+        "Center/Background: Sunlit pool reflections, white-and-blue striped towel surface, and a warm golden summer glow."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright resort sunlight",
+      "effect": "Water reflections, summery sparkle, luxury gifting warmth, glossy premium product highlights"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity luxury campaign still-life photography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a luxury summer gift-with-purchase campaign. Centerpiece is an open LIXIBOX 'Sundate Energy' gift box spilling out premium beauty products and summer accessories on a striped towel by a shimmering pool. Background is golden pool-light reflections. Surrounding elements: headline 'LIXIBOX | GWP Sundate Energy', line 'Take it slow, let your skin glow', promo copy 'Tặng hộp quà trị giá 6.900.000đ cho đơn hàng từ 5.000.000đ', coupon strip 'Nhập mã SUNDATE', CTA 'ĐẶT TRƯỚC NGAY', black badge 'FREE GWP TRỊ GIÁ 6,9TRIỆU', and extra preorder bonus text. Keep the rich product assortment, open gift-box staging, and radiant resort mood. Technical style: high fidelity luxury campaign still-life photography, bright resort sunlight, water reflections and glossy premium highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Sundate Energy gift assortment",
+          "required": true,
+          "source": "Attach the original poster or multiple product crops from it",
+          "usage": "Preserve the product mix, accessory arrangement, and luxury summer assortment density."
+        },
+        {
+          "type": "background",
+          "name": "Pool-reflection resort setup",
+          "required": true,
+          "source": "Use the original image as environment reference",
+          "usage": "Maintain the pool-water reflection background, striped towel, and sunny resort atmosphere."
+        },
+        {
+          "type": "text_layout",
+          "name": "Sundate Energy campaign typography and coupon box",
+          "required": true,
+          "source": "Use the original poster as text reference",
+          "usage": "Keep the headline, the 6.900.000đ and 5.000.000đ values, the SUNDATE code strip, and CTA placements."
+        }
+      ],
+      "prompt_instructions": "When recreating with gpt-image-2, attach the original campaign image so the exact luxury assortment and summer pool layout stay intact. Do not simplify the number of items or alter the high-value GWP copy."
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "techcombank-contractor-capability-credit-guarantee",
+  "tag": [
+    "contractor",
+    "construction",
+    "guarantee",
+    "business-banking"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Case studies",
+  "group": "techcombank_1774832650179360",
+  "prompt": {
+    "project_info": {
+      "theme": "Techcombank business banking support for contractors",
+      "color_palette": "Sky blue, warm beige, red, orange safety-vest tones, gray"
+    },
+    "main_subject": {
+      "type": "Person/Text",
+      "detail": "An illustrated corporate poster featuring a smiling construction engineer in a yellow hard hat and orange safety vest shaking hands with a smiling businessman in a gray suit and red tie. Above them, the large headline reads 'Bao chung nang luc Nha thau chinh phuc dai du an' with the line 'Cung Techcombank Kien tao Viet Nam moi'. Behind them is a stylized city skyline with cranes and modern buildings. A curved white information ribbon in front displays 'Han muc tin dung 80 Ty', 'Bao lanh trong 1 Gio', and 'Ty le ky quy bao lanh chi tu 0%'. Bottom-left branding says 'VUOT TROI MOI NGAY'.",
+      "style": "Clean corporate illustration with optimistic business partnership storytelling and infographic benefit ribbon"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TECHCOMBANK / Bao chung nang luc Nha thau chinh phuc dai du an / Cung Techcombank Kien tao Viet Nam moi / Han muc tin dung 80 Ty / Bao lanh trong 1 Gio / Ty le ky quy bao lanh chi tu 0% / VUOT TROI MOI NGAY",
+      "items": [
+        "Top Left: Pale city tower silhouettes under the headline block",
+        "Top Right: Techcombank wordmark and red logo",
+        "Bottom Left: 'VUOT TROI MOI NGAY' lockup",
+        "Bottom Right: Curved benefit ribbon ending with the '0%' guarantee-rate message",
+        "Center/Background: Illustrated engineer and businessman shaking hands in front of cranes and a modern skyline"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright illustrative business lighting",
+      "effect": "Soft sunrise glow, clean vector-like shading, friendly professional tone, warm partnership emphasis"
+    },
+    "technical_specs": {
+      "render_style": "Polished editorial vector illustration for business banking promotion",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Techcombank business banking solution for contractors. Centerpiece is an illustrated handshake between a construction engineer in safety gear and a businessman in a suit. Background is a stylized modern city with cranes and landmark towers under a soft sunrise glow. Surrounding elements: Techcombank logo, exact headline 'Bao chung nang luc Nha thau chinh phuc dai du an', supporting line 'Cung Techcombank Kien tao Viet Nam moi', and a curved white benefit ribbon reading 'Han muc tin dung 80 Ty', 'Bao lanh trong 1 Gio', and 'Ty le ky quy bao lanh chi tu 0%'. Technical style: polished editorial vector illustration for business banking promotion, bright illustrative business lighting, clean shading and warm partnership tone, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "graphic",
+          "name": "Illustrated contractor and businessman characters",
+          "required": true,
+          "source": "this creative or source illustration set",
+          "usage": "Keep the handshake pose, attire, and clean commercial illustration style"
+        },
+        {
+          "type": "background",
+          "name": "Construction skyline and cranes illustration",
+          "required": true,
+          "source": "campaign background art",
+          "usage": "Maintain the Vietnam-building narrative behind the handshake"
+        },
+        {
+          "type": "text_layout",
+          "name": "Contractor banking infographic layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the headline stack and the curved three-metric ribbon"
+        }
+      ],
+      "prompt_instructions": "This creative is illustrated, not photoreal. Keep the benefit figures exactly: '80 Ty', '1 Gio', and '0%'."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "campaign_slug": "pvl-iso-gold-singlish-drama",
+  "status": "review_required",
+  "target_market": "Singapore (SGD)",
+  "language": "en-SG",
+  "created_at": "2026-08-10",
+  "voice_reference": {
+    "audio": "BASE/BRAND KITs/voice/voice_1_.WAV",
+    "transcript": "BASE/BRAND KITs/voice/transcript_voice_1_male.srt",
+    "tts_model": "F5TTS_v1_Base"
+  },
+  "script": {
+    "file": "BASE/CAMPAIGNs/archived/pvl-iso-gold-singlish-drama/script.md",
+    "claim_status": "claim-safe draft; product-owner and compliance review required before publishing"
+  },
+  "outputs": [
+    {
+      "version": "v1",
+      "file": "BASE/CAMPAIGNs/archived/pvl-iso-gold-singlish-drama/images/pvl-iso-gold-singlish-drama-v1.wav",
+      "format": "WAV PCM_16",
+      "duration_seconds": 27.967,
+      "sample_rate": 24000,
+      "sha256": "fee9160758fa5f41c06a9297bbede210e3832ce7b1ac9445f213ebb113677ff3"
+    },
+    {
+      "version": "v1-mp3",
+      "file": "BASE/CAMPAIGNs/archived/pvl-iso-gold-singlish-drama/images/pvl-iso-gold-singlish-drama-v1.mp3",
+      "format": "MP3",
+      "duration_seconds": 28.032,
+      "sample_rate": 24000,
+      "bitrate_kbps": 128,
+      "sha256": "7c89d42700883dc4ab24bb94ba0cc3f78c51458b3564930840de24b739150103"
+    }
+  ],
+  "verification": {
+    "checked": true,
+    "source_unmodified": true,
+    "claim_review_required": true,
+    "voice_likeness_review_required": true
+  }
+}

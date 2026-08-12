@@ -1,0 +1,37 @@
+{
+  "name": "neon-arcade-red-blonde-girl",
+  "tag": ["arcade", "red-outfit", "pink-neon", "blonde"],
+  "image_type": "UGC arcade portrait",
+  "image_vibe": "joyful, vibrant, candid, playful",
+  "image_purpose": "Arcade entertainment and nightlife social content",
+  "group": "ugc/lifestyle-moment/night-out/public-indoor",
+  "prompt": {
+    "project_info": "Create a joyful indoor arcade portrait of an adult blonde woman riding a pink motorcycle game.",
+    "main_subject": "One generic approved adult blonde woman with long wavy hair and a radiant wide smile, seated safely on a pink arcade motorcycle game with hands on the handlebars and body angled in profile toward the camera. She wears a bright red knit bandeau-style crop top with secure coverage, matching comfortable red shorts and a generic waistband without readable brand text.",
+    "composition_elements": "Vertical medium portrait with the pink SUPER BIKES-style cabinet dominant. Include blurred arcade machines, a generic Fly O'Clock-style neon sign with no readable text, pink LED strips, cool blue ambient light and deep shadows. Avoid rear/body-part close-up.",
+    "lighting_and_atmosphere": "Vibrant high-contrast arcade lighting with pink neon strips and cool blue ambient glow, crisp face focus, colorful playful atmosphere.",
+    "technical_specs": "Photorealistic vertical arcade portrait, full-frame camera with 35mm lens, bright environmental light, shallow background depth, realistic knit, plastic and metal surfaces, subtle digital grain, no watermark.",
+    "generated_prompt_string": "Photorealistic vertical arcade lifestyle portrait of one generic approved adult blonde woman with long wavy hair and a radiant joyful wide smile, seated safely on a pink arcade motorcycle game with hands on the handlebars and body angled in profile toward the camera. She wears a bright red knit bandeau-style crop top with secure coverage, matching comfortable red shorts and a generic waistband without readable brand text. A bright pink arcade racing cabinet, blurred machines, a generic neon sign with no readable text, pink LED strips, cool blue ambient light and deep shadows fill the indoor arcade. Vibrant playful mood, crisp face focus, realistic materials and natural anatomy, no rear or body-part close-up, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, rear emphasis, body-part close-up, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, unsafe riding pose, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "neon-arcade-red-blonde-girl reference",
+          "required": true,
+          "source": "Attach the provided reference image",
+          "usage": "Match the adult subject's blonde hair, red outfit, joyful expression, pink arcade motorcycle, neon lighting and composition while keeping identity and details replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the bright red outfit direction, pink arcade machine, hands-on-handlebars pose, smile, neon palette and playful setting. Keep person, outfit details, machine branding, screens and environment replaceable; remove readable brand text and avoid rear/body emphasis."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed tight-short/rear emphasis and specified comfortable shorts with secure coverage.",
+      "Changed branded waistband to a generic waistband without readable text.",
+      "Preserved the red outfit, pink arcade motorcycle, neon palette and joyful concept."
+    ]
+  }
+}

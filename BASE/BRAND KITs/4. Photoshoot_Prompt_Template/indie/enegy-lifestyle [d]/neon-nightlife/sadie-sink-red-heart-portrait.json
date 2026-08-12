@@ -1,0 +1,66 @@
+{
+  "name": "sadie-sink-red-heart-portrait",
+  "tag": [
+    "adult-woman",
+    "red-evening-top",
+    "heart-gesture",
+    "restaurant-flash",
+    "warm-bokeh"
+  ],
+  "image_type": "restaurant-flash-portrait",
+  "image_vibe": "warm-playful-upscale",
+  "image_purpose": "social-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "source_url": "https://x.com/Flora_Janer8/status/2020405998335197369",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed the celebrity likeness and replaced the low-cut sweetheart styling with a covered red puff-sleeve blouse, preserving the adult restaurant heart-gesture flash portrait."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult red-heart restaurant flash portrait",
+      "color_palette": "red, warm gold, black, dark wood, and luminous skin tones",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An original adult woman with softly swept-back auburn hair, a gentle smile, and naturally luminous skin; she must not resemble a real public figure.",
+      "wardrobe": "Solid red puff-sleeve blouse with a high square neckline and minimal unbranded jewelry.",
+      "pose": "Seated at an upscale restaurant table, looking at camera and making a heart shape with both hands at chest height."
+    },
+    "composition_elements": {
+      "framing": "Tight vertical face-and-hands portrait.",
+      "environment": "Dim upscale restaurant with abstract blurred chandeliers, warm tableside lights, and no readable menus or signage."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Direct camera flash with sharp face focus balanced by warm chandelier bokeh.",
+      "atmosphere": "Warm, friendly, candid, and polished."
+    },
+    "technical_specs": {
+      "render_style": "high-detail photoreal direct-flash portrait",
+      "quality": "natural pores, crisp hands, realistic fabric, cinematic background separation"
+    },
+    "generated_prompt_string": "Create a hyper-realistic 4:5 direct-flash portrait of an original adult woman who does not resemble a public figure. She has softly swept-back auburn hair, a gentle smile, natural luminous skin, and wears a solid red puff-sleeve blouse with a high square neckline and minimal unbranded jewelry. Seat her at an upscale dim restaurant table, looking at the camera and making a heart shape with both hands at chest height. Frame face and hands tightly, use sharp direct flash, warm chandelier bokeh, blurred tableside lights, realistic pores and fabric, and no readable menus, signs, logos, or text.",
+    "negative_prompt": "celebrity likeness, Sadie Sink, minor, low-cut neckline, nudity, explicit, nsfw, overly revealing clothing, readable menu, logo, watermark, distorted hands, extra fingers, plastic skin",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use them only to replace blouse color, chandelier bokeh, or hand-gesture framing; do not copy a real identity.",
+      "assets": [
+        {
+          "type": "wardrobe_reference",
+          "name": "covered-red-evening-blouse",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace adult subject's red blouse silhouette and fabric."
+        },
+        {
+          "type": "environment_reference",
+          "name": "warm-upscale-restaurant-bokeh",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace restaurant lighting, tables, and chandelier bokeh."
+        }
+      ]
+    }
+  }
+}

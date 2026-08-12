@@ -1,0 +1,27 @@
+{
+  "name": "brutalist-space-post-workout-candid",
+  "tag": ["ugc", "casual-everyday", "sporty-active", "public-indoor", "brutalist", "post-workout"],
+  "image_type": "post-workout-lifestyle-portrait",
+  "image_vibe": "quiet-luxury-brutalist",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/sporty-active/public-indoor",
+  "prompt": {
+    "project_info": "Create a candid post-workout portrait of an approved adult woman resting in a high-end minimalist brutalist wellness space.",
+    "main_subject": "An approved adult woman with a slicked-back high ponytail and composed, slightly tired expression looking toward a window. She wears a charcoal-grey athletic set with a sports bra and high-waisted leggings, with an oversized cardigan draped off one shoulder. A stainless-steel water bottle rests nearby and she holds a smartphone.",
+    "composition_elements": "Vertical 9:16 eye-level medium shot, subject seated on a polished concrete floor against textured raw concrete beside a large Monstera plant. Show the scale of floor-to-ceiling industrial windows and architecture.",
+    "lighting_and_atmosphere": "Natural light through large industrial windows creates long defined shadows and subtle dust in the rays. Quiet luxury, raw concrete texture, and realistic post-workout glow.",
+    "technical_specs": "Photorealistic high detail, 9:16 vertical framing, sharp subject with slightly softer architecture, realistic skin, fabric, metal, plant, and concrete texture.",
+    "generated_prompt_string": "Create a candid photorealistic 9:16 post-workout portrait of an approved adult woman with a slicked-back high ponytail seated on a polished concrete floor in a high-end minimalist brutalist wellness space. She looks toward a window with a composed, slightly tired expression, wearing a charcoal-grey sports bra and high-waisted leggings with an oversized cardigan draped off one shoulder. Place a stainless-steel water bottle and smartphone nearby, beside a large Monstera plant and textured raw concrete wall. Show large industrial windows casting long defined natural shadows and subtle dust rays. Use realistic skin and fabric texture, quiet-luxury mood, and sharp subject focus.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, architectural warping",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-brutalist-wellness-subject", "required": true, "source": "brutalist-space-post-workout-candid.jpg", "usage": "Preserve adult identity, ponytail, expression, seated pose, and post-workout mood."},
+        {"type": "wardrobe", "name": "charcoal-athletic-set-cardigan", "required": true, "source": "brutalist-space-post-workout-candid.jpg", "usage": "Keep charcoal set, cardigan, and styling consistent; replace only with explicit wardrobe references."},
+        {"type": "location", "name": "brutalist-wellness-lobby", "required": true, "source": "brutalist-space-post-workout-candid.jpg", "usage": "Maintain concrete, Monstera, windows, light rays, and architectural scale; replace only with explicit location references."},
+        {"type": "prop", "name": "steel-bottle-and-smartphone", "required": true, "source": "brutalist-space-post-workout-candid.jpg", "usage": "Preserve bottle and phone placement; replace only with explicit prop references."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, location, and prop references when exact consistency is required. Keep adult identity, outfit, products, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced celebrity-likeness wording with an approved adult while preserving the scene.", "Added safe negative prompts and structured references."]}
+}

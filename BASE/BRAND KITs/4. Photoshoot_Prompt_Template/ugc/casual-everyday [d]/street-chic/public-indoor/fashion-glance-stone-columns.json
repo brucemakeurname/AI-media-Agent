@@ -1,0 +1,22 @@
+{
+  "name": "fashion-glance-stone-columns",
+  "tag": "ugc",
+  "image_type": "photograph",
+  "image_vibe": "casual cinematic realism",
+  "image_purpose": "fashion content and social media portrait",
+  "group": "casual-everyday/street-chic/public-indoor",
+  "prompt": {
+    "project_info": "UGC-style fashion editorial portrait in a historic stone cloister.",
+    "main_subject": "One generic approved young adult male with short tousled dark-brown hair, turned away in a rear three-quarter view and looking back at camera; arms crossed and one hand gripping a muted gray-green lightweight jacket collar.",
+    "composition_elements": "Vertical medium close-up from mid-torso upward, subject center-right, architectural columns and arches creating depth; jacket back carries a stylized skull with crossed tools, dark-blue curved lettering, red accents, and white negative space.",
+    "lighting_and_atmosphere": "Soft diffused natural side light from frame right, gentle highlights, moderate contrast, warm beige sandstone palette, calm reflective editorial mood.",
+    "technical_specs": "Photorealistic digital photography, 35-50mm portrait-lens look, shallow-to-moderate depth of field, sharp subject with softly blurred background, clean detail.",
+    "generated_prompt_string": "Create a vertical photorealistic UGC fashion editorial portrait of one generic approved adult male in a historic stone cloister, turned away and looking back over his shoulder, arms crossed, wearing a muted gray-green jacket with a skull-and-crossed-tools back graphic and curved dark-blue lettering; warm soft side light, sandstone columns, cinematic realism, natural bokeh, no overlaid text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, nudity, minors, celebrity likeness, public figure likeness, distorted anatomy, extra limbs, malformed hands, unreadable garment lettering, watermark, logo overlay, harsh artifacts",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "fashion-glance-stone-columns.jpg", "required": true, "source": "local", "usage": "Match the adult subject, rear three-quarter pose, jacket graphic, stone columns, framing, and warm light."}],
+      "prompt_instructions": "Attach the required reference image. Preserve subject identity, pose, jacket silhouette, graphic placement, environment, composition, and lighting; keep garment typography replaceable and never add text over the image. Use a generic approved adult and avoid celebrity likeness."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Normalized schema and slug.", "Added safety exclusions and local reference instructions."]}
+}

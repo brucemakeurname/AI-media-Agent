@@ -1,0 +1,77 @@
+{
+  "name": "prompt-335",
+  "tag": [
+    "adult-woman",
+    "police-uniform",
+    "vintage-japanese-bar",
+    "three-person-portrait",
+    "analog-snapshot",
+    "vertical"
+  ],
+  "image_type": "cinematic-group-portrait",
+  "image_vibe": "nostalgic, amber-lit, cramped, candid, retro-analog",
+  "image_purpose": "editorial, moodboard, instagram-feed",
+  "group": "indie / low-fi-dreamy / styled-idol",
+  "prompt": {
+    "project_info": {
+      "theme": "Retro Japanese police-uniform portrait in a narrow bar",
+      "format": "vertical 3:4 portrait",
+      "color_palette": "amber tungsten, faded powder blue, deep navy, worn brown wood, muted red"
+    },
+    "main_subject": {
+      "type": "three adult people",
+      "detail": "At center, an adult Japanese woman with chestnut-brown ponytail and straight bangs wears a fitted light-blue police uniform shirt with gold buttons and badge, dark green ribbon tie, navy skirt, dark belt, white gloves, and black shoes. Two older Japanese policemen in period uniforms flank her in the cramped booth.",
+      "style": "candid 1980s Japanese analog street-photography aesthetic"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "the woman sits composed on a narrow wooden bench with knees together and gloved hands folded above a small tumbler",
+        "left officer leans in from the doorway with one elbow on his knee",
+        "right officer has crossed arms and is angled toward the center",
+        "doorway framing with worn wooden jambs around the trio",
+        "vintage Japanese posters, handwritten slips, old bottles, utensils, cords, and liquor shelves densely fill the dim bar",
+        "scuffed varnished beams, humid air, lacquer reflections, and a tiny aisle retain a lived-in physical environment"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "one or two bare tungsten bulbs, approximately 2800K",
+      "effect": "localized amber pools that fall rapidly into darkness, slightly overexposed practical highlights",
+      "atmosphere": "warm, nostalgic, crowded, intimate late-night bar"
+    },
+    "technical_specs": {
+      "render_style": "35mm focal-length feel at eye level from 1–1.5m, shallow depth of field, vertical 3:4 framing",
+      "resolution": "high-detail analog snapshot",
+      "color_treatment": "low-saturation color, fine visible 35mm grain, subtle chromatic aberration, cinematic contrast"
+    },
+    "generated_prompt_string": "A vertical 3:4 candid analog portrait of three adult Japanese people inside a small dimly lit vintage bar. At center, an adult Japanese woman with a chestnut-brown ponytail and straight bangs wears a fitted light-blue police uniform shirt with gold buttons and badge, dark green ribbon tie, navy skirt, dark belt, white gloves, and black shoes. She sits calmly on a narrow wooden bench with knees together and gloved hands gently folded above a small tumbler, chin slightly lowered and looking toward the camera. Two older Japanese policemen in period uniforms flank her: the left officer leans inward from the doorway with one elbow on his knee, while the right officer sits with arms crossed and a reserved expression. Shoot from the doorway so worn wooden jambs form a frame around the trio. Fill the bar with vintage Japanese posters, handwritten slips, old bottles, glassware, cords, utensils, cluttered shallow shelves, scuffed varnished beams, and faint lacquer reflections. Use one or two bare tungsten bulbs at approximately 2800K for localized amber pools that fade rapidly into darkness. Eye-level 35mm focal feel at close conversational distance, low-saturation color, fine 35mm grain, slightly overexposed highlights, shallow depth of field, and a retro 1980s Japanese street-photography snapshot aesthetic.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "The source moodboard is optional and defines the trio arrangement, powder-blue uniform, doorway framing, dense bar décor, and amber analog treatment. Approved adult face references may replace any person and must preserve that person's face, facial structure, and likeness. Uniform details, décor, and location can be swapped only when the three-person cramped retro-bar composition remains intact.",
+      "assets": [
+        {
+          "type": "moodboard",
+          "name": "retro Japanese bar police trio source",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/images/335.jpeg",
+          "usage": "Use for the group arrangement, uniform palette, narrow bar environment, and analog image treatment."
+        },
+        {
+          "type": "person",
+          "name": "approved adult identity references",
+          "required": false,
+          "source": "user-supplied approved references",
+          "usage": "When supplied, keep each adult person's face, facial structure, and likeness consistent."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the central woman is an adult and retained the non-sexual seated pose.",
+      "Replaced named living-photographer style references with a descriptive retro Japanese analog street-photography treatment.",
+      "Preserved the uniform, three-person arrangement, cramped bar setting, and analog visual direction."
+    ]
+  }
+}

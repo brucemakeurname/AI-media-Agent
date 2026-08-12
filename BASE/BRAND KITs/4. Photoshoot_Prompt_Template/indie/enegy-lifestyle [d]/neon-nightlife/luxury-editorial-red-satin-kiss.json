@@ -1,0 +1,65 @@
+{
+  "name": "luxury-editorial-red-satin-kiss",
+  "tag": [
+    "adult-woman",
+    "red-satin",
+    "direct-flash",
+    "white-wall",
+    "party-editorial"
+  ],
+  "image_type": "flash-fashion-portrait",
+  "image_vibe": "playful-luxury-party",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "policy_review": {
+    "status": "pass",
+    "changes": [
+      "No policy-risking content found; preserved the adult fashion portrait and playful blowing-kiss gesture."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "playful adult red-satin party editorial",
+      "color_palette": "vivid red, clean white, gold, and warm skin tones",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult woman whose face can match the approved adult identity reference, with long dark hair, clean glam makeup, and natural skin texture.",
+      "wardrobe": "Vivid-red satin evening gown with a structured strapless bodice, gold hoops, delicate necklace, and minimal unbranded rings.",
+      "pose": "Tight three-quarter portrait; she blows a playful kiss toward the camera with a relaxed closed-eye smile and poised party energy."
+    },
+    "composition_elements": {
+      "framing": "Eye-level tight portrait, subject filling the frame.",
+      "environment": "Minimal matte white wall with a crisp direct-flash shadow; no text or logos."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "On-camera direct flash with hard light, authentic falloff, and a distinct wall shadow.",
+      "atmosphere": "Playful, polished, and high-fashion."
+    },
+    "technical_specs": {
+      "camera": "50mm prime, f/4, 1/160, ISO 200, daylight flash white balance",
+      "quality": "editorial crispness, subtle grain, realistic fabric sheen, natural hair strands"
+    },
+    "generated_prompt_string": "Create a photoreal 4:5 luxury editorial direct-flash portrait of an adult woman, optionally matching an approved adult non-public-figure identity reference. She has long dark hair, clean glam makeup, natural skin texture, and wears a vivid-red satin evening gown with a structured strapless bodice, gold hoops, a delicate necklace, and minimal unbranded rings. Frame her at eye level against a minimal matte white wall as she blows a playful kiss toward the camera with a relaxed closed-eye smile. Use a 50mm prime, f/4, direct on-camera flash, a crisp hard wall shadow, authentic flash falloff, realistic satin highlights, subtle grain, and no text or logos.",
+    "negative_prompt": "minor, unapproved identity, nudity, explicit, nsfw, overly revealing, logo, readable text, watermark, plastic skin, extra fingers, fused fingers, warped face",
+    "reference_elements": {
+      "prompt_instructions": "The approved adult identity reference is optional; other references are optional and replace only their stated element.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": false,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Match adult facial identity only, with no blending or age change."
+        },
+        {
+          "type": "wardrobe",
+          "name": "covered-red-satin-gown",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace the gown silhouette and fabric character."
+        }
+      ]
+    }
+  }
+}

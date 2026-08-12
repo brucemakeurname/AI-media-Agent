@@ -1,0 +1,66 @@
+{
+  "name": "Vintage Classroom Copper-Hair Portrait",
+  "tag": "vintage-classroom-copper-hair",
+  "image_type": "cinematic_classroom_portrait",
+  "image_vibe": "moody_academic_film",
+  "image_purpose": "fashion_editorial",
+  "group": "indie/enegy-lifestyle/retro-analog",
+  "prompt": {
+    "project_info": {
+      "title": "Vintage Classroom Copper-Hair Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with long wavy copper-red hair and a calm, composed expression.",
+      "wardrobe": "A forest-green high-neck knit top and tailored dark trousers beneath an open green-and-cream varsity jacket with plain unmarked panels.",
+      "pose_and_expression": "Seated sideways on the edge of a wooden teacher desk, hands relaxed, looking just past camera."
+    },
+    "composition_elements": {
+      "setting": "A nostalgic empty classroom with wooden desks, softly blurred chalkboard, and aged painted walls.",
+      "framing": "Medium-full vertical portrait at slight low angle, preserving desk lines and classroom depth.",
+      "text_and_brand_control": "No student identity, school name, mascot, patch, lettering, logo, or readable chalkboard text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft directional window light with gentle falloff and quiet shadow detail.",
+      "mood": "Thoughtful, cinematic, and vintage-academic."
+    },
+    "technical_specs": {
+      "camera_style": "35mm editorial film portrait",
+      "lens": "55mm equivalent",
+      "rendering": "Subtle grain, soft background separation, fabric texture, natural skin, and accurate hands."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical cinematic 35mm editorial portrait of an adult woman with long wavy copper-red hair and a calm composed expression. She wears a forest-green high-neck knit top, tailored dark trousers, and an open green-and-cream varsity jacket with completely plain unmarked panels. Seat her sideways on the edge of a wooden teacher desk, hands relaxed, looking just past camera. Place her in an empty nostalgic classroom with wood desks, an unreadable softly blurred chalkboard, and aged painted walls. Use soft directional window light, gentle falloff, medium-full slight low-angle framing, subtle grain, natural skin and accurate hands. Do not include school names, mascots, student identity, patches, lettering, logos, or readable text.",
+    "negative_prompt": "minor, schoolgirl, student identity, celebrity likeness, explicit, nsfw, overly revealing clothing, lingerie, fetish styling, deep neckline, logo, mascot, patch, readable text, watermark, distorted anatomy, extra fingers, plastic skin, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Use only optional adult identity references. Wardrobe and room references are replaceable and must be stripped of school insignia, readable text, and brand marks.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_copper_hair_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide adult facial and hair traits only."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "plain_varsity_layering_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide color and jacket silhouette; remove every patch and label."
+        },
+        {
+          "type": "environment_reference",
+          "name": "vintage_classroom_reference",
+          "required": false,
+          "source": "user-provided interior reference",
+          "usage": "Guide desks and room texture while keeping boards unreadable."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified the subject as adult, removed school/student coding and revealing wardrobe, and prohibited insignia, labels, and readable text."
+  }
+}

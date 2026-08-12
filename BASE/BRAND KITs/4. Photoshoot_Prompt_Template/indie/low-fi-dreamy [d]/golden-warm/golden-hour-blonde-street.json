@@ -1,0 +1,58 @@
+{
+  "name": "golden-hour-blonde-street",
+  "tag": [
+    "adult-woman",
+    "street-style",
+    "blonde-hair",
+    "golden-hour",
+    "urban-wall",
+    "vertical"
+  ],
+  "image_type": "lifestyle-candid",
+  "image_vibe": "sunlit-casual",
+  "image_purpose": "instagram-feed",
+  "group": "indie/low-fi-dreamy/golden-warm",
+  "prompt": {
+    "project_info": "A straightforward late-afternoon street-style portrait with warm light, a graphic two-wall corner, and relaxed everyday styling.",
+    "main_subject": "An adult woman in her twenties with long platinum-blonde beachy waves, light eyes, a composed neutral expression, and understated natural makeup. She wears a fitted white ribbed short-sleeve top, dark charcoal high-waisted straight-leg jeans, a brown distressed suede shoulder bag, silver beaded bracelets, and a small silver ring.",
+    "composition_elements": "Vertical knee-up portrait at a slightly low eye-level angle. She leans casually into the meeting point of a white painted brick wall and slate blue-grey horizontal wood siding, with one shoulder against the wall and a relaxed hand at her side. Grey asphalt is visible at the bottom; the background is empty of people, text, logos, and signage.",
+    "lighting_and_atmosphere": "Bright golden late-afternoon sunlight from front-left, approximately 4300K, illuminates hair and face while casting soft shadows to camera-right. Keep the brick, siding, worn suede, and asphalt tactile, with visible pores and lightly tousled hair.",
+    "technical_specs": "Full-frame digital camera with a 50mm lens at f/2.8, vertical 3:4 crop, knee-up frame, natural warm grading, slightly lifted blacks, subtle 35mm grain, gentle lens falloff, and realistic documentary sharpness.",
+    "generated_prompt_string": "Adult woman in her twenties with long platinum-blonde, loose beachy waves and understated natural makeup, standing casually against the corner of a white painted brick wall and slate blue-grey horizontal wood siding. She wears a fitted white ribbed short-sleeve top, dark charcoal high-waisted straight-leg jeans, a brown distressed suede shoulder bag, silver beaded bracelets, and a small silver ring. Her pose is relaxed and confident, face turned toward camera with a calm neutral expression. Grey asphalt at the bottom, no people or other objects in the background, bright warm golden late-afternoon sunlight from front-left, knee-up vertical street-style portrait, natural skin texture, realistic worn surfaces, 3:4 crop.",
+    "negative_prompt": "explicit, nsfw, overly revealing, exposed midriff, sexualized pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers, deformed hands, distorted anatomy",
+    "reference_elements": {
+      "prompt_instructions": "Use an approved adult identity reference only if the same person must recur; preserve adult likeness, platinum-blonde hair, and neutral styling. Attach the wardrobe reference to hold the covered white ribbed top, high-waisted charcoal jeans, bag, and jewelry. The white brick/blue-grey siding corner and sun direction should remain consistent; identity and exact wall texture may be replaced.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-blonde-street-style-reference",
+          "required": false,
+          "source": "attach when identity continuity is needed",
+          "usage": "Preserve adult face, hair color, and overall styling without copying brands or text."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white-ribbed-top-charcoal-jeans-look-reference",
+          "required": false,
+          "source": "attach when exact outfit continuity is needed",
+          "usage": "Keep the covered casual silhouette, bag, and minimal jewelry; replacements must remain unbranded."
+        },
+        {
+          "type": "background",
+          "name": "white-brick-and-blue-grey-siding-reference",
+          "required": false,
+          "source": "attach when the exact wall corner must match",
+          "usage": "Preserve the two-surface geometry and empty urban setting while removing any signage or text."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Made the subject explicitly adult.",
+      "Replaced the crop-top and exposed-midriff emphasis with a covered short-sleeve top and high-waisted jeans.",
+      "Removed body-specific and sexualized styling language while retaining the sunlit casual street-style concept."
+    ]
+  }
+}

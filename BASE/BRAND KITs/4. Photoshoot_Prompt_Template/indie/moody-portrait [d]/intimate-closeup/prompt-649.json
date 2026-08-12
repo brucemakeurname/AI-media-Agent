@@ -1,0 +1,19 @@
+{
+  "name": "prompt-649",
+  "tag": ["approved-adult-face", "black-suit", "red-tie", "red-background", "cinematic-portrait"],
+  "image_type": "cinematic-fashion-portrait",
+  "image_vibe": "powerful, moody, dramatic, confident",
+  "image_purpose": "editorial, profile-visual, moodboard",
+  "group": "indie / moody-portrait / intimate-closeup",
+  "prompt": {
+    "project_info":{"theme":"Red-and-black suited cinematic portrait","format":"vertical close-up portrait","color_palette":"deep red, black, white, red striped tie"},
+    "main_subject":{"type":"adult person using a required approved-adult face reference","detail":"An adult person with sharp facial features, messy styled dark hair, and a confident slightly intense expression. They wear a black suit jacket over a white shirt with a slightly open collar and a red striped tie. Preserve the attached adult reference's face, facial structure, likeness, and head positioning.","style":"ultra-realistic cinematic fashion portrait"},
+    "composition_elements":{"text":"","items":["tight vertical head-and-shoulders crop", "deep-red background", "black suit, white collar, red striped tie", "direct near-camera gaze"]},
+    "lighting_and_atmosphere":{"type":"dramatic red gel rim light with a neutral soft frontal key","effect":"red-and-black contour lighting over face, jawline, neck, and hair","atmosphere":"cinematic, powerful, moody"},
+    "technical_specs":{"render_style":"85mm lens at f/2, high-detail photoreal portrait","resolution":"high-detail vertical image","color_treatment":"deep red-and-black grade, natural skin texture, subtle grain"},
+    "generated_prompt_string":"Create an ultra-realistic vertical portrait of the attached approved-adult person, preserving their face, facial structure, likeness, and head positioning. They stand against a deep-red background with messy styled dark hair and a confident, slightly intense expression. They wear a black suit jacket over a white shirt with a slightly open collar and a red striped tie. Use dramatic red-and-black lighting to contour the face, jawline, neck, and hair for a cinematic powerful moody atmosphere. Shoot as a high-detail 85mm f/2 fashion portrait with natural skin texture and subtle grain.",
+    "negative_prompt":"explicit, nsfw, overly revealing, minor, sexual pose, identity blending, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, text, extra fingers, deformed",
+    "reference_elements":{"prompt_instructions":"Attach a required approved-adult face reference. Preserve face, facial structure, likeness, head position, black suit, white shirt, red striped tie, red background, and red-black lighting; background hue may shift only within deep red.","assets":[{"type":"person","name":"approved-adult-face-reference","required":true,"source":"user attachment","usage":"Preserve adult face, facial structure, likeness, and head position without celebrity/public-figure substitution."}]}
+  },
+  "policy_review":{"status":"remediated","changes":["Clarified that the required identity reference must depict an approved adult.","Preserved suit styling, red striped tie, head position, deep-red background, and cinematic red-black lighting."]}
+}

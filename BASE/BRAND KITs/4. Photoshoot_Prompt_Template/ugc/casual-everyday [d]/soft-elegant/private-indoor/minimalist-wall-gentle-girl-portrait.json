@@ -1,0 +1,19 @@
+{
+  "name": "minimalist-wall-gentle-girl-portrait",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "private-indoor", "minimal-wall", "dark-mini-dress", "standing-portrait"],
+  "image_type": "minimal-lifestyle-portrait",
+  "image_vibe": "clean-warm-minimal",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/soft-elegant/private-indoor",
+  "prompt": {
+    "project_info": "Create a clean minimalist indoor lifestyle portrait of an approved adult woman standing against a neutral wall.",
+    "main_subject": "An approved adult woman with wavy blonde hair, a warm friendly closed-lip smile, and approachable direct gaze. She stands upright with relaxed shoulders, head slightly tilted, arms relaxed near her sides, and weight shifted naturally to one leg. She wears a solid dark long-sleeve mini dress in smooth stretch fabric with a flattering scoop or sweetheart neckline.",
+    "composition_elements": "3:4 medium portrait from mid-thigh to head, eye-level natural perspective, subject sharp against a smooth light-neutral minimal wall, clean negative space, and simple modern social-media framing.",
+    "lighting_and_atmosphere": "Even diffused frontal room light with soft shadows and gentle highlights, neutral-warm low-to-medium contrast, natural saturation, clean lifestyle mood.",
+    "technical_specs": "Photorealistic high-resolution portrait lens, shallow background softening, realistic fabric and skin texture, natural anatomy and hands, minimal sensor noise, subtle grain.",
+    "generated_prompt_string": "Create a clean photorealistic 3:4 indoor lifestyle portrait of an approved adult woman with wavy blonde hair, a warm friendly closed-lip smile, and approachable direct gaze. She stands upright against a smooth light-neutral wall with relaxed shoulders, head slightly tilted, arms resting naturally near her sides, and weight shifted subtly to one leg. She wears a solid dark long-sleeve mini dress in smooth stretch fabric with a flattering scoop or sweetheart neckline. Use eye-level natural perspective, mid-thigh-to-head framing, clean negative space, even diffused frontal room light, soft shadows, neutral-warm low-to-medium contrast, natural saturation, realistic fabric and skin, and subtle grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted face, text, logo",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-blonde-wall-subject", "required": true, "source": "minimalist-wall-gentle-girl-portrait.jpg", "usage": "Preserve the adult face, blonde hair, smile, gaze, pose, and identity."}, {"type": "wardrobe", "name": "solid-dark-long-sleeve-mini-dress", "required": true, "source": "minimalist-wall-gentle-girl-portrait.jpg", "usage": "Keep the dark dress, sleeves, neckline, and smooth fabric consistent; replace only with an explicit wardrobe reference."}, {"type": "background", "name": "light-neutral-minimal-wall", "required": true, "source": "minimalist-wall-gentle-girl-portrait.jpg", "usage": "Maintain the smooth neutral wall and negative space; replace only with an explicit background reference."}], "prompt_instructions": "Attach person, wardrobe, and background references when exact consistency is required. Keep adult identity, outfit, pose, wall, and lighting hierarchy consistent. Background may be replaced only with explicit alternatives; preserve identity, outfit, product, logo, environment, and typography. No logo or typography is present."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and retained the clean fashion portrait concept.", "Added safe negative prompts and structured references."]}
+}

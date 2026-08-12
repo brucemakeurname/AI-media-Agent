@@ -1,0 +1,34 @@
+{
+  "name": "Natural Lip Essence Macro",
+  "tag": "industry/lookbook-line-sheet/beauty-closeup",
+  "image_type": "macro lip beauty photograph",
+  "image_vibe": "minimal, natural, hydrated, clinical-luxury",
+  "image_purpose": "beauty product texture study and line-sheet reference",
+  "group": "beauty-closeup",
+  "prompt": {
+    "project_info": "Create a lifelike close-up study of naturally hydrated lips with realistic fine texture and calm window light.",
+    "main_subject": "A clearly adult fictional East Asian subject's lower face, natural soft-pink lips with a sheer watery lip essence, subtle hydration without heavy gloss, realistic pores and delicate vellus hair, relaxed closed-mouth expression.",
+    "composition_elements": "Extreme close-up focused on lips and surrounding skin, balanced crop including the base of the nose and chin, clean neutral background, no visible brand or product packaging.",
+    "lighting_and_atmosphere": "Soft calm window light, gentle highlights, natural shadows, quiet minimal beauty atmosphere.",
+    "technical_specs": "Professional macro portrait photography, Canon RF 100mm macro lens, hyper-detailed lifelike skin, 8K HDR look, natural color and no artificial smoothing.",
+    "generated_prompt_string": "Extreme close-up macro beauty photograph of the lips of a clearly adult fictional East Asian subject, natural soft-pink lips with ultra-sheer watery hydration, dewy but not glossy, relaxed closed-mouth expression, realistic skin texture and delicate vellus hair, calm soft window light, neutral background, Canon RF 100mm macro lens, hyper-detailed lifelike 8K HDR, no visible product branding, no text.",
+    "negative_prompt": "explicit, nsfw, overly revealing, open-mouth sexualized pose, lip biting, tongue, fetish framing, child, teen, ageless person, plastic skin, heavy makeup, celebrity likeness, public figure likeness, watermark, logo, text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "natural lips macro reference",
+          "required": true,
+          "source": "Attach the supplied source image as the visual reference.",
+          "usage": "Match the macro crop, soft pink hydration, natural skin detail, and window-light direction; keep the adult fictional identity, lip tone, and background replaceable."
+        }
+      ],
+      "instructions": "Attach the source image before generation. Preserve the restrained product-texture intent and realistic macro detail. Keep identity replaceable, omit labels and logos, and use a calm nonsexual closed-mouth expression."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": "Added clearly adult fictional subject, relaxed closed-mouth expression, and removed any potentially sexualized lip direction while retaining the natural hydration study.",
+    "notes": "Beauty macro is non-graphic and nonsexual."
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "toyota-veloz-cross-smart-wingman-tss",
+  "tag": [
+    "veloz-cross",
+    "safety-sense",
+    "mascot",
+    "adas"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Product demos",
+  "group": "toyota_2073192229992871",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Veloz Cross as a smart wingman with Safety Sense",
+      "color_palette": "Charcoal, orange, sky blue, white, road gray"
+    },
+    "main_subject": {
+      "type": "Person/Object/Text",
+      "detail": "An interior-feature poster showing the blue elephant mascot driving inside a Toyota Veloz Cross. The windshield becomes a tech-overlay explaining Toyota Safety Sense features on a coastal road: 'He thong canh bao tien va cham (PCS)', 'Den chieu xa tu dong (AHB)', and 'He thong canh bao lech lan duong (LDA)'. A Toyota Safety Sense badge appears near the windshield. The center screen displays a parking or surround-camera view. Large text reads 'TOYOTA VELOZ CROSS LA CHAN THONG MINH TRU COT Vo lo'. Bottom-left script says 'Move your world'.",
+      "style": "Playful ADAS education poster with mascot-driven interior view, real dashboard detail, and illustrated safety overlays"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "Toyota Safety Sense / He thong canh bao tien va cham (PCS) / Den chieu xa tu dong (AHB) / He thong canh bao lech lan duong (LDA) / TOYOTA VELOZ CROSS / LA CHAN THONG MINH / TRU COT / Vo lo / Move your world",
+      "items": [
+        "Top Left: Toyota Safety Sense badge near the windshield and road-sensor overlay",
+        "Top Right: Toyota logo over the interior roofline and mountain-road view",
+        "Bottom Left: Blue elephant mascot in driver's seat and handwritten 'Move your world'",
+        "Bottom Right: Large white-and-orange slogan block with the handwritten 'Vo lo'",
+        "Center/Background: Real Toyota Veloz Cross dashboard and windshield overlaid with lane, car, and radar safety graphics on a coastal road"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright interior-tech commercial lighting",
+      "effect": "Crisp dashboard visibility, vivid overlay graphics, playful mascot energy with realistic cabin detail"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal interior-feature campaign with UI-style ADAS overlays",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for Toyota Veloz Cross safety-feature education. Centerpiece is a real Toyota Veloz Cross interior seen from the back seat, with a blue elephant mascot driving while the windshield is overlaid with Toyota Safety Sense graphics showing PCS, AHB, and LDA on a coastal road. Background is the actual cabin, dashboard, center display, and mountain-sea road beyond the windshield. Surrounding elements: Toyota logo, Toyota Safety Sense badge, exact feature labels, and the slogan 'TOYOTA VELOZ CROSS LA CHAN THONG MINH TRU COT Vo lo', plus the footer script 'Move your world'. Technical style: photoreal interior-feature campaign with UI-style ADAS overlays, bright interior-tech commercial lighting, crisp dashboard detail and vivid safety graphics, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "Bovoi elephant mascot in driver-seat pose",
+          "required": true,
+          "source": "campaign mascot asset",
+          "usage": "Preserve the exact mascot angle, orange shirt, and seated-driving position"
+        },
+        {
+          "type": "ui_reference",
+          "name": "Toyota dashboard and ADAS overlay references",
+          "required": true,
+          "source": "source interior photo and campaign graphics",
+          "usage": "Maintain the exact dashboard layout, center display, and safety labels over the windshield scene"
+        },
+        {
+          "type": "text_layout",
+          "name": "Veloz Cross Safety Sense interior poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the mascot-left, slogan-right composition and the three feature callouts across the windshield"
+        }
+      ],
+      "prompt_instructions": "Do not simplify the ADAS graphics. The windshield overlays, labels, and the mascot-as-driver concept are all essential to the educational message."
+    }
+  }
+}

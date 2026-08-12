@@ -1,0 +1,75 @@
+{
+    "name":  "streetwear-analog-digital-collage",
+    "tag":  [
+                "fashion",
+                "lifestyle content",
+                "streetwear",
+                "editorial collage",
+                "analog digital",
+                "music UI"
+            ],
+    "biz_niche":  "Fashion & Apparel / Editorial",
+    "content_format":  "Lifestyle content",
+    "group":  "branding_streetwear_editorial",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Urban analog-digital streetwear collage",
+                                        "color_palette":  "Warm amber, washed neutral, soft gray, muted brown, white"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Person",
+                                        "detail":  "One streetwear subject in a brown plaid blazer, white button-up shirt, yellow tie, loose dark trousers, brown cap, amber rectangular sunglasses and wired earphones appears across three editorial self-portraits on a cobblestone street.",
+                                        "style":  "Retro analog-digital fashion collage with reflective glass, ghosting and restrained interface overlays"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Person/Street/Music player UI",
+                                                "text":  "See You Again; Tyler, The Creator",
+                                                "items":  [
+                                                              "Left: full-body reflective-window selfie with phone concealing the face, ghosted building overlays.",
+                                                              "Upper right: close downward ultra-wide portrait, hands in pockets, exaggerated pout and radiating cobblestones.",
+                                                              "Lower right: overhead selfie holding a drink with faint grid and facial-bounding graphic.",
+                                                              "Center overlay: translucent iOS-style Apple Music mini-player with artwork, timeline and controls."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft overcast urban daylight",
+                                                   "effect":  "Muted warm editorial grade, glass reflections, subtle digital grid, natural stone texture"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "High-end editorial fashion photography and digital collage",
+                                           "resolution":  "9:16 vertical format"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "approved subject identity reference",
+                                                                 "required":  true,
+                                                                 "source":  "licensed portrait set",
+                                                                 "usage":  "Keep the same face, hair, body proportions and styling consistent across all panels."
+                                                             },
+                                                             {
+                                                                 "type":  "accessory",
+                                                                 "name":  "outfit and music-player UI references",
+                                                                 "required":  true,
+                                                                 "source":  "wardrobe and approved UI reference files",
+                                                                 "usage":  "Preserve plaid blazer, cap, amber glasses, earphones, and UI hierarchy."
+                                                             },
+                                                             {
+                                                                 "type":  "location",
+                                                                 "name":  "cobblestone street reference",
+                                                                 "required":  false,
+                                                                 "source":  "licensed urban location image",
+                                                                 "usage":  "Match street material and architecture without copying private individuals."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach consented subject images or use a fictional model.",
+                                                                          "Use no stickers, extra subjects, wardrobe changes, neon shifts or sci-fi elements.",
+                                                                          "Use approved music artwork and UI only when rights are available."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Urban Streetwear Editorial Collage. Aspect ratio 9:16. Editorial poster-style multi-panel collage with retro analog–digital fusion mood; warm ambers, washed neutrals, soft greys, muted browns; reflective glass, wool plaid, polished leather, stone pavement. Core outfit: brown plaid blazer, white button-up shirt, yellow tie, loose dark trousers; brown cap, oversized amber-tinted rectangular sunglasses and wired earphones. Top-left is a reflective window shot holding phone in front of face with layered ghosting, architectural overlays and curvature distortion. Top-right is a close-range downward-angled ultra-wide portrait on a cobblestone street, leaning forward with hands in pockets and exaggerated pout, with lens perspective distortion and radiating cobblestones. Bottom-right is an intimate overhead selfie under soft overcast light, holding a drink, with faint digital grid and minimal square facial-bounding graphic. Center UI is a translucent iOS-style Apple Music mini-player with See You Again by Tyler, The Creator, artwork, timeline and playback controls with no shadows. Subtle cursor-like frame lines and rectangular highlights. Negative constraints: Stickers, extra subjects, wardrobe changes, incorrect UI icons, neon color shifts, futuristic sci-fi elements.",
+                   "negative_prompt":  "stickers, extra subjects, wardrobe changes, incorrect UI icons, neon color shifts, futuristic sci-fi elements, distorted face, low resolution, watermark"
+               }
+}

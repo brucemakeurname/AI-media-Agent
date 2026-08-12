@@ -1,0 +1,40 @@
+{
+  "name": "luxury-italian-night-blonde-black-dress",
+  "tag": ["italian-restaurant", "black-dress", "balcony", "night-fashion"],
+  "image_type": "UGC evening fashion portrait",
+  "image_vibe": "elegant, warm, luxurious, celebratory",
+  "image_purpose": "Restaurant, eveningwear and social lifestyle content",
+  "group": "ugc/lifestyle-moment/night-out/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a realistic evening fashion portrait on the second-floor balcony of an elegant Italian restaurant courtyard.",
+    "main_subject": "One approved adult woman aged 19 or older with golden-blonde hair in large waves, natural glowing skin, evening makeup, voluminous lashes, peach-toned lips and blush, delicate gold necklace and thick gold bracelet. She wears a simple elegant strapless form-fitting black mini dress with a balloon detail at the hips, black short-heeled pointed shoes, and carries a black quilted luxury handbag matching the attached reference.",
+    "composition_elements": "Vertical 9:16 high-angle wide-angle portrait. Place the woman confidently on the second-floor marble balcony, one hand resting on the railing and the other holding the bag. Show the four-story courtyard, marble railings, warm yellow chandeliers, candelabras, diners on lower floors and a few guests chatting above.",
+    "lighting_and_atmosphere": "Natural ambient restaurant light with warm chandelier and candlelight, high nighttime contrast, no flash, very slight motion blur, elegant Italian dining atmosphere.",
+    "technical_specs": "Photorealistic vertical 9:16 evening portrait, full-frame camera with 24mm wide-angle lens, realistic skin and marble texture, natural ambient exposure, subtle motion blur, no watermark.",
+    "generated_prompt_string": "Photorealistic vertical 9:16 high-angle wide-angle evening fashion portrait of one approved adult woman aged 19 or older with golden-blonde hair in large waves, natural glowing skin, evening makeup, voluminous lashes, peach-toned lips and blush, delicate gold necklace and thick gold bracelet. She confidently poses on the second-floor marble balcony of a four-story Italian restaurant courtyard, one hand on the railing and the other holding a black quilted luxury handbag matching the attached reference. She wears a simple elegant strapless form-fitting black mini dress with a balloon detail at the hips and black short-heeled pointed shoes. Include marble railings, warm yellow chandeliers, candelabras with lit candles, diners on the first floor, a few guests chatting on the second, and an empty third floor. Natural warm ambient light, high nighttime contrast, no flash, very slight motion blur, realistic architecture and fabric, no invented logos or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, unreadable text, unapproved logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "luxury-italian-night-blonde-black-dress reference",
+          "required": true,
+          "source": "Attach the provided reference image",
+          "usage": "Match the adult subject's blonde waves, black dress silhouette, gold accessories, handbag, balcony pose, restaurant courtyard, chandeliers and warm ambient lighting while keeping identity and details replaceable."
+        },
+        {
+          "type": "product",
+          "name": "black quilted handbag from reference",
+          "required": true,
+          "source": "Use the handbag shown in the provided reference image",
+          "usage": "Preserve the bag's quilted shape and chain-handle styling; keep branding unrendered unless an approved logo reference is supplied."
+        }
+      ],
+      "prompt_instructions": "Attach the required composition and handbag references. Preserve pose, wardrobe, accessories, restaurant architecture, balcony hierarchy and warm light. Keep identity, bag, clothing details, diners and environment replaceable; do not invent readable logos or text."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

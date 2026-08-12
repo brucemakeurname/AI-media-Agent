@@ -1,0 +1,75 @@
+{
+    "name":  "papeda-yellow-fish-ingredient-poster",
+    "tag":  [
+                "Indonesian food",
+                "Papeda",
+                "floating ingredients",
+                "food poster",
+                "recipe infographic"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Infographics",
+    "group":  "infographic_indonesian_food",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Papeda and ikan kuah kuning ingredient story",
+                                        "color_palette":  "Sago cream, turmeric yellow, leaf green, ceramic beige, lime green, chili red"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Food",
+                                        "detail":  "A ceramic bowl of Papeda with vivid yellow fish broth sits at the bottom; a long elastic ribbon of translucent sago rises to a wooden fork above it.",
+                                        "style":  "Hyperreal food photography with frozen splash motion and clean educational ingredient labels"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Floating ingredients and pointer-line labels",
+                                                "text":  "Papeda \u0026 Ikan Kuah Kuning; Sagu (Papeda); Ikan Tongkol; Kuah Kuning; Daun Kemangi; Cabe Merah; Jeruk Nipis",
+                                                "items":  [
+                                                              "Top: oversized white dish title over blurred tropical foliage.",
+                                                              "Center: a wooden fork pulls a glossy vertical sago strand above the bowl.",
+                                                              "Around the sago: floating fish pieces, yellow broth splash, basil, red chili slices, and lime wedges.",
+                                                              "Sides: thin white leader lines with Indonesian ingredient labels.",
+                                                              "Bottom: tactile speckled ceramic bowl on a banana-leaf-covered surface."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Soft natural daylight with studio fill",
+                                                   "effect":  "Glossy broth, translucent sago, wet ingredient detail, shallow tropical background blur, frozen splash energy"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "Photorealistic editorial food poster",
+                                           "resolution":  "8k resolution, highly detailed, vertical format"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "Papeda and ikan kuah kuning dish",
+                                                                 "required":  true,
+                                                                 "source":  "approved recipe and food-styling reference",
+                                                                 "usage":  "Maintain authentic papeda texture, yellow broth appearance, and serving vessel."
+                                                             },
+                                                             {
+                                                                 "type":  "graphic",
+                                                                 "name":  "ingredient callout system",
+                                                                 "required":  true,
+                                                                 "source":  "source preview",
+                                                                 "usage":  "Preserve the white leader-line annotations and ingredient positions."
+                                                             },
+                                                             {
+                                                                 "type":  "background",
+                                                                 "name":  "tropical banana-leaf setting",
+                                                                 "required":  false,
+                                                                 "source":  "food-location reference",
+                                                                 "usage":  "Support the dish with blurred lush foliage and leaf tabletop texture."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach a recipe-accurate food reference before rendering.",
+                                                                          "Keep Indonesian dish and ingredient wording exactly after native-language review.",
+                                                                          "Use final typesetting for reliable labels."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Ultra-realistic cinematic food photography of a traditional Indonesian dish, presented as a floating ingredients infographic. The finished dish sits at the bottom in a ceramic bowl on a wooden surface. Above it, key ingredients float in mid-air in a clean vertical layout, each clearly separated and visually balanced. Thin minimalist pointer lines connect ingredients to elegant readable labels. Natural textures, hyper-detailed food surfaces, glossy sauces, steam rising gently, high-speed splash effects frozen in motion. Soft studio lighting mixed with natural daylight, shallow depth of field, premium editorial food poster style, commercial advertising quality, ultra-sharp focus, 8K resolution, realistic shadows, clean background.",
+                   "negative_prompt":  "inauthentic ingredients, broken sago strand, muddy broth, unreadable labels, messy splashes, artificial food texture, low resolution, watermark, signature"
+               }
+}

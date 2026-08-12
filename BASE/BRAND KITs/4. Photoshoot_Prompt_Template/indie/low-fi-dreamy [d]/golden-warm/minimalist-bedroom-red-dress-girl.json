@@ -1,0 +1,65 @@
+{
+  "name": "minimalist-bedroom-red-dress-girl",
+  "tag": [
+    "adult-woman",
+    "tattoos",
+    "red-satin-dress",
+    "bedroom",
+    "small-dog",
+    "window-light"
+  ],
+  "image_type": "editorial-portrait",
+  "image_vibe": "warm-domestic",
+  "image_purpose": "moodboard",
+  "group": "indie/low-fi-dreamy/golden-warm",
+  "prompt": {
+    "project_info": "A quiet domestic fashion portrait using a bright minimalist bedroom, warm window light, graphic floral tattoos, and a small companion dog.",
+    "main_subject": "An adult blonde woman with wavy hair and bangs, a calm sideward gaze, and detailed floral and ornamental tattoos on her arms and neck. She sits comfortably on a white bed wearing a red satin midi dress with a modest high neckline and long sleeves; a small white fluffy dog rests beside her.",
+    "composition_elements": "Vertical three-quarter seated portrait. White sheets fill the lower frame, pale curtains and a sunlit window create a simple background, and a few apples and cherries are scattered naturally across the bed. Keep her pose relaxed and non-sexual, with the dog resting at the edge of the composition. No text, logos, or packaging.",
+    "lighting_and_atmosphere": "Soft natural window light diffused through sheer curtains, approximately 4600K, with warm highlights across the red satin and gentle shadow beneath the subject. Keep real sheet creases, fruit texture, natural skin detail, tattoo linework, and a calm lived-in feeling.",
+    "technical_specs": "Full-frame camera with an 85mm lens at f/2, vertical 3:4 crop, shallow depth of field, soft neutral whites, Kodak Portra 400-inspired warmth, subtle film grain, and gentle natural vignetting.",
+    "generated_prompt_string": "Photorealistic editorial portrait of an adult tattooed blonde woman with wavy hair and bangs, wearing a red satin midi dress with a modest high neckline and long sleeves, seated comfortably on a white bed in soft natural window light. Detailed floral and ornamental tattoos on arms and neck, calm expression looking to the side, cozy minimalist bedroom with pale curtains, white sheets with natural creases, apples and cherries scattered on the bed, and a small white fluffy dog resting beside her. Warm cinematic window light, natural skin texture, shallow depth of field, 85mm lens, vertical framing, no text or branding.",
+    "negative_prompt": "explicit, nsfw, overly revealing, lingerie, sexualized pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers, deformed hands, distorted anatomy, duplicate dog",
+    "reference_elements": {
+      "prompt_instructions": "An approved adult identity reference is optional and should preserve facial likeness, blonde hair, and tattoo placement only when supplied. Attach wardrobe, pet, and bedroom references when those elements need continuity. Keep the red covered satin silhouette, white bedding, fruit still life, and soft window-light direction consistent; identity, tattoo artwork, dog, and room details may be replaced with approved references.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-tattooed-identity-reference",
+          "required": false,
+          "source": "attach when identity or tattoo placement continuity is needed",
+          "usage": "Preserve the adult subject's face, hair, and approved tattoo placement; do not reproduce unrelated text or marks."
+        },
+        {
+          "type": "wardrobe",
+          "name": "red-covered-satin-midi-dress-reference",
+          "required": false,
+          "source": "attach when exact garment continuity is needed",
+          "usage": "Maintain the covered red satin dress silhouette while allowing an equivalent unbranded garment."
+        },
+        {
+          "type": "accessory",
+          "name": "small-white-fluffy-dog-reference",
+          "required": false,
+          "source": "attach when the same pet must recur",
+          "usage": "Preserve the small white dog's appearance and resting pose without adding accessories or text."
+        },
+        {
+          "type": "background",
+          "name": "minimalist-white-bedroom-reference",
+          "required": false,
+          "source": "attach when room continuity is needed",
+          "usage": "Preserve pale curtains, white bedding, and soft window direction while permitting a different approved room."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Made the subject explicitly adult.",
+      "Replaced the slip-dress and exposed-leg emphasis with a covered satin midi dress and a relaxed non-sexual seated pose.",
+      "Added safety exclusions while preserving the bedroom, tattoos, fruit, dog, and window-light concept."
+    ]
+  }
+}

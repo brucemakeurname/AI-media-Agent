@@ -1,0 +1,60 @@
+{
+    "name":  "garoto-melting-chocolate-bar",
+    "tag":  [
+                "confectionery",
+                "product demo",
+                "chocolate",
+                "melting texture",
+                "macro food photography"
+            ],
+    "biz_niche":  "Food & Beverage",
+    "content_format":  "Product demos",
+    "group":  "product_food_texture",
+    "prompt":  {
+                   "project_info":  {
+                                        "theme":  "Rich melting Garoto chocolate",
+                                        "color_palette":  "Cocoa brown, milk chocolate, caramel gloss, vivid orange"
+                                    },
+                   "main_subject":  {
+                                        "type":  "Product",
+                                        "detail":  "Two broken Garoto chocolate-bar sections meet diagonally at the center, exposing a dark textured filling and liquid chocolate dripping from the fracture.",
+                                        "style":  "Ultra-real macro food advertising with glossy tactile chocolate detail"
+                                    },
+                   "composition_elements":  {
+                                                "type":  "Food fragments/Background",
+                                                "text":  "Garoto",
+                                                "items":  [
+                                                              "Center: horizontal broken chocolate bar with engraved Garoto lettering.",
+                                                              "Fracture: molten chocolate stretching and dripping in long glossy strands.",
+                                                              "Around bar: floating crumbs, cocoa pieces, and small chocolate droplets.",
+                                                              "Background: clean saturated orange studio field."
+                                                          ]
+                                            },
+                   "lighting_and_atmosphere":  {
+                                                   "type":  "Professional food studio lighting",
+                                                   "effect":  "High contrast warm highlights, authentic chocolate sheen, crisp crumbs, realistic shadows"
+                                               },
+                   "technical_specs":  {
+                                           "render_style":  "8K ultra-realistic commercial food photography",
+                                           "resolution":  "Vertical, highly detailed"
+                                       },
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "product",
+                                                                 "name":  "Garoto chocolate bar",
+                                                                 "required":  true,
+                                                                 "source":  "exact product reference",
+                                                                 "usage":  "Keep engraved logo, bar segment geometry, wrapper-free chocolate tone, and product identity accurate."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  [
+                                                                          "Attach the exact chocolate bar reference.",
+                                                                          "Keep visible Garoto lettering faithful to the source.",
+                                                                          "Do not add headline text or packaging outside the product."
+                                                                      ]
+                                          },
+                   "generated_prompt_string":  "Use the uploaded product image as reference. Create an ultra-realistic commercial image of a Garoto chocolate bar. Show a broken bar with melted chocolate texture, visible cocoa details and rich gloss. Add subtle chocolate splashes and floating crumbs. Clean studio setup, vibrant colored background, bold advertising style for social media. 8K ultra realistic, high sharpness, high contrast, professional lighting with realistic shadows and highlights, no text, no watermark, no blur, no distortion, no low quality, no cartoonish style",
+                   "negative_prompt":  "incorrect Garoto logo, plastic chocolate, broken geometry, dull surface, excessive text, cartoon style, blur, distortion, low quality, watermark"
+               }
+}

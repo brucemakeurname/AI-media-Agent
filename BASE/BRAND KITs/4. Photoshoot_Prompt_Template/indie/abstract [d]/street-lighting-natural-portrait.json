@@ -1,0 +1,73 @@
+{
+  "name": "street-lighting-natural-portrait",
+  "tag": [
+    "adult-man",
+    "city-street",
+    "hoodie",
+    "denim-jacket",
+    "four-grid",
+    "lifestyle"
+  ],
+  "image_type": "urban-lifestyle-contact-sheet",
+  "image_vibe": "natural-candid-grounded",
+  "image_purpose": "lookbook",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the streetwear subject is an adult."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "four-view candid streetwear portrait of an adult man",
+      "color_palette": "brick red, washed black, cream, denim blue, overcast gray",
+      "format": "2x2 square grid"
+    },
+    "main_subject": {
+      "type": "adult man",
+      "detail": "An adult man with short tousled dark hair, a relaxed confident expression, a neutral hoodie under a black denim jacket, blue jeans, and white sneakers.",
+      "style": "natural outdoor lifestyle photography with visible pores and slight imperfections"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "2x2 grid of the same adult man on an urban sidewalk",
+        "top-left leaning against a brick wall with folded arms",
+        "top-right full-body walking with hands in pockets",
+        "bottom-left seated on a city stoop",
+        "bottom-right turning back toward camera",
+        "consistent brick buildings, pedestrians, and distant yellow taxis"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft overcast daylight at approximately 6200K",
+      "effect": "natural city color, balanced highlights and shadows, soft background separation, candid calm"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera, 50mm prime lens at f/1.8, ISO 100, subtle film grain, no over-sharpening or beauty retouching",
+      "resolution": "high resolution 2x2 contact sheet"
+    },
+    "generated_prompt_string": "Ultra-realistic four-panel lifestyle portrait of the same adult man in a real outdoor urban environment. He has short tousled dark hair, a calm confident expression, authentic skin texture with visible pores and slight imperfections, and wears a neutral hoodie layered under a black denim jacket with blue jeans and white sneakers. Construct a 2x2 grid: leaning against a brick wall, walking down the sidewalk, seated on a stoop, and looking back toward camera. Keep soft natural daylight, a softly blurred city background, realistic pedestrians and distant traffic, candid posture, true-to-life color, a 50mm prime lens at f/1.8, ISO 100, balanced highlights and shadows, subtle film grain, and a genuine editorial lifestyle-photography feel.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, recognizable bystanders, text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, mismatched panel identity",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-streetwear-model-reference",
+          "required": false,
+          "source": "Attach an authorized adult reference when identity consistency across four panels is required.",
+          "usage": "Preserve the adult face and proportions in every panel; otherwise use a generic adult model."
+        },
+        {
+          "type": "wardrobe",
+          "name": "hoodie-denim-jacket-jeans-reference",
+          "required": false,
+          "source": "Attach wardrobe images when exact layers or wash colors matter.",
+          "usage": "Keep hoodie, black denim jacket, jeans, and sneakers consistent; items may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve one adult man across the 2x2 street grid, consistent casual layers, urban sidewalk, and natural overcast look. Identity and outfit may be replaced independently."
+    }
+  }
+}

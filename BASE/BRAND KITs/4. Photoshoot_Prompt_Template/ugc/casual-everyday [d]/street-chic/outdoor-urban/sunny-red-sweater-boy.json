@@ -1,0 +1,19 @@
+{
+  "name": "sunny-red-sweater-boy",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "balcony", "menswear"],
+  "image_type": "balcony-landscape-menswear-portrait",
+  "image_vibe": "sunny-relaxed-sophisticated",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic candid balcony portrait of an approved adult man overlooking a sunny mountain landscape.",
+    "main_subject": "An approved adult man with naturally messy voluminous dark hair, relaxed expression, and arms crossed while leaning on a bright yellow balcony railing. He wears a fuzzy red knitted polo sweater with white collar and loose light-beige jeans.",
+    "composition_elements": "Vertical slightly low-angle portrait with yellow railings and pillars, rolling green hills, mountains, houses, trees, blue sky, and wispy clouds.",
+    "lighting_and_atmosphere": "Bright natural sunlight with defined shadows, realistic knit and landscape texture, calm stylish smartphone-candid mood.",
+    "technical_specs": "Photorealistic 9:16 vertical image, realistic proportions, sharp subject, natural color, clear depth and fabric detail.",
+    "generated_prompt_string": "Create a photorealistic 9:16 candid balcony portrait of an approved adult man with messy voluminous dark hair and a relaxed expression leaning on a bright yellow railing with arms crossed. Dress him in a fuzzy red knitted polo sweater with a white collar and loose light-beige jeans. Show rolling green hills, mountains, scattered houses, trees, blue sky, and wispy clouds. Use bright sunlight, defined shadows, realistic knit and landscape textures, and relaxed sophisticated mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, exact face copy, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted landscape",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-red-sweater-subject", "required": true, "source": "sunny-red-sweater-boy.jpg", "usage": "Preserve adult identity, hair, expression, arms-crossed pose, and railing interaction."}, {"type": "wardrobe", "name": "red-knit-polo-beige-jeans", "required": true, "source": "sunny-red-sweater-boy.jpg", "usage": "Keep sweater, collar, jeans, and styling consistent; replace only with explicit references."}, {"type": "location", "name": "yellow-balcony-mountain-view", "required": true, "source": "sunny-red-sweater-boy.jpg", "usage": "Maintain railing, mountains, fields, sky, and sunlight; replace only with explicit references."}], "prompt_instructions": "Attach person, wardrobe, and location references when exact consistency is required. Keep adult identity, outfit, product, environment, logos, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced exact-face wording with approved-adult identity handling.", "Added safe negative prompts and structured references."]}
+}

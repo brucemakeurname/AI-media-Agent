@@ -1,0 +1,65 @@
+{
+  "name": "cocoon-lotus-refill-buy465k-gift458k",
+  "tag": [
+    "special-offer",
+    "refill",
+    "lotus",
+    "gift-with-purchase",
+    "minimal-poster",
+    "pink"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "cocoon_1007132122098922",
+  "prompt": {
+    "project_info": {
+      "theme": "Minimal gift-with-purchase poster for Hau Giang lotus refill cleanser",
+      "color_palette": "Soft White, Lotus Pink, Matte Black, Light Gold"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A clean white promotional poster featuring a large pink-and-white Cocoon Hau Giang lotus soothing cleanser refill pouch on the left and a group of small pink mini products on the right, with circular pink badges reading 'MUA 465K' and 'TẶNG 458K'.",
+      "style": "Minimal commercial sales poster, clean e-commerce layout, premium skincare gift-bundle graphic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'MUA 465K', 'TẶNG 458K', 'MUA Túi Refill Sữa Rửa Mặt Sen Hậu Giang 500ml', and 'TẶNG 1 Nước Sen Hậu Giang 50ml 2 Nước Tẩy Trang Sen Hậu Giang 50ml 2 Tinh Chất Xịt Dưỡng Sen Hậu Giang 50ml'.",
+      "items": [
+        "Top Left: Large refill pouch with eco-refill badge '74% GIẢM NHỰA SO VỚI DẠNG CHAI' on a clean white background.",
+        "Top Right: Two pink circular promotion badges and a cluster of five pink mini products arranged in depth.",
+        "Bottom Left: Large black-and-pink purchase text describing the refill pouch offer.",
+        "Bottom Right: Large black-and-pink gift text listing the free mini products and quantities.",
+        "Center/Background: Spacious white negative space separating the hero pouch from the gift bundle."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft studio catalog lighting",
+      "effect": "Even product illumination, subtle object shadows, crisp e-commerce readability, polished minimalism"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity retail poster design with realistic packshots",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a minimal gift-with-purchase skincare offer. Centerpiece is a large Cocoon Hau Giang lotus soothing cleanser refill pouch on the left and a bundle of pink mini lotus products on the right. Background is a plain white catalog field. Surrounding elements: circular pink badges 'MUA 465K' and 'TẶNG 458K', purchase copy 'MUA Túi Refill Sữa Rửa Mặt Sen Hậu Giang 500ml', and gift copy listing '1 Nước Sen Hậu Giang 50ml 2 Nước Tẩy Trang Sen Hậu Giang 50ml 2 Tinh Chất Xịt Dưỡng Sen Hậu Giang 50ml'. Keep the minimalist layout, exact offer wording, and clean packshot alignment. Technical style: high fidelity retail poster design with realistic packshots, soft studio catalog lighting, even product illumination and crisp e-commerce readability, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Hau Giang lotus cleanser refill pouch and mini gift set",
+          "required": true,
+          "source": "Attach official packshots or crops from the original image",
+          "usage": "Preserve the exact pouch form, mini bottle assortment, and pink product family identity."
+        },
+        {
+          "type": "text_layout",
+          "name": "Minimal promotional badge and copy layout",
+          "required": true,
+          "source": "Use the original creative as layout reference",
+          "usage": "Keep the badge sizes, text blocks, and negative space structure."
+        }
+      ],
+      "prompt_instructions": "When regenerating with gpt-image-2, attach the refill pouch and mini bundle refs so the product family stays accurate. The poster should remain minimal and white, with the pink badges and multiline offer text positioned exactly as in the original."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "urban-corridor-fashion-portrait",
+  "tag": "ugc",
+  "image_type": "photograph",
+  "image_vibe": "cool urban editorial",
+  "image_purpose": "streetwear fashion social content",
+  "group": "casual-everyday/street-chic/public-indoor",
+  "prompt": {
+    "project_info": "Ultra-realistic indoor fashion portrait in a bright glass hallway with city views.",
+    "main_subject": "One generic approved adult man with clean fade, short beard, and pearl beaded necklace, walking confidently with hands in pockets and relaxed posture; oversized blue, beige, white, and black abstract sketch-figure shirt, loose beige knee-length shorts with strap details, and white sneakers with beige-brown accents.",
+    "composition_elements": "Vertical full-body fashion composition centered in a glass corridor, reflective glossy floor, strong hallway leading lines, city skyline visible through windows, subject walking toward camera while looking to the side.",
+    "lighting_and_atmosphere": "Natural daylight through glass, crisp soft shadows on glossy floor, cool urban editorial atmosphere.",
+    "technical_specs": "Photorealistic high-resolution digital fashion photography, sharp garment and subject detail, realistic reflections, balanced vertical framing.",
+    "generated_prompt_string": "Create a vertical full-body photorealistic fashion portrait of one generic approved adult man walking confidently through a bright glass hallway with city views, hands in pockets, wearing a pearl necklace, oversized blue-beige-white-black sketch-figure shirt, loose beige knee-length shorts, and white sneakers with beige accents; natural daylight, crisp soft floor shadows, cool urban editorial realism.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized styling, nudity, minors, celebrity likeness, public figure likeness, distorted anatomy, extra limbs, malformed hands or feet, warped clothing graphics, watermark, logo overlay",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "urban-corridor-fashion-portrait.jpg", "required": true, "source": "local", "usage": "Match adult subject, full-body walking pose, outfit graphics, corridor, city views, reflections, framing, and daylight."}],
+      "prompt_instructions": "Attach the required reference image. Preserve identity, haircut, beard, necklace, pose, outfit silhouette and graphic placement, corridor geometry, city environment, composition, and light. Clothing graphics are replaceable; do not add logos or overlay text. Avoid celebrity likeness."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Normalized schema and slug.", "Removed embedded HTML and added safety/reference guidance."]}
+}

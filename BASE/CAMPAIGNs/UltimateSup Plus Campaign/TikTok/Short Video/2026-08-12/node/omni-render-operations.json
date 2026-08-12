@@ -1,0 +1,568 @@
+[
+  {
+    "scene": 1,
+    "scene_id": "bd4dbec3-de3b-4526-8cb2-0ee616c4f0f2",
+    "primary_media_id": "6c59585b-c88a-4fc7-bbbe-395ea7fbadb5",
+    "status": "scheduled"
+  },
+  {
+    "scene": 2,
+    "scene_id": "6e416ded-b5df-47ea-b13c-c6e78a708bcd",
+    "primary_media_id": "6a6e46e4-732a-4c52-9538-7ff9e8673e64",
+    "status": "scheduled",
+    "submission": {
+      "remainingCredits": 24831,
+      "workflows": [
+        {
+          "name": "891c7c35-ead2-4a0c-95b2-c2e5482558f5",
+          "metadata": {
+            "displayName": "Gym-goer recording selfie video",
+            "createTime": "2026-08-12T09:36:01.083917Z",
+            "primaryMediaId": "6a6e46e4-732a-4c52-9538-7ff9e8673e64",
+            "batchId": "cee28a58-78c6-435c-bbac-bcddd243fcd3",
+            "updateTime": "2026-08-12T09:36:06.110936Z"
+          },
+          "projectId": "8074b567-ad59-483d-8609-33871c1563db"
+        }
+      ],
+      "media": [
+        {
+          "name": "6a6e46e4-732a-4c52-9538-7ff9e8673e64",
+          "projectId": "8074b567-ad59-483d-8609-33871c1563db",
+          "workflowId": "891c7c35-ead2-4a0c-95b2-c2e5482558f5",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-12T09:36:01.083917Z",
+            "mediaTitle": "Medium front-camera selfie beside a gym bench: the gym-goer holds a transparent shaker at chest height after adding water, explains the difficulty of getting enough greens, and lets a small embarrassed smile appear.",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "abra_r2v_8s",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_REFERENCE_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_MULTI_REFERENCE"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_720P"
+                },
+                "videoGenerationImageInputs": [
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "00022a52-92d6-4d58-b39b-e8d9c2a5b506"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "09785bb3-6cdd-46da-b338-f8ff50b4cff5"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {
+                  "structuredPrompt": {
+                    "parts": [
+                      {
+                        "text": "Medium front-camera selfie beside a gym bench: the gym-goer holds a transparent shaker at chest height after adding water, explains the difficulty of getting enough greens, and lets a small embarrassed smile appear."
+                      }
+                    ]
+                  }
+                }
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_SCHEDULED"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 7360,
+              "prompt": "Medium front-camera selfie beside a gym bench: the gym-goer holds a transparent shaker at chest height after adding water, explains the difficulty of getting enough greens, and lets a small embarrassed smile appear.",
+              "model": "abra_r2v_8s",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT"
+            },
+            "dimensions": {
+              "length": "8s"
+            },
+            "operation": {
+              "name": "6a6e46e4-732a-4c52-9538-7ff9e8673e64"
+            }
+          },
+          "sceneId": "6e416ded-b5df-47ea-b13c-c6e78a708bcd"
+        }
+      ]
+    }
+  },
+  {
+    "scene": 3,
+    "scene_id": "ab57aeaf-2d30-4cd4-8afc-a6ac59514bb8",
+    "primary_media_id": "0287d242-c815-4ef5-9780-8c1282e1e5ce",
+    "status": "scheduled",
+    "submission": {
+      "remainingCredits": 24816,
+      "workflows": [
+        {
+          "name": "2b0f1df9-31e5-4791-bfb0-edf93bedbb8b",
+          "metadata": {
+            "displayName": "Gym-goer introducing chocolate t…",
+            "createTime": "2026-08-12T09:36:09.847874Z",
+            "primaryMediaId": "0287d242-c815-4ef5-9780-8c1282e1e5ce",
+            "batchId": "a42f1bec-ee40-42fb-87c1-dc8ab90788c1",
+            "updateTime": "2026-08-12T09:36:14.792572Z"
+          },
+          "projectId": "8074b567-ad59-483d-8609-33871c1563db"
+        }
+      ],
+      "media": [
+        {
+          "name": "0287d242-c815-4ef5-9780-8c1282e1e5ce",
+          "projectId": "8074b567-ad59-483d-8609-33871c1563db",
+          "workflowId": "2b0f1df9-31e5-4791-bfb0-edf93bedbb8b",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-12T09:36:09.847874Z",
+            "mediaTitle": "Static close-medium phone shot at the gym counter: the gym-goer slowly rotates the approved Mutant Big Greens Just Chocolate tub, holds the label clear and unobstructed for a moment, then looks to camera while introducing the flavor.",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "abra_r2v_10s",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_REFERENCE_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_MULTI_REFERENCE"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_720P"
+                },
+                "videoGenerationImageInputs": [
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "00022a52-92d6-4d58-b39b-e8d9c2a5b506"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "48b47dff-e513-4f46-b829-8f3f1274b0ad"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "09785bb3-6cdd-46da-b338-f8ff50b4cff5"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {
+                  "structuredPrompt": {
+                    "parts": [
+                      {
+                        "text": "Static close-medium phone shot at the gym counter: the gym-goer slowly rotates the approved Mutant Big Greens Just Chocolate tub, holds the label clear and unobstructed for a moment, then looks to camera while introducing the flavor."
+                      }
+                    ]
+                  }
+                }
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_SCHEDULED"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 7369,
+              "prompt": "Static close-medium phone shot at the gym counter: the gym-goer slowly rotates the approved Mutant Big Greens Just Chocolate tub, holds the label clear and unobstructed for a moment, then looks to camera while introducing the flavor.",
+              "model": "abra_r2v_10s",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT"
+            },
+            "dimensions": {
+              "length": "10s"
+            },
+            "operation": {
+              "name": "0287d242-c815-4ef5-9780-8c1282e1e5ce"
+            }
+          },
+          "sceneId": "ab57aeaf-2d30-4cd4-8afc-a6ac59514bb8"
+        }
+      ]
+    }
+  },
+  {
+    "scene": 4,
+    "scene_id": "7a330796-8876-4d87-91e6-144aa2329662",
+    "primary_media_id": "c5d9ccc6-36c4-4993-94ad-ebb0e29da302",
+    "status": "scheduled",
+    "submission": {
+      "remainingCredits": 24801,
+      "workflows": [
+        {
+          "name": "7e02e32a-6ad7-42af-bbec-739fd245f207",
+          "metadata": {
+            "displayName": "Gym-goer tasting drink",
+            "createTime": "2026-08-12T09:36:18.729756Z",
+            "primaryMediaId": "c5d9ccc6-36c4-4993-94ad-ebb0e29da302",
+            "batchId": "66625d3e-eea7-4cc4-97c1-d860094098fd",
+            "updateTime": "2026-08-12T09:36:24.059076Z"
+          },
+          "projectId": "8074b567-ad59-483d-8609-33871c1563db"
+        }
+      ],
+      "media": [
+        {
+          "name": "c5d9ccc6-36c4-4993-94ad-ebb0e29da302",
+          "projectId": "8074b567-ad59-483d-8609-33871c1563db",
+          "workflowId": "7e02e32a-6ad7-42af-bbec-739fd245f207",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-12T09:36:18.729756Z",
+            "mediaTitle": "Medium handheld selfie at the gym drink-prep counter: the gym-goer takes a small sip from the clear shaker, cheeks lift with a surprised smile, and gently points to the drink as he describes its taste.",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "abra_r2v_10s",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_REFERENCE_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_MULTI_REFERENCE"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_720P"
+                },
+                "videoGenerationImageInputs": [
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "00022a52-92d6-4d58-b39b-e8d9c2a5b506"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "48b47dff-e513-4f46-b829-8f3f1274b0ad"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "09785bb3-6cdd-46da-b338-f8ff50b4cff5"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {
+                  "structuredPrompt": {
+                    "parts": [
+                      {
+                        "text": "Medium handheld selfie at the gym drink-prep counter: the gym-goer takes a small sip from the clear shaker, cheeks lift with a surprised smile, and gently points to the drink as he describes its taste."
+                      }
+                    ]
+                  }
+                }
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_SCHEDULED"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 7378,
+              "prompt": "Medium handheld selfie at the gym drink-prep counter: the gym-goer takes a small sip from the clear shaker, cheeks lift with a surprised smile, and gently points to the drink as he describes its taste.",
+              "model": "abra_r2v_10s",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT"
+            },
+            "dimensions": {
+              "length": "10s"
+            },
+            "operation": {
+              "name": "c5d9ccc6-36c4-4993-94ad-ebb0e29da302"
+            }
+          },
+          "sceneId": "7a330796-8876-4d87-91e6-144aa2329662"
+        }
+      ]
+    }
+  },
+  {
+    "scene": 5,
+    "scene_id": "0e535675-7928-47f6-9140-9532c7562396",
+    "primary_media_id": "e686db24-012e-4f83-b283-30f4151bb5b7",
+    "status": "scheduled",
+    "submission": {
+      "remainingCredits": 24789,
+      "workflows": [
+        {
+          "name": "018eca5d-2271-48b4-8c8e-b9940abb32f8",
+          "metadata": {
+            "displayName": "Gym-goer explains vitamins with tub",
+            "createTime": "2026-08-12T09:36:31.015238Z",
+            "primaryMediaId": "e686db24-012e-4f83-b283-30f4151bb5b7",
+            "batchId": "2673e8c0-e69a-476c-8927-7bca1baf3730",
+            "updateTime": "2026-08-12T09:36:37.063265Z"
+          },
+          "projectId": "8074b567-ad59-483d-8609-33871c1563db"
+        }
+      ],
+      "media": [
+        {
+          "name": "e686db24-012e-4f83-b283-30f4151bb5b7",
+          "projectId": "8074b567-ad59-483d-8609-33871c1563db",
+          "workflowId": "018eca5d-2271-48b4-8c8e-b9940abb32f8",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-12T09:36:31.015238Z",
+            "mediaTitle": "Medium front-camera selfie by the gym bench: the gym-goer holds the approved Mutant Big Greens tub and clear shaker, taps the tub once, and explains the added vitamins.",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "abra_r2v_8s",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_REFERENCE_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_MULTI_REFERENCE"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_720P"
+                },
+                "videoGenerationImageInputs": [
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "00022a52-92d6-4d58-b39b-e8d9c2a5b506"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "48b47dff-e513-4f46-b829-8f3f1274b0ad"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "09785bb3-6cdd-46da-b338-f8ff50b4cff5"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {
+                  "structuredPrompt": {
+                    "parts": [
+                      {
+                        "text": "Medium front-camera selfie by the gym bench: the gym-goer holds the approved Mutant Big Greens tub and clear shaker, taps the tub once, and explains the added vitamins."
+                      }
+                    ]
+                  }
+                }
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_SCHEDULED"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 7387,
+              "prompt": "Medium front-camera selfie by the gym bench: the gym-goer holds the approved Mutant Big Greens tub and clear shaker, taps the tub once, and explains the added vitamins.",
+              "model": "abra_r2v_8s",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT"
+            },
+            "dimensions": {
+              "length": "8s"
+            },
+            "operation": {
+              "name": "e686db24-012e-4f83-b283-30f4151bb5b7"
+            }
+          },
+          "sceneId": "0e535675-7928-47f6-9140-9532c7562396"
+        }
+      ]
+    }
+  },
+  {
+    "scene": 6,
+    "scene_id": "7c90de61-8aa5-42a8-877a-6b7334d29c2e",
+    "primary_media_id": "badbe4d2-b760-4b07-a158-fb01e1ddf819",
+    "status": "scheduled",
+    "submission": {
+      "remainingCredits": 24774,
+      "workflows": [
+        {
+          "name": "a12ad577-e834-43fe-9770-00d3b7fcbcf9",
+          "metadata": {
+            "displayName": "Gym-goer comparing protein tubs",
+            "createTime": "2026-08-12T09:36:40.422156Z",
+            "primaryMediaId": "badbe4d2-b760-4b07-a158-fb01e1ddf819",
+            "batchId": "c8ef4c0f-21b7-48a6-a111-bdf27fa8dd0b",
+            "updateTime": "2026-08-12T09:36:47.341946Z"
+          },
+          "projectId": "8074b567-ad59-483d-8609-33871c1563db"
+        }
+      ],
+      "media": [
+        {
+          "name": "badbe4d2-b760-4b07-a158-fb01e1ddf819",
+          "projectId": "8074b567-ad59-483d-8609-33871c1563db",
+          "workflowId": "a12ad577-e834-43fe-9770-00d3b7fcbcf9",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-12T09:36:40.422156Z",
+            "mediaTitle": "Medium front-camera selfie by the gym bench: the gym-goer holds a clear shaker while the approved Mutant Big Greens tub sits beside a plain unbranded whey tub, making a simple two-hand comparison gesture before setting the shaker beside the whey.",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "abra_r2v_10s",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_REFERENCE_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_MULTI_REFERENCE"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_720P"
+                },
+                "videoGenerationImageInputs": [
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "00022a52-92d6-4d58-b39b-e8d9c2a5b506"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "48b47dff-e513-4f46-b829-8f3f1274b0ad"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "09785bb3-6cdd-46da-b338-f8ff50b4cff5"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {
+                  "structuredPrompt": {
+                    "parts": [
+                      {
+                        "text": "Medium front-camera selfie by the gym bench: the gym-goer holds a clear shaker while the approved Mutant Big Greens tub sits beside a plain unbranded whey tub, making a simple two-hand comparison gesture before setting the shaker beside the whey."
+                      }
+                    ]
+                  }
+                }
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_SCHEDULED"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 7400,
+              "prompt": "Medium front-camera selfie by the gym bench: the gym-goer holds a clear shaker while the approved Mutant Big Greens tub sits beside a plain unbranded whey tub, making a simple two-hand comparison gesture before setting the shaker beside the whey.",
+              "model": "abra_r2v_10s",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT"
+            },
+            "dimensions": {
+              "length": "10s"
+            },
+            "operation": {
+              "name": "badbe4d2-b760-4b07-a158-fb01e1ddf819"
+            }
+          },
+          "sceneId": "7c90de61-8aa5-42a8-877a-6b7334d29c2e"
+        }
+      ]
+    }
+  },
+  {
+    "scene": 7,
+    "scene_id": "a7c24ed5-5e24-498e-a128-6cea52ceee9d",
+    "primary_media_id": "0e078bb0-83e2-40e0-863b-83c2653d2acd",
+    "status": "scheduled",
+    "submission": {
+      "remainingCredits": 24762,
+      "workflows": [
+        {
+          "name": "4b27c395-809b-4e06-9e02-885d662fc7b4",
+          "metadata": {
+            "displayName": "Man holding chocolate tub selfie",
+            "createTime": "2026-08-12T09:36:51.438094Z",
+            "primaryMediaId": "0e078bb0-83e2-40e0-863b-83c2653d2acd",
+            "batchId": "5fae7d23-5202-400a-9a9f-030242cdc01c",
+            "updateTime": "2026-08-12T09:36:56.800781Z"
+          },
+          "projectId": "8074b567-ad59-483d-8609-33871c1563db"
+        }
+      ],
+      "media": [
+        {
+          "name": "0e078bb0-83e2-40e0-863b-83c2653d2acd",
+          "projectId": "8074b567-ad59-483d-8609-33871c1563db",
+          "workflowId": "4b27c395-809b-4e06-9e02-885d662fc7b4",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-12T09:36:51.438094Z",
+            "mediaTitle": "Medium front-camera selfie in the same gym: the gym-goer holds the approved Mutant Big Greens Just Chocolate tub at shoulder height with the label clear, points down with his free hand, then keeps the tub steady for a clean final packshot.",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "abra_r2v_8s",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_REFERENCE_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_MULTI_REFERENCE"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_720P"
+                },
+                "videoGenerationImageInputs": [
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "00022a52-92d6-4d58-b39b-e8d9c2a5b506"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "48b47dff-e513-4f46-b829-8f3f1274b0ad"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "09785bb3-6cdd-46da-b338-f8ff50b4cff5"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {
+                  "structuredPrompt": {
+                    "parts": [
+                      {
+                        "text": "Medium front-camera selfie in the same gym: the gym-goer holds the approved Mutant Big Greens Just Chocolate tub at shoulder height with the label clear, points down with his free hand, then keeps the tub steady for a clean final packshot."
+                      }
+                    ]
+                  }
+                }
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_SCHEDULED"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 7411,
+              "prompt": "Medium front-camera selfie in the same gym: the gym-goer holds the approved Mutant Big Greens Just Chocolate tub at shoulder height with the label clear, points down with his free hand, then keeps the tub steady for a clean final packshot.",
+              "model": "abra_r2v_8s",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT"
+            },
+            "dimensions": {
+              "length": "8s"
+            },
+            "operation": {
+              "name": "0e078bb0-83e2-40e0-863b-83c2653d2acd"
+            }
+          },
+          "sceneId": "a7c24ed5-5e24-498e-a128-6cea52ceee9d"
+        }
+      ]
+    }
+  }
+]

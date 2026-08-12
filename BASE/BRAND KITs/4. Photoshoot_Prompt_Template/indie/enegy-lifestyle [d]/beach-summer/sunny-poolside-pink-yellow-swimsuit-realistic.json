@@ -1,0 +1,71 @@
+{
+  "name": "sunny-poolside-pink-yellow-swimsuit-realistic",
+  "tag": [
+    "resort-pool",
+    "competitive-swimwear",
+    "pink-yellow",
+    "wet-hair",
+    "summer-editorial"
+  ],
+  "image_type": "swimwear-editorial-portrait",
+  "image_vibe": "sunlit-athletic-resort",
+  "image_purpose": "lookbook",
+  "group": "indie/enegy-lifestyle/beach-summer",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as an adult, removed body-emphasis wording, and made the swimsuit logo an optional approved reference asset."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "bright resort-pool competitive-swimwear editorial",
+      "color_palette": "bubblegum pink, sunny yellow, pool cyan, palm green, and warm white",
+      "format": "vertical 3:4 medium-full portrait"
+    },
+    "main_subject": {
+      "type": "adult East Asian woman",
+      "detail": "Adult woman with a shoulder-length platinum-blonde bob and soft bangs, standing waist-deep in a resort pool after swimming. She wears a glossy two-tone competitive one-piece swimsuit with a bubblegum-pink center panel and yellow side panels.",
+      "style": "athletic resort swimwear editorial, non-sexualized"
+    },
+    "composition_elements": {
+      "text": "No text, logo, or watermark unless supplied as an approved logo reference.",
+      "items": [
+        "upright relaxed stance in sparkling shallow pool water",
+        "wet hair, subtle droplets, and eyes closed toward the sun",
+        "blue pool tiles, white loungers, palms, hedges, and a Mediterranean-style villa behind",
+        "slightly elevated medium-full camera angle"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "bright high-key midday sunlight",
+      "effect": "clean pool reflections, defined soft shadows, fresh tropical-resort atmosphere"
+    },
+    "technical_specs": {
+      "camera": "Nikon Z8",
+      "lens": "NIKKOR Z 50mm f/1.2 at f/2.8",
+      "render_style": "natural water droplets and swimsuit texture, sharp focus, softly blurred background, controlled highlights"
+    },
+    "generated_prompt_string": "Create a vertical 3:4 medium-full athletic swimwear editorial of an adult East Asian woman standing waist-deep in a sunny upscale resort pool. She has a shoulder-length platinum-blonde bob with soft bangs and wears a glossy two-tone competitive one-piece swimsuit with a bubblegum-pink center panel and sunny-yellow side panels. Her wet hair and light water droplets suggest recent swimming; she lifts her face gently toward the sunlight in a relaxed pose. Include sparkling blue pool water and tiles, white lounge chairs, hedges, palm trees, and a Mediterranean-style villa. Use bright high-key midday sun, clean water reflections, sharp natural detail, and a non-sexualized athletic resort mood. Apply a swimsuit logo only if an approved logo reference is attached. No other text or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, sexualized pose, body emphasis, nudity, transparent clothing, unapproved logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, text, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity replacement is required.",
+          "usage": "Replace only the adult subject identity while retaining the bob direction, pool stance, swimsuit silhouette, and resort composition."
+        },
+        {
+          "type": "logo",
+          "name": "approved-swimsuit-logo-reference",
+          "required": false,
+          "source": "Attach approved logo artwork if a logo must appear on the swimsuit.",
+          "usage": "Use the exact supplied logo only; place it small on the upper chest without changing its typography, colors, or proportions."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. Logo reference is optional: if absent, use an unbranded swimsuit. Preserve the pool, athletic upright pose, pink-yellow garment palette, bright sunlight, and non-sexualized editorial direction."
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "name": "ultra-realistic-cinematic-street-portrait",
+  "tag": [
+    "adult-woman",
+    "winter-coat",
+    "scarf",
+    "crowd-motion-blur",
+    "street-portrait",
+    "cinematic"
+  ],
+  "image_type": "cinematic-street-portrait",
+  "image_vibe": "introspective-cool-restless",
+  "image_purpose": "editorial",
+  "group": "indie/abstract",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that the central woman is an adult."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "sharp adult woman against a flowing city crowd",
+      "color_palette": "slate blue, charcoal, muted beige, cool gray",
+      "format": "portrait 4:5"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with dark hair tied loosely back, subtle freckles, neutral makeup, a dark winter coat, textured dark scarf, and a calm intense expression.",
+      "style": "close cinematic street portrait with natural skin texture"
+    },
+    "composition_elements": {
+      "text": "No rendered text.",
+      "items": [
+        "central face sharp in close chest-up framing",
+        "dark coat and textured scarf",
+        "anonymous people streaking diagonally around the subject",
+        "soft city color and creamy background bokeh",
+        "slight shoulder bag strap visible"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "natural soft daylight at approximately 6200K with cool urban fill",
+      "effect": "subtle freckles, calm introspection, shallow focus, and strong directional crowd movement"
+    },
+    "technical_specs": {
+      "render_style": "DSLR-style 85mm lens at f/1.8, controlled long-exposure crowd blur, natural dynamic range, subtle film grain",
+      "resolution": "high resolution, portrait 4:5"
+    },
+    "generated_prompt_string": "Ultra-realistic cinematic street portrait of an adult woman standing still in a crowded city street, with sharp focus on her face and a calm intense expression. She has dark hair tied loosely back, subtle freckles, neutral makeup, a dark winter coat, a textured dark scarf, and a small shoulder-bag strap. Create a long-exposure effect with anonymous people moving around her in strong diagonal directional blur while she remains perfectly still. Use natural soft daylight, shallow depth of field, creamy bokeh, realistic skin texture, emotional introspective urban storytelling, an 85mm lens look at f/1.8, professional color grading, and portrait 4:5 framing.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, recognizable bystanders, text, watermark, logo, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, duplicate subject",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-winter-street-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult reference when face continuity is required.",
+          "usage": "Preserve adult face, hair, and freckles if attached; otherwise use a generic adult model."
+        },
+        {
+          "type": "wardrobe",
+          "name": "dark-winter-coat-and-scarf-reference",
+          "required": false,
+          "source": "Attach wardrobe references when exact coat or scarf texture must match.",
+          "usage": "Keep dark outerwear and scarf consistent; items may be replaced."
+        }
+      ],
+      "prompt_instructions": "All assets are optional. Preserve an adult central subject, dark winter layers, sharp calm expression, and anonymous directional crowd blur. Identity and wardrobe may be replaced independently."
+    }
+  }
+}

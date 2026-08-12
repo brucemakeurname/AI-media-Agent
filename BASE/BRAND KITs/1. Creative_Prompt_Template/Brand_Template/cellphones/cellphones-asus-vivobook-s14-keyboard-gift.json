@@ -1,0 +1,54 @@
+{
+  "name": "cellphones-asus-vivobook-s14-keyboard-gift",
+  "tag": ["cellphones", "asus vivobook", "laptop promo", "keyboard gift", "installment"],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "cellphones_1420422869910317",
+  "prompt": {
+    "project_info": {
+      "theme": "Laptop sale with accessory gift",
+      "color_palette": "Red, white, electric blue, navy, silver, rainbow screen tones"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A tech-sale poster featuring an ASUS Vivobook S14 M3407KA laptop in the foreground on a futuristic blue digital-grid background, paired with a promotional gift box panel showing a wired Rapoo mechanical keyboard.",
+      "style": "Modern electronics sale poster, futuristic retail graphic"
+    },
+    "composition_elements": {
+      "type": "Product/Typography/Gift Panel",
+      "text": "cellphoneS, Vivobook S14 M3407KA, Giá ưu đãi 23.79 Triệu, Trả Góp 0%, MUA NGAY, Quà Tặng: Bàn phím cơ có dây Rapoo V501-87, ASUS VIVOBOOK",
+      "items": [
+        "Top Center: red cellphoneS logo block.",
+        "Upper Left: large white title 'Vivobook S14 M3407KA'.",
+        "Upper Right: rounded white price panel with blue text 'Giá ưu đãi 23.79 Triệu'.",
+        "Below price: white text 'Trả Góp 0%' and right-aligned 'MUA NGAY'.",
+        "Bottom Right: open ASUS laptop angled three-quarters toward viewer, showing a colorful gradient wallpaper.",
+        "Bottom Left: blue gift panel containing a tilted mechanical keyboard image and white gift text.",
+        "Background: dark blue futuristic data-wall and glowing grid floor."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Cool tech-commercial lighting",
+      "effect": "Futuristic showroom glow, crisp product edges, strong neon-blue depth"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal tech-sale composite poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "logo", "name": "cellphoneS and ASUS branding", "required": true, "source": "source image brand references", "usage": "Preserve the top retail logo and laptop-screen brand text."},
+        {"type": "product", "name": "ASUS Vivobook S14 laptop and Rapoo V501-87 keyboard", "required": true, "source": "source image product reference", "usage": "Keep the laptop angle, wallpaper, and the tilted keyboard gift image."},
+        {"type": "text_layout", "name": "price panel and gift text", "required": true, "source": "source image text reference", "usage": "Preserve the exact model name, price, installment text, and gift wording."},
+        {"type": "background", "name": "blue digital grid backdrop", "required": true, "source": "source image background reference", "usage": "Maintain the futuristic data-wall and glowing floor aesthetic."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the laptop angle, keyboard tilt, and price-panel spacing.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the blue futuristic tech-retail environment and the split laptop-plus-gift layout."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square tech-sale poster with a dark blue futuristic data-wall and glowing grid floor. Place a red cellphoneS logo at the top center, large white text 'Vivobook S14 M3407KA' on the left, and a rounded white price panel on the right reading 'Giá ưu đãi 23.79 Triệu'. Add 'Trả Góp 0%' and 'MUA NGAY'. In the lower right show an angled ASUS Vivobook laptop with a colorful gradient wallpaper. In the lower left place a blue gift panel with a tilted Rapoo V501-87 wired mechanical keyboard and the text 'Quà Tặng: Bàn phím cơ có dây Rapoo V501-87'. Technical style: photoreal tech-sale composite poster, cool tech-commercial lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark unreadable text, wrong laptop model, low resolution, warped keyboard, cluttered layout, dull colors, watermark, signature"
+  }
+}

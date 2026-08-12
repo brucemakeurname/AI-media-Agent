@@ -1,0 +1,75 @@
+{
+  "name": "modern-chinese-retro-glamour",
+  "tag": [
+    "adult-woman",
+    "chinese-study",
+    "black-velvet-suit",
+    "red-silk-cuffs",
+    "retro-glamour"
+  ],
+  "image_type": "cinematic-fashion-portrait",
+  "image_vibe": "cool-refined-retro",
+  "image_purpose": "editorial",
+  "group": "indie/enegy-lifestyle/luxury-editorial",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Retained the adult Chinese-study retro fashion concept while replacing the low-angle leg-and-heel emphasis with an upright seated pose, opaque trousers, and a non-textual ink-art scroll."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "modern Chinese retro fashion editorial in a scholarly study",
+      "color_palette": "deep brown, black velvet, cinnabar red, bronze, parchment beige, and muted gold",
+      "format": "vertical 9:16 seated portrait"
+    },
+    "main_subject": {
+      "description": "an adult woman in a black velvet tailored suit jacket with red silk cuff designs, black wide-leg trousers, and understated black leather shoes",
+      "pose_and_expression": "seated upright in a carved wooden armchair, turned slightly toward camera with a confident composed expression"
+    },
+    "composition_elements": {
+      "camera_angle": "eye-level to slightly low three-quarter portrait without body exaggeration",
+      "foreground": "black velvet texture, red cuff embroidery, and carved chair arm",
+      "background": "Chinese study with shelves of old books, bronze ware, a non-textual ink-art scroll, and a sheathed decorative sword leaning safely near the wall",
+      "visual_hierarchy": "adult subject face and tailored suit, carved furniture, then warm scholarly room details"
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "soft layered warm light with controlled shadows and subtle red-black contrast",
+      "atmosphere": "cool, dignified, scholarly, and high-end retro"
+    },
+    "technical_specs": {
+      "camera": "Nikon Z8",
+      "lens": "50mm f/1.8",
+      "settings": "1/125s, f/2.2, ISO 640",
+      "rendering": "natural skin texture, detailed velvet, warm wood grain, restrained cinematic grain"
+    },
+    "generated_prompt_string": "Modern Chinese retro fashion photography in a scholarly study. An adult woman sits upright in a carved wooden armchair, turned slightly toward camera with a confident composed expression. She wears a black velvet tailored suit jacket with red silk cuff designs, black wide-leg trousers, and understated black leather shoes. Surround her with dark wooden bookshelves filled with old books, bronze ware, a non-textual ink-art scroll, and a sheathed decorative sword leaning safely near the wall. Soft layered lighting, deep brown tones, red-and-black contrast, detailed velvet and wood texture, vertical cinematic editorial framing, and a dignified high-end atmosphere.",
+    "negative_prompt": "minor, explicit, nsfw, overly revealing, sheer stockings, body-part emphasis, sexualized pose, extreme low angle, nudity, readable calligraphy, logo, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-retro-model-reference",
+          "required": false,
+          "source": "approved adult non-public-figure portrait",
+          "usage": "Replace the authorized adult identity and hairstyle only."
+        },
+        {
+          "type": "wardrobe",
+          "name": "velvet-suit-reference",
+          "required": false,
+          "source": "approved wardrobe reference",
+          "usage": "Match velvet tailoring and red cuff textile details when supplied."
+        },
+        {
+          "type": "location",
+          "name": "study-reference",
+          "required": false,
+          "source": "approved location reference",
+          "usage": "Match bookshelves, woodwork, bronze objects, scroll placement, and decorative sword prop when supplied."
+        }
+      ],
+      "prompt_instructions": "No reference is mandatory. Preserve the adult subject, black velvet and red cuff palette, Chinese-study environment, non-textual scroll, and decorative sheathed sword; replace only approved identity, wardrobe, or room details."
+    }
+  }
+}

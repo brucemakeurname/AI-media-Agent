@@ -1,0 +1,75 @@
+{
+  "name": "cinematic-anya-wet-macro-portrait",
+  "tag": [
+    "adult-woman",
+    "wet-hair",
+    "cyan-light",
+    "macro-close-up",
+    "blue-eyes",
+    "cinematic-portrait"
+  ],
+  "image_type": "cinematic-macro-portrait",
+  "image_vibe": "moody, melancholic, rain-soaked, cool, intense",
+  "image_purpose": "editorial, moodboard, profile-visual",
+  "group": "indie / moody-portrait / intimate-closeup",
+  "prompt": {
+    "project_info": {
+      "theme": "Rain-soaked cyan cinematic macro portrait",
+      "format": "vertical 9:16 close-up",
+      "color_palette": "cyan blue, deep teal, cool gray, muted skin tones"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "Use the attached approved adult face reference as the identity. She has wet light-blonde hair in loose wavy face-framing strands, expressive blue eyes, dark eyeliner, subtle eyeshadow, brushed brows, natural dewy skin with realistic pores and faint natural redness, and softly glossy lips.",
+      "style": "photorealistic cinematic rain portrait"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "extreme vertical close-up with the eyes as the focus point",
+        "wet hair drapes heavily around the face and neck",
+        "visible rain droplets and dewy skin sheen",
+        "no jewelry or visible wardrobe detail; dark blue rain-softened background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "front-left softbox with a cyan gel, cool ambient fill, approximately 6200K",
+      "effect": "moody blue cast, soft eye catchlights, dimensional wet hair, and restrained facial shadow",
+      "atmosphere": "dramatic, melancholic, rain-soaked, cinematic"
+    },
+    "technical_specs": {
+      "render_style": "Nikon Z8, 105mm macro lens, f/1.4, 1/125, ISO 100, shallow depth of field",
+      "resolution": "high-detail photorealistic macro portrait",
+      "color_treatment": "muted teal-and-orange influence, cool blue cast, natural skin texture, subtle film grain"
+    },
+    "generated_prompt_string": "Use the attached approved adult face reference as the exact identity and preserve her face, facial structure, and likeness without imitating a celebrity or public figure. Create a photorealistic vertical 9:16 cinematic macro portrait of an adult woman with wet light-blonde hair in loose wavy face-framing strands, expressive blue eyes, dark eyeliner, subtle eyeshadow, brushed brows, realistic pores, faint natural redness, dewy skin, and softly glossy lips. Let wet strands drape heavily around the face and neck, with visible rain droplets and a dark blue rain-softened background; no jewelry or visible wardrobe detail. Light with a front-left softbox fitted with a cyan gel plus cool ambient fill at approximately 6200K for a dramatic melancholic blue cast and dimensional wet hair. Nikon Z8, 105mm macro, f/1.4, 1/125, ISO 100, eye focus, shallow depth, muted teal-and-orange influence, natural skin texture, and subtle film grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, celebrity likeness, public-figure likeness, minor, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "An approved-adult face and identity reference is required. Preserve the exact supplied adult face, facial structure, and likeness; never substitute a celebrity or public figure. The source moodboard is optional for wet blonde hair, rain droplets, cyan lighting, macro crop, and dark blue background. Hair color may change only if the wet face-framing texture and rain-soaked cinematic mood remain intact.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult face and identity reference",
+          "required": true,
+          "source": "user-supplied approved reference",
+          "usage": "Keep the exact adult person's face, facial structure, and likeness consistent."
+        },
+        {
+          "type": "moodboard",
+          "name": "wet cyan macro portrait source",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1775000100062-at5hz0dc-1.jpg",
+          "usage": "Use for the wet hair, rain droplets, cyan lighting, macro crop, and moody blue atmosphere."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced celebrity likeness with a required approved-adult face-reference workflow.",
+      "Preserved wet blonde hair, rain droplets, blue cyan lighting, macro crop, and cinematic mood.",
+      "Replaced non-photographic render-engine keywords with camera-based photographic specifications."
+    ]
+  }
+}

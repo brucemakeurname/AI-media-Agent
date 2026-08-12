@@ -1,0 +1,60 @@
+{
+  "name": "high-fashion-tennis-girl",
+  "tag": ["adult-woman", "nike-tennis", "precision-editorial", "white-performance-look", "green-court", "sports-fashion"],
+  "image_type": "tennis-fashion-campaign",
+  "image_vibe": "confident-athletic-luxurious",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an adult and used curvy-silhouette, fitted-performance-wear, and directional-light language while preserving the Nike tennis outfit, seated court pose, racket, PRECISION typography, and campaign copy."]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "high-fashion Nike tennis sports editorial campaign",
+      "color_palette": "deep court green, crisp white, warm skin tones, and subtle black accents",
+      "aspect_ratio": "1:1"
+    },
+    "main_subject": {
+      "description": "A confident adult female tennis athlete with a curvy feminine silhouette, natural skin texture, ponytail, and direct focused gaze.",
+      "wardrobe": "Fitted white Nike performance crop top with a flattering neckline, crisp white pleated tennis skirt, white visor, wristbands, socks, and Nike tennis shoes.",
+      "pose": "Seated casually on a professional green tennis court with one knee raised, one leg extended, one hand resting near the knee, and the other supporting the body; racket lies beside her.",
+      "styling": "Premium athletic editorial with natural makeup, subtle sweat sheen, and polished sports confidence."
+    },
+    "composition_elements": {
+      "framing": "Square seated portrait with adult subject filling the lower-right composition and typography towering behind.",
+      "environment": "Professional green tennis court with white lines and a deep green backdrop, soft natural sunlight, and subtle directional shadows.",
+      "typography": "Large oversized white PRECISION typography behind the subject with smaller copy FOCUS. CONTROL. CONFIDENCE. and a Nike swoosh. Render text accurately and legibly.",
+      "focus": "Sharp adult face, fitted performance fabric, pleated skirt texture, shoes, racket strings, court lines, and readable typography."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft natural sunlight with flattering highlights across the adult subject, realistic shadows enhancing the fitted athletic silhouette, and crisp court texture.",
+      "atmosphere": "Focused, confident, luxurious, athletic, and editorial."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with an 85mm lens at f/2.8, 1/500 s, ISO 200",
+      "quality": "Ultra-realistic high-resolution sports-fashion photography, shallow depth of field, polished magazine-cover finish, natural skin and fabric texture"
+    },
+    "generated_prompt_string": "Create a high-fashion 1:1 Nike tennis sports editorial campaign. Show a confident adult female tennis athlete with a curvy feminine silhouette, natural skin texture, ponytail, and focused direct gaze, seated casually on a professional green tennis court. She wears a fitted white Nike performance crop top with a flattering neckline, crisp white pleated tennis skirt, white visor, wristbands, socks, and Nike tennis shoes. Pose her with one knee raised, one leg extended, one hand near the knee, and the other supporting her body; place a tennis racket beside her. Add giant white PRECISION typography behind her with accurate smaller copy FOCUS. CONTROL. CONFIDENCE. and a Nike swoosh. Use soft natural sunlight, realistic shadows enhancing the fitted silhouette, subtle sweat sheen, crisp court lines, and no watermark or extra text.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, wardrobe malfunction, illegible text, distorted Nike swoosh, deformed anatomy, extra limbs, broken racket geometry, watermark, harsh lighting",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult athlete. Optional tennis outfit, racket, court, typography, or lighting references may replace only their named element; preserve fitted athletic coverage, feminine silhouette, seated pose, Nike branding, and PRECISION campaign message.",
+      "assets": [
+        {
+          "type": "wardrobe",
+          "name": "white-nike-tennis-performance-look",
+          "required": false,
+          "source": "user-uploaded sportswear reference",
+          "usage": "Replace only the top, skirt, visor, socks, shoes, or wristbands while preserving polished coverage and white palette."
+        },
+        {
+          "type": "location",
+          "name": "deep-green-professional-tennis-court",
+          "required": false,
+          "source": "user-uploaded location reference",
+          "usage": "Replace only the court surface, lines, backdrop, and sunlight while preserving the seated editorial composition."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "badass-southern-weather-fashion-editorial",
+  "tag": [
+    "weather update",
+    "fashion editorial",
+    "summer styling",
+    "minimal typography",
+    "social creative",
+    "Vietnamese copy"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Lifestyle content",
+  "group": "badass_1275972978030202",
+  "prompt": {
+    "project_info": {
+      "theme": "Southern Vietnam hot weather fashion advisory",
+      "color_palette": "Sky blue, white, pale beige, soft gray, muted yellow"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A slim young Asian man standing in the lower center-right foreground, wearing brown-tinted sunglasses, a light beige textured short-sleeve knit shirt tucked into high-waisted off-white trousers with a dark brown belt, holding a brown garment in one hand, calm editorial pose, looking straight ahead. The design combines a real fashion portrait with a weather forecast interface overlay.",
+      "style": "Clean luxury fashion campaign, realistic photography, soft commercial retouching, minimal Apple-weather-inspired UI, elegant summer resort aesthetic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography Overlay",
+      "text": "BADASS, Miền Nam, 27-36°, Ban ngày nắng gắt, chiều tối có mưa rào giải nhiệt, Bây giờ, 15 giờ, 16 giờ, 17 giờ, 18 giờ, PODTK725 - QJDTK614",
+      "items": [
+        "Top Right: large white brand text 'BADASS' with soft glow near a bright sun flare.",
+        "Top Center: white heading 'Miền Nam' above oversized temperature text '27-36°'.",
+        "Upper Middle: centered white sentence 'Ban ngày nắng gắt, chiều tối có mưa rào giải nhiệt'.",
+        "Middle Band: a rounded translucent blue weather panel spanning nearly full width with hourly labels 'Bây giờ', '15 giờ', '16 giờ', '17 giờ', '18 giờ' and simple weather icons from sunny to cloudy to rain.",
+        "Center Background: bright blue sky gradient with thin clouds and strong sun haze in the upper right.",
+        "Lower Background: blurred outdoor resort cabana with beige draped fabric, dark wooden posts, soft lounge cushions, and greenery at the bottom edge.",
+        "Lower Center-Right: the male model overlaps in front of the weather panel, creating a layered poster composition.",
+        "Bottom Left: small white product code text 'PODTK725 - QJDTK614'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright natural sunlight with commercial soft fill",
+      "effect": "Strong sun bloom in the upper right, airy summer haze, gentle lens glow, soft shadows, warm daylight skin tones, shallow background blur"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic fashion advertising poster with UI-infographic compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "BADASS wordmark",
+          "required": true,
+          "source": "brand logo reference",
+          "usage": "Attach the BADASS logo reference so the top-right wordmark remains exact in font weight, spacing, and brand styling."
+        },
+        {
+          "type": "person",
+          "name": "male fashion model",
+          "required": false,
+          "source": "portrait reference of the intended real model",
+          "usage": "If the image must preserve a specific real person's identity or likeness, include a face and outfit reference image and instruct the model to keep the same person, hairstyle, sunglasses, and styling."
+        },
+        {
+          "type": "location",
+          "name": "resort cabana setting",
+          "required": false,
+          "source": "location reference photo if exact venue is needed",
+          "usage": "Only attach a location reference if the cabana background must match a real venue; otherwise the environment can remain generative."
+        }
+      ],
+      "prompt_instructions": [
+        "If using gpt-image-2, attach the BADASS logo reference and explicitly request exact logo preservation.",
+        "If this creative uses a real model, attach that person's reference image and instruct the model to preserve facial identity, hairstyle, eyewear, and outfit silhouette.",
+        "Preserve all Vietnamese copy exactly as written because text accuracy is part of the design structure."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for a Southern Vietnam hot weather fashion advisory. Centerpiece is a realistic young Asian male fashion model standing in the lower center-right foreground, wearing brown sunglasses, a light beige textured knit T-shirt, off-white high-waisted trousers, and a dark brown belt, holding a brown garment, posed confidently in a luxury resort setting. Background is a bright blue summer sky gradient with soft clouds and intense sun flare in the upper right, plus a blurred beige cabana lounge with draped curtains and cushions. Add clean white Vietnamese typography exactly reading 'Miền Nam', oversized '27-36°', and 'Ban ngày nắng gắt, chiều tối có mưa rào giải nhiệt'. Place 'BADASS' in the top right. Across the middle, add a large rounded translucent blue weather panel with hourly forecast labels 'Bây giờ', '15 giờ', '16 giờ', '17 giờ', '18 giờ' and minimalist sunny, partly cloudy, cloudy, and rainy icons. Include tiny bottom-left code text 'PODTK725 - QJDTK614'. Layout should feel like Apple weather UI fused with a premium fashion campaign. Technical style: photorealistic fashion advertising poster with UI-infographic compositing, bright natural sunlight with commercial soft fill, strong sun bloom, airy haze, soft shadows, shallow background blur, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, night scene, blurry face, extra limbs, distorted hands, malformed sunglasses, messy typography, incorrect Vietnamese text, low resolution, flat 2d, harsh oversaturation, cluttered layout, crooked weather panel, broken icons, watermark, signature, cropped head, deformed body, heavy noise, dull colors"
+  }
+}

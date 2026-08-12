@@ -1,0 +1,19 @@
+{
+  "name": "prompt-637",
+  "tag": ["adult-woman", "beauty-portrait", "morning-sun", "dark-bun", "glitter-makeup", "bedroom"],
+  "image_type": "editorial-portrait",
+  "image_vibe": "sunlit-glamour",
+  "image_purpose": "moodboard",
+  "group": "indie/low-fi-dreamy/golden-warm",
+  "prompt": {
+    "project_info": "A tight sunlit beauty portrait with a sculpted dark bun, silver eye makeup, and warm bedroom shadows.",
+    "main_subject": "An adult woman with fair warm-toned skin, dark-brown hair in a loose high bun, two straight face-framing strands, and a few styled damp-look strands across her forehead. Her light-grey contact lenses and silver shimmer eyeshadow are paired with understated neutral lips and small pearl earrings.",
+    "composition_elements": "Eye-level head-and-shoulders portrait on a white upholstered chair in a warm bedroom. She wears a structured ivory high-neck blouse and a single pearl necklace; hands stay outside frame. No text, logos, or watermarks.",
+    "lighting_and_atmosphere": "Strong directional morning window light at approximately 4700K creates defined but soft-edged facial and hair shadows. Retain natural pores, controlled makeup sparkle, realistic fabric texture, and a muted warm background.",
+    "technical_specs": "Full-frame camera with an 85mm lens at f/2, square crop, sharp eyes, soft bed and wood background bokeh, Kodak Portra 400-inspired warmth, fine grain.",
+    "generated_prompt_string": "Sunlit beauty portrait of an adult woman with fair warm-toned skin and dark-brown hair in a loose high bun, two straight face-framing strands and a few neat damp-look strands over the forehead. Light-grey contact lenses, reflective silver shimmer eyeshadow, natural neutral lips, small pearl earrings, a structured ivory high-neck blouse, and a single pearl necklace. Eye-level head-and-shoulders framing in a warm bedroom with a white upholstered chair, bright directional morning window light creating clear facial and hair shadows, natural skin texture, realistic fabric detail, no text or branding.",
+    "negative_prompt": "explicit, nsfw, overly revealing, exposed chest, sexualized styling, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, readable text, extra fingers, deformed face",
+    "reference_elements": {"prompt_instructions": "Use an approved adult identity reference only when facial consistency is required. Preserve the dark high bun, silver eye makeup, ivory high-neck blouse, pearl jewelry, square beauty crop, and right-directional sun; any identity or room details may be substituted with approved references.", "assets": [{"type": "person", "name": "approved-adult-beauty-identity-reference", "required": false, "source": "attach when likeness is required", "usage": "Preserve adult face and approved hairstyle."}, {"type": "wardrobe", "name": "ivory-high-neck-blouse-and-pearl-reference", "required": false, "source": "attach when wardrobe continuity is required", "usage": "Maintain covered ivory blouse and simple pearl jewelry."}, {"type": "background", "name": "warm-bedroom-window-reference", "required": false, "source": "attach when setting continuity is required", "usage": "Maintain morning shadow direction without importing text or logos."}]}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Converted the edit-only source into a standalone adult-safe generation brief.", "Removed exposed-body framing and replaced it with a covered high-neck outfit."]}
+}

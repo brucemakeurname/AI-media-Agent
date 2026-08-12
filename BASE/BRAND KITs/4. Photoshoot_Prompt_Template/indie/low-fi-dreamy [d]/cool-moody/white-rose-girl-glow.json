@@ -1,0 +1,59 @@
+{
+  "name": "White Rose Window-Light Portrait",
+  "tag": "white-rose-window-light",
+  "image_type": "minimalist_floral_portrait",
+  "image_vibe": "warm_dramatic_minimal",
+  "image_purpose": "editorial_portrait",
+  "group": "indie/low-fi-dreamy/cool-moody",
+  "prompt": {
+    "project_info": {
+      "title": "White Rose Window-Light Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with simply styled hair, a calm direct gaze, and a small natural smile.",
+      "wardrobe": "An oversized white cotton button-down shirt, fully buttoned at the chest, with dark tailored trousers outside the crop.",
+      "pose_and_expression": "Leaning lightly against a dark wall and holding a large bouquet of white roses close to the torso."
+    },
+    "composition_elements": {
+      "setting": "Dark minimal interior wall beside a window, with graphic bands of sunlight and shadow crossing the wall and bouquet.",
+      "framing": "Medium vertical portrait with the subject and flowers central.",
+      "text_and_brand_control": "No text, logo, watermark, labels, or unrelated props."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Warm directional window light producing dramatic streaked shadows.",
+      "mood": "Contemporary, warm, steady, and artistically restrained."
+    },
+    "technical_specs": {
+      "camera_style": "high-resolution minimalist portrait photography",
+      "lens": "50mm equivalent",
+      "rendering": "Soft fabric and petal texture, natural skin, controlled high contrast, accurate hands, and no heavy retouch."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical minimalist floral portrait of an adult woman with simply styled hair, calm direct gaze, and a small natural smile. She wears an oversized white cotton button-down shirt, fully buttoned at the chest, and holds a large bouquet of white roses close to her torso while leaning lightly against a dark wall. Place a window beside her so warm directional light casts graphic bands of shadow across wall and bouquet. Use medium vertical framing, soft fabric and petal texture, natural skin, controlled high contrast, accurate hands, and no heavy retouch. No logos, labels, readable text, watermark, celebrity likeness, or sexualized styling.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, open shirt, logo, readable text, watermark, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional identity reference must depict a consenting adult. Flower, wardrobe, and window-light references are replaceable and unbranded.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult facial and hair traits only."
+        },
+        {
+          "type": "prop_reference",
+          "name": "white_rose_bouquet_reference",
+          "required": false,
+          "source": "user-provided floral reference",
+          "usage": "Guide bouquet form and petal texture without packaging labels."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "notes": "Original concept was safe; schema and adult-safe reference controls were standardized."
+  }
+}

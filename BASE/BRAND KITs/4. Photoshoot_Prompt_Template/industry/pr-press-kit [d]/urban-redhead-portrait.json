@@ -1,0 +1,82 @@
+{
+  "name": "urban-redhead-portrait",
+  "tag": [
+    "urban-redhead",
+    "pink-loungewear",
+    "cinder-block-wall",
+    "silver-accessories",
+    "street-fashion"
+  ],
+  "image_type": "urban-lifestyle-portrait",
+  "image_vibe": "cool-authentic-street",
+  "image_purpose": "profile-visual",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Cool urban redhead portrait against a gray cinder-block wall",
+      "color_palette": "vibrant red hair, soft pink, white, silver, cool gray concrete, and muted street neutrals",
+      "creative_direction": "candid urban fashion with relaxed loungewear styling"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult woman with long voluminous vibrant red hair and white headband, serious stoic expression looking directly at the camera",
+      "wardrobe": "oversized light-pink hooded sweatshirt and matching jogger sweatpants, with a white long-sleeve shirt visible underneath",
+      "accessories": "sparkling silver rings, thick silver watch on the left wrist, prominent shiny silver pendant necklace, and a small thin white prop held near the face"
+    },
+    "composition_elements": {
+      "framing": "vertical full-body portrait",
+      "subject_position": "adult woman squatting confidently against a textured gray cinder-block wall, body turned slightly while gaze meets the camera",
+      "background": "gray cinder-block wall and dark pavement with minimal urban clutter"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft even overcast daylight at approximately 5600K with gentle bounce from the pavement",
+      "effect": "natural highlights on red hair and silver accessories, soft shadows, realistic fabric texture, cool candid street atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 50mm lens, realistic urban lifestyle fashion photography",
+      "resolution": "4k vertical full-body portrait",
+      "finish": "natural color grade, restrained saturation, visible fabric weave and hair texture, subtle film grain, no artificial smoothing"
+    },
+    "generated_prompt_string": "A high-resolution full-body portrait of a clearly adult woman with long voluminous vibrant red hair and a white headband, squatting confidently against a textured gray cinder-block wall. She wears a cozy oversized light-pink hooded sweatshirt and matching jogger sweatpants, with a white long-sleeve shirt visible underneath. She is accessorized with several sparkling silver rings, a thick silver watch on her left wrist, and a prominent shiny silver pendant necklace over the hoodie. She looks directly into the camera with a serious stoic expression while holding a small thin white prop between her fingers near her face. Use soft even overcast daylight, natural highlights on the hair and silver accessories, realistic fabric texture, cool muted urban tones, a 50mm lens, vertical full-body composition, subtle grain, and candid street-fashion realism.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, unsafe prop, text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-redhead-street-model",
+          "required": true,
+          "source": "Original urban redhead preview image",
+          "usage": "Attach an approved adult face reference for identity continuity; preserve facial structure and likeness without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "pink-hoodie-jogger-and-white-headband",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the pink hoodie and joggers, white underlayer, headband, rings, watch, and pendant; retain the relaxed outfit while keeping the subject clearly adult and non-explicit."
+        },
+        {
+          "type": "location",
+          "name": "gray-cinder-block-urban-wall",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the cinder-block texture, pavement, cool gray palette, and squatting composition; surrounding urban details may be replaced."
+        },
+        {
+          "type": "accessory",
+          "name": "small-neutral-white-handheld-prop",
+          "required": false,
+          "source": "Small white object visible in the original preview image",
+          "usage": "Optional prop reference; use only a clearly non-hazardous neutral accessory, and replace or omit it if its identity is uncertain."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person, wardrobe, and wall references; the handheld prop is optional. Keep the red hair, headband, pink loungewear, silver accessories, direct gaze, squatting pose, and concrete texture consistent. The adult identity, exact wall, and prop may be replaced; use only a clearly non-hazardous prop and preserve approved adult facial structure without celebrity likeness."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the source's young woman as a clearly adult woman and constrained the ambiguous handheld object to a non-hazardous neutral prop while preserving the urban fashion concept."
+    ]
+  }
+}

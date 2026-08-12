@@ -1,0 +1,43 @@
+﻿{
+    "name":  "hyper-realistic-black-romper-mirror-selfie",
+    "tag":  [
+                "ugc",
+                "selfie-pov",
+                "sporty-active",
+                "private-indoor",
+                "black-romper",
+                "mirror",
+                "raw"
+            ],
+    "image_type":  "black-romper-mirror-selfie",
+    "image_vibe":  "raw-high-fidelity-indoor",
+    "image_purpose":  "fitness fashion mirror selfie",
+    "group":  "sporty-active",
+    "prompt":  {
+                   "project_info":  "Photorealistic raw mirror selfie adapted from the source prompt and supplied identity reference.",
+                   "main_subject":  "Clearly adult woman matching the supplied approved-adult facial and hair reference, wearing a black fitted athletic romper with secure coverage, holding a smartphone with realistic skin-on-object contact and neutral expression.",
+                   "composition_elements":  "Frontal mirror selfie, face partly obscured by phone, sharp focus from textile folds to background wall, indoor ambient light and structured composition.",
+                   "lighting_and_atmosphere":  "Neutral indoor ambient light, soft bedside glow, realistic ray-traced shadows and natural digital grain.",
+                   "technical_specs":  "Vertical 9:16, iPhone 17 Pro-like capture, f/5.6 deep clarity, realistic skin pores, fabric and reflection.",
+                   "generated_prompt_string":  "Photorealistic 9:16 raw iPhone-style mirror selfie of a clearly adult woman matching the supplied approved-adult facial and hair reference, wearing a secure fitted black athletic romper, holding a smartphone with realistic hand contact, face partly obscured, sharp textile folds and background wall, neutral indoor ambient light, soft bedside glow, realistic shadows and digital grain, no text or logos.",
+                   "negative_prompt":  "explicit, nsfw, overly revealing, exposed body, exposed breasts, exposed genitals, child, minor, wardrobe malfunction, distorted anatomy, bad hands, plastic skin, watermark, text, logo",
+                   "reference_elements":  {
+                                              "assets":  [
+                                                             {
+                                                                 "type":  "person",
+                                                                 "name":  "hyper-realistic-black-romper-mirror-selfie_0.jpg",
+                                                                 "required":  true,
+                                                                 "source":  "local asset",
+                                                                 "usage":  "Use for approved-adult identity, black romper, phone, mirror, room and lighting."
+                                                             }
+                                                         ],
+                                              "prompt_instructions":  "Attach the local asset as required. Preserve identity, romper, phone, reflection and raw high-fidelity look; remove numerical body emphasis and use only approved adult identity, never celebrity likeness."
+                                          }
+               },
+    "policy_review":  {
+                          "status":  "remediated",
+                          "changes":  [
+                                          "Removed numerical body-emphasis language while preserving the fitted black romper and mirror composition."
+                                      ]
+                      }
+}

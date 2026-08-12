@@ -1,0 +1,59 @@
+{
+  "name": "Snowy Burgundy Coat Street Portrait",
+  "tag": "snowy-burgundy-coat-street",
+  "image_type": "winter_street_portrait",
+  "image_vibe": "cool_cinematic_snowfall",
+  "image_purpose": "fashion_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Snowy Burgundy Coat Street Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with loosely pinned dark-brown hair, a relaxed expression, and natural skin texture.",
+      "wardrobe": "An oversized burgundy wool coat over a soft gray sweater, crisp collared shirt, neatly tied black necktie, and cool-gray tailored trousers.",
+      "pose_and_expression": "Knees-up candid portrait: one hand rests in a coat pocket and the other lightly shields her eyes from soft falling snow."
+    },
+    "composition_elements": {
+      "setting": "Wet generic winter city street with tall historic stone-and-glass buildings, abstract taxi-colored traffic, and warm reflections on asphalt.",
+      "framing": "Handheld eye-level portrait with gentle falling snow and diffuse city depth.",
+      "text_and_brand_control": "No exact face preservation, city landmark identification, taxi logo, license plate, sign text, or branding."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft overcast winter daylight with muted warm city reflections.",
+      "mood": "Cool, quiet, cinematic, and tactile."
+    },
+    "technical_specs": {
+      "camera_style": "intimate smartphone winter snapshot",
+      "lens": "28mm equivalent",
+      "rendering": "Real snow, wet fabric and asphalt texture, natural skin, accurate hands, subtle film grain."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical intimate winter street snapshot of an adult woman with loosely pinned dark-brown hair, a relaxed expression, and natural skin texture. She wears an oversized burgundy wool coat over a soft gray sweater, crisp collared shirt, neatly tied black necktie, and cool-gray tailored trousers. Frame her from knees up at eye level, one hand in a coat pocket and the other lightly shielding her eyes from falling snow. Set her on a wet generic city street with tall historic stone-and-glass buildings, abstract taxi-colored traffic, and warm reflections on asphalt. Use soft overcast light, real snow, wet fabric texture, natural skin, accurate hands, and subtle grain. No exact face preservation, landmark identity, taxi logos, plates, signs, readable text, or watermark.",
+    "negative_prompt": "minor, celebrity likeness, identity lock, explicit, nsfw, overly revealing clothing, logo, license plate, readable text, watermark, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Identity references are optional and must depict a consenting adult. Wardrobe and streetscape references are replaceable; remove all text, logos, and city-specific identifiers.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult face and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "snowy_city_street_reference",
+          "required": false,
+          "source": "user-provided street reference",
+          "usage": "Guide snowfall, wet pavement, and architecture without identifiers."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed face preservation and city-specific commercial details while retaining adult winter editorial styling."
+  }
+}

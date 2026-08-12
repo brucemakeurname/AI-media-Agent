@@ -1,0 +1,76 @@
+{
+  "name": "badass-summer-short-flatlay",
+  "tag": [
+    "summer short",
+    "fashion flat lay",
+    "seasonal campaign",
+    "minimal typography",
+    "resort styling",
+    "product teaser"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Seasonal",
+  "group": "badass_1294807029480130",
+  "prompt": {
+    "project_info": {
+      "theme": "Minimal summer short campaign",
+      "color_palette": "Warm off-white, moss green, brown amber, muted olive shadow"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A minimalist square flat-lay composition featuring the left half of a white summer short partially cropped into the frame, paired with amber-brown sunglasses near the top-left area. The design is split diagonally between a clean off-white paper-like surface and a mossy green grass texture, with oversized typography dominating the lower-right side.",
+      "style": "Clean seasonal fashion teaser, premium resort flat-lay, minimal advertising graphic, airy summer lifestyle aesthetic"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Typography",
+      "text": "SUMMER, SHORT",
+      "items": [
+        "Left Edge: a white short cropped into the frame, showing the waistband, side seam, and hem in a clean product partial view.",
+        "Upper Left: amber-brown acetate sunglasses placed diagonally over the off-white area, casting a soft shadow.",
+        "Center to Right: the background is split by a sharp diagonal edge between the off-white surface on the left and textured green grass on the right.",
+        "Top Area: soft diagonal palm-shadow stripes cross the off-white surface, creating a resort sunlight feel.",
+        "Lower Right: huge white uppercase typography reading 'SUMMER' above 'SHORT', spanning across both background zones."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Warm natural sunlight",
+      "effect": "Soft tropical daylight, palm-shadow projection, subtle object shadows, relaxed resort atmosphere, clean high-key finish"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic fashion flat-lay poster with minimal graphic typography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "white summer short",
+          "required": true,
+          "source": "source image or exact product reference photo",
+          "usage": "Use as the exact reference for waistband shape, fabric weight, hem line, seam placement, and clean white tone of the short."
+        },
+        {
+          "type": "accessory",
+          "name": "amber-brown sunglasses",
+          "required": false,
+          "source": "source image accessory reference",
+          "usage": "Use if the sunglass frame shape, lens tint, and warm acetate color need to match precisely."
+        },
+        {
+          "type": "text_layout",
+          "name": "SUMMER SHORT typography",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Preserve the exact wording, uppercase treatment, scale, and placement across the diagonal split background."
+        }
+      ],
+      "prompt_instructions": [
+        "If using gpt-image-2, attach the original image or product reference so the short silhouette and exact crop remain close to the source.",
+        "Keep the design minimal and seasonal; do not add extra props beyond the sunglasses.",
+        "Preserve the sharp diagonal split between off-white surface and green grass, and keep the oversized text exactly as 'SUMMER SHORT'."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square seasonal fashion poster for a minimal summer short campaign. Create a clean flat-lay composition with the left side on an off-white paper-like surface and the right side on textured green grass, separated by a sharp diagonal edge. Place a white summer short partially cropped along the left edge so the waistband, hem, and side seam are visible. Add amber-brown sunglasses near the upper-left area, angled casually with a soft shadow. Across the top left surface, project soft diagonal palm-leaf shadows to suggest tropical daylight. On the lower-right half, add huge white uppercase typography reading 'SUMMER' above 'SHORT', spanning across the diagonal split. Style should feel premium, airy, resort-inspired, and minimal. Technical style: photorealistic fashion flat-lay poster with minimal graphic typography, warm natural sunlight, soft tropical daylight, subtle shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, cluttered layout, extra objects, low resolution, blurry edges, distorted text, wrong wording, messy grass, oversaturated colors, heavy shadows, watermark, signature, black and white, wrinkled dirty short, broken sunglasses"
+  }
+}

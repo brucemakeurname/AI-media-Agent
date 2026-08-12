@@ -1,0 +1,37 @@
+{
+  "name": "misty-mountain-hot-spring",
+  "tag": ["hot-spring", "mountain", "misty", "travel"],
+  "image_type": "UGC travel portrait",
+  "image_vibe": "serene, misty, intimate, natural",
+  "image_purpose": "Travel destination and wellness lifestyle content",
+  "group": "ugc/lifestyle-moment/nature-adventure/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a calm smartphone travel portrait at an outdoor mountain hot spring, balancing warm water and cool misty air.",
+    "main_subject": "One generic approved adult woman in her early 20s with light blonde hair in a loose claw-clip updo and minimal natural makeup, standing knee-deep in the spring in a secure off-white towel wrap. She looks into the distance with relaxed confidence; one arm lifts her hair while the other holds the wrap closed.",
+    "composition_elements": "Vertical 3:4 slightly low eye-level side-profile framing. Keep the adult subject centered in the spring with large rocks, rising steam, a bamboo-pattern fence, misty mountain silhouettes, and a roof eave visible. The towel must remain securely wrapped with no exposed intimate areas.",
+    "lighting_and_atmosphere": "Soft overcast natural daylight, steam haze, muted warm skin against cool mountain mist, quiet serene travel atmosphere.",
+    "technical_specs": "Photorealistic smartphone travel photo, 50mm-equivalent lens, vertical 3:4, natural skin texture and water droplets, gentle depth separation, realistic stone and steam, no text or watermark.",
+    "generated_prompt_string": "Photorealistic vertical 3:4 smartphone travel portrait of one generic approved adult woman in her early 20s standing knee-deep in an outdoor mountain hot spring, light blonde loose updo with a claw clip, minimal natural makeup, securely wrapped in an off-white bath towel held closed with both hands, calm side profile looking into the misty distance, one arm lifting her hair, large rocks, rising steam, bamboo-pattern fence, misty mountains and roof eave, soft overcast daylight, warm water and cool-air contrast, serene natural wellness-travel mood, realistic skin and water texture, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, exposed intimate areas, minors, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "misty-mountain-hot-spring reference",
+          "required": true,
+          "source": "Attach the provided reference image",
+          "usage": "Match the side-profile pose, secure towel-wrap styling, hot-spring architecture, steam, mountain background, and soft daylight while keeping the adult identity and environment replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the hot-spring setting, side profile, hair arrangement, towel category, mist, rocks, fence, and calm travel mood. Keep person, towel details, hair accessory, location, and environment replaceable. Maintain secure coverage and remove incidental branding."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced narrow-wrap and exposed-hip emphasis with a secure full towel wrap.",
+      "Removed body-contour emphasis while preserving the hot-spring pose and travel concept.",
+      "Added explicit coverage and non-sexualized framing safeguards."
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "sunlit-daisy-girl",
+  "tag": ["daisy", "meadow", "nostalgic", "face-reference"],
+  "image_type": "UGC cinematic meadow portrait",
+  "image_vibe": "warm, charming, dreamy, nostalgic",
+  "image_purpose": "Editorial lifestyle and social profile visual",
+  "group": "ugc/lifestyle-moment/nature-adventure/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a cinematic meadow portrait using the approved adult face reference and a warm nostalgic film treatment.",
+    "main_subject": "The same approved adult woman as the required reference image, seated in a sunlit meadow with a calm naturally charming expression. She wears a pastel mint knit sweater with subtle embroidered details and relaxed-fit light beige denim jeans, with loosely tousled hair.",
+    "composition_elements": "Wide-angle vertical social portrait based on the visible local reference composition: the woman leans subtly toward the camera and extends one hand holding a small daisy, creating a soft foreground blur. Surround her with yellow blossoms and scattered white daisies beneath layered clouds.",
+    "lighting_and_atmosphere": "Natural soft daylight, gentle highlights and soft shadows, warm vibrant color grade with delicate vintage film undertones, dreamy timeless meadow atmosphere.",
+    "technical_specs": "Photorealistic portrait, full-frame camera with 35mm wide-angle lens, shallow depth of field, realistic skin and knit texture, Kodak Portra 400-inspired color treatment, subtle film grain, no watermark.",
+    "generated_prompt_string": "Create a cinematic wide-angle portrait using the same approved adult face and identity as the attached reference image. The subject is seated in a sunlit meadow filled with blooming wildflowers, leaning subtly forward and extending one hand toward the lens while holding a small daisy, creating a soft foreground blur. Her expression is calm, warm, and naturally charming, with loosely tousled hair and an effortless candid vibe. She wears a pastel mint knit sweater with subtle embroidered details and relaxed-fit light beige denim jeans. The field is rich with yellow blossoms and scattered white daisies beneath a dramatic sky with layered clouds. Natural daylight creates gentle highlights and soft shadows. Apply a warm vibrant color grade with delicate vintage film undertones, shallow depth of field, and an editorial cinematic composition for a dreamy nostalgic atmosphere, realistic skin and fabric texture, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, unreadable text, logos, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "sunlit-daisy-girl face and composition reference",
+          "required": true,
+          "source": "Attach the provided local reference image",
+          "usage": "Preserve the approved adult woman's face, facial structure, likeness, mint sweater, beige jeans, foreground daisy gesture, meadow composition, and natural expression."
+        }
+      ],
+      "prompt_instructions": "Attach the required face/composition reference. The attached image is required for identity and composition consistency: preserve the approved adult face, facial structure, likeness, outfit, hand gesture, meadow, and lighting mood. If replacing the person, attach another approved adult face reference; keep flowers, wardrobe details, camera perspective, and environment replaceable while retaining the same visual structure."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "name": "shopee-samsung-galaxy-a27-5g-spaylater-hieuthuhai",
+  "tag": [
+    "phone-launch",
+    "celebrity-endorsement",
+    "installment-offer",
+    "electronics"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Endorsement",
+  "group": "shopee_1160481609613257",
+  "prompt": {
+    "project_info": {
+      "theme": "Samsung Galaxy A27 5G exclusive Shopee financing poster",
+      "color_palette": "Clean white, Shopee orange, black, peach, cyan gradient"
+    },
+    "main_subject": {
+      "type": "Person/Object/Text",
+      "detail": "Minimal clean poster with top branding 'Shopee' and 'SAMSUNG'. Main copy reads 'Galaxy A27 5G Moi', 'Dac Quyen Thanh Toan - On Ap Chot Luon!', and 'SPayLater'. A wide orange info card states 'Chi tu 1.415.000 d/thang', 'Tang ngay sac nhanh 25w', and 'Tra gop 0% Ky han len den 6 thang'. A CTA pill says 'MUA NGAY TAI SHOPEE'. At bottom, HIEUTHUHAI poses in a black leather jacket while presenting a large Galaxy phone toward the camera. Top-right badge reads 'CON 1 NGAY 25.6 SALE LUONG VE'.",
+      "style": "Premium clean launch poster with editorial white space, celebrity cutout, and realistic device render"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "SAMSUNG / Galaxy A27 5G Moi / Dac Quyen Thanh Toan - On Ap Chot Luon! / SPayLater / Chi tu 1.415.000 d/thang / Tang ngay sac nhanh 25w / Tra gop 0% / Ky han len den 6 thang / MUA NGAY TAI SHOPEE / CON 1 NGAY / 25.6 SALE LUONG VE / HIEUTHUHAI",
+      "items": [
+        "Top Left: Shopee bag logo next to SAMSUNG wordmark",
+        "Top Right: Orange-and-blue countdown badge saying CON 1 NGAY and 25.6 SALE LUONG VE",
+        "Bottom Left: HIEUTHUHAI signature graphic and legal disclaimer text in small black type",
+        "Bottom Right: Large realistic Galaxy phone angled toward the viewer and the celebrity cutout",
+        "Center/Background: Clean white negative space with stacked product copy and an orange financing-information card"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright studio commercial lighting",
+      "effect": "Clean shadows, crisp phone reflections, minimal background distraction, polished celebrity cutout edge lighting"
+    },
+    "technical_specs": {
+      "render_style": "Photo-composite ecommerce key visual with realistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for Samsung Galaxy A27 5G on Shopee. Centerpiece is a clean white layout with product copy reading 'Galaxy A27 5G Moi', 'Dac Quyen Thanh Toan - On Ap Chot Luon!', and 'SPayLater', above a large orange financing card containing the exact terms 'Chi tu 1.415.000 d/thang', 'Tang ngay sac nhanh 25w', and 'Tra gop 0% Ky han len den 6 thang'. Background is minimal white studio space. Surrounding elements: Shopee and SAMSUNG logos at top left, countdown badge 'CON 1 NGAY 25.6 SALE LUONG VE' at top right, orange CTA 'MUA NGAY TAI SHOPEE', celebrity HIEUTHUHAI at the bottom holding a large realistic Galaxy phone, signature graphic, and small disclaimer text. Technical style: photo-composite ecommerce key visual with realistic product render, bright studio lighting, crisp reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "HIEUTHUHAI reference photo",
+          "required": true,
+          "source": "original campaign cutout or approved celebrity press image",
+          "usage": "Attach to reproduce exact likeness, hairstyle, pose, outfit, and signature placement"
+        },
+        {
+          "type": "product",
+          "name": "Samsung Galaxy A27 5G device render",
+          "required": true,
+          "source": "official Samsung product render",
+          "usage": "Use for the foreground phone angle and screen appearance"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee, Samsung, and SPayLater logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Preserve the exact top branding and payment-service mark"
+        },
+        {
+          "type": "text_layout",
+          "name": "Samsung financing poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the clean white spacing, countdown badge, orange pricing card, and CTA arrangement"
+        }
+      ],
+      "prompt_instructions": "Preserve the exact visible wording, including 'CON 1 NGAY' and '25.6 SALE LUONG VE', which are historical campaign references relative to Friday, July 17, 2026. This layout depends on generous white space and a realistic product-plus-celebrity composite; do not overfill the canvas."
+    }
+  }
+}

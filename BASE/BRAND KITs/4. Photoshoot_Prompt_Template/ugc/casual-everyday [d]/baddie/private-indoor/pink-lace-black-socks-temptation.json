@@ -1,0 +1,58 @@
+{
+  "name": "pink-lace-black-socks-temptation",
+  "tag": [
+    "ugc",
+    "baddie",
+    "private-indoor",
+    "pink-lace",
+    "striped-thigh-high-socks",
+    "bedroom-portrait"
+  ],
+  "image_type": "ugc-lingerie-fashion-portrait",
+  "image_vibe": "bright-relaxed-confident",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic bright domestic bedroom portrait with a relaxed social-media fashion feel, preserving the supplied pastel-pink lace styling and black striped socks.",
+    "main_subject": "One original approved adult woman with long honey-brown half-up hair, loose face-framing strands, fair natural skin texture and a soft engaging gaze. She wears a pastel-pink lace bra and matching pink bottoms, black thigh-high socks with two white horizontal stripes, small gold hoops and a delicate gold chain with a dark charm.",
+    "composition_elements": "Centered medium portrait from the thighs upward, seated on light bedding and facing camera with a slight forward lean. Keep both hands resting comfortably on the upper thighs, head tilted subtly right and legs slightly apart. Include a white wall, framed black-and-gold abstract artwork on the left and a dark pillow or fabric at the right edge.",
+    "lighting_and_atmosphere": "Natural diffuse daylight from front-left, soft even highlights on the face, shoulders and lace, and subtle shadows beneath the chin and along the right side. Maintain a relaxed, confident, clean domestic atmosphere.",
+    "technical_specs": "4:5 vertical portrait framing, 50–85mm equivalent lens, eye-level camera with slight seated high-angle relationship, shallow depth of field, sharp subject detail, softly softened artwork and wall, realistic pores and fabric texture.",
+    "generated_prompt_string": "Create a photorealistic bright domestic bedroom portrait of one original approved adult woman with long honey-brown hair styled half-up with loose face-framing strands, fair natural skin texture and a soft engaging gaze. She wears a pastel-pink lace bra and matching pink bottoms, black thigh-high socks with two white horizontal stripes, small gold hoops and a delicate gold chain with a dark charm. Frame a centered medium portrait from the thighs upward; she sits on light bedding facing camera with a slight forward lean, both hands resting comfortably on her upper thighs, head subtly tilted right and legs slightly apart. Include a white wall, framed black-and-gold abstract artwork on the left and a dark pillow or fabric at the right edge. Use natural diffuse daylight from front-left, soft even highlights, subtle shadows, realistic pores and fabric texture, 50–85mm portrait perspective and a gently softened background.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, body-part emphasis, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, wardrobe malfunction, unreadable text or logos",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "pink-lace-black-socks-temptation.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair, expression and likeness; preserve facial structure while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "pastel-pink lace set and black striped thigh-high socks",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve lace edges, pink color, sock stripes, jewelry and fit; replace only with a supplied wardrobe reference."
+        },
+        {
+          "type": "background",
+          "name": "white bedroom, black-gold artwork and light bedding",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve artwork placement, wall, bedding and daylight environment; individual background elements may be replaced without changing subject identity or outfit."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and background references. Keep identity, face, hair, outfit, sock stripes, jewelry, pose and daylight consistent. Optional replacements may substitute the approved adult, wardrobe or background separately, but must retain the same centered framing and visual hierarchy. Preserve any artwork design as an abstract non-branded graphic; no typography or logo is required."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adult.",
+      "Removed explicit bust-volume, cleavage and anatomy constraints while preserving the lace styling, socks and seated portrait composition.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

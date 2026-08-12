@@ -1,0 +1,27 @@
+{
+  "name": "golden-girl-melting-ice-cream",
+  "tag": ["ugc", "casual-everyday", "sporty-active", "outdoor-urban", "ice-cream", "street-photo"],
+  "image_type": "candid-street-portrait",
+  "image_vibe": "joyful-sunny-athleisure",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/sporty-active/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a raw-photography candid street portrait of an approved adult woman enjoying melting vanilla ice cream on a sunny European-style urban street.",
+    "main_subject": "An approved adult woman with long straight blonde hair and sun-kissed highlights, natural fair skin texture, and a joyful open-mouth laugh while looking slightly aside. She wears a light heather-grey athletic sleeveless top, white wired earphones, small gold hoops, layered gold jewelry, and a two-tone metal watch.",
+    "composition_elements": "Vertical medium close-up centered on the subject holding a melting waffle cone near her mouth and a partially visible smartphone. Include terracotta and cream buildings, green shutters, parked scooters, and greenery in the street background.",
+    "lighting_and_atmosphere": "Bright direct summer sunlight with high contrast and defined shadows, warm natural colors, realistic skin and fabric texture, spontaneous upbeat street mood.",
+    "technical_specs": "Raw documentary photography, 4:5 vertical framing, high-fidelity detail, ISO 100, 1/250s, natural colors, fine grain, no post-processing look.",
+    "generated_prompt_string": "Create a raw-photography 4:5 candid street portrait of an approved adult blonde woman laughing joyfully while holding a melting vanilla ice-cream cone near her mouth and a partially visible smartphone. Give her long straight sun-kissed blonde hair, natural fair skin texture, white wired earphones, small gold hoops, layered gold jewelry, and a two-tone metal watch. Dress her in a light heather-grey athletic sleeveless top. Place her on a sunny European-style street with terracotta and cream buildings, green shutters, parked scooters, and greenery. Use bright direct sunlight, crisp natural shadows, realistic textures, ISO 100, 1/250s, natural colors, and fine grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted face, melted facial features",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved-adult-blonde-street-subject", "required": true, "source": "golden-girl-melting-ice-cream.jpg", "usage": "Preserve adult identity, blonde hair, expression, skin texture, and candid attitude."},
+        {"type": "wardrobe", "name": "grey-athleisure-top-gold-accessories", "required": true, "source": "golden-girl-melting-ice-cream.jpg", "usage": "Keep grey top, earphones, jewelry, and watch consistent; replace only with explicit wardrobe references."},
+        {"type": "prop", "name": "melting-vanilla-ice-cream-cone", "required": true, "source": "golden-girl-melting-ice-cream.jpg", "usage": "Preserve cone, vanilla ice cream, melt, and hand placement; replace only with explicit prop references."},
+        {"type": "location", "name": "sunny-european-scooter-street", "required": true, "source": "golden-girl-melting-ice-cream.jpg", "usage": "Maintain buildings, shutters, scooters, foliage, and daylight; replace only with explicit location references."}
+      ],
+      "prompt_instructions": "Attach person, wardrobe, prop, and location references when exact consistency is required. Keep adult identity, outfit, product/ice cream, environment, and any typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and structured the observed street, prop, wardrobe, and reference details.", "Added safe negative prompts and replaceable reference instructions."]}
+}

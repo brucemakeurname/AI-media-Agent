@@ -1,0 +1,70 @@
+{
+  "name": "quan-nhau-tu-do-world-cup-2026-england-vs-congo",
+  "tag": [
+    "sports-promo",
+    "watch-party",
+    "football",
+    "world-cup"
+  ],
+  "biz_niche": "Entertainment & Pop Culture",
+  "content_format": "Industry news",
+  "group": "quan-nhau-tu-do_1617734403687588",
+  "prompt": {
+    "project_info": {
+      "theme": "Quán Nhậu Tự Do World Cup 2026 screening poster for England vs Congo",
+      "color_palette": "Black, green, gold, orange, white, England and Congo flag colors"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "Cinematic sports viewing poster with a gold World Cup trophy at center, one England player in white on the left, one Congo player in blue on the right, and a glowing match-card interface with booking CTA.",
+      "style": "Photorealistic sports-bar event poster, cinematic compositing, high-contrast trophy glow"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "QUÁN NHẬU TỰ DO / WORLD CUP 2026 / LỊCH TRỰC TIẾP TẠI QUÁN NHẬU TỰ DO / PARKING ZONE 4 / ANH / VS / CONGO / 23:00 / THỨ TƯ / 01.07.2026 / ĐẶT BÀN NGAY! / Hotline: *1986 / Website: quannhautudo.com",
+      "items": [
+        "Top Left: Quán Nhậu Tự Do logo and giant distressed headline 'WORLD CUP 2026'.",
+        "Top Right: Stadium-bar background with a warm spotlight beam from the upper-right corner.",
+        "Bottom Left: England flag, team label 'ANH', and hotline '*1986'.",
+        "Bottom Right: Congo flag, team label 'CONGO', and website 'quannhautudo.com'.",
+        "Center/Background: Glowing gold trophy, match card with 'VS', time '23:00', date 'THỨ TƯ 01.07.2026', and red-orange button 'ĐẶT BÀN NGAY!'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Cinematic stadium lighting",
+      "effect": "Strong trophy bloom, golden sparks, moody sports-bar depth, dramatic spotlight"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic sports-event poster compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Quán Nhậu Tự Do World Cup 2026 screening poster for England vs Congo. Centerpiece is a glowing gold trophy over a green-black stadium bar background, flanked by an England player in white and a Congo player in blue, with a bold match card and booking CTA. Background is a bar interior blended with stadium screens and dramatic spotlighting. Surrounding elements: giant title 'WORLD CUP 2026', subheadline 'LỊCH TRỰC TIẾP TẠI QUÁN NHẬU TỰ DO', location tag 'PARKING ZONE 4', team labels 'ANH' and 'CONGO', time '23:00', date 'THỨ TƯ 01.07.2026', red CTA 'ĐẶT BÀN NGAY!', and footer contacts. Technical style: photorealistic sports-event poster compositing, cinematic stadium lighting, trophy bloom and golden sparks, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "England and Congo player cutouts",
+          "required": true,
+          "source": "original athlete refs",
+          "usage": "Match the player poses, kit colors, and framing."
+        },
+        {
+          "type": "graphic",
+          "name": "trophy, match card, CTA button, and flags",
+          "required": true,
+          "source": "original sports poster",
+          "usage": "Preserve the center interface, flag icons, and bright booking button."
+        },
+        {
+          "type": "text_layout",
+          "name": "full match announcement typography",
+          "required": true,
+          "source": "original creative",
+          "usage": "Keep exact team names, time, date, and footer contacts."
+        }
+      ],
+      "prompt_instructions": "Use refs for the players, flags, and all sports-poster graphic elements. Keep the trophy and match card central, with the CTA button directly beneath and the footer contacts along the bottom."
+    }
+  }
+}

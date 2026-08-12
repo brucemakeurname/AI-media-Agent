@@ -1,0 +1,75 @@
+{
+  "name": "billie-eilish-satin-backless-portrait",
+  "tag": [
+    "adult-woman",
+    "satin-gown",
+    "open-back",
+    "over-shoulder",
+    "warm-rim-light",
+    "fashion-editorial"
+  ],
+  "image_type": "fashion-editorial-portrait",
+  "image_vibe": "ethereal, luxurious, serene, warm, cinematic",
+  "image_purpose": "editorial, campaign, moodboard",
+  "group": "indie / moody-portrait / intimate-closeup",
+  "prompt": {
+    "project_info": {
+      "theme": "Satin open-back evening-gown editorial",
+      "format": "vertical medium close-up",
+      "color_palette": "champagne, warm taupe, liquid brown satin, soft gold"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "Use the attached approved adult face reference as the identity. She has an elegant feminine silhouette, hair swept into a loose updo with wisps at the neck, and a serene expression while looking back over one shoulder.",
+      "style": "high-fashion satin-gown editorial"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "medium close-up from a rear-side angle, with focus on eyes, shoulder line, and gown back",
+        "floor-length liquid-satin evening gown with an open back and delicate crisscross straps",
+        "head slightly tilted during an over-shoulder look",
+        "soft draped neutral fabric background with creamy bokeh"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft directional key with warm rim light, approximately 3800K",
+      "effect": "satin sheen, gentle contour shadows, luminous hair edge, and a warm graceful silhouette",
+      "atmosphere": "ethereal, serene, luxurious high fashion"
+    },
+    "technical_specs": {
+      "render_style": "Canon EOS R5, 85mm f/1.8, medium close-up, shallow creamy depth of field",
+      "resolution": "high-detail editorial photograph",
+      "color_treatment": "muted luxury palette, subtle film grain, natural skin texture, controlled highlights"
+    },
+    "generated_prompt_string": "Use the attached approved adult face reference as the exact identity and preserve her face, facial structure, and likeness. Create a vertical medium-close fashion-editorial portrait from a rear-side angle: an adult woman with an elegant feminine silhouette looks back over one shoulder, her head slightly tilted and hair swept into a loose updo with wispy strands at the neck. She wears a floor-length liquid-satin evening gown with an open back and delicate crisscross straps. Keep the focus on her eyes, shoulder line, satin sheen, and open-back gown construction, set against softly draped neutral fabric with creamy bokeh. Use a soft directional key and warm rim light at approximately 3800K for gentle contour shadows and a luminous hair edge. Canon EOS R5, 85mm f/1.8, shallow depth, muted luxury color, subtle film grain, natural skin texture, and controlled highlights.",
+    "negative_prompt": "explicit, nsfw, overly revealing, celebrity likeness, public-figure likeness, minor, sexual pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "An approved-adult face and identity reference is required; preserve her face, facial structure, and likeness without imitating a celebrity or public figure. The wardrobe reference is optional but, when attached, preserve the satin fabric, open-back construction, crisscross straps, and gown silhouette. The draped background may be substituted while retaining the warm luxury editorial mood.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved adult face and identity reference",
+          "required": true,
+          "source": "user-supplied approved reference",
+          "usage": "Keep the exact adult person's face, facial structure, and likeness consistent."
+        },
+        {
+          "type": "wardrobe",
+          "name": "liquid satin open-back evening gown",
+          "required": false,
+          "source": "user-supplied wardrobe reference",
+          "usage": "Preserve the open back, delicate crisscross straps, satin sheen, and gown silhouette."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced celebrity likeness with a required approved-adult face-reference workflow.",
+      "Removed sexualized body wording while preserving the open-back satin gown, over-shoulder pose, and high-fashion mood.",
+      "Used feminine silhouette and directional lighting to retain the editorial attractiveness safely."
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "vinamilk-green-farm-mix-buy-3-get-1-july-31",
+  "tag": [
+    "vinamilk",
+    "green-farm",
+    "high-protein-yogurt",
+    "promotion",
+    "gift"
+  ],
+  "biz_niche": "Generic/Universal Product Ad",
+  "content_format": "Special offers",
+  "group": "vinamilk_3629884087167328",
+  "prompt": {
+    "project_info": {
+      "theme": "Green Farm Mix buy-3-get-1 promo for high-protein yogurt",
+      "color_palette": "Honey yellow, leaf green, cream white, natural brown"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A bright promotional poster with the Vinamilk Green Farm logo and 50th anniversary mark at the top. Large white text says 'ƯU ĐÃI HẤP DẪN', 'SỮA CHUA ĂN GREEN FARM CAO ĐẠM', and 'MUA 3 TẶNG 1'. On the left are three stacked Green Farm Mix yogurt cups on a yellow pedestal. On the right is one featured Green Farm Mix yogurt cup lying on its side, marked with a dark-green badge saying 'QUÀ TẶNG'. Bottom-right text says 'Diễn ra đến hết 31/07'.",
+      "style": "Clean product-promo poster with natural ingredient motifs and retail-offer clarity"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "Vinamilk GREEN FARM; 50; ƯU ĐÃI HẤP DẪN; SỮA CHUA ĂN GREEN FARM CAO ĐẠM; MUA 3 TẶNG 1; QUÀ TẶNG; Diễn ra đến hết 31/07",
+      "items": [
+        "Top Left: Green Farm logo in white",
+        "Top Right: Vinamilk 50th anniversary emblem and botanical leaf/flower crop",
+        "Bottom Left: Three stacked Green Farm Mix yogurt cups on a cylindrical yellow pedestal",
+        "Bottom Right: Single giveaway cup on its side over a matching pedestal with the dark-green 'QUÀ TẶNG' badge and the line 'Diễn ra đến hết 31/07'",
+        "Center/Background: Flat honey-yellow background with large centered promotional typography and scattered botanical leaves"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright flat retail poster lighting",
+      "effect": "Even illumination, crisp packaging visibility, soft product shadows, clean commercial polish"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal product advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square promotional poster for Vinamilk Green Farm Mix high-protein yogurt. Centerpiece is a honey-yellow retail poster with the exact text 'ƯU ĐÃI HẤP DẪN', 'SỮA CHUA ĂN GREEN FARM CAO ĐẠM', 'MUA 3 TẶNG 1', 'QUÀ TẶNG', and 'Diễn ra đến hết 31/07'. Show three stacked Green Farm Mix yogurt cups on the left and one featured giveaway cup on its side on the right. Background is a flat warm-yellow field with natural leaf and flower accents. Surrounding elements: Vinamilk Green Farm logo, Vinamilk 50th anniversary mark, and botanical crops. Technical style: photoreal product advertising composite, bright flat retail poster lighting, crisp pack visibility and clean commercial polish, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Vinamilk Green Farm logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Top brand lockup"
+        },
+        {
+          "type": "logo",
+          "name": "Vinamilk 50th anniversary emblem",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Place beside the Green Farm logo at the top"
+        },
+        {
+          "type": "product",
+          "name": "Green Farm Mix yogurt cups",
+          "required": true,
+          "source": "real packaging reference required",
+          "usage": "Match the stacked cups on the left and the sideways gift cup on the right"
+        },
+        {
+          "type": "graphic",
+          "name": "Botanical leaf and flower accents",
+          "required": false,
+          "source": "recreated decorative assets",
+          "usage": "Frame the corners and support the natural ingredient positioning"
+        }
+      ],
+      "prompt_instructions": "The visible date '31/07' is in the future relative to Friday, July 17, 2026. Recreate it exactly as an active promo card, not as a past recap. Preserve the buy-3-get-1 hierarchy and the left-versus-right gift cup structure."
+    }
+  }
+}

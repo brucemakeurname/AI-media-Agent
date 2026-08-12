@@ -1,0 +1,19 @@
+{
+  "name": "luxury-glam-beauty-portrait",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "black-beauty", "beachside-glamour"],
+  "image_type": "cinematic beauty portrait",
+  "image_vibe": "mysterious, luminous, nostalgic, refined",
+  "image_purpose": "beauty campaign and editorial portrait",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a photorealistic cinematic beauty portrait of one original approved adult Black woman in a sapphire-blue beachside setting with a subtle breeze.",
+    "main_subject": "Original approved adult Black woman with a sleek mahogany-red silk-press hairstyle, natural luminous skin texture, subtle confident expression, minimal jewelry, and dewy refined makeup. Preserve the supplied textured fabric styling and sapphire-blue palette.",
+    "composition_elements": ["Symmetrical close portrait with the subject centered and a light beachside breeze moving fabric and hair.", "Layered sapphire-blue textured fabric, soft coastal atmosphere, and restrained lens flare.", "Keep the face, hair, fabric, color palette, and natural expression clear without adding text."],
+    "lighting_and_atmosphere": "Soft directional daylight with gentle frontal fill, subtle lens flare, luminous highlights, and controlled nostalgic cinematic contrast.",
+    "technical_specs": "Photorealistic 4:5 beauty portrait, 85mm lens at f/2.8, shallow depth of field, realistic pores and hair strands, subtle 35mm grain, slightly desaturated sapphire palette, no text or watermark.",
+    "generated_prompt_string": "Luxury glam beauty portrait of one original approved adult Black woman with a sleek mahogany-red silk-press hairstyle, subtle confident expression, natural luminous skin texture, minimal jewelry and dewy refined makeup. Use a sapphire-blue palette with textured fabric, a gentle beachside breeze, symmetrical centered composition, soft cinematic daylight, subtle lens flare, nostalgic atmosphere, 85mm portrait lens, 4:5 framing, realistic skin and hair detail, no text or watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "extra fingers", "deformed", "text", "logo"],
+    "reference_elements": {"assets": [{"type": "person", "name": "luxury-glam-beauty-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult face, hair, expression, makeup, and styling."}, {"type": "wardrobe", "name": "sapphire-blue textured fabric and minimal jewelry", "required": true, "source": "local reference image", "usage": "Preserve supplied fabric texture, color, jewelry restraint, and breeze movement."}, {"type": "location", "name": "beachside breeze and luminous coastal atmosphere", "required": true, "source": "local reference image", "usage": "Preserve coastal light, air movement, lens flare, and background mood."}], "prompt_instructions": "Attach all required person, wardrobe, and location references; no optional assets are needed. Keep identity, hair, outfit, palette, environment, lighting, and typography consistent. Replace only with an equivalent approved adult, equivalent supplied fabric, or equivalent coastal environment. Typography is not applicable; do not add text, logos, or watermark."}
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

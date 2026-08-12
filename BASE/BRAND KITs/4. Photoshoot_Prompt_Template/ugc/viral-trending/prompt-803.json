@@ -1,0 +1,27 @@
+{
+  "name": "prompt-803",
+  "tag": ["ugc", "cash-prop", "bedroom-flash", "luxury-lifestyle", "vertical-portrait"],
+  "image_type": "lifestyle-flash-portrait",
+  "image_vibe": "energetic-aspirational-candid",
+  "image_purpose": "instagram-feed",
+  "group": "viral-trending",
+  "prompt": {
+    "project_info": "Create an energetic luxury-lifestyle flash photograph using the attached adult reference for face, hair, clothing, and accessories.",
+    "main_subject": "An approved adult seated on a bed ledge, holding a fanned stack of Japanese 10,000-yen bills at chest level and looking upward with an exaggerated celebratory expression. Preserve the reference face, hair, body type, skin tone, clothing, jewelry, and accessories.",
+    "composition_elements": "Vertical 9:16 low-angle environmental portrait. The subject sits on the bed ledge with legs comfortably positioned, both hands holding the cash fan. Include scattered yen bills on the surface, a yellow designer-style bag in the background, and the reference bedroom setting.",
+    "lighting_and_atmosphere": "Night photography with clean warm room lights and direct camera flash, creating contrast and highlights on the subject and props. Energetic, celebratory, aspirational luxury mood.",
+    "technical_specs": "9:16 vertical, low angle from below, close environmental portrait, flash photography, warm contrast color palette, realistic cash, fabric, skin, and bedroom texture.",
+    "generated_prompt_string": "Use the approved adult reference image to maintain exact consistency with the person's face, hair, body type, skin tone, clothing, jewelry, and accessories. Create a vertical 9:16 night flash photograph of the adult seated on a bed ledge, holding a large fanned stack of Japanese 10,000-yen bills in both hands at chest level, looking upward with an exaggerated energetic celebratory expression. Include scattered yen bills on the surface and a yellow designer-style bag visible in the background. Low-angle environmental portrait, clean warm room lights mixed with direct camera flash, realistic highlights and shadows, luxury lifestyle photography, warm contrast tones, detailed natural textures.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, identity drift, counterfeit text, unreadable money, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, extra limbs, extra fingers, deformed, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved adult reference subject", "required": true, "source": "attached matching local preview image", "usage": "Preserve face, hair, body type, skin tone, clothing, and accessories; replaceable only with another approved adult reference."},
+        {"type": "graphic", "name": "Japanese yen cash prop", "required": true, "source": "matching local preview image", "usage": "Preserve fanned and scattered cash arrangement and recognizable currency context without inventing counterfeit details."},
+        {"type": "accessory", "name": "yellow designer-style bag and jewelry", "required": false, "source": "matching local preview image", "usage": "Preserve visible bag shape and jewelry when attached; replaceable with equivalent non-branded luxury props."},
+        {"type": "location", "name": "reference bedroom", "required": true, "source": "matching local preview image", "usage": "Preserve bed, room lighting, and background structure; replaceable with an equivalent warm bedroom."}
+      ],
+      "prompt_instructions": "Attach the matching preview to lock adult identity, outfit, cash arrangement, bedroom, and flash lighting. Keep identity and props consistent; cash, bag, and room can be replaced only with equivalent references. Do not add unrelated logos, text, or branded details."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

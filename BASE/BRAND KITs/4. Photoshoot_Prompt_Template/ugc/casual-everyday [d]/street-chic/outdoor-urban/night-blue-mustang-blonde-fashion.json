@@ -1,0 +1,19 @@
+{
+  "name": "night-blue-mustang-blonde-fashion",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "blue-car", "night-fashion"],
+  "image_type": "night-car-fashion-portrait",
+  "image_vibe": "cinematic-cool-streetwear",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic nighttime street-fashion portrait of an approved adult blonde woman beside a deep-blue performance coupe.",
+    "main_subject": "An approved adult blonde woman with long straight hair, wearing a loose cream knitted top, ripped light-blue jeans, and white sneakers. She leans casually against the front bumper, lifts one hand to her hair, and looks slightly aside.",
+    "composition_elements": "Vertical square-style portrait showing the woman and full front of the deep-blue coupe, black hood, bright headlights, tree-lined street, and warm orange streetlight bokeh.",
+    "lighting_and_atmosphere": "Cool blue vehicle tones contrasted with warm streetlights, cinematic night ambience, realistic knit, denim, car paint, and pavement texture.",
+    "technical_specs": "Photorealistic raw-style night photography, 1:1 framing, sharp subject and vehicle, natural depth, controlled headlight highlights.",
+    "generated_prompt_string": "Create a photorealistic 1:1 nighttime street-fashion portrait of an approved adult blonde woman with long straight hair beside a deep-blue performance coupe. She wears a loose cream knitted top, ripped light-blue jeans, and white sneakers, leans against the front bumper, lifts one hand to her hair, and looks slightly aside. Show the car's black hood and glowing headlights, tree-lined street, and warm orange streetlight bokeh. Use cool blue and warm light contrast, realistic textures, and cinematic streetwear mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, random text, extra fingers, deformed hands, distorted car, unwanted signature text",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-blue-car-subject", "required": true, "source": "night-blue-mustang-blonde-fashion.jpg", "usage": "Preserve adult identity, hair, expression, and vehicle pose."}, {"type": "wardrobe", "name": "cream-knit-ripped-denim", "required": true, "source": "night-blue-mustang-blonde-fashion.jpg", "usage": "Keep clothing and sneakers consistent; replace only with explicit references."}, {"type": "vehicle", "name": "deep-blue-performance-coupe", "required": true, "source": "night-blue-mustang-blonde-fashion.jpg", "usage": "Maintain vehicle color, hood, headlights, and geometry; replace only with explicit references."}, {"type": "text_layout", "name": "optional-signature-mark", "required": false, "source": "night-blue-mustang-blonde-fashion.jpg", "usage": "Attach only if supplied signature typography is intentionally required; otherwise omit text."}], "prompt_instructions": "Attach person, wardrobe, vehicle, and optional text-layout references when exact consistency is required. Keep adult identity, outfit, vehicle/product, environment, logo, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Clarified the subject as an approved adult and made signature text optional and controlled.", "Added safe negative prompts and structured references."]}
+}

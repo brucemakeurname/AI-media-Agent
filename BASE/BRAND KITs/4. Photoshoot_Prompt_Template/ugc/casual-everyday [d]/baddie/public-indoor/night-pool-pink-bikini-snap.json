@@ -1,0 +1,58 @@
+{
+  "name": "night-pool-pink-bikini-snap",
+  "tag": [
+    "ugc",
+    "baddie",
+    "public-indoor",
+    "night-pool",
+    "flash-snapshot",
+    "pink-bikini"
+  ],
+  "image_type": "ugc-night-pool-lifestyle-portrait",
+  "image_vibe": "raw-blue-night-candid",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/public-indoor",
+  "prompt": {
+    "project_info": "Create a raw photorealistic nighttime resort snapshot beside a blue-lit pool, preserving the pink swimwear, frontal flash and deep blue background.",
+    "main_subject": "One original approved adult woman with light natural skin, shoulder-length brown hair and realistic natural skin texture. She wears a light-pink two-piece swimsuit with thin straps and a tied side detail. She stands with a neutral direct gaze and relaxed posture.",
+    "composition_elements": "3:4 medium portrait framed from the hips upward at eye level. Keep the torso slightly angled, left hand holding the side tie near the hip and right arm resting straight down. Include dark wooden railing, vivid blue illuminated pool, silhouetted palm trees and pitched-roof resort buildings.",
+    "lighting_and_atmosphere": "Harsh frontal smartphone flash creates high-contrast highlights and shadows on the subject, while blue pool lights and dim resort lighting illuminate the background. Preserve slight dark-area noise and candid nighttime atmosphere.",
+    "technical_specs": "3:4 vertical raw smartphone flash photography, sharp foreground focus, slight background blur, natural skin imperfections and specular highlights, realistic pool reflections and restrained color.",
+    "generated_prompt_string": "Create a raw photorealistic nighttime resort snapshot of one original approved adult woman with light natural skin, shoulder-length brown hair and realistic natural skin texture. She wears a light-pink two-piece swimsuit with thin straps and a tied side detail. Use a 3:4 medium portrait framed from the hips upward at eye level; keep her torso slightly angled, left hand holding the side tie near the hip and right arm resting straight down, with a neutral direct gaze. Include a dark wooden railing, vivid blue illuminated pool, silhouetted palm trees and pitched-roof resort buildings. Use harsh frontal smartphone flash with high-contrast highlights, blue pool light, dim resort ambience, slight background blur, natural skin imperfections, realistic reflections and subtle dark-area noise.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, body-part emphasis, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, wardrobe malfunction, unreadable text or logos",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "night-pool-pink-bikini-snap.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, hair, expression, skin texture and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "light-pink two-piece swimsuit with thin straps and side tie",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve pink color, straps, side tie and fit; replace only with an explicitly supplied wardrobe reference."
+        },
+        {
+          "type": "location",
+          "name": "dark railing, blue-lit pool and resort night background",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve railing, pool light, palms, buildings, depth separation and night atmosphere; environment may be replaced through explicit references."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, face, hair, outfit, hand placement, railing, pool lighting and resort environment consistent. The approved adult, wardrobe and setting may be replaced separately through explicit references, but retain the same 3:4 flash composition. No logo or typography is required."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous young-subject wording to original approved adult.",
+      "Removed body-part emphasis while preserving the pink swimwear, hand placement, flash treatment and pool-night concept.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

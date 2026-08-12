@@ -1,0 +1,66 @@
+{
+  "name": "ultra-realistic-blonde-smoking-portrait",
+  "tag": [
+    "adult-woman",
+    "blonde-bob",
+    "red-studio",
+    "dramatic-rim-light",
+    "edgy-fashion"
+  ],
+  "image_type": "red-studio-fashion-portrait",
+  "image_vibe": "edgy-dramatic-editorial",
+  "image_purpose": "fashion-editorial",
+  "group": "indie/enegy-lifestyle/neon-nightlife",
+  "source_url": "https://x.com/KeorUnreal/status/2027327896423903739",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed celebrity likeness, cigarette and smoke, erotic crouching/leg framing, exposed crop styling, fishnets, and creator text. Preserved the adult blonde-bob red-studio editorial with dramatic rim light."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "adult blonde-bob red-studio fashion portrait",
+      "color_palette": "vibrant red, white, black, violet, gold, and warm skin tones",
+      "aspect_ratio": "2:3"
+    },
+    "main_subject": {
+      "description": "An original adult woman with a straight blonde bob and full bangs, dark eyeliner, small freckle-like cheek dots, red lips, and a direct composed gaze; she must not resemble a celebrity.",
+      "wardrobe": "White satin bomber jacket over a buttoned black high-neck blouse, black tailored trousers, lace-inspired black cuffs, understated gold rings, and small dangling earrings.",
+      "pose": "Standing three-quarter view against the red studio wall, one hand holding a folded red program card with no text, the other resting naturally by her side."
+    },
+    "composition_elements": {
+      "framing": "Vertical mid-length eye-level portrait with subject centered.",
+      "environment": "Solid vibrant-red studio backdrop with abstract red light shapes only; no signage, lettering, smoke, or props related to smoking."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Dramatic red rim light, deep sculpted shadows, and controlled highlights on satin and hair.",
+      "atmosphere": "Edgy, polished, graphic, and cinematic."
+    },
+    "technical_specs": {
+      "camera": "cinematic portrait lens with shallow depth of field",
+      "quality": "high-detail natural skin, realistic satin, crisp jewelry, no AI artifacts"
+    },
+    "generated_prompt_string": "Create an ultra-realistic vertical red-studio fashion portrait of an original adult woman who does not resemble a celebrity. She has a straight blonde bob with full bangs, dark eyeliner, subtle freckle-like cheek dots, red lips, and a direct composed gaze. She wears a white satin bomber jacket over a buttoned black high-neck blouse, black tailored trousers, lace-inspired black cuffs, understated gold rings, and small dangling earrings. Pose her standing three-quarter view before a solid vibrant-red studio wall, holding a folded blank red program card in one hand. Use dramatic red rim light, deep sculpted shadows, controlled highlights on hair and satin, natural skin texture, shallow depth of field, and no smoke, cigarettes, text, logos, or watermarks.",
+    "negative_prompt": "celebrity likeness, smoking, cigarette, smoke, minor, crouching pose, legs-wide pose, crop top, exposed chest, fishnets, nudity, explicit, nsfw, overly revealing clothing, readable text, creator name, logo, watermark, distorted anatomy, extra fingers",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use them only to replace the adult wardrobe, hairstyle, or red-light character; do not copy identity, text, or smoking props.",
+      "assets": [
+        {
+          "type": "wardrobe_reference",
+          "name": "covered-black-and-white-edgy-look",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace the adult subject's jacket, blouse, trousers, cuffs, and jewelry."
+        },
+        {
+          "type": "lighting_reference",
+          "name": "red-studio-rim-light",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace red rim direction, shadow density, and highlight intensity."
+        }
+      ]
+    }
+  }
+}

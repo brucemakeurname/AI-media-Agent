@@ -1,0 +1,80 @@
+{
+  "name": "dramatic-lighting-contemplative-portrait",
+  "tag": [
+    "adult-man",
+    "contemplative-pose",
+    "black-and-white",
+    "round-glasses",
+    "chambray-shirt"
+  ],
+  "image_type": "dramatic-contemplative-portrait",
+  "image_vibe": "thoughtful-cinematic-noir",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Converted the uploaded-face instruction into a required approved adult non-public-figure identity reference and aligned the hand-to-chin pose and round glasses with the viewed image while preserving the original dramatic monochrome concept."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "dramatic black-and-white contemplative editorial portrait",
+      "color_palette": "deep charcoal, black, white, and soft silver-gray",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult man matching the required approved adult non-public-figure identity reference, with dark textured hair swept back, well-groomed short stubble, natural skin texture, and a thoughtful gaze.",
+      "wardrobe": "Light chambray or denim collared shirt with a relaxed open top button and rolled sleeve, plus simple round dark eyeglasses.",
+      "pose": "Three-quarter upper-body portrait with the head tilted slightly, looking thoughtfully past camera while one hand rests naturally at the chin."
+    },
+    "composition_elements": {
+      "framing": "Vertical upper-body portrait with the face, glasses, hand, shirt texture, and buttons clearly visible.",
+      "environment": "Soft dark out-of-focus studio background with a subtle tonal gradient and no text or logos.",
+      "focus": "Sharp eyes behind the glasses, facial contours, hand anatomy, hair strands, and chambray weave."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Dramatic cinematic key light from upper-left with strong highlights on forehead, nose, cheekbone, and hand, subtle rim light on hair and ear, and controlled shadow depth.",
+      "atmosphere": "Intense, thoughtful, refined, and quietly cinematic."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with an 85mm lens at f/2.0, 1/125 s, ISO 200",
+      "quality": "Hyper-realistic neutral monochrome, shallow depth of field, detailed skin and fabric texture, natural glass reflections, and subtle film grain"
+    },
+    "generated_prompt_string": "Create a hyper-realistic 4:5 black-and-white contemplative editorial portrait of an adult man matching the required approved adult non-public-figure identity reference. He has dark textured hair swept back, well-groomed short stubble, natural skin texture, and a thoughtful gaze. He wears a light chambray or denim collared shirt with a relaxed open top button and rolled sleeve, plus simple round dark eyeglasses. Frame a vertical three-quarter upper-body portrait with his head tilted slightly, looking thoughtfully past camera while one hand rests naturally at the chin. Use a dramatic cinematic key light from upper-left, strong highlights on forehead, nose, cheekbone, and hand, subtle rim light on hair and ear, a soft dark out-of-focus background, an 85mm lens at f/2.0, realistic glass reflections, detailed fabric texture, and no text or logos.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, celebrity likeness, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, distorted glasses, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "The required approved adult identity reference must be attached and used only to preserve adult facial identity and facial structure. Optional glasses, shirt, or studio references may replace only their named element; preserve the hand-to-chin pose, dramatic monochrome lighting, and thoughtful mood.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Match adult facial identity, structure, hairline, and stubble only; do not imitate a celebrity or blend faces."
+        },
+        {
+          "type": "accessory",
+          "name": "round-dark-eyeglasses",
+          "required": false,
+          "source": "user-uploaded eyewear reference",
+          "usage": "Replace only the round eyeglass frame shape and reflections while preserving clear eyes."
+        },
+        {
+          "type": "wardrobe",
+          "name": "light-chambray-collared-shirt",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the shirt fabric, collar, buttons, and sleeve styling while preserving the relaxed silhouette."
+        },
+        {
+          "type": "location",
+          "name": "dark-gradient-studio-background",
+          "required": false,
+          "source": "user-uploaded studio reference",
+          "usage": "Replace only the dark background and light gradient while preserving the dramatic monochrome separation."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "samsung-galaxy-tab-s11-ultra-next-gen-s-pen-colors",
+  "tag": [
+    "tablet-launch",
+    "design",
+    "s-pen",
+    "color-options"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Infographics",
+  "group": "samsung_1235183791983430",
+  "prompt": {
+    "project_info": {
+      "theme": "Galaxy Tab S11 Ultra ultra sleek design and S Pen poster",
+      "color_palette": "Black, white, silver, graphite gray, soft pink screen glow"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "Black-background product poster comparing silver and gray Galaxy Tab S11 Ultra color variants with a white next-gen S Pen, emphasizing ultra-sleek industrial design.",
+      "style": "Photorealistic premium hardware render, high-contrast minimal launch infographic"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Ultra sleek design. Equipped with a next-gen S Pen / Galaxy Tab S11 Ultra / Silver / Gray",
+      "items": [
+        "Top Left: Large centered white headline 'Ultra sleek design. Equipped with a next-gen S Pen'.",
+        "Top Right: Smaller centered subtitle 'Galaxy Tab S11 Ultra'.",
+        "Bottom Left: Silver color dot label 'Silver' above the silver tablet rear-view crop.",
+        "Bottom Right: Gray color dot label 'Gray' above the gray tablet stack and vertical white S Pen at far right.",
+        "Center/Background: Cropped oversized tablet hardware close-ups across the bottom half, including silver rear view, gray rear/front stack with pink display, and a standalone white S Pen."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Studio lighting",
+      "effect": "Sharp metallic highlights, deep black contrast, clean hardware gloss on camera rings"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic product render",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for Galaxy Tab S11 Ultra ultra sleek design and S Pen poster. Centerpiece is a black-background composition of oversized silver and gray Galaxy Tab S11 Ultra hardware crops with a white next-gen S Pen and a hint of soft pink display on the right stack. Background is deep black with premium contrast. Surrounding elements: exact title 'Ultra sleek design. Equipped with a next-gen S Pen', subtitle 'Galaxy Tab S11 Ultra', and two color labels 'Silver' and 'Gray'. Technical style: photorealistic product render, studio lighting, sharp metallic highlights and glossy camera-ring detail, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "silver and gray Galaxy Tab S11 Ultra renders with white S Pen",
+          "required": true,
+          "source": "official Samsung hardware renders",
+          "usage": "Preserve exact color finishes, camera positions, crop scale, and pen thickness."
+        },
+        {
+          "type": "text_layout",
+          "name": "design headline and color labels",
+          "required": true,
+          "source": "original poster",
+          "usage": "Retain exact wording, centered alignment, and color-dot placement."
+        }
+      ],
+      "prompt_instructions": "Use refs for the hardware crops and S Pen. The poster should stay stark and premium, with the devices occupying the lower half and the headline dominating the upper black space."
+    }
+  }
+}

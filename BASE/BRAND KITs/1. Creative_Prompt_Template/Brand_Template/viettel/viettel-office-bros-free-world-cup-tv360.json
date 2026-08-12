@@ -1,0 +1,78 @@
+{
+  "name": "viettel-office-bros-free-world-cup-tv360",
+  "tag": [
+    "viettel",
+    "world-cup",
+    "office",
+    "tv360",
+    "daily-data"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "viettel_1591558392558258",
+  "prompt": {
+    "project_info": {
+      "theme": "Free World Cup viewing on TV360 for office workers with daily data plan",
+      "color_palette": "Viettel red, white, black, wood brown, office gray, multicolor ribbon"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "Two young office men lean forward over a desk with surprised, excited faces while a large smartphone on the desk transforms into a miniature football field with tiny players. The main text says 'ANH EM VĂN PHÒNG' and 'XEM WORLD CUP MIỄN PHÍ TRÊN TV360'. At the bottom, a red promo box reads '12.000Đ/NGÀY —— 6GB' and 'SGVS12 gửi 191'.",
+      "style": "Photoreal office fantasy advertising composite with oversized perspective and sports-in-a-phone gimmick"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "viettel telecom; ANH EM VĂN PHÒNG; XEM WORLD CUP MIỄN PHÍ TRÊN TV360; 12.000Đ/NGÀY —— 6GB; SGVS12 gửi 191",
+      "items": [
+        "Top Left: Viettel telecom logo in red and black",
+        "Top Right: Thick multicolor ribbon stream entering from the upper-right corner",
+        "Bottom Left: Large rounded red offer card with white and red pricing text",
+        "Bottom Right: Desk props including a black pen cup with sticky note, keyboard, and white wireless earbuds",
+        "Center/Background: Two office men reacting in amazement above a smartphone that becomes a football pitch with tiny players and TV360 stadium branding"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright office commercial lighting",
+      "effect": "High contrast glow behind headline, mild lens bloom, crisp miniature field detail, energetic color separation"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal fantasy advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for a Viettel office-focused World Cup viewing offer on TV360. Centerpiece is a photoreal fantasy scene of two excited office men leaning over a desk while a large smartphone transforms into a miniature football stadium with tiny players. Include the exact text 'ANH EM VĂN PHÒNG', 'XEM WORLD CUP MIỄN PHÍ TRÊN TV360', '12.000Đ/NGÀY —— 6GB', and 'SGVS12 gửi 191'. Background is a modern office desk environment with strong ad polish. Surrounding elements: Viettel telecom logo in the top left, multicolor ribbon beam from the top right, desk objects like pen holder, keyboard, earbuds, and a bold red offer card at the bottom left. Technical style: photoreal fantasy advertising composite, bright office commercial lighting, headline glow and crisp miniature field detail, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Viettel telecom logo",
+          "required": true,
+          "source": "original creative branding",
+          "usage": "Top-left logo"
+        },
+        {
+          "type": "person",
+          "name": "Two young office men",
+          "required": true,
+          "source": "recreated from original office scene",
+          "usage": "Keep the exaggerated leaning-in perspective and surprised facial expressions"
+        },
+        {
+          "type": "product",
+          "name": "Desk smartphone transformed into football field",
+          "required": true,
+          "source": "original core visual metaphor",
+          "usage": "Rebuild a large phone as a stadium field with miniature players and TV360 border signage"
+        },
+        {
+          "type": "graphic",
+          "name": "Red promo box and multicolor ribbon beam",
+          "required": true,
+          "source": "recreated from original layout",
+          "usage": "Anchor the offer and add campaign energy"
+        }
+      ],
+      "prompt_instructions": "This image relies on the contrast between ordinary office props and the surreal phone-stadium reveal. Keep the men oversized near the lens, the phone large at desk level, and the headline glowing in front of them."
+    }
+  }
+}

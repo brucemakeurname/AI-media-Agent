@@ -1,0 +1,44 @@
+{
+  "name": "sadie-sink-pink-knit-lazy-selfie",
+  "tag": ["ugc", "selfie-pov", "cozy-casual", "private-indoor", "pink-knit", "lazy-selfie", "at-home"],
+  "image_type": "casual smartphone selfie portrait",
+  "image_vibe": "relaxed, intimate, candid, cozy, everyday",
+  "image_purpose": "social-media lifestyle selfie",
+  "group": "selfie-pov/cozy-casual/private-indoor",
+  "prompt": {
+    "project_info": "Ultra-photorealistic high-angle smartphone selfie of an original adult woman seated in a cluttered modern apartment living room, with natural daylight, detailed knit texture and candid Gen-Z at-home atmosphere.",
+    "main_subject": "One original adult woman with pale natural skin and visible freckles across the face, bright blue eyes, natural eyebrows, soft pink lips, and long ginger-red hair pulled into a high messy ponytail with loose strands framing her face. She wears a matching light-pink ribbed-knit loungewear set: long-sleeved cropped zip hoodie partially unzipped and matching ribbed pants. She has stacked gold rings on the left hand and a charm bracelet with silver and pink charms on the left wrist. Do not reproduce Sadie Sink or any other public-figure likeness.",
+    "composition_elements": "Use a high-angle front-facing smartphone selfie. The adult woman sits on a chair or couch, raises her left hand near her face with the index finger playfully resting near the lower lip, and makes direct eye contact with a relaxed candid gaze and slightly parted lips. Include a black coffee table with water bottles, a glass jar, snacks and a game controller, brown faux-fur rug, dining area with red metal chairs, white door with blinds, orange sofa edge, black television stand with screen off, and a distant kitchen with stainless appliances.",
+    "lighting_and_atmosphere": "Natural daylight enters from a left-side window, creating soft shadows and illuminating freckles and face texture, while ambient indoor light fills the rest of the apartment. Preserve casual intimate at-home mood, realistic clutter and cozy everyday color.",
+    "technical_specs": "Ultra-photorealistic 8K-style smartphone front-facing camera or 24mm-equivalent wide-angle simulation, high-angle selfie, sharp face and knit detail, visible skin pores, stray hairs and eye reflections, natural depth-of-field falloff, no text, logo or watermark.",
+    "generated_prompt_string": "Ultra-photorealistic high-angle smartphone selfie of one original adult woman with pale natural freckled skin, bright blue eyes, natural brows, soft pink lips and long ginger-red hair in a high messy ponytail with loose strands. She wears a matching light-pink ribbed-knit loungewear set with long-sleeved cropped zip hoodie partially unzipped and matching pants, stacked gold rings and a silver-and-pink charm bracelet. Seated in a cluttered modern apartment, left index finger playfully near lower lip, direct eye contact, relaxed slightly parted lips. Coffee table with bottles, jar, snacks and game controller, brown faux-fur rug, red dining chairs, white door with blinds, orange sofa edge, TV stand with screen off, distant stainless kitchen. Soft left window daylight plus ambient indoor light, detailed knit and skin pores, relaxed candid Gen-Z at-home aesthetic, no public-figure likeness.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, Sadie Sink likeness, distorted anatomy, extra fingers, malformed hands, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry face, random text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "sadie-sink-pink-knit-lazy-selfie.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult freckled ginger-red-haired selfie subject, pink ribbed loungewear, hand gesture, apartment clutter, high-angle framing, daylight and candid cozy mood; replace the named identity with an original adult."
+        },
+        {
+          "type": "image_asset",
+          "name": "1774976126066-wov3jcag-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202603/1774976126066-wov3jcag-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required and the image asset is optional; it is not inspected in the text-only workflow. Keep the adult subject, freckles, hair, pink knit outfit, hand gesture, apartment details, daylight and candid selfie aesthetic consistent. Replace identity only."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced Sadie Sink likeness with an original adult woman.",
+      "Preserved the source's non-explicit loungewear, pose, apartment setting, freckles and cozy selfie direction.",
+      "Added required safety and artifact exclusions."
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "soft-embroidery-time-lapse-cinematic",
+  "tag": [
+    "adult-hands",
+    "embroidery",
+    "pastel",
+    "soft-backlight",
+    "craft-editorial"
+  ],
+  "image_type": "craft-detail-editorial",
+  "image_vibe": "soft-intimate-cinematic",
+  "image_purpose": "lifestyle-editorial",
+  "group": "indie/enegy-lifestyle/other",
+  "source_url": "https://x.com/KusoPhoto/status/2025163598612373557",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Adapted the source video/time-lapse direction into a single still-photo composition, appropriate for this photoshoot-template folder; no unsafe content was present."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "soft cinematic adult hand-embroidery still life",
+      "color_palette": "pastel pink, ivory, pale peach, warm wood, and diffuse white light",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "An adult craftsperson's hands carefully pulling pale-pink thread through a small floral embroidery pattern.",
+      "wardrobe": "Ivory cotton blouse sleeve with delicate cuff detail; hands wear only simple unbranded rings.",
+      "action": "Needle is mid-stitch above an embroidery hoop, with the nearly completed flower visible in the fabric."
+    },
+    "composition_elements": {
+      "framing": "Intimate close-up of hands, needle, thread, and hoop, with the completed floral motif occupying the lower third.",
+      "environment": "Clean sunlit craft table, soft pastel textile scraps, and no readable pattern labels, packaging, or text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Soft backlighting through a sheer curtain with gentle side fill, shallow depth of field, and delicate highlight on thread fibers.",
+      "atmosphere": "Quiet, lovely, tactile, and cinematic."
+    },
+    "technical_specs": {
+      "camera": "100mm macro lens, shallow depth of field",
+      "quality": "high-detail thread fibers, natural hands, subtle film grain, soft pastel color grade"
+    },
+    "generated_prompt_string": "Create a photoreal 4:5 intimate cinematic macro still life of an adult craftsperson's hands embroidering a small pale-pink floral motif. Show an ivory cotton blouse cuff, simple unbranded rings, a needle mid-stitch, fine pink thread, and a wooden embroidery hoop with the nearly completed flower visible. Place the hoop on a clean sunlit craft table with softly blurred pastel textile scraps. Use soft backlight through a sheer curtain, gentle side fill, 100mm macro shallow depth of field, detailed thread fibers, natural hands, subtle film grain, and a delicate pastel color grade. No labels, packaging, readable text, logos, or watermark.",
+    "negative_prompt": "minor, video frame, storyboard, time-lapse sequence, readable pattern text, packaging, logo, watermark, distorted hands, extra fingers, plastic skin, harsh lighting",
+    "reference_elements": {
+      "prompt_instructions": "All references are optional. Use them only to replace hoop, floral stitch pattern, fabric palette, or window-light character; remove all labels and text.",
+      "assets": [
+        {
+          "type": "craft_reference",
+          "name": "floral-embroidery-pattern",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace flower stitch structure and thread colors without readable pattern text."
+        },
+        {
+          "type": "lighting_reference",
+          "name": "soft-pastel-window-backlight",
+          "required": false,
+          "source": "user upload",
+          "usage": "Replace curtain diffusion, pastel palette, and light direction."
+        }
+      ]
+    }
+  }
+}

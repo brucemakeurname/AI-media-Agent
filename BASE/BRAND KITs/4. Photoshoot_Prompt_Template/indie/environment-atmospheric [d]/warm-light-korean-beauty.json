@@ -1,0 +1,59 @@
+{
+  "name": "Warm Lamplight Lounge Portrait",
+  "tag": "warm-lamplight-lounge-portrait",
+  "image_type": "low_key_interior_portrait",
+  "image_vibe": "warm_hushed_evening",
+  "image_purpose": "interior_lifestyle_editorial",
+  "group": "indie/environment-atmospheric",
+  "prompt": {
+    "project_info": {
+      "title": "Warm Lamplight Lounge Portrait",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult East Asian woman with dark hair in a loose low bun, softly closed eyes, and understated natural makeup.",
+      "wardrobe": "A long-sleeve black knit midi dress with a high neckline, opaque black tights, and plain black loafers.",
+      "pose_and_expression": "Seated upright but relaxed on a black leather sofa, one arm along the armrest and the other hand resting on a cream knit throw."
+    },
+    "composition_elements": {
+      "setting": "Warm wood-paneled lounge corner with dark curtain, black leather sofa, cream tasselled knit throw, closed blank books, patterned rug, and ornate table lamp.",
+      "framing": "Three-quarter medium-full interior portrait with quiet negative space and no body emphasis.",
+      "text_and_brand_control": "No face preservation, lingerie, sheer stockings, leg focus, book titles, logos, or readable text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "One warm tungsten table lamp from lower right with soft shadow falloff and dim ambient fill.",
+      "mood": "Quiet, restorative, warm, and cozy."
+    },
+    "technical_specs": {
+      "camera_style": "low-key cinematic interior editorial",
+      "lens": "50mm equivalent",
+      "rendering": "Natural skin texture, detailed knit and leather, restrained grain, realistic hands, soft background falloff."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical low-key cinematic interior portrait of an adult East Asian woman with dark hair in a loose low bun, softly closed eyes, and understated natural makeup. She wears a long-sleeve black knit midi dress with high neckline, opaque black tights, and plain black loafers. Seat her upright but relaxed on a black leather sofa, one arm along the armrest and the other hand on a cream tasselled knit throw. Set the scene in a warm wood-paneled lounge corner with a dark curtain, closed blank books, patterned rug, and ornate table lamp. Use one warm tungsten lamp from lower right, dim ambient fill, soft shadow falloff, natural skin, detailed knit/leather, restrained grain, realistic hands, and soft background falloff. No face preservation, lingerie, sheer stockings, leg focus, book titles, logos, readable text, watermark, or sexualized mood.",
+    "negative_prompt": "minor, celebrity likeness, identity lock, explicit, nsfw, overly revealing clothing, deep V, halter mini dress, sheer thigh-highs, garter, fetish styling, body focus, readable book title, logo, watermark, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Only optional identity references depicting a consenting adult may guide broad traits. Replaceable lounge, wardrobe, and prop references must omit all branding, text, and sexualized styling.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult face and hair traits only."
+        },
+        {
+          "type": "environment_reference",
+          "name": "warm_lounge_reference",
+          "required": false,
+          "source": "user-provided interior reference",
+          "usage": "Guide wood, sofa, lamp, curtain, rug, and throw layout with blank books."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Removed identity preservation and sexualized lingerie/stocking/body-focus direction; retained warm late-night lounge atmosphere with covered adult styling."
+  }
+}

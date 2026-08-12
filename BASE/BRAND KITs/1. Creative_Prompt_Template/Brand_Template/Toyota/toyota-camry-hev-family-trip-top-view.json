@@ -1,0 +1,77 @@
+{
+  "name": "toyota-camry-hev-family-trip-top-view",
+  "tag": [
+    "camry-hev",
+    "family-trip",
+    "hybrid",
+    "premium-sedan"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Brand story",
+  "group": "toyota_901243106323248",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Camry HEV makes family journeys feel shorter and more relaxing",
+      "color_palette": "Warm sunset gold, silver gray, cool cyan, beige, deep green"
+    },
+    "main_subject": {
+      "type": "Object/Person/Text",
+      "detail": "A top-down cinematic poster of a silver Toyota Camry HEV parked or moving slowly on a sunlit road, with the car roof rendered transparent in a glowing cyan cutaway effect. Inside, a family sits comfortably: driver at the wheel, front passenger, a child in a rear child seat, plus luggage including a woven suitcase, cooler box, rolled mat, and teddy bear. Bottom-left text reads 'TOYOTA CAMRY HEV' and 'DUONG XA HOA NGAN THU THAI HANH TRINH'. Small note says '*Hinh anh duoc tao boi AI nham muc dich minh hoa'. Bottom-right script says 'Move your world'.",
+      "style": "Premium lifestyle automotive poster with semi-xray cabin visualization, calm family storytelling, and cinematic overhead composition"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / TOYOTA CAMRY HEV / DUONG XA HOA NGAN THU THAI HANH TRINH / *Hinh anh duoc tao boi AI nham muc dich minh hoa / Move your world",
+      "items": [
+        "Top Left: Toyota logo over a warm sunlit roadside canopy",
+        "Top Right: Long tree shadow stretching across the road surface",
+        "Bottom Left: Camry HEV sublabel, main slogan block, and small AI-illustration note",
+        "Bottom Right: Handwritten 'Move your world' signature over dark blurred foliage",
+        "Center/Background: Overhead silver Camry HEV with a transparent blue cabin showing parents, child seat, teddy bear, and travel luggage inside"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Golden-hour cinematic automotive lighting",
+      "effect": "Sun flare through trees, soft shadow pattern on pavement, cyan interior glow, premium travel calm"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal automotive lifestyle composite with transparent cutaway effect",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Camry HEV family lifestyle story. Centerpiece is a top-down silver Toyota Camry HEV with a translucent cyan cutaway roof revealing a family seated inside and travel items including a teddy bear, woven luggage, a cooler, and a rolled mat. Background is a sunlit road bordered by trees with dramatic long shadows and warm golden-hour light. Surrounding elements: Toyota logo, exact copy 'TOYOTA CAMRY HEV', headline 'DUONG XA HOA NGAN THU THAI HANH TRINH', small note '*Hinh anh duoc tao boi AI nham muc dich minh hoa', and footer script 'Move your world'. Technical style: photoreal automotive lifestyle composite with transparent cutaway effect, golden-hour cinematic automotive lighting, sun flare and cyan interior glow, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Toyota Camry HEV exterior top-view reference",
+          "required": true,
+          "source": "official Toyota Camry HEV renders",
+          "usage": "Preserve the body shape, roofline, rear light signature, and premium sedan proportions"
+        },
+        {
+          "type": "person",
+          "name": "Family seating arrangement reference",
+          "required": true,
+          "source": "this creative or family lifestyle source image",
+          "usage": "Keep the exact overhead positions of driver, passenger, and child in the rear child seat"
+        },
+        {
+          "type": "accessory",
+          "name": "Teddy bear, wicker suitcase, cooler, rolled mat, child seat",
+          "required": true,
+          "source": "prop references",
+          "usage": "Maintain the family-trip storytelling details in the trunk and rear cabin area"
+        },
+        {
+          "type": "text_layout",
+          "name": "Camry HEV top-view family poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the overhead composition, bottom-left slogan block, and bottom-right signature"
+        }
+      ],
+      "prompt_instructions": "This image relies on the transparent cyan cutaway roof effect; do not turn it into a normal top-view car photo. Preserve the small AI-illustration disclaimer exactly as visible."
+    }
+  }
+}

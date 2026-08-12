@@ -1,0 +1,59 @@
+{
+  "name": "Y2K Blue-Flash Mirror Selfie",
+  "tag": "y2k-blue-flash-mirror-selfie",
+  "image_type": "mirror_flash_selfie",
+  "image_vibe": "cool_y2k_digital",
+  "image_purpose": "beauty_social_editorial",
+  "group": "indie/low-fi-dreamy/cool-moody",
+  "prompt": {
+    "project_info": {
+      "title": "Y2K Blue-Flash Mirror Selfie",
+      "format": "single still photograph",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "An adult woman with long soft dark-brown waves, blue-gray contact lenses, and light pink makeup.",
+      "wardrobe": "A charcoal crew-neck long-sleeve fitted knit top, high-waisted black trousers, simple silver hoop earrings, and a thin silver chain belt without charms.",
+      "pose_and_expression": "Holding a plain compact digital camera toward a mirror, standing comfortably upright with a calm gaze."
+    },
+    "composition_elements": {
+      "setting": "Dim cool-toned bedroom mirror scene with abstract background shapes and no personal or branded items.",
+      "framing": "Vertical mirror portrait with direct front flash and camera partially visible in hand.",
+      "text_and_brand_control": "No teenage subject, character hair clip, branded camera, timestamp, logo, visible body emphasis, or readable text."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Strong cool-white front flash, high contrast, and a slight blue cast.",
+      "mood": "Sharp, nostalgic, modern, and non-sexualized."
+    },
+    "technical_specs": {
+      "camera_style": "early-2000s compact digital camera",
+      "lens": "32mm equivalent",
+      "rendering": "Visible digital texture, natural skin, accurate mirror geometry and hands, no over-smoothing."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical Y2K compact-digital mirror selfie of an adult woman with long soft dark-brown waves, blue-gray contact lenses, and light pink makeup. She wears a charcoal crew-neck long-sleeve fitted knit top, high-waisted black trousers, simple silver hoops, and a thin silver chain belt without charms. She holds a plain compact digital camera toward a mirror while standing comfortably upright. Use a dim cool-toned bedroom with abstract background shapes, strong cool-white direct flash, high contrast, slight blue cast, visible digital texture, natural skin, accurate mirror geometry, and correct hands. No teenage subject, character hair clip, branded camera, timestamp, logo, body emphasis, readable text, or watermark.",
+    "negative_prompt": "minor, teen, celebrity likeness, exact face preservation, explicit, nsfw, crop top, spaghetti strap, exposed waist, character IP, logo, timestamp, readable text, watermark, distorted hands, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Any identity reference must depict a consenting adult and guide broad traits only. Wardrobe, camera, and room references are replaceable and must omit IP, branding, timestamps, and text.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Guide broad adult facial and hair traits only."
+        },
+        {
+          "type": "prop_reference",
+          "name": "generic_compact_camera_reference",
+          "required": false,
+          "source": "user-provided object reference",
+          "usage": "Guide small camera silhouette with all branding removed."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Replaced teenage identity-lock and character/brand elements with an adult, covered, unbranded mirror-selfie template."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "name": "dark-red-intimate-film-collage",
+  "tag": [
+    "adult-woman",
+    "red-satin-dress",
+    "four-panel-collage",
+    "analog-film",
+    "back-tie",
+    "warm-tungsten"
+  ],
+  "image_type": "fashion-editorial-collage",
+  "image_vibe": "warm, tender, cinematic, analog, low-fi",
+  "image_purpose": "editorial, moodboard, instagram-feed",
+  "group": "indie / moody-portrait / intimate-closeup",
+  "prompt": {
+    "project_info": {
+      "theme": "Four-panel dark-red satin analog fashion collage",
+      "format": "1:1 four-panel grid",
+      "color_palette": "deep red, burgundy, warm brown, neutral gray, satin highlight"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "An adult woman with softly waved slightly tousled dark hair, minimal warm makeup, natural skin texture, and an elegant feminine silhouette. She wears a deep-red satin slip dress with thin straps, a side slit, and a visible back-tie detail.",
+      "style": "low-fi analog fashion editorial collage"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "one square image containing four equal rectangular panels in a clean grid",
+        "panel one: relaxed half-body portrait against neutral gray with slight movement blur",
+        "panel two: three-quarter over-shoulder glance against dark red, hand near collarbone, gently soft focus",
+        "panel three: half-body upward head tilt against dark red with stronger artistic motion blur",
+        "panel four: close detail of back/side torso showing satin folds and back-tie strings against neutral gray",
+        "all panels retain consistent deep-red analog color and grain"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "warm low tungsten practical light, approximately 3000K",
+      "effect": "soft shadows, gentle bloom on satin highlights, selective clarity across the dress texture",
+      "atmosphere": "tender, cinematic, artistic, softly imperfect"
+    },
+    "technical_specs": {
+      "render_style": "Canon AE-1 film look, 50mm f/1.8, soft focus with selective satin highlight clarity",
+      "resolution": "high-detail square editorial collage",
+      "color_treatment": "deep reds and warm browns, low-to-medium contrast, analog grain, halation, soft bloom, mild vignette"
+    },
+    "generated_prompt_string": "Create one square four-panel analog fashion-editorial collage featuring an adult woman with softly waved slightly tousled dark hair, minimal warm makeup, natural skin texture, and an elegant feminine silhouette. She wears a deep-red satin slip dress with thin straps, a side slit, and a visible back-tie detail. Panel one is a relaxed half-body portrait against neutral gray with slight movement blur. Panel two is a three-quarter over-shoulder glance against dark red, with a hand near the collarbone and gentle soft focus. Panel three is a half-body upward head tilt against dark red with stronger artistic motion blur. Panel four is a close back/side detail showing the satin folds and back-tie strings against neutral gray. Keep the same deep-red analog color and grain across all panels. Use warm low tungsten practical light at approximately 3000K for soft shadows and gentle bloom on satin highlights. Canon AE-1 film look, 50mm f/1.8, soft focus with selective satin highlight clarity, deep reds and warm browns, low-to-medium contrast, analog grain, halation, soft bloom, mild vignette, and no text or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, body measurements, text, logo, watermark, ultra-sharp digital look, HDR, neon colors, plastic skin, over-retouched beauty, extra fingers, deformed anatomy, low resolution, heavy artifacts",
+    "reference_elements": {
+      "prompt_instructions": "The optional moodboard preserves the four-panel arrangement, deep-red satin slip dress, thin straps, side slit, back-tie detail, red/gray backgrounds, and analog treatment. An approved-adult identity reference may replace the subject; preserve her face, facial structure, and likeness. Keep the exact dress construction when a wardrobe reference is attached; other environment details may change while retaining the four-panel film collage.",
+      "assets": [
+        {
+          "type": "moodboard",
+          "name": "dark red satin analog collage source",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1775045780846-0n92dxz8-1.jpg",
+          "usage": "Use for the panel layout, red satin dress, back tie, red-gray backgrounds, and analog film treatment."
+        },
+        {
+          "type": "person",
+          "name": "approved adult face and identity reference",
+          "required": false,
+          "source": "user-supplied approved reference",
+          "usage": "When supplied, preserve the adult person's face, facial structure, and likeness."
+        },
+        {
+          "type": "wardrobe",
+          "name": "deep-red satin slip dress with back tie",
+          "required": false,
+          "source": "user-supplied wardrobe reference",
+          "usage": "Preserve the thin straps, side slit, satin folds, and back-tie construction."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Kept the subject explicitly adult and removed boudoir framing terminology.",
+      "Preserved the red satin slip dress, side slit, back tie, all four panel poses, and analog film direction.",
+      "Used silhouette, fashion, and lighting language rather than sexualized wording."
+    ]
+  }
+}

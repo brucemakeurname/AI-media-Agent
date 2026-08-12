@@ -1,0 +1,70 @@
+{
+  "name": "shopee-romano-mini-shaver-summer-beach-launch",
+  "tag": [
+    "summer-promo",
+    "grooming",
+    "electronics-accessory",
+    "beach-theme"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Product demos",
+  "group": "shopee_1715634516374078",
+  "prompt": {
+    "project_info": {
+      "theme": "Romano mini shaver summer launch beach poster",
+      "color_palette": "Sky blue, sand beige, royal blue, yellow, black, white"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A large black Romano mini electric shaver stands inside a yellow-and-white inflatable ring on a sandy beach. The top branding shows Shopee and the Romano logo. Headline reads 'RA MAT DOC QUYEN MAY CAO RAU ROMANO MINI SACH GON LICH LAM'. Blue coupon strip reads 'GIAM DEN 30%', 'VOUCHER SHOPEEVIP LEN DEN 20%', and 'MUA LA CO QUA'. Beach balls and palm leaves frame the tropical scene.",
+      "style": "Clean tropical product-hero poster with realistic shaver render and ecommerce beach-merchandising layout"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "ROMANO / RA MAT DOC QUYEN MAY CAO RAU ROMANO MINI SACH GON LICH LAM / GIAM DEN 30% / VOUCHER SHOPEEVIP LEN DEN 20% / MUA LA CO QUA",
+      "items": [
+        "Top Left: White Shopee logo and Romano brand logo",
+        "Top Right: Palm leaves against bright blue sky",
+        "Bottom Left: Small duck float toy on the sand",
+        "Bottom Right: Two beach balls near the shoreline",
+        "Center/Background: Sandy tropical beach, yellow-white inflatable swim ring, and a large black mini shaver with glowing green shaving heads"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright tropical daylight",
+      "effect": "Crisp sunlight, glossy product reflections, clean beach shadows, high-key commercial clarity"
+    },
+    "technical_specs": {
+      "render_style": "Commercial product poster with photo-composite beach environment",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Romano mini shaver launch on Shopee. Centerpiece is a realistic black electric shaver standing inside a yellow-and-white inflatable ring on a sunny tropical beach. Background is bright blue sky, turquoise water, sand, palm leaves, and beach toys. Surrounding elements: Shopee and Romano logos, large headline 'RA MAT DOC QUYEN MAY CAO RAU ROMANO MINI SACH GON LICH LAM', and a blue coupon strip reading 'GIAM DEN 30%', 'VOUCHER SHOPEEVIP LEN DEN 20%', and 'MUA LA CO QUA'. Technical style: commercial product poster with photo-composite beach environment, bright tropical daylight, crisp reflections, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Romano mini shaver product render",
+          "required": true,
+          "source": "official product render or clean packshot",
+          "usage": "Attach for exact body shape, head detail, slide switch label, and front logo fidelity"
+        },
+        {
+          "type": "logo",
+          "name": "Shopee, Romano, and ShopeeVIP logos",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for the top branding and in the coupon-strip reference"
+        },
+        {
+          "type": "text_layout",
+          "name": "Summer shaver launch beach layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the exact headline, three-part blue strip, and product-inside-float arrangement"
+        }
+      ],
+      "prompt_instructions": "This is a tropical launch creative with a realistic product hero. Preserve the beach merchandising system and the exact Vietnamese copy instead of simplifying into a plain packshot."
+    }
+  }
+}

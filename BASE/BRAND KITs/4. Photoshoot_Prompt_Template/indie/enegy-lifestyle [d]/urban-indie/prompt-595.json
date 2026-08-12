@@ -1,0 +1,71 @@
+{
+  "name": "Urban Streetwear Four-Frame Collage",
+  "tag": "urban-streetwear-four-frame",
+  "image_type": "four_frame_lifestyle_collage",
+  "image_vibe": "overcast_candid_urban",
+  "image_purpose": "streetwear_editorial",
+  "group": "indie/enegy-lifestyle/urban-indie",
+  "prompt": {
+    "project_info": {
+      "title": "Urban Streetwear Four-Frame Collage",
+      "format": "single 2 by 2 grid still image",
+      "aspect_ratio": "4:5 vertical"
+    },
+    "main_subject": {
+      "description": "The same adult woman with a high ponytail, fresh natural makeup, and composed street-style energy across four frames.",
+      "wardrobe": "An oversized plain black hoodie, relaxed charcoal cargo trousers, high socks, plain chunky sneakers, and an unbranded cross-body bag.",
+      "continuity": "Keep adult identity, covered wardrobe, and overcast city setting consistent in the entire collage."
+    },
+    "composition_elements": {
+      "grid_sequence": [
+        "Full-body walk across an unmarked crosswalk.",
+        "Side-profile seated safely on broad concrete steps, chin resting on hands.",
+        "Back-view full body facing an abstract blank billboard.",
+        "Medium shot leaning casually against a graffiti-free brick wall."
+      ],
+      "setting": "Muted city street and alley textures, blank street signs, neutral brick, and soft urban depth.",
+      "layout": "Four equal panels with narrow neutral gutters and no outer text border."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Cool overcast sky light, even and soft.",
+      "mood": "Confident, candid, contemporary, and grounded."
+    },
+    "technical_specs": {
+      "camera_style": "sharp digital street photography",
+      "lens": "35mm equivalent",
+      "rendering": "Crisp subject, realistic hands, natural skin, mild texture, no brand placement."
+    },
+    "generated_prompt_string": "Create a 4:5 vertical 2 by 2 lifestyle collage of the same adult woman with a high ponytail, fresh natural makeup, oversized plain black hoodie, relaxed charcoal cargo trousers, high socks, plain chunky sneakers, and an unbranded cross-body bag. Show her walking over an unmarked crosswalk; sitting safely on broad concrete steps with chin on hands; seen from behind facing an abstract blank billboard; and leaning against a graffiti-free brick wall. Use a cool overcast urban street setting with blank signs and neutral brick. Make four equal panels with narrow neutral gutters, crisp digital 35mm-equivalent street photography, natural skin, realistic hands, and no brand placement. No logos, billboards, readable signs, text, watermarks, or sexualized styling.",
+    "negative_prompt": "minor, celebrity likeness, explicit, nsfw, overly revealing clothing, lingerie, fetish styling, biker shorts, logo, branded hoodie, readable text, billboard copy, graffiti text, watermark, distorted hands, extra limbs, AI artifacts",
+    "reference_elements": {
+      "prompt_instructions": "Optional adult identity and wardrobe references guide general traits only. Replaceable environment references must have all street, billboard, and product copy removed.",
+      "assets": [
+        {
+          "type": "identity_reference",
+          "name": "approved_adult_subject_reference",
+          "required": false,
+          "source": "user-provided approved adult portrait",
+          "usage": "Maintain general adult identity across four panels."
+        },
+        {
+          "type": "wardrobe_reference",
+          "name": "covered_urban_streetwear_reference",
+          "required": false,
+          "source": "user-provided clothing reference",
+          "usage": "Guide hoodie and cargo silhouette without graphics or labels."
+        },
+        {
+          "type": "environment_reference",
+          "name": "overcast_city_street_reference",
+          "required": false,
+          "source": "user-provided location reference",
+          "usage": "Guide texture and depth after blanking all signs and advertisements."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "notes": "Clarified adult subject, replaced body-focused shorts with covered trousers, and removed brand/product placement and readable city copy."
+  }
+}

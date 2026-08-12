@@ -1,0 +1,80 @@
+{
+  "name": "black-white-power-portrait",
+  "tag": [
+    "adult-man",
+    "black-and-white",
+    "power-editorial",
+    "luxury-suv",
+    "bodyguard-composition"
+  ],
+  "image_type": "cinematic-power-portrait",
+  "image_vibe": "refined-authoritative-luxury",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the central subject as an adult and converted the face-reference instruction into a required approved adult non-public-figure identity reference; retained the luxury SUV, tailored suit, bodyguards, and mansion composition without adding brand text."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "high-contrast monochrome cinematic portrait of refined power",
+      "color_palette": "black, white, charcoal, and polished silver highlights",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "A stylish adult man matching the required approved adult non-public-figure identity reference, with a sharp goatee, natural skin texture, and composed authoritative expression.",
+      "wardrobe": "Perfectly tailored black suit with a white shirt, dark tie, and sleek black Chelsea boots.",
+      "pose": "Leaning confidently against a matte-black luxury SUV with a relaxed yet commanding posture."
+    },
+    "composition_elements": {
+      "framing": "Vertical full-body portrait with the central subject and SUV in the foreground, two adult bodyguards placed symmetrically behind him.",
+      "environment": "Grand mansion with elegant white pillars beneath a clear sky; remove readable license text, logos, and branding.",
+      "focus": "Sharp tailored fabric, polished footwear, vehicle surfaces, facial expression, and balanced background silhouettes."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Crisp professional daylight with controlled contrast, clean highlights on the suit and vehicle, and defined silhouettes.",
+      "atmosphere": "Bold, sophisticated, cinematic, influential, and restrained."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with a 50mm lens, f/5.6, 1/250 s, ISO 100",
+      "quality": "Photorealistic neutral monochrome, refined tonal range, realistic fabric and vehicle texture, natural proportions, and subtle film grain"
+    },
+    "generated_prompt_string": "Create a vertical 4:5 high-contrast black-and-white cinematic portrait of a stylish adult man matching the required approved adult non-public-figure identity reference. He has a sharp goatee, natural skin texture, and a composed authoritative expression. He wears a perfectly tailored black suit with a white shirt, dark tie, and sleek black Chelsea boots, leaning confidently against a matte-black luxury SUV with a relaxed yet commanding posture. Place two distinct adult bodyguards in dark tailored suits symmetrically behind him, with a grand mansion and elegant white pillars beneath a clear sky in the background. Use crisp professional daylight, controlled contrast, clean highlights, balanced silhouettes, a 50mm lens, realistic textures, and no readable license text, logos, or branding.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, celebrity likeness, nudity, explicit, nsfw, overly revealing, sexual pose, readable text, logo, watermark, plastic skin, over-smooth skin, distorted vehicle geometry, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "The required approved adult identity reference must be attached and used only to preserve the central adult subject's facial identity and structure. Optional wardrobe, vehicle, bodyguard, or mansion references may replace only their named element; preserve the power composition and remove logos or readable license details.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Match the central adult subject's facial identity and structure only; do not imitate a celebrity or blend faces."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-tailored-power-suit",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the central suit, shirt, tie, and footwear while preserving the commanding formal silhouette."
+        },
+        {
+          "type": "product",
+          "name": "matte-black-luxury-suv",
+          "required": false,
+          "source": "user-uploaded vehicle reference",
+          "usage": "Replace only the SUV shape and finish; remove visible logos, license text, and trademarks."
+        },
+        {
+          "type": "location",
+          "name": "white-column-mansion-exterior",
+          "required": false,
+          "source": "user-uploaded location reference",
+          "usage": "Replace only the mansion architecture and grounds while preserving the clear daylight setting."
+        }
+      ]
+    }
+  }
+}

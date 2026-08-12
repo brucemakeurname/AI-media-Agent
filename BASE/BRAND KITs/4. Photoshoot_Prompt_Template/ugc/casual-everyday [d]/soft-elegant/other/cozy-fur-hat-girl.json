@@ -1,0 +1,27 @@
+{
+  "name": "cozy-fur-hat-girl",
+  "tag": ["ugc", "casual-everyday", "soft-elegant", "other", "winter-coquette"],
+  "image_type": "cozy bedroom fashion portrait",
+  "image_vibe": "soft winter coquette comfort",
+  "image_purpose": "UGC-style beauty and fashion portrait",
+  "group": "soft-elegant/other",
+  "prompt": {
+    "project_info": "Create a realistic cozy bedroom portrait of an original approved adult woman styling a black faux-fur winter hat.",
+    "main_subject": "An original approved adult woman with pale skin, subtle freckles, light blue eyes, long dark brown softly waved hair, and natural makeup wears a cream ribbed tank top, dark blue-and-white plaid pleated skirt, and a large black faux-fur ushanka-style hat. Both hands gently touch the hat, and multiple delicate chain bracelets decorate her wrists.",
+    "composition_elements": "Centered vertical close portrait, direct calm gaze, hands framing the hat, soft white bedding, ivy-covered white wall feature, gentle background blur, visible ribbed knit, fur, plaid, and jewelry texture.",
+    "lighting_and_atmosphere": "Warm diffused indoor light with gentle catchlights and soft shadows, cozy trendy winter atmosphere, natural highlights on shoulders and hat without body-part emphasis.",
+    "technical_specs": "Realistic 35mm portrait photography, f/2.8, ISO 200, vertical 4:5, sharp facial features and accessories, soft background bokeh, natural skin pores, restrained color, no artificial HDR look.",
+    "generated_prompt_string": "Realistic vertical 4:5 cozy bedroom portrait of an original approved adult woman with pale skin, subtle freckles, light blue eyes, long dark brown softly waved hair, and natural makeup wearing a cream ribbed tank top, dark blue-and-white plaid pleated skirt, and a large black faux-fur ushanka-style hat. Both hands gently touch the hat and delicate chain bracelets decorate her wrists. Soft white bedding and an ivy-covered white wall feature sit behind her. Warm diffused indoor light, gentle catchlights, natural skin pores, realistic fur and fabric texture, soft winter coquette atmosphere, 35mm lens at f/2.8.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, body-part emphasis, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, extra fingers, deformed anatomy, unreadable jewelry text",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "cozy fur hat bedroom reference", "required": true, "source": "attached source image", "usage": "Match the original adult model, hat, hair, outfit, bracelets, bedroom, ivy, and warm light."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve adult identity, face, hair, outfit, hat, bracelets, pose, environment, and lighting. Jewelry branding, logos, typography, and decorative wall details are replaceable editable elements."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": ["Clarified the subject as an original approved adult.", "Preserved the cozy outfit and hat styling without body-part emphasis.", "Added anti-slop and safety exclusions."]
+  }
+}

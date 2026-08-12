@@ -1,0 +1,22 @@
+{
+  "name": "prompt-377",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "metro", "street-editorial"],
+  "image_type": "urban metro menswear portrait",
+  "image_vibe": "moody, understated, cinematic, grayscale",
+  "image_purpose": "streetwear lookbook and urban fashion editorial",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a 2:3 urban street-editorial portrait of one approved adult woman seated on a modern metro bench, preserving the face reference and grayscale atmosphere.",
+    "main_subject": "Approved adult woman with the same face, facial structure, and realistic proportions as the reference, wearing narrow black sunglasses, oversized black-and-white houndstooth jacket over a black turtleneck, wide dark jeans, chunky lace-up boots, subtle rings, and a barely visible crossbody strap.",
+    "composition_elements": ["Seated casual pose on a modern subway bench.", "One arm rests on the leg while the other hangs loosely; body leans slightly forward with one shoulder lowered.", "Minimal urban metro interior with gray concrete walls, metallic accents, geometric design, and empty bench space.", "2:3 portrait composition with quiet confident presence."],
+    "lighting_and_atmosphere": "Diffused artificial indoor light, soft shadows, neutral color balance emphasizing grayscale tones, moody cinematic stillness.",
+    "technical_specs": "2:3 photorealistic street-fashion photography, realistic textile, leather, metal, and skin texture, accurate anatomy, crisp focus, no text or watermark.",
+    "generated_prompt_string": "Use the uploaded approved-adult reference image and keep the same face, facial structure, realistic proportions and lighting accuracy. Create a 2:3 portrait of her seated on a modern subway bench, wearing narrow black sunglasses, an oversized houndstooth jacket over a black turtleneck, wide dark jeans and chunky lace-up boots, with subtle rings and a barely visible crossbody strap. One arm rests on the leg and the other hangs loosely; the body leans slightly forward with one shoulder lowered. Minimalistic urban metro interior with gray concrete walls, metallic accents and modern geometric design. Diffused artificial indoor light, soft shadows, neutral grayscale balance, moody street editorial, quiet confidence, cinematic stillness, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "distorted anatomy", "extra fingers", "inconsistent identity", "plastic skin", "over-smooth", "over-saturated", "HDR look", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "prompt-377.jpg", "required": true, "source": "local reference image", "usage": "Attach as the required adult face, facial-structure, identity, and styling reference."}, {"type": "location", "name": "modern subway bench interior", "required": true, "source": "local reference image", "usage": "Preserve metro architecture, bench, grayscale palette, and light."}],
+      "prompt_instructions": "Attach the required approved-adult face reference and local metro reference. Preserve face, facial structure, identity, outfit, pose, bench, geometry, and grayscale lighting. Replace only with another approved-adult identity reference; no celebrity likeness, logos, or typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

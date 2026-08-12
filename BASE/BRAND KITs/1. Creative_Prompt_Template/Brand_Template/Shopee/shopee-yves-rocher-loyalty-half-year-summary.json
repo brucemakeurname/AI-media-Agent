@@ -1,0 +1,70 @@
+{
+  "name": "shopee-yves-rocher-loyalty-half-year-summary",
+  "tag": [
+    "loyalty-campaign",
+    "member-reward",
+    "mascot-creative",
+    "orange-branding"
+  ],
+  "biz_niche": "E-commerce & Retail",
+  "content_format": "Brand story",
+  "group": "shopee_1544966104075838",
+  "prompt": {
+    "project_info": {
+      "theme": "Shopee loyalty half-year recap reward poster",
+      "color_palette": "Shopee orange, bright yellow, royal blue, white, gold"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A cheerful mascot poster for Yves Rocher France loyalty customers. Top branding includes the Shopee logo, 'YVES ROCHER FRANCE', and a red badge 'KHACH HANG THAN THIET'. Main headline reads 'TONG KET 6 THANG DAU NAM CUNG SHOPEE'. A central blue banner with date tabs '10.07' and '19.07' says 'NHAN NGAY 100.000D'. Fine print below mentions ranking tiers and hashtag '#thanghangshopee2026'. Two cute chibi fire-like mascots stand at the bottom, one holding a golden trophy and the other carrying Shopee shopping bags. Floating reward tickets and gift boxes surround them.",
+      "style": "Bright playful mascot advertising poster with toy-like character rendering and oversized reward typography"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "YVES ROCHER FRANCE / KHACH HANG THAN THIET / TONG KET 6 THANG DAU NAM CUNG SHOPEE / 10.07 / 19.07 / NHAN NGAY 100.000D / Luu y: Uu dai ap dung theo thu hang Bac, Vang, Kim Cuong & Thanh vien ShopeeVIP Chup man hinh va chia se cung hashtag #thanghangshopee2026 / 4 TRIEU DONG / HOAN 800.000D",
+      "items": [
+        "Top Left: White Shopee bag logo on orange background",
+        "Top Right: Floating orange ticket '4 TRIEU DONG' and wrapped gift box",
+        "Bottom Left: Large golden trophy, orange discount ticket, and reward ticket 'HOAN 800.000D'",
+        "Bottom Right: Chibi mascot holding Shopee shopping bags and a large gift box",
+        "Center/Background: Vertical orange-yellow stage glow, blue reward bar, and two cute mascots on a glowing floor"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright animated commercial lighting",
+      "effect": "Warm glow, sparkles, glossy highlights, toy-like shadows, cheerful saturation"
+    },
+    "technical_specs": {
+      "render_style": "Cartoon mascot ecommerce poster with polished graphic compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee loyalty recap campaign. Centerpiece is a bright orange stage scene with two cute chibi mascots, one carrying a trophy and one holding Shopee shopping bags. Background is a vertical orange-yellow glow with floating reward tickets and gift boxes. Surrounding elements: Shopee logo, Yves Rocher France branding, red 'KHACH HANG THAN THIET' badge, headline 'TONG KET 6 THANG DAU NAM CUNG SHOPEE', blue bar with '10.07', '19.07', and 'NHAN NGAY 100.000D', fine print mentioning '#thanghangshopee2026', plus floating '4 TRIEU DONG' and 'HOAN 800.000D' reward tickets. Technical style: cartoon mascot ecommerce poster with polished graphic compositing, bright animated commercial lighting, warm glow, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Shopee, Yves Rocher France, ShopeeVIP, and loyalty badge assets",
+          "required": true,
+          "source": "official brand assets",
+          "usage": "Use for the top header and the loyalty-program lockup"
+        },
+        {
+          "type": "graphic",
+          "name": "Chibi mascot pair and trophy props",
+          "required": true,
+          "source": "this creative or original mascot asset set",
+          "usage": "Preserve the exact mascot style, trophy, shopping bags, and reward props"
+        },
+        {
+          "type": "text_layout",
+          "name": "Loyalty recap poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the headline stack, blue reward bar, fine print block, and floating ticket placement"
+        }
+      ],
+      "prompt_instructions": "Preserve all visible date text exactly, including '10.07' and '19.07'. These are past relative to Friday, July 17, 2026 except July 19, 2026 which is future; both must remain unchanged because they are visible campaign copy."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "minimalist-sky-blue-luxury-portrait",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "sky-blue", "menswear"],
+  "image_type": "luxury menswear portrait with prop",
+  "image_vibe": "quiet, distant, technological, refined",
+  "image_purpose": "luxury editorial and menswear campaign",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a hyper-realistic fine-art fashion portrait of one original approved adult man in a monochrome sky-blue studio.",
+    "main_subject": "Original approved adult man with tousled dark hair, calm detached gaze and natural skin texture. He stands frontally with shoulders down and hands in pockets, wearing a monochrome sky-blue suit and white shirt while holding a supplied transparent glass ball as a symbol of control and the future.",
+    "composition_elements": ["Vertical editorial portrait with centered frontal stance, hands in pockets and glass ball held low in one hand.", "Minimalist sky-blue studio background with clean negative space and controlled cool palette.", "Preserve suit geometry, white shirt, glass ball, calm expression and subtle leather/white accent palette."],
+    "lighting_and_atmosphere": "Dramatic directional key light with soft fill, geometric highlights on the suit and glass ball, cool atmospheric shadows and quiet technological mood.",
+    "technical_specs": "Photorealistic 4:5 portrait, Hasselblad X2D with XCD 80mm lens at f/2.8, shallow depth of field focused on face and prop, realistic wool, glass and skin texture, subtle grain, no text or watermark.",
+    "generated_prompt_string": "Hyper-realistic fine-art fashion portrait of one original approved adult man standing frontally with shoulders down, hands in pockets and a calm detached gaze. He has tousled dark hair and natural skin texture, wears a monochrome sky-blue suit over a white shirt, and holds a supplied transparent glass ball low in one hand as a symbol of control and the future. Use a minimalist sky-blue studio background, dramatic directional lighting with geometric highlights on the suit and glass, Hasselblad X2D, XCD 80mm lens at f/2.8, 4:5 vertical editorial composition, no text or watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "celebrity likeness", "distorted glass", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "extra fingers", "deformed", "text", "logo"],
+    "reference_elements": {"assets": [{"type": "person", "name": "minimalist-sky-blue-luxury-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach for original approved-adult face, hair, expression, pose and styling."}, {"type": "wardrobe", "name": "monochrome sky-blue suit and white shirt", "required": true, "source": "local reference image", "usage": "Preserve supplied suit geometry, color, shirt and material."}, {"type": "accessory", "name": "supplied transparent glass ball", "required": true, "source": "local reference image", "usage": "Preserve glass shape, transparency, placement and reflections."}, {"type": "background", "name": "minimalist sky-blue studio background", "required": true, "source": "local reference image", "usage": "Preserve blue palette, negative space and cool atmosphere."}], "prompt_instructions": "Attach all required person, wardrobe, accessory and background references; no optional assets are needed. Keep approved-adult identity, outfit, prop, pose, environment, lighting and typography consistent. Replace only with an equivalent approved adult, supplied wardrobe, glass prop or studio. Typography is not applicable; do not add text, logos or watermark."}
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

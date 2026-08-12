@@ -1,0 +1,22 @@
+{
+  "name": "dreamy-pink-balloon-magazine-grid",
+  "tag": ["industry", "lookbook-line-sheet", "grid-collage", "3x3", "pink-balloon"],
+  "image_type": "multi-panel editorial portrait grid",
+  "image_vibe": "dreamy, playful, soft, romantic",
+  "image_purpose": "magazine grid and social editorial visual",
+  "group": "industry/lookbook-line-sheet/grid-collage",
+  "prompt": {
+    "project_info": "Create a photorealistic 3x3 editorial grid of one adult woman with a pink heart balloon in a warm off-white studio.",
+    "main_subject": "One adult woman using the required approved-adult face reference, with the same face, facial proportions, eye shape, nose, lips, jawline, and identity across all nine frames. She has soft golden-blonde waves, soft glam makeup, natural skin texture, pink satin styling, and a fully opaque elegant pink satin top or slip dress.",
+    "composition_elements": "3x3 grid with thin white separators, identical outfit, background, lighting, lens, and grade across all frames. Balloon actions: hugged at chest, angled near shoulder, raised overhead, close to face, centered at chest, overhead confident stance, cradled low with eyes closed, above head while touching hair, and overhead profile glance.",
+    "lighting_and_atmosphere": "Plain warm off-white studio wall, large diffused key with gentle fill, low contrast flattering highlights, no harsh shadows, subtle soft haze and film grain, crisp subject with soft diffusion.",
+    "technical_specs": "1:1 output with 3x3 grid, 50mm editorial portrait feel, f/2.8 look, consistent color grade and natural skin texture, no text or props beyond the pink heart balloon.",
+    "generated_prompt_string": "Photorealistic editorial 3x3 grid of one adult woman using the required approved-adult face reference, preserving the same face, facial proportions, eye shape, nose, lips, jawline, and identity in all nine frames. Soft golden-blonde waves, soft glam makeup, natural skin texture, fully opaque elegant pink satin styling. Warm off-white studio wall, large diffused key and gentle fill, low contrast flattering highlights, subtle haze and film grain, 50mm f/2.8 editorial portrait feel. Same outfit, background, lighting, lens, and grade in every frame; the adult woman interacts with one pink heart balloon in nine poses: chest hug, shoulder angle, overhead raise, near-face dreaminess, centered chest, overhead confident stance, low cradle with closed eyes, overhead hair touch, and overhead profile glance. 1:1 3x3 grid with thin white separators.",
+    "negative_prompt": ["celebrity likeness", "public figure likeness", "explicit", "nsfw", "overly revealing", "nudity", "identity drift", "different face", "blurry", "low quality", "distorted anatomy", "extra fingers", "deformed balloon", "plastic skin", "waxy", "over-smooth", "over-saturated", "airbrushed", "HDR look", "watermark", "logo", "text", "signature"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "dreamy-pink-balloon-magazine-grid.jpg", "required": true, "source": "workspace reference image", "usage": "Required approved-adult face and identity reference; preserve the visible adult model, pink satin styling, balloon, poses, background, and grid consistency."}],
+      "prompt_instructions": "Attach the required approved-adult reference. Preserve identity, face, outfit, balloon, background, lighting, grid layout, and color grade consistently; only pose and balloon placement vary across panels. Keep typography absent or replaceable."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

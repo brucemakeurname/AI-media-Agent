@@ -1,0 +1,82 @@
+{
+  "name": "y2k-pastel-scrapbook-collage",
+  "tag": [
+    "y2k-scrapbook",
+    "pastel-collage",
+    "multiple-poses",
+    "polaroid-graphics",
+    "holographic-doodles"
+  ],
+  "image_type": "mixed-media-fashion-collage",
+  "image_vibe": "playful-y2k",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Colorful Y2K scrapbook poster with repeated adult fashion portraits",
+      "creative_direction": "Chaotic yet balanced frameless collage combining pastel styling, stickers, holographic textures, and magazine cutouts",
+      "color_palette": "pastel lilac, pink, mint, butter yellow, white, holographic rainbow, and neon outline accents"
+    },
+    "main_subject": {
+      "type": "clearly adult Y2K-styled woman",
+      "detail": "same approved adult woman across every cutout with wavy dark brown hair, bubblegum-pink lower strands, pastel flower clips, and a cute-cool expression",
+      "wardrobe": "cropped oversized pastel sweater with embroidered patches, pastel skirt with white belt, white ankle socks with pastel stripes, white sneakers, colorful bracelets, rings, and a subtle decorative waist chain",
+      "poses": "heart-finger close-up, crouched pose with chin supported and white instant camera, cheek-touching bubblegum portrait, smiling cat portrait, seated peace sign, and daisy bouquet portrait"
+    },
+    "composition_elements": {
+      "framing": "multi-cutout portrait collage with central full-body anchor and surrounding close, mid, and seated crops",
+      "graphics": "holographic textures, pastel gradients, glitter accents, playful doodles, Polaroid frames, neon outlines, stickers, and balanced magazine cutout text such as SO CUTE!, 199X!, and GIRL VIBES",
+      "layout": "frameless scrapbook arrangement with colorful strokes, lines, hearts, stars, butterflies, and deliberate negative-space rhythm"
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft on-camera flash at approximately 5200K with pastel ambient fill",
+      "effect": "glossy dreamy retro glow, clean skin texture, controlled holographic sparkle, and crisp collage edges"
+    },
+    "technical_specs": {
+      "render_style": "full-frame fashion photography with 35mm lens combined with graphic scrapbook compositing",
+      "resolution": "4k vertical social poster",
+      "finish": "high-detail photoreal cutouts, natural facial consistency, restrained grain, vivid pastel color, and stable anatomy"
+    },
+    "generated_prompt_string": "Create a colorful Y2K scrapbook poster featuring the same clearly adult woman repeated across multiple fashion poses and cutouts. Give her wavy dark brown hair with bubblegum-pink tint on the lower strands, pastel flower clips, and a cute-cool confident expression. Dress her in a cropped oversized pastel sweater with embroidered patches, pastel skirt with white belt, white ankle socks with colorful pastel stripes, white sneakers, colorful plastic bracelets, chunky rings, and a subtle decorative waist chain. Include a close-up with heart-shape fingers, a full-body crouching pose supporting the chin while holding a white instant camera, a mid-shot touching the cheek while chewing a bubblegum bubble, a smiling portrait holding a cat, a seated peace-sign pose, and a mid-shot holding daisy flowers. Use holographic textures, pastel gradients, glitter accents, doodles, Polaroid frames, neon outlines, magazine cutout graphics, and balanced text such as SO CUTE!, 199X!, and GIRL VIBES. Use soft approximately 5200K flash, a glossy dreamy retro glow, high-detail photoreal cutouts, and stable anatomy. Keep every subject clearly adult and the poses non-sexual.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, childlike styling, suggestive pout, real logo, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed limbs, face mismatch, broken collage, illegible text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-y2k-collage-model",
+          "required": true,
+          "source": "Original Y2K collage preview image",
+          "usage": "Attach the approved adult face reference and preserve the same face, hair, and likeness across every cutout without celebrity identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "pastel-y2k-scrapbook-outfit",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve pastel sweater, skirt, socks, sneakers, jewelry, and hair clips across all poses; wardrobe continuity is required."
+        },
+        {
+          "type": "graphic",
+          "name": "holographic-polaroid-scrapbook-layout",
+          "required": true,
+          "source": "Original collage preview image and source prompt",
+          "usage": "Attach to preserve cutout hierarchy, pastel gradients, stickers, frames, doodles, and text placement; replace any brand marks with fictional graphics."
+        },
+        {
+          "type": "accessory",
+          "name": "camera-cat-daisy-props",
+          "required": false,
+          "source": "Original preview image and source prompt",
+          "usage": "Optional prop references; preserve instant camera, cat, bubblegum, and daisies in their respective cutouts while allowing equivalent replacements."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult model, exact wardrobe, scrapbook layout, and optional prop references. Keep one adult identity, outfit, hairstyle, cutout poses, pastel palette, and collage hierarchy consistent. Replace text or props only with fictional or cleared equivalents and keep all poses non-sexual."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the repeated subject as clearly adult and removed suggestive styling language while preserving the Y2K scrapbook, outfit, props, and playful pose set."
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "green-wall-red-disco-girl",
+  "tag": ["industry", "lookbook-line-sheet", "outdoor-lifestyle", "summer", "disco"],
+  "image_type": "vibrant outdoor fashion portrait",
+  "image_vibe": "confident, energetic, stylish, high-contrast",
+  "image_purpose": "summer fashion lookbook and campaign visual",
+  "group": "industry/lookbook-line-sheet/outdoor-lifestyle",
+  "prompt": {
+    "project_info": "Create a modern vibrant outdoor fashion portrait of one consistent adult woman kneeling with a reflective disco ball against a bright green wall.",
+    "main_subject": "Adult woman with fair skin, red hair in a high ponytail, sunglasses, and a confident energetic expression. She wears a red swimsuit with white trim and white sneakers, keeping the fashion framing non-sexualized and the outfit unchanged.",
+    "composition_elements": ["Slightly elevated camera angle.", "Subject kneeling on a concrete surface while holding a reflective silver disco ball.", "Bright green wall creates bold contrast with red, silver, and white.", "Focus on subject and disco-ball reflections; keep realistic posture and anatomy."],
+    "lighting_and_atmosphere": "Bright natural sunlight with defined shadows, crisp highlights on the disco ball, modern summer atmosphere, and high-contrast color separation.",
+    "technical_specs": "High-resolution photorealistic digital fashion photography, realistic skin, fabric, metal reflections, and hands, sharp focus, clean outdoor composition, no text or watermark.",
+    "generated_prompt_string": "A modern vibrant outdoor fashion photograph of an adult woman with fair skin and red hair tied in a high ponytail, wearing sunglasses. She kneels on a concrete surface while holding a reflective silver disco ball. She wears a red swimsuit with white trim and white sneakers. A bright green wall behind her creates bold color contrast. Bright natural sunlight casts defined shadows on the ground, enhancing the dramatic modern aesthetic. Focus on the subject and reflective disco ball, realistic proportions, confident energetic stylish summer mood, high-resolution photorealistic photography, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "distorted anatomy", "extra fingers", "inconsistent identity", "warped disco ball", "plastic skin", "over-smooth", "over-saturated", "HDR look", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "green-wall-red-disco-girl.jpg", "required": true, "source": "local reference image", "usage": "Attach for adult identity, red hair, sunglasses, outfit, pose, and expression reference."}, {"type": "accessory", "name": "reflective silver disco ball", "required": true, "source": "local reference image", "usage": "Preserve its size, reflective surface, and hand placement."}, {"type": "location", "name": "bright green outdoor wall and concrete", "required": true, "source": "local reference image", "usage": "Preserve the high-contrast background and sunlight."}],
+      "prompt_instructions": "Attach the required references. Preserve the adult subject, face, hair, sunglasses, red swimsuit with white trim, sneakers, disco ball, green wall, concrete, and natural sunlight. Keep the swimsuit styling non-sexualized and do not add logos or typography. Replace references only with equivalent adult subject, accessory, or environment references."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

@@ -1,0 +1,62 @@
+# Environment & credentials
+env.local
+.env
+.env.*
+*.token
+*-sync-enabled
+
+# Operating System & Editors
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Python & Node Runtimes / Virtual Envs
+.venv/
+.venv-*/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# Heavy Binary Models & Datasets
+*.pth
+*.pt
+*.bin
+*.onnx
+*.index
+
+# Media Output / Raw Video Assets (to avoid GitHub 100MB limit & keep repository light)
+*.mov
+*.mp4
+*.WAV
+*.wav
+*.mp3
+*.m4a
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.zip
+*.tar
+*.gz
+
+# Video module runtime outputs / caches
+PRODUCTION/output/
+PRODUCTION/video_modules/*/output/
+PRODUCTION/video_modules/*/renders/
+PRODUCTION/video_modules/*/.fallow/
+PRODUCTION/video_modules/Applio/assets/
+PRODUCTION/video_modules/Applio/logs/
+
+# Local workspace settings / environment metadata
+.claude/settings.local.json
+
+# Separately versioned third-party video applications
+PRODUCTION/video_modules/Applio/
+PRODUCTION/video_modules/hyperframes/
+
+# Local Google service-account credential
+PRODUCTION/.agents/skills/nano-banana-image-gen/solo-flows-free-gen-v1-15896bb3db79.json

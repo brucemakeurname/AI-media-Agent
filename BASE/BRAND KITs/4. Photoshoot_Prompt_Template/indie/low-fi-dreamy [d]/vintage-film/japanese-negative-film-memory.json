@@ -1,0 +1,33 @@
+{
+  "name": "japanese-negative-film-memory",
+  "tag": ["indie", "low-fi-dreamy", "vintage-film", "japanese-film", "memory"],
+  "image_type": "portrait",
+  "image_vibe": "Japanese negative film, faded colors, soft bloom, quiet distant memory",
+  "image_purpose": "Create a natural candid portrait that feels like an imperfect film memory.",
+  "group": "vintage-film",
+  "prompt": {
+    "project_info": "A quiet candid portrait rendered with a Japanese negative-film aesthetic.",
+    "main_subject": "An original adult subject in a natural relaxed moment, wearing fully opaque everyday clothing and maintaining a calm, unforced expression.",
+    "composition_elements": "Candid slightly imperfect framing, natural integration with the surrounding environment, and a 9:16 vertical composition with gentle visual breathing room.",
+    "lighting_and_atmosphere": "Soft natural daylight, slight highlight overexposure, low contrast with rich tonal layers, muted faded colors, warm skin tone, soft highlight bloom, and a quiet distant mood.",
+    "technical_specs": "9:16 vertical frame, Japanese negative-film color treatment, realistic texture without retouching, subtle analog grain, natural candid rendering, memory-like realism.",
+    "generated_prompt_string": "Create a 9:16 candid portrait of an original adult subject in a natural relaxed moment, wearing fully opaque everyday clothing. Use soft natural daylight, slight highlight overexposure, low contrast with rich tonal layers, muted slightly faded colors, warm natural skin tone, realistic unretouched texture, subtle film grain, soft highlight bloom, imperfect composition, and quiet memory-like realism.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor or teen-coded subject, transparent clothing, exposed underwear, nudity, posed glamour, harsh contrast, excessive retouching, plastic skin, distorted anatomy, watermark, text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image_reference",
+          "name": "source Japanese negative-film reference",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1776947269577-7xjm5n9r-1776947285501-1.jpeg",
+          "usage": "Use only for daylight, color treatment, framing, and film texture; do not copy identity."
+        }
+      ],
+      "prompt_instructions": "Preserve the quiet Japanese negative-film memory aesthetic and candid non-posed feeling. Keep the subject original adult and clothing opaque."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

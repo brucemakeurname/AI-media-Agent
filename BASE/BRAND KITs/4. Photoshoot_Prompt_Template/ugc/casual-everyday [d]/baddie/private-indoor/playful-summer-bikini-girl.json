@@ -1,0 +1,58 @@
+{
+  "name": "playful-summer-bikini-girl",
+  "tag": [
+    "ugc",
+    "baddie",
+    "private-indoor",
+    "summer-playful",
+    "overhead-selfie",
+    "black-halter-bikini"
+  ],
+  "image_type": "ugc-overhead-bikini-portrait",
+  "image_vibe": "natural-playful-candid",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/baddie/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic playful overhead bedroom selfie-style portrait with a black halter bikini top and cool blue bedding.",
+    "main_subject": "One original approved adult woman with fair natural skin, visible freckles and softly flushed cheeks, wavy brown hair spread around her head, one brown eye open and the other winking. She wears a black halter bikini top with contrasting zig-zag trim, small hoop earrings and a delicate gold chain with a small dark charm.",
+    "composition_elements": "Use a 2:3 overhead bird's-eye frame from the head through the upper torso. The adult subject lies on her back against a light-blue textured pillow and blanket, faces camera, extends her tongue and keeps a playful wink with a relaxed expression.",
+    "lighting_and_atmosphere": "Soft natural indoor light evenly illuminates the face, freckles, hair and black fabric, with subtle realistic shadows. Keep the mood casual, friendly and summer-like.",
+    "technical_specs": "2:3 vertical overhead smartphone composition, sharp expression detail, realistic hair strands, skin pores and textile weave, natural color and moderate contrast.",
+    "generated_prompt_string": "Create a photorealistic playful overhead bedroom selfie-style portrait of one original approved adult woman with fair natural skin, visible freckles and softly flushed cheeks, wavy brown hair spread around her head, one brown eye open and the other winking. She wears a black halter bikini top with contrasting zig-zag trim, small hoop earrings and a delicate gold chain with a small dark charm. Use a 2:3 overhead bird's-eye frame from the head through the upper torso as she lies on her back against a light-blue textured pillow and blanket, faces camera, extends her tongue and keeps a playful wink with a relaxed expression. Use soft natural indoor light, realistic hair strands, skin pores and textile weave, natural color and moderate contrast.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, body-part emphasis, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, wardrobe malfunction, unreadable text or logos",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "playful-summer-bikini-girl.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, freckles, hair, expression and likeness; preserve facial structure while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black halter bikini top with zig-zag trim and gold jewelry",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve black fabric, trim, halter straps, earrings and chain; replace only with an explicitly supplied wardrobe reference."
+        },
+        {
+          "type": "background",
+          "name": "light-blue textured pillow and blanket",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve cool blue bedding color and texture; replace individual background elements only with explicit references."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and background references. Preserve identity, face, freckles, hair, expression, black outfit trim, jewelry and bedding consistency. The approved adult, wardrobe and background can be replaced independently using explicit references, but retain the same overhead framing and playful summer intent. No logo or typography is required."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed ambiguous age wording to original approved adult.",
+      "Removed body-emphasis wording while preserving the black halter styling, overhead pose and playful expression.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

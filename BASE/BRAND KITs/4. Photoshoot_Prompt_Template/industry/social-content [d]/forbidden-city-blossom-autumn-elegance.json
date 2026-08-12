@@ -1,0 +1,84 @@
+{
+  "name": "forbidden-city-blossom-autumn-elegance",
+  "tag": [
+    "forbidden-city",
+    "qing-style-fashion",
+    "imperial-yellow-satin",
+    "butterfly-embroidery",
+    "calligraphy-poster"
+  ],
+  "image_type": "cultural-fashion-editorial",
+  "image_vibe": "refined-imperial-autumn",
+  "image_purpose": "social-content",
+  "group": "social-content",
+  "prompt": {
+    "project_info": {
+      "theme": "Forbidden City blossom fashion editorial in autumn light",
+      "creative_direction": "Courtly Qing-style costume portrait combining heritage architecture, ornate embroidery, and refined poster typography",
+      "color_palette": "imperial yellow, vermillion red, bronze, jade and kingfisher blue, fresh flower pink, cypress green, and warm stone"
+    },
+    "main_subject": {
+      "type": "clearly adult East Asian woman",
+      "detail": "fair luminous skin, gentle eyes, poised expression, and consistent facial structure from the approved face reference",
+      "wardrobe": "Qing dynasty Manchu-style Qizhuang banner dress in imperial yellow satin with multicolored silk embroidery of butterflies and wisteria, straight columnar silhouette, and high standing collar",
+      "styling": "elaborate two-handle hairstyle with kingfisher-feather-inspired ornaments and fresh flowers",
+      "pose": "standing beside an ornate bronze incense burner with one hand elegantly raised holding a silk handkerchief"
+    },
+    "composition_elements": {
+      "framing": "horizontal full-length environmental fashion portrait with the adult subject right of center",
+      "environment": "Imperial Garden of the Forbidden City with ancient cypress trees, decorative roof tiles, and the corner of a vermillion palace hall",
+      "prop": "ornate bronze incense burner in the right foreground",
+      "typography": "Chinese calligraphy 紫禁芳华 (Forbidden City Blossom) in an imperial-style brush script at the bottom left, with a small fictional red seal"
+    },
+    "lighting_and_atmosphere": {
+      "type": "bright clear autumn afternoon sunlight at approximately 5200K with soft reflected fill",
+      "effect": "warm architectural highlights, gentle fabric sheen, readable embroidery, natural courtyard shadows, and refined filmic atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 50mm lens, cultural fashion editorial photography",
+      "resolution": "4k horizontal social editorial",
+      "finish": "fine film grain, vibrant yet refined imperial color treatment, realistic satin and bronze texture, and natural skin detail"
+    },
+    "generated_prompt_string": "Use the approved face reference to create a clearly adult East Asian woman with fair luminous skin, gentle eyes, and consistent facial features. She wears a Qing dynasty Manchu-style Qizhuang banner dress in imperial yellow satin with multicolored silk embroidery of butterflies and wisteria, a straight columnar silhouette, and a high standing collar. Her elaborate two-handle hairstyle is adorned with kingfisher-feather-inspired ornaments and fresh flowers. She stands beside an ornate bronze incense burner in the Imperial Garden of the Forbidden City, one hand elegantly raised holding a silk handkerchief, posing with courtly refinement. Show ancient cypress trees, decorative roof tiles, and the corner of a vermillion palace hall in bright clear autumn afternoon light. Add film grain and a vibrant yet refined imperial color palette. Place Chinese calligraphy 紫禁芳华 (Forbidden City Blossom) in an imperial-style brush script at the bottom left with a small fictional red seal. Preserve the approved adult face and facial structure; use no celebrity likeness or modern logos.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, different face, altered facial features, loose flowing silhouette, simple hairstyle, commoner setting, celebrity likeness, modern logo, watermark, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, malformed calligraphy",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-face-reference",
+          "required": true,
+          "source": "Original face reference specified by the source prompt",
+          "usage": "Attach the approved adult face reference and preserve facial structure, identity continuity, and likeness; never use a celebrity or public-figure face."
+        },
+        {
+          "type": "wardrobe",
+          "name": "imperial-yellow-qizhuang-dress",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the imperial-yellow satin, high collar, columnar silhouette, butterfly and wisteria embroidery, and elaborate hairstyle; the outfit must not be changed."
+        },
+        {
+          "type": "location",
+          "name": "forbidden-city-imperial-garden",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve cypress trees, vermillion palace architecture, roof tiles, courtyard scale, and bronze incense burner; exact background details may be replaced with equivalent heritage architecture."
+        },
+        {
+          "type": "text_layout",
+          "name": "forbidden-city-blossom-calligraphy",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve bottom-left placement, brush-script hierarchy, and the phrase 紫禁芳华; typography may be rendered as fictional editorial calligraphy without adding logos or claims."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult face, exact wardrobe, location, and typography references. Keep facial identity, costume, hairstyle, pose, incense burner, heritage environment, calligraphy placement, and autumn light consistent. Replace the person only with another approved adult reference; replace architecture or props only with equivalent cleared elements while preserving the cultural editorial intent."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the source's young woman as a clearly adult subject and constrained face replacement to an approved non-celebrity adult reference while preserving the cultural fashion editorial."
+    ]
+  }
+}

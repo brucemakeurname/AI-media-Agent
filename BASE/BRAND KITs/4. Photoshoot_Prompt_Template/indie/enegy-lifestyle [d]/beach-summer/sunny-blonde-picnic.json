@@ -1,0 +1,70 @@
+{
+  "name": "sunny-blonde-picnic",
+  "tag": [
+    "park-picnic",
+    "summer-dress",
+    "charcuterie",
+    "sushi",
+    "lake-lifestyle"
+  ],
+  "image_type": "lifestyle-editorial-portrait",
+  "image_vibe": "warm-relaxed-polished-summer",
+  "image_purpose": "instagram-feed",
+  "group": "indie/enegy-lifestyle/beach-summer",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "warm summer park picnic lifestyle editorial",
+      "color_palette": "pastel blue, cream, picnic-basket brown, green lawn, fruit red, and golden sunlight",
+      "format": "vertical semi-reclining portrait"
+    },
+    "main_subject": {
+      "type": "adult woman",
+      "detail": "Adult blonde woman with soft naturally voluminous hair and light natural makeup, reclining comfortably on a cream picnic blanket. She wears a flowy pastel-blue midi summer dress, delicate gold pendant necklace, small gold hoops, and a thin bracelet.",
+      "style": "approachable polished lifestyle editorial"
+    },
+    "composition_elements": {
+      "text": "no text, logo, or watermark",
+      "items": [
+        "semi-reclining pose, supported by one elbow, with a warm gentle smile",
+        "large cream textured picnic blanket over manicured green grass",
+        "warm-brown woven wicker picnic basket and soft yellow cushion",
+        "charcuterie board with grapes, berries, cheddar, crackers, plus a black tray of sushi and wooden chopsticks",
+        "mature leafy trees, a distant lake, blue sky, and wispy clouds"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "bright late-afternoon sunlight approaching golden hour",
+      "effect": "soft shadows, warm highlights, vibrant yet natural summer-park atmosphere"
+    },
+    "technical_specs": {
+      "camera": "Canon EOS R5",
+      "lens": "RF 50mm f/1.2 at f/2.5",
+      "render_style": "clean lifestyle-editorial color, shallow depth of field, crisp food detail, natural skin texture, controlled highlights"
+    },
+    "generated_prompt_string": "Create a vertical polished lifestyle editorial portrait of an adult blonde woman relaxing on a large cream picnic blanket in a sunny park. She wears a flowy pastel-blue midi summer dress with delicate gold jewelry, rests on one elbow, and smiles warmly toward the camera. Surround her with manicured green grass, mature leafy trees, a distant lake, and a blue sky with wispy clouds. Arrange a warm-brown wicker picnic basket, a soft yellow cushion, a wooden charcuterie board with grapes, berries, orange cheddar, and crackers, plus a black tray of sushi with wooden chopsticks. Use bright late-afternoon sunlight, soft shadows, natural vibrant color, shallow depth of field, crisp food detail, and an approachable summer mood. No text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, child, sexualized pose, nudity, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-reference",
+          "required": false,
+          "source": "Attach an authorized adult non-public-figure portrait reference if identity replacement is required.",
+          "usage": "Replace only the adult subject identity while retaining the reclining pose, summer-dress silhouette, jewelry scale, and picnic composition."
+        },
+        {
+          "type": "product",
+          "name": "picnic-food-reference",
+          "required": false,
+          "source": "Attach food, basket, or product references if exact picnic items are required.",
+          "usage": "Replace only selected food or basket details while preserving the blanket layout, park setting, and warm summer palette."
+        }
+      ],
+      "prompt_instructions": "All person references must depict authorized adults and must not be public figures. References are optional; preserve the cream blanket, picnic food arrangement, park and lake setting, late-afternoon light, and relaxed editorial mood."
+    }
+  }
+}

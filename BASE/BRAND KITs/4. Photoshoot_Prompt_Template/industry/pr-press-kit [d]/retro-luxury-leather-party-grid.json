@@ -1,0 +1,86 @@
+{
+  "name": "retro-luxury-leather-party-grid",
+  "tag": [
+    "late-90s-party-film",
+    "leather-fashion",
+    "3x3-contact-sheet",
+    "direct-flash",
+    "chateau-editorial"
+  ],
+  "image_type": "editorial-contact-sheet",
+  "image_vibe": "retro-luxury-party",
+  "image_purpose": "instagram-feed",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Luxury party editorial contact sheet with direct flash",
+      "format": "one 3x3 portrait contact sheet with nine consistent panels",
+      "color_palette": "warm tungsten, direct-flash white, deep wood browns, velvet reds, black leather, and champagne highlights"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "same adult woman in every panel, long dark hair with curtain bangs and slightly tousled party styling, party-glam makeup with bold liner, lashes, warm blush, and nude-pink glossy lips",
+      "wardrobe": "black leather corset mini dress with structured construction and glossy leather texture, gold chain necklaces, small bracelet, and optional small black clutch",
+      "style": "late-1990s and early-2000s party editorial with realistic proportions and consistent identity"
+    },
+    "composition_elements": {
+      "layout": "3 rows by 3 columns, thin gutters, no outer border, high panel consistency",
+      "panels": "vary full-body, three-quarter, mid-shot, and tight portrait framing while maintaining the same adult identity, hairstyle, wardrobe, and environment",
+      "directions": [
+        "full-body standing pose with one hand near the neck",
+        "three-quarter pose near a velvet sofa with a relaxed hand-to-hair gesture",
+        "full-body wall pose with a slight fashion stance and visible flash shadow",
+        "mid-shot playful blown kiss, non-sexual editorial expression",
+        "tight portrait with eyes closed or looking down and a hand near the collarbone",
+        "mid-shot smiling or laughing with relaxed shoulders",
+        "three-quarter walking candid with a hand adjusting hair and no motion blur",
+        "full-body fashion stance near a gray event-wall corner with boots visible",
+        "mid-shot leaning into frame with a confident gaze and leather highlights"
+      ],
+      "text": "no text, logos, or watermark"
+    },
+    "lighting_and_atmosphere": {
+      "type": "hard direct on-camera flash mixed with warm 2800K candle sconces and tungsten room light",
+      "effect": "short crisp wall shadows, specular highlights on leather and jewelry, realistic flash falloff, slight exposure variation, mild halation, and authentic party-candid atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "35mm party-film editorial photographed with a full-frame camera and 35mm lens, eyes sharp, photorealistic",
+      "resolution": "4k portrait contact sheet, 4:5 aspect ratio",
+      "finish": "visible true film grain, medium-high contrast, mild color fade, subtle vignette, tiny dust specks, no modern HDR"
+    },
+    "generated_prompt_string": "Create one 3x3 contact sheet, nine panels, with the SAME clearly adult woman identity in every panel. Use a late-90s/early-2000s party editorial vibe, direct on-camera flash, and a candid luxury nightlife mood. The adult woman has long dark hair with curtain bangs, slightly tousled party hair, bold liner, lashes, warm blush, nude-pink glossy lips, and wears the same black leather corset mini dress with structured construction and glossy leather texture, gold chain necklaces, a small bracelet, and an optional small black clutch in every panel. Set the contact sheet in a French chateau interior or vintage lounge with wood paneling, ornate frames, velvet sofa, candle sconces, rich textures, and occasional gray event-wall corner; keep shallow real-party background clutter. Use hard frontal flash with fast falloff, short crisp shadows, realistic wall shadow, and highlights on leather and jewelry. Vary full-body, 3/4, mid-shot, and tight portrait framing across nine panels: standing, leaning near sofa, wall stance, playful blown kiss, looking down with hand near collarbone, laughing, walking candid, event-wall fashion stance, and leaning into frame. Keep the mood confident, playful, and editorial without sexual posing. Photograph with a 35mm lens, sharp eyes, 4:5 portrait layout, true film grain, mild halation, slight color fade, subtle vignette, and no text, logos, watermark, or HDR look.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, eroticized expression, ambiguous age, studio beauty lighting, cinematic rim light, HDR ultra-crisp digital look, plastic skin, waxy, over-smooth, over-saturated, airbrushed, watermark, extra fingers, deformed hands, warped face, uneven eyes, melted mouth, text, logo",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-party-model",
+          "required": true,
+          "source": "Original contact-sheet preview image",
+          "usage": "Attach an approved adult face/identity reference when continuity is required; preserve facial structure and likeness across all nine panels, but never use a celebrity or public-figure likeness."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black-leather-corset-mini-dress",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the exact black leather dress silhouette, glossy material, jewelry, and styling; do not replace the specified outfit, while the model may be replaced."
+        },
+        {
+          "type": "location",
+          "name": "chateau-vintage-party-lounge",
+          "required": false,
+          "source": "Original preview image and source prompt",
+          "usage": "Optional environment reference; preserve wood paneling, ornate frames, velvet, candles, and flash shadows, while the room layout can be replaced."
+        }
+      ],
+      "prompt_instructions": "The adult person and wardrobe references are required for identity and outfit continuity; the location reference is optional. Keep the same approved adult identity, hair, dress, jewelry, direct-flash treatment, and nine-panel continuity. The subject identity may be replaced only with another approved adult; the room, sofa, and event-wall details are replaceable. Preserve the non-sexual editorial gestures and remove any accidental text, logo, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as a clearly adult woman and replaced the source's sultry framing with confident, playful editorial direction while preserving the outfit, contact-sheet structure, and poses."
+    ]
+  }
+}

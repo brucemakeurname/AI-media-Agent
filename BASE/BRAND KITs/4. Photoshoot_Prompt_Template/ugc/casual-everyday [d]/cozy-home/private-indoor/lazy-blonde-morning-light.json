@@ -1,0 +1,58 @@
+{
+  "name": "lazy-blonde-morning-light",
+  "tag": [
+    "ugc",
+    "cozy-home",
+    "private-indoor",
+    "morning-bedroom",
+    "white-tied-shirt",
+    "soft-lifestyle"
+  ],
+  "image_type": "ugc-bedroom-lifestyle-portrait",
+  "image_vibe": "soft-clean-morning",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/viral-trending/casual-everyday/cozy-home/private-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic soft morning bedroom portrait with a clean white tied shirt, light denim and airy natural bokeh.",
+    "main_subject": "One original approved adult woman with long flowing blonde hair in loose natural waves, blue eyes, fair natural skin with subtle blush and minimal makeup. She wears a clean white short-sleeve cotton shirt tied at the waist and light-wash high-waisted jeans, with relaxed shoulders and a calm direct expression.",
+    "composition_elements": "Vertical 3:4 portrait from the waist upward or seated at the edge of a neatly made bed. Keep the adult woman facing camera with natural posture. Include white and cream bedding, light wooden bed frame, minimal modern decor, a nearby window with sheer curtains and soft bedroom furniture.",
+    "lighting_and_atmosphere": "Bright soft natural morning or late-afternoon light creates gentle highlights on hair and cotton texture with quiet shadows. Keep the mood peaceful, cozy, clean and intimate in a non-explicit lifestyle sense.",
+    "technical_specs": "Canon DSLR 50mm f/1.8 portrait look, shallow depth of field, sharp eyes and face, realistic hair strands, cotton and denim texture, creamy natural bokeh, true-to-life color and no artificial flash.",
+    "generated_prompt_string": "Create a photorealistic soft morning bedroom portrait of one original approved adult woman with long flowing blonde hair in loose natural waves, blue eyes, fair natural skin with subtle blush and minimal makeup. She wears a clean white short-sleeve cotton shirt tied at the waist and light-wash high-waisted jeans, with relaxed shoulders and a calm direct expression. Use a vertical 3:4 portrait from the waist upward or seated at the edge of a neatly made bed. Include white and cream bedding, a light wooden bed frame, minimal modern decor, a nearby window with sheer curtains and soft bedroom furniture. Use bright diffused natural light, gentle hair and cotton highlights, quiet shadows, realistic hair, skin, cotton and denim texture, a Canon 50mm f/1.8 look, creamy bokeh and clean true-to-life color.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, child, teen, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed hands, distorted anatomy, wardrobe malfunction, invented logos, unreadable added text",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "lazy-blonde-morning-light.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for the original approved-adult face, blonde hair, eyes, expression and likeness; preserve identity while allowing an approved-adult replacement."
+        },
+        {
+          "type": "wardrobe",
+          "name": "white tied cotton shirt and light-wash high-waisted jeans",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve shirt tie, cotton texture, denim wash and fit; replace only with explicitly supplied wardrobe references."
+        },
+        {
+          "type": "location",
+          "name": "neatly made bed, light wood frame, sheer curtains and minimal bedroom",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve bedding, bed frame, decor, window and natural light direction; environment may be replaced independently through explicit references."
+        }
+      ],
+      "prompt_instructions": "Attach the required person, wardrobe and location references. Keep identity, face, hair, expression, shirt tie, denim, bed and morning environment consistent. The adult, wardrobe and setting may be replaced independently with explicit references. No logo or typography is required."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Changed youthful/innocent wording to original approved adult.",
+      "Preserved the calm blonde morning portrait, outfit, bed and natural-light concept.",
+      "Added safety and anti-artifact negative prompts."
+    ]
+  }
+}

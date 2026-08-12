@@ -1,0 +1,19 @@
+{
+  "name": "urban-sophisticated-model",
+  "tag": ["ugc", "casual-everyday", "street-chic", "outdoor-urban", "menswear", "hotel-street"],
+  "image_type": "luxury-street-menswear-portrait",
+  "image_vibe": "confident-sophisticated-casual",
+  "image_purpose": "instagram-feed",
+  "group": "ugc/casual-everyday/street-chic/outdoor-urban",
+  "prompt": {
+    "project_info": "Create a photorealistic editorial street portrait of an approved adult man walking outside a refined hotel or city building.",
+    "main_subject": "An approved adult man with neatly styled dark hair and trimmed beard, wearing a black long-sleeve polo, beige trousers, black leather shoes, sunglasses, a silver watch, and a beige jacket draped over one shoulder. He walks confidently with one hand in his pocket.",
+    "composition_elements": "4:5 rule-of-thirds framing with subject slightly right of center, dark doorway on left, warm stone facade, hotel plaque, and subtle architectural signage.",
+    "lighting_and_atmosphere": "Soft diffused daylight, moderate contrast, warm neutral palette, clean sophisticated street-fashion mood.",
+    "technical_specs": "Photorealistic editorial digital photography, vertical 4:5 framing, sharp subject, realistic wool, cotton, leather, metal, stone, and signage texture.",
+    "generated_prompt_string": "Create a photorealistic 4:5 editorial street portrait of an approved adult man with neatly styled dark hair and a trimmed beard walking outside a refined hotel or city building. He wears a black long-sleeve polo, beige trousers, black leather shoes, sunglasses, a silver watch, and a beige jacket draped over one shoulder, with one hand in his pocket. Compose him slightly right of center with a dark doorway, warm stone facade, hotel plaque, and subtle architecture. Use soft diffused daylight, warm neutral colors, realistic textures, and sophisticated casual mood.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized framing, erotic pose, minor or child, age ambiguity, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, invented or altered sign text, extra fingers, deformed hands, distorted architecture",
+    "reference_elements": {"assets": [{"type": "person", "name": "approved-adult-sophisticated-male", "required": true, "source": "urban-sophisticated-model.jpg", "usage": "Preserve adult identity, hair, beard, sunglasses, walking pose, and jacket placement."}, {"type": "wardrobe", "name": "black-polo-beige-trousers-jacket", "required": true, "source": "urban-sophisticated-model.jpg", "usage": "Keep clothing, shoes, watch, sunglasses, and styling consistent; replace only with explicit references."}, {"type": "location", "name": "hotel-stone-facade-doorway", "required": true, "source": "urban-sophisticated-model.jpg", "usage": "Maintain doorway, stone, plaque, pavement, and daylight; replace only with explicit references."}, {"type": "text_layout", "name": "hotel-plaque-typography", "required": false, "source": "urban-sophisticated-model.jpg", "usage": "Attach only when plaque text must be retained; do not invent or alter text."}], "prompt_instructions": "Attach person, wardrobe, location, and optional text-layout references when exact consistency is required. Keep adult identity, outfit, product, environment, logo, and typography consistent; replacements require explicit supplied references. Preserve identity, outfit, product, logo, environment, and typography."}
+  },
+  "policy_review": {"status": "remediated", "changes": ["Replaced reference-image identity wording with approved-adult handling and controlled plaque typography.", "Added safe negative prompts and structured references."]}
+}

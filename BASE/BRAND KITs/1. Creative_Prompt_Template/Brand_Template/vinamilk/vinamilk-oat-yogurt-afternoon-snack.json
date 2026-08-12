@@ -1,0 +1,71 @@
+{
+  "name": "vinamilk-oat-yogurt-afternoon-snack",
+  "tag": [
+    "vinamilk",
+    "plant-based-yogurt",
+    "oat",
+    "afternoon-snack",
+    "breakfast-style"
+  ],
+  "biz_niche": "Food & Beverage",
+  "content_format": "Lifestyle content",
+  "group": "vinamilk_1063385596115768",
+  "prompt": {
+    "project_info": {
+      "theme": "Vinamilk yogurt as an afternoon treat",
+      "color_palette": "Soft butter yellow, warm brown, pastel blue gingham, fruit tones"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A sunny tabletop food scene with the headline 'Sữa chua ăn Vinamilk CHIỀU MỜI BỮA'. On a blue gingham placemat are several Vinamilk oat-based yogurt cups, one open with pale yogurt and a spoon. A circular badge says 'SỮA CHUA ĂN THỰC VẬT ĐẦU TIÊN TẠI VIỆT NAM'. The scene includes pancakes or crepes with cream and fruit, a tea glass, and a yellow mug.",
+      "style": "Bright food-lifestyle editorial with cheerful afternoon-snack styling"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "Sữa chua ăn Vinamilk CHIỀU MỜI BỮA; SỮA CHUA ĂN THỰC VẬT ĐẦU TIÊN TẠI VIỆT NAM; Vinamilk; Sữa chua YẾN MẠCH",
+      "items": [
+        "Top Left: Large brown headline over a warm yellow backdrop",
+        "Top Right: Partially visible yellow fruit/graphic cutout and botanical sprig",
+        "Bottom Left: Plate of pancakes or crepes with cream and fruit beside a yellow mug and tea glass",
+        "Bottom Right: Open Vinamilk oat yogurt cup with spoon and additional closed cups grouped nearby",
+        "Center/Background: Blue gingham placemat over a warm yellow tabletop with product cluster and circular plant-based badge"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright sunny food-styling lighting",
+      "effect": "Warm afternoon shadows, appetizing highlights on yogurt and fruit, cheerful domestic mood"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal food-lifestyle advertising composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square food-lifestyle advertising poster for Vinamilk oat yogurt. Centerpiece is a sunny tabletop spread with multiple Vinamilk oat yogurt cups on a blue gingham placemat, one cup opened with pale yogurt and a spoon. Include the exact visible text 'Sữa chua ăn Vinamilk CHIỀU MỜI BỮA' and 'SỮA CHUA ĂN THỰC VẬT ĐẦU TIÊN TẠI VIỆT NAM'. Background is a warm butter-yellow table scene with pancakes or crepes, fruit, tea, and a yellow mug. Technical style: photoreal food-lifestyle advertising composite, bright sunny food-styling lighting, warm afternoon shadows and appetizing highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Vinamilk oat yogurt cups",
+          "required": true,
+          "source": "real packaging reference required",
+          "usage": "Match the cup design, foil lid art, and opened cup with spoon"
+        },
+        {
+          "type": "text_layout",
+          "name": "Afternoon-snack headline and plant-based badge",
+          "required": true,
+          "source": "original creative copy",
+          "usage": "Keep exact Vietnamese wording and preserve the badge's circular form"
+        },
+        {
+          "type": "background",
+          "name": "Gingham afternoon snack table setting",
+          "required": true,
+          "source": "original styling reference",
+          "usage": "Maintain the yellow tabletop, blue gingham placemat, tea glass, mug, and plated food"
+        }
+      ],
+      "prompt_instructions": "Keep this bright and appetizing. The scene should feel like a cheerful afternoon snack invitation, not a sterile packshot. Preserve the open cup, spoon, gingham cloth, and dessert-like meal pairing."
+    }
+  }
+}

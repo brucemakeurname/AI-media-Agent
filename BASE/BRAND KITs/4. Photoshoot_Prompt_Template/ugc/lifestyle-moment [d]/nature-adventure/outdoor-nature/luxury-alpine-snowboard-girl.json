@@ -1,0 +1,37 @@
+{
+  "name": "luxury-alpine-snowboard-girl",
+  "tag": ["snowboard", "alpine", "winter", "fashion"],
+  "image_type": "UGC winter fashion photo",
+  "image_vibe": "confident, crisp, modern, athletic",
+  "image_purpose": "Winter sport and alpine fashion social content",
+  "group": "ugc/lifestyle-moment/nature-adventure/outdoor-nature",
+  "prompt": {
+    "project_info": "Create a polished alpine winter-sport fashion portrait with a snowboard.",
+    "main_subject": "One generic approved adult woman with a confident grounded stance, carrying a dark snowboard diagonally over one shoulder. She wears a black full-coverage athletic top, high-waisted black winter leggings, black gloves, patterned winter headband, patterned winter boots, and large dark sunglasses.",
+    "composition_elements": "Vertical full-body slightly low-angle framing. Keep the adult subject centered against fresh snow, snowy pine trees, distant alpine slopes, and a clear blue sky. The snowboard creates a diagonal visual line and should remain free of logos.",
+    "lighting_and_atmosphere": "Bright sunny winter daylight, crisp clean snow highlights, soft natural shadows, refined energetic alpine mood.",
+    "technical_specs": "Photorealistic vertical full-body fashion-sport photography, full-frame camera with 24mm wide-angle lens, medium depth of field, crisp daylight exposure, realistic anatomy and equipment, visible crystalline snow texture, subtle natural vignetting, no branding or watermark.",
+    "generated_prompt_string": "Photorealistic vertical full-body alpine winter fashion portrait of one generic approved adult woman with a confident grounded stance, carrying a dark logo-free snowboard diagonally over one shoulder, black full-coverage athletic top, high-waisted black winter leggings, black gloves, geometric patterned winter headband and matching patterned winter boots, large dark sunglasses, fresh snow, snowy pine trees, distant alpine mountains, clear blue sky, bright crisp daylight, soft natural shadows, modern refined sport-luxury mood, realistic anatomy and equipment, no logos, no watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, fetish styling, nudity, minors, celebrity likeness, public-figure likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, distorted anatomy, extra fingers, malformed hands, duplicate subject, unsafe snowboard equipment, brand logos, unreadable text, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "luxury-alpine-snowboard-girl reference",
+          "required": true,
+          "source": "Attach the provided reference image",
+          "usage": "Match the full-body stance, snowboard diagonal, black winter outfit, patterned accessories, alpine background, and crisp daylight while keeping the adult identity and styling replaceable."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the pose, composition, snow conditions, color palette, equipment placement, and winter fashion mood. Keep person, clothing, accessories, snowboard, and environment replaceable. Replace all brand marks and logos with generic geometric patterns."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed Fendi brand references from headband and boots.",
+      "Specified generic geometric patterns and a logo-free snowboard.",
+      "Kept the athletic outfit full-coverage and non-sexualized."
+    ]
+  }
+}

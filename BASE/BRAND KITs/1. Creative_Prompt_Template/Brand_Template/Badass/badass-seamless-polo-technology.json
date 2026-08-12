@@ -1,0 +1,76 @@
+{
+  "name": "badass-seamless-polo-technology",
+  "tag": [
+    "seamless polo",
+    "garment technology",
+    "product explanation",
+    "minimal typography",
+    "fashion material innovation",
+    "Vietnamese copy"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Infographics",
+  "group": "badass_1292377993056367",
+  "prompt": {
+    "project_info": {
+      "theme": "Seamless polo technology explanation",
+      "color_palette": "Soft white, light gray, charcoal black"
+    },
+    "main_subject": {
+      "type": "Text",
+      "detail": "A minimal square text-led social creative explaining seamless polo garment technology. The design relies on bold headline hierarchy and clean Vietnamese body copy over a soft blurred monochrome background.",
+      "style": "Minimal editorial typography, clean fashion-tech information card, high-end brand presentation"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Typography",
+      "text": "BADASS, SEAMLESS POLO, Sử dụng công nghệ keo ép nhiệt kết nối các chi tiết thay cho đường may kim chỉ truyền thống, tạo nên bề mặt phẳng mịn và liền mạch tuyệt đối",
+      "items": [
+        "Top Center: black uppercase brand wordmark 'BADASS' with wide spacing and generous breathing room.",
+        "Middle: oversized bold black uppercase headline 'SEAMLESS POLO' stretching across most of the width.",
+        "Below Headline: a thin horizontal black divider line running across the composition.",
+        "Lower Middle: three lines of left-aligned Vietnamese body copy reading 'Sử dụng công nghệ keo ép nhiệt kết nối các chi tiết thay cho đường may kim chỉ truyền thống, tạo nên bề mặt phẳng mịn và liền mạch tuyệt đối'.",
+        "Center/Background: soft white and pale-gray blurred backdrop with subtle vertical shadow bands and diffused leafy silhouettes, creating an airy premium studio atmosphere."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft diffused ambient lighting",
+      "effect": "High-key minimal atmosphere, blurred shadow play, gentle tonal transitions, clean premium presentation"
+    },
+    "technical_specs": {
+      "render_style": "Minimal fashion advertising poster with editorial typography",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "BADASS wordmark",
+          "required": true,
+          "source": "brand logo reference",
+          "usage": "Use the exact BADASS wordmark reference so the top brand text remains brand-accurate in letterform, spacing, and weight."
+        },
+        {
+          "type": "text_reference",
+          "name": "Vietnamese product explanation copy",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Preserve the headline and Vietnamese body copy exactly as written, since this creative depends on text accuracy."
+        },
+        {
+          "type": "product",
+          "name": "seamless polo garment",
+          "required": false,
+          "source": "product reference image if exact polo silhouette or fabric is needed",
+          "usage": "Optional only if you later extend this text-led concept into a product visual with the exact BADASS polo."
+        }
+      ],
+      "prompt_instructions": [
+        "If using gpt-image-2, attach the BADASS logo reference and instruct exact wordmark preservation.",
+        "Treat all Vietnamese text as locked copy and ask the model to keep the wording exactly unchanged.",
+        "Keep the design minimal and text-led; do not add people or extra product objects."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square advertising poster for seamless polo technology explanation. Create a minimal premium fashion-tech information card with a soft blurred white and pale-gray background, faint vertical shadow bands, and subtle leafy shadow diffusion. Place the black BADASS wordmark at the top center. Below it, add a massive bold uppercase black headline reading 'SEAMLESS POLO'. Add a thin horizontal black divider line underneath. In the lower middle, place left-aligned Vietnamese body copy exactly reading 'Sử dụng công nghệ keo ép nhiệt kết nối các chi tiết thay cho đường may kim chỉ truyền thống, tạo nên bề mặt phẳng mịn và liền mạch tuyệt đối'. Keep the layout airy, spacious, and highly typographic. Technical style: minimal fashion advertising poster with editorial typography, soft diffused ambient lighting, high-key premium atmosphere, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, cluttered layout, extra objects, extra people, low resolution, flat 2d, distorted text, incorrect Vietnamese text, bad spacing, noisy background, watermark, signature, oversaturated colors, decorative icons"
+  }
+}

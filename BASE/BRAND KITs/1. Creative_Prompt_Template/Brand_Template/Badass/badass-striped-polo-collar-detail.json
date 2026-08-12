@@ -1,0 +1,77 @@
+{
+  "name": "badass-striped-polo-collar-detail",
+  "tag": [
+    "striped polo",
+    "collar detail",
+    "product close-up",
+    "fabric texture",
+    "menswear detail",
+    "apparel zoom"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Product demos",
+  "group": "badass_1935437767159904",
+  "prompt": {
+    "project_info": {
+      "theme": "Striped polo collar detail showcase",
+      "color_palette": "White, black, dark brown wood, warm sunlight"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "An extreme close-up of a black-and-white striped polo hanging on a wooden hanger, with a human hand gently lifting or pinching the black collar to highlight fabric structure and finishing. The BADASS neck label is visible inside the garment.",
+      "style": "Photorealistic product detail shot, tactile fashion close-up, premium menswear merchandising"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "BADASS, POKTK740",
+      "items": [
+        "Top Right: black BADASS wordmark.",
+        "Center: close-up of striped knit polo with black collar and visible neck label.",
+        "Top Center: wooden hanger hook and hanger shoulder visible above the collar.",
+        "Lower Left: a human hand gently holding the collar edge for detail emphasis.",
+        "Bottom Left: small white product code text 'POKTK740'.",
+        "Background: soft white backdrop with directional sunlight and subtle shadow lines."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Directional natural light",
+      "effect": "Warm sunlight, crisp texture, gentle collar shadow, tactile close-up realism"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic apparel detail poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "striped polo with black collar",
+          "required": true,
+          "source": "source image product reference",
+          "usage": "Preserve stripe spacing, collar contrast, button placket alignment, and knit texture."
+        },
+        {
+          "type": "hand",
+          "name": "hand touching collar",
+          "required": false,
+          "source": "source image hand pose reference",
+          "usage": "Use if the exact hand placement on the collar is important for fidelity."
+        },
+        {
+          "type": "text_layout",
+          "name": "BADASS / POKTK740 text",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Keep the brand text and product code in their existing corners."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve the fabric texture and collar-hand interaction.",
+        "Keep visible text exactly as 'BADASS' and 'POKTK740'.",
+        "Maintain a premium detail-shot feel rather than turning the image into a full product poster."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square apparel detail poster for a striped BADASS polo. Show an extreme close-up of a black-and-white striped knit polo on a wooden hanger, with a visible BADASS neck label and a contrasting black collar. Include a human hand gently lifting or touching the collar to emphasize finishing and texture. Add a black BADASS wordmark in the upper-right corner and small white product code text 'POKTK740' in the lower-left corner. Use a soft white background with warm directional sunlight and subtle shadows. Technical style: photorealistic apparel detail poster, directional natural light, tactile fabric realism, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry texture, distorted hand, malformed fingers, incorrect stripe spacing, low resolution, cluttered background, wrong branding, watermark, signature"
+  }
+}

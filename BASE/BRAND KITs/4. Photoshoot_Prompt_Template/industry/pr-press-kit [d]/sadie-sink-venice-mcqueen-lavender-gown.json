@@ -1,0 +1,75 @@
+{
+  "name": "sadie-sink-venice-mcqueen-lavender-gown",
+  "tag": [
+    "venice-red-carpet",
+    "lavender-couture",
+    "crystal-embroidery",
+    "tulle-gown",
+    "fashion-closeup"
+  ],
+  "image_type": "couture-red-carpet-portrait",
+  "image_vibe": "ethereal-luxury",
+  "image_purpose": "press-kit",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Ethereal lavender couture red-carpet portrait",
+      "event_context": "fictional international film festival premiere",
+      "color_palette": "light lavender, soft blue, pale lilac, silver crystal, warm skin tones, and softly blurred red-carpet neutrals"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult woman with strawberry-blonde hair in long loose natural waves over the shoulders, poised serene expression gazing directly toward the camera, dewy natural makeup, soft pink lips, subtle eye shimmer, and realistic skin texture",
+      "wardrobe": "lavender and soft-blue couture ensemble with a strapless structured bodice, heavy silver leaf-like crystal embroidery, delicate shimmering floral or vine embroidery across the midsection, and a voluminous tiered pale-lilac tulle skirt",
+      "accessories": "prominent architectural silver statement ring on the right hand"
+    },
+    "composition_elements": {
+      "framing": "vertical full portrait with a close-up red-carpet editorial crop option",
+      "subject_position": "adult woman centrally positioned, shoulders relaxed, hands naturally composed near the waist",
+      "background": "softly blurred red carpet with photographers and onlookers, no recognizable people or logos"
+    },
+    "lighting_and_atmosphere": {
+      "type": "bright directional event key light with soft frontal fill, approximately 5000K",
+      "effect": "controlled highlights sparkling across crystals, gentle facial modeling, subtle bokeh, and refined premiere atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "full-frame camera with 85mm lens for portrait or 100mm macro lens for crystal detail, couture event photography",
+      "resolution": "4k vertical portrait",
+      "finish": "soft lilac color treatment, realistic skin pores, fine fabric texture, restrained highlights, subtle film grain"
+    },
+    "generated_prompt_string": "A clearly adult woman at a fictional international film festival premiere, centrally positioned and gazing directly at the camera with a poised serene expression. She has strawberry-blonde hair in long loose natural waves draping over her shoulders, dewy natural makeup with soft pink lips and subtle shimmer, realistic skin texture, and wears an ethereal lavender and soft-blue couture ensemble: a strapless structured bodice covered in heavy silver leaf-like crystal embroidery, a delicate shimmering floral or vine embroidery detail across the midsection, and a voluminous tiered pale-lilac tulle skirt. Add a prominent architectural silver statement ring on the right hand. Use a softly blurred red carpet with photographers and onlookers, no recognizable people, logos, or watermarks. Bright directional event lighting highlights the crystals, with soft fill and elegant bokeh. Capture a full vertical portrait and close-up editorial crop using an 85mm portrait lens or 100mm macro lens, realistic skin pores, delicate fabric texture, restrained lilac color, and fine grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, malformed crystals, recognizable public figures, text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-couture-model",
+          "required": true,
+          "source": "Original lavender red-carpet preview image",
+          "usage": "Attach an approved adult face reference for continuity; preserve facial structure and likeness without using the source's named public figure."
+        },
+        {
+          "type": "wardrobe",
+          "name": "lavender-crystal-tulle-couture",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the strapless lavender bodice, silver crystal embroidery, midsection motif, pale-lilac tulle, and statement ring; keep the specified outfit unchanged."
+        },
+        {
+          "type": "location",
+          "name": "fictional-venice-style-red-carpet",
+          "required": false,
+          "source": "Original preview image and source prompt",
+          "usage": "Optional environment reference; preserve the premiere carpet, photographers, directional light, and bokeh while replacing venue details and all recognizable guests."
+        }
+      ],
+      "prompt_instructions": "Attach the adult person and couture wardrobe references; the premiere environment is optional. Keep the same approved adult identity, exact lavender crystal outfit, ring, central pose, and crystal highlights consistent. Replace the public-figure identity and real event branding with a generic fictional premiere; background people and venue are replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public-figure identity and real-event framing with an approved clearly adult generic model and fictional premiere while preserving the couture silhouette and crystal detail."
+    ]
+  }
+}

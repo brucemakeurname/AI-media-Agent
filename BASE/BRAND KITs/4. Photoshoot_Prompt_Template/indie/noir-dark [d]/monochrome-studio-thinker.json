@@ -1,0 +1,73 @@
+{
+  "name": "monochrome-studio-thinker",
+  "tag": [
+    "adult-woman",
+    "thinker-pose",
+    "black-and-white",
+    "fine-art-studio",
+    "pure-black-background"
+  ],
+  "image_type": "fine-art-monochrome-portrait",
+  "image_vibe": "serious-contemplative-confident",
+  "image_purpose": "editorial",
+  "group": "indie/noir-dark",
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Converted the precise uploaded-face instruction into a required approved adult non-public-figure identity reference, clarified the subject as an adult, and excluded the visible source watermark while preserving the thinker pose and lighting design."
+    ]
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "fine-art cinematic monochrome studio portrait",
+      "color_palette": "pure black, white, and controlled neutral gray",
+      "aspect_ratio": "4:5"
+    },
+    "main_subject": {
+      "description": "A young-looking but clearly adult woman matching the required approved adult non-public-figure identity reference, with natural skin texture, visible pores, and hairstyle adapted from the reference.",
+      "wardrobe": "Simple black crewneck sweater with matte texture that blends into the background.",
+      "pose": "Classic thinker pose with one hand raised to the chin, thumb along the jawline, index finger slightly curled, direct eye contact, and a serious quietly confident expression."
+    },
+    "composition_elements": {
+      "framing": "Centered symmetrical vertical head-and-shoulders portrait with the face and hand in sharp focus.",
+      "environment": "Pure black studio background with no visible texture, watermark, text, or logos.",
+      "focus": "Natural facial structure, hair strands, pores, hand texture, knuckles, and controlled catchlights."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Low-key fine-art studio lighting with a large soft key slightly above eye level from viewer's left, minimal front fill, subtle rim separation, and deep but detailed shadows.",
+      "atmosphere": "Serious, contemplative, quietly confident, and cinematic."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with an 85mm portrait lens at f/4, 1/125 s, ISO 200",
+      "quality": "Ultra-realistic neutral monochrome, wide dynamic range, smooth midtone transitions, natural skin and hair detail, and subtle analog grain"
+    },
+    "generated_prompt_string": "Create a fine-art cinematic 4:5 black-and-white studio portrait of a clearly adult woman matching the required approved adult non-public-figure identity reference. Preserve her facial structure, eye shape, nose proportions, jawline, facial symmetry, hairline, natural pores, and hairstyle character without artificial smoothing. She wears a simple black crewneck sweater and holds a classic thinker pose with one hand raised to the chin, thumb along the jawline, index finger slightly curled, and direct eye contact with a serious quietly confident expression. Use a centered symmetrical head-and-shoulders crop, a pure black background with no watermark or text, a large soft key slightly above eye level from viewer's left, minimal front fill, subtle rim separation, deep detailed shadows, natural catchlights, realistic hand anatomy, neutral monochrome tonality, and subtle grain.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, celebrity likeness, nudity, explicit, nsfw, overly revealing, sexual pose, watermark, readable text, logo, plastic skin, over-smooth skin, blown highlights, extra fingers, deformed anatomy",
+    "reference_elements": {
+      "prompt_instructions": "The required approved adult identity reference must be attached and used to preserve adult facial identity, facial structure, hairline, and hairstyle character. Optional sweater, studio, or lighting references may replace only their named element; preserve the thinker pose, pure-black background, neutral monochrome, and remove all watermarks or logos.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-non-public-figure-identity-reference",
+          "required": true,
+          "source": "uploaded approved adult non-public-figure portrait",
+          "usage": "Match adult facial identity and structure only; do not imitate a celebrity or blend faces."
+        },
+        {
+          "type": "wardrobe",
+          "name": "matte-black-crewneck-sweater",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the sweater texture and neckline while preserving its dark matte integration."
+        },
+        {
+          "type": "location",
+          "name": "pure-black-fine-art-studio",
+          "required": false,
+          "source": "user-uploaded studio reference",
+          "usage": "Replace only the black background and lighting arrangement; remove any watermark or logo."
+        }
+      ]
+    }
+  }
+}

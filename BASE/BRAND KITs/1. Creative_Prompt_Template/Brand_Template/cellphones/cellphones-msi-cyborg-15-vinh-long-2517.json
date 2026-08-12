@@ -1,0 +1,53 @@
+{
+  "name": "cellphones-msi-cyborg-15-vinh-long-2517",
+  "tag": ["cellphones", "msi cyborg 15", "store branch", "25.17 trieu", "vinh long"],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Special offers",
+  "group": "cellphones_983133928092985",
+  "prompt": {
+    "project_info": {
+      "theme": "Store-branch gaming laptop price poster",
+      "color_palette": "Red, white, black, neon cyan, grass green"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A branch-specific gaming laptop promotion poster featuring two floating views of an MSI Cyborg 15 laptop inside a bright white-red showroom lined with tech accessories, with the store address highlighted in a green location banner.",
+      "style": "Retail electronics branch-promo poster"
+    },
+    "composition_elements": {
+      "type": "Laptop/Store Interior/Typography/Location Banner",
+      "text": "cellphoneS, DEAL, Laptop MSI Cyborg 15 A13UC-2082VN, Giá ưu đãi 25.17 Triệu, Số 4 và 6 Lê Thái Tổ, Khóm 2, Long Châu , Vĩnh Long",
+      "items": [
+        "Top Center: red cellphoneS logo block with two circular DEAL signs near the upper corners.",
+        "Center: large front-facing MSI gaming laptop with cyan backlit keyboard and neon dragon wallpaper.",
+        "Behind it on the left: second angled rear view of the same black MSI laptop.",
+        "Background: bright white showroom walls filled with phones, watches, chargers, and headphones on symmetrical shelves with red vertical accents.",
+        "Lower Middle: large rounded red pricing card with white title 'Laptop MSI Cyborg 15 A13UC-2082VN' and a white price box 'Giá ưu đãi 25.17 Triệu'.",
+        "Bottom: green location strip with a map-pin icon and address 'Số 4 và 6 Lê Thái Tổ, Khóm 2, Long Châu , Vĩnh Long'."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright retail showroom lighting",
+      "effect": "High-key product shine, clean branch-opening energy, symmetrical display clarity"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal showroom laptop promotion poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {"type": "product", "name": "MSI Cyborg 15 laptop", "required": true, "source": "source image product reference", "usage": "Keep the two-laptop composition, gaming wallpaper, and cyan keyboard lighting."},
+        {"type": "location", "name": "CellphoneS branch showroom shelves", "required": true, "source": "source image interior reference", "usage": "Preserve the symmetrical red-white accessory displays and store-branch retail environment."},
+        {"type": "text_layout", "name": "product name, price card, and address banner", "required": true, "source": "source image text reference", "usage": "Keep the exact model code, price, and address wording."},
+        {"type": "logo", "name": "cellphoneS branding and DEAL signs", "required": true, "source": "source image brand reference", "usage": "Preserve the top logo and sale-sign elements."}
+      ],
+      "prompt_instructions": [
+        "Attach the original image to preserve showroom symmetry, laptop angles, and the green address strip.",
+        "Keep all visible text exactly as shown.",
+        "Maintain the branch-promo look with the floating gaming laptop hero centered above the pricing card."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square branch-promo electronics poster inside a bright white-red showroom lined with symmetrical shelves of phones, watches, chargers, and headphones. Place a red cellphoneS logo at the top center with circular DEAL signs near the upper corners. In the center, show a large front-facing MSI Cyborg 15 gaming laptop with a cyan backlit keyboard and neon dragon wallpaper, plus a second angled rear view behind it on the left. Add a large rounded red card reading 'Laptop MSI Cyborg 15 A13UC-2082VN' and a white price panel 'Giá ưu đãi 25.17 Triệu'. At the bottom place a green location strip with a map pin and the text 'Số 4 và 6 Lê Thái Tổ, Khóm 2, Long Châu , Vĩnh Long'. Technical style: photoreal showroom laptop promotion poster, bright retail showroom lighting, 8k resolution, highly detailed.",
+    "negative_prompt": "dark store, incorrect model code, blurry address text, wrong laptop wallpaper, low resolution, cluttered shelves, watermark, signature"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": "cinematic-photorealistic-portraits",
+  "tag": [
+    "four-panel-grid",
+    "identity-preservation",
+    "wide-angle",
+    "cinematic-lighting",
+    "environment-expansion"
+  ],
+  "image_type": "cinematic-portrait-grid",
+  "image_vibe": "dramatic-dynamic-photorealistic",
+  "image_purpose": "moodboard",
+  "group": "indie/enegy-lifestyle/cinematic-portrait",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "four-frame cinematic transformation of an attached adult portrait",
+      "color_palette": "derived strictly from the attached source environment",
+      "format": "2x2 four-panel grid of mid-close portraits"
+    },
+    "main_subject": {
+      "type": "adult person from supplied reference image",
+      "detail": "Preserve the exact adult identity, face, age presentation, hairstyle, and defining features of the attached source in all four panels.",
+      "style": "photorealistic, identity-preserving cinematic character portrait"
+    },
+    "composition_elements": {
+      "text": "preserve source text only if present; do not add text, logo, or watermark",
+      "items": [
+        "four distinct mid-close portrait angles arranged in an even 2x2 grid",
+        "wide-angle perspective used for environmental dynamism, not body-part exaggeration",
+        "confident natural poses with consistent facial identity across panels",
+        "expanded but source-faithful version of the original environment in each panel"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "cinematic lighting inferred from the attached source",
+      "effect": "high but controlled contrast, crisp textures, coherent color grading across all four images"
+    },
+    "technical_specs": {
+      "camera": "Canon EOS R5",
+      "lens": "RF 24mm f/1.8 at f/4",
+      "render_style": "wide-angle environmental portrait, photorealistic skin detail, panel-to-panel continuity, no digital gloss"
+    },
+    "generated_prompt_string": "Using the attached adult reference image as mandatory identity and environment source, create an even 2x2 grid of four dramatic photorealistic mid-close cinematic portraits. Preserve the person's exact identity, face, age presentation, hairstyle, and key features in every panel. Show four different confident natural poses and dynamic wide-angle viewpoints, using perspective only to reveal the environment rather than to exaggerate body parts. Expand the original environment conservatively, retaining its recognizable materials, lighting logic, palette, and spatial character. Apply cinematic lighting, controlled contrast, crisp natural textures, and consistent color grading across all panels. Preserve any source text only if it is clearly present; otherwise add no text, logo, or watermark.",
+    "negative_prompt": "explicit, nsfw, overly revealing, identity change, face swap, age alteration, public figure, celebrity likeness, minor, child, body-part exaggeration, sexualized pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, duplicate person, extra limbs, deformed, inconsistent panels, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "authorized-adult-subject-and-environment-reference",
+          "required": true,
+          "source": "Attach the original authorized adult non-public-figure portrait image.",
+          "usage": "Mandatory source for exact adult identity, age presentation, clothing, source environment, lighting logic, and any existing text."
+        }
+      ],
+      "prompt_instructions": "Original authorized adult non-public-figure reference is mandatory. Preserve identity consistently across all four panels and expand only what is supported by the source environment; do not introduce unverified people, branding, or text."
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "shopee-xu-z-station-daily-spin-100k-xu",
+  "tag": [
+    "gamification",
+    "xu-reward",
+    "daily-offer",
+    "3d-typography"
+  ],
+  "biz_niche": "Finance/Fintech",
+  "content_format": "Special offers",
+  "group": "shopee_1013324481205209",
+  "prompt": {
+    "project_info": {
+      "theme": "Shopee Xu reward station launch poster",
+      "color_palette": "Vivid orange, electric blue, white, gold, pink accent"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "The poster is dominated by giant layered 3D typography reading 'Vu Tru XU', 'TRAM SAC GEN', and a large blue ticket board reading 'THU VAN MAY NHAN den 100.000 XU' with a pink corner ribbon saying 'MOI NGAY'. A glass piggy bank filled with Shopee coins sits at the lower left. Floating coins and sparkles surround the composition.",
+      "style": "Glossy 3D gaming-promo typography with thick outlines, chrome-like gradients, toy-style coin props"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "Vu Tru XU / TRAM SAC GEN / THU VAN MAY NHAN den 100.000 XU / MOI NGAY",
+      "items": [
+        "Top Left: White Shopee bag logo on orange background",
+        "Top Right: Floating gold Shopee coin, white sparkle stars, pink folded corner ribbon labeled MOI NGAY",
+        "Bottom Left: Transparent piggy bank jar overflowing with gold Shopee coins",
+        "Bottom Right: Floating bubble coin near the edge of the blue ticket board",
+        "Center/Background: Giant orange-to-yellow 3D XU title, deep blue rounded ticket banner, orange radial glow and abstract liquid orange shapes"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Luminous arcade-style promotional lighting",
+      "effect": "Strong bloom, glossy rim light, star sparkles, soft shadows, saturated gradients"
+    },
+    "technical_specs": {
+      "render_style": "3D typography advertising poster with polished brand compositing",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Shopee Xu reward campaign. Centerpiece is oversized layered 3D text reading 'Vu Tru XU' with the subtitle 'TRAM SAC GEN', and a giant glossy blue ticket banner reading 'THU VAN MAY NHAN den 100.000 XU' plus the pink label 'MOI NGAY'. Background is radiant Shopee orange with abstract blobs, glow rays, and floating gold coins. Surrounding elements: Shopee logo at top left, sparkles, floating bubble coins, and a transparent piggy bank full of Shopee coins at bottom left. Technical style: 3D typography advertising poster with polished brand compositing, luminous arcade-style promotional lighting, bloom, rim light, saturated gradients, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Shopee bag logo",
+          "required": true,
+          "source": "existing Shopee brand asset",
+          "usage": "Place top left as the white bag icon"
+        },
+        {
+          "type": "graphic",
+          "name": "Shopee coin and piggy bank prop set",
+          "required": true,
+          "source": "this creative",
+          "usage": "Reuse the gold Shopee coin iconography and transparent piggy bank silhouette for fidelity"
+        },
+        {
+          "type": "text_layout",
+          "name": "Vu Tru Xu headline composition",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the exact hierarchy and line breaks of the large 3D title and reward banner"
+        }
+      ],
+      "prompt_instructions": "Keep the square crop and let the 3D XU lettering dominate the upper half. Preserve the exact visible wording and the exaggerated size contrast between '100.000' and the surrounding copy. Avoid adding extra characters or additional offer details."
+    }
+  }
+}

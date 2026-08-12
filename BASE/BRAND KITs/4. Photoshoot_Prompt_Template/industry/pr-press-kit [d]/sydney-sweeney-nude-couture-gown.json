@@ -1,0 +1,75 @@
+{
+  "name": "sydney-sweeney-nude-couture-gown",
+  "tag": [
+    "red-carpet-couture",
+    "black-fringe-gown",
+    "beige-and-black",
+    "spiderweb-embroidery",
+    "full-body-editorial"
+  ],
+  "image_type": "couture-red-carpet-fashion",
+  "image_vibe": "dramatic-luxury",
+  "image_purpose": "press-kit",
+  "group": "pr-press-kit",
+  "prompt": {
+    "project_info": {
+      "theme": "Dramatic beige-and-black couture red-carpet portrait",
+      "event_context": "fictional film-premiere gala",
+      "color_palette": "nude beige, matte black, silver, champagne blonde, charcoal press wall, and red graphic accents"
+    },
+    "main_subject": {
+      "type": "clearly adult woman",
+      "detail": "adult blonde woman with long voluminous champagne-blonde hair in soft Hollywood waves and a precise center part, pale blue-green eyes, luminous dewy makeup, soft peach-pink blush, glossy rose-pink lips, and confident direct red-carpet gaze",
+      "wardrobe": "custom floor-length strapless couture gown with a sweetheart neckline, fully lined nude-beige foundation, elaborate black sequined cobweb or lattice embroidery across the bodice and hips, corset-inspired boning detail, asymmetric hem transitioning into dense floor-length black silk fringe with sequined accents",
+      "accessories": "silver and diamond statement rings and glossy black manicure"
+    },
+    "composition_elements": {
+      "framing": "vertical 4:5 full-body and medium-close-up portrait variations",
+      "subject_position": "adult woman in a direct confident red-carpet stance with front-facing and slight three-quarter angles",
+      "background": "black fictional premiere press wall with abstract red web-inspired lettering and no real release-date or studio branding"
+    },
+    "lighting_and_atmosphere": {
+      "type": "high-contrast professional flash at approximately 5000K with controlled fill",
+      "effect": "crisp highlights on black sequins, fringe, rings, and hair, shallow depth of field, refined event atmosphere, and realistic shadow separation"
+    },
+    "technical_specs": {
+      "render_style": "full-frame red-carpet camera with 85mm lens, polished couture event photography",
+      "resolution": "4k vertical 4:5 portrait",
+      "finish": "realistic skin texture, restrained highlights, accurate fringe and embroidery detail, subtle event grain"
+    },
+    "generated_prompt_string": "A clearly adult blonde woman at a fictional film-premiere gala, with long voluminous champagne-blonde hair styled in soft Hollywood waves with a precise middle part, pale blue-green eyes, shimmering neutral eyeshadow, subtle winged eyeliner, luminous dewy skin, soft peach-pink blush, glossy rose-pink lips, and a direct confident red-carpet stance shown in front-facing and slight three-quarter angles. She wears a custom floor-length strapless couture gown with a sweetheart neckline, fully lined nude-beige foundation, elaborate black sequined cobweb or lattice embroidery across the bodice and hips, corset-inspired boning detail, and an asymmetric hem transitioning into dense floor-length black silk fringe with sequined accents. Add silver and diamond statement rings and glossy black nails. Use a black fictional premiere press wall with abstract red web-inspired lettering and no real release-date or studio branding. High-contrast professional flash at approximately 5000K creates crisp highlights on sequins, fringe, rings, and hair with shallow depth of field. Capture vertical 4:5 full-body and medium-close-up variations using an 85mm red-carpet lens, realistic skin texture, restrained highlights, accurate material detail, and subtle event grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexual pose, fetish framing, ambiguous age, celebrity likeness, transparent fabric, exposed intimate areas, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed, distorted anatomy, illegible typography, random logos, text artifacts",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "approved-adult-couture-model",
+          "required": true,
+          "source": "Original couture premiere preview image",
+          "usage": "Attach an approved adult face reference for identity continuity; preserve facial structure and likeness without the source's named public-figure identity."
+        },
+        {
+          "type": "wardrobe",
+          "name": "lined-beige-black-fringe-couture-gown",
+          "required": true,
+          "source": "Original preview image and source prompt",
+          "usage": "Attach to preserve the strapless silhouette, lined beige foundation, black cobweb embroidery, fringe hem, rings, and manicure; keep the specified outfit consistent and non-explicit."
+        },
+        {
+          "type": "text_layout",
+          "name": "fictional-red-web-premiere-press-wall",
+          "required": false,
+          "source": "Original premiere backdrop and source prompt",
+          "usage": "Optional graphic reference; preserve black field, red web-inspired lettering, and hierarchy, while replacing real movie branding and release dates with cleared fictional text."
+        }
+      ],
+      "prompt_instructions": "Attach the approved adult person and couture wardrobe references; the press-wall graphic is optional. Keep the adult identity, lined beige-and-black gown, fringe, jewelry, full-body framing, and flash lighting consistent. Replace the source celebrity and real premiere branding with approved generic identity and cleared fictional graphics; venue and typography are replaceable."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Replaced the named public figure and real premiere branding with an approved clearly adult generic model and fictional event; specified a fully lined foundation and excluded transparent or exposed intimate areas while preserving the couture silhouette and fringe design."
+    ]
+  }
+}

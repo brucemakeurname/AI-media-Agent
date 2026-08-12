@@ -1,0 +1,22 @@
+{
+  "name": "amber-linen-fashion-portrait",
+  "tag": ["industry", "lookbook-line-sheet", "studio-portrait", "linen", "amber"],
+  "image_type": "editorial linen portrait",
+  "image_vibe": "confident, warm, natural, minimal",
+  "image_purpose": "fashion lookbook and studio portrait editorial",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create an ultra-realistic medium chest-up portrait of one confident adult individual in a beige linen shirt against a soft amber gradient.",
+    "main_subject": "One adult individual with natural skin texture, relaxed pose, slight head tilt, and direct eye contact, wearing a beige linen shirt with minimal accessories.",
+    "composition_elements": ["Centered medium chest-up framing.", "Soft amber gradient background.", "Relaxed posture and slight head tilt.", "Linen weave and natural facial texture remain visible."],
+    "lighting_and_atmosphere": "Warm 3800K light from above with a glowing halo rim light around the hair, soft controlled shadows, and quiet editorial warmth.",
+    "technical_specs": "Ultra-realistic 8K editorial fashion photography, shallow depth of field, sharp facial focus, realistic linen texture, no text or watermark.",
+    "generated_prompt_string": "Ultra-realistic medium chest-up editorial portrait of a confident adult individual in a beige linen shirt, centered against a soft amber gradient background. Relaxed pose with slight head tilt and direct eye contact. Warm 3800K lighting from above with a glowing halo rim light around the hair. Shallow depth of field, natural skin textures, 8K resolution, editorial fashion aesthetic, minimal accessories, no text, no watermark.",
+    "negative_prompt": ["explicit", "nsfw", "overly revealing", "nudity", "sexualized pose", "minor or age ambiguity", "distorted anatomy", "extra fingers", "inconsistent identity", "plastic skin", "over-smooth", "over-saturated", "HDR look", "watermark", "text", "logo", "deformed"],
+    "reference_elements": {
+      "assets": [{"type": "person", "name": "amber-linen-fashion-portrait.jpg", "required": true, "source": "local reference image", "usage": "Attach for adult identity, face, shirt, pose, and amber lighting reference."}],
+      "prompt_instructions": "Attach the required adult reference. Preserve identity, linen shirt, head tilt, amber gradient, 3800K lighting, halo rim light, and minimal accessories. Replace only with an equivalent adult identity reference; no celebrity likeness, logos, or typography."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

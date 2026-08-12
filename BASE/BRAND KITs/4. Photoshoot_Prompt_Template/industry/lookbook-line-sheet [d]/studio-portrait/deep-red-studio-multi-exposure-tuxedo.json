@@ -1,0 +1,81 @@
+{
+  "name": "deep-red-studio-multi-exposure-tuxedo",
+  "tag": [
+    "industry",
+    "lookbook-line-sheet",
+    "studio-portrait",
+    "tuxedo",
+    "motion-echo"
+  ],
+  "image_type": "multi-exposure tuxedo studio portrait",
+  "image_vibe": "cinematic, polished, dynamic, high-contrast",
+  "image_purpose": "menswear campaign and editorial lookbook",
+  "group": "industry/lookbook-line-sheet/studio-portrait",
+  "prompt": {
+    "project_info": "Create a high-fashion 4:5 studio portrait of one approved adult man in a classic tuxedo against a fully deep-red seamless environment with a three-echo motion effect.",
+    "main_subject": "Approved adult man with short styled slightly tousled hair, well-groomed short beard or stubble, serious confident gaze, black tuxedo jacket with sharp lapels, white pleated dress shirt, black bow tie, white pocket square, watch, and optional subtle ring.",
+    "composition_elements": [
+      "Main subject leans or sits with torso slightly angled; one hand is raised near the face with fingers softly bent and the other rests near the waist.",
+      "Three translucent offset duplicates trail to the right as a controlled motion echo while the main face remains sharp and dominant.",
+      "Solid deep-red studio cyclorama and red floor create a monochrome red environment with true black and clean white wardrobe accents.",
+      "Keep the main face, tuxedo texture, watch, hand anatomy, and echo direction consistent."
+    ],
+    "lighting_and_atmosphere": "Hard studio key from forward-left slightly above eye level with a beauty dish or small softbox, very light fill, faint rim against the red background, high contrast, controlled highlights, and natural skin under red bounce.",
+    "technical_specs": "Photorealistic 4:5 three-quarter portrait, 85mm portrait compression, medium-shallow depth of field, face tack sharp, editorial crisp fabric texture, subtle analog grain, no text, logos, or watermark.",
+    "generated_prompt_string": "High-fashion 4:5 studio portrait of one approved adult man with short styled slightly tousled hair, well-groomed short beard or stubble, serious confident gaze, black tuxedo jacket with sharp lapels, white pleated dress shirt, black bow tie, white pocket square, and a watch. He leans or sits with torso slightly angled, one hand raised near the face and the other near the waist. Add exactly three translucent offset duplicates trailing to the right as a controlled multi-exposure motion echo; keep the main face sharp and dominant and echoes softer and semi-transparent. Use a fully deep-red seamless cyclorama and red floor, hard key from forward-left slightly above eye level, very light fill, faint rim, high contrast, natural skin under red bounce, 85mm portrait compression, 4:5 composition, subtle analog grain, no text, logos, or watermark.",
+    "negative_prompt": [
+      "explicit",
+      "nsfw",
+      "overly revealing",
+      "nudity",
+      "sexualized pose",
+      "minor or age ambiguity",
+      "celebrity likeness",
+      "wrong echo count",
+      "sharp duplicate faces",
+      "ghost artifacts",
+      "distorted anatomy",
+      "extra fingers",
+      "plastic skin",
+      "waxy",
+      "over-smooth",
+      "over-saturated",
+      "airbrushed",
+      "HDR look",
+      "watermark",
+      "text",
+      "logo",
+      "deformed"
+    ],
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "person",
+          "name": "deep-red-studio-multi-exposure-tuxedo.jpg",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Attach for adult identity, face, hair, beard, expression, outfit, pose, and motion-echo reference."
+        },
+        {
+          "type": "wardrobe",
+          "name": "black tuxedo, white pleated shirt, bow tie, pocket square, and watch",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve the tuxedo construction, shirt pleats, accessories, and fabric texture."
+        },
+        {
+          "type": "location",
+          "name": "deep-red seamless studio cyclorama and floor",
+          "required": true,
+          "source": "local reference image",
+          "usage": "Preserve red environment, lighting, and echo contrast."
+        }
+      ],
+      "prompt_instructions": "Attach all required person, wardrobe, and studio references; no optional assets are needed. Keep identity, face, outfit, accessories, pose, echo count, direction, environment, lighting, and color consistent. Replace only with an equivalent approved adult, equivalent menswear, or equivalent red studio reference. Typography is not applicable; do not add text, logos, or watermark."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

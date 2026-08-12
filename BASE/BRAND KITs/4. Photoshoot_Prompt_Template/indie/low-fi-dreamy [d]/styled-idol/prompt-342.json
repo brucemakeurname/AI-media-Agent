@@ -1,0 +1,76 @@
+{
+  "name": "prompt-342",
+  "tag": [
+    "adult-woman",
+    "police-uniform",
+    "tight-booth",
+    "three-person-portrait",
+    "vintage-japanese",
+    "analog-film"
+  ],
+  "image_type": "cinematic-group-portrait",
+  "image_vibe": "intimate, amber-lit, tightly framed, retro-analog",
+  "image_purpose": "editorial, moodboard, instagram-feed",
+  "group": "indie / low-fi-dreamy / styled-idol",
+  "prompt": {
+    "project_info": {
+      "theme": "Tight retro Japanese police-booth portrait",
+      "format": "vertical 3:4 portrait",
+      "color_palette": "faded powder blue, forest green, warm amber, oxidized gray, deep navy"
+    },
+    "main_subject": {
+      "type": "three adult people",
+      "detail": "An adult Japanese woman with chestnut-brown ponytail and short straight bangs is centered between two older Japanese policemen. She wears a fitted powder-blue police-uniform shirt with gold buttons and epaulettes, dark green neck scarf, navy skirt, dark belt, and white gloves.",
+      "style": "unpolished Japanese 1980s analog documentary portrait"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "tight centered waist-up-to-knee framing through a worn metal or wood doorway",
+        "the woman sits upright with hands folded in her lap and a calm direct gaze",
+        "two seated older officers crop in close at left and right, creating a compressed three-person composition",
+        "the interior has aged wall panels, scuffed edges, a faintly visible sign, and dark crowded booth surroundings",
+        "uniform buttons, epaulettes, scarf folds, belt hardware, and gloves remain crisp visual anchors"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "soft tungsten practical above the booth, approximately 3000K",
+      "effect": "warm facial highlights, dense edge shadow, slight flash-like directness",
+      "atmosphere": "quiet, observant, lived-in, late-night retro documentary mood"
+    },
+    "technical_specs": {
+      "render_style": "35mm camera, 40mm lens, eye-level close conversational distance, vertical 3:4",
+      "resolution": "high-detail analog photograph",
+      "color_treatment": "low-saturation print color, visible fine grain, subtle color shift, slightly lifted black detail"
+    },
+    "generated_prompt_string": "A tightly framed vertical 3:4 retro analog portrait of three adult Japanese people seated in a cramped police-booth-like interior. Center an adult Japanese woman with chestnut-brown hair in a ponytail and short straight bangs, wearing a fitted powder-blue police-uniform shirt with gold buttons and epaulettes, dark green neck scarf, navy skirt, dark belt, and white gloves. She sits upright with hands folded quietly in her lap and a calm direct gaze. Two older Japanese policemen crop in close on either side, creating a compressed trio composition seen through a worn doorway. Keep aged wall panels, scuffed edges, a faint sign, deep booth shadows, and crisp uniform hardware. Light with one soft tungsten practical at approximately 3000K for warm facial highlights and dense edge shadow. Shoot at eye level on a 35mm camera with a 40mm lens; use low-saturation print color, visible fine grain, slight color shift, shallow depth, and an unpolished 1980s Japanese analog documentary aesthetic.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, extra fingers, deformed",
+    "reference_elements": {
+      "prompt_instructions": "Attach the optional source moodboard to preserve the tight trio composition, centered uniformed woman, side-cropped officers, scarf, gloves, aged booth, and analog treatment. Optional approved-adult identity references can replace the people; preserve each supplied adult face, facial structure, and likeness. Other period uniform and location details may be substituted without changing the compressed documentary composition.",
+      "assets": [
+        {
+          "type": "moodboard",
+          "name": "tight retro police-booth trio source",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/images/342.jpeg",
+          "usage": "Use for the composition, uniform details, weathered booth, and warm analog image language."
+        },
+        {
+          "type": "person",
+          "name": "approved adult identity references",
+          "required": false,
+          "source": "user-supplied approved references",
+          "usage": "When supplied, preserve each adult subject's face, facial structure, and likeness."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified that all depicted people are adults.",
+      "Removed named living-photographer style references while retaining the 1980s Japanese analog documentary direction.",
+      "Preserved the police uniforms, tight trio composition, and retro booth setting."
+    ]
+  }
+}

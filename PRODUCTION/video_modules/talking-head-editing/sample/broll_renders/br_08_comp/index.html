@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1080, height=1920" />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 1080px; height: 1920px; overflow: hidden; background: #1C1C1E; }
+    #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+
+    #canvas-wrap { position: absolute; top: 0; left: 0; width: 1080px; height: 1920px; z-index: 0; }
+    #canvas-wrap canvas { display: block; }
+
+    /* TOP ZONE: 0–640px */
+    #top-eyebrow {
+      position: absolute; top: 80px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 700; font-size: 22px;
+      color: rgba(255,255,255,0.28); letter-spacing: 0.24em; text-transform: uppercase; z-index: 10;
+    }
+    #top-rule-l {
+      position: absolute; top: 122px; left: 80px; width: 0; height: 1.5px;
+      background: rgba(31,127,254,0.45); z-index: 10;
+    }
+    #top-rule-r {
+      position: absolute; top: 122px; right: 80px; width: 0; height: 1.5px;
+      background: rgba(31,127,254,0.45); z-index: 10; transform-origin: right center;
+    }
+    #top-tag {
+      position: absolute; top: 150px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 900; font-size: 86px;
+      color: #1F7FFE; letter-spacing: -2px; z-index: 10;
+    }
+    #top-context {
+      position: absolute; top: 330px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 300; font-size: 26px;
+      color: rgba(255,255,255,0.30); letter-spacing: 0.10em; text-transform: uppercase; z-index: 10;
+    }
+
+    /* MID ZONE: primary call-to-action on top of Three.js */
+    #mid-headline {
+      position: absolute; top: 740px; left: 60px; width: 960px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 900; font-size: 96px;
+      color: #FFFFFF; letter-spacing: -3px; line-height: 1.0; z-index: 10;
+    }
+    #mid-sub {
+      position: absolute; top: 1060px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 400; font-size: 32px;
+      color: rgba(255,255,255,0.45); letter-spacing: 5px; text-transform: uppercase; z-index: 10;
+    }
+
+    /* BOTTOM ZONE: 1280–1920px */
+    #btm-divider {
+      position: absolute; bottom: 448px; left: 200px; width: 0; height: 2px;
+      background: rgba(207,255,4,0.45); z-index: 10;
+    }
+    #btm-italic {
+      position: absolute; bottom: 280px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Playfair Display', serif; font-style: italic; font-size: 48px;
+      color: #CFFF04; z-index: 10;
+    }
+    #btm-brand {
+      position: absolute; bottom: 148px; left: 0; width: 1080px; text-align: center;
+      font-family: 'Inter', sans-serif; font-weight: 600; font-size: 20px;
+      color: rgba(255,255,255,0.20); letter-spacing: 0.20em; text-transform: uppercase; z-index: 10;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"
+       data-composition-id="broll-08"
+       data-start="0" data-duration="4.113"
+       data-width="1080" data-height="1920">
+
+    <div id="canvas-wrap" class="clip" data-start="0" data-duration="4.113" data-track-index="0"></div>
+
+    <!-- TOP ZONE -->
+    <div id="top-eyebrow" class="clip" data-start="0" data-duration="4.113" data-track-index="1">The Mindset</div>
+    <div id="top-rule-l"  class="clip" data-start="0" data-duration="4.113" data-track-index="2"></div>
+    <div id="top-rule-r"  class="clip" data-start="0" data-duration="4.113" data-track-index="3"></div>
+    <div id="top-tag"     class="clip" data-start="0" data-duration="4.113" data-track-index="4">STOP.</div>
+    <div id="top-context" class="clip" data-start="0" data-duration="4.113" data-track-index="5">start treating it right</div>
+
+    <!-- MID ZONE headline -->
+    <div id="mid-headline" class="clip" data-start="0" data-duration="4.113" data-track-index="6">BUILD IT<br>LIKE A<br>BUSINESS.</div>
+    <div id="mid-sub"      class="clip" data-start="0" data-duration="4.113" data-track-index="7">Not a hobby. Not a cheat code.</div>
+
+    <!-- BOTTOM ZONE -->
+    <div id="btm-divider" class="clip" data-start="0" data-duration="4.113" data-track-index="8"></div>
+    <div id="btm-italic"  class="clip" data-start="0" data-duration="4.113" data-track-index="9">"stop the cheat code mentality"</div>
+    <div id="btm-brand"   class="clip" data-start="0" data-duration="4.113" data-track-index="10">SoloFlows · AI Creator · 2025</div>
+  </div>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+
+    /* ── Three.js renderer ── */
+    var W = 1080, H = 1920;
+    var renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(W, H);
+    renderer.setPixelRatio(1);
+    renderer.setClearColor(0x1C1C1E);
+    document.getElementById('canvas-wrap').appendChild(renderer.domElement);
+
+    var scene = new THREE.Scene();
+
+    var camera = new THREE.PerspectiveCamera(55, W / H, 0.1, 3000);
+    camera.position.set(0, 0, 620);
+    camera.lookAt(0, 0, 0);
+
+    // Lighting
+    scene.add(new THREE.AmbientLight(0xffffff, 0.15));
+    var coreLight = new THREE.PointLight(0x1F7FFE, 3.0, 1500);
+    coreLight.position.set(0, 0, 200);
+    scene.add(coreLight);
+    var rimA = new THREE.PointLight(0x4a9fff, 1.5, 1200);
+    rimA.position.set(300, 300, -200);
+    scene.add(rimA);
+    var rimB = new THREE.PointLight(0x1F7FFE, 1.0, 800);
+    rimB.position.set(-200, -300, 100);
+    scene.add(rimB);
+
+    /* ── Central core sphere ── */
+    var coreSphere = new THREE.Mesh(
+      new THREE.SphereGeometry(18, 20, 20),
+      new THREE.MeshPhongMaterial({ color: 0x1F7FFE, emissive: 0x0D2558, shininess: 120 })
+    );
+    coreSphere.scale.setScalar(0);
+    scene.add(coreSphere);
+
+    /* ── Ring 1: horizontal (xz plane), inner ── */
+    var ring1Geo = new THREE.TorusGeometry(130, 5, 12, 80);
+    var ring1 = new THREE.Mesh(ring1Geo,
+      new THREE.MeshPhongMaterial({ color: 0x1F7FFE, emissive: 0x0A1E40, shininess: 80 })
+    );
+    ring1.rotation.x = Math.PI / 2;
+    ring1.scale.setScalar(0);
+    scene.add(ring1);
+
+    var ring1Edges = new THREE.LineSegments(
+      new THREE.EdgesGeometry(ring1Geo),
+      new THREE.LineBasicMaterial({ color: 0x4DAAFF })
+    );
+    ring1Edges.rotation.x = Math.PI / 2;
+    ring1Edges.scale.setScalar(0);
+    scene.add(ring1Edges);
+
+    /* ── Ring 2: tilted 55° on x, mid ── */
+    var ring2Geo = new THREE.TorusGeometry(195, 3.5, 10, 80);
+    var ring2 = new THREE.Mesh(ring2Geo,
+      new THREE.MeshPhongMaterial({ color: 0x0D2558, emissive: 0x091830, shininess: 60, transparent: true, opacity: 0.85 })
+    );
+    ring2.rotation.x = Math.PI * 0.305; // ~55°
+    ring2.scale.setScalar(0);
+    scene.add(ring2);
+
+    var ring2Edges = new THREE.LineSegments(
+      new THREE.EdgesGeometry(ring2Geo),
+      new THREE.LineBasicMaterial({ color: 0x1F7FFE, opacity: 0.75, transparent: true })
+    );
+    ring2Edges.rotation.x = Math.PI * 0.305;
+    ring2Edges.scale.setScalar(0);
+    scene.add(ring2Edges);
+
+    /* ── Ring 3: vertical (yz plane), outer ── */
+    var ring3Geo = new THREE.TorusGeometry(265, 2.5, 8, 80);
+    var ring3 = new THREE.Mesh(ring3Geo,
+      new THREE.MeshPhongMaterial({ color: 0x091830, emissive: 0x040D1E, shininess: 40, transparent: true, opacity: 0.65 })
+    );
+    ring3.rotation.y = Math.PI / 2;
+    ring3.scale.setScalar(0);
+    scene.add(ring3);
+
+    var ring3Edges = new THREE.LineSegments(
+      new THREE.EdgesGeometry(ring3Geo),
+      new THREE.LineBasicMaterial({ color: 0x1F7FFE, opacity: 0.50, transparent: true })
+    );
+    ring3Edges.rotation.y = Math.PI / 2;
+    ring3Edges.scale.setScalar(0);
+    scene.add(ring3Edges);
+
+    // Initial render
+    renderer.render(scene, camera);
+
+    /* ── GSAP initial states ── */
+    gsap.set('#top-eyebrow', { opacity: 0 });
+    gsap.set('#top-rule-l',  { width: 0 });
+    gsap.set('#top-rule-r',  { width: 0 });
+    gsap.set('#top-tag',     { opacity: 0, y: -18 });
+    gsap.set('#top-context', { opacity: 0 });
+    gsap.set('#mid-headline',{ opacity: 0, y: 24 });
+    gsap.set('#mid-sub',     { opacity: 0 });
+    gsap.set('#btm-divider', { width: 0 });
+    gsap.set('#btm-italic',  { opacity: 0, y: 16 });
+    gsap.set('#btm-brand',   { opacity: 0 });
+
+    /* ── Timeline ── */
+    var tl = gsap.timeline({
+      paused: true,
+      onUpdate: function () { renderer.render(scene, camera); }
+    });
+    window.__timelines = window.__timelines || {};
+    window.__timelines['broll-08'] = tl;
+
+    /* 0–0.4s: core sphere + ring 1 appear */
+    tl.to(coreSphere.scale,   { x: 1, y: 1, z: 1, duration: 0.30, ease: 'back.out(1.8)' }, 0.10);
+    tl.to(ring1.scale,        { x: 1, y: 1, z: 1, duration: 0.38, ease: 'back.out(1.5)' }, 0.22);
+    tl.to(ring1Edges.scale,   { x: 1, y: 1, z: 1, duration: 0.38, ease: 'back.out(1.5)' }, 0.22);
+
+    /* 0.4–0.8s: ring 2 */
+    tl.to(ring2.scale,        { x: 1, y: 1, z: 1, duration: 0.38, ease: 'back.out(1.5)' }, 0.45);
+    tl.to(ring2Edges.scale,   { x: 1, y: 1, z: 1, duration: 0.38, ease: 'back.out(1.5)' }, 0.45);
+
+    /* 0.6–1.0s: ring 3 */
+    tl.to(ring3.scale,        { x: 1, y: 1, z: 1, duration: 0.38, ease: 'back.out(1.5)' }, 0.65);
+    tl.to(ring3Edges.scale,   { x: 1, y: 1, z: 1, duration: 0.38, ease: 'back.out(1.5)' }, 0.65);
+
+    /* Continuous ring orbits: each ring spins on its local rotation axis */
+    // Ring 1: spins in xz plane (y-axis rotation adds tilt to the plane)
+    tl.to(ring1.rotation,      { y: Math.PI * 4.0, duration: 3.60, ease: 'none' }, 0.22);
+    tl.to(ring1Edges.rotation, { y: Math.PI * 4.0, duration: 3.60, ease: 'none' }, 0.22);
+    // Ring 2: rotates on z (its natural tilt axis)
+    tl.to(ring2.rotation,      { z: Math.PI * 3.2, duration: 2.80, ease: 'none' }, 0.45);
+    tl.to(ring2Edges.rotation, { z: Math.PI * 3.2, duration: 2.80, ease: 'none' }, 0.45);
+    // Ring 3: rotates on x
+    tl.to(ring3.rotation,      { x: -Math.PI * 2.6, duration: 3.10, ease: 'none' }, 0.65);
+    tl.to(ring3Edges.rotation, { x: -Math.PI * 2.6, duration: 3.10, ease: 'none' }, 0.65);
+
+    /* TOP ZONE: 0.3–1.1s */
+    tl.to('#top-eyebrow', { opacity: 1, duration: 0.30, ease: 'power2.out' }, 0.30);
+    tl.to('#top-rule-l',  { width: 320, duration: 0.35, ease: 'power3.out' }, 0.50);
+    tl.to('#top-rule-r',  { width: 320, duration: 0.35, ease: 'power3.out' }, 0.50);
+    tl.to('#top-tag',     { opacity: 1, y: 0, duration: 0.40, ease: 'power3.out' }, 0.60);
+    tl.to('#top-context', { opacity: 1, duration: 0.30, ease: 'power2.out' }, 0.92);
+
+    /* MID ZONE headline: 0.9–1.6s */
+    tl.to('#mid-headline', { opacity: 1, y: 0, duration: 0.50, ease: 'power3.out' }, 0.90);
+    tl.to('#mid-sub',      { opacity: 1, duration: 0.35, ease: 'power2.out' }, 1.52);
+
+    /* BOTTOM ZONE: 1.6–2.4s */
+    tl.to('#btm-divider', { width: 680, duration: 0.38, ease: 'power3.out' }, 1.62);
+    tl.to('#btm-italic',  { opacity: 1, y: 0, duration: 0.40, ease: 'power2.out' }, 1.88);
+    tl.to('#btm-brand',   { opacity: 1, duration: 0.30, ease: 'power2.out' }, 2.22);
+
+    /* Fade out: 3.613s */
+    tl.to('#root', { opacity: 0, duration: 0.5, ease: 'power2.in' }, 3.613);
+  });
+  </script>
+</body>
+</html>

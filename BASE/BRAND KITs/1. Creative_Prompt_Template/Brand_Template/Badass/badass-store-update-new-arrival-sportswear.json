@@ -1,0 +1,79 @@
+{
+  "name": "badass-store-update-new-arrival-sportswear",
+  "tag": [
+    "store update",
+    "sportswear display",
+    "new arrival",
+    "retail merchandising",
+    "football theme",
+    "store visual"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Sneak peeks",
+  "group": "badass_1594354398970393",
+  "prompt": {
+    "project_info": {
+      "theme": "Sportswear store update new arrival display",
+      "color_palette": "White, black, taupe, blue, gold, neutral gray"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A wide in-store sportswear display with freestanding racks, a central table, football-themed props, and a vertical athlete poster, presented as a clean retail update announcement.",
+      "style": "Photorealistic store merchandising showcase, retail floor update visual, clean new-arrival announcement"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography",
+      "text": "STORE UPDATE, NEW ARRIVAL",
+      "items": [
+        "Foreground Center: a black display table with folded garments, takeaway cups, a football, and a gold trophy.",
+        "Left Rack: white polo and black shorts set hanging prominently, with additional apparel behind.",
+        "Right Rack: sleeveless taupe set in front with darker items behind.",
+        "Back Center: a vertical athlete poster with BADASS branding and sportswear messaging.",
+        "Top Center: a small blue sign clipped above the display.",
+        "Bottom: huge blue text 'STORE UPDATE'.",
+        "Below Title: rounded white capsule with black outline reading 'NEW ARRIVAL'.",
+        "Background: bright clean retail interior with pale floor and soft neutral store lighting."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Bright showroom lighting",
+      "effect": "Even retail illumination, clear product visibility, neutral polished atmosphere, documentary merchandising realism"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic retail merchandising poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "location",
+          "name": "sportswear store display setup",
+          "required": true,
+          "source": "source image store arrangement reference",
+          "usage": "Use to preserve exact rack positions, table props, and central athlete-poster composition."
+        },
+        {
+          "type": "product",
+          "name": "sportswear assortment and props",
+          "required": true,
+          "source": "source image product reference",
+          "usage": "Keep the apparel sets, football props, trophy, cups, and folded garments close to the original layout."
+        },
+        {
+          "type": "text_layout",
+          "name": "STORE UPDATE / NEW ARRIVAL typography",
+          "required": true,
+          "source": "source image text reference",
+          "usage": "Preserve the exact wording and bottom-centered title treatment."
+        }
+      ],
+      "prompt_instructions": [
+        "Attach the original image as the primary reference for the full store layout and prop placement.",
+        "Keep visible text exactly as 'STORE UPDATE' and 'NEW ARRIVAL'.",
+        "Maintain a clean retail-documentation look rather than turning the scene into an editorial campaign."
+      ]
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square retail store update poster for a sportswear new arrival display. Show a bright in-store merchandising setup with left and right freestanding racks, a central black display table, a vertical athlete poster in the back center, a football, a gold trophy, cups, and folded garments. Keep the apparel mix in white, black, and taupe sportswear. Add huge blue text 'STORE UPDATE' across the bottom and a rounded white capsule below it reading 'NEW ARRIVAL'. Technical style: photorealistic retail merchandising poster, bright showroom lighting, clean documentary store atmosphere, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, empty store, incorrect text, low resolution, cluttered layout, distorted racks, warped props, harsh color cast, watermark, signature"
+  }
+}

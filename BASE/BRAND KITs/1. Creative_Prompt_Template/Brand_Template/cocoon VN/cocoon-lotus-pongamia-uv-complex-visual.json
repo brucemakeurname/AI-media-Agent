@@ -1,0 +1,72 @@
+{
+  "name": "cocoon-lotus-pongamia-uv-complex-visual",
+  "tag": [
+    "ingredient-visual",
+    "lotus",
+    "pongamia",
+    "uv-complex",
+    "infographic",
+    "science"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Infographics",
+  "group": "cocoon_1530118345285662",
+  "prompt": {
+    "project_info": {
+      "theme": "Ingredient-complex visual explaining natural UV absorption support",
+      "color_palette": "Soft Pink, Sky Blue, White, Lotus Pink, Warm Brown, Beige"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A pastel infographic featuring a floating pink lotus petal, pongamia seed pod, and licorice root arranged inside soft translucent circular bubbles beneath the arced text 'PHỨC HỢP HẤP THỤ TIA UV TỰ NHIÊN'.",
+      "style": "Ingredient-story science graphic, soft skincare infographic, airy translucent-circle composition"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'CHIẾT XUẤT SEN', 'PHỨC HỢP HẤP THỤ TIA UV TỰ NHIÊN', 'RỄ CAM THẢO', and 'HẠT ĐẬU DẦU'.",
+      "items": [
+        "Top Left: Curved white text 'CHIẾT XUẤT SEN' wrapping around the lotus-petal bubble.",
+        "Top Right: Large arced headline 'PHỨC HỢP HẤP THỤ TIA UV TỰ NHIÊN' across the top-right circle.",
+        "Bottom Left: Smaller bubble containing licorice roots labeled 'RỄ CAM THẢO'.",
+        "Bottom Right: Medium bubble containing an opened brown seed pod labeled 'HẠT ĐẬU DẦU'.",
+        "Center/Background: Large translucent circles layered over a pink-to-blue gradient field, with a floating dewy lotus petal in the left bubble."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft infographic lighting",
+      "effect": "Glassy bubble translucency, gentle ingredient highlights, airy pastel science mood"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity ingredient infographic design",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for an ingredient-complex infographic about natural UV absorption support. Centerpiece is a set of translucent circular bubbles on a pink-to-blue gradient background, containing a dewy lotus petal, licorice roots, and an opened pongamia seed pod. Surrounding elements: curved white labels 'CHIẾT XUẤT SEN', 'RỄ CAM THẢO', 'HẠT ĐẬU DẦU', and the large arced headline 'PHỨC HỢP HẤP THỤ TIA UV TỰ NHIÊN'. Keep the soft glassy-circle layering, the ingredient cutout realism, and the airy scientific beauty aesthetic. Technical style: high fidelity ingredient infographic design, soft infographic lighting, glassy bubble translucency and gentle ingredient highlights, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "graphic",
+          "name": "Translucent ingredient-circle layout",
+          "required": true,
+          "source": "Use the original infographic as the main composition reference",
+          "usage": "Preserve the circle sizes, overlaps, and headline arcs."
+        },
+        {
+          "type": "graphic",
+          "name": "Lotus petal, licorice root, and pongamia seed images",
+          "required": true,
+          "source": "Attach crops from the original visual or official ingredient refs",
+          "usage": "Keep the specific ingredient shapes, angles, and cutout styling."
+        },
+        {
+          "type": "text_layout",
+          "name": "Curved ingredient labels and UV-complex headline",
+          "required": true,
+          "source": "Use the original poster as text reference",
+          "usage": "Maintain the exact curved Vietnamese labels around the circles."
+        }
+      ],
+      "prompt_instructions": "Use the original infographic as a required reference in gpt-image-2. The output should keep the soft translucent circles and exact ingredient-label arrangement instead of turning into a generic ingredient collage."
+    }
+  }
+}

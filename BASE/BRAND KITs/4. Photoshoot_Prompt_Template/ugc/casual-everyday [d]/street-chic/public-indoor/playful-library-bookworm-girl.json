@@ -1,0 +1,22 @@
+{
+  "name": "playful-library-bookworm-girl",
+  "tag": "ugc",
+  "image_type": "photograph",
+  "image_vibe": "casual academic playful",
+  "image_purpose": "lifestyle and bookworm social content",
+  "group": "casual-everyday/street-chic/public-indoor",
+  "prompt": {
+    "project_info": "Photorealistic lifestyle portrait in a public library aisle.",
+    "main_subject": "One generic approved young adult woman with long wavy light-brown hair and blonde highlights, playful pout, eyes looking upward-left, wearing a fitted beige crop top and blue denim jeans; holding 3-4 colorful hardcover books and carrying a cream canvas tote.",
+    "composition_elements": "Vertical medium shot, subject slightly angled and centered between tall beige bookshelves; books, varied spines, call-number stickers, high ceiling, fluorescent tube, and industrial beams remain visible.",
+    "lighting_and_atmosphere": "Bright cool-toned diffused fluorescent interior light, clear face with minimal shadows, casual academic playful bookworm mood.",
+    "technical_specs": "Photorealistic 4K/Ultra HD lifestyle photography, sharp face and books, slightly shallow depth of field, detailed denim, paper, and hair textures.",
+    "generated_prompt_string": "Create a vertical photorealistic lifestyle portrait of one generic approved young adult woman with long wavy balayage hair, beige crop top, blue jeans, playful pout, holding colorful library books and wearing a cream tote, standing in a bright public library aisle between packed bookshelves; cool fluorescent light, crisp face and books, softly softened background.",
+    "negative_prompt": "explicit, nsfw, overly revealing, sexualized pose, nudity, minors, celebrity likeness, public figure likeness, distorted anatomy, extra fingers, malformed books or hands, unreadable added text, watermark, logo overlay",
+    "reference_elements": {
+      "assets": [{"type": "image", "name": "playful-library-bookworm-girl.jpg", "required": true, "source": "local", "usage": "Match adult subject, hair, expression, books, tote, library aisle, framing, and fluorescent lighting."}],
+      "prompt_instructions": "Attach the required reference image. Preserve identity, hair, pose, outfit, props, library environment, composition, and lighting. Tote and book typography are replaceable and should remain natural, with no overlaid text or logos. Use a generic approved adult and avoid celebrity likeness."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Normalized schema and slug.", "Added safety exclusions and reference consistency instructions."]}
+}

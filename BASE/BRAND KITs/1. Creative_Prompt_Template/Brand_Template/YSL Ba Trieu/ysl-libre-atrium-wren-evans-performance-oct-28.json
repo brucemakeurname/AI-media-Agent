@@ -1,0 +1,78 @@
+{
+  "name": "ysl-libre-atrium-wren-evans-performance-oct-28",
+  "tag": [
+    "ysl",
+    "libre-atrium",
+    "wren-evans",
+    "event-poster",
+    "performance"
+  ],
+  "biz_niche": "Fashion & Apparel / Editorial",
+  "content_format": "Special offers",
+  "group": "ysl_1885062202030863",
+  "prompt": {
+    "project_info": {
+      "theme": "YSL Libre Atrium special performance event poster",
+      "color_palette": "Black, champagne gold, white, warm skin tones, silver jewelry highlights"
+    },
+    "main_subject": {
+      "type": "Person",
+      "detail": "A luxury event poster with a black marble-and-gold-crack background. On the right is a real-photo portrait of a platinum blond male performer wearing a deep-open black leather jacket and layered silver cross necklaces. On the left are the exact lines 'LIBRE ATRIUM', 'SPECIAL PERFORMANCE', 'WREN EVANS', '18h30 ngày 28.10', and the venue box 'Tầng 1, Saigon Centre' with address '92-94 Nam Kỳ Khởi Nghĩa, Quận 1, TPHCM'.",
+      "style": "High-fashion luxury event advertising, glossy editorial portrait, dramatic black-and-gold YSL visual system"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "YvesSaintLaurent BEAUTÉ; LIBRE ATRIUM; SPECIAL PERFORMANCE; WREN EVANS; 18h30 ngày 28.10; Tầng 1, Saigon Centre; 92-94 Nam Kỳ Khởi Nghĩa, Quận 1, TPHCM",
+      "items": [
+        "Top Left: YSL Beauté logo in white",
+        "Top Right: Glow-edged portrait of the blond male performer",
+        "Bottom Left: Boxed location callout with a map-pin icon and the full address",
+        "Bottom Right: Open black leather jacket, chain necklaces, and dark negative space",
+        "Center/Background: Matte black marble texture with irregular gold crack veins and large left-aligned event typography"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Luxury editorial portrait lighting",
+      "effect": "Soft face glow, subtle halo cutout around the performer, high-contrast black-and-gold premium finish"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal luxury event-poster composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury event poster for YSL Beauté. Centerpiece is a photoreal editorial portrait of a platinum blond male performer in a black leather jacket with layered silver cross necklaces, placed on the right. Include the exact text 'LIBRE ATRIUM', 'SPECIAL PERFORMANCE', 'WREN EVANS', '18h30 ngày 28.10', 'Tầng 1, Saigon Centre', and '92-94 Nam Kỳ Khởi Nghĩa, Quận 1, TPHCM', plus the 'YvesSaintLaurent BEAUTÉ' logo at the top. Background is a matte black marble field with thin gold crack veins. Technical style: photoreal luxury event-poster composite, luxury editorial portrait lighting, soft face glow and premium black-and-gold contrast, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Yves Saint Laurent Beauté logo",
+          "required": true,
+          "source": "original branding",
+          "usage": "Top-center/left luxury logo lockup"
+        },
+        {
+          "type": "person",
+          "name": "Wren Evans portrait reference",
+          "required": true,
+          "source": "real-person reference required",
+          "usage": "Preserve face, platinum hairstyle, leather jacket styling, and jewelry-heavy rock aesthetic"
+        },
+        {
+          "type": "location",
+          "name": "Saigon Centre venue text box",
+          "required": true,
+          "source": "original creative copy",
+          "usage": "Keep the venue/address callout exactly with the pin icon and box border"
+        },
+        {
+          "type": "background",
+          "name": "Black marble with gold crack veins",
+          "required": true,
+          "source": "original campaign visual language",
+          "usage": "Maintain the dramatic luxury black-and-gold environment"
+        }
+      ],
+      "prompt_instructions": "The visible date is written only as '28.10' without a year. Recreate the artwork exactly as shown and do not invent a year inside the image. If temporal metadata is needed outside the image, note that the year is visually unspecified."
+    }
+  }
+}

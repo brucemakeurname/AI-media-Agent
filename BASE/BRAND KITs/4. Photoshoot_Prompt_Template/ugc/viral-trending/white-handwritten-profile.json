@@ -1,0 +1,26 @@
+{
+  "name": "white-handwritten-profile",
+  "tag": ["ugc", "character-profile", "handwritten-annotation", "rooftop-portrait", "journal"],
+  "image_type": "annotated-character-profile",
+  "image_vibe": "airy-personal-observational",
+  "image_purpose": "profile-visual",
+  "group": "viral-trending",
+  "prompt": {
+    "project_info": "Create a character-profile journal overlay for the approved adult portrait in a white handwritten annotation style.",
+    "main_subject": "An adult woman with a short dark bob, soft gaze, light sleeveless top, and relaxed seated rooftop portrait. Use biographical details only when explicitly supplied; do not invent or display body measurements.",
+    "composition_elements": "Keep the rooftop, pale sky, city skyline, rooftop structure, and seated portrait as the main image. Add aesthetically pleasing white handwritten annotations around the subject: name/profile title, profession, hobbies, personality notes, favorite things, and short reflective captions. Maintain readable handwritten hierarchy without obscuring the face or key clothing.",
+    "lighting_and_atmosphere": "Soft daylight, pale blue-grey sky, gentle city haze, warm natural skin tones, quiet observant journal mood.",
+    "technical_specs": "Vertical portrait, realistic rooftop photography with subtle grain, white handwritten overlay graphics, clean annotation spacing, preserve original image detail and legibility, no measurements field.",
+    "generated_prompt_string": "Generate a character profile journal for the approved adult rooftop portrait in a white handwritten annotation style. Preserve the adult woman with a short dark bob, light sleeveless top, soft gaze, rooftop setting, pale sky, city skyline, gentle daylight, and subtle photographic grain. Add messy yet aesthetically pleasing white handwritten notes and annotations introducing a name, profession, hobbies, personality, favorite things, and reflective captions. Arrange the writing around the subject without obscuring her face or key clothing. Use clear journal hierarchy, tasteful doodles, arrows, hearts, stars, and underlines. Do not add body measurements, explicit personal data, unrelated logos, or unsupported facts.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, body measurements, unsupported personal data, illegible handwriting, text over face, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, blurry, low quality, distorted features, bad anatomy, extra limbs, extra fingers, deformed, watermark",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "approved adult rooftop subject", "required": true, "source": "matching local preview image and optional face reference", "usage": "Preserve approved adult face, bob haircut, expression, clothing, and seated pose; replaceable with another approved adult."},
+        {"type": "text_layout", "name": "white handwritten profile annotations", "required": true, "source": "matching local preview image", "usage": "Preserve title, notes, arrows, doodles, spacing, and annotation hierarchy; text content may be replaced with supplied factual profile data, excluding measurements."},
+        {"type": "location", "name": "sunlit rooftop skyline", "required": true, "source": "matching local preview image", "usage": "Preserve rooftop, skyline, sky, and daylight atmosphere; replaceable with an equivalent rooftop environment."}
+      ],
+      "prompt_instructions": "Attach the matching preview and approved adult face reference for identity and composition. Preserve face, hair, clothing, rooftop, and annotation hierarchy. Replaceable text must be factual and non-sensitive; never invent body measurements, explicit data, logos, or unsupported identity claims."
+    }
+  },
+  "policy_review": {"status": "remediated", "changes": ["Removed the request for body measurements and restricted profile annotations to non-sensitive factual details while preserving the handwritten character-journal concept."]}
+}

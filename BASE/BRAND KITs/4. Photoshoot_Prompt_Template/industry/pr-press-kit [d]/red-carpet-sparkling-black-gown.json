@@ -1,0 +1,41 @@
+{
+  "name": "red-carpet-sparkling-black-gown",
+  "tag": [
+    "red-carpet",
+    "sequin-gown",
+    "editorial-portrait",
+    "celebrity-style",
+    "press-kit"
+  ],
+  "image_type": "red-carpet editorial portrait",
+  "image_vibe": "glamorous, polished, confident, warm cinematic",
+  "image_purpose": "press-kit portrait and red-carpet campaign visual",
+  "group": "industry/pr-press-kit",
+  "prompt": {
+    "project_info": "Create a high-resolution red-carpet or gala portrait with a glamorous black sequin evening-gown styling and warm event atmosphere.",
+    "main_subject": "An adult fictional woman with original non-celebrity features, dark brunette hair with subtle warm highlights, long glossy loose waves with a deep side part cascading over one shoulder, hazel-green eyes, fair radiant dewy skin, and a soft confident gaze with a subtle smile. She wears a black heavily beaded and sequined evening gown with slender straps, a refined fitted bodice, and elegant back detailing, paired with a delicate diamond-style chain and discreet stud earrings.",
+    "composition_elements": "Upper-body three-quarter portrait with a slight over-the-shoulder glance, sharp focus on face and eyes, black sequined fabric visible in the lower frame, blurred warm beige and gold gala architecture with soft bokeh behind the subject.",
+    "lighting_and_atmosphere": "Soft diffused warm event lighting flatters the face and creates controlled sparkle across the gown; natural skin texture, refined red-carpet glamour, warm champagne and gold atmosphere.",
+    "technical_specs": "High-resolution editorial portrait photography, full-frame 85mm prime-lens look, shallow depth of field, sharp facial focus, realistic sequin reflections, natural proportions, no visible text or logos.",
+    "generated_prompt_string": "High-resolution red-carpet or high-profile gala portrait of an adult fictional woman with original non-celebrity features, dark brunette hair with subtle warm highlights, long glossy loose waves with a deep side part cascading over one shoulder, hazel-green almond-shaped eyes, fair radiant dewy skin, soft confident alluring gaze and subtle smile. She wears a black heavily beaded and sequined glistening evening gown with slender straps, refined fitted bodice and elegant back detailing, a delicate diamond-style chain with a teardrop pendant and discreet stud earrings. Upper-body three-quarter portrait with a slight over-the-shoulder glance, sharp focus on face and eyes, blurred warm beige and gold architectural background with soft bokeh, soft diffused warm event lighting, flattering face illumination, high-resolution editorial portrait photography, shallow depth of field.",
+    "negative_prompt": "celebrity likeness, public figure likeness, exact facial identity, named person, explicit, nsfw, overly revealing, nudity, blurry, low quality, distorted anatomy, extra fingers, deformed, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, logo, text, signature",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "image",
+          "name": "red-carpet-sparkling-black-gown.jpg",
+          "required": true,
+          "source": "workspace reference image",
+          "usage": "Reference the visible adult model's over-the-shoulder framing, dark brunette waves, black sequined gown, warm event background, and lighting while replacing any celebrity likeness with an original fictional identity."
+        }
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the three-quarter composition, hair direction, black sequin gown, jewelry styling, warm gala environment, and lighting consistency. Replace the source celebrity likeness with an original adult fictional face; keep the gown, accessories, products, logos, environment, and typography generic and replaceable, with no rendered text."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Removed the named celebrity identity and exact likeness instructions; retained the red-carpet gown, pose, lighting, and editorial intent with an original adult fictional subject."
+    ]
+  }
+}

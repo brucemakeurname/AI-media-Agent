@@ -1,0 +1,70 @@
+{
+  "name": "toyota-fathers-day-veloz-doodle-story",
+  "tag": [
+    "fathers-day",
+    "veloz",
+    "family",
+    "illustration"
+  ],
+  "biz_niche": "Automotive",
+  "content_format": "Brand story",
+  "group": "toyota_1724005952135723",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Father's Day Veloz family story",
+      "color_palette": "Cream paper, orange, blue, green, red, black crayon"
+    },
+    "main_subject": {
+      "type": "Text/Object",
+      "detail": "A childlike crayon-drawing poster celebrating Father's Day. The Toyota logo sits top left. The headline reads 'CHUC MUNG NGAY CUA BO BO CHON VELOZ CON LUON VE LO' with 'Ve lo' rendered as a large blue handwritten signature-like scribble. In the center, two blue cartoon elephants smile at each other in a grassy doodle field. The smaller child elephant holds a toy-like white car, and the larger father elephant wears an orange shirt and beige shorts. The background is filled with crayon hearts, stars, flowers, and a smiling sun. Bottom-right script says 'Move your world'.",
+      "style": "Naive crayon illustration with playful family warmth, hand-drawn texture, and children's-card sentiment"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / CHUC MUNG NGAY CUA BO / BO CHON VELOZ / CON LUON VE LO / Move your world",
+      "items": [
+        "Top Left: Toyota logo on a paper-textured cream background",
+        "Top Right: Crayon sun, stars, and doodle marks around the headline",
+        "Bottom Left: Hand-drawn flowers, grass, and heart doodles",
+        "Bottom Right: 'Move your world' script and floral doodles",
+        "Center/Background: Two blue crayon elephants facing each other, with the child elephant presenting a small white car to the larger father elephant"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft flat illustration lighting",
+      "effect": "Paper grain texture, wax-crayon stroke buildup, warm handmade charm"
+    },
+    "technical_specs": {
+      "render_style": "Hand-drawn crayon illustration styled as a greeting-card social poster",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Father's Day Veloz family story. Centerpiece is a hand-drawn crayon scene of two smiling blue elephants in a grassy field, with the child elephant offering a small white toy car to the father elephant. Background is a cream paper texture filled with colorful doodled hearts, stars, flowers, and a smiling sun. Surrounding elements: Toyota logo, exact headline 'CHUC MUNG NGAY CUA BO BO CHON VELOZ CON LUON VE LO' with a large blue handwritten 'Ve lo' flourish, and the footer script 'Move your world'. Technical style: hand-drawn crayon illustration styled as a greeting-card social poster, soft flat illustration lighting, paper grain texture and wax-crayon charm, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "graphic",
+          "name": "Crayon elephant characters and doodle motifs",
+          "required": true,
+          "source": "this creative",
+          "usage": "Preserve the childlike line quality, blue elephant forms, and colorful decorative doodles"
+        },
+        {
+          "type": "product",
+          "name": "Small white Veloz toy-car drawing reference",
+          "required": true,
+          "source": "this creative or simplified car reference",
+          "usage": "Keep the white family-car cue in the child's hands"
+        },
+        {
+          "type": "text_layout",
+          "name": "Father's Day doodle poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Maintain the top greeting, oversized blue handwritten 'Ve lo', and centered elephant scene"
+        }
+      ],
+      "prompt_instructions": "Do not clean this into vector art. The charm comes from rough crayon strokes, uneven childlike proportions, and the large blue handwritten line crossing the headline."
+    }
+  }
+}

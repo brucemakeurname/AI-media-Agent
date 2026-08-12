@@ -1,0 +1,65 @@
+{
+  "name": "cocoon-midyear-sale-66-combo45",
+  "tag": [
+    "midyear-sale",
+    "combo-offer",
+    "stacked-products",
+    "discount",
+    "sale-poster",
+    "summer"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "cocoon_1007370628317039",
+  "prompt": {
+    "project_info": {
+      "theme": "Mid-year mega sale poster with stacked Cocoon products",
+      "color_palette": "Fresh Green Gradient, White, Dark Green, Amber Brown, Soft Pink, Golden Yellow"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "A sales poster with giant glowing number 66 in the background and a stack of Cocoon products in the foreground, including pomelo shampoo, winter melon micellar water, winter melon sunscreen fluid, An Giang sugar body polish, and a floating pink spray bottle.",
+      "style": "Retail sale key visual, dramatic product stacking, clean commercial poster with vibrant gradient background"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props",
+      "text": "Visible text includes 'SIÊU SALE GIỮA NĂM', giant '66', and a green circle reading 'COMBO 2 GIẢM ĐẾN 45%'.",
+      "items": [
+        "Top Left: White headline 'SIÊU SALE GIỮA NĂM' on a green gradient backdrop.",
+        "Top Right: Huge translucent white number 66 and a floating pink spray bottle angled downward across the digits.",
+        "Bottom Left: Tall green pomelo shampoo bottle standing at the front edge of the arrangement.",
+        "Bottom Right: Stacked jars of winter melon sunscreen fluid and An Giang sugar body polish, with the micellar water bottle centered and elevated.",
+        "Center/Background: Green circular sale badge, black pedestal risers, and a luminous airbrushed gradient glow."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Commercial sale poster lighting",
+      "effect": "Clean glossy highlights, subtle pedestal shadows, bright promotional energy, soft radiant background glow"
+    },
+    "technical_specs": {
+      "render_style": "High fidelity product-composite poster design",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality advertising poster for a mid-year mega sale with stacked Cocoon products. Centerpiece is a clustered foreground arrangement of pomelo shampoo, winter melon micellar water, winter melon sunscreen fluid, An Giang sugar body polish, and a floating pink spray product, all set in front of a giant glowing '66'. Background is a fresh green gradient sales backdrop. Surrounding elements: white headline 'SIÊU SALE GIỮA NĂM', green circular badge 'COMBO 2 GIẢM ĐẾN 45%', and black pedestal risers beneath the products. Keep the exact sale-poster hierarchy, product label visibility, and luminous promotional mood. Technical style: high fidelity product-composite poster design, commercial sale poster lighting, glossy highlights and radiant gradient glow, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Cocoon mid-year sale product assortment",
+          "required": true,
+          "source": "Attach official packshots or crops from the original creative for each product",
+          "usage": "Preserve exact bottle/jar shapes, label fronts, and relative heights in the stack."
+        },
+        {
+          "type": "text_layout",
+          "name": "66 sale poster hierarchy",
+          "required": true,
+          "source": "Use the original creative as layout reference",
+          "usage": "Maintain giant 66 scale, headline position, sale badge placement, and central product stacking."
+        }
+      ],
+      "prompt_instructions": "Use the original sale poster as the main composition reference for gpt-image-2 and attach product packshots individually. The regenerated image should preserve the exact combination of products, the floating spray bottle, and the oversized 66 backdrop."
+    }
+  }
+}

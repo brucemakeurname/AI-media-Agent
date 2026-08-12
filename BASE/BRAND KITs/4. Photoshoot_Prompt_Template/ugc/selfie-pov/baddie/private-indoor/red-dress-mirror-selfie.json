@@ -1,0 +1,44 @@
+{
+  "name": "red-dress-mirror-selfie",
+  "tag": ["ugc", "selfie-pov", "baddie", "private-indoor", "red-dress", "mirror-selfie", "compact-camera"],
+  "image_type": "photorealistic mirror selfie portrait",
+  "image_vibe": "confident, glamorous, warm, intimate, cinematic",
+  "image_purpose": "social-media fashion selfie",
+  "group": "selfie-pov/baddie/private-indoor",
+  "prompt": {
+    "project_info": "Photorealistic full-body mirror selfie portrait of a clearly adult western-style woman kneeling on a cozy bed in a warm bedroom, captured with a vintage silver compact camera.",
+    "main_subject": "One clearly adult woman with fair skin, dark-brown straight hair with full bangs framing her face, bold winged eyeliner, long lashes, glossy red lips and a confident composed expression. She wears large gold hoop earrings, delicate pearl and gold bracelets on both wrists, and glossy red nails. Use an original adult identity; do not rely on an unprovided face reference or reproduce a public figure.",
+    "composition_elements": "The adult woman kneels on a cozy bed and takes a mirror selfie with a vintage silver compact camera held to her face. Show her full body in the wooden-framed mirror reflection while maintaining an intimate mid-thigh-up visual emphasis. She wears a vibrant opaque red strapless mini dress with horizontal ruched texture, a form-fitting tailored bodice, asymmetrical ruffled peplum skirt with layered opaque tulle, and a structured high-slit design. Pair it with opaque matching red thigh-high stockings. Background: beige walls and soft-focus bedroom interior.",
+    "lighting_and_atmosphere": "Natural indoor daylight enters from the side, creating soft cinematic illumination, realistic skin texture and red fabric sheen. Keep the atmosphere warm, intimate and glamorous without sexualized framing.",
+    "technical_specs": "Photorealistic 8K-style detail, full-body mirror reflection, vintage compact-camera perspective, sharp focus, realistic skin, hair, metal, pearl, satin, tulle, bed and mirror texture, no text, logo or watermark.",
+    "generated_prompt_string": "Photorealistic full-body mirror selfie of one clearly adult woman kneeling on a cozy bed in a warm bedroom, holding a vintage silver compact camera to her face. Fair skin, dark-brown straight hair with full bangs, winged eyeliner, long lashes, glossy red lips, confident composed expression, gold hoop earrings, pearl-and-gold bracelets and glossy red nails. Vibrant opaque red strapless mini dress with horizontal ruching, form-fitting tailored bodice, asymmetrical ruffled peplum skirt with layered opaque tulle and structured high-slit design, opaque matching red thigh-high stockings. Wooden-framed mirror, beige walls, soft-focus bedroom, side daylight, cinematic warm glamorous atmosphere, realistic fabric and skin texture, original adult identity.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish styling, minor, teenage appearance, public-figure likeness, transparent dress, sheer stockings, exposed underwear, distorted anatomy, extra fingers, malformed hands, camera distortion, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, text, logo, watermark",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "prompt_source",
+          "name": "red-dress-mirror-selfie.json",
+          "required": true,
+          "source": "Existing local prompt and filename",
+          "usage": "Preserve the adult dark-haired mirror-selfie subject, compact camera, red dress silhouette, gold and pearl accessories, bed, mirror, warm bedroom and side daylight; use opaque coverage and an original identity."
+        },
+        {
+          "type": "image_asset",
+          "name": "1775065444709-wm8svt8q-1.jpg",
+          "required": false,
+          "source": "https://img.opennana.com/prompts/assets/202604/1775065444709-wm8svt8q-1.jpg",
+          "usage": "Optional reference only; not inspected and never used to override the written prompt."
+        }
+      ],
+      "prompt_instructions": "The prompt-source asset is required and the image asset is optional; no face reference is attached or inspected. Keep the adult subject, hair, camera, pose, red dress construction, accessories, mirror, bedroom, lighting and warm glamorous mood consistent. Replace identity only and use opaque non-explicit materials."
+    }
+  },
+  "policy_review": {
+    "status": "remediated",
+    "changes": [
+      "Clarified the subject as clearly adult and removed reliance on an unavailable exact-face reference.",
+      "Changed sheer/semi-transparent dress and stockings to opaque materials while preserving the red outfit silhouette and fashion intent.",
+      "Reframed seductive wording as confident and glamorous and added required safety negatives."
+    ]
+  }
+}

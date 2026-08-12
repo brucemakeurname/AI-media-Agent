@@ -1,0 +1,78 @@
+{
+  "name": "ysl-black-friday-modern-lady-look-bundle",
+  "tag": [
+    "ysl",
+    "black-friday",
+    "makeup-bundle",
+    "luxury-beauty",
+    "holiday"
+  ],
+  "biz_niche": "Beauty & Personal Care",
+  "content_format": "Special offers",
+  "group": "ysl_1886878011849282",
+  "prompt": {
+    "project_info": {
+      "theme": "Black Friday YSL makeup bundle for a modern elegant look",
+      "color_palette": "Black, gold, cream, red, rose-pink, warm brown"
+    },
+    "main_subject": {
+      "type": "Object",
+      "detail": "A luxury bundle poster with black background and gold podium blocks. Top text includes 'BLACK FRIDAY' and 'ĐỊNH HÌNH CÁ TÍNH RIÊNG CHUẨN QUÝ CÔ HIỆN ĐẠI'. The product lineup includes two YSL lipsticks, a boxed lipstick, a gold cushion compact, and a tall YSL eyeshadow palette opened to reveal multiple neutral and pink shades. Footer text says '*Ưu đãi độc quyền tại website chính hãng YSL Beauty'.",
+      "style": "High-end festive retail bundle poster with glam gold packaging and premium cosmetic staging"
+    },
+    "composition_elements": {
+      "type": "Props",
+      "text": "YvesSaintLaurent BEAUTÉ; BLACK FRIDAY; ĐỊNH HÌNH CÁ TÍNH RIÊNG CHUẨN QUÝ CÔ HIỆN ĐẠI; *Ưu đãi độc quyền tại website chính hãng YSL Beauty",
+      "items": [
+        "Top Left: YSL Beauté logo and a gold 'BLACK FRIDAY' label",
+        "Top Right: Large multiline gold headline over black negative space",
+        "Bottom Left: Two lipsticks and a boxed lipstick displayed on stepped gold blocks",
+        "Bottom Right: Open gold eyeshadow palette with multiple pans and a large cream-gold cube in the foreground",
+        "Center/Background: Gold cushion compact centered among layered cream and bronze podium blocks on a matte black background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Festive luxury cosmetics lighting",
+      "effect": "Golden sheen, glossy packaging highlights, subtle sparkle around products, high-contrast premium finish"
+    },
+    "technical_specs": {
+      "render_style": "Photoreal luxury cosmetics bundle composite",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "[COMBINED PROMPT]: High quality square luxury Black Friday poster for YSL Beauté. Centerpiece is a premium cosmetic bundle staged on layered gold and cream podium blocks, including two YSL lipsticks, a boxed lipstick, a gold cushion compact, and an open gold eyeshadow palette. Include the exact visible text 'BLACK FRIDAY', 'ĐỊNH HÌNH CÁ TÍNH RIÊNG CHUẨN QUÝ CÔ HIỆN ĐẠI', and '*Ưu đãi độc quyền tại website chính hãng YSL Beauty'. Background is a matte black luxury field with warm gold highlights. Technical style: photoreal luxury cosmetics bundle composite, festive luxury cosmetics lighting, glossy packaging shine and premium high-contrast finish, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "logo",
+          "name": "Yves Saint Laurent Beauté logo",
+          "required": true,
+          "source": "original branding",
+          "usage": "Top logo lockup"
+        },
+        {
+          "type": "product",
+          "name": "YSL lipstick lineup",
+          "required": true,
+          "source": "real product references required",
+          "usage": "Match the left-side lipstick bullets and boxed lipstick"
+        },
+        {
+          "type": "product",
+          "name": "YSL gold cushion and eyeshadow palette",
+          "required": true,
+          "source": "real product references required",
+          "usage": "Preserve the central cushion and the open tall palette at right"
+        },
+        {
+          "type": "graphic",
+          "name": "Gold luxury podium blocks",
+          "required": true,
+          "source": "original display layout",
+          "usage": "Keep the stepped holiday retail display architecture"
+        }
+      ],
+      "prompt_instructions": "The artwork only says 'BLACK FRIDAY' without a year. Recreate the visible poster exactly and do not invent a year inside the image. Keep the luxury gold retail setup and the bold all-caps Vietnamese headline."
+    }
+  }
+}

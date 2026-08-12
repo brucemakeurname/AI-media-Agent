@@ -1,0 +1,70 @@
+{
+  "name": "toyota-hybrid-electric-fuel-saving-question",
+  "tag": [
+    "hybrid-electric",
+    "fuel-saving",
+    "qa",
+    "cta"
+  ],
+  "biz_niche": "Tech & Electronics",
+  "content_format": "Ask a question",
+  "group": "toyota_2805898303104846",
+  "prompt": {
+    "project_info": {
+      "theme": "Toyota Hybrid Electric fuel-saving myth-busting and engagement",
+      "color_palette": "Ice blue, white, dark blue, royal blue, soft silver"
+    },
+    "main_subject": {
+      "type": "Object/Text",
+      "detail": "A clean hybrid-engagement poster with the Toyota logo top left and a large title 'HOI KHO - DAP DE cung TOYOTA HYBRID ELECTRIC'. Centered is a browser-window style white card containing the statement 'CO THE BAN CHUA BIET: \"Di xe Hybrid, ghe tram xang co the chi con mot nua.\" Nho kha nang tiet kiem den 55% nhien lieu trong dieu kien do thi.' Below that text asks 'BAN CON BAN KHOAN DIEU GI VE KHA NANG TIET KIEM NHIEN LIEU CUA TOYOTA HYBRID?'. At the bottom sits a white Toyota SUV in side view, a cute blue-and-green robot mascot on the right, voucher and gift-box graphics in the lower-left corner labeled 'VOUCHER GOTIT 500.000 VND', and a blue CTA button reading 'THAM GIA NGAY'. Bottom-right script says 'Move your world'.",
+      "style": "Clean social CTA poster mixing educational UI card, product side profile, mascot illustration, and promotional gift elements"
+    },
+    "composition_elements": {
+      "type": "Floating Objects/Background Elements/Props",
+      "text": "TOYOTA / HOI KHO - DAP DE / cung TOYOTA HYBRID ELECTRIC / CO THE BAN CHUA BIET / \"Di xe Hybrid, ghe tram xang co the chi con mot nua.\" / Nho kha nang tiet kiem den 55% nhien lieu trong dieu kien do thi. / BAN CON BAN KHOAN DIEU GI VE KHA NANG TIET KIEM NHIEN LIEU CUA TOYOTA HYBRID? / VOUCHER GOTIT 500.000 VND / THAM GIA NGAY / Move your world",
+      "items": [
+        "Top Left: Toyota logo over a soft icy gradient background",
+        "Top Right: Open negative space and the rounded top of the browser-style card",
+        "Bottom Left: Blue gift boxes and Got It vouchers labeled 500.000 VND",
+        "Bottom Right: Blue CTA button 'THAM GIA NGAY', robot mascot, and 'Move your world' script",
+        "Center/Background: Browser-window style information card above a white Toyota hybrid SUV shown in side profile"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "Soft digital-commercial lighting",
+      "effect": "Clean gradient glow, crisp UI-style card shadows, glossy car reflections, friendly educational atmosphere"
+    },
+    "technical_specs": {
+      "render_style": "Automotive social poster with UI-card compositing and product render integration",
+      "resolution": "8k resolution, highly detailed"
+    },
+    "generated_prompt_string": "High quality advertising poster for a Toyota Hybrid Electric fuel-saving engagement campaign. Centerpiece is a large white browser-window style card above a side-view white Toyota hybrid SUV, explaining that hybrid drivers may visit gas stations only half as often thanks to savings up to 55% in urban conditions. Background is a soft icy blue gradient. Surrounding elements: Toyota logo, exact title 'HOI KHO - DAP DE cung TOYOTA HYBRID ELECTRIC', the exact educational quote and follow-up question text, a cute robot mascot, Got It voucher and gift-box graphics labeled 'VOUCHER GOTIT 500.000 VND', a blue CTA button 'THAM GIA NGAY', and footer script 'Move your world'. Technical style: automotive social poster with UI-card compositing and product render integration, soft digital-commercial lighting, clean glow and crisp card shadows, 8k resolution, highly detailed.",
+    "negative_prompt": "dark, gloomy, blurry, flat 2d, low resolution, distorted text, messy typography, muted colors, black and white, ugly, deformed shapes, watermark, signature, cropped",
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "product",
+          "name": "Toyota hybrid SUV side-profile reference",
+          "required": true,
+          "source": "official Toyota hybrid model render",
+          "usage": "Preserve the clean side silhouette, wheels, and white body finish"
+        },
+        {
+          "type": "graphic",
+          "name": "Robot mascot, voucher tickets, gift boxes, and browser-card elements",
+          "required": true,
+          "source": "campaign assets",
+          "usage": "Maintain the playful engagement mechanics and the educational card format"
+        },
+        {
+          "type": "text_layout",
+          "name": "Hybrid Q&A CTA poster layout",
+          "required": true,
+          "source": "this creative",
+          "usage": "Keep the title, central quote card, car-bottom layout, and CTA button exactly placed"
+        }
+      ],
+      "prompt_instructions": "Preserve the educational claim '55%' and the voucher value '500.000 VND' exactly. The visual should read as a clean interactive social post, not a dealership ad."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "realistic-macro-earring-texture",
+  "tag": ["ugc", "casual-everyday", "other", "private-indoor", "macro-detail"],
+  "image_type": "macro jewelry detail",
+  "image_vibe": "natural precise silver texture",
+  "image_purpose": "UGC-style product and material detail visual",
+  "group": "other/private-indoor",
+  "prompt": {
+    "project_info": "Create a realistic macro detail photograph of a circular metallic earring worn on an adult ear.",
+    "main_subject": "Close detail of an original approved adult person's ear wearing a circular silver metallic hoop earring. Preserve the earring's reflective surface, natural specular highlights, faint fingerprints, fine pores, subtle peach fuzz, and realistic earlobe texture.",
+    "composition_elements": "Tight macro crop of the ear and hoop, dark hair softly blurred behind, earring centered as the primary product detail, subtle shadow beneath the ring and clean uncluttered background.",
+    "lighting_and_atmosphere": "Soft diffused daylight from a nearby window at approximately 5400K, top-left direction, natural highlight rolloff, neutral daylight color balance, realistic reflective metal.",
+    "technical_specs": "Realistic 90mm macro lens, f/4, 1:2 magnification, shallow depth of field, sharp metal and skin texture, natural sensor grain, no artificial HDR look or excessive sharpening.",
+    "generated_prompt_string": "Realistic macro photograph of an original approved adult person's ear wearing a circular silver metallic hoop earring. The reflective earring shows natural specular highlights and faint fingerprints; fine pores, subtle peach fuzz, and realistic earlobe texture remain visible. Dark hair forms soft background bokeh. Soft diffused window daylight from top-left at approximately 5400K creates natural highlight rolloff and a subtle shadow beneath the ring. 90mm macro lens, f/4, 1:2 magnification, neutral daylight color, natural sensor grain.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, childlike features, celebrity likeness, public figure likeness, plastic skin, waxy, over-smooth, airbrushed, over-saturated, HDR look, watermark, excessive sharpening, distorted jewelry, deformed anatomy",
+    "reference_elements": {
+      "assets": [
+        {"type": "image", "name": "silver hoop macro reference", "required": true, "source": "attached source image", "usage": "Match the adult ear, hoop shape, metal finish, hair bokeh, macro crop, and window-light direction."}
+      ],
+      "prompt_instructions": "Attach the required reference image. Preserve the adult-safe crop, earring shape, metal finish, skin texture, background hair, and lighting. Jewelry branding, product marks, typography, and background details are replaceable editable elements."
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}

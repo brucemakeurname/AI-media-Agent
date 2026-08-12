@@ -1,0 +1,60 @@
+{
+  "name": "high-end-brand-poster",
+  "tag": ["adult-man", "red-bull", "three-panel-poster", "energy-drink", "navy-red-palette", "commercial-brand-visual"],
+  "image_type": "three-panel-brand-advertisement",
+  "image_vibe": "bold-energetic-editorial",
+  "image_purpose": "campaign-key-visual",
+  "group": "industry/campaign-key-visual",
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  },
+  "prompt": {
+    "project_info": {
+      "theme": "professional Red Bull energy drink advertising poster",
+      "color_palette": "deep navy, vivid red, white, metallic silver, and small yellow accents",
+      "aspect_ratio": "16:9"
+    },
+    "main_subject": {
+      "description": "An adult male racing or action-sports athlete with natural facial detail, confident direct gaze, and focused expression.",
+      "wardrobe": "Navy Red Bull team-style racing suit with red, white, yellow, and approved sponsor patches.",
+      "pose": "Left panel close-up portrait with head slightly turned toward camera and shoulders squared.",
+      "styling": "High-end commercial sports editorial with realistic fabric, skin, and team-suit detail."
+    },
+    "composition_elements": {
+      "framing": "Single horizontal 16:9 poster divided into three vertical panels with clean borders and balanced color blocks.",
+      "environment": "Left: deep navy portrait background with small red dot-grid accent. Center: deep navy product background with a hand lifting a chilled Red Bull can over a reflective surface. Right: solid vivid red panel with large condensed navy headline text.",
+      "typography": "Right panel headline: RED BULL GIVES YOU WIIINGS. Small tagline: Energy for today. Drive your ambitions. Bottom-right Red Bull logo. Add subtle vertical microtext and geometric red/navy accents; render all brand copy accurately.",
+      "focus": "Sharp adult portrait, racing suit patches, cold condensation on can, hand interaction, reflective product surface, and legible typography."
+    },
+    "lighting_and_atmosphere": {
+      "lighting": "Dramatic studio lighting with cool highlights on the athlete and can, red edge accents, and controlled reflections against navy backgrounds.",
+      "atmosphere": "Energetic, confident, premium, focused, and editorial."
+    },
+    "technical_specs": {
+      "camera": "Full-frame camera with 50mm portrait lens for the left panel and 85mm product lens for center panel, 1/200 s, ISO 100",
+      "quality": "Ultra-HD photorealistic commercial photography, crisp can condensation and fabric, clean panel alignment, sharp typography, and print-ready finish"
+    },
+    "generated_prompt_string": "Create a professional 16:9 Red Bull brand advertising poster split into three clean vertical panels. Left panel: close-up portrait of an adult male racing or action-sports athlete in a navy Red Bull team-style suit with approved red, white, yellow, and sponsor patches, dramatic cool studio lighting, and confident direct gaze. Center panel: a hand lifts a chilled Red Bull can over a deep-navy reflective surface with crisp condensation and metallic detail. Right panel: vivid red background with large condensed navy text RED BULL GIVES YOU WIIINGS., small text Energy for today. Drive your ambitions., Red Bull logo at bottom right, subtle vertical microtext, and geometric dot-grid accents. Preserve the tight navy-red palette, realistic materials, accurate legible typography, and no watermark or extra text.",
+    "negative_prompt": "minor, age ambiguity, unapproved identity, nudity, explicit, nsfw, overly revealing, sexual pose, explicit body measurements, illegible brand copy, misspelled Red Bull, distorted can logo, extra fingers, deformed anatomy, muddy panel borders, watermark, cluttered layout",
+    "reference_elements": {
+      "prompt_instructions": "No identity reference is required for this original adult athlete. Optional team suit, can, panel layout, typography, studio, or lighting references may replace only their named element; preserve the Red Bull branding, exact headline, three-panel structure, and navy-red commercial palette.",
+      "assets": [
+        {
+          "type": "product",
+          "name": "red-bull-chilled-energy-can",
+          "required": false,
+          "source": "user-uploaded product reference",
+          "usage": "Replace only the can size, condensation, flavor label, or hand placement while preserving brand legibility and center-panel focus."
+        },
+        {
+          "type": "wardrobe",
+          "name": "navy-red-bull-team-racing-suit",
+          "required": false,
+          "source": "user-uploaded wardrobe reference",
+          "usage": "Replace only the suit cut or approved patches while preserving the adult athlete portrait and navy-red palette."
+        }
+      ]
+    }
+  }
+}

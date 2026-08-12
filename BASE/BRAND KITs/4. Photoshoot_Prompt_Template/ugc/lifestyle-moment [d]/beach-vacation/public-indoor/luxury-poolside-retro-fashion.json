@@ -1,0 +1,26 @@
+{
+  "name": "luxury-poolside-retro-fashion",
+  "tag": ["ugc", "poolside-resort", "retro-fashion", "cherry-top", "colorful-crochet"],
+  "image_type": "fashion-lifestyle-portrait",
+  "image_vibe": "playful-chic-retro",
+  "image_purpose": "instagram-feed",
+  "group": "lifestyle-moment/beach-vacation/public-indoor",
+  "prompt": {
+    "project_info": "Create a photorealistic luxury poolside fashion portrait with a playful retro summer styling.",
+    "main_subject": "An adult blonde woman lounging on a sunbed, wearing a pink cherry tube top, colorful crochet mini skirt, bold bangles, sunglasses, and red lipstick. Preserve relaxed confident editorial posture.",
+    "composition_elements": "Slightly low fashion-editorial angle, moderate depth of field, sunbed beside a luxury resort pool, palm trees, white umbrellas, clear blue sky, and strong summer vacation context.",
+    "lighting_and_atmosphere": "Bright midday natural sunlight, vivid but natural color, playful chic summer glamour, crisp fabric and accessory detail.",
+    "technical_specs": "50mm lens, sharp high-resolution editorial photography, photorealistic skin and crochet texture, moderate depth of field, natural poolside perspective.",
+    "generated_prompt_string": "Stylish poolside scene with an adult blonde woman lounging on a sunbed at a luxury resort. She wears a pink cherry tube top, colorful crochet mini skirt, bold bangles, sunglasses, and red lipstick. Palm trees, white umbrellas, clear blue sky, and bright midday natural daylight create a playful retro summer-vacation aesthetic. Slightly low fashion-editorial angle, 50mm lens, moderate depth of field, sharp high-resolution photorealistic photography, chic summer glamour.",
+    "negative_prompt": "explicit, nsfw, overly revealing, nudity, sexualized pose, fetish framing, minor, celebrity likeness, blurry, dull colors, distorted anatomy, extra limbs, cartoon, illustration, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, extra fingers, deformed, watermark, unwanted text",
+    "reference_elements": {
+      "assets": [
+        {"type": "person", "name": "blonde adult retro-fashion subject", "required": true, "source": "matching local preview image", "usage": "Preserve approved adult identity, hair, sunglasses, lipstick, and lounge pose; replaceable with another approved adult."},
+        {"type": "wardrobe", "name": "pink cherry top and colorful crochet skirt", "required": true, "source": "matching local preview image", "usage": "Keep cherry motif, pink tone, crochet colors, bangles, and sunglasses consistent; replaceable with equivalent retro styling."},
+        {"type": "location", "name": "luxury poolside resort", "required": true, "source": "matching local preview image", "usage": "Preserve sunbed, pool, palms, umbrellas, and clear sky; replaceable with equivalent resort setting."}
+      ],
+      "prompt_instructions": "Attach the matching preview for adult identity, outfit, props, and poolside hierarchy. Preserve face, hair, retro styling, lighting, and 50mm composition. Replacement assets must remain equivalent and non-branded; no typography is needed."
+    }
+  },
+  "policy_review": {"status": "pass", "changes": []}
+}

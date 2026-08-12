@@ -1,0 +1,65 @@
+{
+  "name": "cold-fashion-girl-in-subway",
+  "tag": [
+    "subway-carriage",
+    "cold-fashion",
+    "black-jacket",
+    "gray-knit",
+    "teal-grading",
+    "editorial"
+  ],
+  "image_type": "subway-editorial-fashion-portrait",
+  "image_vibe": "cool, calm, confident, cinematic, emotionally-strong",
+  "image_purpose": "fashion-editorial, character-visual, moodboard",
+  "group": "indie / moody-portrait / urban-night",
+  "prompt": {
+    "project_info": {
+      "theme": "Cold fashion portrait inside a subway carriage",
+      "format": "vertical 9:16 portrait",
+      "color_palette": "cool teal, black, muted gray, natural skin tones"
+    },
+    "main_subject": {
+      "type": "woman",
+      "detail": "A confident woman with natural skin texture and accurate facial features stands centered in a subway carriage. She wears a structured dark heavy-textured black jacket open over a muted gray knit sweater with a slightly loose fit and subtly distressed hem, dark modern pants, two thin silver chain necklaces, and a small cross pendant.",
+      "style": "ultra-realistic cinematic editorial fashion portrait"
+    },
+    "composition_elements": {
+      "text": "",
+      "items": [
+        "standing centered and leaning lightly against the closed metro door",
+        "both hands naturally inside dark-pant pockets",
+        "straight close-together balanced stance with head slightly tilted forward",
+        "intense, calm, confident, serious gaze directly at camera",
+        "metallic doors behind her, windows to both sides, and blurred passengers in the background"
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "cinematic moody subway lighting with soft overhead lights",
+      "effect": "gentle shadows across the face and clothing, emphasizing texture and contrast",
+      "atmosphere": "calm, confident, cinematic, emotionally strong"
+    },
+    "technical_specs": {
+      "render_style": "ultra-photorealistic 85mm eye-level portrait",
+      "resolution": "high-detail vertical 9:16 image",
+      "color_treatment": "cool teal environment, natural realistic skin tones, professional cinematic grading, shallow depth of field"
+    },
+    "generated_prompt_string": "Create an ultra-realistic cinematic editorial fashion portrait of a confident woman standing inside a subway train carriage. She stands centered in frame, leaning back lightly against the closed metallic metro door, with both hands naturally inside the pockets of dark modern pants, a straight balanced stance, head slightly tilted forward, and an intense calm serious gaze directly at the camera. Preserve accurate facial features and natural skin texture. She wears a dark heavy-textured black jacket with a structured fit, worn open over a muted gray knit sweater with a slightly loose fit and subtly distressed hem, plus two thin silver chain necklaces and one small cross pendant resting naturally on the chest. Include cool-toned subway surfaces, windows on both sides, and blurred passengers in the background. Use soft overhead subway lights, gentle shadows, cool teal grading, natural skin tones, an eye-level 85mm portrait lens, and shallow depth of field with the subject sharp and the background softly blurred. No distortion, cartoon treatment, unrealistic lighting, watermark, or text overlay.",
+    "negative_prompt": "explicit, nsfw, overly revealing, minor, sexual pose, celebrity likeness, plastic skin, waxy, over-smooth, over-saturated, airbrushed, HDR look, watermark, text, extra fingers, deformed, cartoon, illustration, unrealistic lighting",
+    "reference_elements": {
+      "prompt_instructions": "If a face reference is supplied, preserve its facial structure, proportions, features, and expression. Preserve the metro-door stance, black structured jacket, gray knit sweater, silver chains, subway carriage, teal grading, and eye-level editorial framing. Do not use celebrity/public-figure likeness.",
+      "assets": [
+        {
+          "type": "person",
+          "name": "face-reference",
+          "required": false,
+          "source": "user attachment when provided",
+          "usage": "Maintain facial structure, proportions, features, and expression."
+        }
+      ]
+    }
+  },
+  "policy_review": {
+    "status": "pass",
+    "changes": []
+  }
+}
