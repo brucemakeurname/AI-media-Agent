@@ -1,6 +1,6 @@
 # AI Media Agent — Ultimate Sup Infrastructure
 
-![AI Media Agent infrastructure banner](DOCS/assets/readme-banner.png)
+![AI Media Agent infrastructure banner](DOCS/assets/readme-banner.jpg)
 
 Operating infrastructure and agent runtime for **Ultimate Sup** (Singapore sports-nutrition retailer), focusing on automated AI image/video creative generation, UGC video sequence execution, and social media production workflows.
 
