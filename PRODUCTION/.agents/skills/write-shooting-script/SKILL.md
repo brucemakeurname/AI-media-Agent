@@ -15,6 +15,8 @@ longer reads `Ticket.md` directly for creative content — it reads this file in
 | Param | Source |
 |---|---|
 | `ticket_path` | `Ticket.md` — visual concept/script, optional spoken `Voice Over`/dialogue script, `Voice` persona, and `Video-requirement` |
+| `preset_sequence_script_path` | AI-clone only: per-sequence reference Markdown produced by `crawl_describe_Tiktok_vid_apify` |
+| `clone_keyframe_dir` | AI-clone only: accepted `iconic-frames/` folder beside the crawler reference Markdown |
 | `target_duration_sec` | from `Video-requirement` if stated; otherwise derive from measured TTS duration rounded up by minimal permitted sequence packing |
 | `timing_audio_dir` | `node/timing/` — per-line Applio TTS WAVs and `timing-lock.json` created before sequence division when dialogue exists |
 | `output_path` | `node/shooting-script.md` |
@@ -31,6 +33,19 @@ accuracy, forbidden claims, required setting, subtitle need, aspect ratio).
 Extract spoken dialogue independently from the visual script. `Voice` may only name the requested
 persona (for example `voice_1_male`); it is not dialogue. Use a dedicated `Voice Over`/`Dialogue` body
 section when present. If no spoken script exists, mark the ticket `no-dialogue` and do not invent VO.
+
+### AI-clone exception — crawler preset and voice adaptation
+
+When the ticket is `ai-clone-short-video`, do not use the TikTok URL as a creative brief. First consume
+the crawler output as `preset_sequence_script_path`: it is the source of truth for
+the reference sequence order, sub-scene timing, camera composition, transitions, accepted keyframe
+paths/timestamps, and paraphrased source dialogue structure. Preserve that visual sequence unless a
+company product, character, setting, claim, or target-language requirement requires substitution.
+
+Adapt the source dialogue by retaining approximately 80% of its **rhetorical structure, delivery rhythm,
+and tone**, while replacing the source brand, product, people, setting/context, and unsupported claims.
+Translate only when the requested target language differs. This is a style/structure target, not permission
+to copy source dialogue verbatim; the final dialogue must be original and approved before TTS.
 
 ## Method 2 — Format-aware creative translation (interim: Claude's own knowledge, not a library)
 
@@ -85,6 +100,8 @@ of the sequence script:
 - Video requirement (hard constraints): {{video_requirement}}
 - Continuity decision: single wardrobe throughout | per-scene wardrobe change (state which, and why)
 - Creative-translation method: format-aware built-in craft knowledge (no curated library yet — see SKILL.md Method 2)
+- Clone reference preset / keyframe directory: {{preset_sequence_script_path}} | {{clone_keyframe_dir}} (AI-clone only)
+- Clone voice adaptation: not applicable | preserve ~80% source structure/rhythm/tone; substitutions made: {{substitutions}}
 
 ## Sequence 1 — {{beat name}} ({{start}}–{{end}}, {{duration_sec}}s)
 - Omni duration: {{duration_sec}}s
@@ -99,7 +116,7 @@ of the sequence script:
 - Motion/VFX:
 - On-screen text:
 - Ending/transition:
-- Reference needs: character (yes/no) · environment (yes/no) · product (yes/no) · source footage (yes/no)
+- Reference needs: character (yes/no) · environment (yes/no) · product (yes/no) · source footage (yes/no) · clone keyframe (timestamp/file or no)
 
 ### Sub-scene 1.2 — {{start}}–{{end}} (optional jumpcut/transition inside this same Omni prompt)
 - Visual:
@@ -118,7 +135,7 @@ of the sequence script:
 |---|---|---:|---|---|
 
 ## Reference Requirements Summary
-| Sequence | character | environment | product | source_footage |
+| Sequence | character | environment | product | source_footage | clone keyframe(s) |
 |---|---|---|---|---|
 
 ## Revision Log
@@ -140,7 +157,10 @@ append `## Round N answers` to this same file (never overwrite prior rounds), an
 - DO use only 4s, 6s, 8s, or 10s sequences; a sequence may contain multiple timed visual sub-scenes.
 - DO state the running sequence total and flag if it is shorter than measured dialogue audio or violates an explicit duration requirement.
 - DO treat no-dialogue briefs separately: state `no-dialogue`, use an explicit video duration if supplied, otherwise return a duration gap instead of inventing VO timing.
+- DO preserve the crawler preset's sequence order, keyframe composition, and transition logic for AI-clone work; document each necessary company-asset or language substitution.
+- DO keep approximately 80% of source voice structure/rhythm/tone in AI-clone work while writing original, approved dialogue for TTS.
 - DON'T estimate speech timing from LLM token/character count when TTS is available.
+- DON'T treat a TikTok URL as enough narrative input for an AI clone; require its completed crawler preset and accepted iconic keyframes first.
 - DON'T resolve reference image paths here — only flag which scenes need which reference *types*.
   Resolving/generating them is `write-ai-commercial-video-sequence-script` Step A's job.
 - DON'T write camera/lighting/VFX detail as a final locked Omni prompt — that translation into the

@@ -7,7 +7,7 @@ description: Convert an approved creative brief into a scored, retrieval-informe
 
 The designer's brainstorm engine. Turns `node/creative-brief.md` (+ `Ticket.md`) into
 `node/creative-direction.json`: a chosen visual direction with a per-slide plan. Stops before
-rendering — rendering is done by `gpt-img-2-gen` / `nano-banana-image-gen` / `html-carousel-gen`
+rendering — rendering is done by `acad-image-gen` / `flowkit-nano-banana-image-gen` / `html-carousel-gen`
 / `infographic` after this skill locks the direction.
 
 ## Inputs
@@ -17,7 +17,7 @@ rendering — rendering is done by `gpt-img-2-gen` / `nano-banana-image-gen` / `
 | `mode` | `initial` \| `refine` |
 | `ticket_path` | absolute path to `Ticket.md` |
 | `creative_brief_path` | `node/creative-brief.md` |
-| `creative_prompt_library_root` | `D:\1. SOLOFLOWS\BASE\BRAND KITs\1. Creative_Prompt_Template` |
+| `creative_prompt_library_root` | `<workspace>/BASE/BRAND KITs/1. Creative_Prompt_Template` |
 | `existing_direction_path` | (refine only) `node/creative-direction.json` |
 | `revision_notes` | (refine only) the answered gaps from `node/gap-request.md` |
 | `output_path` | `node/creative-direction.json` |
@@ -77,7 +77,7 @@ copyrighted assets) even when substituting — those are always in `substitutabl
 
 Retrieval helper (direct filesystem glob + grep over the JSON sidecars — this is structured-metadata lookup, not prose semantic search):
 ```bash
-find "D:/1. SOLOFLOWS/BASE/BRAND KITs/1. Creative_Prompt_Template" -iname "*.json" ! -iname "json prompt template.txt" | xargs grep -l "<content_format>\|<biz_niche>\|<visual device>"
+find "<workspace>/BASE/BRAND KITs/1. Creative_Prompt_Template" -iname "*.json" ! -iname "json prompt template.txt" | xargs grep -l "<content_format>\|<biz_niche>\|<visual device>"
 ```
 Then open the top sibling `.json` files directly to read `prompt` + `reference_elements`.
 

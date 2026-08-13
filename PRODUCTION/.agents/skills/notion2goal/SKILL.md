@@ -63,19 +63,28 @@ Extract the following values from the Post page, its body, and its linked Campai
 | `slogan` | Linked Campaign `Slogan` (text) | Stop if template contains `{{slogan}}` |
 | `big_idea` | Linked Campaign `Big Idea` (text) | Stop if template contains `{{big_idea}}` |
 | `visual_type` | Post `Visual Type` (select) | Stop: required for template routing |
-| `voice_brief` | Post `Voice` (select or text) | Stop if template contains `{{voice_brief}}` |
+| `voice_brief` | Post `Voice` property, otherwise matching Post body section | Stop if template contains `{{voice_brief}}` |
 | `video_requirement` | Post `Video Requirement` property, otherwise matching Post body section | Optional; default to `None specified` if absent |
 | `visual_concept_script` | Post `Visual Concept Script` property, otherwise matching Post body section | Stop only if absent everywhere and required by template |
 | `scheduled_date` | Post `Date` / `Publish Date` (`YYYY-MM-DD`) | Stop: required for date folder |
 
 #### Body Block Extraction Rule
 
-Fetch all paginated Post page body blocks (`GET /v1/blocks/{page_id}/children`) recursively. Normalize section labels case-insensitively, trimming a final colon. Treat a label block such as `Visual Concept:` or `Video Requirement:` as the start of a section: include its own non-label text plus every following sibling block (and all descendants) until the next label block. This covers Notion's common `paragraph label → quote/callout → nested paragraph` layout. Read a matching Post database property first; otherwise concatenate the section body text in document order:
+Fetch all paginated Post page body blocks (`GET /v1/blocks/{page_id}/children`) recursively. Normalize section labels case-insensitively, trimming a final colon. Treat a label block such as `Visual Concept:`, `Voice:`, or `Video Requirement:` as the start of a section: include its own non-label text plus every following sibling block (and all descendants) until the next label block. This covers Notion's common `paragraph label → quote/callout → nested paragraph` layout. Read a matching Post database property first; otherwise concatenate the section body text in document order:
 
-- `Visual Concept` → `visual_concept_script`
+- `Visual Concept` / `Visual Concept Script` → `visual_concept_script`
+- `Voice` → `voice_brief`
 - `Video Requirement` → `video_requirement`
 
 `video_requirement` is optional and defaults to `None specified` if no property or body section exists. Include every non-empty body section used in `Ticket.md`'s Notion Field Snapshot using its original Notion section label.
+
+#### AI Clone Short Video URL Rule
+
+For `AI CLONE SHORT VIDEO` / `ai-clone-short-video`, read the `Visual Concept` and `Voice` sections
+from the **Post page body** (do not substitute database-property values). Each must resolve to the same
+single canonical public TikTok post URL (`https://www.tiktok.com/@{handle}/video/{id}`). Do not interpret
+surrounding prose as a clone brief. If either body section is missing, contains more than one URL, is not
+canonical, or resolves to a different URL, report the mismatch and stop before creating `GOAL.md`.
 
 Never fabricate missing values or leave a known required placeholder in `GOAL.md`. Report the Post page, missing field, and required owner action, then stop before creating/updating `GOAL.md`.
 
@@ -86,6 +95,7 @@ Select the template in `PRODUCTION/goal/`:
 | Notion `Visual Type` Value | Goal Template Path |
 |---|---|
 | `AI UGC SHORT VIDEO` / `ai-ugc-short-video` | `PRODUCTION/goal/[social]_[ai-ugc-short-video].md` |
+| `AI CLONE SHORT VIDEO` / `ai-clone-short-video` | `PRODUCTION/goal/[social]_[ai-clone-short-video].md` |
 | `AI COMMERCIAL SHORT VIDEO` / `ai-commercial-short-video` | `PRODUCTION/goal/[social]_[ai-commercial-short-video].md` |
 | `SINGLE STATIC` / `single-static` | `PRODUCTION/goal/[social]_[single-static].md` |
 | `HTML CAROUSEL` / `html-carousel` | `PRODUCTION/goal/[social]_[html-carousel].md` |

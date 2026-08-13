@@ -1,6 +1,6 @@
 ---
 name: write-ai-ugc-video-sequence-script
-description: Consume a locked node/shooting-script.md plus its Applio TTS timing lock, retrieve and score candidate templates from BASE/BRAND KITs/5. Video_Prompt_Template, then write one 4/6/8/10s full-JSON Omni prompt per minimum-count sequence. Each prompt can contain timed sub-scenes, jumpcuts, and transitions. Part C locks reuse of the TTS audio and optional BGM. content-executive or designer, single pass.
+description: Consume a locked node/shooting-script.md plus its Applio TTS timing lock, retrieve and score candidate templates from BASE/BRAND KITs/5. Video_Prompt_Template, then write one 4/6/8/10s full-JSON Omni prompt per minimum-count sequence. Each prompt can contain timed sub-scenes, jumpcuts, transitions, and (for AI-clone work) accepted crawler keyframe refs. Part C locks reuse of the TTS audio and optional BGM. content-executive or designer, single pass.
 ---
 
 # write-ai-ugc-video-sequence-script
@@ -35,6 +35,7 @@ a different grounding source (retrieved `posing`/`dancing`/`indie` templates, no
 | `timing_lock_path` | `node/timing/timing-lock.json` — required for dialogue-bearing work; Applio-generated WAV duration evidence and assigned sequence/sub-scene windows |
 | `video_prompt_library_root` | `BASE/BRAND KITs/5. Video_Prompt_Template/` — groups `posing/`, `dancing/`, `indie/` (raw/authentic register). **Prune `commercial/`** — that group is TVC-crafted content and would drift the pipeline into the wrong register. |
 | `character_ref_dir` | named influencer face-reference folder identified in the shooting script, if any |
+| `clone_keyframe_dir` | AI-clone only: accepted `iconic-frames/` directory recorded in the locked shooting script |
 | `output_path` | `node/ugc-sequence-script.md` |
 
 ## Step A — Preserve the TTS Timing Lock and Minimum Sequence Plan
@@ -53,6 +54,10 @@ revision instead.
    at least the measured TTS duration.
 4. Write a one-line rationale per **sequence** proving it is part of the minimum-count plan and preserves
    the shooting-script timing.
+5. **AI-clone keyframe anchor:** If the shooting script identifies clone keyframes, select the accepted
+   keyframe nearest each sequence/sub-scene's matching source beat. Each sequence must include at least
+   one selected clone keyframe in its refs. Use more only for an internal composition-changing jumpcut,
+   while keeping the total Flowkit reference count at `≤3`.
 
 ## Step B — Retrieve and score the grounding template(s)
 
@@ -213,15 +218,22 @@ path from the local library, mix volume, fade timing) if `Video Requirement` exp
 
 (one entry per resolved/generated ref)
 
+### REF-KF-{{timestamp}} · Clone keyframe (source composition reference)
+> Preserves source framing, visual beat, camera movement, and transition intent only. Replace source
+brand, product, creator likeness, dialogue, and claims with approved company assets/content.
+- File: `{{clone_keyframe_path}}`
+- Source timestamp: {{timestamp}}s
+
 ## PART B — Sequence Prompts
 
 ### Sequence 1
-**Ref (n):** `REF-A-...` · `REF-C-...`   (≤3, reuse the same character ref across scenes)
+**Ref (n):** `REF-A-...` · `REF-C-...` · `REF-KF-{{timestamp}}`   (≤3 total; AI-clone requires ≥1 `REF-KF`)
 ```json
 {
   "scene": 1,
   "duration_s": 8,
   "scene_description": "",
+  "reference_keyframes": [{"ref_id": "REF-KF-{{timestamp}}", "source_timestamp_s": 0, "purpose": "composition and pacing anchor"}],
   "timeline": [
     {
       "start_s": 0,
@@ -260,7 +272,7 @@ validates the full `timeline`, and sends the complete JSON object to Omni)
 - If yes: mood / track path / mix volume / fade timing
 
 ## Bảng gán REF (≤3/scene)
-| Sequence | Nội dung | Ref context | Ref sản phẩm | Ref nhân vật |
+| Sequence | Nội dung | Ref context | Ref sản phẩm | Ref nhân vật | Ref keyframe clone |
 |---|---|---|---|---|
 
 ## Revision Log
@@ -290,6 +302,9 @@ validates the full `timeline`, and sends the complete JSON object to Omni)
 - DO score template-first and only diverge below the 24/40 threshold — never blend fragments of
   several templates into one bespoke scene when a single retrieved template already fits.
 - DO cap every scene at ≤3 refs — Omni's reference ceiling (see `gemini-omni-video-gen/SKILL.md`).
+- DO include at least one accepted `REF-KF-*` source keyframe in every AI-clone sequence and map it to
+  the matching Flowkit `reference_media_ids`; use it only for composition/pacing, never source identity,
+  branding, dialogue, product claims, or logo reproduction.
 - DON'T write a first_frame/last_frame keyframe pair or any Veo morph — that pipeline is retired for
   this visual type; Omni composites each scene around reused reference images instead.
 - DON'T reopen upstream brief sources; consume the locked `node/shooting-script.md` as the sole narrative
@@ -303,6 +318,8 @@ validates the full `timeline`, and sends the complete JSON object to Omni)
   specifically for whichever scene carries spoken dialogue in an "experience"-format script.
 - DON'T add a voice/persona/accent/delivery clause to `voice`, rewrite dialogue, or use `voice` as a
   visual-realism field; that information belongs in the timing lock or visual fields.
+- DON'T omit clone keyframe refs from an AI-clone sequence or exceed the three-reference Omni limit to
+  compensate for multiple source frames; choose the closest anchor(s) for the locked sub-scenes.
 
 ## Graph
 

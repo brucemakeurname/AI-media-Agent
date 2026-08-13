@@ -98,9 +98,14 @@ curl --fail --silent --show-error \
 Verify `source.mp4` is an MP4 and has non-zero size. If `ffprobe` is available, verify actual
   duration, resolution, and both video/audio streams; otherwise record the missing tool as a
   blocker and retain the raw video for human QA.
-- Extract frames with `ffmpeg` when available: cap at approximately 100 frames, width ≤512 px,
-  with an adaptive sampling density. Build a montage first, then extract individual frames only
-  where on-screen copy, product detail, or a transition needs closer inspection.
+- Extract iconic reference keyframes with `ffmpeg` when available:
+  - **Interval:** Sample candidate keyframes every 3 seconds (0s, 3s, 6s, ...).
+  - **Deduplication:** Compare each candidate with the last accepted keyframe. If the two look
+    materially the same—same framing, subject pose, product/text state, and scene composition—
+    discard the later candidate and evaluate the next 3-second candidate. Keep a frame only for a
+    visually distinct moment, scene, or transition.
+  - Store accepted frames in `node/staging/tiktok-{{video_id}}/iconic-frames/`, named with their
+    timestamps, so they remain usable as visual-reference assets in later workflow steps.
 - When audio tooling is available, extract mono 16 kHz WAV and transcribe through `whisperx`:
 
 ```bash
@@ -125,7 +130,8 @@ For every scene, capture the fine-grained fields required by the schema:
 - `On-screen text`: **paraphrased** meaning, position, hierarchy, animation, and persistence.
 - `Dialogue / VO`: **paraphrased** rhetorical structure, never a verbatim transcript.
 - `Emphasis / Pacing`: cut rate, dominant beat, claim repetition, and attention reset.
-- `Transition out` and `Keyframes`: one Keyframe line for each visually distinct moment.
+- `Transition out` and `Keyframes`: use the accepted iconic frames as reference; include each
+  frame's timestamp/file name in the Keyframe line for a visually distinct moment.
 
 Also complete `script_mode` (`narrative`, `message-stack`, `tutorial-usecase`, or `hybrid`),
 `## CTA Analysis`, and `## Conversion Mechanics`.
@@ -137,13 +143,13 @@ Create a niche folder when needed. Use these final paths:
 ```text
 BASE/BRAND KITs/6. Script_Template/{biz_niche}/{biz_niche}-{content_format}-tiktok-{content-slug}-{video_id}.md
 BASE/BRAND KITs/6. Script_Template/{biz_niche}/{biz_niche}-{content_format}-tiktok-{content-slug}-{video_id}.mp4
+BASE/BRAND KITs/6. Script_Template/{biz_niche}/{biz_niche}-{content_format}-tiktok-{content-slug}-{video_id}-keyframes/
 ```
 
 - `{content-slug}` is a hand-written, two-to-five-word creator/product label.
-- Move the verified `source.mp4` beside the Markdown reference.
+- Move the verified `source.mp4` and accepted `iconic-frames/` folder beside the Markdown reference.
 - Keep `apify-result.json` only in staging or as an internal trace record; it must not contain the
-  API token. Discard extracted frames, WAV, transcript scratch files, and montage after the Markdown
-  reference passes visual QA.
+  API token. Discard only rejected keyframe candidates, WAV, transcript scratch files, and temporary montage after the Markdown reference passes visual QA.
 
 ### Step 5 — Mark progress
 
@@ -170,6 +176,8 @@ niche, format, script mode, final filename, or skip reason.
 - **DO** preserve the verified source MP4 beside the reference Markdown for human QA.
 - **DO** verify the saved file is video data before calling it complete; HTML error pages and subtitle
   files can use misleading `.mp4` URLs.
+- **DO** save accepted 3-second iconic keyframes in the reference directory and discard the later
+  candidate when it is visually redundant with the last accepted keyframe.
 - **DON'T** use Apify auto-discovery; this skill works only from the user's hand-picked direct URLs.
 - **DON'T** process URLs in parallel, expose `APIFY_API_TOKEN`, copy source text verbatim, or reuse
   source creative/product facts without separate approval.

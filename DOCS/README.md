@@ -22,6 +22,8 @@ Last updated: 2026-08-11
 | [`PROGRESS.md`](PROGRESS.md) | Current structural implementation state and remaining actions. |
 | [`BLOCKERS.md`](BLOCKERS.md) | Active workspace blockers and named next owners. |
 | [`product/README.md`](product/README.md) | Product-source scope and publication guardrails. |
+| [`WORKFLOW-HANDOFF-DELIVERABLES.md`](WORKFLOW-HANDOFF-DELIVERABLES.md) | Video Creative handoff package: Notion input, GOAL/skill contract, repository, and test-output artifacts. |
+| [`WORKFLOW-VERIFICATION-CHECKLIST.md`](WORKFLOW-VERIFICATION-CHECKLIST.md) | Supervisor guide to independently set up, replay, and accept a Video Creative workflow. |
 
 ## BASE Authorities
 

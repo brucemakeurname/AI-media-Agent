@@ -6,8 +6,8 @@ format_allow: [ask-me-anything, before-after, behind-the-scenes, brand-story, ca
 tool_routing:                    # see ../TOOL-ROUTING-CLI-VS-API.md — this format is always
                                   # single-ticket/single-image, so routing never varies per run
   text:  { volume: single, mechanism: "content-executive draft -> nested agy CLI Vietnamese rewrite pass" }
-  image: { platform: social, mechanism: "designer renders via gpt-img-2-gen API, 2K min (4K if channel=Instagram or 1:1-crop-4 needed) -- never nested CLI, which caps at 1K" }
-primary_skills: [wiki-query, creative-direction, element-resolver, gpt-img-2-gen, notion-upload]
+  image: { platform: social, mechanism: "designer renders via acad-image-gen; use flowkit-nano-banana-image-gen when the selected direction requires Nano Banana or reference-guided generation" }
+primary_skills: [wiki-query, creative-direction, photography-direction, element-resolver, acad-image-gen, flowkit-nano-banana-image-gen, notion-upload]
 notion:
   posts_db: 38d0831f990c802db2b1e2a7b03a05da           # ticket lives here (1 post = 1 ticket)
   posts_source: collection://d830831f-990c-83a6-adf7-07c65da0e90a
@@ -20,25 +20,20 @@ notion:
   # off the Post row (see step 2 of the Notion field mapping below) instead of being fixed here.
   done_status: "Submit to Review"                       # real option (NOT "Chờ duyệt")
 inputs: [notion_page_id, campaign_folder, language, deadline]  # everything else is pulled from Notion
-output_dir: BASE/CAMPAIGNs/{bucket}/{brand}/{channel}/{format}/{date}/  # = {{campaign_folder}}
-  # {bucket}     = one of the 3 top buckets in BASE/CAMPAIGNs/STORAGE-HIERARCHY.md
-  #                ("1. Client Bookings" if a paying client, "2. SoloFlows Campaigns" if the
-  #                brand's own channel) — CMO picks per ticket source, not this workflow.
-  # {format}     = the content-type folder from STORAGE-HIERARCHY.md's Format Definitions
-  #                table (e.g. "Single Image" for a static IG/FB post, "Post" for Threads/X) —
-  #                NOT this file's visual_type slug ("single-static").
-  # {date}       = YYYY-MM-DD from Posts·Date; suffix -2/-3 if another piece already exists
-  #                for the same brand/channel/format/date (no separate {ticket_id} level).
-  # Full convention: BASE/BASE-STRUCTURE.md §2 (top-level map) +
-  # BASE/CAMPAIGNs/STORAGE-HIERARCHY.md (bucket → brand → channel → format → date).
+output_dir: BASE/CAMPAIGNs/{ip_campaign}/{platform}/{format}/{date}/  # = {{campaign_folder}}
+  # {ip_campaign} = existing IP folder under BASE/CAMPAIGNs/; default "UltimateSup Plus Campaign"
+  #                 unless the ticket specifies another IP.
+  # {platform}    = exact platform folder: Facebook, Instagram, or TikTok.
+  # {format}      = exact platform format folder from CAMPAIGNs-STRUCTURE.md, not this visual-type slug.
+  # {date}        = YYYY-MM-DD from Posts·Date; suffix -2/-3 for independent same-day units.
+  # Full convention: BASE/BASE-STRUCTURE.md + BASE/CAMPAIGNs/CAMPAIGNs-STRUCTURE.md.
 done_when: "image in {{campaign_folder}}/ + Post THUMBNAIL set + Post Message/Headline set + manifest.json in {{campaign_folder}}/ + Post Status = 'Submit to Review'"
 status: active
 ---
 
 # single-static
 
-Covers every content-format in `format_allow` above (one workflow file per visual type — see
-CLAUDE.md item 24 / `../../WORKFLOWS-BLUEPRINT.md` §4). `{{format}}`/`{{pillar}}` below are
+Covers every content-format in `format_allow` above (one workflow file per visual type). `{{format}}`/`{{pillar}}` below are
 read per-ticket off the Post row, not fixed by this file.
 
 ## Prompt
@@ -64,18 +59,17 @@ designer (runs after content-executive): read node/creative-brief.md, run `creat
 (mode: initial) to pick the visual concept — the image MUST carry the campaign key-visual
 element (name it, point to the file, download it from the Campaign page in Notion) and use
 real brand reference images (testimonial, client, pricing, facilities shoots), never a generic
-stock look. Resolve any required reference element via `element-resolver`. Render the final
-image with `gpt-img-2-gen` — this format renders a headline into the image, and GPT Image 2 is
-the skill that keeps that text legible; if it still garbles, retry with a tighter
-text-in-image instruction before escalating. Render at 2K minimum, 4K if {{channel}} is
-Instagram or the image will later be cropped into a 1:1→4-way split (full rule:
-`../TOOL-ROUTING-CLI-VS-API.md`) — never the nested-CLI image path, which caps at 1K. Save
+stock look. Resolve any required reference element via `element-resolver`. Run
+`photography-direction` when the selected direction is human/vibe-led. Render the final image
+with `acad-image-gen`; use `flowkit-nano-banana-image-gen` when the selected direction requires
+Nano Banana or reference-guided generation. Use the selected skill's supported size for the ticket
+aspect ratio; if on-image text garbles, regenerate with a tighter text-in-image instruction. Save
 the final image directly under {{campaign_folder}}/ (root, not node/), and save
 node/images-prompts.md for traceability.
 
 Benchmarks — all must hold before this ticket is done: caption reads as natural Vietnamese
-(passed the quality-pass check, no facts dropped or changed); final image is ≥2K (4K where
-required above); the approved headline/copy is legible inside the image safe zone; the
+(passed the quality-pass check, no facts dropped or changed); final image has the approved aspect
+ratio and usable dimensions; the approved headline/copy is legible inside the image safe zone; the
 key-visual element and real brand reference images are present; no prohibited/copyrighted
 marks.
 
@@ -109,7 +103,7 @@ their real field, so there is no separate alias to remember:
 | `{{slogan}}` | Campaign · `Slogan` | text | via relation — Posts has no `Slogan` field, hop is required here |
 | `{{big_idea}}` | Campaign · `Big Idea` | text | via relation — Posts has no equivalent field, hop is required here |
 | `{{headline_hook}}` | Posts · `Headline/Hook` | text | dual-use: read as the pre-filled hook brief, then **overwritten** with the final hook at completion (see Write-back table) |
-| `{{campaign_folder}}` | — (local) | — | the absolute per-ticket campaign folder = this file's `output_dir`. Resolve it per `BASE/BASE-STRUCTURE.md` (§2 top-level map) + `BASE/CAMPAIGNs/STORAGE-HIERARCHY.md` (bucket → brand → channel → format → date). Not a Notion column. Final deliverables (`caption.md`, images, `manifest.json`) go in `{{campaign_folder}}/` root; guidance/intermediate files (`images-prompts.md`, design-spec) go in `{{campaign_folder}}/node/` |
+| `{{campaign_folder}}` | — (local) | — | the absolute per-ticket campaign folder = this file's `output_dir`. Resolve it per `BASE/BASE-STRUCTURE.md` + `BASE/CAMPAIGNs/CAMPAIGNs-STRUCTURE.md` (`[IP] Campaign/[Platform]/[Format]/[Date Folder]`). Not a Notion column. Final deliverables (`Ticket.md`, `caption.md`, images, `manifest.json`) go in `{{campaign_folder}}/` root; guidance/intermediate files go in `{{campaign_folder}}/node/` |
 | `{{notion_page_id}}` | Posts page id | id | the ticket dispatch param, not read from a column |
 | `{{done_when}}` | frontmatter `done_when` | text | static per workflow, not pulled from Notion |
 
@@ -139,18 +133,16 @@ belong in this table.
 - **Save-a-script check.** A static post has **no** script — skip the "save script" step.
 - **`{{campaign_folder}}` (renamed from `base_days`, 2026-07-11).** It's the resolved absolute
   path to this ticket's own campaign folder in `BASE/CAMPAIGNs/`, not a generic "save
-  somewhere" token. Per `BASE/CAMPAIGNs/STORAGE-HIERARCHY.md`'s Production Folder Convention
-  (refined 2026-07-12): this workflow writes `caption.md`, final image files, and
-  `manifest.json` into `{{campaign_folder}}/` root, and `images-prompts.md` (plus any other
-  intermediate artifact) into `{{campaign_folder}}/node/` — the one allowed subfolder.
+  somewhere" token. This workflow writes `Ticket.md`, `caption.md`, final image files, and
+  `manifest.json` into `{{campaign_folder}}/` root; prompts, source maps, QA, logs, and handoffs
+  belong in `{{campaign_folder}}/node/`.
 - **Tool routing.** This format is always single-ticket/single-image, so the routing decision
   never varies per run: text takes the nested `agy` CLI Vietnamese-rewrite path (volume =
-  single); the image always takes the `gpt-img-2-gen` API path regardless of volume, because
-  Social Media's platform floor (2K, 4K for Instagram/crop-4) is above what a nested CLI image
-  session can produce (capped at 1K). Full rule: `../TOOL-ROUTING-CLI-VS-API.md`.
-- **Text legibility.** single-static usually renders a headline into the image; `gpt-img-2-gen` is
-  already the render skill for this reason (strongest at legible in-image text) — if it still
-  garbles, retry with a tighter text-in-image instruction rather than switching skills.
+  single); image generation defaults to `acad-image-gen`, with
+  `flowkit-nano-banana-image-gen` for Nano Banana or reference-guided work. Do not call Google
+  image APIs directly.
+- **Text legibility.** Verify exact on-image copy after generation; if it garbles, retry with a
+  tighter text-in-image instruction before accepting the image.
 - **Campaign key-visual.** No structured field — pull it from the Campaign page body /
   attachments (notion image download) and pass as a reference.
 - **`Format` DB options standardized 2026-07-11.** Fixed typos/labels: `INFORGRAPHIC`→
@@ -171,4 +163,4 @@ belong in this table.
   message before done — only the final signal goes to CMO.
 
 ## Graph
-[[../../WORKFLOWS-BLUEPRINT|Workflows Blueprint]] · [[../CLAUDE|Social Media CLAUDE]] · [[../../../../BASE/CAMPAIGNs/STORAGE-HIERARCHY|Storage Hierarchy]] · [[../TOOL-ROUTING-CLI-VS-API|Tool Routing: CLI vs API]] · [[../.claude/agents/content-executive|content-executive role]] · [[../.claude/agents/designer|designer role]]
+[[../CLAUDE|Social Media CLAUDE]] · [[../../AGENT|Production Runtime]] · [[../../BASE/BASE-STRUCTURE|BASE Structure]] · [[../../BASE/CAMPAIGNs/CAMPAIGNs-STRUCTURE|Campaigns Structure]] · [[../.claude/agents/content-executive|content-executive role]] · [[../.claude/agents/designer|designer role]] · [[../.agents/skills/creative-direction/SKILL|creative-direction]] · [[../.agents/skills/photography-direction/SKILL|photography-direction]] · [[../.agents/skills/acad-image-gen/SKILL|acad-image-gen]] · [[../.agents/skills/flowkit-nano-banana-image-gen/SKILL|flowkit-nano-banana-image-gen]]

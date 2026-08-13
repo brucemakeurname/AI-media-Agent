@@ -23,7 +23,7 @@ message/metaphor.
 
 ## Library
 
-`D:\1. SOLOFLOWS\BASE\BRAND KITs\2. Photoshoot_Prompt_Template` — stills only. The `video/`
+`<workspace>/BASE/BRAND KITs/4. Photoshoot_Prompt_Template` — stills only. The `video/`
 subfolder (cinematic / fashion-style / tvc-style / ugc-style) is OUT of scope.
 
 Collections (the folder path is the `group` field in each JSON):
@@ -66,7 +66,7 @@ Creative_Prompt_Template; only the top-level metadata differs
 | `mode` | `standalone` \| `reference` |
 | `ticket_path` | absolute path to `Ticket.md` |
 | `creative_brief_path` | `node/creative-brief.md` (standalone) |
-| `photography_prompt_library_root` | `D:\1. SOLOFLOWS\BASE\BRAND KITs\2. Photoshoot_Prompt_Template` |
+| `photography_prompt_library_root` | `<workspace>/BASE/BRAND KITs/4. Photoshoot_Prompt_Template` |
 | `element_request` | (reference only) `{type, name}` from the triggering `reference_requirements` item |
 | `existing_direction_path` | (standalone refine only) `node/photography-direction.json` |
 | `revision_notes` | (standalone refine only) the answered gaps from `node/gap-request.md` |
@@ -77,7 +77,7 @@ Creative_Prompt_Template; only the top-level metadata differs
 Grep `tag` + `image_vibe`/`image_type` (this library has no `content_format`/`biz_niche`), and
 prune the out-of-scope `video/` subtree:
 ```bash
-find "D:/1. SOLOFLOWS/BASE/BRAND KITs/2. Photoshoot_Prompt_Template" -path "*/video/*" -prune -o -iname "*.json" -print | xargs grep -l "<tag_or_vibe>"
+find "<workspace>/BASE/BRAND KITs/4. Photoshoot_Prompt_Template" -path "*/video/*" -prune -o -iname "*.json" -print | xargs grep -l "<tag_or_vibe>"
 ```
 Then open the matched `.json` files and read the `prompt` object plus
 `image_vibe`/`image_type`/`policy_review`. Carry each match's `policy_review.changes` forward
@@ -101,7 +101,7 @@ platform_utility · rendering_feasibility · reference_readiness
    just color/subject), score each on the rubric above, converge on the highest.
 4. Write `node/photography-direction.json` (schema below) with
    `revision_log: [{round:1, action:"initial", scores:{…}}]`.
-5. Render the selected direction via `nano-banana-image-gen` (Pro model — face-geometry
+5. Render the selected direction via `flowkit-nano-banana-image-gen` (Pro model — face-geometry
    fidelity over Flash) to the campaign root. Image 1 first, then pass it as reference for
    subsequent images so the set stays coherent.
 

@@ -6,8 +6,8 @@ format_allow: [before-after, brand-story, case-studies, infographics, process-po
 tool_routing:                    # see ../TOOL-ROUTING-CLI-VS-API.md — multi-slide image set,
                                   # rendered slides (not HTML — that's the html-carousel workflow)
   text:  { volume: single, mechanism: "content-executive draft -> nested agy CLI Vietnamese rewrite pass; also writes per-slide copy" }
-  image: { platform: social, mechanism: "designer renders cover + content slides via gpt-img-2-gen, 2K, cover as --reference for template consistency -- never nested CLI" }
-primary_skills: [wiki-query, creative-direction, element-resolver, gpt-img-2-gen, notion-upload]
+  image: { platform: social, mechanism: "designer renders cover + content slides via acad-image-gen; use flowkit-nano-banana-image-gen when Nano Banana or reference-guided generation is required" }
+primary_skills: [wiki-query, creative-direction, photography-direction, element-resolver, acad-image-gen, flowkit-nano-banana-image-gen, notion-upload]
 notion:
   posts_db: 38d0831f990c802db2b1e2a7b03a05da
   posts_source: collection://d830831f-990c-83a6-adf7-07c65da0e90a
@@ -17,7 +17,7 @@ notion:
   visual_type_value: "IMG CAROUSEL"
   done_status: "Submit to Review"
 inputs: [notion_page_id, campaign_folder, language, deadline]  # everything else pulled from Notion
-output_dir: BASE/CAMPAIGNs/{bucket}/{brand}/{channel}/{format}/{date}/  # = {{campaign_folder}}, see BASE/CAMPAIGNs/STORAGE-HIERARCHY.md
+output_dir: BASE/CAMPAIGNs/{ip_campaign}/{platform}/{format}/{date}/  # = {{campaign_folder}}, see BASE/CAMPAIGNs/CAMPAIGNs-STRUCTURE.md
 done_when: "slide_01.png … slide_0N.png in {{campaign_folder}}/ (root) + Post THUMBNAIL set (slide_01, the cover) + Post Message/Headline set + manifest.json (slides in order) + Post Status = 'Submit to Review'"
 status: active
 ---
@@ -58,21 +58,24 @@ in TWO passes:
   (1) COVER (slide 1) — run `creative-direction` (mode: initial) to design a thumbnail-grade,
       stop-scroll cover: bold, high-contrast, carries the campaign key-visual element (name it,
       download it from the Campaign page) and real brand references (never generic stock). Resolve
-      references via `element-resolver`. Render via `gpt-img-2-gen` (1:1, 2K min; 4K if
-      {{channel}} = Instagram). Save as {{campaign_folder}}/slide_01.png.
+      references via `element-resolver`. Run `photography-direction` when the selected direction is
+      human/vibe-led. Render via `acad-image-gen`; use `flowkit-nano-banana-image-gen` when Nano
+      Banana or reference-guided generation is required. Save as {{campaign_folder}}/slide_01.png.
   (2) CONTENT TEMPLATE (slides 2..N) — do NOT run a fresh creative concept per slide. Lock ONE shared
       template derived from the cover's design tokens (same background system, color palette,
-      typography, margins, copy placement, footer/branding), then render each content slide via
-      `gpt-img-2-gen` passing {{campaign_folder}}/slide_01.png as `--reference` so all slides stay
-      visually consistent — substituting only that slide's own copy (from node/slides-copy.md) and
-      any per-slide product/visual element. Save slide_02.png … slide_0N.png. Record the locked
+      typography, margins, copy placement, footer/branding), then render each content slide with the
+      selected image skill, passing {{campaign_folder}}/slide_01.png as a visual reference where
+      supported so all slides stay visually consistent — substituting only that slide's own copy
+      (from node/slides-copy.md) and any per-slide product/visual element. Save slide_02.png …
+      slide_0N.png. Record the locked
       template (tokens + which slide-1 features are fixed vs. per-slide) in node/images-prompts.md.
 
 Benchmarks — all must hold before this ticket is done: caption reads as natural Vietnamese (quality
 pass done); slide count matches node/slides-copy.md; slide_01 reads as a strong stop-scroll cover;
 slides 2..N are visibly one consistent template (same layout/palette/type — only content differs),
 not N different designs; every slide's copy is legible in the safe zone; the key-visual element and
-real brand references are present; every slide is ≥2K; no prohibited/copyrighted marks.
+real brand references are present; every slide has the approved aspect ratio and usable dimensions;
+no prohibited/copyrighted marks.
 
 Upload via notion-upload: caption -> "Post Message", hook -> "Headline/Hook", hashtags -> "Hashtag",
 {{campaign_folder}}/slide_01.png -> "THUMBNAIL". Write {{campaign_folder}}/manifest.json last (list
@@ -94,8 +97,8 @@ in `manifest.json` in swipe order.
 - **Only the image step differs from `single-static`** (multi-slide, cover + shared template). If
   `single-static` changes on caption/field-mapping/completion, mirror it here.
 - **The creative split is the whole point.** `creative-direction` runs **once**, for the cover only.
-  Content slides reuse the cover as a `--reference` template (gpt-img-2-gen Step 4's carousel order:
-  cover first with no reference, then slides 2+ each pass the cover) — they are template
+  Content slides reuse the cover as a visual reference where the selected image skill supports it
+  (cover first, then slides 2+ each pass the cover) — they are template
   substitutions, not fresh concepts. Running `creative-direction` per slide would defeat the
   cohesion and waste effort.
 - **Rendered images, not HTML.** This is the image-carousel lane; the HTML-composed, layout-critical
@@ -111,4 +114,4 @@ in `manifest.json` in swipe order.
   before done — only the final signal goes to CMO.
 
 ## Graph
-[[../../WORKFLOWS-BLUEPRINT|Workflows Blueprint]] · [[../CLAUDE|Social Media CLAUDE]] · [[../../../../BASE/CAMPAIGNs/STORAGE-HIERARCHY|Storage Hierarchy]] · [[../TOOL-ROUTING-CLI-VS-API|Tool Routing: CLI vs API]] · [[../.claude/agents/content-executive|content-executive role]] · [[../.claude/agents/designer|designer role]] · [[../.claude/skills/creative-direction/SKILL|creative-direction]] · [[../.claude/skills/gpt-img-2-gen/SKILL|gpt-img-2-gen]] · [[./[social]_[single-static]|single-static (base workflow)]] · [[./[social]_[html-carousel]|html-carousel (HTML-composed sibling)]]
+[[../CLAUDE|Social Media CLAUDE]] · [[../../AGENT|Production Runtime]] · [[../../BASE/BASE-STRUCTURE|BASE Structure]] · [[../../BASE/CAMPAIGNs/CAMPAIGNs-STRUCTURE|Campaigns Structure]] · [[../.claude/agents/content-executive|content-executive role]] · [[../.claude/agents/designer|designer role]] · [[../.agents/skills/creative-direction/SKILL|creative-direction]] · [[../.agents/skills/photography-direction/SKILL|photography-direction]] · [[../.agents/skills/acad-image-gen/SKILL|acad-image-gen]] · [[../.agents/skills/flowkit-nano-banana-image-gen/SKILL|flowkit-nano-banana-image-gen]] · [[./[social]_[single-static]|single-static (base workflow)]] · [[./[social]_[html-carousel]|html-carousel (HTML-composed sibling)]]
