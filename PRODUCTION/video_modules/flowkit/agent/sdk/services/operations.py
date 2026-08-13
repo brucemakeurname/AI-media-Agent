@@ -142,25 +142,31 @@ async def _poll_workflows(
     client: FlowClient,
     operations: list[dict],
     timeout: int,
+    project_id: str = "",
 ) -> dict:
-    """Poll workflow-mode operations (Low Priority). Flow returns MP4 binary
-    inline as base64 in `video.encodedVideo` — decode and save to disk, then
-    synthesize an OLD-schema success response with a file:// URL.
+    """Poll workflow-mode operations (Low Priority / Omni / current-schema Veo r2v & i2v).
 
-    The response shape is:
-      {"name": "<media_id>", "video": {"encodedVideo": "<base64 MP4>", ...}}
+    Was: poll `client.get_media(mid)` (`GET /v1/media/{id}`) until `video.encodedVideo`
+    (base64 MP4) appeared. That endpoint started returning `400 INVALID_ARGUMENT`
+    unconditionally on 2026-08-13 — a Google-side backend change (confirmed live: same
+    error on brand-new AND months-old already-COMPLETED media, so not an Omni- or
+    timing-specific issue). See docs/omni-discovery-log.md §6.
 
-    Detection logic:
-    - "ready" = response is a dict with keys {"name","video"} where video.encodedVideo
-      starts with AAAAI... (MP4 ftyp header in base64)
-    - "still gen" = response missing video block, or encodedVideo missing/empty
+    Now: poll `client.check_media_status(mid, project_id)`
+    (`POST /v1/video:batchCheckAsyncVideoGenerationStatus`, `{"media":[{"name","projectId"}]}`)
+    — reverse-engineered live the same day from real Flow-UI traffic (§7 in that doc) and
+    confirmed working for status detection. Still does NOT return playable bytes/URL —
+    that final download step remains an open gap (Flow's own UI download click never showed
+    up in the sniffed traffic either, so it likely isn't a `fetch()`-based call at all).
+    Without `project_id` this poll cannot succeed at all — caller must pass it.
     """
-    import base64
-    import os as _os
-
     poll_interval = VIDEO_POLL_INTERVAL
     elapsed = 0
-    completed = {}  # media_id → local_path
+    completed: set[str] = set()
+
+    if not project_id:
+        logger.warning("_poll_workflows called without project_id — check_media_status "
+                        "requires it, this poll will never resolve")
 
     while elapsed < timeout:
         await asyncio.sleep(poll_interval)
@@ -170,56 +176,44 @@ async def _poll_workflows(
             mid = op.get("_primary_media_id", "")
             if not mid or mid in completed:
                 continue
-            media_resp = await client.get_media(mid)
-            status = media_resp.get("status")
-            if status != 200:
-                logger.debug("Workflow media %s not ready (status=%s)", mid[:8], status)
+            status_resp = await client.check_media_status(mid, project_id)
+            if _is_error(status_resp):
+                logger.debug("Workflow media %s status check error: %s", mid[:8], status_resp.get("error"))
                 continue
 
-            # Direct top-level (not wrapped in `data`)
-            payload = media_resp.get("data", media_resp) if isinstance(media_resp.get("data"), dict) and "video" in media_resp.get("data", {}) else media_resp
-            video_block = payload.get("video", {}) if isinstance(payload, dict) else {}
-            encoded = video_block.get("encodedVideo", "") if isinstance(video_block, dict) else ""
-
-            if not encoded:
+            data = status_resp.get("data", status_resp)
+            media_list = data.get("media", []) if isinstance(data, dict) else []
+            if not media_list:
                 continue
-            try:
-                binary = base64.b64decode(encoded)
-            except Exception as e:
-                logger.warning("Workflow media %s: failed to decode encodedVideo: %s", mid[:8], e)
-                continue
-            # Validate MP4 magic: real video starts with `ftyp` box at bytes 4-8.
-            # While generating, Flow returns metadata payload (~1-2KB) — skip until real MP4.
-            is_mp4 = len(binary) >= 12 and binary[4:8] == b"ftyp"
-            if not is_mp4:
-                logger.debug("Workflow media %s still generating (got %d bytes, not MP4)",
-                             mid[:8], len(binary))
-                continue
-            out_dir = "output/_workflow_videos"
-            _os.makedirs(out_dir, exist_ok=True)
-            out_path = f"{out_dir}/{mid}.mp4"
-            with open(out_path, "wb") as f:
-                f.write(binary)
-            completed[mid] = {"path": out_path, "size": len(binary)}
-            logger.info("Workflow media %s ready: saved %d bytes → %s",
-                        mid[:8], len(binary), out_path)
+            gen_status = (
+                media_list[0].get("mediaMetadata", {}).get("mediaStatus", {}).get("mediaGenerationStatus", "")
+            )
+            if gen_status == "MEDIA_GENERATION_STATUS_SUCCESSFUL":
+                completed.add(mid)
+                logger.info("Workflow media %s confirmed SUCCESSFUL (no auto-download — "
+                            "byte/URL retrieval is still an open gap, see "
+                            "docs/omni-discovery-log.md §7)", mid[:8])
+            elif gen_status == "MEDIA_GENERATION_STATUS_FAILED":
+                logger.error("Workflow media %s FAILED", mid[:8])
+                return {"error": f"Workflow media {mid} generation failed"}
+            else:
+                logger.debug("Workflow media %s not ready yet (%s)", mid[:8], gen_status)
 
         if len(completed) == len(operations):
             synth_ops = []
             for op in operations:
                 mid = op.get("_primary_media_id", "")
                 wf_name = op.get("operation", {}).get("name", "")
-                local = completed.get(mid, {}).get("path", "")
-                # Use file:// so downstream sees a URL-shaped string
-                local_url = f"file://{_os.path.abspath(local)}" if local else ""
                 synth_ops.append({
                     "operation": {
                         "name": wf_name,
-                        "metadata": {"video": {"mediaId": mid, "fifeUrl": local_url}},
+                        "metadata": {"video": {"mediaId": mid, "fifeUrl": ""}},
                     },
                     "status": "MEDIA_GENERATION_STATUS_SUCCESSFUL",
                 })
-            logger.info("All %d workflow(s) completed after %ds", len(operations), elapsed)
+            logger.info("All %d workflow(s) confirmed SUCCESSFUL after %ds — download "
+                        "manually from the Flow web UI (More → Download) until the byte/URL "
+                        "retrieval gap is closed", len(operations), elapsed)
             return {"data": {"operations": synth_ops}}
 
     logger.warning("Workflow polling timed out after %ds. Done=%d/%d",
@@ -231,19 +225,21 @@ async def _poll_operations(
     client: FlowClient,
     operations: list[dict],
     timeout: int = VIDEO_POLL_TIMEOUT,
+    project_id: str = "",
 ) -> dict:
     """Poll until all operations complete or timeout.
 
     Two polling paths:
     - OLD schema → check_video_status(operations)
-    - Workflow mode (Low Priority) → poll get_media(primaryMediaId) until ready
+    - Workflow mode (Low Priority / Omni / current-schema Veo) → poll
+      check_media_status(primaryMediaId, project_id) until SUCCESSFUL — requires project_id
     """
     if not operations:
         return {"error": "No operations to poll"}
 
-    # Workflow-mode polling: poll media endpoint for each primaryMediaId
+    # Workflow-mode polling: poll media status for each primaryMediaId
     if all(op.get("_workflow_mode") for op in operations):
-        return await _poll_workflows(client, operations, timeout)
+        return await _poll_workflows(client, operations, timeout, project_id=project_id)
 
     poll_interval = VIDEO_POLL_INTERVAL
     elapsed = 0
@@ -454,7 +450,7 @@ class OperationService:
         if existing_op and not looks_like_workflow_uuid:
             logger.info("Video gen already submitted (op=%s), re-polling", existing_op[:30])
             operations = [{"operation": {"name": existing_op}, "status": "MEDIA_GENERATION_STATUS_PENDING"}]
-            return await _poll_operations(self._client, operations)
+            return await _poll_operations(self._client, operations, project_id=pid)
         # else: workflow UUID — fall through and resubmit fresh
 
         submit_result = await self._client.generate_video(
@@ -488,7 +484,7 @@ class OperationService:
             return {"error": "Video generation failed immediately"}
 
         logger.info("Video gen submitted, polling %d operations...", len(operations))
-        return await _poll_operations(self._client, operations)
+        return await _poll_operations(self._client, operations, project_id=pid)
 
     async def generate_scene_video_refs(self, scene: dict, orientation: str,
                                         request_id: str = "") -> dict:
@@ -569,7 +565,7 @@ class OperationService:
         if existing_op:
             logger.info("R2V already submitted (op=%s), re-polling", existing_op[:30])
             operations = [{"operation": {"name": existing_op}, "status": "MEDIA_GENERATION_STATUS_PENDING"}]
-            return await _poll_operations(self._client, operations)
+            return await _poll_operations(self._client, operations, project_id=pid)
 
         submit_result = await self._client.generate_video_from_references(
             reference_media_ids=ref_ids,
@@ -599,7 +595,7 @@ class OperationService:
             return {"error": "R2V failed immediately"}
 
         logger.info("R2V submitted with %d refs, polling %d operations...", len(ref_ids), len(operations))
-        return await _poll_operations(self._client, operations)
+        return await _poll_operations(self._client, operations, project_id=pid)
 
     async def upscale_scene_video(self, scene: dict, orientation: str,
                                   request_id: str = "") -> dict:
@@ -613,6 +609,7 @@ class OperationService:
         if not video_media_id:
             return {"error": f"No {prefix} video media_id for scene"}
 
+        pid = scene.get("_project_id", "0")
         aspect = "VIDEO_ASPECT_RATIO_PORTRAIT" if orientation == "VERTICAL" else "VIDEO_ASPECT_RATIO_LANDSCAPE"
 
         # Check if already submitted (op_name saved from previous attempt)
@@ -625,7 +622,7 @@ class OperationService:
             # Already submitted — just re-poll
             logger.info("Upscale already submitted (op=%s), re-polling", existing_op[:30])
             operations = [{"operation": {"name": existing_op}, "status": "MEDIA_GENERATION_STATUS_PENDING"}]
-            return await _poll_operations(self._client, operations, timeout=300)
+            return await _poll_operations(self._client, operations, timeout=300, project_id=pid)
 
         submit_result = await self._client.upscale_video(
             media_id=video_media_id,
@@ -666,7 +663,7 @@ class OperationService:
             return {"error": "Upscale failed immediately"}
 
         logger.info("Upscale submitted, polling %d operations...", len(operations))
-        poll_result = await _poll_operations(self._client, operations, timeout=300)
+        poll_result = await _poll_operations(self._client, operations, timeout=300, project_id=pid)
 
         # Check poll result for rawBytes too
         poll_data = poll_result.get("data", poll_result)

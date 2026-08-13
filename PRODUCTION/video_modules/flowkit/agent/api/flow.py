@@ -1,4 +1,5 @@
 """Direct Flow API endpoints — for manual operations outside the queue."""
+import os
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import Optional
@@ -229,6 +230,89 @@ async def refresh_project_urls(project_id: str):
     return result
 
 
+class DownloadVideoRequest(BaseModel):
+    media_id: str                 # generation media_id; append _upsampled yourself for 1080p, or set upscaled=True
+    save_path: str                # absolute local path to write the .mp4 to
+    upscaled: bool = False        # if True, resolves "<media_id>_upsampled" (the 1080p blob)
+
+
+@router.get("/media-url/{media_id}")
+async def media_url(media_id: str):
+    """Resolve a finished video media_id to its signed CDN URL (flow-content.google, signature-
+    authed, no token needed). For 1080p pass "<media_id>_upsampled". Replaces the retired
+    get_media/encodedVideo byte path — see docs/omni-discovery-log.md §7."""
+    client = get_flow_client()
+    if not client.connected:
+        raise HTTPException(503, "Extension not connected")
+    result = await client.get_media_download_url(media_id)
+    if result.get("error"):
+        raise HTTPException(502, result["error"])
+    url = (result.get("result") or {}).get("url")
+    if not url:
+        raise HTTPException(502, f"No CDN url resolved: {result}")
+    return {"media_id": media_id, "url": url}
+
+
+@router.post("/download-video")
+async def download_video(body: DownloadVideoRequest):
+    """Full automated download: resolve the signed CDN URL for a finished/upscaled video and
+    stream its bytes to `save_path`. The final step of the 2026-08-13 pipeline fix — makes
+    "generate → upscale → download 1080p" fully headless (no manual Flow-UI click). See
+    docs/omni-discovery-log.md §7."""
+    import httpx
+    client = get_flow_client()
+    if not client.connected:
+        raise HTTPException(503, "Extension not connected")
+
+    name = f"{body.media_id}_upsampled" if body.upscaled else body.media_id
+    result = await client.get_media_download_url(name)
+    if result.get("error"):
+        raise HTTPException(502, result["error"])
+    url = (result.get("result") or {}).get("url")
+    if not url:
+        raise HTTPException(502, f"No CDN url resolved: {result}")
+
+    os.makedirs(os.path.dirname(os.path.abspath(body.save_path)), exist_ok=True)
+    total = 0
+    try:
+        async with httpx.AsyncClient(timeout=120, follow_redirects=True) as hc:
+            async with hc.stream("GET", url) as resp:
+                if resp.status_code >= 400:
+                    raise HTTPException(502, f"CDN fetch failed: HTTP {resp.status_code}")
+                with open(body.save_path, "wb") as f:
+                    async for chunk in resp.aiter_bytes(65536):
+                        f.write(chunk)
+                        total += len(chunk)
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(502, f"CDN download error: {e}")
+
+    if total < 1024:
+        raise HTTPException(502, f"Downloaded only {total} bytes — likely not a real video")
+    return {"media_id": name, "save_path": body.save_path, "bytes": total, "url": url}
+
+
+@router.get("/media-status/{media_id}")
+async def media_status(media_id: str, project_id: str):
+    """Check generation/upscale status via the real, currently-live Flow endpoint
+    (`v1/video:batchCheckAsyncVideoGenerationStatus`, `{"media": [{"name", "projectId"}]}`
+    shape) — use this instead of `/media/{media_id}` (broken since 2026-08-13, see
+    docs/omni-discovery-log.md §6/§7). For an upscale job, pass `<media_id>_upsampled`.
+    Does not return playable bytes/URL, only status + metadata.
+    """
+    client = get_flow_client()
+    if not client.connected:
+        raise HTTPException(503, "Extension not connected")
+    result = await client.check_media_status(media_id, project_id)
+    if result.get("error"):
+        raise HTTPException(502, result["error"])
+    status = result.get("status", 200)
+    if isinstance(status, int) and status >= 400:
+        raise HTTPException(status, result.get("data", "Media not found"))
+    return result.get("data", result)
+
+
 @router.get("/media/{media_id}")
 async def get_media(media_id: str):
     """Get media metadata + fresh signed URL from Google Flow.
@@ -246,6 +330,22 @@ async def get_media(media_id: str):
     if isinstance(status, int) and status >= 400:
         raise HTTPException(status, result.get("data", "Media not found"))
     return result.get("data", result)
+
+
+@router.get("/native-log")
+async def native_log():
+    """Dev-only: dump the extension's passive request sniffer log (last 50 requests to
+    aisandbox-pa.googleapis.com, including ones Flow's own web UI fires natively — not just
+    ones this agent proxies). Added 2026-08-07 for Omni discovery, exposed here 2026-08-13 to
+    re-capture the real media-polling contract after GET /v1/media/{id} started 400ing.
+    """
+    client = get_flow_client()
+    if not client.connected:
+        raise HTTPException(503, "Extension not connected")
+    result = await client.get_native_log()
+    if result.get("error"):
+        raise HTTPException(502, result["error"])
+    return result.get("result", result)
 
 
 @router.post("/edit-image")

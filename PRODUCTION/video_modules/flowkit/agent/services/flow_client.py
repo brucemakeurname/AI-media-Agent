@@ -235,7 +235,7 @@ class FlowClient:
             self._sync_in_progress = False
 
     _UUID_RE = __import__("re").compile(r'^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$')
-    _SAFE_URL_RE = __import__("re").compile(r'^https://(storage\.googleapis\.com|lh3\.googleusercontent\.com)/')
+    _SAFE_URL_RE = __import__("re").compile(r'^https://(storage\.googleapis\.com|lh3\.googleusercontent\.com|flow-content\.google)/')
 
     async def _refresh_media_urls(self, urls: list[dict]):
         """Update scene/character URLs in DB from fresh TRPC-captured signed URLs.
@@ -729,6 +729,30 @@ class FlowClient:
             "body": body,
         }, timeout=30)  # No captcha needed
 
+    async def check_media_status(self, media_id: str, project_id: str) -> dict:
+        """Check a single media's generation/upscale status via the SAME endpoint as
+        `check_video_status` (`v1/video:batchCheckAsyncVideoGenerationStatus`), but with the
+        request shape Flow's own frontend actually sends today — `{"media": [{"name":
+        media_id, "projectId": project_id}]}` — not the `operations`-list shape the old
+        `check_video_status` method uses.
+
+        Reverse-engineered live 2026-08-13 from real Flow-UI traffic (native sniffer,
+        `docs/omni-discovery-log.md` §7) after `get_media()`'s `GET /v1/media/{id}` broke —
+        this is the endpoint Flow's UI itself now polls with, confirmed working for both a
+        plain generation (`mediaGenerationStatus: MEDIA_GENERATION_STATUS_SUCCESSFUL`) and an
+        upscale job (pass `f"{media_id}_upsampled"` as media_id to check an upscale started via
+        `upscale_video()`). Does NOT return playable bytes/URL — see that doc section for the
+        still-open gap on the final download step.
+        """
+        body = {"media": [{"name": media_id, "projectId": project_id}]}
+        url = self._build_url("check_video_status")
+        return await self._send("api_request", {
+            "url": url,
+            "method": "POST",
+            "headers": random_headers(),
+            "body": body,
+        }, timeout=30)
+
     async def get_credits(self) -> dict:
         """Get user credits and tier."""
         url = self._build_url("get_credits")
@@ -737,6 +761,26 @@ class FlowClient:
             "method": "GET",
             "headers": random_headers(),
         }, timeout=15)
+
+    async def get_media_download_url(self, media_id: str) -> dict:
+        """Resolve a finished video media_id to its signed, publicly-fetchable CDN URL.
+
+        For a 1080p upscale pass `f"{media_id}_upsampled"`. Goes through the extension's
+        `get_media_url` handler, which GETs Flow's `media.getMediaUrlRedirect` tRPC endpoint
+        and returns the final `flow-content.google/video/...?Expires&Signature` URL (the
+        signature is the auth — no bearer token needed to then fetch it). Reverse-engineered
+        2026-08-13 from Flow-UI Network traffic; replaces the retired `get_media()`/`encodedVideo`
+        byte-delivery path (see docs/omni-discovery-log.md §7). Returns {"result": {"url": ...}}.
+        """
+        return await self._send("get_media_url", {"name": media_id}, timeout=30)
+
+    async def get_native_log(self) -> dict:
+        """Fetch the extension's passive aisandbox-pa.googleapis.com request sniffer log
+        (last 50 requests, URL+method+body only — see extension/background.js's
+        `nativeRequestLog`, added 2026-08-07 for Omni discovery, reused 2026-08-13 to
+        re-verify the media polling contract after it broke — see docs/omni-discovery-log.md §6/7).
+        """
+        return await self._send("get_native_log", {}, timeout=15)
 
     async def validate_media_id(self, media_id: str) -> bool:
         """Check if a mediaId is still valid.

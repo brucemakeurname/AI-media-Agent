@@ -65,6 +65,12 @@ path used by Veo's `frame_2_video`/`start_end_frame_2_video` — see `fk-status.
 paths" for the distinction). Once `video.encodedVideo` (base64) appears in the response, decode
 and save.
 
+> **Known broken as of 2026-08-13:** this poll always 400s (`INVALID_ARGUMENT`) right now — live-
+> reproduced on both a fresh Omni workflow and an old completed Veo media_id, so it's a broken
+> `get_media()` request shape, not an Omni- or timing-specific issue. Credits are already spent by
+> generation before this fails. Until re-discovered, download the finished clip manually from the
+> Flow web UI instead of polling. Full repro + probing notes: `docs/omni-discovery-log.md` §6.
+
 ## Upscale (works on TIER_ONE — corrected 2026-08-07)
 
 `fk-doctor.md`'s old note that upscale needs `PAYGATE_TIER_TWO` was wrong for 1080p — live-verified

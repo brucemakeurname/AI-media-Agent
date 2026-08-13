@@ -151,6 +151,7 @@ When the user describes a symptom in plain language, map it here first.
 | YouTube upload `invalidTags` | Tag-char overflow — quote overhead counts (spaces → +2 per tag) |
 | Python `cryptography` arch mismatch | Use `python3.10`, not `python3.13` (x86/arm64 binary mismatch) |
 | `curl: (7) Failed to connect to 127.0.0.1:8100` | Agent not running — `python -m agent.main` |
+| `GET /api/flow/media/<id>` always 400 `INVALID_ARGUMENT`, even after waiting / on old completed media | **Fully replaced as of 2026-08-13** — `get_media()` (byte + status) is dead. Status: `GET /api/flow/media-status/<id>?project_id=...` (pass `<id>_upsampled` for a 1080p job). Byte download (now automated): `POST /api/flow/download-video` `{media_id, save_path, upscaled}` — resolves the signed CDN URL via `media.getMediaUrlRedirect` and streams to disk; or `GET /api/flow/media-url/<id>` for the URL only. No manual Flow-UI click needed anymore. See `docs/omni-discovery-log.md` §6/§7 |
 
 ## Worker retry policy (`processor.py:_handle_failure`)
 

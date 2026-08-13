@@ -158,7 +158,14 @@ chrome.webRequest.onBeforeRequest.addListener(
     }
     console.log('[FlowAgent][NATIVE-SNIFF]', isAudioRelated ? '[AUDIO/VOICE]' : '', details.method, details.url, focus);
   },
-  { urls: ['https://aisandbox-pa.googleapis.com/*'] },
+  // 2026-08-13: widened to flow-content.google and labs.google's own API surface —
+  // the actual signed-URL fetch for a finished/upscaled video does not go through
+  // aisandbox-pa.googleapis.com, so the original narrower scope never saw it.
+  { urls: [
+      'https://aisandbox-pa.googleapis.com/*',
+      'https://flow-content.google/*',
+      'https://labs.google/fx/api/*',
+    ] },
   ['requestBody'],
 );
 
@@ -263,6 +270,10 @@ function connectToAgent() {
             metrics,
           },
         });
+      } else if (msg.method === 'get_native_log') {
+        sendToAgent({ id: msg.id, result: { log: nativeRequestLog } });
+      } else if (msg.method === 'get_media_url') {
+        await handleGetMediaUrl(msg);
       } else if (msg.type === 'callback_secret') {
         callbackSecret = msg.secret;
         chrome.storage.local.set({ callbackSecret: msg.secret });
@@ -400,6 +411,44 @@ async function handleSolveCaptcha(msg) {
   chrome.storage.local.set({ metrics });
 
   sendToAgent({ id, result });
+}
+
+// ─── Media download-URL resolver (added 2026-08-13) ─────────
+// Resolves a finished video media_id (or `<id>_upsampled` for a 1080p upscale) to its
+// signed, publicly-fetchable CDN URL. Flow's own UI does this by GET-ing the tRPC endpoint
+// `media.getMediaUrlRedirect?name=<id>`, which 302-redirects to
+// `https://flow-content.google/video/<id>?Expires=...&KeyName=...&Signature=...`.
+// We fetch with redirect:'follow' and read `resp.url` (the final CDN URL) WITHOUT downloading
+// the body — CORS is bypassed because both labs.google and flow-content.google are in
+// manifest host_permissions. The returned URL is signature-authed (no bearer token needed),
+// so the Python agent can then httpx-GET it directly. See docs/omni-discovery-log.md §7.
+async function handleGetMediaUrl(msg) {
+  const { id, params } = msg;
+  const name = params?.name;
+  if (!name) { sendToAgent({ id, error: 'MISSING_NAME' }); return; }
+
+  const url = `https://labs.google/fx/api/trpc/media.getMediaUrlRedirect?name=${encodeURIComponent(name)}`;
+  const fetchHeaders = {};
+  if (flowKey) fetchHeaders['authorization'] = `Bearer ${flowKey}`;
+
+  try {
+    const resp = await fetch(url, {
+      method: 'GET',
+      headers: fetchHeaders,
+      credentials: 'include',
+      redirect: 'follow',
+    });
+    const finalUrl = resp.url;
+    // Don't download the video body here — the agent fetches it directly.
+    try { await resp.body?.cancel(); } catch {}
+    if (finalUrl && finalUrl.includes('flow-content.google')) {
+      sendToAgent({ id, result: { url: finalUrl } });
+    } else {
+      sendToAgent({ id, status: resp.status, error: `No CDN redirect (final url: ${finalUrl})` });
+    }
+  } catch (e) {
+    sendToAgent({ id, error: e.message || 'GET_MEDIA_URL_FAILED' });
+  }
 }
 
 // ─── API Request Proxy ──────────────────────────────────────
@@ -660,7 +709,7 @@ chrome.runtime.onMessage.addListener((msg, _, reply) => {
 function handleTrpcMediaUrls(trpcUrl, bodyText) {
   try {
     // Extract all fresh GCS signed URLs
-    const urlRegex = /https:\/\/storage\.googleapis\.com\/ai-sandbox-videofx\/(?:image|video)\/[0-9a-f-]{36}\?[^"'\s]+/g;
+    const urlRegex = /https:\/\/(?:storage\.googleapis\.com\/ai-sandbox-videofx|flow-content\.google)\/(?:image|video)\/[0-9a-f-]{36}\?[^"'\s]+/g;
     const matches = bodyText.match(urlRegex) || [];
     if (!matches.length) return;
 
