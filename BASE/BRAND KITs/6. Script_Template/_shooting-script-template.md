@@ -55,6 +55,15 @@ biz_niche: {{niche}}
 content_format: {{pillar}}
 script_mode: {{narrative | message-stack | tutorial-usecase | hybrid — see note at end}}
 duration_sec: {{length}}
+subject_visibility: {{on-camera talking | hands-only | product-only | mixed — grounded strictly in
+  what the accepted keyframes actually show; "hands-only" if no keyframe contains a visible face,
+  full stop, regardless of whether the audio has a voiceover}}
+audio_mode: {{on-camera dialogue | voiceover narration | ambient/SFX only | on-screen text only —
+  grounded in the actual whisperx transcript, never assumed; "voiceover narration" (speech over
+  B-roll, no speaking mouth on screen) is the common pairing with hands-only, and must NOT be
+  confused with on-camera dialogue downstream}}
+background_continuity: {{single location | multi-location (state which beats change) — compare
+  backdrop details across every accepted keyframe, not a visual impression}}
 performance_metrics:
   # TikTok — real fields off the ad page. ctr_rank/cost_rank are INTERNAL rank/percentile scores
   # (lower = better; 0.08 is NOT "8% CTR"). Never invent a number the page didn't show.
@@ -81,6 +90,12 @@ performance_signal: {{one-line human summary from the metrics above}}
 ## Arc Breakdown
 {{script_mode + which beats present: hook / problem / turn / mechanism / proof / payoff / CTA — and
   why that mode fits}}
+
+**Fidelity note (mandatory, one line):** restate `subject_visibility` / `audio_mode` /
+`background_continuity` here in prose, e.g. "hands-only demo, voiceover narration, single kitchen
+location throughout — no face and no location change anywhere in this source; any clone script
+built from this reference must preserve that pattern and only swap brand/product/voice." This is
+the line `write-shooting-script`/`write-ai-ugc-video-sequence-script` must not silently violate.
 
 ## Sequence N — {{beat name}} ({{start}}–{{end}}s)
 ### Scene N.M

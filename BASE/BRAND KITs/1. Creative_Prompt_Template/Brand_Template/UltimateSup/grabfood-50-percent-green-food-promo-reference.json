@@ -1,0 +1,86 @@
+{
+  "name": "grabfood-50-percent-green-food-promo-reference",
+  "tag": [
+    "food delivery promotion",
+    "50 percent discount",
+    "green sports-themed poster",
+    "bold 3d typography",
+    "restaurant meal collage",
+    "square social ad"
+  ],
+  "biz_niche": "Food Delivery / Promotional Advertising",
+  "content_format": "Special offers",
+  "group": "UltimateSup_clone_creative_20260813",
+  "prompt": {
+    "project_info": {
+      "theme": "Bold green promotional product poster adapted for Ultimate Sup Mutant Big Green",
+      "color_palette": "UltimateSup-approved palette applied to a vivid green sports-nutrition composition; use green as the dominant field only where supported by the brand guideline, with approved contrast colours for headline and CTA",
+      "brand": "Ultimate Sup",
+      "market": "Singapore",
+      "platform": "Instagram",
+      "aspect_ratio": "1:1"
+    },
+    "main_subject": {
+      "type": "Product",
+      "detail": "Mutant Big Green product packshot, sourced from the approved UltimateSup product asset, presented as the hero product in the lower center or lower-right area with clear label visibility and no altered packaging claims",
+      "style": "High-energy sports-nutrition retail advertising, photorealistic product compositing with bold promotional poster energy"
+    },
+    "composition_elements": {
+      "type": "Background Elements/Props/Typography/Product Collage",
+      "text": "{{headline_hook}}; {{post_message}}; {{offer}}; {{cta}}",
+      "items": [
+        "Background: vivid green sports-themed environment with subtle pitch/grid texture and controlled depth-of-field, adapted from the reference's green promotional atmosphere without copying its restaurant setting.",
+        "Upper Left: Ultimate Sup approved logo treatment, supplied from the active brand kit; do not use the reference brand logo.",
+        "Upper Center: large bold 3D promotional headline using the exact approved ticket copy; preserve the reference's scale and depth hierarchy but replace all Khmer/reference wording.",
+        "Center/Lower Center: Mutant Big Green packshot as the dominant hero object, preserving the approved product artwork and label identity.",
+        "Supporting Area: approved gym/sports visual cues or product-relevant elements only; do not reuse the reference food plates, footballs, ribbon graphics, or restaurant scene unless the ticket explicitly approves an equivalent.",
+        "Lower Area: concise approved offer/value proposition and a clear Singapore retail CTA, with exact SGD price or offer terms only when present in the ticket.",
+        "Safe Zone: keep logo, headline, product label, offer, and CTA inside the platform-safe margins with sufficient contrast and legibility."
+      ]
+    },
+    "lighting_and_atmosphere": {
+      "type": "High-key commercial studio lighting with energetic green ambient light",
+      "effect": "Crisp product highlights, controlled glow around the headline, clean separation from the background, vivid but brand-safe contrast, premium sports-retail energy"
+    },
+    "technical_specs": {
+      "render_style": "Photorealistic commercial product poster, polished social advertising composition",
+      "resolution": "Use the selected acad-image-gen size supported for the ticket aspect ratio; preserve a square 1:1 final",
+      "output_format": "PNG",
+      "reference_handling": "Use the supplied reference for composition hierarchy and promotional energy only; use the approved Mutant Big Green packshot and Ultimate Sup brand assets for identity."
+    },
+    "reference_elements": {
+      "assets": [
+        {
+          "type": "layout_reference",
+          "name": "grabfood green 50 percent promotional poster",
+          "required": true,
+          "source": "grabfood-50-percent-green-food-promo-reference.jpg",
+          "usage": "Adapt the green field, oversized headline hierarchy, lower product/hero collage, and square promotional framing; do not copy logo, wording, food, people, or third-party marks."
+        },
+        {
+          "type": "product",
+          "name": "Mutant Big Green",
+          "required": true,
+          "source": "BASE/BRAND KITs/UltimateSup/Product/Mutant_big_green.jpg",
+          "usage": "Use as the approved product identity and packshot reference; preserve packaging, label, colourway, and visible factual text."
+        },
+        {
+          "type": "brand_logo",
+          "name": "Ultimate Sup logo",
+          "required": true,
+          "source": "BASE/BRAND KITs/UltimateSup/assets/logo/ultimate-sup-horizontal_20260811.png",
+          "usage": "Use only the approved Ultimate Sup logo treatment and keep it inside the safe zone."
+        }
+      ],
+      "prompt_instructions": [
+        "Use the original reference image only for structural inspiration: green promotional background, bold 3D headline, and lower hero collage hierarchy.",
+        "Replace the food-delivery context with approved sports-nutrition context for Mutant Big Green.",
+        "Replace the reference logo, language, discount, date, CTA, products, dishes, people, and decorative marks with approved ticket data and Ultimate Sup brand assets.",
+        "Do not invent a price, discount percentage, claim, flavour, serving information, or performance outcome.",
+        "Preserve exact approved on-image text; if exact text cannot be rendered legibly, leave the field for post-production and flag it REVIEW REQUIRED."
+      ]
+    },
+    "generated_prompt_string": "Create a square 1:1 Ultimate Sup Singapore promotional product poster for Mutant Big Green. Adapt the supplied green food-promotion reference's visual hierarchy only: vivid green field, oversized dimensional headline, strong lower hero collage, and energetic promotional framing. Replace the restaurant scene, food, footballs, ribbons, logo, Khmer copy, 50% discount, and date with approved Ultimate Sup brand assets, Mutant Big Green packshot, exact ticket headline, approved offer/value proposition, and Singapore CTA. Keep the Mutant packshot label accurate and visible, keep all copy inside safe margins, use premium commercial sports-nutrition lighting, and do not invent any facts, price, claim, discount, or date.",
+    "negative_prompt": "third-party logos, GrabFood, Khmer text, copied discount, copied date, restaurant food, footballs, unrelated props, altered product packaging, invented claims, invented price, distorted product label, illegible text, dark gloomy mood, blurry, low resolution, flat 2d, cluttered composition, watermark, signature, cropped logo, cropped product"
+  }
+}

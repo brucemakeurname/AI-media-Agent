@@ -1,0 +1,38 @@
+{
+  "goal": "[social]_[ai_clone_creative]",
+  "status": "test_review_required",
+  "created_at": "2026-08-13",
+  "platform": "Instagram",
+  "format": "Single Post",
+  "aspect_ratio": "1:1",
+  "product": "Mutant Big Green",
+  "retailer": "Ultimate Sup",
+  "reference_assets": [
+    {
+      "path": "/Users/test/Documents/AI Media/Hoài Nam/INFRA/BASE/BRAND KITs/1. Creative_Prompt_Template/Brand_Template/UltimateSup/grabfood-50-percent-green-food-promo-reference.jpg",
+      "template_json": "/Users/test/Documents/AI Media/Hoài Nam/INFRA/BASE/BRAND KITs/1. Creative_Prompt_Template/Brand_Template/UltimateSup/grabfood-50-percent-green-food-promo-reference.json"
+    }
+  ],
+  "deliverables": [
+    {
+      "path": "/Users/test/Documents/AI Media/Hoài Nam/INFRA/BASE/CAMPAIGNs/UltimateSup Plus Campaign/Instagram/Single Post/2026-08-13-clone-test/mutant-big-green-cloned-creative.png",
+      "type": "image/png",
+      "dimensions": "1254x1254"
+    }
+  ],
+  "verification": [
+    "Reverse-prompt JSON parses successfully",
+    "Reference image and JSON are stored as a reusable pair in the UltimateSup brand folder",
+    "Final PNG exists and is square",
+    "Visual inspection completed",
+    "No third-party reference logo, wording, discount, date, food, or football assets retained"
+  ],
+  "review_required": [
+    "Attach an approved campaign Ticket.md and Notion page before publishing",
+    "Confirm exact offer, price, CTA, and any product claims against the approved Singapore listing"
+  ],
+  "notion": {
+    "uploaded": false,
+    "reason": "Test run had no notion_page_id and was not authorized for publishing"
+  }
+}
