@@ -40,13 +40,17 @@ schema, only the register differs) and drive it as follows:
    from the line above the code block — never more than 3, aspect ratio 9:16) and save the
    returned clip to `node/scenes/scene_{N}.mp4`. Sequential only — Omni's `interactions` endpoint
    is synchronous per call, there is no batch/parallel render on its side.
-2. **Concatenate (hard cuts).** Once every scene clip exists, join them in order with the ffmpeg
+2. **Upscale, download, and clean each scene.** Attempt Flowkit `VIDEO_RESOLUTION_1080P`; if it
+   fails, use `ffmpeg-upscale-video` and record the fallback. Download the scene, then run
+   `gwt-remove-watermark-video` immediately on that individual clip before any voice/audio remux
+   or concat. Keep the raw and `_nowm` files side by side for QA.
+3. **Concatenate (hard cuts).** Once every clean scene clip exists, join them in order with the ffmpeg
    concat demuxer. Do **not** add cross-fade/dissolve transitions at this step — each scene's own
    `ending` field already bakes its transition into the rendered content (light-leak whip,
    match-dissolve, glitch-cut, etc. — see `write-ai-commercial-video-sequence-script/SKILL.md`). This
    mirrors `talking-head-editing`'s own convention of hard cuts only (see its
    `docs/WORKFLOW-template.md`, "What This Pipeline Does NOT Do").
-3. **Subtitles — conditional, and never Omni-native.** Only if `Ticket.md`'s `Video-requirement`
+4. **Subtitles — conditional, and never Omni-native.** Only if `Ticket.md`'s `Video-requirement`
    field asks for on-screen subtitles: run WhisperX on the concatenated clip's own audio to get a
    word-level transcript (there's no separate raw-recording transcript here, unlike
    `talking-head-editing`'s normal Phase 0 input — this is TTS dialogue baked into the Omni
@@ -54,17 +58,18 @@ schema, only the register differs) and drive it as follows:
    `video_modules/talking-head-editing/.claude/skills/subtitle-designer/SKILL.md` to render a
    branded word-pop overlay and composite it on top. Never instruct Omni to burn in subtitle text
    directly — its font/timing is inconsistent, which is the entire reason to reuse a dedicated
-   subtitle renderer instead of a prompt instruction.
-4. **Background music.** Reuse `sfx-artist`'s **Phase 5 only**
+   subtitle renderer instead of a prompt instruction. Compare the transcript with
+   `node/timing/approved-voice.txt` and correct only text before burning; keep WhisperX timestamps.
+5. **Background music.** Reuse `sfx-artist`'s **Phase 5 only**
    (`video_modules/talking-head-editing/.claude/skills/sfx-artist/SKILL.md`) — mood detection →
    royalty-free instrumental search → `audio/bgm.mp3` + `bgm_manifest.json` → ffmpeg `afade`
    in/out mix at volume 0.10-0.15. Skip its Phase 2/3 B-roll/A-roll SFX steps entirely — those
    assume a HyperFrames B-roll/A-roll layer that doesn't exist in this pipeline (there is no
    talking-head footage, no broll_timestamp.json).
-5. **Save the final mp4 to `{output_dir}/` root** (flat, same contract as the talking-head path
+6. **Save the final mp4 to `{output_dir}/` root** (flat, same contract as the talking-head path
    below — never a `video/` subfolder for this pipeline, unlike `gemini-omni-video-gen`'s generic
    `CLAUDE.md` note, which the workflow file overrides for this specific visual type).
-6. **Hand off.** The final file is virtually always >5MB — never attempt a Notion file-property
+7. **Hand off.** The final file is virtually always >5MB — never attempt a Notion file-property
    attachment. Note this explicitly for `notion-publisher`: upload to R2
    (`.claude/skills/notion-upload/upload_video_to_r2.js`) and embed the resulting URL as a Notion
    video block (`upload.py --video-url`).
@@ -112,9 +117,9 @@ addition to driving the whole build:
    `{{campaign_folder}}/video.mp4` (root) — every other artifact (script.json, voice/,
    compositions/, renders/video-raw.mp4) stays inside `node/video-build/`.
 4. **Thumbnail is designer's job, not this role's** — the designer generates
-   `{{campaign_folder}}/thumbnail.png` in parallel with steps 2's render/subtitle-burn calls above
-   (via `creative-direction` + `gpt-img-2-gen`), not after. This role's `05-thumbnail-signal.ts`
-   call just confirms it landed in time.
+   `{{campaign_folder}}/thumbnail.png` in parallel with step 2's render/subtitle-burn calls above
+   (via `video-thumbnail` or the designated thumbnail skill + `acad-image-gen`), not after. This
+   role's `05-thumbnail-signal.ts` call just confirms it landed in time.
 
 ## Graph
 

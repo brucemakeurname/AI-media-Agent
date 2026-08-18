@@ -72,7 +72,7 @@ test -s "$CAMPAIGN_DIR/node/GOAL.md"
 
 - [ ] Prompt nhân vật/reference được tạo qua `photography-direction` khi thiếu human reference; product asset ưu tiên Brand Kit được duyệt.
 - [ ] Có character/reference asset dùng xuyên sequence nếu ticket yêu cầu continuity.
-- [ ] `creative-direction` (hoặc `photography-direction` standalone) tạo thumbnail direction trước khi render.
+- [ ] `video-thumbnail` tạo `node/thumbnail-brief.md` từ first beat trước khi render.
 - [ ] `thumbnail.jpg` được tạo bằng `acad-image-gen` tại root campaign.
 
 **Pass:** Product/variant/logo/claim trên thumbnail khớp ticket; asset reference có trace trong `node/`.
@@ -80,9 +80,9 @@ test -s "$CAMPAIGN_DIR/node/GOAL.md"
 ### B4. Kiểm video-editor
 
 - [ ] Mỗi sequence JSON được gửi vào FlowKit Omni đầy đủ và tạo scene đúng duration.
-- [ ] Có bằng chứng raw clip được FlowKit upscale `VIDEO_RESOLUTION_1080P` **trước** Applio voice sync/download downstream.
-- [ ] Từng scene có audio voice sync theo source audio/timing lock khi ticket yêu cầu.
-- [ ] Đã concat scene, burn subtitle theo ticket, mix BGM/SFX, và prepend thumbnail ngay frame 0.
+- [ ] Có bằng chứng raw clip được FlowKit upscale `VIDEO_RESOLUTION_1080P`, hoặc `ffmpeg-upscale-video` fallback được log.
+- [ ] Từng scene đã download rồi mới remove watermark; raw và `_nowm` được giữ để QA.
+- [ ] Đã concat, dead-air check, WhisperX đối chiếu approved voice text, burn subtitle `MAX_TOKENS=5` ở `SUB_Y_RATIO=0.75`, mix BGM/SFX, và prepend thumbnail frame 0.
 
 **Pass:** Mọi scene và final output có traceability path; fallback kỹ thuật (nếu được phê duyệt) được ghi trong `manifest.json` cùng lý do.
 

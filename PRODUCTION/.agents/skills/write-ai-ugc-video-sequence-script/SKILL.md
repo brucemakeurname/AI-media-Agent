@@ -1,6 +1,6 @@
 ---
 name: write-ai-ugc-video-sequence-script
-description: Consume a locked node/shooting-script.md plus its Applio TTS timing lock, retrieve and score candidate templates from BASE/BRAND KITs/5. Video_Prompt_Template, then write one 4/6/8/10s full-JSON Omni prompt per minimum-count sequence. Each prompt can contain timed sub-scenes, jumpcuts, transitions, and (for AI-clone work) accepted crawler keyframe refs. Part C locks reuse of the TTS audio and optional BGM. content-executive or designer, single pass.
+description: Consume a locked node/shooting-script.md plus its local F5-TTS timing lock, retrieve and score candidate templates from BASE/BRAND KITs/5. Video_Prompt_Template, then write one 4/6/8/10s full-JSON Omni prompt per minimum-count sequence. Each prompt can contain timed sub-scenes, jumpcuts, transitions, and (for AI-clone work) accepted crawler keyframe refs. Part C locks reuse of the TTS audio and optional BGM. content-executive or designer, single pass.
 ---
 
 # write-ai-ugc-video-sequence-script
@@ -32,7 +32,7 @@ a different grounding source (retrieved `posing`/`dancing`/`indie` templates, no
 | Param | Source |
 |---|---|
 | `shooting_script_path` | `node/shooting-script.md` — locked sequence/sub-scene plan, dialogue, references, and hard constraints |
-| `timing_lock_path` | `node/timing/timing-lock.json` — required for dialogue-bearing work; Applio-generated WAV duration evidence and assigned sequence/sub-scene windows |
+| `timing_lock_path` | `node/timing/timing-lock.json` — required for dialogue-bearing work; local F5-TTS WAV duration evidence and assigned sequence/sub-scene windows |
 | `video_prompt_library_root` | `BASE/BRAND KITs/5. Video_Prompt_Template/` — groups `posing/`, `dancing/`, `indie/` (raw/authentic register). **Prune `commercial/`** — that group is TVC-crafted content and would drift the pipeline into the wrong register. |
 | `character_ref_dir` | named influencer face-reference folder identified in the shooting script, if any |
 | `clone_keyframe_dir` | AI-clone only: accepted `iconic-frames/` directory recorded in the locked shooting script |
@@ -163,7 +163,7 @@ One block is one Omni call, even where the sequence contains several visual sub-
 4. **Preserve speech exactly.** `voice` is only the exact approved dialogue assigned to the sequence;
    do not prepend persona, language, accent, pacing, emotion, or delivery notes. Keep full native-language
    diacritics. Put dialogue time ranges in `timeline` and retain the authoritative final audio in the
-   Applio timing lock; this prevents prompt-metadata from corrupting the line used for TTS/subtitles.
+   F5-TTS timing lock; this prevents prompt-metadata from corrupting the line used for TTS/subtitles.
 5. **Keep jumpcuts visual.** Put pacing, facial reaction, handheld movement, and transitions in
    `timeline`, `scene_description`, `camera_direction`, `motion`, and `ending`, never by altering the
    approved dialogue in `voice`.
@@ -182,7 +182,7 @@ One block is one Omni call, even where the sequence contains several visual sub-
 
 ## Step E — Part C: lock the optional audio/BGM spec
 
-Most raw UGC clips need **no separate BGM layer**. The pre-generated Applio TTS timing-lock audio is
+Most raw UGC clips need **no separate BGM layer**. The pre-generated F5-TTS timing-lock audio is
 the authoritative dialogue track; retain light generated/location SFX only where it does not obscure
 the TTS. Adding an instrumental on top can read as over-produced. Only write a BGM spec (mood, track
 path from the local library, mix volume, fade timing) if `Video Requirement` explicitly asks for it.

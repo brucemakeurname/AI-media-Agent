@@ -23,9 +23,20 @@ def main():
     # found to emit near-zero confidence scores on real narration audio and
     # compress each sentence's words into a small fraction of its true spoken
     # duration — the root cause of subtitles racing far ahead of the voice.
-    model_name = os.environ.get("WHISPER_MODEL", "large-v3")
+    model_name = os.environ.get("WHISPERX_ASR_MODEL") or os.environ.get("WHISPER_MODEL", "large-v3")
     language = os.environ.get("WHISPER_LANGUAGE", "vi")
-    model = WhisperModel(model_name, device="cpu", compute_type="int8")
+    model_kwargs = {
+        "device": "cpu",
+        "compute_type": "int8",
+        "local_files_only": os.environ.get("WHISPER_LOCAL_FILES_ONLY", "1") not in {"0", "false"},
+    }
+    if os.path.isdir(model_name):
+        model = WhisperModel(model_name, **model_kwargs)
+    else:
+        model_root = os.environ.get("WHISPERX_MODEL_ROOT")
+        if model_root:
+            model_kwargs["download_root"] = model_root
+        model = WhisperModel(model_name, **model_kwargs)
     segments, _info = model.transcribe(
         audio_path, language=language, word_timestamps=True, vad_filter=True,
     )

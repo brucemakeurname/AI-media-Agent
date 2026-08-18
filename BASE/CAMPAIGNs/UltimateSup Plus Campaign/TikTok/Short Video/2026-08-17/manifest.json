@@ -1,0 +1,165 @@
+{
+  "campaign_unit": "PVL ISO Gold — Singapore Gym Review",
+  "notion_post_id": "3bf0831f-990c-81e3-8e38-d6088e4a3750",
+  "notion_post_url": "https://app.notion.com/p/PVL-ISO-Gold-Singapore-Gym-Review-3bf0831f990c81e38e38d6088e4a3750",
+  "linked_campaign_url": "https://app.notion.com/p/Mutant-Built-for-the-Daily-Grind-August-2026-3ba0831f990c80b89dead1674ebbc978",
+  "product": "PVL ISO Gold 100% Whey Isolate",
+  "brand": "PVL ISO Gold",
+  "retailer": "Ultimate Sup Singapore",
+  "platform": "TikTok",
+  "format": "Short Video (9:16 vertical)",
+  "visual_type": "AI UGC SHORT VIDEO",
+  "pillar": "PERSUADE",
+  "target_date": "2026-08-17",
+  "language": "English / Singlish",
+  "voice_persona": "voice_1_male — Singlish Gym Bro",
+  "final_deliverables": {
+    "video": {
+      "filename": "PVL-ISO-Gold-Singapore-Gym-Review.mp4",
+      "path": "BASE/CAMPAIGNs/UltimateSup Plus Campaign/TikTok/Short Video/2026-08-17/PVL-ISO-Gold-Singapore-Gym-Review.mp4",
+      "duration_sec": 40.083,
+      "resolution": "1080x1920",
+      "fps": 24,
+      "video_codec": "h264 (libx264 High)",
+      "audio_codec": "aac",
+      "audio_bitrate": "192k",
+      "size_bytes": 33077081,
+      "sha256": "4f86cbe27754a548f32d80e2cb5b266f3285d069bdbf21fdc8edf4487ed7c79a"
+    },
+    "thumbnail": {
+      "filename": "thumbnail.jpg",
+      "path": "BASE/CAMPAIGNs/UltimateSup Plus Campaign/TikTok/Short Video/2026-08-17/thumbnail.jpg",
+      "resolution": "941x1672 (9:16)",
+      "size_bytes": 319327,
+      "sha256": "c2f0c1ca8dd3222352423becf2001088bd8c36ab7c9085a1137ab4ffd478a72e"
+    },
+    "caption": {
+      "filename": "caption.md",
+      "path": "BASE/CAMPAIGNs/UltimateSup Plus Campaign/TikTok/Short Video/2026-08-17/caption.md"
+    }
+  },
+  "pipeline_verification": {
+    "gemini_tts_timing_lock": {
+      "engine": "google-gemini-tts",
+      "model": "gemini-2.5-flash-preview-tts",
+      "voice": "Puck",
+      "measured_dialogue_sec": 32.288,
+      "lock_file": "node/timing/timing-lock.json",
+      "line_count": 6
+    },
+    "shooting_script": "node/shooting-script.md",
+    "ugc_sequence_script": "node/ugc-sequence-script.md",
+    "flowkit_omni_renders": {
+      "model": "abra_r2v_* (Omni Flash reference-to-video)",
+      "project_id": "53ea3ddc-968e-4d50-b846-6b03fbd1970e",
+      "scene_count": 6,
+      "total_render_duration_s": 40,
+      "scenes": [
+        {
+          "scene": 1,
+          "duration_s": 4,
+          "media_id": "8cfe02cb-2dfb-498a-a2b0-b2bebe69ceec",
+          "status": "completed"
+        },
+        {
+          "scene": 2,
+          "duration_s": 8,
+          "media_id": "730a599f-2038-4600-b16f-9e45a4796c5a",
+          "status": "completed"
+        },
+        {
+          "scene": 3,
+          "duration_s": 8,
+          "media_id": "64169aa3-8fdf-4e19-b185-02b6529cd2b0",
+          "status": "completed"
+        },
+        {
+          "scene": 4,
+          "duration_s": 8,
+          "media_id": "ac3d5b43-d3fb-4043-9f69-c66178a7e0d4",
+          "status": "completed"
+        },
+        {
+          "scene": 5,
+          "duration_s": 6,
+          "media_id": "3dfcf321-e734-46c5-a813-917d3836144b",
+          "status": "completed"
+        },
+        {
+          "scene": 6,
+          "duration_s": 6,
+          "media_id": "c9c34845-926a-418a-a417-a4f56c3eb080",
+          "status": "completed"
+        }
+      ]
+    },
+    "watermark_removal": {
+      "tool": "GeminiWatermarkTool-Video (Veo / Gemini 3.5)",
+      "scenes_processed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "passed"
+    },
+    "audio_mix": {
+      "skill": "[html-video]-audio-mix",
+      "spec_file": "node/audio-spec.json",
+      "report_file": "node/audio-mix-report.json",
+      "bgm": "brand/04.mp3 (ducked under dialogue at -22dB)",
+      "sfx": [
+        {
+          "scene": "scene-1",
+          "file": "transition/whoosh-soft.mp3",
+          "offsetSec": 0.1
+        },
+        {
+          "scene": "scene-2",
+          "file": "transition/swoosh.mp3",
+          "offsetSec": 0.2
+        },
+        {
+          "scene": "scene-3",
+          "file": "transition/pop.mp3",
+          "offsetSec": 0.3
+        },
+        {
+          "scene": "scene-4",
+          "file": "emphasis/chime.mp3",
+          "offsetSec": 0.3
+        },
+        {
+          "scene": "scene-5",
+          "file": "emphasis/ding.mp3",
+          "offsetSec": 0.2
+        },
+        {
+          "scene": "scene-6",
+          "file": "outro/tada.mp3",
+          "offsetSec": 0.2
+        }
+      ],
+      "status": "passed"
+    },
+    "subtitles": {
+      "format": "ASS burned subtitles",
+      "y_ratio": 0.75,
+      "cues": 12,
+      "style": "TikTok Yellow/White bold outline"
+    },
+    "thumbnail_prepend": {
+      "frame_0": "thumbnail.jpg (1 frame at 24fps)",
+      "status": "verified"
+    }
+  },
+  "compliance_check": {
+    "market": "Singapore (SGD / Shopee SG)",
+    "medical_claims": "Zero medical claims (factual protein isolate & enzyme statements only)",
+    "brand_separation": "Ultimate Sup is the retailer; PVL ISO Gold is the product brand."
+  },
+  "status": "Submit to Review",
+  "updated_at": "2026-08-18T11:17:00Z"
+}

@@ -1,18 +1,16 @@
 import { writeFile } from "node:fs/promises";
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, writeFileSync, mkdtempSync, rmSync } from "node:fs";
 import { spawnSync, execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
-import { dirname, join } from "node:path";
+import { dirname, join, resolve } from "node:path";
+import { tmpdir } from "node:os";
 
 // ── Layout constants ──────────────────────────────────────────────────────────
 const PLAY_RES_X = 1080;
 const PLAY_RES_Y = 1920;
 
-// Center X; Y at 3/7 of frame height up from the bottom edge — talking-head
-// layout keeps the single active word close to the subject's chest, clear of
-// the face above and any lower-third graphic overlay below.
 const SUB_X = Math.round(PLAY_RES_X / 2);
-const SUB_Y = Math.round(PLAY_RES_Y * (1 - 3 / 7));
+const SUB_Y = Math.round(PLAY_RES_Y * Number(process.env.SUB_Y_RATIO ?? "0.75"));
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 interface WordEntry {
@@ -60,28 +58,43 @@ function hexToAssBgr(hex: string, alpha = 0): string {
   return `&H${alpha.toString(16).padStart(2, "0").toUpperCase()}${b}${g}${r}`.toUpperCase();
 }
 
-// Talking-head shows exactly one word at a time (maxWords=1) — each word is
-// its own "group" of size 1, so the active-word highlight styling from
-// caption-styles.json still applies (a single-word group's one word is
-// always the active one).
-function groupWords(words: WordEntry[], maxWords = 1, gapBreakSec = 0.6): WordEntry[][] {
+function groupWords(words: WordEntry[], gluePrev: boolean[], maxTokens = 5, maxChars = 22, gapBreakSec = 0.6): WordEntry[][] {
+  const units: WordEntry[][] = [];
+  let unit: WordEntry[] = [];
+  for (let index = 0; index < words.length; index++) {
+    if (unit.length && !gluePrev[index]) {
+      units.push(unit);
+      unit = [];
+    }
+    unit.push(words[index]);
+  }
+  if (unit.length) units.push(unit);
+
   const groups: WordEntry[][] = [];
   let cur: WordEntry[] = [];
-  let prevEnd = 0;
-  for (const w of words) {
-    const gap = w.start - prevEnd;
-    if (cur.length && (gap > gapBreakSec || cur.length >= maxWords)) {
+  let tokenCount = 0;
+  let charCount = 0;
+  for (const nextUnit of units) {
+    const gap = cur.length ? nextUnit[0].start - cur[cur.length - 1].end : 0;
+    const nextTokens = 1;
+    const nextUnitChars = nextUnit.reduce((sum, word) => sum + word.word.length, 0);
+    const separatorChars = cur.length ? 1 : 0;
+    const nextChars = nextUnitChars + separatorChars;
+    if (cur.length && (gap > gapBreakSec || tokenCount + nextTokens > maxTokens || charCount + nextChars > maxChars)) {
       groups.push(cur);
       cur = [];
+      tokenCount = 0;
+      charCount = 0;
     }
-    cur.push(w);
-    prevEnd = w.end;
+    cur.push(...nextUnit);
+    tokenCount += nextTokens;
+    charCount += nextUnitChars + separatorChars;
   }
   if (cur.length) groups.push(cur);
   return groups;
 }
 
-function buildAssContent(words: WordEntry[], styleId: CaptionStyleId): string {
+function buildAssContent(words: WordEntry[], styleId: CaptionStyleId, gluePrev: boolean[]): string {
   const style = CAPTION_STYLES[styleId];
   const primary = hexToAssBgr(style.primaryColor);
   const highlight = hexToAssBgr(style.highlightColor);
@@ -119,7 +132,7 @@ function buildAssContent(words: WordEntry[], styleId: CaptionStyleId): string {
     `PlayResX: ${PLAY_RES_X}`,
     `PlayResY: ${PLAY_RES_Y}`,
     "ScriptType: v4.00+",
-    "WrapStyle: 0",
+    "WrapStyle: 2",
     "",
     "[V4+ Styles]",
     "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding",
@@ -129,7 +142,12 @@ function buildAssContent(words: WordEntry[], styleId: CaptionStyleId): string {
     "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
   ].join("\n");
 
-  const groups = groupWords(words);
+  const configuredMaxTokens = Number(process.env.MAX_TOKENS ?? "5");
+  const maxTokens = Number.isFinite(configuredMaxTokens)
+    ? Math.min(5, Math.max(1, Math.floor(configuredMaxTokens)))
+    : 5;
+  const maxChars = Number(process.env.MAX_CHARS ?? "22");
+  const groups = groupWords(words, gluePrev, maxTokens, maxChars);
   const lines: string[] = [];
 
   for (const group of groups) {
@@ -163,11 +181,29 @@ function buildAssContent(words: WordEntry[], styleId: CaptionStyleId): string {
   return header + "\n" + lines.join("\n") + "\n";
 }
 
+function loadGlueMask(words: WordEntry[], scriptsDir: string, py: string): boolean[] {
+  if ((process.env.SEGMENT_MODE ?? "smart") !== "smart") return words.map(() => false);
+  const segmentScript = resolve(scriptsDir, "../../vietnamese-word-segment/scripts/vi_segment.py");
+  if (!existsSync(segmentScript)) return words.map(() => false);
+  const tempDir = mkdtempSync(join(tmpdir(), "vi-segment-"));
+  const input = join(tempDir, "words.json");
+  const output = join(tempDir, "glue.json");
+  try {
+    writeFileSync(input, JSON.stringify(words), "utf8");
+    const result = spawnSync(py, [segmentScript, input, output], { encoding: "utf8", timeout: 60_000 });
+    if (result.status !== 0 || !existsSync(output)) return words.map(() => false);
+    const mask = JSON.parse(readFileSync(output, "utf8"));
+    return Array.isArray(mask) && mask.length === words.length ? mask.map(Boolean) : words.map(() => false);
+  } finally {
+    rmSync(tempDir, { recursive: true, force: true });
+  }
+}
+
 // ── Public API ────────────────────────────────────────────────────────────────
 
 /**
  * Transcribe `audioPath` (pure voice mp3) with faster-whisper → word timestamps.
- * Burns one-word-at-a-time styled subtitles into `videoPath` → `outputPath`, using
+ * Burns tokenizer-aware multi-word styled subtitles into `videoPath` → `outputPath`, using
  * one of the 6 presets in `caption-styles.json` (shared with
  * [html-video]-subtitle-burn-industry-news — same style data, different
  * grouping/position for the talking-head format).
@@ -202,14 +238,28 @@ export async function burnSubtitles(opts: {
     return { success: false, reason: `whisperx failed: ${msg}` };
   }
 
-  const words: WordEntry[] = JSON.parse(readFileSync(jsonPath, "utf8"));
+  let words: WordEntry[] = JSON.parse(readFileSync(jsonPath, "utf8"));
   if (words.length === 0) {
     return { success: false, reason: "whisperx returned 0 words" };
   }
 
+  const approvedText = process.env.APPROVED_TEXT_PATH;
+  if (approvedText) {
+    const correctionScript = join(scriptsDir, "correct_whisper_text.py");
+    const correctedPath = `${outputPath.replace(/\.mp4$/, "")}-words-corrected.json`;
+    const correction = spawnSync(py, [correctionScript, approvedText, jsonPath, correctedPath], {
+      encoding: "utf8",
+      timeout: 60_000,
+    });
+    if (correction.status !== 0 || !existsSync(correctedPath)) {
+      return { success: false, reason: `approved voice text correction failed: ${correction.stderr?.trim() || "token count mismatch"}` };
+    }
+    words = JSON.parse(readFileSync(correctedPath, "utf8"));
+  }
+
   // ── Step B: build ASS ─────────────────────────────────────────────────────
   const assPath = `${outputPath.replace(/\.mp4$/, "")}.ass`;
-  await writeFile(assPath, buildAssContent(words, style), "utf8");
+  await writeFile(assPath, buildAssContent(words, style, loadGlueMask(words, scriptsDir, py)), "utf8");
 
   // ── Step C: burn with ffmpeg ──────────────────────────────────────────────
   // Windows path: backslashes → forward slashes, colon escaped for filtergraph
@@ -219,7 +269,7 @@ export async function burnSubtitles(opts: {
 
   try {
     execFileSync(
-      "ffmpeg",
+      process.env.FFMPEG_BIN ?? "ffmpeg",
       ["-i", videoPath, "-vf", `ass='${assEscaped}':fontsdir='${fontsEscaped}'`, "-c:a", "copy", "-y", outputPath],
       { timeout: 10 * 60 * 1000 },
     );

@@ -1,27 +1,24 @@
 ---
 name: "[html-video]-subtitle-burn-talking-head"
-description: Transcribes voice audio with faster-whisper (word-level Vietnamese timestamps) and burns ONE-WORD-AT-A-TIME styled ASS subtitles onto a talking-head video via ffmpeg. Sibling of [html-video]-subtitle-burn-industry-news — same 6 caption styles and transcription engine, different grouping (1 word vs 3-4) and vertical position tuned for a human subject in frame.
+description: Transcribes voice audio with faster-whisper word timestamps and burns Vietnamese multi-word ASS subtitles via ffmpeg, with approved-text correction, tokenizer-aware grouping, a hard five-token cap, and lower-quarter placement.
 ---
 
 # [html-video]-subtitle-burn-talking-head
 
-Forked from `[html-video]-subtitle-burn-industry-news` — same faster-whisper transcription
-engine (`scripts/whisperx_transcribe.py`, fixed 2026-08-10 to use native word timestamps instead of
-whisperx's wav2vec2 forced-aligner, see `BUG-011` in `talking-head-editing/docs/debug/bug-codebook/`)
-and the same 6-style caption system (`scripts/lib/caption-styles.json`, ported from
-`nicolaigaina/ai-video-captions`), but tuned for footage with a human subject:
+Uses the same native faster-whisper word timestamp engine and caption presets, but tuned for
+Vietnamese social video:
+
+The local model pack lives in `PRODUCTION/video_modules/WhisperX/models`. The production caller
+uses the Python API with `WHISPER_LOCAL_FILES_ONLY=1`; the WhisperX CLI is not required.
 
 | | This skill (talking-head) | `[html-video]-subtitle-burn-industry-news` |
 |---|---|---|
-| Words shown at once | 1 | 3-4 (gap/max-word grouped) |
-| Vertical position | 3/7 of frame height up from the bottom edge | 1/3 of frame height up from the bottom edge |
-| Typical use | talking-head / interview footage with a person in frame | graphic/typography news-style video, no human subject |
+| Words shown at once | 1–5 visible tokens, tokenizer-aware | 3-4 (gap/max-word grouped) |
+| Vertical position | `SUB_Y_RATIO=0.75` — lower quarter from top | 1/3 of frame height up from bottom |
+| Typical use | talking-head / drama-cartoon / AI scene video | graphic/typography news-style video |
 
-Position rationale: a single active word sits higher (closer to center, 3/7≈43% up from bottom) to
-stay clear of any lower-third graphic overlay in `talking-head-editing`'s Phase 5 assembly, while
-still being below the subject's face. The industry-news variant sits lower (1/3≈33% up from bottom,
-closer to the frame edge) since that pipeline's own graphic elements (headline banners, etc.) occupy
-the upper/middle frame.
+Position rationale: `SUB_Y_RATIO=0.75` places the one-line burst in the lower quarter from the top,
+leaving the face and upper action clear while keeping the caption inside the portrait safe area.
 
 ## Usage
 
@@ -30,9 +27,10 @@ npx tsx 04-burn-subtitles.ts <video.mp4> <audio.mp3> <output.mp4> [style]
 ```
 
 `style` is one of `hormozi | mrbeast | karaoke | minimal | bounce | classic` (default `hormozi`).
-Standalone CLI — no cross-skill `progress.json` dependency (unlike the industry-news variant, which
-integrates with `[html-video]-script-lock`'s progress tracking). Falls back to copying the raw video
-(with a warning) if transcription or ffmpeg fail — the output path always exists either way.
+Set `SEGMENT_MODE=smart MAX_TOKENS=5 SUB_Y_RATIO=0.75` for Vietnamese. Set
+`APPROVED_TEXT_PATH=node/timing/approved-voice.txt` after concat to replace ASR spelling with the
+approved script while preserving WhisperX timestamps; a token-count mismatch stops the burn for
+human review rather than inventing timings.
 
 ## Graph
 

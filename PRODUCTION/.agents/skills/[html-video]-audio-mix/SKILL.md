@@ -23,6 +23,21 @@ sidechain ducking). Writes `voice.mp3` (final mixed) + `voice-raw.mp3` (unmixed,
 `[html-video]-subtitle-burn-industry-news`'s timing pass) next to `script.json`. Marks `sfx_bgm_mixed: true` in
 `progress.json`. Total duration must land in [45s, 180s] (warns, does not fail, if outside).
 
+## AI-scene post-concat adapter
+
+For `ai-ugc-short-video` and `ai-clone-short-video`, use the audio already carried by the
+watermark-clean concatenated MP4 as the voice base. Write `node/audio-spec.json` with ordered
+scene timing (`startSec`, `durationSec`), `voiceText`, optional explicit `sfx`, and optional BGM
+settings, then run:
+
+```bash
+npx tsx 04-mix-ai-scene-audio.ts node/concat_nowm.mp4 node/audio-spec.json node/final-audio.mp4
+```
+
+The adapter keeps the video stream, mixes deterministic semantic/explicit SFX, selects brand BGM
+first (mood fallback second), ducks BGM under voice, and writes `audio-mix-report.json` beside the
+output. Leave BGM disabled unless `Ticket.md` or Part C explicitly requests it.
+
 ## Depends on
 
 `[html-video]-script-lock/scripts/lib/script-schema.ts` and `.../progress.ts` — cross-skill

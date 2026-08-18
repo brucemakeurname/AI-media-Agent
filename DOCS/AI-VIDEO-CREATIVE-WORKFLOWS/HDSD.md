@@ -110,9 +110,10 @@ Không tự sửa đổi fact/claim trong `Ticket.md` để “cho chạy đư�
 
 Đọc `node/GOAL.md`, `Ticket.md`, rồi lần lượt dùng:
 
-1. `write-shooting-script` → tạo `node/shooting-script.md`, `node/timing/timing-lock.json`, và dialogue audio.
-2. `write-ai-ugc-video-sequence-script` → tạo `node/ugc-sequence-script.md` với Part A context, Part B JSON Omni sequence blocks và Part C audio/BGM spec.
-3. `tea-ugc-ai-realism` → chỉ cải thiện nội dung visual trong JSON hiện có.
+1. `f5-tts-timing` → tạo per-line local F5-TTS WAVs và `node/timing/timing-lock.json` trước khi chia sequence.
+2. `write-shooting-script` → tạo `node/shooting-script.md` từ timing lock.
+3. `write-ai-ugc-video-sequence-script` → tạo `node/ugc-sequence-script.md` với Part A context, Part B JSON Omni sequence blocks và Part C audio/BGM spec.
+4. `tea-ugc-ai-realism` → chỉ cải thiện nội dung visual trong JSON hiện có.
 
 **Điểm kiểm bắt buộc:**
 
@@ -125,7 +126,7 @@ Không tự sửa đổi fact/claim trong `Ticket.md` để “cho chạy đư�
 1. Đọc `PRODUCTION/.agents/skills/photography-direction/SKILL.md` và tạo prompt character reference khi thiếu human/person reference.
 2. Ưu tiên product/logo/packshot từ `BASE/BRAND KITs/UltimateSup/`; chỉ generate asset thiếu.
 3. Tạo FlowKit project, upload/register asset reference để lấy media IDs cho sequence.
-4. Chạy `creative-direction` để có prompt thumbnail, rồi dùng `acad-image-gen` render `thumbnail.jpg` tại root campaign.
+4. Chạy `video-thumbnail` để viết `node/thumbnail-brief.md` từ first beat, rồi dùng `acad-image-gen` render `thumbnail.jpg` tại root campaign.
 
 Kiểm tra: nhân vật nhất quán, product/variant đúng ticket, logo/claim không bị sai, và thumbnail tồn tại tại `$CAMPAIGN_DIR/thumbnail.jpg`.
 
@@ -133,16 +134,17 @@ Kiểm tra: nhân vật nhất quán, product/variant đúng ticket, logo/claim 
 
 1. Xác nhận FlowKit extension có trạng thái connected và Google Flow đang ở đúng profile.
 2. Với từng JSON block trong `node/ugc-sequence-script.md`, gửi full JSON làm Omni prompt cùng tối đa 3 reference media IDs và `duration_s` hợp lệ.
-3. Sau raw render, **bắt buộc** FlowKit upscale bằng `VIDEO_RESOLUTION_1080P` trước khi audio sync hoặc downstream processing.
-4. Lưu clip đã upscale thành `node/scenes/scene_{N}_1080p_raw.mp4` cùng render metadata.
+3. Sau raw render, **bắt buộc** FlowKit upscale bằng `VIDEO_RESOLUTION_1080P`; nếu lỗi thì chạy `ffmpeg-upscale-video` và ghi rõ fallback.
+4. Sau khi download từng scene, chạy `gwt-remove-watermark-video` ngay lập tức, trước voice/audio xử lý hoặc concat; lưu raw và `_nowm` cạnh nhau.
+5. Lưu clip đã upscale thành `node/scenes/scene_{N}_1080p_raw.mp4` cùng render metadata.
 
 Nếu FlowKit không upscale được, không im lặng thay thế. Chỉ dùng fallback khi được phê duyệt và ghi rõ nguyên nhân, phương án, resolution và owner trong `manifest.json`.
 
 ### Bước 5 — Video Editor: voice sync và hậu kỳ
 
-1. Dùng `applio-brand-voice` để align/remux authoritative WAV vào mỗi scene 1080p.
-2. Concat scene theo thứ tự trong script.
-3. Burn subtitle bằng `[html-video]-subtitle-burn-talking-head` nếu `Ticket.md` yêu cầu.
+1. Concat scene theo thứ tự trong script, rồi chạy dead-air check.
+2. Chạy WhisperX trên audio concat, đối chiếu `node/timing/approved-voice.txt`, chỉ sửa text bằng `correct_whisper_text.py` và giữ nguyên timestamps.
+3. Burn subtitle bằng `[html-video]-subtitle-burn-talking-head` với `SEGMENT_MODE=smart MAX_TOKENS=5 SUB_Y_RATIO=0.75` nếu `Ticket.md` yêu cầu.
 4. Mix BGM/SFX bằng `[html-video]-audio-mix`, giữ thoại là audio ưu tiên.
 5. Prepend `thumbnail.jpg` bằng `ffmpeg` để **frame 0/keyframe đầu tiên** của final MP4 là thumbnail.
 6. Lưu final `.mp4` tại root campaign; logs/drafts/intermediates lưu trong `node/`.
@@ -201,4 +203,3 @@ Final deliverable ở root campaign; `node/` giữ bằng chứng tái lập: `G
 - `PRODUCTION/goal/[social]_[ai-ugc-short-video].md` — workflow instruction chuẩn.
 - `DOCS/WORKFLOW-VERIFICATION-CHECKLIST.md` — checklist nghiệm thu độc lập.
 - `PRODUCTION/video_modules/flowkit/README.md` — FlowKit setup, extension và troubleshooting.
-

@@ -5,7 +5,8 @@ import { tmpdir } from "node:os";
 
 function run(cmd: string, args: string[]): Promise<string> {
   return new Promise((resolve, reject) => {
-    const proc = spawn(cmd, args);
+    const executable = cmd === "ffmpeg" ? process.env.FFMPEG_BIN ?? cmd : process.env.FFPROBE_BIN ?? cmd;
+    const proc = spawn(executable, args);
     let out = "",
       err = "";
     proc.stdout.on("data", (d) => (out += d.toString()));
@@ -19,18 +20,27 @@ function run(cmd: string, args: string[]): Promise<string> {
 }
 
 export async function getDurationSec(path: string): Promise<number> {
-  const out = await run("ffprobe", [
-    "-v",
-    "error",
-    "-show_entries",
-    "format=duration",
-    "-of",
-    "default=noprint_wrappers=1:nokey=1",
-    path,
-  ]);
-  const d = parseFloat(out.trim());
-  if (isNaN(d)) throw new Error(`ffprobe returned non-numeric duration for ${path}: ${out}`);
-  return d;
+  try {
+    const out = await run("ffprobe", [
+      "-v",
+      "error",
+      "-show_entries",
+      "format=duration",
+      "-of",
+      "default=noprint_wrappers=1:nokey=1",
+      path,
+    ]);
+    const d = parseFloat(out.trim());
+    if (!isNaN(d)) return d;
+  } catch {}
+
+  try {
+    await run("ffmpeg", ["-hide_banner", "-i", path]);
+  } catch (error) {
+    const match = String(error).match(/Duration:\s+(\d+):(\d+):(\d+(?:\.\d+)?)/);
+    if (match) return Number(match[1]) * 3600 + Number(match[2]) * 60 + Number(match[3]);
+  }
+  throw new Error(`could not determine media duration for ${path}; set FFPROBE_BIN or verify FFMPEG_BIN`);
 }
 
 /**

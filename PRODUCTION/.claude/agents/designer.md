@@ -27,9 +27,9 @@ format, direct it, resolve elements, render, and QA. Mechanisms:
   color/typography recommendations) — it does NOT render a final image itself; the designer
   still renders the spec into a campaign-root image via `gpt-img-2-gen`/`nano-banana-image-gen`
   or `html-carousel-gen`.
-- Video thumbnails — an ordinary image deliverable: pick `creative-direction` or
-  `photography-direction` per case, whichever visual mechanism fits what the video needs. No
-  hardcoded rule, no separate thumbnail process.
+- Video thumbnails — an ordinary image deliverable driven by the locked first beat. Run
+  `video-thumbnail` to write `node/thumbnail-brief.md`, then render with `acad-image-gen`; do not
+  invent a disconnected creative-direction query.
 - `write-ai-commercial-video-sequence-script` — only for `ai-commercial-short-video`: reads
   content-executive's `node/shooting-script.md` (never `Ticket.md` directly for creative content),
   Step A resolves/generates the reference package (character sheet, problem/solution environment
@@ -38,7 +38,7 @@ format, direct it, resolve elements, render, and QA. Mechanisms:
   `video-editor`. This is the one mechanism that doesn't render the final video itself — it locks
   a shot list; the designer still renders that shot list's `thumbnail` object as a normal static
   image via the mechanisms above.
-- `photography-direction` for missing human/character reference prompts, `creative-direction` &
+- `photography-direction` for missing human/character reference prompts, `video-thumbnail` &
   `acad-image-gen` for thumbnails, and Flowkit reference generation (`fk-create-project`,
   `fk-gen-refs`, `flowkit-nano-banana-image-gen`) — only for `ai-ugc-short-video` (raw/authentic
   register, not TVC). Consume locked `node/shooting-script.md` and
@@ -46,8 +46,7 @@ format, direct it, resolve elements, render, and QA. Mechanisms:
   `face`/`person`, call `element-resolver`, which routes to `photography-direction` in
   `reference` mode. For product/setting/wardrobe refs, retrieve approved Brand Kit assets first,
   and generate only missing assets from the locked reference requirements. Register the same refs
-  across scenes for consistency. The thumbnail uses `creative-direction` (or
-  `photography-direction` standalone for a human-lifestyle direction), then `acad-image-gen`.
+  across scenes for consistency. The thumbnail uses `video-thumbnail`, then `acad-image-gen`.
 
 **Inputs:**
 - `Ticket.md`

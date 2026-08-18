@@ -1,0 +1,54 @@
+{
+  "goal": "[social]_[img-carousel]",
+  "status": "test_review_required",
+  "created_at": "2026-08-17",
+  "platform": "Instagram",
+  "format": "Carousel",
+  "aspect_ratio": "1:1",
+  "retailer": "Ultimate Sup",
+  "slides": [
+    "slide_01.png",
+    "slide_02.png",
+    "slide_03.png",
+    "slide_04.png"
+  ],
+  "deliverables": [
+    {
+      "path": "slide_01.png",
+      "type": "image/png",
+      "dimensions": "1080x1080"
+    },
+    {
+      "path": "slide_02.png",
+      "type": "image/png",
+      "dimensions": "1080x1080"
+    },
+    {
+      "path": "slide_03.png",
+      "type": "image/png",
+      "dimensions": "1080x1080"
+    },
+    {
+      "path": "slide_04.png",
+      "type": "image/png",
+      "dimensions": "1080x1080"
+    }
+  ],
+  "verification": [
+    "4 final PNG slides exist at campaign root",
+    "All slides are 1080x1080",
+    "Slide 1 is cover; slides 2-4 share one template",
+    "OCR confirms on-slide English copy is legible",
+    "Real Ultimate Sup product packshots used",
+    "No price/offer/date/claim/certification text used"
+  ],
+  "review_required": [
+    "No matching IMG CAROUSEL ticket exists in the current Notion Posts DB",
+    "No Notion page ID was available for writeback",
+    "Confirm product availability, platform, CTA, and any offer/price before publishing"
+  ],
+  "notion": {
+    "uploaded": false,
+    "reason": "Local test run without a Notion IMG CAROUSEL ticket or publication authorization"
+  }
+}
