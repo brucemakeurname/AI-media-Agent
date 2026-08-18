@@ -14,7 +14,6 @@ require_exec() {
   fi
 }
 
-require_exec "$F5_TTS_PYTHON"
 require_exec "$FLOWKIT_PYTHON"
 require_exec "$WHISPERX_PYTHON"
 require_exec "$WATERMARK_BIN"
@@ -22,7 +21,6 @@ require_exec "$AUDIO_TSX"
 require_exec "$SUBTITLE_TSX"
 require_exec "$FFMPEG_BIN"
 
-if "$F5_TTS_PYTHON" -c 'import f5_tts, soundfile, torch; print("F5-TTS import ok")'; then :; else failures=$((failures + 1)); fi
 if "$WHISPERX_PYTHON" -c 'import faster_whisper, pyvi; print("WhisperX/pyvi import ok")'; then :; else failures=$((failures + 1)); fi
 if (cd "$FLOWKIT_ROOT" && "$FLOWKIT_PYTHON" -c 'import agent; print("Flowkit agent import ok")'); then :; else failures=$((failures + 1)); fi
 if "$WATERMARK_BIN" --version >/dev/null 2>&1; then printf 'OK: watermark remover\n'; else printf 'FAIL: watermark remover\n' >&2; failures=$((failures + 1)); fi
@@ -45,14 +43,6 @@ if [ -f "$WHISPERX_ALIGN_MODEL/config.json" ] && [ -n "$align_weights" ]; then
   printf 'OK: WhisperX Vietnamese alignment pack\n'
 else
   printf 'MISSING: WhisperX Vietnamese alignment pack\n' >&2
-  failures=$((failures + 1))
-fi
-
-f5_model="$(find "$HOME/.cache/huggingface/hub/models--SWivid--F5-TTS" -name model_1250000.safetensors -print -quit 2>/dev/null || true)"
-if [ -n "$f5_model" ]; then
-  printf 'OK: F5-TTS model cache\n'
-else
-  printf 'MISSING: F5-TTS model cache\n' >&2
   failures=$((failures + 1))
 fi
 

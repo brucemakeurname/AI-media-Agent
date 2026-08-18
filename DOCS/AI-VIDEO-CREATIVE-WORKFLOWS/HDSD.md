@@ -110,7 +110,7 @@ Không tự sửa đổi fact/claim trong `Ticket.md` để “cho chạy đư�
 
 Đọc `node/GOAL.md`, `Ticket.md`, rồi lần lượt dùng:
 
-1. `f5-tts-timing` → tạo per-line local F5-TTS WAVs và `node/timing/timing-lock.json` trước khi chia sequence.
+1. `gemini-tts-timing` → tạo per-line Gemini TTS WAVs và `node/timing/timing-lock.json` trước khi chia sequence.
 2. `write-shooting-script` → tạo `node/shooting-script.md` từ timing lock.
 3. `write-ai-ugc-video-sequence-script` → tạo `node/ugc-sequence-script.md` với Part A context, Part B JSON Omni sequence blocks và Part C audio/BGM spec.
 4. `tea-ugc-ai-realism` → chỉ cải thiện nội dung visual trong JSON hiện có.

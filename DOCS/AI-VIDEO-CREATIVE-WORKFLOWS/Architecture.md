@@ -11,7 +11,7 @@ Hệ thống này chuyển một brief đã có trên Notion thành video AI UGC
 ```text
 UltimateSup Notion Post + linked Campaign
   → Ticket.md + node/GOAL.md
-  → shooting script + local F5-TTS timing/audio lock
+  → shooting script + Gemini TTS timing/audio lock
   → JSON Omni sequence prompts + character references
   → Google Flow Omni clips + 1080p upscale (ffmpeg fallback)
   → per-scene watermark removal + WhisperX text QA + subtitle + BGM/SFX + frame-0 thumbnail
@@ -28,10 +28,10 @@ Sơ đồ thao tác chi tiết đính kèm riêng: `AI-VIDEO-CREATIVE-WORKFLOW-D
 | Input interface | [UltimateSup Notion database/page](https://app.notion.com/p/Mutant-Big-Greens-Smoothy-making-with-banana-and-chestnut-3bb0831f990c80e191a8cea409ccf6aa?source=copy_link) | Nguồn brief, audience, product/claim, visual concept, reference URL, CTA | User được cấp quyền đọc Notion và key API local. |
 | Workflow compiler | `notion2goal` | Pull field từ Notion, chọn goal theo `Visual Type`, tạo `Ticket.md` và `node/GOAL.md` | Không còn placeholder; thiếu/mâu thuẫn field thì dừng và ghi blocker. |
 | Instruction workflow | `PRODUCTION/goal/[social]_[ai-ugc-short-video].md` | Điều phối role theo thứ tự: content → designer → video-editor → publisher | `node/GOAL.md` là prompt đã fill; `Ticket.md` là brief/claim authority. |
-| Content module | `f5-tts-timing`, `write-shooting-script`, `write-ai-ugc-video-sequence-script`, `tea-ugc-ai-realism` | Đo timing thoại local, viết shooting script, tạo JSON Omni và cải thiện realism visual | `node/shooting-script.md`, `node/timing/`, `node/ugc-sequence-script.md`. |
+| Content module | `gemini-tts-timing`, `write-shooting-script`, `write-ai-ugc-video-sequence-script`, `tea-ugc-ai-realism` | Đo timing thoại bằng Gemini TTS, viết shooting script, tạo JSON Omni và cải thiện realism visual | `node/shooting-script.md`, `node/timing/`, `node/ugc-sequence-script.md`. |
 | Design module | `photography-direction`, `video-thumbnail`, `acad-image-gen`, FlowKit refs | Tạo character/product references và thumbnail bám first beat | Reference assets trong `node/`; `thumbnail.jpg` tại root campaign. |
 | Video module | `PRODUCTION/video_modules/flowkit` + Google Flow Chrome extension | Tạo Omni clips 4/6/8/10s từ full JSON & media IDs; upscale từng clip lên 1080p | `node/scenes/scene_{N}_1080p_raw.mp4` và render metadata. |
-| Voice/post module | `f5-tts-timing`, `gwt-remove-watermark-video`, `ffmpeg-upscale-video`, subtitle/audio skills | Timing lock, remove watermark sau download, fallback upscale, concat, subtitle burn, BGM/SFX mix, chèn thumbnail frame 0 | Final vertical MP4 tại root campaign; working logs trong `node/`. |
+| Voice/post module | `gemini-tts-timing`, `gwt-remove-watermark-video`, `ffmpeg-upscale-video`, subtitle/audio skills | Timing lock, remove watermark sau download, fallback upscale, concat, subtitle burn, BGM/SFX mix, chèn thumbnail frame 0 | Final vertical MP4 tại root campaign; working logs trong `node/`. |
 | QA/publish gate | `notion-publisher`, `manifest.json` | Chỉ xác nhận/ghi ngược Notion sau QA kỹ thuật, brand và claim | `manifest.json` được tạo sau khi final artifact tồn tại và pass. |
 
 ## 3. Luồng Làm Việc Trọng Tâm Theo GOAL
@@ -40,7 +40,7 @@ Sơ đồ thao tác chi tiết đính kèm riêng: `AI-VIDEO-CREATIVE-WORKFLOW-D
 
 ### 3.1 Content Executive
 
-1. `f5-tts-timing` tạo per-line local WAV và `node/timing/timing-lock.json`; sau đó `write-shooting-script` tạo `node/shooting-script.md`.
+1. `gemini-tts-timing` tạo per-line WAV và `node/timing/timing-lock.json`; sau đó `write-shooting-script` tạo `node/shooting-script.md`.
 2. Timing lock đóng gói thoại thành số sequence ít nhất có thể, mỗi sequence chỉ dài `4`, `6`, `8`, hoặc `10` giây.
 3. `write-ai-ugc-video-sequence-script` tạo `node/ugc-sequence-script.md`: Part A reference context, Part B JSON Omni blocks, Part C audio/BGM spec.
 4. `tea-ugc-ai-realism` chỉ được cải thiện các field visual hiện hữu trong JSON (ví dụ ánh sáng, texture da, camera, environment, motion). Không được đổi schema/key, dialogue, claim, reference, duration hoặc thứ tự scene.

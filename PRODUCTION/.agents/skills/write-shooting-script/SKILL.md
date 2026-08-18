@@ -18,7 +18,7 @@ longer reads `Ticket.md` directly for creative content — it reads this file in
 | `preset_sequence_script_path` | AI-clone only: per-sequence reference Markdown produced by `crawl_describe_Tiktok_vid_apify` |
 | `clone_keyframe_dir` | AI-clone only: accepted `iconic-frames/` folder beside the crawler reference Markdown |
 | `target_duration_sec` | from `Video-requirement` if stated; otherwise derive from measured TTS duration rounded up by minimal permitted sequence packing |
-| `timing_audio_dir` | `node/timing/` — per-line local F5-TTS WAVs and `timing-lock.json` created before sequence division when dialogue exists |
+| `timing_audio_dir` | `node/timing/` — per-line Gemini TTS WAVs and `timing-lock.json` created before sequence division when dialogue exists |
 | `output_path` | `node/shooting-script.md` |
 | `revision_notes` | (revision pass only) answered gaps from `node/gap-request.md` |
 
@@ -62,11 +62,11 @@ director draws on genre familiarity rather than a mood board. **State this expli
 
 ## Method 3 — Pre-generation TTS Timing Lock & Minimal Sequence Packing
 
-Do not estimate speaking duration by LLM character count alone — that introduces timeline drift. Run local F5-TTS first to measure exact audio duration per dialogue line before locking sequence boundaries.
+Do not estimate speaking duration by LLM character count alone — that introduces timeline drift. Run `gemini-tts-timing` first to measure exact audio duration per dialogue line before locking sequence boundaries.
 
 1. **Generate TTS Audio Lock:**
-   Synthesize narration audio for every dialogue line using `f5-tts-timing` with the approved local
-   reference audio/transcript and requested model/device. Measure exact audio clip durations with
+   Synthesize narration audio for every dialogue line using `gemini-tts-timing` with the approved
+   voice and requested model. Measure exact audio clip durations with
    `ffprobe -show_entries format=duration -of default=noprint_wrappers=1:nokey=1`. Write one
    `node/timing/timing-lock.json` containing each line, source text, WAV path, exact duration, and
    cumulative in/out timestamps. If the ticket has no dialogue, write `no-dialogue` in the lock and
@@ -152,7 +152,7 @@ append `## Round N answers` to this same file (never overwrite prior rounds), an
 `Revision Log`.
 
 ## Do / Don't
-- DO generate and measure local F5-TTS before timing any dialogue-bearing script; retain `node/timing/timing-lock.json` and per-line WAVs as evidence.
+- DO generate and measure Gemini TTS before timing any dialogue-bearing script; retain `node/timing/timing-lock.json` and per-line WAVs as evidence.
 - DO use the fewest render sequences that cover the measured dialogue duration and satisfy the narrative.
 - DO use only 4s, 6s, 8s, or 10s sequences; a sequence may contain multiple timed visual sub-scenes.
 - DO state the running sequence total and flag if it is shorter than measured dialogue audio or violates an explicit duration requirement.

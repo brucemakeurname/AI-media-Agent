@@ -14,7 +14,7 @@
 | **2. Thật việc** |  Passed | Concrete everyday gym actions: opening shaker, dumping scoop, shaking bottle, taking genuine swallow, reading label. |
 | **3. Thật tay** |  Passed | Hands firmly grip shaker bottle, twist cap, tap tub label, scoop powder. Zero floating or disembodied hands. |
 | **4. Thật mặt** |  Passed | Expressive micro-expressions: initial skeptical raised brow → widened eyes on taste test → friendly closing wink. |
-| **5. Thật giọng** |  Passed | Authentic Singlish cadence (`lah`, `sia`, `confirm plus chop`, `wah lau`), natural breath pauses locked via F5-TTS. |
+| **5. Thật giọng** |  Passed | Authentic Singlish cadence (`lah`, `sia`, `confirm plus chop`, `wah lau`), natural breath pauses locked via Gemini TTS. |
 | **6. Thật cảnh** |  Passed | Realistic Singapore gym locker/lounge with soft-focus racks, practical warm overhead lighting, lived-in feel. |
 | **7. Thật máy** |  Passed | Handheld iPhone selfie POV with natural human micro-shake and slight organic sway; no robotic crane/dolly moves. |
 

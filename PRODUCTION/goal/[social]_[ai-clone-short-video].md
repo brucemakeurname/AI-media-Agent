@@ -31,11 +31,11 @@ runtime:
 Omni-rendered TikTok clone short video via Flowkit — rebuilds a target TikTok reference video frame-by-frame (pacing, layout, tone) using company-owned assets, characters, settings, products, and voice, while preserving original camera composition and sequence structure.
 
 Pipeline overview:
-0. From the workspace root, source `PRODUCTION/video_modules/runtime.sh` and run `PRODUCTION/video_modules/preflight.sh`. If it fails, stop; do not substitute a different campaign's footage or a cloud TTS provider.
+0. From the workspace root, source `PRODUCTION/video_modules/runtime.sh` and run `PRODUCTION/video_modules/preflight.sh`. If it fails, stop; do not substitute a different campaign's footage or an unapproved TTS provider.
 1. `researcher` routes the input reference URL from Notion's `Visual Concept` and `Voice` body sections: use `crawl_describe_Tiktok_vid_kalodata` for a direct `live.kalocdn.com/video/*.mp4` URL; use `crawl_describe_Tiktok_vid_apify` only as fallback for a non-Kalodata public TikTok post URL. Its final reference Markdown is the `preset_sequence_script`; it supplies the raw sequence structure, reference keyframes (sampled at 3s intervals with deduplication), and source voice structure.
 2. `content-executive` drafts caption (`caption.md`), then runs `write-shooting-script` using the preset sequence script and source voice script as input:
    - Voice script is adapted keeping 80% of original cadence, flow, and tone, replacing only the human, product, brand context, and target language if required.
-   - Dialogue lines are timing-locked via local F5-TTS (`node/timing/timing-lock.json`) before sequence division.
+   - Dialogue lines are timing-locked via `gemini-tts-timing` (`node/timing/timing-lock.json`) before sequence division.
    - Script is divided into minimal 4/6/8/10s sequence packing.
    - Runs `write-ai-ugc-video-sequence-script` to write `node/ugc-sequence-script.md`, incorporating both company ref assets and the extracted target keyframes (`iconic-frames/`) as visual references so rendered frames do not drift from the reference video.
    - Applies `tea-ugc-ai-realism` review before handoff.
@@ -141,7 +141,7 @@ Completion condition requires final 1080p MP4 at root, thumbnail at root, R2 vid
 - **Gemini TTS timing lock:** create `node/timing/lines.json`, run `gemini-tts-timing`, and pack the minimum
   4/6/8/10s plan from measured durations before writing the clone sequence script. Keep the source
   reference structure, but never estimate speech timing from characters.
-- **Scene order:** `reference download → F5 timing → sequence script → Omni render → Flowkit upscale
+- **Scene order:** `reference download → Gemini TTS timing → sequence script → Omni render → Flowkit upscale
   (or ffmpeg fallback) → download → per-scene watermark removal → voice/audio handling → concat →
   WhisperX + approved-text QA → subtitle burn → SFX/BGM mix → thumbnail prepend`.
 - **Subtitle/audio QA:** compare WhisperX words from the concat audio with the approved voice text

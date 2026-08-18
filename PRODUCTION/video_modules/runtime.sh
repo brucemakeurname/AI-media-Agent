@@ -13,8 +13,6 @@ export VIDEO_MODULES_ROOT
 export INFRA_ROOT="$(cd "$VIDEO_MODULES_ROOT/../.." && pwd)"
 export FLOWKIT_ROOT="$VIDEO_MODULES_ROOT/flowkit"
 export FLOWKIT_PYTHON="$FLOWKIT_ROOT/.venv/bin/python"
-export F5_TTS_ROOT="$VIDEO_MODULES_ROOT/F5-TTS"
-export F5_TTS_PYTHON="$F5_TTS_ROOT/.venv/bin/python"
 export WHISPERX_PYTHON="$VIDEO_MODULES_ROOT/hyperframes/.venv-tools/bin/python"
 export WHISPERX_MODULE_ROOT="$VIDEO_MODULES_ROOT/WhisperX"
 export WHISPERX_MODEL_ROOT="$WHISPERX_MODULE_ROOT/models"
