@@ -31,7 +31,9 @@ a different grounding source (retrieved `posing`/`dancing`/`indie` templates, no
 
 | Param | Source |
 |---|---|
-| `shooting_script_path` | `node/shooting-script.md` — locked sequence/sub-scene plan, dialogue, references, and hard constraints |
+| `shooting_script_path` | `node/shooting-script.md` — locked sequence/sub-scene plan, dialogue, references, hard constraints, and optional b-roll/overlay modes |
+| `broll_mode` | `b-roll: true` if declared in shooting script, otherwise `b-roll: false` |
+| `overlay_mode` | `overlay: true` if declared in shooting script, otherwise `overlay: false` |
 | `timing_lock_path` | `node/timing/timing-lock.json` — required for dialogue-bearing work; Gemini TTS WAV duration evidence and assigned sequence/sub-scene windows |
 | `video_prompt_library_root` | `BASE/BRAND KITs/5. Video_Prompt_Template/` — groups `posing/`, `dancing/`, `indie/` (raw/authentic register). **Prune `commercial/`** — that group is TVC-crafted content and would drift the pipeline into the wrong register. |
 | `character_ref_dir` | named influencer face-reference folder identified in the shooting script, if any |
@@ -200,6 +202,20 @@ path from the local library, mix volume, fade timing) if `Video Requirement` exp
 - Named influencer / character ref dir, if any:
 - `voice` contract: exact approved dialogue only; timing and visual pacing stay in `timeline`.
 
+## Optional B-roll & HyperFrames Overlay Modes
+
+- **When `b-roll: true`:**
+  - For B-roll product cutaways, keep `timeline[].dialogue` and sequence `voice` empty for the cutaway window so Omni generates pure product footage without hallucinated talking heads.
+  - Re-use approved product packshot refs from `BASE/BRAND KITs/` (`REF-B-...`).
+  - Downstream `video-editor` maps the visual cutaway to the matching A-roll dialogue audio window and records in `node/broll-manifest.json`.
+
+- **When `overlay: true`:**
+  - Never bake unverified prices, dates, or complex badges into the raw Omni `text` prompt. Keep Omni `text` clean or minimal.
+  - Define exact post-production HyperFrames graphic overlay moments (packshots, price cards, claim cards, CTA pointers) with exact timestamps and safe-zone coordinates (`x`, `y`).
+  - Downstream `video-editor` renders transparent ProRes 4444 overlays and records in `node/hyperframes-overlay-manifest.json`.
+
+*(When `b-roll: false` and `overlay: false`, the workflow outputs standard single-stream UGC footage and burned subtitles without additional manifests).*
+
 ## Sequence count rationale
 | Sequence | Render duration | Narrative beat(s) / internal jumpcuts | Minimum-count rationale |
 |---|---|---|
@@ -270,6 +286,15 @@ validates the full `timeline`, and sends the complete JSON object to Omni)
 ## PART C — Audio
 - BGM needed: yes/no (per Video Requirement)
 - If yes: mood / track path / mix volume / fade timing
+
+## PART D — Post-Production Handoff Plans (Optional)
+### B-roll Cutaway Manifest Plan (if b-roll: true)
+| B-roll ID | Window (start–end) | Beat / Visual Focus | Audio Remux Source | Product Ref |
+|---|---|---|---|---|
+
+### HyperFrames Overlay Plan (if overlay: true)
+| Overlay ID | Window (start–end) | Graphic Element | Safe Zone | Copy / Data Source |
+|---|---|---|---|---|
 
 ## Bảng gán REF (≤3/scene)
 | Sequence | Nội dung | Ref context | Ref sản phẩm | Ref nhân vật | Ref keyframe clone |

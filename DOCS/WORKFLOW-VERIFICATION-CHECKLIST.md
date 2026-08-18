@@ -82,7 +82,9 @@ test -s "$CAMPAIGN_DIR/node/GOAL.md"
 - [ ] Mỗi sequence JSON được gửi vào FlowKit Omni đầy đủ và tạo scene đúng duration.
 - [ ] Có bằng chứng raw clip được FlowKit upscale `VIDEO_RESOLUTION_1080P`, hoặc `ffmpeg-upscale-video` fallback được log.
 - [ ] Từng scene đã download rồi mới remove watermark; raw và `_nowm` được giữ để QA.
-- [ ] Đã concat, dead-air check, WhisperX đối chiếu approved voice text, burn subtitle `MAX_TOKENS=5` ở `SUB_Y_RATIO=0.75`, mix BGM/SFX, và prepend thumbnail frame 0.
+- [ ] Có `node/scene-qa.json` với QA sau download và sau upscale/watermark removal; mọi scene có `render_verified: true`.
+- [ ] Product B-roll dùng approved Brand Kit ref, có `node/broll-manifest.json`, và map video B-roll với audio A-roll/approved voice cùng timeline window.
+- [ ] Đã concat, dead-air/boundary check, WhisperX đối chiếu approved voice text, HyperFrames overlay QA, burn subtitle `MAX_TOKENS=5` ở `SUB_Y_RATIO=0.75`, mix BGM/SFX, và prepend thumbnail frame 0.
 
 **Pass:** Mọi scene và final output có traceability path; fallback kỹ thuật (nếu được phê duyệt) được ghi trong `manifest.json` cùng lý do.
 
@@ -113,6 +115,7 @@ ffmpeg -y -i "$FINAL_VIDEO" -frames:v 1 "$CAMPAIGN_DIR/node/qa/frame-000001.jpg"
 - [ ] Subtitle đúng thoại, trong safe area, không che CTA/packshot.
 - [ ] Voice rõ, BGM/SFX không lấn át thoại; không có audio drop/cut không chủ ý.
 - [ ] Product, flavour/variant, price/offer, claim, logo và CTA khớp `Ticket.md`/nguồn được duyệt.
+- [ ] HyperFrames product/price/text overlays không che mặt, packshot label, CTA hoặc subtitle; `alpha_verified` và timing được ghi trong `node/hyperframes-overlay-manifest.json`.
 
 ## D. Ma Trận Nghiệm Thu
 

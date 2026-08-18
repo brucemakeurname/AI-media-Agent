@@ -14,7 +14,9 @@ longer reads `Ticket.md` directly for creative content — it reads this file in
 
 | Param | Source |
 |---|---|
-| `ticket_path` | `Ticket.md` — visual concept/script, optional spoken `Voice Over`/dialogue script, `Voice` persona, and `Video-requirement` |
+| `ticket_path` | `Ticket.md` — visual concept/script, optional spoken `Voice Over`/dialogue script, `Voice` persona, `Video-requirement`, optional `B-roll Brief`, and optional `Overlay Motion & Price Brief` |
+| `broll_mode` | `b-roll: true` if `B-roll Brief` is present in `Ticket.md`, otherwise `b-roll: false` |
+| `overlay_mode` | `overlay: true` if `Overlay Motion & Price Brief` is present in `Ticket.md`, otherwise `overlay: false` |
 | `preset_sequence_script_path` | AI-clone only: per-sequence reference Markdown produced by `crawl_describe_Tiktok_vid_apify` |
 | `clone_keyframe_dir` | AI-clone only: accepted `iconic-frames/` folder beside the crawler reference Markdown |
 | `target_duration_sec` | from `Video-requirement` if stated; otherwise derive from measured TTS duration rounded up by minimal permitted sequence packing |
@@ -33,6 +35,22 @@ accuracy, forbidden claims, required setting, subtitle need, aspect ratio).
 Extract spoken dialogue independently from the visual script. `Voice` may only name the requested
 persona (for example `voice_1_male`); it is not dialogue. Use a dedicated `Voice Over`/`Dialogue` body
 section when present. If no spoken script exists, mark the ticket `no-dialogue` and do not invent VO.
+
+### B-roll and Overlay Modes (Optional)
+
+- **`b-roll: true` (when Ticket.md contains B-roll Brief):**
+  Identify which sub-scenes are A-roll (creator on camera) vs B-roll product cutaways (`b-roll-product`, e.g. macro packshot, powder pour, shaker mix, tub into bag). For all B-roll cutaway windows:
+  1. Specify `Beat type: b-roll-product`.
+  2. Keep `Dialogue/VO` audio running underneath from the approved A-roll/voice line, but mark that the B-roll visual itself has **no on-camera dialogue** (keeps Omni prompt voice empty).
+  3. Record required product packshot / angle references from `BASE/BRAND KITs/`.
+  *(When `b-roll: false`, the workflow runs standard single-track A-roll scenes without cutaway manifest).*
+
+- **`overlay: true` (when Ticket.md contains Overlay Motion & Price Brief):**
+  Identify motion graphic overlay moments (packshot slide-in/out, price/discount card, verified product claims, yellow-basket CTA pointer). For each overlay:
+  1. Specify start/end timing, entrance/exit motion, and 9:16 safe zone (`x`, `y` coordinates).
+  2. Ensure prices/claims copy 100% strictly from `Ticket.md` (never invent offers/dates).
+  3. Mark as post-production HyperFrames overlay cues (not baked into raw Omni generated footage).
+  *(When `overlay: false`, standard on-screen text/subtitles are used without separate HyperFrames overlay layer).*
 
 ### AI-clone exception — crawler preset and voice adaptation
 
@@ -98,6 +116,8 @@ of the sequence script:
 - Target/render duration: {{target_duration_sec}}s (running total: Xs; must be >= measured dialogue duration)
 - Voice/persona: {{voice_brief}}
 - Video requirement (hard constraints): {{video_requirement}}
+- B-roll mode: `b-roll: true` | `b-roll: false` (optional, based on Ticket.md)
+- Overlay mode: `overlay: true` | `overlay: false` (optional, based on Ticket.md)
 - Continuity decision: single wardrobe throughout | per-scene wardrobe change (state which, and why)
 - Creative-translation method: format-aware built-in craft knowledge (no curated library yet — see SKILL.md Method 2)
 - Clone reference preset / keyframe directory: {{preset_sequence_script_path}} | {{clone_keyframe_dir}} (AI-clone only)
@@ -108,6 +128,7 @@ of the sequence script:
 - Dialogue window(s): {{voice_timing_ranges}}
 
 ### Sub-scene 1.1 — {{start}}–{{end}}
+- Beat type: a-roll | b-roll-product (if b-roll: true)
 - Visual:
 - Action/Activity:
 - Dialogue/VO:
@@ -115,6 +136,7 @@ of the sequence script:
 - Music/mood cue:
 - Motion/VFX:
 - On-screen text:
+- Overlay cues (optional, if overlay: true):
 - Ending/transition:
 - Reference needs: character (yes/no) · environment (yes/no) · product (yes/no) · source footage (yes/no) · clone keyframe (timestamp/file or no)
 

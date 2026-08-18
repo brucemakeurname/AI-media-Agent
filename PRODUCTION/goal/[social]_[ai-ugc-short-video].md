@@ -7,7 +7,7 @@ amount: [single, batch]        # studio agent picks engine per ticket volume; bo
 engine:
   single: { text: in-session-gemini-3-pro, script: "write-shooting-script", timing: "gemini-tts-timing", sequence: "write-ai-ugc-video-sequence-script", image: "flowkit (fk-create-project, fk-gen-refs, flowkit-nano-banana-image-gen)", video: "flowkit (fk-omni-video-gen reference_to_video, per-sequence sequential)", upscale: "flowkit 1080p → ffmpeg fallback", voice: "approved per-scene voice strategy" }
   batch:  { text: gemini-api-skill,        script: "write-shooting-script", timing: "gemini-tts-timing", sequence: "write-ai-ugc-video-sequence-script", image: "flowkit (fk-create-project, fk-gen-refs, flowkit-nano-banana-image-gen)", video: "flowkit (fk-omni-video-gen parallel per-ticket sub-agents)", upscale: "flowkit 1080p → ffmpeg fallback", voice: "approved per-scene voice strategy" }
-primary_skills: [wiki-query, write-shooting-script, gemini-tts-timing, write-ai-ugc-video-sequence-script, tea-ugc-ai-realism, acad-image-gen, video-thumbnail, fk-create-project, fk-gen-refs, flowkit-nano-banana-image-gen, fk-omni-video-gen, gwt-remove-watermark-video, ffmpeg-upscale-video, "[html-video]-subtitle-burn-talking-head", "[html-video]-audio-mix", element-resolver, notion-upload]
+primary_skills: [wiki-query, write-shooting-script, gemini-tts-timing, write-ai-ugc-video-sequence-script, tea-ugc-ai-realism, acad-image-gen, video-thumbnail, fk-create-project, fk-gen-refs, flowkit-nano-banana-image-gen, fk-omni-video-gen, gwt-remove-watermark-video, ffmpeg-upscale-video, "[html-video]-post-production-qa-broll-overlay", "[html-video]-subtitle-burn-talking-head", "[html-video]-audio-mix", element-resolver, notion-upload]
 notion:
   posts_db: 38d0831f990c802db2b1e2a7b03a05da
   posts_source: collection://d830831f-990c-83a6-adf7-07c65da0e90a
@@ -34,7 +34,7 @@ Pipeline overview:
 0. From the workspace root, source `PRODUCTION/video_modules/runtime.sh` and run `PRODUCTION/video_modules/preflight.sh`. If it fails, stop; for `new_generation`, never use another campaign's footage as a fallback.
 1. `content-executive` drafts caption (`caption.md`), runs `write-shooting-script` to write `node/shooting-script.md`, runs local `gemini-tts-timing` to lock real dialogue durations, then runs `write-ai-ugc-video-sequence-script` to generate `node/ugc-sequence-script.md` and uses `tea-ugc-ai-realism` to review and apply its actionable realism improvements before handoff.
 2. `designer` resolves the reference package: for a missing human/character ref, `element-resolver` routes to `photography-direction` (`mode: reference`) to formulate and generate the person prompt; for product/setting refs, retrieve approved assets first, then generate missing items via `flowkit-nano-banana-image-gen`. Register all refs in Flowkit (`fk-create-project`, `fk-gen-refs`), then write `node/thumbnail-brief.md` from the locked script and render a TikTok thumbnail with `video-thumbnail` + `acad-image-gen`.
-3. `video-editor` renders Omni sequence clips via Flowkit (`fk-omni-video-gen`), runs mandatory **Flowkit 1080p upscale** (`POST /api/flow/upscale-video`) or records the `ffmpeg-upscale-video` fallback, downloads each scene, removes the Gemini/Veo visible watermark per scene (`gwt-remove-watermark-video`, immediately after download and before concat), applies the approved scene voice strategy, concatenates scenes, checks dead-air, compares WhisperX words with the approved voice text before burn, burns subtitles (`[html-video]-subtitle-burn-talking-head` with `SEGMENT_MODE=smart MAX_TOKENS=5 SUB_Y_RATIO=0.75`), mixes audio/SFX/BGM (`[html-video]-audio-mix`), prepends the thumbnail as the **first keyframe**, and saves the final MP4.
+3. `video-editor` renders Omni sequence clips via Flowkit (`fk-omni-video-gen`), runs mandatory **Flowkit 1080p upscale** (`POST /api/flow/upscale-video`) or records the `ffmpeg-upscale-video` fallback, downloads each scene, runs download QA, removes the Gemini/Veo visible watermark per scene (`gwt-remove-watermark-video`), runs post-processing QA, maps product B-roll video to the approved A-roll/voice audio source, concatenates scenes, checks dead-air and boundaries, runs WhisperX approved-text QA, creates transparent HyperFrames product/price/text overlays over A-roll, burns subtitles (`[html-video]-subtitle-burn-talking-head` with `SEGMENT_MODE=smart MAX_TOKENS=5 SUB_Y_RATIO=0.75`), mixes audio/SFX/BGM (`[html-video]-audio-mix`), runs final technical/brand/claim QA, prepends the thumbnail as the **first keyframe**, and saves the final MP4.
 4. `notion-publisher` uploads assets, writes back to Notion, and creates `manifest.json`.
 
 ## Amount paths
@@ -47,7 +47,7 @@ Pipeline overview:
 > Fill every `{{placeholder}}` from Notion — field-mapping table below — then run the 3 roles in sequence. No parallel fan-out within a single ticket.
 
 ```text
-This is a {{format}} ai-ugc-short-video for {{channel}}, brand {{brand}}, pillar {{pillar}}, campaign {{campaign_link}}. Topic: {{topic}}. Voice/persona: {{voice_brief}}. Video requirement (hard constraints — duration cap, aspect ratio, dialogue/subtitle need, forbidden claims): {{video_requirement}}. Visual concept: {{visual_concept_script}}.
+This is a {{format}} ai-ugc-short-video for {{channel}}, brand {{brand}}, pillar {{pillar}}, campaign {{campaign_link}}. Topic: {{topic}}. Voice/persona: {{voice_brief}}. Video requirement (hard constraints — duration cap, aspect ratio, dialogue/subtitle need, forbidden claims): {{video_requirement}}. Visual concept: {{visual_concept_script}}. B-roll mode: {{broll_mode}} (Brief: {{broll_description}}). Overlay mode: {{overlay_mode}} (Brief: {{overlay_description}}).
 
 content-executive (runs first):
 Step A: Use /wiki-query for the brand's writing style, draft the caption highlighting {{post_message}}, slogan {{slogan}}, big idea {{big_idea}}, hook {{headline_hook}} — save to {{campaign_folder}}/caption.md.
@@ -83,13 +83,12 @@ Step 4 (Voice/audio on the Watermark-Clean Render — NOT a silent timing splice
   `core.py tts` (Mode 1) and never a straight splice of the pre-baked `node/timing/line_*_rvc.wav`
   files onto lip-sync footage; record the approved final voice strategy.
 Step 5 (Post-Production & Final Assembly):
-  1. Concatenate the voice-synced, watermark-clean scene MP4s in order (`node/scenes/scene_*.mp4`, the Step 4 output) into `node/video_concat.mp4`.
-  2. Run WhisperX on the concat audio, compare to `node/timing/approved-voice.txt`, correct only
-     subtitle text with `correct_whisper_text.py`, then burn via `[html-video]-subtitle-burn-talking-head`
-     using `SEGMENT_MODE=smart MAX_TOKENS=5 SUB_Y_RATIO=0.75` if requested in {{video_requirement}}.
-  3. Mix SFX and background music via `[html-video]-audio-mix` based on Part C spec.
-  4. Prepend `thumbnail.jpg` as the **first keyframe** (1 frame at 24fps) using ffmpeg filter_complex so thumbnail is frame 0 of the final output.
-  5. Save final MP4 to {{campaign_folder}}/ root (flat).
+  1. Run download QA immediately after each final scene download, then run post-processing QA after watermark removal and voice remux; save both states in `node/scene-qa.json` and keep raw/clean scene paths traceable.
+  2. Product B-roll Handling (runs when `b-roll: true` in sequence script / ticket): For every product B-roll window, keep the B-roll clip visual-only, pre-trim it to the exact slot, and map its video to the approved A-roll/voice audio source for the same timeline window; use actual `ffprobe` concat durations, `-itsoffset` and `eof_action=pass`, then save `node/broll-manifest.json`. If `b-roll: false`, skip B-roll mapping and assemble A-roll scenes directly.
+  3. Concatenate the voice-synced, watermark-clean scene MP4s in order into `node/video_concat.mp4`, then run dead-air and boundary QA into `node/concat-qa.json`.
+  4. Run WhisperX on the concat audio, compare to `node/timing/approved-voice.txt`, and correct subtitle text only with `correct_whisper_text.py`; preserve WhisperX timestamps.
+  5. HyperFrames Overlay Handling (runs when `overlay: true` in sequence script / ticket): Use HyperFrames `talking-head-recut`/`motion-graphics` to render transparent product, price, CTA, and claim-safe text overlays (`yuva444p12le`). Reserve `y=0.72–0.90` for subtitles; render, verify alpha and safe zones (`y=0.08–0.22` headline, `x=0.60–0.92, y=0.28–0.62` product callout, `y=0.58–0.68` price card), composite over A-roll using `[1:v]setpts=PTS+{start_sec}/TB`, and save `node/hyperframes-overlay-manifest.json`. If `overlay: false`, skip HyperFrames overlay generation and proceed to subtitle burn.
+  6. Burn subtitles, mix SFX/BGM via `[html-video]-audio-mix`, run final QA, prepend `thumbnail.jpg` as the first keyframe, and save final MP4 to {{campaign_folder}}/ root.
 
 notion-publisher (runs last): write back caption, hook, thumbnail, R2-embedded video link to Notion Post page, and create {{campaign_folder}}/manifest.json after verification holds.
 ```
@@ -103,15 +102,25 @@ Same Notion Post DB integration as commercial video workflow. Completion conditi
 - **Gemini TTS timing lock:** create `node/timing/lines.json`, run `gemini-tts-timing`, and pack the minimum
   4/6/8/10s plan from measured durations before writing the sequence script. Do not use unmeasured
   or character-count timing.
-- **Scene order:** `generate → Flowkit upscale (or ffmpeg fallback) → download → watermark removal
-  per scene → voice/audio handling → concat → dead-air check → WhisperX + approved-text QA → burn
-  subtitles → SFX/BGM mix → thumbnail prepend`.
+- **Scene order:** `generate → Flowkit upscale (or ffmpeg fallback) → download QA → per-scene
+  watermark removal → post-processing QA → product B-roll/audio mapping → concat → dead-air and
+  boundary QA → WhisperX + approved-text QA → HyperFrames A-roll overlays → subtitle burn → SFX/BGM
+  mix → final QA → thumbnail prepend`.
 - **Subtitle contract:** `APPROVED_TEXT_PATH=node/timing/approved-voice.txt` corrects ASR spelling
   without changing WhisperX timestamps; a mismatch is a review blocker. Vietnamese grouping uses
   the tokenizer and a hard maximum of 5 visible tokens per burst at `SUB_Y_RATIO=0.75`.
 - **Audio library:** `[html-video]-audio-mix` owns local `scripts/assets/sfx/` and `scripts/assets/bgm/`;
   use explicit per-scene cues when present, otherwise semantic SFX selection and brand-BGM-first
   selection with ducking under voice.
+- **Product B-roll (Optional mode `b-roll: true`):** When declared in Ticket / sequence script,
+  use approved Brand Kit packshots/refs, keep B-roll dialogue empty, and map B-roll video to the
+  same-window approved A-roll/voice audio. Record every window and source path in `node/broll-manifest.json`;
+  accidental generated B-roll speech is never shipped. When `b-roll: false`, skip cutaway mapping.
+- **HyperFrames overlays (Optional mode `overlay: true`):** When declared in Ticket / sequence script,
+  use `talking-head-recut`/`motion-graphics` for transparent HTML/GSAP overlays on the assembled video,
+  not for subtitle replacement. Copy price/offer/claims exactly from `Ticket.md`, verify alpha/timing,
+  and keep graphics clear of the face, packshot label, CTA, and subtitle band (`y=0.72–0.90`).
+  Save `node/hyperframes-overlay-manifest.json`. When `overlay: false`, skip overlay generation.
 - **Thumbnail:** derive hook, subject/character, first-beat tension, safe area, and approved refs
   from `node/ugc-sequence-script.md`; do not query `creative-direction` for a disconnected concept.
 
@@ -135,4 +144,4 @@ Same Notion Post DB integration as commercial video workflow. Completion conditi
 - **Post-Production Pipeline:** Audio mixing (`[html-video]-audio-mix`) and subtitles (`[html-video]-subtitle-burn-talking-head`) run strictly in post-production after scene concat and voice sync.
 
 ## Graph
-[[../../AGENTS|Workspace AGENTS]] · [[../AGENT|Production AGENT]] · [[../../BASE/CAMPAIGNs/CAMPAIGNs-STRUCTURE|Campaigns Structure]] · [[../.agents/skills/write-shooting-script/SKILL|write-shooting-script]] · [[../.agents/skills/write-ai-ugc-video-sequence-script/SKILL|write-ai-ugc-video-sequence-script]] · [[../.agents/skills/tea-ugc-ai-realism/SKILL|tea-ugc-ai-realism]] · [[../.agents/skills/creative-direction/SKILL|creative-direction]] · [[../.agents/skills/acad-image-gen/SKILL|acad-image-gen]] · [[../video_modules/flowkit/skills/fk-omni-video-gen|fk-omni-video-gen]] · [[../.agents/skills/applio-brand-voice/SKILL|applio-brand-voice]] · [[../.agents/skills/[html-video]-subtitle-burn-talking-head/SKILL|subtitle-burn-talking-head]] · [[../.agents/skills/[html-video]-audio-mix/SKILL|audio-mix]] · [[../video_modules/VeoWatermarkRemover/skills/gwt-remove-watermark-video|gwt-remove-watermark-video]]
+[[../../AGENTS|Workspace AGENTS]] · [[../AGENT|Production AGENT]] · [[../../BASE/CAMPAIGNs/CAMPAIGNs-STRUCTURE|Campaigns Structure]] · [[../.agents/skills/write-shooting-script/SKILL|write-shooting-script]] · [[../.agents/skills/write-ai-ugc-video-sequence-script/SKILL|write-ai-ugc-video-sequence-script]] · [[../.agents/skills/tea-ugc-ai-realism/SKILL|tea-ugc-ai-realism]] · [[../.agents/skills/creative-direction/SKILL|creative-direction]] · [[../.agents/skills/acad-image-gen/SKILL|acad-image-gen]] · [[../video_modules/flowkit/skills/fk-omni-video-gen|fk-omni-video-gen]] · [[../.agents/skills/applio-brand-voice/SKILL|applio-brand-voice]] · [[../.agents/skills/[html-video]-post-production-qa-broll-overlay/SKILL|post-production-qa-broll-overlay]] · [[../.agents/skills/[html-video]-subtitle-burn-talking-head/SKILL|subtitle-burn-talking-head]] · [[../.agents/skills/[html-video]-audio-mix/SKILL|audio-mix]] · [[../video_modules/VeoWatermarkRemover/skills/gwt-remove-watermark-video|gwt-remove-watermark-video]]

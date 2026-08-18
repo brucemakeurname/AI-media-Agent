@@ -14,7 +14,7 @@ PRODUCTION/video_modules/preflight.sh
 | VeoWatermarkRemover | `PRODUCTION/video_modules/VeoWatermarkRemover/GeminiWatermarkTool-Video` | executable macOS video binary | per-scene watermark removal |
 | Applio | `PRODUCTION/video_modules/Applio` | local voice-conversion module with model files | approved voice strategy when selected |
 | WhisperX | `PRODUCTION/video_modules/WhisperX/models` | local `large-v3` ASR + Vietnamese alignment pack, installed through Python API | WhisperX word timestamps and optional forced alignment |
-| Hyperframes tools | `PRODUCTION/video_modules/hyperframes/.venv-tools` | Python tools venv with WhisperX and `pyvi` | WhisperX runtime and Vietnamese segmentation |
+| Hyperframes tools | `PRODUCTION/video_modules/hyperframes` | local HTML/GSAP renderer plus tool venv with WhisperX/`pyvi` | product B-roll/overlay composition, A-roll graphics, WhisperX runtime, Vietnamese segmentation |
 | Talking-head editing | `PRODUCTION/video_modules/talking-head-editing` | local editing module | compatible post-production references |
 
 The SFX/BGM library and TypeScript runtimes remain skill-owned under

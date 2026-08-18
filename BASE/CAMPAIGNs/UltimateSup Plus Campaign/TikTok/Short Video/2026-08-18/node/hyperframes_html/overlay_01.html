@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    width: 1080px; height: 1920px;
+    background: transparent;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  .overlay-stage {
+    position: relative;
+    width: 1080px; height: 1920px;
+    background: transparent;
+  }
+  .packshot-container {
+    position: absolute;
+    right: 50px;
+    top: 600px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(550px) scale(0.85);
+    opacity: 0;
+    filter: drop-shadow(0 20px 30px rgba(0,0,0,0.6));
+  }
+  .product-img {
+    width: 380px;
+    height: auto;
+    object-fit: contain;
+  }
+  .brand-pill {
+    margin-top: -30px;
+    background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+    color: #000;
+    font-weight: 900;
+    font-size: 24px;
+    padding: 10px 28px;
+    border-radius: 50px;
+    letter-spacing: 1.5px;
+    box-shadow: 0 8px 20px rgba(255, 165, 0, 0.4);
+    border: 2px solid #FFF;
+    text-transform: uppercase;
+  }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+<div class="overlay-stage">
+  <div class="packshot-container" id="packshot">
+    <img src="/Users/test/Documents/AI Media/Hoài Nam/INFRA/BASE/BRAND KITs/UltimateSup/Product/PVL ISO GOLD.png" class="product-img" alt="PVL ISO Gold" />
+    <div class="brand-pill">PVL ISO GOLD</div>
+  </div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  // Entrance (0 to 1.0s): slide in from right with elastic overshoot
+  tl.to("#packshot", {
+    x: 0,
+    scale: 1,
+    opacity: 1,
+    duration: 1.0,
+    ease: "back.out(1.4)"
+  }, 0.0);
+  
+  // Settle / gentle floating breath (1.0 to 3.0s)
+  tl.to("#packshot", {
+    y: "-=15",
+    rotation: -2,
+    duration: 1.0,
+    yoyo: true,
+    repeat: 1,
+    ease: "sine.inOut"
+  }, 1.0);
+
+  // Exit (3.0 to 4.0s): clean whip-slide out
+  tl.to("#packshot", {
+    x: 550,
+    scale: 0.85,
+    opacity: 0,
+    duration: 0.8,
+    ease: "power2.in"
+  }, 3.0);
+
+  window.__tl = tl;
+</script>
+</body>
+</html>

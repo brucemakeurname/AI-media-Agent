@@ -17,8 +17,9 @@ from the approved script or sequence, then relocate the final file directly to `
   `ai-commercial-short-video`/`ai-ugc-short-video`), OR a locked `node/timelapse-sequence-script.md`
   (`ai-construction-timelapse-short-video`)
 - brand-profile
-- chosen module (talking-head-editing, gemini-omni-video-gen for AI-scene shorts,
-  gemini-veo-3.1-video-gen for construction-timelapse — the former standalone `veo3-api-render`
+- chosen module (talking-head-editing, Flowkit/`fk-omni-video-gen` for UGC/clone scene shorts,
+  `gemini-omni-video-gen` for the commercial scene goal, gemini-veo-3.1-video-gen for
+  construction-timelapse — the former standalone `veo3-api-render`
   module folded into that skill 2026-07-21; the archived renderer record is reference-only.
   retired standalone docs; veo3-render (Flow UI) remains archived separately, see
   `archive/veo3-render/`)
@@ -28,7 +29,8 @@ from the approved script or sequence, then relocate the final file directly to `
 
 ## AI-generated-scene path (`node/sequence-script.md`)
 
-When the ticket's `visual_type` is `ai-commercial-short-video` or `ai-ugc-short-video`, the
+When the ticket's `visual_type` is `ai-commercial-short-video`, `ai-ugc-short-video`, or
+`ai-clone-short-video`, the
 `script.md` prose pipeline does not apply — read the designer-locked sequence script instead
 (`node/sequence-script.md` from `write-ai-commercial-video-sequence-script` for commercial;
 `node/ugc-sequence-script.md` from `write-ai-ugc-video-sequence-script` for UGC — same Omni scene
@@ -36,48 +38,55 @@ schema, only the register differs) and drive it as follows:
 
 1. **Render each scene.** Parse every `### Scene N` fenced ```json block in Part B, in order
    (skip the `### Thumbnail` block — the designer already rendered that as a static image). For
-   each, call `gemini-omni-video-gen` (`reference_to_video`, that scene's own `Ref (n):` images
-   from the line above the code block — never more than 3, aspect ratio 9:16) and save the
-   returned clip to `node/scenes/scene_{N}.mp4`. Sequential only — Omni's `interactions` endpoint
-   is synchronous per call, there is no batch/parallel render on its side.
+   each, call the renderer selected by the goal: `gemini-omni-video-gen` for the commercial goal,
+   or Flowkit `fk-omni-video-gen` for UGC/clone (`reference_to_video`, that scene's own `Ref (n):`
+   images from the line above the code block — never more than 3, aspect ratio 9:16) and save the
+   returned clip to `node/scenes/scene_{N}.mp4`. Sequential only — the selected render endpoint is
+   synchronous per call, there is no batch/parallel render on its side.
 2. **Upscale, download, and clean each scene.** Attempt Flowkit `VIDEO_RESOLUTION_1080P`; if it
-   fails, use `ffmpeg-upscale-video` and record the fallback. Download the scene, then run
+   fails, use `ffmpeg-upscale-video` and record the fallback. After download, run
+   `[html-video]-post-production-qa-broll-overlay` download QA, then run
    `gwt-remove-watermark-video` immediately on that individual clip before any voice/audio remux
-   or concat. Keep the raw and `_nowm` files side by side for QA.
-3. **Concatenate (hard cuts).** Once every clean scene clip exists, join them in order with the ffmpeg
-   concat demuxer. Do **not** add cross-fade/dissolve transitions at this step — each scene's own
-   `ending` field already bakes its transition into the rendered content (light-leak whip,
-   match-dissolve, glitch-cut, etc. — see `write-ai-commercial-video-sequence-script/SKILL.md`). This
-   mirrors `talking-head-editing`'s own convention of hard cuts only (see its
-   `docs/WORKFLOW-template.md`, "What This Pipeline Does NOT Do").
-4. **Subtitles — conditional, and never Omni-native.** Only if `Ticket.md`'s `Video-requirement`
-   field asks for on-screen subtitles: run WhisperX on the concatenated clip's own audio to get a
-   word-level transcript (there's no separate raw-recording transcript here, unlike
-   `talking-head-editing`'s normal Phase 0 input — this is TTS dialogue baked into the Omni
-   output itself), then reuse the `subtitle-designer` skill from
-   `video_modules/talking-head-editing/.claude/skills/subtitle-designer/SKILL.md` to render a
-   branded word-pop overlay and composite it on top. Never instruct Omni to burn in subtitle text
-   directly — its font/timing is inconsistent, which is the entire reason to reuse a dedicated
-   subtitle renderer instead of a prompt instruction. Compare the transcript with
-   `node/timing/approved-voice.txt` and correct only text before burning; keep WhisperX timestamps.
-5. **Background music.** Reuse `sfx-artist`'s **Phase 5 only**
+   or concat. Run the same skill again for post-processing QA after watermark removal/remux. Keep
+   the raw and `_nowm` files side by side for QA.
+3. **Assemble with the goal's post-production contract.** For UGC, clone, and talking-head goals,
+   run `[html-video]-post-production-qa-broll-overlay` to resolve approved product B-roll, map
+   B-roll video to the matching A-roll/voice audio window, pre-trim to actual slot duration, and
+   record `scene-qa.json`, `broll-manifest.json`, and `concat-qa.json`. Full-frame B-roll uses
+   actual `ffprobe` durations, `-itsoffset`, and `eof_action=pass`. For commercial tickets that do
+   not request an A-roll/B-roll layer, join clean scenes in order with hard cuts only — do **not**
+   add cross-fade/dissolve transitions because each scene's `ending` field already bakes its
+   transition into the rendered content.
+4. **WhisperX and HyperFrames.** Run WhisperX on the voice-bearing concat, compare it with
+   `node/timing/approved-voice.txt`, and correct subtitle text only while preserving timestamps.
+   For UGC, clone, and talking-head goals, use HyperFrames `talking-head-recut`/
+   `motion-graphics` to render transparent product, price, CTA, and claim-safe text overlays over
+   A-roll before subtitle burn. Use ProRes 4444 alpha and `setpts=PTS+start/TB` for A-roll overlay
+   timing; never pair that with `-itsoffset`. Keep the overlay manifest and clear the subtitle band.
+5. **Subtitles — conditional, and never Omni-native.** Only if `Ticket.md`'s `Video-requirement`
+   field asks for on-screen subtitles: use the goal-selected subtitle skill after the HyperFrames
+   overlay pass. For UGC/clone goals, use `[html-video]-subtitle-burn-talking-head` with the
+   approved Vietnamese segmentation contract (`MAX_TOKENS=5`, `SUB_Y_RATIO=0.75`); for the
+   existing commercial/human path, use the module's `subtitle-designer` skill when that goal
+   selects it. Never instruct Omni to burn in subtitle text directly. Compare the WhisperX
+   transcript with `node/timing/approved-voice.txt` and correct only text before burning; keep
+   WhisperX timestamps.
+6. **Background music.** Reuse `sfx-artist`'s **Phase 5 only**
    (`video_modules/talking-head-editing/.claude/skills/sfx-artist/SKILL.md`) — mood detection →
    royalty-free instrumental search → `audio/bgm.mp3` + `bgm_manifest.json` → ffmpeg `afade`
-   in/out mix at volume 0.10-0.15. Skip its Phase 2/3 B-roll/A-roll SFX steps entirely — those
-   assume a HyperFrames B-roll/A-roll layer that doesn't exist in this pipeline (there is no
-   talking-head footage, no broll_timestamp.json).
-6. **Save the final mp4 to `{output_dir}/` root** (flat, same contract as the talking-head path
+   in/out mix at volume 0.10-0.15. Add only ticket-approved SFX after the B-roll/overlay timing
+   manifests pass; do not let SFX mask the approved voice.
+7. **Save the final mp4 to `{output_dir}/` root** (flat, same contract as the talking-head path
    below — never a `video/` subfolder for this pipeline, unlike `gemini-omni-video-gen`'s generic
    `CLAUDE.md` note, which the workflow file overrides for this specific visual type).
-7. **Hand off.** The final file is virtually always >5MB — never attempt a Notion file-property
+8. **Hand off.** The final file is virtually always >5MB — never attempt a Notion file-property
    attachment. Note this explicitly for `notion-publisher`: upload to R2
    (`.claude/skills/notion-upload/upload_video_to_r2.js`) and embed the resulting URL as a Notion
    video block (`upload.py --video-url`).
 
-**Never** (this path): ask Omni to render subtitles itself, add ffmpeg cross-fades between
-scenes, run scenes in parallel, or invoke any `talking-head-editing` phase beyond
-`subtitle-designer` (conditional) and `sfx-artist` Phase 5 — the rest of that pipeline (rough-cut,
-semantic-cut/zoom, B-roll/A-roll design) assumes raw single-take footage this pipeline never has.
+**Never** (this path): ask Omni to render subtitles itself, add ffmpeg cross-fades between scenes,
+or run scenes in parallel. Do not invoke rough-cut or semantic-cut/zoom steps intended for raw
+single-take footage; the goal-selected post-production skill owns B-roll, overlay, and timing QA.
 
 ## industry-news path (`node/video-build/script.json`)
 

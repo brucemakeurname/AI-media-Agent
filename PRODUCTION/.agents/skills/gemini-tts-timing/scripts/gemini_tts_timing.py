@@ -69,7 +69,9 @@ def synthesize_line(api_key: str, model: str, text: str, out_wav_path: Path, voi
             "responseModalities": ["AUDIO"],
             "speechConfig": {
                 "voiceConfig": {
-                    "voiceName": voice_name
+                    "prebuiltVoiceConfig": {
+                        "voiceName": voice_name
+                    }
                 }
             }
         }

@@ -14,7 +14,9 @@ UltimateSup Notion Post + linked Campaign
   → shooting script + Gemini TTS timing/audio lock
   → JSON Omni sequence prompts + character references
   → Google Flow Omni clips + 1080p upscale (ffmpeg fallback)
-  → per-scene watermark removal + WhisperX text QA + subtitle + BGM/SFX + frame-0 thumbnail
+  → download QA → per-scene watermark removal → post-processing QA
+  → product B-roll/audio mapping + concat QA + HyperFrames A-roll overlays
+  → WhisperX text QA + subtitle + BGM/SFX + frame-0 thumbnail
   → final MP4 + manifest.json + optional Notion writeback
 ```
 
@@ -32,6 +34,7 @@ Sơ đồ thao tác chi tiết đính kèm riêng: `AI-VIDEO-CREATIVE-WORKFLOW-D
 | Design module | `photography-direction`, `video-thumbnail`, `acad-image-gen`, FlowKit refs | Tạo character/product references và thumbnail bám first beat | Reference assets trong `node/`; `thumbnail.jpg` tại root campaign. |
 | Video module | `PRODUCTION/video_modules/flowkit` + Google Flow Chrome extension | Tạo Omni clips 4/6/8/10s từ full JSON & media IDs; upscale từng clip lên 1080p | `node/scenes/scene_{N}_1080p_raw.mp4` và render metadata. |
 | Voice/post module | `gemini-tts-timing`, `gwt-remove-watermark-video`, `ffmpeg-upscale-video`, subtitle/audio skills | Timing lock, remove watermark sau download, fallback upscale, concat, subtitle burn, BGM/SFX mix, chèn thumbnail frame 0 | Final vertical MP4 tại root campaign; working logs trong `node/`. |
+| Post-production QA/B-roll/overlay | `[html-video]-post-production-qa-broll-overlay`, `talking-head-recut`, `motion-graphics` | QA sau download và sau watermark/upscale, product B-roll với audio mapping, HyperFrames product/price/text overlay trên A-roll, final QA | `node/scene-qa.json`, `node/broll-manifest.json`, `node/concat-qa.json`, `node/hyperframes-overlay-manifest.json`. |
 | QA/publish gate | `notion-publisher`, `manifest.json` | Chỉ xác nhận/ghi ngược Notion sau QA kỹ thuật, brand và claim | `manifest.json` được tạo sau khi final artifact tồn tại và pass. |
 
 ## 3. Luồng Làm Việc Trọng Tâm Theo GOAL

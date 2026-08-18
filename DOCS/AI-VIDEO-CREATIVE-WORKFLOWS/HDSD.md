@@ -135,19 +135,23 @@ Kiểm tra: nhân vật nhất quán, product/variant đúng ticket, logo/claim 
 1. Xác nhận FlowKit extension có trạng thái connected và Google Flow đang ở đúng profile.
 2. Với từng JSON block trong `node/ugc-sequence-script.md`, gửi full JSON làm Omni prompt cùng tối đa 3 reference media IDs và `duration_s` hợp lệ.
 3. Sau raw render, **bắt buộc** FlowKit upscale bằng `VIDEO_RESOLUTION_1080P`; nếu lỗi thì chạy `ffmpeg-upscale-video` và ghi rõ fallback.
-4. Sau khi download từng scene, chạy `gwt-remove-watermark-video` ngay lập tức, trước voice/audio xử lý hoặc concat; lưu raw và `_nowm` cạnh nhau.
-5. Lưu clip đã upscale thành `node/scenes/scene_{N}_1080p_raw.mp4` cùng render metadata.
+4. Sau khi download từng scene, chạy `[html-video]-post-production-qa-broll-overlay` ở chế độ download QA; ghi file tồn tại, probe, duration, frame, dimension và audio vào `node/scene-qa.json`.
+5. Chỉ sau khi download QA đạt, chạy `gwt-remove-watermark-video` ngay trên từng scene, trước voice/audio xử lý hoặc concat; lưu raw và `_nowm` cạnh nhau.
+6. Chạy lại `[html-video]-post-production-qa-broll-overlay` ở chế độ post-processing QA sau watermark removal; chỉ cho `render_verified: true` khi probe/duration/frame/audio đều đạt.
+7. Lưu clip đã upscale thành `node/scenes/scene_{N}_1080p_raw.mp4` cùng render metadata.
 
 Nếu FlowKit không upscale được, không im lặng thay thế. Chỉ dùng fallback khi được phê duyệt và ghi rõ nguyên nhân, phương án, resolution và owner trong `manifest.json`.
 
 ### Bước 5 — Video Editor: voice sync và hậu kỳ
 
-1. Concat scene theo thứ tự trong script, rồi chạy dead-air check.
-2. Chạy WhisperX trên audio concat, đối chiếu `node/timing/approved-voice.txt`, chỉ sửa text bằng `correct_whisper_text.py` và giữ nguyên timestamps.
-3. Burn subtitle bằng `[html-video]-subtitle-burn-talking-head` với `SEGMENT_MODE=smart MAX_TOKENS=5 SUB_Y_RATIO=0.75` nếu `Ticket.md` yêu cầu.
-4. Mix BGM/SFX bằng `[html-video]-audio-mix`, giữ thoại là audio ưu tiên.
-5. Prepend `thumbnail.jpg` bằng `ffmpeg` để **frame 0/keyframe đầu tiên** của final MP4 là thumbnail.
-6. Lưu final `.mp4` tại root campaign; logs/drafts/intermediates lưu trong `node/`.
+1. Resolve product B-roll from approved Brand Kit assets; keep the B-roll visual-only and map its video to the matching A-roll/approved voice audio window. Pre-trim each render to its exact slot, use actual `ffprobe` concat durations, and save `node/broll-manifest.json`.
+2. Concat scene theo thứ tự trong script, rồi chạy dead-air/boundary check vào `node/concat-qa.json`; full-frame B-roll dùng `-itsoffset` + `eof_action=pass`, không chỉ dùng `enable`.
+3. Chạy WhisperX trên audio concat, đối chiếu `node/timing/approved-voice.txt`, chỉ sửa text bằng `correct_whisper_text.py` và giữ nguyên timestamps.
+4. Dùng HyperFrames `talking-head-recut`/`motion-graphics` để render transparent product/price/text overlays trên A-roll; ưu tiên ProRes 4444 alpha, dùng `setpts=PTS+start/TB` khi composite và không ghép cùng `-itsoffset`; giữ subtitle band `y=0.72–0.90`, probe alpha/duration và ghi `node/hyperframes-overlay-manifest.json`.
+5. Burn subtitle bằng `[html-video]-subtitle-burn-talking-head` với `SEGMENT_MODE=smart MAX_TOKENS=5 SUB_Y_RATIO=0.75` nếu `Ticket.md` yêu cầu.
+6. Mix BGM/SFX bằng `[html-video]-audio-mix`, giữ thoại là audio ưu tiên; chạy final technical/brand/claim QA.
+7. Prepend `thumbnail.jpg` bằng `ffmpeg` để **frame 0/keyframe đầu tiên** của final MP4 là thumbnail.
+8. Lưu final `.mp4` tại root campaign; logs/drafts/intermediates lưu trong `node/`.
 
 ### Bước 6 — QA và optional Notion writeback
 

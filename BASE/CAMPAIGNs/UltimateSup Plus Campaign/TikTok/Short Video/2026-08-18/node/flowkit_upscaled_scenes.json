@@ -1,0 +1,500 @@
+{
+  "1": {
+    "raw_media_id": "640d282c-2d85-44ba-80d9-0dfa4813789d",
+    "upscaled_media_id": "640d282c-2d85-44ba-80d9-0dfa4813789d_upsampled",
+    "duration_s": 4,
+    "response": {
+      "operations": [
+        {
+          "operation": {
+            "name": "640d282c-2d85-44ba-80d9-0dfa4813789d_upsampled"
+          },
+          "sceneId": "scene-1",
+          "status": "MEDIA_GENERATION_STATUS_PENDING"
+        }
+      ],
+      "remainingCredits": 24156,
+      "workflows": [
+        {
+          "name": "a33906e6-782a-4ede-bda2-de700b07a5ed",
+          "metadata": {
+            "createTime": "2026-08-18T08:27:06.748664Z",
+            "primaryMediaId": "640d282c-2d85-44ba-80d9-0dfa4813789d_upsampled",
+            "batchId": "4c858a09-7b98-4acc-a78e-8dfed492958d"
+          }
+        }
+      ],
+      "media": [
+        {
+          "name": "640d282c-2d85-44ba-80d9-0dfa4813789d_upsampled",
+          "workflowId": "a33906e6-782a-4ede-bda2-de700b07a5ed",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-18T08:27:06.748664Z",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "veo_3_1_upsampler_1080p",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_VIDEO_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_UPSCALING"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_1080P"
+                },
+                "videoGenerationVideoInputs": [
+                  {
+                    "mediaGenerationId": "640d282c-2d85-44ba-80d9-0dfa4813789d",
+                    "mediaId": "640d282c-2d85-44ba-80d9-0dfa4813789d"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {}
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_PENDING"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 0,
+              "model": "veo_3_1_upsampler_1080p",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+              "upsampleMetadata": {
+                "videoUpsampleResolution": "VIDEO_UPSAMPLE_RESOLUTION_1080P"
+              }
+            },
+            "dimensions": {
+              "length": "0s"
+            },
+            "operation": {
+              "name": "640d282c-2d85-44ba-80d9-0dfa4813789d_upsampled"
+            }
+          },
+          "sceneId": "scene-1"
+        }
+      ]
+    }
+  },
+  "2": {
+    "raw_media_id": "5435ecc1-7c69-47ef-80ec-54c69916a640",
+    "upscaled_media_id": "5435ecc1-7c69-47ef-80ec-54c69916a640_upsampled",
+    "duration_s": 6,
+    "response": {
+      "operations": [
+        {
+          "operation": {
+            "name": "5435ecc1-7c69-47ef-80ec-54c69916a640_upsampled"
+          },
+          "sceneId": "scene-2",
+          "status": "MEDIA_GENERATION_STATUS_PENDING"
+        }
+      ],
+      "remainingCredits": 24156,
+      "workflows": [
+        {
+          "name": "be75639e-c7b3-44fd-b292-113b42f97b09",
+          "metadata": {
+            "createTime": "2026-08-18T08:27:14.201273Z",
+            "primaryMediaId": "5435ecc1-7c69-47ef-80ec-54c69916a640_upsampled",
+            "batchId": "eeec99d0-cb66-4d95-82e4-e2b169c8153d"
+          }
+        }
+      ],
+      "media": [
+        {
+          "name": "5435ecc1-7c69-47ef-80ec-54c69916a640_upsampled",
+          "workflowId": "be75639e-c7b3-44fd-b292-113b42f97b09",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-18T08:27:14.201273Z",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "veo_3_1_upsampler_1080p",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_VIDEO_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_UPSCALING"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_1080P"
+                },
+                "videoGenerationVideoInputs": [
+                  {
+                    "mediaGenerationId": "5435ecc1-7c69-47ef-80ec-54c69916a640",
+                    "mediaId": "5435ecc1-7c69-47ef-80ec-54c69916a640"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {}
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_PENDING"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 0,
+              "model": "veo_3_1_upsampler_1080p",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+              "upsampleMetadata": {
+                "videoUpsampleResolution": "VIDEO_UPSAMPLE_RESOLUTION_1080P"
+              }
+            },
+            "dimensions": {
+              "length": "0s"
+            },
+            "operation": {
+              "name": "5435ecc1-7c69-47ef-80ec-54c69916a640_upsampled"
+            }
+          },
+          "sceneId": "scene-2"
+        }
+      ]
+    }
+  },
+  "3": {
+    "raw_media_id": "e1f69cf8-a1cb-4f1c-9045-bc5bd565536c",
+    "upscaled_media_id": "e1f69cf8-a1cb-4f1c-9045-bc5bd565536c_upsampled",
+    "duration_s": 6,
+    "response": {
+      "operations": [
+        {
+          "operation": {
+            "name": "e1f69cf8-a1cb-4f1c-9045-bc5bd565536c_upsampled"
+          },
+          "sceneId": "scene-3",
+          "status": "MEDIA_GENERATION_STATUS_PENDING"
+        }
+      ],
+      "remainingCredits": 24156,
+      "workflows": [
+        {
+          "name": "10eb1100-0ae3-4e55-b37f-bae66ad8b065",
+          "metadata": {
+            "createTime": "2026-08-18T08:27:21.510641Z",
+            "primaryMediaId": "e1f69cf8-a1cb-4f1c-9045-bc5bd565536c_upsampled",
+            "batchId": "2a3f1d3b-3b44-4e44-b6ed-e5efa5e1c641"
+          }
+        }
+      ],
+      "media": [
+        {
+          "name": "e1f69cf8-a1cb-4f1c-9045-bc5bd565536c_upsampled",
+          "workflowId": "10eb1100-0ae3-4e55-b37f-bae66ad8b065",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-18T08:27:21.510641Z",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "veo_3_1_upsampler_1080p",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_VIDEO_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_UPSCALING"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_1080P"
+                },
+                "videoGenerationVideoInputs": [
+                  {
+                    "mediaGenerationId": "e1f69cf8-a1cb-4f1c-9045-bc5bd565536c",
+                    "mediaId": "e1f69cf8-a1cb-4f1c-9045-bc5bd565536c"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {}
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_PENDING"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 0,
+              "model": "veo_3_1_upsampler_1080p",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+              "upsampleMetadata": {
+                "videoUpsampleResolution": "VIDEO_UPSAMPLE_RESOLUTION_1080P"
+              }
+            },
+            "dimensions": {
+              "length": "0s"
+            },
+            "operation": {
+              "name": "e1f69cf8-a1cb-4f1c-9045-bc5bd565536c_upsampled"
+            }
+          },
+          "sceneId": "scene-3"
+        }
+      ]
+    }
+  },
+  "4": {
+    "raw_media_id": "c9dcd415-3d97-4e8e-926c-2f1f2ed41743",
+    "upscaled_media_id": "c9dcd415-3d97-4e8e-926c-2f1f2ed41743_upsampled",
+    "duration_s": 8,
+    "response": {
+      "operations": [
+        {
+          "operation": {
+            "name": "c9dcd415-3d97-4e8e-926c-2f1f2ed41743_upsampled"
+          },
+          "sceneId": "scene-4",
+          "status": "MEDIA_GENERATION_STATUS_PENDING"
+        }
+      ],
+      "remainingCredits": 24156,
+      "workflows": [
+        {
+          "name": "71185c3c-24b7-4b41-86f8-f7ddd262ecdc",
+          "metadata": {
+            "createTime": "2026-08-18T08:27:28.425494Z",
+            "primaryMediaId": "c9dcd415-3d97-4e8e-926c-2f1f2ed41743_upsampled",
+            "batchId": "e972f8ec-e8d6-4a96-a007-7b131172509e"
+          }
+        }
+      ],
+      "media": [
+        {
+          "name": "c9dcd415-3d97-4e8e-926c-2f1f2ed41743_upsampled",
+          "workflowId": "71185c3c-24b7-4b41-86f8-f7ddd262ecdc",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-18T08:27:28.425494Z",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "veo_3_1_upsampler_1080p",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_VIDEO_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_UPSCALING"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_1080P"
+                },
+                "videoGenerationVideoInputs": [
+                  {
+                    "mediaGenerationId": "c9dcd415-3d97-4e8e-926c-2f1f2ed41743",
+                    "mediaId": "c9dcd415-3d97-4e8e-926c-2f1f2ed41743"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {}
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_PENDING"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 0,
+              "model": "veo_3_1_upsampler_1080p",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+              "upsampleMetadata": {
+                "videoUpsampleResolution": "VIDEO_UPSAMPLE_RESOLUTION_1080P"
+              }
+            },
+            "dimensions": {
+              "length": "0s"
+            },
+            "operation": {
+              "name": "c9dcd415-3d97-4e8e-926c-2f1f2ed41743_upsampled"
+            }
+          },
+          "sceneId": "scene-4"
+        }
+      ]
+    }
+  },
+  "5": {
+    "raw_media_id": "91530565-ec0d-47e2-a199-607bcfba4e52",
+    "upscaled_media_id": "91530565-ec0d-47e2-a199-607bcfba4e52_upsampled",
+    "duration_s": 6,
+    "response": {
+      "operations": [
+        {
+          "operation": {
+            "name": "91530565-ec0d-47e2-a199-607bcfba4e52_upsampled"
+          },
+          "sceneId": "scene-5",
+          "status": "MEDIA_GENERATION_STATUS_PENDING"
+        }
+      ],
+      "remainingCredits": 24156,
+      "workflows": [
+        {
+          "name": "a95f1224-9fbd-4ad7-8d7c-e808b752d194",
+          "metadata": {
+            "createTime": "2026-08-18T08:27:35.367201Z",
+            "primaryMediaId": "91530565-ec0d-47e2-a199-607bcfba4e52_upsampled",
+            "batchId": "232fda9f-1455-4ab1-bba3-1fa7b2658a29"
+          }
+        }
+      ],
+      "media": [
+        {
+          "name": "91530565-ec0d-47e2-a199-607bcfba4e52_upsampled",
+          "workflowId": "a95f1224-9fbd-4ad7-8d7c-e808b752d194",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-18T08:27:35.367201Z",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "veo_3_1_upsampler_1080p",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_VIDEO_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_UPSCALING"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_1080P"
+                },
+                "videoGenerationVideoInputs": [
+                  {
+                    "mediaGenerationId": "91530565-ec0d-47e2-a199-607bcfba4e52",
+                    "mediaId": "91530565-ec0d-47e2-a199-607bcfba4e52"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {}
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_PENDING"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 0,
+              "model": "veo_3_1_upsampler_1080p",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+              "upsampleMetadata": {
+                "videoUpsampleResolution": "VIDEO_UPSAMPLE_RESOLUTION_1080P"
+              }
+            },
+            "dimensions": {
+              "length": "0s"
+            },
+            "operation": {
+              "name": "91530565-ec0d-47e2-a199-607bcfba4e52_upsampled"
+            }
+          },
+          "sceneId": "scene-5"
+        }
+      ]
+    }
+  },
+  "6": {
+    "raw_media_id": "11623446-461f-4879-9d91-9a248489b244",
+    "upscaled_media_id": "11623446-461f-4879-9d91-9a248489b244_upsampled",
+    "duration_s": 6,
+    "response": {
+      "operations": [
+        {
+          "operation": {
+            "name": "11623446-461f-4879-9d91-9a248489b244_upsampled"
+          },
+          "sceneId": "scene-6",
+          "status": "MEDIA_GENERATION_STATUS_PENDING"
+        }
+      ],
+      "remainingCredits": 24156,
+      "workflows": [
+        {
+          "name": "502b72bc-e8b8-4a6a-93a2-267c1facc01c",
+          "metadata": {
+            "createTime": "2026-08-18T08:27:42.119920Z",
+            "primaryMediaId": "11623446-461f-4879-9d91-9a248489b244_upsampled",
+            "batchId": "7673935a-0fdc-4084-a0fe-4ed95ac73232"
+          }
+        }
+      ],
+      "media": [
+        {
+          "name": "11623446-461f-4879-9d91-9a248489b244_upsampled",
+          "workflowId": "502b72bc-e8b8-4a6a-93a2-267c1facc01c",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-18T08:27:42.119920Z",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "veo_3_1_upsampler_1080p",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_VIDEO_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_UPSCALING"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_1080P"
+                },
+                "videoGenerationVideoInputs": [
+                  {
+                    "mediaGenerationId": "11623446-461f-4879-9d91-9a248489b244",
+                    "mediaId": "11623446-461f-4879-9d91-9a248489b244"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {}
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_PENDING"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 0,
+              "model": "veo_3_1_upsampler_1080p",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+              "upsampleMetadata": {
+                "videoUpsampleResolution": "VIDEO_UPSAMPLE_RESOLUTION_1080P"
+              }
+            },
+            "dimensions": {
+              "length": "0s"
+            },
+            "operation": {
+              "name": "11623446-461f-4879-9d91-9a248489b244_upsampled"
+            }
+          },
+          "sceneId": "scene-6"
+        }
+      ]
+    }
+  }
+}

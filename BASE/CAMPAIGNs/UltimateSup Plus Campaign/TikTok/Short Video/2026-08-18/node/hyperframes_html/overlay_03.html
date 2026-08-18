@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    width: 1080px; height: 1920px;
+    background: transparent;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  .overlay-stage {
+    position: relative;
+    width: 1080px; height: 1920px;
+  }
+  .cta-banner {
+    position: absolute;
+    left: 60px;
+    right: 60px;
+    top: 1160px;
+    background: linear-gradient(135deg, #FF5722 0%, #FF9800 100%);
+    border-radius: 28px;
+    padding: 24px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 20px 40px rgba(255, 87, 34, 0.45), 0 0 0 3px #FFFFFF;
+    transform: translateY(80px) scale(0.9);
+    opacity: 0;
+  }
+  .cta-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .basket-icon-wrap {
+    width: 76px;
+    height: 76px;
+    background: #FFEB3B;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+  }
+  .cta-text-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .cta-main-text {
+    font-size: 30px;
+    font-weight: 900;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+  .cta-sub-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF3E0;
+    margin-top: 4px;
+  }
+  .cta-btn {
+    background: #FFFFFF;
+    color: #E64A19;
+    font-size: 22px;
+    font-weight: 900;
+    padding: 14px 28px;
+    border-radius: 50px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-transform: uppercase;
+  }
+  .pointer-hand {
+    position: absolute;
+    left: 110px;
+    top: 1290px;
+    font-size: 54px;
+    filter: drop-shadow(0 8px 16px rgba(0,0,0,0.5));
+    transform: translateY(0px);
+    opacity: 0;
+  }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+<div class="overlay-stage">
+  <div class="cta-banner" id="banner">
+    <div class="cta-left">
+      <div class="basket-icon-wrap" id="basket">🛒</div>
+      <div class="cta-text-wrap">
+        <span class="cta-main-text">TAP YELLOW BASKET BELOW</span>
+        <span class="cta-sub-text">Shopee SG · Ultimate Sup Official Store</span>
+      </div>
+    </div>
+    <div class="cta-btn" id="btn">BUY NOW ➔</div>
+  </div>
+  <div class="pointer-hand" id="hand">👇</div>
+</div>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  // Banner entrance
+  tl.to("#banner", {
+    y: 0,
+    scale: 1,
+    opacity: 1,
+    duration: 0.7,
+    ease: "back.out(1.4)"
+  }, 0.0);
+
+  // Hand pointer entrance
+  tl.to("#hand", {
+    opacity: 1,
+    duration: 0.4
+  }, 0.5);
+
+  // Pulsing / tapping click animation
+  tl.to("#hand", {
+    y: 20,
+    duration: 0.4,
+    yoyo: true,
+    repeat: 11,
+    ease: "sine.inOut"
+  }, 0.7);
+
+  // Button pulse
+  tl.to("#btn", {
+    scale: 1.08,
+    duration: 0.5,
+    yoyo: true,
+    repeat: 9,
+    ease: "power1.inOut"
+  }, 0.7);
+
+  // Basket jiggle
+  tl.to("#basket", {
+    rotation: 10,
+    duration: 0.2,
+    yoyo: true,
+    repeat: 19,
+    ease: "sine.inOut"
+  }, 0.7);
+
+  window.__tl = tl;
+</script>
+</body>
+</html>

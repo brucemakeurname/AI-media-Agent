@@ -7,7 +7,7 @@ amount: [single, batch]        # studio agent picks engine per ticket volume
 engine:
   single: { text: in-session-gemini-3-pro, image: "talking-head-editing" }
   batch:  { text: gemini-api-skill,        image: "talking-head-editing" }
-primary_skills: [talking-head-editing, wiki-query, notion-upload]
+primary_skills: [talking-head-editing, wiki-query, "[html-video]-post-production-qa-broll-overlay", notion-upload]
 inputs: [brand, topic, platform, purpose, campaign, messages, slogan, notion_page_id, database_id, language, deadline]
 output_dir: BASE/CAMPAIGNs/{brand}/{date}/{ticket_id}/
 done_when: "assets + caption in output_dir + pushed to Notion {notion_page_id} status 'Chờ duyệt' + manifest.json"
@@ -25,7 +25,10 @@ Produce a **human-short-video** in whichever content-format the ticket's `Format
 1. **Copy** — `wiki-query` brand voice/structure → write copy for the ticket's content-format in Gemini (language from ticket, default Vietnamese).
 2. **Design spec** — list images needed, brand refs (testimonial/client/pricing/facility), on-image text, model, ratio, resolution.
 3. **Visual** — generate per engine path above (human-short-video).
-4. **Publish** — `notion-upload` → set Notion status "Chờ duyệt" + write manifest.json.
+4. **Post-production** — run `[html-video]-post-production-qa-broll-overlay`: validate each download,
+   insert approved product B-roll with the matching A-roll/voice audio, composite HyperFrames product/
+   price/text overlays over A-roll, then complete subtitles, SFX/BGM, final QA, and thumbnail prepend.
+5. **Publish** — `notion-upload` → set Notion status "Chờ duyệt" + write manifest.json.
 
 ## Skills to develop
 talking-head-editing, wiki-query, notion-upload

@@ -1,0 +1,618 @@
+{
+  "1": {
+    "media_id": null,
+    "duration_s": 4,
+    "raw_response": {
+      "remainingCredits": 24208,
+      "workflows": [
+        {
+          "name": "47c077e7-f9f4-4362-b7d9-67d029a75ec9",
+          "metadata": {
+            "displayName": "Man recording fitness video on p…",
+            "createTime": "2026-08-18T08:23:24.255593Z",
+            "primaryMediaId": "640d282c-2d85-44ba-80d9-0dfa4813789d",
+            "batchId": "d39925da-ce4c-4f7f-bc45-2f91183d7a83",
+            "updateTime": "2026-08-18T08:23:28.009744Z"
+          },
+          "projectId": "90ce1d3b-52fd-4529-aa36-205d5f7debe5"
+        }
+      ],
+      "media": [
+        {
+          "name": "640d282c-2d85-44ba-80d9-0dfa4813789d",
+          "projectId": "90ce1d3b-52fd-4529-aa36-205d5f7debe5",
+          "workflowId": "47c077e7-f9f4-4362-b7d9-67d029a75ec9",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-18T08:23:24.255593Z",
+            "mediaTitle": "{\"scene\": 1, \"duration_s\": 4, \"scene_description\": \"A 28-32 year old athletic Singaporean male fitness enthusiast in a dark athletic tank top drops onto a gym bench after a set, breathing naturally, wipes brow with gym towel and speaks directly into his handheld phone camera with a casual, relatable smile.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 3.8, \"visual_action\": \"Creator drops onto gym bench, wipes forehead with gym towel, and looks into camera while delivering the opening hook.\", \"dialogue\": \"Post-workout already tiring — why make your shake another workout?\", \"transition_after\": \"direct cut to bench setup\"}], \"style\": \"raw handheld UGC smartphone video, authentic TikTok selfie style, natural skin texture, post-workout sweat sheen\", \"camera_direction\": \"Handheld smartphone selfie POV at eye-level with subtle organic micro-shake\", \"lighting\": \"Warm gym overhead lights with natural ambient fill\", \"voice\": \"Post-workout already tiring — why make your shake another workout?\", \"SFX\": \"Subtle gym ambient room tone, soft breathing exhale\", \"environment\": \"Modern Singapore fitness club with workout equipment and bench softly visible in background\", \"element\": [{\"subject\": \"28-32 year old Singaporean male gym-goer in dark athletic tank top\", \"prop\": \"Gym towel draped over shoulder\"}], \"motion\": \"Natural post-workout breathing, relaxed head movements\", \"ending\": \"Smiles slightly into camera, glances towards bench table\", \"text\": \"None\", \"keyword\": [\"UGC selfie\", \"Singapore gym\", \"post-workout hook\", \"handheld TikTok\"]}",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "abra_r2v_4s",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_REFERENCE_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_MULTI_REFERENCE"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_720P"
+                },
+                "videoGenerationImageInputs": [
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_REFERENCE_IMAGE",
+                    "mediaId": "427fedff-9694-4594-bd05-776a81d78de8"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_REFERENCE_IMAGE",
+                    "mediaId": "79791ee1-4b76-4534-9169-e524030dbc48"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "427fedff-9694-4594-bd05-776a81d78de8"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "79791ee1-4b76-4534-9169-e524030dbc48"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {
+                  "structuredPrompt": {
+                    "parts": [
+                      {
+                        "text": "{\"scene\": 1, \"duration_s\": 4, \"scene_description\": \"A 28-32 year old athletic Singaporean male fitness enthusiast in a dark athletic tank top drops onto a gym bench after a set, breathing naturally, wipes brow with gym towel and speaks directly into his handheld phone camera with a casual, relatable smile.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 3.8, \"visual_action\": \"Creator drops onto gym bench, wipes forehead with gym towel, and looks into camera while delivering the opening hook.\", \"dialogue\": \"Post-workout already tiring — why make your shake another workout?\", \"transition_after\": \"direct cut to bench setup\"}], \"style\": \"raw handheld UGC smartphone video, authentic TikTok selfie style, natural skin texture, post-workout sweat sheen\", \"camera_direction\": \"Handheld smartphone selfie POV at eye-level with subtle organic micro-shake\", \"lighting\": \"Warm gym overhead lights with natural ambient fill\", \"voice\": \"Post-workout already tiring — why make your shake another workout?\", \"SFX\": \"Subtle gym ambient room tone, soft breathing exhale\", \"environment\": \"Modern Singapore fitness club with workout equipment and bench softly visible in background\", \"element\": [{\"subject\": \"28-32 year old Singaporean male gym-goer in dark athletic tank top\", \"prop\": \"Gym towel draped over shoulder\"}], \"motion\": \"Natural post-workout breathing, relaxed head movements\", \"ending\": \"Smiles slightly into camera, glances towards bench table\", \"text\": \"None\", \"keyword\": [\"UGC selfie\", \"Singapore gym\", \"post-workout hook\", \"handheld TikTok\"]}"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_SCHEDULED"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 1403,
+              "prompt": "{\"scene\": 1, \"duration_s\": 4, \"scene_description\": \"A 28-32 year old athletic Singaporean male fitness enthusiast in a dark athletic tank top drops onto a gym bench after a set, breathing naturally, wipes brow with gym towel and speaks directly into his handheld phone camera with a casual, relatable smile.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 3.8, \"visual_action\": \"Creator drops onto gym bench, wipes forehead with gym towel, and looks into camera while delivering the opening hook.\", \"dialogue\": \"Post-workout already tiring — why make your shake another workout?\", \"transition_after\": \"direct cut to bench setup\"}], \"style\": \"raw handheld UGC smartphone video, authentic TikTok selfie style, natural skin texture, post-workout sweat sheen\", \"camera_direction\": \"Handheld smartphone selfie POV at eye-level with subtle organic micro-shake\", \"lighting\": \"Warm gym overhead lights with natural ambient fill\", \"voice\": \"Post-workout already tiring — why make your shake another workout?\", \"SFX\": \"Subtle gym ambient room tone, soft breathing exhale\", \"environment\": \"Modern Singapore fitness club with workout equipment and bench softly visible in background\", \"element\": [{\"subject\": \"28-32 year old Singaporean male gym-goer in dark athletic tank top\", \"prop\": \"Gym towel draped over shoulder\"}], \"motion\": \"Natural post-workout breathing, relaxed head movements\", \"ending\": \"Smiles slightly into camera, glances towards bench table\", \"text\": \"None\", \"keyword\": [\"UGC selfie\", \"Singapore gym\", \"post-workout hook\", \"handheld TikTok\"]}",
+              "model": "abra_r2v_4s",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT"
+            },
+            "dimensions": {
+              "length": "4s"
+            },
+            "operation": {
+              "name": "640d282c-2d85-44ba-80d9-0dfa4813789d"
+            }
+          },
+          "sceneId": "scene-1"
+        }
+      ]
+    }
+  },
+  "2": {
+    "media_id": null,
+    "duration_s": 6,
+    "raw_response": {
+      "remainingCredits": 24198,
+      "workflows": [
+        {
+          "name": "f5cf93b5-d5f4-4af4-a02c-a25d13cb8469",
+          "metadata": {
+            "displayName": "Creator preparing protein shake",
+            "createTime": "2026-08-18T08:23:33.299996Z",
+            "primaryMediaId": "5435ecc1-7c69-47ef-80ec-54c69916a640",
+            "batchId": "c4be0200-02c7-40bc-b284-aff884efbc83",
+            "updateTime": "2026-08-18T08:23:37.091867Z"
+          },
+          "projectId": "90ce1d3b-52fd-4529-aa36-205d5f7debe5"
+        }
+      ],
+      "media": [
+        {
+          "name": "5435ecc1-7c69-47ef-80ec-54c69916a640",
+          "projectId": "90ce1d3b-52fd-4529-aa36-205d5f7debe5",
+          "workflowId": "f5cf93b5-d5f4-4af4-a02c-a25d13cb8469",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-18T08:23:33.299996Z",
+            "mediaTitle": "{\"scene\": 2, \"duration_s\": 6, \"scene_description\": \"Creator places the PVL ISO Gold tub firmly on the gym bench beside a clear shaker bottle, twists the shaker open, pours water, and clearly presents the front product label to the camera.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 4.9, \"visual_action\": \"Creator sets the PVL ISO Gold tub down, removes shaker lid, pours water, and points proudly at the tub label.\", \"dialogue\": \"I keep PVL ISO Gold simple: add water, add one serving, shake and go.\", \"transition_after\": \"direct cut to mixing demo\"}], \"style\": \"raw handheld UGC smartphone video, authentic TikTok angle, natural indoor gym lighting\", \"camera_direction\": \"Medium close-up handheld angle tilted slightly down towards the gym bench\", \"lighting\": \"Warm gym lighting highlighting the PVL ISO Gold container and clear shaker\", \"voice\": \"I keep PVL ISO Gold simple: add water, add one serving, shake and go.\", \"SFX\": \"Solid tub tap on bench, shaker cap twist, crisp water pouring sound\", \"environment\": \"Gym bench area with gym bag and workout floor in background\", \"element\": [{\"subject\": \"Singaporean male creator with athletic arms and tank top\", \"prop\": \"PVL ISO Gold tub and clear protein shaker\"}], \"motion\": \"Careful, deliberate hands setting up the protein shake routine\", \"ending\": \"Hands secure the shaker lid and prepare to shake\", \"text\": \"None\", \"keyword\": [\"protein setup\", \"PVL ISO Gold\", \"shaker bottle\", \"gym routine\"]}",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "abra_r2v_6s",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_REFERENCE_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_MULTI_REFERENCE"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_720P"
+                },
+                "videoGenerationImageInputs": [
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_REFERENCE_IMAGE",
+                    "mediaId": "427fedff-9694-4594-bd05-776a81d78de8"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_REFERENCE_IMAGE",
+                    "mediaId": "7ecd758b-e238-4323-84bd-db1d9e5b0513"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_REFERENCE_IMAGE",
+                    "mediaId": "79791ee1-4b76-4534-9169-e524030dbc48"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "427fedff-9694-4594-bd05-776a81d78de8"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "7ecd758b-e238-4323-84bd-db1d9e5b0513"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "79791ee1-4b76-4534-9169-e524030dbc48"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {
+                  "structuredPrompt": {
+                    "parts": [
+                      {
+                        "text": "{\"scene\": 2, \"duration_s\": 6, \"scene_description\": \"Creator places the PVL ISO Gold tub firmly on the gym bench beside a clear shaker bottle, twists the shaker open, pours water, and clearly presents the front product label to the camera.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 4.9, \"visual_action\": \"Creator sets the PVL ISO Gold tub down, removes shaker lid, pours water, and points proudly at the tub label.\", \"dialogue\": \"I keep PVL ISO Gold simple: add water, add one serving, shake and go.\", \"transition_after\": \"direct cut to mixing demo\"}], \"style\": \"raw handheld UGC smartphone video, authentic TikTok angle, natural indoor gym lighting\", \"camera_direction\": \"Medium close-up handheld angle tilted slightly down towards the gym bench\", \"lighting\": \"Warm gym lighting highlighting the PVL ISO Gold container and clear shaker\", \"voice\": \"I keep PVL ISO Gold simple: add water, add one serving, shake and go.\", \"SFX\": \"Solid tub tap on bench, shaker cap twist, crisp water pouring sound\", \"environment\": \"Gym bench area with gym bag and workout floor in background\", \"element\": [{\"subject\": \"Singaporean male creator with athletic arms and tank top\", \"prop\": \"PVL ISO Gold tub and clear protein shaker\"}], \"motion\": \"Careful, deliberate hands setting up the protein shake routine\", \"ending\": \"Hands secure the shaker lid and prepare to shake\", \"text\": \"None\", \"keyword\": [\"protein setup\", \"PVL ISO Gold\", \"shaker bottle\", \"gym routine\"]}"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_SCHEDULED"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 1412,
+              "prompt": "{\"scene\": 2, \"duration_s\": 6, \"scene_description\": \"Creator places the PVL ISO Gold tub firmly on the gym bench beside a clear shaker bottle, twists the shaker open, pours water, and clearly presents the front product label to the camera.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 4.9, \"visual_action\": \"Creator sets the PVL ISO Gold tub down, removes shaker lid, pours water, and points proudly at the tub label.\", \"dialogue\": \"I keep PVL ISO Gold simple: add water, add one serving, shake and go.\", \"transition_after\": \"direct cut to mixing demo\"}], \"style\": \"raw handheld UGC smartphone video, authentic TikTok angle, natural indoor gym lighting\", \"camera_direction\": \"Medium close-up handheld angle tilted slightly down towards the gym bench\", \"lighting\": \"Warm gym lighting highlighting the PVL ISO Gold container and clear shaker\", \"voice\": \"I keep PVL ISO Gold simple: add water, add one serving, shake and go.\", \"SFX\": \"Solid tub tap on bench, shaker cap twist, crisp water pouring sound\", \"environment\": \"Gym bench area with gym bag and workout floor in background\", \"element\": [{\"subject\": \"Singaporean male creator with athletic arms and tank top\", \"prop\": \"PVL ISO Gold tub and clear protein shaker\"}], \"motion\": \"Careful, deliberate hands setting up the protein shake routine\", \"ending\": \"Hands secure the shaker lid and prepare to shake\", \"text\": \"None\", \"keyword\": [\"protein setup\", \"PVL ISO Gold\", \"shaker bottle\", \"gym routine\"]}",
+              "model": "abra_r2v_6s",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT"
+            },
+            "dimensions": {
+              "length": "6s"
+            },
+            "operation": {
+              "name": "5435ecc1-7c69-47ef-80ec-54c69916a640"
+            }
+          },
+          "sceneId": "scene-2"
+        }
+      ]
+    }
+  },
+  "3": {
+    "media_id": null,
+    "duration_s": 6,
+    "raw_response": {
+      "remainingCredits": 24188,
+      "workflows": [
+        {
+          "name": "fb880402-1d3d-4810-8f58-c8fa229ed12c",
+          "metadata": {
+            "displayName": "Person shaking protein bottle",
+            "createTime": "2026-08-18T08:23:43.340345Z",
+            "primaryMediaId": "e1f69cf8-a1cb-4f1c-9045-bc5bd565536c",
+            "batchId": "3e1d4599-1658-4bed-9364-8c6a67b5dd0f",
+            "updateTime": "2026-08-18T08:23:46.983499Z"
+          },
+          "projectId": "90ce1d3b-52fd-4529-aa36-205d5f7debe5"
+        }
+      ],
+      "media": [
+        {
+          "name": "e1f69cf8-a1cb-4f1c-9045-bc5bd565536c",
+          "projectId": "90ce1d3b-52fd-4529-aa36-205d5f7debe5",
+          "workflowId": "fb880402-1d3d-4810-8f58-c8fa229ed12c",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-18T08:23:43.340345Z",
+            "mediaTitle": "{\"scene\": 3, \"duration_s\": 6, \"scene_description\": \"Close-up handheld shot of the creator shaking the clear shaker vigorously for a few seconds, then holding up the perfectly smooth, lump-free whey isolate shake against gym light.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 4.8, \"visual_action\": \"Creator shakes bottle with energetic rhythmic motions, stops, and holds up the clear bottle showing completely smooth mixed protein shake.\", \"dialogue\": \"It mixes smooth, so it fits the routine when I’m rushing from gym to the rest of the day.\", \"transition_after\": \"cut to product macro callout\"}], \"style\": \"raw handheld UGC smartphone video, dynamic close-up texture, crisp liquid motion\", \"camera_direction\": \"Close-up tracking the shaker bottle with slight natural handheld movement\", \"lighting\": \"Clear overhead lighting catching the smooth liquid texture inside the bottle\", \"voice\": \"It mixes smooth, so it fits the routine when I’m rushing from gym to the rest of the day.\", \"SFX\": \"Rhythmic shaker ball clatter and liquid swishing sound\", \"environment\": \"Modern gym setting softly blurred behind shaker\", \"element\": [{\"subject\": \"Creator's muscular hands and athletic forearm\", \"prop\": \"Clear shaker bottle filled with freshly mixed smooth protein shake\"}], \"motion\": \"Quick energetic shaking motion settling into a steady hold\", \"ending\": \"Holds shaker still, showing clean dissolved protein drink\", \"text\": \"None\", \"keyword\": [\"smooth mix\", \"no clumps\", \"instant dissolve\", \"clear shaker\"]}",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "abra_r2v_6s",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_REFERENCE_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_MULTI_REFERENCE"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_720P"
+                },
+                "videoGenerationImageInputs": [
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_REFERENCE_IMAGE",
+                    "mediaId": "427fedff-9694-4594-bd05-776a81d78de8"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_REFERENCE_IMAGE",
+                    "mediaId": "7ecd758b-e238-4323-84bd-db1d9e5b0513"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_REFERENCE_IMAGE",
+                    "mediaId": "79791ee1-4b76-4534-9169-e524030dbc48"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "427fedff-9694-4594-bd05-776a81d78de8"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "7ecd758b-e238-4323-84bd-db1d9e5b0513"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "79791ee1-4b76-4534-9169-e524030dbc48"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {
+                  "structuredPrompt": {
+                    "parts": [
+                      {
+                        "text": "{\"scene\": 3, \"duration_s\": 6, \"scene_description\": \"Close-up handheld shot of the creator shaking the clear shaker vigorously for a few seconds, then holding up the perfectly smooth, lump-free whey isolate shake against gym light.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 4.8, \"visual_action\": \"Creator shakes bottle with energetic rhythmic motions, stops, and holds up the clear bottle showing completely smooth mixed protein shake.\", \"dialogue\": \"It mixes smooth, so it fits the routine when I’m rushing from gym to the rest of the day.\", \"transition_after\": \"cut to product macro callout\"}], \"style\": \"raw handheld UGC smartphone video, dynamic close-up texture, crisp liquid motion\", \"camera_direction\": \"Close-up tracking the shaker bottle with slight natural handheld movement\", \"lighting\": \"Clear overhead lighting catching the smooth liquid texture inside the bottle\", \"voice\": \"It mixes smooth, so it fits the routine when I’m rushing from gym to the rest of the day.\", \"SFX\": \"Rhythmic shaker ball clatter and liquid swishing sound\", \"environment\": \"Modern gym setting softly blurred behind shaker\", \"element\": [{\"subject\": \"Creator's muscular hands and athletic forearm\", \"prop\": \"Clear shaker bottle filled with freshly mixed smooth protein shake\"}], \"motion\": \"Quick energetic shaking motion settling into a steady hold\", \"ending\": \"Holds shaker still, showing clean dissolved protein drink\", \"text\": \"None\", \"keyword\": [\"smooth mix\", \"no clumps\", \"instant dissolve\", \"clear shaker\"]}"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_SCHEDULED"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 1422,
+              "prompt": "{\"scene\": 3, \"duration_s\": 6, \"scene_description\": \"Close-up handheld shot of the creator shaking the clear shaker vigorously for a few seconds, then holding up the perfectly smooth, lump-free whey isolate shake against gym light.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 4.8, \"visual_action\": \"Creator shakes bottle with energetic rhythmic motions, stops, and holds up the clear bottle showing completely smooth mixed protein shake.\", \"dialogue\": \"It mixes smooth, so it fits the routine when I’m rushing from gym to the rest of the day.\", \"transition_after\": \"cut to product macro callout\"}], \"style\": \"raw handheld UGC smartphone video, dynamic close-up texture, crisp liquid motion\", \"camera_direction\": \"Close-up tracking the shaker bottle with slight natural handheld movement\", \"lighting\": \"Clear overhead lighting catching the smooth liquid texture inside the bottle\", \"voice\": \"It mixes smooth, so it fits the routine when I’m rushing from gym to the rest of the day.\", \"SFX\": \"Rhythmic shaker ball clatter and liquid swishing sound\", \"environment\": \"Modern gym setting softly blurred behind shaker\", \"element\": [{\"subject\": \"Creator's muscular hands and athletic forearm\", \"prop\": \"Clear shaker bottle filled with freshly mixed smooth protein shake\"}], \"motion\": \"Quick energetic shaking motion settling into a steady hold\", \"ending\": \"Holds shaker still, showing clean dissolved protein drink\", \"text\": \"None\", \"keyword\": [\"smooth mix\", \"no clumps\", \"instant dissolve\", \"clear shaker\"]}",
+              "model": "abra_r2v_6s",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT"
+            },
+            "dimensions": {
+              "length": "6s"
+            },
+            "operation": {
+              "name": "e1f69cf8-a1cb-4f1c-9045-bc5bd565536c"
+            }
+          },
+          "sceneId": "scene-3"
+        }
+      ]
+    }
+  },
+  "4": {
+    "media_id": null,
+    "duration_s": 8,
+    "raw_response": {
+      "remainingCredits": 24176,
+      "workflows": [
+        {
+          "name": "ded57418-3f5d-42ec-a9bf-579ebc2e8194",
+          "metadata": {
+            "displayName": "Man pointing to protein tub",
+            "createTime": "2026-08-18T08:23:53.085543Z",
+            "primaryMediaId": "c9dcd415-3d97-4e8e-926c-2f1f2ed41743",
+            "batchId": "a4f11f9c-9667-4e6f-b6b6-571b60686b84",
+            "updateTime": "2026-08-18T08:23:57.392953Z"
+          },
+          "projectId": "90ce1d3b-52fd-4529-aa36-205d5f7debe5"
+        }
+      ],
+      "media": [
+        {
+          "name": "c9dcd415-3d97-4e8e-926c-2f1f2ed41743",
+          "projectId": "90ce1d3b-52fd-4529-aa36-205d5f7debe5",
+          "workflowId": "ded57418-3f5d-42ec-a9bf-579ebc2e8194",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-18T08:23:53.085543Z",
+            "mediaTitle": "{\"scene\": 4, \"duration_s\": 8, \"scene_description\": \"Creator holds the PVL ISO Gold tub close to camera at chest height, pointing with his index finger directly to the 27g protein per serving and enzyme callouts on the label while explaining clearly.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 6.0, \"visual_action\": \"Creator gestures with finger across the nutrition label of PVL ISO Gold, smiling confidently at camera.\", \"dialogue\": \"Each serving gives 27g protein from whey protein isolate, plus added enzymes.\", \"transition_after\": \"cut to drinking reaction\"}], \"style\": \"raw handheld UGC smartphone video, authentic creator product breakdown, natural focus on packaging\", \"camera_direction\": \"Medium selfie POV with subtle push-in towards product callout\", \"lighting\": \"Even warm illumination on creator's face and product label text\", \"voice\": \"Each serving gives 27g protein from whey protein isolate, plus added enzymes.\", \"SFX\": \"Subtle plastic tap on tub label, warm gym ambience\", \"environment\": \"Locker room bench area with soft background depth of field\", \"element\": [{\"subject\": \"28-32 year old Singaporean male creator\", \"prop\": \"PVL ISO Gold whey isolate tub\"}], \"motion\": \"Gesturing hand pointing to label details, expressive nodding\", \"ending\": \"Lowers tub slightly and picks up shaker bottle\", \"text\": \"None\", \"keyword\": [\"27g protein\", \"whey isolate\", \"digestive enzymes\", \"label proof\"]}",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "abra_r2v_8s",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_REFERENCE_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_MULTI_REFERENCE"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_720P"
+                },
+                "videoGenerationImageInputs": [
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_REFERENCE_IMAGE",
+                    "mediaId": "427fedff-9694-4594-bd05-776a81d78de8"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_REFERENCE_IMAGE",
+                    "mediaId": "7ecd758b-e238-4323-84bd-db1d9e5b0513"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_REFERENCE_IMAGE",
+                    "mediaId": "79791ee1-4b76-4534-9169-e524030dbc48"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "427fedff-9694-4594-bd05-776a81d78de8"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "7ecd758b-e238-4323-84bd-db1d9e5b0513"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "79791ee1-4b76-4534-9169-e524030dbc48"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {
+                  "structuredPrompt": {
+                    "parts": [
+                      {
+                        "text": "{\"scene\": 4, \"duration_s\": 8, \"scene_description\": \"Creator holds the PVL ISO Gold tub close to camera at chest height, pointing with his index finger directly to the 27g protein per serving and enzyme callouts on the label while explaining clearly.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 6.0, \"visual_action\": \"Creator gestures with finger across the nutrition label of PVL ISO Gold, smiling confidently at camera.\", \"dialogue\": \"Each serving gives 27g protein from whey protein isolate, plus added enzymes.\", \"transition_after\": \"cut to drinking reaction\"}], \"style\": \"raw handheld UGC smartphone video, authentic creator product breakdown, natural focus on packaging\", \"camera_direction\": \"Medium selfie POV with subtle push-in towards product callout\", \"lighting\": \"Even warm illumination on creator's face and product label text\", \"voice\": \"Each serving gives 27g protein from whey protein isolate, plus added enzymes.\", \"SFX\": \"Subtle plastic tap on tub label, warm gym ambience\", \"environment\": \"Locker room bench area with soft background depth of field\", \"element\": [{\"subject\": \"28-32 year old Singaporean male creator\", \"prop\": \"PVL ISO Gold whey isolate tub\"}], \"motion\": \"Gesturing hand pointing to label details, expressive nodding\", \"ending\": \"Lowers tub slightly and picks up shaker bottle\", \"text\": \"None\", \"keyword\": [\"27g protein\", \"whey isolate\", \"digestive enzymes\", \"label proof\"]}"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_SCHEDULED"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 1432,
+              "prompt": "{\"scene\": 4, \"duration_s\": 8, \"scene_description\": \"Creator holds the PVL ISO Gold tub close to camera at chest height, pointing with his index finger directly to the 27g protein per serving and enzyme callouts on the label while explaining clearly.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 6.0, \"visual_action\": \"Creator gestures with finger across the nutrition label of PVL ISO Gold, smiling confidently at camera.\", \"dialogue\": \"Each serving gives 27g protein from whey protein isolate, plus added enzymes.\", \"transition_after\": \"cut to drinking reaction\"}], \"style\": \"raw handheld UGC smartphone video, authentic creator product breakdown, natural focus on packaging\", \"camera_direction\": \"Medium selfie POV with subtle push-in towards product callout\", \"lighting\": \"Even warm illumination on creator's face and product label text\", \"voice\": \"Each serving gives 27g protein from whey protein isolate, plus added enzymes.\", \"SFX\": \"Subtle plastic tap on tub label, warm gym ambience\", \"environment\": \"Locker room bench area with soft background depth of field\", \"element\": [{\"subject\": \"28-32 year old Singaporean male creator\", \"prop\": \"PVL ISO Gold whey isolate tub\"}], \"motion\": \"Gesturing hand pointing to label details, expressive nodding\", \"ending\": \"Lowers tub slightly and picks up shaker bottle\", \"text\": \"None\", \"keyword\": [\"27g protein\", \"whey isolate\", \"digestive enzymes\", \"label proof\"]}",
+              "model": "abra_r2v_8s",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT"
+            },
+            "dimensions": {
+              "length": "8s"
+            },
+            "operation": {
+              "name": "c9dcd415-3d97-4e8e-926c-2f1f2ed41743"
+            }
+          },
+          "sceneId": "scene-4"
+        }
+      ]
+    }
+  },
+  "5": {
+    "media_id": null,
+    "duration_s": 6,
+    "raw_response": {
+      "remainingCredits": 24166,
+      "workflows": [
+        {
+          "name": "7903588b-e64d-4113-bd7e-5e54136151d8",
+          "metadata": {
+            "displayName": "Creator drinking shake and packing",
+            "createTime": "2026-08-18T08:24:03.320745Z",
+            "primaryMediaId": "91530565-ec0d-47e2-a199-607bcfba4e52",
+            "batchId": "24cc4449-db2c-44c1-a84e-e71c9b0e3459",
+            "updateTime": "2026-08-18T08:24:07.841265Z"
+          },
+          "projectId": "90ce1d3b-52fd-4529-aa36-205d5f7debe5"
+        }
+      ],
+      "media": [
+        {
+          "name": "91530565-ec0d-47e2-a199-607bcfba4e52",
+          "projectId": "90ce1d3b-52fd-4529-aa36-205d5f7debe5",
+          "workflowId": "7903588b-e64d-4113-bd7e-5e54136151d8",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-18T08:24:03.320745Z",
+            "mediaTitle": "{\"scene\": 5, \"duration_s\": 6, \"scene_description\": \"Creator flips open the shaker cap, takes a refreshing sip of the shake, gives an appreciative nod of genuine satisfaction, wipes mouth with towel, and slides the shaker into his gym duffel bag.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 5.2, \"visual_action\": \"Takes a satisfying gulp from shaker, gives a genuine approving head nod, wipes mouth with towel, and packs up gear.\", \"dialogue\": \"Quick sip, pack up, done. That’s the kind of post-workout routine I can tahan.\", \"transition_after\": \"cut to final CTA\"}], \"style\": \"raw handheld UGC smartphone video, authentic spontaneous reaction, believable gym life\", \"camera_direction\": \"Slightly wider medium shot following creator packing up\", \"lighting\": \"Locker room ambient lighting, authentic shadows\", \"voice\": \"Quick sip, pack up, done. That’s the kind of post-workout routine I can tahan.\", \"SFX\": \"Satisfied swallow sound, shaker cap snap, gym bag zipper zipping\", \"environment\": \"Gym bench and locker row area\", \"element\": [{\"subject\": \"Athletic Singaporean creator\", \"prop\": \"Shaker bottle and dark sports duffel bag\"}], \"motion\": \"Drinking gesture, nodding head, zipping bag and swinging strap\", \"ending\": \"Looks back up at camera with an energetic smile\", \"text\": \"None\", \"keyword\": [\"taste reaction\", \"pack up\", \"gym duffel\", \"satisfying routine\"]}",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "abra_r2v_6s",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_REFERENCE_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_MULTI_REFERENCE"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_720P"
+                },
+                "videoGenerationImageInputs": [
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_REFERENCE_IMAGE",
+                    "mediaId": "427fedff-9694-4594-bd05-776a81d78de8"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_REFERENCE_IMAGE",
+                    "mediaId": "7ecd758b-e238-4323-84bd-db1d9e5b0513"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_REFERENCE_IMAGE",
+                    "mediaId": "79791ee1-4b76-4534-9169-e524030dbc48"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "427fedff-9694-4594-bd05-776a81d78de8"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "7ecd758b-e238-4323-84bd-db1d9e5b0513"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "79791ee1-4b76-4534-9169-e524030dbc48"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {
+                  "structuredPrompt": {
+                    "parts": [
+                      {
+                        "text": "{\"scene\": 5, \"duration_s\": 6, \"scene_description\": \"Creator flips open the shaker cap, takes a refreshing sip of the shake, gives an appreciative nod of genuine satisfaction, wipes mouth with towel, and slides the shaker into his gym duffel bag.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 5.2, \"visual_action\": \"Takes a satisfying gulp from shaker, gives a genuine approving head nod, wipes mouth with towel, and packs up gear.\", \"dialogue\": \"Quick sip, pack up, done. That’s the kind of post-workout routine I can tahan.\", \"transition_after\": \"cut to final CTA\"}], \"style\": \"raw handheld UGC smartphone video, authentic spontaneous reaction, believable gym life\", \"camera_direction\": \"Slightly wider medium shot following creator packing up\", \"lighting\": \"Locker room ambient lighting, authentic shadows\", \"voice\": \"Quick sip, pack up, done. That’s the kind of post-workout routine I can tahan.\", \"SFX\": \"Satisfied swallow sound, shaker cap snap, gym bag zipper zipping\", \"environment\": \"Gym bench and locker row area\", \"element\": [{\"subject\": \"Athletic Singaporean creator\", \"prop\": \"Shaker bottle and dark sports duffel bag\"}], \"motion\": \"Drinking gesture, nodding head, zipping bag and swinging strap\", \"ending\": \"Looks back up at camera with an energetic smile\", \"text\": \"None\", \"keyword\": [\"taste reaction\", \"pack up\", \"gym duffel\", \"satisfying routine\"]}"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_SCHEDULED"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 1442,
+              "prompt": "{\"scene\": 5, \"duration_s\": 6, \"scene_description\": \"Creator flips open the shaker cap, takes a refreshing sip of the shake, gives an appreciative nod of genuine satisfaction, wipes mouth with towel, and slides the shaker into his gym duffel bag.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 5.2, \"visual_action\": \"Takes a satisfying gulp from shaker, gives a genuine approving head nod, wipes mouth with towel, and packs up gear.\", \"dialogue\": \"Quick sip, pack up, done. That’s the kind of post-workout routine I can tahan.\", \"transition_after\": \"cut to final CTA\"}], \"style\": \"raw handheld UGC smartphone video, authentic spontaneous reaction, believable gym life\", \"camera_direction\": \"Slightly wider medium shot following creator packing up\", \"lighting\": \"Locker room ambient lighting, authentic shadows\", \"voice\": \"Quick sip, pack up, done. That’s the kind of post-workout routine I can tahan.\", \"SFX\": \"Satisfied swallow sound, shaker cap snap, gym bag zipper zipping\", \"environment\": \"Gym bench and locker row area\", \"element\": [{\"subject\": \"Athletic Singaporean creator\", \"prop\": \"Shaker bottle and dark sports duffel bag\"}], \"motion\": \"Drinking gesture, nodding head, zipping bag and swinging strap\", \"ending\": \"Looks back up at camera with an energetic smile\", \"text\": \"None\", \"keyword\": [\"taste reaction\", \"pack up\", \"gym duffel\", \"satisfying routine\"]}",
+              "model": "abra_r2v_6s",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT"
+            },
+            "dimensions": {
+              "length": "6s"
+            },
+            "operation": {
+              "name": "91530565-ec0d-47e2-a199-607bcfba4e52"
+            }
+          },
+          "sceneId": "scene-5"
+        }
+      ]
+    }
+  },
+  "6": {
+    "media_id": null,
+    "duration_s": 6,
+    "raw_response": {
+      "remainingCredits": 24156,
+      "workflows": [
+        {
+          "name": "d299fe88-c79c-4d12-9655-d3b214d3f884",
+          "metadata": {
+            "displayName": "Creator holding protein tub",
+            "createTime": "2026-08-18T08:24:13.703838Z",
+            "primaryMediaId": "11623446-461f-4879-9d91-9a248489b244",
+            "batchId": "0a5969d2-50a1-4ea1-a8da-e9052bd03249",
+            "updateTime": "2026-08-18T08:24:17.331438Z"
+          },
+          "projectId": "90ce1d3b-52fd-4529-aa36-205d5f7debe5"
+        }
+      ],
+      "media": [
+        {
+          "name": "11623446-461f-4879-9d91-9a248489b244",
+          "projectId": "90ce1d3b-52fd-4529-aa36-205d5f7debe5",
+          "workflowId": "d299fe88-c79c-4d12-9655-d3b214d3f884",
+          "workflowStepId": "CAE",
+          "mediaMetadata": {
+            "createTime": "2026-08-18T08:24:13.703838Z",
+            "mediaTitle": "{\"scene\": 6, \"duration_s\": 6, \"scene_description\": \"Creator holds the PVL ISO Gold tub in one hand, smiling warmly, and uses his other hand to point directly down toward the bottom left of the vertical screen where the Shopee SG yellow basket is located.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 5.2, \"visual_action\": \"Creator smiles, delivers call to action, repeatedly pointing downwards towards the TikTok yellow basket area.\", \"dialogue\": \"Check the current PVL ISO Gold listing on Shopee SG — tap the yellow basket below ah.\", \"transition_after\": \"outro freeze / end of clip\"}], \"style\": \"raw handheld UGC smartphone video, high energy TikTok creator CTA, clean safe-area framing\", \"camera_direction\": \"Medium close-up selfie POV framed slightly above bottom UI safe area\", \"lighting\": \"Bright, inviting gym lighting\", \"voice\": \"Check the current PVL ISO Gold listing on Shopee SG — tap the yellow basket below ah.\", \"SFX\": \"Subtle UI chime / notification pop\", \"environment\": \"Gym background with warm lighting and clean ambience\", \"element\": [{\"subject\": \"Energetic Singaporean male creator\", \"prop\": \"PVL ISO Gold tub\"}], \"motion\": \"Downward pointing gesture, inviting facial expressions\", \"ending\": \"Friendly concluding smile and slight nod\", \"text\": \"None\", \"keyword\": [\"Shopee SG CTA\", \"yellow basket\", \"PVL ISO Gold\", \"TikTok UGC outro\"]}",
+            "requestData": {
+              "videoGenerationRequestData": {
+                "videoModelControlInput": {
+                  "videoModelName": "abra_r2v_6s",
+                  "videoGenerationMode": "VIDEO_GENERATION_MODE_REFERENCE_TO_VIDEO",
+                  "videoModelCapabilities": [
+                    "VIDEO_MODEL_CAPABILITY_MULTI_REFERENCE"
+                  ],
+                  "videoAspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT",
+                  "videoResolution": "VIDEO_RESOLUTION_720P"
+                },
+                "videoGenerationImageInputs": [
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_REFERENCE_IMAGE",
+                    "mediaId": "427fedff-9694-4594-bd05-776a81d78de8"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_REFERENCE_IMAGE",
+                    "mediaId": "7ecd758b-e238-4323-84bd-db1d9e5b0513"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_REFERENCE_IMAGE",
+                    "mediaId": "79791ee1-4b76-4534-9169-e524030dbc48"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "427fedff-9694-4594-bd05-776a81d78de8"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "7ecd758b-e238-4323-84bd-db1d9e5b0513"
+                  },
+                  {
+                    "imageUsageType": "IMAGE_USAGE_TYPE_ASSET_IMAGE",
+                    "mediaId": "79791ee1-4b76-4534-9169-e524030dbc48"
+                  }
+                ]
+              },
+              "promptInputs": [
+                {
+                  "structuredPrompt": {
+                    "parts": [
+                      {
+                        "text": "{\"scene\": 6, \"duration_s\": 6, \"scene_description\": \"Creator holds the PVL ISO Gold tub in one hand, smiling warmly, and uses his other hand to point directly down toward the bottom left of the vertical screen where the Shopee SG yellow basket is located.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 5.2, \"visual_action\": \"Creator smiles, delivers call to action, repeatedly pointing downwards towards the TikTok yellow basket area.\", \"dialogue\": \"Check the current PVL ISO Gold listing on Shopee SG — tap the yellow basket below ah.\", \"transition_after\": \"outro freeze / end of clip\"}], \"style\": \"raw handheld UGC smartphone video, high energy TikTok creator CTA, clean safe-area framing\", \"camera_direction\": \"Medium close-up selfie POV framed slightly above bottom UI safe area\", \"lighting\": \"Bright, inviting gym lighting\", \"voice\": \"Check the current PVL ISO Gold listing on Shopee SG — tap the yellow basket below ah.\", \"SFX\": \"Subtle UI chime / notification pop\", \"environment\": \"Gym background with warm lighting and clean ambience\", \"element\": [{\"subject\": \"Energetic Singaporean male creator\", \"prop\": \"PVL ISO Gold tub\"}], \"motion\": \"Downward pointing gesture, inviting facial expressions\", \"ending\": \"Friendly concluding smile and slight nod\", \"text\": \"None\", \"keyword\": [\"Shopee SG CTA\", \"yellow basket\", \"PVL ISO Gold\", \"TikTok UGC outro\"]}"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "clientPlatform": "CLIENT_PLATFORM_WEB"
+            },
+            "mediaStatus": {
+              "mediaGenerationStatus": "MEDIA_GENERATION_STATUS_SCHEDULED"
+            },
+            "visibility": "PRIVATE"
+          },
+          "video": {
+            "generatedVideo": {
+              "seed": 1453,
+              "prompt": "{\"scene\": 6, \"duration_s\": 6, \"scene_description\": \"Creator holds the PVL ISO Gold tub in one hand, smiling warmly, and uses his other hand to point directly down toward the bottom left of the vertical screen where the Shopee SG yellow basket is located.\", \"timeline\": [{\"start_s\": 0.0, \"end_s\": 5.2, \"visual_action\": \"Creator smiles, delivers call to action, repeatedly pointing downwards towards the TikTok yellow basket area.\", \"dialogue\": \"Check the current PVL ISO Gold listing on Shopee SG — tap the yellow basket below ah.\", \"transition_after\": \"outro freeze / end of clip\"}], \"style\": \"raw handheld UGC smartphone video, high energy TikTok creator CTA, clean safe-area framing\", \"camera_direction\": \"Medium close-up selfie POV framed slightly above bottom UI safe area\", \"lighting\": \"Bright, inviting gym lighting\", \"voice\": \"Check the current PVL ISO Gold listing on Shopee SG — tap the yellow basket below ah.\", \"SFX\": \"Subtle UI chime / notification pop\", \"environment\": \"Gym background with warm lighting and clean ambience\", \"element\": [{\"subject\": \"Energetic Singaporean male creator\", \"prop\": \"PVL ISO Gold tub\"}], \"motion\": \"Downward pointing gesture, inviting facial expressions\", \"ending\": \"Friendly concluding smile and slight nod\", \"text\": \"None\", \"keyword\": [\"Shopee SG CTA\", \"yellow basket\", \"PVL ISO Gold\", \"TikTok UGC outro\"]}",
+              "model": "abra_r2v_6s",
+              "baseImageMediaGenerationId": "",
+              "isLooped": false,
+              "aspectRatio": "VIDEO_ASPECT_RATIO_PORTRAIT"
+            },
+            "dimensions": {
+              "length": "6s"
+            },
+            "operation": {
+              "name": "11623446-461f-4879-9d91-9a248489b244"
+            }
+          },
+          "sceneId": "scene-6"
+        }
+      ]
+    }
+  }
+}

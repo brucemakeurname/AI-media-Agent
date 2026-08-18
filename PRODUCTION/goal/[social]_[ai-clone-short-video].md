@@ -7,7 +7,7 @@ amount: [single, batch]        # studio agent picks engine per ticket volume; bo
 engine:
   single: { text: in-session-gemini-3-pro, crawl: "crawl_describe_Tiktok_vid_kalodata (direct Kalodata MP4); crawl_describe_Tiktok_vid_apify (fallback)", script: "write-shooting-script", timing: "gemini-tts-timing", sequence: "write-ai-ugc-video-sequence-script", image: "flowkit (fk-create-project, fk-gen-refs, flowkit-nano-banana-image-gen)", video: "flowkit (fk-omni-video-gen reference_to_video, per-sequence sequential)", upscale: "flowkit 1080p → ffmpeg fallback", voice: "approved per-scene voice strategy" }
   batch:  { text: gemini-api-skill,        crawl: "crawl_describe_Tiktok_vid_kalodata (direct Kalodata MP4); crawl_describe_Tiktok_vid_apify (fallback)", script: "write-shooting-script", timing: "gemini-tts-timing", sequence: "write-ai-ugc-video-sequence-script", image: "flowkit (fk-create-project, fk-gen-refs, flowkit-nano-banana-image-gen)", video: "flowkit (fk-omni-video-gen parallel per-ticket sub-agents)", upscale: "flowkit 1080p → ffmpeg fallback", voice: "approved per-scene voice strategy" }
-primary_skills: [wiki-query, crawl_describe_Tiktok_vid_kalodata, crawl_describe_Tiktok_vid_apify, write-shooting-script, gemini-tts-timing, write-ai-ugc-video-sequence-script, tea-ugc-ai-realism, video-thumbnail, acad-image-gen, fk-create-project, fk-gen-refs, flowkit-nano-banana-image-gen, fk-omni-video-gen, gwt-remove-watermark-video, ffmpeg-upscale-video, "[html-video]-subtitle-burn-talking-head", "[html-video]-audio-mix", element-resolver, notion-upload]
+primary_skills: [wiki-query, crawl_describe_Tiktok_vid_kalodata, crawl_describe_Tiktok_vid_apify, write-shooting-script, gemini-tts-timing, write-ai-ugc-video-sequence-script, tea-ugc-ai-realism, video-thumbnail, acad-image-gen, fk-create-project, fk-gen-refs, flowkit-nano-banana-image-gen, fk-omni-video-gen, gwt-remove-watermark-video, ffmpeg-upscale-video, "[html-video]-post-production-qa-broll-overlay", "[html-video]-subtitle-burn-talking-head", "[html-video]-audio-mix", element-resolver, notion-upload]
 notion:
   posts_db: 38d0831f990c802db2b1e2a7b03a05da
   posts_source: collection://d830831f-990c-83a6-adf7-07c65da0e90a
@@ -40,7 +40,7 @@ Pipeline overview:
    - Runs `write-ai-ugc-video-sequence-script` to write `node/ugc-sequence-script.md`, incorporating both company ref assets and the extracted target keyframes (`iconic-frames/`) as visual references so rendered frames do not drift from the reference video.
    - Applies `tea-ugc-ai-realism` review before handoff.
 3. `designer` resolves character/product/setting references plus extracted ref keyframes, registers all refs in Flowkit (`fk-create-project`, `fk-gen-refs`), writes `node/thumbnail-brief.md` from the locked first beat, and renders `thumbnail.jpg` via `video-thumbnail` + `acad-image-gen`.
-4. `video-editor` renders sequence clips with Flowkit Omni (`fk-omni-video-gen`), executes mandatory **Flowkit 1080p upscale** (`POST /api/flow/upscale-video`) or the recorded `ffmpeg-upscale-video` fallback, downloads each scene, removes the Gemini/Veo visible watermark per scene (`gwt-remove-watermark-video`, immediately after download and before concat), applies the approved scene voice strategy, concatenates, runs dead-air and WhisperX approved-text QA, burns subtitles (`[html-video]-subtitle-burn-talking-head` with `SEGMENT_MODE=smart MAX_TOKENS=5 SUB_Y_RATIO=0.75`), mixes audio/SFX/BGM (`[html-video]-audio-mix`), prepends `thumbnail.jpg` as frame 0, and saves final MP4.
+4. `video-editor` renders sequence clips with Flowkit Omni (`fk-omni-video-gen`), executes mandatory **Flowkit 1080p upscale** (`POST /api/flow/upscale-video`) or the recorded `ffmpeg-upscale-video` fallback, downloads each scene, runs download QA, removes the Gemini/Veo visible watermark per scene (`gwt-remove-watermark-video`), runs post-processing QA, inserts product B-roll using approved product refs plus the matching A-roll/voice audio source, concatenates, runs dead-air/boundary and WhisperX approved-text QA, renders transparent HyperFrames product/price/text overlays over A-roll, burns subtitles (`[html-video]-subtitle-burn-talking-head` with `SEGMENT_MODE=smart MAX_TOKENS=5 SUB_Y_RATIO=0.75`), mixes audio/SFX/BGM (`[html-video]-audio-mix`), runs final QA, prepends `thumbnail.jpg` as frame 0, and saves final MP4.
 5. `notion-publisher` uploads assets, writes back to Notion, and creates `manifest.json`.
 
 ## Amount paths
@@ -53,7 +53,7 @@ Pipeline overview:
 > Fill every `{{placeholder}}` from Notion — field-mapping table below — then run the roles in sequence. No parallel fan-out within a single ticket.
 
 ```text
-This is a {{format}} ai-clone-short-video for {{channel}}, brand {{brand}}, pillar {{pillar}}, campaign {{campaign_link}}. Topic: {{topic}}. Voice/persona: {{voice_brief}}. Reference TikTok URL: {{visual_concept_script}} (same URL used for visual concept and voice). Video requirement (hard constraints — duration cap, aspect ratio, dialogue/subtitle requirements): {{video_requirement}}.
+This is a {{format}} ai-clone-short-video for {{channel}}, brand {{brand}}, pillar {{pillar}}, campaign {{campaign_link}}. Topic: {{topic}}. Voice/persona: {{voice_brief}}. Reference TikTok URL: {{visual_concept_script}} (same URL used for visual concept and voice). Video requirement (hard constraints — duration cap, aspect ratio, dialogue/subtitle requirements): {{video_requirement}}. B-roll mode: {{broll_mode}} (Brief: {{broll_description}}). Overlay mode: {{overlay_mode}} (Brief: {{overlay_description}}).
 
 Execution steps:
 
@@ -96,7 +96,7 @@ Step 2 (Mandatory 1080p Video Upscale via Flowkit): before downloading raw clip 
   `POST /api/flow/upscale-video` with `{"media_id": "<raw_media_id>", "scene_id": "scene-N", "aspect_ratio": "VIDEO_ASPECT_RATIO_PORTRAIT", "resolution": "VIDEO_RESOLUTION_1080P"}`
   Poll operation until COMPLETED. Obtain upscaled video base64 (`encodedVideo`) via `GET /api/flow/media/<upscaled_primary_media_id>` and save to `node/scenes/scene_{N}_1080p_raw.mp4`. If Flowkit fails, run `ffmpeg-upscale-video` on the downloaded scene, keep the original download, and record the fallback engine and error.
 Step 3 (Watermark Removal — Omni/Flow renders always carry the Gemini/Veo visible watermark):
-  immediately after each scene's 1080p download, before any voice/concat work touches it, run
+  immediately after each scene's 1080p download, run download QA before any voice/concat work touches it, then run
   `gwt-remove-watermark-video` (`video_modules/VeoWatermarkRemover/skills/gwt-remove-watermark-video.md`)
   on that single scene: `GeminiWatermarkTool-Video --veo -i node/scenes/scene_{N}_1080p_raw.mp4 -o
   node/scenes/scene_{N}_1080p_nowm.mp4 -q`. This is a demo binary capped at roughly 10s of input
@@ -104,7 +104,7 @@ Step 3 (Watermark Removal — Omni/Flow renders always carry the Gemini/Veo visi
   before concat** (never on the already-concatenated multi-scene video) always stays in bounds.
   Spot-check one frame's bottom-right corner crop per scene to confirm the mark is actually gone
   before trusting the output. All downstream steps consume `scene_{N}_1080p_nowm.mp4`, not the
-  raw watermarked file.
+  raw watermarked file. Run post-processing QA on the clean output before voice sync.
 Step 4 (Applio Voice Sync on the Watermark-Clean Render — NOT a pre-baked-audio splice): the
   locked `node/timing/timing-lock.json` WAVs are a **pre-production timing reference only** (they
   exist to lock dialogue duration and sequence packing before Omni ever renders) — they are not
@@ -118,14 +118,17 @@ Step 4 (Applio Voice Sync on the Watermark-Clean Render — NOT a pre-baked-audi
   confirming the Omni render's dialogue timing/duration landed within the locked packing, not
   supplying final audio.
 Step 5 (Post-Production & Final Assembly):
-  1. Concatenate the voice-synced, watermark-clean scene MP4s in order
+  1. Product B-roll Handling (runs when `b-roll: true` in sequence script / ticket): Resolve approved product B-roll, keep it visual-only, pre-trim every clip to its declared slot, map B-roll video to the matching A-roll/approved voice audio, and save `node/broll-manifest.json`. Use actual `ffprobe` concat durations, `-itsoffset` and `eof_action=pass` for full-frame cutaways. (If `b-roll: false`, skip B-roll mapping and assemble A-roll scenes directly).
+  2. Concatenate the voice-synced, watermark-clean scene MP4s in order
      (`node/scenes/scene_*.mp4`, the Step 4 output) into `node/video_concat.mp4`.
-  2. Run WhisperX on the concat audio, compare to `node/timing/approved-voice.txt`, correct only
+  3. Run dead-air and boundary QA into `node/concat-qa.json`, then run WhisperX on the concat audio, compare to `node/timing/approved-voice.txt`, correct only
      subtitle text with `correct_whisper_text.py`, then burn via `[html-video]-subtitle-burn-talking-head`
      using `SEGMENT_MODE=smart MAX_TOKENS=5 SUB_Y_RATIO=0.75` if requested in {{video_requirement}}.
-  3. Mix SFX and background music via `[html-video]-audio-mix` based on Part C spec.
-  4. Prepend `thumbnail.jpg` as the **first keyframe** (1 frame at 24fps) using ffmpeg filter_complex so thumbnail is frame 0 of the final output.
-  5. Save final MP4 to {{campaign_folder}}/ root (flat).
+  4. HyperFrames Overlay Handling (runs when `overlay: true` in sequence script / ticket): Render transparent product/price/CTA/text overlays with HyperFrames `talking-head-recut`/`motion-graphics`; use ProRes 4444 alpha and `setpts=PTS+start/TB` (never combine with `-itsoffset`), reserve `y=0.72–0.90` for subtitles, and save `node/hyperframes-overlay-manifest.json`. (If `overlay: false`, skip HyperFrames overlay generation).
+  5. Mix SFX and background music via `[html-video]-audio-mix` based on Part C spec, run final QA,
+     then prepend `thumbnail.jpg` as the **first keyframe** (1 frame at 24fps) using ffmpeg
+     filter_complex so thumbnail is frame 0 of the final output.
+  6. Save final MP4 to {{campaign_folder}}/ root (flat).
 
 notion-publisher (runs last): write back caption, hook, thumbnail, R2-embedded video link to Notion Post page, and create {{campaign_folder}}/manifest.json after verification holds.
 ```
@@ -141,9 +144,10 @@ Completion condition requires final 1080p MP4 at root, thumbnail at root, R2 vid
 - **Gemini TTS timing lock:** create `node/timing/lines.json`, run `gemini-tts-timing`, and pack the minimum
   4/6/8/10s plan from measured durations before writing the clone sequence script. Keep the source
   reference structure, but never estimate speech timing from characters.
-- **Scene order:** `reference download → Gemini TTS timing → sequence script → Omni render → Flowkit upscale
-  (or ffmpeg fallback) → download → per-scene watermark removal → voice/audio handling → concat →
-  WhisperX + approved-text QA → subtitle burn → SFX/BGM mix → thumbnail prepend`.
+- **Scene order:** `reference download → Gemini TTS timing → sequence script → Omni render → Flowkit
+  upscale (or ffmpeg fallback) → download QA → per-scene watermark removal → post-processing QA →
+  product B-roll/audio mapping → concat → dead-air/boundary QA → WhisperX + approved-text QA →
+  HyperFrames A-roll overlays → subtitle burn → SFX/BGM mix → final QA → thumbnail prepend`.
 - **Subtitle/audio QA:** compare WhisperX words from the concat audio with the approved voice text
   before burn; preserve timestamps, correct only transcript text, and enforce Vietnamese smart
   grouping with a hard maximum of 5 visible tokens at `SUB_Y_RATIO=0.75`.
@@ -167,7 +171,15 @@ Completion condition requires final 1080p MP4 at root, thumbnail at root, R2 vid
 - **Mandatory Flowkit 1080p Upscale:** Every Omni clip must attempt `POST /api/flow/upscale-video` (`VIDEO_RESOLUTION_1080P`) before download. If it fails, use `ffmpeg-upscale-video`, preserve the original download, and record the fallback in `node/handoff.md`/`manifest.json`.
 - **Mandatory Per-Scene Watermark Removal:** Every downloaded/upscaled clip must go through `gwt-remove-watermark-video` immediately after download and before any voice remux or concat. The demo binary is capped at ~10s per call, so run it per scene.
 - **Voice/timing separation:** Gemini TTS WAVs lock pre-production timing only. Do not silently splice them onto lip-sync scenes; use the approved scene voice strategy and record any B-roll audio remux explicitly.
+- **Product B-roll (Optional mode `b-roll: true`):** When declared in Ticket / sequence script,
+  a B-roll beat replaces only the visible picture for its declared window. Keep its dialogue/voice
+  empty and map video to the matching approved A-roll/voice audio; record the mapping in
+  `node/broll-manifest.json`. When `b-roll: false`, skip cutaway mapping.
+- **HyperFrames overlays (Optional mode `overlay: true`):** When declared in Ticket / sequence script,
+  use `talking-head-recut`/`motion-graphics` for transparent product, price, CTA, and claim-safe
+  text cards after concat. Reserve the lower subtitle band (`y=0.72–0.90`), verify alpha and
+  timestamps, and save `node/hyperframes-overlay-manifest.json`. When `overlay: false`, skip overlay generation.
 - **Post-Production Pipeline:** Audio mixing (`[html-video]-audio-mix`) and subtitles (`[html-video]-subtitle-burn-talking-head`) run strictly in post-production after scene concat and voice sync.
 
 ## Graph
-[[../../AGENTS|Workspace AGENTS]] · [[../AGENT|Production AGENT]] · [[../../BASE/CAMPAIGNs/CAMPAIGNs-STRUCTURE|Campaigns Structure]] · [[../.agents/skills/crawl_describe_Tiktok_vid_kalodata/SKILL|crawl_describe_Tiktok_vid_kalodata]] · [[../.agents/skills/crawl_describe_Tiktok_vid_apify/SKILL|crawl_describe_Tiktok_vid_apify fallback]] · [[../.agents/skills/write-shooting-script/SKILL|write-shooting-script]] · [[../.agents/skills/write-ai-ugc-video-sequence-script/SKILL|write-ai-ugc-video-sequence-script]] · [[../.agents/skills/tea-ugc-ai-realism/SKILL|tea-ugc-ai-realism]] · [[../.agents/skills/creative-direction/SKILL|creative-direction]] · [[../.agents/skills/acad-image-gen/SKILL|acad-image-gen]] · [[../video_modules/flowkit/skills/fk-omni-video-gen|fk-omni-video-gen]] · [[../.agents/skills/applio-brand-voice/SKILL|applio-brand-voice]] · [[../.agents/skills/[html-video]-subtitle-burn-talking-head/SKILL|subtitle-burn-talking-head]] · [[../.agents/skills/[html-video]-audio-mix/SKILL|audio-mix]] · [[../video_modules/VeoWatermarkRemover/skills/gwt-remove-watermark-video|gwt-remove-watermark-video]]
+[[../../AGENTS|Workspace AGENTS]] · [[../AGENT|Production AGENT]] · [[../../BASE/CAMPAIGNs/CAMPAIGNs-STRUCTURE|Campaigns Structure]] · [[../.agents/skills/crawl_describe_Tiktok_vid_kalodata/SKILL|crawl_describe_Tiktok_vid_kalodata]] · [[../.agents/skills/crawl_describe_Tiktok_vid_apify/SKILL|crawl_describe_Tiktok_vid_apify fallback]] · [[../.agents/skills/write-shooting-script/SKILL|write-shooting-script]] · [[../.agents/skills/write-ai-ugc-video-sequence-script/SKILL|write-ai-ugc-video-sequence-script]] · [[../.agents/skills/tea-ugc-ai-realism/SKILL|tea-ugc-ai-realism]] · [[../.agents/skills/creative-direction/SKILL|creative-direction]] · [[../.agents/skills/acad-image-gen/SKILL|acad-image-gen]] · [[../video_modules/flowkit/skills/fk-omni-video-gen|fk-omni-video-gen]] · [[../.agents/skills/applio-brand-voice/SKILL|applio-brand-voice]] · [[../.agents/skills/[html-video]-post-production-qa-broll-overlay/SKILL|post-production-qa-broll-overlay]] · [[../.agents/skills/[html-video]-subtitle-burn-talking-head/SKILL|subtitle-burn-talking-head]] · [[../.agents/skills/[html-video]-audio-mix/SKILL|audio-mix]] · [[../video_modules/VeoWatermarkRemover/skills/gwt-remove-watermark-video|gwt-remove-watermark-video]]

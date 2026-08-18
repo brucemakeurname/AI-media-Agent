@@ -66,6 +66,8 @@ Extract the following values from the Post page, its body, and its linked Campai
 | `voice_brief` | Post `Voice` property, otherwise matching Post body section | Stop if template contains `{{voice_brief}}` |
 | `video_requirement` | Post `Video Requirement` property, otherwise matching Post body section | Optional; default to `None specified` if absent |
 | `visual_concept_script` | Post `Visual Concept Script` property, otherwise matching Post body section | Stop only if absent everywhere and required by template |
+| `broll_description` | Optional: Post `B-roll Description` property, or body section (`B-roll Shot List`, `B-roll Description`, `B-roll`) | Optional; default to `None` (sets `broll_mode: "b-roll: false"`) |
+| `overlay_description` | Optional: Post `Overlay Description` property, or body section (`Overlay Motion & Product Animation`, `Price & Sale Overlay`, `Visual Overlay`, `Overlay Description`) | Optional; default to `None` (sets `overlay_mode: "overlay: false"`) |
 | `scheduled_date` | Post `Date` / `Publish Date` (`YYYY-MM-DD`) | Stop: required for date folder |
 
 #### Body Block Extraction Rule
@@ -75,8 +77,11 @@ Fetch all paginated Post page body blocks (`GET /v1/blocks/{page_id}/children`) 
 - `Visual Concept` / `Visual Concept Script` → `visual_concept_script`
 - `Voice` → `voice_brief`
 - `Video Requirement` → `video_requirement`
+- `B-roll` / `B-roll Description` / `B-roll Shot List` → `broll_description` (optional, flags `broll_mode: "b-roll: true"` when non-empty, otherwise `b-roll: false`)
+- `Overlay` / `Overlay Description` / `Visual Overlay` / `Overlay Motion & Product Animation` / `Price & Sale Overlay` → `overlay_description` (optional, flags `overlay_mode: "overlay: true"` when non-empty, otherwise `overlay: false`)
 
 `video_requirement` is optional and defaults to `None specified` if no property or body section exists. Include every non-empty body section used in `Ticket.md`'s Notion Field Snapshot using its original Notion section label.
+Both `broll_description` and `overlay_description` are **strictly optional**. When present in the Post page (e.g. from an addendum or dedicated property/body section), extract the full details so downstream skills can activate their respective `b-roll: true` and `overlay: true` modes. When absent, default both to `None` with `b-roll: false` and `overlay: false` modes.
 
 #### AI Clone Short Video URL Rule
 
@@ -150,6 +155,12 @@ Save `{{campaign_folder}}/Ticket.md` using standard schema:
 ## Visual Concept Brief
 {{visual_concept_script}}
 
+## B-roll Brief (Optional)
+{{broll_description}}
+
+## Overlay Motion & Price Brief (Optional)
+{{overlay_description}}
+
 ## Notion Field Snapshot
 List every non-empty editorial/business property pulled from the selected Post and linked Campaign using its exact Notion field label and normalized value. Include any non-empty Post body sections used by this workflow. Exclude only Notion system metadata (created/edited timestamps and users), file download URLs, and credentials. This preserves fields that are not used by the selected goal template without inventing a local schema.
 
@@ -173,6 +184,10 @@ List every non-empty editorial/business property pulled from the selected Post a
    - `{{voice_brief}}` → mapped `voice_brief`
    - `{{video_requirement}}` → mapped `video_requirement`
    - `{{visual_concept_script}}` → mapped `visual_concept_script`
+   - `{{broll_mode}}` → `b-roll: true` (if `broll_description` present) or `b-roll: false`
+   - `{{broll_description}}` → mapped `broll_description` (or `None`)
+   - `{{overlay_mode}}` → `overlay: true` (if `overlay_description` present) or `overlay: false`
+   - `{{overlay_description}}` → mapped `overlay_description` (or `None`)
    - `{{post_message}}` → mapped `post_message`
    - `{{slogan}}` → mapped `slogan`
    - `{{big_idea}}` → mapped `big_idea`
