@@ -253,7 +253,7 @@
 ## PART C — Audio & BGM Specification
 
 - **Dialogue track:** Locked from `node/timing/timing-lock.json` (voice: Puck / `voice_1_male` converted).
-- **Background Music:** Energetic lo-fi / phonk gym beat at -18dB relative to vocal track.
+- **Background Music:** Use the Ultimate Sup Brand Kit BGM policy; when no track is specified, use `bgm_ugc_funky_hiphop_lifestyle.mp3` at -17dB relative to the vocal track.
 - **Mix strategy:** Ducking -3dB during active dialogue windows.
 
 ## PART D — Post-Production Handoff Plans

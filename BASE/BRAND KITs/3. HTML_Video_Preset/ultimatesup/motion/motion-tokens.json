@@ -1,0 +1,23 @@
+{
+  "preset": "ultimatesup",
+  "timing": {
+    "frame_enter": 0.38,
+    "content_enter": 0.42,
+    "stagger": 0.08,
+    "attention": 0.55,
+    "exit": 0.44,
+    "exit_lead": 0.5
+  },
+  "easing": {
+    "enter": "power3.out",
+    "content": "power2.out",
+    "attention": "power2.inOut",
+    "exit": "power2.in"
+  },
+  "principles": [
+    "Use one named module animator per overlay.",
+    "Reveal the editorial frame before the content, then animate one focal element.",
+    "Keep sale or progress emphasis short and legible rather than continuous noise.",
+    "Exit before the cluster ends so the base footage does not inherit a ghost frame."
+  ]
+}

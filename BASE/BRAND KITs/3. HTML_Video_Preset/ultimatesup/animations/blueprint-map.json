@@ -1,0 +1,48 @@
+{
+  "preset": "ultimatesup",
+  "principle": "Adapt blueprint signature moves to the native blockframe grammar; do not import foreign card, glass, or full-frame surfaces.",
+  "modules": {
+    "product-pop-up": {
+      "mode": "adapt",
+      "primary": "product-unboxing-callouts",
+      "secondary": "process-step-reveal",
+      "signature_moves": ["packshot-rise", "callout-rule-draw", "full-frame-fade-rise"],
+      "translation": "Use the yellow plinth as the product stage and the bf-rule as the callout line; reveal the transparent full-stage composition with a restrained vertical rise."
+    },
+    "product-information": {
+      "mode": "adapt",
+      "primary": "process-step-reveal",
+      "secondary": "document-highlight-sweep",
+      "signature_moves": ["connector-ledger-reveal", "fact-row-stagger", "highlight-sweep"],
+      "translation": "Use the ledger's top rule as the connector and reveal approved fact rows in sequence; highlight only one row at a time."
+    },
+    "sale-badge": {
+      "mode": "adapt",
+      "primary": "kinetic-type-beats",
+      "secondary": "cta-button-scene",
+      "signature_moves": ["hard-offer-arrival", "badge-pop", "cta-confirmation"],
+      "translation": "Keep the ticket geometry; let the offer kicker arrive as a hard editorial beat, then use a finite badge pulse and CTA confirmation."
+    },
+    "gallery-products": {
+      "mode": "adapt",
+      "primary": "stagger-grid-reveal",
+      "secondary": "grid-card-assemble",
+      "signature_moves": ["diagonal-shelf-stagger", "thumbnail-reveal", "single-sku-emphasis"],
+      "translation": "Reduce the blueprint grid to the existing three-shelf lineup; stagger shelves diagonally and briefly emphasize the selected SKU without resizing the layout."
+    },
+    "hot-deal": {
+      "mode": "adapt",
+      "primary": "kinetic-type-beats",
+      "secondary": "titlecard-reveal",
+      "signature_moves": ["headline-beat", "split-panel-arrival", "price-payoff"],
+      "translation": "Use the poster split as the title-card stage: headline first, yellow offer panel second, price and CTA last."
+    },
+    "slide-bar": {
+      "mode": "adapt",
+      "primary": "data-story-flow",
+      "secondary": "bilateral-data-comparison-bars",
+      "signature_moves": ["axis-establish", "progress-fill", "peak-value-pulse"],
+      "translation": "Use data-story-flow for a single threshold; reserve bilateral comparison for a future current-vs-target variant."
+    }
+  }
+}

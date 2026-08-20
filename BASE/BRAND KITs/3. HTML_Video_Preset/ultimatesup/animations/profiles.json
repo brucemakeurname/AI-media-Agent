@@ -1,0 +1,26 @@
+{
+  "retail-reveal": {
+    "animator": "shared",
+    "sequence": ["frame-rise", "rule-draw", "content-stagger", "retail-exit"]
+  },
+  "product-focus": {
+    "animator": "product-pop-up",
+    "sequence": ["retail-reveal", "packshot-rise", "yellow-sweep"]
+  },
+  "offer-emphasis": {
+    "animator": "sale-badge",
+    "sequence": ["retail-reveal", "badge-scale", "yellow-sweep"]
+  },
+  "gallery-stagger": {
+    "animator": "gallery-products",
+    "sequence": ["retail-reveal", "tile-stagger"]
+  },
+  "metric-fill": {
+    "animator": "slide-bar",
+    "sequence": ["retail-reveal", "progress-fill"]
+  },
+  "retail-exit": {
+    "animator": "shared",
+    "sequence": ["lift", "fade"]
+  }
+}

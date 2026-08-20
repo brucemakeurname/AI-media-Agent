@@ -1,0 +1,19 @@
+{
+  "preset": "ultimatesup",
+  "base_preset": "blockframe",
+  "format": "transparent-overlay",
+  "stage": { "width": 1080, "height": 1920, "coverage": "full", "background": "transparent" },
+  "scenes": {
+    "product-pop-up": "modules/product-pop-up.hbs",
+    "product-information": "modules/product-information.hbs",
+    "sale-badge": "modules/sale-badge.hbs",
+    "gallery-products": "modules/gallery-products.hbs",
+    "hot-deal": "modules/hot-deal.hbs",
+    "slide-bar": "modules/slide-bar.hbs"
+  },
+  "shared": {
+    "style": "style.css",
+    "animation": "animation.js",
+    "font_stack": ["Archivo", "Arial", "sans-serif"]
+  }
+}

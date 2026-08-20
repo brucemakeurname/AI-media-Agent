@@ -1,0 +1,47 @@
+{
+  "preset": "ultimatesup",
+  "modules": {
+    "product-pop-up": {
+      "template": "product-pop-up.hbs",
+      "animator": "product-pop-up",
+      "blueprints": ["product-unboxing-callouts", "process-step-reveal"],
+      "use_when": "One approved SKU needs a clear visual introduction or packshot callout.",
+      "fields": ["eyebrow", "productName", "productVariant", "supportingLine", "productImageUrl", "shortDuration", "brandLogoUrl", "metricValue", "viewCount"]
+    },
+    "product-information": {
+      "template": "product-information.hbs",
+      "animator": "product-information",
+      "blueprints": ["process-step-reveal", "document-highlight-sweep"],
+      "use_when": "Show two to four approved product facts in the blockframe ledger grammar.",
+      "fields": ["eyebrow", "productName", "facts", "detail", "centered", "brandLogoUrl", "metricValue", "bookmarkCount", "uiDate", "viewCount"]
+    },
+    "sale-badge": {
+      "template": "sale-badge.hbs",
+      "animator": "sale-badge",
+      "blueprints": ["kinetic-type-beats", "cta-button-scene"],
+      "use_when": "A ticket-approved sale, voucher, gift, or campaign marker needs a short visual beat.",
+      "fields": ["badgeText", "offerText", "qualifier", "cta", "centered", "brandLogoUrl", "metricValue", "bookmarkCount", "uiDate", "viewCount"]
+    },
+    "gallery-products": {
+      "template": "gallery-products.hbs",
+      "animator": "gallery-products",
+      "blueprints": ["stagger-grid-reveal", "grid-card-assemble"],
+      "use_when": "The approved brief contains a small product lineup or flavour gallery.",
+      "fields": ["eyebrow", "headline", "products", "cta", "brandLogoUrl", "metricValue", "viewCount"]
+    },
+    "hot-deal": {
+      "template": "hot-deal.hbs",
+      "animator": "hot-deal",
+      "blueprints": ["kinetic-type-beats", "titlecard-reveal"],
+      "use_when": "One approved deal needs a stronger hierarchy than a simple badge.",
+      "fields": ["eyebrow", "headline", "offer", "price", "oldPrice", "qualifier", "cta", "centered", "brandLogoUrl", "metricValue", "bookmarkCount", "uiDate", "viewCount"]
+    },
+    "slide-bar": {
+      "template": "slide-bar.hbs",
+      "animator": "slide-bar",
+      "blueprints": ["data-story-flow", "bilateral-data-comparison-bars"],
+      "use_when": "Show one approved metric, threshold, progress state, or comparison bar.",
+      "fields": ["eyebrow", "label", "value", "progress", "note", "centered", "brandLogoUrl", "metricValue", "bookmarkCount", "uiDate", "viewCount"]
+    }
+  }
+}

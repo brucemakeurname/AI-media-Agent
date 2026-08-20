@@ -1,0 +1,7 @@
+<div class="bf-frame us-product-pop-up" data-module="product-pop-up">
+  {{#if brandLogoUrl}}<div class="us-brand-strip"><img src="{{brandLogoUrl}}" alt="Ultimate Sup"/></div>{{/if}}
+  {{#if metricValue}}<div class="us-metric-chip"><svg class="us-icon-lucide us-icon-chart" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg><span class="us-metric-value">{{metricValue}}</span></div>{{/if}}
+  {{#if productImageUrl}}<div class="us-product-lockup {{#if shortDuration}}is-short{{else}}is-long{{/if}}"><img class="us-product-image" src="{{productImageUrl}}" alt=""/><div class="us-product-name us-text-regular">{{productName}}</div>{{#if productVariant}}<div class="us-product-variant">{{productVariant}}</div>{{/if}}</div>{{/if}}
+  {{#if supportingLine}}<div class="us-product-note">{{supportingLine}}</div>{{/if}}
+  {{#if viewCount}}<div class="us-engagement"><svg class="us-icon-lucide us-icon-play" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="6 3 20 12 6 21 6 3"/></svg><span>{{viewCount}}</span></div>{{/if}}
+</div>

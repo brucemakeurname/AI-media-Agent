@@ -8,6 +8,7 @@ engine:
   single: { text: in-session-gemini-3-pro, script: "write-shooting-script", timing: "gemini-tts-timing", sequence: "write-ai-ugc-video-sequence-script", image: "flowkit (fk-create-project, fk-gen-refs, flowkit-nano-banana-image-gen)", video: "flowkit (fk-omni-video-gen reference_to_video, per-sequence sequential)", upscale: "flowkit 1080p → ffmpeg fallback", voice: "approved per-scene voice strategy" }
   batch:  { text: gemini-api-skill,        script: "write-shooting-script", timing: "gemini-tts-timing", sequence: "write-ai-ugc-video-sequence-script", image: "flowkit (fk-create-project, fk-gen-refs, flowkit-nano-banana-image-gen)", video: "flowkit (fk-omni-video-gen parallel per-ticket sub-agents)", upscale: "flowkit 1080p → ffmpeg fallback", voice: "approved per-scene voice strategy" }
 primary_skills: [wiki-query, write-shooting-script, gemini-tts-timing, write-ai-ugc-video-sequence-script, tea-ugc-ai-realism, acad-image-gen, video-thumbnail, fk-create-project, fk-gen-refs, flowkit-nano-banana-image-gen, fk-omni-video-gen, gwt-remove-watermark-video, ffmpeg-upscale-video, "[html-video]-post-production-qa-broll-overlay", "[html-video]-subtitle-burn-talking-head", "[html-video]-audio-mix", element-resolver, notion-upload]
+overlay_preset: BASE/BRAND KITs/3. HTML_Video_Preset/ultimatesup/
 notion:
   posts_db: 38d0831f990c802db2b1e2a7b03a05da
   posts_source: collection://d830831f-990c-83a6-adf7-07c65da0e90a
@@ -87,7 +88,7 @@ Step 5 (Post-Production & Final Assembly):
   2. Product B-roll Handling (runs when `b-roll: true` in sequence script / ticket): For every product B-roll window, keep the B-roll clip visual-only, pre-trim it to the exact slot, and map its video to the approved A-roll/voice audio source for the same timeline window; use actual `ffprobe` concat durations, `-itsoffset` and `eof_action=pass`, then save `node/broll-manifest.json`. If `b-roll: false`, skip B-roll mapping and assemble A-roll scenes directly.
   3. Concatenate the voice-synced, watermark-clean scene MP4s in order into `node/video_concat.mp4`, then run dead-air and boundary QA into `node/concat-qa.json`.
   4. Run WhisperX on the concat audio, compare to `node/timing/approved-voice.txt`, and correct subtitle text only with `correct_whisper_text.py`; preserve WhisperX timestamps.
-  5. HyperFrames Overlay Handling (runs when `overlay: true` in sequence script / ticket): Use HyperFrames `talking-head-recut`/`motion-graphics` to render transparent product, price, CTA, and claim-safe text overlays (`yuva444p12le`). Reserve `y=0.72–0.90` for subtitles; render, verify alpha and safe zones (`y=0.08–0.22` headline, `x=0.60–0.92, y=0.28–0.62` product callout, `y=0.58–0.68` price card), composite over A-roll using `[1:v]setpts=PTS+{start_sec}/TB`, and save `node/hyperframes-overlay-manifest.json`. If `overlay: false`, skip HyperFrames overlay generation and proceed to subtitle burn.
+  5. Ultimate Sup Overlay Handling (runs when `overlay: true` in sequence script / ticket): Read `{{overlay_preset}}/scene-map.json`, `modules/module-map.json`, `style.css`, and `animation.js`; instantiate the matching reusable module and named animator in HyperFrames for transparent product, price, CTA, and claim-safe text overlays (`yuva444p12le`). Do not self-design animation. If no module matches, stop with `REVIEW REQUIRED` and record the missing module. Reserve `y=0.72–0.90` for subtitles; render, verify alpha and safe zones (`y=0.08–0.22` headline, `x=0.60–0.92, y=0.28–0.62` product callout, `y=0.58–0.68` price card), composite over A-roll using `[1:v]setpts=PTS+{start_sec}/TB`, and save `node/hyperframes-overlay-manifest.json`. If `overlay: false`, skip overlay generation and proceed to subtitle burn.
   6. Burn subtitles, mix SFX/BGM via `[html-video]-audio-mix`, run final QA, prepend `thumbnail.jpg` as the first keyframe, and save final MP4 to {{campaign_folder}}/ root.
 
 notion-publisher (runs last): write back caption, hook, thumbnail, R2-embedded video link to Notion Post page, and create {{campaign_folder}}/manifest.json after verification holds.
@@ -116,10 +117,13 @@ Same Notion Post DB integration as commercial video workflow. Completion conditi
   use approved Brand Kit packshots/refs, keep B-roll dialogue empty, and map B-roll video to the
   same-window approved A-roll/voice audio. Record every window and source path in `node/broll-manifest.json`;
   accidental generated B-roll speech is never shipped. When `b-roll: false`, skip cutaway mapping.
-- **HyperFrames overlays (Optional mode `overlay: true`):** When declared in Ticket / sequence script,
-  use `talking-head-recut`/`motion-graphics` for transparent HTML/GSAP overlays on the assembled video,
-  not for subtitle replacement. Copy price/offer/claims exactly from `Ticket.md`, verify alpha/timing,
-  and keep graphics clear of the face, packshot label, CTA, and subtitle band (`y=0.72–0.90`).
+- **Ultimate Sup overlay library (Optional mode `overlay: true`):** When declared in Ticket / sequence
+  script, use `{{overlay_preset}}` as the source of truth for module, layout, font stack, and named
+  animation. Keep the default information-box fill 100% solid white. If an information box must sit
+  in the visual center, pass `centered: true`; the preset centers it and uses a 90% white fill so the
+  face remains visible behind it. Copy price/offer/claims exactly from `Ticket.md`, verify
+  alpha/timing, and keep graphics clear of the face, packshot label, CTA, and subtitle band
+  (`y=0.72–0.90`). If no module matches, stop with `REVIEW REQUIRED`; do not improvise motion.
   Save `node/hyperframes-overlay-manifest.json`. When `overlay: false`, skip overlay generation.
 - **Thumbnail:** derive hook, subject/character, first-beat tension, safe area, and approved refs
   from `node/ugc-sequence-script.md`; do not query `creative-direction` for a disconnected concept.
@@ -142,6 +146,10 @@ Same Notion Post DB integration as commercial video workflow. Completion conditi
 - **Mandatory Per-Scene Watermark Removal:** Every downloaded/upscaled clip must go through `gwt-remove-watermark-video` immediately after download and before any voice remux or concat. Demo binary capped at ~10s per call, so run it per scene.
 - **Voice/timing separation:** Gemini TTS WAVs lock pre-production timing only. Do not silently splice them onto talking-head lip-sync scenes; use the approved scene voice strategy and record any B-roll audio remux explicitly.
 - **Post-Production Pipeline:** Audio mixing (`[html-video]-audio-mix`) and subtitles (`[html-video]-subtitle-burn-talking-head`) run strictly in post-production after scene concat and voice sync.
+  For Ultimate Sup, read `BASE/BRAND KITs/3. HTML_Video_Preset/ultimatesup/audio/bgm-policy.json`:
+  use only `BASE/BRAND KITs/UltimateSup/BGM/`; if the ticket does not specify a track, use
+  `bgm_ugc_funky_hiphop_lifestyle.mp3` at `-17 dB`; a ticket-approved Brand Kit track may override
+  the default, but external or generated BGM is not allowed.
 
 ## Graph
 [[../../AGENTS|Workspace AGENTS]] · [[../AGENT|Production AGENT]] · [[../../BASE/CAMPAIGNs/CAMPAIGNs-STRUCTURE|Campaigns Structure]] · [[../.agents/skills/write-shooting-script/SKILL|write-shooting-script]] · [[../.agents/skills/write-ai-ugc-video-sequence-script/SKILL|write-ai-ugc-video-sequence-script]] · [[../.agents/skills/tea-ugc-ai-realism/SKILL|tea-ugc-ai-realism]] · [[../.agents/skills/creative-direction/SKILL|creative-direction]] · [[../.agents/skills/acad-image-gen/SKILL|acad-image-gen]] · [[../video_modules/flowkit/skills/fk-omni-video-gen|fk-omni-video-gen]] · [[../.agents/skills/applio-brand-voice/SKILL|applio-brand-voice]] · [[../.agents/skills/[html-video]-post-production-qa-broll-overlay/SKILL|post-production-qa-broll-overlay]] · [[../.agents/skills/[html-video]-subtitle-burn-talking-head/SKILL|subtitle-burn-talking-head]] · [[../.agents/skills/[html-video]-audio-mix/SKILL|audio-mix]] · [[../video_modules/VeoWatermarkRemover/skills/gwt-remove-watermark-video|gwt-remove-watermark-video]]

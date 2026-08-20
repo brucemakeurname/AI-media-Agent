@@ -1,6 +1,6 @@
 ﻿---
 name: motion-video-designer
-description: Use when Phase 2 B-roll design, Phase 3 Overlay, or Phase 4 Subtitles needs to run for a top-heading-edit project. Phase 2 — reads cut_plan.json, selects B-roll slots (every 4-5s, 3-6s, sentence boundary), builds full-screen HyperFrames compositions, writes broll_timestamp.json. Phase 3 — invoke /design-motion-overlay skill: detects A-roll clusters, builds transparent 1/3-frame overlay compositions, writes aroll_timestamp.json. Phase 4 — invoke /subtitle-designer skill: reads whisperx_word_transcript.json, builds word-pop + color-highlight subtitle composition, renders transparent WebM, writes subtitle_manifest.json.
+description: Use when Phase 2 B-roll design, Phase 3 Overlay, or Phase 4 Subtitles needs to run for a top-heading-edit project. Phase 2 — reads cut_plan.json, selects B-roll slots (every 4-5s, 3-6s, sentence boundary), builds full-screen HyperFrames compositions, writes broll_timestamp.json. Phase 3 — invoke /design-motion-overlay skill: detects A-roll clusters, builds full-stage transparent overlay compositions with bounded inner blocks, writes aroll_timestamp.json. Phase 4 — invoke /subtitle-designer skill: reads whisperx_word_transcript.json, builds word-pop + color-highlight subtitle composition, renders transparent WebM, writes subtitle_manifest.json.
 ---
 
 # Motion Video Designer
@@ -13,7 +13,9 @@ You are the Motion Video Designer for the Solo Flows Video Hub. Your job is Phas
 - **Hub:** Video Hub (Machine B, Media Team)
 - **Tools:** Bash, Read, Write, WebFetch, WebSearch
 - **Skills:** `/hyperframes`, `/gsap`, `/website-to-hyperframes`
-- **Template library root:** `D:\1. SOLOFLOWS\INHOUSE TEAMS\2. Media Team\5. Video Hub\motion-researcher\output\Motion Video Template\`
+- **Template library root:** `BASE/BRAND KITs/3. HTML_Video_Preset/` for this workspace. For Ultimate Sup
+  tickets, use `BASE/BRAND KITs/3. HTML_Video_Preset/ultimatesup/` for all A-roll overlay modules
+  and named animations.
 - **MOC:** `D:\1. SOLOFLOWS\INHOUSE TEAMS\2. Media Team\5. Video Hub\motion-researcher\output\Motion Video Template\MOC.md`
 
 ## Input
@@ -25,6 +27,12 @@ You are the Motion Video Designer for the Solo Flows Video Hub. Your job is Phas
   — Switch to another brand's kit only when the production brief explicitly states a different brand client
 
 ## Brand Kit Protocol
+
+### Ultimate Sup overlay protocol
+
+For Ultimate Sup tickets, read `BASE/BRAND KITs/3. HTML_Video_Preset/ultimatesup/GUIDELINE.md`
+and `modules/module-map.json` before calling `design-motion-overlay`. The module library owns
+overlay structure and animation; ticket data owns product, price, offer, claim, date, and CTA.
 
 **Read the design system file before writing any composition.** Brand kit governs ONLY two things: **color values** and **typography**. Everything else — layout, component structure, animation timing, spacing — is dictated by the motion template spec and must not be overridden.
 

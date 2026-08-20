@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
-import { dirname, join, resolve } from "node:path";
+import { dirname, join, relative, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
 import { mkdtemp, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
@@ -31,14 +32,21 @@ type SceneAudio = {
 
 type AudioSpec = {
   title?: string;
+  brand?: string;
   mood?: Mood;
   scenes: SceneAudio[];
   bgm?: {
     enabled?: boolean;
+    track?: string;
+    gainDb?: number;
     volume?: number;
     fadeSec?: number;
   };
 };
+
+const WORKSPACE_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../../../../..");
+const ULTIMATE_SUP_POLICY_PATH = join(WORKSPACE_ROOT, "BASE/BRAND KITs/3. HTML_Video_Preset/ultimatesup/audio/bgm-policy.json");
+const ULTIMATE_SUP_BGM_DIR = join(WORKSPACE_ROOT, "BASE/BRAND KITs/UltimateSup/BGM");
 
 function run(command: string, args: string[]): Promise<void> {
   return new Promise((resolveRun, reject) => {
@@ -74,6 +82,22 @@ function resolveSfx(name: string): string | null {
   const candidate = resolve(SFX_DIR, relative);
   if (!candidate.startsWith(resolve(SFX_DIR)) || !existsSync(candidate)) return null;
   return candidate;
+}
+
+async function resolveUltimateSupBgm(spec: AudioSpec): Promise<{ path: string; gainDb: number } | null> {
+  if (spec.brand?.toLowerCase() !== "ultimatesup" || spec.bgm?.enabled === false) return null;
+  const policy = JSON.parse(await readFile(ULTIMATE_SUP_POLICY_PATH, "utf8")) as {
+    default_track: string;
+    default_gain_db: number;
+  };
+  const track = spec.bgm?.track ?? policy.default_track;
+  const candidate = resolve(ULTIMATE_SUP_BGM_DIR, track);
+  if (!candidate.startsWith(`${ULTIMATE_SUP_BGM_DIR}/`) || !existsSync(candidate)) {
+    throw new Error(`Ultimate Sup BGM is not in the Brand Kit library: ${track}`);
+  }
+  const gainDb = spec.bgm?.gainDb ?? policy.default_gain_db;
+  if (!Number.isFinite(gainDb)) throw new Error("Ultimate Sup BGM gainDb must be finite");
+  return { path: candidate, gainDb };
 }
 
 async function main(): Promise<void> {
@@ -132,14 +156,25 @@ async function main(): Promise<void> {
 
     const bgmEnabled = spec.bgm?.enabled === true;
     let bgmPath: string | null = null;
+    let bgmGainDb: number | null = null;
+    const ultimateSupBgm = await resolveUltimateSupBgm(spec);
+    if (ultimateSupBgm) {
+      bgmPath = ultimateSupBgm.path;
+      bgmGainDb = ultimateSupBgm.gainDb;
+    }
     if (bgmEnabled) {
-      const brandPick = pickBrandBgm(BGM_DIR, spec.title);
-      const moodPick = spec.mood ? pickBgm(BGM_DIR, spec.mood, spec.title) : null;
-      bgmPath = brandPick?.path ?? moodPick?.path ?? null;
+      if (!bgmPath) {
+        const brandPick = pickBrandBgm(BGM_DIR, spec.title);
+        const moodPick = spec.mood ? pickBgm(BGM_DIR, spec.mood, spec.title) : null;
+        bgmPath = brandPick?.path ?? moodPick?.path ?? null;
+      }
     }
     if (bgmPath) {
+      const bgmVolume = bgmGainDb === null
+        ? spec.bgm?.volume ?? 0.12
+        : Math.pow(10, bgmGainDb / 20);
       await mixBgmUnderVoice(voiceSfxPath, bgmPath, mixedAudioPath, await getDurationSec(voiceSfxPath), {
-        bgmVolume: spec.bgm?.volume ?? 0.12,
+        bgmVolume,
         fadeSec: spec.bgm?.fadeSec ?? 1.5,
         sidechainDuck: true,
       });
@@ -155,7 +190,8 @@ async function main(): Promise<void> {
       engine: "html-video-audio-mix-ai-scene",
       source_video: videoPath,
       source_spec: specPath,
-      bgm: bgmPath ? bgmPath.replace(`${BGM_DIR}/`, "") : null,
+      bgm: bgmPath ? relative(WORKSPACE_ROOT, bgmPath) : null,
+      bgm_gain_db: bgmGainDb,
       sfx: selectedSfx,
     }, null, 2) + "\n", "utf8");
     console.log(`OK: mixed audio into ${outputPath}`);

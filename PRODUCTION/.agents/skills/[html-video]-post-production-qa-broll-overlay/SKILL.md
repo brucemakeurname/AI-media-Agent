@@ -159,6 +159,12 @@ Use the local HyperFrames `talking-head-recut` or `motion-graphics` workflow to 
 graphic overlays over the assembled A-roll/B-roll video. HyperFrames is for designed graphics, not
 for replacing the underlying footage and not for plain subtitle rendering.
 
+For Ultimate Sup tickets, load and use the reusable library at
+`BASE/BRAND KITs/3. HTML_Video_Preset/ultimatesup/`. Read `scene-map.json`,
+`modules/module-map.json`, `style.css`, and `animation.js`; instantiate the matching module and
+named animator instead of authoring a new overlay animation. If no module matches, stop with
+`REVIEW REQUIRED` and record the missing module. Do not improvise motion.
+
 ### Overlay content
 
 - Product element: approved packshot, ingredient icon, or benefit-safe visual cue.

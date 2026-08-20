@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ultimate Sup overlay preset preview</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      * { box-sizing: border-box; }
+      html, body { margin: 0; background: #171713 !important; color: #fff; }
+      body { font-family: Archivo, Arial, sans-serif; }
+      header { padding: 28px 32px 10px; }
+      header h1 { margin: 0; color: #fff; font-size: 48px; font-weight: 900; letter-spacing: -.06em; text-transform: uppercase; }
+      header p { margin: 8px 0 0; color: #ffd21f; font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+      .preview-grid { display: grid; grid-template-columns: repeat(2, 540px); gap: 28px; padding: 22px 32px 42px; }
+      .preview-tile { position: relative; width: 540px; height: 960px; overflow: hidden; background: #111; }
+      .preview-tile > h2 { position: absolute; z-index: 50; top: 14px; left: 16px; margin: 0; padding: 6px 9px; background: #111; color: #ffd21f; font-size: 12px; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
+      .preview-stage { position: relative; width: 1080px; height: 1920px; transform: scale(.5); transform-origin: top left; }
+      .mock-footage { position: absolute; inset: 0; overflow: hidden; background: #1a1a18; }
+      .mock-footage img { display: block; width: 100%; height: 100%; object-fit: cover; }
+      .mock-footage::after { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.1), transparent 38%, rgba(0,0,0,.32)); content: ''; pointer-events: none; }
+      .mock-label { position: absolute; top: 155px; right: 68px; z-index: 2; padding: 6px 8px; background: rgba(17,17,17,.84); color: #ffd21f; font-size: 17px; font-weight: 900; letter-spacing: .08em; }
+      .preview-stage .us-overlay { z-index: 10; }
+      .mock-subtitle { position: absolute; top: 1760px; left: 50%; z-index: 40; max-width: 770px; color: #fff; font-size: 22px; font-weight: 900; letter-spacing: .02em; line-height: .9; text-align: center; text-shadow: 2px 2px 0 #111, -1px -1px 0 #111; transform: translateX(-50%); text-transform: uppercase; }
+      .preview-note { position: absolute; left: 48px; bottom: 36px; z-index: 60; padding: 6px 8px; background: rgba(17,17,17,.82); color: rgba(255,255,255,.86); font-size: 13px; font-weight: 700; letter-spacing: .02em; }
+      @media (max-width: 1160px) { .preview-grid { grid-template-columns: 540px; } }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Ultimate Sup overlay preset</h1>
+      <p>UI ELEMENT STUDY / BOLD SANS-SERIF / FULL-STAGE TRANSPARENT OVERLAY / SUBTITLE ABOVE OVERLAY</p>
+    </header>
+    <main class="preview-grid">
+      <section class="preview-tile" data-preview="product-pop-up">
+        <h2>product-pop-up</h2>
+        <div class="preview-stage" data-preset="ultimatesup">
+          <div class="mock-footage"><img src="../../../UltimateSup/assets/thumbnail/tiktok-7671571494182620436_20260811.png" alt="Ultimate Sup product demo footage"/><span class="mock-label">REFERENCE / PRODUCT DEMO</span></div>
+          <div class="us-overlay"><div class="bf-frame us-product-pop-up" data-module="product-pop-up">
+            <div class="us-brand-strip"><img src="../../../UltimateSup/assets/logo/ultimate-sup-horizontal_20260811.png" alt="Ultimate Sup"/></div>
+            <div class="us-metric-chip"><span class="us-icon-chart" aria-hidden="true"></span><span class="us-metric-value">73.32</span></div>
+            <div class="us-product-lockup is-short"><img class="us-product-image" src="../assets/products/mutant-hardcore-iso-cutout.png" alt="Mutant Hardcore ISO"/><div class="us-product-name us-text-regular">Mutant Hardcore ISO</div><div class="us-product-variant">PRODUCT / PICK</div></div>
+            <div class="us-product-note">PNG PRODUCT ONLY / NO SELF-FILLED BACKGROUND</div>
+            <div class="us-engagement"><span class="us-icon-play" aria-hidden="true"></span><span>15.1K</span></div>
+          </div></div>
+          <div class="mock-subtitle">subtitle sample</div>
+          <div class="preview-note">product-unboxing-callouts + process-step-reveal</div>
+        </div>
+      </section>
+
+      <section class="preview-tile" data-preview="product-information">
+        <h2>product-information</h2>
+        <div class="preview-stage" data-preset="ultimatesup">
+          <div class="mock-footage"><img src="../../../UltimateSup/assets/thumbnail/tiktok-7671582217566670101_20260811.png" alt="Ultimate Sup product detail footage"/><span class="mock-label">REFERENCE / PRODUCT DETAIL</span></div>
+          <div class="us-overlay"><div class="bf-frame us-product-information" data-module="product-information">
+            <div class="us-brand-strip"><img src="../../../UltimateSup/assets/logo/ultimate-sup-horizontal_20260811.png" alt="Ultimate Sup"/></div>
+            <div class="us-metric-chip"><span class="us-icon-chart" aria-hidden="true"></span><span class="us-metric-value">73.32</span></div>
+            <div class="us-info-box"><div class="us-info-meta"><span><span class="us-icon-bookmark" aria-hidden="true"></span><strong>3</strong></span><span>2026/02/03</span></div><div class="us-info-body"><h2 class="us-info-title"><span class="us-text-regular">PRODUCT</span> <span class="us-text-emphasis">INFO</span></h2><div class="us-info-row"><span>INPUT 01</span><strong>Approved fact</strong></div><div class="us-info-row is-emphasis"><span>INPUT 02</span><strong>Highlighted fact</strong></div><div class="us-info-row"><span>INPUT 03</span><strong>Approved detail</strong></div></div></div>
+            <div class="us-engagement"><span class="us-icon-play" aria-hidden="true"></span><span>15.1K</span></div>
+          </div></div>
+          <div class="mock-subtitle">subtitle sample / burns last</div>
+          <div class="preview-note">process-step-reveal + document-highlight-sweep</div>
+        </div>
+      </section>
+
+      <section class="preview-tile" data-preview="sale-badge">
+        <h2>sale-badge</h2>
+        <div class="preview-stage" data-preset="ultimatesup">
+          <div class="mock-footage"><img src="../../../1. Creative_Prompt_Template/Brand_Template/UltimateSup/Homepage sup 8.8.26/ultimatesup-8-8-buy-more-save-more-voucher-grid.jpg" alt="Ultimate Sup voucher reference"/><span class="mock-label">REFERENCE / OFFER MOMENT</span></div>
+          <div class="us-overlay"><div class="bf-frame us-sale-badge" data-module="sale-badge">
+            <div class="us-brand-strip"><img src="../../../UltimateSup/assets/logo/ultimate-sup-horizontal_20260811.png" alt="Ultimate Sup"/></div>
+            <div class="us-metric-chip"><span class="us-icon-chart" aria-hidden="true"></span><span class="us-metric-value">73.32</span></div>
+            <div class="us-info-box"><div class="us-info-meta"><span><span class="us-icon-bookmark" aria-hidden="true"></span><strong>3</strong></span><span>2026/02/03</span></div><div class="us-info-body us-offer-body"><div class="us-offer-badge">SALE<br/>MARKER</div><div class="us-offer-copy"><span class="us-text-regular">APPROVED</span><br/><span class="us-text-emphasis">OFFER</span><br/>TEMPLATE</div></div><div class="us-info-footer"><span>EXACT TICKET COPY</span><strong>SHOP CTA</strong></div></div>
+            <div class="us-engagement"><span class="us-icon-play" aria-hidden="true"></span><span>15.1K</span></div>
+          </div></div>
+          <div class="mock-subtitle">subtitle sample / burns last</div>
+          <div class="preview-note">kinetic-type-beats + cta-button-scene</div>
+        </div>
+      </section>
+
+      <section class="preview-tile" data-preview="gallery-products">
+        <h2>gallery-products</h2>
+        <div class="preview-stage" data-preset="ultimatesup">
+          <div class="mock-footage"><img src="../../../UltimateSup/assets/thumbnail/tiktok-7671840438147452181_20260811.png" alt="Ultimate Sup product lineup footage"/><span class="mock-label">REFERENCE / PRODUCT LINEUP</span></div>
+          <div class="us-overlay"><div class="bf-frame us-gallery-products" data-module="gallery-products">
+            <div class="us-brand-strip"><img src="../../../UltimateSup/assets/logo/ultimate-sup-horizontal_20260811.png" alt="Ultimate Sup"/></div>
+            <div class="us-metric-chip"><span class="us-icon-chart" aria-hidden="true"></span><span class="us-metric-value">73.32</span></div>
+            <div class="us-gallery-label"><span class="us-text-regular">PRODUCT</span><br/><span class="us-text-emphasis">LINEUP</span></div>
+            <div class="us-gallery-row"><figure class="us-product-card"><img src="../assets/products/c4-cutout.png" alt="C4"/><figcaption class="us-text-regular">C4</figcaption></figure><figure class="us-product-card"><img src="../assets/products/appliednutrition-cutout.png" alt="Applied Nutrition"/><figcaption class="us-text-regular">APPLIED NUTRITION</figcaption></figure><figure class="us-product-card is-selected"><img src="../assets/products/dymatize-cutout.png" alt="Dymatize"/><figcaption class="us-text-regular">DYMATIZE</figcaption></figure></div>
+            <div class="us-engagement"><span class="us-icon-play" aria-hidden="true"></span><span>15.1K</span></div>
+          </div></div>
+          <div class="mock-subtitle">subtitle sample</div>
+          <div class="preview-note">stagger-grid-reveal + grid-card-assemble</div>
+        </div>
+      </section>
+
+      <section class="preview-tile" data-preview="hot-deal">
+        <h2>hot-deal</h2>
+        <div class="preview-stage" data-preset="ultimatesup">
+          <div class="mock-footage"><img src="../../../1. Creative_Prompt_Template/Brand_Template/UltimateSup/Homepage sup 8.8.26/ultimatesup-8-8-sale-free-gift-cyclist.jpg" alt="Ultimate Sup sale reference"/><span class="mock-label">REFERENCE / DEAL HOOK</span></div>
+          <div class="us-overlay"><div class="bf-frame us-hot-deal" data-module="hot-deal">
+            <div class="us-brand-strip"><img src="../../../UltimateSup/assets/logo/ultimate-sup-horizontal_20260811.png" alt="Ultimate Sup"/></div>
+            <div class="us-metric-chip"><span class="us-icon-chart" aria-hidden="true"></span><span class="us-metric-value">73.32</span></div>
+            <div class="us-info-box"><div class="us-info-meta"><span><span class="us-icon-bookmark" aria-hidden="true"></span><strong>3</strong></span><span>2026/02/03</span></div><div class="us-info-body"><h2 class="us-deal-title"><span class="us-text-regular">HOT</span> <span class="us-text-emphasis">DEAL</span></h2><div class="us-deal-copy">Approved offer headline</div><div class="us-price-row"><span class="us-price">SGD --</span><span class="us-old-price">SGD --</span></div></div><div class="us-info-footer"><span>EXACT ELIGIBILITY</span><strong>SHOP CTA</strong></div></div>
+            <div class="us-engagement"><span class="us-icon-play" aria-hidden="true"></span><span>15.1K</span></div>
+          </div></div>
+          <div class="mock-subtitle">subtitle sample / burns last</div>
+          <div class="preview-note">kinetic-type-beats + titlecard-reveal</div>
+        </div>
+      </section>
+
+      <section class="preview-tile" data-preview="slide-bar">
+        <h2>slide-bar</h2>
+        <div class="preview-stage" data-preset="ultimatesup">
+          <div class="mock-footage"><img src="../../../UltimateSup/assets/thumbnail/tiktok-7671840438147452181_20260811.png" alt="Ultimate Sup shelf footage"/><span class="mock-label">REFERENCE / METRIC BEAT</span></div>
+          <div class="us-overlay"><div class="bf-frame us-slide-bar" data-module="slide-bar">
+            <div class="us-brand-strip"><img src="../../../UltimateSup/assets/logo/ultimate-sup-horizontal_20260811.png" alt="Ultimate Sup"/></div>
+            <div class="us-metric-chip"><span class="us-icon-chart" aria-hidden="true"></span><span class="us-metric-value">73.32</span></div>
+            <div class="us-info-box"><div class="us-info-meta"><span><span class="us-icon-bookmark" aria-hidden="true"></span><strong>3</strong></span><span>2026/02/03</span></div><div class="us-info-body"><h2 class="us-info-title"><span class="us-text-regular">METRIC</span> <span class="us-text-emphasis">STATE</span></h2><div class="us-progress-value">65%</div><div class="us-progress-axis"><div class="us-progress-fill" style="--us-progress: 65%"></div></div><div class="us-progress-label"><span>Approved metric</span><span>65%</span></div></div></div>
+            <div class="us-engagement"><span class="us-icon-play" aria-hidden="true"></span><span>15.1K</span></div>
+          </div></div>
+          <div class="mock-subtitle">subtitle sample / burns last</div>
+          <div class="preview-note">data-story-flow + bilateral-data-comparison-bars</div>
+        </div>
+      </section>
+    </main>
+    <script src="../animation.js"></script>
+    <script>
+      document.querySelectorAll('.preview-stage').forEach((stage) => { stage.id = 'stage'; });
+      document.querySelectorAll('[data-preview]').forEach((tile) => {
+        const scene = tile.querySelector('.us-overlay');
+        const module = tile.querySelector('[data-module]').dataset.module;
+        const timeline = gsap.timeline({ paused: true });
+        window.SFV_ANIMATORS[module](scene, timeline, 0, 4.5);
+        timeline.progress(0.86);
+      });
+    </script>
+  </body>
+</html>

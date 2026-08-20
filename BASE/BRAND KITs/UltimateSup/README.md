@@ -10,6 +10,9 @@ folder: save campaign briefs, creative files, QA, and final assets in
 
 - `Product/`: existing multi-brand product packshots. Preserve the current filenames.
 - `voice/`: existing local voice references and transcript.
+- `BGM/`: Brand Background Music library (Royalty-Free / Commercial Use).
+  - ⭐ **Go-to BGM mặc định cho video:** `bgm_ugc_funky_hiphop_lifestyle.mp3` (Cool Background Music - Funky Hip-Hop, 01:07).
+  - Chi tiết use case các track khác xem tại `BGM/README.md`.
 - `../1. Creative_Prompt_Template/Brand_Template/UltimateSup/Homepage sup 8.8.26/`: existing
   11 image/JSON template pairs. This is a shared layout-reference library, not campaign output.
 - `assets/`: official or publicly observed identity assets. Check `assets/asset-manifest.json`

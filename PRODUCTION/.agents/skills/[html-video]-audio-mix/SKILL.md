@@ -36,7 +36,12 @@ npx tsx 04-mix-ai-scene-audio.ts node/concat_nowm.mp4 node/audio-spec.json node/
 
 The adapter keeps the video stream, mixes deterministic semantic/explicit SFX, selects brand BGM
 first (mood fallback second), ducks BGM under voice, and writes `audio-mix-report.json` beside the
-output. Leave BGM disabled unless `Ticket.md` or Part C explicitly requests it.
+output. For Ultimate Sup campaigns, read
+`BASE/BRAND KITs/3. HTML_Video_Preset/ultimatesup/audio/bgm-policy.json`: use only
+`BASE/BRAND KITs/UltimateSup/BGM/`, default to `bgm_ugc_funky_hiphop_lifestyle.mp3` at `-17 dB`
+when the ticket does not name a track, and allow only a ticket-approved Brand Kit track to
+override it. For other brands, leave BGM disabled unless `Ticket.md` or Part C explicitly requests
+it.
 
 ## Depends on
 

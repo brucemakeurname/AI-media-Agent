@@ -1,8 +1,8 @@
 ---
 name: design-motion-overlay
-description: "Use when executing Phase 3 A-roll Overlay in a top-heading-edit project. Invoked by the motion-video-designer agent. Covers: detecting A-roll clusters from cut_plan + broll_timestamp, selecting overlay type (glass card, comparison chart, stat hero, ranked list, data table, logo card, process flow), building 1/3-frame transparent HyperFrames compositions, rendering as ProRes 4444 MOV, and writing aroll_timestamp.json."
+description: "Use when executing Phase 3 A-roll Overlay in a top-heading-edit project. Invoked by the motion-video-designer agent. Covers: detecting A-roll clusters from cut_plan + broll_timestamp, selecting a reusable brand overlay module, building full-stage transparent HyperFrames compositions, rendering as ProRes 4444 MOV, and writing aroll_timestamp.json."
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
 
 # A-roll Overlay Designer Skill
@@ -10,6 +10,25 @@ metadata:
 Phase 3 of the top-heading-edit pipeline. You are still the motion-video-designer — this skill loads the Phase 3 rules that differ from Phase 2.
 
 **Always invoke `/hyperframes` before writing any composition HTML.**
+
+## Ultimate Sup preset library
+
+When the active ticket is for Ultimate Sup, read this bundle before selecting or writing a
+composition:
+
+```
+BASE/BRAND KITs/3. HTML_Video_Preset/ultimatesup/README.md
+BASE/BRAND KITs/3. HTML_Video_Preset/ultimatesup/GUIDELINE.md
+BASE/BRAND KITs/3. HTML_Video_Preset/ultimatesup/scene-map.json
+BASE/BRAND KITs/3. HTML_Video_Preset/ultimatesup/modules/module-map.json
+BASE/BRAND KITs/3. HTML_Video_Preset/ultimatesup/motion/motion-tokens.json
+```
+
+Use the matching `.hbs` module from `ultimatesup/modules/` and the named animator from
+`ultimatesup/animation.js`. Copy the module structure into the HyperFrames composition, replace
+only ticket-approved fields, and load `ultimatesup/style.css`. Do not write a new animation or
+replace the module with a generic glass card. If no existing module covers the cluster, stop with
+`REVIEW REQUIRED` and record the missing module instead of improvising motion.
 
 ---
 
@@ -19,7 +38,7 @@ Phase 3 of the top-heading-edit pipeline. You are still the motion-video-designe
 |---|---|---|
 | Target segments | Selected rich/descriptive segments | All remaining segments NOT in B-roll |
 | Grouping | Per selected slot (1 template per slot) | Per cluster (consecutive non-B-roll segments merged) |
-| Frame coverage | Full 1080×1920 | 1/3 band: bottom (1280–1920px) default, top (0–640px) for hooks |
+| Frame coverage | Full 1080×1920 | Full 1080×1920 transparent stage; bounded inner blocks only |
 | Background | Opaque (template's own bg) | Transparent — main video shows through |
 | Output format | `.mp4` (h264) | `.mov` (ProRes 4444 `yuva444p12le`) |
 | Output folder | `broll_renders/` | `aroll_renders/` |
@@ -68,9 +87,9 @@ Two rules that must both be applied:
 - [ ] Read `cut_plan.json` and `broll_timestamp.json`
 - [ ] Detect A-roll clusters (segments not covered by any B-roll)
 - [ ] Skip clusters with only 1 segment shorter than 1.0s — too short for effective overlay
-- [ ] For each cluster: merge segment texts, choose overlay type from taxonomy
-- [ ] Decide position: `bottom` default; `top` for rhetorical questions or hook openings
-- [ ] For each cluster: invoke `/hyperframes`, build composition (transparent bg + 1/3 band)
+- [ ] For each cluster: merge segment texts, choose a reusable Ultimate Sup module when the active ticket is Ultimate Sup
+- [ ] Decide each module's bounded inner-block placement from the ticket and footage; do not use a lower-third band
+- [ ] For each cluster: invoke `/hyperframes`, instantiate the selected library module (full-stage transparent overlay)
 - [ ] Compute `asm_start` from ffprobe actual zoomed segment durations — never use cut_plan nominal durations
 - [ ] Lint (`npm run check`) — 0 errors required
 - [ ] Render (`npm run render -- --format mov`) → move to `aroll_renders/ar_{N}.mov`
@@ -102,7 +121,13 @@ B-rolls cover segs [4–6] and [11–15]:
 
 ## Overlay Type Taxonomy
 
-Choose based on what the cluster is *showing*, not just what it's *saying*. The same card container (dark navy, cyan left border, grain + shimmer) wraps all types — only the interior component changes.
+For Ultimate Sup, the reusable modules in `BASE/BRAND KITs/3. HTML_Video_Preset/ultimatesup/`
+replace the generic taxonomy below. Use the generic taxonomy only for non-Ultimate-Sup tickets or
+when a different approved brand preset is explicitly selected.
+
+Choose based on what the cluster is *showing*, not just what it's *saying*. For non-Ultimate-Sup
+tickets, the same card container (dark navy, cyan left border, grain + shimmer) wraps all types —
+only the interior component changes.
 
 | Type | When to use | Interior |
 |---|---|---|
@@ -135,20 +160,16 @@ html, body {
 
 No solid color anywhere on `html`, `body`, or any full-frame wrapper.
 
-### 2. 1/3 Band Container
+### 2. Full-Stage Transparent Container
 
 ```html
-<!-- Bottom band (default) -->
-<div id="band" style="position:absolute; bottom:0; left:0; width:1080px; height:640px; overflow:hidden;">
+<div id="overlay" style="position:absolute; inset:0; width:1080px; height:1920px; overflow:hidden; background:transparent;">
   <!-- all clip elements go here -->
-</div>
-
-<!-- Top band -->
-<div id="band" style="position:absolute; top:0; left:0; width:1080px; height:640px; overflow:hidden;">
 </div>
 ```
 
-The band container has **no background**. Only inner cards use `rgba()`.
+The overlay container has **no background**. Only intentional bounded inner blocks may paint pixels.
+Do not create a full-width paper surface or animate a lower-third bar into the frame.
 
 ### 3. Card Container (shared across all types)
 
